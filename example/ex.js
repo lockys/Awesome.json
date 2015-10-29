@@ -5,14 +5,14 @@ var AwesomeWorker = require('../index');
 var plugin = function(cb) {
   var get = require('simple-get');
   var AWESOME_URL = 'https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/master/readme.md';
-  var REGEX = /(\*|-) \[(.*?)\]\((.*?)\) - (.*?)\./g;
+  var REGEX = /(\*|-) \[(.*?)\]\((.*?)\) - (.*?)\n/g;
 
   get.concat(AWESOME_URL, (err, data, res) => {
     if (err && res.statusCode !== 200) {
       console.log(new Error('Unable to get the response.'));
     }
 
-    let rawBody = data.toString().replace(/\n/g, '');
+    let rawBody = data.toString();
     let awesomeJson = {};
 
     let parseContent = (resolve, reject) => {
