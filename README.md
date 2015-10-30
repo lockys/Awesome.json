@@ -21,6 +21,7 @@ plugin((json) => {
   //save to .json file
   w.save(json);
 });
+
 // a plugin function
 function plugin(cb) {
   var get = require('simple-get');
