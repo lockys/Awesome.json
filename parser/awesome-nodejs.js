@@ -31,6 +31,7 @@ var plugin = function(cb) {
               name: match[2],
               url:  match[3],
               description: match[4],
+              cate: category,
             });
 
           }
