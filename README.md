@@ -16,8 +16,13 @@ Create awesome-xxx.js in `parser` folder.
 
 var AwesomeWorker = require('../index');
 
+var w = new AwesomeWorker('JsonFileName');
+plugin((json) => {
+  //save to .json file
+  w.save(json);
+});
 // a plugin function
-var plugin = function(cb) {
+function plugin(cb) {
   var get = require('simple-get');
   var AWESOME_URL = 'https://raw.githubusercontent.com/sindresorhus/awesome/master/readme.md';
   var REGEX = /(\*|-) \[(.*?)\]\((.*?)\)/g;
@@ -69,10 +74,4 @@ var plugin = function(cb) {
     });
   });
 };
-
-var w = new AwesomeWorker('JsonFileName');
-plugin((json) => {
-  //save to .json file
-  w.save(json);
-});
 ```
