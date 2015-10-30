@@ -53,7 +53,7 @@ var plugin = function(cb) {
   });
 };
 
-var w = new AwesomeWorker('awesome-nodejs');
+var w = new AwesomeWorker('nodejs');
 plugin((json) => {
   w.save(json);
 });
