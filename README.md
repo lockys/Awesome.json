@@ -2,8 +2,15 @@ awesome.json
 ==
 A curated list in JSON format.
 
-Example
+Clone
 ==
+```shell
+$ git clone https://github.com/lockys/awesome.json.git awesome-json && cd awesome-json
+```
+
+Parser Example 
+==
+Create awesome-xxx.js in `parser` folder.
 ```javascript
 'use strict';
 
