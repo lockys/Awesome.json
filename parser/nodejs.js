@@ -4,7 +4,8 @@ var AwesomeWorker = require('../index');
 
 var plugin = function(cb) {
   var get = require('simple-get');
-  var AWESOME_URL = 'https://raw.githubusercontent.com/sindresorhus/awesome-nodejs/master/readme.md';
+  var awesome = 'sindresorhus/awesome-nodejs';
+  var AWESOME_URL = 'https://raw.githubusercontent.com/' + awesome + '/master/readme.md';
   var REGEX = /(\*|-) \[(.*?)\]\((.*?)\) - (.*?)\n/g;
 
   get.concat(AWESOME_URL, (err, data, res) => {

@@ -8,6 +8,13 @@ for (let i = 0, len = keyArr.length; i < len; ++i) {
   let listArr = awesome[keyArr[i]];
   for (let j = 0, lenList = listArr.length; j < lenList; ++j) {
     nammingMap[listArr[j].name] = listArr[j].name.replace(/\W/g, '').toLowerCase();
+    fs.writeFile('../output/' + listArr[j].name.replace(/\W/g, '').toLowerCase() + '.json', JSON.stringify({}), (err) => {
+      if (!err) {
+        console.log('Success!');
+      } else {
+        console.error(err);
+      }
+    });
   }
 
 }

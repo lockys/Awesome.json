@@ -4,22 +4,22 @@ var AwesomeWorker = require('../index');
 
 var plugin = function(cb) {
   var get = require('simple-get');
-  var awesome = 'sindresorhus/awesome';
-  var AWESOME_URL = 'https://raw.githubusercontent.com/' + awesome + '/master/readme.md';
-  var REGEX = /(\*|-) \[(.*?)\]\((.*?)\)/g;
+  var awesome = 'iCHAIT/awesome-osx';
+  var AWESOME_URL = 'https://raw.githubusercontent.com/' + awesome + '/master/README.md';
+  var REGEX = /(\*|-) \[(.*?)\]\((.*?)\) - (.*?)\n/g;
 
   get.concat(AWESOME_URL, (err, data, res) => {
     if (err && res.statusCode !== 200) {
       console.log(new Error('Unable to get the response.'));
     }
 
-    let rawBody = data.toString().replace(/\n/g, '');
+    let rawBody = data.toString();
     let awesomeJson = {};
 
     let parseContent = (resolve, reject) => {
-      let length = rawBody.split('##').length;
+      let length = rawBody.split('###').length;
       let cnt = 0;
-      rawBody.split('##').forEach((e) => {
+      rawBody.split('###').forEach((e) => {
         let category = e.split('- ')[0].trim();
         let match;
         if (!category.startsWith('#')) {
@@ -54,7 +54,7 @@ var plugin = function(cb) {
   });
 };
 
-var w = new AwesomeWorker('awesome');
+var w = new AwesomeWorker('osx');
 plugin((json) => {
   w.save(json);
 });
