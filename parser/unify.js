@@ -13,7 +13,7 @@ for (let i = 0, len = keyArr.length; i < len; ++i) {
 
 }
 
-fs.writeFile('../output/nameMap.json', JSON.stringify(nammingMap, null, 2), (err) => {
+fs.writeFile('../name-map/name-map.json', JSON.stringify(nammingMap, null, 2), (err) => {
   if (!err) {
     console.log('Success!');
   } else {
