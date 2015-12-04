@@ -1,7 +1,12 @@
 awesome.json
 ==
-A curated list in JSON format.
-
+A curated list in JSON format.  
+Necessary files for https://awesomelists.me
+```
+output/*.json
+name-map/awesome.json
+awesome/awesome.json
+```
 Clone
 ==
 ```shell
