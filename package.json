@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cd parser && node gen-all-awesome-list.js && mv *.json ../output",
-    "push": "git add . && git commit -m 'updated json' && git push origin update-branch"
+    "push": "git add . && git commit -m 'updated json' && sudo git push origin update-branch"
   },
   "repository": {
     "type": "git",
