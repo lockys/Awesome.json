@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd parser && node gen-all-awesome-list.js && mv *.json ../output"
+    "build": "cd parser && node gen-all-awesome-list.js && mv *.json ../output",
+    "push": "git add . && git commit -m 'updated json' && git push origin updated-json"
   },
   "repository": {
     "type": "git",
