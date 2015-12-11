@@ -1,14 +1,25 @@
 {
   "name": "awesome.json",
-  "version": "0.0.1",
-  "description": "A curated list in JSON format.",
+  "version": "1.0.0",
+  "description": "awesome.json == A curated list in JSON format.",
   "main": "index.js",
+  "dependencies": {
+    "awesomelists-index": "^0.3.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd parser && node gen-all-awesome-list.js && mv *.json ../output",
+    "push": "git add . && git commit -m 'updated json' && git push origin updated-json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lockys/awesome.json.git"
   },
   "author": "Calvin Jeng <locky4567@gmail.com> (https://github.com/lockys)",
   "license": "MIT",
-  "dependencies": {
-    "simple-get": "^1.4.3"
-  }
+  "bugs": {
+    "url": "https://github.com/lockys/awesome.json/issues"
+  },
+  "homepage": "https://github.com/lockys/awesome.json#readme"
 }
