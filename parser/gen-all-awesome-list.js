@@ -6,7 +6,7 @@
 let Awesome = require('awesomelists-index');
 let jsonfile = require('jsonfile');
 
-let nameMapArray = jsonfile.readFileSync('../name-map/awesome-detailed-info.json');
+let nameMapArray = jsonfile.readFileSync('../all-github-path/sindresorhus-awesome.json');
 let opt = {
   // token is optional parameter
   token: process.env.TOKEN || 'GITHUB_TOKE',
