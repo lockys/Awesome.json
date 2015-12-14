@@ -177,6 +177,14 @@
     "url": "http://www.dasblinkenlichten.com/installing-cadvisor-and-heapster-on-bare-metal-kubernetes/"
   },
   {
+    "name": "Console:\nIt is a general purpose, web-based UI for Kubernetes clusters. It allows to manage applications running in the cluster, troubleshoot them, as well as, manage the cluster itself.",
+    "url": "https://github.com/kubernetes/console"
+  },
+  {
+    "name": "Datadog:\nDatadog is a hosted monitoring and metrics platform, with built in support for Kubernetes and Docker.  Their Kubernetes integration pulls in Docker and Kubernetes events, converts labels and pod names into tags, as well as pulls metrics from Docker and CAdvisor.  This allows you to build application dashboards and alerts that display data across pods, Nodes, and services.",
+    "url": "http://www.datadoghq.com"
+  },
+  {
     "name": "Heapster: \nHeapster enables Container Cluster Monitoring and Performance Analysis.\nHeapster currently supports Kubernetes and CoreOS natively. It can be extended to support other cluster management solutions easily. Heapster collects and interprets various signals like compute resource usage, lifecycle events, etc, and exports cluster metrics via REST endpoints.",
     "url": "https://github.com/kubernetes/heapster"
   },
@@ -189,16 +197,12 @@
     "url": "https://github.com/kubernetes/kube-ui"
   },
   {
-    "name": "Console:\nIt is a general purpose, web-based UI for Kubernetes clusters. It allows to manage applications running in the cluster,      troubleshoot them, as well as, manage the cluster itself.",
-    "url": "https://github.com/kubernetes/console"
+    "name": "Prometheus:\nPrometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. Since its inception in 2012, many companies and organizations have adopted Prometheus, and the project has a very active developer and user community. It is now a standalone open source project and maintained independently of any company.",
+    "url": "http://prometheus.io"
   },
   {
     "name": "Sysdig:\nSysdig is open source, system-level exploration: capture system state and activity from a running Linux instance, then save,  filter and analyze. Sysdig is scriptable in Lua and includes a command line interface and a powerful interactive UI,csysdig, that runs in your terminal.",
     "url": "http://www.sysdig.org/"
-  },
-  {
-    "name": "Prometheus:\nPrometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. Since its inception in 2012, many companies and organizations have adopted Prometheus, and the project has a very active developer and user community. It is now a standalone open source project and maintained independently of any company.",
-    "url": "http://prometheus.io"
   },
   {
     "name": "Announcing Hypernetes",
