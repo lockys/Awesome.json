@@ -739,9 +739,19 @@
     "url": "https://github.com/polonskiy/crowdr"
   },
   {
-    "name": "Drone",
-    "url": "https://github.com/drone/drone",
-    "description": "Continuous integration server built on Docker and configured using YAML files."
+    "name": "Captain",
+    "url": "https://github.com/harbur/captain",
+    "description": "Convert your Git workflow to Docker containers ready for Continuous Delivery by @harbur"
+  },
+  {
+    "name": "CircleCI",
+    "url": "https://circleci.com/",
+    "description": "Push or pull Docker images from your build environment, or build and run containers right on CircleCI."
+  },
+  {
+    "name": "CodeShip",
+    "url": "http://pages.codeship.com/docker",
+    "description": "Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security."
   },
   {
     "name": "Docker plugin for Jenkins",
@@ -749,9 +759,19 @@
     "description": "The aim of the docker plugin is to be able to use a docker host to dynamically provision a slave, run a single build, then tear-down that slave."
   },
   {
-    "name": "Captain",
-    "url": "https://github.com/harbur/captain",
-    "description": "Convert your Git workflow to Docker containers ready for Continuous Delivery by @harbur"
+    "name": "Dockunit",
+    "url": "https://github.com/dockunit/platform",
+    "description": "Docker based integration tests. A simple Node based utility for running Docker based unit tests. By @dockunit"
+  },
+  {
+    "name": "Drone",
+    "url": "https://github.com/drone/drone",
+    "description": "Continuous integration server built on Docker and configured using YAML files."
+  },
+  {
+    "name": "GitLab CI",
+    "url": "https://about.gitlab.com/gitlab-ci/",
+    "description": "GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners."
   },
   {
     "name": "IBM DevOps Services",
@@ -762,11 +782,6 @@
     "name": "Watchtower",
     "url": "https://github.com/CenturyLinkLabs/watchtower",
     "description": "Automatically update running Docker containers by @CenturyLinkLabs"
-  },
-  {
-    "name": "Dockunit",
-    "url": "https://github.com/dockunit/platform",
-    "description": "Docker based integration tests. A simple Node based utility for running Docker based unit tests. By @dockunit"
   },
   {
     "name": "Last.Backend",
@@ -1049,6 +1064,10 @@
     "url": "https://github.com/icecrime/docker-mon"
   },
   {
+    "name": "Glances (A cross-platform curses-based system monitoring tool written in Python) by @nicolargo",
+    "url": "http://nicolargo.github.io/glances/"
+  },
+  {
     "name": "InfluxDB, cAdvisor, Grafana (InfluxDB Time series DB in combination with Grafana and cAdvisor) by @vegasbrianc",
     "url": "https://github.com/vegasbrianc/docker-monitoring"
   },
@@ -1298,20 +1317,24 @@
     "url": "https://www.youtube.com/channel/UCvksXSnLqIVM_uFB7xyrsSg/videos"
   },
   {
-    "name": "Docker for Developers (54:26) by @jpetazzo  <== Good introduction, context, demo",
-    "url": "https://www.youtube.com/watch?v=FdkNAjjO5yQ"
+    "name": "Ansible and Docker HP (32:38)",
+    "url": "https://www.youtube.com/watch?v=oZ45v8AeE7k"
   },
   {
-    "name": "SysAdminCasts: Introduction to Docker (15:49)",
-    "url": "https://sysadmincasts.com/episodes/31-introduction-to-docker"
+    "name": "Container Hacks and Fun Images by @jfrazelle @ DockerCon 2015 (MUST WATCH VIDEO: 38:50)",
+    "url": "https://www.youtube.com/watch?v=1qlLUf7KtAw"
   },
   {
-    "name": "Orchestrating Docker containers in production using Fig (7:11)",
-    "url": "https://www.youtube.com/watch?v=SEtRg8siQWw"
+    "name": "Contributing to Docker by Andrew \"Tianon\" Page (InfoSiftr) (34:31)",
+    "url": "https://www.youtube.com/watch?v=1jwo8-1HYYg"
   },
   {
     "name": "Development Environments with Fig by Aanand Prasad (17:58)",
     "url": "http://youtu.be/QpSFOHvFyMc"
+  },
+  {
+    "name": "Docker for Developers (54:26) by @jpetazzo  <== Good introduction, context, demo",
+    "url": "https://www.youtube.com/watch?v=FdkNAjjO5yQ"
   },
   {
     "name": "Docker in Production by @jpetazzo (36:05)",
@@ -1322,8 +1345,28 @@
     "url": "https://www.youtube.com/watch?v=CAewZCBT4PI"
   },
   {
-    "name": "Contributing to Docker by Andrew \"Tianon\" Page (InfoSiftr) (34:31)",
-    "url": "https://www.youtube.com/watch?v=1jwo8-1HYYg"
+    "name": "Docker and SELinux by Daniel Walsh from Red Hat  (40:23)",
+    "url": "https://www.youtube.com/watch?v=zWGFqMuEHdw"
+  },
+  {
+    "name": "Extending Docker with Plugins (15:21)",
+    "url": "https://vimeo.com/110835013"
+  },
+  {
+    "name": "From Local Docker Development to Production Deployments by @jpetazzo @ AWS re:Invent 2015",
+    "url": "https://www.youtube.com/watch?v=7CZFpHUPqXw"
+  },
+  {
+    "name": "Immutable Infrastructure with Docker and EC2 by Michael Bryzek (Gilt) (42:04)",
+    "url": "https://www.youtube.com/watch?v=GaHzdqFithc"
+  },
+  {
+    "name": "Logging on Docker: What You Need to Know (51:27)",
+    "url": "https://vimeo.com/123341629"
+  },
+  {
+    "name": "Orchestrating Docker containers in production using Fig (7:11)",
+    "url": "https://www.youtube.com/watch?v=SEtRg8siQWw"
   },
   {
     "name": "Performance Analysis of Docker",
@@ -1331,36 +1374,16 @@
     "description": "Jeremy Eder (1:36:58)"
   },
   {
-    "name": "Docker and SELinux by Daniel Walsh from Red Hat  (40:23)",
-    "url": "https://www.youtube.com/watch?v=zWGFqMuEHdw"
-  },
-  {
-    "name": "Immutable Infrastructure with Docker and EC2 by Michael Bryzek (Gilt) (42:04)",
-    "url": "https://www.youtube.com/watch?v=GaHzdqFithc"
-  },
-  {
-    "name": "Ansible and Docker HP (32:38)",
-    "url": "https://www.youtube.com/watch?v=oZ45v8AeE7k"
-  },
-  {
     "name": "Run Any App on Mesos on Any Infrastructure Using Docker (17:44)",
     "url": "https://www.youtube.com/watch?v=u5jd9YT9EsY"
   },
   {
-    "name": "Extending Docker with Plugins (15:21)",
-    "url": "https://vimeo.com/110835013"
+    "name": "State of containers: a debate with CoreOS, VMware and Google (27:38)",
+    "url": "https://youtu.be/IiITP3yIRd8"
   },
   {
-    "name": "Logging on Docker: What You Need to Know (51:27)",
-    "url": "https://vimeo.com/123341629"
-  },
-  {
-    "name": "Container Hacks and Fun Images by @jfrazelle @ DockerCon 2015 (MUST WATCH VIDEO: 38:50)",
-    "url": "https://www.youtube.com/watch?v=1qlLUf7KtAw"
-  },
-  {
-    "name": "From Local Docker Development to Production Deployments by @jpetazzo @ AWS re:Invent 2015",
-    "url": "https://www.youtube.com/watch?v=7CZFpHUPqXw"
+    "name": "SysAdminCasts: Introduction to Docker (15:49)",
+    "url": "https://sysadmincasts.com/episodes/31-introduction-to-docker"
   },
   {
     "name": "Docker",
