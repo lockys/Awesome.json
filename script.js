@@ -8,6 +8,6 @@ exec(buildCMD, function(error, stdout, stderr) {
   }
 });
 
-new CronJob('* 38 12 * * *', function() {
-  console.log('You will see this message every second');
-}, null, true, 'Asia/Taipei');
+//new CronJob('00 42 12 * * 1-7', function() {
+//  console.log('You will see this message every second');
+//}, null, true, 'Asia/Taipei');
