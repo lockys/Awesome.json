@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "awesome": "cd parser && node awesome.js && mv ../test-output/awesome.json ../awesome",
     "build": "cd parser && node gen-all-awesome-list.js && mv sindresorhus-awesome.json ../all-github-path && mv *.json ../repo-json",
-    "push": "git add . && git commit -m 'updated json' && git push origin update-branch"
+    "push": "eval `ssh-agent -s` && ssh-add ~/.ssh/git && git add . && git commit -m 'updated json' && git push origin update-branch"
   },
   "repository": {
     "type": "git",
