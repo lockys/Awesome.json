@@ -10,14 +10,9 @@
     "description": "Simple Python version management."
   },
   {
-    "name": "PyRun",
-    "url": "https://www.egenix.com/products/python/PyRun/",
-    "description": "A one-file, no-installation-needed version of Python."
-  },
-  {
-    "name": "Vex",
-    "url": "https://github.com/sashahart/vex",
-    "description": "Run a command in the named virtualenv."
+    "name": "venv",
+    "url": "https://docs.python.org/3/library/venv.html",
+    "description": "(Python standard library in Python 3.3+) Creating lightweight virtual environments."
   },
   {
     "name": "virtualenv",
@@ -31,7 +26,7 @@
   },
   {
     "name": "pip",
-    "url": "https://pip.pypa.io/",
+    "url": "https://pip.pypa.io/en/stable/",
     "description": "The Python package and dependency manager."
   },
   {
@@ -74,7 +69,7 @@
   },
   {
     "name": "devpi",
-    "url": "http://doc.devpi.net/",
+    "url": "http://doc.devpi.net/latest/",
     "description": "PyPI server and packaging/testing/release tool."
   },
   {
@@ -89,7 +84,7 @@
   },
   {
     "name": "dh-virtualenv",
-    "url": "http://dh-virtualenv.readthedocs.org/",
+    "url": "http://dh-virtualenv.readthedocs.org/en/latest/",
     "description": "Build and distribute a virtualenv as a Debian package."
   },
   {
@@ -109,12 +104,12 @@
   },
   {
     "name": "pynsist",
-    "url": "http://pynsist.readthedocs.org/",
+    "url": "http://pynsist.readthedocs.org/en/latest/",
     "description": "A tool to build Windows installers, installers bundle Python itself."
   },
   {
     "name": "buildout",
-    "url": "http://www.buildout.org/",
+    "url": "http://www.buildout.org/en/latest/",
     "description": "A build system for creating, assembling and deploying applications from multiple parts."
   },
   {
@@ -338,7 +333,7 @@
   },
   {
     "name": "sqlparse",
-    "url": "https://sqlparse.readthedocs.org/",
+    "url": "https://sqlparse.readthedocs.org/en/latest/",
     "description": "A non-validating SQL parser."
   },
   {
@@ -368,7 +363,7 @@
   },
   {
     "name": "XlsxWriter",
-    "url": "https://xlsxwriter.readthedocs.org/",
+    "url": "https://xlsxwriter.readthedocs.org/en/latest/",
     "description": "A Python module for creating Excel .xlsx files."
   },
   {
@@ -453,7 +448,7 @@
   },
   {
     "name": "TextBlob",
-    "url": "http://textblob.readthedocs.org/",
+    "url": "http://textblob.readthedocs.org/en/latest/",
     "description": "Providing a consistent API for diving into common NLP tasks."
   },
   {
@@ -477,7 +472,7 @@
   },
   {
     "name": "Pycco",
-    "url": "http://fitzgen.github.io/pycco/",
+    "url": "https://github.com/pycco-docs/pycco",
     "description": "The literate-programming-style documentation generator."
   },
   {
@@ -497,7 +492,7 @@
   },
   {
     "name": "profig",
-    "url": "http://profig.readthedocs.org/",
+    "url": "http://profig.readthedocs.org/en/default/",
     "description": "Config from multiple formats with value conversion."
   },
   {
@@ -512,7 +507,7 @@
   },
   {
     "name": "click",
-    "url": "http://click.pocoo.org/",
+    "url": "http://click.pocoo.org/dev/",
     "description": "A package for creating beautiful command line interfaces in a composable way."
   },
   {
@@ -601,6 +596,11 @@
     "description": "Correcting your previous console command."
   },
   {
+    "name": "mycli",
+    "url": "https://github.com/dbcli/mycli",
+    "description": "A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting."
+  },
+  {
     "name": "s3cmd",
     "url": "https://github.com/s3tools/s3cmd",
     "description": "A command line tool for managing Amazon S3 and CloudFront."
@@ -622,7 +622,7 @@
   },
   {
     "name": "pillow",
-    "url": "http://pillow.readthedocs.org/",
+    "url": "http://pillow.readthedocs.org/en/latest/",
     "description": "Pillow is the friendly PIL fork."
   },
   {
@@ -632,7 +632,7 @@
   },
   {
     "name": "imgSeek",
-    "url": "http://www.imgseek.net/",
+    "url": "http://sourceforge.net/projects/imgseek/",
     "description": "A project for searching a collection of images using visual similarity."
   },
   {
@@ -807,7 +807,7 @@
   },
   {
     "name": "requests",
-    "url": "http://docs.python-requests.org/",
+    "url": "http://docs.python-requests.org/en/latest/",
     "description": "HTTP Requests for Humans™."
   },
   {
@@ -847,7 +847,7 @@
   },
   {
     "name": "ZODB",
-    "url": "http://www.zodb.org/",
+    "url": "http://www.zodb.org/en/latest/",
     "description": "A native object database for Python. A key-value and object graph database."
   },
   {
@@ -887,7 +887,7 @@
   },
   {
     "name": "txpostgres",
-    "url": "http://txpostgres.readthedocs.org/",
+    "url": "http://txpostgres.readthedocs.org/en/latest/",
     "description": "Twisted based asynchronous driver for PostgreSQL."
   },
   {
@@ -902,7 +902,7 @@
   },
   {
     "name": "pymssql",
-    "url": "http://www.pymssql.org/",
+    "url": "http://www.pymssql.org/en/latest/",
     "description": "A simple database interface to Microsoft SQL Server."
   },
   {
@@ -912,17 +912,17 @@
   },
   {
     "name": "HappyBase",
-    "url": "http://happybase.readthedocs.org/",
+    "url": "http://happybase.readthedocs.org/en/latest/",
     "description": "A developer-friendly library for Apache HBase."
   },
   {
     "name": "Plyvel",
-    "url": "https://plyvel.readthedocs.org/",
+    "url": "https://plyvel.readthedocs.org/en/latest/",
     "description": "A fast and feature-rich Python interface to LevelDB."
   },
   {
     "name": "py2neo",
-    "url": "http://book.py2neo.org/",
+    "url": "http://py2neo.org/2.0/",
     "description": "Python wrapper client for Neo4j's restful interface."
   },
   {
@@ -1039,11 +1039,11 @@
   },
   {
     "name": "awesome-pyramid",
-    "url": "https://github.com/ITCase/awesome-pyramid"
+    "url": "https://github.com/uralbash/awesome-pyramid"
   },
   {
     "name": "Bottle",
-    "url": "http://bottlepy.org/",
+    "url": "http://bottlepy.org/docs/dev/index.html",
     "description": "A fast, simple and lightweight WSGI micro web-framework."
   },
   {
@@ -1068,7 +1068,7 @@
   },
   {
     "name": "Tornado",
-    "url": "http://www.tornadoweb.org/",
+    "url": "http://www.tornadoweb.org/en/latest/",
     "description": "A Web framework and asynchronous networking library."
   },
   {
@@ -1078,7 +1078,7 @@
   },
   {
     "name": "django-guardian",
-    "url": "https://github.com/lukaszb/django-guardian",
+    "url": "https://github.com/django-guardian/django-guardian",
     "description": "Implementation of per object permissions for Django 1.2+"
   },
   {
@@ -1088,7 +1088,7 @@
   },
   {
     "name": "django-cms",
-    "url": "https://www.django-cms.org/en/",
+    "url": "http://www.django-cms.org/en/",
     "description": "An Open source enterprise CMS based on the Django."
   },
   {
@@ -1113,7 +1113,7 @@
   },
   {
     "name": "Opps",
-    "url": "http://oppsproject.org/",
+    "url": "http://opps.github.io/opps/",
     "description": "A Django-based CMS for magazines, newspapers websites and portals with high-traffic."
   },
   {
@@ -1143,7 +1143,7 @@
   },
   {
     "name": "django-shop",
-    "url": "https://www.django-cms.org/",
+    "url": "https://github.com/divio/django-shop",
     "description": "A Django based shop system."
   },
   {
@@ -1153,7 +1153,7 @@
   },
   {
     "name": "shoop",
-    "url": "https://www.shoop.io/",
+    "url": "https://www.shoop.io/en/",
     "description": "An open source E-Commerce platform based on Django."
   },
   {
@@ -1198,7 +1198,7 @@
   },
   {
     "name": "flask-restful",
-    "url": "http://flask-restful.readthedocs.org/",
+    "url": "http://flask-restful.readthedocs.org/en/latest/",
     "description": "Quickly building REST APIs for Flask."
   },
   {
@@ -1218,7 +1218,7 @@
   },
   {
     "name": "cornice",
-    "url": "https://cornice.readthedocs.org/",
+    "url": "https://cornice.readthedocs.org/en/latest/",
     "description": "A REST framework for Pyramid."
   },
   {
@@ -1318,7 +1318,7 @@
   },
   {
     "name": "Chameleon",
-    "url": "https://chameleon.readthedocs.org/",
+    "url": "https://chameleon.readthedocs.org/en/latest/",
     "description": "An HTML/XML template engine. Modeled after ZPT, optimized for speed."
   },
   {
@@ -1363,7 +1363,7 @@
   },
   {
     "name": "django-haystack",
-    "url": "https://github.com/toastdriven/django-haystack",
+    "url": "https://github.com/django-haystack/django-haystack",
     "description": "Modular search for Django."
   },
   {
@@ -1383,7 +1383,7 @@
   },
   {
     "name": "Whoosh",
-    "url": "http://whoosh.readthedocs.org/",
+    "url": "http://whoosh.readthedocs.org/en/latest/",
     "description": "A fast, pure Python search engine library."
   },
   {
@@ -1403,12 +1403,12 @@
   },
   {
     "name": "django-storages",
-    "url": "http://code.larlet.fr/django-storages/",
+    "url": "http://django-storages.readthedocs.org/en/latest/",
     "description": "A collection of custom storage back ends for Django."
   },
   {
     "name": "fanstatic",
-    "url": "http://www.fanstatic.org/",
+    "url": "http://www.fanstatic.org/en/latest/",
     "description": "Packages, optimizes, and serves static file dependencies as Python packages."
   },
   {
@@ -1418,13 +1418,8 @@
   },
   {
     "name": "Flask-Assets",
-    "url": "http://flask-assets.readthedocs.org/",
+    "url": "http://flask-assets.readthedocs.org/en/latest/",
     "description": "Helps you integrate webassets into your Flask app."
-  },
-  {
-    "name": "glue",
-    "url": "http://gluecss.com",
-    "description": "Glue is a simple command line tool to generate CSS sprites."
   },
   {
     "name": "jinja-assets-compressor",
@@ -1433,17 +1428,17 @@
   },
   {
     "name": "webassets",
-    "url": "http://webassets.readthedocs.org/",
+    "url": "http://webassets.readthedocs.org/en/latest/",
     "description": "Bundles, optimizes, and manages unique cache-busting URLs for static resources."
   },
   {
     "name": "Beaker",
-    "url": "http://beaker.readthedocs.org/",
+    "url": "http://beaker.readthedocs.org/en/latest/",
     "description": "A library for caching and sessions for use with web applications and stand-alone Python scripts and applications."
   },
   {
     "name": "django-cache-machine",
-    "url": "https://github.com/jbalogh/django-cache-machine",
+    "url": "https://github.com/django-cache-machine/django-cache-machine",
     "description": "Automatic caching and invalidation for Django models."
   },
   {
@@ -1458,7 +1453,7 @@
   },
   {
     "name": "dogpile.cache",
-    "url": "http://dogpilecache.readthedocs.org/",
+    "url": "http://dogpilecache.readthedocs.org/en/latest/",
     "description": "dogpile.cache is next generation replacement for Beaker made by same authors."
   },
   {
@@ -1543,7 +1538,7 @@
   },
   {
     "name": "Korean",
-    "url": "https://korean.readthedocs.org/",
+    "url": "https://korean.readthedocs.org/en/latest/",
     "description": "A library for Korean morphology."
   },
   {
@@ -1578,7 +1573,7 @@
   },
   {
     "name": "bleach",
-    "url": "http://bleach.readthedocs.org/",
+    "url": "http://bleach.readthedocs.org/en/latest/",
     "description": "A whitelist-based HTML sanitization and text linkification library."
   },
   {
@@ -1723,7 +1718,7 @@
   },
   {
     "name": "Deform",
-    "url": "http://deform.readthedocs.org/",
+    "url": "http://deform.readthedocs.org/en/latest/",
     "description": "Python HTML form generation library influenced by the formish form generation library."
   },
   {
@@ -1733,7 +1728,7 @@
   },
   {
     "name": "django-crispy-forms",
-    "url": "http://django-crispy-forms.readthedocs.org/",
+    "url": "http://django-crispy-forms.readthedocs.org/en/latest/",
     "description": "A Django app which lets you create beautiful forms in a very elegant and DRY way."
   },
   {
@@ -1743,22 +1738,22 @@
   },
   {
     "name": "WTForms",
-    "url": "http://wtforms.readthedocs.org/",
+    "url": "http://wtforms.readthedocs.org/en/latest/",
     "description": "A flexible forms validation and rendering library."
   },
   {
     "name": "WTForms-JSON",
-    "url": "http://wtforms-json.readthedocs.org/",
+    "url": "http://wtforms-json.readthedocs.org/en/latest/",
     "description": "A WTForms extension for JSON data handling."
   },
   {
     "name": "Cerberus",
-    "url": "http://python-cerberus.org",
+    "url": "http://docs.python-cerberus.org/en/stable/",
     "description": "A mappings-validator with a variety of rules, normalization-features and simple customization that uses a pythonic schema-definition."
   },
   {
     "name": "colander",
-    "url": "http://docs.pylonsproject.org/projects/colander/",
+    "url": "http://docs.pylonsproject.org/projects/colander/en/latest/",
     "description": "A system for validating and deserializing data obtained via XML, JSON, an HTML form post or any other equally simple data serialization."
   },
   {
@@ -1866,7 +1861,7 @@
   },
   {
     "name": "sarge",
-    "url": "http://sarge.readthedocs.org/",
+    "url": "http://sarge.readthedocs.org/en/latest/",
     "description": "Yet another wrapper for subprocess."
   },
   {
@@ -1991,7 +1986,7 @@
   },
   {
     "name": "waitress",
-    "url": "https://waitress.readthedocs.org/",
+    "url": "https://waitress.readthedocs.org/en/latest/",
     "description": "Multi-threaded, poweres Pyramid."
   },
   {
@@ -2016,7 +2011,7 @@
   },
   {
     "name": "cryptography",
-    "url": "https://cryptography.io/",
+    "url": "https://cryptography.io/en/latest/",
     "description": "A package designed to expose cryptographic primitives and recipes to Python developers."
   },
   {
@@ -2061,7 +2056,7 @@
   },
   {
     "name": "pyglet",
-    "url": "http://www.pyglet.org/",
+    "url": "https://bitbucket.org/pyglet/pyglet/wiki/Home",
     "description": "A cross-platform windowing and multimedia library for Python."
   },
   {
@@ -2071,7 +2066,7 @@
   },
   {
     "name": "PySide",
-    "url": "http://www.qt.io/developers/wiki/pyside",
+    "url": "https://wiki.qt.io/PySide",
     "description": "Python bindings for the Qt cross-platform application and UI framework, supporting the Qt v4 framework."
   },
   {
@@ -2131,13 +2126,8 @@
   },
   {
     "name": "PySDL2",
-    "url": "http://pysdl2.readthedocs.org/",
+    "url": "http://pysdl2.readthedocs.org/en/latest/",
     "description": "A ctypes based wrapper for the SDL2 library."
-  },
-  {
-    "name": "PySFML",
-    "url": "http://www.python-sfml.org/",
-    "description": "Python bindings for SFML"
   },
   {
     "name": "RenPy",
@@ -2156,12 +2146,12 @@
   },
   {
     "name": "Eliot",
-    "url": "https://eliot.readthedocs.org/",
+    "url": "https://eliot.readthedocs.org/en/latest/",
     "description": "Logging for complex & distributed systems."
   },
   {
     "name": "Raven",
-    "url": "http://raven.readthedocs.org/",
+    "url": "http://raven.readthedocs.org/en/latest/",
     "description": "The Python client for Sentry."
   },
   {
@@ -2176,7 +2166,7 @@
   },
   {
     "name": "nose",
-    "url": "https://nose.readthedocs.org/",
+    "url": "https://nose.readthedocs.org/en/latest/",
     "description": "nose extends unittest."
   },
   {
@@ -2206,7 +2196,7 @@
   },
   {
     "name": "pytest",
-    "url": "http://pytest.org/",
+    "url": "http://pytest.org/latest/",
     "description": "A mature full-featured Python testing tool."
   },
   {
@@ -2346,7 +2336,7 @@
   },
   {
     "name": "pylama",
-    "url": "https://pylama.readthedocs.org/",
+    "url": "https://pylama.readthedocs.org/en/latest/",
     "description": "Code audit tool for Python and JavaScript."
   },
   {
@@ -2485,7 +2475,7 @@
   },
   {
     "name": "PyDy",
-    "url": "https://pydy.org/",
+    "url": "http://www.pydy.org/",
     "description": "Short for Python Dynamics, used to assist with workflow in the modeling of dynamic motion based around NumPy, SciPy, IPython, and matplotlib."
   },
   {
@@ -2535,12 +2525,12 @@
   },
   {
     "name": "plotly",
-    "url": "https://plot.ly/python",
+    "url": "https://plot.ly/python/",
     "description": "Collaborative web plotting for Python and matplotlib."
   },
   {
     "name": "pygal",
-    "url": "http://pygal.org/",
+    "url": "http://www.pygal.org/en/latest/",
     "description": "A Python SVG Charts Creator."
   },
   {
@@ -2799,7 +2789,7 @@
   },
   {
     "name": "APScheduler",
-    "url": "http://apscheduler.readthedocs.org/",
+    "url": "http://apscheduler.readthedocs.org/en/latest/",
     "description": "A light but powerful in-process task scheduler that lets you schedule functions."
   },
   {
@@ -2889,7 +2879,7 @@
   },
   {
     "name": "Python(x,y)",
-    "url": "https://code.google.com/p/pythonxy/",
+    "url": "http://python-xy.github.io/",
     "description": "Scientific-applications-oriented Python Distribution based on Qt and Spyder."
   },
   {
@@ -2919,7 +2909,7 @@
   },
   {
     "name": "POX",
-    "url": "http://www.noxrepo.org/pox/about-pox/",
+    "url": "https://github.com/noxrepo/pox",
     "description": "An open source development platform for Python-based Software Defined Networking (SDN) control applications, such as OpenFlow SDN controllers."
   },
   {
@@ -2954,7 +2944,7 @@
   },
   {
     "name": "wifi",
-    "url": "https://wifi.readthedocs.org/",
+    "url": "https://wifi.readthedocs.org/en/latest/",
     "description": "A Python library and command line tool for working with WiFi on Linux."
   },
   {
@@ -3131,7 +3121,7 @@
   },
   {
     "name": "PyPI Ranking",
-    "url": "http://pypi-ranking.info/"
+    "url": "http://pypi-ranking.info/alltime"
   },
   {
     "name": "Import Python Newsletter",
