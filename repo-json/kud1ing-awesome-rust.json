@@ -77,10 +77,6 @@
     "url": "https://github.com/thepowersgang/rust_os"
   },
   {
-    "name": "zonyitoo/coio-rs — a coroutine I/O library with a working-stealing scheduler ",
-    "url": "https://github.com/zonyitoo/coio-rs"
-  },
-  {
     "name": "brson/multirust — manage multiple Rust installations ",
     "url": "https://github.com/brson/multirust"
   },
@@ -125,7 +121,7 @@
     "url": "https://github.com/rust-lang/rust/blob/master/src/etc/rust-gdb"
   },
   {
-    "name": "lldb_batchmode.py",
+    "name": "lldb_batchmode.py — allows to use LLDB in a way similar to GDB's batch mode.",
     "url": "https://github.com/rust-lang/rust/blob/master/src/etc/lldb_batchmode.py"
   },
   {
@@ -169,6 +165,10 @@
     "url": "https://github.com/frewsxcv/afl.rs"
   },
   {
+    "name": "zonyitoo/coio-rs — a coroutine I/O library with a working-stealing scheduler ",
+    "url": "https://github.com/zonyitoo/coio-rs"
+  },
+  {
     "name": "GuillaumeGomez/rust-fmod — FMOD bindings ",
     "url": "https://github.com/GuillaumeGomez/rust-fmod"
   },
@@ -195,6 +195,11 @@
   {
     "name": "keats/rust-jwt — JSON Web Token lib in rust  ",
     "url": "https://github.com/keats/rust-jwt"
+  },
+  {
+    "name": "Rust-Bio",
+    "url": "https://github.com/rust-bio",
+    "description": "bioinformatics libraries in Rust."
   },
   {
     "name": "Cargo — the Rust package manager\n\n\nrsolomo/cargo-check — a wrapper around cargo rustc -- -Zno-trans which can be helpful for running a faster compile if you only need correctness checks \nkbknapp/cargo-count — lists source code counts and details about cargo projects, including unsafe statistics \npwoolcoc/cargo-do — run multiple cargo commands in a row\nmaxsnew/cargo-dot — generate graphs of a Cargo project's dependencies \nkillercup/cargo-edit — allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line \npwoolcoc/cargo-fmt — allows you to call rustfmt from cargo \nkbknapp/cargo-graph — updated fork of cargo-dot with additional features \nkbknapp/cargo-outdated — displays when newer versions of Rust dependencies are available, or out of date \nDanielKeep/cargo-script — lets people quickly and easily run Rust \"scripts\" which can make use of Cargo's package ecosystem\npasscod/cargo-watch — utility for cargo to compile projects when sources change \n",
@@ -611,12 +616,7 @@
   {
     "name": "autumnai/leaf",
     "url": "https://github.com/autumnai/leaf",
-    "description": "Open Machine Intelligence Framework. "
-  },
-  {
-    "name": "rust-bio/rust-bio",
-    "url": "https://github.com/rust-bio/rust-bio",
-    "description": "This library provides implementations of many algorithms and data structures that are useful for bioinformatics. "
+    "description": "Open Machine Intelligence framework. "
   },
   {
     "name": "maciejkula/rustlearn",
@@ -644,11 +644,15 @@
     "url": "https://github.com/andars/pebble.rs"
   },
   {
-    "name": "mattnenterprise/rust-ftp — An FTP client for Rust ",
+    "name": "Ogeon/rust-on-raspberry-pi — instructions for how to cross compile Rust projects for the Raspberry Pi .",
+    "url": "https://github.com/Ogeon/rust-on-raspberry-pi"
+  },
+  {
+    "name": "mattnenterprise/rust-ftp — an FTP client for Rust ",
     "url": "https://github.com/mattnenterprise/rust-ftp"
   },
   {
-    "name": "libpnet/libpnet — Cross-platform, low level networking ",
+    "name": "libpnet/libpnet — a cross-platform, low level networking ",
     "url": "https://github.com/libpnet/libpnet"
   },
   {
@@ -656,11 +660,11 @@
     "url": "https://github.com/thehydroimpulse/nanomsg.rs"
   },
   {
-    "name": "mattnenterprise/rust-nntp — A NNTP client for Rust ",
+    "name": "mattnenterprise/rust-nntp — an NNTP client for Rust ",
     "url": "https://github.com/mattnenterprise/rust-nntp"
   },
   {
-    "name": "mattnenterprise/rust-pop3 — A POP3 client for Rust ",
+    "name": "mattnenterprise/rust-pop3 — a POP3 client for Rust ",
     "url": "https://github.com/mattnenterprise/rust-pop3"
   },
   {
@@ -668,11 +672,11 @@
     "url": "https://github.com/alexcrichton/ssh2-rs"
   },
   {
-    "name": "zslayton/stomp-rs — STOMP 1.2 client implementation in Rust ",
+    "name": "zslayton/stomp-rs — a STOMP 1.2 client implementation in Rust ",
     "url": "https://github.com/zslayton/stomp-rs"
   },
   {
-    "name": "meqif/rust-utp — A uTP (Micro Transport Protocol) library for Rust. ",
+    "name": "meqif/rust-utp — a uTP (Micro Transport Protocol) library for Rust. ",
     "url": "https://github.com/meqif/rust-utp"
   },
   {
@@ -692,11 +696,11 @@
     "url": "https://github.com/kevinmehall/rust-peg"
   },
   {
-    "name": "Marwes/combine — parser combinator library \n\n\nrustless/queryst — q query string parsing library for Rust inspired by https://github.com/hapijs/qs \n",
+    "name": "Marwes/combine — parser combinator library ",
     "url": "https://github.com/Marwes/combine"
   },
   {
-    "name": "rustless/queryst — q query string parsing library for Rust inspired by https://github.com/hapijs/qs ",
+    "name": "rustless/queryst — a query string parsing library for Rust inspired by https://github.com/hapijs/qs ",
     "url": "https://github.com/rustless/queryst"
   },
   {
@@ -773,11 +777,11 @@
   },
   {
     "name": "Iron — a middleware-based server framework ",
-    "url": "http://ironframework.io/"
+    "url": "https://github.com/iron/iron"
   },
   {
     "name": "Nickel — inspired by Express ",
-    "url": "http://nickel.rs/"
+    "url": "https://github.com/nickel-org/nickel.rs/"
   },
   {
     "name": "Ogeon/rustful — a RESTful web framework for Rust  ",
@@ -785,7 +789,7 @@
   },
   {
     "name": "Rustless — a REST-like API micro-framework inspired by Grape and Hyper ",
-    "url": "http://rustless.org/"
+    "url": "https://github.com/rustless/rustless"
   },
   {
     "name": "tiny-http — Low level HTTP server library ",
