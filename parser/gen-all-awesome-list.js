@@ -12,7 +12,7 @@ let opt = {
   token: process.env.TOKEN || 'GITHUB_TOKE',
 };
 for (let i of nameMapArray) {
-  opt.repo = i.githubPath;
+  opt.repo = `${i.url.split('/')[3]}/${i.url.split('/')[4]}`;
   if (opt.repo) {
     let a = new Awesome(opt);
     a.makeIndexJson((err, res) => {console.log(res);});
