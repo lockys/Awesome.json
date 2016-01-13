@@ -20,6 +20,10 @@
     "url": "https://github.com/odewahn/docker-jumpstart/"
   },
   {
+    "name": "Docker Curriculum: A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.",
+    "url": "http://prakhar.me/docker-curriculum/"
+  },
+  {
     "name": "Try Panamax: Docker Management for Humans It will install a CoreOS VM with VirtualBox and has nice front end",
     "url": "http://panamax.io/"
   },
@@ -1041,12 +1045,12 @@
     "url": "https://github.com/garywiz/chaperone-docker"
   },
   {
-    "name": "Dockerfile Project : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.",
-    "url": "http://dockerfile.github.io/"
-  },
-  {
     "name": "Collection of Dockerfiles by @crosbymichael",
     "url": "https://github.com/crosbymichael/Dockerfiles"
+  },
+  {
+    "name": "Dockerfile Project : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.",
+    "url": "http://dockerfile.github.io/"
   },
   {
     "name": "Dockerfile Example by @komljen",
@@ -1138,10 +1142,6 @@
     "url": "http://blogs.splunk.com/2015/08/24/collecting-docker-logs-and-stats-with-splunk/"
   },
   {
-    "name": "Weave (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.",
-    "url": "https://github.com/weaveworks/weave"
-  },
-  {
     "name": "Calico-Docker",
     "url": "http://www.projectcalico.org/getting-started/docker/",
     "description": "Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other."
@@ -1152,12 +1152,16 @@
     "description": "DNS Service Discovery for Docker Swarm (by @ahmetalpbalkan ) http://ahmetalpbalkan.github.io/wagl/"
   },
   {
-    "name": "LogJam (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collection server (such as logstash).) by @gocardless",
-    "url": "https://github.com/gocardless/logjam"
+    "name": "Weave (The Docker network) -- Weave creates a virtual network that connects Docker containers deployed across multiple hosts.",
+    "url": "https://github.com/weaveworks/weave"
   },
   {
     "name": "Docker-Fluentd: (Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd.) by @kiyoto",
     "url": "https://github.com/kiyoto/docker-fluentd"
+  },
+  {
+    "name": "LogJam (Logjam is a log forwarder designed to listen on a local port, receive log entries over UDP, and forward these messages on to a log collection server (such as logstash).) by @gocardless",
+    "url": "https://github.com/gocardless/logjam"
   },
   {
     "name": "Logspout (Log routing for Docker container logs) by [@gliderlabs]gliderlabs",
@@ -1194,80 +1198,20 @@
     "url": "https://github.com/longshoreman/longshoreman"
   },
   {
-    "name": "Dokku (Docker powered mini-Heroku in around 100 lines of Bash) by @progrium",
-    "url": "https://github.com/dokku/dokku"
+    "name": "Deis (Your PaaS, your rules) -- http://deis.io/",
+    "url": "https://github.com/deis/deis"
   },
   {
-    "name": "Tsuru (Tsuru is an extensible and open source Platform as a Service software.) -- https://tsuru.io/",
-    "url": "https://github.com/tsuru/tsuru"
+    "name": "Dokku (Docker powered mini-Heroku in around 100 lines of Bash) by @progrium",
+    "url": "https://github.com/dokku/dokku"
   },
   {
     "name": "Flynn (A next generation open source platform as a service) -- https://flynn.io/",
     "url": "https://github.com/flynn/flynn"
   },
   {
-    "name": "Deis (Your PaaS, your rules) -- http://deis.io/",
-    "url": "https://github.com/deis/deis"
-  },
-  {
-    "name": "Kontena (Application Containers for Masses) -- http://www.kontena.io/",
-    "url": "https://github.com/kontena/kontena"
-  },
-  {
-    "name": "Kubernetes (Open source orchestration system for Docker containers by Google)  -- kubernetes",
-    "url": "http://kubernetes.io"
-  },
-  {
-    "name": "Shipyard (Composable Docker Management) -- http://shipyard-project.com/",
-    "url": "https://github.com/shipyard/shipyard"
-  },
-  {
-    "name": "Panamax (Docker Management for Humans) -- panamax.io",
-    "url": "https://github.com/CenturyLinkLabs/panamax-ui/wiki"
-  },
-  {
-    "name": "~~Gaudi (Gaudi allows to share multi-component applications, based on Docker, \nGo, and YAM) ~~ project discontinued.",
-    "url": "https://github.com/marmelab/gaudi"
-  },
-  {
-    "name": "CoreOS (Linux for Massive Server Deployments) -- https://coreos.com/",
-    "url": "https://github.com/coreos"
-  },
-  {
-    "name": "Rancher (Portable AWS-style infrastructure service for Docker) -- http://rancher.com/",
-    "url": "https://github.com/rancher/rancher"
-  },
-  {
-    "name": "Deploying a Sample Web App with Mesos (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)",
-    "url": "https://docs.mesosphere.com/tutorials/deploywebapp/"
-  },
-  {
-    "name": "Marathon (Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is \"always on\")",
-    "url": "https://mesosphere.github.io/marathon/docs/"
-  },
-  {
-    "name": "Serf (Service orchestration and management tool) by @hashicorp",
-    "url": "https://github.com/hashicorp/serf"
-  },
-  {
-    "name": "Flocker (Flocker is a data volume manager and multi-host Docker cluster management tool) by @ClusterHQ",
-    "url": "https://github.com/ClusterHQ/flocker"
-  },
-  {
-    "name": "Decking: (Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers)",
-    "url": "http://decking.io/"
-  },
-  {
-    "name": "Maestro (Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit) by @tascanini",
-    "url": "https://github.com/toscanini/maestro"
-  },
-  {
-    "name": "Citadel (Citadel is a toolkit for scheduling containers on a Docker cluster) (unmaintained)",
-    "url": "https://github.com/citadel/citadel"
-  },
-  {
-    "name": "CloudSlang (CloudSlang is a workflow engine to create Docker process automation)",
-    "url": "http://www.cloudslang.io/"
+    "name": "Tsuru (Tsuru is an extensible and open source Platform as a Service software.) -- https://tsuru.io/",
+    "url": "https://github.com/tsuru/tsuru"
   },
   {
     "name": "autodock (Daemon for Docker Automation) by @prologic",
@@ -1278,12 +1222,72 @@
     "url": "https://github.com/tubesandlube/blimp"
   },
   {
+    "name": "Capitan Composable docker orchestration with added scripting support by @byrnedo.",
+    "url": "https://github.com/byrnedo/capitan"
+  },
+  {
+    "name": "Citadel (Citadel is a toolkit for scheduling containers on a Docker cluster) (unmaintained)",
+    "url": "https://github.com/citadel/citadel"
+  },
+  {
+    "name": "CloudSlang (CloudSlang is a workflow engine to create Docker process automation)",
+    "url": "http://www.cloudslang.io/"
+  },
+  {
+    "name": "CoreOS (Linux for Massive Server Deployments) -- https://coreos.com/",
+    "url": "https://github.com/coreos"
+  },
+  {
+    "name": "Decking: (Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers)",
+    "url": "http://decking.io/"
+  },
+  {
+    "name": "Deploying a Sample Web App with Mesos (Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment)",
+    "url": "https://docs.mesosphere.com/tutorials/deploywebapp/"
+  },
+  {
+    "name": "Flocker (Flocker is a data volume manager and multi-host Docker cluster management tool) by @ClusterHQ",
+    "url": "https://github.com/ClusterHQ/flocker"
+  },
+  {
+    "name": "Gaudi (Gaudi allows to share multi-component applications, based on Docker,  Go, and YAM) ~~ project discontinued.",
+    "url": "https://github.com/marmelab/gaudi"
+  },
+  {
+    "name": "Kontena (Application Containers for Masses) -- http://www.kontena.io/",
+    "url": "https://github.com/kontena/kontena"
+  },
+  {
+    "name": "Kubernetes (Open source orchestration system for Docker containers by Google)  -- kubernetes",
+    "url": "http://kubernetes.io"
+  },
+  {
+    "name": "Maestro (Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit) by @tascanini",
+    "url": "https://github.com/toscanini/maestro"
+  },
+  {
+    "name": "Marathon (Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is \"always on\")",
+    "url": "https://mesosphere.github.io/marathon/docs/"
+  },
+  {
     "name": "Nomad Project Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler.",
     "url": "https://www.nomadproject.io/"
   },
   {
-    "name": "Capitan Composable docker orchestration with added scripting support by @byrnedo.",
-    "url": "https://github.com/byrnedo/capitan"
+    "name": "Panamax (Docker Management for Humans) -- panamax.io",
+    "url": "https://github.com/CenturyLinkLabs/panamax-ui/wiki"
+  },
+  {
+    "name": "Rancher (Portable AWS-style infrastructure service for Docker) -- http://rancher.com/",
+    "url": "https://github.com/rancher/rancher"
+  },
+  {
+    "name": "Serf (Service orchestration and management tool) by @hashicorp",
+    "url": "https://github.com/hashicorp/serf"
+  },
+  {
+    "name": "Shipyard (Composable Docker Management) -- http://shipyard-project.com/",
+    "url": "https://github.com/shipyard/shipyard"
   },
   {
     "name": "docker-bench-security script that checks for dozens of common best-practices around deploying Docker containers in production. By @docker",
