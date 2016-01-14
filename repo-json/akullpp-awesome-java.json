@@ -100,6 +100,11 @@
     "description": "Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks."
   },
   {
+    "name": "Codacy",
+    "url": "https://www.codacy.com",
+    "description": "Continuous static analysis, code coverage, and software metrics to automate code reviews."
+  },
+  {
     "name": "Checkstyle",
     "url": "https://github.com/checkstyle/checkstyle",
     "description": "Static analysis of coding conventions and standards."
@@ -141,7 +146,7 @@
   },
   {
     "name": "Cobertura",
-    "url": "http://cobertura.github.io/cobertura",
+    "url": "http://cobertura.github.io/cobertura/",
     "description": "Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed."
   },
   {
@@ -586,7 +591,7 @@
   },
   {
     "name": "Nexus",
-    "url": "http://www.sonatype.com/nexus",
+    "url": "http://www.sonatype.com/nexus/solution-overview",
     "description": "Binary management with proxy and caching capabilities."
   },
   {
@@ -626,7 +631,7 @@
   },
   {
     "name": "Java Modeling Language (JML)",
-    "url": "http://www.jmlspecs.org",
+    "url": "http://www.eecs.ucf.edu/%7Eleavens/JML/",
     "description": "Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools."
   },
   {
@@ -696,7 +701,7 @@
   },
   {
     "name": "LWJGL",
-    "url": "http://www.lwjgl.org/",
+    "url": "https://www.lwjgl.org/",
     "description": "Robust framework that abstracts libraries like OpenGL/CL/AL."
   },
   {
@@ -815,6 +820,26 @@
     "description": "JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library."
   },
   {
+    "name": "fastjson",
+    "url": "https://github.com/alibaba/fastjson",
+    "description": "Very fast processor with no additional dependencies and full data binding."
+  },
+  {
+    "name": "JsonPath",
+    "url": "https://github.com/jayway/JsonPath",
+    "description": "Extract data from JSON using XPATH like syntax."
+  },
+  {
+    "name": "JsonSurfer",
+    "url": "https://github.com/jsurfer/JsonSurfer",
+    "description": "Streaming JsonPath processor dedicated to processing big and complicated JSON data."
+  },
+  {
+    "name": "Jolt",
+    "url": "https://github.com/bazaarvoice/jolt",
+    "description": "JSON to JSON transformation tool."
+  },
+  {
     "name": "JDK 9",
     "url": "https://jdk9.java.net/",
     "description": "Early access releases of JDK 9."
@@ -906,7 +931,7 @@
   },
   {
     "name": "H2O",
-    "url": "http://h2o.ai/",
+    "url": "http://www.h2o.ai/",
     "description": "Analytics engine for statistics over big data."
   },
   {
@@ -1001,7 +1026,7 @@
   },
   {
     "name": "AppDynamics",
-    "url": "http://www.appdynamics.com/",
+    "url": "https://www.appdynamics.com/",
     "description": "Commercial performance monitor."
   },
   {
@@ -1070,6 +1095,11 @@
     "description": "Asynchronous HTTP and WebSocket client library."
   },
   {
+    "name": "Finagle",
+    "url": "https://github.com/twitter/finagle",
+    "description": "Extensible RPC system used to construct high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol agnostic, which simplifies the implementation of new protocols."
+  },
+  {
     "name": "Comsat",
     "url": "https://github.com/puniverse/comsat",
     "description": "Integrates standard Java web-related APIs with Quasar fibers and actors."
@@ -1083,6 +1113,11 @@
     "name": "Netty",
     "url": "http://netty.io/",
     "description": "Framework for building high performance network applications."
+  },
+  {
+    "name": "Nifty",
+    "url": "https://github.com/facebook/nifty",
+    "description": "Implementation of Thrift clients and servers on Netty."
   },
   {
     "name": "OkHttp",
@@ -1111,7 +1146,7 @@
   },
   {
     "name": "MyBatis",
-    "url": "http://mybatis.org/mybatis-3/",
+    "url": "http://www.mybatis.org/mybatis-3/",
     "description": "Couples objects with stored procedures or SQL statements."
   },
   {
@@ -1210,6 +1245,11 @@
     "description": "JAX-RS reference implementation."
   },
   {
+    "name": "Rapidoid",
+    "url": "http://www.rapidoid.org/",
+    "description": "A Simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection."
+  },
+  {
     "name": "RESTEasy",
     "url": "http://resteasy.jboss.org/",
     "description": "Fully certified and portable implementation of the JAX-RS specification."
@@ -1217,7 +1257,17 @@
   {
     "name": "RestExpress",
     "url": "https://github.com/RestExpress/RestExpress",
-    "description": "Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance."
+    "description": "Thin wrapper on the JBoss Netty HTTP stack to provide scaling and performance."
+  },
+  {
+    "name": "Restlet Framework",
+    "url": "https://github.com/restlet/restlet-framework-java/",
+    "description": "Pioneering framework with powerful routing and filtering capabilities, unified client and server API."
+  },
+  {
+    "name": "rest.li",
+    "url": "https://github.com/linkedin/rest.li",
+    "description": "Framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling."
   },
   {
     "name": "RestX",
@@ -1461,7 +1511,7 @@
   },
   {
     "name": "Spock",
-    "url": "http://docs.spockframework.org/",
+    "url": "http://spockframework.github.io/spock/docs/",
     "description": "JUnit-compatible framework featuring an expressive Groovy-derived specification language."
   },
   {
@@ -1550,6 +1600,11 @@
     "description": "Component-based web application framework similar to Tapestry with a stateful GUI."
   },
   {
+    "name": "Blade",
+    "url": "https://github.com/biezhi/blade",
+    "description": "Lightweight, modular framework which aims to be elegant and simple."
+  },
+  {
     "name": "Google Web Toolkit",
     "url": "http://www.gwtproject.org/",
     "description": "Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI."
@@ -1581,7 +1636,7 @@
   },
   {
     "name": "Ratpack",
-    "url": "http://ratpack.io/",
+    "url": "https://ratpack.io/",
     "description": "Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications."
   },
   {
@@ -1596,7 +1651,7 @@
   },
   {
     "name": "Vaadin",
-    "url": "https://vaadin.com/",
+    "url": "https://vaadin.com/home",
     "description": "Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side."
   },
   {
@@ -1797,7 +1852,7 @@
   },
   {
     "name": "Java.net",
-    "url": "https://home.java.net/"
+    "url": "https://community.oracle.com/community/java"
   },
   {
     "name": "Javalobby",
