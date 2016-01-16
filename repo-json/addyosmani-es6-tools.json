@@ -63,6 +63,45 @@
     "url": "https://github.com/mathiasbynens/regexpu"
   },
   {
+    "name": "Lebab",
+    "url": "https://github.com/mohebifar/lebab",
+    "description": "Transformations for ES5 code to ES6 (approximates)"
+  },
+  {
+    "name": "Babel: gulp-babel",
+    "url": "https://github.com/babel/gulp-babel"
+  },
+  {
+    "name": "Traceur: gulp-traceur",
+    "url": "https://github.com/sindresorhus/gulp-traceur"
+  },
+  {
+    "name": "Regenerator: gulp-regenerator",
+    "url": "https://github.com/sindresorhus/gulp-regenerator"
+  },
+  {
+    "name": "ES6 Module Transpiler: gulp-es6-module-transpiler",
+    "url": "https://github.com/ryanseddon/gulp-es6-module-transpiler"
+  },
+  {
+    "name": "es6-transpiler: gulp-es6-transpiler",
+    "url": "https://github.com/sindresorhus/gulp-es6-transpiler",
+    "description": "ES6 → ES5"
+  },
+  {
+    "name": "es6-jstransform: gulp-jstransform",
+    "url": "https://github.com/hemanth/gulp-jstransform",
+    "description": "ES6 → ES5 using FB's jstransform"
+  },
+  {
+    "name": "regexpu: gulp-regexpu",
+    "url": "https://github.com/mathiasbynens/gulp-regexpu"
+  },
+  {
+    "name": "TypeScript: gulp-typescript",
+    "url": "https://github.com/ivogabe/gulp-typescript"
+  },
+  {
     "name": "Babel: grunt-babel",
     "url": "https://github.com/babel/grunt-babel",
     "description": "Turn ES6+ code into vanilla ES5 with no runtime"
@@ -96,34 +135,9 @@
     "description": "ES6 → ES5"
   },
   {
-    "name": "Babel: gulp-babel",
-    "url": "https://github.com/babel/gulp-babel"
-  },
-  {
-    "name": "Traceur: gulp-traceur",
-    "url": "https://github.com/sindresorhus/gulp-traceur"
-  },
-  {
-    "name": "Regenerator: gulp-regenerator",
-    "url": "https://github.com/sindresorhus/gulp-regenerator"
-  },
-  {
-    "name": "ES6 Module Transpiler: gulp-es6-module-transpiler",
-    "url": "https://github.com/ryanseddon/gulp-es6-module-transpiler"
-  },
-  {
-    "name": "es6-transpiler: gulp-es6-transpiler",
-    "url": "https://github.com/sindresorhus/gulp-es6-transpiler",
-    "description": "ES6 → ES5"
-  },
-  {
-    "name": "es6-jstransform: gulp-jstransform",
-    "url": "https://github.com/hemanth/gulp-jstransform",
-    "description": "ES6 → ES5 using FB's jstransform"
-  },
-  {
-    "name": "regexpu: gulp-regexpu",
-    "url": "https://github.com/mathiasbynens/gulp-regexpu"
+    "name": "TypeScript: grunt-ts",
+    "url": "https://github.com/TypeStrong/grunt-ts",
+    "description": "ES6+ > ES5/ES3 transpilation"
   },
   {
     "name": "Babel: broccoli-babel-transpiler",
@@ -150,12 +164,20 @@
     "url": "https://github.com/hemanth/broccoli-es6-arrow.git"
   },
   {
+    "name": "TypeScript: broccoli-tsc",
+    "url": "https://github.com/angie-party/broccoli-tsc"
+  },
+  {
     "name": "Babel: babel-brunch",
     "url": "https://github.com/babel/babel-brunch"
   },
   {
     "name": "ES6 Module Transpiler: es6-module-transpiler-brunch",
     "url": "https://github.com/gcollazo/es6-module-transpiler-brunch"
+  },
+  {
+    "name": "TypeScript: typescript-brunch",
+    "url": "https://github.com/joshheyse/typescript-brunch"
   },
   {
     "name": "Babel: babel-loader",
@@ -166,12 +188,24 @@
     "url": "https://github.com/gdi2290/traceur-compiler-loader"
   },
   {
+    "name": "TypeScript: awesome-typescript-loader",
+    "url": "https://github.com/s-panferov/awesome-typescript-loader"
+  },
+  {
     "name": "Babel: duo-babel",
     "url": "https://github.com/babel/duo-babel"
   },
   {
+    "name": "TypeScript: duo-typescript",
+    "url": "https://github.com/frankwallis/duo-typescript"
+  },
+  {
     "name": "Babel: babel-connect",
     "url": "https://github.com/babel/babel-connect"
+  },
+  {
+    "name": "TypeScript: typescript-middleware",
+    "url": "https://github.com/brn/typescript-middleware"
   },
   {
     "name": "Babel: gobble-babel",
@@ -202,6 +236,10 @@
     "url": "https://github.com/karma-runner/karma-traceur-preprocessor"
   },
   {
+    "name": "TypeScript: karma-typescript-preprocessor",
+    "url": "https://github.com/sergeyt/karma-typescript-preprocessor"
+  },
+  {
     "name": "Babel: sprockets-es6",
     "url": "https://github.com/josh/sprockets-es6"
   },
@@ -210,9 +248,18 @@
     "url": "https://github.com/gunpowderlabs/sprockets-traceur"
   },
   {
+    "name": "TypeScript: typescript-rails",
+    "url": "https://github.com/typescript-ruby/typescript-rails"
+  },
+  {
     "name": "Scratch JS",
     "url": "https://github.com/richgilbank/Scratch-JS",
     "description": "A Chrome/Opera DevTools extension to run ES6 on a page with either Babel or Traceur"
+  },
+  {
+    "name": "generator-typescript",
+    "url": "https://github.com/mrkev/generator-typescript",
+    "description": "Yeoman generator for TypeScript apps"
   },
   {
     "name": "Mocha Traceur",
@@ -399,7 +446,7 @@
     "url": "https://github.com/Benvie/JavaScriptNext.tmLanguage"
   },
   {
-    "name": "ES6 syntax support in WebStorm and PhpStorm, compilation to ES5 with Traceur file watcher",
+    "name": "ES6 syntax support in WebStorm and PhpStorm, compilation to ES5 with file watchers or task runners",
     "url": "https://www.jetbrains.com/webstorm/"
   },
   {
