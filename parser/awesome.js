@@ -1,14 +1,14 @@
 'use strict';
 
-var AwesomeWorker = require('../index');
-var request = require('request');
-var $ = require('cheerio');
-var w = new AwesomeWorker('awesome');
+const AwesomeWorker = require('../index');
+const request = require('request');
+const $ = require('cheerio');
+const w = new AwesomeWorker('awesome');
 
 function processReadMe(error, content, cb) {
-  var headingArray = $('h2', content);
-  var category = [];
-  var awesomeJson = {};
+  let headingArray = $('h2', content);
+  let category = [];
+  let awesomeJson = {};
 
   for (let i = 0, len = headingArray.length; i < len; ++i) {
     if ($(headingArray[i]).text() !== 'Table of Contents' &&
@@ -19,7 +19,7 @@ function processReadMe(error, content, cb) {
   }
 
   console.log(category);
-  var ulArray = $('h2 ~ ul', content);
+  let ulArray = $('h2 ~ ul', content);
 
   for (let i = 1, len = ulArray.length; i < len; ++i) {
     let list = $('div > li', `<div>${$(ulArray[i]).html()}</div>`);
@@ -50,6 +50,7 @@ function processReadMe(error, content, cb) {
         };
 
         awesomeJson[category[i]].push(singleObj);
+
         // console.log(' > ' + $(subCate[k]).attr('href'), subCateName);
       }
     }
@@ -60,7 +61,7 @@ function processReadMe(error, content, cb) {
 }
 
 function getAwesomeReadMe(cb) {
-  var options = {
+  let options = {
     url: `https://api.github.com/repos/sindresorhus/awesome/readme`,
     headers: {
       'User-Agent': 'awesome-search',
