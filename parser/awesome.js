@@ -10,11 +10,15 @@ function processReadMe(error, content, cb) {
   var category = [];
   var awesomeJson = {};
 
-  for (let i = 1, len = headingArray.length; i < len; ++i) {
-    category[i] = $(headingArray[i]).text();
-    awesomeJson[$(headingArray[i]).text()] = [];
+  for (let i = 0, len = headingArray.length; i < len; ++i) {
+    if ($(headingArray[i]).text() !== 'Table of Contents' &&
+        $(headingArray[i]).text() !== 'License') {
+      category.push($(headingArray[i]).text());
+      awesomeJson[$(headingArray[i]).text()] = [];
+    }
   }
 
+  console.log(category);
   var ulArray = $('h2 ~ ul', content);
 
   for (let i = 1, len = ulArray.length; i < len; ++i) {
@@ -33,7 +37,7 @@ function processReadMe(error, content, cb) {
 
       awesomeJson[category[i]].push(singleObj);
 
-      console.log('== ' + $(links[0]).attr('href'), $(links[0]).text());
+      // console.('== ' + $(links[0]).attr('href'), $(links[0]).text());
 
       for (let k = 0, subCateLen = subCate.length; k < subCateLen; ++k) {
         let subCateName = $(links[0]).text() + ', ' + $(subCate[k]).text();
@@ -46,7 +50,7 @@ function processReadMe(error, content, cb) {
         };
 
         awesomeJson[category[i]].push(singleObj);
-        console.log(' > ' + $(subCate[k]).attr('href'), subCateName);
+        // console.log(' > ' + $(subCate[k]).attr('href'), subCateName);
       }
     }
 
