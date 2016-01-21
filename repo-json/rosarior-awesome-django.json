@@ -109,7 +109,7 @@
   },
   {
     "name": "django-pipeline",
-    "url": "https://github.com/cyberdelia/django-pipeline/",
+    "url": "https://github.com/jazzband/django-pipeline",
     "description": "Asset packaging for Django."
   },
   {
@@ -313,7 +313,7 @@
   },
   {
     "name": "django-silk",
-    "url": "https://github.com/mtford90/silk/",
+    "url": "https://github.com/django-silk/silk",
     "description": "Silky smooth profiling for Django"
   },
   {
@@ -428,7 +428,7 @@
   },
   {
     "name": "django-macaddress",
-    "url": "https://github.com/tubaman/django-macaddress",
+    "url": "https://github.com/django-macaddress/django-macaddress",
     "description": "MAC Address model and form fields for Django."
   },
   {
@@ -440,6 +440,11 @@
     "name": "django-picklefield",
     "url": "https://github.com/gintas/django-picklefield/",
     "description": "A pickled object field for Django"
+  },
+  {
+    "name": "django-searchable-select",
+    "url": "https://github.com/and3rson/django-searchable-select",
+    "description": "A better and faster multiple choice widget with suggestions."
   },
   {
     "name": "django-uuidfield",
@@ -497,6 +502,11 @@
     "description": "Location field and widget integrated with Google Maps."
   },
   {
+    "name": "django-spillway",
+    "url": "https://github.com/bkg/django-spillway/",
+    "description": " Geodata extensions for Django REST Framework."
+  },
+  {
     "name": "django-image-cropping",
     "url": "https://github.com/jonasundderwolf/django-image-cropping",
     "description": "helper application to easily and non-destructively crop arbitrarily large images in admin and frontend."
@@ -512,6 +522,11 @@
     "description": "A minimalist approach to object serialization, RESTful views, and RPC views."
   },
   {
+    "name": "django-rest-auth",
+    "url": "https://github.com/Tivix/django-rest-auth/",
+    "description": "This app makes it extremely easy to build Django powered SPA's (Single Page App) or Mobile apps exposing all registration and authentication related functionality as CBV's (Class Base View) and REST (JSON)."
+  },
+  {
     "name": "django-rest-framework",
     "url": "http://www.django-rest-framework.org/",
     "description": "A powerful and flexible toolkit that makes it easy to build Web APIs."
@@ -525,6 +540,11 @@
     "name": "django-rest-swagger",
     "url": "https://github.com/marcgibbons/django-rest-swagger/",
     "description": "Swagger Documentation Generator for Django REST Framework"
+  },
+  {
+    "name": "drfdocs",
+    "url": "https://github.com/ekonstantinidis/django-rest-framework-docs",
+    "description": "Document Web APIs made with Django REST Framework"
   },
   {
     "name": "django-tastypie",
@@ -687,22 +707,22 @@
   },
   {
     "name": "django-robots",
-    "url": "https://github.com/jezdez/django-robots",
+    "url": "https://github.com/jazzband/django-robots",
     "description": "A Django app for managing robots.txt files following the robots exclusion protocol."
   },
   {
-    "name": "django-seo",
-    "url": "https://github.com/willhardy/django-seo/",
-    "description": "Provides a set of tools for managing Search Engine Optimisation (SEO) for Django sites."
+    "name": "django-seo2",
+    "url": "https://github.com/romansalin/django-seo2/",
+    "description": "Provides a set of tools for managing Search Engine Optimisation (SEO) metadata for Django sites."
   },
   {
     "name": "django-configurations",
-    "url": "https://github.com/jezdez/django-configurations/",
+    "url": "https://github.com/jazzband/django-configurations",
     "description": "A helper for organizing Django project settings by relying on well established programming patterns."
   },
   {
     "name": "django-constance",
-    "url": "https://github.com/jezdez/django-constance/",
+    "url": "https://github.com/jazzband/django-constance",
     "description": "A Django app for storing dynamic settings in pluggable backends (Redis and Django model backend built in) with an integration with the Django admin app."
   },
   {
@@ -721,6 +741,11 @@
     "description": "Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files."
   },
   {
+    "name": "django-dynamic-preferences",
+    "url": "https://github.com/EliotBerriot/django-dynamic-preferences",
+    "description": "https://github.com/EliotBerriot/django-dynamic-preferences."
+  },
+  {
     "name": "django-selectel-storage",
     "url": "https://github.com/marazmiki/django-selectel-storage",
     "description": "This application allows you easily save media and static files into Selectel cloud storage."
@@ -732,7 +757,7 @@
   },
   {
     "name": "django-queued-storage",
-    "url": "https://github.com/jezdez/django-queued-storage/",
+    "url": "https://github.com/jazzband/django-queued-storage",
     "description": "Provides a proxy for Django storage backends that allows you to upload files locally and eventually serve them remotely."
   },
   {
@@ -1109,6 +1134,11 @@
     "description": "https://github.com/ericflo/django-pagination."
   },
   {
+    "name": "django-el-pagination",
+    "url": "https://github.com/shtalinberg/django-el-pagination",
+    "description": "Django EL(Endless) Pagination can be used to provide Twitter-style or Digg-style pagination, with optional Ajax support."
+  },
+  {
     "name": "django-quiz-app",
     "url": "https://github.com/tomwalker/django_quiz/",
     "description": "This is a configurable quiz app for Django."
@@ -1214,9 +1244,19 @@
     "description": "Lighting Fas Shop is Ecommerce made with Django."
   },
   {
+    "name": "Saleor",
+    "url": "http://getsaleor.com",
+    "description": "An e-commerce storefront for Python and Django."
+  },
+  {
+    "name": "Satchless",
+    "url": "http://satchless.com",
+    "description": "Satchless brings e-commerce and Python together."
+  },
+  {
     "name": "Satchmo",
     "url": "https://bitbucket.org/chris1610/satchmo/src/",
-    "description": "Satchmo is an eCommerce framework created in Django which allows you to develop unique and robust online stores."
+    "description": "Satchmo is an eCommerce framework creatde in Django which allows you to develop unique and robust online stores."
   },
   {
     "name": "Django packages",
@@ -1288,7 +1328,7 @@
   },
   {
     "name": "Two Scoops of Django: Best Practices for Django 1.8",
-    "url": "http://twoscoopspress.org/products/two-scoops-of-django-1-8/",
+    "url": "https://www.twoscoopspress.com/products/two-scoops-of-django-1-8/",
     "description": "A best practice book for making Python and Django as fun as ice cream."
   },
   {
