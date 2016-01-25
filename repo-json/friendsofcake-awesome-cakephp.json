@@ -50,7 +50,17 @@
     "description": "A plugin that facilitates versioned database entities."
   },
   {
-    "name": "Authenticate plugin",
+    "name": "ADmad/HybridAuth plugin",
+    "url": "https://github.com/ADmad/CakePHP-HybridAuth",
+    "description": "A plugin which allows using the HybridAuth social sign on library with CakePHP."
+  },
+  {
+    "name": "ADmad/JwtAuth plugin",
+    "url": "https://github.com/ADmad/cakephp-jwt-auth",
+    "description": "A plugin for authenticating using JSON Web Tokens."
+  },
+  {
+    "name": "FriendsOfCake/Authenticate plugin",
     "url": "https://github.com/FriendsOfCake/Authenticate",
     "description": "Authentication classes for AuthComponent."
   },
@@ -63,16 +73,6 @@
     "name": "HierAuth plugin",
     "url": "https://github.com/btaens/cakephp-hier-auth",
     "description": "A CakePHP plugin for hierarchical, role based, simple authorization."
-  },
-  {
-    "name": "HybridAuth plugin",
-    "url": "https://github.com/ADmad/CakePHP-HybridAuth",
-    "description": "A plugin which allows using the HybridAuth social sign on library with CakePHP."
-  },
-  {
-    "name": "JwtAuth plugin",
-    "url": "https://github.com/ADmad/cakephp-jwt-auth",
-    "description": "A plugin for authenticating using JSON Web Tokens."
   },
   {
     "name": "Muffin/OAuth2 plugin",
@@ -124,14 +124,14 @@
     "description": "The de-facto standard for debugging."
   },
   {
+    "name": "Gourmet/Whoops plugin",
+    "url": "https://github.com/gourmet/whoops",
+    "description": "PHP error for cool kids with filp/whoops."
+  },
+  {
     "name": "Setup plugin",
     "url": "https://github.com/dereuromark/cakephp-setup",
     "description": "A lightweight setup plugin containing debugging and maintenance tools."
-  },
-  {
-    "name": "Whoops plugin",
-    "url": "https://github.com/gourmet/whoops",
-    "description": "PHP error for cool kids with filp/whoops."
   },
   {
     "name": "PipingBag plugin",
@@ -139,19 +139,19 @@
     "description": "Dependency injection container plugin that adds the ability to configure object instances and their dependencies before they are used, and to store them into a container class for easy access."
   },
   {
-    "name": "Email plugin",
+    "name": "Gourmet/Email plugin",
     "url": "https://github.com/gourmet/email",
     "description": "Email helper, layout and more."
-  },
-  {
-    "name": "Aroma plugin",
-    "url": "https://github.com/gourmet/aroma",
-    "description": "Database based configuration."
   },
   {
     "name": "Enviroments plugin",
     "url": "https://github.com/josegonzalez/cakephp-environments",
     "description": "Plugin to handle enviroments."
+  },
+  {
+    "name": "Gourmet/Aroma plugin",
+    "url": "https://github.com/gourmet/aroma",
+    "description": "Database based configuration."
   },
   {
     "name": "Settings plugin",
@@ -214,7 +214,7 @@
     "description": "Containing Geocoder behavior and GoogleMapsV3 helper."
   },
   {
-    "name": "I18n plugin",
+    "name": "ADmad/I18n plugin",
     "url": "https://github.com/ADmad/cakephp-i18n",
     "description": "A plugin with I18n related tools."
   },
@@ -304,7 +304,7 @@
     "description": "Configure routes with simple YAML files."
   },
   {
-    "name": "CommonMark plugin",
+    "name": "Gourmet/CommonMark plugin",
     "url": "https://github.com/gourmet/common-mark",
     "description": "Adds CommonMark Markdown parsing."
   },
@@ -334,6 +334,11 @@
     "description": "Official migration guide."
   },
   {
+    "name": "ADmad/Sequence plugin",
+    "url": "https://github.com/ADmad/cakephp-sequence",
+    "description": "Behavior for maintaining ordered list of records."
+  },
+  {
     "name": "Ajax plugin",
     "url": "https://github.com/dereuromark/cakephp-ajax",
     "description": "A plugin to ease handling AJAX requests."
@@ -357,11 +362,6 @@
     "name": "Hashid plugin",
     "url": "https://github.com/dereuromark/cakephp-hashid",
     "description": "Allows to use hashids to not expose the database ids to the user."
-  },
-  {
-    "name": "Sequence plugin",
-    "url": "https://github.com/ADmad/cakephp-sequence",
-    "description": "Behavior for maintaining ordered list of records."
   },
   {
     "name": "Setup:Maintenance",
@@ -484,14 +484,14 @@
     "description": "Search plugin implements custom, flexible and extendable search strategies. Implements PRG pattern."
   },
   {
-    "name": "Search plugin",
-    "url": "https://github.com/CakeDC/search",
-    "description": "De-facto search form standard built on PRG pattern."
+    "name": "FriendsOfCake/Search plugin",
+    "url": "https://github.com/FriendsOfCake/search",
+    "description": "Search provides a searching/filter module for CakePHP applications."
   },
   {
     "name": "Search plugin",
-    "url": "https://github.com/FriendsOfCake/search",
-    "description": "Search provides a search module for CakePHP applications."
+    "url": "https://github.com/CakeDC/search",
+    "description": "Search plugin built on PRG pattern."
   },
   {
     "name": "SphinxSearch plugin",
@@ -644,7 +644,7 @@
     "description": "Faker support for CakePHP fixtures."
   },
   {
-    "name": "Muffin plugin",
+    "name": "Gourmet/Muffin plugin",
     "url": "https://github.com/gourmet/muffin",
     "description": "FactoryMuffin support for CakePHP fixture records."
   },

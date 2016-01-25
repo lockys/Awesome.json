@@ -61,7 +61,7 @@
   },
   {
     "name": "Erlang/OTP",
-    "url": "http://www.erlang.org/doc/design_principles/users_guide.html",
+    "url": "https://github.com/erlang/otp",
     "description": "Programming language used to build massively scalable soft real-time systems with requirements on high availability."
   },
   {
@@ -95,6 +95,11 @@
     "description": "Toolkit for building reactive applications on the JVM."
   },
   {
+    "name": "Apex",
+    "url": "https://github.com/apex/apex",
+    "description": "Tool for deploying and managing AWS Lambda functions. With shims for languages not yet supported by Lambda, you can use Golang out of the box."
+  },
+  {
     "name": "GRPC",
     "url": "http://www.grpc.io/",
     "description": "A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. Libraries in C, C++, Java, Go, Node.js, Python, Ruby, Objective-C, PHP and C#."
@@ -113,6 +118,11 @@
     "name": "Libslack",
     "url": "http://libslack.org/",
     "description": " Provides a generic agent oriented programming model, run time selection of locking strategies, functions that make writing daemons trivial and simplify the implementation of network servers and clients, &c."
+  },
+  {
+    "name": "Lwan",
+    "url": "http://lwan.ws/",
+    "description": "High-performance and scalable web server."
   },
   {
     "name": "Onion",
@@ -155,6 +165,11 @@
     "description": "C++ library for building high performance RESTful web servers."
   },
   {
+    "name": "ULib",
+    "url": "https://github.com/stefanocasazza/ULib",
+    "description": "Highly optimized class framework for writing C++ applications."
+  },
+  {
     "name": "Vibe.d",
     "url": "http://vibed.org/",
     "description": "Asynchronous I/O that doesn’t get in your way, written in D."
@@ -190,14 +205,29 @@
     "description": "Web framework written in Golang."
   },
   {
+    "name": "Goa",
+    "url": "https://github.com/goadesign/goa",
+    "description": "Design-based HTTP microservices in Go."
+  },
+  {
     "name": "Gocraft",
     "url": "https://github.com/gocraft/web",
     "description": "A toolkit for building web apps. Includes routing, middleware stacks, logging and monitoring."
   },
   {
+    "name": "Goji",
+    "url": "https://goji.io/",
+    "description": "Minimalistic and flexible request multiplexer for Go."
+  },
+  {
     "name": "Go kit",
     "url": "https://github.com/go-kit/kit",
     "description": "Distributed programming toolkit for microservices in the modern enterprise."
+  },
+  {
+    "name": "Gorilla",
+    "url": "http://www.gorillatoolkit.org/",
+    "description": "Web toolkit for the Go programming language."
   },
   {
     "name": "Kite",
@@ -290,6 +320,11 @@
     "description": "RESTful Web Services in Java. JAX-RS (JSR 311 & JSR 339) Reference Implementation."
   },
   {
+    "name": "QBit",
+    "url": "https://github.com/advantageous/qbit",
+    "description": "Reactive programming library for building microservices."
+  },
+  {
     "name": "Ratpack",
     "url": "https://ratpack.io/",
     "description": "Set of Java libraries that facilitate fast, efficient, evolvable and well tested HTTP applications. specific support for the Groovy language is provided."
@@ -380,14 +415,39 @@
     "description": "A microservices toolkit for Node.js"
   },
   {
+    "name": "Serverless",
+    "url": "https://github.com/serverless/serverless",
+    "description": "Build and maintain web, mobile and IoT applications running on AWS Lambda and API Gateway (formerly known as JAWS)."
+  },
+  {
     "name": "Mojolicious",
     "url": "http://mojolicio.us/",
     "description": "Next generation web framework for Perl."
   },
   {
+    "name": "Nameko",
+    "url": "https://github.com/onefinestay/nameko",
+    "description": "Python framework for building microservices."
+  },
+  {
     "name": "Tornado",
     "url": "http://www.tornadoweb.org/",
     "description": "Web framework and asynchronous networking library."
+  },
+  {
+    "name": "Hanami",
+    "url": "https://github.com/hanami",
+    "description": "A modern web framework for Ruby."
+  },
+  {
+    "name": "Praxis",
+    "url": "https://github.com/rightscale/praxis",
+    "description": "Framework for both designing and implementing APIs."
+  },
+  {
+    "name": "Scorched",
+    "url": "https://github.com/wardrop/Scorched",
+    "description": "Light-weight web framework for Ruby."
   },
   {
     "name": "Camel",
@@ -443,6 +503,11 @@
     "name": "Denominator",
     "url": "https://github.com/Netflix/denominator",
     "description": "Portably control DNS clouds using java or bash."
+  },
+  {
+    "name": "Doozer",
+    "url": "https://github.com/ha/doozerd",
+    "description": "Highly-available, completely consistent store for small amounts of data. When the data changes, it can notify connected clients immediately."
   },
   {
     "name": "Etcd",
@@ -775,6 +840,11 @@
     "description": "Open-source, distributed, in-memory database for scale-out applications."
   },
   {
+    "name": "MemSQL",
+    "url": "http://www.memsql.com/",
+    "description": "High-performance, in-memory database that combines the horizontal scalability of distributed systems with the familiarity of SQL."
+  },
+  {
     "name": "Reborn",
     "url": "https://github.com/reborndb/reborn",
     "description": "Distributed database fully compatible with redis protocol."
@@ -1063,6 +1133,11 @@
     "name": "Linux Containers",
     "url": "https://linuxcontainers.org/",
     "description": "The umbrella project behind LXC, LXD, LXCFS and CGManager."
+  },
+  {
+    "name": "Aglio",
+    "url": "https://github.com/danielgtaylor/aglio",
+    "description": "API Blueprint renderer with theme support that outputs static HTML."
   },
   {
     "name": "API Blueprint",
@@ -1387,6 +1462,11 @@
     "description": "Describes three abstractions which combine to present a powerful programming model for building safe, modular, and efficient server software: Composable futures, services and filters. PDF"
   },
   {
+    "name": "Microservices without the Servers",
+    "url": "https://aws.amazon.com/blogs/compute/microservices-without-the-servers/",
+    "description": "Step by step demo-driven talk about serverless architecture."
+  },
+  {
     "name": "Microservices in C#: Part 1, Part 2, Part 3, Part 4, Part 5.",
     "url": "http://insidethecpu.com/2015/07/17/microservices-in-c-part-1-building-and-testing/"
   },
@@ -1433,6 +1513,11 @@
     "name": "Edgware Fabric",
     "url": "http://edgware-fabric.org/",
     "description": "Lightweight, agile service bus for systems at the edge of the network, in the physical world."
+  },
+  {
+    "name": "MultiChain",
+    "url": "http://www.multichain.com/",
+    "description": "Open platform for building blockchains."
   },
   {
     "name": "Node-RED",
