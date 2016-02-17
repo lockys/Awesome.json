@@ -150,6 +150,31 @@
     "description": "OpenVPN is an open source software application that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It uses a custom security protocol that utilizes SSL/TLS for key exchange."
   },
   {
+    "name": "DPDK",
+    "url": "http://dpdk.org/",
+    "description": "DPDK is a set of libraries and drivers for fast packet processing. "
+  },
+  {
+    "name": "PFQ",
+    "url": "https://github.com/pfq/PFQ",
+    "description": "PFQ is a functional networking framework designed for the Linux operating system that allows efficient packets capture/transmission (10G and beyond), in-kernel functional processing and packets steering across sockets/end-points."
+  },
+  {
+    "name": "PF_RING",
+    "url": "http://www.ntop.org/products/packet-capture/pf_ring/",
+    "description": "PF_RING is a new type of network socket that dramatically improves the packet capture speed."
+  },
+  {
+    "name": "PF_RING ZC (Zero Copy)",
+    "url": "http://www.ntop.org/products/packet-capture/pf_ring/pf_ring-zc-zero-copy/",
+    "description": "PF_RING ZC (Zero Copy) is a flexible packet processing framework that  allows you to achieve 1/10 Gbit line rate packet processing (both RX and TX) at any packet size. It implements zero copy operations including patterns for inter-process and inter-VM (KVM) communications. "
+  },
+  {
+    "name": "PACKET_MMAP/TPACKET/AF_PACKET",
+    "url": "http://lxr.free-electrons.com/source/Documentation/networking/packet_mmap.txt",
+    "description": "It's fine to use PACKET_MMAP to improve the performance of the capture and transmission process in Linux."
+  },
+  {
     "name": "Rudder",
     "url": "http://www.rudder-project.org/",
     "description": "Rudder is an easy to use, web-driven, role-based solution for IT Infrastructure Automation & Compliance. Automate common system administration tasks (installation, configuration); Enforce configuration over time (configuring once is good, ensuring that configuration is valid and automatically fixing it is better); Inventory of all managed nodes; Web interface to configure and manage nodes and their configuration; Compliance reporting, by configuration and/or by node."
