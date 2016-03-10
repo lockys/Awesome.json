@@ -1,8 +1,23 @@
 [
   {
+    "name": "hex.pm",
+    "url": "https://hex.pm/",
+    "description": "A package manager for the Erlang ecosystem."
+  },
+  {
     "name": "relx",
     "url": "https://github.com/erlware/relx",
     "description": "A release assembler for Erlang."
+  },
+  {
+    "name": "stillir",
+    "url": "https://github.com/heroku/stillir",
+    "description": "Cache environment variables as Erlang app variables."
+  },
+  {
+    "name": "elvis",
+    "url": "https://github.com/inaka/elvis",
+    "description": "Erlang Style Reviewer."
   },
   {
     "name": "Axiom",
@@ -16,7 +31,7 @@
   },
   {
     "name": "cowboy",
-    "url": "https://github.com/extend/cowboy",
+    "url": "https://github.com/ninenines/cowboy",
     "description": "A simple HTTP server."
   },
   {
@@ -31,7 +46,7 @@
   },
   {
     "name": "N2O",
-    "url": "https://github.com/5HT/n2o",
+    "url": "https://github.com/synrc/n2o",
     "description": "WebSocket Application Server."
   },
   {
@@ -56,8 +71,23 @@
   },
   {
     "name": "bullet",
-    "url": "https://github.com/extend/bullet",
+    "url": "https://github.com/ninenines/bullet",
     "description": "Simple, reliable, efficient streaming for Cowboy."
+  },
+  {
+    "name": "gun",
+    "url": "https://github.com/ninenines/gun",
+    "description": "Erlang HTTP client with support for HTTP/1.1, SPDY and Websocket."
+  },
+  {
+    "name": "hackney",
+    "url": "https://github.com/benoitc/hackney",
+    "description": "Simple HTTP client in Erlang."
+  },
+  {
+    "name": "ibrowse",
+    "url": "https://github.com/cmullaparthi/ibrowse",
+    "description": "Erlang HTTP client."
   },
   {
     "name": "lhttpc",
@@ -65,9 +95,19 @@
     "description": "A lightweight HTTP/1.1 client implemented in Erlang."
   },
   {
+    "name": "shotgun",
+    "url": "https://github.com/inaka/shotgun",
+    "description": "For the times you need more than just a gun."
+  },
+  {
     "name": "PropEr",
     "url": "https://github.com/manopapad/proper",
     "description": "A QuickCheck-inspired property-based testing tool for Erlang."
+  },
+  {
+    "name": "tracerl",
+    "url": "https://github.com/esl/tracerl",
+    "description": "Dynamic tracing tests and utilities for Erlang/OTP"
   },
   {
     "name": "lager",
@@ -130,6 +170,11 @@
     "description": "Tiny Erlang app that works in conjunction with statsderl in order to generate information on the Erlang VM for graphite logs."
   },
   {
+    "name": "Concuerror",
+    "url": "https://github.com/parapluu/Concuerror",
+    "description": "Concuerror is a systematic testing tool for concurrent Erlang programs."
+  },
+  {
     "name": "eflame",
     "url": "https://github.com/proger/eflame",
     "description": "A Flame Graph profiler for Erlang."
@@ -138,6 +183,11 @@
     "name": "rebar",
     "url": "https://github.com/rebar/rebar",
     "description": "Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases."
+  },
+  {
+    "name": "rebar3",
+    "url": "https://github.com/rebar/rebar3",
+    "description": "A build tool for Erlang which can manage Erlang packages from Hex.pm. See more at rebar3.org"
   },
   {
     "name": "erl-rstar",
@@ -165,9 +215,43 @@
     "description": "A hunky Erlang worker pool factory."
   },
   {
+    "name": "erlang_localtime",
+    "url": "https://github.com/dmitryme/erlang_localtime",
+    "description": "Erlang library for conversion from one local time to another."
+  },
+  {
+    "name": "qdate",
+    "url": "https://github.com/choptastic/qdate",
+    "description": "Erlang date, time, and timezone management: formatting, conversion, and date arithmetic."
+  },
+  {
     "name": "boss_db",
-    "url": "https://github.com/ChicagoBoss/boss_db",
+    "url": "https://github.com/ErlyORM/boss_db",
     "description": "A sharded, caching, pooling, evented ORM for Erlang."
+  },
+  {
+    "name": "mysql-otp",
+    "url": "https://github.com/mysql-otp/mysql-otp",
+    "description": "MySQL/OTP – MySQL driver for Erlang/OTP."
+  },
+  {
+    "name": "pgsql_migration – PostgreSQL migrations for Erlang.",
+    "url": "https://github.com/artemeff/pgsql_migration"
+  },
+  {
+    "name": "dq",
+    "url": "https://github.com/darach/dq",
+    "description": "Distributed Fault Tolerant Queue library."
+  },
+  {
+    "name": "ebqueue",
+    "url": "https://github.com/rgrinberg/ebqueue",
+    "description": "Tiny simple blocking queue in erlang."
+  },
+  {
+    "name": "pqueue",
+    "url": "https://github.com/okeuday/pqueue",
+    "description": "Erlang Priority Queues."
   },
   {
     "name": "tinymq",
@@ -180,9 +264,29 @@
     "description": "Erlang Oauth2 implementation."
   },
   {
+    "name": "eql",
+    "url": "https://github.com/artemeff/eql",
+    "description": "Erlang with SQL or not."
+  },
+  {
+    "name": "jiffy",
+    "url": "https://github.com/davisp/jiffy",
+    "description": "JSON NIFs for Erlang."
+  },
+  {
+    "name": "jsonrec",
+    "url": "https://github.com/EduardSergeev/jsonrec",
+    "description": "JSON encoder/decoder with the ability to map to records."
+  },
+  {
     "name": "jsx",
     "url": "https://github.com/talentdeficit/jsx",
-    "description": "an erlang application for consuming, producing and manipulating json."
+    "description": "An erlang application for consuming, producing and manipulating json."
+  },
+  {
+    "name": "qsp",
+    "url": "https://github.com/artemeff/qsp",
+    "description": "Enhanced query string parser for Erlang."
   },
   {
     "name": "leptus",
@@ -200,6 +304,31 @@
     "description": "An Erlang oAuth 2 client (uses restc)"
   },
   {
+    "name": "barrel_tcp",
+    "url": "https://github.com/benoitc-attic/barrel_tcp",
+    "description": "barrel_tcp is a generic TCP acceptor pool with low latency in Erlang."
+  },
+  {
+    "name": "gen_tcp_server",
+    "url": "https://github.com/rpt/gen_tcp_server",
+    "description": "A library that takes the concept of gen_server and introduces the same mechanics for operating a TCP server."
+  },
+  {
+    "name": "gossiperl",
+    "url": "https://github.com/gossiperl/gossiperl",
+    "description": "Language agnostic gossip middleware and message bus written in Erlang."
+  },
+  {
+    "name": "nat_upnp",
+    "url": "https://github.com/benoitc/nat_upnp",
+    "description": "Erlang library to map your internal port to an external using UNP IGD."
+  },
+  {
+    "name": "ranch",
+    "url": "https://github.com/ninenines/ranch",
+    "description": "Socket acceptor pool for TCP protocols."
+  },
+  {
     "name": "erlando",
     "url": "https://github.com/travelping/erlando",
     "description": "A set of syntax extensions like currying and monads for Erlang."
@@ -215,6 +344,16 @@
     "description": "Erlang library of state based CRDTs."
   },
   {
+    "name": "erld",
+    "url": "https://github.com/ShoreTel-Inc/erld",
+    "description": "erld is a small program designed to solve the problem of running Erlang programs as a UNIX daemon."
+  },
+  {
+    "name": "Erlang Bookmarks",
+    "url": "https://github.com/0xAX/erlang-bookmarks/wiki/Erlang-bookmarks",
+    "description": "All about erlang programming language [powerd by community]."
+  },
+  {
     "name": "Erlang Central",
     "url": "https://erlangcentral.org/",
     "description": "An awesome collections of erlang resource along with live community chat for discussing and seeking help."
@@ -225,8 +364,23 @@
     "description": "Planet site/RSS feed of blog posts covering topics across the Erlang ecosystem."
   },
   {
+    "name": "Spawned Shelter",
+    "url": "http://spawnedshelter.com/",
+    "description": "Erlang Spawned Shelter. A collection of the best articles, videos and presentations related to Erlang."
+  },
+  {
     "name": "Learn You Some Erlang",
     "url": "http://learnyousomeerlang.com/",
     "description": "Learn you some Erlang - for great good! A very thorough resource covering everything from beginning Erlang programming to large-scale development and deployment."
+  },
+  {
+    "name": "Stuff Goes Bad",
+    "url": "http://www.erlang-in-anger.com/",
+    "description": "ERLANG IN ANGER - This book intends to be a little guide about how to be the Erlang medic in a time of war."
+  },
+  {
+    "name": "The Joy of Erlang; Or, How To Ride A Toruk",
+    "url": "http://www.evanmiller.org/joy-of-erlang.html",
+    "description": "The Joy of Erlang; Or, How To Ride A Toruk A fast track introduction to Erlang that teaches the language by walking through a few example projects."
   }
 ]

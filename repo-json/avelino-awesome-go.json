@@ -350,6 +350,11 @@
     "description": "probabilistic data structures for processing continuous, unbounded streams"
   },
   {
+    "name": "count-min-log",
+    "url": "https://github.com/seiflotfy/count-min-log",
+    "description": "A Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory)."
+  },
+  {
     "name": "cuckoofilter",
     "url": "https://github.com/seiflotfy/cuckoofilter",
     "description": "Cuckoo filter: a good alternative to a counting bloom filter implemented in Go."
@@ -762,6 +767,11 @@
     "name": "now",
     "url": "https://github.com/jinzhu/now",
     "description": "Now is a time toolkit for golang."
+  },
+  {
+    "name": "NullTime",
+    "url": "https://github.com/kirillDanshin/nulltime",
+    "description": "Nullable time.Time"
   },
   {
     "name": "timeutil",
@@ -1514,6 +1524,11 @@
     "description": "IRC, Slack & Telegram bot written in Go."
   },
   {
+    "name": "go-commons-pool",
+    "url": "https://github.com/jolestar/go-commons-pool",
+    "description": "A generic object pool for Golang."
+  },
+  {
     "name": "go-multierror",
     "url": "https://github.com/hashicorp/go-multierror",
     "description": "A Go (golang) package for representing a list of errors as a single error."
@@ -1557,6 +1572,11 @@
     "name": "stats",
     "url": "https://github.com/go-playground/stats",
     "description": "Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc..."
+  },
+  {
+    "name": "werr",
+    "url": "https://github.com/txgruppi/werr",
+    "description": "Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called."
   },
   {
     "name": "xkg",
@@ -2268,6 +2288,11 @@
     "description": "Asserts to Go testing"
   },
   {
+    "name": "badio",
+    "url": "https://github.com/cavaliercoder/badio",
+    "description": "Extensions to Go's testing/iotest package"
+  },
+  {
     "name": "bro",
     "url": "https://github.com/marioidival/bro",
     "description": "Watch files in directory and run tests for them"
@@ -2585,7 +2610,12 @@
   {
     "name": "go-marathon",
     "url": "https://github.com/gambol99/go-marathon",
-    "description": "A Go library for interacting with Mesosphere's Marathon PAAS"
+    "description": "A Go library for interacting with Mesosphere's Marathon PAAS."
+  },
+  {
+    "name": "go-trending",
+    "url": "https://github.com/andygrunwald/go-trending",
+    "description": "Go library for accessing trending repositories and developers at Github."
   },
   {
     "name": "go-twitter",
@@ -2605,22 +2635,22 @@
   {
     "name": "GoMusicBrainz",
     "url": "https://github.com/michiwend/gomusicbrainz",
-    "description": "a Go MusicBrainz WS2 client library"
+    "description": "a Go MusicBrainz WS2 client library."
   },
   {
     "name": "google",
     "url": "https://github.com/google/google-api-go-client",
-    "description": "Auto-generated Google APIs for Go"
+    "description": "Auto-generated Google APIs for Go."
   },
   {
     "name": "google-analytics",
     "url": "https://github.com/chonthu/go-google-analytics",
-    "description": "A simple wrapper for easy google analytics reporting"
+    "description": "A simple wrapper for easy google analytics reporting."
   },
   {
     "name": "google-cloud",
     "url": "https://github.com/GoogleCloudPlatform/gcloud-golang",
-    "description": "Google Cloud APIs Go Client Library"
+    "description": "Google Cloud APIs Go Client Library."
   },
   {
     "name": "gostorm",
@@ -2640,7 +2670,7 @@
   {
     "name": "Medium",
     "url": "https://github.com/Medium/medium-sdk-go",
-    "description": "A Golang SDK for Medium's OAuth2 API"
+    "description": "A Golang SDK for Medium's OAuth2 API."
   },
   {
     "name": "minio-go",
@@ -2725,7 +2755,7 @@
   {
     "name": "translate",
     "url": "https://github.com/poorny/translate",
-    "description": "Go online translation package"
+    "description": "Go online translation package."
   },
   {
     "name": "tumblr",
@@ -2735,7 +2765,7 @@
   {
     "name": "webhooks",
     "url": "https://github.com/go-playground/webhooks",
-    "description": "Webhook reciever for GitHub and Bitbucket"
+    "description": "Webhook reciever for GitHub and Bitbucket."
   },
   {
     "name": "abutil",
@@ -2765,7 +2795,7 @@
   {
     "name": "Deepcopier",
     "url": "https://github.com/ulule/deepcopier",
-    "description": "Simple struct copying for Go"
+    "description": "Simple struct copying for Go."
   },
   {
     "name": "delve",
@@ -2805,7 +2835,7 @@
   {
     "name": "go-debug",
     "url": "https://github.com/tj/go-debug",
-    "description": "Conditional debug logging for Golang libraries & applications"
+    "description": "Conditional debug logging for Golang libraries & applications."
   },
   {
     "name": "go-dry",
@@ -2815,7 +2845,7 @@
   {
     "name": "go-rate",
     "url": "https://github.com/beefsack/go-rate",
-    "description": " A timed rate limiter for Go"
+    "description": " A timed rate limiter for Go."
   },
   {
     "name": "go-sitemap-generator",
@@ -2840,7 +2870,7 @@
   {
     "name": "godaemon",
     "url": "https://github.com/VividCortex/godaemon",
-    "description": "Utility to write daemons"
+    "description": "Utility to write daemons."
   },
   {
     "name": "godotenv",
@@ -2880,7 +2910,7 @@
   {
     "name": "goplaceholder",
     "url": "https://github.com/michiwend/goplaceholder",
-    "description": "a small golang lib to generate placeholder images"
+    "description": "a small golang lib to generate placeholder images."
   },
   {
     "name": "goreq",
@@ -2965,7 +2995,7 @@
   {
     "name": "multitick",
     "url": "https://github.com/VividCortex/multitick",
-    "description": "Multiplexor for aligned tickers"
+    "description": "Multiplexor for aligned tickers."
   },
   {
     "name": "netbug",
@@ -2980,7 +3010,7 @@
   {
     "name": "okrun",
     "url": "https://github.com/xta/okrun",
-    "description": "go run error steamroller"
+    "description": "go run error steamroller."
   },
   {
     "name": "panicparse",
@@ -2990,22 +3020,22 @@
   {
     "name": "peco",
     "url": "https://github.com/peco/peco",
-    "description": "Simplistic interactive filtering tool"
+    "description": "Simplistic interactive filtering tool."
   },
   {
     "name": "pester",
     "url": "https://github.com/sethgrid/pester",
-    "description": "Go HTTP client calls with retries, backoff, and concurrency"
+    "description": "Go HTTP client calls with retries, backoff, and concurrency."
   },
   {
     "name": "pm",
     "url": "https://github.com/VividCortex/pm",
-    "description": "Process (i.e. goroutine) manager with an HTTP API"
+    "description": "Process (i.e. goroutine) manager with an HTTP API."
   },
   {
     "name": "profile",
     "url": "https://github.com/davecheney/profile",
-    "description": "Simple profiling support package for Go"
+    "description": "Simple profiling support package for Go."
   },
   {
     "name": "request",
@@ -3015,17 +3045,17 @@
   {
     "name": "rerun",
     "url": "https://github.com/ivpusic/rerun",
-    "description": "Recompiling and rerunning go apps when source changes"
+    "description": "Recompiling and rerunning go apps when source changes."
   },
   {
     "name": "resty",
     "url": "https://github.com/go-resty/resty",
-    "description": "Simple HTTP and REST client for Go inspired by Ruby rest-client"
+    "description": "Simple HTTP and REST client for Go inspired by Ruby rest-client."
   },
   {
     "name": "robustly",
     "url": "https://github.com/VividCortex/robustly",
-    "description": "Runs functions resiliently, catching and restarting panics"
+    "description": "Runs functions resiliently, catching and restarting panics."
   },
   {
     "name": "scheduler",
@@ -3045,7 +3075,12 @@
   {
     "name": "sqlx",
     "url": "https://github.com/jmoiron/sqlx",
-    "description": "provides a set of extensions on top of the excellent built-in database/sql package"
+    "description": "provides a set of extensions on top of the excellent built-in database/sql package."
+  },
+  {
+    "name": "ugo",
+    "url": "https://github.com/alxrm/ugo",
+    "description": "ugo is slice toolbox with concise syntax for Go."
   },
   {
     "name": "xlsx",
@@ -3055,17 +3090,17 @@
   {
     "name": "govalidator",
     "url": "https://github.com/asaskevich/govalidator",
-    "description": "Validators and sanitizers for strings, numerics, slices and structs"
+    "description": "Validators and sanitizers for strings, numerics, slices and structs."
   },
   {
     "name": "validator",
     "url": "https://github.com/go-playground/validator",
-    "description": "Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving"
+    "description": "Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving."
   },
   {
     "name": "gh",
     "url": "https://github.com/rjeczalik/gh",
-    "description": "Scriptable server and net/http middleware for GitHub Webhooks"
+    "description": "Scriptable server and net/http middleware for GitHub Webhooks."
   },
   {
     "name": "git2go",
@@ -3135,12 +3170,12 @@
   {
     "name": "Glue",
     "url": "https://github.com/desertbit/glue",
-    "description": "Robust Go and Javascript Socket Library (Alternative to Socket.io)"
+    "description": "Robust Go and Javascript Socket Library (Alternative to Socket.io)."
   },
   {
     "name": "go-json-rest",
     "url": "https://github.com/ant0ine/go-json-rest",
-    "description": "A quick and easy way to setup a RESTful JSON API"
+    "description": "A quick and easy way to setup a RESTful JSON API."
   },
   {
     "name": "go-kit",
@@ -3150,12 +3185,12 @@
   {
     "name": "go-relax",
     "url": "https://github.com/codehack/go-relax",
-    "description": "A framework of pluggable components to build RESTful API's"
+    "description": "A framework of pluggable components to build RESTful API's."
   },
   {
     "name": "go-rest",
     "url": "https://github.com/ungerik/go-rest",
-    "description": "A small and evil REST framework for Go"
+    "description": "A small and evil REST framework for Go."
   },
   {
     "name": "go-socket.io",
@@ -3165,12 +3200,12 @@
   {
     "name": "goa",
     "url": "https://github.com/raphael/goa",
-    "description": "Framework for developing microservices based on the design of Ruby's Praxis"
+    "description": "Framework for developing microservices based on the design of Ruby's Praxis."
   },
   {
     "name": "Goat",
     "url": "https://github.com/bahlo/goat",
-    "description": "A minimalistic REST API server in Go"
+    "description": "A minimalistic REST API server in Go."
   },
   {
     "name": "gocraft/web",
@@ -3181,6 +3216,11 @@
     "name": "Goji",
     "url": "https://github.com/goji/goji",
     "description": "Goji is a minimalistic and flexible HTTP request multiplexer with support for net/context."
+  },
+  {
+    "name": "Golf",
+    "url": "https://github.com/dinever/golf",
+    "description": "Golf is a fast, simple and lightweight micro-web framework for Go. It comes with powerful features and has no dependencies other than the Go Standard Library."
   },
   {
     "name": "golongpoll",
@@ -3210,7 +3250,7 @@
   {
     "name": "httptreemux",
     "url": "https://github.com/dimfeld/httptreemux",
-    "description": "High-speed, flexible tree-based HTTP router for Go.Inspiration from httprouter"
+    "description": "High-speed, flexible tree-based HTTP router for Go. Inspiration from httprouter."
   },
   {
     "name": "Macaron",
@@ -3315,27 +3355,27 @@
   {
     "name": "CORS",
     "url": "https://github.com/rs/cors",
-    "description": "Easily add CORS capabilities to your API"
+    "description": "Easily add CORS capabilities to your API."
   },
   {
     "name": "formjson",
     "url": "https://github.com/rs/formjson",
-    "description": "Transparently handle JSON input as a standard form POST"
+    "description": "Transparently handle JSON input as a standard form POST."
   },
   {
     "name": "Limiter",
     "url": "https://github.com/ulule/limiter",
-    "description": "Dead simple rate limit middleware for Go"
+    "description": "Dead simple rate limit middleware for Go."
   },
   {
     "name": "Tollbooth",
     "url": "https://github.com/didip/tollbooth",
-    "description": "Rate limit HTTP request handler"
+    "description": "Rate limit HTTP request handler."
   },
   {
     "name": "XFF",
     "url": "https://github.com/sebest/xff",
-    "description": "Handle X-Forwarded-For header and friends"
+    "description": "Handle X-Forwarded-For header and friends."
   },
   {
     "name": "alice",
@@ -3358,9 +3398,14 @@
     "description": "Small middlewares package for net/http."
   },
   {
+    "name": "gores",
+    "url": "https://github.com/alioygur/gores",
+    "description": "Go package that handles HTML, JSON, XML and etc. responses. Useful for RESTful APIs."
+  },
+  {
     "name": "interpose",
     "url": "https://github.com/carbocation/interpose",
-    "description": "Minimalist net/http middleware for golang"
+    "description": "Minimalist net/http middleware for golang."
   },
   {
     "name": "muxchain",
@@ -3473,7 +3518,7 @@
   {
     "name": "gocode",
     "url": "https://github.com/nsf/gocode",
-    "description": "An autocompletion daemon for the Go programming language"
+    "description": "An autocompletion daemon for the Go programming language."
   },
   {
     "name": "GoSublime",
@@ -3518,12 +3563,12 @@
   {
     "name": "aptly",
     "url": "https://github.com/smira/aptly",
-    "description": "aptly is a Debian repository management tool"
+    "description": "aptly is a Debian repository management tool."
   },
   {
     "name": "awsenv",
     "url": "https://github.com/soniah/awsenv",
-    "description": "a small binary that loads Amazon (AWS) environment variables for a profile"
+    "description": "a small binary that loads Amazon (AWS) environment variables for a profile."
   },
   {
     "name": "Banshee",
@@ -3538,7 +3583,7 @@
   {
     "name": "bosun",
     "url": "https://github.com/bosun-monitor/bosun",
-    "description": "Time Series Alerting Framework"
+    "description": "Time Series Alerting Framework."
   },
   {
     "name": "dogo",
@@ -3623,7 +3668,7 @@
   {
     "name": "ostent",
     "url": "https://github.com/ostrost/ostent",
-    "description": "collects and displays system metrics and optionally relays to Graphite and/or InfluxDB"
+    "description": "collects and displays system metrics and optionally relays to Graphite and/or InfluxDB."
   },
   {
     "name": "Packer",
@@ -3653,7 +3698,7 @@
   {
     "name": "webhook",
     "url": "https://github.com/adnanh/webhook",
-    "description": "Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server"
+    "description": "Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server."
   },
   {
     "name": "Wide",
@@ -3666,6 +3711,11 @@
     "description": "Dropbox based blog engine"
   },
   {
+    "name": "Cherry",
+    "url": "https://github.com/rafael-santiago/cherry",
+    "description": "A tiny webchat server in Go."
+  },
+  {
     "name": "Circuit",
     "url": "https://github.com/gocircuit/circuit",
     "description": "Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications."
@@ -3673,7 +3723,7 @@
   {
     "name": "Comcast",
     "url": "https://github.com/tylertreat/Comcast",
-    "description": "Simulate bad network connections"
+    "description": "Simulate bad network connections."
   },
   {
     "name": "confd",
@@ -3718,12 +3768,12 @@
   {
     "name": "hsync",
     "url": "http://ambrevar.bitbucket.org/hsync/",
-    "description": "A filesystem hierarchy synchronizer"
+    "description": "A filesystem hierarchy synchronizer."
   },
   {
     "name": "hugo",
     "url": "http://gohugo.io/",
-    "description": "A Fast and Modern Static Website Engine"
+    "description": "A Fast and Modern Static Website Engine."
   },
   {
     "name": "ipe",
@@ -3786,12 +3836,12 @@
   {
     "name": "shell2http",
     "url": "https://github.com/msoap/shell2http",
-    "description": "Executing shell commands via http server (for prototyping or remote control)"
+    "description": "Executing shell commands via http server (for prototyping or remote control)."
   },
   {
     "name": "snap",
     "url": "https://github.com/intelsdi-x/snap",
-    "description": "A powerful telemetry framework"
+    "description": "A powerful telemetry framework."
   },
   {
     "name": "Stack Up",
@@ -3826,12 +3876,12 @@
   {
     "name": "websysd",
     "url": "https://github.com/ian-kent/websysd",
-    "description": "Web based process manager (like Marathon or Upstart)"
+    "description": "Web based process manager (like Marathon or Upstart)."
   },
   {
     "name": "wellington",
     "url": "https://github.com/wellington/wellington",
-    "description": "Sass project management tool, extends the language with sprite functions (like Compass)"
+    "description": "Sass project management tool, extends the language with sprite functions (like Compass)."
   },
   {
     "name": "autobench",
@@ -4000,17 +4050,17 @@
   {
     "name": "Go Blog",
     "url": "http://blog.golang.org",
-    "description": "The official Go blog"
+    "description": "The official Go blog."
   },
   {
     "name": "Go Forum",
     "url": "https://forum.golangbridge.org",
-    "description": "Forum to discuss Go"
+    "description": "Forum to discuss Go."
   },
   {
     "name": "Go Projects",
     "url": "https://github.com/golang/go/wiki/Projects",
-    "description": "List of projects on the Go community wiki"
+    "description": "List of projects on the Go community wiki."
   },
   {
     "name": "godoc.org",
@@ -4020,12 +4070,12 @@
   {
     "name": "golang-graphics",
     "url": "https://github.com/mholt/golang-graphics",
-    "description": "A collection of Go images, graphics, and art"
+    "description": "A collection of Go images, graphics, and art."
   },
   {
     "name": "golang-nuts",
     "url": "https://groups.google.com/forum/#!forum/golang-nuts",
-    "description": "Go mailing list"
+    "description": "Go mailing list."
   },
   {
     "name": "Google Plus Community",
@@ -4050,26 +4100,26 @@
   {
     "name": "A Tour of Go",
     "url": "http://tour.golang.org/",
-    "description": "Interactive tour of Go"
+    "description": "Interactive tour of Go."
   },
   {
     "name": "Go By Example",
     "url": "https://gobyexample.com/",
-    "description": "A hands-on introduction to Go using annotated example programs"
+    "description": "A hands-on introduction to Go using annotated example programs."
   },
   {
     "name": "Go database/sql tutorial",
     "url": "http://go-database-sql.org/",
-    "description": "Introduction to database/sql"
+    "description": "Introduction to database/sql."
   },
   {
     "name": "Working with Go",
     "url": "https://github.com/mkaz/working-with-go",
-    "description": "An intro to go for experienced programmers"
+    "description": "An intro to go for experienced programmers."
   },
   {
     "name": "go-ole",
     "url": "https://github.com/go-ole/go-ole",
-    "description": "Win32 OLE implementation for golang"
+    "description": "Win32 OLE implementation for golang."
   }
 ]
