@@ -342,9 +342,19 @@
     "description": "A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files."
   },
   {
+    "name": "pyexcel",
+    "url": "http://pyexcel.readthedocs.org/en/latest/",
+    "description": "Providing one API for reading, manipulating and writing csv, ods, xls, xlsx and xlsm files."
+  },
+  {
     "name": "python-docx",
     "url": "https://github.com/python-openxml/python-docx",
     "description": "Reads, queries and modifies Microsoft Word 2007/2008 docx files."
+  },
+  {
+    "name": "relatorio",
+    "url": "http://relatorio.tryton.org/",
+    "description": "Templating OpenDocument files."
   },
   {
     "name": "unoconv",
@@ -365,11 +375,6 @@
     "name": "xlwt / xlrd",
     "url": "https://github.com/python-excel/xlwt",
     "description": "Writing and reading data and formatting information from Excel files."
-  },
-  {
-    "name": "relatorio",
-    "url": "http://relatorio.tryton.org/",
-    "description": "Templating OpenDocument files."
   },
   {
     "name": "PDFMiner",
@@ -417,24 +422,24 @@
     "description": "A leading platform for building Python programs to work with human language data."
   },
   {
-    "name": "Jieba",
-    "url": "https://github.com/fxsjy/jieba",
-    "description": "Chinese text segmentation."
-  },
-  {
-    "name": "langid.py",
-    "url": "https://github.com/saffsd/langid.py",
-    "description": "Stand-alone language identification system."
-  },
-  {
     "name": "Pattern",
     "url": "http://www.clips.ua.ac.be/pattern",
     "description": "A web mining module for the Python."
   },
   {
+    "name": "Jieba",
+    "url": "https://github.com/fxsjy/jieba",
+    "description": "Chinese text segmentation."
+  },
+  {
     "name": "SnowNLP",
     "url": "https://github.com/isnowfy/snownlp",
     "description": "A library for processing Chinese text."
+  },
+  {
+    "name": "spaCy",
+    "url": "https://spacy.io/",
+    "description": "A library for industrial-strength natural language processing in Python and Cython."
   },
   {
     "name": "TextBlob",
@@ -445,6 +450,11 @@
     "name": "TextGrocery",
     "url": "https://github.com/2shou/TextGrocery",
     "description": "A simple, efficient short-text classification tool based on LibLinear and Jieba."
+  },
+  {
+    "name": "langid.py",
+    "url": "https://github.com/saffsd/langid.py",
+    "description": "Stand-alone language identification system."
   },
   {
     "name": "Sphinx",
@@ -494,6 +504,11 @@
     "name": "python-decouple",
     "url": "https://github.com/henriquebastos/python-decouple",
     "description": "Strict separation of settings from code."
+  },
+  {
+    "name": "asciimatics",
+    "url": "https://github.com/peterbrittain/asciimatics",
+    "description": "Cross-platform, full-screen terminal package (i.e.  mouse/keyboard input and coloured, positioned text output) complete with high-level API for complex animations and special effects."
   },
   {
     "name": "cement",
@@ -2175,9 +2190,9 @@
     "description": "nose extends unittest."
   },
   {
-    "name": "contexts",
-    "url": "https://github.com/benjamin-hodgson/Contexts",
-    "description": "A BDD framework for Python 3.3+. Inspired by C#'s Machine.Specifications."
+    "name": "pytest",
+    "url": "http://pytest.org/latest/",
+    "description": "A mature full-featured Python testing tool."
   },
   {
     "name": "hypothesis",
@@ -2190,34 +2205,19 @@
     "description": "The definitive testing tool for Python. Born under the banner of BDD."
   },
   {
-    "name": "PyAutoGUI",
-    "url": "https://github.com/asweigart/pyautogui",
-    "description": "PyAutoGUI is a cross-platform GUI automation Python module for human beings."
+    "name": "Robot Framework",
+    "url": "https://github.com/robotframework/robotframework",
+    "description": "A generic test automation framework."
   },
   {
-    "name": "pyshould",
-    "url": "https://github.com/drslump/pyshould",
-    "description": "Should style asserts based on PyHamcrest."
-  },
-  {
-    "name": "pytest",
-    "url": "http://pytest.org/latest/",
-    "description": "A mature full-featured Python testing tool."
+    "name": "tox",
+    "url": "https://tox.readthedocs.org/en/latest/",
+    "description": "Auto builds and tests distributions in multiple Python versions"
   },
   {
     "name": "green",
     "url": "https://github.com/CleanCut/green",
     "description": "A clean, colorful test runner."
-  },
-  {
-    "name": "pyvows",
-    "url": "http://heynemann.github.io/pyvows/",
-    "description": "BDD style testing for Python. Inspired by Vows.js."
-  },
-  {
-    "name": "Robot Framework",
-    "url": "https://github.com/robotframework/robotframework",
-    "description": "A generic test automation framework."
   },
   {
     "name": "Selenium",
@@ -2238,6 +2238,11 @@
     "name": "splinter",
     "url": "https://splinter.readthedocs.org/en/latest/",
     "description": "Open source tool for testing web applications."
+  },
+  {
+    "name": "PyAutoGUI",
+    "url": "https://github.com/asweigart/pyautogui",
+    "description": "PyAutoGUI is a cross-platform GUI automation Python module for human beings."
   },
   {
     "name": "mock",
@@ -2447,6 +2452,11 @@
     "name": "Neupy",
     "url": "http://neupy.com/pages/home.html",
     "description": "Running and testing different Artificial Neural Networks algorithms."
+  },
+  {
+    "name": "NIPY",
+    "url": "http://nipy.org",
+    "description": "A collection of neuroimaging toolkits."
   },
   {
     "name": "Numba",
@@ -2748,9 +2758,9 @@
     "description": "Fast, isolated development environments using Docker."
   },
   {
-    "name": "Fabric",
-    "url": "http://www.fabfile.org/",
-    "description": "A simple, Pythonic tool for remote execution and deployment."
+    "name": "Cloud-Init",
+    "url": "http://cloudinit.readthedocs.org/en/latest/",
+    "description": "A multi-distribution package that handles early initialization of a cloud instance."
   },
   {
     "name": "cuisine",
@@ -2758,19 +2768,14 @@
     "description": "Chef-like functionality for Fabric."
   },
   {
+    "name": "Fabric",
+    "url": "http://www.fabfile.org/",
+    "description": "A simple, Pythonic tool for remote execution and deployment."
+  },
+  {
     "name": "Fabtools",
     "url": "https://github.com/ronnix/fabtools",
     "description": "Tools for writing awesome Fabric files."
-  },
-  {
-    "name": "gitapi",
-    "url": "https://bitbucket.org/haard/gitapi",
-    "description": "Pure-Python API for Git."
-  },
-  {
-    "name": "hgapi",
-    "url": "https://bitbucket.org/haard/hgapi",
-    "description": "Pure-Python API for Mercurial."
   },
   {
     "name": "honcho",
