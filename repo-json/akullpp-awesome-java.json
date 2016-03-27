@@ -100,14 +100,14 @@
     "description": "Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks."
   },
   {
-    "name": "Codacy",
-    "url": "https://www.codacy.com",
-    "description": "Continuous static analysis, code coverage, and software metrics to automate code reviews."
-  },
-  {
     "name": "Checkstyle",
     "url": "https://github.com/checkstyle/checkstyle",
     "description": "Static analysis of coding conventions and standards."
+  },
+  {
+    "name": "Codacy",
+    "url": "https://www.codacy.com",
+    "description": "Continuous static analysis, code coverage, and software metrics to automate code reviews."
   },
   {
     "name": "Error Prone",
@@ -135,11 +135,6 @@
     "description": "Integrates other analysis components via plugins and provides an overview of the metrics over time."
   },
   {
-    "name": "JaCoCo",
-    "url": "http://eclemma.org/jacoco/",
-    "description": "Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin."
-  },
-  {
     "name": "Clover",
     "url": "https://www.atlassian.com/software/clover/overview",
     "description": "Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation."
@@ -148,6 +143,11 @@
     "name": "Cobertura",
     "url": "http://cobertura.github.io/cobertura/",
     "description": "Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed."
+  },
+  {
+    "name": "JaCoCo",
+    "url": "http://eclemma.org/jacoco/",
+    "description": "Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin."
   },
   {
     "name": "JCov",
@@ -160,14 +160,14 @@
     "description": "Small library to parse command like arguments similar to javac."
   },
   {
-    "name": "JewelCLI",
-    "url": "http://jewelcli.lexicalscope.com/",
-    "description": "Uses annotations to automatically parse and inject the values with regex validation and Enum support."
-  },
-  {
     "name": "JCommander",
     "url": "http://jcommander.org/",
     "description": "Command line arguments parsing framework with custom types and validation via implementing interfaces."
+  },
+  {
+    "name": "JewelCLI",
+    "url": "http://jewelcli.lexicalscope.com/",
+    "description": "Uses annotations to automatically parse and inject the values with regex validation and Enum support."
   },
   {
     "name": "JOpt Simple",
@@ -296,7 +296,7 @@
   },
   {
     "name": "Flyway",
-    "url": "http://flywaydb.org/",
+    "url": "https://flywaydb.org/",
     "description": "Simple database migration tool."
   },
   {
@@ -336,7 +336,7 @@
   },
   {
     "name": "Presto",
-    "url": "https://github.com/facebook/presto",
+    "url": "https://github.com/prestodb/presto",
     "description": "Distributed SQL query engine for big data."
   },
   {
@@ -691,7 +691,7 @@
   },
   {
     "name": "Javaslang",
-    "url": "http://javaslang.com",
+    "url": "http://www.javaslang.io/",
     "description": "Functional component library that provides persistent data types and functional control structures."
   },
   {
@@ -701,7 +701,7 @@
   },
   {
     "name": "jMonkeyEngine",
-    "url": "http://jmonkeyengine.org/",
+    "url": "https://jmonkeyengine.org/",
     "description": "Game engine for modern 3D development."
   },
   {
@@ -713,6 +713,51 @@
     "name": "LWJGL",
     "url": "https://www.lwjgl.org/",
     "description": "Robust framework that abstracts libraries like OpenGL/CL/AL."
+  },
+  {
+    "name": "Apache SIS",
+    "url": "http://sis.apache.org/",
+    "description": "Library for developing geospatial applications."
+  },
+  {
+    "name": "Geo",
+    "url": "https://github.com/davidmoten/geo/",
+    "description": "GeoHash utilities in Java."
+  },
+  {
+    "name": "Geotoolkit.org",
+    "url": "http://www.geotoolkit.org/",
+    "description": "Library for developing geospatial applications. Built on top of the Apache SIS project."
+  },
+  {
+    "name": "GeoTools",
+    "url": "http://geotools.org/",
+    "description": "Library that provides tools for geospatial data."
+  },
+  {
+    "name": "H2GIS",
+    "url": "http://www.h2gis.org/",
+    "description": "A spatial extension of the H2 database."
+  },
+  {
+    "name": "Jgeohash",
+    "url": "http://astrapi69.github.io/jgeohash/",
+    "description": "Library that can assist Java developers in using the GeoHash algorithm."
+  },
+  {
+    "name": "JTS Topology Suite",
+    "url": "http://www.vividsolutions.com/jts/JTSHome.htm",
+    "description": "An API of 2D spatial predicates and functions."
+  },
+  {
+    "name": "Mapsforge",
+    "url": "https://github.com/mapsforge/mapsforge/",
+    "description": "Software for the rendering of maps based on OpenStreetMap data."
+  },
+  {
+    "name": "Spatial4j",
+    "url": "https://github.com/locationtech/spatial4j/",
+    "description": "General purpose spatial/geospatial ASL licensed open-source Java library."
   },
   {
     "name": "JavaFX",
@@ -840,6 +885,11 @@
     "description": "Very fast processor with no additional dependencies and full data binding."
   },
   {
+    "name": "Jolt",
+    "url": "https://github.com/bazaarvoice/jolt",
+    "description": "JSON to JSON transformation tool."
+  },
+  {
     "name": "JsonPath",
     "url": "https://github.com/jayway/JsonPath",
     "description": "Extract data from JSON using XPATH like syntax."
@@ -848,11 +898,6 @@
     "name": "JsonSurfer",
     "url": "https://github.com/jsurfer/JsonSurfer",
     "description": "Streaming JsonPath processor dedicated to processing big and complicated JSON data."
-  },
-  {
-    "name": "Jolt",
-    "url": "https://github.com/bazaarvoice/jolt",
-    "description": "JSON to JSON transformation tool."
   },
   {
     "name": "Avian",
@@ -875,14 +920,14 @@
     "description": "VM with non-blocking concurrent GC for iOS."
   },
   {
-    "name": "Zulu OpenJDK",
-    "url": "http://www.azul.com/downloads/zulu/",
-    "description": "OpenJDK builds for Windows, Linux, and Mac OS X through Java 8."
-  },
-  {
     "name": "Zulu OpenJDK 9",
     "url": "http://zulu.org/zulu-9-pre-release-downloads/",
     "description": "Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X."
+  },
+  {
+    "name": "Zulu OpenJDK",
+    "url": "http://www.azul.com/downloads/zulu/",
+    "description": "OpenJDK builds for Windows, Linux, and Mac OS X through Java 8."
   },
   {
     "name": "Apache Log4j 2",
@@ -1135,14 +1180,14 @@
     "description": "Asynchronous HTTP and WebSocket client library."
   },
   {
-    "name": "Finagle",
-    "url": "https://github.com/twitter/finagle",
-    "description": "Extensible RPC system used to construct high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol agnostic, which simplifies the implementation of new protocols."
-  },
-  {
     "name": "Comsat",
     "url": "https://github.com/puniverse/comsat",
     "description": "Integrates standard Java web-related APIs with Quasar fibers and actors."
+  },
+  {
+    "name": "Finagle",
+    "url": "https://github.com/twitter/finagle",
+    "description": "Extensible RPC system used to construct high-concurrency servers. It implements uniform client and server APIs for several protocols, and is protocol agnostic, which simplifies the implementation of new protocols."
   },
   {
     "name": "Grizzly",
@@ -1255,6 +1300,11 @@
     "description": "Visual interface for detailed information about running applications."
   },
   {
+    "name": "XRebel",
+    "url": "http://zeroturnaround.com/software/xrebel/",
+    "description": "A commercial profiler for Java Web applications."
+  },
+  {
     "name": "YourKit Java Profiler",
     "url": "https://www.yourkit.com/features/",
     "description": "Commercial profiler."
@@ -1305,6 +1355,11 @@
     "description": "A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection."
   },
   {
+    "name": "rest.li",
+    "url": "https://github.com/linkedin/rest.li",
+    "description": "Framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling."
+  },
+  {
     "name": "RESTEasy",
     "url": "http://resteasy.jboss.org/",
     "description": "Fully certified and portable implementation of the JAX-RS specification."
@@ -1318,11 +1373,6 @@
     "name": "Restlet Framework",
     "url": "https://github.com/restlet/restlet-framework-java/",
     "description": "Pioneering framework with powerful routing and filtering capabilities, unified client and server API."
-  },
-  {
-    "name": "rest.li",
-    "url": "https://github.com/linkedin/rest.li",
-    "description": "Framework for building robust, scalable RESTful architectures using type-safe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling."
   },
   {
     "name": "RestX",
@@ -1451,7 +1501,7 @@
   },
   {
     "name": "FreeMarker",
-    "url": "http://freemarker.incubator.apache.org/",
+    "url": "http://freemarker.org/",
     "description": "General templating engine without any heavyweight or opinionated dependencies."
   },
   {
@@ -1620,14 +1670,14 @@
     "description": "Tuples."
   },
   {
-    "name": "Protégé",
-    "url": "http://protege.stanford.edu/",
-    "description": "Provides an ontology editor and a framework to build knowledge-based systems."
-  },
-  {
     "name": "JavaVerbalExpressions",
     "url": "https://github.com/VerbalExpressions/JavaVerbalExpressions",
     "description": "A library that helps to construct difficult regular expressions."
+  },
+  {
+    "name": "Protégé",
+    "url": "http://protege.stanford.edu/",
+    "description": "Provides an ontology editor and a framework to build knowledge-based systems."
   },
   {
     "name": "Apache Nutch",
