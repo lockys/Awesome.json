@@ -6,15 +6,16 @@
   "dependencies": {
     "awesomelists-index": "^0.3.2",
     "cron": "^1.1.0",
-    "debug": "^2.2.0",
-    "node-schedule": "^0.6.0"
+    "debug": "^2.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "hapi": "^13.2.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "awesome": "cd parser && node awesome.js && mv ../test-output/awesome.json ../awesome",
     "build": "cd parser && node gen-all-awesome-list.js && mv ./awesome-json/sindresorhus-awesome.json ../all-github-path && mv ./awesome-json/*.json ../repo-json",
-    "push": "eval `ssh-agent -s` && ssh-add ~/.ssh/id_rsa && git pull --no-edit origin master && git add . && git commit -m 'updated json' && git push origin update-branch"
+    "push": "git pull --no-edit origin master && git add . && git commit -m 'updated json' && git push origin update-branch"
   },
   "repository": {
     "type": "git",
