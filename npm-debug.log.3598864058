@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'run', 'awesome' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose run-script [ 'preawesome', 'awesome', 'postawesome' ]
+5 info preawesome awesome.json@1.0.0
+6 info awesome awesome.json@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 verbose stack Error: write EPIPE
+8 verbose stack     at exports._errnoException (util.js:870:11)
+8 verbose stack     at WriteWrap.afterWrite (net.js:767:14)
+9 verbose cwd /root/awesome.json
+10 error Linux 3.13.0-83-generic
+11 error argv "/usr/bin/nodejs" "/usr/bin/npm" "run" "awesome"
+12 error node v4.4.0
+13 error npm  v2.14.20
+14 error code EPIPE
+15 error errno EPIPE
+16 error syscall write
+17 error write EPIPE
+18 error If you need help, you may report this error at:
+18 error     <https://github.com/npm/npm/issues>
+19 verbose exit [ 1, true ]
