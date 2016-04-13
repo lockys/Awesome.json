@@ -3,7 +3,7 @@ var exec = require('child_process').exec;
 var buildCMD = 'npm run awesome && npm run build && npm run push';
 
 console.log('Do The Crob Job! Awesome :)');
-new CronJob('* * */12 * * *', function() {
+new CronJob('* * * * * *', function() {
   try {
     exec(buildCMD, function(error, stdout, stderr) {
       if (!error) {
