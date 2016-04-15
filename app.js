@@ -15,4 +15,4 @@ new CronJob('* * */6 * * *', function() {
   } catch (e) {
     console.error(e);
   }
-}, true, 'Asia/Taipei');
+}, false, 'Asia/Taipei');
