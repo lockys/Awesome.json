@@ -1,18 +1,32 @@
 var CronJob = require('cron').CronJob;
 var exec = require('child_process').exec;
-var buildCMD = 'npm run awesome && npm run build && npm run push';
+var buildAwesome = 'npm run awesome';
+var buildAllRepo = 'npm run build';
+var pushCmd = 'npm run push';
 
 console.log('Do The Crob Job! Awesome :)');
-new CronJob('* * */6 * * *', function() {
+new CronJob('*/30 * * * * *', function() {
   try {
-    exec(buildCMD, function(error, stdout, stderr) {
-      console.log('executing ...');
-      if (!error) {
-        console.log(stdout);
-        console.log(stderr);
-      }
-    });
+    exec(buildAwesome, finishAwesome);
   } catch (e) {
     console.error(e);
   }
-}, false, 'Asia/Taipei');
+}, true, 'Asia/Taipei');
+
+function finishAwesome(err, stdout, stderr) {
+  if (err) {
+    console.log(stderr);
+  } else {
+    console.log(stdout);
+    exec(buildAllRepo, finishBuild);
+  }
+}
+
+function finishBuild(err, stdout, stderr) {
+  if (err) {
+    console.log(stderr);
+  } else {
+    console.log(stdout);
+    exec(pushCmd, null);
+  }
+}
