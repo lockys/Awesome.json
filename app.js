@@ -13,13 +13,13 @@ new CronJob('* * */24 * * *', function() {
   }
 }, false, 'Asia/Taipei');
 
-new CronJob('* * */12 * * *', function() {
+new CronJob('* * */6 * * *', function() {
   try {
     exec(buildAllRepo, finishBuild);
   } catch(e) {
     console.error(e);
   }
-}, false, 'Asia/Taipei');
+}, true, 'Asia/Taipei');
 
 new CronJob('* * */12 * * *', function() {
   try {
