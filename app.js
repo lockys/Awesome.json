@@ -11,7 +11,7 @@ new CronJob('* * */24 * * *', function() {
   } catch (e) {
     console.error(e);
   }
-}, true, 'Asia/Taipei');
+}, false, 'Asia/Taipei');
 
 new CronJob('* * */12 * * *', function() {
   try {
@@ -19,7 +19,7 @@ new CronJob('* * */12 * * *', function() {
   } catch(e) {
     console.error(e);
   }
-}, true, 'Asia/Taipei');
+}, false, 'Asia/Taipei');
 
 new CronJob('* * */12 * * *', function() {
   try {
@@ -33,7 +33,7 @@ new CronJob('* * */12 * * *', function() {
   } catch (e) {
     console.error(e); 
   }
-}, true, 'Asia/Taipei');
+}, false, 'Asia/Taipei');
 
 function finishAwesome(err, stdout, stderr) {
   if (err) {
