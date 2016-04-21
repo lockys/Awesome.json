@@ -2,10 +2,9 @@ var CronJob = require('cron').CronJob;
 var exec = require('child_process').exec;
 var buildAwesome = 'npm run awesome';
 var buildAllRepo = 'npm run build';
-var pushCmd = 'npm run push';
 
 console.log('Do The Crob Job! Awesome :)');
-new CronJob('* * */2 * * *', function() {
+new CronJob('* */30 * * * *', function() {
   try {
     exec(buildAwesome, finishAwesome);
   } catch (e) {
@@ -27,12 +26,5 @@ function finishBuild(err, stdout, stderr) {
     console.log(stderr);
   } else {
     console.log(stdout);
-    //exec(pushCmd, function(err, stdout, stderr) {
-    // if (err) {
-    //   console.log(stderr);
-    // } else {
-    //   console.log(stdout); 
-    // }
-    //});
   }
 }
