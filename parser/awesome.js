@@ -46,7 +46,6 @@ function processReadMe(error, content, cb) {
           url: $(subCate[k]).attr('href'),
           repo: `${$(subCate[k]).attr('href').split('/')[3]}/${$(subCate[k]).attr('href').split('/')[4]}`,
           cate: category[i],
-          filename: subCateName.replace(/\W/g, '').toLowerCase(),
         };
 
         awesomeJson[category[i]].push(singleObj);

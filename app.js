@@ -5,7 +5,7 @@ var buildAllRepo = 'npm run build';
 var pushCmd = 'npm run push';
 
 console.log('Do The Crob Job! Awesome :)');
-new CronJob('* * */24 * * *', function() {
+new CronJob('* * */2 * * *', function() {
   try {
     exec(buildAwesome, finishAwesome);
   } catch (e) {
@@ -27,12 +27,12 @@ function finishBuild(err, stdout, stderr) {
     console.log(stderr);
   } else {
     console.log(stdout);
-    exec(pushCmd, function(err, stdout, stderr) {
-     if (err) {
-       console.log(stderr);
-     } else {
-       console.log(stdout); 
-     }
-    });
+    //exec(pushCmd, function(err, stdout, stderr) {
+    // if (err) {
+    //   console.log(stderr);
+    // } else {
+    //   console.log(stdout); 
+    // }
+    //});
   }
 }
