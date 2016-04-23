@@ -157,6 +157,11 @@
     "description": "The world's first fully managed"
   },
   {
+    "name": "GraphStory",
+    "url": "https://www.graphstory.com/",
+    "description": "Neo4j enterprise cloud provider"
+  },
+  {
     "name": "Debian Packages",
     "url": "http://debian.neo4j.org/"
   },
@@ -175,9 +180,14 @@
     "description": "Up & Running Neo4j cluster in no time."
   },
   {
-    "name": "neo4j-to-elasticsearch",
+    "name": "GraphAware Neo4j Elasticsearch Integration",
     "url": "https://github.com/graphaware/neo4j-to-elasticsearch",
-    "description": "GraphAware Elasticsearch Integration is an enterprise-grade bi-directional integration between Neo4j and Elasticsearch."
+    "description": "GraphAware Framework Module for Integrating Neo4j with Elasticsearch."
+  },
+  {
+    "name": "GraphAware Graph-Aided Search",
+    "url": "https://github.com/graphaware/graph-aided-search",
+    "description": "Elasticsearch plugin offering Neo4j integration for Personalized Search."
   },
   {
     "name": "neo4j-elasticsearch",
@@ -250,6 +260,11 @@
     "description": "GraphAware RestTest is a simple library for testing code that talks to Neo4j running in standalone server mode."
   },
   {
+    "name": "GraphAware Neo4j Expire",
+    "url": "https://github.com/graphaware/neo4j-expire",
+    "description": "GraphAware Expire is a simple library that automatically deletes nodes and relationships from the database when they've reached their expiration date or time-to-live (TTL)."
+  },
+  {
     "name": "Spatial",
     "url": "https://github.com/neo4j-contrib/spatial",
     "description": "Neo4j Spatial is a library of utilities for Neo4j that faciliates the enabling of spatial operations on data."
@@ -263,6 +278,16 @@
     "name": "neo4j-tx-participation",
     "url": "https://github.com/jexp/neo4j-tx-participation",
     "description": "This is a Neo4j Server Extension to make Neo4j REST-API participate in transactions started by the transactional Cypher endpoint."
+  },
+  {
+    "name": "Apoc : Awesome Procedures on Cypher",
+    "url": "https://github.com/neo4j-contrib/neo4j-apoc-procedures",
+    "description": "Collection of useful procedures for Neo4j 3.x"
+  },
+  {
+    "name": "Graphgen",
+    "url": "https://github.com/graphaware/neo4j-graphgen-procedure",
+    "description": "Neo4j procedure for generating test data easily with Cypher"
   },
   {
     "name": "Maven repositories",
@@ -371,8 +396,8 @@
     "description": "Become a Neo4j-Certified Professional."
   },
   {
-    "name": "Neo4j Data Protocol, Version 1",
-    "url": "http://alpha.neohq.net/docs/server-manual/bolt.html",
+    "name": "Neo4j Bolt Protocol, Version 1",
+    "url": "http://neo4j.com/docs/3.0.0-SNAPSHOT/bolt.html",
     "description": "This section describes the Neo4j Data Protocol, version 1. It is written primarily for those implementing client drivers as well as those who want to understand the low-level communication details of such interactions."
   },
   {
