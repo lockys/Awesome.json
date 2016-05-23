@@ -148,7 +148,7 @@
   {
     "name": "calc.plugin.zsh",
     "url": "https://github.com/arzzen/calc.plugin.zsh",
-    "description": "calculator for zsh"
+    "description": "A calculator for zsh"
   },
   {
     "name": "caniuse.plugin.zsh",
@@ -201,6 +201,20 @@
     "description": "Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically."
   },
   {
+    "name": "docker-compose Show docker container status in your prompt.",
+    "url": "https://github.com/sroze/docker-compose-zsh-plugin"
+  },
+  {
+    "name": "docker-fun",
+    "url": "https://github.com/johnlabarge/docker_fun",
+    "description": "Adds docker convenience functions."
+  },
+  {
+    "name": "docker-helpers",
+    "url": "https://github.com/unixorn/docker-helpers.zshplugin",
+    "description": "A collection of docker helper scripts."
+  },
+  {
     "name": "elixir-oh-my-zsh",
     "url": "https://github.com/gusaiani/elixir-oh-my-zsh",
     "description": "oh-my-zsh plugin for Elixir, IEX, Mix and Phoenix"
@@ -228,7 +242,7 @@
   {
     "name": "fzf-z",
     "url": "https://github.com/andrewferrier/fzf-z",
-    "description": "This zsh plugin brings together the z plugin and fzf to allow you to easily browse recently used directories at any point on the command line."
+    "description": "Brings together the z plugin and fzf to allow you to easily browse recently used directories at any point on the command line."
   },
   {
     "name": "get-jquery",
@@ -306,6 +320,11 @@
     "description": "Send hipchat messages from the shell."
   },
   {
+    "name": "history-search-multi-word",
+    "url": "https://github.com/psprint/history-search-multi-word",
+    "description": "multi-word history searcher for Zsh, bound to Ctrl-R"
+  },
+  {
     "name": "history-sync",
     "url": "https://github.com/wulfgarpro/history-sync",
     "description": "An Oh My Zsh plugin for GPG encrypted, Internet synchronized Zsh history using Git."
@@ -346,6 +365,11 @@
     "description": "Maven plugins for Oh-My-Zsh."
   },
   {
+    "name": "locate-sublime-projects-cli",
+    "url": "https://github.com/david-treblig/locate-sublime-projects-cli",
+    "description": "Allows searching for Sublime Text projects and opens them in Sublime."
+  },
+  {
     "name": "mac-packaging",
     "url": "https://github.com/Temikus/mac-packaging",
     "description": "A set of common functions used for enterprise Mac packaging with Munki"
@@ -374,6 +398,11 @@
     "name": "node.plugin.zsh",
     "url": "https://github.com/srijanshetty/node.plugin.zsh",
     "description": "Srijan Shetty's nodejs plugin for zsh with caching of nvm completions and autoloading of nvm if present."
+  },
+  {
+    "name": "nvm-auto-use",
+    "url": "https://github.com/tomsquest/nvm-auto-use.zsh",
+    "description": "calls nvm use automatically whenever you enter a directory that contains an .nvmrc file with a string telling nvm which node to use"
   },
   {
     "name": "oh-my-dogesh",
@@ -463,7 +492,7 @@
   {
     "name": "safe-paste",
     "url": "https://github.com/oz/safe-paste",
-    "description": "safe-paste plugin. See http://cirw.in/blog/bracketed-paste"
+    "description": "A safe-paste plugin. See http://cirw.in/blog/bracketed-paste"
   },
   {
     "name": "saneopt",
@@ -621,6 +650,11 @@
     "description": "Makes it easier to colorize text from the CLI. red foo just works."
   },
   {
+    "name": "zsh-completion-generator",
+    "url": "https://github.com/RobSis/zsh-completion-generator",
+    "description": "This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator."
+  },
+  {
     "name": "zsh-dircolors-solarized",
     "url": "https://github.com/joel-porquet/zsh-dircolors-solarized",
     "description": "Solarized dircolors plugin."
@@ -638,7 +672,7 @@
   {
     "name": "zsh-editing-workbench",
     "url": "https://github.com/psprint/zsh-editing-workbench",
-    "description": "sane, complex command line editing (e.g. incremental history word completion)"
+    "description": "Adds sane, complex command line editing (e.g. incremental history word completion)"
   },
   {
     "name": "zsh-functional",
@@ -693,12 +727,12 @@
   {
     "name": "zsh-maven-plugin",
     "url": "https://github.com/KyleChamberlin/zsh_maven_plugin",
-    "description": "fork of the oh-my-zsh maven plugin"
+    "description": "A fork of the oh-my-zsh maven plugin"
   },
   {
     "name": "zsh-navigation-tools",
     "url": "https://github.com/psprint/zsh-navigation-tools",
-    "description": "htop-like kill, directory bookmarks browser, multi-word incremental history searcher and more"
+    "description": "Adds htop-like kill, directory bookmarks browser, multi-word incremental history searcher and more."
   },
   {
     "name": "zsh-notify",
@@ -726,13 +760,14 @@
     "description": "Search shell history with Peco when pressing ctrl+r."
   },
   {
-    "name": "zsh-pg Utility functions to work with PosgreSQL",
-    "url": "https://github.com/caarlos0/zsh-pg"
+    "name": "zsh-pg",
+    "url": "https://github.com/caarlos0/zsh-pg",
+    "description": "Utility functions to work with PosgreSQL"
   },
   {
     "name": "zsh-plugin-ibtool",
     "url": "https://github.com/RudthMael/zsh-plugin-ibtool",
-    "description": "ibtool shortcuts to generate localized XIB files"
+    "description": "Adds ibtool shortcuts to generate localized XIB files"
   },
   {
     "name": "zsh-plugin-rails",
@@ -750,8 +785,9 @@
     "description": "Plugin that re-enters working directory if it has been removed and re-created."
   },
   {
-    "name": "zsh-suffix-alias: Directly open files in the shell using ZSH's suffix aliases.",
-    "url": "https://github.com/srijanshetty/zsh-suffix-alias"
+    "name": "zsh-suffix-alias",
+    "url": "https://github.com/srijanshetty/zsh-suffix-alias",
+    "description": "Directly open files in the shell using ZSH's suffix aliases."
   },
   {
     "name": "zsh-syntax-highlighting",
@@ -766,7 +802,7 @@
   {
     "name": "zsh-terminal-app",
     "url": "https://github.com/the8/zsh-terminal-app",
-    "description": "plugin for integrating with the new El Capitan Terminal.app features"
+    "description": "A plugin for integrating with the new El Capitan Terminal.app features"
   },
   {
     "name": "zsh-titles",
@@ -776,12 +812,12 @@
   {
     "name": "zsh-travis",
     "url": "https://github.com/denolfe/zsh-travis",
-    "description": "Open's Travis CI page for the current repo if one exists."
+    "description": "Opens the Travis CI page for the current repo if one exists."
   },
   {
     "name": "zsh-tmux-simple",
     "url": "https://github.com/TBSliver/zsh-plugin-tmux-simple",
-    "description": "Simple plugin for using tmux with zsh"
+    "description": "Simple plugin for using tmux with zsh."
   },
   {
     "name": "zsh-url-highlighter",
@@ -791,86 +827,82 @@
   {
     "name": "zsh-vim-mode",
     "url": "https://github.com/sharat87/zsh-vim-mode",
-    "description": "Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like"
+    "description": "Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like."
   },
   {
     "name": "zshmarks",
     "url": "https://github.com/jocelynmallon/zshmarks",
-    "description": "A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh"
+    "description": "A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh."
   },
   {
     "name": "zsnapshot",
     "url": "https://github.com/psprint/zsnapshot",
-    "description": "command which dumps current Zsh state into a file, for restoration by sourcing the file"
+    "description": "Adds command to dump the current Zsh state into a file, for later restoration by sourcing the snapshot file."
+  },
+  {
+    "name": "Ztrace",
+    "url": "https://github.com/psprint/ztrace",
+    "description": "Catches output of commands, allows to reuse that output, glue it with history content."
   },
   {
     "name": "autopkg-zsh-completion",
     "url": "https://github.com/fuzzylogiq/autopkg-zsh-completion",
-    "description": "Completions for autopkg"
+    "description": "Completions for autopkg."
   },
   {
     "name": "berkshelf-zsh-plugin",
     "url": "https://github.com/berkshelf/berkshelf-zsh-plugin",
-    "description": "Adds tab completion for berkshelf"
+    "description": "Adds tab completion for berkshelf."
   },
   {
     "name": "bosh-zsh-autocompletion",
     "url": "https://github.com/krujos/bosh-zsh-autocompletion",
-    "description": "Adds BOSH autocompletion"
+    "description": "Adds BOSH autocompletion."
   },
   {
     "name": "brew-services",
     "url": "https://github.com/vasyharan/zsh-brew-services",
-    "description": "Completion plugin for homebrew services"
+    "description": "Completion plugin for homebrew services."
   },
   {
     "name": "cabal",
     "url": "https://github.com/d12frosted/cabal.plugin.zsh",
-    "description": "Adds autocompletion for cabal"
+    "description": "Adds autocompletion for cabal."
   },
   {
     "name": "cf-zsh-autocomplete-plugin",
     "url": "https://github.com/frodenas/cf-zsh-autocomplete-plugin",
-    "description": "Adds autocomplete for all Cloud Foundry CLI commands"
+    "description": "Adds autocomplete for all Cloud Foundry CLI commands."
   },
   {
     "name": "codeception-zsh-plugin",
     "url": "https://github.com/shengyou/codeception-zsh-plugin",
-    "description": "Adds command completion for the Codeception Testing Framework"
+    "description": "Adds command completion for the Codeception Testing Framework."
   },
   {
     "name": "codemachine",
     "url": "https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine",
-    "description": "Displays git info, whether you're logged in via ssh, return code of last command"
+    "description": "Displays git info, whether you're logged in via ssh, return code of last command."
   },
   {
     "name": "dbic",
     "url": "https://github.com/lejeunerenard/dbic-migration-env",
-    "description": "Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer"
+    "description": "Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer."
   },
   {
-    "name": "docker-compose Show docker container status in your prompt",
-    "url": "https://github.com/sroze/docker-compose-zsh-plugin"
+    "name": "docker-compose",
+    "url": "https://github.com/sroze/docker-compose-zsh-plugin",
+    "description": "Show docker container status in your prompt."
   },
   {
     "name": "docker-enter-completion",
     "url": "https://github.com/primait/docker-enter-completion",
-    "description": "Command completion for docker-enter"
-  },
-  {
-    "name": "docker-fun",
-    "url": "https://github.com/johnlabarge/docker_fun",
-    "description": "docker convenience functions"
-  },
-  {
-    "name": "docker-helpers",
-    "url": "https://github.com/unixorn/docker-helpers.zshplugin",
-    "description": "A collection of docker helper scripts"
+    "description": "Command completion for docker-enter."
   },
   {
     "name": "docker-zsh-completion",
     "url": "https://github.com/felixr/docker-zsh-completion",
-    "description": "Add completions for docker"
+    "description": "Add completions for docker."
   },
   {
     "name": "dropbox",
@@ -890,7 +922,7 @@
   {
     "name": "etcdctl-zsh",
     "url": "https://github.com/sheax0r/etcdctl-zsh",
-    "description": "etcdctl autocomplete plugin for oh-my-zsh"
+    "description": "Adds etcdctl tab completions."
   },
   {
     "name": "exercism",
@@ -900,7 +932,7 @@
   {
     "name": "fly-zsh-autocomplete-plugin",
     "url": "https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin",
-    "description": "adds autocompletion options for all Concourse CLI commands."
+    "description": "Adds autocompletion options for all Concourse CLI commands."
   },
   {
     "name": "git-flow-completion",
@@ -920,7 +952,7 @@
   {
     "name": "gulp-autocompletion-zsh",
     "url": "https://github.com/srijanshetty/gulp-autocompletion-zsh",
-    "description": "Autocompletion for gulp"
+    "description": "Autocompletion for gulp."
   },
   {
     "name": "jumpstorm-zsh-plugin",
@@ -928,39 +960,14 @@
     "description": "Adds autocompletion for jumpstorm"
   },
   {
-    "name": "liquidprompt",
-    "url": "https://github.com/nojhan/liquidprompt",
-    "description": "A full-featured & carefully designed adaptive prompt for Bash & ZSH"
-  },
-  {
-    "name": "locate-sublime-projects-cli",
-    "url": "https://github.com/david-treblig/locate-sublime-projects-cli",
-    "description": "Allows searching for Sublime Text projects and opens them in Sublime."
-  },
-  {
-    "name": "multi-shell-repo-prompt",
-    "url": "https://github.com/dotcode/multi-shell-repo-prompt",
-    "description": "Provides useful information (in your prompt) about the repository that you are in. It currently works for Git and Mercurial, under zsh as well as bash"
-  },
-  {
     "name": "npm-run.plugin.zsh",
     "url": "https://github.com/akoenig/npm-run.plugin.zsh",
     "description": "npm run autocompletion"
   },
   {
-    "name": "nvm-auto-use",
-    "url": "https://github.com/tomsquest/nvm-auto-use.zsh",
-    "description": "calls nvm use automatically whenever you enter a directory that contains an .nvmrc file with a string telling nvm which node to use"
-  },
-  {
     "name": "octopress-zsh-completion",
     "url": "https://github.com/nsetyo/octopress-zsh-completion",
     "description": "completions for Octopress"
-  },
-  {
-    "name": "oh-my-git",
-    "url": "https://github.com/arialdomartini/oh-my-git",
-    "description": "An opinionated prompt for bash and zsh"
   },
   {
     "name": "oh-my-zsh-nova",
@@ -971,11 +978,6 @@
     "name": "oh-my-zsh-plugin-nvm",
     "url": "https://github.com/olesu/oh-my-zsh-plugin-nvm",
     "description": "Ole Sunde's nvm plugin for zsh"
-  },
-  {
-    "name": "oh-my-zsh-robbl",
-    "url": "https://github.com/robbl/oh-my-zsh-config",
-    "description": "shows git/svn status including time since last commit, rvm status in prompt."
   },
   {
     "name": "oh-my-zsh-spring-boot-plugin",
@@ -1018,11 +1020,6 @@
     "description": "Add tab completion for cabal"
   },
   {
-    "name": "zsh-completion-generator",
-    "url": "https://github.com/RobSis/zsh-completion-generator",
-    "description": "This plugin tries to read the list of options from the help text of programs and generate a completion function automatically."
-  },
-  {
     "name": "zsh-completions",
     "url": "https://github.com/zsh-users/zsh-completions",
     "description": "A collection of extra completions for ZSH."
@@ -1033,13 +1030,9 @@
     "description": "Completions for the Interplanetary File System"
   },
   {
-    "name": "zsh-megaprompt",
-    "url": "https://github.com/willghatch/zsh-megaprompt",
-    "description": "A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character. Requires the hooks plugin."
-  },
-  {
-    "name": "zsh-packer tab completion for packer",
-    "url": "https://github.com/wakeful/zsh-packer"
+    "name": "zsh-packer",
+    "url": "https://github.com/wakeful/zsh-packer",
+    "description": "Adds tab completion for packer"
   },
   {
     "name": "zsh-pandoc-completion",
@@ -1130,10 +1123,6 @@
     "name": "darkblood-modular",
     "url": "https://github.com/InAnimaTe/darkblood-modular",
     "description": "This version of the popular darkblood theme has been enhanced with a near complete rewrite enabling modularity and a few new features."
-  },
-  {
-    "name": "docker-compose Show docker container status in your prompt.",
-    "url": "https://github.com/sroze/docker-compose-zsh-plugin"
   },
   {
     "name": "dracula",
@@ -1293,6 +1282,11 @@
     "name": "molokai-powerline-zsh",
     "url": "https://github.com/prikhi/molokai-powerline-zsh",
     "description": "Based on agnoster."
+  },
+  {
+    "name": "multi-shell-repo-prompt",
+    "url": "https://github.com/dotcode/multi-shell-repo-prompt",
+    "description": "Provides useful information (in your prompt) about the repository that you are in. It currently works for Git and Mercurial, under zsh as well as bash"
   },
   {
     "name": "nanofish",
@@ -1481,6 +1475,11 @@
     "name": "zero",
     "url": "https://github.com/arlimus/zero.zsh",
     "description": "Zero's theme & plugin"
+  },
+  {
+    "name": "zsh-megaprompt",
+    "url": "https://github.com/willghatch/zsh-megaprompt",
+    "description": "A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character. Requires the hooks plugin."
   },
   {
     "name": "zsh-prompt-iggy",
