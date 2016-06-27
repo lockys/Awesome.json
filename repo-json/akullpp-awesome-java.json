@@ -20,11 +20,6 @@
     "description": "Templates for HTML pages, emails or source code generation in general."
   },
   {
-    "name": "cglib",
-    "url": "https://github.com/cglib/cglib",
-    "description": "Bytecode generation library."
-  },
-  {
     "name": "FreeMarker",
     "url": "http://freemarker.org/",
     "description": "General templating engine without any heavyweight or opinionated dependencies."
@@ -143,6 +138,11 @@
     "name": "Byteman",
     "url": "http://byteman.jboss.org/",
     "description": "Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting."
+  },
+  {
+    "name": "cglib",
+    "url": "https://github.com/cglib/cglib",
+    "description": "Bytecode generation library."
   },
   {
     "name": "Javassist",
@@ -540,9 +540,19 @@
     "description": "Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems."
   },
   {
+    "name": "Atomix",
+    "url": "http://atomix.io/atomix/",
+    "description": "Fault-tolerant distributed coordination framework."
+  },
+  {
     "name": "Axon Framework",
     "url": "http://www.axonframework.org/",
     "description": "Framework for creating CQRS applications."
+  },
+  {
+    "name": "Copycat",
+    "url": "http://atomix.io/copycat/",
+    "description": "Fault-tolerant state machine replication framework."
   },
   {
     "name": "Ehcache",
@@ -1080,9 +1090,9 @@
     "description": "Implementation and explanation of the most common design patterns."
   },
   {
-    "name": "failsafe",
+    "name": "Failsafe",
     "url": "https://github.com/jhalterman/failsafe",
-    "description": "Simple error handling with async retries."
+    "description": "Simple failure handling with retries and circuit breakers."
   },
   {
     "name": "J2ObjC",
@@ -1128,6 +1138,11 @@
     "name": "OpenRefine",
     "url": "http://openrefine.org/",
     "description": "Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases."
+  },
+  {
+    "name": "TypeTools",
+    "url": "https://github.com/jhalterman/typetools",
+    "description": "Tools for resolving generic types."
   },
   {
     "name": "AppDynamics",
@@ -1193,6 +1208,11 @@
     "name": "CoreNLP",
     "url": "http://nlp.stanford.edu/software/corenlp.shtml",
     "description": "Stanford's CoreNLP provides a set of fundamental tools for tasks like tagging, named entity recognition, sentiment analysis and many more."
+  },
+  {
+    "name": "DKPro",
+    "url": "https://dkpro.github.io/",
+    "description": "A collection of re-usable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc."
   },
   {
     "name": "LingPipe",
@@ -1572,6 +1592,11 @@
     "name": "Citrus",
     "url": "http://citrusframework.org/",
     "description": "Integration testing framework with focus on client- and serverside messaging."
+  },
+  {
+    "name": "ConcurrentUnit",
+    "url": "https://github.com/jhalterman/concurrentunit",
+    "description": "Toolkit for testing multi-threaded and asynchronous applications."
   },
   {
     "name": "Cucumber",
