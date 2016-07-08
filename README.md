@@ -5,9 +5,8 @@ It is sub-project of Awesome Search, please refer to [Awesome Search](https://gi
 
 Run
 ==
-1. create `all-github-path` & `test-output` manually.  
-
-```js
+```sh
+$ cd awesome.json && mkdir repo-json
 $ npm run awesome # To get the latest curated lists of awesome lists.
 $ npm run build # To get all links of all awesome lists.
 ```
