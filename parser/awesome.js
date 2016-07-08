@@ -11,7 +11,7 @@ function processReadMe(error, content, cb) {
   let awesomeJson = {};
 
   for (let i = 0, len = headingArray.length; i < len; ++i) {
-    if ($(headingArray[i]).text() !== 'Table of Contents' &&
+    if ($(headingArray[i]).text() !== 'Contents' &&
         $(headingArray[i]).text() !== 'License') {
       category.push($(headingArray[i]).text());
       awesomeJson[$(headingArray[i]).text()] = [];
