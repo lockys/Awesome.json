@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "awesome": "cd lib && node awesome.js && mv ../test-output/awesome.json ../awesome",
     "build": "git pull --no-edit origin master && cd lib && node gen-all-awesome-list.js && mv ./awesome-json/sindresorhus-awesome.json ../all-github-path && mv ./awesome-json/*.json ../repo-json",
-    "push": "git add --all . && git commit -m \"updated json $`date`\" && git push origin master"
+    "push": "git add --all . && git commit -m \":chart_with_upwards_trend: UPDATE JSON AT `date`\" && git push origin master"
   },
   "repository": {
     "type": "git",
