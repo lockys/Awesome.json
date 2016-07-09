@@ -480,7 +480,7 @@
   {
     "name": "not-defined",
     "url": "https://github.com/fibo/not-defined",
-    "description": "Is a shortcut to typeof foo === 'undefined'."
+    "description": "Is a shortcut to (typeof foo === 'undefined') || (foo === null)."
   },
   {
     "name": "is-fqdn",
