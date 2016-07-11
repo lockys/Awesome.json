@@ -510,9 +510,19 @@
     "description": "An OAuth 1.0 implementation for Elixir."
   },
   {
+    "name": "openmaize",
+    "url": "https://github.com/riverrun/openmaize",
+    "description": "Authentication library for Elixir."
+  },
+  {
     "name": "ueberauth",
     "url": "https://github.com/ueberauth/ueberauth",
     "description": "An Elixir Authentication System for Plug-based Web Applications."
+  },
+  {
+    "name": "ueberauth_auth0",
+    "url": "https://hex.pm/packages/ueberauth_auth0",
+    "description": "An Ueberauth strategy for using Auth0 to authenticate your users."
   },
   {
     "name": "ueberauth_facebook",
@@ -550,14 +560,14 @@
     "description": "vk.com Strategy for Überauth."
   },
   {
+    "name": "ueberauth_weibo",
+    "url": "https://github.com/he9qi/ueberauth_weibo",
+    "description": "Weibo OAuth2 Strategy for Überauth."
+  },
+  {
     "name": "canary",
     "url": "https://github.com/cpjk/canary",
     "description": "An authorization library for Elixir applications that restricts what resources the current user is allowed to access."
-  },
-  {
-    "name": "openmaize",
-    "url": "https://github.com/elixircnx/openmaize",
-    "description": "Authentication and authorization library for Elixir."
   },
   {
     "name": "connection",
@@ -565,9 +575,29 @@
     "description": "Connection behaviour for connection processes. The API is superset of the GenServer API."
   },
   {
+    "name": "gen_state_machine",
+    "url": "https://github.com/antipax/gen_state_machine",
+    "description": "Elixir wrapper for gen_statem."
+  },
+  {
     "name": "stockastic",
     "url": "https://github.com/shanewilton/stockastic",
     "description": "Simple Elixir wrapper for the Stockfighter API."
+  },
+  {
+    "name": "benchee",
+    "url": "https://github.com/PragTob/benchee",
+    "description": "Easy and extensible benchmarking in Elixir!"
+  },
+  {
+    "name": "benchfella",
+    "url": "https://github.com/alco/benchfella",
+    "description": "Benchmarking tool for Elixir."
+  },
+  {
+    "name": "bmark",
+    "url": "https://github.com/joekain/bmark",
+    "description": "A benchmarking tool for Elixir."
   },
   {
     "name": "bento",
@@ -733,6 +763,11 @@
     "name": "elixir_locker",
     "url": "https://github.com/tsharju/elixir_locker",
     "description": "Locker is an Elixir wrapper for the locker Erlang library that provides some useful libraries that should make using locker a bit easier."
+  },
+  {
+    "name": "jc",
+    "url": "https://github.com/jr0senblum/jc",
+    "description": "In-memory, distrbutable cache with pub/sub, JSON-query and consistency support."
   },
   {
     "name": "locker",
@@ -911,13 +946,18 @@
   },
   {
     "name": "comeonin",
-    "url": "https://github.com/elixircnx/comeonin",
-    "description": "Password authorization (bcrypt) library for Elixir."
+    "url": "https://github.com/riverrun/comeonin",
+    "description": "Password authorization (bcrypt, pbkdf2_sha512 and one-time passwords) library for Elixir."
   },
   {
     "name": "elixir_tea",
     "url": "https://github.com/keichan34/elixir_tea",
     "description": "TEA implementation in Elixir."
+  },
+  {
+    "name": "ex_bcrypt",
+    "url": "https://github.com/manelli/ex_bcrypt",
+    "description": "Elixir wrapper for the OpenBSD bcrypt password hashing algorithm."
   },
   {
     "name": "ex_crypto",
@@ -1038,16 +1078,6 @@
     "name": "beaker",
     "url": "https://github.com/hahuang65/beaker",
     "description": "Statistics and Metrics library for Elixir."
-  },
-  {
-    "name": "benchfella",
-    "url": "https://github.com/alco/benchfella",
-    "description": "Benchmarking tool for Elixir."
-  },
-  {
-    "name": "bmark",
-    "url": "https://github.com/joekain/bmark",
-    "description": "A benchmarking tool for Elixir."
   },
   {
     "name": "booter",
@@ -2395,6 +2425,11 @@
     "description": "Spawns processes from the file system."
   },
   {
+    "name": "std_json_io",
+    "url": "https://github.com/hassox/std_json_io",
+    "description": "Application for managing and communicating with IO servers via JSON."
+  },
+  {
     "name": "url_unroller",
     "url": "https://github.com/semanticart/url_unroller",
     "description": "Simple URL unroller (un-shortener) in Elixir."
@@ -2418,6 +2453,11 @@
     "name": "gibran",
     "url": "https://github.com/abitdodgy/gibran",
     "description": "Gibran is an Elixir port of WordsCounted, a natural language processor that extracts useful statistics from text."
+  },
+  {
+    "name": "Woolly",
+    "url": "https://github.com/pjhampton/woolly",
+    "description": "Woolly is an ambitious Text Mining and Natural Language Processing API for Elixir."
   },
   {
     "name": "chatter",
@@ -2830,6 +2870,11 @@
     "description": "Riak adapter for Ecto."
   },
   {
+    "name": "shards",
+    "url": "https://github.com/cabol/shards",
+    "description": "Transparent and out-of-box Sharding support for Erlang/Elixir ETS tables."
+  },
+  {
     "name": "sql_dust",
     "url": "https://github.com/archan937/sql_dust",
     "description": "Generate (complex) SQL queries using magical Elixir SQL dust."
@@ -2963,6 +3008,11 @@
     "name": "amqp",
     "url": "https://github.com/pma/amqp",
     "description": "Simple Elixir wrapper for the Erlang RabbitMQ client, based on Langohr."
+  },
+  {
+    "name": "cspex",
+    "url": "https://github.com/costaraphael/cspex",
+    "description": "Simple, OTP compliant, Elixir implementation of CSP channels."
   },
   {
     "name": "dbus",
@@ -4215,6 +4265,11 @@
     "description": "Utility library for Elixir, designed to complement the standard library bundled with the language."
   },
   {
+    "name": "dot-notes",
+    "url": "https://github.com/zackehh/dot-notes-elixir",
+    "description": "Simple dot/bracket notation parsing/conversion for Maps/Lists."
+  },
+  {
     "name": "erlsh",
     "url": "https://github.com/proger/erlsh",
     "description": "Family of functions and ports involving interacting with the system shell, paths and external programs."
@@ -4583,6 +4638,11 @@
     "name": "30 Days of Elixir",
     "url": "https://github.com/seven1m/30-days-of-elixir",
     "description": "A walk through the Elixir language in 30 exercises."
+  },
+  {
+    "name": "Awesome Elixir @LibHunt",
+    "url": "https://elixir.libhunt.com",
+    "description": "Your go-to Elixir Toolbox."
   },
   {
     "name": "BEAM Community",
