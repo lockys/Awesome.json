@@ -76,12 +76,27 @@
   {
     "name": "sw-toolbox",
     "url": "https://github.com/GoogleChrome/sw-toolbox/",
-    "description": "A collection of simple helpers to simplify implementing common caching patterns."
+    "description": "A collection of simple helpers to simplify implementing common runtime caching patterns."
   },
   {
     "name": "Manifest Generator",
     "url": "https://brucelawson.github.io/manifest/",
     "description": "Generate a web app manifest, required for push notifications and installable web apps."
+  },
+  {
+    "name": "sw-precache",
+    "url": "https://github.com/GoogleChrome/sw-precache/",
+    "description": "Generates a service worker to cache your local App Shell resources."
+  },
+  {
+    "name": "sw-appcache-behavior",
+    "url": "https://github.com/GoogleChrome/sw-helpers/tree/master/projects/sw-appcache-behavior",
+    "description": "A service worker implementation of the behavior defined in a page's App Cache manifest."
+  },
+  {
+    "name": "sw-offline-google-analytics",
+    "url": "https://github.com/GoogleChrome/sw-helpers/tree/master/projects/sw-offline-google-analytics",
+    "description": "A service worker helper library to retry offline Google Analytics requests when a connection is available."
   },
   {
     "name": "Instant Loading: Building offline-first Progressive Web Apps",
@@ -94,9 +109,19 @@
     "description": "This free Udacity course is a must if you're planning to dive deep into service workers."
   },
   {
+    "name": "Instant Loading with Service Workers (Chrome Dev Summit 2015)",
+    "url": "https://www.youtube.com/watch?v=jCKZDTtUA2A",
+    "description": "Explains how to structure your web app to optimize load time for initial and return visitors, and cover helpful service worker libraries that minimize the amount of boilerplate code you'll have to write."
+  },
+  {
     "name": "Service Workers in Production",
     "url": "https://developers.google.com/web/showcase/case-study/service-workers-iowa",
     "description": "A case-study about how Google I/O 2015 web app was built."
+  },
+  {
+    "name": "Measuring the Real-world Performance Impact of Service Workers",
+    "url": "https://developers.google.com/web/showcase/2016/service-worker-perf",
+    "description": "One of the most significant benefits of service workers (from a performance perspective, at least) is their ability to proactively control the caching of assets. A web application that can cache all of its necessary resources should load substantially faster for returning visitors. But what do these gains actually look like to real users? And how do you even measure this?"
   },
   {
     "name": "Background Sync",
