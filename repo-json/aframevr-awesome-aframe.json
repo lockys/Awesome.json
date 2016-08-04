@@ -138,6 +138,11 @@
     "description": "Talk on A-Frame at SFHTML5"
   },
   {
+    "name": "Introducing WebVR with A-Frame at RunJumpDev July 2016 Monthly Meeting",
+    "url": "https://www.youtube.com/watch?v=hHzUobbVAxQ",
+    "description": "Talk on WebVR (by @nickwarner)"
+  },
+  {
     "name": "Entity Systems Wiki",
     "url": "http://entity-systems.wikidot.com/"
   },
@@ -314,11 +319,6 @@
     "description": "Intuitive desktop view controls without requiring mousedown + drag"
   },
   {
-    "name": "OBJ and MTL Loader",
-    "url": "https://github.com/donmccurdy/aframe-obj-loader-component",
-    "description": "Loader for .OBJ models and .MTL materials"
-  },
-  {
     "name": "Ocean",
     "url": "https://github.com/donmccurdy/aframe-extras/blob/master/src/primitives/a-ocean.js",
     "description": "Flat-shaded ocean primitive and component, with animated waves"
@@ -330,8 +330,18 @@
   },
   {
     "name": "Physics",
-    "url": "https://github.com/ngokevin/aframe-physics-components",
-    "description": "Rigid-body physics"
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/physics",
+    "description": "Rigid-body physics using Cannon.js"
+  },
+  {
+    "name": "Physics + Vive Controls",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/misc",
+    "description": "grab and sphere-collider components for combining Vive controllers with aframe-extras.physics"
+  },
+  {
+    "name": "PLY Loader",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/loaders",
+    "description": "Model loader for .PLY models, wrapping THREE.PLYLoader"
   },
   {
     "name": "Polygon",
@@ -351,6 +361,11 @@
   {
     "name": "Selectable by @scenevr- Click on an entity to select it, handy for editors",
     "url": "https://github.com/scenevr/selectable-component"
+  },
+  {
+    "name": "Shadows",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/shadows",
+    "description": "Realtime shadows "
   },
   {
     "name": "Star",
@@ -378,6 +393,16 @@
     "description": "Polygonal text"
   },
   {
+    "name": "THREE Loader",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/loaders",
+    "description": "Model loader for .json models, wrapping THREE.JSONLoader and THREE.ObjectLoader"
+  },
+  {
+    "name": "Tube",
+    "url": "https://github.com/donmccurdy/aframe-extras/blob/master/src/primitives/a-tube.js",
+    "description": "Cylindrical primitive that shapes itself to a given path"
+  },
+  {
     "name": "UI Modal",
     "url": "https://github.com/IdeaSpaceVR/aframe-ui-modal-component",
     "description": "Show dialog box or a menu in front of the camera"
@@ -385,7 +410,7 @@
   {
     "name": "Universal Controls",
     "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/controls/",
-    "description": "Refactored A-Frame controls that supports gamepad, HMD, keyboard, mouse, touch alongside physics"
+    "description": "Refactored A-Frame controls that supports gamepad, HMD, keyboard, mouse + pointerlock, touch-to-move, with physics compatibility"
   },
   {
     "name": "Video Controls",
@@ -405,7 +430,7 @@
   {
     "name": "Checkpoint Controls",
     "url": "https://github.com/donmccurdy/aframe-extras/blob/master/src/controls/checkpoint-controls.js",
-    "description": "Eased linear locomotion"
+    "description": "Eased linear locomotion between designated hotspots"
   },
   {
     "name": "Height Grid",
@@ -414,7 +439,7 @@
   },
   {
     "name": "Leap Hands",
-    "url": "https://github.com/donmccurdy/aframe-leap-hands",
+    "url": "https://github.com/openleap/aframe-leap-hands",
     "description": "Leap Motion"
   },
   {
@@ -526,6 +551,11 @@
   {
     "name": "React + TweenMax Demo (by @cheapsteak)",
     "url": "http://codepen.io/cheapsteak/pen/pgbdGa?editors=001"
+  },
+  {
+    "name": "React Redux Boilerplate",
+    "url": "https://github.com/HeartRunner/react-redux-aframe-boilerplate/",
+    "description": "Combining React, Redux, React Router, A-Frame and Webpack"
   },
   {
     "name": "a-invaders",
