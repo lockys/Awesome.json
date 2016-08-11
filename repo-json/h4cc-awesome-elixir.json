@@ -90,6 +90,11 @@
     "description": "Collision-resistant ids optimized for horizontal scaling and sequential lookup performance, written in Elixir."
   },
   {
+    "name": "data_morph",
+    "url": "https://hex.pm/packages/data_morph",
+    "description": "Create Elixir structs from data."
+  },
+  {
     "name": "datastructures",
     "url": "https://github.com/meh/elixir-datastructures",
     "description": "A collection of protocols, implementations and wrappers to work with data structures."
@@ -660,6 +665,11 @@
     "description": "Encode and decode bittorrent peer wire protocol messages with Elixir."
   },
   {
+    "name": "BSONMap",
+    "url": "https://github.com/Nebo15/bsoneach",
+    "description": "Elixir package that applies a function to each document in a BSON file and has a low memory consumption."
+  },
+  {
     "name": "active",
     "url": "https://github.com/synrc/active",
     "description": "Recompilation and Reloading on FileSystem changes."
@@ -828,6 +838,46 @@
     "name": "stash",
     "url": "https://github.com/zackehh/stash",
     "description": "A straightforward, fast, and user-friendly key/value store."
+  },
+  {
+    "name": "chatty",
+    "url": "https://github.com/alco/chatty",
+    "description": "A basic IRC client that is most useful for writing a bot."
+  },
+  {
+    "name": "cog",
+    "url": "https://github.com/operable/cog",
+    "description": "Cog is an open chatops platform that gives you a secure, collaborative command line right in your chat window."
+  },
+  {
+    "name": "ExIrc",
+    "url": "https://github.com/bitwalker/exirc",
+    "description": "IRC client adapter for Elixir projects."
+  },
+  {
+    "name": "Guri",
+    "url": "https://github.com/elvio/guri",
+    "description": "Automate tasks using chat messages."
+  },
+  {
+    "name": "hedwig",
+    "url": "https://github.com/scrogson/hedwig",
+    "description": "XMPP Client/Bot Framework for Elixir."
+  },
+  {
+    "name": "kaguya",
+    "url": "https://github.com/Luminarys/Kaguya",
+    "description": "A small, powerful, and modular IRC bot."
+  },
+  {
+    "name": "slacker",
+    "url": "https://github.com/koudelka/slacker",
+    "description": "A bot library for the Slack chat service."
+  },
+  {
+    "name": "yocingo",
+    "url": "https://github.com/Yawolf/yocingo",
+    "description": "Create your own Telegram Bot."
   },
   {
     "name": "aws",
@@ -1378,6 +1428,11 @@
     "name": "lolcat",
     "url": "https://github.com/restartr/ex-lolcat",
     "description": "This is the clone of busyloop/lolcat. But it does not support animation and some features of the original."
+  },
+  {
+    "name": "magnetissimo",
+    "url": "https://github.com/sergiotapia/magnetissimo",
+    "description": "Web application that indexes all popular torrent sites, and saves it to the local database."
   },
   {
     "name": "oop",
@@ -2010,6 +2065,11 @@
     "description": "HTTP client library, with support for middleware and multiple adapters."
   },
   {
+    "name": "Tube",
+    "url": "https://github.com/narrowtux/Tube",
+    "description": "Pure Elixir WebSocket client library."
+  },
+  {
     "name": "uri_template",
     "url": "https://github.com/pezra/ex-uri-template",
     "description": "RFC6570 compliant URI template processor for Elixir."
@@ -2198,6 +2258,11 @@
     "name": "lex_luthor",
     "url": "https://github.com/jamesotron/lex_luthor",
     "description": "LexLuthor is a Lexer in Elixir which uses macros to generate a reusable lexers."
+  },
+  {
+    "name": "exlager",
+    "url": "https://github.com/khia/exlager",
+    "description": "Elixir binding for lager."
   },
   {
     "name": "exsentry",
@@ -2590,11 +2655,6 @@
     "description": "Secure message broadcasting based on a mixture of UDP multicast and TCP."
   },
   {
-    "name": "chatty",
-    "url": "https://github.com/alco/chatty",
-    "description": "A basic IRC client that is most useful for writing a bot."
-  },
-  {
     "name": "eio",
     "url": "https://github.com/falood/eio",
     "description": "Elixir server of engine.io."
@@ -2605,29 +2665,9 @@
     "description": "Robust, ubiquitous and massively scalable Jabber/XMPP Instant Messaging platform."
   },
   {
-    "name": "ExIrc",
-    "url": "https://github.com/bitwalker/exirc",
-    "description": "IRC client adapter for Elixir projects."
-  },
-  {
     "name": "ExPcap",
     "url": "https://github.com/cobenian/expcap",
     "description": "PCAP parser written in Elixir."
-  },
-  {
-    "name": "Guri",
-    "url": "https://github.com/elvio/guri",
-    "description": "Automate tasks using chat messages."
-  },
-  {
-    "name": "hedwig",
-    "url": "https://github.com/scrogson/hedwig",
-    "description": "XMPP Client/Bot Framework for Elixir."
-  },
-  {
-    "name": "kaguya",
-    "url": "https://github.com/Luminarys/Kaguya",
-    "description": "A small, powerful, and modular IRC bot."
   },
   {
     "name": "mac",
@@ -2643,11 +2683,6 @@
     "name": "reagent",
     "url": "https://github.com/meh/reagent",
     "description": "reagent is a socket acceptor pool for Elixir."
-  },
-  {
-    "name": "slacker",
-    "url": "https://github.com/koudelka/slacker",
-    "description": "A bot library for the Slack chat service."
   },
   {
     "name": "socket",
@@ -2668,11 +2703,6 @@
     "name": "wpa_supplicant",
     "url": "https://github.com/fhunleth/wpa_supplicant.ex",
     "description": "Elixir interface to the wpa_supplicant."
-  },
-  {
-    "name": "yocingo",
-    "url": "https://github.com/Yawolf/yocingo",
-    "description": "Create your own Telegram Bot."
   },
   {
     "name": "excellent",
@@ -3258,6 +3288,11 @@
     "name": "changex",
     "url": "https://github.com/Gazler/changex",
     "description": "Automated changelog generation from GIT logs."
+  },
+  {
+    "name": "distillery",
+    "url": "https://github.com/bitwalker/distillery",
+    "description": "A pure Elixir implementation of release packaging functionality for the Erlang VM."
   },
   {
     "name": "eliver",
@@ -4113,6 +4148,11 @@
     "name": "exdesk",
     "url": "https://github.com/deadkarma/exdesk",
     "description": "Elixir library for the Desk.com API."
+  },
+  {
+    "name": "exfacebook",
+    "url": "https://github.com/oivoodoo/exfacebook",
+    "description": "Facebook API, written in Elixir using similar methods like Ruby koala gem."
   },
   {
     "name": "exgenius",
