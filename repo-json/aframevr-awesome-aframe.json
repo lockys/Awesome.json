@@ -174,21 +174,6 @@
     "url": "http://ngokevin.com/blog/aframe-component/"
   },
   {
-    "name": "Component Boilerplate",
-    "url": "https://github.com/ngokevin/aframe-component-boilerplate",
-    "description": "Boilerplate for creating and sharing A-Frame VR components"
-  },
-  {
-    "name": "aframe-extras",
-    "url": "https://github.com/donmccurdy/aframe-extras",
-    "description": "Don's collection of A-Frame components"
-  },
-  {
-    "name": "k-frame",
-    "url": "https://github.com/ngokevin/k-frame",
-    "description": "Kevin's collection of A-Frame components"
-  },
-  {
     "name": "Along Path",
     "url": "https://jsbin.com/dasefeh/edit?html,output",
     "description": "Interpolating an entity's position along a path"
@@ -204,9 +189,19 @@
     "description": "Audio visualizations using WebAudio API"
   },
   {
+    "name": "Bmfont",
+    "url": "https://github.com/bryik/aframe-bmfont-text-component",
+    "description": "Renders bitmap/SDF fonts for high-quality 2D text"
+  },
+  {
     "name": "Broadcast",
     "url": "https://github.com/ngokevin/aframe-broadcast-component",
     "description": "Multiuser with WebSockets"
+  },
+  {
+    "name": "Checkpoint Controls",
+    "url": "https://github.com/donmccurdy/aframe-extras/blob/master/src/controls/checkpoint-controls.js",
+    "description": "Eased linear locomotion between designated hotspots"
   },
   {
     "name": "Collider, Explode, Spawner",
@@ -244,14 +239,19 @@
     "description": "Set properties in response to events, replacement for declarative events"
   },
   {
+    "name": "Extras",
+    "url": "https://github.com/donmccurdy/aframe-extras",
+    "description": "Don's collection of A-Frame components"
+  },
+  {
     "name": "Extrude and Lathe",
     "url": "https://github.com/JosePedroDias/aframe-extrude-and-lathe",
     "description": "Extrude and lathe geometries"
   },
   {
-    "name": "FPS Look",
-    "url": "https://github.com/cemkod/aframe-fps-look-component",
-    "description": "Facilitates controlling entity rotation directly with captured mouse"
+    "name": "Faceset",
+    "url": "https://github.com/andreasplesch/aframe-faceset-component",
+    "description": "Geometry from vertices and faces"
   },
   {
     "name": "Fence",
@@ -269,9 +269,9 @@
     "description": "Automatically scale entities relative to their texture, so you don't need to set width/height manually"
   },
   {
-    "name": "GIF",
-    "url": "https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif",
-    "description": "Display GIF as a texture by using a Canvas"
+    "name": "FPS Look",
+    "url": "https://github.com/cemkod/aframe-fps-look-component",
+    "description": "Facilitates controlling entity rotation directly with captured mouse"
   },
   {
     "name": "Gamepad Controls",
@@ -279,9 +279,24 @@
     "description": "Gamepad controls using HTML5 Gamepad API"
   },
   {
+    "name": "GIF",
+    "url": "https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif",
+    "description": "Display GIF as a texture by using a Canvas"
+  },
+  {
+    "name": "glTF",
+    "url": "https://github.com/xirvr/aframe-gltf/",
+    "description": "glTF models"
+  },
+  {
     "name": "Grid Helper",
     "url": "https://github.com/dbradleyfl/aframe-gridhelper",
     "description": "Create customizable grids"
+  },
+  {
+    "name": "Height Grid",
+    "url": "https://github.com/andreasplesch/aframe-heightgrid-component",
+    "description": "Terrain"
   },
   {
     "name": "href",
@@ -299,9 +314,24 @@
     "description": "Interpolate positional and rotational updates for entities, useful for fetching from server for multiplayer"
   },
   {
+    "name": "k-frame",
+    "url": "https://github.com/ngokevin/k-frame",
+    "description": "Kevin's collection of A-Frame components"
+  },
+  {
+    "name": "Keyboard",
+    "url": "https://github.com/richardanaya/aframe-keyboard",
+    "description": "Full VR keyboard for use with WebVR controllers"
+  },
+  {
     "name": "Layout",
     "url": "https://github.com/ngokevin/aframe-layout-component",
     "description": "3D layout of child entities"
+  },
+  {
+    "name": "Leap Hands",
+    "url": "https://github.com/openleap/aframe-leap-hands",
+    "description": "Leap Motion"
   },
   {
     "name": "Mesh Line",
@@ -329,14 +359,19 @@
     "description": "Orbit camera around an entity"
   },
   {
-    "name": "Physics",
-    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/physics",
-    "description": "Rigid-body physics using Cannon.js"
+    "name": "Particle System",
+    "url": "https://github.com/IdeaSpaceVR/aframe-particle-system-component",
+    "description": "Particle systems (e.g., rain, dust, snow, fire)"
   },
   {
     "name": "Physics + Vive Controls",
     "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/misc",
     "description": "grab and sphere-collider components for combining Vive controllers with aframe-extras.physics"
+  },
+  {
+    "name": "Physics",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/physics",
+    "description": "Rigid-body physics using Cannon.js"
   },
   {
     "name": "PLY Loader",
@@ -418,54 +453,14 @@
     "description": "Video controls (play/pause/jump) for A-Frame video assets"
   },
   {
-    "name": "Faceset",
-    "url": "https://github.com/andreasplesch/aframe-faceset-component",
-    "description": "Geometry from vertices and faces"
-  },
-  {
-    "name": "glTF",
-    "url": "https://github.com/xirvr/aframe-gltf/",
-    "description": "glTF models"
-  },
-  {
-    "name": "Checkpoint Controls",
-    "url": "https://github.com/donmccurdy/aframe-extras/blob/master/src/controls/checkpoint-controls.js",
-    "description": "Eased linear locomotion between designated hotspots"
-  },
-  {
-    "name": "Height Grid",
-    "url": "https://github.com/andreasplesch/aframe-heightgrid-component",
-    "description": "Terrain"
-  },
-  {
-    "name": "Leap Hands",
-    "url": "https://github.com/openleap/aframe-leap-hands",
-    "description": "Leap Motion"
-  },
-  {
-    "name": "Particle System",
-    "url": "https://github.com/IdeaSpaceVR/aframe-particle-system-component",
-    "description": "Particle systems (e.g., rain, dust, snow, fire)"
+    "name": "Vive Cursor",
+    "url": "https://github.com/bryik/aframe-vive-cursor-component",
+    "description": "A cursor for HTC Vive controllers"
   },
   {
     "name": "WebVR Controller",
     "url": "https://github.com/richardanaya/aframe-webvr-controller",
     "description": "HTC Vive controllers"
-  },
-  {
-    "name": "Keyboard",
-    "url": "https://github.com/richardanaya/aframe-keyboard",
-    "description": "Full VR keyboard for use with WebVR controllers"
-  },
-  {
-    "name": "Bmfont",
-    "url": "https://github.com/bryik/aframe-bmfont-text-component",
-    "description": "Renders bitmap/SDF fonts for high-quality 2D text"
-  },
-  {
-    "name": "Vive Cursor",
-    "url": "https://github.com/bryik/aframe-vive-cursor-component",
-    "description": "A cursor for HTC Vive controllers"
   },
   {
     "name": "Draw",
@@ -996,5 +991,15 @@
     "name": "SlideAmaze",
     "url": "http://slideamaze.com/",
     "description": "Turns your slideshow presentation into a 3D maze."
+  },
+  {
+    "name": "A-Frame AR (by @dietrich)",
+    "url": "https://github.com/autonome/aframe-ar",
+    "description": "Experimenting with AR using A-Frame and getUserMedia."
+  },
+  {
+    "name": "Outside Lands VR (by @andgokevin)",
+    "url": "https://ngokevin.github.io/aframe-magicavoxel-projects/outsidelands/",
+    "description": "VR preview of the San Francisco Outside Lands music festival."
   }
 ]
