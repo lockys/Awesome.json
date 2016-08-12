@@ -605,26 +605,6 @@
     "description": "A toolset for writing algorithms and probability models in Swift."
   },
   {
-    "name": "FileBrowser",
-    "url": "https://github.com/marmelroy/FileBrowser",
-    "description": "Powerful Swift file browser for iOS."
-  },
-  {
-    "name": "FileKit",
-    "url": "https://github.com/nvzqz/FileKit",
-    "description": "Simple and expressive file management in Swift."
-  },
-  {
-    "name": "FileProvider",
-    "url": "https://github.com/amosavian/FileProvider",
-    "description": "NSFileManager replacement for Local and Remote (WebDAV/Dropbox/SMB2) files."
-  },
-  {
-    "name": "PathKit 🐧",
-    "url": "https://github.com/kylef/PathKit",
-    "description": "Effortless path operations in Swift."
-  },
-  {
     "name": "AlamofireJsonToObjects",
     "url": "https://github.com/evermeer/AlamofireJsonToObjects",
     "description": "An Alamofire extension which converts JSON response data into swift objects using Reflection."
@@ -890,6 +870,11 @@
     "description": "Swift library for dealing with NSDate, NSCalendar, NSDateComponents, and NSTimeInterval."
   },
   {
+    "name": "NSDate-Extensions",
+    "url": "https://github.com/erica/NSDate-Extensions",
+    "description": "Practical real-world dates."
+  },
+  {
     "name": "Punctual.swift 🐧",
     "url": "https://github.com/harlanhaskins/Punctual.swift",
     "description": "Swift date handler."
@@ -897,7 +882,7 @@
   {
     "name": "Swift-NSDate-Extensions",
     "url": "https://github.com/fwhenin/Swift-NSDate-Extensions",
-    "description": "Swift Version of Erica's NSDate Extensions."
+    "description": "NSDate extensions."
   },
   {
     "name": "SwiftDate",
@@ -1063,6 +1048,31 @@
     "name": "When",
     "url": "https://github.com/vadymmarkov/When",
     "description": "A lightweight implementation of Promises in Swift."
+  },
+  {
+    "name": "FileBrowser",
+    "url": "https://github.com/marmelroy/FileBrowser",
+    "description": "Powerful Swift file browser for iOS."
+  },
+  {
+    "name": "FileKit",
+    "url": "https://github.com/nvzqz/FileKit",
+    "description": "Simple and expressive file management in Swift."
+  },
+  {
+    "name": "FileProvider",
+    "url": "https://github.com/amosavian/FileProvider",
+    "description": "NSFileManager replacement for Local and Remote (WebDAV/Dropbox/SMB2) files."
+  },
+  {
+    "name": "KZFileWatchers",
+    "url": "https://github.com/krzysztofzablocki/KZFileWatchers",
+    "description": "A micro-framework for observing file changes, both local and remote."
+  },
+  {
+    "name": "PathKit 🐧",
+    "url": "https://github.com/kylef/PathKit",
+    "description": "Effortless path operations in Swift."
   },
   {
     "name": "Font-Awesome",
@@ -2010,11 +2020,6 @@
     "description": "Test Library for Swift's Error Handling."
   },
   {
-    "name": "Cuckoo",
-    "url": "https://github.com/SwiftKit/Cuckoo",
-    "description": "First boilerplate-free mocking framework for Swift"
-  },
-  {
     "name": "DVR",
     "url": "https://github.com/venmo/DVR",
     "description": "A simple network testing framework for Swift."
@@ -2028,16 +2033,6 @@
     "name": "Fakery",
     "url": "https://github.com/vadymmarkov/Fakery",
     "description": "Swift fake data generator."
-  },
-  {
-    "name": "Mockingjay",
-    "url": "https://github.com/kylef/Mockingjay",
-    "description": "An elegant library for stubbing HTTP requests with ease in Swift."
-  },
-  {
-    "name": "Mockit",
-    "url": "https://github.com/sabirvirtuoso/Mockit",
-    "description": "A simple mocking framework for Swift, inspired by the famous Mockito for Java."
   },
   {
     "name": "OHHTTPStubs",
@@ -2070,14 +2065,34 @@
     "description": "A testing library that automatically generates random data for testing program properties."
   },
   {
-    "name": "SwiftMock",
-    "url": "https://github.com/mflint/SwiftMock",
-    "description": "A mocking framework for Swift"
-  },
-  {
     "name": "UI Testing Cheat Sheet",
     "url": "https://github.com/joemasilotti/UI-Testing-Cheat-Sheet",
     "description": "Answers to common \"How do I test this with UI Testing?\" questions with a working example app."
+  },
+  {
+    "name": "Cuckoo",
+    "url": "https://github.com/SwiftKit/Cuckoo",
+    "description": "First boilerplate-free mocking framework for Swift"
+  },
+  {
+    "name": "Kakapo",
+    "url": "https://github.com/devlucky/Kakapo",
+    "description": "Dynamically Mock server behaviors and responses in Swift "
+  },
+  {
+    "name": "Mockingjay",
+    "url": "https://github.com/kylef/Mockingjay",
+    "description": "An elegant library for stubbing HTTP requests with ease in Swift."
+  },
+  {
+    "name": "Mockit",
+    "url": "https://github.com/sabirvirtuoso/Mockit",
+    "description": "A simple mocking framework for Swift, inspired by the famous Mockito for Java."
+  },
+  {
+    "name": "SwiftMock",
+    "url": "https://github.com/mflint/SwiftMock",
+    "description": "A mocking framework for Swift"
   },
   {
     "name": "edhita",
@@ -2418,11 +2433,6 @@
     "name": "Otafuku",
     "url": "https://github.com/tasanobu/Otafuku",
     "description": "Some utility classes to use WKWebView in Swift."
-  },
-  {
-    "name": "PageController",
-    "url": "https://github.com/hirohisa/PageController",
-    "description": "Infinite paging controller."
   },
   {
     "name": "Panoramic",
@@ -2828,6 +2838,16 @@
     "name": "XLPagerTabStrip",
     "url": "https://github.com/xmartlabs/XLPagerTabStrip",
     "description": "Android PagerTabStrip for iOS."
+  },
+  {
+    "name": "PageController",
+    "url": "https://github.com/hirohisa/PageController",
+    "description": "Infinite paging controller."
+  },
+  {
+    "name": "PageControls",
+    "url": "https://github.com/popwarsweet/PageControls",
+    "description": "Custom UIPageControl."
   },
   {
     "name": "Caishen",
