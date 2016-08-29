@@ -202,12 +202,17 @@
   {
     "name": "Bookie",
     "url": "https://github.com/bookieio/Bookie",
-    "description": "Python based delicious.com replacement. (Demo) AGPLv3 Python"
+    "description": "Python based delicious.com replacement. AGPLv3 Python"
   },
   {
-    "name": "Firefox Accounts Server\n\n\nFirefox Sync Server",
+    "name": "Firefox Auth Server",
     "url": "https://docs.services.mozilla.com/howtos/run-fxa.html",
-    "description": "Sync Firefox bookmarks, passwords, history, tabs, preferences. (Source Code) MPLv2 Python"
+    "description": "This project implements the core server-side API for Firefox Accounts. (Source Code) MPLv2 Nodejs"
+  },
+  {
+    "name": "Firefox Content Server",
+    "url": "https://docs.services.mozilla.com/howtos/run-fxa.html",
+    "description": "Static server that hosts Firefox Account sign up, sign in, email verification, etc. flows. (Source Code) MPLv2 Java"
   },
   {
     "name": "Firefox Sync Server",
@@ -237,7 +242,7 @@
   {
     "name": "Shaarli",
     "url": "https://github.com/shaarli/Shaarli",
-    "description": "Personal, minimalist, super-fast, no-database bookmarking and link sharing plaform. (Demo demo/demo) Zlib PHP"
+    "description": "Personal, minimalist, super-fast, no-database bookmarking and link sharing plaform. (Demo) Zlib PHP"
   },
   {
     "name": "unmark",
@@ -312,7 +317,7 @@
   {
     "name": "GNUNet",
     "url": "https://gnunet.org/",
-    "description": "Free software framework for decentralized, peer-to-peer networking. (Source Code) GPLv3 C/Java"
+    "description": "Free software framework for decentralized, peer-to-peer networking. (Source Code) GPLv3 C"
   },
   {
     "name": "Jitsi Meet",
@@ -332,7 +337,7 @@
   {
     "name": "Lets-Chat",
     "url": "http://sdelements.github.io/lets-chat/",
-    "description": "A self hosted chat suite written in Node. (Source Code) MIT NodeJS"
+    "description": "A self hosted chat suite written in Node. (Source Code) MIT Nodejs"
   },
   {
     "name": "Live Helper Chat",
@@ -342,12 +347,12 @@
   {
     "name": "Mattermost",
     "url": "http://www.mattermost.org/",
-    "description": "Open-source, on-prem Slack-alternative. It can be integrated with Gitlab. (Source Code) AGPLv3/Apache 2.0 Go"
+    "description": "Open-source, on-prem Slack-alternative. It can be integrated with Gitlab. (Source Code) AGPLv3/Apache Go"
   },
   {
     "name": "Mibew",
     "url": "https://mibew.org",
-    "description": "Mibew Messenger is an open-source live support application written in PHP and MySQL. It enables one-on-one chat assistance in real-time directly from your website. (Demo, Source Code) Apache PHP/Javascript"
+    "description": "Mibew Messenger is an open-source live support application written in PHP and MySQL. It enables one-on-one chat assistance in real-time directly from your website. (Demo, Source Code) Apache PHP"
   },
   {
     "name": "Mumble",
@@ -379,14 +384,14 @@
     "description": "A server for Matrix, an open standard for decentralized persistent communication. (Source Code) Apache Python"
   },
   {
-    "name": "Vector",
-    "url": "https://matrix.org/blog/project/vector/",
-    "description": "A glossy Matrix web client with an emphasis on performance and usability. (Source Code) Apache Javascript"
-  },
-  {
     "name": "Matrix Console Web",
     "url": "https://matrix.org/blog/project/matrix-console-web/",
     "description": "A web client meant to be a showcase of Matrix capabilities, and reference implementation of the Matrix standard. (Source Code) Apache Javascript"
+  },
+  {
+    "name": "Vector",
+    "url": "https://matrix.org/blog/project/vector/",
+    "description": "A glossy Matrix web client with an emphasis on performance and usability. (Source Code) Apache Javascript"
   },
   {
     "name": "Syndie",
@@ -411,17 +416,12 @@
   {
     "name": "Zulip",
     "url": "https://zulip.org",
-    "description": "Zulip is a powerful, open source group chat application. (Source Code) Apache 2.0/Other Python/Django"
+    "description": "Zulip is a powerful, open source group chat application. (Source Code) Apache/Other Python"
   },
   {
-    "name": "Mailcow",
-    "url": "https://mailcow.email/",
-    "description": "Mail server suite based on Dovecot, Postfix and other open source software, that provides a modern Web UI for administration. (Source Code) GPLv2 PHP/Shell"
-  },
-  {
-    "name": "Mail-in-a-Box",
-    "url": "https://mailinabox.email/",
-    "description": "Turns any Ubuntu server into a fully functional mail server with one command. CC0 Shell/Other"
+    "name": "Citadel",
+    "url": "http://www.citadel.org/",
+    "description": "Feature packed, easy, versatile, and powerful mail server, thanks to exclusive \"rooms\" based architecture. (Source Code) GPLv3 C"
   },
   {
     "name": "iRedMail",
@@ -429,9 +429,14 @@
     "description": "Full-featured mail server solution based on Postfix and Dovecot. (Source Code) GPLv3 Shell"
   },
   {
-    "name": "Citadel",
-    "url": "http://www.citadel.org/",
-    "description": "Feature packed, easy, versatile, and powerful mail server, thanks to exclusive \"rooms\" based architecture. (Source Code) GPLv3 C"
+    "name": "Mailcow",
+    "url": "https://mailcow.email/",
+    "description": "Mail server suite based on Dovecot, Postfix and other open source software, that provides a modern Web UI for administration. (Source Code) GPLv2 PHP"
+  },
+  {
+    "name": "Mail-in-a-Box",
+    "url": "https://mailinabox.email/",
+    "description": "Turns any Ubuntu server into a fully functional mail server with one command. (Source Code) CC0 Shell"
   },
   {
     "name": "Modoboa",
@@ -486,7 +491,7 @@
   {
     "name": "Sendmail",
     "url": "http://www.sendmail.com/sm/open_source/",
-    "description": "Message transfer agent (MTA)."
+    "description": "Message transfer agent (MTA). SENDMAIL C"
   },
   {
     "name": "Slimta",
@@ -496,7 +501,7 @@
   {
     "name": "Cyrus IMAP/POP3",
     "url": "http://cyrusimap.org/",
-    "description": "Intended to be run on sealed servers, where normal users are not permitted to log in."
+    "description": "Intended to be run on sealed servers, where normal users are not permitted to log in. (Source Code) BSD C"
   },
   {
     "name": "Dovecot",
@@ -521,7 +526,7 @@
   {
     "name": "Mailtrain",
     "url": "https://mailtrain.org/",
-    "description": "self hosted newsletter application built on Node.js (v5+) and MySQL (v5.5+ or MariaDB). (Source Code) GPLv3 Node.js"
+    "description": "self hosted newsletter application built on Node.js (v5+) and MySQL (v5.5+ or MariaDB). (Source Code) GPLv3 Nodejs"
   },
   {
     "name": "Mautic",
@@ -576,7 +581,7 @@
   {
     "name": "IRCAnywhere",
     "url": "http://ircanywhere.com/",
-    "description": "Open-source self-hosted alternative to IRCCloud. (Source Code) Javascript Nodejs"
+    "description": "Open-source self-hosted alternative to IRCCloud. (Source Code) GPLv2 Nodejs"
   },
   {
     "name": "Quassel IRC",
@@ -656,7 +661,7 @@
   {
     "name": "Buddycloud",
     "url": "http://buddycloud.com/",
-    "description": "Tools, libraries, services and a community to build user-to-user, group and social messaging into your app. Saves time. Scales up. Supports you. (Source Code) Apache 2.0 Java/Javascript"
+    "description": "Tools, libraries, services and a community to build user-to-user, group and social messaging into your app. Saves time. Scales up. Supports you. (Source Code) Apache Java"
   },
   {
     "name": "BuddyPress",
@@ -696,7 +701,7 @@
   {
     "name": "Friendica",
     "url": "http://friendica.com/",
-    "description": "Social Communication Server. (Source Code) AGPLv3"
+    "description": "Social Communication Server. (Source Code) AGPLv3 PHP"
   },
   {
     "name": "GNU social",
@@ -721,7 +726,7 @@
   {
     "name": "Jappix",
     "url": "https://jappix.com/",
-    "description": "Jappix is an open social platform, that let's you easily get or keep in touch with everyone. (Source Code) AGPLv3"
+    "description": "Jappix is an open social platform, that let's you easily get or keep in touch with everyone. (Source Code) AGPLv3 PHP"
   },
   {
     "name": "Loomio",
@@ -769,7 +774,7 @@
   {
     "name": "Pump.io",
     "url": "http://pump.io/",
-    "description": "Stream server that does most of what people really want from a social network. (Source Code) Apache Javascript, NodeJS"
+    "description": "Stream server that does most of what people really want from a social network. (Source Code) Apache Nodejs"
   },
   {
     "name": "Reddit",
@@ -797,6 +802,10 @@
     "description": "XMPP instant messaging server. (Source Code) GPL Erlang"
   },
   {
+    "name": "Kontalk – Kontalk is an Open Source Messenger, similar to WhatsApp (app for android only currently), including end-to-end encryption, server is based on Tigase XMPP Server. (Source Code) GPLv3 Java",
+    "url": "http://kontalk.org/"
+  },
+  {
     "name": "Metronome IM",
     "url": "https://lightwitch.org/metronome",
     "description": "Fork of Prosody IM. (Source Code) MIT Lua"
@@ -819,7 +828,7 @@
   {
     "name": "Tigase",
     "url": "http://www.tigase.net/content/tigase-xmpp-server",
-    "description": "XMPP server implementation in Java. Java"
+    "description": "XMPP server implementation in Java. GPLv3 Java"
   },
   {
     "name": "Candy",
@@ -834,11 +843,7 @@
   {
     "name": "Kaiwa",
     "url": "http://getkaiwa.com/",
-    "description": "Web based chat client in the style of common paid alternatives. (Source Code) MIT Javascript, NodeJS"
-  },
-  {
-    "name": "Kontalk – Kontalk is an Open Source Messenger, similar to WhatsApp (app for android only currently), including end-to-end encryption, server is based on Tigase XMPP Server. (Source Code) GPLv3",
-    "url": "http://kontalk.org/"
+    "description": "Web based chat client in the style of common paid alternatives. (Source Code) MIT NodeJS"
   },
   {
     "name": "Salut à Toi",
@@ -1879,6 +1884,11 @@
     "description": "Book publishing as easy as it should be. (Source Code) MIT PHP"
   },
   {
+    "name": "Fusio",
+    "url": "http://www.fusio-project.org/",
+    "description": "Fusio is an open source API management platform which helps to build and manage REST APIs. (Demo, Source Code) AGPLv3 PHP"
+  },
+  {
     "name": "GeneWeb",
     "url": "https://geneweb.tuxfamily.org/wiki/GeneWeb",
     "description": "GeneWeb is an open source genealogy software written in OCaml. It comes with a Web interface and can be used off-line or as a Web service. (Demo, Source Code) GPLv2 OCAML"
@@ -2364,6 +2374,11 @@
     "description": "A beautiful online form and survey creator. (Demo, Source Code) MIT Nodejs"
   },
   {
+    "name": "microproxy",
+    "url": "https://github.com/thekvs/microproxy",
+    "description": "lightweight non-caching HTTP/HTTPS proxy server. (Source Code) MIT Go"
+  },
+  {
     "name": "miniProxy",
     "url": "https://github.com/joshdick/miniProxy/",
     "description": "Simple web proxy written in PHP that can allow you to bypass Internet content filters, or to browse the internet anonymously. Only one php file. (Source Code) GPLv3 PHP"
@@ -2511,7 +2526,7 @@
   {
     "name": "Redmine",
     "url": "http://www.redmine.org/",
-    "description": "Redmine is a flexible project management web application. GPLv2 Ruby"
+    "description": "Redmine is a flexible project management web application. (Demo, Source Code) GPLv2 Ruby"
   },
   {
     "name": "Taiga",
@@ -2946,6 +2961,11 @@
     "name": "yunohost",
     "url": "https://yunohost.org/",
     "description": "A server operating system aiming to make self-hosting accessible to everyone. (Source Code) AGPLv3 Python/Other"
+  },
+  {
+    "name": "Awesome Selfhosted Chat",
+    "url": "https://chat.awesome-selfhosted.com",
+    "description": "A rocket.chat instance setup for the awesome selfhosted community."
   },
   {
     "name": "Awesome Big Data",
