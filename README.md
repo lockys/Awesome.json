@@ -2,11 +2,24 @@ awesome.json
 ==
 A curated list in JSON format.  
 It is sub-project of Awesome Search, please refer to [Awesome Search](https://github.com/lockys/awesome-search)  
-#### Necessary files for https://awesomelists.top
+
+Run
+==
+```sh
+$ git clone https://github.com/lockys/awesome.json.git
+$ cd awesome.json && mkdir test-output
+$ npm run awesome # To get the latest curated lists of awesome lists.
+$ npm run build # To get all links of all awesome lists.
+```
+
+This is repo of necessary files for https://awesomelists.top  
+
+SEE:
 ```
 repo-json/*.json
 awesome/awesome.json
 ```
+
 LICENSE
 ==
 The MIT License (MIT)

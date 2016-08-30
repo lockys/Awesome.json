@@ -5,14 +5,17 @@
   "main": "index.js",
   "dependencies": {
     "awesomelists-index": "^0.3.2",
+    "cheerio": "^0.20.0",
     "cron": "^1.1.0",
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "jsonfile": "^2.2.3",
+    "request": "^2.70.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "awesome": "cd parser && node awesome.js && mv ../test-output/awesome.json ../awesome",
-    "build": "cd parser && node gen-all-awesome-list.js && mv ./awesome-json/sindresorhus-awesome.json ../all-github-path && mv ./awesome-json/*.json ../repo-json",
-    "push": "git pull --no-edit origin master && git add . && git commit -m 'updated json' && git push origin update-branch"
+    "awesome": "cd lib && node awesome.js && mv ../test-output/awesome.json ../awesome",
+    "build": "git pull --no-edit origin master && cd lib && node gen-all-awesome-list.js && mv ./awesome-json/sindresorhus-awesome.json ../all-github-path && mv ./awesome-json/*.json ../repo-json",
+    "push": "git add --all . && git commit -m \":chart_with_upwards_trend: UPDATE JSON AT `date`\" && git push origin update-branch"
   },
   "repository": {
     "type": "git",
