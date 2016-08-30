@@ -17,7 +17,7 @@
   {
     "name": "Helm",
     "url": "https://github.com/emacs-helm/helm",
-    "description": "A powerful completion and selection narrowing framework. ( External Guides 1 )"
+    "description": "(Formerly ‘Anything’) A powerful completion and selection narrowing framework. ( External Guides 1 )"
   },
   {
     "name": "Icicles",
@@ -85,6 +85,11 @@
     "description": "Replace GUI popup menu with something more efficient"
   },
   {
+    "name": "multi-compile",
+    "url": "https://github.com/ReanGD/emacs-multi-compile",
+    "description": "Multi target interface to compile"
+  },
+  {
     "name": "Dired",
     "url": "http://www.emacswiki.org/emacs/DiredMode",
     "description": "[built-in] Dir ectory Ed itor. A customizable great file manager."
@@ -118,6 +123,11 @@
     "name": "ztree",
     "url": "https://github.com/fourier/ztree",
     "description": "Directory tree comparison mode"
+  },
+  {
+    "name": "Ranger",
+    "url": "https://github.com/ralesi/ranger.el",
+    "description": "ranger like file manager based on dired."
   },
   {
     "name": "windmove",
@@ -205,6 +215,116 @@
     "description": "Jump lines using the home row"
   },
   {
+    "name": "undo-tree",
+    "url": "http://www.emacswiki.org/emacs/UndoTree",
+    "description": "Visualize the whole undo history in buffer as a tree, and you can access anywhere in it."
+  },
+  {
+    "name": "highlight-symbol",
+    "url": "https://github.com/nschum/highlight-symbol.el",
+    "description": "Auto/manually highlight the same symbols in code, navigate in them, or replace string."
+  },
+  {
+    "name": "rainbow-delimiters",
+    "url": "https://github.com/Fanael/rainbow-delimiters",
+    "description": "Highlights parentheses, brackets, and braces according to their depth."
+  },
+  {
+    "name": "rainbow-mode",
+    "url": "https://julien.danjou.info/projects/emacs-packages",
+    "description": "Display color on color-code string (hex/rgb) directly."
+  },
+  {
+    "name": "visual-regexp",
+    "url": "https://github.com/benma/visual-regexp.el",
+    "description": "Replace via RegExp, with real-time visual feedback directly in the buffer."
+  },
+  {
+    "name": "visual-regexp-steroids",
+    "url": "https://github.com/benma/visual-regexp-steroids.el/",
+    "description": "The same as visual-regexp, but use modern regular expressions instead of Emacs-style."
+  },
+  {
+    "name": "whitespace",
+    "url": "http://www.emacswiki.org/emacs/WhiteSpace",
+    "description": "[built-in] Visualize blanks (tab/space/newline)."
+  },
+  {
+    "name": "linum-relative",
+    "url": "https://github.com/coldnew/linum-relative",
+    "description": "display relative line number in the left margin in emacs."
+  },
+  {
+    "name": "prettify-symbol-mode",
+    "url": "http://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/",
+    "description": "[built-in] displaying characters as fancy symbols (e.g. lambda -> λ)"
+  },
+  {
+    "name": "highlight-thing",
+    "url": "https://github.com/fgeller/highlight-thing.el",
+    "description": "Light-weight minor mode to highlight thing under point using built-ins."
+  },
+  {
+    "name": "Multiple cursors",
+    "url": "https://github.com/magnars/multiple-cursors.el",
+    "description": "Mark, edit multiple lines at once."
+  },
+  {
+    "name": "pangu-spacing",
+    "url": "https://github.com/coldnew/pangu-spacing",
+    "description": "Minor-mode to automatically add space between CJK and Latin characters."
+  },
+  {
+    "name": "hungry-delete",
+    "url": "https://github.com/soutaro/hungry-delete.el",
+    "description": "Delete an entire block of whitespace at point."
+  },
+  {
+    "name": "Drag Stuff",
+    "url": "https://github.com/rejeep/drag-stuff.el",
+    "description": "Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs."
+  },
+  {
+    "name": "expand-region.el",
+    "url": "https://github.com/magnars/expand-region.el",
+    "description": "Increase selected region by semantic units."
+  },
+  {
+    "name": "multifiles.el",
+    "url": "https://github.com/magnars/multifiles.el",
+    "description": "View and edit parts of multiple files in one buffer."
+  },
+  {
+    "name": "lentic",
+    "url": "https://github.com/phillord/lentic",
+    "description": " Create views of the same content in two Emacs buffers."
+  },
+  {
+    "name": "fix-word",
+    "url": "https://github.com/mrkkrp/fix-word",
+    "description": "Transform words in Emacs (upcase, downcase, capitalize)"
+  },
+  {
+    "name": "zzz-to-char",
+    "url": "https://github.com/mrkkrp/zzz-to-char",
+    "description": "Fancy replacement for `zap-to-char`"
+  },
+  {
+    "name": "Popup-killring",
+    "url": "https://github.com/waymondo/popup-kill-ring",
+    "description": "Browse kill-ring with popup menu."
+  },
+  {
+    "name": "Browse-kill-ring",
+    "url": "https://github.com/browse-kill-ring/browse-kill-ring",
+    "description": "Visually navigate kill-ring."
+  },
+  {
+    "name": "easy-kill",
+    "url": "https://github.com/leoliu/easy-kill",
+    "description": "Kill & Mark Things Easily in Emacs"
+  },
+  {
     "name": "Projectile",
     "url": "https://github.com/bbatsov/projectile",
     "description": "Project Interaction Library for Emacs."
@@ -255,14 +375,14 @@
     "description": "Templates based on linear range transformations."
   },
   {
-    "name": "Helm-dash",
-    "url": "https://github.com/areina/helm-dash",
-    "description": "Browse Dash docsets via Helm interface."
-  },
-  {
     "name": "evil-nerd-commenter",
     "url": "https://github.com/redguardtoo/evil-nerd-commenter",
     "description": "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode."
+  },
+  {
+    "name": "mmm-mode",
+    "url": "https://github.com/purcell/mmm-mode",
+    "description": "allows Multiple Major Modes to coexist in one buffer. (ex: Embedded CSS & JS in HTML file)"
   },
   {
     "name": "SmartParens",
@@ -290,7 +410,7 @@
     "description": "Intelligently call whitespace-cleanup on save."
   },
   {
-    "name": "Auto-Completion",
+    "name": "Auto-Complete",
     "url": "https://github.com/auto-complete/auto-complete",
     "description": "An intelligent auto-completion extension with great interface."
   },
@@ -315,6 +435,20 @@
     "description": "[built-in] Abbreviation expander"
   },
   {
+    "name": "emacs-ycmd Emacs client for YCM",
+    "url": "https://github.com/abingham/emacs-ycmd"
+  },
+  {
+    "name": "Helm-dash",
+    "url": "https://github.com/areina/helm-dash",
+    "description": "Browse Dash docsets via Helm interface."
+  },
+  {
+    "name": "eldoc",
+    "url": "https://www.emacswiki.org/emacs/ElDoc",
+    "description": "[built-in] shows function arguments / variable doc in minibuffer when coding."
+  },
+  {
     "name": "vimish-fold",
     "url": "https://github.com/mrkkrp/vimish-fold",
     "description": "Vim-like text folding"
@@ -328,6 +462,11 @@
     "name": "hideshowvis",
     "url": "http://www.emacswiki.org/emacs/download/hideshowvis.el",
     "description": "Based on hideshow, just display its nodes on fringe."
+  },
+  {
+    "name": "Origami.el",
+    "url": "https://github.com/gregsexton/origami.el",
+    "description": "Feature rich text folding minor mode"
   },
   {
     "name": "FlyMake",
@@ -505,6 +644,16 @@
     "description": "Clojure snippets with yasnippet."
   },
   {
+    "name": "clj-refactor.el",
+    "url": "https://github.com/clojure-emacs/clj-refactor.el",
+    "description": "A collection of Clojure refactoring functions for Emacs."
+  },
+  {
+    "name": "ielm",
+    "url": "https://www.emacswiki.org/emacs/InferiorEmacsLispMode",
+    "description": "[built-in] A simple Emacs Lisp REPL."
+  },
+  {
     "name": "web-mode",
     "url": "http://web-mode.org/",
     "description": "major mode for editing various html templates (PHP, JSP, ASP, ERB…etc)."
@@ -513,6 +662,11 @@
     "name": "emmet",
     "url": "https://github.com/smihica/emmet-mode",
     "description": "Emmet support for Emacs."
+  },
+  {
+    "name": "web-beautify",
+    "url": "https://github.com/yasuyk/web-beautify",
+    "description": "Format HTML, CSS and JavaScript/JSON by js-beautify."
   },
   {
     "name": "skewer-mode",
@@ -580,6 +734,11 @@
     "description": "Major mode for PHP programming."
   },
   {
+    "name": "phpunit.el",
+    "url": "https://github.com/nlamirault/phpunit.el",
+    "description": "Launch PHP unit tests using phpunit"
+  },
+  {
     "name": "emacs-eclim",
     "url": "https://github.com/senny/emacs-eclim",
     "description": "An Eclipse plugin which exposes Eclipse features through a server interface."
@@ -593,16 +752,6 @@
     "name": "JDEE",
     "url": "https://github.com/jdee-emacs/jdee",
     "description": "The JDEE is an add-on software package that turns Emacs into a comprehensive system for creating, editing, debugging, and documenting Java applications."
-  },
-  {
-    "name": "groovy-emacs-modes",
-    "url": "https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes",
-    "description": "A collection of modes for use with Groovy-related technology – Groovy, Grails, etc."
-  },
-  {
-    "name": "grails.el",
-    "url": "https://github.com/lifeisfoo/emacs-grails",
-    "description": "A minor mode for Grails projects."
   },
   {
     "name": "Gomode",
@@ -635,29 +784,39 @@
     "description": "A minor emacs mode for Go REPL."
   },
   {
-    "name": "lua-mode",
-    "url": "https://github.com/immerrr/lua-mode/",
-    "description": "A major mode for editing Lua sources in Emacs."
+    "name": "gotest.el",
+    "url": "https://github.com/nlamirault/gotest.el",
+    "description": "Launch GO unit tests"
   },
   {
-    "name": "SML mode",
-    "url": "http://www.iro.umontreal.ca/~monnier/elisp/",
-    "description": "a major Emacs mode for editing Standard ML source code."
+    "name": "csharp-mode",
+    "url": "https://github.com/josteink/csharp-mode",
+    "description": "Major mode for C#."
   },
   {
-    "name": "tuareg",
-    "url": "https://github.com/ocaml/tuareg",
-    "description": "a Caml mode for Emacs."
+    "name": "omnisharp-emacs",
+    "url": "https://github.com/OmniSharp/omnisharp-emacs",
+    "description": "IDE-like features for editing C# code."
   },
   {
-    "name": "TypeRex",
-    "url": "https://www.typerex.org/",
-    "description": "a set of tools for developing in OCaml."
+    "name": "rust-mode",
+    "url": "https://github.com/rust-lang/rust-mode",
+    "description": "An Emacs major mode for editing Rust code."
   },
   {
-    "name": "Merlin",
-    "url": "http://the-lambda-church.github.io/merlin/",
-    "description": "an assistant for editing OCaml code."
+    "name": "flycheck-rust",
+    "url": "https://github.com/flycheck/flycheck-rust",
+    "description": "Better Rust/Cargo support for Flycheck."
+  },
+  {
+    "name": "emacs-racer",
+    "url": "https://github.com/racer-rust/emacs-racer",
+    "description": "Racer support for Emacs"
+  },
+  {
+    "name": "cargo.el",
+    "url": "https://github.com/kwrooijen/cargo.el",
+    "description": "Cargo support for Emacs"
   },
   {
     "name": "erlang",
@@ -710,23 +869,13 @@
     "description": "Backend to provide e.g. type information with an emacs frontend."
   },
   {
+    "name": "intero",
+    "url": "https://github.com/commercialhaskell/intero",
+    "description": "Complete interactive development program for Haskell."
+  },
+  {
     "name": "Using Emacs for Haskell development",
     "url": "https://github.com/serras/emacs-haskell-tutorial/blob/master/tutorial.md"
-  },
-  {
-    "name": "scala-mode2",
-    "url": "https://github.com/hvesalai/scala-mode2",
-    "description": "scala major mode for emacs 24. Based on the Scala Language Specification 2.9"
-  },
-  {
-    "name": "Ensime",
-    "url": "http://ensime.github.io/",
-    "description": "ENhanced Scala Interaction Mode for Emacs"
-  },
-  {
-    "name": "sbt-mode",
-    "url": "https://github.com/hvesalai/sbt-mode",
-    "description": "An emacs mode for interacting with scala sbt and projects"
   },
   {
     "name": "swift-mode",
@@ -739,29 +888,54 @@
     "description": "Completion for Swift projects via SourceKit with the help of SourceKitten"
   },
   {
-    "name": "Emacs-D-Mode",
-    "url": "https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode",
-    "description": "An Emacs major mode for editing D code."
+    "name": "scala-mode",
+    "url": "http://ensime.github.io//editors/emacs/scala-mode/",
+    "description": "The definitive scala-mode for emacs"
   },
   {
-    "name": "rust-mode",
-    "url": "https://github.com/rust-lang/rust-mode",
-    "description": "An Emacs major mode for editing Rust code."
+    "name": "Ensime",
+    "url": "http://ensime.github.io/",
+    "description": "ENhanced Scala Interaction Mode for Emacs"
   },
   {
-    "name": "flycheck-rust",
-    "url": "https://github.com/flycheck/flycheck-rust",
-    "description": "Better Rust/Cargo support for Flycheck."
+    "name": "sbt-mode",
+    "url": "https://github.com/hvesalai/sbt-mode",
+    "description": "An emacs mode for interacting with scala sbt and projects"
   },
   {
-    "name": "emacs-racer",
-    "url": "https://github.com/racer-rust/emacs-racer",
-    "description": "Racer support for Emacs"
+    "name": "lua-mode",
+    "url": "https://github.com/immerrr/lua-mode/",
+    "description": "A major mode for editing Lua sources in Emacs."
   },
   {
-    "name": "cargo.el",
-    "url": "https://github.com/kwrooijen/cargo.el",
-    "description": "Cargo support for Emacs"
+    "name": "SML mode",
+    "url": "http://www.iro.umontreal.ca/~monnier/elisp/",
+    "description": "a major Emacs mode for editing Standard ML source code."
+  },
+  {
+    "name": "groovy-emacs-modes",
+    "url": "https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes",
+    "description": "A collection of modes for use with Groovy-related technology – Groovy, Grails, etc."
+  },
+  {
+    "name": "grails.el",
+    "url": "https://github.com/lifeisfoo/emacs-grails",
+    "description": "A minor mode for Grails projects."
+  },
+  {
+    "name": "tuareg",
+    "url": "https://github.com/ocaml/tuareg",
+    "description": "a Caml mode for Emacs."
+  },
+  {
+    "name": "TypeRex",
+    "url": "https://www.typerex.org/",
+    "description": "a set of tools for developing in OCaml."
+  },
+  {
+    "name": "Merlin",
+    "url": "http://the-lambda-church.github.io/merlin/",
+    "description": "an assistant for editing OCaml code."
   },
   {
     "name": "nim-mode",
@@ -769,9 +943,9 @@
     "description": "An Emacs major mode for editing Nim code."
   },
   {
-    "name": "stan-mode",
-    "url": "https://github.com/stan-dev/stan-mode",
-    "description": "An Emacs major mode for editing Stan code."
+    "name": "Emacs-D-Mode",
+    "url": "https://github.com/Emacs-D-Mode-Maintainers/Emacs-D-Mode",
+    "description": "An Emacs major mode for editing D code."
   },
   {
     "name": "elm-mode",
@@ -779,54 +953,9 @@
     "description": "An Emacs major mode for editing Elm code."
   },
   {
-    "name": "csharp-mode",
-    "url": "https://github.com/josteink/csharp-mode",
-    "description": "Major mode for C#."
-  },
-  {
-    "name": "omnisharp-emacs",
-    "url": "https://github.com/OmniSharp/omnisharp-emacs",
-    "description": "IDE-like features for editing C# code."
-  },
-  {
-    "name": "undo-tree",
-    "url": "http://www.emacswiki.org/emacs/UndoTree",
-    "description": "Visualize the whole undo history in buffer as a tree, and you can access anywhere in it."
-  },
-  {
-    "name": "highlight-symbol",
-    "url": "https://github.com/nschum/highlight-symbol.el",
-    "description": "Auto/manually highlight the same symbols in code, navigate in them, or replace string."
-  },
-  {
-    "name": "rainbow-delimiters",
-    "url": "https://github.com/jlr/rainbow-delimiters",
-    "description": "Highlights parentheses, brackets, and braces according to their depth."
-  },
-  {
-    "name": "rainbow-mode",
-    "url": "https://julien.danjou.info/projects/emacs-packages",
-    "description": "Display color on color-code string (hex/rgb) directly."
-  },
-  {
-    "name": "visual-regexp",
-    "url": "https://github.com/benma/visual-regexp.el",
-    "description": "Replace via RegExp, with real-time visual feedback directly in the buffer."
-  },
-  {
-    "name": "visual-regexp-steroids",
-    "url": "https://github.com/benma/visual-regexp-steroids.el/",
-    "description": "The same as visual-regexp, but use modern regular expressions instead of Emacs-style."
-  },
-  {
-    "name": "whitespace",
-    "url": "http://www.emacswiki.org/emacs/WhiteSpace",
-    "description": "[built-in] Visualize blanks (tab/space/newline)."
-  },
-  {
-    "name": "linum-relative",
-    "url": "https://github.com/coldnew/linum-relative",
-    "description": "display relative line number in the left margin in emacs."
+    "name": "stan-mode",
+    "url": "https://github.com/stan-dev/stan-mode",
+    "description": "An Emacs major mode for editing Stan code."
   },
   {
     "name": "discover.el",
@@ -859,69 +988,24 @@
     "description": "Create your own customized cheatsheet."
   },
   {
-    "name": "Multiple cursors",
-    "url": "https://github.com/magnars/multiple-cursors.el",
-    "description": "Mark, edit multiple lines at once."
+    "name": "Emacs Muse",
+    "url": "http://www.gnu.org/software/emacs-muse/",
+    "description": "a publishing environment for Emacs."
   },
   {
-    "name": "pangu-spacing",
-    "url": "https://github.com/coldnew/pangu-spacing",
-    "description": "Minor-mode to automatically add space between CJK and Latin characters."
-  },
-  {
-    "name": "hungry-delete",
-    "url": "https://github.com/soutaro/hungry-delete.el",
-    "description": "Delete an entire block of whitespace at point."
-  },
-  {
-    "name": "Drag Stuff",
-    "url": "https://github.com/rejeep/drag-stuff.el",
-    "description": "Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs."
-  },
-  {
-    "name": "expand-region.el",
-    "url": "https://github.com/magnars/expand-region.el",
-    "description": "Increase selected region by semantic units."
-  },
-  {
-    "name": "multifiles.el",
-    "url": "https://github.com/magnars/multifiles.el",
-    "description": "View and edit parts of multiple files in one buffer."
-  },
-  {
-    "name": "lentic",
-    "url": "https://github.com/phillord/lentic",
-    "description": " Create views of the same content in two Emacs buffers."
-  },
-  {
-    "name": "fix-word",
-    "url": "https://github.com/mrkkrp/fix-word",
-    "description": "Transform words in Emacs (upcase, downcase, capitalize)"
-  },
-  {
-    "name": "zzz-to-char",
-    "url": "https://github.com/mrkkrp/zzz-to-char",
-    "description": "Fancy replacement for `zap-to-char`"
-  },
-  {
-    "name": "Popup-killring",
-    "url": "https://github.com/waymondo/popup-kill-ring",
-    "description": "Browse kill-ring with popup menu."
-  },
-  {
-    "name": "Browse-kill-ring",
-    "url": "https://github.com/browse-kill-ring/browse-kill-ring",
-    "description": "Visually navigate kill-ring."
-  },
-  {
-    "name": "easy-kill",
-    "url": "https://github.com/leoliu/easy-kill",
-    "description": "Kill & Mark Things Easily in Emacs"
+    "name": "Fountain Mode",
+    "url": "https://github.com/rnkn/fountain-mode/",
+    "description": "a full-featured screenwriting environment for GNU Emacs using the Fountain markup format."
   },
   {
     "name": "Org",
     "url": "http://orgmode.org/",
     "description": "[built-in] Write notes, GTD, authoring, publish and wash dishes."
+  },
+  {
+    "name": "org-page",
+    "url": "https://github.com/kelvinh/org-page",
+    "description": "A static site generator based on org-mode files"
   },
   {
     "name": "org-ioslide",
@@ -934,18 +1018,8 @@
     "description": "Shows org-mode bullets as pretty UTF-8 characters."
   },
   {
-    "name": "Emacs Muse",
-    "url": "http://www.gnu.org/software/emacs-muse/",
-    "description": "a publishing environment for Emacs."
-  },
-  {
-    "name": "Fountain Mode",
-    "url": "https://github.com/rnkn/fountain-mode/",
-    "description": "a full-featured screenwriting environment for GNU Emacs using the Fountain markup format."
-  },
-  {
     "name": "Magit",
-    "url": "http://magit.github.io/",
+    "url": "https://magit.vc/",
     "description": "Interacting with git."
   },
   {
@@ -1029,11 +1103,6 @@
     "description": "An Emacs front-end for ack."
   },
   {
-    "name": "helm-ack",
-    "url": "https://github.com/syohex/emacs-helm-ack",
-    "description": "Use Ack with Helm interface."
-  },
-  {
     "name": "ack-el",
     "url": "https://github.com/leoliu/ack-el",
     "description": "Emacs Interface to Ack-like Tools."
@@ -1052,6 +1121,11 @@
     "name": "pt.el",
     "url": "https://github.com/bling/pt.el",
     "description": "An emacs front-end for Pt, the Platinum Searcher."
+  },
+  {
+    "name": "sift.el",
+    "url": "https://github.com/nlamirault/sift.el",
+    "description": "Front-end for sift, a fast and powerful grep alternative"
   },
   {
     "name": "gist.el",
@@ -1089,11 +1163,6 @@
     "description": "Interface to Google Translate."
   },
   {
-    "name": "g-client",
-    "url": "http://emacspeak.googlecode.com/svn/trunk/lisp/g-client/",
-    "description": "Google client for Emacs."
-  },
-  {
     "name": "Hyde",
     "url": "https://github.com/nibrahim/Hyde",
     "description": "An Emacs mode to manage Jekyll blogs"
@@ -1119,6 +1188,11 @@
     "description": "Generate TOC for markdown files."
   },
   {
+    "name": "markdownfmt",
+    "url": "https://github.com/nlamirault/emacs-markdownfmt",
+    "description": "Format markdown using markdownfmt"
+  },
+  {
     "name": "AUCTeX",
     "url": "https://www.gnu.org/software/auctex/",
     "description": "an extensible package for writing and formatting TeX files."
@@ -1136,6 +1210,11 @@
     "name": "EWW",
     "url": "https://www.gnu.org/software/emacs/manual/html_mono/eww.html",
     "description": "[built-in] EWW, the Emacs Web Wowser, is a web browser for Emacs."
+  },
+  {
+    "name": "emacs-webkit",
+    "url": "https://www.emacswiki.org/emacs/WebKit",
+    "description": "Emacs-webkit, a webkit browser inside Emacs"
   },
   {
     "name": "Gnus",
@@ -1213,6 +1292,26 @@
     "description": "[built-in] RSS/Atom Reader for Emacs."
   },
   {
+    "name": "chef-mode",
+    "url": "https://github.com/mpasternacki/chef-mode",
+    "description": "Emacs mode to edit Chef repositories."
+  },
+  {
+    "name": "emacs-ansible",
+    "url": "https://github.com/k1LoW/emacs-ansible",
+    "description": "Ansible minor mode."
+  },
+  {
+    "name": "puppet-mode",
+    "url": "https://github.com/lunaryorn/puppet-mode",
+    "description": "Edit Puppet 3 manifests with GNU Emacs 24."
+  },
+  {
+    "name": "salt-mode",
+    "url": "https://github.com/deybhayden/salt-mode",
+    "description": "Edit Salt States with GNU Emacs 24."
+  },
+  {
     "name": "package.el",
     "url": "http://www.emacswiki.org/emacs/ELPA",
     "description": "[built-in] Install and manage Emacs packages easily."
@@ -1261,6 +1360,16 @@
     "name": "ESUP",
     "url": "https://github.com/jschaf/esup",
     "description": "Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs."
+  },
+  {
+    "name": "auto-package-update.el",
+    "url": "https://github.com/rranelli/auto-package-update.el",
+    "description": "Automatically update Emacs packages."
+  },
+  {
+    "name": "SPU",
+    "url": "https://github.com/mola-T/SPU",
+    "description": "Emacs Silent Package Upgrader."
   },
   {
     "name": "dash.el",
@@ -1333,6 +1442,11 @@
     "description": "GitHub API library for Emacs"
   },
   {
+    "name": "request",
+    "url": "https://github.com/tkf/emacs-request",
+    "description": "a HTTP request library with multiple backends."
+  },
+  {
     "name": "powerline",
     "url": "https://github.com/milkypostman/powerline",
     "description": "Emacs version of the Vim powerline."
@@ -1350,7 +1464,17 @@
   {
     "name": "spaceline",
     "url": "https://github.com/TheBB/spaceline",
-    "description": "Powerline theme from Spacemacs"
+    "description": "Powerline theme from Spacemacs."
+  },
+  {
+    "name": "telephone-line",
+    "url": "https://github.com/dbordak/telephone-line",
+    "description": "A new implementation of Powerline for Emacs."
+  },
+  {
+    "name": "mode-icons",
+    "url": "https://github.com/ryuslash/mode-icons",
+    "description": "Show icons instead of mode names."
   },
   {
     "name": "Zenburn",
@@ -1395,6 +1519,26 @@
     "name": "Grandshell-theme",
     "url": "https://github.com/steckerhalter/grandshell-theme",
     "description": "(dark) [256color] Theme with intensive colors."
+  },
+  {
+    "name": "mpc",
+    "url": "https://www.emacswiki.org/emacs/Mpc",
+    "description": "[build-in] An Emacs front end to the Music Player Daemon"
+  },
+  {
+    "name": "EMMS",
+    "url": "https://www.gnu.org/software/emms/",
+    "description": "The Emacs Multimedia System"
+  },
+  {
+    "name": "Bongo",
+    "url": "https://github.com/dbrock/bongo/",
+    "description": "A flexible and usable media player for GNU Emacs"
+  },
+  {
+    "name": "Dionysos",
+    "url": "https://github.com/nlamirault/dionysos",
+    "description": "A simple music player for Emacs"
   },
   {
     "name": "Nyan-mode",
@@ -1452,6 +1596,16 @@
     "description": "Fuck the Speeching Censorship!"
   },
   {
+    "name": "wttrin",
+    "url": "https://github.com/bcbcarl/emacs-wttrin",
+    "description": "Emacs frontend for weather web service wttr.in."
+  },
+  {
+    "name": "fireplace",
+    "url": "https://github.com/johanvts/emacs-fireplace",
+    "description": "A cozy fireplace for emacs."
+  },
+  {
     "name": "Prelude",
     "url": "https://github.com/bbatsov/prelude",
     "description": "Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful."
@@ -1497,6 +1651,96 @@
     "description": "The finest hand crafted artisanal emacs.d for your editing pleasure."
   },
   {
+    "name": "init.el",
+    "url": "https://github.com/emacsmirror/emacswiki.org/blob/master/emacs-init.el",
+    "description": "Drew Adams : Icicles, bookmark+ to name a few"
+  },
+  {
+    "name": "dot-emacs",
+    "url": "https://github.com/jwiegley/dot-emacs",
+    "description": "John Wiegley (@jwiegley): Lead maintainer of Emacs, use-package"
+  },
+  {
+    "name": "emacs.org",
+    "url": "https://github.com/howardabrams/dot-files/blob/master/emacs.org",
+    "description": "Howard Abrams (@howardabrams)"
+  },
+  {
+    "name": ".emacs.d",
+    "url": "https://github.com/magnars/.emacs.d",
+    "description": "Magnar Sveen (@magnars) : multiple-cursors, dash, expand-region"
+  },
+  {
+    "name": "Sacha.org",
+    "url": "https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org",
+    "description": "Sacha Chua (@sachac)"
+  },
+  {
+    "name": "emacs",
+    "url": "https://github.com/rejeep/emacs/",
+    "description": "Johan Andersson (@rejeep)"
+  },
+  {
+    "name": "emacs.d",
+    "url": "https://github.com/redguardtoo/emacs.d",
+    "description": "Chen Bin (@redguardtoo)"
+  },
+  {
+    "name": "emacs",
+    "url": "https://github.com/defunkt/emacs",
+    "description": "Chris Wanstrath (@defunkt)"
+  },
+  {
+    "name": ".emacs.d",
+    "url": "https://github.com/lunaryorn/.emacs.d",
+    "description": "Sebastian Wiesner (@lunaryorn): Flycheck"
+  },
+  {
+    "name": "home",
+    "url": "https://github.com/grettke/home",
+    "description": "Grant Rhettke (@grettke)"
+  },
+  {
+    "name": "oremacs",
+    "url": "https://github.com/abo-abo/oremacs",
+    "description": "Oleh Krehel (@abo-abo) : Swiper, Ivy, Hydra, Avy"
+  },
+  {
+    "name": ".emacs.d",
+    "url": "https://github.com/kaushalmodi/.emacs.d",
+    "description": "Kaushal Modi (@kaushalmodi)"
+  },
+  {
+    "name": "DotEmacs",
+    "url": "https://github.com/ejmr/DotEmacs",
+    "description": "Eric James Michael Ritz (@ejmr)"
+  },
+  {
+    "name": "emacs-tv-config",
+    "url": "https://github.com/thierryvolpiatto/emacs-tv-config",
+    "description": "Thierry Volpiatto (@thierryvolpiatto) : Helm Maintainer"
+  },
+  {
+    "name": "emacs.el",
+    "url": "https://github.com/jorgenschaefer/Config/blob/master/emacs.el",
+    "description": "Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe"
+  },
+  {
+    "name": "emacsconfig.html",
+    "url": "https://ogbe.net/emacsconfig.html",
+    "description": "Dennis Ogbe"
+  },
+  {
+    "name": "emacs",
+    "url": "https://github.com/joedicastro/dotfiles/tree/master/emacs",
+    "description": "Joe di Castro @joedicastro"
+  },
+  {
+    "name": "emacs.d",
+    "url": "https://github.com/julienfantin/.emacs.d",
+    "description": "Julien Fantin : use-package, good config organisation system"
+  },
+  {
     "name": "A Guided Tour of Emacs",
     "url": "https://www.gnu.org/software/emacs/tour/",
     "description": "An official guided tour of Emacs"
@@ -1510,6 +1754,11 @@
     "name": "Emacs for writers",
     "url": "http://therandymon.com/woodnotes/emacs-for-writers/emacs-for-writers.html",
     "description": "The Woodnotes Guide to Emacs for Writers"
+  },
+  {
+    "name": "C’est la Z",
+    "url": "http://cestlaz.github.io/stories/emacs/",
+    "description": "Using Emacs Series - A series of beginner-friendly Emacs tutorials by Mike Zamansky (@zamansky)"
   },
   {
     "name": "Planet Emacsen",

@@ -4,28 +4,8 @@
     "url": "http://andrototal.org/"
   },
   {
-    "name": "Anubis",
-    "url": "http://anubis.iseclab.org/"
-  },
-  {
-    "name": "CopperDroid",
-    "url": "http://copperdroid.isg.rhul.ac.uk/copperdroid/"
-  },
-  {
     "name": "Dexter",
     "url": "https://dexter.dexlabs.org/"
-  },
-  {
-    "name": "Mobile app insight",
-    "url": "http://www.mobile-app-insight.org"
-  },
-  {
-    "name": "Mobile-Sandbox",
-    "url": "http://mobile-sandbox.com"
-  },
-  {
-    "name": "Sandroid",
-    "url": "http://sanddroid.xjtu.edu.cn/"
   },
   {
     "name": "Tracedroid",
@@ -57,15 +37,6 @@
     "url": "http://www.av-comparatives.org/avc-analyzer/"
   },
   {
-    "name": "Ijiami",
-    "url": "http://safe.ijiami.cn/"
-  },
-  {
-    "name": "Comdroid",
-    "url": "http://www.comdroid.org/",
-    "description": "seems to be dead now"
-  },
-  {
     "name": "Fireeye- max 60MB 15/day",
     "url": "https://fireeye.ijinshan.com/"
   },
@@ -83,20 +54,6 @@
     "description": "not free"
   },
   {
-    "name": "Android Sandbox",
-    "url": "http://www.androidsandbox.net/",
-    "description": "seems to be dead now"
-  },
-  {
-    "name": "Foresafe",
-    "url": "http://www.foresafe.com/scan",
-    "description": "seems to be dead now"
-  },
-  {
-    "name": "Stowaway – seems to be dead now",
-    "url": "http://www.android-permissions.org/"
-  },
-  {
     "name": "Androwarn",
     "url": "https://github.com/maaaaz/androwarn/",
     "description": "detect and warn the user about potential malicious behaviours developped by an Android application."
@@ -112,6 +69,10 @@
   {
     "name": "Droid Intent Data Flow Analysis for Information Leakage",
     "url": "https://www.cert.org/secure-coding/tools/didfail.cfm"
+  },
+  {
+    "name": "DroidLegacy",
+    "url": "https://bitbucket.org/srl/droidlegacy"
   },
   {
     "name": "Several tools from PSU",
@@ -173,13 +134,26 @@
     "url": "https://github.com/AndroBugs/AndroBugs_Framework"
   },
   {
+    "name": "Nogotofail",
+    "url": "https://github.com/google/nogotofail"
+  },
+  {
     "name": "Android DBI frameowork",
     "url": "http://www.mulliner.org/blog/blosxom.cgi/security/androiddbiv02.html"
+  },
+  {
+    "name": "Androl4b- A Virtual Machine For Assessing Android applications, Reverse Engineering and Malware Analysis ",
+    "url": "https://github.com/sh4hin/Androl4b"
   },
   {
     "name": "Android Malware Analysis Toolkit",
     "url": "http://www.mobilemalware.com.br/amat/download.html",
     "description": "(linux distro) Earlier it use to be an online analyzer"
+  },
+  {
+    "name": "Mobile-Security-Framework MobSF",
+    "url": "https://github.com/ajinabraham/Mobile-Security-Framework-MobSF",
+    "description": "Mobile Security Framework is an intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing."
   },
   {
     "name": "AppUse – custom build for pentesting",
@@ -199,16 +173,11 @@
   },
   {
     "name": "Mercury",
-    "url": "http://labs.mwrinfosecurity.com/tools/2012/03/16/mercury/"
+    "url": "https://labs.mwrinfosecurity.com/tools/2012/03/16/mercury/"
   },
   {
     "name": "Drozer",
     "url": "https://labs.mwrinfosecurity.com/tools/drozer/"
-  },
-  {
-    "name": "Taintdroid",
-    "url": "https://appanalysis.org/download.html",
-    "description": "requires AOSP compilation"
   },
   {
     "name": "Xposed",
@@ -218,17 +187,22 @@
   {
     "name": "Android Hooker",
     "url": "https://github.com/AndroidHooker/hooker",
-    "description": "API Hooking of java methods triggered by any Android application (requires the Substrate Framework)"
+    "description": "Dynamic Java code instrumentation (requires the Substrate Framework)"
   },
   {
-    "name": "Android tamer",
+    "name": "ProbeDroid",
+    "url": "https://github.com/ZSShen/ProbeDroid",
+    "description": "Dynamic Java code instrumentation"
+  },
+  {
+    "name": "Android Tamer",
     "url": "https://androidtamer.com/",
-    "description": "custom image"
+    "description": "Virtual / Live Platform for Android Security Professionals"
   },
   {
-    "name": "Droidscope",
-    "url": "https://code.google.com/p/decaf-platform/wiki/DroidScope",
-    "description": "custom image for dynamic analysis"
+    "name": "DECAF",
+    "url": "https://github.com/sycurelab/DECAF",
+    "description": "Dynamic Executable Code Analysis Framework based on QEMU (DroidScope is now an extension to DECAF)"
   },
   {
     "name": "CuckooDroid",
@@ -262,7 +236,7 @@
     "url": "https://github.com/xurubin/aurasium"
   },
   {
-    "name": "Android Linux Kernel modules\n*",
+    "name": "Android Linux Kernel modules",
     "url": "https://github.com/strazzere/android-lkms"
   },
   {
@@ -283,7 +257,12 @@
   {
     "name": "Vezir Project",
     "url": "https://github.com/oguzhantopgul/Vezir-Project",
-    "description": "Virtual Machine for Mobile Application Pentesting and Mobile Malware Analysis "
+    "description": "Virtual Machine for Mobile Application Pentesting and Mobile Malware Analysis"
+  },
+  {
+    "name": "MARA",
+    "url": "https://github.com/xtiankisutsa/MARA_Framework",
+    "description": "Mobile Application Reverse engineering and Analysis Framework"
   },
   {
     "name": "Smali/Baksmali – apk decompilation",
@@ -344,6 +323,11 @@
     "url": "https://github.com/sysdream/fino"
   },
   {
+    "name": "Frida",
+    "url": "http://www.frida.re/",
+    "description": "inject javascript to explore applications and a GUI tool for it"
+  },
+  {
     "name": "Indroid – thread injection kit",
     "url": "https://bitbucket.org/aseemjakhar/indroid"
   },
@@ -394,16 +378,16 @@
     "url": "http://blog.avlyun.com/wp-content/uploads/2014/04/SmaliViewer.zip"
   },
   {
-    "name": "ZjDroid (no longer available), fork/mirror",
-    "url": "https://github.com/BaiduSecurityLabs/ZjDroid"
-  },
-  {
     "name": "Simplify Android deobfuscator",
     "url": "https://github.com/CalebFenton/simplify"
   },
   {
     "name": "Bytecode viewer",
     "url": "https://github.com/Konloch/bytecode-viewer"
+  },
+  {
+    "name": "Radare2",
+    "url": "https://github.com/radare/radare2"
   },
   {
     "name": "IntentFuzzer",
@@ -426,12 +410,16 @@
     "url": "https://github.com/fuzzing/MFFA"
   },
   {
+    "name": "AndroFuzz",
+    "url": "https://github.com/jonmetz/AndroFuzz"
+  },
+  {
     "name": "FSquaDRA",
     "url": "https://github.com/zyrikby/FSquaDRA",
     "description": "a tool for detection of repackaged Android applications based on app resources hash comparison."
   },
   {
-    "name": "Vulnerability Google\ndoc",
+    "name": "Vulnerability Google Doc",
     "url": "https://docs.google.com/spreadsheet/pub?key=0Am5hHW4ATym7dGhFU1A4X2lqbUJtRm1QSWNRc3E0UlE&single=true&gid=0&output=html"
   },
   {
@@ -439,8 +427,12 @@
     "url": "https://github.com/mwrlabs/drozer/issues/56"
   },
   {
-    "name": "contagio mini dump",
+    "name": "Contagio Mini Dump",
     "url": "http://contagiominidump.blogspot.com"
+  },
+  {
+    "name": "Android Malware Github repo",
+    "url": "https://github.com/ashishb/android-malware"
   },
   {
     "name": "Open Source database",
@@ -514,7 +506,7 @@
   },
   {
     "name": "adb autocomplete",
-    "url": "https://romannurik-code.googlecode.com/git/bash_completion/adb"
+    "url": "https://github.com/mbrubeck/android-completion"
   },
   {
     "name": "Dalvik opcodes",
@@ -544,7 +536,11 @@
   },
   {
     "name": "Android Vulnerability Test Suite",
-    "url": "https://github.com/nowsecure/android-vts",
+    "url": "https://github.com/AndroidVTS/android-vts",
     "description": "android-vts scans a device for set of vulnerabilities"
+  },
+  {
+    "name": "Android Reverse Engineering 101 by Daniele Altomare",
+    "url": "http://www.fasteque.com/android-reverse-engineering-101-part-1/"
   }
 ]

@@ -40,7 +40,7 @@
     "description": "Adobe Source Libraries provides peer-reviewed and portable C++ source libraries. [MIT]"
   },
   {
-    "name": "Boost ",
+    "name": "Boost ⚡",
     "url": "https://github.com/boostorg",
     "description": "A large collection of generic C++ libraries. [Boost] website"
   },
@@ -60,14 +60,14 @@
     "description": "A small, header-only library that backports to C++03 some of the nifty C++11 goodies. [MIT]"
   },
   {
-    "name": "Dlib ",
+    "name": "Dlib ⚡",
     "url": "http://dlib.net/",
     "description": "A general purpose cross-platform C++ library designed using contract programming and modern C++ techniques. [Boost]"
   },
   {
     "name": "EASTL",
-    "url": "https://github.com/paulhodge/EASTL",
-    "description": "Public part of EA-STL. [BSD]"
+    "url": "https://github.com/electronicarts/EASTL",
+    "description": "Electronic Arts Standard Template Library. [BSD]"
   },
   {
     "name": "ffead-cpp",
@@ -115,9 +115,9 @@
     "description": "A cross platform open source toolkit for creative coding in C++. [MIT] website"
   },
   {
-    "name": "Qt ",
+    "name": "Qt ⚡",
     "url": "http://www.qt.io",
-    "description": "A cross-platform application and UI framework. [LGPL]"
+    "description": "A cross-platform application and UI framework. [GPL/LGPL/Commercial]"
   },
   {
     "name": "Reason",
@@ -160,6 +160,11 @@
     "description": "Open multi-methods for C++11. [Boost]"
   },
   {
+    "name": "ANNetGPGPU",
+    "url": "https://github.com/ANNetGPGPU/ANNetGPGPU",
+    "description": "A GPU (CUDA) based Artificial Neural Network library. [LGPL]"
+  },
+  {
     "name": "btsk",
     "url": "https://github.com/aigamedev/btsk",
     "description": "Game Behavior Tree Starter Kit. [zlib]"
@@ -170,9 +175,24 @@
     "description": "A template-based, ANSI-C++ evolutionary computation library which helps you to write your own stochastic optimization algorithms insanely fast. [LGPL]"
   },
   {
+    "name": "Recast/Detour",
+    "url": "https://github.com/recastnavigation/recastnavigation",
+    "description": "(3D) Navigation mesh generator and pathfinder, mostly for games. [zlib]"
+  },
+  {
     "name": "TensorFlow",
     "url": "https://github.com/tensorflow/tensorflow",
     "description": "An open source software library for numerical computation using data flow graphs [Apache]"
+  },
+  {
+    "name": "tiny-cnn",
+    "url": "https://github.com/nyanp/tiny-cnn",
+    "description": "A header only, dependency-free deep learning framework in C++11. [BSD]"
+  },
+  {
+    "name": "Veles",
+    "url": "https://github.com/Samsung/veles",
+    "description": "Distributed platform for rapid Deep learning application development. [Apache]"
   },
   {
     "name": "Boost.Asio",
@@ -198,6 +218,11 @@
     "name": "FMOD",
     "url": "http://www.fmod.org/",
     "description": "An easy to use crossplatform audio engine and audio content creation tool for games. [Free for non-commercial/Commercial]"
+  },
+  {
+    "name": "KFR",
+    "url": "https://www.kfrlib.com/",
+    "description": "Fast, modern C++ DSP framework, FFT, FIR/IIR filters, Sample Rate Conversion. [GPL/Commercial]"
   },
   {
     "name": "Maximilian",
@@ -305,11 +330,6 @@
     "description": "A freely available, patent free, high-quality data compressor. [BSD]"
   },
   {
-    "name": "doboz",
-    "url": "https://bitbucket.org/attila_afra/doboz/overview",
-    "description": "Compression library with very fast decompression. [zlib]"
-  },
-  {
     "name": "PhysicsFS",
     "url": "https://icculus.org/physfs/",
     "description": "A library to provide abstract access to various archives. It is intended for use in video games, and the design was somewhat inspired by Quake 3's file subsystem. [zlib]"
@@ -330,7 +350,7 @@
     "description": "Lossless data compression library with a compression ratio similar to LZMA but with much faster decompression. [BSD]"
   },
   {
-    "name": "LZMA ",
+    "name": "LZMA ⚡",
     "url": "http://www.7-zip.org/sdk.html",
     "description": "The default and general compression method of 7z format. [PublicDomain]"
   },
@@ -395,6 +415,11 @@
     "description": "Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [BSD]"
   },
   {
+    "name": "CUB",
+    "url": "https://github.com/NVlabs/cub",
+    "description": "CUB provides state-of-the-art, reusable software components for every layer of the CUDA programming mode. [New BSD]"
+  },
+  {
     "name": "C++React",
     "url": "https://github.com/schlangster/cpp.react",
     "description": "A reactive programming library for C++11. [Boost]"
@@ -420,6 +445,16 @@
     "description": "An OpenCL based GPU accelerated SPH fluid simulation library. [MIT]"
   },
   {
+    "name": "moderngpu",
+    "url": "https://github.com/moderngpu/moderngpu",
+    "description": "moderngpu is a productivity library for general-purpose computing on GPUs. It is a header-only C++ library written for CUDA. The unique value of the library is in its accelerated primitives for solving irregularly parallel problems. [FreeBSD & Copyright, Sean Baxter]"
+  },
+  {
+    "name": "NCCL",
+    "url": "https://github.com/NVIDIA/nccl",
+    "description": "Optimized primitives for collective multi-GPU communication. [BSD]"
+  },
+  {
     "name": "OpenCL",
     "url": "https://www.khronos.org/opencl/",
     "description": "The open standard for parallel programming of heterogeneous systems."
@@ -428,6 +463,11 @@
     "name": "OpenMP",
     "url": "http://openmp.org/",
     "description": "The OpenMP API."
+  },
+  {
+    "name": "RaftLib",
+    "url": "http://raftlib.io/",
+    "description": "The RaftLib C++ library, streaming/dataflow concurrency via C++ iostream-like operators [Apache2]"
   },
   {
     "name": "Thrust",
@@ -502,6 +542,11 @@
     "name": "LibTomCrypt",
     "url": "https://github.com/libtom/libtomcrypt",
     "description": "A fairly comprehensive, modular and portable cryptographic toolkit. [WTFPL]"
+  },
+  {
+    "name": "mbedTLS",
+    "url": "https://github.com/ARMmbed/mbedtls",
+    "description": "Tiny crypto suite aimed at embedded development, previously known as PolarSSL. [Apache2]"
   },
   {
     "name": "Nettle",
@@ -589,6 +634,11 @@
     "description": "A completely embedded, full-featured relational database in a few 100k that you can include right into your project. [PublicDomain]"
   },
   {
+    "name": "upscaledb",
+    "url": "https://upscaledb.com",
+    "description": "An embedded \"typed\" key/value store with a built-in query interface. [GPLv3]"
+  },
+  {
     "name": "benchmark",
     "url": "https://github.com/google/benchmark",
     "description": "Google provided small microbenchmark support library. [Apache2]"
@@ -597,6 +647,11 @@
     "name": "Boost.Test",
     "url": "http://www.boost.org/doc/libs/master/libs/test/doc/html/index.html",
     "description": "Boost Test Library. [Boost]"
+  },
+  {
+    "name": "doctest",
+    "url": "https://github.com/onqtam/doctest",
+    "description": "The lightest feature rich C++ single header testing framework. [MIT]"
   },
   {
     "name": "Catch",
@@ -691,7 +746,7 @@
   {
     "name": "Cocos2d-x",
     "url": "http://www.cocos2d-x.org/",
-    "description": "A multi-platform framework for building 2d games, interactive books, demos and other graphical applications. [Commercial?]"
+    "description": "A multi-platform framework for building 2d games, interactive books, demos and other graphical applications. [MIT]"
   },
   {
     "name": "delta3d",
@@ -794,11 +849,6 @@
     "description": "A feature-rich Qt/OpenGL-based C++ programming library, providing essentially a bunch of 3D-widgets. [zlib]"
   },
   {
-    "name": "OtterUI",
-    "url": "https://github.com/Twolewis/OtterUI",
-    "description": "OtterUI is a User Interface development solution for embedded systems and interactive entertainment software. [MIT]"
-  },
-  {
     "name": "PDCurses",
     "url": "http://pdcurses.sourceforge.net/",
     "description": "Public domain curses library with both source code and pre-compiled library available. [PublicDomain]"
@@ -844,7 +894,7 @@
     "description": "C++11 and OpenGL 2D/3D graphics engine. [MIT] website"
   },
   {
-    "name": "Ogre 3D ",
+    "name": "Ogre 3D ⚡",
     "url": "http://www.ogre3d.org/",
     "description": "A scene-oriented, real-time, flexible 3D rendering engine (as opposed to a game engine) written in C++. [MIT]"
   },
@@ -934,7 +984,7 @@
     "description": "ImageMagick program interfaces for C. [Apache2]"
   },
   {
-    "name": "OpenCV ",
+    "name": "OpenCV ⚡",
     "url": "http://opencv.org/",
     "description": "Open source computer vision. [BSD]"
   },
@@ -1054,7 +1104,7 @@
     "description": "A very sane (header only) C++ JSON library. [BSD]"
   },
   {
-    "name": "json ",
+    "name": "json ⚡",
     "url": "https://github.com/nlohmann/json",
     "description": "JSON for Modern C++. [MIT]"
   },
@@ -1099,7 +1149,7 @@
     "description": "Lightweight JSON library. [?]"
   },
   {
-    "name": "LIBUCL ",
+    "name": "LIBUCL ⚡",
     "url": "https://github.com/vstakhov/libucl",
     "description": "Universal configuration library parser [?]"
   },
@@ -1119,7 +1169,7 @@
     "description": "A qt-based library that maps JSON data to QVariant objects. [LGPL2]"
   },
   {
-    "name": "RapidJSON ",
+    "name": "RapidJSON ⚡",
     "url": "https://github.com/miloyip/rapidjson",
     "description": "A fast JSON parser/generator for C++ with both SAX/DOM style API. [MIT]"
   },
@@ -1194,6 +1244,11 @@
     "description": "C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library. [BSD]"
   },
   {
+    "name": "Fido",
+    "url": "https://github.com/FidoProject/Fido",
+    "description": "A highly-modular C++ machine learning library for embedded electronics and robotics. [MIT] website"
+  },
+  {
     "name": "MeTA",
     "url": "https://github.com/meta-toolkit/meta",
     "description": "A modern C++ data sciences toolkit. [MIT] website"
@@ -1209,7 +1264,7 @@
     "description": "A scalable c++ machine learning library. [LGPLv3]"
   },
   {
-    "name": "OpenCV ",
+    "name": "OpenCV ⚡",
     "url": "https://github.com/Itseez/opencv",
     "description": "Open Source Computer Vision Library. [BSD] website"
   },
@@ -1329,14 +1384,14 @@
     "description": "A multimedia playback framework based on Qt and FFmpeg to write a player easily. [LGPL] website"
   },
   {
-    "name": "SDL ",
+    "name": "SDL ⚡",
     "url": "http://www.libsdl.org/",
     "description": "Simple DirectMedia Layer. [zlib]"
   },
   {
-    "name": "SFML ",
-    "url": "http://www.sfml-dev.org/",
-    "description": "Simple and Fast Multimedia Library. [zlib]"
+    "name": "SFML ⚡",
+    "url": "https://github.com/SFML/SFML",
+    "description": "Simple and Fast Multimedia Library. [zlib] website"
   },
   {
     "name": "ACE",
@@ -1344,7 +1399,7 @@
     "description": "An OO Network Programming Toolkit in C++. [?MIT?]"
   },
   {
-    "name": "Boost.Asio ",
+    "name": "Boost.Asio ⚡",
     "url": "http://think-async.com/",
     "description": "A cross-platform C++ library for network and low-level I/O programming. [Boost]"
   },
@@ -1352,6 +1407,11 @@
     "name": "C++ REST SDK",
     "url": "https://github.com/Microsoft/cpprestsdk",
     "description": "C++ REST SDK (previously named Casablanca). [Apache2]"
+  },
+  {
+    "name": "Restbed",
+    "url": "https://github.com/corvusoft/restbed",
+    "description": "C++11 Asynchronous RESTful framework. [AGPL]"
   },
   {
     "name": "cpp-netlib",
@@ -1404,7 +1464,7 @@
     "description": "HTTP server library in C designed to be lightweight and easy to use. [Apache2/GPL2]"
   },
   {
-    "name": "POCO ",
+    "name": "POCO ⚡",
     "url": "https://github.com/pocoproject",
     "description": "C++ class libraries and frameworks for building network- and internet-based applications that run on desktop, server, mobile and embedded systems. [Boost] website"
   },
@@ -1514,9 +1574,19 @@
     "description": "GNU scientific library. [GPL]"
   },
   {
+    "name": "Trilinos",
+    "url": "https://github.com/trilinos/Trilinos",
+    "description": "High performance PDE solvers. [BSD]"
+  },
+  {
     "name": "ChaiScript",
     "url": "https://github.com/ChaiScript/ChaiScript/",
     "description": "An easy to use embedded scripting language for C++. [BSD] website"
+  },
+  {
+    "name": "Duktape",
+    "url": "https://github.com/svaarala/duktape",
+    "description": "An embeddable Javascript engine with compact footprint. [MIT] website"
   },
   {
     "name": "Lua",
@@ -1542,6 +1612,10 @@
     "name": "V8",
     "url": "http://code.google.com/p/v8/",
     "description": "A fast JavaScript engine by Google that can be embedded into any C++ application. [BSD]"
+  },
+  {
+    "name": "ChakraCore -A JavaScript engine by Microsoft that can be embedded into nodejs. [MIT]",
+    "url": "https://github.com/Microsoft/ChakraCore"
   },
   {
     "name": "cereal",
@@ -1647,6 +1721,11 @@
     "name": "QDjango",
     "url": "https://github.com/jlaine/qdjango/",
     "description": "A web framework written in C++ and built on top of the Qt library. Where possible it tries to follow django's API, hence its name. [LGPL]"
+  },
+  {
+    "name": "TreeFrog Framework",
+    "url": "https://github.com/treefrogframework/treefrog-framework",
+    "description": "High-speed and full-stack web application framework based on C++ and Qt, which supports HTTP and WebSocket protocol (with O/R mapping). [BSD] website"
   },
   {
     "name": "Wt",
@@ -1774,7 +1853,7 @@
     "description": "A simple header file for developers to ban unsafe C/C++ functions from applications."
   },
   {
-    "name": "HTTP Parser ",
+    "name": "HTTP Parser ⚡",
     "url": "https://github.com/nodejs/http-parser",
     "description": "A http request/response parser for C. [MIT]"
   },
@@ -1911,12 +1990,12 @@
   {
     "name": "Clang",
     "url": "http://clang.llvm.org/",
-    "description": "A C compiler for LLVM. Supports C11. Developed by Apple. [NCSA]"
+    "description": "A C compiler for LLVM. Supports C++11/14/1z C11. Developed by LLVM Team. [NCSA]"
   },
   {
     "name": "GCC",
     "url": "https://gcc.gnu.org/",
-    "description": "GNU Compiler Collection. Supports C11 and OpenMP. [GNU GPL3]"
+    "description": "GNU Compiler Collection. Supports C++11/14/1z C11 and OpenMP. [GNU GPL3]"
   },
   {
     "name": "PCC",
@@ -2109,7 +2188,7 @@
     "description": "An IDE for developing primarily with Java, but also with other languages, in particular PHP, C/C++, and HTML5."
   },
   {
-    "name": "Qt Creator ",
+    "name": "Qt Creator ⚡",
     "url": "http://www.qt.io/developers/",
     "description": "A cross-platform C++, JavaScript and QML IDE which is part of the SDK for Qt."
   },
@@ -2166,7 +2245,7 @@
   {
     "name": "Scons",
     "url": "http://www.scons.org/",
-    "description": "A software construction tool configured with Python scipt."
+    "description": "A software construction tool configured with a Python script."
   },
   {
     "name": "Sconsolidator",
@@ -2186,7 +2265,7 @@
   {
     "name": "Premake",
     "url": "http://premake.github.io",
-    "description": "A tool configured with lua scipt to generate project files for Visual Studio, GNU Make, Xcode, Code::Blocks, and more across Windows, Mac OS X, and Linux."
+    "description": "A tool configured with a Lua script to generate project files for Visual Studio, GNU Make, Xcode, Code::Blocks, and more across Windows, Mac OS X, and Linux."
   },
   {
     "name": "Cppcheck",
@@ -2239,7 +2318,7 @@
   },
   {
     "name": "Designing Qt-Style C++ APIs",
-    "url": "http://doc.qt.digia.com/qq/qq13-apis.html"
+    "url": "https://doc.qt.io/archives/qq/qq13-apis.html"
   },
   {
     "name": "CppCon 2015 Speaker Materials",
@@ -2250,6 +2329,11 @@
     "name": "CppCon 2014 Speaker Materials",
     "url": "https://github.com/CppCon/CppCon2014",
     "description": "Speaker materials from CppCon 2014."
+  },
+  {
+    "name": "C++Now 2016 Presentations",
+    "url": "https://github.com/brycelelbach/cppnow_presentations_2016",
+    "description": "Presentation materials for C++Now 2016."
   },
   {
     "name": "C++Now 2015 Presentations",
@@ -2286,11 +2370,6 @@
     "description": "vhf/free-programming-books/C++."
   },
   {
-    "name": "6 Free eBooks On C++ Game Programming",
-    "url": "http://www.efytimes.com/e1/fullnews.asp?edid=120435",
-    "description": "Learn how to create graphics And video games in C++."
-  },
-  {
     "name": "cppbestpractices",
     "url": "https://github.com/lefticus/cppbestpractices",
     "description": "Collaborative Collection of C++ Best Practices."
@@ -2312,7 +2391,7 @@
   },
   {
     "name": "Google C++ Style Guide",
-    "url": "http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml"
+    "url": "https://google.github.io/styleguide/cppguide.html"
   },
   {
     "name": "GNU Coding Standard",
@@ -2327,7 +2406,7 @@
     "url": "http://llvm.org/docs/CodingStandards.html"
   },
   {
-    "name": "CppCon Talks ",
+    "name": "CppCon Talks ⚡",
     "url": "https://www.youtube.com/user/CppCon/videos",
     "description": "The C++ conference."
   },
@@ -2385,7 +2464,7 @@
     "description": "Boost Library, C++ Standard Library, Modern C++, Advanced C++, Advanced STL, ..."
   },
   {
-    "name": "Standard C++ ",
+    "name": "Standard C++ ⚡",
     "url": "https://isocpp.org/",
     "description": "News, Status & Discussion about Standard C++."
   },
@@ -2500,8 +2579,21 @@
   },
   {
     "name": "Awesome C/C++",
-    "url": "http://getawesomeness.com/get/cpp",
-    "description": "getAwesomeness() mirror."
+    "url": "https://getawesomeness.herokuapp.com/get/cpp",
+    "description": "getAwesomeness()'s mirror."
+  },
+  {
+    "name": "Awesome C/C++",
+    "url": "https://cpp.libhunt.com/",
+    "description": "LibHunt's mirror."
+  },
+  {
+    "name": "Awesome C 1",
+    "url": "https://notabug.org/koz.ross/awesome-c"
+  },
+  {
+    "name": "Awesome C 2",
+    "url": "https://github.com/aleksandar-todorovic/awesome-c"
   },
   {
     "name": "free-programming-books",

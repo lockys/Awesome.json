@@ -1,33 +1,33 @@
 [
   {
     "name": "TransitWiki",
-    "url": "http://transitwiki.org"
+    "url": "http://transitwiki.org",
+    "description": "A community wiki for transit planners. Like this repo, but better."
   },
   {
-    "name": "Transit Developers Mailing List",
+    "name": "Transit Developers mailing list",
     "url": "https://groups.google.com/forum/#!forum/transit-developers"
   },
   {
-    "name": "OneBusAway Slack",
-    "url": "https://onebusaway.herokuapp.com/",
-    "description": "Slack chat for the OneBusAway project."
-  },
-  {
-    "name": "OneBusAway Users",
+    "name": "OneBusAway User mailing list",
     "url": "http://groups.google.com/group/onebusaway-users"
   },
   {
-    "name": "OneBusAway Developers",
+    "name": "OneBusAway Developers mailing list",
     "url": "http://groups.google.com/group/onebusaway-developers"
   },
   {
-    "name": "OneBusAway API",
+    "name": "OneBusAway API mailing list",
     "url": "http://groups.google.com/group/onebusaway-api"
   },
   {
-    "name": "GTFS Data Exchange",
-    "url": "http://www.gtfs-data-exchange.com/agencies",
-    "description": "Links to many transit agency GTFS datasets."
+    "name": "OneBusAway Slack chat",
+    "url": "https://onebusaway.herokuapp.com/"
+  },
+  {
+    "name": "Transitland",
+    "url": "https://transit.land/",
+    "description": "Community editable list of many transit agency GTFS datasets. Also provides an API to access the data as JSON/GeoJSON and a playground to try out the data."
   },
   {
     "name": "CapMetrics",
@@ -40,11 +40,6 @@
     "description": "Information and statistics on the transit systems of the United States, run by the Federal Transit Administration."
   },
   {
-    "name": "Transitland",
-    "url": "https://transit.land/",
-    "description": "A community-edited data service aggregating transit networks across metropolitan and rural areas around the world. Currently under development."
-  },
-  {
     "name": "TransitFeeds",
     "url": "http://transitfeeds.com/",
     "description": "List of GTFS and GTFS-RT feeds. Archives and validates the GTFS feeds and allows you to preview both GTFS and GTFS-RT through the browser. "
@@ -53,6 +48,11 @@
     "name": "TransLoc OpenAPI",
     "url": "https://www.mashape.com/transloc/openapi-1-2",
     "description": "Real-time vehicle, route, stop, and arrival data for over 60 transit systems in the United States."
+  },
+  {
+    "name": "GTFS Data Exchange",
+    "url": "http://www.gtfs-data-exchange.com/agencies",
+    "description": "Used to be the definitive list of GTFS links. Shutdown in 2016. But 93G of data from 2008 to 2016 is available upon request."
   },
   {
     "name": "Navitia.io",
@@ -73,11 +73,6 @@
     "name": "pyBikes",
     "url": "https://github.com/eskerda/pybikes",
     "description": "an API on worldwide bikeshare systems powering CityBikes"
-  },
-  {
-    "name": "tripover",
-    "url": "https://github.com/joriswu/tripover/wiki",
-    "description": "A journey planner good at broad searches. Like \"from Cairns to Perth, depart any day next week\". Aiming at the longer distance traveller searching for good trip options.  Used by the Time & Wheel webapp."
   },
   {
     "name": "OpenTripPlanner",
@@ -149,9 +144,9 @@
     "description": "Real-time Transit Tracking for Iowa City, Coralville and the University of Iowa. Awesome because it combines three disparate transit systems into one UI."
   },
   {
-    "name": "Time & Wheel",
-    "url": "http://timeandwheel.com/",
-    "description": "Travel country-wide in the USA with train, bus, plane or ferry.  Uses the open-source tripover routing engine."
+    "name": "Transitive.js",
+    "url": "https://github.com/conveyal/transitive.js",
+    "description": "Creates a customizable web map layer of transit routes using Leaflet or D3."
   },
   {
     "name": "OneBusAway Apps",
@@ -218,9 +213,19 @@
     "description": "Realtime map of all the buses in San Francisco."
   },
   {
-    "name": "TransitWiki",
-    "url": "http://www.transitwiki.org/",
-    "description": "A wiki for transit planners to find cost-effective strategies to improve transit service."
+    "name": "MTA Frequency",
+    "url": "http://www.tyleragreen.com/maps/new_york/",
+    "description": "Frequency visualization of subways and buses in New York City built using Transitland."
+  },
+  {
+    "name": "When(ish) is my bus? User-centered Visualizations of Uncertainty in Everyday, Mobile Predictive Systems ",
+    "url": "http://faculty.washington.edu/jhullman/busUncertaintyVis.pdf",
+    "description": "Paper that does an amazing job answering the question of how do we communicate uncertainty in transit predictions? The paper explains the problem, existing solutions and designs a better interface for letting users know when to arrive at the bus stop."
+  },
+  {
+    "name": "When(ish) is my bus? Data and code",
+    "url": "https://github.com/mjskay/when-ish-is-my-bus",
+    "description": "The data and code (R) behind Whenish is my bus? Data includes three days of historical vehicle positions and the survey results."
   },
   {
     "name": "\"Legacy AVL system? It's okay, join the club.\" by Kurt Raschke",
@@ -318,9 +323,19 @@
     "description": "Node.js library modeling the static GTFS using sequelize.js."
   },
   {
+    "name": "gtfslib-python",
+    "url": "https://github.com/afimb/gtfslib-python",
+    "description": " An open source library in python for reading GTFS files and computing various stats and indicators about Public Transport networks."
+  },
+  {
     "name": "gtfs-realtime-bindings",
     "url": "https://github.com/google/gtfs-realtime-bindings",
     "description": "The official bindings for Java, .NET, Node.js, Python, and Ruby generated from the official GTFS-realtime protocol buffer specification."
+  },
+  {
+    "name": "gtfs-rt-dump",
+    "url": "https://github.com/kurtraschke/gtfs-rt-dump",
+    "description": "Converts protocol buffer format to plain text for easy viewing of a GTFS-realtime feed in plain text (for debugging purposes)"
   },
   {
     "name": "gtfsrdb",

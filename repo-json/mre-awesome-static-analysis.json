@@ -5,6 +5,11 @@
     "description": "Measures size and complexity for C files"
   },
   {
+    "name": "cqmetrics [OSS]",
+    "url": "https://github.com/dspinellis/cqmetrics",
+    "description": "quality metrics for C code"
+  },
+  {
     "name": "clang-tidy [OSS]",
     "url": "http://clang.llvm.org/extra/clang-tidy/",
     "description": "clang static analyser"
@@ -13,6 +18,11 @@
     "name": "cppcheck [OSS]",
     "url": "https://github.com/danmar/cppcheck",
     "description": "static analysis of C/C++ code"
+  },
+  {
+    "name": "flawfinder [OSS]",
+    "url": "http://www.dwheeler.com/flawfinder/",
+    "description": "finds possible security weaknesses"
   },
   {
     "name": "oclint [OSS]",
@@ -25,14 +35,79 @@
     "description": "static analysis of C/C++ code"
   },
   {
-    "name": "flawfinder [OSS]",
-    "url": "http://www.dwheeler.com/flawfinder/",
-    "description": "finds possible security weaknesses"
+    "name": "tis-interpreter [OSS]",
+    "url": "https://github.com/TrustInSoft/tis-interpreter",
+    "description": "An interpreter for finding subtle bugs in programs written in standard C "
+  },
+  {
+    "name": "vera++ [OSS]",
+    "url": "https://bitbucket.org/verateam/vera/wiki/Introduction",
+    "description": "Vera++ is a programmable tool for verification, analysis and transformation of C++ source code."
+  },
+  {
+    "name": "Code Analysis Rule Collection [OSS]",
+    "url": "https://carc.codeplex.com/",
+    "description": "Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform \"Roslyn\"."
+  },
+  {
+    "name": "code-cracker [OSS]",
+    "url": "https://github.com/code-cracker/code-cracker",
+    "description": "An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties."
+  },
+  {
+    "name": "CSharpEssentials [OSS]",
+    "url": "https://github.com/DustinCampbell/CSharpEssentials",
+    "description": "C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features."
+  },
+  {
+    "name": "Designite [PROPRIETARY]",
+    "url": "http://www.designite-tools.com",
+    "description": "Designite is a software design quality assessment tool. It supports detection of implementation and design smells, computation of various code quality metrics, and trend analysis."
+  },
+  {
+    "name": "Gendarme[OSS]",
+    "url": "http://www.mono-project.com/docs/tools+libraries/tools/gendarme/",
+    "description": "Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked."
+  },
+  {
+    "name": ".NET Analyzers [OSS]",
+    "url": "https://github.com/DotNetAnalyzers",
+    "description": "An organization for the development of analyzers (diagnostics, code fixes, and refactorings) using the .NET Compiler Platform."
+  },
+  {
+    "name": "SonarLint for Visual Studio [OSS]",
+    "url": "https://github.com/SonarSource/sonarlint-vs",
+    "description": "SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code."
+  },
+  {
+    "name": "Refactoring Essentials [OSS]",
+    "url": "http://vsrefactoringessentials.com/",
+    "description": "The premier free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers to improve your projects."
   },
   {
     "name": "ReSharper [PROPRIETARY]",
     "url": "https://www.jetbrains.com/resharper/",
-    "description": "Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies"
+    "description": "Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies."
+  },
+  {
+    "name": "VSDiagnostics [OSS]",
+    "url": "https://github.com/Vannevelj/VSDiagnostics",
+    "description": "A collection of static analyzers based on Roslyn that integrate with VS."
+  },
+  {
+    "name": "Wintellect.Analyzers [OSS]",
+    "url": "https://github.com/Wintellect/Wintellect.Analyzers",
+    "description": ".NET Compiler Platform (\"Roslyn\") diagnostic analyzers and code fixes written by Wintellect."
+  },
+  {
+    "name": "clair [OSS]",
+    "url": "https://github.com/coreos/clair",
+    "description": "Vulnerability Static Analysis for Containers "
+  },
+  {
+    "name": "collector [OSS]",
+    "url": "https://github.com/banyanops/collector",
+    "description": "Run arbitrary scripts inside containers, and gather useful information"
   },
   {
     "name": "Haskell Dockerfile Linter [OSS]",
@@ -43,6 +118,16 @@
     "name": "credo [OSS]",
     "url": "https://github.com/rrrene/credo",
     "description": " A static code analysis tool with a focus on code consistency and teaching. "
+  },
+  {
+    "name": "dingo-hunter [OSS]",
+    "url": "https://github.com/nickng/dingo-hunter",
+    "description": "Static analyser for finding Deadlocks in Go"
+  },
+  {
+    "name": "flen [OSS]",
+    "url": "https://github.com/lafolle/flen",
+    "description": "Get info on length of functions in a Go package"
   },
   {
     "name": "go/ast [OSS]",
@@ -65,6 +150,11 @@
     "description": "Examines Go source code and reports suspicious constructs"
   },
   {
+    "name": "ineffassign",
+    "url": "https://github.com/gordonklaus/ineffassign",
+    "description": "Detect ineffectual assignments in Go code"
+  },
+  {
     "name": "safesql [OSS]",
     "url": "https://github.com/stripe/safesql",
     "description": "Static analysis tool for Golang that protects against SQL injections "
@@ -73,6 +163,16 @@
     "name": "CodeNarc [OSS]",
     "url": "https://github.com/CodeNarc/CodeNarc",
     "description": "a static analysis tool for Groovy source code, enabling monitoring and enforcement of many coding standards and best practices"
+  },
+  {
+    "name": "HLint [OSS]",
+    "url": "https://github.com/ndmitchell/hlint",
+    "description": "HLint is a tool for suggesting possible improvements to Haskell code."
+  },
+  {
+    "name": "Haxe Checkstyle [OSS]",
+    "url": "https://github.com/HaxeCheckstyle/haxe-checkstyle",
+    "description": "A static analysis tool to help developers write Haxe code that adheres to a coding standard."
   },
   {
     "name": "HTMLHint [OSS]",
@@ -88,6 +188,11 @@
     "name": "checkstyle [OSS]",
     "url": "https://github.com/checkstyle/checkstyle",
     "description": "checking Java source code for adherence to a Code Standard or set of validation rules (best practices)"
+  },
+  {
+    "name": "ckjm [OSS]",
+    "url": "http://www.spinellis.gr/sw/ckjm/",
+    "description": "calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files"
   },
   {
     "name": "Error-prone [OSS]",
@@ -195,6 +300,11 @@
     "description": "an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing"
   },
   {
+    "name": "prospector [OSS]",
+    "url": "https://github.com/landscapeio/prospector",
+    "description": "output information about errors, potential problems, convention violations and complexity in Python code"
+  },
+  {
     "name": "pyflakes [OSS]",
     "url": "https://github.com/pyflakes/pyflakes/",
     "description": "A simple program which checks Python source files for errors."
@@ -210,6 +320,11 @@
     "description": "detection of design patterns in PHP code"
   },
   {
+    "name": "deptrac [OSS]",
+    "url": "https://github.com/sensiolabs-de/deptrac",
+    "description": "Enforce rules for dependencies between software layers."
+  },
+  {
     "name": "exakat [OSS]",
     "url": "https://github.com/exakat/exakat",
     "description": "An automated code reviewing engine for PHP"
@@ -223,6 +338,11 @@
     "name": "phan [OSS]",
     "url": "https://github.com/etsy/phan",
     "description": "a modern static analyzer from etsy"
+  },
+  {
+    "name": "php7cc [OSS]",
+    "url": "https://github.com/sstalle/php7cc",
+    "description": "PHP 7 Compatibility Checker "
   },
   {
     "name": "php7mar [OSS]",
@@ -375,6 +495,11 @@
     "description": "a code linter to catch common mistakes and improve your Rust code"
   },
   {
+    "name": "linter-rust [OSS]",
+    "url": "https://github.com/AtomLinter/linter-rust",
+    "description": " Linting your Rust-files in Atom, using rustc and cargo"
+  },
+  {
     "name": "linter [OSS]",
     "url": "https://github.com/HairyFotr/linter",
     "description": "Linter is a Scala static analysis compiler plugin which adds compile-time checks for various possible bugs, inefficiencies, and style problems."
@@ -405,6 +530,11 @@
     "description": "A tool to enforce Swift style and conventions"
   },
   {
+    "name": "Tailor [OSS]",
+    "url": "https://github.com/sleekbyte/tailor",
+    "description": "A static analysis and lint tool for source code written in Apple's Swift programming language."
+  },
+  {
     "name": "PVS-Studio [PROPRIETARY]",
     "url": "http://www.viva64.com/en/pvs-studio/",
     "description": "static analysis of C/C++ and C# code"
@@ -413,6 +543,11 @@
     "name": "Coverity Save [PROPRIETARY]",
     "url": "http://www.coverity.com/products/coverity-save/",
     "description": "Static analysis for  C/C++, Java and C#"
+  },
+  {
+    "name": "imhotep [OSS]",
+    "url": "https://github.com/justinabrahms/imhotep",
+    "description": "Comment on commits coming into your repository and check for syntactic errors and general lint warnings."
   },
   {
     "name": "Infer [OSS]",
@@ -455,6 +590,11 @@
     "description": "The open and extensible static analysis platform, for everyone."
   },
   {
+    "name": "ConQAT [OSS]",
+    "url": "http://www.conqat.org/",
+    "description": "a toolkit for rapid development and execution of software quality analyses."
+  },
+  {
     "name": "Functor Prevent [PROPRIETARY]",
     "url": "http://www.functor.se/products/prevent/",
     "description": "Static code analysis for C code."
@@ -483,5 +623,10 @@
     "name": "Scrutinizer [PROPRIETARY]",
     "url": "https://scrutinizer-ci.com/",
     "description": "A proprietery code quality checker that can be integrated with GitHub"
+  },
+  {
+    "name": "Teamscale [PROPRIETARY]",
+    "url": "http://www.teamscale.com/",
+    "description": "analyze, monitor, and improve the quality of your code."
   }
 ]

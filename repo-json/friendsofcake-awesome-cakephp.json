@@ -60,11 +60,6 @@
     "description": "A plugin for authenticating using JSON Web Tokens."
   },
   {
-    "name": "FriendsOfCake/Authenticate plugin",
-    "url": "https://github.com/FriendsOfCake/Authenticate",
-    "description": "Authentication classes for AuthComponent."
-  },
-  {
     "name": "CookieAuth plugin",
     "url": "https://github.com/Xety/Cake3-CookieAuth",
     "description": "A simple Cake 3 plugin to automatically authenticate users with Cookies."
@@ -115,11 +110,6 @@
     "description": "For caching views (HTML, CSV, JSON, XML, ...) as static cache files."
   },
   {
-    "name": "NewRelic plugin",
-    "url": "https://github.com/jippi/cakephp-newrelic/tree/cake3",
-    "description": "Using New Relic for analysis and monitoring."
-  },
-  {
     "name": "Airbrake plugin A plugin to seamlessly integrate Airbrake with CakePHP for errors and exceptions.",
     "url": "https://github.com/chrisShick/AirbrakeCake"
   },
@@ -156,6 +146,16 @@
     "name": "Gourmet/Email plugin",
     "url": "https://github.com/gourmet/email",
     "description": "Email helper, layout and more."
+  },
+  {
+    "name": "Mailgun plugin",
+    "url": "https://github.com/narendravaghela/cakephp-mailgun",
+    "description": "Email transport plugin for sending email via Mailgun."
+  },
+  {
+    "name": "SparkPost plugin",
+    "url": "https://github.com/syntaxera/cakephp-sparkpost-plugin",
+    "description": "Email transport plugin for sending email via the SparkPost API."
   },
   {
     "name": "Enviroments plugin",
@@ -276,11 +276,6 @@
     "name": "Capcake",
     "url": "https://github.com/jadb/capcake",
     "description": "Deploy CakePHP applications using Capistrano."
-  },
-  {
-    "name": "Carbon",
-    "url": "https://github.com/briannesbitt/Carbon",
-    "description": "A simple DateTime API extension - used in CakePHP3.x core (deprecated soon)."
   },
   {
     "name": "Chronos",
@@ -483,6 +478,11 @@
     "description": "A plugin for Resque, a library for creating background jobs."
   },
   {
+    "name": "CakeQueuesadilla plugin",
+    "url": "https://github.com/josegonzalez/cakephp-queuesadilla",
+    "description": "A plugin that provides queueing integration with a variety of backends (BeanstalkD, MySQL, Redis, etc.)."
+  },
+  {
     "name": "Gearman plugin",
     "url": "https://github.com/cvo-technologies/cakephp-gearman",
     "description": "A plugin for offloading CakePHP tasks to a Gearman Job Server."
@@ -491,6 +491,21 @@
     "name": "Queue plugin",
     "url": "https://github.com/dereuromark/cakephp-queue",
     "description": "A minimal dependency-free CakePHP only plugin around Queue."
+  },
+  {
+    "name": "Alt3/Swagger plugin",
+    "url": "https://github.com/alt3/cakephp-swagger",
+    "description": "Swagger 2.0 documentation for your CakePHP APIs using swagger-php and swagger-ui."
+  },
+  {
+    "name": "Alt3/ValidationExposer plugin",
+    "url": "https://github.com/alt3/cakephp-validation-exposer",
+    "description": "Easily expose your application's validation rules."
+  },
+  {
+    "name": "ApiPagination plugin",
+    "url": "https://github.com/bcrowe/cakephp-api-pagination",
+    "description": "Injects pagination information from CakePHP's Paginator into serialized JsonView and XmlView responses."
   },
   {
     "name": "Cors plugin",
@@ -506,11 +521,6 @@
     "name": "JsonApi plugin",
     "url": "https://github.com/josbeir/cakephp-json-api",
     "description": "Implements the JSON API format."
-  },
-  {
-    "name": "Swagger plugin",
-    "url": "https://github.com/alt3/cakephp-swagger",
-    "description": "Swagger plugin for documenting your CakePHP 3.x APIs."
   },
   {
     "name": "ElasticSearch plugin",
@@ -624,7 +634,7 @@
   },
   {
     "name": "CakeExcel plugin",
-    "url": "https://github.com/dakota/CakeExcel/tree/3.0",
+    "url": "https://github.com/dakota/CakeExcel",
     "description": "An Excel view to generate XLSX files."
   },
   {
@@ -703,6 +713,11 @@
     "description": "Faker support for CakePHP fixtures."
   },
   {
+    "name": "FriendsOfCake/fixturize",
+    "url": "https://github.com/FriendsOfCake/fixturize",
+    "description": "More efficient inserting fixtures when running test suites by decreasing amount of inserts (mysql only)."
+  },
+  {
     "name": "Gourmet/Muffin plugin",
     "url": "https://github.com/gourmet/muffin",
     "description": "FactoryMuffin support for CakePHP fixture records."
@@ -741,6 +756,21 @@
     "name": "CakePHP.gitignore",
     "url": "https://github.com/github/gitignore/blob/master/CakePHP.gitignore",
     "description": "The .gitignore file proposals."
+  },
+  {
+    "name": "CakePHP Vagrant Setup",
+    "url": "https://github.com/cpierce/cakephp-vagrant-setup",
+    "description": "Tool for spinning up multiple CakePHP 3.x Vanilla Dev Environments."
+  },
+  {
+    "name": "NetBeans plugin",
+    "url": "https://github.com/junichi11/cakephp3-netbeans",
+    "description": " This plugin provides support for CakePHP in NetBeans 8.1+."
+  },
+  {
+    "name": "PhpStorm plugin",
+    "url": "https://github.com/skie/PhpStorm",
+    "description": " CakePHP auto-completion support for console commands in PhpStorm IDE."
   },
   {
     "name": "PuPHPet",
@@ -878,11 +908,6 @@
     "name": "CakePHP Cookbook(!)",
     "url": "http://book.cakephp.org/",
     "description": "The official CakePHP documentation."
-  },
-  {
-    "name": "CakePHP Podcast",
-    "url": "http://podcast.cakephp.org/",
-    "description": "The official CakePHP podcasts."
   },
   {
     "name": "CakePHP Reporter",

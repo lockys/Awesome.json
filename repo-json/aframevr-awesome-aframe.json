@@ -1,5 +1,9 @@
 [
   {
+    "name": "Blog",
+    "url": "https://aframe.io/blog/"
+  },
+  {
     "name": "Official Site",
     "url": "https://aframe.io"
   },
@@ -12,16 +16,12 @@
     "url": "https://aframe.io/examples/"
   },
   {
-    "name": "MozVR Codepen",
+    "name": "Codepen",
     "url": "http://codepen.io/team/mozvr/pens/public/"
   },
   {
     "name": "Slack",
     "url": "http://aframevr-slack.herokuapp.com/"
-  },
-  {
-    "name": "Made with A-Frame Tumblr",
-    "url": "http://aframevr.tumblr.com/"
   },
   {
     "name": "Twitter",
@@ -49,12 +49,12 @@
   {
     "name": "Introduction to A-Frame",
     "url": "http://www.slideshare.net/ellisonmu/introduction-to-aframe-57170744",
-    "description": "Slides from talk at Mozilla Taipei (by @daoshengmu)"
+    "description": "Slides from talk at Mozilla Taipei"
   },
   {
     "name": "Build the Virtual Reality Web with A-Frame",
     "url": "http://www.slideshare.net/MozVR/build-the-virtual-reality-web-with-aframe/",
-    "description": "Slides from talk at ForwardJS (by @ngokevin)"
+    "description": "Slides from talk at ForwardJS"
   },
   {
     "name": "Build a Simple First-Person-Shooter Using Components",
@@ -64,29 +64,83 @@
   {
     "name": "Relative Positioning in A-Frame",
     "url": "https://medium.com/immersion-for-the-win/relative-positioning-in-a-frame-d839fc0e3249",
-    "description": "How to use <a-entity> as a wrapper to create local coordinate spaces."
+    "description": "How to use <a-entity> as a wrapper to create local coordinate spaces"
   },
   {
-    "name": "\"Building a Virtual Reality Web Experience\" (by Josh Carpenter)",
+    "name": "Building Cardboard Dungeon with A-Frame",
+    "url": "https://hacks.mozilla.org/2016/03/building-cardboard-dungeon-with-a-frame/",
+    "description": "A case study on building a simple dungeon game usign A-Frame"
+  },
+  {
+    "name": "A-Frame: The Easiest Way to Bring VR to the Web Today",
+    "url": "http://www.sitepoint.com/a-frame-the-easiest-way-to-bring-vr-to-the-web-today/",
+    "description": "Getting started on WebVR with A-Frame"
+  },
+  {
+    "name": "A-Frame 0.2.0",
+    "url": "https://hacks.mozilla.org/2016/03/a-frame-0-2-0-the-extensible-vr-web/",
+    "description": "The Extensible VR Web - Release of A-Frame 0.2.0"
+  },
+  {
+    "name": "Building a Simple Web VR UI with A-Frame",
+    "url": "https://blog.neondaylight.com/build-a-simple-web-vr-ui-with-a-frame-a17a2d5b484",
+    "description": "Using cursor and components to swap photospheres"
+  },
+  {
+    "name": "Lightmapping on the Server",
+    "url": "https://medium.com/@bnolan/lightmapping-on-the-server-5485177ef2fa",
+    "description": "Server-side lightmapping with Blender"
+  },
+  {
+    "name": "Scene Export",
+    "url": "https://medium.com/@bnolan/scene-export-89cc1c985ac8",
+    "description": "Exporting A-Frame-based scenes in SceneVR"
+  },
+  {
+    "name": "Using Thingiverse Files in A-Frame",
+    "url": "https://medium.com/@bnolan/using-thingiverse-files-in-a-frame-50641ca3f721"
+  },
+  {
+    "name": "Building a Virtual Reality Web Experience",
     "url": "https://air.mozilla.org/josh-carpenter-building-a-virtual-reality-web-experience/",
     "description": "A sneak peek of A-Frame before it was released"
   },
   {
-    "name": "\"A Review of Mozilla's A-Frame WebVR Framework\" (by AR/VR Magazine)",
+    "name": "A Review of Mozilla's A-Frame WebVR Framework",
     "url": "https://www.youtube.com/watch?v=4IqBLoJd0ww"
   },
   {
-    "name": "\"Responsive Web Design with A-Frame\" (by @alexrkrass)",
+    "name": "Responsive Web Design with A-Frame",
     "url": "https://www.youtube.com/watch?v=HogJdsepZRo"
   },
   {
-    "name": "\"Using A-Frame with Epson Moverio and Crosswalk\" (by Pablo Mendigochea)",
+    "name": "Using A-Frame with Epson Moverio and Crosswalk",
     "url": "https://www.youtube.com/watch?v=Tt-pX1JMt60",
     "description": "Tech talk on building WebVR and VR apps with Crosswalk and A-Frame for the Epson Moverio augmented-reality smart glasses"
   },
   {
-    "name": "\"D3 + 3D: Using d3.js with A-Frame\"",
+    "name": "D3 + 3D: Using d3.js with A-Frame",
     "url": "https://www.youtube.com/watch?v=Tb2b5nFmmsM"
+  },
+  {
+    "name": "Build the Virtual Reality Web with A-Frame",
+    "url": "https://www.youtube.com/watch?v=f2pu-oMspLs",
+    "description": "Talk on A-Frame at ForwardJS"
+  },
+  {
+    "name": "VR on the Open Web with A-Frame and WebVR",
+    "url": "http://voicesofvr.com/350-vr-on-the-open-web-with-a-frame-and-webvr/",
+    "description": "Voices of VR podcast featuring Josh Carpenter"
+  },
+  {
+    "name": "A-Frame: VR for Developers",
+    "url": "https://www.youtube.com/watch?v=wRqoSdPZQBY",
+    "description": "Talk on A-Frame at SFHTML5"
+  },
+  {
+    "name": "Introducing WebVR with A-Frame at RunJumpDev July 2016 Monthly Meeting",
+    "url": "https://www.youtube.com/watch?v=hHzUobbVAxQ",
+    "description": "Talk on WebVR"
   },
   {
     "name": "Entity Systems Wiki",
@@ -120,19 +174,99 @@
     "url": "http://ngokevin.com/blog/aframe-component/"
   },
   {
-    "name": "Component Boilerplate",
-    "url": "https://github.com/ngokevin/aframe-component-boilerplate",
-    "description": "Boilerplate for creating and sharing A-Frame VR components"
-  },
-  {
     "name": "Along Path",
     "url": "https://jsbin.com/dasefeh/edit?html,output",
     "description": "Interpolating an entity's position along a path"
   },
   {
+    "name": "Asset Lazy Load",
+    "url": "https://github.com/youmustfight/aframe-asset-lazy-load",
+    "description": "Assign asset loading order and delays"
+  },
+  {
+    "name": "Audio Visualizer",
+    "url": "https://github.com/ngokevin/aframe-audio-visualizer-components",
+    "description": "Audio visualizations using WebAudio API"
+  },
+  {
+    "name": "Bmfont",
+    "url": "https://github.com/bryik/aframe-bmfont-text-component",
+    "description": "Renders bitmap/SDF fonts for high-quality 2D text"
+  },
+  {
+    "name": "Broadcast",
+    "url": "https://github.com/ngokevin/aframe-broadcast-component",
+    "description": "Multiuser with WebSockets"
+  },
+  {
+    "name": "Checkpoint Controls",
+    "url": "https://github.com/donmccurdy/aframe-extras/blob/master/src/controls/checkpoint-controls.js",
+    "description": "Eased linear locomotion between designated hotspots"
+  },
+  {
+    "name": "Collider, Explode, Spawner",
+    "url": "https://github.com/dmarcos/a-invaders/tree/master/js/components",
+    "description": "Collection of components for collision, geometry explosions, and entity spawning"
+  },
+  {
+    "name": "Crease",
+    "url": "https://github.com/andreasplesch/aframe-crease-component",
+    "description": "Creased shading"
+  },
+  {
+    "name": "Cubemap",
+    "url": "https://github.com/bryik/aframe-cubemap-component",
+    "description": "Create a skybox from a cubemap"
+  },
+  {
+    "name": "Drag Look",
+    "url": "https://github.com/mayognaise/aframe-drag-look-controls-component",
+    "description": "Look controls in the opposite direction with changing cursor style"
+  },
+  {
+    "name": "Draw",
+    "url": "https://github.com/maxkrieger/aframe-draw-component",
+    "description": "HTML5 <canvas> as a material texture, with support for extension components"
+  },
+  {
+    "name": "Entity Generator",
+    "url": "https://github.com/ngokevin/aframe-entity-generator-component",
+    "description": "Generate entities"
+  },
+  {
+    "name": "Event Set",
+    "url": "https://github.com/ngokevin/aframe-event-set-component",
+    "description": "Set properties in response to events, replacement for declarative events"
+  },
+  {
+    "name": "Extras",
+    "url": "https://github.com/donmccurdy/aframe-extras",
+    "description": "Don's collection of A-Frame components"
+  },
+  {
     "name": "Extrude and Lathe",
     "url": "https://github.com/JosePedroDias/aframe-extrude-and-lathe",
     "description": "Extrude and lathe geometries"
+  },
+  {
+    "name": "Faceset",
+    "url": "https://github.com/andreasplesch/aframe-faceset-component",
+    "description": "Geometry from vertices and faces"
+  },
+  {
+    "name": "Fence",
+    "url": "https://github.com/atomicguy/aframe-fence-component",
+    "description": "Set boundaries on entity position"
+  },
+  {
+    "name": "Firebase",
+    "url": "https://github.com/ngokevin/aframe-firebase-component",
+    "description": "Multiuser with Firebase"
+  },
+  {
+    "name": "Fit Texture",
+    "url": "https://github.com/nylki/aframe-fit-texture-component",
+    "description": "Automatically scale entities relative to their texture, so you don't need to set width/height manually"
   },
   {
     "name": "FPS Look",
@@ -145,74 +279,29 @@
     "description": "Gamepad controls using HTML5 Gamepad API"
   },
   {
-    "name": "Layout",
-    "url": "https://github.com/ngokevin/aframe-layout-component",
-    "description": "3D layout of child entities"
-  },
-  {
-    "name": "No-click Look Controls",
-    "url": "https://github.com/alexrkass/aframe-no-click-look-controls",
-    "description": "Intuitive desktop view controls without requiring mousedown + drag"
-  },
-  {
-    "name": "OBJ and MTL Loader",
-    "url": "https://github.com/donmccurdy/aframe-obj-loader-component",
-    "description": "Loader for .OBJ models and .MTL materials"
-  },
-  {
-    "name": "Physics",
-    "url": "https://github.com/ngokevin/aframe-physics-components",
-    "description": "Rigid-body physics"
-  },
-  {
-    "name": "Proxy Controls",
-    "url": "https://proxy-controls.donmccurdy.com",
-    "description": "Connect input devices from your desktop to your mobile phone with WebRTC"
-  },
-  {
-    "name": "Text",
-    "url": "https://github.com/ngokevin/aframe-text-component",
-    "description": "Polygonal text"
-  },
-  {
-    "name": "Collider, Explode, Spawner",
-    "url": "https://github.com/dmarcos/a-invaders/tree/master/js/components",
-    "description": "Collection of components for collision, geometry explosions, and entity spawning"
-  },
-  {
-    "name": "Asset Lazy Load",
-    "url": "https://github.com/youmustfight/aframe-asset-lazy-load",
-    "description": "Assign asset loading order and delays"
-  },
-  {
-    "name": "Draw",
-    "url": "https://github.com/maxkrieger/aframe-draw-component",
-    "description": "HTML5 <canvas> as a material texture, with support for extension components"
-  },
-  {
-    "name": "Text Wrap",
-    "url": "https://github.com/maxkrieger/aframe-textwrap-component",
-    "description": "Wrapping text dynamically rendered onto the draw component"
-  },
-  {
-    "name": "Template",
-    "url": "https://github.com/ngokevin/aframe-template-component",
-    "description": "Integration with Handlebars, Jade, mustache, Nunjucks JS template engines"
-  },
-  {
-    "name": "Stereo",
-    "url": "https://github.com/oscarmarinmiro/aframe-stereo-component",
-    "description": "Enable rendering different entities for each eye, using THREE.js layers so you can render 3D stereoscopic videos (full and half-dome)"
-  },
-  {
     "name": "GIF",
     "url": "https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif",
     "description": "Display GIF as a texture by using a Canvas"
   },
   {
-    "name": "Interpolation",
-    "url": "https://github.com/scenevr/interpolation-component",
-    "description": "Interpolate positional and rotational updates for entities, useful for fetching from server for multiplayer"
+    "name": "glTF",
+    "url": "https://github.com/xirvr/aframe-gltf/",
+    "description": "glTF models"
+  },
+  {
+    "name": "Grid Helper",
+    "url": "https://github.com/dbradleyfl/aframe-gridhelper",
+    "description": "Create customizable grids"
+  },
+  {
+    "name": "Height Grid",
+    "url": "https://github.com/andreasplesch/aframe-heightgrid-component",
+    "description": "Terrain"
+  },
+  {
+    "name": "href",
+    "url": "https://github.com/gasolin/aframe-href-component",
+    "description": "Link to other pages using cursor component"
   },
   {
     "name": "HTML Texture",
@@ -220,8 +309,49 @@
     "description": "Using HTML as a texture, powered by html2canvas"
   },
   {
-    "name": "Selectable by @scenevr- Click on an entity to select it, handy for editors",
-    "url": "https://github.com/scenevr/selectable-component"
+    "name": "Interpolation",
+    "url": "https://github.com/scenevr/interpolation-component",
+    "description": "Interpolate positional and rotational updates for entities, useful for fetching from server for multiplayer"
+  },
+  {
+    "name": "k-frame",
+    "url": "https://github.com/ngokevin/k-frame",
+    "description": "Kevin's collection of A-Frame components"
+  },
+  {
+    "name": "Keyboard",
+    "url": "https://github.com/richardanaya/aframe-keyboard",
+    "description": "Full VR keyboard for use with WebVR controllers"
+  },
+  {
+    "name": "Layout",
+    "url": "https://github.com/ngokevin/aframe-layout-component",
+    "description": "3D layout of child entities"
+  },
+  {
+    "name": "Leap Hands",
+    "url": "https://github.com/openleap/aframe-leap-hands",
+    "description": "Leap Motion"
+  },
+  {
+    "name": "Mesh Line",
+    "url": "https://github.com/andreasplesch/aframe-meshline-component",
+    "description": "Draw thick lines"
+  },
+  {
+    "name": "Mouse Cursor",
+    "url": "https://github.com/mayognaise/aframe-mouse-cursor-component",
+    "description": "Use mouse as a direct pointer"
+  },
+  {
+    "name": "No-click Look Controls",
+    "url": "https://github.com/alexrkass/aframe-no-click-look-controls",
+    "description": "Intuitive desktop view controls without requiring mousedown + drag"
+  },
+  {
+    "name": "Ocean",
+    "url": "https://github.com/donmccurdy/aframe-extras/blob/master/src/primitives/a-ocean.js",
+    "description": "Flat-shaded ocean primitive and component, with animated waves"
   },
   {
     "name": "Orbit Controls",
@@ -229,9 +359,168 @@
     "description": "Orbit camera around an entity"
   },
   {
+    "name": "Particle System",
+    "url": "https://github.com/IdeaSpaceVR/aframe-particle-system-component",
+    "description": "Particle systems (e.g., rain, dust, snow, fire)"
+  },
+  {
+    "name": "Physics + Vive Controls",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/misc",
+    "description": "grab and sphere-collider components for combining Vive controllers with aframe-extras.physics"
+  },
+  {
+    "name": "Physics",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/physics",
+    "description": "Rigid-body physics using Cannon.js"
+  },
+  {
+    "name": "PLY Loader",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/loaders",
+    "description": "Model loader for .PLY models, wrapping THREE.PLYLoader"
+  },
+  {
+    "name": "Polygon",
+    "url": "https://github.com/andreasplesch/aframe-polygon-primitive",
+    "description": "n-sided polygons"
+  },
+  {
+    "name": "Proxy Controls",
+    "url": "https://proxy-controls.donmccurdy.com",
+    "description": "Connect input devices from your desktop to your mobile phone with WebRTC"
+  },
+  {
+    "name": "Randomizer",
+    "url": "https://github.com/ngokevin/aframe-randomizer-components",
+    "description": "Set random values"
+  },
+  {
+    "name": "Selectable by @scenevr- Click on an entity to select it, handy for editors",
+    "url": "https://github.com/scenevr/selectable-component"
+  },
+  {
+    "name": "Shadows",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/shadows",
+    "description": "Realtime shadows"
+  },
+  {
+    "name": "Star",
+    "url": "https://github.com/andreasplesch/aframe-star-component",
+    "description": "2D stars"
+  },
+  {
+    "name": "Stereo",
+    "url": "https://github.com/oscarmarinmiro/aframe-stereo-component",
+    "description": "Enable rendering different entities for each eye, using THREE.js layers so you can render 3D stereoscopic videos (full and half-dome)"
+  },
+  {
+    "name": "Template",
+    "url": "https://github.com/ngokevin/aframe-template-component",
+    "description": "Integration with Handlebars, Jade, mustache, Nunjucks JS template engines"
+  },
+  {
+    "name": "Text Wrap",
+    "url": "https://github.com/maxkrieger/aframe-textwrap-component",
+    "description": "Wrapping text dynamically rendered onto the draw component"
+  },
+  {
+    "name": "Text",
+    "url": "https://github.com/ngokevin/aframe-text-component",
+    "description": "Polygonal text"
+  },
+  {
+    "name": "THREE Loader",
+    "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/loaders",
+    "description": "Model loader for .json models, wrapping THREE.JSONLoader and THREE.ObjectLoader"
+  },
+  {
+    "name": "Tube",
+    "url": "https://github.com/donmccurdy/aframe-extras/blob/master/src/primitives/a-tube.js",
+    "description": "Cylindrical primitive that shapes itself to a given path"
+  },
+  {
+    "name": "UI Modal",
+    "url": "https://github.com/IdeaSpaceVR/aframe-ui-modal-component",
+    "description": "Show dialog box or a menu in front of the camera"
+  },
+  {
     "name": "Universal Controls",
     "url": "https://github.com/donmccurdy/aframe-extras/tree/master/src/controls/",
-    "description": "Refactored A-Frame controls that supports gamepad, HMD, keyboard, mouse, touch alongside physics"
+    "description": "Refactored A-Frame controls that supports gamepad, HMD, keyboard, mouse + pointerlock, touch-to-move, with physics compatibility"
+  },
+  {
+    "name": "Video Controls",
+    "url": "https://github.com/oscarmarinmiro/aframe-video-controls",
+    "description": "Video controls (play/pause/jump) for A-Frame video assets"
+  },
+  {
+    "name": "Vive Cursor",
+    "url": "https://github.com/bryik/aframe-vive-cursor-component",
+    "description": "A cursor for HTC Vive controllers"
+  },
+  {
+    "name": "WebVR Controller",
+    "url": "https://github.com/richardanaya/aframe-webvr-controller",
+    "description": "HTC Vive controllers"
+  },
+  {
+    "name": "Look At and Billboard",
+    "url": "https://github.com/blairmacintyre/aframe-look-at-billboard-component",
+    "description": "Component to tell an entity to face another entity, or to face the camera."
+  },
+  {
+    "name": "Animation",
+    "url": "https://ngokevin.github.io/aframe-animation-component/",
+    "description": "New and improved animation system using components. [Code]"
+  },
+  {
+    "name": "ChartBuilder",
+    "url": "https://github.com/impronunciable/aframe-chartbuilder-component",
+    "description": "A component for using ChartBuilder charts."
+  },
+  {
+    "name": "Mixin Style Sheets",
+    "url": "https://github.com/ngokevin/aframe-mss",
+    "description": " CSS-like stylesheets for A-Frame for declaring mixins. [Code]"
+  },
+  {
+    "name": "Stereo Cube",
+    "url": "https://github.com/wallabyway/aframe-stereocube",
+    "description": "A component for stereo cubemap textures (i.e., left and right eye textures)."
+  },
+  {
+    "name": "Trigger Box",
+    "url": "https://github.com/Utopiah/aframe-triggerbox-component",
+    "description": "A component that emits an event when it enters or leaves a predefined area."
+  },
+  {
+    "name": "L-System",
+    "url": "https://github.com/nylki/aframe-lsystem-component",
+    "description": "A component for rendering Lindenmayer systems."
+  },
+  {
+    "name": "Terrain Model Component",
+    "url": "https://github.com/bryik/aframe-terrain-model-component",
+    "description": "Generating terrains using TerrainLoader"
+  },
+  {
+    "name": "Draw",
+    "url": "https://github.com/mayognaise/aframe-draw-shader",
+    "description": "Render from canvas"
+  },
+  {
+    "name": "HTML",
+    "url": "https://github.com/mayognaise/aframe-html-shader",
+    "description": "Render from HTML"
+  },
+  {
+    "name": "Video",
+    "url": "https://github.com/mayognaise/aframe-video-shader",
+    "description": "iOS-compatible video material"
+  },
+  {
+    "name": "GIF",
+    "url": "https://github.com/mayognaise/aframe-gif-shader",
+    "description": "Render animated GIFs"
   },
   {
     "name": "aframe-jade-boilerplate",
@@ -249,7 +538,7 @@
     "description": "A-Frame with D3.js [Video Tutorial]"
   },
   {
-    "name": "Vue.js + TweenMax demo (by @cheapsteak)",
+    "name": "Vue.js + TweenMax demo",
     "url": "http://codepen.io/cheapsteak/pen/dGXZjx?editors=101",
     "description": "Example of A-Frame with Vue.js for reactive components"
   },
@@ -269,6 +558,26 @@
     "description": "A-Frame with Meteor, a JavaScript app framework"
   },
   {
+    "name": "Altspace",
+    "url": "https://github.com/AltspaceVR/aframe-altspace-component",
+    "description": "Integration with AltspaceVR"
+  },
+  {
+    "name": "IdeaSpace",
+    "url": "https://github.com/IdeaSpaceVR/IdeaSpace",
+    "description": "IdeaSpace CMS for the virtual reality web"
+  },
+  {
+    "name": "Angular 2 Boilerplate",
+    "url": "https://github.com/brakmic/Angular_VRDemo",
+    "description": "An environment for developing WebVR apps with Angular 2 with A-Frame."
+  },
+  {
+    "name": "Drupal",
+    "url": "https://www.drupal.org/project/aframe",
+    "description": "Drupal module for integration with A-Frame."
+  },
+  {
     "name": "aframe-react",
     "url": "https://github.com/ngokevin/aframe-react"
   },
@@ -285,8 +594,13 @@
     "url": "https://github.com/RSpace/aframe-meetup-example"
   },
   {
-    "name": "React + TweenMax Demo (by @cheapsteak)",
+    "name": "React + TweenMax Demo",
     "url": "http://codepen.io/cheapsteak/pen/pgbdGa?editors=001"
+  },
+  {
+    "name": "React Redux Boilerplate",
+    "url": "https://github.com/HeartRunner/react-redux-aframe-boilerplate/",
+    "description": "Combining React, Redux, React Router, A-Frame and Webpack"
   },
   {
     "name": "a-invaders",
@@ -299,19 +613,19 @@
     "description": "Star Wars Audio Visualization [Code]"
   },
   {
-    "name": "VR Website Navigation (by @drawvr)",
+    "name": "VR Website Navigation",
     "url": "http://drawvr.com/"
   },
   {
-    "name": "Tron-Inspired VR Website Experience (by @drawvr)",
+    "name": "Tron-Inspired VR Website Experience",
     "url": "http://drawvr.com/tron/"
   },
   {
-    "name": "Minecraft-Inspired VR Website Experience (by @drawvr)",
+    "name": "Minecraft-Inspired VR Website Experience",
     "url": "http://drawvr.com/minecraft/"
   },
   {
-    "name": "Movie Theater (by @drawvr)",
+    "name": "Movie Theater",
     "url": "http://drawvr.com/theater/"
   },
   {
@@ -345,7 +659,7 @@
     "description": "GIFs in VR [Post]"
   },
   {
-    "name": "Virtual Art School Tour (by @withersc)",
+    "name": "Virtual Art School Tour",
     "url": "http://stampswebdesign.com/withersc/hud/index.html",
     "description": "Tour of the Stamps School of Art & Design, built using 360-degree photos with a navigation carousel"
   },
@@ -355,46 +669,46 @@
     "description": "360-degree photo viewer with navigation [Code]"
   },
   {
-    "name": "Space-themed E-commerce Store (by @drawvr)",
+    "name": "Space-themed E-commerce Store",
     "url": "http://vr.lasershop.ca/"
   },
   {
-    "name": "Tunnel Ride (by @drawvr)",
+    "name": "Tunnel Ride",
     "url": "http://drawvr.com/tunnel/"
   },
   {
-    "name": "Wheel Ride (by @drawvr)",
+    "name": "Wheel Ride",
     "url": "http://drawvr.com/wheel/"
   },
   {
-    "name": "Equalizer Ride (by @drawvr)",
+    "name": "Equalizer Ride",
     "url": "http://drawvr.com/equalizer/"
   },
   {
-    "name": "Test Scape (by Michael Verdi)",
+    "name": "Test Scape",
     "url": "http://x627.com/testscape/"
   },
   {
-    "name": "INFIVERSE (by @drawvr) Navigate a collection of cool A-Frame sites by walking through rooms and doorways (by @drawvr)",
+    "name": "INFIVERSE Navigate a collection of cool A-Frame sites by walking through rooms and doorways",
     "url": "http://infiverse.com/"
   },
   {
-    "name": "Cardboard Dungeon (by Christopher Waite)",
+    "name": "Cardboard Dungeon",
     "url": "https://chrismwaite.github.io/cardboard-dungeon/",
     "description": "A first-person dungeon crawler designed for mobile [Code]"
   },
   {
-    "name": "Cardboard Treasure Hunt (by Michael Straeubig)",
+    "name": "Cardboard Treasure Hunt",
     "url": "https://i3games.github.io/aframe-cardboard-demo/",
     "description": "An A-Frame implementation of the Google Cardboard \"Treasure Hunt\" demo [Code]"
   },
   {
-    "name": "Concert Hall 360° (by @ybinstock)",
+    "name": "Concert Hall 360°",
     "url": "https://ybinstock.github.io/concert_hall_360/",
     "description": "360° view of an empty concert hall with Vivaldi’s The Four Seasons playing in the background [Code]"
   },
   {
-    "name": "Where in the World Is Carmen Sandiego? (by @ybinstock)",
+    "name": "Where in the World Is Carmen Sandiego?",
     "url": "https://ybinstock.github.io/carmensandiego_360/",
     "description": "A scavenger hunt game inspired by the popular series [Code]"
   },
@@ -404,7 +718,7 @@
     "description": "Monument Valley scene exported from MagicaVoxel [Code]"
   },
   {
-    "name": "Drop (by @drawvr)",
+    "name": "Drop",
     "url": "http://drawvr.com/drop/",
     "description": "Look down and free-fall"
   },
@@ -421,12 +735,12 @@
   {
     "name": "Hello, Pizza!",
     "url": "http://carpedmt.github.io/",
-    "description": "If a pizza spins in a forest and no one is around to eat it, does it make a sound? [Cocde]"
+    "description": "If a pizza spins in a forest and no one is around to eat it, does it make a sound? [Code]"
   },
   {
-    "name": "GadgetPlus VR online store (by @drawvr)",
+    "name": "GadgetPlus VR Online Store",
     "url": "http://vr.gadgetplus.ca/",
-    "description": "shop in VR for electronics and gifts"
+    "description": "Shop in VR for electronics and gifts"
   },
   {
     "name": "Lullabot",
@@ -439,27 +753,27 @@
     "description": "Can you find the red cube? Randomly generated forest built with Handlebars template"
   },
   {
-    "name": "E-commerce Spy Store (by @drawvr)",
+    "name": "E-commerce Spy Store",
     "url": "http://vr.ispystore.ca/",
     "description": "Black & white environment with fire"
   },
   {
-    "name": "E-commerce Gallery (by @drawvr)",
+    "name": "E-commerce Gallery",
     "url": "http://vr.gadgetplus.ca/",
     "description": "Product gallery in a large well-lit building"
   },
   {
-    "name": "Living Room (by @drawvr)",
+    "name": "Living Room",
     "url": "http://drawvr.com/living-room/",
     "description": "Watch TV from your luxurious living room by the beach"
   },
   {
-    "name": "Alien Abduction (by Gabriel de Diego, Bruno Diaz, Joshua Ovieda and Jose-Rafael Diaz)",
+    "name": "Alien Abduction",
     "url": "http://vedm.xyz/abductionvr/",
     "description": "Alien Abduction demo"
   },
   {
-    "name": "Hello VR (by @PIXELZ)",
+    "name": "Hello VR",
     "url": "http://pixelz.de/vr/hellovr/",
     "description": "Moody dark scene with cool shadows, reflections, and animated clouds"
   },
@@ -474,7 +788,7 @@
     "description": "Explore Mars in virtual reality. Published by the Washington Post and created by a group at University of Texas at Austin. Read their thoughts on A-Frame and WebVR"
   },
   {
-    "name": "Subreddit gallery (by @scenevr)",
+    "name": "Subreddit gallery",
     "url": "https://www.scenevr.com/r/aww",
     "description": "View subreddits as virtual galleries"
   },
@@ -482,5 +796,548 @@
     "name": "360 Syria",
     "url": "http://360syria.com/",
     "description": "View the devastation of barrel bombs in Aleppo, Syria. Created in partnership with AllJunior and Amnesty International UK"
+  },
+  {
+    "name": "PerspecTV VR Player",
+    "url": "http://32studios.magichandsrepair.com/designstudio/2016/03/perspectv-vr-player/",
+    "description": "360-video VR player that allows you to view any 360-video from the web. Compatible with mobile"
+  },
+  {
+    "name": "Escape Game",
+    "url": "http://drawvr.com/escape/",
+    "description": "Can you escape?"
+  },
+  {
+    "name": "Escape Game 2: The Game",
+    "url": "http://drawvr.com/escape/",
+    "description": "Can you escape again?"
+  },
+  {
+    "name": "Tron World",
+    "url": "http://alexoviedo999.github.io/vr-carpet-ride/tron-world/",
+    "description": "Carpet Ride"
+  },
+  {
+    "name": "OverWater",
+    "url": "http://www.skyislandsvr.com/pages/overwater.html",
+    "description": "SkyIslands VR piece."
+  },
+  {
+    "name": "Voxel Castle",
+    "url": "https://www.scenevr.com/scenes/398/view",
+    "description": "Castle created with MagicaVoxel and baked in Blender"
+  },
+  {
+    "name": "Monument Valley Castle",
+    "url": "https://www.scenevr.com/scenes/397/view",
+    "description": "Another castle created with MagicaVoxel and baked in Blender"
+  },
+  {
+    "name": "Lava Cave Game",
+    "url": "http://drawvr.com/lava-cave",
+    "description": "Don't touch the lava"
+  },
+  {
+    "name": "Castle Game",
+    "url": "http://drawvr.com/castle/",
+    "description": "Hidden doors and gems"
+  },
+  {
+    "name": "Electrocat",
+    "url": "http://topanga-band.com/electrocat/index.html",
+    "description": "Groove to Topanga's music"
+  },
+  {
+    "name": "Island",
+    "url": "https://sandbox.donmccurdy.com/vr/island/",
+    "description": "Voxel-based island in the ocean"
+  },
+  {
+    "name": "Purple Rain",
+    "url": "https://ngokevin.github.io/purple-rain/",
+    "description": "Prince tribute"
+  },
+  {
+    "name": "Green Laser Pointer Store",
+    "url": "http://vr.greenlaserpointerstore.com/",
+    "description": "Shop for lasers"
+  },
+  {
+    "name": "Tiny Hands for Trump",
+    "url": "http://tinyhandsfortrump.net/",
+    "description": "Donald Trump parody"
+  },
+  {
+    "name": "Starfox",
+    "url": "http://ufosnap.com/starfox/",
+    "description": "Fly through a Starfox-themed space"
+  },
+  {
+    "name": "Moon Bowling",
+    "url": "http://www.anj.fyi/moonbowling/",
+    "description": "Bowling in space with moons"
+  },
+  {
+    "name": "Moss March",
+    "url": "http://www.skyislandsvr.com/pages/mossmarch.html",
+    "description": "SkyIslandsVR piece on a foggy swamp"
+  },
+  {
+    "name": "Space Blob Towers",
+    "url": "http://www.skyislandsvr.com/pages/spaceblobtowers.html",
+    "description": "SkyIslandsVR piece on a pointy alien world"
+  },
+  {
+    "name": "Carnival Globe Trees",
+    "url": "http://www.skyislandsvr.com/pages/carnivalglobetrees.html",
+    "description": "SkyIslandsVR piece with globe-shaped trees"
+  },
+  {
+    "name": "A-Brush",
+    "url": "http://www.anj.fyi/sculpt/",
+    "description": "Doodle in 3D space with WASD and Cardboard cursor"
+  },
+  {
+    "name": "HelloWorldVR",
+    "url": "http://georational.github.io/helloWorldVR.html",
+    "description": "Stonehenge after dark"
+  },
+  {
+    "name": "May the 4th Be With You",
+    "url": "http://rudyjahchan.com/may4th/",
+    "description": "Star Wars"
+  },
+  {
+    "name": "Pirate",
+    "url": "http://drawvr.com/pirate/",
+    "description": "Cannon balls, knocking down blocks"
+  },
+  {
+    "name": "Mini Golf",
+    "url": "http://drawvr.com/minigolf/",
+    "description": "9 Holes"
+  },
+  {
+    "name": "Welcome to A-Frame",
+    "url": "http://drawvr.com/welcome/",
+    "description": "Quick introduction to A-Frame"
+  },
+  {
+    "name": "Photo Sphere Diver ",
+    "url": "https://www.ideaspacevr.org/themes/web-vr-photo-sphere-diver",
+    "description": "Dive into your photo spheres"
+  },
+  {
+    "name": "Sketch VR",
+    "url": "https://uniform-futures.github.io/sketch-vr/",
+    "description": "Doodle on paper, take a picture, and view it in VR [Code]"
+  },
+  {
+    "name": "Celestial Dancers",
+    "url": "http://celestial.elliotplant.com/",
+    "description": "An orbital mechanics simulation of celestial bodies"
+  },
+  {
+    "name": "Dark Lotus",
+    "url": "http://www.skyislandsvr.com/pages/darklotus.html",
+    "description": "Lotus flowers on churning water"
+  },
+  {
+    "name": "Aquila VR",
+    "url": "http://www.aquilavr.com/",
+    "description": "Mapping of the universe using actual star data"
+  },
+  {
+    "name": "Plink",
+    "url": "http://drawvr.com/plinko/",
+    "description": "Can you make it into the middle slot?"
+  },
+  {
+    "name": "Foosball",
+    "url": "http://drawvr.com/foosball/",
+    "description": "Everyone's second favorite tabletop game, with physics"
+  },
+  {
+    "name": "Redwood Dusk",
+    "url": "http://www.skyislandsvr.com/pages/redwooddusk.html",
+    "description": "Meditate under nature's giants"
+  },
+  {
+    "name": "Womynography",
+    "url": "http://deenakhattab.com/thesis/womynography.html",
+    "description": "An immersive map-based archive of urban women's experiences in Cairo"
+  },
+  {
+    "name": "EVA",
+    "url": "http://www.jmvisualcreativity.es/vr_eva/",
+    "description": "Prototype mecha in lava"
+  },
+  {
+    "name": "Space Shark Room",
+    "url": "http://liooil.neocities.org/VR_webStuff/room+07/room07.html",
+    "description": "Hinduist shark cage in space"
+  },
+  {
+    "name": "Metal Gear REX",
+    "url": "http://www.jmvisualcreativity.es/vr_metal/",
+    "description": "Return to Shadow Moses. SNAKE!"
+  },
+  {
+    "name": "Meditation Orbs",
+    "url": "http://www.skyislandsvr.com/pages/meditationorbs.html",
+    "description": "A place to meditate"
+  },
+  {
+    "name": "Welcome",
+    "url": "http://drawvr.com/welcome/",
+    "description": "To A-Frame"
+  },
+  {
+    "name": "Vapor Wave",
+    "url": "http://liooil.neocities.org/VR_webStuff/vaporWave.html",
+    "description": "Trippy purgatory room"
+  },
+  {
+    "name": "Jump Island",
+    "url": "http://www.jmvisualcreativity.es/vr_jump/",
+    "description": "Can you make it to the top?"
+  },
+  {
+    "name": "Roof Escape",
+    "url": "http://www.jmvisualcreativity.es/vr_roof/",
+    "description": "Parkour!"
+  },
+  {
+    "name": "TumbVR",
+    "url": "http://tumbvr.herokuapp.com/theonlymagicleftisart",
+    "description": "VR gallery for Tumblr"
+  },
+  {
+    "name": "VR Wiki Museum",
+    "url": "http://vrwikimuseum.com/wiki/Stegoceras",
+    "description": "Full Wikipedia in VR"
+  },
+  {
+    "name": "Where is Piers Morgan Disliked the Most?",
+    "url": "http://almossawi.com/aframe-d3-visualization/demo/",
+    "description": "D3 data visualization"
+  },
+  {
+    "name": "First Citdael",
+    "url": "http://www.skyislandsvr.com/pages/firstcitadel.html",
+    "description": "Citadel with flowing waterfalls"
+  },
+  {
+    "name": "Missed Connections",
+    "url": "http://armthethinker.github.io/webVR-experiments/5--missed-connections.html",
+    "description": "Visualization of Craigslist \"Missed Connections\" section"
+  },
+  {
+    "name": "Aeon",
+    "url": "http://aeon.horoman.com/",
+    "description": "Aeon is a 3D environment with VR support, where the user runs an island that tells about the prequel to the main story of Aeon."
+  },
+  {
+    "name": "SlideAmaze",
+    "url": "http://slideamaze.com/",
+    "description": "Turns your slideshow presentation into a 3D maze."
+  },
+  {
+    "name": "A-Frame AR",
+    "url": "https://github.com/autonome/aframe-ar",
+    "description": "Experimenting with AR using A-Frame and getUserMedia."
+  },
+  {
+    "name": "Outside Lands VR",
+    "url": "https://ngokevin.github.io/aframe-magicavoxel-projects/outsidelands/",
+    "description": "VR preview of the San Francisco Outside Lands music festival."
+  },
+  {
+    "name": "Home/Hope )- Narrated journalism piece about humanitarian work in South Sudan. Featured on Italy’s top news site.",
+    "url": "https://homehope.corriere.it/"
+  },
+  {
+    "name": "RunJumpDevSlides",
+    "url": "http://webvr-demos-nikolaiwarner.c9users.io:8081/",
+    "description": "Virtual slidedeck for an A-Frame talk at RunJumpDev."
+  },
+  {
+    "name": "Multiplayer Tic Tac Toe",
+    "url": "http://jsbin.com/janevom/edit?html,output",
+    "description": "Prototype of networked Vives playing Tic Tac Toe. [Video]"
+  },
+  {
+    "name": "30 Days of WebVR",
+    "url": "http://codepen.io/collection/AKkywv/",
+    "description": "One order of A-Frame and WebVR per day, all on CodePen."
+  },
+  {
+    "name": "Dominoes",
+    "url": "https://bryik.github.io/aframe-dominoes/",
+    "description": "Demonstration of HTC Vive with physics using dominoes. [Code, Video]"
+  },
+  {
+    "name": "Ball Throw",
+    "url": "https://bryik.github.io/aframe-ball-throw/",
+    "description": " Throw balls at blocks using Vive controllers and Don McCurdy's physics. [Code]"
+  },
+  {
+    "name": "Lyrics VR",
+    "url": "https://gurumukhi.github.io/vr-ram/demos/lyricsVR/index.html",
+    "description": "Watch lyrics fly past you in time with the music. [Code]"
+  },
+  {
+    "name": "Rubik's Cube",
+    "url": "http://tushararora.github.io/rubiks-cube/",
+    "description": "Spinning Rubik’s Cube featuring a multicolored-cube component.[Code]"
+  },
+  {
+    "name": "Shopify",
+    "url": "https://shopifyvr.myshopify.com/",
+    "description": "City Shoes -  Shop in VR! Pick up some trainers and see if they match your swagger."
+  },
+  {
+    "name": "Vrogger",
+    "url": "https://carbonfive.github.io/vrogger/",
+    "description": "Frogger in VR. Hop and get across the road."
+  },
+  {
+    "name": "A-Frame Statistics Dashboard",
+    "url": "https://ngokevin.github.io/aframe-statistics-dashboard/",
+    "description": "d3.js calendar heatmap of A-Frame GitHub Stargazers per day."
+  },
+  {
+    "name": "Pokemon Stadium",
+    "url": "https://ngokevin.github.io/aframe-magicavoxel-projects/pokemon/",
+    "description": "Face off against Charizard on the Pokemon Stadium."
+  },
+  {
+    "name": "Design Portfolio",
+    "url": "http://eddiebarkman.github.io/VR-Design-Portfolio/",
+    "description": "About pages in 3D space with neat transitions."
+  },
+  {
+    "name": "Stand at the Edge of Geologic Time",
+    "url": "http://apps.npr.org/rockymountain-vr/",
+    "description": "A virtual reality tour from NPR of Rocky Mountain National Park. [Code]"
+  },
+  {
+    "name": "MagicaVoxel: A-Frame",
+    "url": "https://ngokevin.github.io/aframe-magicavoxel-projects/aframe/",
+    "description": "A-Frame in MagicaVoxel in A-Frame."
+  },
+  {
+    "name": "Earth Rover",
+    "url": "https://www.hackster.io/RONDAGDAG/control-your-earth-rover-in-virtual-reality-15a9fe",
+    "description": "Controlling a physical robot from outer space using Intel Edison and Leap Motion."
+  },
+  {
+    "name": "Imagined Reality",
+    "url": "https://bryik.github.io/aframe-metaverse-contest/examples/imagined-reality.html",
+    "description": "Stereoscopic cubemaps, taken from winners of OTOY’s Render the Metaverse context."
+  },
+  {
+    "name": "Star Crossed",
+    "url": "http://vrweb.io/p/starCrossed/",
+    "description": "Piano and stars."
+  },
+  {
+    "name": "Vive Starter",
+    "url": "https://github.com/richardanaya/aframe-vive-starter",
+    "description": "Simple boilerplate for a Vive project using the third-party aframe-webvr-controller component."
+  },
+  {
+    "name": "Procedural Forest",
+    "url": "http://nylki.github.io/aframe-lsystem-component/forrest/",
+    "description": "A procedural forest with procedural trees using the L-System Component."
+  },
+  {
+    "name": "MagicaVoxel: City",
+    "url": "https://ngokevin.github.io/aframe-magicavoxel-projects/city/",
+    "description": "A city built using MagicaVoxel. [Tutorial]"
+  },
+  {
+    "name": "Sad Island",
+    "url": "http://www.skyislandsvr.com/pages/SadIsland.html",
+    "description": "An island in the sea. Strangely you feel like you are being watched."
+  },
+  {
+    "name": "iStaging LiveTour",
+    "url": "http://vrviewer.istaging.co/#!/684173",
+    "description": "360 and virtual tours with a neat mini-map."
+  },
+  {
+    "name": "Tanks",
+    "url": "http://www.bubbletanks.biz/",
+    "description": "A multiplayer tank game. [Code]"
+  },
+  {
+    "name": "Choose Your Own VR",
+    "url": "https://github.com/dannielle/tinier-house",
+    "description": "Which cup will you choose?"
+  },
+  {
+    "name": "Cat Garden",
+    "url": "http://dirosa.me/cat-garden/",
+    "description": "Float through a space of cats and balloons."
+  },
+  {
+    "name": "Virtual Symphony",
+    "url": "https://flexingdream.github.io/aframe_demo/",
+    "description": "Experience music in a new way on this symphonic trip through Martin Garrix and Third Party - Lions in the Wild."
+  },
+  {
+    "name": "Brexit in Berlin",
+    "url": "https://popathon.github.io/Gexit/hq.html",
+    "description": "Listen to Europeans talk and react to Brexit."
+  },
+  {
+    "name": "Virtual Symphony II",
+    "url": "https://musicpua.firebaseapp.com/",
+    "description": "Fly through particles, eagles, and horses while listening to Chainsmokers - Inside Out (Remix)."
+  },
+  {
+    "name": "VRVisitors",
+    "url": "http://georational.github.io/VRVisitors/VRVisitors.html",
+    "description": "Multi-user gallery of photogrammetric museum artifacts."
+  },
+  {
+    "name": "Head-Tracked Transformations",
+    "url": "http://armthethinker.github.io/webVR-experiments/6--head-tracked-transformations.html",
+    "description": " VR UX prototype of transforming objects’ orientations with your head to enhance VR experiences that don’t have positional tracking. Read the instructions listed at #6. [Code]"
+  },
+  {
+    "name": "SFMTA Van Ness BRT Model",
+    "url": "https://brt-webvr-fjrtyyjbhf.now.sh/vn-geary.html",
+    "description": "Model of the new Bus Rapid Transit project in San Francisco."
+  },
+  {
+    "name": "Virtual Reality Music Player",
+    "url": "https://young-refuge-92841.herokuapp.com/",
+    "description": "WebVR music player in space using the Spotify API. [Code]"
+  },
+  {
+    "name": "Weather Room",
+    "url": "http://weatherroom.herokuapp.com/",
+    "description": "What’s the forecast for WebVR? Sunny with no chance of rain. [Code]"
+  },
+  {
+    "name": "CinemVR Design Prototype",
+    "url": "http://valentin.design/vr",
+    "description": "Design prototype of a VR cinema."
+  },
+  {
+    "name": "Insurance World",
+    "url": "https://hellocreep.github.io/webvr/",
+    "description": "Insurance in suburbia."
+  },
+  {
+    "name": "JM Visual Creativity",
+    "url": "http://vr.jmvisualcreativity.es/",
+    "description": "Web designer and motion graphics artist Jose Manuel Serna’s portfolio."
+  },
+  {
+    "name": "WebVR Forest",
+    "url": "https://danstrong.com/webvr/",
+    "description": "At A-Frame National Park."
+  },
+  {
+    "name": "Breathing Scape",
+    "url": "http://www.jon-ibe.be/aframe/",
+    "description": "A tree-adorned hill that slowly breathes."
+  },
+  {
+    "name": "A-Runner",
+    "url": "https://joshgalvin.github.io/arunner/",
+    "description": "Infinite runner game with cubes."
+  },
+  {
+    "name": "FireFrame",
+    "url": "https://joshgalvin.github.io/aframemulti/",
+    "description": "Multiuser experiment using Firebase for synchronizing users connected to the same A-Frame scene."
+  },
+  {
+    "name": "Kinect Scans",
+    "url": "http://stampswebdesign.com/withersc/kinectscans/",
+    "description": "Students 3D-scanned with Xbox Kinect sensors and exported to .OBJ models. The winning project at University of Michigan’s Makeathon 2016."
+  },
+  {
+    "name": "Zenspot- Relaxing nature experiences with soothing music.",
+    "url": "https://s3-us-west-2.amazonaws.com/zenpath/pz/main.html"
+  },
+  {
+    "name": "World",
+    "url": "http://www.anj.fyi/world/",
+    "description": "Explore 360° photos using globe navigation."
+  },
+  {
+    "name": "Matrix",
+    "url": "http://www.anj.fyi/matrix/",
+    "description": "Jump and push around raining blocks in the Matrix."
+  },
+  {
+    "name": "Force Push",
+    "url": "https://sandbox.donmccurdy.com/vr/force-push/",
+    "description": "Become a block bender."
+  },
+  {
+    "name": "SpaceTrek",
+    "url": "http://spacepants.azurewebsites.net/homevr.html",
+    "description": "Explore 360° videos of space and atmosphere."
+  },
+  {
+    "name": "Firebase Presentation",
+    "url": "https://ngokevin.github.io/aframe-firebase-component/presentation/",
+    "description": "A multiuser demo scene for the SFHTML5 presentation."
+  },
+  {
+    "name": "PoopVR",
+    "url": "http://www.poopvr.biz/",
+    "description": "Life-altering possibilities of VR at the San Francisco Stupid Hackathon."
+  },
+  {
+    "name": "Low Nausea FPS Locomotion",
+    "url": "http://farbs.org/lownauseavrfps/",
+    "description": "Locomotion prototype for using 6DoF controllers (e.g., Vive) to grab and swing through scenes."
+  },
+  {
+    "name": "WebVR Soccer Stadium Complex",
+    "url": "https://s3.amazonaws.com/cassell-webvr/webvr-soccer-stadium-multiplex/index.html",
+    "description": "Watch several video feeds at once in a soccer stadium. [Code]"
+  },
+  {
+    "name": "Trident",
+    "url": "http://codepen.io/bryik/pen/XKWgvK",
+    "description": "Code experiment with cursor events in d3.js"
+  },
+  {
+    "name": "VR Inception School",
+    "url": "https://output.jsbin.com/pisaje/",
+    "description": "Learn a bit about WebVR in WebVR."
+  },
+  {
+    "name": "RCS Gallery",
+    "url": "http://fercastillo.com/rcs/volcan/",
+    "description": "Gallery of father’s photographs."
+  },
+  {
+    "name": "GuriVR",
+    "url": "https://gurivr.com/",
+    "description": "Create sharable VR scenes using natural language and zero code. [Code]"
+  },
+  {
+    "name": "VR Space Builder",
+    "url": "http://vr.greenbushlabs.com/",
+    "description": "Simple VR builder for kids using a form to import models and images."
+  },
+  {
+    "name": "WebVR API Simulation Extension",
+    "url": "https://chrome.google.com/webstore/detail/webvr-api-emulation/gbdnpaebafagioggnhkacnaaahpiefil",
+    "description": "Run WebVR 1.0 content without a supported headset or even a compatible browser/platform. Great for development."
+  },
+  {
+    "name": "WebVR Solar System",
+    "url": "http://vrspace.jmvisualcreativity.es/",
+    "description": "Solar System using A-Frame."
   }
 ]

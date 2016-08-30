@@ -816,6 +816,30 @@
     "url": "http://api.giphy.com/v1/gifs/search?q=make+it+rain&api_key=dc6zaTOxFJmzC"
   },
   {
+    "name": "Cost Savings",
+    "url": "http://www.nasa.gov/digitalstrategy/costsavings.json"
+  },
+  {
+    "name": "Bureau Directory",
+    "url": "http://www.nasa.gov/digitalstrategy/bureaudirectory.json"
+  },
+  {
+    "name": "Electric Arc Shock Tube (EAST) Test 52 Data",
+    "url": "https://data.nasa.gov/api/views/eiwv-s7fe"
+  },
+  {
+    "name": "Realized Cost Savings and Avoidance Decisions",
+    "url": "https://data.nasa.gov/api/views/jh9h-68aq"
+  },
+  {
+    "name": "NASA Educational Resources",
+    "url": "https://data.nasa.gov/api/views/njat-edii"
+  },
+  {
+    "name": "ISS Expedition 01 Press Kit",
+    "url": "https://data.nasa.gov/api/views/vdbj-basa"
+  },
+  {
     "name": "console",
     "url": "https://nodejs.org/api/console.json"
   },
@@ -954,6 +978,54 @@
   {
     "name": "Cluster",
     "url": "https://nodejs.org/api/cluster.json"
+  },
+  {
+    "name": "All",
+    "url": "https://api.opensource.org/licenses/"
+  },
+  {
+    "name": "Copyleft",
+    "url": "https://api.opensource.org/licenses/copyleft"
+  },
+  {
+    "name": "OSI Approved",
+    "url": "https://api.opensource.org/licenses/osi-approved"
+  },
+  {
+    "name": "Redundant",
+    "url": "https://api.opensource.org/licenses/redundant"
+  },
+  {
+    "name": "Permissive",
+    "url": "https://api.opensource.org/licenses/permissive"
+  },
+  {
+    "name": "Obsolete",
+    "url": "https://api.opensource.org/licenses/obsolete"
+  },
+  {
+    "name": "Misc",
+    "url": "https://api.opensource.org/licenses/miscellaneous"
+  },
+  {
+    "name": "Popular",
+    "url": "https://api.opensource.org/licenses/popular"
+  },
+  {
+    "name": "Discouraged",
+    "url": "https://api.opensource.org/licenses/discouraged"
+  },
+  {
+    "name": "Non-reusable",
+    "url": "https://api.opensource.org/licenses/non-reusable"
+  },
+  {
+    "name": "Special Purpose",
+    "url": "https://api.opensource.org/licenses/special-purpose"
+  },
+  {
+    "name": "Retired",
+    "url": "https://api.opensource.org/licenses/retired"
   },
   {
     "name": "Earth",
@@ -1177,115 +1249,59 @@
   },
   {
     "name": "Los Angeles",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Los_Angeles"
-  },
-  {
-    "name": "New York",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=New_York"
-  },
-  {
-    "name": "Atlanta",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Atlanta"
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Los%20Angeles%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
     "name": "Chicago",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=chicago"
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Chicago%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+  },
+  {
+    "name": "New York",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22New%20York%2C%20NY%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
     "name": "Miami",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=miami"
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Miami%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
-    "name": "San Francisco",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=San_Francisco"
+    "name": "London",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22London%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
-    "name": "Charleston",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Charleston"
+    "name": "Paris",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Paris%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
-    "name": "Las Vegas",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Las_Vegas"
+    "name": "Berlin",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Berlin%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
-    "name": "Seattle",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Seattle"
+    "name": "Moscow",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Moscow%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
-    "name": "Washington DC",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Washington_DC"
+    "name": "Jerusalem",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Jerusalem%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
-    "name": "New Orleans",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=New_Orleans"
+    "name": "Tokyo",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Tokyo%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
-    "name": "Louisville",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Louisville"
+    "name": "Sydney",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Sydney%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
-    "name": "Portland",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Portland"
-  },
-  {
-    "name": "Ashburn",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Ashburn"
-  },
-  {
-    "name": "Nashville",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Nashville"
-  },
-  {
-    "name": "Austin",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Austin"
-  },
-  {
-    "name": "Saint Louis",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Saint_Louis"
-  },
-  {
-    "name": "Sedona",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Sedona"
-  },
-  {
-    "name": "Honolulu",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Honolulu"
-  },
-  {
-    "name": "Branson",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Branson"
-  },
-  {
-    "name": "Boston",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Boston"
-  },
-  {
-    "name": "Savannah",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Savannah"
-  },
-  {
-    "name": "Orlando",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Orlando"
-  },
-  {
-    "name": "Lahaina",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Lahaina"
-  },
-  {
-    "name": "Saint Augustine",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Saint_Augustine"
-  },
-  {
-    "name": "San Antonio",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=San_Antonio"
-  },
-  {
-    "name": "Dallas",
-    "url": "http://api.openweathermap.org/data/2.5/weather?q=Dallas"
+    "name": "Wikidata Gigabytes of Gzipped JSON",
+    "url": "https://dumps.wikimedia.org/other/wikidata/"
   },
   {
     "name": "Awesome (The OG List)",
     "url": "https://github.com/sindresorhus/awesome"
+  },
+  {
+    "name": "Help Wanted (Open Source projects looking for Help)",
+    "url": "https://github.com/jdorfman/awesome-help-wanted"
   },
   {
     "name": "JSON (Libraries and Resources)",
@@ -1302,5 +1318,9 @@
   {
     "name": "Public Datasets (Datasets beyond just JSON)",
     "url": "https://github.com/caesar0301/awesome-public-datasets"
+  },
+  {
+    "name": "Style Guides (Programming Languages, Platforms, Frameworks)",
+    "url": "https://github.com/kciter/awesome-style-guide"
   }
 ]

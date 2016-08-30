@@ -1,5 +1,37 @@
 [
   {
+    "name": "Cloud Storage: see awesome-selfhosted#file-transfersynchronization",
+    "url": "https://github.com/Kickball/awesome-selfhosted#file-transfersynchronization"
+  },
+  {
+    "name": "Mail servers/webmail: see awesome-selfhosted#email",
+    "url": "https://github.com/kickball/awesome-selfhosted#email"
+  },
+  {
+    "name": "Security: see awesome-security",
+    "url": "https://github.com/sbilly/awesome-security"
+  },
+  {
+    "name": "SSH: see awesome-ssh",
+    "url": "https://github.com/moul/awesome-ssh"
+  },
+  {
+    "name": "Statistics: see awesome-selfhosted#analytics",
+    "url": "https://github.com/Kickball/awesome-selfhosted#analytics"
+  },
+  {
+    "name": "Ticketing systems: see awesome-selfhosted#ticketing",
+    "url": "https://github.com/Kickball/awesome-selfhosted#ticketing"
+  },
+  {
+    "name": "XMPP: see awesome-selfhosted#xmpp",
+    "url": "https://github.com/Kickball/awesome-selfhosted#xmpp"
+  },
+  {
+    "name": "Wiki Software: see awesome-selfhosted#wikis, Sysadmin Wikis: see #wikis",
+    "url": "https://github.com/Kickball/awesome-selfhosted#wikis"
+  },
+  {
     "name": "Apache Ant",
     "url": "https://ant.apache.org/",
     "description": "Automation build tool, similar to make, written in Java."
@@ -11,7 +43,7 @@
   },
   {
     "name": "Bazel",
-    "url": "http://bazel.io/",
+    "url": "http://www.bazel.io/",
     "description": "Google's build system."
   },
   {
@@ -35,11 +67,6 @@
     "description": "Client-server model backup tool."
   },
   {
-    "name": "Attic",
-    "url": "https://attic-backup.org",
-    "description": "A deduplicating backup program written in Python."
-  },
-  {
     "name": "Bareos",
     "url": "http://www.bareos.org/en/",
     "description": "A fork of Bacula backup tool."
@@ -48,6 +75,11 @@
     "name": "Backupninja",
     "url": "https://labs.riseup.net/code/projects/backupninja",
     "description": "Lightweight, extensible meta-backup system."
+  },
+  {
+    "name": "BorgBackup",
+    "url": "https://github.com/borgbackup/borg",
+    "description": "A fork of Attic deduplicating backup program written in Python."
   },
   {
     "name": "Brebis",
@@ -88,6 +120,11 @@
     "name": "Rsnapshot",
     "url": "http://rsnapshot.org/",
     "description": "Filesystem Snapshotting Utility."
+  },
+  {
+    "name": "Shield",
+    "url": "https://github.com/starkandwayne/shield",
+    "description": "A pluggable architecture for backup and restore of database systems."
   },
   {
     "name": "Snebu – Snapshot backup with global multi-client deduplication and transparent compression.",
@@ -154,6 +191,11 @@
     "description": "A robot companion for your company's chat room."
   },
   {
+    "name": "Abot",
+    "url": "https://github.com/itsabot/abot",
+    "description": "A digital assistant framework in Go."
+  },
+  {
     "name": "Chocolatey – Windows CLI package manager written in .NET/PS, based on NuGet.",
     "url": "https://chocolatey.org/"
   },
@@ -217,8 +259,8 @@
     "description": "Polish Private Cloud - The CC1 system provides a complete solution for Private Cloud Computing."
   },
   {
-    "name": "Eucalyptus",
-    "url": "https://www.eucalyptus.com/",
+    "name": "HPE Helion Eucalyptus",
+    "url": "http://www8.hp.com/us/en/cloud/helion-eucalyptus-overview.html",
     "description": "Private cloud software with AWS compatibility."
   },
   {
@@ -262,6 +304,11 @@
     "description": "IaaS orchestration platform originally written for deploying and managing Cloud Foundry PaaS, but also useful for general purpose distributed systems."
   },
   {
+    "name": "Cloud Foundry",
+    "url": "https://www.cloudfoundry.org/",
+    "description": "A Platform-as-a-Service suite to provide the orchestration services that make distributed apps a powerhouse of awesomeness."
+  },
+  {
     "name": "Cloudify",
     "url": "http://getcloudify.org/",
     "description": "TOSCA-based cloud orchestration software platform written in Python and YAML."
@@ -270,6 +317,11 @@
     "name": "CloudSlang",
     "url": "http://www.cloudslang.io/",
     "description": "Flow-based orchestration tool for managing deployed applications, with Docker capabilities."
+  },
+  {
+    "name": "Genesis",
+    "url": "https://github.com/starkandwayne/genesis",
+    "description": "A template framework for multi-environment BOSH deployments."
   },
   {
     "name": "Juju",
@@ -283,7 +335,7 @@
   },
   {
     "name": "MCollective",
-    "url": "https://puppetlabs.com/mcollective",
+    "url": "https://puppet.com/mcollective",
     "description": "Ruby framework to manage server orchestration, developed by Puppet labs."
   },
   {
@@ -302,44 +354,14 @@
     "description": "Fast, scalable and flexible systems management software written in Python/ZeroMQ."
   },
   {
+    "name": "Spruce",
+    "url": "https://github.com/geofffranks/spruce",
+    "description": "A tool that merges separate YAML files into one.  Works well with Genesis."
+  },
+  {
     "name": "StackStorm",
     "url": "https://stackstorm.com/",
     "description": "Event Driven Operations and ChatOps platform for infrastructure management. Written in Python"
-  },
-  {
-    "name": "git-annex assistant",
-    "url": "http://git-annex.branchable.com/assistant/",
-    "description": "A synchronised folder on each of your OSX and Linux computers, Android devices, removable drives, NAS appliances, and cloud services."
-  },
-  {
-    "name": "ownCloud",
-    "url": "https://owncloud.org",
-    "description": "Provides universal access to your files via the web, your computer or your mobile devices."
-  },
-  {
-    "name": "Pydio",
-    "url": "https://pyd.io",
-    "description": "Pydio (formerly AjaXplorer) is a mature solution for file sharing and synchronization."
-  },
-  {
-    "name": "Seafile",
-    "url": "https://www.seafile.com/en/home/",
-    "description": "Another Cloud Storage solution."
-  },
-  {
-    "name": "SparkleShare",
-    "url": "http://sparkleshare.org/",
-    "description": "Provides cloud storage and file synchronization services. By default, it uses Git as a storage backend."
-  },
-  {
-    "name": "Swift",
-    "url": "http://docs.openstack.org/developer/swift/",
-    "description": "A highly available, distributed, eventually consistent object/blob store."
-  },
-  {
-    "name": "Syncthing",
-    "url": "https://syncthing.net/",
-    "description": "System for private, encrypted and authenticated distribution of data."
   },
   {
     "name": "Gerrit",
@@ -433,7 +455,7 @@
   },
   {
     "name": "Puppet",
-    "url": "https://puppetlabs.com/",
+    "url": "https://puppet.com/",
     "description": "It's written in Ruby and uses Puppet's declarative language or a Ruby DSL."
   },
   {
@@ -450,6 +472,16 @@
     "name": "Buildbot",
     "url": "http://buildbot.net/",
     "description": "Python-based toolkit for continuous integration."
+  },
+  {
+    "name": "CapsuleCD",
+    "url": "https://github.com/AnalogJ/capsulecd",
+    "description": "CD script for automating package/library releases (npm, cookbooks, gems, pip, jars, etc)."
+  },
+  {
+    "name": "concourse",
+    "url": "http://concourse.ci/",
+    "description": "A modern tool to gain visibility on the CI/CD pipeline.  The flexible, declarative DSL is easy to learn and powerful to use."
   },
   {
     "name": "Drone",
@@ -490,6 +522,11 @@
     "name": "VestaCP",
     "url": "http://vestacp.com/",
     "description": "Hosting panel for Linux but with Nginx."
+  },
+  {
+    "name": "Virtualmin",
+    "url": "http://www.virtualmin.com/",
+    "description": "Hosting panel for Linux based on webmin."
   },
   {
     "name": "Atomia DNS",
@@ -533,13 +570,8 @@
   },
   {
     "name": "OpenVZ Web Panel",
-    "url": "http://owp.softunity.com.ru/",
-    "description": "Web panel to control your OpenVZ servers."
-  },
-  {
-    "name": "Virtkick",
-    "url": "https://www.virtkick.com/",
-    "description": "A simple orchestrator. Manage virtual machines or Docker containers easily."
+    "url": "https://github.com/sibprogrammer/owp",
+    "description": "Web panel to control OpenVZ virtual machines."
   },
   {
     "name": "WebVirtMgr",
@@ -555,11 +587,6 @@
     "name": "Cockpit",
     "url": "http://cockpit-project.org/",
     "description": "New multi-server web interface for Linux servers written in C."
-  },
-  {
-    "name": "Virtualmin",
-    "url": "http://www.virtualmin.com/",
-    "description": "Control panel for Linux based on webmin."
   },
   {
     "name": "Webmin",
@@ -757,6 +784,11 @@
     "description": "A highly configurable text editor built to enable efficient editing."
   },
   {
+    "name": "Visual Studio Code",
+    "url": "https://code.visualstudio.com/",
+    "description": "An open source cross-platform extensible code editor from Microsoft"
+  },
+  {
     "name": "Nano",
     "url": "http://nano-editor.org",
     "description": "Easy to use, customizable text editor."
@@ -816,6 +848,11 @@
     "description": "Enables users to inventory their IT assets."
   },
   {
+    "name": "OPSI",
+    "url": "http://www.opsi.org/en",
+    "description": "Hardware and software inventory, deployment, and patching for Linux and Windows."
+  },
+  {
     "name": "RackTables",
     "url": "http://racktables.org/",
     "description": "Datacenter and server room asset management like document hardware assets, network addresses, space in racks, networks configuration."
@@ -846,7 +883,12 @@
     "description": "Distributed log collection and aggregation system."
   },
   {
-    "name": "Graylog2",
+    "name": "GoAccess",
+    "url": "http://goaccess.io/",
+    "description": "Real-time web log analyzer and interactive viewer that runs in a terminal or through the browser. (Source Code) MIT C"
+  },
+  {
+    "name": "Graylog",
     "url": "https://www.graylog.org/",
     "description": "Pluggable Log and Event Analysis Server with Alerting options."
   },
@@ -876,19 +918,27 @@
     "description": "Old school email client (and news reader), based on GTK+."
   },
   {
+    "name": "ImapSync – Simple IMAP migration tool for copying mailboxes to other servers.",
+    "url": "http://imapsync.lamiral.info/"
+  },
+  {
     "name": "Mutt",
     "url": "http://www.mutt.org/",
     "description": "Small but very powerful text-based mail client."
   },
   {
-    "name": "Thunderbird",
-    "url": "https://www.mozilla.org/de/thunderbird/",
-    "description": "Free email application that's easy to set up and customize."
-  },
-  {
     "name": "N1",
     "url": "https://nylas.com/N1",
     "description": "Extensible mail client."
+  },
+  {
+    "name": "Sylpheed – Still developed predecessor to Claws Mail, lightweight mail client.",
+    "url": "http://sylpheed.sraoss.jp/en/"
+  },
+  {
+    "name": "Thunderbird",
+    "url": "https://www.mozilla.org/de/thunderbird/",
+    "description": "Free email application that's easy to set up and customize."
   },
   {
     "name": "Adagios",
@@ -899,6 +949,16 @@
     "name": "Alerta",
     "url": "https://github.com/guardian/alerta",
     "description": "Distributed, scaleable and flexible monitoring system."
+  },
+  {
+    "name": "Bloonix",
+    "url": "https://bloonix.org",
+    "description": "Bloonix is a monitoring solution that helps businesses to ensure high availability and performance. GPLv3 Perl"
+  },
+  {
+    "name": "bolo",
+    "url": "http://bolo.niftylogic.com/",
+    "description": "A Do-it-Yourself monitoring framework built to gather metrics, mine data and report on the systems in your network."
   },
   {
     "name": "Bosun",
@@ -934,6 +994,11 @@
     "name": "Flapjack",
     "url": "http://flapjack.io/",
     "description": "Monitoring notification routing & event processing system."
+  },
+  {
+    "name": "Healthchecks",
+    "url": "https://healthchecks.io/",
+    "description": "Monitoring for cron jobs, background services and scheduled tasks."
   },
   {
     "name": "Icinga",
@@ -1066,6 +1131,11 @@
     "description": "High precision system performance metrics collecting tool."
   },
   {
+    "name": "PGObserver",
+    "url": "https://github.com/zalando/PGObserver",
+    "description": "Monitoring solution for PostgreSQL databases that also works with AWS RDS."
+  },
+  {
     "name": "Statsd",
     "url": "https://github.com/etsy/statsd/",
     "description": "Application statistic listener."
@@ -1104,6 +1174,11 @@
     "name": "Freeboard",
     "url": "https://github.com/Freeboard/freeboard",
     "description": "A damn-sexy front-end real-time dashboard for the internet of things. Transforms raw JSON into delicious UI."
+  },
+  {
+    "name": "Netdata",
+    "url": "http://netdata.firehol.org/",
+    "description": "Real-time performance monitoring for Linux systems with plugin support."
   },
   {
     "name": "OpenTSDB",
@@ -1341,84 +1416,19 @@
     "description": "Library that implements a self-contained, serverless, zero-configuration, transactional SQL DBS."
   },
   {
-    "name": "Blackbox",
-    "url": "https://github.com/StackExchange/blackbox",
-    "description": "Safely store secrets in Git/Mercurial. Provides tooling to automatically encrypt secrets like passwords."
+    "name": "Tiger VNC",
+    "url": "http://tigervnc.org/",
+    "description": "TigerVNC is a high-performance, platform-neutral implementation of VNC (Virtual Network Computing), a client/server application that allows users to launch and interact with graphical applications on remote machines."
   },
   {
-    "name": "Bro",
-    "url": "https://www.bro.org/",
-    "description": "Bro is a powerful framework for network analysis and security monitoring."
+    "name": "Remmina",
+    "url": "http://www.remmina.org/wp/",
+    "description": "A Feature rich remote desktop application for linux  and other unixes."
   },
   {
-    "name": "Denyhosts",
-    "url": "http://denyhosts.sourceforge.net/",
-    "description": "Thwart SSH dictionary based attacks and brute force attacks."
-  },
-  {
-    "name": "Fail2Ban",
-    "url": "http://www.fail2ban.org/wiki/index.php/Main_Page",
-    "description": "Scans log files and takes action on IPs that show malicious behavior."
-  },
-  {
-    "name": "FIR",
-    "url": "https://github.com/certsocietegenerale/FIR",
-    "description": "Fast Incident Response, a cybersecurity incident management platform."
-  },
-  {
-    "name": "fwknop",
-    "url": "https://www.cipherdyne.org/fwknop/",
-    "description": "Protects ports via Single Packet Authorization in your firewall."
-  },
-  {
-    "name": "Glastopf",
-    "url": "http://glastopf.org/",
-    "description": "A low-interaction web application honeypot to emulate vulnerabilities and gather attack data."
-  },
-  {
-    "name": "Kippo",
-    "url": "https://github.com/desaster/kippo",
-    "description": "A medium-interaction SSH honeypot, mostly used as a standalone SSH daemon with a configurable Filesystem sandbox."
-  },
-  {
-    "name": "Linux Malware Detect",
-    "url": "https://www.rfxn.com/projects/linux-malware-detect/",
-    "description": "A malware scanner for Linux designed around the threats faced in shared hosted environments."
-  },
-  {
-    "name": "Nmap",
-    "url": "https://nmap.org",
-    "description": "Nmap is a free and open source utility for network discovery and security auditing."
-  },
-  {
-    "name": "OSSEC",
-    "url": "http://www.ossec.net/",
-    "description": "OSSEC is a HIDS that performs log analysis, FIM, rootkit detection, and much more."
-  },
-  {
-    "name": "OSQuery",
-    "url": "https://osquery.io/",
-    "description": "Query your servers status and info using a SQL like interface."
-  },
-  {
-    "name": "pfSense",
-    "url": "https://www.pfsense.org/",
-    "description": "Firewall and Router FreeBSD distribution."
-  },
-  {
-    "name": "Snort",
-    "url": "https://www.snort.org/",
-    "description": "Network intrusion prevention system (NIPS) and network intrusion detection system (NIDS)."
-  },
-  {
-    "name": "SpamAssassin",
-    "url": "https://spamassassin.apache.org/",
-    "description": "A powerful and popular email spam filter employing a variety of detection technique."
-  },
-  {
-    "name": "SSHGuard",
-    "url": "http://www.sshguard.net/",
-    "description": "A software to protect services in addition to SSH, written in C"
+    "name": "X2go",
+    "url": "http://wiki.x2go.org/doku.php",
+    "description": "X2Go is an open source remote desktop software for Linux that uses the NX technology protocol."
   },
   {
     "name": "Consul",
@@ -1454,61 +1464,6 @@
     "name": "OpenVZ",
     "url": "http://openvz.org",
     "description": "Container-based virtualization for Linux."
-  },
-  {
-    "name": "Advanced SSH config",
-    "url": "https://pypi.python.org/pypi/advanced-ssh-config/",
-    "description": "Enhances ssh_config file capabilities, completely transparent."
-  },
-  {
-    "name": "autossh",
-    "url": "http://www.harding.motd.ca/autossh/",
-    "description": "Automatically respawn ssh session after network interruption."
-  },
-  {
-    "name": "Cluster SSH",
-    "url": "http://sourceforge.net/projects/clusterssh/",
-    "description": "Controls a number of xterm windows via a single graphical console."
-  },
-  {
-    "name": "DSH",
-    "url": "https://www.netfort.gr.jp/%7Edancer/software/dsh.html.en",
-    "description": "Dancer's shell / distributed shell - Wrapper for executing multiple remote shell commands from one command line."
-  },
-  {
-    "name": "Mosh",
-    "url": "https://mosh.mit.edu/",
-    "description": "The mobile shell."
-  },
-  {
-    "name": "parallel-ssh",
-    "url": "http://code.google.com/p/parallel-ssh/",
-    "description": "Provides parallel versions of OpenSSH and related tools."
-  },
-  {
-    "name": "ssh-cert-authority",
-    "url": "https://github.com/cloudtools/ssh-cert-authority",
-    "description": "A democratic SSH certificate authority."
-  },
-  {
-    "name": "ssh-ca",
-    "url": "https://github.com/cloudtools/ssh-ca/",
-    "description": "Allows giving ssh access to servers without putting a users key on the server, as well as expiring access."
-  },
-  {
-    "name": "SSH Power Tool",
-    "url": "http://code.google.com/p/sshpt/",
-    "description": "Execute commands and upload files to many servers simultaneously without using pre-shared keys."
-  },
-  {
-    "name": "sshrc",
-    "url": "https://github.com/Russell91/sshrc",
-    "description": "sources ~/.sshrc on your local computer after logging in remotely."
-  },
-  {
-    "name": "stormssh",
-    "url": "http://stormssh.readthedocs.org",
-    "description": "A command line tool to manage SSH connections."
   },
   {
     "name": "Cachet",
@@ -1610,6 +1565,11 @@
     "description": "Builds open-source infrastructure management software and implements cloud systems."
   },
   {
+    "name": "Otto",
+    "url": "https://www.ottoproject.io/",
+    "description": "Development and deployment system designed as the successor to Vagrant."
+  },
+  {
     "name": "oVirt",
     "url": "http://www.ovirt.org/",
     "description": "Manages virtual machines, storage and virtual networks."
@@ -1643,6 +1603,16 @@
     "name": "Xen",
     "url": "http://www.xenproject.org/",
     "description": "Virtual machine monitor for 32/64 bit Intel / AMD (IA 64) and PowerPC 970 architectures."
+  },
+  {
+    "name": "XenServer",
+    "url": "http://xenserver.org/",
+    "description": "Turnkey virtualization platform based on CentOS distribution, using Xen and an extended toolstack/API."
+  },
+  {
+    "name": "ocserv",
+    "url": "http://www.infradead.org/ocserv/",
+    "description": "Cisco AnyConnect-compatible VPN server"
   },
   {
     "name": "OpenVPN",
@@ -1680,9 +1650,19 @@
     "description": "Most popular web server."
   },
   {
+    "name": "Caddy",
+    "url": "https://caddyserver.com/",
+    "description": "Lightweight, general-purpose web server supporting HTTP/2, automatic TLS and easy configuration. Written in Go."
+  },
+  {
     "name": "Cherokee",
     "url": "http://cherokee-project.com/",
     "description": "Lightweight, high-performance web server/reverse proxy."
+  },
+  {
+    "name": "Hiawatha",
+    "url": "https://www.hiawatha-webserver.org/",
+    "description": "Prioritises security, simplicity and performance."
   },
   {
     "name": "Lighttpd",
@@ -1725,6 +1705,11 @@
     "description": "Slightly biased blog with lots of Devops Topics."
   },
   {
+    "name": "Codex",
+    "url": "https://www.gitbook.com/book/starkandwayne/codex/details",
+    "description": "How to deploy Cloud Foundry PaaS on infrastructures like AWS, OpenStack, Azure by Stark & Wayne, LLC."
+  },
+  {
     "name": "The Linux Command Line",
     "url": "http://linuxcommand.org/tlcl.php",
     "description": "A book about the Linux command line by William Shotts."
@@ -1743,11 +1728,6 @@
     "name": "The Visible Ops Handbook: Implementing ITIL in 4 Practical and Auditable Steps",
     "url": "http://www.itpi.org/the-visible-ops-handbook-review.html",
     "description": "Is a methodology designed to jumpstart implementation of controls and process improvement."
-  },
-  {
-    "name": "UNIX and Linux System Administration Handbook",
-    "url": "http://www.admin.com/",
-    "description": "Approaches system administration from a practical perspective."
   },
   {
     "name": "ArsTechnica OpenForum – IT Forum which is attached to a large news site.",

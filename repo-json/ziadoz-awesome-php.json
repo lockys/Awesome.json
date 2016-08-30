@@ -1,18 +1,13 @@
 [
   {
-    "name": "Composer/Packagist",
-    "url": "https://getcomposer.org/",
-    "description": "A package and dependency manager."
-  },
-  {
     "name": "Composer Installers",
     "url": "https://github.com/composer/installers",
     "description": "A  multi framework Composer library installer."
   },
   {
-    "name": "Pickle",
-    "url": "https://github.com/FriendsOfPHP/pickle",
-    "description": "A PHP extension installer."
+    "name": "Composer/Packagist",
+    "url": "https://getcomposer.org/",
+    "description": "A package and dependency manager."
   },
   {
     "name": "Melody",
@@ -20,19 +15,24 @@
     "description": "A tool to build one file Composer scripts."
   },
   {
-    "name": "Climb",
-    "url": "https://github.com/vinkla/climb",
-    "description": "A Composer version manager tool."
+    "name": "Pickle",
+    "url": "https://github.com/FriendsOfPHP/pickle",
+    "description": "A PHP extension installer."
   },
   {
-    "name": "Satis",
-    "url": "https://github.com/composer/satis",
-    "description": "A static Composer repository generator."
+    "name": "Composed",
+    "url": "https://github.com/joshdifabio/composed",
+    "description": "A library to parse your project's Composer environment at runtime."
   },
   {
-    "name": "Toran Proxy",
-    "url": "https://toranproxy.com",
-    "description": "A static Composer repository and proxy."
+    "name": "Composer Checker",
+    "url": "https://github.com/silpion/composer-checker",
+    "description": "A tool to validate Composer configurations."
+  },
+  {
+    "name": "Composer Merge Plugin",
+    "url": "https://github.com/wikimedia/composer-merge-plugin",
+    "description": "A composer plugin to merge several composer.json files."
   },
   {
     "name": "Composition",
@@ -50,34 +50,19 @@
     "description": "A library to install patches using Composer."
   },
   {
-    "name": "Composer Checker",
-    "url": "https://github.com/silpion/composer-checker",
-    "description": "A tool to validate Composer configurations."
-  },
-  {
     "name": "Prestissimo",
     "url": "https://github.com/hirak/prestissimo",
     "description": "A composer plugin which enables parallel install process."
   },
   {
-    "name": "Composer Merge Plugin",
-    "url": "https://github.com/wikimedia/composer-merge-plugin",
-    "description": "A composer plugin to merge several composer.json files."
+    "name": "Satis",
+    "url": "https://github.com/composer/satis",
+    "description": "A static Composer repository generator."
   },
   {
-    "name": "Symfony 2",
-    "url": "http://symfony.com/",
-    "description": "A framework comprised of individual components (SF2)."
-  },
-  {
-    "name": "Zend Framework 2",
-    "url": "http://framework.zend.com",
-    "description": "Another framework comprised of individual components (ZF2)."
-  },
-  {
-    "name": "Laravel 5",
-    "url": "https://laravel.com/",
-    "description": "Another PHP framework (L5)."
+    "name": "Toran Proxy",
+    "url": "https://toranproxy.com",
+    "description": "A static Composer repository and proxy."
   },
   {
     "name": "Aura PHP",
@@ -85,9 +70,14 @@
     "description": "A framework of independent components."
   },
   {
-    "name": "Yii2",
-    "url": "https://github.com/yiisoft/yii2/",
-    "description": "Another PHP framework."
+    "name": "CakePHP",
+    "url": "http://cakephp.org/",
+    "description": "A rapid application development framework (CP)."
+  },
+  {
+    "name": "Laravel 5",
+    "url": "https://laravel.com/",
+    "description": "Another PHP framework (L5)."
   },
   {
     "name": "Nette",
@@ -95,29 +85,39 @@
     "description": "Another framework comprised of individual components."
   },
   {
-    "name": "PPI Framework 2",
-    "url": "http://www.ppi.io",
-    "description": "An interoperability framework."
-  },
-  {
-    "name": "CakePHP",
-    "url": "http://cakephp.org/",
-    "description": "A rapid application development framework (CP)."
-  },
-  {
     "name": "Phalcon",
     "url": "https://phalconphp.com/en/",
     "description": "A framework implemented as a C extension."
   },
   {
-    "name": "Symfony CMF",
-    "url": "https://github.com/symfony-cmf/symfony-cmf",
-    "description": "A Content Management Framework to create custom CMS."
+    "name": "PPI Framework 2",
+    "url": "http://www.ppi.io",
+    "description": "An interoperability framework."
   },
   {
-    "name": "Knp RAD Bundle",
-    "url": "http://rad.knplabs.com/",
-    "description": "A Rapid Application Development (RAD) bundle for Symfony 2."
+    "name": "Symfony 2",
+    "url": "http://symfony.com/",
+    "description": "A framework comprised of individual components (SF2)."
+  },
+  {
+    "name": "Yii2",
+    "url": "https://github.com/yiisoft/yii2/",
+    "description": "Another PHP framework."
+  },
+  {
+    "name": "Zend Framework 2",
+    "url": "https://framework.zend.com",
+    "description": "Another framework comprised of individual components (ZF2)."
+  },
+  {
+    "name": "Radar",
+    "url": "https://github.com/radarphp/Radar.Adr",
+    "description": "An Action-Domain-Responder implementation for PHP."
+  },
+  {
+    "name": "Ice",
+    "url": "https://www.iceframework.org/",
+    "description": "Another simple and fast PHP framework delivered as C-extension."
   },
   {
     "name": "CakePHP CRUD",
@@ -125,19 +125,14 @@
     "description": "A Rapid Application Development (RAD) plugin for CakePHP."
   },
   {
-    "name": "Symfony2 Components",
-    "url": "http://symfony.com/doc/master/components/index.html",
-    "description": "The components that make Symfony 2."
+    "name": "Knp RAD Bundle",
+    "url": "http://rad.knplabs.com/",
+    "description": "A Rapid Application Development (RAD) bundle for Symfony 2."
   },
   {
-    "name": "Zend Framework 2 Components",
-    "url": "https://packages.zendframework.com/",
-    "description": "The components that make Zend Framework."
-  },
-  {
-    "name": "Aura Components",
-    "url": "http://auraphp.com/",
-    "description": "A package of PHP 5.4 components."
+    "name": "Symfony CMF",
+    "url": "https://github.com/symfony-cmf/symfony-cmf",
+    "description": "A Content Management Framework to create custom CMS."
   },
   {
     "name": "CakePHP Plugins",
@@ -155,19 +150,14 @@
     "description": "A PHP package development group."
   },
   {
-    "name": "Zend-config",
-    "url": "https://github.com/zendframework/zend-config",
-    "description": "Config component from Zend Framework"
+    "name": "Symfony2 Components",
+    "url": "http://symfony.com/doc/master/components/index.html",
+    "description": "The components that make Symfony 2."
   },
   {
-    "name": "Silex",
-    "url": "http://silex.sensiolabs.org/",
-    "description": "A micro framework built around Symfony2 components."
-  },
-  {
-    "name": "Slim",
-    "url": "http://www.slimframework.com/",
-    "description": "Another simple micro framework."
+    "name": "Zend Framework 2 Components",
+    "url": "https://packages.zendframework.com/",
+    "description": "The components that make Zend Framework."
   },
   {
     "name": "Bullet PHP",
@@ -183,6 +173,16 @@
     "name": "Proton",
     "url": "https://github.com/alexbilbie/Proton",
     "description": "A StackPHP compatible micro framework"
+  },
+  {
+    "name": "Silex",
+    "url": "http://silex.sensiolabs.org/",
+    "description": "A micro framework built around Symfony2 components."
+  },
+  {
+    "name": "Slim",
+    "url": "http://www.slimframework.com/",
+    "description": "Another simple micro framework."
   },
   {
     "name": "Silex Skeleton",
@@ -210,9 +210,9 @@
     "description": "A fast routing library."
   },
   {
-    "name": "Route",
-    "url": "https://github.com/thephpleague/route",
-    "description": "A routing library built on top of Fast Route."
+    "name": "Klein",
+    "url": "https://github.com/klein/klein.php",
+    "description": "A flexible router."
   },
   {
     "name": "Pux",
@@ -220,19 +220,24 @@
     "description": "Another fast routing library."
   },
   {
-    "name": "Klein",
-    "url": "https://github.com/klein/klein.php",
-    "description": "A flexible router."
+    "name": "Route",
+    "url": "https://github.com/thephpleague/route",
+    "description": "A routing library built on top of Fast Route."
   },
   {
-    "name": "Twig",
-    "url": "http://twig.sensiolabs.org/",
-    "description": "A comprehensive templating language."
+    "name": "Foil",
+    "url": "https://github.com/FoilPHP/Foil",
+    "description": "Another native PHP templating library."
   },
   {
-    "name": "Twig Cache Extension",
-    "url": "https://github.com/asm89/twig-cache-extension",
-    "description": "A template fragment cache library for Twig."
+    "name": "Lex",
+    "url": "https://github.com/pyrocms/lex",
+    "description": "A lightweight template parser."
+  },
+  {
+    "name": "MtHaml",
+    "url": "https://github.com/arnaud-lb/MtHaml",
+    "description": "A PHP implementation of the HAML template language."
   },
   {
     "name": "Mustache",
@@ -245,11 +250,6 @@
     "description": "Another PHP implementation of the Mustache template language."
   },
   {
-    "name": "MtHaml",
-    "url": "https://github.com/arnaud-lb/MtHaml",
-    "description": "A PHP implementation of the HAML template language."
-  },
-  {
     "name": "PHPTAL",
     "url": "http://phptal.org/",
     "description": "A PHP implementation of the TAL templating language."
@@ -260,24 +260,19 @@
     "description": "A native PHP templating library."
   },
   {
-    "name": "Lex",
-    "url": "https://github.com/pyrocms/lex",
-    "description": "A lightweight template parser."
+    "name": "Smarty",
+    "url": "http://www.smarty.net/",
+    "description": "A template engine to complement PHP."
   },
   {
-    "name": "Sculpin",
-    "url": "https://sculpin.io",
-    "description": "A tool that converts Markdown and Twig into static HTML."
+    "name": "Twig",
+    "url": "http://twig.sensiolabs.org/",
+    "description": "A comprehensive templating language."
   },
   {
-    "name": "Phrozn",
-    "url": "https://github.com/Pawka/phrozn",
-    "description": "Another tool that converts Textile, Markdown and Twig into HTML."
-  },
-  {
-    "name": "Spress",
-    "url": "http://spress.yosymfony.com",
-    "description": "An extensible tool that converts Markdown and Twig into HTML."
+    "name": "Tale Jade",
+    "url": "https://github.com/Talesoft/tale-jade",
+    "description": "A PHP implementation of the Jade template language."
   },
   {
     "name": "Couscous",
@@ -285,9 +280,19 @@
     "description": "Couscous turns Markdown documentation into beautiful websites. It's GitHub Pages on steroids."
   },
   {
-    "name": "Guzzle",
-    "url": "https://github.com/guzzle/guzzle",
-    "description": "A comprehensive HTTP client."
+    "name": "Phrozn",
+    "url": "https://github.com/Pawka/phrozn",
+    "description": "Another tool that converts Textile, Markdown and Twig into HTML."
+  },
+  {
+    "name": "Sculpin",
+    "url": "https://sculpin.io",
+    "description": "A tool that converts Markdown and Twig into static HTML."
+  },
+  {
+    "name": "Spress",
+    "url": "http://spress.yosymfony.com",
+    "description": "An extensible tool that converts Markdown and Twig into HTML."
   },
   {
     "name": "Buzz",
@@ -295,9 +300,9 @@
     "description": "Another HTTP client."
   },
   {
-    "name": "Requests",
-    "url": "https://github.com/rmccue/Requests",
-    "description": "A simple HTTP library."
+    "name": "Guzzle",
+    "url": "https://github.com/guzzle/guzzle",
+    "description": "A comprehensive HTTP client."
   },
   {
     "name": "HTTPFul",
@@ -305,19 +310,54 @@
     "description": "A chainable HTTP client."
   },
   {
-    "name": "Goutte",
-    "url": "https://github.com/FriendsOfPHP/Goutte",
-    "description": "A simple web scraper."
-  },
-  {
     "name": "PHP VCR",
     "url": "http://php-vcr.github.io/",
     "description": "A library for recording and replaying HTTP requests."
   },
   {
-    "name": "Stack",
-    "url": "https://github.com/stackphp",
-    "description": "A library of stackable middleware for Silex/Symfony."
+    "name": "Requests",
+    "url": "https://github.com/rmccue/Requests",
+    "description": "A simple HTTP library."
+  },
+  {
+    "name": "Retrofit",
+    "url": "https://github.com/tebru/retrofit-php",
+    "description": "A library to ease creation of REST API clients."
+  },
+  {
+    "name": "zend-diactoros",
+    "url": "https://github.com/zendframework/zend-diactoros",
+    "description": "PSR-7 HTTP Message implementation."
+  },
+  {
+    "name": "Embed",
+    "url": "https://github.com/oscarotero/Embed",
+    "description": "An information extractor from any web service or page."
+  },
+  {
+    "name": "Goutte",
+    "url": "https://github.com/FriendsOfPHP/Goutte",
+    "description": "A simple web scraper."
+  },
+  {
+    "name": "PHP Spider",
+    "url": "https://github.com/mvdbos/php-spider",
+    "description": "A configurable and extensible PHP web spider."
+  },
+  {
+    "name": "Expressive",
+    "url": "https://zendframework.github.io/zend-expressive/",
+    "description": "PSR-7 Middleware framework from Zend"
+  },
+  {
+    "name": "PSR7-Middlewares",
+    "url": "https://github.com/oscarotero/psr7-middlewares",
+    "description": "Inspiring collection of handy middlewares."
+  },
+  {
+    "name": "Relay",
+    "url": "https://github.com/relayphp/Relay.Relay",
+    "description": "A PHP 5.5 PSR-7 middleware dispatcher"
   },
   {
     "name": "Slim Middleware",
@@ -325,19 +365,14 @@
     "description": "A collection of custom middleware for Slim."
   },
   {
-    "name": "Conduit",
-    "url": "https://github.com/phly/conduit",
-    "description": "A port of Sencha Connect to PHP."
+    "name": "Stack",
+    "url": "https://github.com/stackphp",
+    "description": "A library of stackable middleware for Silex/Symfony."
   },
   {
-    "name": "Purl",
-    "url": "https://github.com/jwage/purl",
-    "description": "A URL manipulation library."
-  },
-  {
-    "name": "Uri",
-    "url": "https://github.com/thephpleague/uri",
-    "description": "Another URL manipulation library."
+    "name": "zend-stratigility",
+    "url": "https://github.com/zendframework/zend-stratigility",
+    "description": "Middleware for PHP built on top of PSR-7"
   },
   {
     "name": "PHP Domain Parser",
@@ -345,34 +380,19 @@
     "description": "A domain suffix parser library."
   },
   {
+    "name": "Purl",
+    "url": "https://github.com/jwage/purl",
+    "description": "A URL manipulation library."
+  },
+  {
     "name": "sabre/uri",
     "url": "https://github.com/fruux/sabre-uri",
     "description": "A functional URI manipulation library."
   },
   {
-    "name": "SwiftMailer",
-    "url": "http://swiftmailer.org/",
-    "description": "A mailer solution."
-  },
-  {
-    "name": "PHPMailer",
-    "url": "https://github.com/PHPMailer/PHPMailer",
-    "description": "Another mailer solution."
-  },
-  {
-    "name": "Fetch",
-    "url": "https://github.com/tedious/Fetch",
-    "description": "An IMAP library."
-  },
-  {
-    "name": "Email Reply Parser",
-    "url": "https://github.com/willdurand/EmailReplyParser",
-    "description": "An email reply parser library."
-  },
-  {
-    "name": "Stampie",
-    "url": "https://github.com/henrikbjorn/Stampie",
-    "description": "A library for email services such as SendGrid, PostMark, MailGun and Mandrill."
+    "name": "Uri",
+    "url": "https://github.com/thephpleague/uri",
+    "description": "Another URL manipulation library."
   },
   {
     "name": "CssToInlineStyles",
@@ -380,9 +400,19 @@
     "description": "A library to inline CSS in email templates."
   },
   {
+    "name": "Email Reply Parser",
+    "url": "https://github.com/willdurand/EmailReplyParser",
+    "description": "An email reply parser library."
+  },
+  {
     "name": "Email Validator",
     "url": "https://github.com/nojacko/email-validator",
     "description": "A small email address validation library."
+  },
+  {
+    "name": "Fetch",
+    "url": "https://github.com/tedious/Fetch",
+    "description": "An IMAP library."
   },
   {
     "name": "Mautic",
@@ -390,19 +420,19 @@
     "description": "Email marketing automation"
   },
   {
-    "name": "Gaufrette",
-    "url": "https://github.com/KnpLabs/Gaufrette",
-    "description": "A filesystem abstraction layer."
+    "name": "PHPMailer",
+    "url": "https://github.com/PHPMailer/PHPMailer",
+    "description": "Another mailer solution."
   },
   {
-    "name": "Flysystem",
-    "url": "https://github.com/thephpleague/Flysystem",
-    "description": "Another filesystem abstraction layer."
+    "name": "Stampie",
+    "url": "https://github.com/henrikbjorn/Stampie",
+    "description": "A library for email services such as SendGrid, PostMark, MailGun and Mandrill."
   },
   {
-    "name": "Canal",
-    "url": "https://github.com/dflydev/dflydev-canal",
-    "description": "A library to determine internet media types."
+    "name": "SwiftMailer",
+    "url": "http://swiftmailer.org/",
+    "description": "A mailer solution."
   },
   {
     "name": "Apache MIME Types",
@@ -410,9 +440,29 @@
     "description": "A library that parses Apache MIME types."
   },
   {
+    "name": "Canal",
+    "url": "https://github.com/dflydev/dflydev-canal",
+    "description": "A library to determine internet media types."
+  },
+  {
+    "name": "CSV",
+    "url": "https://github.com/thephpleague/csv",
+    "description": "A CSV data manipulation library."
+  },
+  {
     "name": "Ferret",
     "url": "https://github.com/versionable/Ferret",
     "description": "A MIME detection library."
+  },
+  {
+    "name": "Flysystem",
+    "url": "https://github.com/thephpleague/Flysystem",
+    "description": "Another filesystem abstraction layer."
+  },
+  {
+    "name": "Gaufrette",
+    "url": "https://github.com/KnpLabs/Gaufrette",
+    "description": "A filesystem abstraction layer."
   },
   {
     "name": "Hoa Mime",
@@ -430,19 +480,14 @@
     "description": "A wrapper for the FFmpeg video library."
   },
   {
-    "name": "CSV",
-    "url": "https://github.com/thephpleague/csv",
-    "description": "A CSV data manipulation library."
-  },
-  {
     "name": "Streamer",
     "url": "https://github.com/fzaninotto/Streamer",
     "description": "A simple object-orientated stream wrapper library."
   },
   {
-    "name": "Pimple",
-    "url": "http://pimple.sensiolabs.org/",
-    "description": "A tiny dependency injection container."
+    "name": "Acclimate",
+    "url": "https://github.com/jeremeamia/acclimate-container",
+    "description": "A common interface to dependency injection containers and service locators."
   },
   {
     "name": "Auryn",
@@ -460,9 +505,9 @@
     "description": "A dependency injection container that supports autowiring."
   },
   {
-    "name": "Acclimate",
-    "url": "https://github.com/jeremeamia/acclimate-container",
-    "description": "A common interface to dependency injection containers and service locators."
+    "name": "Pimple",
+    "url": "http://pimple.sensiolabs.org/",
+    "description": "A tiny dependency injection container."
   },
   {
     "name": "Symfony DI",
@@ -470,24 +515,9 @@
     "description": "A dependency injection container component (SF2)."
   },
   {
-    "name": "Imagine",
-    "url": "http://imagine.readthedocs.org/en/latest/index.html",
-    "description": "An image manipulation library."
-  },
-  {
-    "name": "PHP Image Workshop",
-    "url": "https://github.com/Sybio/ImageWorkshop",
-    "description": "Another image manipulation library."
-  },
-  {
-    "name": "Intervention Image",
-    "url": "https://github.com/Intervention/image",
-    "description": "Another image manipulation library."
-  },
-  {
-    "name": "GIF Frame Extractor",
-    "url": "https://github.com/Sybio/GifFrameExtractor",
-    "description": "A library to extract GIF animation frame information."
+    "name": "Color Extractor",
+    "url": "https://github.com/thephpleague/color-extractor",
+    "description": "A library for extracting colours from images."
   },
   {
     "name": "GIF Creator",
@@ -495,14 +525,9 @@
     "description": "A library to create GIF animations from multiple images."
   },
   {
-    "name": "Image With Text",
-    "url": "https://github.com/nmcteam/image-with-text",
-    "description": "A library for embedding text into images."
-  },
-  {
-    "name": "Color Extractor",
-    "url": "https://github.com/thephpleague/color-extractor",
-    "description": "A library for extracting colours from images."
+    "name": "GIF Frame Extractor",
+    "url": "https://github.com/Sybio/GifFrameExtractor",
+    "description": "A library to extract GIF animation frame information."
   },
   {
     "name": "Glide",
@@ -510,39 +535,39 @@
     "description": "An on-demand image manipulation library."
   },
   {
-    "name": "Image Optimizer",
-    "url": "https://github.com/psliwa/image-optimizer",
-    "description": "A library for optimizing images."
-  },
-  {
     "name": "Image Hash",
     "url": "https://github.com/jenssegers/imagehash",
     "description": "A library for generating perceptual image hashes."
   },
   {
-    "name": "PHPUnit",
-    "url": "https://github.com/sebastianbergmann/phpunit",
-    "description": "A unit testing framework."
+    "name": "Image Optimizer",
+    "url": "https://github.com/psliwa/image-optimizer",
+    "description": "A library for optimizing images."
   },
   {
-    "name": "DBUnit",
-    "url": "https://github.com/sebastianbergmann/dbunit",
-    "description": "A database testing library for PHPUnit."
+    "name": "Image With Text",
+    "url": "https://github.com/nmcteam/image-with-text",
+    "description": "A library for embedding text into images."
   },
   {
-    "name": "ParaTest",
-    "url": "https://github.com/brianium/paratest",
-    "description": "A parallel testing library for PHPUnit."
+    "name": "Imagine",
+    "url": "http://imagine.readthedocs.io/en/latest/index.html",
+    "description": "An image manipulation library."
   },
   {
-    "name": "PHPSpec",
-    "url": "https://github.com/phpspec/phpspec",
-    "description": "A design by specification unit testing library."
+    "name": "Intervention Image",
+    "url": "https://github.com/Intervention/image",
+    "description": "Another image manipulation library."
   },
   {
-    "name": "Codeception",
-    "url": "https://github.com/Codeception/Codeception",
-    "description": "A full stack testing framework."
+    "name": "PHP Image Workshop",
+    "url": "https://github.com/Sybio/ImageWorkshop",
+    "description": "Another image manipulation library."
+  },
+  {
+    "name": "Alice",
+    "url": "https://github.com/nelmio/alice",
+    "description": "An expressive fixture generation library."
   },
   {
     "name": "AspectMock",
@@ -555,19 +580,19 @@
     "description": "A simple testing library."
   },
   {
-    "name": "Mockery",
-    "url": "https://github.com/padraic/mockery",
-    "description": "A mock object library for testing."
+    "name": "Behat",
+    "url": "http://docs.behat.org/en/v2.5/",
+    "description": "A behaviour driven development (BDD) testing framework."
   },
   {
-    "name": "Phake",
-    "url": "https://github.com/mlively/Phake",
-    "description": "Another mock object library for testing."
+    "name": "Codeception",
+    "url": "https://github.com/Codeception/Codeception",
+    "description": "A full stack testing framework."
   },
   {
-    "name": "Prophecy",
-    "url": "https://github.com/phpspec/prophecy",
-    "description": "A highly opinionated mocking framework."
+    "name": "DBUnit",
+    "url": "https://github.com/sebastianbergmann/dbunit",
+    "description": "A database testing library for PHPUnit."
   },
   {
     "name": "Faker",
@@ -575,24 +600,14 @@
     "description": "A fake data generator library."
   },
   {
-    "name": "Samsui",
-    "url": "https://github.com/mauris/samsui",
-    "description": "Another fake data generator library."
+    "name": "HTTP Mock",
+    "url": "https://github.com/InterNations/http-mock",
+    "description": "A library for mocking HTTP requests in unit tests."
   },
   {
-    "name": "Alice",
-    "url": "https://github.com/nelmio/alice",
-    "description": "An expressive fixture generation library."
-  },
-  {
-    "name": "Behat",
-    "url": "http://docs.behat.org/en/v2.5/",
-    "description": "A behaviour driven development (BDD) testing framework."
-  },
-  {
-    "name": "Pho",
-    "url": "https://github.com/danielstjules/pho",
-    "description": "Another behaviour driven development testing framework."
+    "name": "Kahlan",
+    "url": "https://github.com/crysalead/kahlan",
+    "description": "Full stack Unit/BDD testing framework with built-in stub, mock and code-coverage support."
   },
   {
     "name": "Mink",
@@ -600,9 +615,54 @@
     "description": "Web acceptance testing."
   },
   {
-    "name": "HTTP Mock",
-    "url": "https://github.com/InterNations/http-mock",
-    "description": "A library for mocking HTTP requests in unit tests."
+    "name": "Mockery",
+    "url": "https://github.com/padraic/mockery",
+    "description": "A mock object library for testing."
+  },
+  {
+    "name": "ParaTest",
+    "url": "https://github.com/brianium/paratest",
+    "description": "A parallel testing library for PHPUnit."
+  },
+  {
+    "name": "Peridot",
+    "url": "https://github.com/peridot-php/peridot",
+    "description": "An event driven test framework."
+  },
+  {
+    "name": "Phake",
+    "url": "https://github.com/mlively/Phake",
+    "description": "Another mock object library for testing."
+  },
+  {
+    "name": "Pho",
+    "url": "https://github.com/danielstjules/pho",
+    "description": "Another behaviour driven development testing framework."
+  },
+  {
+    "name": "PHPSpec",
+    "url": "https://github.com/phpspec/phpspec",
+    "description": "A design by specification unit testing library."
+  },
+  {
+    "name": "PHPT",
+    "url": "https://qa.php.net/write-test.php",
+    "description": "A test tool used by PHP itself."
+  },
+  {
+    "name": "PHPUnit",
+    "url": "https://github.com/sebastianbergmann/phpunit",
+    "description": "A unit testing framework."
+  },
+  {
+    "name": "Prophecy",
+    "url": "https://github.com/phpspec/prophecy",
+    "description": "A highly opinionated mocking framework."
+  },
+  {
+    "name": "Samsui",
+    "url": "https://github.com/mauris/samsui",
+    "description": "Another fake data generator library."
   },
   {
     "name": "VFS Stream",
@@ -615,43 +675,18 @@
     "description": "Another virtual filesystem for testing."
   },
   {
-    "name": "Locust",
-    "url": "http://locust.io/",
-    "description": "A modern load test library written in Python."
-  },
-  {
-    "name": "Peridot",
-    "url": "https://github.com/peridot-php/peridot",
-    "description": "An event driven test framework."
-  },
-  {
-    "name": "Kahlan",
-    "url": "https://github.com/crysalead/kahlan",
-    "description": "Full stack Unit/BDD testing framework with built-in stub, mock and code-coverage support."
-  },
-  {
-    "name": "Travis CI",
-    "url": "https://travis-ci.org/",
+    "name": "CircleCI",
+    "url": "https://circleci.com",
     "description": "A continuous integration platform."
   },
   {
-    "name": "SemaphoreCI",
-    "url": "https://semaphoreci.com/",
-    "description": "A continuous integration platform for open source and private projects."
-  },
-  {
-    "name": "PHPCI",
-    "url": "https://www.phptesting.org/",
-    "description": "An open source continuous integration platform for PHP."
-  },
-  {
-    "name": "Sismo",
-    "url": "http://sismo.sensiolabs.org/",
-    "description": "A continuous testing server library."
+    "name": "GitlabCi",
+    "url": "https://about.gitlab.com/gitlab-ci/",
+    "description": "Let GitLab CI test, build, deploy your code. TravisCi like."
   },
   {
     "name": "Jenkins",
-    "url": "http://jenkins-ci.org/",
+    "url": "https://jenkins.io/index.html",
     "description": "A continous integration platform with PHP support."
   },
   {
@@ -660,14 +695,44 @@
     "description": "A continuous integration client written in PHP and powered by Docker."
   },
   {
-    "name": "Sami",
-    "url": "https://github.com/FriendsOfPHP/Sami",
-    "description": "An API documentation generator."
+    "name": "PHPCI",
+    "url": "https://www.phptesting.org/",
+    "description": "An open source continuous integration platform for PHP."
+  },
+  {
+    "name": "SemaphoreCI",
+    "url": "https://semaphoreci.com/",
+    "description": "A continuous integration platform for open source and private projects."
+  },
+  {
+    "name": "Shippable",
+    "url": "https://app.shippable.com/",
+    "description": "A docker based continious integration platform for open source and private projects."
+  },
+  {
+    "name": "Sismo",
+    "url": "http://sismo.sensiolabs.org/",
+    "description": "A continuous testing server library."
+  },
+  {
+    "name": "Travis CI",
+    "url": "https://travis-ci.org/",
+    "description": "A continuous integration platform."
+  },
+  {
+    "name": "Wercker",
+    "url": "http://wercker.com/",
+    "description": "A continuous integration platform"
   },
   {
     "name": "APIGen",
     "url": "https://github.com/apigen/apigen",
     "description": "Another API documentation generator."
+  },
+  {
+    "name": "daux.io",
+    "url": "https://github.com/justinwalsh/daux.io",
+    "description": "A documentation generator which uses Markdown files."
   },
   {
     "name": "PHP Documentor 2",
@@ -680,9 +745,14 @@
     "description": "A documentation generator for PHP projects (that is not limited to API documentation)."
   },
   {
-    "name": "daux.io",
-    "url": "https://github.com/justinwalsh/daux.io",
-    "description": "A documentation generator which uses Markdown files."
+    "name": "Sami",
+    "url": "https://github.com/FriendsOfPHP/Sami",
+    "description": "An API documentation generator."
+  },
+  {
+    "name": "Halite",
+    "url": "https://paragonie.com/project/halite",
+    "description": "A simple library for encryption using libsodium."
   },
   {
     "name": "HTML Purifier",
@@ -690,29 +760,19 @@
     "description": "A standards compliant HTML filter."
   },
   {
-    "name": "RandomLib",
-    "url": "https://github.com/ircmaxell/RandomLib",
-    "description": "A library for generating random numbers and strings."
+    "name": "IniScan",
+    "url": "https://github.com/psecio/iniscan",
+    "description": "A tool that scans PHP INI files for security."
   },
   {
-    "name": "True Random",
-    "url": "https://github.com/pixeloution/true-random",
-    "description": "A library that generates random numbers using www.random.org."
+    "name": "Optimus",
+    "url": "https://github.com/jenssegers/optimus",
+    "description": "Id obfuscation based on Knuth's multiplicative hashing method."
   },
   {
-    "name": "SecurityMultiTool",
-    "url": "https://github.com/padraic/SecurityMultiTool",
-    "description": "A PHP security library."
-  },
-  {
-    "name": "PHPSecLib",
-    "url": "http://phpseclib.sourceforge.net/",
-    "description": "A pure PHP secure communications library."
-  },
-  {
-    "name": "TCrypto",
-    "url": "https://github.com/timoh6/TCrypto",
-    "description": "A simple encrypted key-value storage library."
+    "name": "PHP Encryption",
+    "url": "https://github.com/defuse/php-encryption",
+    "description": "Secure PHP Encryption Library."
   },
   {
     "name": "PHP IDS",
@@ -725,9 +785,19 @@
     "description": "An experimental object orientated SSH wrapper library."
   },
   {
-    "name": "IniScan",
-    "url": "https://github.com/psecio/iniscan",
-    "description": "A tool that scans PHP INI files for security."
+    "name": "PHPSecLib",
+    "url": "http://phpseclib.sourceforge.net/",
+    "description": "A pure PHP secure communications library."
+  },
+  {
+    "name": "RandomLib",
+    "url": "https://github.com/ircmaxell/RandomLib",
+    "description": "A library for generating random numbers and strings."
+  },
+  {
+    "name": "SecurityMultiTool",
+    "url": "https://github.com/padraic/SecurityMultiTool",
+    "description": "A PHP security library."
   },
   {
     "name": "SensioLabs Security Check",
@@ -735,39 +805,34 @@
     "description": "A web tool to check your Composer dependencies for security advisories."
   },
   {
+    "name": "TCrypto",
+    "url": "https://github.com/timoh6/TCrypto",
+    "description": "A simple encrypted key-value storage library."
+  },
+  {
+    "name": "True Random",
+    "url": "https://github.com/pixeloution/true-random",
+    "description": "A library that generates random numbers using www.random.org."
+  },
+  {
+    "name": "VAddy",
+    "url": "https://vaddy.net/",
+    "description": "A continuous security testing platform for web applications."
+  },
+  {
     "name": "Zed",
     "url": "https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project",
     "description": "An integrated penetration testing tool for web applications."
   },
   {
-    "name": "VAddy",
-    "url": "http://vaddy.net",
-    "description": "A continuous security testing platform for web applications."
-  },
-  {
-    "name": "Optimus",
-    "url": "https://github.com/jenssegers/optimus",
-    "description": "Id obfuscation based on Knuth's multiplicative hashing method."
-  },
-  {
-    "name": "Halite",
-    "url": "https://paragonie.com/project/halite",
-    "description": "A simple library for encryption using libsodium."
+    "name": "GenPhrase",
+    "url": "https://github.com/timoh6/GenPhrase",
+    "description": "A library for generating secure random passphrases."
   },
   {
     "name": "Password Compat",
     "url": "https://github.com/ircmaxell/password_compat",
     "description": "A compatibility library for the new PHP 5.5 password functions."
-  },
-  {
-    "name": "phpass",
-    "url": "http://www.openwall.com/phpass/",
-    "description": "A portable password hashing framework."
-  },
-  {
-    "name": "PHP Password Lib",
-    "url": "https://github.com/ircmaxell/PHP-PasswordLib",
-    "description": "A library for generating and validating passwords."
   },
   {
     "name": "Password Policy",
@@ -780,29 +845,34 @@
     "description": "A library for validating and upgrading password hashes."
   },
   {
+    "name": "Password-Generator",
+    "url": "https://github.com/hackzilla/password-generator",
+    "description": "PHP library to generate random passwords."
+  },
+  {
+    "name": "PHP Password Lib",
+    "url": "https://github.com/ircmaxell/PHP-PasswordLib",
+    "description": "A library for generating and validating passwords."
+  },
+  {
+    "name": "phpass",
+    "url": "http://www.openwall.com/phpass/",
+    "description": "A portable password hashing framework."
+  },
+  {
     "name": "Zxcvbn PHP",
     "url": "https://github.com/bjeavons/zxcvbn-php",
     "description": "A realistic PHP password strength estimate library based on Zxcvbn JS."
   },
   {
-    "name": "GenPhrase",
-    "url": "https://github.com/timoh6/GenPhrase",
-    "description": "A library for generating secure random passphrases."
+    "name": "Athletic",
+    "url": "https://github.com/polyfractal/athletic",
+    "description": "An annotation based benchmark framework."
   },
   {
-    "name": "PHP Parser",
-    "url": "https://github.com/nikic/PHP-Parser",
-    "description": "A PHP parser written in PHP."
-  },
-  {
-    "name": "PHPPHP",
-    "url": "https://github.com/ircmaxell/PHPPHP",
-    "description": "A PHP VM implementation in PHP."
-  },
-  {
-    "name": "PHPSandbox",
-    "url": "https://github.com/fieryprophet/php-sandbox",
-    "description": "A PHP sandbox environment."
+    "name": "Code Climate",
+    "url": "https://codeclimate.com",
+    "description": "An automated code review."
   },
   {
     "name": "Dissect",
@@ -810,24 +880,29 @@
     "description": "A set of tools for lexical and syntactical analysis."
   },
   {
-    "name": "PHP Mess Detector",
-    "url": "https://phpmd.org/",
-    "description": "A library that scans code for bugs, sub-optimal code, unused parameters and more."
+    "name": "Exakat",
+    "url": "https://github.com/exakat/exakat",
+    "description": "A static analysis engine for PHP."
   },
   {
-    "name": "PHP Code Sniffer",
-    "url": "https://github.com/squizlabs/PHP_CodeSniffer",
-    "description": "A library that detects PHP, CSS and JS coding standard violations."
+    "name": "GrumPHP",
+    "url": "https://github.com/phpro/grumphp",
+    "description": "A composer plugin to defend code quality."
   },
   {
-    "name": "PHPCPD",
-    "url": "https://github.com/sebastianbergmann/phpcpd",
-    "description": "A library that detects copied and pasted code."
+    "name": "Mondrian",
+    "url": "https://github.com/Trismegiste/Mondrian",
+    "description": "A code analysis tool using Graph Theory."
   },
   {
     "name": "PHP Analyser",
     "url": "https://github.com/scrutinizer-ci/php-analyzer",
     "description": "A library for analysing PHP code to find bugs and errors."
+  },
+  {
+    "name": "PHP Code Sniffer",
+    "url": "https://github.com/squizlabs/PHP_CodeSniffer",
+    "description": "A library that detects PHP, CSS and JS coding standard violations."
   },
   {
     "name": "PHP CS Fixer",
@@ -840,9 +915,19 @@
     "description": "A library for analysing and modifying PHP Source Code."
   },
   {
+    "name": "PHP Mess Detector",
+    "url": "https://phpmd.org/",
+    "description": "A library that scans code for bugs, sub-optimal code, unused parameters and more."
+  },
+  {
     "name": "PHP Metrics",
     "url": "https://github.com/phpmetrics/PhpMetrics",
     "description": "A static metric library."
+  },
+  {
+    "name": "PHP Parser",
+    "url": "https://github.com/nikic/PHP-Parser",
+    "description": "A PHP parser written in PHP."
   },
   {
     "name": "PHP Refactoring Browser",
@@ -855,29 +940,9 @@
     "description": "A command line utility that compares two source sets and determines the appropriate semantic versioning to apply."
   },
   {
-    "name": "UBench",
-    "url": "https://github.com/devster/ubench",
-    "description": "A simple micro benchmark library."
-  },
-  {
-    "name": "Athletic",
-    "url": "https://github.com/polyfractal/athletic",
-    "description": "An annotation based benchmark framework."
-  },
-  {
-    "name": "Mondrian",
-    "url": "https://github.com/Trismegiste/Mondrian",
-    "description": "A code analysis tool using Graph Theory."
-  },
-  {
-    "name": "Scrutinizer",
-    "url": "https://scrutinizer-ci.com/",
-    "description": "A web tool to scrutinise PHP code."
-  },
-  {
-    "name": "PHPLOC",
-    "url": "https://github.com/sebastianbergmann/phploc",
-    "description": "A tool for quickly measuring the size of a PHP project."
+    "name": "phan",
+    "url": "https://github.com/etsy/phan",
+    "description": "A static analyzer based on PHP 7+ and the php-ast extension."
   },
   {
     "name": "PHPCheckstyle",
@@ -885,24 +950,59 @@
     "description": "A tool to help adhere to certain coding conventions."
   },
   {
+    "name": "PHPCPD",
+    "url": "https://github.com/sebastianbergmann/phpcpd",
+    "description": "A library that detects copied and pasted code."
+  },
+  {
     "name": "PhpDependencyAnalysis",
     "url": "https://github.com/mamuz/PhpDependencyAnalysis",
     "description": "A tool to create customisable dependency graphs."
   },
   {
-    "name": "Code Climate",
-    "url": "https://codeclimate.com",
-    "description": "An automated code review."
+    "name": "PHPLOC",
+    "url": "https://github.com/sebastianbergmann/phploc",
+    "description": "A tool for quickly measuring the size of a PHP project."
   },
   {
-    "name": "PHP Option",
-    "url": "https://github.com/schmittjoh/php-option",
-    "description": "An option type library."
+    "name": "PHPQA",
+    "url": "https://github.com/EdgedesignCZ/phpqa",
+    "description": "A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)."
   },
   {
-    "name": "Ruler",
-    "url": "https://github.com/bobthecow/Ruler",
-    "description": "A simple stateless production rules engine."
+    "name": "PHPPHP",
+    "url": "https://github.com/ircmaxell/PHPPHP",
+    "description": "A PHP VM implementation in PHP."
+  },
+  {
+    "name": "PHPSandbox",
+    "url": "https://github.com/Corveda/PHPSandbox",
+    "description": "A PHP sandbox environment."
+  },
+  {
+    "name": "Qafoo Quality Analyzer",
+    "url": "https://github.com/Qafoo/QualityAnalyzer",
+    "description": "A tool to visualize metrics and source code."
+  },
+  {
+    "name": "Scrutinizer",
+    "url": "https://scrutinizer-ci.com/",
+    "description": "A web tool to scrutinise PHP code."
+  },
+  {
+    "name": "UBench",
+    "url": "https://github.com/devster/ubench",
+    "description": "A simple micro benchmark library."
+  },
+  {
+    "name": "Compose",
+    "url": "https://github.com/igorw/compose",
+    "description": "A function composition library."
+  },
+  {
+    "name": "Design Patterns PHP",
+    "url": "https://github.com/domnikl/DesignPatternsPHP",
+    "description": "A repository of software patterns implemented in PHP."
   },
   {
     "name": "Finite",
@@ -910,9 +1010,19 @@
     "description": "A simple PHP finite state machine."
   },
   {
-    "name": "Compose",
-    "url": "https://github.com/igorw/compose",
-    "description": "A function composition library."
+    "name": "Functional PHP",
+    "url": "https://github.com/lstrojny/functional-php",
+    "description": "A functional programming library."
+  },
+  {
+    "name": "Galapagos",
+    "url": "https://github.com/endel/galapagos",
+    "description": "Evolutionary language transformation."
+  },
+  {
+    "name": "Iter",
+    "url": "https://github.com/nikic/iter",
+    "description": "A library that provides iteration primitives using generators."
   },
   {
     "name": "Monad PHP",
@@ -925,24 +1035,9 @@
     "description": "A library for redefining userland functions."
   },
   {
-    "name": "Galapagos",
-    "url": "https://github.com/endel/galapagos",
-    "description": "Evolutionary language transformation."
-  },
-  {
-    "name": "Design Patterns PHP",
-    "url": "https://github.com/domnikl/DesignPatternsPHP",
-    "description": "A repository of software patterns implemented in PHP."
-  },
-  {
-    "name": "Functional PHP",
-    "url": "https://github.com/lstrojny/functional-php",
-    "description": "A functional programming library."
-  },
-  {
-    "name": "Iter",
-    "url": "https://github.com/nikic/iter",
-    "description": "A library that provides iteration primitives using generators."
+    "name": "PHP Option",
+    "url": "https://github.com/schmittjoh/php-option",
+    "description": "An option type library."
   },
   {
     "name": "Pipeline",
@@ -950,44 +1045,24 @@
     "description": "A pipeline pattern implementation."
   },
   {
-    "name": "xDebug",
-    "url": "https://github.com/xdebug/xdebug",
-    "description": "A debug and profile tool for PHP."
+    "name": "Ruler",
+    "url": "https://github.com/bobthecow/Ruler",
+    "description": "A simple stateless production rules engine."
   },
   {
-    "name": "PHP Debug Bar",
-    "url": "http://phpdebugbar.com/",
-    "description": "A debugging toolbar."
+    "name": "RulerZ",
+    "url": "https://github.com/K-Phoen/rulerz",
+    "description": "A powerful rule engine and implementation of the Specification pattern."
   },
   {
-    "name": "PHP Console",
-    "url": "https://github.com/Seldaek/php-console",
-    "description": "A web debugging console."
+    "name": "APM",
+    "url": "http://pecl.php.net/package/APM",
+    "description": "Monitoring extension collecting errors and statistics into SQLite/MySQL/StatsD."
   },
   {
     "name": "Barbushin PHP Console",
     "url": "https://github.com/barbushin/php-console",
     "description": "Another web debugging console using Google Chrome."
-  },
-  {
-    "name": "PHPDBG",
-    "url": "http://phpdbg.com/",
-    "description": "An interactive PHP debugger."
-  },
-  {
-    "name": "Tracy",
-    "url": "https://github.com/nette/tracy",
-    "description": "A simple error detection, logging and time measuring library."
-  },
-  {
-    "name": "Z-Ray",
-    "url": "http://www.zend.com/en/products/server/z-ray",
-    "description": "A debug and profile tool for Zend Server."
-  },
-  {
-    "name": "XHProf",
-    "url": "https://github.com/phacility/xhprof",
-    "description": "A profiling tool originally developed by Facebook."
   },
   {
     "name": "Blackfire.io",
@@ -1000,9 +1075,49 @@
     "description": "A debugging and profiling tool."
   },
   {
+    "name": "PHP Console",
+    "url": "https://github.com/Seldaek/php-console",
+    "description": "A web debugging console."
+  },
+  {
+    "name": "PHP Debug Bar",
+    "url": "http://phpdebugbar.com/",
+    "description": "A debugging toolbar."
+  },
+  {
     "name": "PHPBench",
     "url": "https://github.com/phpbench/phpbench",
     "description": "A benchmarking Framework."
+  },
+  {
+    "name": "PHPDBG",
+    "url": "http://phpdbg.com/",
+    "description": "An interactive PHP debugger."
+  },
+  {
+    "name": "Tideways.io",
+    "url": "https://tideways.io/",
+    "description": "Monitoring and profiling tool"
+  },
+  {
+    "name": "Tracy",
+    "url": "https://github.com/nette/tracy",
+    "description": "A simple error detection, logging and time measuring library."
+  },
+  {
+    "name": "xDebug",
+    "url": "https://github.com/xdebug/xdebug",
+    "description": "A debug and profile tool for PHP."
+  },
+  {
+    "name": "XHProf",
+    "url": "https://github.com/phacility/xhprof",
+    "description": "A profiling tool originally developed by Facebook."
+  },
+  {
+    "name": "Z-Ray",
+    "url": "http://www.zend.com/en/products/server/z-ray",
+    "description": "A debug and profile tool for Zend Server."
   },
   {
     "name": "Bob",
@@ -1010,29 +1125,19 @@
     "description": "A simple project automation tool."
   },
   {
-    "name": "Phake",
-    "url": "https://github.com/jaz303/phake",
-    "description": "A rake PHP clone library."
-  },
-  {
     "name": "Box",
     "url": "https://github.com/box-project/box2",
     "description": "A utility to build PHAR files."
   },
   {
+    "name": "Phake",
+    "url": "https://github.com/jaz303/phake",
+    "description": "A rake PHP clone library."
+  },
+  {
     "name": "Phing",
-    "url": "http://www.phing.info/",
+    "url": "https://www.phing.info/",
     "description": "A PHP project build system inspired by Apache Ant."
-  },
-  {
-    "name": "Task",
-    "url": "http://taskphp.github.io/",
-    "description": "A pure PHP task runner inspired by Grunt and Gulp."
-  },
-  {
-    "name": "Robo",
-    "url": "https://github.com/Codegyre/Robo",
-    "description": "A PHP Task runner with object-orientated configurations."
   },
   {
     "name": "Bldr",
@@ -1040,9 +1145,19 @@
     "description": "A PHP Task runner built on Symfony components."
   },
   {
-    "name": "KnpMenu",
-    "url": "https://github.com/KnpLabs/KnpMenu",
-    "description": "A menu library."
+    "name": "Jobby",
+    "url": "https://github.com/jobbyphp/jobby",
+    "description": "A PHP cron job manager without modifying crontab."
+  },
+  {
+    "name": "Robo",
+    "url": "https://github.com/consolidation-org/Robo",
+    "description": "A PHP Task runner with object-orientated configurations."
+  },
+  {
+    "name": "Task",
+    "url": "http://taskphp.github.io/",
+    "description": "A pure PHP task runner inspired by Grunt and Gulp."
   },
   {
     "name": "Cartographer",
@@ -1050,14 +1165,19 @@
     "description": "A sitemap generation library."
   },
   {
+    "name": "KnpMenu",
+    "url": "https://github.com/KnpLabs/KnpMenu",
+    "description": "A menu library."
+  },
+  {
     "name": "Assetic",
     "url": "https://github.com/kriswallsmith/assetic",
     "description": "An asset manager pipeline library."
   },
   {
-    "name": "Pipe",
-    "url": "https://github.com/CHH/pipe",
-    "description": "Another asset manager pipeline library."
+    "name": "JShrink",
+    "url": "https://github.com/tedious/JShrink",
+    "description": "A JavaScript minifier library."
   },
   {
     "name": "Munee",
@@ -1065,9 +1185,9 @@
     "description": "An asset optimiser library."
   },
   {
-    "name": "JShrink",
-    "url": "https://github.com/tedious/JShrink",
-    "description": "A JavaScript minifier library."
+    "name": "Pipe",
+    "url": "https://github.com/CHH/pipe",
+    "description": "Another asset manager pipeline library."
   },
   {
     "name": "Puli",
@@ -1080,6 +1200,11 @@
     "description": "A geocoding library."
   },
   {
+    "name": "GeoJSON",
+    "url": "https://github.com/jmikola/geojson",
+    "description": "A GeoJSON implementation."
+  },
+  {
     "name": "GeoTools",
     "url": "https://github.com/thephpleague/geotools",
     "description": "A library of geo-related tools."
@@ -1090,9 +1215,9 @@
     "description": "A simple geo library."
   },
   {
-    "name": "GeoJSON",
-    "url": "https://github.com/jmikola/geojson",
-    "description": "A GeoJSON implementation."
+    "name": "CalendR",
+    "url": "http://yohan.giarel.li/CalendR/",
+    "description": "A calendar management library."
   },
   {
     "name": "Carbon",
@@ -1100,44 +1225,39 @@
     "description": "A simple DateTime API extension."
   },
   {
+    "name": "Chronos",
+    "url": "https://github.com/cakephp/chronos",
+    "description": "A DateTime API extension supporting both mutable and immutable date/time."
+  },
+  {
     "name": "ExpressiveDate",
     "url": "https://github.com/jasonlewis/expressive-date",
     "description": "Another DateTime API extension."
   },
   {
-    "name": "CalendR",
-    "url": "http://yohan.giarel.li/CalendR/",
-    "description": "A calendar management library."
+    "name": "Moment.php",
+    "url": "https://github.com/fightbulc/moment.php",
+    "description": "Moment.js inspired PHP DateTime handler with i18n support."
   },
   {
-    "name": "React",
-    "url": "https://github.com/reactphp/react",
+    "name": "Amp",
+    "url": "https://github.com/amphp/amp",
     "description": "An event driven non-blocking I/O library."
   },
   {
-    "name": "Rx.PHP",
-    "url": "https://github.com/asm89/Rx.PHP",
-    "description": "A reactive extension library."
+    "name": "Broadway",
+    "url": "https://github.com/qandidate-labs/broadway",
+    "description": "An event source and CQRS library."
   },
   {
-    "name": "Ratchet",
-    "url": "https://github.com/ratchetphp/Ratchet",
-    "description": "A web socket library."
-  },
-  {
-    "name": "Hoa WebSocket",
-    "url": "https://github.com/hoaproject/Websocket",
-    "description": "Another web socket library."
+    "name": "Cake Event",
+    "url": "https://github.com/cakephp/event",
+    "description": "An event dispatcher library (CP)."
   },
   {
     "name": "Elephant.io",
     "url": "https://github.com/Wisembly/Elephant.io",
     "description": "Yet another web socket library."
-  },
-  {
-    "name": "Hoa EventSource",
-    "url": "https://github.com/hoaproject/Eventsource",
-    "description": "An event source library."
   },
   {
     "name": "Evenement",
@@ -1150,19 +1270,49 @@
     "description": "An event library with a focus on domain events."
   },
   {
-    "name": "Cake Event",
-    "url": "https://github.com/cakephp/event",
-    "description": "An event dispatcher library (CP)."
+    "name": "Hoa EventSource",
+    "url": "https://github.com/hoaproject/Eventsource",
+    "description": "An event source library."
   },
   {
-    "name": "Broadway",
-    "url": "https://github.com/qandidate-labs/broadway",
-    "description": "An event source and CQRS library."
+    "name": "Hoa WebSocket",
+    "url": "https://github.com/hoaproject/Websocket",
+    "description": "Another web socket library."
   },
   {
-    "name": "Monolog",
-    "url": "https://github.com/Seldaek/monolog",
-    "description": "A comprehensive logger."
+    "name": "Icicle",
+    "url": "https://github.com/icicleio/icicle",
+    "description": "An asynchronous library with coroutines, non-blocking I/O, and multithreading."
+  },
+  {
+    "name": "Prooph Event Store",
+    "url": "https://github.com/prooph/event-store",
+    "description": "An event source component to persist event messages"
+  },
+  {
+    "name": "Ratchet",
+    "url": "https://github.com/ratchetphp/Ratchet",
+    "description": "A web socket library."
+  },
+  {
+    "name": "React",
+    "url": "https://github.com/reactphp/react",
+    "description": "An event driven non-blocking I/O library."
+  },
+  {
+    "name": "Rx.PHP",
+    "url": "https://github.com/asm89/Rx.PHP",
+    "description": "A reactive extension library."
+  },
+  {
+    "name": "Workerman",
+    "url": "https://github.com/walkor/Workerman",
+    "description": "An event driven non-blocking I/O library."
+  },
+  {
+    "name": "Analog",
+    "url": "https://github.com/jbroadway/analog",
+    "description": "A closure-based micro logging package."
   },
   {
     "name": "KLogger",
@@ -1170,9 +1320,14 @@
     "description": "An easy-to-use PSR-3 compliant logging class."
   },
   {
-    "name": "Analog",
-    "url": "https://github.com/jbroadway/analog",
-    "description": "A closure-based micro logging package."
+    "name": "Monolog",
+    "url": "https://github.com/Seldaek/monolog",
+    "description": "A comprehensive logger."
+  },
+  {
+    "name": "Money",
+    "url": "https://github.com/moneyphp/money",
+    "description": "A PHP implementation of Fowler's money pattern."
   },
   {
     "name": "OmniPay",
@@ -1185,29 +1340,29 @@
     "description": "A payment abstraction library."
   },
   {
-    "name": "Sylius",
-    "url": "http://sylius.org/",
-    "description": "An open source e-commerce solution."
-  },
-  {
-    "name": "Thelia",
-    "url": "http://thelia.net/",
-    "description": "Another open source e-commerce solution."
-  },
-  {
-    "name": "Money",
-    "url": "https://github.com/moneyphp/money",
-    "description": "A PHP implementation of Fowler's money pattern."
-  },
-  {
-    "name": "Sebastian Money",
-    "url": "https://github.com/sebastianbergmann/money",
-    "description": "Another library for working with monetary values."
+    "name": "Shopware",
+    "url": "https://github.com/shopware/shopware",
+    "description": "Highly customizable e-commerce software"
   },
   {
     "name": "Swap",
     "url": "https://github.com/florianv/swap",
     "description": "An exchange rates library."
+  },
+  {
+    "name": "Sylius",
+    "url": "http://sylius.org/",
+    "description": "An open source e-commerce solution."
+  },
+  {
+    "name": "Dompdf",
+    "url": "https://github.com/dompdf/dompdf",
+    "description": "A HTML to PDF converter."
+  },
+  {
+    "name": "PHPPdf",
+    "url": "https://github.com/psliwa/PHPPdf",
+    "description": "A library for generating PDFs and images from XML."
   },
   {
     "name": "Snappy",
@@ -1220,19 +1375,9 @@
     "description": "A tool to convert HTML to PDF."
   },
   {
-    "name": "PHPPdf",
-    "url": "https://github.com/psliwa/PHPPdf",
-    "description": "A library for generating PDFs and images from XML."
-  },
-  {
-    "name": "Dompdf",
-    "url": "https://github.com/dompdf/dompdf",
-    "description": "A HTML to PDF converter."
-  },
-  {
-    "name": "PHPWord",
-    "url": "https://github.com/PHPOffice/PHPWord",
-    "description": "A library for working with Microsoft Word documents."
+    "name": "ExcelAnt",
+    "url": "https://github.com/Wisembly/ExcelAnt",
+    "description": "A library for manipulating Microsoft Excel documents."
   },
   {
     "name": "PHPExcel",
@@ -1245,14 +1390,19 @@
     "description": "A library for working with Microsoft PowerPoint Presentations."
   },
   {
-    "name": "ExcelAnt",
-    "url": "https://github.com/Wisembly/ExcelAnt",
-    "description": "A library for manipulating Microsoft Excel documents."
+    "name": "PHPWord",
+    "url": "https://github.com/PHPOffice/PHPWord",
+    "description": "A library for working with Microsoft Word documents."
   },
   {
-    "name": "Doctrine",
-    "url": "http://www.doctrine-project.org/",
-    "description": "A comprehensive DBAL and ORM."
+    "name": "Baum",
+    "url": "https://github.com/etrepat/baum",
+    "description": "A nested set implementation for Eloquent."
+  },
+  {
+    "name": "Cake ORM",
+    "url": "https://github.com/cakephp/orm",
+    "description": "Object-Relational Mapper, implemented using the DataMapper pattern (CP)."
   },
   {
     "name": "Doctrine Extensions",
@@ -1260,9 +1410,9 @@
     "description": "A collection of Doctrine behavioural extensions."
   },
   {
-    "name": "Propel",
-    "url": "http://propelorm.org/",
-    "description": "A fast ORM, migration library and query builder."
+    "name": "Doctrine",
+    "url": "http://www.doctrine-project.org/",
+    "description": "A comprehensive DBAL and ORM."
   },
   {
     "name": "Eloquent",
@@ -1271,23 +1421,8 @@
   },
   {
     "name": "LazyRecord",
-    "url": "https://github.com/c9s/LazyRecord",
+    "url": "https://github.com/corneltek/LazyRecord",
     "description": "A fast ORM designed for simplicity, extendability and performance."
-  },
-  {
-    "name": "Baum",
-    "url": "https://github.com/etrepat/baum",
-    "description": "A nested set implementation for Eloquent."
-  },
-  {
-    "name": "Spot2",
-    "url": "https://github.com/vlucas/spot2",
-    "description": "A MySQL datamapper ORM."
-  },
-  {
-    "name": "RedBean",
-    "url": "http://redbeanphp.com/index.php",
-    "description": "A lightweight, configuration-less ORM."
   },
   {
     "name": "Pomm",
@@ -1295,29 +1430,24 @@
     "description": "An Object Model Manager for PostgreSQL."
   },
   {
+    "name": "Propel",
+    "url": "http://propelorm.org/",
+    "description": "A fast ORM, migration library and query builder."
+  },
+  {
     "name": "ProxyManager",
     "url": "https://github.com/Ocramius/ProxyManager",
     "description": "A set of utilities to generate proxy objects for data mappers."
   },
   {
-    "name": "Cake ORM",
-    "url": "https://github.com/cakephp/orm",
-    "description": "Object-Relational Mapper, implemented using the DataMapper pattern (CP)."
+    "name": "RedBean",
+    "url": "http://redbeanphp.com/index.php",
+    "description": "A lightweight, configuration-less ORM."
   },
   {
-    "name": "PHPMig",
-    "url": "https://github.com/davedevelopment/phpmig",
-    "description": "Another migration management library."
-  },
-  {
-    "name": "Phinx",
-    "url": "https://github.com/robmorgan/phinx",
-    "description": "Another database migration library."
-  },
-  {
-    "name": "Migrations",
-    "url": "https://github.com/icomefromthenet/Migrations",
-    "description": "A migration management library."
+    "name": "Spot2",
+    "url": "https://github.com/vlucas/spot2",
+    "description": "A MySQL datamapper ORM."
   },
   {
     "name": "Doctrine Migrations",
@@ -1325,14 +1455,24 @@
     "description": "A migration library for Doctrine."
   },
   {
+    "name": "Migrations",
+    "url": "https://github.com/icomefromthenet/Migrations",
+    "description": "A migration management library."
+  },
+  {
+    "name": "Phinx",
+    "url": "https://github.com/robmorgan/phinx",
+    "description": "Another database migration library."
+  },
+  {
+    "name": "PHPMig",
+    "url": "https://github.com/davedevelopment/phpmig",
+    "description": "Another migration management library."
+  },
+  {
     "name": "Ruckusing",
     "url": "https://github.com/ruckus/ruckusing-migrations",
     "description": "Database migrations for PHP ala ActiveRecord Migrations with support for MySQL, Postgres, SQLite."
-  },
-  {
-    "name": "MongoQB",
-    "url": "https://github.com/alexbilbie/MongoQB",
-    "description": "A MongoDB query builder library."
   },
   {
     "name": "Monga",
@@ -1340,9 +1480,29 @@
     "description": "A MongoDB abstraction library."
   },
   {
+    "name": "MongoQB",
+    "url": "https://github.com/alexbilbie/MongoQB",
+    "description": "A MongoDB query builder library."
+  },
+  {
+    "name": "PHPMongo",
+    "url": "https://github.com/sokil/php-mongo",
+    "description": "A MongoDB ORM."
+  },
+  {
     "name": "Predis",
     "url": "https://github.com/nrk/predis",
     "description": "A feature complete Redis library."
+  },
+  {
+    "name": "Bernard",
+    "url": "https://github.com/bernardphp/bernard",
+    "description": "A multibackend abstraction library."
+  },
+  {
+    "name": "BunnyPHP",
+    "url": "https://github.com/jakubkulhan/bunny",
+    "description": "A performant pure-PHP AMQP (RabbitMQ) sync and also async (ReactPHP) library."
   },
   {
     "name": "Pheanstalk",
@@ -1355,19 +1515,14 @@
     "description": "A pure PHP AMQP library."
   },
   {
+    "name": "Tarantool Queue",
+    "url": "https://github.com/tarantool-php/queue",
+    "description": "PHP bindings for Tarantool Queue."
+  },
+  {
     "name": "Thumper",
     "url": "https://github.com/php-amqplib/Thumper",
     "description": "A RabbitMQ pattern library."
-  },
-  {
-    "name": "Bernard",
-    "url": "https://github.com/bernardphp/bernard",
-    "description": "A multibackend abstraction library."
-  },
-  {
-    "name": "ElasticSearch PHP",
-    "url": "https://github.com/elastic/elasticsearch-php",
-    "description": "The official client library for ElasticSearch."
   },
   {
     "name": "Elastica",
@@ -1375,9 +1530,19 @@
     "description": "A client library for ElasticSearch."
   },
   {
+    "name": "ElasticSearch PHP",
+    "url": "https://github.com/elastic/elasticsearch-php",
+    "description": "The official client library for ElasticSearch."
+  },
+  {
     "name": "Solarium",
     "url": "http://www.solarium-project.org/",
     "description": "A client library for Solr."
+  },
+  {
+    "name": "Sphinx Search",
+    "url": "https://github.com/ripaclub/sphinxsearch",
+    "description": "Sphinx Search library provides SphinxQL indexing and searching features"
   },
   {
     "name": "SphinxQL query builder",
@@ -1390,64 +1555,9 @@
     "description": "A tiny PHP REPL."
   },
   {
-    "name": "PsySH",
-    "url": "https://github.com/bobthecow/psysh",
-    "description": "Another PHP REPL."
-  },
-  {
-    "name": "Pecan",
-    "url": "https://github.com/mcrumm/pecan",
-    "description": "An event-driven, non-blocking shell."
-  },
-  {
-    "name": "GetOpt",
-    "url": "https://github.com/ulrichsg/getopt-php",
-    "description": "A command line opt parser."
-  },
-  {
-    "name": "OptParse",
-    "url": "https://github.com/CHH/optparse",
-    "description": "Another command line opt parser."
-  },
-  {
-    "name": "Commando",
-    "url": "https://github.com/nategood/commando",
-    "description": "Another simple command line opt parser."
-  },
-  {
-    "name": "GetOptionKit",
-    "url": "https://github.com/c9s/GetOptionKit",
-    "description": "Another command line opt parser."
-  },
-  {
-    "name": "Cron Expression",
-    "url": "https://github.com/mtdowling/cron-expression",
-    "description": "A library to calculate cron run dates."
-  },
-  {
-    "name": "ShellWrap",
-    "url": "https://github.com/MrRio/shellwrap",
-    "description": "A simple command line wrapper library."
-  },
-  {
-    "name": "Hoa Console",
-    "url": "https://github.com/hoaproject/Console",
-    "description": "Another command line library."
-  },
-  {
-    "name": "Shunt",
-    "url": "https://github.com/thephpleague/shunt",
-    "description": "A library for running commands in parallel on multiple remote machines."
-  },
-  {
     "name": "Cilex",
     "url": "https://github.com/Cilex/Cilex",
     "description": "A micro framework for building command line tools."
-  },
-  {
-    "name": "CLImate",
-    "url": "https://github.com/thephpleague/climate",
-    "description": "A library for outputting colours and special formatting."
   },
   {
     "name": "CLI Menu",
@@ -1460,44 +1570,59 @@
     "description": "A command-line framework supports zsh/bash completion generation, subcommands and option constraints. It also powers phpbrew."
   },
   {
-    "name": "Sentinel",
-    "url": "https://cartalyst.com/manual/sentinel/2.0",
-    "description": "A framework agnostic authentication & authorisation library."
+    "name": "CLImate",
+    "url": "https://github.com/thephpleague/climate",
+    "description": "A library for outputting colours and special formatting."
   },
   {
-    "name": "Sentinel Social",
-    "url": "https://cartalyst.com/manual/sentinel-social/2.0",
-    "description": "A library for social network authentication."
+    "name": "Commando",
+    "url": "https://github.com/nategood/commando",
+    "description": "Another simple command line opt parser."
   },
   {
-    "name": "Opauth",
-    "url": "https://github.com/opauth/opauth",
-    "description": "A multi-provider authentication framework."
+    "name": "Cron Expression",
+    "url": "https://github.com/mtdowling/cron-expression",
+    "description": "A library to calculate cron run dates."
   },
   {
-    "name": "OAuth2 Server",
-    "url": "http://oauth2.thephpleague.com/",
-    "description": "An OAuth2 authentication server, resource server and client library."
+    "name": "GetOpt",
+    "url": "https://github.com/ulrichsg/getopt-php",
+    "description": "A command line opt parser."
   },
   {
-    "name": "OAuth2 Server",
-    "url": "http://bshaffer.github.io/oauth2-server-php-docs/",
-    "description": "Another OAuth2 server implementation."
+    "name": "GetOptionKit",
+    "url": "https://github.com/c9s/GetOptionKit",
+    "description": "Another command line opt parser."
   },
   {
-    "name": "PHP oAuthLib",
-    "url": "https://github.com/Lusitanian/PHPoAuthLib",
-    "description": "Another OAuth library."
+    "name": "Hoa Console",
+    "url": "https://github.com/hoaproject/Console",
+    "description": "Another command line library."
   },
   {
-    "name": "TwitterOAuth",
-    "url": "https://github.com/ruudk/twitteroauth",
-    "description": "A Twitter OAuth library."
+    "name": "OptParse",
+    "url": "https://github.com/CHH/optparse",
+    "description": "Another command line opt parser."
   },
   {
-    "name": "TwitterSDK",
-    "url": "https://github.com/lyrixx/twitter-sdk",
-    "description": "A fully tested Twitter SDK."
+    "name": "Pecan",
+    "url": "https://github.com/mcrumm/pecan",
+    "description": "An event-driven, non-blocking shell."
+  },
+  {
+    "name": "PsySH",
+    "url": "https://github.com/bobthecow/psysh",
+    "description": "Another PHP REPL."
+  },
+  {
+    "name": "ShellWrap",
+    "url": "https://github.com/MrRio/shellwrap",
+    "description": "A simple command line wrapper library."
+  },
+  {
+    "name": "Shunt",
+    "url": "https://github.com/thephpleague/shunt",
+    "description": "A library for running commands in parallel on multiple remote machines."
   },
   {
     "name": "Hawk",
@@ -1508,6 +1633,11 @@
     "name": "HybridAuth",
     "url": "https://github.com/hybridauth/hybridauth",
     "description": "An open source social sign on library."
+  },
+  {
+    "name": "Json Web Token",
+    "url": "https://github.com/lcobucci/jwt",
+    "description": "Json Tokens to authenticate and transmit information."
   },
   {
     "name": "Lock",
@@ -1525,24 +1655,49 @@
     "description": "An OAuth 2.0 client library."
   },
   {
-    "name": "Decoda",
-    "url": "https://github.com/milesj/decoda",
-    "description": "A lightweight markup parser library."
+    "name": "OAuth2 Server",
+    "url": "http://bshaffer.github.io/oauth2-server-php-docs/",
+    "description": "Another OAuth2 server implementation."
   },
   {
-    "name": "PHP Markdown",
-    "url": "https://github.com/michelf/php-markdown",
-    "description": "A Markdown parser."
+    "name": "OAuth2 Server",
+    "url": "http://oauth2.thephpleague.com/",
+    "description": "An OAuth2 authentication server, resource server and client library."
   },
   {
-    "name": "CommonMark PHP",
-    "url": "https://github.com/thephpleague/commonmark",
-    "description": "A Markdown parser which supports the full CommonMark spec."
+    "name": "Opauth",
+    "url": "https://github.com/opauth/opauth",
+    "description": "A multi-provider authentication framework."
   },
   {
-    "name": "Parsedown",
-    "url": "https://github.com/erusev/parsedown",
-    "description": "Another Markdown parser."
+    "name": "PHP oAuthLib",
+    "url": "https://github.com/Lusitanian/PHPoAuthLib",
+    "description": "Another OAuth library."
+  },
+  {
+    "name": "Sentinel Social",
+    "url": "https://cartalyst.com/manual/sentinel-social/2.0",
+    "description": "A library for social network authentication."
+  },
+  {
+    "name": "Sentinel",
+    "url": "https://cartalyst.com/manual/sentinel/2.0",
+    "description": "A framework agnostic authentication & authorisation library."
+  },
+  {
+    "name": "TwitterOAuth",
+    "url": "https://github.com/ruudk/twitteroauth",
+    "description": "A Twitter OAuth library."
+  },
+  {
+    "name": "TwitterSDK",
+    "url": "https://github.com/lyrixx/twitter-sdk",
+    "description": "A fully tested Twitter SDK."
+  },
+  {
+    "name": "Cebe Markdown",
+    "url": "https://github.com/cebe/markdown",
+    "description": "An fast and extensible Markdown parser."
   },
   {
     "name": "Ciconia",
@@ -1550,9 +1705,19 @@
     "description": "Another Markdown parser that supports Github flavoured Markdown."
   },
   {
-    "name": "Cebe Markdown",
-    "url": "https://github.com/cebe/markdown",
-    "description": "An fast and extensible Markdown parser."
+    "name": "CommonMark PHP",
+    "url": "https://github.com/thephpleague/commonmark",
+    "description": "A Markdown parser which supports the full CommonMark spec."
+  },
+  {
+    "name": "Decoda",
+    "url": "https://github.com/milesj/decoda",
+    "description": "A lightweight markup parser library."
+  },
+  {
+    "name": "Emoji",
+    "url": "https://github.com/heyupdate/Emoji",
+    "description": "A library that converts unicode characters and names into emoji images."
   },
   {
     "name": "HTML to Markdown",
@@ -1565,74 +1730,14 @@
     "description": "An HTML5 parser and serializer library."
   },
   {
-    "name": "Emoji",
-    "url": "https://github.com/heyupdate/Emoji",
-    "description": "A library that converts unicode characters and names into emoji images."
+    "name": "Parsedown",
+    "url": "https://github.com/erusev/parsedown",
+    "description": "Another Markdown parser."
   },
   {
-    "name": "ANSI to HTML5",
-    "url": "https://github.com/sensiolabs/ansi-to-html",
-    "description": "An ANSI to HTML5 converter library."
-  },
-  {
-    "name": "Patchwork UTF-8",
-    "url": "https://github.com/nicolas-grekas/Patchwork-UTF8",
-    "description": "A portable library for working with UTF-8 strings."
-  },
-  {
-    "name": "Hoa String",
-    "url": "https://github.com/hoaproject/String",
-    "description": "Another UTF-8 string library."
-  },
-  {
-    "name": "Stringy",
-    "url": "https://github.com/danielstjules/Stringy",
-    "description": "A string manipulation library with multibyte support."
-  },
-  {
-    "name": "Color Jizz",
-    "url": "https://github.com/mikeemoo/ColorJizz-PHP",
-    "description": "A library for manipulating and converting colours."
-  },
-  {
-    "name": "UUID",
-    "url": "https://github.com/ramsey/uuid",
-    "description": "A library for generating UUIDs."
-  },
-  {
-    "name": "Slugify",
-    "url": "https://github.com/cocur/slugify",
-    "description": "A library to convert strings to slugs."
-  },
-  {
-    "name": "URLify",
-    "url": "https://github.com/jbroadway/urlify",
-    "description": "A PHP port of Django's URLify.js."
-  },
-  {
-    "name": "Text",
-    "url": "https://github.com/kzykhys/Text",
-    "description": "A text manipulation library."
-  },
-  {
-    "name": "SQL Formatter",
-    "url": "https://github.com/jdorn/sql-formatter/",
-    "description": "A library for formatting SQL statements."
-  },
-  {
-    "name": "UA Parser",
-    "url": "https://github.com/tobie/ua-parser/tree/master/php",
-    "description": "A library for parsing user agent strings."
-  },
-  {
-    "name": "Device Detector",
-    "url": "https://github.com/piwik/device-detector",
-    "description": "Another library for parsing user agent strings."
-  },
-  {
-    "name": "Mobile-Detect",
-    "url": "https://github.com/serbanghita/Mobile-Detect",
-    "description": "A lightweight PHP class for detecting mobile devices (including tablets)."
+    "name": "PHP Markdown",
+    "url": "https://github.com/michelf/php-markdown",
+    "description": "A Markdown parser."
   },
   {
     "name": "Agent",
@@ -1640,14 +1745,74 @@
     "description": "A PHP desktop/mobile user agent parser, based on Mobiledetect."
   },
   {
-    "name": "Numbers PHP",
-    "url": "https://github.com/powder96/numbers.php",
-    "description": "A library for working with numbers."
+    "name": "ANSI to HTML5",
+    "url": "https://github.com/sensiolabs/ansi-to-html",
+    "description": "An ANSI to HTML5 converter library."
   },
   {
-    "name": "Math",
-    "url": "https://github.com/moontoast/math",
-    "description": "A library for working with large numbers."
+    "name": "Color Jizz",
+    "url": "https://github.com/mikeemoo/ColorJizz-PHP",
+    "description": "A library for manipulating and converting colours."
+  },
+  {
+    "name": "Device Detector",
+    "url": "https://github.com/piwik/device-detector",
+    "description": "Another library for parsing user agent strings."
+  },
+  {
+    "name": "Hoa String",
+    "url": "https://github.com/hoaproject/String",
+    "description": "Another UTF-8 string library."
+  },
+  {
+    "name": "Jieba-PHP",
+    "url": "https://github.com/fukuball/jieba-php",
+    "description": "A PHP port of Python's jieba. Chinese text segmentation for natural language processing."
+  },
+  {
+    "name": "Mobile-Detect",
+    "url": "https://github.com/serbanghita/Mobile-Detect",
+    "description": "A lightweight PHP class for detecting mobile devices (including tablets)."
+  },
+  {
+    "name": "Patchwork UTF-8",
+    "url": "https://github.com/nicolas-grekas/Patchwork-UTF8",
+    "description": "A portable library for working with UTF-8 strings."
+  },
+  {
+    "name": "Slugify",
+    "url": "https://github.com/cocur/slugify",
+    "description": "A library to convert strings to slugs."
+  },
+  {
+    "name": "SQL Formatter",
+    "url": "https://github.com/jdorn/sql-formatter/",
+    "description": "A library for formatting SQL statements."
+  },
+  {
+    "name": "Stringy",
+    "url": "https://github.com/danielstjules/Stringy",
+    "description": "A string manipulation library with multibyte support."
+  },
+  {
+    "name": "Text",
+    "url": "https://github.com/kzykhys/Text",
+    "description": "A text manipulation library."
+  },
+  {
+    "name": "UA Parser",
+    "url": "https://github.com/tobie/ua-parser/tree/master/php",
+    "description": "A library for parsing user agent strings."
+  },
+  {
+    "name": "URLify",
+    "url": "https://github.com/jbroadway/urlify",
+    "description": "A PHP port of Django's URLify.js."
+  },
+  {
+    "name": "UUID",
+    "url": "https://github.com/ramsey/uuid",
+    "description": "A library for generating UUIDs."
   },
   {
     "name": "ByteUnits",
@@ -1655,9 +1820,19 @@
     "description": "A library to parse, format and convert byte units in binary and metric systems."
   },
   {
-    "name": "PHP Units of Measure",
-    "url": "https://github.com/triplepoint/php-units-of-measure",
-    "description": "A library for converting between units of measure."
+    "name": "LibPhoneNumber for PHP",
+    "url": "https://github.com/giggsey/libphonenumber-for-php",
+    "description": "A PHP implementation of Google's phone number handling library."
+  },
+  {
+    "name": "Math",
+    "url": "https://github.com/moontoast/math",
+    "description": "A library for working with large numbers."
+  },
+  {
+    "name": "Numbers PHP",
+    "url": "https://github.com/powder96/numbers.php",
+    "description": "A library for working with numbers."
   },
   {
     "name": "PHP Conversion",
@@ -1665,24 +1840,9 @@
     "description": "Another library for converting between units of measure."
   },
   {
-    "name": "LibPhoneNumber for PHP",
-    "url": "https://github.com/giggsey/libphonenumber-for-php",
-    "description": "A PHP implementation of Google's phone number handling library."
-  },
-  {
-    "name": "Filterus",
-    "url": "https://github.com/ircmaxell/filterus",
-    "description": "A simple PHP filtering library."
-  },
-  {
-    "name": "Respect Validation",
-    "url": "https://github.com/Respect/Validation",
-    "description": "A simple validation library."
-  },
-  {
-    "name": "Valitron",
-    "url": "https://github.com/vlucas/valitron",
-    "description": "Another validation library."
+    "name": "PHP Units of Measure",
+    "url": "https://github.com/triplepoint/php-units-of-measure",
+    "description": "A library for converting between units of measure."
   },
   {
     "name": "Cake Validation",
@@ -1690,14 +1850,19 @@
     "description": "Another validation library (CP)."
   },
   {
-    "name": "Upload",
-    "url": "https://github.com/brandonsavage/Upload",
-    "description": "A library for handling file uploads and validation."
-  },
-  {
     "name": "DMS Filter",
     "url": "https://github.com/rdohms/DMS-Filter",
     "description": "An annotation filtering library."
+  },
+  {
+    "name": "Filterus",
+    "url": "https://github.com/ircmaxell/filterus",
+    "description": "A simple PHP filtering library."
+  },
+  {
+    "name": "ISO-codes",
+    "url": "https://github.com/ronanguilloux/IsoCodes",
+    "description": "A library for validating inputs according standards from ISO, International Finance, Public Administrations, GS1, Book Industry, Phone numbers & Zipcodes for many countries"
   },
   {
     "name": "MetaYaml",
@@ -1705,9 +1870,29 @@
     "description": "A schema validation library that supports YAML, JSON and XML."
   },
   {
-    "name": "ISO-codes",
-    "url": "https://github.com/ronanguilloux/IsoCodes",
-    "description": "A library for validating various ISO and ZIP codes (IBAN, SWIFT/BIC, BBAN, VAT, SSN, UKNIN)."
+    "name": "Respect Validation",
+    "url": "https://github.com/Respect/Validation",
+    "description": "A simple validation library."
+  },
+  {
+    "name": "Upload",
+    "url": "https://github.com/brandonsavage/Upload",
+    "description": "A library for handling file uploads and validation."
+  },
+  {
+    "name": "Valitron",
+    "url": "https://github.com/vlucas/valitron",
+    "description": "Another validation library."
+  },
+  {
+    "name": "Volan",
+    "url": "https://github.com/serkin/Volan",
+    "description": "Another simplified validation library."
+  },
+  {
+    "name": "API Platform",
+    "url": "https://api-platform.com",
+    "description": "Expose in minutes an hypermedia REST API that embraces JSON-LD, Hydra format."
   },
   {
     "name": "Apigility",
@@ -1715,9 +1900,9 @@
     "description": "An API builder built with Zend Framework 2."
   },
   {
-    "name": "Hateoas",
-    "url": "https://github.com/willdurand/Hateoas",
-    "description": "A HATEOAS REST web service library."
+    "name": "Drest",
+    "url": "https://github.com/leedavis81/drest",
+    "description": "A library for exposing Doctrine entities as REST resource endpoints."
   },
   {
     "name": "HAL",
@@ -1725,14 +1910,14 @@
     "description": "A Hypertext Application Language (HAL) builder library."
   },
   {
+    "name": "Hateoas",
+    "url": "https://github.com/willdurand/Hateoas",
+    "description": "A HATEOAS REST web service library."
+  },
+  {
     "name": "Negotiation",
     "url": "https://github.com/willdurand/Negotiation",
     "description": "A content negotiation library."
-  },
-  {
-    "name": "Drest",
-    "url": "https://github.com/leedavis81/drest",
-    "description": "A library for exposing Doctrine entities as REST resource endpoints."
   },
   {
     "name": "Restler",
@@ -1750,24 +1935,9 @@
     "description": "Open opcode cache for PHP."
   },
   {
-    "name": "Doctrine Cache",
-    "url": "https://github.com/doctrine/cache",
-    "description": "A caching library."
-  },
-  {
-    "name": "Zend Cache",
-    "url": "https://github.com/zendframework/zend-cache",
-    "description": "Another caching library (ZF2)."
-  },
-  {
-    "name": "Cake Cache",
-    "url": "https://github.com/cakephp/cache",
-    "description": "A caching library (CP)."
-  },
-  {
-    "name": "Stash",
-    "url": "https://github.com/tedious/Stash",
-    "description": "Another library for caching."
+    "name": "APIx Cache",
+    "url": "https://github.com/frqnck/apix-cache",
+    "description": "A thin PSR-6 cache wrapper to various caching backends emphasising cache tagging and indexing."
   },
   {
     "name": "CacheTool",
@@ -1775,14 +1945,34 @@
     "description": "A tool to clear APC/opcode caches from the command line."
   },
   {
+    "name": "Cake Cache",
+    "url": "https://github.com/cakephp/cache",
+    "description": "A caching library (CP)."
+  },
+  {
+    "name": "Doctrine Cache",
+    "url": "https://github.com/doctrine/cache",
+    "description": "A caching library."
+  },
+  {
+    "name": "Stash",
+    "url": "https://github.com/tedious/Stash",
+    "description": "Another library for caching."
+  },
+  {
+    "name": "Zend Cache",
+    "url": "https://github.com/zendframework/zend-cache",
+    "description": "Another caching library (ZF2)."
+  },
+  {
     "name": "Ardent",
     "url": "https://github.com/morrisonlevi/Ardent",
     "description": "A library of data structures."
   },
   {
-    "name": "PHP Collections",
-    "url": "https://github.com/schmittjoh/php-collection",
-    "description": "A simple collections library."
+    "name": "Cake Collection",
+    "url": "https://github.com/cakephp/collection",
+    "description": "A simple collections library (CP)."
   },
   {
     "name": "Collections",
@@ -1790,34 +1980,9 @@
     "description": "Collections Abstraction library for PHP."
   },
   {
-    "name": "Serializer",
-    "url": "https://github.com/schmittjoh/serializer",
-    "description": "A library for serialising and de-serialising data."
-  },
-  {
-    "name": "Zend Serializer",
-    "url": "https://github.com/zendframework/zend-serializer",
-    "description": "Another library for serialising and de-serialising data (ZF2)."
-  },
-  {
     "name": "Fractal",
     "url": "https://github.com/thephpleague/fractal",
     "description": "A library for converting complex data structures to JSON output."
-  },
-  {
-    "name": "Totem",
-    "url": "https://github.com/Wisembly/Totem",
-    "description": "A library to manage and create data changesets."
-  },
-  {
-    "name": "PINQ",
-    "url": "https://github.com/TimeToogo/Pinq",
-    "description": "A PHP library based on .NET's LINQ (Language Integrated Query)."
-  },
-  {
-    "name": "YaLinqo",
-    "url": "https://github.com/Athari/YaLinqo",
-    "description": "Yet Another LINQ to Objects for PHP."
   },
   {
     "name": "Ginq",
@@ -1826,13 +1991,48 @@
   },
   {
     "name": "JsonMapper",
-    "url": "https://github.com/netresearch/jsonmapper",
+    "url": "https://github.com/cweiske/jsonmapper",
     "description": "A library that maps nested JSON structures onto PHP classes."
   },
   {
-    "name": "Cake Collection",
-    "url": "https://github.com/cakephp/collection",
-    "description": "A simple collections library (CP)."
+    "name": "Knapsack",
+    "url": "https://github.com/DusanKasan/Knapsack",
+    "description": "Collection library inspired by Clojure's sequences."
+  },
+  {
+    "name": "PHP Collections",
+    "url": "https://github.com/schmittjoh/php-collection",
+    "description": "A simple collections library."
+  },
+  {
+    "name": "PINQ",
+    "url": "https://github.com/TimeToogo/Pinq",
+    "description": "A PHP library based on .NET's LINQ (Language Integrated Query)."
+  },
+  {
+    "name": "Serializer",
+    "url": "https://github.com/schmittjoh/serializer",
+    "description": "A library for serialising and de-serialising data."
+  },
+  {
+    "name": "Totem",
+    "url": "https://github.com/Wisembly/Totem",
+    "description": "A library to manage and create data changesets."
+  },
+  {
+    "name": "YaLinqo",
+    "url": "https://github.com/Athari/YaLinqo",
+    "description": "Yet Another LINQ to Objects for PHP."
+  },
+  {
+    "name": "Zend Serializer",
+    "url": "https://github.com/zendframework/zend-serializer",
+    "description": "Another library for serialising and de-serialising data (ZF2)."
+  },
+  {
+    "name": "JoliNotif",
+    "url": "https://github.com/jolicode/JoliNotif",
+    "description": "A cross-platform library for desktop notification (support for Growl, notify-send, toaster, etc)"
   },
   {
     "name": "Nod",
@@ -1840,14 +2040,14 @@
     "description": "A notification library (e.g., Growl)."
   },
   {
-    "name": "Notificato",
-    "url": "https://github.com/mac-cain13/notificato",
-    "description": "A library for handling push notifications."
-  },
-  {
     "name": "Notification Pusher",
     "url": "https://github.com/Ph3nol/NotificationPusher",
     "description": "A standalone library for device push notifications."
+  },
+  {
+    "name": "Notificato",
+    "url": "https://github.com/mac-cain13/notificato",
+    "description": "A library for handling push notifications."
   },
   {
     "name": "Notificator",
@@ -1855,19 +2055,14 @@
     "description": "A lightweight notification library."
   },
   {
-    "name": "JoliNotif",
-    "url": "https://github.com/jolicode/JoliNotif",
-    "description": "An OS agnostic desktop notification library."
+    "name": "Php-pushwoosh",
+    "url": "https://github.com/gomoob/php-pushwoosh",
+    "description": "A PHP Library to easily send push notifications with the Pushwoosh REST Web Services."
   },
   {
-    "name": "Pomander",
-    "url": "https://github.com/tamagokun/pomander",
-    "description": "A deployment tool for PHP applications."
-  },
-  {
-    "name": "Rocketeer",
-    "url": "https://github.com/rocketeers/rocketeer",
-    "description": "A fast and easy deployer for the PHP world."
+    "name": "Deployer",
+    "url": "https://github.com/deployphp/deployer",
+    "description": "A deployment tool."
   },
   {
     "name": "Envoy",
@@ -1880,9 +2075,14 @@
     "description": "A deployer library."
   },
   {
-    "name": "Deployer",
-    "url": "https://github.com/deployphp/deployer",
-    "description": "A deployment tool."
+    "name": "Pomander",
+    "url": "https://github.com/tamagokun/pomander",
+    "description": "A deployment tool for PHP applications."
+  },
+  {
+    "name": "Rocketeer",
+    "url": "https://github.com/rocketeers/rocketeer",
+    "description": "A fast and easy deployer for the PHP world."
   },
   {
     "name": "Aura Intl",
@@ -1899,16 +2099,6 @@
     "description": "The official PHP AWS SDK library."
   },
   {
-    "name": "S3 Stream Wrapper",
-    "url": "https://github.com/gwkunze/S3StreamWrapper",
-    "description": "A stream wrapper library for Amazon S3."
-  },
-  {
-    "name": "Stripe",
-    "url": "https://github.com/stripe/stripe-php",
-    "description": "The official Stripe PHP library."
-  },
-  {
     "name": "Campaign Monitor",
     "url": "http://campaignmonitor.github.io/createsend-php/",
     "description": "The official Campaign Monitor PHP library."
@@ -1919,14 +2109,38 @@
     "description": "A library to interface with the Digital Ocean API."
   },
   {
+    "name": "Dropbox SDK",
+    "url": "https://github.com/dropbox/dropbox-sdk-php",
+    "description": "The official PHP Dropbox SDK library."
+  },
+  {
     "name": "Github",
     "url": "https://github.com/dsyph3r/github-api3-php",
     "description": "A library to interface with the Github API."
   },
   {
+    "name": "Mailgun The official Mailgun PHP API.",
+    "url": "https://github.com/mailgun/mailgun-php"
+  },
+  {
     "name": "PHP Github API",
     "url": "https://github.com/KnpLabs/php-github-api",
     "description": "Another library to interface with the Github API."
+  },
+  {
+    "name": "S3 Stream Wrapper",
+    "url": "https://github.com/gwkunze/S3StreamWrapper",
+    "description": "A stream wrapper library for Amazon S3."
+  },
+  {
+    "name": "Stripe",
+    "url": "https://github.com/stripe/stripe-php",
+    "description": "The official Stripe PHP library."
+  },
+  {
+    "name": "Twilio",
+    "url": "https://github.com/twilio/twilio-php",
+    "description": "The official Twilio PHP REST API."
   },
   {
     "name": "Twitter OAuth",
@@ -1939,18 +2153,9 @@
     "description": "A library to interact with Twitter's REST API."
   },
   {
-    "name": "Dropbox SDK",
-    "url": "https://github.com/dropbox/dropbox-sdk-php",
-    "description": "The official PHP Dropbox SDK library."
-  },
-  {
-    "name": "Twilio",
-    "url": "https://github.com/twilio/twilio-php",
-    "description": "The official Twilio PHP REST API."
-  },
-  {
-    "name": "Mailgun The official Mailgun PHP API.",
-    "url": "https://github.com/mailgun/mailgun-php"
+    "name": "PHP CPP",
+    "url": "http://www.php-cpp.com/",
+    "description": "A C++ library for developing PHP extensions."
   },
   {
     "name": "Zephir",
@@ -1958,14 +2163,54 @@
     "description": "A compiled language between PHP and C++ for developing PHP extensions."
   },
   {
-    "name": "PHP CPP",
-    "url": "http://www.php-cpp.com/",
-    "description": "A C++ library for developing PHP extensions."
+    "name": "Annotations",
+    "url": "https://github.com/doctrine/annotations",
+    "description": "An annotations library (part of Doctrine)."
   },
   {
-    "name": "Spork",
-    "url": "https://github.com/kriswallsmith/spork",
-    "description": "A process forking library."
+    "name": "Cake Utility",
+    "url": "https://github.com/cakephp/utility",
+    "description": "Utility classes such as Inflector, String, Hash, Security and Xml (CP)."
+  },
+  {
+    "name": "Chief",
+    "url": "https://github.com/adamnicholson/Chief",
+    "description": "A command bus library."
+  },
+  {
+    "name": "ClassPreloader",
+    "url": "https://github.com/ClassPreloader/ClassPreloader",
+    "description": "A library for optimising autoloading."
+  },
+  {
+    "name": "Country List",
+    "url": "https://github.com/umpirsky/country-list",
+    "description": "A list of all countries with names and ISO 3166-1 codes."
+  },
+  {
+    "name": "Embera",
+    "url": "https://github.com/mpratt/Embera",
+    "description": "An Oembed consumer library."
+  },
+  {
+    "name": "Essence",
+    "url": "https://github.com/essence/essence",
+    "description": "A library for extracting web media."
+  },
+  {
+    "name": "Flux",
+    "url": "https://github.com/selvinortiz/flux",
+    "description": "A regular expression building library."
+  },
+  {
+    "name": "Graphviz",
+    "url": "https://github.com/alexandresalome/graphviz",
+    "description": "A Graphviz library."
+  },
+  {
+    "name": "Hprose-PHP",
+    "url": "https://github.com/hprose/hprose-php",
+    "description": "A very newbility RPC Library, support 25+ languages now."
   },
   {
     "name": "JSON Lint",
@@ -1978,44 +2223,9 @@
     "description": "A library for validating JSONP callbacks."
   },
   {
-    "name": "Pagerfanta",
-    "url": "https://github.com/whiteoctober/Pagerfanta",
-    "description": "A pagination library."
-  },
-  {
-    "name": "LiteCQRS",
-    "url": "https://github.com/beberlei/litecqrs-php",
-    "description": "A CQRS (Command Query Responsibility Separation) library."
-  },
-  {
-    "name": "Chief",
-    "url": "https://github.com/adamnicholson/Chief",
-    "description": "A command bus library."
-  },
-  {
-    "name": "Sslurp",
-    "url": "https://github.com/EvanDotPro/Sslurp",
-    "description": "A library that makes dealing with SSL suck less."
-  },
-  {
-    "name": "Metrics",
-    "url": "https://github.com/beberlei/metrics",
-    "description": "A simple metrics API library."
-  },
-  {
-    "name": "sabre/vobject",
-    "url": "https://github.com/fruux/sabre-vobject",
-    "description": "A library for parsing VCard and iCalendar objects."
-  },
-  {
-    "name": "Annotations",
-    "url": "https://github.com/doctrine/annotations",
-    "description": "An annotations library (part of Doctrine)."
-  },
-  {
-    "name": "Whoops",
-    "url": "https://github.com/filp/whoops",
-    "description": "A pretty error handling library."
+    "name": "Jumper",
+    "url": "https://github.com/kakawait/Jumper",
+    "description": "A remote service executor library."
   },
   {
     "name": "LadyBug",
@@ -2023,84 +2233,24 @@
     "description": "A dumper library."
   },
   {
-    "name": "Symfony VarDumper",
-    "url": "http://symfony.com/doc/current/components/var_dumper/introduction.html",
-    "description": "A variable dumper component (SF2)."
+    "name": "Lambda PHP",
+    "url": "https://github.com/igorw/lambda-php",
+    "description": "A Lambda calculus interpreter in PHP."
   },
   {
-    "name": "Procrastinator",
-    "url": "https://github.com/lstrojny/Procrastinator",
-    "description": "A library for running time consuming tasks."
+    "name": "LiteCQRS",
+    "url": "https://github.com/beberlei/litecqrs-php",
+    "description": "A CQRS (Command Query Responsibility Separation) library."
   },
   {
-    "name": "SuperClosure",
-    "url": "https://github.com/jeremeamia/super_closure",
-    "description": "A library that allows Closures to be serialized."
+    "name": "Metrics",
+    "url": "https://github.com/beberlei/metrics",
+    "description": "A simple metrics API library."
   },
   {
-    "name": "Jumper",
-    "url": "https://github.com/kakawait/Jumper",
-    "description": "A remote service executor library."
-  },
-  {
-    "name": "Underscore",
-    "url": "http://anahkiasen.github.io/underscore-php/",
-    "description": "A PHP port of the Underscore JS library."
-  },
-  {
-    "name": "PHP PassBook",
-    "url": "https://github.com/eymengunay/php-passbook",
-    "description": "A PHP library for iOS PassBook."
-  },
-  {
-    "name": "PHP Expression",
-    "url": "https://github.com/Kitano/php-expression",
-    "description": "A PHP expression language."
-  },
-  {
-    "name": "RMT",
-    "url": "https://github.com/liip/RMT",
-    "description": "A library for versioning and releasing software."
-  },
-  {
-    "name": "Opengraph",
-    "url": "https://github.com/euskadi31/Opengraph",
-    "description": "An opengraph library."
-  },
-  {
-    "name": "Essence",
-    "url": "https://github.com/essence/essence",
-    "description": "A library for extracting web media."
-  },
-  {
-    "name": "Embera",
-    "url": "https://github.com/mpratt/Embera",
-    "description": "An Oembed consumer library."
-  },
-  {
-    "name": "Graphviz",
-    "url": "https://github.com/alexandresalome/graphviz",
-    "description": "A Graphviz library."
-  },
-  {
-    "name": "Flux",
-    "url": "https://github.com/selvinortiz/flux",
-    "description": "A regular expression building library."
-  },
-  {
-    "name": "PHPCR",
-    "url": "https://github.com/phpcr/phpcr",
-    "description": "A PHP port of the Java Content Repository (JCR)."
-  },
-  {
-    "name": "ClassPreloader",
-    "url": "https://github.com/ClassPreloader/ClassPreloader",
-    "description": "A library for optimising autoloading."
-  },
-  {
-    "name": "PHPStack",
-    "url": "http://dunkels.com/adam/phpstack/",
-    "description": "A TCP/IP stack proof of concept written in PHP."
+    "name": "noCAPTCHA",
+    "url": "https://github.com/ARCANEDEV/noCAPTCHA",
+    "description": "Helper for Google's noCAPTCHA (reCAPTCHA)."
   },
   {
     "name": "Nmap",
@@ -2108,14 +2258,24 @@
     "description": "A PHP wrapper around Nmap."
   },
   {
-    "name": "Lambda PHP",
-    "url": "https://github.com/igorw/lambda-php",
-    "description": "A Lambda calculus interpreter in PHP."
+    "name": "Opengraph",
+    "url": "https://github.com/euskadi31/Opengraph",
+    "description": "An opengraph library."
   },
   {
-    "name": "Country List",
-    "url": "https://github.com/umpirsky/country-list",
-    "description": "A list of all countries with names and ISO 3166-1 codes."
+    "name": "Pagerfanta",
+    "url": "https://github.com/whiteoctober/Pagerfanta",
+    "description": "A pagination library."
+  },
+  {
+    "name": "PHP Expression",
+    "url": "https://github.com/Kitano/php-expression",
+    "description": "A PHP expression language."
+  },
+  {
+    "name": "PHP PassBook",
+    "url": "https://github.com/eymengunay/php-passbook",
+    "description": "A PHP library for iOS PassBook."
   },
   {
     "name": "PHP-GPIO",
@@ -2123,19 +2283,39 @@
     "description": "A library for playing with the Raspberry PI's GPIO pins."
   },
   {
+    "name": "PHPCR",
+    "url": "https://github.com/phpcr/phpcr",
+    "description": "A PHP port of the Java Content Repository (JCR)."
+  },
+  {
+    "name": "PHPStack",
+    "url": "http://dunkels.com/adam/phpstack/",
+    "description": "A TCP/IP stack proof of concept written in PHP."
+  },
+  {
     "name": "print_o",
     "url": "https://github.com/koriym/print_o",
     "description": "An object graph visualizer."
   },
   {
-    "name": "Alias",
-    "url": "https://github.com/fuelphp/alias",
-    "description": "A class aliasing library."
+    "name": "Procrastinator",
+    "url": "https://github.com/lstrojny/Procrastinator",
+    "description": "A library for running time consuming tasks."
   },
   {
-    "name": "Cake Utility",
-    "url": "https://github.com/cakephp/utility",
-    "description": "Utility classes such as Inflector, String, Hash, Security and Xml (CP)."
+    "name": "Prooph Service Bus",
+    "url": "https://github.com/prooph/service-bus",
+    "description": "Lightweight message bus supporting CQRS and Micro Services"
+  },
+  {
+    "name": "RMT",
+    "url": "https://github.com/liip/RMT",
+    "description": "A library for versioning and releasing software."
+  },
+  {
+    "name": "sabre/vobject",
+    "url": "https://github.com/fruux/sabre-vobject",
+    "description": "A library for parsing VCard and iCalendar objects."
   },
   {
     "name": "Slimdump",
@@ -2143,9 +2323,34 @@
     "description": "An easy dumper tool for MySQL."
   },
   {
-    "name": "HomeBrew",
-    "url": "http://brew.sh/",
-    "description": "A package manager for OSX."
+    "name": "Spork",
+    "url": "https://github.com/kriswallsmith/spork",
+    "description": "A process forking library."
+  },
+  {
+    "name": "Sslurp",
+    "url": "https://github.com/EvanDotPro/Sslurp",
+    "description": "A library that makes dealing with SSL suck less."
+  },
+  {
+    "name": "SuperClosure",
+    "url": "https://github.com/jeremeamia/super_closure",
+    "description": "A library that allows Closures to be serialized."
+  },
+  {
+    "name": "Symfony VarDumper",
+    "url": "http://symfony.com/doc/current/components/var_dumper/introduction.html",
+    "description": "A variable dumper component (SF2)."
+  },
+  {
+    "name": "Underscore",
+    "url": "http://anahkiasen.github.io/underscore-php/",
+    "description": "A PHP port of the Underscore JS library."
+  },
+  {
+    "name": "Whoops",
+    "url": "https://github.com/filp/whoops",
+    "description": "A pretty error handling library."
   },
   {
     "name": "HomeBrew PHP",
@@ -2153,9 +2358,9 @@
     "description": "A PHP tap for HomeBrew."
   },
   {
-    "name": "PHP OSX",
-    "url": "http://php-osx.liip.ch/",
-    "description": "A PHP installer for OSX."
+    "name": "HomeBrew",
+    "url": "http://brew.sh/",
+    "description": "A package manager for OSX."
   },
   {
     "name": "PHP Brew",
@@ -2163,9 +2368,19 @@
     "description": "A PHP version manager and installer."
   },
   {
+    "name": "PHP Build",
+    "url": "https://github.com/php-build/php-build",
+    "description": "Another PHP version installer."
+  },
+  {
     "name": "PHP Env",
     "url": "https://github.com/CHH/phpenv",
     "description": "Another PHP version manager."
+  },
+  {
+    "name": "PHP OSX",
+    "url": "http://php-osx.liip.ch/",
+    "description": "A PHP installer for OSX."
   },
   {
     "name": "PHP Switch",
@@ -2173,19 +2388,9 @@
     "description": "Another version manager."
   },
   {
-    "name": "PHP Build",
-    "url": "https://github.com/php-build/php-build",
-    "description": "Another PHP version installer."
-  },
-  {
     "name": "VirtPHP",
     "url": "http://virtphp.org/",
     "description": "A tool for creating and managing isolated PHP environments."
-  },
-  {
-    "name": "Vagrant",
-    "url": "https://www.vagrantup.com/",
-    "description": "A portable development environment utility."
   },
   {
     "name": "Ansible",
@@ -2193,14 +2398,9 @@
     "description": "A radically simple orchestration framework."
   },
   {
-    "name": "Puppet",
-    "url": "https://puppetlabs.com/",
-    "description": "A server automation framework and application."
-  },
-  {
-    "name": "PuPHPet",
-    "url": "https://puphpet.com/",
-    "description": "A web tool for building PHP development virtual machines."
+    "name": "Phansible",
+    "url": "http://phansible.com/",
+    "description": "A web tool for building PHP development virtual machines with Ansible."
   },
   {
     "name": "Protobox",
@@ -2208,9 +2408,24 @@
     "description": "Another web tool for building PHP development virtual machines."
   },
   {
-    "name": "Phansible",
-    "url": "http://phansible.com/",
-    "description": "A web tool for building PHP development virtual machines with Ansible."
+    "name": "PuPHPet",
+    "url": "https://puphpet.com/",
+    "description": "A web tool for building PHP development virtual machines."
+  },
+  {
+    "name": "Puppet",
+    "url": "https://puppet.com/",
+    "description": "A server automation framework and application."
+  },
+  {
+    "name": "Vagrant",
+    "url": "https://www.vagrantup.com/",
+    "description": "A portable development environment utility."
+  },
+  {
+    "name": "Hack",
+    "url": "http://hacklang.org/",
+    "description": "A programming language for HHVM that interoperates seamlessly with PHP."
   },
   {
     "name": "HHVM",
@@ -2223,19 +2438,14 @@
     "description": "Another PHP virtual machine."
   },
   {
-    "name": "Hack",
-    "url": "http://hacklang.org/",
-    "description": "A programming language for HHVM that interoperates seamlessly with PHP."
+    "name": "Eclipse for PHP Developers",
+    "url": "https://www.eclipse.org/downloads/",
+    "description": "A PHP IDE based on the Eclipse platform."
   },
   {
     "name": "Netbeans",
     "url": "https://netbeans.org",
     "description": "An IDE with support for PHP and HTML5."
-  },
-  {
-    "name": "Eclipse for PHP Developers",
-    "url": "https://www.eclipse.org/downloads/",
-    "description": "A PHP IDE based on the Eclipse platform."
   },
   {
     "name": "PhpStorm",
@@ -2266,6 +2476,11 @@
     "name": "Cachet",
     "url": "https://github.com/cachethq/cachet",
     "description": "The open source status page system."
+  },
+  {
+    "name": "phpBeanstalkdAdmin",
+    "url": "https://github.com/mnapoli/phpBeanstalkdAdmin",
+    "description": "Monitoring and administration interface for Beanstalkd."
   },
   {
     "name": "phpRedisAdmin",
@@ -2303,9 +2518,9 @@
     "description": "A process manager, supercharger and load balancer for PHP applications."
   },
   {
-    "name": "PHP The Right Way",
-    "url": "http://www.phptherightway.com/",
-    "description": "A PHP best practice quick reference guide."
+    "name": "Nomad PHP",
+    "url": "https://nomadphp.com/",
+    "description": "A online PHP learning resource."
   },
   {
     "name": "PHP Best Practices",
@@ -2313,44 +2528,9 @@
     "description": "A PHP best practice guide."
   },
   {
-    "name": "PHP Weekly",
-    "url": "http://www.phpweekly.com/archive.html",
-    "description": "A weekly PHP newsletter."
-  },
-  {
-    "name": "Securing PHP",
-    "url": "http://securingphp.com/",
-    "description": "A newsletter about PHP security and library recommendations."
-  },
-  {
-    "name": "PHP Security",
-    "url": "http://phpsecurity.readthedocs.org/en/latest/index.html",
-    "description": "A guide to PHP security."
-  },
-  {
     "name": "PHP FIG",
     "url": "http://www.php-fig.org/",
     "description": "The PHP Framework Interoperability Group."
-  },
-  {
-    "name": "PHP UG",
-    "url": "http://php.ug",
-    "description": "A website to help people locate their nearest PHP user group (UG)."
-  },
-  {
-    "name": "Seven PHP",
-    "url": "http://7php.com/",
-    "description": "A website that interviews members of the PHP community."
-  },
-  {
-    "name": "Nomad PHP",
-    "url": "https://nomadphp.com/",
-    "description": "A online PHP learning resource."
-  },
-  {
-    "name": "PHP School",
-    "url": "https://www.phpschool.io/",
-    "description": "Open Source Learning for PHP."
   },
   {
     "name": "PHP Mentoring",
@@ -2358,9 +2538,24 @@
     "description": "Peer to peer PHP mentorship organization."
   },
   {
-    "name": "PHPTrends",
-    "url": "http://phptrends.com/",
-    "description": "An overview of fastest growing PHP libraries."
+    "name": "PHP School",
+    "url": "https://www.phpschool.io/",
+    "description": "Open Source Learning for PHP."
+  },
+  {
+    "name": "PHP Security",
+    "url": "http://phpsecurity.readthedocs.io/en/latest/index.html",
+    "description": "A guide to PHP security."
+  },
+  {
+    "name": "PHP The Right Way",
+    "url": "http://www.phptherightway.com/",
+    "description": "A PHP best practice quick reference guide."
+  },
+  {
+    "name": "PHP UG",
+    "url": "http://php.ug",
+    "description": "A website to help people locate their nearest PHP user group (UG)."
   },
   {
     "name": "PHP Versions",
@@ -2368,19 +2563,24 @@
     "description": "Lists which versions of PHP are available on several popular web hosts."
   },
   {
-    "name": "The Open Web Application Security Project (OWASP)",
-    "url": "https://www.owasp.org/index.php/Main_Page",
-    "description": "An open software security community."
+    "name": "PHP Weekly",
+    "url": "http://www.phpweekly.com/archive.html",
+    "description": "A weekly PHP newsletter."
   },
   {
-    "name": "WebSec IO",
-    "url": "https://websec.io/",
-    "description": "A web security community resource."
+    "name": "PHPTrends",
+    "url": "http://phptrends.com/",
+    "description": "An overview of fastest growing PHP libraries."
   },
   {
-    "name": "Semantic Versioning",
-    "url": "http://semver.org/",
-    "description": "A website explaining semantic versioning."
+    "name": "Securing PHP",
+    "url": "http://securingphp.com/",
+    "description": "A newsletter about PHP security and library recommendations."
+  },
+  {
+    "name": "Seven PHP",
+    "url": "http://7php.com/",
+    "description": "A website that interviews members of the PHP community."
   },
   {
     "name": "Atlassian Git Tutorials",
@@ -2393,29 +2593,29 @@
     "description": "A series of Mercurial tutorials."
   },
   {
+    "name": "Semantic Versioning",
+    "url": "http://semver.org/",
+    "description": "A website explaining semantic versioning."
+  },
+  {
     "name": "Servers for Hackers",
     "url": "https://serversforhackers.com/",
     "description": "A newsletter about server management."
   },
   {
-    "name": "PHP 7 Upgrade Guide",
-    "url": "https://leanpub.com/php7",
-    "description": "An ebook covering all of the features and changes in PHP 7 by Colin O'Dell."
+    "name": "The Open Web Application Security Project (OWASP)",
+    "url": "https://www.owasp.org/index.php/Main_Page",
+    "description": "An open software security community."
   },
   {
-    "name": "PHP Pandas",
-    "url": "http://daylerees.com/php-pandas/",
-    "description": "A book about learning to write PHP by Dayle Rees."
+    "name": "WebSec IO",
+    "url": "https://websec.io/",
+    "description": "A web security community resource."
   },
   {
-    "name": "Scaling PHP Applications",
-    "url": "http://www.scalingphpbook.com",
-    "description": "An ebook about scaling PHP applications by Steve Corona."
-  },
-  {
-    "name": "The Grumpy Programmer's Guide to Building Testable PHP Applications",
-    "url": "https://leanpub.com/grumpy-testing",
-    "description": "A book about building testing PHP applications by Chris Hartjes."
+    "name": "Functional Programming in PHP",
+    "url": "https://www.phparch.com/books/functional-programming-in-php/",
+    "description": "This book will show you how to leverage these new PHP5.3+ features by understanding functional programming principles"
   },
   {
     "name": "Grumpy PHPUnit",
@@ -2428,14 +2628,9 @@
     "description": "A book about object-orientated PHP by Brandon Savage."
   },
   {
-    "name": "Signaling PHP",
-    "url": "https://leanpub.com/signalingphp",
-    "description": "A book about catching PCNTL signals in CLI scripts by Cal Evans."
-  },
-  {
-    "name": "Securing PHP: Core Concepts",
-    "url": "https://leanpub.com/securingphp-coreconcepts",
-    "description": "A book about common security terms and practices for PHP by Chris Cornutt."
+    "name": "Modern PHP New Features and Good Practices",
+    "url": "http://shop.oreilly.com/product/0636920033868.do",
+    "description": "A book about new PHP features and best practices by Josh Lockhart."
   },
   {
     "name": "Modernising Legacy Applications in PHP",
@@ -2443,29 +2638,39 @@
     "description": "A book about modernising legacy PHP applications by Paul M. Jones."
   },
   {
-    "name": "Modern PHP New Features and Good Practices",
-    "url": "http://shop.oreilly.com/product/0636920033868.do",
-    "description": "A book about new PHP features and best practices by Josh Lockhart."
+    "name": "PHP 7 Upgrade Guide",
+    "url": "https://leanpub.com/php7",
+    "description": "An ebook covering all of the features and changes in PHP 7 by Colin O'Dell."
   },
   {
-    "name": "Functional Programming in PHP",
-    "url": "https://www.phparch.com/books/functional-programming-in-php/",
-    "description": "This book will show you how to leverage these new PHP5.3+ features by understanding functional programming principles"
+    "name": "PHP Pandas",
+    "url": "https://daylerees.com/php-pandas/",
+    "description": "A book about learning to write PHP by Dayle Rees."
   },
   {
-    "name": "The Linux Command Line",
-    "url": "http://linuxcommand.org/tlcl.php",
-    "description": "A book about the Linux command line by William Shotts."
+    "name": "Scaling PHP Applications",
+    "url": "http://www.scalingphpbook.com",
+    "description": "An ebook about scaling PHP applications by Steve Corona."
   },
   {
-    "name": "Understanding Computation",
-    "url": "http://computationbook.com",
-    "description": "A book about computation theory by Tom Stuart."
+    "name": "Securing PHP: Core Concepts",
+    "url": "https://leanpub.com/securingphp-coreconcepts",
+    "description": "A book about common security terms and practices for PHP by Chris Cornutt."
   },
   {
-    "name": "The Tangled Web — Securing Web Applications",
-    "url": "http://www.amazon.com/The-Tangled-Web-Securing-Applications/dp/1593273886",
-    "description": "A book about securing web applications by Michal Zalewski."
+    "name": "Signaling PHP",
+    "url": "https://leanpub.com/signalingphp",
+    "description": "A book about catching PCNTL signals in CLI scripts by Cal Evans."
+  },
+  {
+    "name": "The Grumpy Programmer's Guide to Building Testable PHP Applications",
+    "url": "https://leanpub.com/grumpy-testing",
+    "description": "A book about building testing PHP applications by Chris Hartjes."
+  },
+  {
+    "name": "XML Parsing with PHP",
+    "url": "https://www.phparch.com/books/xml-parsing-with-php/",
+    "description": "This book covers parsing and validating XML documents, leveraging XPath expressions, and working with namespaces as well as how to create and modify XML files programmatically."
   },
   {
     "name": "Elasticsearch: The Definitive Guide",
@@ -2478,9 +2683,9 @@
     "description": "A book about JavaScript programming by Marijn Haverbeke."
   },
   {
-    "name": "Vagrant Cookbook",
-    "url": "https://leanpub.com/vagrantcookbook",
-    "description": "A book about creating Vagrant environments by Erika Heidi."
+    "name": "Head First Design Patterns",
+    "url": "http://www.headfirstlabs.com/books/hfdp/",
+    "description": "A book that expains software design patterns."
   },
   {
     "name": "Pro Git",
@@ -2488,14 +2693,24 @@
     "description": "A book about Git by Scott Chacon and Ben Straub."
   },
   {
-    "name": "Head First Design Patterns",
-    "url": "http://www.headfirstlabs.com/books/hfdp/",
-    "description": "A book that expains software design patterns."
+    "name": "The Linux Command Line",
+    "url": "http://linuxcommand.org/tlcl.php",
+    "description": "A book about the Linux command line by William Shotts."
   },
   {
-    "name": "Taking PHP Seriously",
-    "url": "http://www.infoq.com/presentations/php-history",
-    "description": "A talk outlining PHP's strengths by Keith Adams of Facebook."
+    "name": "The Tangled Web — Securing Web Applications",
+    "url": "https://www.amazon.com/Tangled-Web-Securing-Modern-Applications/dp/1593273886",
+    "description": "A book about securing web applications by Michal Zalewski."
+  },
+  {
+    "name": "Understanding Computation",
+    "url": "http://computationbook.com",
+    "description": "A book about computation theory by Tom Stuart."
+  },
+  {
+    "name": "Vagrant Cookbook",
+    "url": "https://leanpub.com/vagrantcookbook",
+    "description": "A book about creating Vagrant environments by Erika Heidi."
   },
   {
     "name": "PHP Town Hall",
@@ -2503,29 +2718,39 @@
     "description": "A casual PHP podcast by Ben Edmunds and Phil Sturgeon."
   },
   {
-    "name": "Programming with Anthony",
-    "url": "https://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW",
-    "description": "A video series by Anthony Ferrara."
-  },
-  {
     "name": "PHP UK Conference",
     "url": "https://www.youtube.com/user/phpukconference/videos",
     "description": "A collection of videos from the PHP UK Conference."
   },
   {
+    "name": "Programming with Anthony",
+    "url": "https://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW",
+    "description": "A video series by Anthony Ferrara."
+  },
+  {
+    "name": "Taking PHP Seriously",
+    "url": "https://www.infoq.com/presentations/php-history",
+    "description": "A talk outlining PHP's strengths by Keith Adams of Facebook."
+  },
+  {
+    "name": "Composer Primer",
+    "url": "https://daylerees.com/composer-primer/",
+    "description": "A Composer primer."
+  },
+  {
+    "name": "Composer Stability Flags",
+    "url": "https://igor.io/2013/02/07/composer-stability-flags.html",
+    "description": "An article about Composer stability flags."
+  },
+  {
+    "name": "Composer Versioning",
+    "url": "https://igor.io/2013/01/07/composer-versioning.html",
+    "description": "An article about Composer versioning."
+  },
+  {
     "name": "Create Your Own PHP Framework",
     "url": "http://fabien.potencier.org/create-your-own-framework-on-top-of-the-symfony2-components-part-1.html",
     "description": "A series of articles on how to make your own PHP framework by Fabien Potencier."
-  },
-  {
-    "name": "Seven Ways to Screw Up BCrypt",
-    "url": "http://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html",
-    "description": "An article about correct BCrypt implementation."
-  },
-  {
-    "name": "Preventing CSRF Attacks",
-    "url": "http://blog.ircmaxell.com/2013/02/preventing-csrf-attacks.html",
-    "description": "An article on preventing CSRF attacks."
   },
   {
     "name": "Don't Worry About BREACH",
@@ -2538,39 +2763,14 @@
     "description": "An article about lambda functions and closures."
   },
   {
-    "name": "Use Env",
-    "url": "http://seancoates.com/blogs/use-env",
-    "description": "An article about using the unix environment helper."
+    "name": "PHP Is Much Better Than You Think",
+    "url": "http://fabien.potencier.org/php-is-much-better-than-you-think.html",
+    "description": "An article about the PHP language and ecosystem."
   },
   {
-    "name": "Composer Primer",
-    "url": "http://daylerees.com/composer-primer/",
-    "description": "A Composer primer."
-  },
-  {
-    "name": "Composer Versioning",
-    "url": "https://igor.io/2013/01/07/composer-versioning.html",
-    "description": "An article about Composer versioning."
-  },
-  {
-    "name": "Composer Stability Flags",
-    "url": "https://igor.io/2013/02/07/composer-stability-flags.html",
-    "description": "An article about Composer stability flags."
-  },
-  {
-    "name": "Innocent Villagefolk or a Pillagin’ Pirate?",
-    "url": "http://blog.astrumfutura.com/2012/04/php-innocent-villagefolk-or-a-pillagin-pirate/",
-    "description": "An article about PHP taking ideas from other language."
-  },
-  {
-    "name": "Predicting Random Numbers in PHP",
-    "url": "http://blog.astrumfutura.com/2013/03/predicting-random-numbers-in-php-its-easier-than-you-think/",
-    "description": "An article about generating random numbers."
-  },
-  {
-    "name": "A 20 Point List for Preventing XSS in PHP",
-    "url": "http://blog.astrumfutura.com/2013/04/20-point-list-for-preventing-cross-site-scripting-in-php/",
-    "description": "An article about preventing XSS."
+    "name": "PHP Package Checklist",
+    "url": "http://phppackagechecklist.com/",
+    "description": "A checklist for successful PHP package development."
   },
   {
     "name": "PHP Sucks! But I Like It!",
@@ -2578,19 +2778,54 @@
     "description": "An article about the pros and cons of PHP."
   },
   {
-    "name": "PHP Is Much Better Than You Think",
-    "url": "http://fabien.potencier.org/php-is-much-better-than-you-think.html",
-    "description": "An article about the PHP language and ecosystem."
+    "name": "Preventing CSRF Attacks",
+    "url": "http://blog.ircmaxell.com/2013/02/preventing-csrf-attacks.html",
+    "description": "An article on preventing CSRF attacks."
   },
   {
-    "name": "PHP RFCs",
-    "url": "https://wiki.php.net/rfc",
-    "description": "The home of PHP RFCs (Request for Comments)."
+    "name": "Seven Ways to Screw Up BCrypt",
+    "url": "http://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html",
+    "description": "An article about correct BCrypt implementation."
+  },
+  {
+    "name": "Use Env",
+    "url": "http://seancoates.com/blogs/use-env/",
+    "description": "An article about using the unix environment helper."
+  },
+  {
+    "name": "Disproving the Single Quotes Myth",
+    "url": "http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html",
+    "description": "An article about performance of single and double quoted strings."
+  },
+  {
+    "name": "How Big Are PHP Arrays (And Values) Really?",
+    "url": "http://nikic.github.io/2011/12/12/How-big-are-PHP-arrays-really-Hint-BIG.html",
+    "description": "An article about array internals."
+  },
+  {
+    "name": "How Foreach Works",
+    "url": "http://stackoverflow.com/questions/10057671/how-does-foreach-actually-work/14854568#14854568",
+    "description": "A detailed StackOverflow answer about foreach."
+  },
+  {
+    "name": "How Long is a Piece of String",
+    "url": "http://blog.golemon.com/2006/06/how-long-is-piece-of-string.html",
+    "description": "An article about string internals."
+  },
+  {
+    "name": "PHP Evaluation Order",
+    "url": "https://gist.github.com/nikic/6699370",
+    "description": "An article about evaluation order in PHP."
   },
   {
     "name": "PHP Internals Book",
     "url": "http://www.phpinternalsbook.com",
     "description": "An online book about PHP internals, written by three core developers."
+  },
+  {
+    "name": "PHP RFCs",
+    "url": "https://wiki.php.net/rfc",
+    "description": "The home of PHP RFCs (Request for Comments)."
   },
   {
     "name": "Print vs Echo, Which One is Faster?",
@@ -2603,29 +2838,9 @@
     "description": "An article ternary performance."
   },
   {
-    "name": "Disproving the Single Quotes Myth",
-    "url": "http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html",
-    "description": "An article about performance of single and double quoted strings."
-  },
-  {
-    "name": "You're Being Lied To",
-    "url": "http://blog.golemon.com/2007/01/youre-being-lied-to.html",
-    "description": "An article about internal ZVALs."
-  },
-  {
-    "name": "How Long is a Piece of String",
-    "url": "http://blog.golemon.com/2006/06/how-long-is-piece-of-string.html",
-    "description": "An article about string internals."
-  },
-  {
     "name": "Understanding OpCodes",
     "url": "http://blog.golemon.com/2008/01/understanding-opcodes.html",
     "description": "An article about opcodes."
-  },
-  {
-    "name": "How Foreach Works",
-    "url": "http://stackoverflow.com/questions/10057671/how-does-foreach-actually-work/14854568#14854568",
-    "description": "A detailed StackOverflow answer about foreach."
   },
   {
     "name": "When Does Foreach Copy?",
@@ -2633,29 +2848,24 @@
     "description": "An article about the internals of foreach."
   },
   {
-    "name": "How Big Are PHP Arrays (And Values) Really?",
-    "url": "http://nikic.github.io/2011/12/12/How-big-are-PHP-arrays-really-Hint-BIG.html",
-    "description": "An article about array internals."
-  },
-  {
     "name": "Why Objects (Usually) Use Less Memory Than Arrays",
     "url": "https://gist.github.com/nikic/5015323",
     "description": "An article about object and array internals."
   },
   {
-    "name": "PHP Evaluation Order",
-    "url": "https://gist.github.com/nikic/6699370",
-    "description": "An article about evaluation order in PHP."
-  },
-  {
-    "name": "PHP Source Code for Developers: 1 2 3 4",
-    "url": "http://blog.ircmaxell.com/2012/03/phps-source-code-for-php-developers.html",
-    "description": "A series about the PHP source code."
+    "name": "You're Being Lied To",
+    "url": "http://blog.golemon.com/2007/01/youre-being-lied-to.html",
+    "description": "An article about internal ZVALs."
   },
   {
     "name": "Collecting Garbage: 1 2 3",
     "url": "http://php.net/manual/en/features.gc.refcounting-basics.php",
     "description": "A series about the PHP garbage collection internals."
+  },
+  {
+    "name": "PHP Source Code for Developers: 1 2 3 4",
+    "url": "http://blog.ircmaxell.com/2012/03/phps-source-code-for-php-developers.html",
+    "description": "A series about the PHP source code."
   },
   {
     "name": "php[architect]",

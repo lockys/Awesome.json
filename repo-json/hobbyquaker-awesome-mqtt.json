@@ -16,8 +16,21 @@
     "url": "http://moxd.io/2015/10/public-mqtt-brokers/"
   },
   {
-    "name": "Forkbomb Blog (Dominik Obermaier)",
+    "name": "Dominik Obermaier (Forkbomb Blog)",
     "url": "http://forkbomb-blog.de/category/mqtt"
+  },
+  {
+    "name": "Jan-Piet Mens",
+    "url": "http://jpmens.net/"
+  },
+  {
+    "name": "Nick O'Leary",
+    "url": "http://knolleary.net/"
+  },
+  {
+    "name": "ActiveMQ",
+    "url": "http://activemq.apache.org/",
+    "description": "A fast Java multiprotocol messaging and Integration Patterns server."
   },
   {
     "name": "eMQTT",
@@ -50,19 +63,24 @@
     "description": "\"The\" Open Source MQTT Broker."
   },
   {
+    "name": "RabbitMQ",
+    "url": "https://www.rabbitmq.com/mqtt.html",
+    "description": "RabbitMQ offers a MQTT Adapter."
+  },
+  {
     "name": "SurgeMQ",
     "url": "http://zhen.org/categories/surgemq/",
     "description": "High Performance MQTT Server and Client Libraries in Go."
   },
   {
     "name": "VerneMQ",
-    "url": "https://verne.mq/",
+    "url": "https://vernemq.com/",
     "description": "an Apache2 licensed distributed MQTT broker, developed in Erlang."
   },
   {
-    "name": "RabbitMQ MQTT Adapter",
-    "url": "https://www.rabbitmq.com/mqtt.html",
-    "description": "MQTT Adapter for RabbitMQ"
+    "name": "imqtt",
+    "url": "https://github.com/shafreeck/imqtt",
+    "description": "Interactive MQTT packet manipulation shell based on IPython."
   },
   {
     "name": "mqtt-admin",
@@ -110,6 +128,11 @@
     "description": "a collection of MQTT utilities."
   },
   {
+    "name": "Python MQTT Client Shell",
+    "url": "https://github.com/bapowell/python-mqtt-client-shell",
+    "description": "a text console-based, interactive shell for exercising various tasks associated with MQTT client communications."
+  },
+  {
     "name": "CocoaMQTT",
     "url": "https://github.com/emqtt/CocoaMQTT",
     "description": "MQTT for iOS and OS X written with Swift."
@@ -130,6 +153,16 @@
     "description": "Python MQTT client using asyncio."
   },
   {
+    "name": "M2Mqtt",
+    "url": "https://m2mqtt.wordpress.com/",
+    "description": "a MQTT client available for all .Net platforms (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platforms (Windows 8.1, Windows Phone 8.1 and Windows 10)."
+  },
+  {
+    "name": "Mosquitto-PHP",
+    "url": "https://github.com/mgdm/Mosquitto-PHP",
+    "description": "A wrapper for the Mosquitto MQTT client library for PHP."
+  },
+  {
     "name": "mqtt-client",
     "url": "https://github.com/centamiv/mqtt-client",
     "description": "A Polymer Web Component that implements a MQTT client (uses Paho mqttws31.js)."
@@ -137,7 +170,17 @@
   {
     "name": "MQTT-Client-Framework",
     "url": "https://github.com/ckrey/MQTT-Client-Framework",
-    "description": "iOS native ObjectiveC MQTT Framework."
+    "description": "iOS, OSX, tvOS native ObjectiveC MQTT Client Framework."
+  },
+  {
+    "name": "mqtt.dart",
+    "url": "https://github.com/jnguillerme/mqtt.dart",
+    "description": "dart mqtt client."
+  },
+  {
+    "name": "mqtt-elements",
+    "url": "https://github.com/mqttjs/mqtt-elements",
+    "description": "Polymer elements for MQTT."
   },
   {
     "name": "mqttex",
@@ -175,6 +218,21 @@
     "description": "Pure Ruby gem that implements the MQTT protocol."
   },
   {
+    "name": "tcl-mqtt",
+    "url": "https://github.com/Tingenek/tcl-mqtt",
+    "description": "Small library to connect to a matt broker. Very, very basic."
+  },
+  {
+    "name": "TMQTTClient",
+    "url": "http://jamiei.com/blog/code/mqtt-client-library-for-delphi/",
+    "description": "MQTT Client Library for Delphi."
+  },
+  {
+    "name": "wolfMQTT",
+    "url": "https://wolfssl.com/wolfSSL/Products-wolfmqtt.html",
+    "description": "a client implementation of the MQTT written in C for embedded use. It supports SSL/TLS via the wolfSSL library."
+  },
+  {
     "name": "logic4mqtt",
     "url": "https://github.com/owagner/logic4mqtt",
     "description": "Java based Logic and scripting engine for use with MQTT. Uses Java's general scripting interface, so scripts can be written in a multitude of languages like Javascript, Groovy etc."
@@ -182,7 +240,7 @@
   {
     "name": "mqtt-scripts",
     "url": "https://github.com/hobbyquaker/mqtt-scripts/",
-    "description": "Node.js based script runner. ."
+    "description": "Node.js based script runner."
   },
   {
     "name": "Node-RED",
@@ -230,11 +288,6 @@
     "description": "Connect FRITZ!Box to MQTT."
   },
   {
-    "name": "mqttwatchdir",
-    "url": "https://github.com/jpmens/mqtt-watchdir",
-    "description": "Recursively watch a directory for modifications and publish file content to an MQTT broker."
-  },
-  {
     "name": "mqttlauncher",
     "url": "https://github.com/jpmens/mqtt-launcher",
     "description": "Execute shell commands triggered by published MQTT messages."
@@ -243,6 +296,21 @@
     "name": "mqtt-os-status",
     "url": "https://github.com/oskarhagberg/mqtt-os-status",
     "description": "Operating-system related data, published to an MQTT broker at fixed intervals."
+  },
+  {
+    "name": "mqttpc",
+    "url": "https://github.com/hobbyquaker/mqttpc",
+    "description": "Control processes via MQTT. Ability to send signals via MQTT and to publish stdout/stderr or pipe MQTT payloads into stdin."
+  },
+  {
+    "name": "mqttwatchdir",
+    "url": "https://github.com/jpmens/mqtt-watchdir",
+    "description": "Recursively watch a directory for modifications and publish file content to an MQTT broker."
+  },
+  {
+    "name": "psmqtt",
+    "url": "https://github.com/eschava/psmqtt",
+    "description": "Utility reporting system health and status via MQTT"
   },
   {
     "name": "check-mqtt",
@@ -258,6 +326,16 @@
     "name": "Owntracks",
     "url": "http://owntracks.org/",
     "description": "Location tracking and geofencing for MQTT."
+  },
+  {
+    "name": "mqttcollect",
+    "url": "https://github.com/jpmens/mqttcollect",
+    "description": "collectd \"Exec\" plugin for MQTT."
+  },
+  {
+    "name": "graylog-plugin-mqtt",
+    "url": "https://github.com/Graylog2/graylog-plugin-mqtt",
+    "description": "MQTT Input Plugin for Graylog."
   },
   {
     "name": "mqtt2graphite",
@@ -287,7 +365,7 @@
   {
     "name": "knx2mqtt",
     "url": "https://github.com/owagner/knx2mqtt",
-    "description": "Interface between the KNX home automation standard and MQTT. ."
+    "description": "Interface between the KNX home automation standard and MQTT."
   },
   {
     "name": "mqtt-dss-bridge",
@@ -295,21 +373,33 @@
     "description": "MQTT digitalSTROM-Server Bridge."
   },
   {
-    "name": "fhem has a MQTT module since V5.6 .",
+    "name": "FHEM has a MQTT module since V5.6.",
     "url": "http://fhem.de/fhem.html"
+  },
+  {
+    "name": "Home Assistant has a MQTT component.",
+    "url": "https://home-assistant.io/"
   },
   {
     "name": "homekit2mqtt",
     "url": "https://github.com/hobbyquaker/homekit2mqtt",
-    "description": "Interface between HAP-NodeJS and MQTT."
+    "description": "Interface between HAP-NodeJS and MQTT. Control MQTT connected devices with Siri or HomeKit Apps."
   },
   {
     "name": "ioBroker has a MQTT adapter.",
     "url": "https://github.com/ioBroker"
   },
   {
-    "name": "openhab has a MQTT binding.",
+    "name": "Net-Commander has built in MQTT connectivity.",
+    "url": "https://github.com/net-commander/windows-dist"
+  },
+  {
+    "name": "openHAB has a MQTT binding.",
     "url": "https://github.com/openhab"
+  },
+  {
+    "name": "pimatic has a MQTT plugin.",
+    "url": "https://pimatic.org/"
   },
   {
     "name": "Tasker (Automation for Android) MQTT Publisher Plugin",
@@ -341,6 +431,11 @@
     "description": "Interface between a Kodi mediacenter instance and MQTT."
   },
   {
+    "name": "lgtv2mqtt",
+    "url": "https://github.com/hobbyquaker/lgtv2mqtt",
+    "description": "Interface between LG WebOS Smart TVs and MQTT."
+  },
+  {
     "name": "lirc2mqtt",
     "url": "https://github.com/hobbyquaker/lirc2mqtt",
     "description": "Send and receive infrared via LIRC."
@@ -351,7 +446,17 @@
     "description": "Interface between Onkyo AVR's EISCP network remote protocol and MQTT. Uses the onkyo-eiscp library."
   },
   {
-    "name": "yamaha-avr2mqtt .",
+    "name": "VLC MQTT Module",
+    "url": "https://wiki.videolan.org/Documentation:Modules/mqtt/",
+    "description": "Control VLC via MQTT."
+  },
+  {
+    "name": "xbmc2mqtt",
+    "url": "https://github.com/gordonjcp/xbmc-mqtt",
+    "description": "A simple plugin for XBMC to listen for a particular topic on an MQTT broker, and display a popup message."
+  },
+  {
+    "name": "yamaha-avr2mqtt ",
     "url": "https://github.com/akentner/yamaha-avr2mqtt"
   },
   {
@@ -380,9 +485,24 @@
     "description": "A python daemon that uses the Twitter Streaming API to access tweets and republishes them to an MQTT topic."
   },
   {
+    "name": "node-red-dashboard",
+    "url": "https://github.com/node-red/node-red-dashboard",
+    "description": "A dashboard UI for Node-RED."
+  },
+  {
     "name": "mqtt-panel",
     "url": "https://github.com/fabaff/mqtt-panel",
     "description": "A web interface for MQTT."
+  },
+  {
+    "name": "mqtt-svg-dash",
+    "url": "https://github.com/jpmens/mqtt-svg-dash",
+    "description": "Subscribe to MQTT, extract JSON from a message and make lights blink on an SVG page."
+  },
+  {
+    "name": "Homie",
+    "url": "https://github.com/marvinroger/homie",
+    "description": "A lightweight MQTT convention for the IoT"
   },
   {
     "name": "mqtt-smarthome",
