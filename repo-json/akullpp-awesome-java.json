@@ -235,6 +235,36 @@
     "description": "Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin."
   },
   {
+    "name": "ADT4J",
+    "url": "https://github.com/sviperll/adt4j",
+    "description": "JSR-269 code generator for algebraic data types."
+  },
+  {
+    "name": "Auto",
+    "url": "https://github.com/google/auto",
+    "description": "Generates factory, service, and value classes."
+  },
+  {
+    "name": "FreeBuilder",
+    "url": "https://github.com/google/FreeBuilder",
+    "description": "Automatic generation of the Builder pattern."
+  },
+  {
+    "name": "Immutables",
+    "url": "http://immutables.github.io/",
+    "description": "Java annotation processors to generate simple, safe and consistent value objects."
+  },
+  {
+    "name": "JHipster",
+    "url": "https://github.com/jhipster/generator-jhipster",
+    "description": "Yeoman source code generator for Spring Boot and AngularJS."
+  },
+  {
+    "name": "Lombok",
+    "url": "https://projectlombok.org/",
+    "description": "Code generator which aims to reduce verbosity."
+  },
+  {
     "name": "Airline",
     "url": "https://github.com/airlift/airline",
     "description": "Annotation-based framework for parsing Git like command line arguments."
@@ -510,19 +540,9 @@
     "description": "Light-weight and dynamic dependency injection framework."
   },
   {
-    "name": "ADT4J",
-    "url": "https://github.com/sviperll/adt4j",
-    "description": "JSR-269 code generator for algebraic data types."
-  },
-  {
     "name": "AspectJ",
     "url": "https://eclipse.org/aspectj/",
     "description": "Seamless aspect-oriented programming extension."
-  },
-  {
-    "name": "Auto",
-    "url": "https://github.com/google/auto",
-    "description": "Collection of source code generators."
   },
   {
     "name": "DCEVM",
@@ -530,29 +550,19 @@
     "description": "Modification of the JVM that allows unlimited redefinition of loaded classes at runtime."
   },
   {
+    "name": "Faux Pas",
+    "url": "https://github.com/zalando/faux-pas",
+    "description": "Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions."
+  },
+  {
     "name": "HotswapAgent",
     "url": "https://github.com/HotswapProjects/HotswapAgent",
     "description": "Unlimited runtime class and resource redefinition."
   },
   {
-    "name": "Immutables",
-    "url": "http://immutables.github.io/",
-    "description": "Scala-like case classes."
-  },
-  {
-    "name": "JHipster",
-    "url": "https://github.com/jhipster/generator-jhipster",
-    "description": "Yeoman source code generator to create applications based on Spring Boot and AngularJS."
-  },
-  {
     "name": "JRebel",
     "url": "http://zeroturnaround.com/software/jrebel/",
     "description": "Commercial software that instantly reloads code and configuration changes without redeploys."
-  },
-  {
-    "name": "Lombok",
-    "url": "https://projectlombok.org/",
-    "description": "Code-generator which aims to reduce the verbosity."
   },
   {
     "name": "Spring Loaded",
@@ -603,11 +613,6 @@
     "name": "JGroups",
     "url": "http://www.jgroups.org/",
     "description": "Toolkit for reliable messaging and creating clusters."
-  },
-  {
-    "name": "Lagom",
-    "url": "https://www.lightbend.com/lagom",
-    "description": "Framework for creating microservice-based systems."
   },
   {
     "name": "Orbit",
@@ -685,6 +690,11 @@
     "description": "Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X."
   },
   {
+    "name": "really-executable-jars-maven-plugin",
+    "url": "https://github.com/brianm/really-executable-jars-maven-plugin",
+    "description": "Maven plugin for making self-executing JARs."
+  },
+  {
     "name": "Apache POI",
     "url": "http://poi.apache.org/",
     "description": "Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT)."
@@ -745,11 +755,6 @@
     "description": "Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms."
   },
   {
-    "name": "Faux Pas",
-    "url": "https://github.com/zalando/faux-pas",
-    "description": "Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions."
-  },
-  {
     "name": "Fugue",
     "url": "https://bitbucket.org/atlassian/fugue",
     "description": "Functional extensions to Guava."
@@ -768,6 +773,11 @@
     "name": "jOOλ",
     "url": "https://github.com/jOOQ/jOOL",
     "description": "Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions."
+  },
+  {
+    "name": "protonpack",
+    "url": "https://github.com/poetix/protonpack",
+    "description": "Collection of stream utilities."
   },
   {
     "name": "jMonkeyEngine",
@@ -930,14 +940,14 @@
     "description": "Serializes objects to JSON and vice versa. Good performance with on-the-fly usage."
   },
   {
-    "name": "Jackson",
-    "url": "http://wiki.fasterxml.com/JacksonHome",
-    "description": "Similar to GSON but has performance gains if you need to instantiate the library more often."
-  },
-  {
     "name": "Jackson-datatype-money",
     "url": "https://github.com/zalando/jackson-datatype-money",
     "description": "Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types."
+  },
+  {
+    "name": "Jackson",
+    "url": "http://wiki.fasterxml.com/JacksonHome",
+    "description": "Similar to GSON but has performance gains if you need to instantiate the library more often."
   },
   {
     "name": "JSON-io",
@@ -1120,24 +1130,24 @@
     "description": "Fast and reliable message broker built on top of Kafka."
   },
   {
-    "name": "Nakadi",
-    "url": "https://github.com/zalando/nakadi",
-    "description": "Provides a RESTful API on top of Kafka."
-  },
-  {
     "name": "JeroMQ",
     "url": "https://github.com/zeromq/jeromq",
     "description": "Implementation of ZeroMQ."
   },
   {
-    "name": "Smack",
-    "url": "https://github.com/igniterealtime/Smack/",
-    "description": "Cross-platform XMPP client library."
+    "name": "Nakadi",
+    "url": "https://github.com/zalando/nakadi",
+    "description": "Provides a RESTful API on top of Kafka."
   },
   {
     "name": "RocketMQ",
     "url": "https://github.com/alibaba/RocketMQ",
     "description": "A fast, reliable, and scalable distributed messaging platform."
+  },
+  {
+    "name": "Smack",
+    "url": "https://github.com/igniterealtime/Smack/",
+    "description": "Cross-platform XMPP client library."
   },
   {
     "name": "Codename One",
@@ -1163,6 +1173,11 @@
     "name": "jabba",
     "url": "https://github.com/shyiko/jabba",
     "description": "Java Version Manager inspired by nvm."
+  },
+  {
+    "name": "javaslang-circuitbreaker",
+    "url": "https://github.com/javaslang/javaslang-circuitbreaker",
+    "description": "Functional fault tolerance library."
   },
   {
     "name": "JBake",
@@ -1195,6 +1210,11 @@
     "description": "A Guide to Java 8 - Popular Java 8 guide."
   },
   {
+    "name": "Modernizer",
+    "url": "https://github.com/andrewgaul/modernizer-maven-plugin",
+    "description": "Detect uses of legacy Java APIs."
+  },
+  {
     "name": "OpenRefine",
     "url": "http://openrefine.org/",
     "description": "Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases."
@@ -1205,9 +1225,29 @@
     "description": "Tools for resolving generic types."
   },
   {
+    "name": "Apollo",
+    "url": "https://spotify.github.io/apollo/",
+    "description": " Libraries for writing composable microservices."
+  },
+  {
+    "name": "Lagom",
+    "url": "https://www.lightbend.com/lagom",
+    "description": "Framework for creating microservice-based systems."
+  },
+  {
+    "name": "SnopEE",
+    "url": "https://github.com/ivargrimstad/snoop",
+    "description": "Discovery service for Java EE microservices."
+  },
+  {
     "name": "AppDynamics",
     "url": "https://www.appdynamics.com/",
     "description": "Commercial performance monitor."
+  },
+  {
+    "name": "Glowroot",
+    "url": "https://glowroot.org/",
+    "description": "Open source Java APM."
   },
   {
     "name": "JavaMelody",
@@ -1240,6 +1280,16 @@
     "description": "Commercial performance monitor."
   },
   {
+    "name": "OverOps",
+    "url": "https://www.overops.com/",
+    "description": "Commercial in-production error monitoring and debugging."
+  },
+  {
+    "name": "Pinpoint",
+    "url": "https://github.com/naver/pinpoint",
+    "description": "Open source APM tool."
+  },
+  {
     "name": "Prometheus",
     "url": "https://prometheus.io/",
     "description": "Provides a multi-dimensional data model, DSL, autonomous server nodes and much more."
@@ -1250,24 +1300,9 @@
     "description": "Commercial performance monitor with distributing transaction tracing for JVM apps."
   },
   {
-    "name": "OverOps",
-    "url": "https://www.overops.com/",
-    "description": "Commercial in-production error monitoring and debugging."
-  },
-  {
     "name": "Stagemonitor",
     "url": "https://github.com/stagemonitor/stagemonitor",
     "description": "Open source performance monitoring and transaction tracing for JVM apps."
-  },
-  {
-    "name": "Glowroot",
-    "url": "https://glowroot.org/",
-    "description": "Open source Java APM."
-  },
-  {
-    "name": "Pinpoint",
-    "url": "https://github.com/naver/pinpoint",
-    "description": "Open source APM tool."
   },
   {
     "name": "JNA",
@@ -1318,6 +1353,11 @@
     "name": "gRPC",
     "url": "https://github.com/grpc/grpc-java",
     "description": "RPC framework based on protobuf and HTTP/2."
+  },
+  {
+    "name": "MINA",
+    "url": "https://mina.apache.org/",
+    "description": "Abstract event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO."
   },
   {
     "name": "Netty",
@@ -1634,6 +1674,11 @@
     "description": "Lightweight, small server, often embedded in projects."
   },
   {
+    "name": "nanohttpd",
+    "url": "https://github.com/NanoHttpd/nanohttpd",
+    "description": "Tiny, easily embeddable HTTP server."
+  },
+  {
     "name": "WebSphere Liberty",
     "url": "https://developer.ibm.com/wasdev/",
     "description": "Lightweight, modular server developed by IBM."
@@ -1642,11 +1687,6 @@
     "name": "WildFly",
     "url": "http://www.wildfly.org/",
     "description": "Formerly known as JBoss and developed by Red Hat with extensive Java EE support."
-  },
-  {
-    "name": "nanohttpd",
-    "url": "https://github.com/NanoHttpd/nanohttpd",
-    "description": "Tiny, easily embeddable HTTP server."
   },
   {
     "name": "Handlebars.java",
@@ -1742,6 +1782,11 @@
     "name": "JUnitParams",
     "url": "https://pragmatists.github.io/JUnitParams/",
     "description": "Creation of readable and maintainable parametrised tests."
+  },
+  {
+    "name": "Lamdba Behave",
+    "url": "https://github.com/RichardWarburton/lambda-behave",
+    "description": "Descriptive behavioural specification framework."
   },
   {
     "name": "Mockito",
