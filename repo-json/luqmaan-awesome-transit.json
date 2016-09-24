@@ -154,6 +154,11 @@
     "description": "An interactive transportation planning game that lets players alter the NYC subway system to their heart's content."
   },
   {
+    "name": "CityMapper Webapp",
+    "url": "https://citymapper.com/nyc",
+    "description": "Really polished webapp with trip planner and route status for over 30 of cities."
+  },
+  {
     "name": "OneBusAway Apps",
     "url": "https://play.google.com/store/apps/details?id=com.joulespersecond.seattlebusbot",
     "description": "Android (source code), Fire Phone (source code), iOS  (source code), Windows Phone (source code), Windows 8 (source code), Google Glass GDK (source code)"
@@ -173,7 +178,7 @@
     "url": "http://www.allyapp.com/"
   },
   {
-    "name": "Transit App",
+    "name": "Transit",
     "url": "http://transitapp.com/"
   },
   {
@@ -187,10 +192,6 @@
   {
     "name": "Tiramisu Transit",
     "url": "http://www.tiramisutransit.com/"
-  },
-  {
-    "name": "Ridescout",
-    "url": "http://ridescout.com/"
   },
   {
     "name": "TransLoc Rider",
@@ -248,6 +249,10 @@
     "description": "Open Data: Challenges and Opportunities for Transit Agencies - A comprehensive report looking at the benefits and challenges of open transit data."
   },
   {
+    "name": "GTFS Spec Specification for the General Transit Data Feed, or GTFS.",
+    "url": "https://developers.google.com/transit/gtfs/"
+  },
+  {
     "name": "Mapzen GTFS",
     "url": "https://github.com/transitland/mapzen-gtfs",
     "description": "A Python GTFS library that supports reading individual GTFS tables, or constructing a graph to represent each agency in a feed."
@@ -285,7 +290,7 @@
   {
     "name": "Node-GTFS",
     "url": "https://github.com/brendannee/node-gtfs",
-    "description": "Loads transit data in GTFS format from GTFS Data Exchange, unzips it and stores it to a MongoDB database and provides some methods to query for agencies, routes, stops and times."
+    "description": "Loads transit data from GTFS Data Exchange, unzips it and stores it to a MongoDB database and provides some methods to query for agencies, routes, stops and times."
   },
   {
     "name": "GTFS-viz",
@@ -296,6 +301,16 @@
     "name": "GTFS-OSM-Sync",
     "url": "https://github.com/CUTR-at-USF/gtfs-osm-sync",
     "description": "A Java tool for syncrhonizing data in GTFS format with OpenStreetMap.org."
+  },
+  {
+    "name": "gtfs-sequelize",
+    "url": "https://github.com/evansiroky/gtfs-sequelize",
+    "description": "Node.js library modeling the static GTFS using sequelize.js."
+  },
+  {
+    "name": "gtfslib-python",
+    "url": "https://github.com/afimb/gtfslib-python",
+    "description": " An open source library in python for reading GTFS files and computing various stats and indicators about Public Transport networks."
   },
   {
     "name": "Transmodel and IFF to GTFS",
@@ -318,24 +333,33 @@
     "description": "Python script that generates missing shapes.txt for GTFS using routing from Google Maps Directions API or OSRM."
   },
   {
+    "name": "GTFS Editor A (self-hosted) web-based GTFS editing framework.",
+    "url": "https://github.com/conveyal/gtfs-editor"
+  },
+  {
     "name": "TransitWand",
     "url": "http://transitwand.com/",
     "description": "An open source web and mobile application for collecting transit data. Use it to create GTFS feeds, capture passenger counts or generate GIS datasets."
   },
   {
-    "name": "gtfs-sequelize",
-    "url": "https://github.com/evansiroky/gtfs-sequelize",
-    "description": "Node.js library modeling the static GTFS using sequelize.js."
+    "name": "Gtfs Data Manager",
+    "url": "https://github.com/conveyal/gtfs-data-manager",
+    "description": "A workflow tool for managing large amounts of GTFS data and importing them into OpenTripPlanner."
   },
   {
-    "name": "gtfslib-python",
-    "url": "https://github.com/afimb/gtfslib-python",
-    "description": " An open source library in python for reading GTFS files and computing various stats and indicators about Public Transport networks."
+    "name": "feedValidator",
+    "url": "https://github.com/google/transitfeed/wiki/FeedValidator",
+    "description": "Google supported Python-based GTFS validator. "
+  },
+  {
+    "name": "gtfs-validator",
+    "url": "https://github.com/conveyal/gtfs-validator",
+    "description": "- A GTFS validator based on the Onebusaway GTFS Modules, runs in Java and is faster than the Google provided one. "
   },
   {
     "name": "gtfs-validator",
     "url": "https://github.com/laidig/gtfs-validator",
-    "description": "A GTFS validator based on the Onebusaway GTFS Modules. "
+    "description": "Fork of the Conveyal validator above, with additional checks. "
   },
   {
     "name": "gtfs-realtime-bindings",
