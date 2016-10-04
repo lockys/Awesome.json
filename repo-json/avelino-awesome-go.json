@@ -520,6 +520,11 @@
     "description": "A home-grown disk-backed key-value store."
   },
   {
+    "name": "eliasdb",
+    "url": "https://github.com/krotik/eliasdb",
+    "description": "Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language."
+  },
+  {
     "name": "forestdb",
     "url": "https://github.com/couchbase/goforestdb",
     "description": "Go bindings for ForestDB."
@@ -590,6 +595,31 @@
     "description": "A geolocation DB with spatial index and realtime geofencing."
   },
   {
+    "name": "goose",
+    "url": "https://github.com/steinbacher/goose",
+    "description": "Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts."
+  },
+  {
+    "name": "gormigrate",
+    "url": "https://github.com/go-gormigrate/gormigrate",
+    "description": "Database schema migration helper for Gorm ORM."
+  },
+  {
+    "name": "migrate",
+    "url": "https://github.com/mattes/migrate",
+    "description": "Database migration handling in Golang support MySQL,PostgreSQL,Cassandra and SQLite."
+  },
+  {
+    "name": "pravasan",
+    "url": "https://github.com/pravasan/pravasan",
+    "description": "Simple Migration tool - currently for MySQL but planning to support soon for Postgres, SQLite, MongoDB, etc.,"
+  },
+  {
+    "name": "sql-migrate",
+    "url": "https://github.com/rubenv/sql-migrate",
+    "description": "Database migration tool. Allows embedding migrations into the application using go-bindata."
+  },
+  {
     "name": "go-mysql",
     "url": "https://github.com/siddontang/go-mysql",
     "description": "A go toolset to handle MySQL protocol and replication."
@@ -600,19 +630,9 @@
     "description": "Sync your MySQL data into Elasticsearch automatically."
   },
   {
-    "name": "goose",
-    "url": "https://github.com/steinbacher/goose",
-    "description": "Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts."
-  },
-  {
     "name": "kingshard",
     "url": "https://github.com/flike/kingshard",
     "description": "kingshard is a high performance proxy for MySQL powered by Golang."
-  },
-  {
-    "name": "migrate",
-    "url": "https://github.com/mattes/migrate",
-    "description": "Database migration handling in Golang support MySQL,PostgreSQL,Cassandra and SQLite."
   },
   {
     "name": "myreplication",
@@ -628,16 +648,6 @@
     "name": "pgweb",
     "url": "https://github.com/sosedoff/pgweb",
     "description": "A web-based PostgreSQL database browser"
-  },
-  {
-    "name": "pravasan",
-    "url": "https://github.com/pravasan/pravasan",
-    "description": "Simple Migration tool - currently for MySQL but planning to support soon for Postgres, SQLite, MongoDB, etc.,"
-  },
-  {
-    "name": "sql-migrate",
-    "url": "https://github.com/rubenv/sql-migrate",
-    "description": "Database migration tool. Allows embedding migrations into the application using go-bindata."
   },
   {
     "name": "vitess",
@@ -954,9 +964,19 @@
     "description": "Go implementation of the Raft consensus protocol, by CoreOS."
   },
   {
+    "name": "rpcx",
+    "url": "https://github.com/smallnest/rpcx",
+    "description": "A distributed pluggable RPC service framework like alibaba Dubbo."
+  },
+  {
     "name": "sleuth",
     "url": "https://github.com/ursiform/sleuth",
     "description": "A library for master-less p2p auto-discovery and RPC between HTTP services (using ZeroMQ)."
+  },
+  {
+    "name": "tendermint",
+    "url": "https://github.com/tendermint/tendermint",
+    "description": "High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols."
   },
   {
     "name": "torrent",
@@ -1857,6 +1877,11 @@
     "name": "go-i18n",
     "url": "https://github.com/nicksnyder/go-i18n/",
     "description": "A package and an accompanying tool to work with localized text."
+  },
+  {
+    "name": "go-mystem",
+    "url": "https://github.com/dveselov/mystem",
+    "description": "CGo bindings to Yandex.Mystem - russian morphology analyzer."
   },
   {
     "name": "go-nlp",
@@ -3612,6 +3637,11 @@
     "description": "A fast and unfancy micro web framework for Go."
   },
   {
+    "name": "Florest",
+    "url": "https://github.com/jabong/florest-core",
+    "description": "High-performance workflow based REST API framework"
+  },
+  {
     "name": "Gin",
     "url": "https://github.com/gin-gonic/gin",
     "description": "Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity."
@@ -4422,6 +4452,11 @@
     "description": "Naive performance test of two ways to do type assertion in Go."
   },
   {
+    "name": "go-web-framework-benchmark",
+    "url": "https://github.com/smallnest/go-web-framework-benchmark",
+    "description": "Go web framework benchmark."
+  },
+  {
     "name": "go_serialization_benchmarks",
     "url": "https://github.com/alecthomas/go_serialization_benchmarks",
     "description": "Benchmarks of Go serialization methods."
@@ -4579,6 +4614,11 @@
     "name": "Go Blog",
     "url": "http://blog.golang.org",
     "description": "The official Go blog."
+  },
+  {
+    "name": "Go Challenge",
+    "url": "http://golang-challenge.org/",
+    "description": "Learn Go by solving problems and getting feedback from Go experts."
   },
   {
     "name": "Go Forum",
