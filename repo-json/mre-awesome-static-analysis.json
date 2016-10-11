@@ -426,22 +426,27 @@
   },
   {
     "name": "flake8 [OSS]",
-    "url": "https://pypi.python.org/pypi/flake8",
-    "description": "the modular source code checker: pep8, pyflakes and co"
+    "url": "https://github.com/PyCQA/flake8",
+    "description": "a wrapper around pyflakes, pycodestyle and mccabe"
   },
   {
     "name": "jedi [OSS]",
-    "url": "http://jedi.jedidjah.ch/en/latest/",
+    "url": "https://github.com/davidhalter/jedi",
     "description": "autocompletion/static analysis library for Python"
   },
   {
-    "name": "Linty fresh [OSS]",
+    "name": "linty fresh [OSS]",
     "url": "https://github.com/lyft/linty_fresh",
-    "description": "Surface lint errors during code review"
+    "description": "parse lint errors and report them to Github as comments on a pull request"
+  },
+  {
+    "name": "mccabe [OSS]",
+    "url": "https://github.com/PyCQA/mccabe",
+    "description": "check McCabe complexity"
   },
   {
     "name": "mypy [OSS]",
-    "url": "http://mypy-lang.org/",
+    "url": "https://github.com/python/mypy",
     "description": "an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing"
   },
   {
@@ -450,19 +455,34 @@
     "description": "output information about errors, potential problems, convention violations and complexity in Python code"
   },
   {
+    "name": "py-find-injection [OSS]",
+    "url": "https://github.com/uber/py-find-injection",
+    "description": "find SQL injection vulnerabilities in Python code"
+  },
+  {
+    "name": "pycodestyle [OSS]",
+    "url": "https://github.com/PyCQA/pycodestyle",
+    "description": "(previously pep8) check Python code against some of the style conventions in PEP 8"
+  },
+  {
+    "name": "pydocstyle [OSS]",
+    "url": "https://github.com/PyCQA/pydocstyle",
+    "description": "check compliance with Python docstring conventions"
+  },
+  {
     "name": "pyflakes [OSS]",
     "url": "https://github.com/pyflakes/pyflakes/",
-    "description": "A simple program which checks Python source files for errors."
+    "description": "check Python source files for errors"
   },
   {
     "name": "pylint [OSS]",
     "url": "https://github.com/PyCQA/pylint",
-    "description": "Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells"
+    "description": "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells"
   },
   {
-    "name": "Pytype [OSS]",
+    "name": "pytype [OSS]",
     "url": "https://github.com/google/pytype",
-    "description": "A static type inferencer for Python code"
+    "description": "a static type inferencer for Python code"
   },
   {
     "name": "lintr [PROPRIETARY]",
@@ -547,7 +567,7 @@
   {
     "name": "electrolysis [OSS]",
     "url": "https://github.com/Kha/electrolysis",
-    "description": "A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover. "
+    "description": "A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover."
   },
   {
     "name": "herbie [OSS]",
@@ -610,6 +630,11 @@
     "description": "A set of tslint rules for static code analysis of Angular 2 TypeScript projects."
   },
   {
+    "name": "Undebt [OSS]",
+    "url": "https://github.com/Yelp/undebt",
+    "description": "Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions"
+  },
+  {
     "name": "codeburner [OSS]",
     "url": "https://github.com/groupon/codeburner",
     "description": "Provides a unified interface to sort and act on the issues it finds"
@@ -651,7 +676,7 @@
   },
   {
     "name": "STOKE [OSS]",
-    "url": "https://github.com/StanfordPL/stoke-release",
+    "url": "https://github.com/StanfordPL/stoke",
     "description": "a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations"
   },
   {
