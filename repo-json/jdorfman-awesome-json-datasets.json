@@ -512,6 +512,10 @@
     "url": "http://mtgjson.com/json/ARN-x.json"
   },
   {
+    "name": "Steam Player Number",
+    "url": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?format=json&appid=0"
+  },
+  {
     "name": "Emojis",
     "url": "https://api.github.com/emojis"
   },
@@ -760,6 +764,14 @@
   {
     "name": "Vacancy Announcements",
     "url": "http://www.justice.gov/api/v1/vacancy_announcements.json?pagesize=2"
+  },
+  {
+    "name": "Total Private Average Weekly Hours of All Employees",
+    "url": "http://api.bls.gov/publicAPI/v2/timeseries/data/CES0500000002"
+  },
+  {
+    "name": "Total Private Average Hourly Earnings of All Employees",
+    "url": "http://api.bls.gov/publicAPI/v2/timeseries/data/CES0500000003"
   },
   {
     "name": "Bills",
@@ -1554,6 +1566,34 @@
     "url": "http://api.tvmaze.com/singlesearch/shows?q=Futurama&embed=episodes"
   },
   {
+    "name": "Gotham (FOX)",
+    "url": "http://api.tvmaze.com/singlesearch/shows?q=gotham&embed=episodes"
+  },
+  {
+    "name": "Friends (NBC)",
+    "url": "http://api.tvmaze.com/singlesearch/shows?q=friends&embed=episodes"
+  },
+  {
+    "name": "How I Met Your Mother (CBS)",
+    "url": "http://api.tvmaze.com/singlesearch/shows?q=how-i-met-your-mother&embed=episodes"
+  },
+  {
+    "name": "Grey's Anatomy (ABC)",
+    "url": "http://api.tvmaze.com/singlesearch/shows?q=greys-anatomy&embed=episodes"
+  },
+  {
+    "name": "The Dark Knight",
+    "url": "http://www.omdbapi.com/?t=the+dark+knight&y=&plot=short&r=json"
+  },
+  {
+    "name": "Titanic (1997)",
+    "url": "http://www.omdbapi.com/?t=titanic&y=&plot=short&r=json"
+  },
+  {
+    "name": "Good Will Hunting",
+    "url": "http://www.omdbapi.com/?t=Good+will+hunting&y=&plot=short&r=json"
+  },
+  {
     "name": "Los Angeles",
     "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Los%20Angeles%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
@@ -1602,12 +1642,44 @@
     "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Kuala%20Lumpur%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
+    "name": "New Delhi",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22New%20Delhi%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+  },
+  {
+    "name": "Mexico City",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Mexico%20City%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+  },
+  {
+    "name": "Tehran",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Tehran%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+  },
+  {
+    "name": "Mumbai",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Mumbai%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+  },
+  {
+    "name": "Cape Town",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Cape%20Town%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+  },
+  {
+    "name": "Madrid",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Madrid%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+  },
+  {
+    "name": "Buenos Aires",
+    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Buenos%20Aires%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
+  },
+  {
     "name": "Wikidata Gigabytes of Gzipped JSON",
     "url": "https://dumps.wikimedia.org/other/wikidata/"
   },
   {
     "name": "Industries",
     "url": "https://www.sajari.com/free-data/industries.json"
+  },
+  {
+    "name": "IP Geolocation",
+    "url": "http://ip-api.com/json/8.8.8.8"
   },
   {
     "name": "Awesome (The OG List)",
