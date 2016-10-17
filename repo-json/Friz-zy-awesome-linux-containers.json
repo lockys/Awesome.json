@@ -24,6 +24,10 @@
     "url": "https://wiki.freedesktop.org/www/Software/systemd/ContainerInterface/"
   },
   {
+    "name": "Nulecule Specification\nNulecule defines a pattern and model for packaging complex multi-container applications and services, referencing all their dependencies, including orchestration metadata in a container image for building, deploying, monitoring, and active management.",
+    "url": "https://github.com/projectatomic/atomicapp/tree/master/docs/spec"
+  },
+  {
     "name": "Amazon EC2 Container Service \nContainer management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances.",
     "url": "https://aws.amazon.com/ecs/"
   },
@@ -63,6 +67,58 @@
   {
     "name": "Virtuozzo DevOps\nA platform, built on Virtuozzo containers, that can be easily run on top of any bare-metal or virtual servers in any public or private cloud, to automate, optimize, and accelerate internal IT and development processes.",
     "url": "https://virtuozzo.com/products/DevOps/"
+  },
+  {
+    "name": "Rancher\nRancher is a complete, open source platform for deploying and managing containers in production. It includes commercially-supported distributions of Kubernetes, Mesos, and Docker Swarm, making it easy to run containerized applications on any infrastructure.",
+    "url": "http://rancher.com/"
+  },
+  {
+    "name": "Docker Swarm\nDocker Swarm is native clustering for Docker.",
+    "url": "https://docs.docker.com/swarm"
+  },
+  {
+    "name": "Azure Container Service\nAzure Container Service optimizes the configuration of popular open source tools and technologies specifically for Azure.",
+    "url": "https://azure.microsoft.com/en-us/services/container-service/"
+  },
+  {
+    "name": "CIAO\nCloud Integrated Advanced Orchestrator for Intel Clear Linux OS.",
+    "url": "https://clearlinux.org/documentation/ciao-cluster-setup.html#id1"
+  },
+  {
+    "name": "CoreOs\nA lightweight Linux operating system designed for clustered deployments providing automation, security, and scalability for your most critical applications.",
+    "url": "https://coreos.com/"
+  },
+  {
+    "name": "RancherOS\nRancherOS is a tiny Linux distro that runs the entire OS as Docker containers.",
+    "url": "http://rancher.com/rancher-os/"
+  },
+  {
+    "name": "Project Atomic\nProject Atomic provides the best platform for your Linux Docker Kubernetes (LDK) application stack. Use immutable infrastructure to deploy and scale your containerized applications.",
+    "url": "http://www.projectatomic.io/"
+  },
+  {
+    "name": "Snappy Ubuntu Core\nUbuntu Core is the perfect system for large-scale cloud container deployments, bringing transactional updates to the world’s favourite container platform.",
+    "url": "https://www.ubuntu.com/cloud/snappy"
+  },
+  {
+    "name": "ResinOS\nA host OS tailored for containers, designed for reliability, proven in production.",
+    "url": "https://resinos.io/"
+  },
+  {
+    "name": "Photon\nPhoton OS is a minimal Linux container host designed to have a small footprint and tuned for VMware platforms. Photon is intended to invite collaboration around running containerized and Linux applications in a virtualized environment.",
+    "url": "https://github.com/vmware/photon"
+  },
+  {
+    "name": "Clear Linux Project\nThe Clear Linux Project for Intel Architecture is a distribution built for various Cloud use cases.",
+    "url": "https://clearlinux.org/documentation/gs_getting_started.html"
+  },
+  {
+    "name": "CargOS\nCargOS is a new lightweight, open source, platform for Docker hosts that aims for speed, manageability and security. Releases are built for 64-bit Intel/AMD CPUs.",
+    "url": "https://cargos.io/"
+  },
+  {
+    "name": "OSv\nOSv is the open source operating system designed for the cloud. Built from the ground up for effortless deployment and management, with superior performance.",
+    "url": "http://osv.io/"
   },
   {
     "name": "Docker\nAn open platform for distributed applications for developers and sysadmins. Standard de facto.",
@@ -111,6 +167,18 @@
   {
     "name": "porto\nThe main goal of Porto is to create a convenient, reliable interface over several Linux kernel mechanism such as cgroups, namespaces, mounts, networking etc.",
     "url": "https://github.com/yandex/porto"
+  },
+  {
+    "name": "udocker\nA basic user tool to execute simple containers in batch or interactive systems without root privileges.",
+    "url": "https://github.com/indigo-dc/udocker"
+  },
+  {
+    "name": "Let Me Contain That For You\nLMCTFY is the open source version of Google’s container stack, which provides Linux application containers.",
+    "url": "https://github.com/google/lmctfy"
+  },
+  {
+    "name": "cc-oci-runtime\nIntel Clear Linux OCI (Open Containers Initiative) compatible runtime.",
+    "url": "https://github.com/01org/cc-oci-runtime"
   },
   {
     "name": "Firejail\nFirejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces, seccomp-bpf and Linux capabilities.",
@@ -166,6 +234,14 @@
     "url": "https://lxc-webpanel.github.io/"
   },
   {
+    "name": "The Twelve-Factor App\nThe twelve-factor app is a methodology for building software-as-a-service apps.",
+    "url": "https://12factor.net/"
+  },
+  {
+    "name": "Container Best Practices\nA collaborative project to document container-based application architecture, creation and management from Project Atomic.",
+    "url": "http://docs.projectatomic.io/container-best-practices/"
+  },
+  {
     "name": "Docker bench security\nThe Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.",
     "url": "https://github.com/docker/docker-bench-security"
   },
@@ -180,6 +256,10 @@
   {
     "name": "OpenSCAP\nThe OpenSCAP ecosystem provides multiple tools to assist administrators and auditors with assessment, measurement and enforcement of security baselines.",
     "url": "https://github.com/OpenSCAP/container-compliance"
+  },
+  {
+    "name": "drydock\nDrydock provides a flexible way of assessing the security of your Docker daemon configuration and containers using editable audit templates.",
+    "url": "https://github.com/zuBux/drydock"
   },
   {
     "name": "CIS Security Benchmarks",
