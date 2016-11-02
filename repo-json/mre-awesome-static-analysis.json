@@ -380,19 +380,29 @@
     "description": "builds a dependency graph for a project"
   },
   {
+    "name": "Php Inspections (EA Extended) [OSS]",
+    "url": "https://github.com/kalessil/phpinspectionsea",
+    "description": "A Static Code Analyzer for PHP."
+  },
+  {
     "name": "phpsa [OSS]",
     "url": "https://github.com/ovr/phpsa",
     "description": "Static analysis tool for PHP."
   },
   {
     "name": "PHPMD [OSS]",
-    "url": "http://phpmd.org/",
+    "url": "https://phpmd.org/",
     "description": "finds possible bugs in your code"
   },
   {
     "name": "PhpMetrics [OSS]",
     "url": "https://github.com/Halleck45/PhpMetrics",
     "description": "calculates code complexity metrics"
+  },
+  {
+    "name": "PHPQA [OSS]",
+    "url": "https://github.com/EdgedesignCZ/phpqa",
+    "description": "A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)"
   },
   {
     "name": "PHP Refactoring Browser [OSS]",
@@ -430,11 +440,6 @@
     "description": "a tool to find common security issues in Python code"
   },
   {
-    "name": "flake8 [OSS]",
-    "url": "https://github.com/PyCQA/flake8",
-    "description": "a wrapper around pyflakes, pycodestyle and mccabe"
-  },
-  {
     "name": "jedi [OSS]",
     "url": "https://github.com/davidhalter/jedi",
     "description": "autocompletion/static analysis library for Python"
@@ -455,11 +460,6 @@
     "description": "an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing"
   },
   {
-    "name": "prospector [OSS]",
-    "url": "https://github.com/landscapeio/prospector",
-    "description": "a wrapper around pylint, pep8, mccabe and others"
-  },
-  {
     "name": "py-find-injection [OSS]",
     "url": "https://github.com/uber/py-find-injection",
     "description": "find SQL injection vulnerabilities in Python code"
@@ -467,7 +467,7 @@
   {
     "name": "pycodestyle [OSS]",
     "url": "https://github.com/PyCQA/pycodestyle",
-    "description": "(previously pep8) check Python code against some of the style conventions in PEP 8"
+    "description": "(formerly pep8) check Python code against some of the style conventions in PEP 8"
   },
   {
     "name": "pydocstyle [OSS]",
@@ -482,7 +482,7 @@
   {
     "name": "pylint [OSS]",
     "url": "https://github.com/PyCQA/pylint",
-    "description": "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells"
+    "description": "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes pyreverse (an UML diagram generator) and symilar (a similarities checker). Optional extensions are also included."
   },
   {
     "name": "pyroma [OSS]",
@@ -493,6 +493,26 @@
     "name": "vulture [OSS]",
     "url": "https://bitbucket.org/jendrikseipp/vulture",
     "description": "find unused classes, functions and variables in Python code"
+  },
+  {
+    "name": "xenon [OSS]",
+    "url": "https://github.com/rubik/xenon",
+    "description": "monitor code complexity using radon"
+  },
+  {
+    "name": "ciocheck [OSS]",
+    "url": "https://github.com/ContinuumIO/ciocheck",
+    "description": "linter, formatter and test suite helper. As a linter, it is a wrapper around pep8, pydocstyle, flake8, and pylint."
+  },
+  {
+    "name": "flake8 [OSS]",
+    "url": "https://github.com/PyCQA/flake8",
+    "description": "a wrapper around pyflakes, pycodestyle and mccabe"
+  },
+  {
+    "name": "prospector [OSS]",
+    "url": "https://github.com/landscapeio/prospector",
+    "description": "a wrapper around pylint, pep8, mccabe and others"
   },
   {
     "name": "lintr [PROPRIETARY]",

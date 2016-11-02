@@ -205,9 +205,19 @@
     "description": "Simple, yet flexible content and blog engine for ASP.NET Core that can work with or without a database."
   },
   {
+    "name": "AspNet.Metrics",
+    "url": "https://github.com/alhardy/aspnet-metrics",
+    "description": "Capturing CLR, application-level web request metrics. Middleware and extensions using Metrics.Net"
+  },
+  {
     "name": "Audit.NET",
     "url": "https://github.com/thepirat000/Audit.NET",
     "description": "Small framework to audit .NET object changes."
+  },
+  {
+    "name": "BenchmarkDotNet",
+    "url": "https://github.com/PerfDotNet/BenchmarkDotNet",
+    "description": "Powerful .NET library for benchmarking"
   },
   {
     "name": "NBench",
@@ -218,11 +228,6 @@
     "name": "OpenCover",
     "url": "https://github.com/OpenCover/opencover",
     "description": "Code coverage tool for .NET 2 and above (WINDOWS OS only), support for 32 and 64 processes with both branch and sequence points."
-  },
-  {
-    "name": "AspNet.Metrics",
-    "url": "https://github.com/alhardy/aspnet-metrics",
-    "description": "Capturing CLR, application-level web request metrics. Middleware and extensions using Metrics.Net"
   },
   {
     "name": "LiteDB",
@@ -368,6 +373,11 @@
     "name": "PreMailer.Net",
     "url": "https://github.com/milkshakesoftware/PreMailer.Net/tree/dotnet-core",
     "description": "C# library that moves your stylesheets to inline style attributes, for maximum compatibility with E-mail clients."
+  },
+  {
+    "name": "MailMergeLib",
+    "url": "https://github.com/axuno/MailMergeLib",
+    "description": "SMTP mail client library which provides comfortable mail merge capabilities for text, inline images and attachments, as well as good throughput and fault tolerance for sending mail messages."
   },
   {
     "name": "MimeKit",
@@ -565,6 +575,16 @@
     "description": "100% native C# implementation of ZeroMQ for .NET."
   },
   {
+    "name": "Chroniton.NetCore",
+    "url": "https://github.com/leosperry/Chroniton",
+    "description": "Lightweight robust library for running tasks(jobs) on schedules. "
+  },
+  {
+    "name": "FluentScheduler",
+    "url": "https://github.com/fluentscheduler/FluentScheduler",
+    "description": "Automated job scheduler with fluent interface."
+  },
+  {
     "name": "HangfireIO",
     "url": "https://github.com/HangfireIO/Hangfire",
     "description": "Easy way to perform fire-and-forget, delayed and recurring tasks inside ASP.NET apps http://hangfire.io."
@@ -575,9 +595,9 @@
     "description": "Quartz Enterprise Scheduler .NET http://www.quartz-scheduler.net"
   },
   {
-    "name": "Chroniton.NetCore",
-    "url": "https://github.com/leosperry/Chroniton",
-    "description": "Lightweight robust library for running tasks(jobs) on schedules. "
+    "name": "stateless",
+    "url": "https://github.com/dotnet-state-machine/stateless",
+    "description": "Simple library for creating state machines in C# code."
   },
   {
     "name": "NetTelegramBotApi",
@@ -640,6 +660,11 @@
     "description": "Simple and lightweight query .NET library for Solr, in a controlled, buildable and fail fast way."
   },
   {
+    "name": "bond",
+    "url": "https://github.com/Microsoft/bond",
+    "description": "Cross-platform framework for working with schematized data. It supports cross-language de/serialization and powerful generic mechanisms for efficiently manipulating data. Bond is broadly used at Microsoft in high scale services."
+  },
+  {
     "name": "Channels",
     "url": "https://github.com/davidfowl/Channels",
     "description": "Push based .NET Streams."
@@ -648,6 +673,11 @@
     "name": "CsvHelper",
     "url": "https://github.com/JoshClose/CsvHelper",
     "description": "Library to help reading and writing CSV files http://csvhelper.com."
+  },
+  {
+    "name": "ExtendedXmlSerializer",
+    "url": "https://github.com/wojtpl2/ExtendedXmlSerializer",
+    "description": "Extended Xml Serializer for .NET."
   },
   {
     "name": "msgpack-cli",
@@ -687,7 +717,7 @@
   {
     "name": "FakeItEasy",
     "url": "https://github.com/FakeItEasy/FakeItEasy",
-    "description": "The easy mocking library for .NET"
+    "description": "The easy mocking library for .NET."
   },
   {
     "name": "FluentAssertions",
@@ -696,13 +726,13 @@
   },
   {
     "name": "moq.netcore",
-    "url": "https://github.com/aspnet/moq4/tree/netcore",
+    "url": "https://github.com/Moq/moq4",
     "description": "Most popular and friendly mocking framework for .NET."
   },
   {
     "name": "MSpec",
     "url": "https://github.com/machine/machine.specifications",
-    "description": "Popular testing framework for writing BDD-style tests"
+    "description": "Popular testing framework for writing BDD-style tests."
   },
   {
     "name": "MyTested.AspNetCore.Mvc",
@@ -713,6 +743,11 @@
     "name": "Netling",
     "url": "https://github.com/hallatore/Netling",
     "description": "Load tester client for easy web testing."
+  },
+  {
+    "name": "NSubstitute",
+    "url": "https://github.com/nsubstitute/NSubstitute",
+    "description": "A friendly substitute for .NET mocking frameworks."
   },
   {
     "name": "nunit",
@@ -743,6 +778,26 @@
     "name": "gitignore.io",
     "url": "https://github.com/joeblau/gitignore.io",
     "description": "Create useful .gitignore files for your project https://www.gitignore.io."
+  },
+  {
+    "name": "GitInfo",
+    "url": "https://github.com/kzu/GitInfo",
+    "description": "Git and SemVer Info from MSBuild, C# and VB."
+  },
+  {
+    "name": "OctoLinker",
+    "url": "https://github.com/OctoLinker/browser-extension",
+    "description": "Navigate through projects.json files efficiently with the OctoLinker browser extension for GitHub."
+  },
+  {
+    "name": "Opserver",
+    "url": "https://github.com/opserver/Opserver",
+    "description": "Stack Exchange's Monitoring System."
+  },
+  {
+    "name": "ShareX",
+    "url": "https://github.com/ShareX/ShareX",
+    "description": "Free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to over 80 supported destinations you can choose from. https://getsharex.com"
   },
   {
     "name": "ReactJS.NET",
@@ -941,8 +996,12 @@
     "url": "https://manning.com/books/dotnet-core-in-action"
   },
   {
-    "name": "Channel9",
+    "name": "Channel9\n\n\nASP.NET Monsters\n",
     "url": "https://channel9.msdn.com"
+  },
+  {
+    "name": "ASP.NET Monsters",
+    "url": "https://channel9.msdn.com/Series/aspnetmonsters"
   },
   {
     "name": "Visual Studio",

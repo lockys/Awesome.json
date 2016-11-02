@@ -343,6 +343,11 @@
     "description": "decentralized cloud storage system."
   },
   {
+    "name": "Baidu File System",
+    "url": "https://github.com/baidu/bfs",
+    "description": "distributed filesystem."
+  },
+  {
     "name": "Actian Versant",
     "url": "http://www.actian.com/products/operational-databases/",
     "description": "commercial object-oriented database management systems ."
@@ -401,6 +406,11 @@
     "name": "Apache HBase",
     "url": "http://hbase.apache.org/",
     "description": "column-oriented distributed datastore, inspired by BigTable."
+  },
+  {
+    "name": "Baidu Tera",
+    "url": "https://github.com/baidu/tera",
+    "description": "an Internet-scale database, inspired by BigTable."
   },
   {
     "name": "Facebook HydraBase",
@@ -513,6 +523,11 @@
     "description": "library to work with asynchronous key value stores, by Twitter."
   },
   {
+    "name": "SummitDB",
+    "url": "https://github.com/tidwall/summitdb",
+    "description": "an in-memory, NoSQL key/value database, with disk persistance and using the Raft consensus algorithm."
+  },
+  {
     "name": "Tarantool",
     "url": "https://github.com/tarantool/tarantool",
     "description": "an efficient NoSQL database and a Lua application server."
@@ -521,6 +536,11 @@
     "name": "TiKV",
     "url": "https://github.com/pingcap/tikv",
     "description": "a distributed key-value database powered by Rust and inspired by Google Spanner and HBase."
+  },
+  {
+    "name": "Tile38",
+    "url": "https://github.com/tidwall/tile38",
+    "description": "a geolocation data store, spatial index, and realtime geofence, supporting a variety of object types including latitude/longitude points, bounding boxes, XYZ tiles, Geohashes, and GeoJSON"
   },
   {
     "name": "TreodeDB",
@@ -546,6 +566,11 @@
     "name": "DGraph",
     "url": "https://github.com/dgraph-io/dgraph",
     "description": "A scalable, distributed, low latency, high throughput graph database aimed at providing Google production level scale and throughput, with low enough latency to be serving real time user queries, over terabytes of structured data."
+  },
+  {
+    "name": "EliasDB",
+    "url": "https://github.com/krotik/eliasdb",
+    "description": "a lightweight graph based database that does not require any third-party libraries."
   },
   {
     "name": "Facebook TAO",
@@ -689,6 +714,11 @@
     "name": "BayesDB",
     "url": "http://probcomp.csail.mit.edu/bayesdb/index.html",
     "description": "statistic oriented SQL database."
+  },
+  {
+    "name": "Bedrock",
+    "url": "http://bedrockdb.com/",
+    "description": "a simple, modular, networked and distributed transaction layer built atop SQLite."
   },
   {
     "name": "CitusDB",
@@ -1189,11 +1219,6 @@
     "description": " a platform to programmatically author, schedule and monitor workflows."
   },
   {
-    "name": "Apache Mahout",
-    "url": "http://mahout.apache.org/",
-    "description": "machine learning library for Hadoop."
-  },
-  {
     "name": "brain",
     "url": "https://github.com/harthur/brain",
     "description": "Neural networks in JavaScript."
@@ -1212,6 +1237,16 @@
     "name": "convnetjs",
     "url": "https://github.com/karpathy/convnetjs",
     "description": "Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser."
+  },
+  {
+    "name": "DataVec",
+    "url": "https://github.com/deeplearning4j/DataVec",
+    "description": "A vectorization and data preprocessing library for deep learning in Java and Scala. Part of the Deeplearning4j ecosystem. "
+  },
+  {
+    "name": "Deeplearning4j",
+    "url": "https://github.com/deeplearning4j",
+    "description": "Fast, open deep learning for the JVM (Java, Scala, Clojure). A neural network configuration layer powered by a C++ library. Uses Spark and Hadoop to train nets on multiple GPUs and CPUs."
   },
   {
     "name": "Decider",
@@ -1234,11 +1269,6 @@
     "description": "scalable Machine Learning in Scalding."
   },
   {
-    "name": "Google Sibyl",
-    "url": "https://users.soe.ucsc.edu/%7Eniejiazhong/slides/chandra.pdf",
-    "description": "System for Large Scale Machine Learning at Google."
-  },
-  {
     "name": "GraphLab Create",
     "url": "https://dato.com/products/create/",
     "description": "A machine learning platform in Python with a broad collection of ML toolkits, data engineering, and deployment tools."
@@ -1246,7 +1276,17 @@
   {
     "name": "H2O",
     "url": "https://github.com/h2oai/h2o-3/",
-    "description": "statistical, machine learning and math runtime for Hadoop."
+    "description": "statistical, machine learning and math runtime with Hadoop. R and Python."
+  },
+  {
+    "name": "Keras",
+    "url": "https://github.com/fchollet/keras",
+    "description": "An intuitive neural net API inspired by Torch that runs atop Theano and Tensorflow."
+  },
+  {
+    "name": "Mahout",
+    "url": "http://mahout.apache.org/",
+    "description": "An Apache-backed machine learning library for Hadoop."
   },
   {
     "name": "MLbase",
@@ -1269,6 +1309,11 @@
     "description": "Text mining made easy. Extract and classify data from text."
   },
   {
+    "name": "ND4J",
+    "url": "https://github.com/deeplearning4j/nd4j",
+    "description": "A matrix library for the JVM. Numpy for Java. "
+  },
+  {
     "name": "nupic",
     "url": "https://github.com/numenta/nupic",
     "description": "Numenta Platform for Intelligent Computing: a brain-inspired machine intelligence platform, and biologically accurate neural network based on cortical learning algorithms."
@@ -1277,6 +1322,11 @@
     "name": "PredictionIO",
     "url": "https://prediction.io/",
     "description": "machine learning server buit on Hadoop, Mahout and Cascading."
+  },
+  {
+    "name": "RL4J",
+    "url": "https://github.com/deeplearning4j/rl4j",
+    "description": "Reinforcement learning for Java and Scala. Includes Deep-Q learning and A3C algorithms, and integrates with Open AI's Gym. Runs in the Deeplearning4j ecosystem. "
   },
   {
     "name": "SAMOA",
@@ -1294,6 +1344,31 @@
     "description": "a Spark implementation of some common machine learning (ML) functionality."
   },
   {
+    "name": "Sibyl",
+    "url": "https://users.soe.ucsc.edu/%7Eniejiazhong/slides/chandra.pdf",
+    "description": "System for Large Scale Machine Learning at Google."
+  },
+  {
+    "name": "TensorFlow",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "description": "Library from Google for machine learning using data flow graphs."
+  },
+  {
+    "name": "Theano",
+    "url": "https://github.com/theano",
+    "description": "A Python-focused machine learning library supported by the University of Montreal."
+  },
+  {
+    "name": "Torch",
+    "url": "https://github.com/torch",
+    "description": "A deep learning library with a Lua API, supported by NYU and Facebook."
+  },
+  {
+    "name": "Velox",
+    "url": "https://github.com/amplab/velox-modelserver",
+    "description": "System for serving machine learning predictions."
+  },
+  {
     "name": "Vowpal Wabbit",
     "url": "https://github.com/JohnLangford/vowpal_wabbit/wiki",
     "description": "learning system sponsored by Microsoft and Yahoo!."
@@ -1307,16 +1382,6 @@
     "name": "BidMach",
     "url": "https://github.com/BIDData/BIDMach",
     "description": "CPU and GPU-accelerated Machine Learning Library."
-  },
-  {
-    "name": "Velox",
-    "url": "https://github.com/amplab/velox-modelserver",
-    "description": "System for serving machine learning predictions."
-  },
-  {
-    "name": "TensorFlow",
-    "url": "https://github.com/tensorflow/tensorflow",
-    "description": "Open source software library from Google for machine learning using data flow graphs."
   },
   {
     "name": "Apache Hadoop Benchmarking",
@@ -1342,6 +1407,10 @@
     "name": "Yahoo Gridmix3",
     "url": "https://developer.yahoo.com/blogs/hadoop/gridmix3-emulating-production-workload-apache-hadoop-450.html",
     "description": "Hadoop cluster benchmarking from Yahoo engineer team."
+  },
+  {
+    "name": "Deeplearning4j Benchmarks",
+    "url": "https://github.com/deeplearning4j/dl4j-benchmark"
   },
   {
     "name": "Apache Eagle",
@@ -1434,6 +1503,11 @@
     "description": "Mesos framework for long-running services."
   },
   {
+    "name": "411",
+    "url": "https://github.com/etsy/411",
+    "description": "an web application for alert management resulting from scheduled searches into Elasticsearch."
+  },
+  {
     "name": "Adobe spindle",
     "url": "https://github.com/adobe-research/spindle",
     "description": "Next-generation web analytics processing with Scala, Spark, and Parquet."
@@ -1467,6 +1541,11 @@
     "name": "Argus",
     "url": "https://github.com/SalesforceEng/Argus",
     "description": "Time series monitoring and alerting platform."
+  },
+  {
+    "name": "Atlas",
+    "url": "https://github.com/Netflix/atlas",
+    "description": "a backend for managing dimensional time series data."
   },
   {
     "name": "Countly",
@@ -1587,6 +1666,11 @@
     "name": "Apache Solr",
     "url": "http://lucene.apache.org/solr/",
     "description": "Search platform for Apache Lucene."
+  },
+  {
+    "name": "Elassandra",
+    "url": "https://github.com/vroyer/elassandra",
+    "description": "is a fork of Elasticsearch modified to run on top of Apache Cassandra in a scalable and resilient peer-to-peer architecture."
   },
   {
     "name": "ElasticSearch",
@@ -1891,6 +1975,11 @@
     "name": "C3",
     "url": "http://c3js.org/",
     "description": "D3-based reusable chart library"
+  },
+  {
+    "name": "Caravel",
+    "url": "https://github.com/airbnb/caravel",
+    "description": "a data exploration platform designed to be visual, intuitive and interactive, making it easy to slice, dice and visualize data and perform analytics at the speed of thought."
   },
   {
     "name": "CartoDB",
