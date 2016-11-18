@@ -15,8 +15,8 @@
     "description": "Chapter from You Don't Know JS: Async & Performance"
   },
   {
-    "name": "JavaScript Promises: There and back again",
-    "url": "http://www.html5rocks.com/en/tutorials/es6/promises/",
+    "name": "JavaScript Promises: an Introduction",
+    "url": "https://developers.google.com/web/fundamentals/getting-started/primers/promises",
     "description": "Basics of JavaScript's native promise implementation."
   },
   {
@@ -37,6 +37,16 @@
   {
     "name": "ES6 Promises in Depth",
     "url": "https://ponyfoo.com/articles/es6-promises-in-depth"
+  },
+  {
+    "name": "An Incremental Tutorial on Promises",
+    "url": "http://www.sohamkamani.com/blog/2016/08/28/incremenal-tutorial-to-promises/",
+    "description": "An FAQ styled tutorial for beginners."
+  },
+  {
+    "name": "Promise Fun",
+    "url": "https://github.com/sindresorhus/promise-fun",
+    "description": "@sindresorhus's notes, patterns, and solutions to common Promise problems"
   },
   {
     "name": "You're Missing the Point of Promises",
@@ -72,6 +82,11 @@
     "name": "Writing Promise-Using Specifications",
     "url": "https://www.w3.org/2001/tag/doc/promises-guide",
     "description": "\"This document gives guidance on how to write specifications that create, accept, or manipulate promises\""
+  },
+  {
+    "name": "Async functions",
+    "url": "https://developers.google.com/web/fundamentals/getting-started/primers/async-functions",
+    "description": "making promises friendly"
   },
   {
     "name": "Promises/A+ specification",
@@ -117,6 +132,11 @@
     "description": "Fully featured, extremely performant. Long stack traces & generator/coroutine support."
   },
   {
+    "name": "creed",
+    "url": "https://github.com/briancavalier/creed",
+    "description": "Hyper performant & full featured like Bluebird, but FP-oriented. Coroutines, generators, promises, ES2015 iterables, & fantasy-land spec."
+  },
+  {
     "name": "rsvp.js",
     "url": "https://github.com/tildeio/rsvp.js/",
     "description": "Lightweight with a few extras. Compatible down to IE6!"
@@ -152,54 +172,189 @@
     "description": "Loads the first available implementation. Safe for browserify."
   },
   {
+    "name": "delay",
+    "url": "https://github.com/sindresorhus/delay",
+    "description": "Delay a promise a specified amount of time."
+  },
+  {
     "name": "pify",
     "url": "https://github.com/sindresorhus/pify",
     "description": "Promisify (\"denodify\") a callback-style function."
   },
   {
-    "name": "promise-each",
-    "url": "https://github.com/yoshuawuyts/promise-each",
-    "description": "Standalone bluebird.each. Execute one after the other sequentially."
+    "name": "loud-rejection",
+    "url": "https://github.com/sindresorhus/loud-rejection",
+    "description": "Make unhandled promise rejections fail loudly instead of the default silent fail."
   },
   {
-    "name": "promise-filter",
-    "url": "https://github.com/yoshuawuyts/promise-filter",
-    "description": "Standalone bluebird.filter. Filter an array to a promise."
+    "name": "hard-rejection",
+    "url": "https://github.com/sindresorhus/hard-rejection",
+    "description": "Make unhandled promise rejections fail hard right away instead of the default silent fail"
   },
   {
-    "name": "promise-finally",
-    "url": "https://github.com/blakeembrey/promise-finally",
-    "description": "Standalone bluebird finally(). Execute a handler unconditionally after others have been handled."
+    "name": "p-queue",
+    "url": "https://github.com/sindresorhus/p-queue",
+    "description": "Promise queue with concurrency control"
   },
   {
-    "name": "promise-map",
-    "url": "https://github.com/yoshuawuyts/promise-map",
-    "description": "Standalone bluebird.map. Map an array to a promise."
+    "name": "p-break",
+    "url": "https://github.com/sindresorhus/p-break",
+    "description": "Break out of a promise chain"
+  },
+  {
+    "name": "p-lazy",
+    "url": "https://github.com/sindresorhus/p-lazy",
+    "description": "Create a lazy promise that defers execution until .then() or .catch() is called"
+  },
+  {
+    "name": "p-defer",
+    "url": "https://github.com/sindresorhus/p-defer",
+    "description": "Create a deferred promise"
+  },
+  {
+    "name": "p-if",
+    "url": "https://github.com/sindresorhus/p-if",
+    "description": "Conditional promise chains"
+  },
+  {
+    "name": "p-tap",
+    "url": "https://github.com/sindresorhus/p-tap",
+    "description": "Tap into a promise chain without affecting its value or state"
+  },
+  {
+    "name": "p-map",
+    "url": "https://github.com/sindresorhus/p-map",
+    "description": "Map over promises concurrently"
+  },
+  {
+    "name": "p-all",
+    "url": "https://github.com/sindresorhus/p-all",
+    "description": "Run promise-returning & async functions concurrently with optional limited concurrency"
+  },
+  {
+    "name": "p-limit",
+    "url": "https://github.com/sindresorhus/p-limit",
+    "description": "Run multiple promise-returning & async functions with limited concurrency"
+  },
+  {
+    "name": "p-times",
+    "url": "https://github.com/sindresorhus/p-times",
+    "description": "Run promise-returning & async functions a specific number of times concurrently"
+  },
+  {
+    "name": "p-catch-if",
+    "url": "https://github.com/sindresorhus/p-catch-if",
+    "description": "Conditional promise catch handler"
+  },
+  {
+    "name": "p-time",
+    "url": "https://github.com/sindresorhus/p-time",
+    "description": "Measure the time a promise takes to resolve"
+  },
+  {
+    "name": "p-log",
+    "url": "https://github.com/sindresorhus/p-log",
+    "description": "Log the value/error of a promise"
+  },
+  {
+    "name": "p-filter",
+    "url": "https://github.com/sindresorhus/p-filter",
+    "description": "Filter promises concurrently"
+  },
+  {
+    "name": "p-settle",
+    "url": "https://github.com/sindresorhus/p-settle",
+    "description": "Settle promises concurrently and get their fulfillment value or rejection reason"
+  },
+  {
+    "name": "p-memoize",
+    "url": "https://github.com/sindresorhus/p-memoize",
+    "description": "Memoize promise-returning & async functions"
+  },
+  {
+    "name": "p-whilst",
+    "url": "https://github.com/sindresorhus/p-whilst",
+    "description": "Calls a function repeatedly while a condition returns true and then resolves the promise"
+  },
+  {
+    "name": "p-throttle",
+    "url": "https://github.com/sindresorhus/p-throttle",
+    "description": "Throttle promise-returning & async functions"
+  },
+  {
+    "name": "p-debounce",
+    "url": "https://github.com/sindresorhus/p-debounce",
+    "description": "Debounce promise-returning & async functions"
+  },
+  {
+    "name": "p-retry",
+    "url": "https://github.com/sindresorhus/p-retry",
+    "description": "Retry a promise-returning or async function"
+  },
+  {
+    "name": "p-wait-for",
+    "url": "https://github.com/sindresorhus/p-wait-for",
+    "description": "Wait for a condition to be true"
+  },
+  {
+    "name": "p-timeout",
+    "url": "https://github.com/sindresorhus/p-timeout",
+    "description": "Timeout a promise after a specified amount of time"
+  },
+  {
+    "name": "p-race",
+    "url": "https://github.com/sindresorhus/p-race",
+    "description": "A better Promise.race()"
+  },
+  {
+    "name": "p-try",
+    "url": "https://github.com/sindresorhus/p-try",
+    "description": "Promise#try() ponyfill - Starts a promise chain"
+  },
+  {
+    "name": "p-finally",
+    "url": "https://github.com/sindresorhus/p-finally",
+    "description": "Promise#finally() ponyfill - Invoked when the promise is settled regardless of outcome"
+  },
+  {
+    "name": "p-any",
+    "url": "https://github.com/sindresorhus/p-any",
+    "description": "Wait for any promise to be fulfilled"
+  },
+  {
+    "name": "p-some",
+    "url": "https://github.com/sindresorhus/p-some",
+    "description": "Wait for a specified number of promises to be fulfilled"
+  },
+  {
+    "name": "p-pipe",
+    "url": "https://github.com/sindresorhus/p-pipe",
+    "description": "Compose promise-returning & async functions into a reusable pipeline"
+  },
+  {
+    "name": "p-each-series",
+    "url": "https://github.com/sindresorhus/p-each-series",
+    "description": "Iterate over promises serially"
+  },
+  {
+    "name": "p-map-series",
+    "url": "https://github.com/sindresorhus/p-map-series",
+    "description": "Map over promises serially"
+  },
+  {
+    "name": "p-reduce",
+    "url": "https://github.com/sindresorhus/p-reduce",
+    "description": "Reduce a list of values using promises into a promise for a value"
+  },
+  {
+    "name": "p-props",
+    "url": "https://github.com/sindresorhus/p-props",
+    "description": "Like Promise.all() but for Map and Object"
   },
   {
     "name": "promise-method",
     "url": "https://github.com/wbinnssmith/promise-method",
     "description": "Standalone bluebird.method. Turn a synchronously-returning method into a promise-returning one."
-  },
-  {
-    "name": "promise-props",
-    "url": "https://github.com/exponentjs/promise-props",
-    "description": "Standalone implementation of bluebird's bluebird.props or rsvp's RSVP.hash"
-  },
-  {
-    "name": "promise-reduce",
-    "url": "https://github.com/yoshuawuyts/promise-reduce",
-    "description": "Standalone bluebird.reduce. Reduce an array to a promise."
-  },
-  {
-    "name": "promise-some",
-    "url": "https://github.com/yoshuawuyts/promise-some",
-    "description": "Standalone bluebird.some. Check if an element passes the predicate, return a promise."
-  },
-  {
-    "name": "promise-try",
-    "url": "https://github.com/wbinnssmith/promise-try",
-    "description": "Standalone bluebird.try. Execute a synchronously-returning function and return a promise."
   },
   {
     "name": "is-promise",
@@ -227,31 +382,6 @@
     "description": "Promise wrappers for Node's FS API."
   },
   {
-    "name": "immediate-promise",
-    "url": "https://github.com/sindresorhus/immediate-promise",
-    "description": "Returns a promise resolved in the next event loop - think setImmediate()."
-  },
-  {
-    "name": "delay",
-    "url": "https://github.com/sindresorhus/delay",
-    "description": "Delay a promise a specified amount of time."
-  },
-  {
-    "name": "promise-whilst",
-    "url": "https://github.com/sindresorhus/promise-whilst",
-    "description": "Calls a function repeatedly if and while a condition returns true and then resolves the promise."
-  },
-  {
-    "name": "loud-rejection",
-    "url": "https://github.com/sindresorhus/loud-rejection",
-    "description": "Make unhandled promise rejections fail loudly instead of the default silent fail."
-  },
-  {
-    "name": "promise-until",
-    "url": "https://github.com/busterc/promise-until",
-    "description": "Calls a function repeatedly if a condition returns false and until the condition returns true and then resolves the promise."
-  },
-  {
     "name": "promise-do-until",
     "url": "https://github.com/busterc/promise-do-until",
     "description": "Calls a function repeatedly until a condition returns true and then resolves the promise."
@@ -265,5 +395,10 @@
     "name": "promise-semaphore",
     "url": "https://github.com/samccone/promise-semaphore",
     "description": "Push a set of work to be done in a configurable serial fashion"
+  },
+  {
+    "name": "promise-nodeify",
+    "url": "https://github.com/kevinoid/promise-nodeify",
+    "description": "Standalone nodeify method which calls a Node-style callback on resolution or rejection."
   }
 ]
