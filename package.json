@@ -1,33 +1,30 @@
 {
-  "name": "iron-awesome",
+  "name": "awesome.json",
   "version": "1.0.0",
-  "description": "Automaticall robot to push awesome.json",
+  "description": "awesome.json == A curated list in JSON format.",
   "main": "index.js",
+  "dependencies": {
+    "awesomelists-index": "^0.3.2",
+    "cheerio": "^0.20.0",
+    "cron": "^1.1.0",
+    "debug": "^2.2.0",
+    "jsonfile": "^2.2.3",
+    "request": "^2.70.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
     "awesome": "cd lib && node awesome.js && mv ../test-output/awesome.json ../awesome",
     "build": "git pull --no-edit origin master && cd lib && node gen-all-awesome-list.js && mv ./awesome-json/sindresorhus-awesome.json ../all-github-path && mv ./awesome-json/*.json ../repo-json",
     "push": "git add --all . && git commit -m \":chart_with_upwards_trend: UPDATE JSON AT `date`\" && git push origin update-branch"
   },
-  "keywords": [
-    "awesome.json"
-  ],
-  "author": "Calvin Jeng",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lockys/awesome.json.git"
+  },
+  "author": "Calvin Jeng <locky4567@gmail.com> (https://github.com/lockys)",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/lockys/awesome.json/issues"
   },
-  "homepage": "",
-  "dependencies": {
-    "awesomelists-index": "^0.3.2",
-    "cheerio": "^0.20.0",
-    "debug": "^2.3.3",
-    "handlebars": "^4.0.5",
-    "hapi": "^12.1.0",
-    "hapi-heroku-helpers": "^2.0.0",
-    "jsonfile": "^2.2.3",
-    "request": "^2.70.0",
-    "vision": "^4.0.1"
-  }
+  "homepage": "https://github.com/lockys/awesome.json#readme"
 }
