@@ -22,12 +22,17 @@
   {
     "name": "Open Web Analytics",
     "url": "http://www.openwebanalytics.com/",
-    "description": "Google Analytics and Piwik alternative. (Source Code) GPL PHP"
+    "description": "Google Analytics and Piwik alternative. (Source Code) GPLv2 PHP"
   },
   {
     "name": "Piwik",
     "url": "https://piwik.org/",
     "description": "Leading open-source analytics platform that gives you more than just powerful analytics. (Source Code) GPLv3 PHP"
+  },
+  {
+    "name": "Rakam",
+    "url": "https://rakam.io/",
+    "description": "Custom analytics platform that allows you to create your own analytics services. Integrate with any data source (web, mobile, IoT etc.), analyze data with SQL and create dashboards. (Source Code) Apache Java"
   },
   {
     "name": "Serposcope",
@@ -42,17 +47,17 @@
   {
     "name": "ThinkUp",
     "url": "https://www.thinkup.com/",
-    "description": "Insights into your social networking activity on Twitter, Facebook, Instagram, and beyond. (Source Code) GPL PHP"
-  },
-  {
-    "name": "Webalizer",
-    "url": "http://www.webalizer.org/",
-    "description": "Fast web server log file analysis. GPL C"
+    "description": "Insights into your social networking activity on Twitter, Facebook, Instagram, and beyond. (Source Code) GPLv3 PHP"
   },
   {
     "name": "Metabase",
     "url": "http://www.metabase.com/",
     "description": "Simple Dashboarding and GUI Query tool, Nightly Emails and Slack Integration w/ PostgreSQL, MySQL, Redshift and other DBs. (Source Code) AGPLv3 Clojure"
+  },
+  {
+    "name": "Redash",
+    "url": "http://redash.io",
+    "description": "connect to over 18 types of databases (SQL and \"NoSQL\"), query your data, visualize it and create dashboards. Everything has a URL that can be shared. Slack and HipChat integration. (Demo, Source Code) BSD Python"
   },
   {
     "name": "Alltube",
@@ -62,7 +67,7 @@
   {
     "name": "AmIUnique",
     "url": "https://amiunique.org/",
-    "description": "Learn how identifiable you are on the Internet (browser fingerprinting tool). (Source code MIT Java"
+    "description": "Learn how identifiable you are on the Internet (browser fingerprinting tool). (Source Code) MIT Java"
   },
   {
     "name": "bip.io",
@@ -85,9 +90,19 @@
     "description": "Django app which listens for pings and sends alerts when pings are late. (Source Code) BSD Python"
   },
   {
+    "name": "Home Assistant",
+    "url": "https://home-assistant.io/",
+    "description": "An open-source home automation platform. (Demo, Source Code) MIT Python"
+  },
+  {
+    "name": "homebank-converter",
+    "url": "https://github.com/Binnette/homebank-converter",
+    "description": "A web app to convert an export bank file to compatible Homebank csv. (Demo) AGPLv3 HTML5"
+  },
+  {
     "name": "Huginn",
     "url": "https://github.com/cantino/huginn",
-    "description": "Allows you to build agents that monitor and act on your behalf - MIT Ruby"
+    "description": "Allows you to build agents that monitor and act on your behalf. MIT Ruby"
   },
   {
     "name": "Http2pic",
@@ -95,9 +110,24 @@
     "description": "Website screenshots/renderer. It uses the wkhtmltox to render websites with various options. (Source Code) Apache 2.0 PHP/Javascript"
   },
   {
+    "name": "Medusa",
+    "url": "https://github.com/pymedusa/SickRage",
+    "description": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. GPLv3 Python"
+  },
+  {
+    "name": "Node RED",
+    "url": "http://nodered.org/",
+    "description": "A browser-based flow editor that helps you wiring hardware devices, APIs and online services to create IoT solutions. (Source Code) Apache Nodejs"
+  },
+  {
     "name": "openHAB",
     "url": "http://www.openhab.org",
     "description": "Vendor and technology agnostic open source software for home automation. (Source Code) EPLv1 Java"
+  },
+  {
+    "name": "Poffer ⚠",
+    "url": "http://poffer.gabinaureche.com",
+    "description": "A tool that makes it easier to share the content you like thanks to Pocket+Buffer. (Source Code) MIT Nodejs"
   },
   {
     "name": "RSS-Bridge",
@@ -120,9 +150,14 @@
     "description": "An opensource clone of IFTTT, a bridge between your internet services. (Source Code) BSD Python"
   },
   {
-    "name": "WTFDYUM a.k.a Why The Fuck Did You Unfollow Me",
+    "name": "WTFDYUM ⚠",
     "url": "https://github.com/jchampemont/WTFDYUM",
-    "description": "Find out who stops following you on Twitter. (Demo, Source Code) Apache Java"
+    "description": "Why The Fuck Did You Unfollow Me - Find out who stops following you on Twitter. (Demo, Source Code) Apache Java"
+  },
+  {
+    "name": "Zenbot 3",
+    "url": "https://s8f.org/zenbot.html",
+    "description": "Zenbot is a lightweight, extendable, artificially intelligent trading bot for Bitcoin, Ether, Litecoin, and more. (Demo, Source Code) MIT Node.js"
   },
   {
     "name": "Anchor CMS",
@@ -132,11 +167,11 @@
   {
     "name": "Antville",
     "url": "https://antville.org",
-    "description": "Antville is a free, open source project aimed at the development of a high performance, feature rich weblog hosting software. (Source Code) Apache JavaScript"
+    "description": "Antville is a free, open source project aimed at the development of a high performance, feature rich weblog hosting software. (Source Code) Apache Javascript"
   },
   {
     "name": "Blogotext",
-    "url": "http://lehollandaisvolant.net/blogotext/en/",
+    "url": "http://lehollandaisvolant.net/blogotext/",
     "description": "A free blog-engine written in PHP and using SQLite. This offers you both an unmatched simplicity during installation and great performances. (Source Code) MIT PHP"
   },
   {
@@ -147,12 +182,22 @@
   {
     "name": "Dotclear",
     "url": "http://dotclear.org/",
-    "description": "Take control over your blog! (Source Code) GPLv2 PHP"
+    "description": "Take control over your blog. (Source Code) GPLv2 PHP"
   },
   {
     "name": "Ghost",
     "url": "https://ghost.org/",
     "description": "Just a blogging platform. (Source Code) MIT Nodejs"
+  },
+  {
+    "name": "Hexo",
+    "url": "https://hexo.io/",
+    "description": "A fast, simple & powerful blog framework, powered by Node.js. (Source Code) MIT Nodejs"
+  },
+  {
+    "name": "Hotglue",
+    "url": "https://hotglue.me/",
+    "description": "HOTGLUE is a freehand CMS which allows to construct websites directly in a web-browser. It uses flat files for storage and provides an intuitive GUI. (Demo, Source Code) GPLv3 PHP"
   },
   {
     "name": "htmly",
@@ -167,12 +212,17 @@
   {
     "name": "Noddity",
     "url": "http://noddity.com/",
-    "description": "It's a blog, it's a wiki, it's a fast CMS! (Source Code) WTFPL Nodejs"
+    "description": "It's a blog, it's a wiki, it's a fast CMS. (Source Code) WTFPL Nodejs"
   },
   {
     "name": "PluXml",
     "url": "http://www.pluxml.org/",
     "description": "XML-based blog/CMS platform. (Source Code) GPL PHP"
+  },
+  {
+    "name": "Postleaf",
+    "url": "https://www.postleaf.org/",
+    "description": "An open source blogging platform with inline editing, handlebar templates, and a beautiful user interface. (Source Code) GPLv3 PHP"
   },
   {
     "name": "Wagtail",
@@ -187,12 +237,17 @@
   {
     "name": "Bookie",
     "url": "https://github.com/bookieio/Bookie",
-    "description": "Python based delicious.com replacement. (Demo) AGPLv3 Python"
+    "description": "Python based delicious.com replacement. AGPLv3 Python"
   },
   {
-    "name": "Firefox Accounts Server\n\n\nFirefox Sync Server",
+    "name": "Firefox Auth Server",
     "url": "https://docs.services.mozilla.com/howtos/run-fxa.html",
-    "description": "Sync Firefox bookmarks, passwords, history, tabs, preferences. (Source Code) MPLv2 Python"
+    "description": "This project implements the core server-side API for Firefox Accounts. (Source Code) MPLv2 Nodejs"
+  },
+  {
+    "name": "Firefox Content Server",
+    "url": "https://docs.services.mozilla.com/howtos/run-fxa.html",
+    "description": "Static server that hosts Firefox Account sign up, sign in, email verification, etc. flows. (Source Code) MPLv2 Java"
   },
   {
     "name": "Firefox Sync Server",
@@ -215,9 +270,14 @@
     "description": "The tiling image board system for people who want to save, tag, and share images, videos, and webpages. (Source Code) BSD Python"
   },
   {
+    "name": "saveto.co",
+    "url": "https://saveto.co/",
+    "description": "An open source, home for the best links on the web. (Source Code) MIT Nodejs"
+  },
+  {
     "name": "Shaarli",
     "url": "https://github.com/shaarli/Shaarli",
-    "description": "Personal, minimalist, super-fast, no-database bookmarking and link sharing plaform. (Demo demo/demo) Zlib PHP"
+    "description": "Personal, minimalist, super-fast, no-database bookmarking and link sharing plaform. (Demo) Zlib PHP"
   },
   {
     "name": "unmark",
@@ -292,12 +352,22 @@
   {
     "name": "GNUNet",
     "url": "https://gnunet.org/",
-    "description": "Free software framework for decentralized, peer-to-peer networking. (Source Code) GPLv3 C/Java"
+    "description": "Free software framework for decentralized, peer-to-peer networking. (Source Code) GPLv3 C"
+  },
+  {
+    "name": "hack.chat",
+    "url": "https://hack.chat/",
+    "description": "A minimal, distraction-free chat application. (Source Code) GPLv3 Nodejs"
+  },
+  {
+    "name": "Hubl.in",
+    "url": "https://hubl.in/",
+    "description": "WebRTC powered video conference, chat and collaborative editor. (Source Code) AGPLv3 Nodejs"
   },
   {
     "name": "Jitsi Meet",
     "url": "https://jitsi.org/Projects/JitsiMeet",
-    "description": "Jitsi Meet is an OpenSource (MIT) WebRTC JavaScript application that uses Jitsi Videobridge to provide high quality, scalable video conferences. (Source Code) MIT JavaScript"
+    "description": "Jitsi Meet is an OpenSource (MIT) WebRTC Javascript application that uses Jitsi Videobridge to provide high quality, scalable video conferences. (Source Code) MIT Javascript"
   },
   {
     "name": "Jitsi Video Bridge",
@@ -312,7 +382,7 @@
   {
     "name": "Lets-Chat",
     "url": "http://sdelements.github.io/lets-chat/",
-    "description": "A self hosted chat suite written in Node. (Source Code) MIT NodeJS"
+    "description": "A self hosted chat suite written in Node. (Source Code) MIT Nodejs"
   },
   {
     "name": "Live Helper Chat",
@@ -322,12 +392,17 @@
   {
     "name": "Mattermost",
     "url": "http://www.mattermost.org/",
-    "description": "Open-source, on-prem Slack-alternative. It can be integrated with Gitlab. (Source Code) AGPLv3/Apache 2.0 Go"
+    "description": "Open-source, on-prem Slack-alternative. It can be integrated with Gitlab. (Source Code) AGPLv3/Apache Go"
+  },
+  {
+    "name": "MiAOU",
+    "url": "https://dystroy.org/miaou/login",
+    "description": "A multi-room persistent chat server. (Source Code) MIT Nodejs"
   },
   {
     "name": "Mibew",
     "url": "https://mibew.org",
-    "description": "Mibew Messenger is an open-source live support application written in PHP and MySQL. It enables one-on-one chat assistance in real-time directly from your website. (Demo, Source Code) Apache PHP/Javascript"
+    "description": "Mibew Messenger is an open-source live support application written in PHP and MySQL. It enables one-on-one chat assistance in real-time directly from your website. (Demo, Source Code) Apache PHP"
   },
   {
     "name": "Mumble",
@@ -340,9 +415,19 @@
     "description": "Stream audio from youtube and soundcloud, simulate dice rolls, or write your own commands with a simple plugin format. MIT Ruby"
   },
   {
+    "name": "Niltalk",
+    "url": "http://niltalk.com/",
+    "description": "A simple, private, persistence-free web based multi-room chat server + client. (Source Code) AGPLv3 Go"
+  },
+  {
     "name": "Node-Chat",
     "url": "https://github.com/IgorAntun/node-chat",
     "description": "A not-so-basic open-source chat with admin features. MIT Nodejs"
+  },
+  {
+    "name": "Pushjet",
+    "url": "https://pushjet.io/",
+    "description": "A self hosted push notification service built with a simple API making sending notifications easy. (Source Code) BSD Python"
   },
   {
     "name": "RetroShare",
@@ -350,8 +435,24 @@
     "description": "Secured and decentralized communication system. Offers decentralized chat, forums, messaging, file transfer. (Source Code) GPLv2 С++"
   },
   {
-    "name": "Rocket.Chat – Teamchat solution similar to Gitter.im or Slack. (Source Code) MIT Nodejs",
-    "url": "https://rocket.chat/"
+    "name": "Ring",
+    "url": "https://ring.cx/",
+    "description": "Free software for universal communication which respects freedoms and privacy of its users. (Source Code) GPLv3 C++"
+  },
+  {
+    "name": "Rocket.Chat",
+    "url": "https://rocket.chat/",
+    "description": "Teamchat solution similar to Gitter.im or Slack. (Source Code) MIT Nodejs"
+  },
+  {
+    "name": "Scrollback",
+    "url": "https://scrollback.io/",
+    "description": "Embeddable cross-platform chat for communities. (Source Code) AGPLv3 Nodejs"
+  },
+  {
+    "name": "Spreed",
+    "url": "https://www.spreed.me/",
+    "description": "WebRTC audio/video calls, conferencing server, and web client. (Source Code) AGPLv3 Go"
   },
   {
     "name": "Synapse",
@@ -359,14 +460,14 @@
     "description": "A server for Matrix, an open standard for decentralized persistent communication. (Source Code) Apache Python"
   },
   {
-    "name": "Vector",
-    "url": "https://matrix.org/blog/project/vector/",
-    "description": "A glossy Matrix web client with an emphasis on performance and usability. (Source Code) Apache Javascript"
-  },
-  {
     "name": "Matrix Console Web",
     "url": "https://matrix.org/blog/project/matrix-console-web/",
     "description": "A web client meant to be a showcase of Matrix capabilities, and reference implementation of the Matrix standard. (Source Code) Apache Javascript"
+  },
+  {
+    "name": "Vector",
+    "url": "https://matrix.org/blog/project/vector/",
+    "description": "A glossy Matrix web client with an emphasis on performance and usability. (Source Code) Apache Javascript"
   },
   {
     "name": "Syndie",
@@ -376,7 +477,7 @@
   {
     "name": "TextBelt ⚠",
     "url": "https://github.com/typpo/textbelt",
-    "description": "An outgoing SMS API that uses carrier-specific gateways to deliver your text messages for free, and without ads. MIT JavaScript"
+    "description": "An outgoing SMS API that uses carrier-specific gateways to deliver your text messages for free, and without ads. MIT Javascript"
   },
   {
     "name": "Tox",
@@ -386,22 +487,17 @@
   {
     "name": "Tuber",
     "url": "https://blog.trailofbits.com/2015/12/15/self-hosted-video-chat-with-tuber/",
-    "description": "Peer-to-peer video chat that works. (Source Code) MIT JavaScript"
+    "description": "Peer-to-peer video chat that works. (Source Code) MIT Javascript"
   },
   {
     "name": "Zulip",
     "url": "https://zulip.org",
-    "description": "Zulip is a powerful, open source group chat application. (Source Code) Apache 2.0/Other Python/Django"
+    "description": "Zulip is a powerful, open source group chat application. (Source Code) Apache/Other Python"
   },
   {
-    "name": "Mailcow",
-    "url": "https://mailcow.email/",
-    "description": "Mail server suite based on Dovecot, Postfix and other open source software, that provides a modern Web UI for administration. (Source Code) GPLv2 PHP/Shell"
-  },
-  {
-    "name": "Mail-in-a-Box",
-    "url": "https://mailinabox.email/",
-    "description": "Turns any Ubuntu server into a fully functional mail server with one command. CC0 Shell/Other"
+    "name": "Citadel",
+    "url": "http://www.citadel.org/",
+    "description": "Feature packed, easy, versatile, and powerful mail server, thanks to exclusive \"rooms\" based architecture. (Source Code) GPLv3 C"
   },
   {
     "name": "iRedMail",
@@ -409,9 +505,14 @@
     "description": "Full-featured mail server solution based on Postfix and Dovecot. (Source Code) GPLv3 Shell"
   },
   {
-    "name": "Citadel",
-    "url": "http://www.citadel.org/",
-    "description": "Feature packed, easy, versatile, and powerful mail server, thanks to exclusive \"rooms\" based architecture. (Source Code) GPLv3 C"
+    "name": "Mailcow",
+    "url": "https://mailcow.email/",
+    "description": "Mail server suite based on Dovecot, Postfix and other open source software, that provides a modern Web UI for administration. (Source Code) GPLv2 PHP"
+  },
+  {
+    "name": "Mail-in-a-Box",
+    "url": "https://mailinabox.email/",
+    "description": "Turns any Ubuntu server into a fully functional mail server with one command. (Source Code) CC0 Shell"
   },
   {
     "name": "Modoboa",
@@ -431,7 +532,7 @@
   {
     "name": "Haraka",
     "url": "http://haraka.github.io/",
-    "description": "A high-performance, pluginable SMTP server written in JavaScript. (Source Code) MIT Javascript"
+    "description": "A high-performance, pluginable SMTP server written in Javascript. (Source Code) MIT Javascript"
   },
   {
     "name": "MailCatcher",
@@ -442,6 +543,11 @@
     "name": "Maildrop",
     "url": "https://github.com/m242/maildrop",
     "description": "Disposable email SMTP server, also useful for development. MIT Scala"
+  },
+  {
+    "name": "MailHog",
+    "url": "https://github.com/mailhog/MailHog",
+    "description": "Small Golang executable which runs an SMTP MTA gateway that accepts all mail and displays in web interface. Useful for debugging or development. MIT Go"
   },
   {
     "name": "OpenSMTPD",
@@ -461,22 +567,22 @@
   {
     "name": "Sendmail",
     "url": "http://www.sendmail.com/sm/open_source/",
-    "description": "Message transfer agent (MTA)."
+    "description": "Message transfer agent (MTA). SENDMAIL C"
   },
   {
     "name": "Slimta",
     "url": "http://slimta.org",
-    "description": "Mail Transfer Library built on Python. (Source Code) MIT License Python"
+    "description": "Mail Transfer Library built on Python. (Source Code) MIT Python"
   },
   {
     "name": "Cyrus IMAP/POP3",
     "url": "http://cyrusimap.org/",
-    "description": "Intended to be run on sealed servers, where normal users are not permitted to log in."
+    "description": "Intended to be run on sealed servers, where normal users are not permitted to log in. (Source Code) BSD C"
   },
   {
     "name": "Dovecot",
     "url": "http://www.dovecot.org/",
-    "description": "IMAP and POP3 server written primarily with security in mind. (Source Code) MIT / LGPLv2 C"
+    "description": "IMAP and POP3 server written primarily with security in mind. (Source Code) MIT/LGPLv2 C"
   },
   {
     "name": "Piler",
@@ -484,19 +590,24 @@
     "description": "feature rich open source email archiving solution. (Source Code) GPLv3 C"
   },
   {
-    "name": "Mailman",
-    "url": "https://www.gnu.org/software/mailman/",
-    "description": "The Gnu mailing list server. Python GPL"
+    "name": "Dada Mail",
+    "url": "http://dadamailproject.com/",
+    "description": "A web-based list management system that can be used for announcement lists and/or discussion lists. (Source Code) GPLv2 Perl"
   },
   {
-    "name": "Sympa",
-    "url": "https://www.sympa.org/",
-    "description": "A mailing list manager. Perl GPL"
+    "name": "Mailman",
+    "url": "https://www.gnu.org/software/mailman/",
+    "description": "The Gnu mailing list server. GPL Python"
   },
   {
     "name": "Mailtrain",
     "url": "https://mailtrain.org/",
-    "description": "self hosted newsletter application built on Node.js (v5+) and MySQL (v5.5+ or MariaDB). (Source Code) GPL-V3.0 Node.js"
+    "description": "self hosted newsletter application built on Node.js (v5+) and MySQL (v5.5+ or MariaDB). (Source Code) GPLv3 Nodejs"
+  },
+  {
+    "name": "MailyHerald",
+    "url": "http://mailyherald.org/",
+    "description": "Self-hosted Mailchimp alternative that you can easily integrate with your site. Helps you send and manage your application mailings. It support email marketing and conducting the daily stream of notifications you send to your users. (Source Code) LGPLv3 Ruby"
   },
   {
     "name": "Mautic",
@@ -507,6 +618,11 @@
     "name": "phpList",
     "url": "https://phplist.org",
     "description": "Newsletter and email marketing with advanced management of subscribers, bounces, and plugins. (Source Code) AGPLv3 PHP"
+  },
+  {
+    "name": "Sympa",
+    "url": "https://www.sympa.org/",
+    "description": "A mailing list manager. GPLv2 Perl"
   },
   {
     "name": "Cypht",
@@ -526,7 +642,7 @@
   {
     "name": "Roundcube",
     "url": "https://roundcube.net",
-    "description": "Browser-based IMAP client with an application-like user interface. (Screenshots) (Source Code) GPLv3 PHP"
+    "description": "Browser-based IMAP client with an application-like user interface. (Source Code) GPLv3 PHP"
   },
   {
     "name": "SquirrelMail",
@@ -546,7 +662,7 @@
   {
     "name": "IRCAnywhere",
     "url": "http://ircanywhere.com/",
-    "description": "Open-source self-hosted alternative to IRCCloud. (Source Code) JavaScript Nodejs"
+    "description": "Open-source self-hosted alternative to IRCCloud. (Source Code) GPLv2 Nodejs"
   },
   {
     "name": "Quassel IRC",
@@ -557,6 +673,11 @@
     "name": "Robust IRC",
     "url": "https://robustirc.net/",
     "description": "RobustIRC is IRC without netsplits. Distributed IRC server, based on RobustSession protocol. (Source Code) BSD Go"
+  },
+  {
+    "name": "Shout",
+    "url": "http://shout-irc.com/",
+    "description": "Shout is a web IRC client that you host yourself. (Demo, Source Code) MIT Nodejs"
   },
   {
     "name": "The Lounge",
@@ -586,7 +707,7 @@
   {
     "name": "Kamailio",
     "url": "http://www.kamailio.org/w/",
-    "description": "Modular SIP server (registrar/proxy/router/etc) (Source Code) GPLv2 C"
+    "description": "Modular SIP server (registrar/proxy/router/etc). (Source Code) GPLv2 C"
   },
   {
     "name": "Ostel",
@@ -604,6 +725,11 @@
     "description": "Web-based open source GUI that controls and manages Asterisk. (Source Code) GPLv2 PHP"
   },
   {
+    "name": "Kazoo",
+    "url": "http://2600hz.org/",
+    "description": "KAZOO is an open-source, highly scalable software platform designed to provide carrier-grade VoIP switch functions and features. (Source Code) MPLv1.1 Erlang"
+  },
+  {
     "name": "XiVO",
     "url": "http://www.xivo.io",
     "description": "Unified communications server software based on Asterisk. (Source Code) GPLv3 Python"
@@ -611,7 +737,7 @@
   {
     "name": "Abilian SBE",
     "url": "https://github.com/abilian/abilian-sbe",
-    "description": "Open Source Collaboration and Social Networking framework & platform. LGPL Python"
+    "description": "Open Source Collaboration and Social Networking framework & platform. LGPLv2 Python"
   },
   {
     "name": "Anahita",
@@ -626,7 +752,7 @@
   {
     "name": "Buddycloud",
     "url": "http://buddycloud.com/",
-    "description": "Tools, libraries, services and a community to build user-to-user, group and social messaging into your app. Saves time. Scales up. Supports you. (Source Code) Apache 2.0 Java/Javascript"
+    "description": "Tools, libraries, services and a community to build user-to-user, group and social messaging into your app. Saves time. Scales up. Supports you. (Source Code) Apache Java"
   },
   {
     "name": "BuddyPress",
@@ -654,6 +780,11 @@
     "description": "Delightfully simple forums. Flarum is the next-generation forum software that makes online discussion fun again. (Source Code) MIT PHP"
   },
   {
+    "name": "flaskbb",
+    "url": "https://flaskbb.org/",
+    "description": "FlaskBB is forum software written in Python using the microframework Flask. You can easily create new topics, posts and send other users private messages. It also includes basic administration and moderation tools. (Source Code) BSD Python"
+  },
+  {
     "name": "FluxBB",
     "url": "http://fluxbb.org/",
     "description": "Fast, light, user-friendly forum software for your website. (Source Code) GPLv2 PHP"
@@ -661,7 +792,7 @@
   {
     "name": "Friendica",
     "url": "http://friendica.com/",
-    "description": "Social Communication Server. (Source Code) AGPLv3"
+    "description": "Social Communication Server. (Source Code) AGPLv3 PHP"
   },
   {
     "name": "GNU social",
@@ -681,17 +812,17 @@
   {
     "name": "Isso",
     "url": "http://posativ.org/isso/",
-    "description": "A lightweight commenting server written in Python and JavaScript. It aims to be a drop-in replacement for Disqus. (Source Code) MIT Python"
+    "description": "A lightweight commenting server written in Python and Javascript. It aims to be a drop-in replacement for Disqus. (Source Code) MIT Python"
   },
   {
     "name": "Jappix",
     "url": "https://jappix.com/",
-    "description": "Jappix is an open social platform, that let's you easily get or keep in touch with everyone. (Source Code) AGPLv3"
+    "description": "Jappix is an open social platform, that let's you easily get or keep in touch with everyone. (Source Code) AGPLv3 PHP"
   },
   {
     "name": "Loomio",
     "url": "https://www.loomio.org/",
-    "description": "Loomio is a collaborative decision-making tool that makes it easy for anyone to participate in decisions which affect them.  (Source Code) AGPLv3 Ruby"
+    "description": "Loomio is a collaborative decision-making tool that makes it easy for anyone to participate in decisions which affect them. (Source Code) AGPLv3 Ruby"
   },
   {
     "name": "Movim",
@@ -719,8 +850,9 @@
     "description": "Open Source Social Network (OSSN) is a social networking software written in PHP. It allows you to make a social networking website and helps your members build social relationships, with people who share similar professional or personal interests. (Source Code) GPLv2 PHP"
   },
   {
-    "name": "Oxwall Oxwall is used for a wide range of projects starting from family sites and custom social networks to collaboration tools and enterprise community solutions. (Source Code CPALv1 PHP",
-    "url": "http://www.oxwall.org/"
+    "name": "Oxwall",
+    "url": "http://www.oxwall.org/",
+    "description": "Oxwall is used for a wide range of projects starting from family sites and custom social networks to collaboration tools and enterprise community solutions. (Source Code) CPALv1 PHP"
   },
   {
     "name": "phpBB",
@@ -728,13 +860,14 @@
     "description": "Flat-forum bulletin board software solution that can be used to stay in touch with a group of people or can power your entire website. (Source Code) GPLv2 PHP"
   },
   {
-    "name": "PPnet Create and host your own social network. MIT JavaScript",
-    "url": "https://github.com/pixelpark/ppnet"
+    "name": "PPnet",
+    "url": "https://github.com/pixelpark/ppnet",
+    "description": "Create and host your own social network. MIT Javascript"
   },
   {
     "name": "Pump.io",
     "url": "http://pump.io/",
-    "description": "Stream server that does most of what people really want from a social network. (Source Code) Apache JavaScript, NodeJS"
+    "description": "Stream server that does most of what people really want from a social network. (Source Code) Apache Nodejs"
   },
   {
     "name": "Reddit",
@@ -745,6 +878,11 @@
     "name": "RedMatrix",
     "url": "https://github.com/redmatrix/redmatrix",
     "description": "Complete decentralised publishing, sharing, and communications system. MIT PHP"
+  },
+  {
+    "name": "Telescope",
+    "url": "http://www.telescopeapp.org/",
+    "description": "An open-source social news app built with Meteor. (Demo, Source Code) MIT Nodejs"
   },
   {
     "name": "twister",
@@ -760,6 +898,11 @@
     "name": "ejabberd",
     "url": "https://www.ejabberd.im/",
     "description": "XMPP instant messaging server. (Source Code) GPL Erlang"
+  },
+  {
+    "name": "Kontalk",
+    "url": "http://kontalk.org/",
+    "description": "Kontalk is an Open Source Messenger, similar to WhatsApp (app for android only currently), including end-to-end encryption, server is based on Tigase XMPP Server. (Source Code) GPLv3 Java"
   },
   {
     "name": "Metronome IM",
@@ -784,12 +927,12 @@
   {
     "name": "Tigase",
     "url": "http://www.tigase.net/content/tigase-xmpp-server",
-    "description": "XMPP server implementation in Java. Java"
+    "description": "XMPP server implementation in Java. GPLv3 Java"
   },
   {
     "name": "Candy",
     "url": "http://candy-chat.github.io/candy/",
-    "description": "Multi user XMPP client written in Javascript. (Source Code) MIT JavaScript"
+    "description": "Multi user XMPP client written in Javascript. (Source Code) MIT Javascript"
   },
   {
     "name": "Converse.js",
@@ -799,11 +942,7 @@
   {
     "name": "Kaiwa",
     "url": "http://getkaiwa.com/",
-    "description": "Web based chat client in the style of common paid alternatives. (Source Code) MIT Javascript, NodeJS"
-  },
-  {
-    "name": "Kontalk – Kontalk is an Open Source Messenger, similar to WhatsApp (app for android only currently), including end-to-end encryption, server is based on Tigase XMPP Server. (Source Code) GPLv3",
-    "url": "http://kontalk.org/"
+    "description": "Web based chat client in the style of common paid alternatives. (Source Code) MIT NodeJS"
   },
   {
     "name": "Salut à Toi",
@@ -816,14 +955,34 @@
     "description": "Web frontend from Salut à Toi. (Source Code) AGPLv3 Python"
   },
   {
-    "name": "99ko CMS",
-    "url": "http://www.99ko.org/",
-    "description": "99ko allows you to create a website in minutes without knowledge of Web development. It does not use a database server but relies on simple text files (JSON format) to store your data. (Source Code)"
+    "name": "Conference Organizing Distribution (COD)",
+    "url": "http://usecod.com/",
+    "description": "Create conference and event websites built on top of Drupal. (Source Code) GPL PHP"
+  },
+  {
+    "name": "frab",
+    "url": "https://frab.github.io/frab/",
+    "description": "web-based conference planning and management system. It helps to collect submissions, to manage talks and speakers and to create a schedule. (Source Code) MIT Ruby"
+  },
+  {
+    "name": "Open Conference Systems (OCS)",
+    "url": "https://pkp.sfu.ca/ocs/",
+    "description": "is a free Web publishing tool that will create a complete Web presence for your scholarly conference. (Demo, Source Code) GPL PHP"
+  },
+  {
+    "name": "OpenConferenceWare",
+    "url": "http://openconferenceware.org/",
+    "description": "An open source web application for supporting conference-like events. This customizable, general-purpose platform provides proposals, sessions, schedules, tracks, user profiles. (Source Code) MIT Ruby"
+  },
+  {
+    "name": "osem",
+    "url": "http://osem.io/",
+    "description": "Event management tailored to free Software conferences. (Demo, Source Code) MIT Ruby"
   },
   {
     "name": "Apostrophe 2",
     "url": "http://apostrophenow.org/",
-    "description": "A node.js CMS with a focus on extensible in-context editing tools. (Demo, Source Code) MIT NodeJS"
+    "description": "A node.js CMS with a focus on extensible in-context editing tools. (Demo, Source Code) MIT Nodejs"
   },
   {
     "name": "Baun",
@@ -833,12 +992,7 @@
   {
     "name": "BigTree CMS",
     "url": "https://www.bigtreecms.org/",
-    "description": "Straightforward, well documented, and capable written with PHP and MySQL. (Source Code) LGPL PHP"
-  },
-  {
-    "name": "Bolt",
-    "url": "https://bolt.cm/",
-    "description": "Sophisticated, lightweight & simple CMS. (Source Code) MIT PHP"
+    "description": "Straightforward, well documented, and capable written with PHP and MySQL. (Source Code) LGPLv2 PHP"
   },
   {
     "name": "CMS Made Simple",
@@ -851,6 +1005,16 @@
     "description": "An open source content management system. (Source Code) MIT PHP"
   },
   {
+    "name": "CouchCMS",
+    "url": "http://www.couchcms.com/",
+    "description": "Simple Open-Source CMS for designers. (Source Code) CPALv1 PHP"
+  },
+  {
+    "name": "Directus",
+    "url": "http://getdirectus.com/",
+    "description": "Directus is a powerful and intuitive headless CMS for managing SQL databases with custom architectures. Built around a robust and extensible API, this decoupled content management framework is perfect for websites, apps, or multi-client projects. (Source Code) GPL PHP"
+  },
+  {
     "name": "Drupal",
     "url": "https://www.drupal.org/",
     "description": "Advanced open source content management platform. (Source Code) GPL PHP"
@@ -858,22 +1022,12 @@
   {
     "name": "eLabFTW",
     "url": "http://www.elabftw.net",
-    "description": "An online lab notebook for research labs. Store experiments, use a database to find reagents or protocols, use trusted timestamping to legally timestamp an experiment, export as pdf or zip archive, share with collaborators…. (Source Code, Demo) AGPLv3 PHP"
-  },
-  {
-    "name": "Gazelle",
-    "url": "https://github.com/WhatCD/Gazelle",
-    "description": "Gazelle is a web framework geared towards private BitTorrent trackers. Although naturally focusing on music, it can be modified for most needs. unlicensed PHP"
-  },
-  {
-    "name": "Grav",
-    "url": "https://getgrav.org/",
-    "description": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS. (Source Code) MIT PHP"
+    "description": "An online lab notebook for research labs. Store experiments, use a database to find reagents or protocols, use trusted timestamping to legally timestamp an experiment, export as pdf or zip archive, share with collaborators…. (Demo, Source Code) AGPLv3 PHP"
   },
   {
     "name": "GetSimple CMS",
     "url": "http://get-simple.info/",
-    "description": "The Simplest Content Management System. Ever. GPLv3"
+    "description": "The Simplest Content Management System. Ever. (Source Code) GPLv3 PHP"
   },
   {
     "name": "ImpressPages CMS",
@@ -888,7 +1042,7 @@
   {
     "name": "KeystoneJS",
     "url": "http://keystonejs.com/",
-    "description": "Node.js CMS & Web Application Platform. (Demo, Source Code) MIT NodeJS"
+    "description": "Node.js CMS & Web Application Platform. (Demo, Source Code) MIT Nodejs"
   },
   {
     "name": "MODX",
@@ -899,6 +1053,11 @@
     "name": "Neos",
     "url": "https://www.neos.io",
     "description": "Neos or TYPO3 Neos (for version 1) is a modern, open source CMS based on the Flow framework. (Source Code) GPLv3 PHP"
+  },
+  {
+    "name": "Noosfero",
+    "url": "http://noosfero.org/",
+    "description": "Noosfero is a web platform for social and solidarity economy networks with blog, e-Portfolios, CMS, RSS, thematic discussion, events agenda and collective inteligence for solidarity economy in the same system. (Source Code) AGPLv3 Ruby"
   },
   {
     "name": "october",
@@ -931,6 +1090,11 @@
     "description": "Powerful open-source CMS system. (Source Code) Zope Python"
   },
   {
+    "name": "ProcessWire",
+    "url": "https://processwire.com/",
+    "description": "ProcessWire is an open source content management system (CMS) and web application framework aimed at the needs of designers, developers and their clients. (Source Code) MPLv2 PHP"
+  },
+  {
     "name": "Publify",
     "url": "http://publify.co/",
     "description": "A simple but full featured web publishing software. (Demo, Source Code) MIT Ruby"
@@ -939,6 +1103,11 @@
     "name": "Redaxscript",
     "url": "http:/redaxscript.com",
     "description": "Ultra lightweight CMS for MySQL, SQLite and PostgreSQL. (Demo, Source Code) GPLv3 PHP"
+  },
+  {
+    "name": "Roadiz",
+    "url": "https://www.roadiz.io/",
+    "description": " Modern CMS based on a node system which can handle many types of services. (Source Code) MIT PHP"
   },
   {
     "name": "SilverStripe",
@@ -971,19 +1140,34 @@
     "description": "A powerful and advanced CMS with a large community. (Source Code) GPLv2 PHP"
   },
   {
-    "name": "Wordpress",
+    "name": "Umbraco",
+    "url": "https://umbraco.com/",
+    "description": "The friendly CMS. Free and open source with an amazing community. (Source Code) MIT .NET"
+  },
+  {
+    "name": "WordPress",
     "url": "https://wordpress.org/",
-    "description": "The worlds most-used blogging and CMS engine. (Source code mirror) GPLv2"
+    "description": "The worlds most-used blogging and CMS engine. (Source Code) GPLv2 PHP"
   },
   {
     "name": "OpenEats",
     "url": "http://www.openeats.org/",
-    "description": "A recipe management site that allows users to create, store, share and rate recipes, create grocery lists, and more. (Source Code) BSD Python/Django"
+    "description": "A recipe management site that allows users to create, store, share and rate recipes, create grocery lists, and more. (Source Code) BSD Python"
   },
   {
     "name": "Attendize",
     "url": "https://www.attendize.com/",
     "description": "Ticket selling and event management platform. (Demo, Source Code) AAL PHP"
+  },
+  {
+    "name": "CoreShop",
+    "url": "https://www.coreshop.org",
+    "description": "CoreShop is a e-commerce plugin for Pimcore. (Source Code) GPLv3 PHP"
+  },
+  {
+    "name": "Magento",
+    "url": "https://magento.com/",
+    "description": "Leading provider of open omnichannel innovation. (Demo, Source Code) OSLv3 PHP"
   },
   {
     "name": "Microweber",
@@ -998,22 +1182,42 @@
   {
     "name": "Open Classifieds",
     "url": "http://open-classifieds.com/",
-    "description": "Free open-source, self-hosted CMS for classifieds sites. (Source Code)  GPL PHP"
+    "description": "Free open-source, self-hosted CMS for classifieds sites. (Source Code) GPL PHP"
   },
   {
     "name": "Open eShop",
     "url": "https://open-eshop.com/",
-    "description": "Sell your digital goods with licenses and provide support. (Source Code)  GPL PHP"
+    "description": "Sell your digital goods with licenses and provide support. (Source Code) GPL PHP"
+  },
+  {
+    "name": "OXID eShop",
+    "url": "http://oxidforge.org",
+    "description": "OXID eShop is a flexible open source e-commerce software with a wide range of functionalities. (Demo, Source Code) GPLv3 PHP"
+  },
+  {
+    "name": "Open Food Network",
+    "url": "https://openfoodnetwork.org/",
+    "description": "An online marketplace for local food. It enables a network of independent online food stores that connect farmers and food hubs with individuals and local businesses. (Source Code) AGPLv3 Ruby"
   },
   {
     "name": "PrestaShop",
     "url": "https://www.prestashop.com/",
-    "description": "PrestaShop offers a free, open-source and fully scalable e-commerce solution. (Demo, Source Code) OSL 3.0 PHP"
+    "description": "PrestaShop offers a free, open-source and fully scalable e-commerce solution. (Demo, Source Code) OSLv3 PHP"
   },
   {
-    "name": "Shoop",
-    "url": "https://www.shoop.io/",
-    "description": "Django powered fully customizable open source e-commerce framework for small and large sites. (B2C demo, B2B demo, Source Code) AGPLv3 Python"
+    "name": "Shuup",
+    "url": "https://www.shuup.com/",
+    "description": "Django powered fully customizable open source e-commerce framework for small and large sites. (Demo, Source Code) AGPLv3 Python"
+  },
+  {
+    "name": "Sylius",
+    "url": "http://sylius.org/",
+    "description": "Symfony2 powered open source full-stack platform for eCommerce. (Demo, Source Code) MIT PHP"
+  },
+  {
+    "name": "Thelia",
+    "url": "http://thelia.net/",
+    "description": "Thelia is an open source and flexible e-commerce solution. (Demo, Source Code) LGPL PHP"
   },
   {
     "name": "WooCommerce",
@@ -1048,67 +1252,32 @@
   {
     "name": "Tryton",
     "url": "http://www.tryton.org/",
-    "description": "Free open source business solution. (Demo, Source Code) GPLv3 Python/Javascript"
-  },
-  {
-    "name": "FreeRADIUS",
-    "url": "http://freeradius.org/",
-    "description": "High performance and highly configurable multi-protocol policy/authentication server, supporting RADIUS, DHCPv4 and VMPS. (Source Code) GPLv2 C"
-  },
-  {
-    "name": "daloRADIUS",
-    "url": "http://www.daloradius.com",
-    "description": "Open-source web management platform for FreeRADIUS-based deployments. (Source Code) GPLv2"
-  },
-  {
-    "name": "IndieAuth",
-    "url": "https://indieauth.com",
-    "description": "Sign in with your domain name (using the rel-me-auth protocol). Apache Ruby"
-  },
-  {
-    "name": "Libravatar",
-    "url": "https://www.libravatar.org/",
-    "description": "Libravatar is a service which delivers your avatar (profile picture) to other websites. (Demo, Source Code) AGPLv3 Python"
-  },
-  {
-    "name": "OpenCA OCSPD",
-    "url": "https://pki.openca.org/projects/ocspd/",
-    "description": "An OCSP Responder."
-  },
-  {
-    "name": "OpenID/OpenID Connect",
-    "url": "http://openid.net/developers/libraries/",
-    "description": "A Simple Identity layer on top of OAuth 2.0."
-  },
-  {
-    "name": "OSIAM",
-    "url": "https://www.osiam.org",
-    "description": "Open Source Identity and Access Management implementing OAuth 2.0 and SCIMv2. (Source Code) MIT Java"
+    "description": "Free open source business solution. (Demo, Source Code) GPLv3 Python"
   },
   {
     "name": "CommaFeed",
     "url": "https://www.commafeed.com/",
-    "description": "Google Reader inspired self-hosted RSS reader. (Source Code)"
+    "description": "Google Reader inspired self-hosted RSS reader. (Source Code) Apache Java"
   },
   {
     "name": "Creaky Coot",
-    "url": "https://github.com/piero-la-lune/Creaky-Coot",
-    "description": "Minimalist and responsive RSS reader and links saver"
+    "url": "http://bugs.derivoile.fr/Creaky-Coot/dashboard",
+    "description": "Minimalist and responsive RSS reader and links saver. (Source Code) MIT PHP"
   },
   {
     "name": "Feedbin",
     "url": "https://feedbin.com/",
-    "description": "A simple, fast and nice looking RSS reader. (Source Code)"
+    "description": "A simple, fast and nice looking RSS reader. (Source Code) MIT Ruby"
   },
   {
     "name": "FeedHQ",
     "url": "https://feedhq.org/",
-    "description": "FeedHQ is a web-based feed reader. (Source Code)"
+    "description": "FeedHQ is a web-based feed reader. (Source Code) BSD Python"
   },
   {
     "name": "FreshRSS",
     "url": "http://freshrss.org/",
-    "description": "A self-hostable RSS feed aggregator. (Demo, Source Code, Mobile app) AGPLv3"
+    "description": "A self-hostable RSS feed aggregator. (Demo, Source Code, Mobile app) AGPLv3 PHP"
   },
   {
     "name": "JARR",
@@ -1118,22 +1287,22 @@
   {
     "name": "Kriss Feed",
     "url": "http://tontof.net/kriss/feed/",
-    "description": "A simple and smart (or stupid) feed reader. (Demo, Source Code)"
+    "description": "A simple and smart (or stupid) feed reader. (Demo, Source Code) CC0 PHP"
   },
   {
     "name": "Leed",
     "url": "http://leed.idleman.fr",
-    "description": "Leed (for Light Feed) is a Free and minimalist RSS aggregator. (Source Code)"
+    "description": "Leed (for Light Feed) is a Free and minimalist RSS aggregator. (Source Code) CCBYNCSAv2 PHP"
   },
   {
     "name": "Leselys",
     "url": "https://github.com/socketubs/leselys",
-    "description": "Your very elegant RSS reader"
+    "description": "Your very elegant RSS reader. AGPLv3 Python"
   },
   {
     "name": "Lite-Reader",
     "url": "http://cubny.com/lite-reader/",
-    "description": "Read your feeds on your own machine with a simple and lite application. (Source Code)"
+    "description": "Read your feeds on your own machine with a simple and lite application. (Source Code) BSD PHP"
   },
   {
     "name": "Moonmoon",
@@ -1143,12 +1312,17 @@
   {
     "name": "Miniflux",
     "url": "https://miniflux.net/",
-    "description": "Miniflux is a minimalist and open source news reader. (Source Code)"
+    "description": "Miniflux is a minimalist and open source news reader. (Source Code) AGPLv3 PHP"
+  },
+  {
+    "name": "RSSPBRRY",
+    "url": "http://jasoncomely.com/rss-tastemaker/",
+    "description": "A fresh new RSS feed reader. (Source Code) AGPLv3 PHP"
   },
   {
     "name": "NewsBlur",
-    "url": "https://github.com/samuelclay/NewsBlur",
-    "description": "NewsBlur is a personal news reader that brings people together to talk about the world. A new sound of an old instrument"
+    "url": "http://www.newsblur.com/",
+    "description": "NewsBlur is a personal news reader that brings people together to talk about the world. A new sound of an old instrument. (Source Code) MIT Python"
   },
   {
     "name": "Nunux Reader",
@@ -1156,23 +1330,14 @@
     "description": "A simple, fast and reactive RSS reader. (Source Code) GPLv3 Nodejs"
   },
   {
-    "name": "Reader-Self Self-hosted rss reader (php / mysql or sqlite)",
+    "name": "Reader-Self",
     "url": "http://readerself.com/",
-    "description": "Google Reader alternative. (Source Code)"
-  },
-  {
-    "name": "Readr",
-    "url": "https://github.com/pabloprieto/Readr",
-    "description": "A clean & simple, self-hosted RSS reader"
+    "description": "Self-hosted rss reader (php / mysql or sqlite) - Google Reader alternative. (Source Code) GPLv3 PHP"
   },
   {
     "name": "RSS2EMail",
     "url": "http://www.allthingsrss.com/rss2email/",
-    "description": "Fetches RSS/Atom-feeds and pushes new Content to any email-reciever, supports OPML GPL Python"
-  },
-  {
-    "name": "RSSminer -An online rss reader written in clojure & javascript & java. (Source Code)",
-    "url": "http://www.rssminer.net/"
+    "description": "Fetches RSS/Atom-feeds and pushes new Content to any email-reciever, supports OPML. (Source Code) GPLv2 Python"
   },
   {
     "name": "RSS Monster",
@@ -1197,7 +1362,7 @@
   {
     "name": "Tiny Tiny RSS",
     "url": "https://tt-rss.org/gitlab/fox/tt-rss",
-    "description": "Open source web-based news feed (RSS/Atom) reader and aggregator. (Public instance) GPLv3 PHP"
+    "description": "Open source web-based news feed (RSS/Atom) reader and aggregator. (Demo) GPLv3 PHP"
   },
   {
     "name": "gritttt-rss",
@@ -1215,44 +1380,14 @@
     "description": "Light and responsive client for TTRSS. GPLv2 Javascript"
   },
   {
-    "name": "Camlistore",
-    "url": "https://camlistore.org/",
-    "description": "Camlistore is a set of open source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data in the post-PC era. Data may be files or objects, tweets or 5TB videos, and you can access it via a phone, browser or FUSE filesystem. (Source Code) Apache Go"
-  },
-  {
-    "name": "GlusterFS",
-    "url": "https://www.gluster.org",
-    "description": "GlusterFS is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming, data analysis, and other data- and bandwidth-intensive tasks. (Source Code) LGPLv3/GPLv2 C"
-  },
-  {
-    "name": "Go IPFS",
-    "url": "https://github.com/ipfs/go-ipfs",
-    "description": "Implementation of IPFS, a global, versioned, peer-to-peer filesystem that seeks to connect all computing devices with the same system of files. It combines good ideas from Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single bittorrent swarm, exchanging git objects."
-  },
-  {
-    "name": "Ori Filesystem",
-    "url": "http://ori.scs.stanford.edu/",
-    "description": "A Secure Distributed File System built for offline operation. (Source Code) MIT C++"
-  },
-  {
-    "name": "Swift",
-    "url": "http://docs.openstack.org/developer/swift/",
-    "description": "A highly available, distributed, eventually consistent object/blob store."
-  },
-  {
-    "name": "Tahoe-LAFS",
-    "url": "https://www.tahoe-lafs.org/trac/tahoe-lafs",
-    "description": "Tahoe-LAFS is a Free and Open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security."
-  },
-  {
     "name": "Git Annex",
-    "url": "http://git-annex.branchable.com/assistant/quickstart/",
-    "description": "File synchronization between computers, servers, external drives"
+    "url": "http://git-annex.branchable.com",
+    "description": "File synchronization between computers, servers, external drives. (Source Code) GPLv3 Haskell"
   },
   {
     "name": "Kinto",
     "url": "https://kinto.readthedocs.org",
-    "description": "Kinto is a minimalist JSON storage service with synchronisation and sharing abilities. (Source Code) Apache 2.0 Python"
+    "description": "Kinto is a minimalist JSON storage service with synchronisation and sharing abilities. (Source Code) Apache Python"
   },
   {
     "name": "Nextcloud",
@@ -1265,6 +1400,16 @@
     "description": "Secure File Transfer Program. (Source Code) BSD C"
   },
   {
+    "name": "ownCloud",
+    "url": "https://owncloud.org/",
+    "description": "All-in-one solution for saving, synchronizing, viewing, editing and sharing files, calendars, address books and more. (Source Code) AGPLv3 PHP"
+  },
+  {
+    "name": "Pydio",
+    "url": "https://pydio.com/",
+    "description": "Turn any web server into a powerful file management system and an alternative to mainstream cloud storage providers. (Source Code) AGPLv3 PHP"
+  },
+  {
     "name": "Samba",
     "url": "https://www.samba.org/",
     "description": "Samba is the standard Windows interoperability suite of programs for Linux and Unix. It provides secure, stable and fast file and print services for all clients using the SMB/CIFS protocol. (Source Code) GPLv3 C"
@@ -1272,17 +1417,17 @@
   {
     "name": "Seafile",
     "url": "https://www.seafile.com/en/home/",
-    "description": "File hosting and sharing solution primary for teams and organizations. (Demo) GPLv2"
+    "description": "File hosting and sharing solution primary for teams and organizations. (Demo, Source Code) GPLv2 C"
   },
   {
     "name": "SparkleShare",
     "url": "http://sparkleshare.org/",
-    "description": "Self hosted, instant, secure file sync"
+    "description": "Self hosted, instant, secure file sync. (Source Code) GPLv3 C#"
   },
   {
     "name": "Syncany",
     "url": "https://www.syncany.org/",
-    "description": "Secure file sync software for arbitrary storage backends - An open-source cloud storage and filesharing application. Securely synchronize your files to any kind of storage! GPLv3 Java"
+    "description": "Secure file sync software for arbitrary storage backends - An open-source cloud storage and filesharing application. Securely synchronize your files to any kind of storage. GPLv3 Java"
   },
   {
     "name": "Syncthing",
@@ -1290,24 +1435,14 @@
     "description": "Syncthing is an open source peer-to-peer file synchronisation tool. (Source Code) MPLv2 Go"
   },
   {
-    "name": "Z-Push",
-    "url": "https://z-push.org/",
-    "description": "An implementation of Microsoft’s ActiveSync protocol"
-  },
-  {
-    "name": "ownCloud",
-    "url": "https://owncloud.org/",
-    "description": "All-in-one solution for saving, synchronizing, viewing, editing and sharing files, calendars, address books and more - AGPLv3 PHP"
-  },
-  {
-    "name": "Pydio",
-    "url": "https://pydio.com/",
-    "description": "Turn any web server into a powerful file management system and an alternative to mainstream cloud storage providers."
-  },
-  {
     "name": "Unison",
     "url": "https://www.cis.upenn.edu/%7Ebcpierce/unison/",
     "description": "Unison is a file-synchronization tool for OSX, Unix, and Windows. GPLv3 OCaml"
+  },
+  {
+    "name": "Z-Push",
+    "url": "http://z-push.org/",
+    "description": "An implementation of Microsoft’s ActiveSync protocol. (Source Code) AGPLv3 PHP"
   },
   {
     "name": "FilePizza",
@@ -1317,7 +1452,7 @@
   {
     "name": "FileTea",
     "url": "https://filetea.me/",
-    "description": "Anonymous, volatile file sharing: does not store any file on server. Bridges a download to the recipient’s browser with an upload from the source’s browser. (Source Code AGPLv3 C"
+    "description": "Anonymous, volatile file sharing: does not store any file on server. Bridges a download to the recipient’s browser with an upload from the source’s browser. (Source Code) AGPLv3 C"
   },
   {
     "name": "instant.io",
@@ -1327,12 +1462,22 @@
   {
     "name": "Opentracker",
     "url": "http://erdgeist.org/arts/software/opentracker/",
-    "description": "Open and free bittorrent tracker. It aims for minimal resource usage and is intended to run at your wlan router. (Source Code Public domain C"
+    "description": "Open and free bittorrent tracker. It aims for minimal resource usage and is intended to run at your wlan router. (Source Code) Beerware C"
+  },
+  {
+    "name": "rartracker",
+    "url": "https://github.com/swetorrentking/rartracker",
+    "description": "Complete private bittorrent tracker. WTFPL PHP"
+  },
+  {
+    "name": "Reep",
+    "url": "https://reep.io",
+    "description": "In-browser peer-to-peer file transfer and streaming made easy. (Source Code) GPLv2 Nodejs"
   },
   {
     "name": "ShareFest",
     "url": "https://github.com/peer5/sharefest",
-    "description": "Web based p2p file sharing built on WebRTC Data Channels API. (Demo) Apache 2.0 Nodejs"
+    "description": "Web based p2p file sharing built on WebRTC Data Channels API. (Demo) Apache Nodejs"
   },
   {
     "name": "BoZoN",
@@ -1342,17 +1487,22 @@
   {
     "name": "Coquelicot",
     "url": "https://coquelicot.potager.org/",
-    "description": "Coquelicot is a “one-click” file sharing web application with a focus on protecting users’ privacy. - AGPLv3"
+    "description": "Coquelicot is a “one-click” file sharing web application with a focus on protecting users’ privacy. (Source Code) AGPLv3 Ruby"
   },
   {
     "name": "Dropcenter",
     "url": "http://projet.idleman.fr/dropcenter/",
-    "description": "Upload files by simple drag-n-drop."
+    "description": "Upload files by simple drag-n-drop. (Source Code) CCBYNCSAv3 PHP"
   },
   {
     "name": "droppy",
     "url": "https://github.com/silverwind/droppy",
     "description": "droppy is a self-hosted cloud server with an interface similar to desktop file managers and has capabilites to edit files on-the-fly as well as view and playback media directly in the browser. (Demo) BSD Nodejs"
+  },
+  {
+    "name": "FileShelter",
+    "url": "https://github.com/epoupon/fileshelter",
+    "description": "FileShelter is a self-hosted software that allows you to easily share files over the Internet. (Demo) GPLv3 C++"
   },
   {
     "name": "img.bi",
@@ -1366,13 +1516,13 @@
   },
   {
     "name": "Jirafeau",
-    "url": "https://gitlab.com/mojo42/Jirafeau/wikis/home",
-    "description": "Jirafeau is a web site permitting to upload a file in a simple way and give an unique link to it. (Demo)"
+    "url": "https://gitlab.com/mojo42/Jirafeau",
+    "description": "Jirafeau is a web site permitting to upload a file in a simple way and give an unique link to it. (Demo) AGPLv3 PHP"
   },
   {
     "name": "Jyraphe",
     "url": "http://home.gna.org/jyraphe/",
-    "description": "Jyraphe is a web application of file repository, easy to install and easy to use."
+    "description": "Jyraphe is a web application of file repository, easy to install and easy to use. (Source Code) AGPLv3 PHP"
   },
   {
     "name": "linx",
@@ -1387,32 +1537,42 @@
   {
     "name": "lutim",
     "url": "https://github.com/ldidry/lutim",
-    "description": "Let's Upload That Image !"
+    "description": "Let's Upload That Image. AGPLv3 Perl"
   },
   {
     "name": "Mediacrush",
-    "url": "https://mediacru.sh/",
-    "description": "A website you can upload images, audio, and video to, and receive a link to share it with your friends. (Source Code)"
+    "url": "https://github.com/MediaCrush/MediaCrush",
+    "description": "A website you can upload images, audio, and video to, and receive a link to share it with your friends. MIT Python"
+  },
+  {
+    "name": "Minio",
+    "url": "https://minio.io/",
+    "description": "Store photos, videos, VMs, containers, log files, or any blob of data as objects. (Source Code) Apache Go"
   },
   {
     "name": "Nimbus",
     "url": "https://github.com/ethanal/nimbus",
-    "description": "A drag-and-drop shortlink file sharer for OS X - MIT Python"
+    "description": "A drag-and-drop shortlink file sharer for OS X. MIT Python"
   },
   {
     "name": "OnionShare",
-    "url": "https://onionshare.org/",
-    "description": "Securely and anonymously share a file of any size."
+    "url": "https://github.com/micahflee/onionshare",
+    "description": "Securely and anonymously share a file of any size. GPLv2 Python"
   },
   {
     "name": "PictShare",
     "url": "https://www.pictshare.net/",
-    "description": "PictShare is a multi lingual, open source image hosting service with a simple resizing and upload API. (Demo, Source Code) Apache PHP/JavaScript"
+    "description": "PictShare is a multi lingual, open source image hosting service with a simple resizing and upload API. (Demo, Source Code) Apache PHP"
+  },
+  {
+    "name": "Plik",
+    "url": "https://github.com/root-gg/plik",
+    "description": "Plik is a scalable & friendly temporary file upload system ( wetransfer like ). (Demo) MIT Go"
   },
   {
     "name": "Pomf",
     "url": "https://github.com/Pomf/Pomf",
-    "description": "Simple file uploading and sharing, source for the now shut down site Pomf.se. MIT PHP/Nodejs"
+    "description": "Simple file uploading and sharing, source for the now shut down site Pomf.se. MIT PHP"
   },
   {
     "name": "ProjectSend",
@@ -1447,12 +1607,12 @@
   {
     "name": "Apaxy",
     "url": "http://adamwhitcroft.com/apaxy/",
-    "description": "Theme built to enhance the experience of browsing web directories, using the mod_autoindex Apache module and some CSS to override the default style of a directory listing. (Source Code Public domain CSS"
+    "description": "Theme built to enhance the experience of browsing web directories, using the mod_autoindex Apache module and some CSS to override the default style of a directory listing. (Source Code) Unlicense HTML"
   },
   {
     "name": "DirectoryLister",
     "url": "http://www.directorylister.com/",
-    "description": "A simple PHP based directory lister that lists a directory and all it's sub-directories and allows you to navigate there within. (Source code) MIT PHP"
+    "description": "A simple PHP based directory lister that lists a directory and all it's sub-directories and allows you to navigate there within. (Source Code) MIT PHP"
   },
   {
     "name": "Encode Explorer",
@@ -1460,23 +1620,24 @@
     "description": "Encode Explorer is a single page file browser, it is simple and functional. (Demo, Source Code) MIT PHP"
   },
   {
-    "name": "eXtplorer",
-    "url": "http://extplorer.sourceforge.net/",
-    "description": "A PHP and JavaScript based File Manager"
-  },
-  {
     "name": "explorer",
     "url": "https://github.com/soyuka/explorer",
-    "description": "Highly-configurable directory listing made with nodejs. (Source Code)MIT Nodejs"
+    "description": "Highly-configurable directory listing made with nodejs. (Source Code) MIT Nodejs"
   },
   {
-    "name": "goBrowser Simple http file browser. (Source Code) GPLv3 Go",
-    "url": "https://github.com/xataz/gobrowser"
+    "name": "eXtplorer",
+    "url": "https://extplorer.net/",
+    "description": "A PHP and Javascript based File Manager. (Source Code) MPLv1.1/GPLv2 PHP"
+  },
+  {
+    "name": "goBrowser",
+    "url": "https://github.com/xataz/gobrowser",
+    "description": "Simple http file browser. (Source Code) GPLv3 Go"
   },
   {
     "name": "h5ai",
     "url": "https://larsjung.de/h5ai/",
-    "description": "Modern file indexer for HTTP web servers with focus on your files. Directories are displayed in a appealing way and browsing them is enhanced by different views, a breadcrumb and a tree overview. (Demo, Source Code) MIT PHP/Javascript"
+    "description": "Modern file indexer for HTTP web servers with focus on your files. Directories are displayed in a appealing way and browsing them is enhanced by different views, a breadcrumb and a tree overview. (Demo, Source Code) MIT PHP"
   },
   {
     "name": "Monsta FTP",
@@ -1494,14 +1655,14 @@
     "description": "2 panel file manager with drag and drop features, code editor, text search, hotkeys. (Demo, Source Code) GPLv3 Python"
   },
   {
+    "name": "Surfer",
+    "url": "https://github.com/nebulade/surfer",
+    "description": "Simple static file server with webui to manage files. MIT Nodejs"
+  },
+  {
     "name": "0hh1",
     "url": "https://github.com/Q42/0hh1",
     "description": "A lovely little logic game by Q42. (Demo) MIT HTML5"
-  },
-  {
-    "name": "20euros",
-    "url": "https://github.com/jatekos101/20euros",
-    "description": "Clone of 2048 game with euros. (Demo) Unlicensed HTML5"
   },
   {
     "name": "A Dark Room",
@@ -1529,24 +1690,34 @@
     "description": "Fast paced HTML5 puzzle game inspired by Tetris. (Demo) GPLv3 HTML5"
   },
   {
+    "name": "Posio",
+    "url": "https://github.com/abrenaut/posio/",
+    "description": "A geography multiplayer game. (Demo) MIT Python"
+  },
+  {
     "name": "TournamentMango",
     "url": "http://tournamentmango.com/",
     "description": "TournamentMango is an open source tournament bracket and user management system. You can build an archive of players and keep track of all their scores over time as well as their regular characters, games, and aliases. (Source Code) MIT Javascript"
   },
   {
-    "name": "untrusted",
-    "url": "https://github.com/AlexNisnevich/untrusted",
-    "description": "Untrusted is a unique puzzle game designed for geeks and developers, where you solve the puzzles in the game by reading and writing Javascript. (Demo) CCBYNCSAv3/Custom Nodejs"
-  },
-  {
     "name": "GateOne",
-    "url": "https://github.com/liftoff/GateOne/",
-    "description": "Gate One is an HTML5 web-based terminal emulator and SSH client. - AGPLv3"
+    "url": "http://liftoffsoftware.com/Products/GateOne",
+    "description": "Gate One is an HTML5 web-based terminal emulator and SSH client. (Source Code) AGPLv3 Python"
   },
   {
     "name": "Guacamole",
     "url": "http://guac-dev.org/",
-    "description": "Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC and RDP. (Source Code) MIT Java/C"
+    "description": "Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC and RDP. (Source Code) Apache Java/C"
+  },
+  {
+    "name": "oneye",
+    "url": "https://oneye-project.org/",
+    "description": "Cloud software to access your data from everywhere with any browser. (Demo, Source Code) AGPLv3 PHP"
+  },
+  {
+    "name": "OS.js",
+    "url": "https://os.js.org/",
+    "description": "A desktop implementation for your browser with a fully-fledged window manager, Application APIs, GUI toolkits and filesystem abstraction. (Demo, Source Code) BSD Nodejs"
   },
   {
     "name": "Citadel",
@@ -1566,12 +1737,12 @@
   {
     "name": "Horde",
     "url": "http://www.horde.org/",
-    "description": "The Horde Project is about creating high quality Open Source applications and libraries, based on PHP and the Horde Framework. (Demo, Source Code) GPLv2"
+    "description": "The Horde Project is about creating high quality Open Source applications and libraries, based on PHP and the Horde Framework. (Demo, Source Code) GPLv2 PHP"
   },
   {
     "name": "Kolab",
     "url": "https://kolab.org/",
-    "description": "Kolab community is a unified communication and collaboration system. (Source Code) Various FLOSS Licenses C++/Python/PHP"
+    "description": "Kolab community is a unified communication and collaboration system. (Source Code) Multiple C++/Python/PHP"
   },
   {
     "name": "Kopano",
@@ -1581,12 +1752,12 @@
   {
     "name": "Mayan EDMS",
     "url": "http://www.mayan-edms.com",
-    "description": "Free Open Source Electronic Document Management System. An electronic vault for your documents with preview generation, OCR, and automatic categorization among other features. (Demo, Source Code) Apache Python/Django"
+    "description": "Free Open Source Electronic Document Management System. An electronic vault for your documents with preview generation, OCR, and automatic categorization among other features. (Demo, Source Code) Apache Python"
   },
   {
-    "name": "Openmeetings. (Source Code)",
+    "name": "Openmeetings",
     "url": "https://openmeetings.apache.org/index.html",
-    "description": "Openmeetings provides video conferencing, instant messaging, white board, collaborative document editing and other groupware tools using API functions of the Red5 Streaming Server for Remoting and Streaming. Apache 2.0  Java"
+    "description": "Openmeetings provides video conferencing, instant messaging, white board, collaborative document editing and other groupware tools using API functions of the Red5 Streaming Server for Remoting and Streaming. (Source Code) Apache Java"
   },
   {
     "name": "Sogo",
@@ -1601,7 +1772,7 @@
   {
     "name": "Zimbra Collaboration",
     "url": "https://www.zimbra.com/downloads/",
-    "description": "Email, calendar, collaboration server with web interface and lots of integrations.  (Source Code) GPLv2/CPALv1 Java"
+    "description": "Email, calendar, collaboration server with web interface and lots of integrations. (Source Code) GPLv2/CPALv1 Java"
   },
   {
     "name": "Chamilo LMS",
@@ -1616,12 +1787,12 @@
   {
     "name": "lxHive",
     "url": "http://www.lxhive.com/",
-    "description": "Open Source ExperienceAPI compliant Learning Record Store (LRS) - previously code-named TinCanAPI. Source Code GPLv3 PHP"
+    "description": "Open Source ExperienceAPI compliant Learning Record Store (LRS) - previously code-named TinCanAPI. (Source Code) GPLv3 PHP"
   },
   {
     "name": "Mahara",
     "url": "https://mahara.org/",
-    "description": "Open Source fully featured web application to build students electronic portfolio. Source Code GPLv3 PHP"
+    "description": "Open Source fully featured web application to build students electronic portfolio. (Source Code) GPLv3 PHP"
   },
   {
     "name": "Moodle",
@@ -1639,34 +1810,44 @@
     "description": "The Sakai project provides a flexible and feature-rich environment for teaching, learning, research and other collaboration. (Demo, Source Code) ECLv2 Java"
   },
   {
+    "name": "SchoolTool",
+    "url": "http://schooltool.org/",
+    "description": "SchoolTool is free administrative software for schools. It includes demographics, gradebook, attendance, calendaring, reporting and more for primary and secondary schools. (Source Code) GPLv2 Python"
+  },
+  {
     "name": "Graphhopper",
     "url": "https://graphhopper.com/",
-    "description": "Fast routing library and server using OpenStreetMap. (Source Code)"
+    "description": "Fast routing library and server using OpenStreetMap. (Source Code) Apache Java"
   },
   {
     "name": "MapBBCodeShare",
     "url": "https://github.com/MapBBCode/share.mapbbcode.org",
-    "description": "Tool for sharing custom OSM maps. Support for annotated markers, polygons, lines, multi-format import/export, multiple layers, shortlinks... (Demo) WTFPL/Other PHP/Javascript"
+    "description": "Tool for sharing custom OSM maps. Support for annotated markers, polygons, lines, multi-format import/export, multiple layers, shortlinks. (Demo) WTFPL/Other PHP"
+  },
+  {
+    "name": "OpenGTS",
+    "url": "http://www.opengts.org/",
+    "description": "Entry-level fleet tracking system. Supports variety of tracking devices and protocols. Comes with rich web-interface and reporting features. (Demo, Source Code) Apache Java"
   },
   {
     "name": "Openstreetmap",
     "url": "http://www.openstreetmap.org/",
-    "description": "OpenStreetMap is a map of the world, created by people like you and free to use under an open license. (Source Code)"
+    "description": "OpenStreetMap is a map of the world, created by people like you and free to use under an open license. (Source Code) GPLv2 Ruby"
   },
   {
     "name": "Traccar",
     "url": "https://www.traccar.org/",
-    "description": "Java application to track GPS positions. Supports loads of tracking devices and protocols, has an Android and iOS App. Has a web interface to view your trips. (Demo, Source Code) Apache"
+    "description": "Java application to track GPS positions. Supports loads of tracking devices and protocols, has an Android and iOS App. Has a web interface to view your trips. (Demo, Source Code) Apache Java"
   },
   {
     "name": "uMap",
     "url": "https://umap.openstreetmap.fr/en/",
-    "description": "Create maps with OpenStreetMap layers in a minute and embed them in your site. (Source Code) WTFPL Python/Django"
+    "description": "Create maps with OpenStreetMap layers in a minute and embed them in your site. (Source Code) WTFPL Python"
   },
   {
     "name": "Airtime",
     "url": "https://www.sourcefabric.org/en/airtime/",
-    "description": "Simple, open source platform that lets you broadcast streaming radio on the web. Source Code AGPLv3 PHP"
+    "description": "Simple, open source platform that lets you broadcast streaming radio on the web. (Source Code) AGPLv3 PHP"
   },
   {
     "name": "Ampache",
@@ -1679,9 +1860,9 @@
     "description": "Minimalistic Web-Mediaplayer. (Source Code) GPLv3 Python"
   },
   {
-    "name": "cloudtunes",
+    "name": "cloudtunes ⚠",
     "url": "https://github.com/jkbrzt/cloudtunes",
-    "description": "Web-based music player for the cloud. MIT Python/Javascript"
+    "description": "Web-based music player for the cloud. MIT Python"
   },
   {
     "name": "GNU FM",
@@ -1691,12 +1872,12 @@
   {
     "name": "Groove Basin",
     "url": "http://groovebasin.com/",
-    "description": "A music player server with a web-based user interface inspired by Amarok 1.4 (Source Code) MIT Nodejs"
+    "description": "A music player server with a web-based user interface inspired by Amarok 1.4. (Source Code) MIT Nodejs"
   },
   {
     "name": "Icecast 2",
     "url": "http://www.icecast.org/",
-    "description": "streaming audio server which can be used to create an Internet radio station or a privately running jukebox and many things in between. (Source Code) GPLv2 C"
+    "description": "streaming audio/video server which can be used to create an Internet radio station or a privately running jukebox and many things in between. (Source Code) GPLv2 C"
   },
   {
     "name": "koel",
@@ -1714,14 +1895,34 @@
     "description": "Extensible music server. Offers a superset of the mpd API, as well as integration with 3rd party services like Spotify, SoundCloud etc. (Source Code) Apache Python"
   },
   {
+    "name": "Moped",
+    "url": "https://github.com/martijnboland/moped",
+    "description": "Responisve HTML5 + Javascript client for the Mopidy music server. MIT HTML5"
+  },
+  {
+    "name": "Mopidy MusicBox",
+    "url": "https://github.com/pimusicbox/mopidy-musicbox-webclient",
+    "description": "Web Client for Mopidy Music Server. Apache HTML5"
+  },
+  {
+    "name": "Mopidy-Party",
+    "url": "https://github.com/Lesterpig/mopidy-party",
+    "description": "Mopidy web extension designed for party! Let your guests manage the sound. Apache Python"
+  },
+  {
     "name": "mpd",
     "url": "http://www.musicpd.org/",
     "description": "Daemon to remotely play music, stream music, handle and organize playlists. Many clients available. GPLv2 C++"
   },
   {
+    "name": "ympd",
+    "url": "http://www.ympd.org/",
+    "description": "Standalone MPD Web GUI written in C, utilizing Websockets and Bootstrap/JS. (Source Code) GPLv2 C"
+  },
+  {
     "name": "Sonerezh",
     "url": "https://www.sonerezh.bzh/",
-    "description": "A self-hosted, web-based application for stream your music, everywhere. (Demo, Documentation, Source Code) GPLv3 PHP"
+    "description": "A self-hosted, web-based application for stream your music, everywhere. (Demo, Source Code) GPLv3 PHP"
   },
   {
     "name": "CyTube",
@@ -1730,8 +1931,8 @@
   },
   {
     "name": "Emby",
-    "url": "https://github.com/MediaBrowser/Emby",
-    "description": "A home media server built using other popular open source technologies. - GPLv2"
+    "url": "http://emby.media/",
+    "description": "A home media server built using other popular open source technologies. (Source Code) GPLv2 C#"
   },
   {
     "name": "Flumotion",
@@ -1739,9 +1940,24 @@
     "description": "A streaming media server with intuitive graphical administration tools. (Source Code) LGPLv2 Python"
   },
   {
-    "name": "HTPC Manager",
-    "url": "http://htpc.io/",
-    "description": "A fully responsive interface to manage all your favorite media on your HTPC. - MIT"
+    "name": "Hellowlol HTPC Manager fork",
+    "url": "https://github.com/Hellowlol/HTPC-Manager",
+    "description": "A fully responsive interface to manage all your favorite media on your HTPC. (Source Code) MIT Python"
+  },
+  {
+    "name": "Icecast 2",
+    "url": "http://www.icecast.org/",
+    "description": "streaming audio/video server which can be used to create an Internet radio station or a privately running jukebox and many things in between. (Source Code) GPLv2 C"
+  },
+  {
+    "name": "MistServer",
+    "url": "http://mistserver.org/",
+    "description": "A streaming media server that works well in any streaming environment. (Source Code) AGPLv3 C++"
+  },
+  {
+    "name": "Odd Networks",
+    "url": "http://oddnetworks.com",
+    "description": "Open source video management system (VMS) and API for collections and videos with supporting SDKs for Roku, Apple iOS/tvOS, Google Android, and Amazon FireTV. (Source Code) MIT Nodejs"
   },
   {
     "name": "ReadyMedia",
@@ -1756,12 +1972,12 @@
   {
     "name": "Rygel",
     "url": "https://wiki.gnome.org/action/show/Projects/Rygel",
-    "description": "Rygel is a home media solution (UPnP AV MediaServer) that allows you to easily share audio, video and pictures to other devices. Additionally, media player software may use Rygel to become a MediaRenderer that may be controlled remotely by a UPnP or DLNA Controller. GPLv3 C"
+    "description": "Rygel is a UPnP AV MediaServer that allows you to easily share audio, video, and pictures. Media player software may use Rygel to become a MediaRenderer that may be controlled remotely by a UPnP or DLNA Controller. GPLv3 C"
   },
   {
     "name": "Streama",
     "url": "https://github.com/dularion/streama",
-    "description": "Self-hosted Netflix alternative. - MIT Java"
+    "description": "Self-hosted Netflix alternative. MIT Java"
   },
   {
     "name": "Zoneminder",
@@ -1769,9 +1985,74 @@
     "description": "Closed-circuit television (CCTV) software application which supports IP, USB and Analog cameras. GPLv2 PHP"
   },
   {
+    "name": "COPS",
+    "url": "https://blog.slucas.fr/en/oss/calibre-opds-php-server",
+    "description": "A lightweight e-book server alternative to Calibre content server or Calibre2OPDS. (Demo, Source Code) GPLv2 PHP"
+  },
+  {
+    "name": "CrushPaper",
+    "url": "https://www.crushpaper.com/",
+    "description": "Research the web for relevant sources, save quotations from them to CrushPaper and then combine them with your own insights into a paper. (Source Code) AGPLv3 Java"
+  },
+  {
+    "name": "DomainMOD",
+    "url": "https://domainmod.org",
+    "description": "An application to manage your domains and other internet assets in a central location. DomainMOD includes a Data Warehouse framework that allows you to import your WHM/cPanel web server data so that you can view, export, and report on your data. (Demo, Source Code) GPLv3 PHP"
+  },
+  {
+    "name": "EasyBook Project",
+    "url": "http://easybook-project.org/",
+    "description": "Book publishing as easy as it should be. (Source Code) MIT PHP"
+  },
+  {
+    "name": "Flox ⚠",
+    "url": "https://github.com/devfake/flox",
+    "description": "Self hosted movie watch list with a rating based on a 3-point system for good, medium and bad. (Demo) MIT PHP"
+  },
+  {
+    "name": "GeneWeb",
+    "url": "https://geneweb.tuxfamily.org/wiki/GeneWeb",
+    "description": "GeneWeb is an open source genealogy software written in OCaml. It comes with a Web interface and can be used off-line or as a Web service. (Demo, Source Code) GPLv2 OCAML"
+  },
+  {
+    "name": "King Phisher",
+    "url": "https://github.com/securestate/king-phisher",
+    "description": "King Phisher is a tool for testing and promoting user awareness by simulating real world phishing attacks. BSD Python"
+  },
+  {
+    "name": "LicAPI",
+    "url": "https://projects.miguelpiedrafita.com/LicAPI",
+    "description": "A PHP API to manage license info. (Source Code) MPLv2 PHP"
+  },
+  {
     "name": "Mindmaps",
     "url": "https://github.com/drichard/mindmaps",
-    "description": "An open source, offline capable, mind mapping application. (Demo)"
+    "description": "An open source, offline capable, mind mapping application. (Demo) AGPLv3 HTML5"
+  },
+  {
+    "name": "Musical Artifacts",
+    "url": "https://musical-artifacts.com/",
+    "description": "Helping to catalog, preserve and free the artifacts you need to produce music. (Source Code) MIT Ruby"
+  },
+  {
+    "name": "Skygear",
+    "url": "https://skygear.io",
+    "description": "A complete backend server for web, mobile and iOT applcations. (Demo, Source Code) Apache Go"
+  },
+  {
+    "name": "Ulterius",
+    "url": "https://ulterius.io",
+    "description": "Ulterius is an open-source remote desktop software with lots of awesome functions. (Demo, Source Code) MPLv2 C#"
+  },
+  {
+    "name": "visualCaptcha",
+    "url": "http://visualcaptcha.net/",
+    "description": "A configurable captcha solution, focusing on accessibility & simplicity whilst maintaining security. (Demo, Source Code) MIT PHP/Nodejs/Ruby/Python"
+  },
+  {
+    "name": "webtrees",
+    "url": "https://www.webtrees.net",
+    "description": "webtrees is the web's leading on-line collaborative genealogy application. (Demo, Source Code) GPLv3 PHP"
   },
   {
     "name": "Benedetto",
@@ -1779,14 +2060,29 @@
     "description": "Bennedetto is a simple, turn-based budget management app. GPLv3 Python"
   },
   {
+    "name": "Budget App",
+    "url": "https://www.budgetapp.io/",
+    "description": "Budget App is an open source personal budgeting application. (Demo, Source Code) Apache Java"
+  },
+  {
+    "name": "Dot Ledger",
+    "url": "https://www.dotledger.com/",
+    "description": "A web-based personal finance management tool. (Demo, Source Code) Apache Ruby"
+  },
+  {
     "name": "Economizzer",
     "url": "http://www.economizzer.org/",
     "description": "Economizzer is a simple and open source personal finance manager system, available in English, Brazilian, Portuguese and Russian. (Source Code) MIT PHP"
   },
   {
+    "name": "ExMoney",
+    "url": "https://github.com/gaynetdinov/ex_money",
+    "description": "A [work-in-progress] self-hosted personal finance app. ISC Elixir"
+  },
+  {
     "name": "Firefly III",
-    "url": "https://jc5.github.io/firefly-iii/",
-    "description": "Firefly III is a financial manager. It helps you keeping track of your money and make budget forecasts. It supports credit cards, shared household accounts and savings accounts. Very modern, it's powered by Laravel and requires PHP7. MIT PHP"
+    "url": "https://firefly-iii.github.io/",
+    "description": "Firefly III is a financial manager. It helps you keeping track of your money and make budget forecasts. It supports credit cards, shared household accounts and savings accounts. Very modern, it's powered by Laravel and requires PHP7. (Demo, Source Code) CCBYSAv4 PHP"
   },
   {
     "name": "Galette",
@@ -1794,19 +2090,14 @@
     "description": "Galette is a membership management web application towards non profit organizations. (Source Code) GPLv3 PHP"
   },
   {
-    "name": "GLPI",
-    "url": "http://www.glpi-project.org/spip.php?lang=en",
-    "description": "GLPI is an IT assests/resources/inventory manager. (Source Code) GPLv2 PHP"
-  },
-  {
     "name": "GRR",
     "url": "http://grr.devome.com/?lang=en",
-    "description": "Assets management and booking for small/medium companies. (demo, administrateur/azerty) GPLv2 PHP"
+    "description": "Assets management and booking for small/medium companies. (Source Code) GPLv2 PHP"
   },
   {
     "name": "Hospital Run",
     "url": "http://hospitalrun.io/",
-    "description": "Hospital Run is offline enabled hospital management software. (Source Code, Demo) GPLv3 Nodejs/Ember"
+    "description": "Hospital Run is offline enabled hospital management software. (Source Code, Demo) GPLv3 Nodejs"
   },
   {
     "name": "Inventaire",
@@ -1815,13 +2106,13 @@
   },
   {
     "name": "Invoice Ninja",
-    "url": "https://www.invoiceninja.com/",
+    "url": "https://www.invoiceninja.org/",
     "description": "A powerful tool to invoice clients online. (Demo, Source Code) AAL PHP"
   },
   {
     "name": "InvoicePlane",
     "url": "https://invoiceplane.com/",
-    "description": "Manage quotes, invoices, payments and customers for your small business. (Demo, Source Code) MIT"
+    "description": "Manage quotes, invoices, payments and customers for your small business. (Demo, Source Code) MIT PHP"
   },
   {
     "name": "IHateMoney",
@@ -1829,14 +2120,14 @@
     "description": "Manage your shared expenses, easily. (Source Code) BSD Python"
   },
   {
-    "name": "Tryton",
-    "url": "http://www.tryton.org/",
-    "description": "Core base of a complete business solution (ERP). (Demo admin/admin, Source Code) GPLv3 Python"
-  },
-  {
     "name": "Koha",
     "url": "https://koha-community.org/",
     "description": "Fully featured, scalable library management system (integrated library system - ILS). (Source Code) GPLv3 Perl"
+  },
+  {
+    "name": "PartKeepr",
+    "url": "https://www.partkeepr.org",
+    "description": "PartKeepr is an electronic part inventory management software. It helps you to keep track of your available parts and assist you with re-ordering parts. (Demo, Source Code) GPLv3 PHP"
   },
   {
     "name": "StockazNG",
@@ -1844,9 +2135,19 @@
     "description": "Asset Management System. MIT Python"
   },
   {
+    "name": "Tryton",
+    "url": "http://www.tryton.org/",
+    "description": "Core base of a complete business solution (ERP). (Demo admin/admin, Source Code) GPLv3 Python"
+  },
+  {
     "name": "dillinger",
     "url": "http://dillinger.io/",
     "description": "The last Markdown editor, ever. (Source Code) MIT Nodejs"
+  },
+  {
+    "name": "Guacamoly",
+    "url": "http://guacamoly.rocks/",
+    "description": "Personal notes stream with Markdown support. (Source Code) MIT Nodejs"
   },
   {
     "name": "Jotter",
@@ -1856,7 +2157,7 @@
   {
     "name": "Laverna",
     "url": "https://laverna.cc/",
-    "description": "Laverna is a JavaScript note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote. (Demo, Source Code) MPLv2 Nodejs"
+    "description": "Laverna is a Javascript note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote. (Demo, Source Code) MPLv2 Nodejs"
   },
   {
     "name": "Leanote",
@@ -1866,7 +2167,7 @@
   {
     "name": "Markdown Edit",
     "url": "http://georgeosddev.github.com/markdown-edit/",
-    "description": "Online markdown editor/viewer. (Source code) MIT HTML5"
+    "description": "Online markdown editor/viewer. (Source Code) MIT HTML5"
   },
   {
     "name": "minimalist-web-notepad",
@@ -1901,12 +2202,17 @@
   {
     "name": "EtherCalc",
     "url": "https://ethercalc.org/",
-    "description": "Web spreadsheet. (Source code CPALv1/Other Nodejs"
+    "description": "Web spreadsheet. (Source Code) CPALv1/Other Nodejs"
+  },
+  {
+    "name": "EtherDraw",
+    "url": "https://github.com/JohnMcLear/draw",
+    "description": "An intuitive collaborative drawing web based tool. (Demo) Apache Nodejs"
   },
   {
     "name": "Etherpad",
     "url": "http://etherpad.org/",
-    "description": "Etherpad is a highly customizable Open Source online editor providing collaborative editing in really real-time. - Apache"
+    "description": "Etherpad is a highly customizable Open Source online editor providing collaborative editing in really real-time. (Demo, Source Code) Apache Nodejs"
   },
   {
     "name": "Infinoted",
@@ -1919,6 +2225,11 @@
     "description": "An office suite that enables you to manage documents, projects, team and customer relations in one place. (Source Code) AGPLv3 Nodejs"
   },
   {
+    "name": "ownCloud documents",
+    "url": "https://doc.owncloud.org/server/8.2/user_manual/documents.html",
+    "description": "Collaborative editing and sharing of rich-text documents. (Source Code) AGPLv3 PHP"
+  },
+  {
     "name": "PHPOffice",
     "url": "http://phpoffice.github.io/",
     "description": "PHPOffice contains libraries which permits to write and read files from most office suites. LGPLv3 PHP"
@@ -1926,17 +2237,12 @@
   {
     "name": "WebODF",
     "url": "http://webodf.org/",
-    "description": "Tools and libraries to view and edit Open Document Format (ODF) files. (Source Code) AGPLv3 Javascript"
-  },
-  {
-    "name": "ownCloud documents",
-    "url": "https://doc.owncloud.org/server/8.2/user_manual/documents.html",
-    "description": "Collaborative editing and sharing of rich-text documents. (Source Code) AGPLv3 PHP"
+    "description": "Tools and libraries to view and edit Open Document Format (ODF) files. (Source Code) AGPLv3 HTML5"
   },
   {
     "name": "keeweb",
     "url": "https://keeweb.info/",
-    "description": "This webapp is a browser and desktop password manager compatible with KeePass databases. (Source Code) MIT JavaScript"
+    "description": "This webapp is a browser and desktop password manager compatible with KeePass databases. (Source Code) MIT HTML5"
   },
   {
     "name": "PHP Password Manager",
@@ -1946,7 +2252,12 @@
   {
     "name": "RatticDB",
     "url": "http://rattic.org/",
-    "description": "Password Management for Humans. (Source Code, Demo)"
+    "description": "Password Management for Humans. (Demo, Source Code) GPLv2 Python"
+  },
+  {
+    "name": "sysPass",
+    "url": "http://www.syspass.org/",
+    "description": "Multiuser password management system. (Demo, Source Code) GPLv3 PHP"
   },
   {
     "name": "Teampass",
@@ -1959,9 +2270,24 @@
     "description": "Client side encrypted pastebin. WTFPL Python"
   },
   {
+    "name": "CoderVault",
+    "url": "https://github.com/codervault",
+    "description": "An Open Source, Self-Hosted, Snippet Manager. (Source Code) MIT Ruby"
+  },
+  {
     "name": "cryptonote",
     "url": "https://cryptonote.me/",
     "description": "A simple open source web application that lets users encrypt and share messages that can only be read once. (Source Code) BSD Ruby"
+  },
+  {
+    "name": "CryptPad",
+    "url": "https://cryptpad.fr/",
+    "description": "CryptPad is the zero knowledge realtime collaborative editor. (Source Code) AGPLv3 Nodejs"
+  },
+  {
+    "name": "EdPaste",
+    "url": "https://github.com/Edraens/EdPaste",
+    "description": "Self-hosted pastebin written in Laravel (PHP Framework). (Demo) MIT PHP"
   },
   {
     "name": "gist",
@@ -1979,6 +2305,21 @@
     "description": "Simple python based pastebin you can run locally, with curl for input. Supports RAW text by default and binary data such as images (no extensions on returned url). GPLv2 Python"
   },
   {
+    "name": "mojopaste",
+    "url": "http://search.cpan.org/dist/App-mojopaste/",
+    "description": "Perl based pastebin. (Demo, Source Code) ARTv2 Perl"
+  },
+  {
+    "name": "NoteHub",
+    "url": "https://notehub.org",
+    "description": "Free and Hassle-free Pastebin for Markdown Pages. Simple, clean, password provided, generated-short link. (Demo, Source Code) MIT Nodejs"
+  },
+  {
+    "name": "Paste",
+    "url": "http://phpaste.sourceforge.net/",
+    "description": "Paste is forked from the original source pastebin.com used before it was bought. (Demo, Source Code) GPLv3 PHP"
+  },
+  {
     "name": "Pastebin",
     "url": "https://p.pantsu.cat",
     "description": "Modern self-hosted pastebin service with a restful API. (Demo, Source Code) MIT Go"
@@ -1991,12 +2332,12 @@
   {
     "name": "pb",
     "url": "https://github.com/ptpb/pb",
-    "description": "Lightweight pastebin (and url shortener) built using flask. (Demo) GPLv3 Python/Flask"
+    "description": "Lightweight pastebin (and url shortener) built using flask. (Demo) GPLv3 Python"
   },
   {
     "name": "pbnh",
     "url": "https://github.com/bhanderson/pbnh",
-    "description": "Pastebin inspired from project pb and hastebin, with an API and a SQL-based backend. MIT Python/Flask"
+    "description": "Pastebin inspired from project pb and hastebin, with an API and a SQL-based backend. MIT Python"
   },
   {
     "name": "Phaste",
@@ -2004,14 +2345,19 @@
     "description": "A Phalcon-based, MySQL pastebin application with privacy-respecting Piwik integration and syntax highlighting. (Source Code) AGPLv3 PHP"
   },
   {
+    "name": "PrivateBin",
+    "url": "https://privatebin.info/",
+    "description": "PrivateBin is a minimalist, opensource online pastebin/discussion board where the server has zero knowledge of hosted data. (Demo, Source Code) Zlib PHP"
+  },
+  {
     "name": "snipt",
     "url": "https://snipt.net/",
-    "description": "Long-term memory for coders. Share and store code snippets  (Source Code) BSD Python"
+    "description": "Long-term memory for coders. Share and store code snippets. (Source Code) BSD Python"
   },
   {
     "name": "Sticky Notes",
     "url": "http://sayakb.github.io/sticky-notes/",
-    "description": "A powerful open-source pastebin application for effortless code sharing. (Source Code) PHP"
+    "description": "A powerful open-source pastebin application for effortless code sharing. (Source Code) BSD PHP"
   },
   {
     "name": "Stikked",
@@ -2024,11 +2370,6 @@
     "description": "Updated version of hastebin plus additional features. Apache Nodejs"
   },
   {
-    "name": "ZeroBin",
-    "url": "https://github.com/elrido/ZeroBin/wiki",
-    "description": "ZeroBin is a minimalist, opensource online pastebin/discussion board where the server has zero knowledge of hosted data. (Demo, Source Code) Zlib PHP"
-  },
-  {
     "name": "Dashing",
     "url": "http://shopify.github.io/dashing/",
     "description": "Sinatra based, open sourced dashboard builder from Shopify. (Demo, Source Code) MIT Ruby"
@@ -2036,7 +2377,7 @@
   {
     "name": "Dj Diabetes",
     "url": "https://github.com/foxmask/dj-diabetes",
-    "description": "My Glucose Manager - follow your daily health  BSD Python"
+    "description": "My Glucose Manager - follow your daily health. BSD Python"
   },
   {
     "name": "Freeboard",
@@ -2054,6 +2395,11 @@
     "description": "A habit tracker app which treats your goals like a Role Playing Game. Previously called HabitRPG. (Source Code) GPLv3/Other Nodejs"
   },
   {
+    "name": "Homepage",
+    "url": "https://github.com/thetomester13/homepage",
+    "description": "A simple, standalone, self-hosted PHP page that is your window to your server and the web. MIT PHP"
+  },
+  {
     "name": "Phant",
     "url": "http://phant.io/",
     "description": "Phant is a modular data logging tool for collecting data from the Internet of Things. (Demo, Source Code) GPLv3 Nodejs"
@@ -2061,7 +2407,7 @@
   {
     "name": "Reportr",
     "url": "https://github.com/Reportr/dashboard",
-    "description": "Your life's personal dashboard. (Source Code)"
+    "description": "Your life's personal dashboard. (Source Code) Apache Nodejs"
   },
   {
     "name": "Thingspeak",
@@ -2079,14 +2425,19 @@
     "description": "A web-based personal workout, fitness and weight logger/tracker. It can also be used as a simple gym management utility and offers a full REST API as well. (Demo) AGPLv3 Python"
   },
   {
-    "name": "CumulusClips",
-    "url": "http://cumulusclips.org/",
-    "description": "Your own video sharing website with CumulusClips video sharing script. You can build a YouTube clone where users can upload, rate, comment on videos, and much more.  GPLv2 PHP (Demo)"
+    "name": "Chevereto Free",
+    "url": "https://chevereto.com/free",
+    "description": "A powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. (Source Code) AGPLv3 PHP"
   },
   {
-    "name": "Koken",
-    "url": "http://koken.me/",
-    "description": "Content management and web site publishing for photographers. PHP"
+    "name": "CumulusClips",
+    "url": "http://cumulusclips.org/",
+    "description": "Your own video sharing website with CumulusClips video sharing script. You can build a YouTube clone where users can upload, rate, comment on videos, and much more. (Demo) GPLv2 PHP"
+  },
+  {
+    "name": "Gallery CSS",
+    "url": "https://benschwarz.github.io/gallery-css/",
+    "description": "Gallery.css is all CSS. Think: Simple, maintainable and understandable galleries without the use of Javascript. (Source Code) MIT CSS"
   },
   {
     "name": "Lychee",
@@ -2106,32 +2457,27 @@
   {
     "name": "MinigalNano",
     "url": "https://github.com/sebsauvage/MinigalNano",
-    "description": "MinigalNano is a very simple image gallery. It adheres to the KISS principle and is very easy to install. MinigalNano does not have a web admin interface: You just upload your images in the photo folder on your server (using FTP, SFTP) (Demo) CC BY-SA 3.0 PHP"
-  },
-  {
-    "name": "phog",
-    "url": "https://github.com/hillman/phog",
-    "description": "Static photo gallery generator with S3 uploader. Python"
+    "description": "MinigalNano is a very simple image gallery. It adheres to the KISS principle and is very easy to install. MinigalNano does not have a web admin interface: You just upload your images in the photo folder on your server (using FTP, SFTP). (Demo) GPLv3/CCBYNCNDv4 PHP"
   },
   {
     "name": "Photofloat",
     "url": "http://blog.zx2c4.com/567",
-    "description": "A Web 2.0 Photo Gallery Done Right via Static JSON & Dynamic Javascript. (Demo) Javascript GPLv2"
+    "description": "A Web 2.0 Photo Gallery Done Right via Static JSON & Dynamic Javascript. (Demo) GPLv2 Python"
   },
   {
     "name": "PhotoLight",
     "url": "https://github.com/thibaud-rohmer/PhotoLight",
-    "description": "The easiest photo gallery there is. PHP GPLv3"
+    "description": "The easiest photo gallery there is. GPLv3 PHP"
   },
   {
     "name": "Photoshow",
     "url": "http://www.photoshow-gallery.com/",
-    "description": "Responsive Web Gallery. (Source Code) Javascript GPLv3"
+    "description": "Responsive Web Gallery. (Source Code) GPLv3 PHP"
   },
   {
     "name": "Piwigo",
     "url": "http://piwigo.org/",
-    "description": "Photo gallery software for the web, built by an active community of users and developers. - GPLv2 PHP"
+    "description": "Photo gallery software for the web, built by an active community of users and developers. GPLv2 PHP"
   },
   {
     "name": "Plumi",
@@ -2139,14 +2485,9 @@
     "description": "Create your own sophisticated video-sharing site. (Source Code) GPLv2 Python"
   },
   {
-    "name": "Pygmyfoto",
-    "url": "https://github.com/dmpop/pygmyfoto",
-    "description": "A crude solution for publishing a photo roll on the web. PHP"
-  },
-  {
     "name": "Shot.io",
     "url": "http://shot.io/",
-    "description": "Mobile optimised photo publishing platform (self-hosted Flickr alternative) (Source Code) GPLv3 PHP"
+    "description": "Mobile optimised photo publishing platform (self-hosted Flickr alternative). (Source Code) GPLv3 PHP"
   },
   {
     "name": "sigal",
@@ -2166,7 +2507,12 @@
   {
     "name": "Zenphoto",
     "url": "http://www.zenphoto.org/",
-    "description": "Open-source gallery and CMS project. (Source Code)  GPLv2 PHP"
+    "description": "Open-source gallery and CMS project. (Source Code) GPLv2 PHP"
+  },
+  {
+    "name": "Calagator",
+    "url": "http://calagator.org/",
+    "description": "An event aggregator. (Demo, Source code) MIT Ruby"
   },
   {
     "name": "dudle",
@@ -2181,22 +2527,27 @@
   {
     "name": "Kyélà",
     "url": "http://kyela.net/",
-    "description": "Participation polls for group events. (Demo, Source Code)"
+    "description": "Participation polls for group events. (Demo, Source Code) AGPLv3 PHP"
   },
   {
     "name": "LimeSurvey",
     "url": "https://www.limesurvey.org",
-    "description": "Feature-rich Open Source web based polling software. Supports extensive survey logic. (Demo)"
+    "description": "Feature-rich Open Source web based polling software. Supports extensive survey logic. (Demo) GPLv2 PHP"
   },
   {
     "name": "MaterialPoll",
     "url": "https://github.com/nearbycoder/materialpoll",
-    "description": "An opensource strawpoll.me clone for creating random polls. (Demo, Source Code)"
+    "description": "An opensource strawpoll.me clone for creating random polls. (Demo, Source Code) MIT Nodejs"
   },
   {
     "name": "Nuages",
     "url": "https://nuages.domainepublic.net/",
-    "description": "Collaborative meeting poll system, similar to doodle or rdvz. (Source Code) GPLv3 Python/Django"
+    "description": "Collaborative meeting poll system, similar to doodle or rdvz. (Source Code) GPLv3 Python"
+  },
+  {
+    "name": "PHPBack",
+    "url": "http://www.phpback.org",
+    "description": "The open source feedback system. (Demo, Source Code) GPLv3 PHP"
   },
   {
     "name": "TellForm",
@@ -2204,9 +2555,14 @@
     "description": "A beautiful online form and survey creator. (Demo, Source Code) MIT Nodejs"
   },
   {
-    "name": "scotty",
-    "url": "http://www.scotty-transporter.org/",
-    "description": "Scotty is a free opensource proxy software for bypassing filter and censorship systems. (Source Code) GPLv3 Java"
+    "name": "microproxy",
+    "url": "https://github.com/thekvs/microproxy",
+    "description": "lightweight non-caching HTTP/HTTPS proxy server. (Source Code) MIT Go"
+  },
+  {
+    "name": "miniProxy",
+    "url": "https://github.com/joshdick/miniProxy/",
+    "description": "Simple web proxy written in PHP that can allow you to bypass Internet content filters, or to browse the internet anonymously. Only one php file. (Source Code) GPLv3 PHP"
   },
   {
     "name": "Oranjeproxy",
@@ -2214,9 +2570,24 @@
     "description": "Anonymizing web proxy. (Source Code) GPLv2 PHP"
   },
   {
+    "name": "PHP-Proxy",
+    "url": "https://www.php-proxy.com/",
+    "description": "A web proxy script built specifically to be fast, easy to modify and to support video sites such as YouTube. (Demo, Source Code) MIT PHP"
+  },
+  {
+    "name": "Pound",
+    "url": "http://www.apsis.ch/pound/",
+    "description": "Light-weight reverse proxy and load balancer for HTTP/HTTPS. (Source Code) GPLv2 C"
+  },
+  {
     "name": "Privoxy",
     "url": "http://www.privoxy.org",
     "description": "A non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, and removing ads and other obnoxious Internet junk. GPLv2 C"
+  },
+  {
+    "name": "scotty",
+    "url": "http://www.scotty-transporter.org/",
+    "description": "Scotty is a free opensource proxy software for bypassing filter and censorship systems. (Source Code) GPLv3 Java"
   },
   {
     "name": "Squid",
@@ -2226,7 +2597,7 @@
   {
     "name": "Swiperproxy",
     "url": "https://swiperproxy.github.io/",
-    "description": "A lightning-fast, open source web proxy that is easy for you to run and customize. (Demo, Source Code) MIT"
+    "description": "A lightning-fast, open source web proxy that is easy for you to run and customize. (Demo, Source Code) MIT Python"
   },
   {
     "name": "Tinyproxy",
@@ -2237,11 +2608,6 @@
     "name": "Traefik",
     "url": "https://traefik.io/",
     "description": "Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease. It supports several backends (Docker, Swarm, Mesos/Marathon, …) to manage its configuration automatically and dynamically. (Source Code) MIT Go"
-  },
-  {
-    "name": "Pound",
-    "url": "http://www.apsis.ch/pound/",
-    "description": "Light-weight reverse proxy and load balancer for HTTP/HTTPS. (Source Code) GPLv2 C"
   },
   {
     "name": "Nunux Keeper",
@@ -2255,8 +2621,8 @@
   },
   {
     "name": "Wallabag",
-    "url": "https://www.wallabag.org/?lang=fr_fr",
-    "description": "Wallabag, formerly Poche, is a web application allowing you to save articles to read them later with improved readability. (Demo, Public instance, Source Code MIT PHP"
+    "url": "https://www.wallabag.org",
+    "description": "Wallabag, formerly Poche, is a web application allowing you to save articles to read them later with improved readability. (Demo, Source Code) MIT PHP"
   },
   {
     "name": "Gigablast",
@@ -2266,7 +2632,7 @@
   {
     "name": "Searx",
     "url": "https://github.com/asciimoo/searx",
-    "description": "A privacy-respecting, hackable metasearch engine. (Demo, Public instances)"
+    "description": "A privacy-respecting, hackable metasearch engine. (Demo) AGPLv3 Python"
   },
   {
     "name": "Seeks",
@@ -2284,39 +2650,54 @@
     "description": "Manage software products, Keep track of features, tasks and bugs. Apache Python"
   },
   {
+    "name": "Bonobo Git Server",
+    "url": "https://bonobogitserver.com/",
+    "description": "Set up your own self hosted git server on IIS for Windows. Manage users and have full control over your repositories with a nice user friendly graphical interface. (Source Code) MIT C#"
+  },
+  {
     "name": "CaseBox",
     "url": "https://www.casebox.org",
-    "description": "Manage all your organisation's information in one system."
+    "description": "Manage all your organisation's information in one system. (Source Code) AGPLv3 PHP/Java"
   },
   {
     "name": "Fossil",
     "url": "https://www.fossil-scm.org/index.html/doc/trunk/www/index.wiki",
-    "description": "Distributed version control system featuring wiki and bug tracker - BSD C"
+    "description": "Distributed version control system featuring wiki and bug tracker. BSD C"
+  },
+  {
+    "name": "Gitblit",
+    "url": "http://gitblit.com/",
+    "description": "A pure Java stack for managing, viewing, and serving Git repositories. (Source Code) Apache Java"
   },
   {
     "name": "gitbucket",
     "url": "https://gitbucket.github.io/gitbucket-news/",
-    "description": "The easily installable GitHub clone powered by Scala (Source Code)"
+    "description": "The easily installable GitHub clone powered by Scala. (Source Code) Apache Scala/Java"
   },
   {
     "name": "GitLab",
     "url": "http://gitlab.org/",
-    "description": "Self Hosted Git Management Application - GitLab is open source software to collaborate on code. Manage git repositories with fine grained access controls that keep your code secure. Perform code reviews and enhance collaboration with merge requests. Each project can also have an issue tracker and a wiki. (Public instance)"
+    "description": "Self Hosted Git repository management, code reviews, issue tracking, activity feeds and wikis. (Demo, Source Code) MIT Ruby"
   },
   {
     "name": "Gitlist",
     "url": "http://gitlist.org/",
-    "description": "A web-based git repository browser - GitList allows you to browse repositories using your favorite browser, viewing files under different revisions, commit history and diffs. (Source Code)"
+    "description": "A web-based git repository browser - GitList allows you to browse repositories using your favorite browser, viewing files under different revisions, commit history and diffs. (Source Code) BSD PHP"
   },
   {
     "name": "Gitprep",
     "url": "http://gitprep.yukikimoto.com/",
-    "description": "Portable Github clone. (Source Code, Demo)"
+    "description": "Portable Github clone. (Source Code, Demo) GPL Perl"
+  },
+  {
+    "name": "Git WebUI",
+    "url": "https://github.com/alberthier/git-webui",
+    "description": "A standalone web based user interface for git repositories. Apache Python"
   },
   {
     "name": "Gogs",
     "url": "https://github.com/gogits/gogs",
-    "description": "A painless self-hosted Git Service written in Go. (Demo)"
+    "description": "A painless self-hosted Git Service written in Go. (Demo) MIT Go"
   },
   {
     "name": "Kallithea",
@@ -2336,7 +2717,7 @@
   {
     "name": "OpenProject",
     "url": "https://www.openproject.org",
-    "description": "Project collaboration."
+    "description": "OpenProject is a web-based project management system. GPLv3 Ruby"
   },
   {
     "name": "Phabricator",
@@ -2346,32 +2727,37 @@
   {
     "name": "Redmine",
     "url": "http://www.redmine.org/",
-    "description": "Redmine is a flexible project management web application. Ruby GPLv2"
+    "description": "Redmine is a flexible project management web application. (Demo, Source Code) GPLv2 Ruby"
+  },
+  {
+    "name": "SCM Manager",
+    "url": "https://www.scm-manager.org/",
+    "description": "The easiest way to share and manage your Git, Mercurial and Subversion repositories over http. (Source Code) BSD Java"
   },
   {
     "name": "Taiga",
     "url": "https://taiga.io/",
-    "description": "Agile Project Management Tool based on the Kanban and Scrum methods.  (Source Code)"
+    "description": "Agile Project Management Tool based on the Kanban and Scrum methods. (Source Code) AGPLv3 Python"
   },
   {
     "name": "The Bug Genie",
     "url": "http://www.thebuggenie.com/",
-    "description": "Written in PHP."
+    "description": "The Bug Genie is a friendly project management and issue tracking tool. (Source Code) MPLv2 PHP"
   },
   {
     "name": "Trac",
     "url": "http://trac.edgewall.org/",
-    "description": "Written in python."
+    "description": "Trac is an enhanced wiki and issue tracking system for software development projects. BSD Python"
   },
   {
     "name": "Phproject",
     "url": "http://www.phproject.org/",
-    "description": "A high performance full-featured project management system. (Demo, Source Code) GPLv3"
+    "description": "A high performance full-featured project management system. (Demo, Source Code) GPLv3 PHP"
   },
   {
     "name": "Codiad",
     "url": "http://codiad.com/",
-    "description": "A web-based IDE framework with a small footprint and minimal requirements. (Source Code)"
+    "description": "A web-based IDE framework with a small footprint and minimal requirements. (Source Code) MIT PHP"
   },
   {
     "name": "Eclipse Che",
@@ -2389,9 +2775,14 @@
     "description": "Open source collaborative web development debugging tool. (Source Code) MIT Nodejs"
   },
   {
+    "name": "Koding",
+    "url": "http://www.koding.com/",
+    "description": "The simplest way to manage your entire Dev Infrastructure. (Source Code) Apache Nodejs"
+  },
+  {
     "name": "Microglark",
     "url": "http://micro.glark.io",
-    "description": "A hacky minimalistic remote pair programming editor. (Demo, Source Code) AGPLv3 Javascript"
+    "description": "A hacky minimalistic remote pair programming editor. (Demo, Source Code) AGPLv3 Nodejs"
   },
   {
     "name": "Regexr",
@@ -2409,13 +2800,23 @@
     "description": "A Web-based IDE for Teams using Go programming language/Golang. (Demo) Apache Go"
   },
   {
+    "name": "Buddy GO",
+    "url": "https://buddy.works/",
+    "description": "The Git and Continous Integration / Delivery Platform. Fair Nodejs/Java"
+  },
+  {
+    "name": "Concourse",
+    "url": "https://concourse.ci/",
+    "description": "Concourse is a CI tool that treats pipelines as first class objects and containerizes every step along the way. (Demo, Source Code) Apache Go"
+  },
+  {
     "name": "drone",
     "url": "https://drone.io/",
     "description": "Drone is a Continuous Delivery platform built on Docker, written in Go. (Source Code) Apache Go"
   },
   {
-    "name": "Factor.io",
-    "url": "https://factor.io/",
+    "name": "Factor",
+    "url": "http://www.factor.io/",
     "description": "It's like IFTTT (if-this-then-that) for Dev and DevOps. (Source Code) MIT Ruby"
   },
   {
@@ -2431,22 +2832,32 @@
   {
     "name": "Strider",
     "url": "http://stridercd.com/",
-    "description": "Open Source Continuous Deployment / Continuous Integration platform. (Source Code) BSD Node.js"
+    "description": "Open Source Continuous Deployment / Continuous Integration platform. (Source Code) BSD Nodejs"
   },
   {
-    "name": "Docstore",
-    "url": "http://haldean.org/",
-    "description": "A basic site for hosting static documents - docstore is a simple way to serve Markdown files without any server-side processing, and without requiring you (as the author) to recompile every time you change an article. It consists of a very simple JS script that makes an ajax request to your server, runs a Markdown processor on what it finds, and then displays the results. Clone the repository and add articles in the text/ directory to get started. (Source Code)"
+    "name": "DreamFactory",
+    "url": "https://www.dreamfactory.com/",
+    "description": "Turns any SQL/NoSQL/Structured data into Restful API. (Source Code) Apache PHP"
+  },
+  {
+    "name": "Fusio",
+    "url": "http://www.fusio-project.org/",
+    "description": "Fusio is an open source API management platform which helps to build and manage REST APIs. (Demo, Source Code) AGPLv3 PHP"
+  },
+  {
+    "name": "Para",
+    "url": "http://www.paraio.org",
+    "description": "Para is a flexible and modular backend framework/server for object persistence, API development and authentication. (Source Code) Apache Java"
   },
   {
     "name": "Flatdoc",
     "url": "http://ricostacruz.com/flatdoc/",
-    "description": "A small JavaScript file that fetches Markdown files and renders them as full pages. MIT Javascript"
+    "description": "A small Javascript file that fetches Markdown files and renders them as full pages. MIT Javascript"
   },
   {
     "name": "markdown-tree",
     "url": "https://github.com/mil/markdown-tree",
-    "description": "Serve a hierarchy / tree directory of markdown files. Use intended for small sites built in markdown"
+    "description": "Serve a hierarchy / tree directory of markdown files. Use intended for small sites built in markdown. MIT Ruby"
   },
   {
     "name": "Read the Docs",
@@ -2461,17 +2872,22 @@
   {
     "name": "Crepido",
     "url": "https://github.com/arshad/crepido",
-    "description": "Create (kanban) boards to track users and projects from flat markdown files. MIT Javascript/Others"
+    "description": "Create (kanban) boards to track users and projects from flat markdown files. MIT Nodejs"
   },
   {
     "name": "Kanboard",
     "url": "http://kanboard.net/",
-    "description": "A simple and open source visual task board. MIT"
+    "description": "A simple and open source visual task board. (Source Code) MIT PHP"
+  },
+  {
+    "name": "Wheatbin",
+    "url": "http://wheatbin.com/",
+    "description": "A project management software that combines Kanban methodology with the Law of the Harvest. (Source Code) MIT PHP"
   },
   {
     "name": "myTinyTodo",
     "url": "http://www.mytinytodo.net/",
-    "description": "Simple way to manage your todo list in AJAX style. Uses PHP, jQuery, SQLite/MySQL. GTD compliant. GPL"
+    "description": "Simple way to manage your todo list in AJAX style. Uses PHP, jQuery, SQLite/MySQL. GTD compliant. GPLv2 PHP"
   },
   {
     "name": "omgnata",
@@ -2481,22 +2897,32 @@
   {
     "name": "Restyaboard",
     "url": "http://restya.com/board/",
-    "description": "Open source Trello-like kanban board. (Demo, Source Code) OSL v3.0 PHP"
+    "description": "Open source Trello-like kanban board. (Demo, Source Code) OSLv3 PHP"
   },
   {
     "name": "TaskBoard",
     "url": "http://taskboard.matthewross.me/",
-    "description": "A Kanban-inspired app for keeping track of things that need to get done. (Source Code) MIT"
+    "description": "A Kanban-inspired app for keeping track of things that need to get done. (Source Code) MIT PHP"
   },
   {
     "name": "Taskfreak",
     "url": "http://www.taskfreak.com/original",
-    "description": "A simple but efficient web based task manager written in PHP. (Demo)"
+    "description": "A simple but efficient web based task manager written in PHP. (Demo) GPLv3 PHP"
+  },
+  {
+    "name": "Tasks",
+    "url": "https://projects.miguelpiedrafita.com/Tasks/",
+    "description": "Simple tasks & notes manager written in PHP, jQuery and Bootstrap using a custom flat file database. (Demo, (Source Code) MPLv2 PHP"
+  },
+  {
+    "name": "Tasks",
+    "url": "https://github.com/thewhitetulip/Tasks",
+    "description": "Kanban based to-do list manager written in Go. MIT Go"
   },
   {
     "name": "tasks.php",
     "url": "https://github.com/RaymiiOrg/tasks.php",
-    "description": "A simple task/todo list manager. MIT"
+    "description": "A simple task/todo list manager. MIT PHP"
   },
   {
     "name": "Taskwarrior",
@@ -2516,7 +2942,12 @@
   {
     "name": "Wekan",
     "url": "https://wekan.io/",
-    "description": "An open-source Trello-like kanban. (Demo, Source Code) MIT JavaScript/Meteor"
+    "description": "An open-source Trello-like kanban. (Demo, Source Code) MIT Nodejs"
+  },
+  {
+    "name": "Brimir",
+    "url": "https://getbrimir.com/",
+    "description": "Simple and clean open-source ticket manager written in Ruby on Rails. (Source Code) AGPLv3 Ruby"
   },
   {
     "name": "Bugzilla",
@@ -2531,7 +2962,12 @@
   {
     "name": "Cerb",
     "url": "http://www.cerberusweb.com/",
-    "description": "Group-based e-mail management project."
+    "description": "Group-based e-mail management project. (Source Code) DPL PHP"
+  },
+  {
+    "name": "Deskulu",
+    "url": "https://github.com/Taskulu/deskulu",
+    "description": "Opensource helpdesk and ticketing system based on Drupal 7. (Demo) GPLv2 PHP"
   },
   {
     "name": "DiamanteDesk",
@@ -2541,66 +2977,67 @@
   {
     "name": "Flyspray",
     "url": "http://www.flyspray.org/",
-    "description": "Uncomplicated, web-based bug tracking system. (Source Code) GPLv2"
+    "description": "Uncomplicated, web-based bug tracking system. (Source Code) GPLv2 PHP"
   },
   {
     "name": "Gaskit",
     "url": "https://github.com/bkeepers/gaskit",
-    "description": "A git-backed issue tracker. It uses a branch in your local git database to store the tickets. GPL"
+    "description": "A git-backed issue tracker. It uses a branch in your local git database to store the tickets. GPL Ruby"
   },
   {
-    "name": "HuBoard ⚠ – Instant project management for your GitHub issues (Connects directly GitHub API) MIT Ruby",
-    "url": "https://github.com/huboard/huboard"
+    "name": "HuBoard ⚠",
+    "url": "https://github.com/huboard/huboard",
+    "description": "Instant project management for your GitHub issues (Connects directly GitHub API). MIT Ruby"
   },
   {
     "name": "MantisBT",
     "url": "https://www.mantisbt.org/",
-    "description": "Self hosted bug tracker, fits best for software development. (Demo), (Source Code) GPLv2"
+    "description": "Self hosted bug tracker, fits best for software development. (Demo), (Source Code) GPLv2 PHP"
   },
   {
     "name": "osTicket",
     "url": "http://osticket.com/",
-    "description": "Simple support ticket system."
+    "description": " Manage, organize and archive all your support requests and responses in one place. (Source Code) GPLv2 PHP"
   },
   {
     "name": "OTRS",
     "url": "http://www.otrs.com/",
-    "description": "Trouble ticket system for assigning tickets to incoming queries and tracking further communications."
+    "description": "Trouble ticket system for assigning tickets to incoming queries and tracking further communications. (Source Code) AGPLv3 Perl"
   },
   {
     "name": "Request Tracker",
     "url": "https://www.bestpractical.com/rt/",
-    "description": "Ticket-tracking system written in Perl."
+    "description": " An enterprise-grade issue tracking system. (Source Code) GPLv2 Perl"
   },
   {
     "name": "TheBugGenie",
-    "url": "http://www.thebuggenie.com",
-    "description": "Ticket system with extensive user rights system."
+    "url": "http://www.thebuggenie.org",
+    "description": "Ticket system with extensive user rights system. (Source Code) MPLv2 PHP"
   },
   {
     "name": "Lstu",
     "url": "https://github.com/ldidry/lstu",
-    "description": "Let's SHorten That Url - Lightweight URL shortener"
+    "description": "Let's SHorten That Url - Lightweight URL shortener. WTFPL Perl"
   },
   {
     "name": "Nimbus",
     "url": "https://github.com/ethanal/nimbus",
-    "description": "A URL shortener and file sharer with a drag-and-drop OS X menu bar client and web interface - MIT Python"
+    "description": "A URL shortener and file sharer with a drag-and-drop OS X menu bar client and web interface. MIT Python"
   },
   {
     "name": "Polr",
     "url": "https://project.polr.me/",
-    "description": "A modern, minimalist, modular, and lightweight URL shortener. (Source Code)"
+    "description": "A modern, minimalist, modular, and lightweight URL shortener. (Source Code) GPLv2 PHP"
   },
   {
     "name": "YOURLS",
     "url": "http://yourls.org/",
-    "description": "YOURLS is a set of PHP scripts that will allow you to run Your Own URL Shortener. Features include password protection, URL customization, bookmarklets, statistics, API, plugins, jsonp. (Source Code, Documentation) MIT"
+    "description": "YOURLS is a set of PHP scripts that will allow you to run Your Own URL Shortener. Features include password protection, URL customization, bookmarklets, statistics, API, plugins, jsonp. (Source Code) MIT PHP"
   },
   {
     "name": "Blazekiss",
     "url": "http://projet.idleman.fr/blazekiss/",
-    "description": "BlazeKiss is a KISS-based wiki (Keep It Simple, Stupid) - simplicity and functionality comes before all. (Source Code)GPLv3 PHP"
+    "description": "BlazeKiss is a KISS-based wiki (Keep It Simple, Stupid) - simplicity and functionality comes before all. (Source Code) GPLv3 PHP"
   },
   {
     "name": "BookStack",
@@ -2608,14 +3045,9 @@
     "description": "BookStack is a simple, self-hosted, easy-to-use platform for organizing and storing information. It allows for documentation to be stored in a book like fashion. (Demo, Source Code) MIT PHP"
   },
   {
-    "name": "Codex",
-    "url": "http://codex-project.ninja/codex",
-    "description": "Codex is a simple file-based Markdown documentation platform built on top of Laravel. (Source Code) MIT PHP"
-  },
-  {
-    "name": "commonplace",
-    "url": "https://github.com/fredoliveira/commonplace",
-    "description": "A server for your markdown files. Give it a directory, and Commonplace gives you a url, pretty pages, and quick editing. Ruby"
+    "name": "django-wiki",
+    "url": "https://github.com/django-wiki/django-wiki",
+    "description": "A wiki system with complex functionality for simple integration and a superb interface. Store your knowledge with style: Use django models. (Demo) GPLv3 Python"
   },
   {
     "name": "Dokuwiki",
@@ -2638,14 +3070,9 @@
     "description": "An open-source markdown note-taking web app. (Source Code) GPLv3 PHP"
   },
   {
-    "name": "ikiwiki",
-    "url": "http://ikiwiki.info/",
-    "description": "A wiki compiler. GPLv2 Perl"
-  },
-  {
     "name": "jingo",
     "url": "https://github.com/claudioc/jingo",
-    "description": "A git based wiki engine written for node.js, with a decent design, a search capability and a good typography. (Demo, Source Code) MIT  NodeJS"
+    "description": "A git based wiki engine written for node.js, with a decent design, a search capability and a good typography. (Demo, Source Code) MIT NodeJS"
   },
   {
     "name": "Mediawiki",
@@ -2655,7 +3082,7 @@
   {
     "name": "MoinMoin",
     "url": "https://moinmo.in/",
-    "description": "An advanced, easy to use and extensible WikiEngine with a large community of users. (Source code) GPLV2 Python"
+    "description": "An advanced, easy to use and extensible WikiEngine with a large community of users. (Source Code) GPLv2 Python"
   },
   {
     "name": "Olelo",
@@ -2675,7 +3102,7 @@
   {
     "name": "Raneto",
     "url": "http://raneto.com/",
-    "description": "Raneto is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase - MIT NodeJS"
+    "description": "Raneto is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase. MIT NodeJS"
   },
   {
     "name": "Realms",
@@ -2685,17 +3112,17 @@
   {
     "name": "Redaxscript",
     "url": "http://redaxscript.com/",
-    "description": "Ultra lightweight website engine. (Source Code)GPLv3 PHP"
+    "description": "Ultra lightweight website engine. (Source Code) GPLv3 PHP"
   },
   {
     "name": "TiddlyWiki",
     "url": "http://tiddlywiki.com/",
-    "description": "A reusable non-linear personal web notebook. (Source Code) BSD Javascript/Nodejs"
+    "description": "A reusable non-linear personal web notebook. (Source Code) BSD Nodejs"
   },
   {
     "name": "Tiki",
     "url": "https://tiki.org",
-    "description": "Wiki CMS Groupware with the most built-in features. (Demo, Source Code) LGPLv2.1 PHP"
+    "description": "Wiki CMS Groupware with the most built-in features. (Demo, Source Code) LGPLv2 PHP"
   },
   {
     "name": "Wikifeat",
@@ -2718,9 +3145,14 @@
     "description": "Install arkOS to a dedicated device and host your own websites, email, files and more. (Source Code [1]) MIT/GPL Nodejs/Other"
   },
   {
+    "name": "Cloudron",
+    "url": "https://cloudron.io",
+    "description": "Effortlessly self-host web apps on your server. (Source Code) AGPLv3 Nodejs/Docker"
+  },
+  {
     "name": "DPlatform",
-    "url": "https://j8r.github.io/DPlatform/",
-    "description": "Deploy self-hosted apps easily: simple, bloat-free, independent installation. (Source code) MIT Shell"
+    "url": "https://dfabric.github.io/DPlatform-ShellCore/",
+    "description": "Deploy self-hosted apps easily: simple, bloat-free, independent installation. (Source Code) MIT Shell"
   },
   {
     "name": "FreedomBone",
@@ -2731,6 +3163,11 @@
     "name": "FreedomBox",
     "url": "https://wiki.debian.org/FreedomBox",
     "description": "A community project to develop, design and promote personal servers running free software for private, personal, communications. GPLv3 Python/Other"
+  },
+  {
+    "name": "OpenMediaVault",
+    "url": "http://www.openmediavault.org/",
+    "description": "OpenMediaVault is the next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, DAAP media server, RSync, BitTorrent client and many more. (Source Code) GPLv3 PHP"
   },
   {
     "name": "Piratebox",
@@ -2753,19 +3190,39 @@
     "description": "A set of Ansible playbooks to build and maintain your own private cloud: email, calendar, contacts, file sync, IRC bouncer, VPN, and more. GPLv3 YAML/Other"
   },
   {
+    "name": "Syncloud",
+    "url": "http://syncloud.org/",
+    "description": "Your own online file storage, social network or email server. (Source Code) GPLv3/Other Python/Other"
+  },
+  {
+    "name": "TagSpaces",
+    "url": "https://www.tagspaces.org/",
+    "description": "TagSpaces is an offline, cross-platform file manager and organiser that also can function as a note taking app. The WebDAV version of the application can be installed on top of a WebDAV servers such as Nextcloud or ownCloud. (Demo, Source Code) AGPLv3 Javascript"
+  },
+  {
     "name": "UBOS",
     "url": "http://ubos.net/",
-    "description": "Linux distro that runs on indie boxes (personal servers and IoT devices). Single-command installation and management of apps - Jenkins, Mediawiki, Owncloud, Wordpress, etc., - and other features.GPLv3 Perl/Other"
+    "description": "Linux distro that runs on indie boxes (personal servers and IoT devices). Single-command installation and management of apps - Jenkins, Mediawiki, Owncloud, WordPress, etc., - and other features. GPLv3 Perl/Other"
   },
   {
     "name": "WikiSuite",
     "url": "http://WikiSuite.org",
-    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed. (Source Code) Various ClearOS"
+    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed. (Source Code) Multiple ClearOS"
   },
   {
     "name": "yunohost",
     "url": "https://yunohost.org/",
     "description": "A server operating system aiming to make self-hosting accessible to everyone. (Source Code) AGPLv3 Python/Other"
+  },
+  {
+    "name": "`CCBYSAv4 ",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "description": "Creative Commons Attribution-ShareAlike 4.0 International License"
+  },
+  {
+    "name": "Awesome Selfhosted Chat",
+    "url": "https://chat.awesome-selfhosted.com",
+    "description": "A rocket.chat instance setup for the awesome selfhosted community."
   },
   {
     "name": "Awesome Big Data",
@@ -2778,7 +3235,7 @@
     "description": "A curated list of amazingly awesome open source sysadmin resources."
   },
   {
-    "name": "PRISM Break, privacytools.io, Alternative Internet",
+    "name": "PRISM Break, privacytools.io, Alternative Internet, Libre Projects",
     "url": "https://prism-break.org/en/",
     "description": "Lists of software aimed at privacy and decentralization (in some form)."
   },
@@ -2789,13 +3246,5 @@
   {
     "name": "Communities/forums: /r/selfhosted, Auto-Hébergement (FR)",
     "url": "https://www.reddit.com/r/selfhosted"
-  },
-  {
-    "name": "Non-Free software must be marked ⊘ Proprietary next to the title, and added to non-free.md",
-    "url": "https://en.wikipedia.org/wiki/Free_software"
-  },
-  {
-    "name": "Check current issues and Pull Requests, as well as closed issues/PRs",
-    "url": "https://github.com/Kickball/awesome-selfhosted/issues"
   }
 ]

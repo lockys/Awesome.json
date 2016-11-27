@@ -64,6 +64,44 @@
     "url": "https://howtowhale.com/"
   },
   {
+    "name": "Docker for all",
+    "url": "https://github.com/machzqcq/docker-for-all",
+    "description": "Developers, Testers, DevOps, Product Owners + Videos Docker Training Videos for all"
+  },
+  {
+    "name": "Play With Docker",
+    "url": "http://play-with-docker.com/",
+    "description": "A great way to get started with Docker. Docker runs directly in your browser."
+  },
+  {
+    "name": "Windows Containers Quick Start Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016",
+    "url": "https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start"
+  },
+  {
+    "name": "Build And Run Your First Docker Windows Server Container Walkthrough installing Docker on Windows 10, building a Docker image and running a Windows container",
+    "url": "https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/"
+  },
+  {
+    "name": "Video: Windows Containers and Docker: The 101 A 20-minute overview, using Docker to run  PowerShell, ASP.NET Core and ASP.NET apps",
+    "url": "https://www.youtube.com/watch?v=N7SG2wEyQtM"
+  },
+  {
+    "name": "A Comparative Study of Docker Engine on Windows Server vs Linux Comparing the feature sets and implementations of Docker on Windows and Linux",
+    "url": "http://collabnix.com/archives/1965"
+  },
+  {
+    "name": "Docker with Microsoft SQL 2016 + ASP.NET Demonstration running ASP.NET and SQL Server workloads in Docker",
+    "url": "http://blog.alexellis.io/docker-does-sql2016-aspnet/"
+  },
+  {
+    "name": "Running a Legacy ASP.NET App in a Windows Container Steps for Dockerizing a legacy ASP.NET app and runnning as a Windows container",
+    "url": "https://blog.sixeyed.com/dockerizing-nerd-dinner-part-1-running-a-legacy-asp-net-app-in-a-windows-container/"
+  },
+  {
+    "name": "Exploring ASP.NET Core with Docker in both Linux and Windows Containers Running ASP.NET Core apps in Linux and Windows containers, using Docker for Windows",
+    "url": "http://www.hanselman.com/blog/ExploringASPNETCoreWithDockerInBothLinuxAndWindowsContainers.aspx"
+  },
+  {
     "name": "Docker Weekly Huge resource",
     "url": "https://blog.docker.com/docker-weekly-archives/"
   },
@@ -294,8 +332,16 @@
     "url": "https://blog.jessfraz.com/post/routing-traffic-through-tor-docker-container/"
   },
   {
+    "name": "Demystifing Docker overlay networking. By @nigelpoulton",
+    "url": "http://blog.nigelpoulton.com/demystifying-docker-overlay-networking/"
+  },
+  {
     "name": "How to use Docker on Full Metal",
     "url": "http://blog.bigstep.com/use-docker-full-metal-cloud/"
+  },
+  {
+    "name": "CargoOS A bare essential OS for running the Docker Engine on bare metal or Cloud.",
+    "url": "https://cargos.io/"
   },
   {
     "name": "A Docker based mini-PaaS\nby @prologic",
@@ -408,10 +454,6 @@
     "url": "https://dashboard.tutum.co/"
   },
   {
-    "name": "DevOps Weekly",
-    "url": "http://www.devopsweekly.com"
-  },
-  {
     "name": "Shippable",
     "url": "http://blog.shippable.com/"
   },
@@ -461,16 +503,17 @@
     "url": "http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html"
   },
   {
-    "name": "ImageLayers Visualize Docker images and the layers that compose them.",
-    "url": "https://imagelayers.io/"
-  },
-  {
     "name": "DockerSlim shrinks fat Docker images creating the smallest possible images.",
     "url": "https://github.com/docker-slim/docker-slim"
   },
   {
     "name": "SkinnyWhale Skinnywhale helps you make smaller (as in megabytes) Docker containers.",
     "url": "https://github.com/djosephsen/skinnywhale"
+  },
+  {
+    "name": "MicroBadger",
+    "url": "https://microbadger.com",
+    "description": "Analyze the contents of images and add metadata labels"
   },
   {
     "name": "@progrium Service Discovery articles series:\n\n\nConsul Service Discovery with Docker\nUnderstanding Modern Service Discovery with Docker\nAutomatic Docker Service Announcement with Registrator\n",
@@ -681,6 +724,10 @@
     "url": "http://shop.oreilly.com/product/0636920043874.do"
   },
   {
+    "name": "The Source Code Analysis of Docker (Chinese) by Allen Sun",
+    "url": "https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B012ROMRUM"
+  },
+  {
     "name": "Docker Container and Container Cloud (Chinese) by Harry Zhang & Jianbo Sun & Zhejiang University SEL Laboratory",
     "url": "https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B014ETH1IG"
   },
@@ -697,9 +744,9 @@
     "url": "http://aprendendodocker.com.br/"
   },
   {
-    "name": "Docker para Desenvolvedores by Rafael Gomes (@kelseyhightower) (Publisher: Leanpub)",
+    "name": "Docker para Desenvolvedores by Rafael Gomes (@gomex) (Publisher: Leanpub)",
     "url": "https://leanpub.com/dockerparadesenvolvedores",
-    "description": "55% finished"
+    "description": "80% finished"
   },
   {
     "name": "Docker",
@@ -756,6 +803,11 @@
     "description": "A command line interface to query Docker using SQL by @crosbymichael"
   },
   {
+    "name": "athena",
+    "url": "https://github.com/athena-oss/athena",
+    "description": "An automation platform with a plugin architecture that allows you to easily create and share services. Some useful plugins are : php plugin, selenium plugin and proxy plugin."
+  },
+  {
     "name": "draw-compose",
     "url": "https://github.com/Alexis-benoist/draw-compose",
     "description": "Utility to draw a schema of a docker compose by @Alexis-benoist"
@@ -777,6 +829,10 @@
   {
     "name": "Squid-in-a-can (in case of proxy problem) by @jpetazzo",
     "url": "https://github.com/jpetazzo/squid-in-a-can"
+  },
+  {
+    "name": "Composerize Conververt docker run commands into docker-compose files",
+    "url": "https://github.com/magicmark/composerize"
   },
   {
     "name": "docker-gen (Generate files from docker container meta-data) by @jwilder",
@@ -805,6 +861,10 @@
   {
     "name": "powerstrip (A tool for prototyping Docker extensions) by @clusterhq",
     "url": "https://github.com/clusterhq/powerstrip"
+  },
+  {
+    "name": "Dupper (Use git repository as Object Oriented Container. Setup Cloud Development environments with few commands for any git repository) by @athakwani",
+    "url": "https://github.com/athakwani/dupper"
   },
   {
     "name": "Vagga (Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments.) by @tailhook",
@@ -836,11 +896,6 @@
     "name": "percheron",
     "url": "https://github.com/ashmckenzie/percheron",
     "description": "Organise your Docker containers with muscle and intelligence by @ashmckenzie"
-  },
-  {
-    "name": "crane",
-    "url": "https://github.com/michaelsauter/crane",
-    "description": "Lift containers with ease. Easy orchestration for images and containers by @michaelsauter"
   },
   {
     "name": "sherdock",
@@ -1018,11 +1073,6 @@
     "description": "Integrates Docker Compose functionality into sbt by @kurtkopchik"
   },
   {
-    "name": "docker-gulp-seed",
-    "url": "https://github.com/cauealves/docker-gulp-seed",
-    "description": "This project is a skeleton for make a simple way to run tasks of Gulp inside a container."
-  },
-  {
     "name": "Whale-linter",
     "url": "https://github.com/jeromepin/whale-linter",
     "description": "A simple and small Dockerfile linter written in Python3+ without dependencies."
@@ -1031,6 +1081,30 @@
     "name": "docker-make",
     "url": "https://github.com/CtripCloud/docker-make",
     "description": "build,tag,and push a bunch of related docker images via a single command."
+  },
+  {
+    "name": "caduc",
+    "url": "https://github.com/tjamet/caduc",
+    "description": "A docker garbage collector cleaning stuff you did not use recently"
+  },
+  {
+    "name": "OctoLinker",
+    "url": "https://github.com/OctoLinker/browser-extension",
+    "description": "A browser extension for GitHub that makes the image name in a Dockerfile clickable and redirect you to the related Docker Hub page."
+  },
+  {
+    "name": "docker-replay Generate docker runcommand and options from running containers",
+    "url": "https://github.com/bcicen/docker-replay"
+  },
+  {
+    "name": "dext-docker-registry-plugin",
+    "url": "https://github.com/vutran/dext-docker-registry-plugin",
+    "description": "Search the Docker Registry with the Dext smart launcher."
+  },
+  {
+    "name": "Docker-sync",
+    "url": "http://docker-sync.io/",
+    "description": "Tool from @EugenMayer to improve performance when using Docker on Mac OS X and your volume has several folders and files like gulp projects for instance."
   },
   {
     "name": "Awesome-ciandcd",
@@ -1059,8 +1133,13 @@
   },
   {
     "name": "CodeShip",
-    "url": "http://pages.codeship.com/docker",
+    "url": "https://pages.codeship.com/docker",
     "description": "Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security."
+  },
+  {
+    "name": "Cyclone",
+    "url": "https://github.com/caicloud/cyclone",
+    "description": "A cloud native CI/CD platform built for container workflow by @caicloud."
   },
   {
     "name": "Docker plugin for Jenkins",
@@ -1092,9 +1171,19 @@
     "description": "Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix."
   },
   {
+    "name": "InSpec",
+    "url": "https://github.com/chef/inspec",
+    "description": "InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements."
+  },
+  {
     "name": "Shippable",
     "url": "https://app.shippable.com/",
     "description": "A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production."
+  },
+  {
+    "name": "SwarmCI",
+    "url": "https://github.com/ghostsquad/swarmci",
+    "description": "Create a distributed, isolated task pipeline in your Docker Swarm."
   },
   {
     "name": "Watchtower",
@@ -1110,6 +1199,11 @@
     "name": "Pumba",
     "url": "https://github.com/gaia-adm/pumba",
     "description": "Chaos testing tool for Docker. Can be deployed on Kubernets and CoreOS clusters."
+  },
+  {
+    "name": "Skipper",
+    "url": "https://github.com/Stratoscale/skipper",
+    "description": "Easily dockerize your Git repository by @Stratoscale"
   },
   {
     "name": "Conduit",
@@ -1147,13 +1241,22 @@
   },
   {
     "name": "GitLab Container Registry",
-    "url": "http://docs.gitlab.com/ce/container_registry/README.html",
+    "url": "https://docs.gitlab.com/ce/container_registry/README.html",
     "description": "Repositories focused on using it images in GitLab CI"
   },
   {
     "name": "TreeScale",
     "url": "https://treescale.com/",
-    "description": "Build and Distriubute container based applicaitons."
+    "description": "Build and Distriubute container based applications."
+  },
+  {
+    "name": "Compose Registry",
+    "url": "https://www.composeregistry.com/",
+    "description": "Project from [@francescou]Francesco Uliana that stores docker-compose.yml files with stack examples like LAMP/LEMP stacks, Django stacks, Flask stacks and ELK stacks for instance."
+  },
+  {
+    "name": "Container Compliance Open Source tool for assesing running containers and cold images for vulnerabilites and audits.",
+    "url": "https://github.com/OpenSCAP/container-compliance"
   },
   {
     "name": "Amazon ECS",
@@ -1201,6 +1304,11 @@
     "description": "Elastic container-native infrastructure by Joyent."
   },
   {
+    "name": "Hyper_",
+    "url": "https://hyper.sh/",
+    "description": "Secure container hosting service with \"nano-containers\" and per-second billing."
+  },
+  {
     "name": "nginx-proxy",
     "url": "https://github.com/jwilder/nginx-proxy",
     "description": "Automated nginx proxy for Docker containers using docker-gen by @jwilder"
@@ -1229,6 +1337,16 @@
     "name": "Træfɪk",
     "url": "https://traefik.io/",
     "description": "Automated reverse proxy and load-balancer for Docker, Mesos, Consul, Etcd... By @EmileVauge"
+  },
+  {
+    "name": "fabio",
+    "url": "https://github.com/eBay/fabio",
+    "description": "A fast, modern, zero-conf load balancing HTTP(S) router for deploying microservices managed by consul. By @eBay"
+  },
+  {
+    "name": "Swarm Ingress Router",
+    "url": "https://github.com/tpbowden/swarm-ingress-router",
+    "description": "Route DNS names to Swarm services based on labels."
   },
   {
     "name": "Docker Registry Browser",
@@ -1302,7 +1420,7 @@
   },
   {
     "name": "OctoHost",
-    "url": "http://www.octohost.io/",
+    "url": "http://octohost.io/",
     "description": "Simple web focused Docker based mini-PaaS server. git push to deploy your websites as needed) by @octohost"
   },
   {
@@ -1346,14 +1464,9 @@
     "description": "Go library for Docker Compose."
   },
   {
-    "name": "DLite",
-    "url": "https://github.com/nlf/dlite",
-    "description": "Simplest way to use Docker on OSX, no VM needed. By @nlf"
-  },
-  {
-    "name": "Azk",
-    "url": "http://www.azk.io/",
-    "description": "Orchestrate development enviornments on your local machine by @azukiapp"
+    "name": "Dinghy",
+    "url": "https://github.com/codekitchen/dinghy",
+    "description": "An alternative way to use Docker on Mac OS X using Docker Machine with virtualbox, vmware, xhyve or parallels"
   },
   {
     "name": "Turbo",
@@ -1389,11 +1502,16 @@
   },
   {
     "name": "REX-Ray Vendor agnostic storage orchestration engine to provide persistent storage for Docker containers as well as Mesos frameworks and tasks.",
-    "url": "https://github.com/emccode/rexray"
+    "url": "https://github.com/codedellemc/rexray"
   },
   {
     "name": "Local Persist Specify a mountpoint for your local volumes (created via docker volume create) so that files will always persist and so you can mount to different directories in different containers.",
     "url": "https://github.com/CWSpear/local-persist"
+  },
+  {
+    "name": "Minio",
+    "url": "https://github.com/jelastic-jps/minio",
+    "description": "S3 compatible object storage server in Docker containers"
   },
   {
     "name": "Official Images from Docker Hub",
@@ -1440,6 +1558,18 @@
     "url": "https://github.com/crosbymichael/Dockerfiles"
   },
   {
+    "name": "Collection of Dockerfiles 2 by [@pandrew][pandrew]",
+    "url": "https://github.com/pandrew/dockerfiles"
+  },
+  {
+    "name": "Collection of Dockerfiles 3 by [@vimagick][vimagick]",
+    "url": "https://github.com/vimagick/dockerfiles"
+  },
+  {
+    "name": "Collection of Dockerfiles 4 by [@ondrejmo][ondrejmo]",
+    "url": "https://github.com/ondrejmo/Dockerfiles"
+  },
+  {
     "name": "Dockerfile Project : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.",
     "url": "http://dockerfile.github.io/"
   },
@@ -1453,7 +1583,15 @@
   },
   {
     "name": "Dockerfile @jfrazelle by @jfrazelle MUST SEE for a fully containerized\ndesktop!",
-    "url": "https://github.com/jfrazelle/dockerfiles"
+    "url": "https://github.com/jessfraz/dockerfiles"
+  },
+  {
+    "name": "Vektorcloud (A collection of minimal, Alpine-based Docker images)",
+    "url": "https://github.com/vektorcloud"
+  },
+  {
+    "name": "Docker Compose Example by @llitfkitfk",
+    "url": "https://github.com/llitfkitfk/docker-compose-demo"
   },
   {
     "name": "Docker Registry v2 (The Docker toolset to pack, ship, store, and deliver content)",
@@ -1466,6 +1604,14 @@
   {
     "name": "Atomic Registry Red Hat Atomic Registry is an open source enterprise registry based on the Origin and Cockpit projects, enhancing the Docker registry library.",
     "url": "http://www.projectatomic.io/registry/"
+  },
+  {
+    "name": "VMWare Harbor Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.",
+    "url": "http://vmware.github.io/harbor/"
+  },
+  {
+    "name": "AppDynamics AppDynamics gives enterprises real-time insights into application performance, user performance, and business performance so they can move faster in an increasingly sophisticated, software-driven world.",
+    "url": "https://www.appdynamics.com/community/exchange/extension/docker-monitoring-extension/"
   },
   {
     "name": "Axibase Time-Series Database (Long-term retention of container statistics and built-in dashboards for Docker. Collected with native Google cAdvisor storage driver.)",
@@ -1546,6 +1692,11 @@
     "description": "A template for your Docker, Grafana and Prometheus stack @vegasbrianc"
   },
   {
+    "name": "DoMonit",
+    "url": "https://github.com/eon01/DoMonit",
+    "description": "A simple Docker Monitoring wrapper For Docker API"
+  },
+  {
     "name": "Calico-Docker",
     "url": "https://www.projectcalico.org/getting-started/docker/",
     "description": "Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other."
@@ -1581,6 +1732,10 @@
     "url": "https://github.com/sematext/sematext-agent-docker"
   },
   {
+    "name": "Out-of-the-box Host/Container Monitoring/Logging/Alerting Stack Docker host and container monitoring, logging and alerting out of the box using cAdvisor, Prometheus, Grafana for monitoring, Elasticsearch, Kibana and Logstash for logging and elastalert and Alertmanager for alerting. Set up in 5 Minutes.",
+    "url": "https://github.com/uschtwill/docker_monitoring_logging_alerting"
+  },
+  {
     "name": "Centurion: Centurion is a mass deployment tool for Docker fleets. It takes containers from a Docker registry and runs them on a fleet of hosts with the correct environment variables, host volume mappings, and port mappings. By @newrelic",
     "url": "https://github.com/newrelic/centurion"
   },
@@ -1605,6 +1760,11 @@
   {
     "name": "Longshoreman: Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool. By longshoreman",
     "url": "https://github.com/longshoreman/longshoreman"
+  },
+  {
+    "name": "Atlantis",
+    "url": "https://github.com/ooyala/atlantis",
+    "description": "Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go"
   },
   {
     "name": "Deis (Your PaaS, your rules) -- http://deis.io/",
@@ -1643,6 +1803,14 @@
     "url": "https://github.com/pbertera/dcw"
   },
   {
+    "name": "Dockhero: Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.",
+    "url": "https://dockhero.io/"
+  },
+  {
+    "name": "IronFunctions The serverless microservices platform FaaS (Funcitons as a Service) which uses Docker containers to run Any language or AWS Lambda functions",
+    "url": "https://github.com/iron-io/functions"
+  },
+  {
     "name": "autodock (Daemon for Docker Automation) by @prologic",
     "url": "https://github.com/prologic/autodock"
   },
@@ -1653,10 +1821,6 @@
   {
     "name": "Capitan Composable docker orchestration with added scripting support by @byrnedo.",
     "url": "https://github.com/byrnedo/capitan"
-  },
-  {
-    "name": "Citadel (Citadel is a toolkit for scheduling containers on a Docker cluster) (unmaintained)",
-    "url": "https://github.com/citadel/citadel"
   },
   {
     "name": "CloudSlang (CloudSlang is a workflow engine to create Docker process automation)",
@@ -1727,6 +1891,10 @@
     "url": "https://github.com/shipyard/shipyard"
   },
   {
+    "name": "Crane (Control plane based on docker built-in swarm) -- @Dataman-Cloud",
+    "url": "https://github.com/Dataman-Cloud/crane"
+  },
+  {
     "name": "MCollective Docker Agent Uses MCollective to orchestrate your Docker containers and images -- @m4ce",
     "url": "https://github.com/m4ce/mcollective-docker-agent"
   },
@@ -1736,7 +1904,12 @@
   },
   {
     "name": "Mantl Mantl is a modern platform for rapidly deploying globally distributed services @ciscocloud",
-    "url": "https://github.com/ciscocloud/mantl"
+    "url": "https://github.com/mantl/mantl"
+  },
+  {
+    "name": "Portainer",
+    "url": "http://portainer.io/",
+    "description": "A lightweight management UI for managing your Docker host or Docker Swarm cluster"
   },
   {
     "name": "docker-bench-security script that checks for dozens of common best-practices around deploying Docker containers in production. By @docker",
@@ -1748,7 +1921,7 @@
   },
   {
     "name": "Twistlock  Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications.",
-    "url": "https://www.twistlock.com/"
+    "url": "https://twistlock.com/"
   },
   {
     "name": "Clair Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By @coreos",
@@ -1773,6 +1946,11 @@
   {
     "name": "wagl: Service discovery for docker swarm using DNS",
     "url": "https://github.com/ahmetalpbalkan/wagl/"
+  },
+  {
+    "name": "label-schema.org",
+    "url": "http://label-schema.org",
+    "description": "a convention and shared namespace for Docker labels."
   },
   {
     "name": "MicroBadger",
@@ -1925,6 +2103,10 @@
     "url": "https://twitter.com/dockernews"
   },
   {
+    "name": "Docker Captains Twitter List",
+    "url": "https://twitter.com/EltonStoneman/lists/docker-captains"
+  },
+  {
     "name": "Solomon Hykes Founder of Docker",
     "url": "https://twitter.com/solomonstre"
   },
@@ -1951,5 +2133,31 @@
   {
     "name": "Jessie Frazelle Ex-@docker maintainer and uses full containerized desktop, lots of fun.",
     "url": "https://twitter.com/jessfraz"
+  },
+  {
+    "name": "Docker Captains",
+    "url": "https://www.docker.com/community/docker-captains",
+    "description": "Docker experts and community leaders"
+  },
+  {
+    "name": "Docker Community",
+    "url": "https://www.docker.com/docker-community"
+  },
+  {
+    "name": "Docker On Line Meetup",
+    "url": "http://www.meetup.com/Docker-Online-Meetup/"
+  },
+  {
+    "name": "Docker Regional Meetup List",
+    "url": "https://www.docker.com/community/meetup-groups"
+  },
+  {
+    "name": "Docker BR on Telegram",
+    "url": "https://telegram.me/dockerbr"
+  },
+  {
+    "name": "Docker BR on Slack",
+    "url": "http://docker-br.herokuapp.com",
+    "description": "Auto invite url"
   }
 ]

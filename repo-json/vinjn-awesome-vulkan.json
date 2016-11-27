@@ -57,8 +57,12 @@
     "url": "https://developer.android.com/ndk/guides/graphics/index.html"
   },
   {
-    "name": " AMD\n\n\n  Vulkan Fast Paths\n  Let Your Game Shine – Optimizing DirectX 12 and Vulkan Performance with AMD CodeXL \n  D3D12 & Vulkan: Lessons Learned   \n Say Hello to a New Rendering API in Town!\n Vulkan Renderpasses\n Performance tweets series: Barriers, fences, synchronization\n Using the Vulkan™ Validation Layers\n Most common mistakes in Vulkan apps\n",
-    "url": "http://gpuopen.com/gaming-product/vulkan/"
+    "name": " AMD\n\n\n  Vulkan barriers explained\n  Vulkan Fast Paths\n  Let Your Game Shine – Optimizing DirectX 12 and Vulkan Performance with AMD CodeXL \n  D3D12 & Vulkan: Lessons Learned   \n Say Hello to a New Rendering API in Town!\n Vulkan Renderpasses\n Performance tweets series: Barriers, fences, synchronization\n Using the Vulkan™ Validation Layers\n Most common mistakes in Vulkan apps\n",
+    "url": "http://gpuopen.com/tag/vulkan/"
+  },
+  {
+    "name": "  Vulkan barriers explained",
+    "url": "http://gpuopen.com/vulkan-barriers-explained/"
   },
   {
     "name": "  Vulkan Fast Paths",
@@ -93,9 +97,17 @@
     "url": "http://32ipi028l5q82yhj72224m8j.wpengine.netdna-cdn.com/wp-content/uploads/2016/05/Most-common-mistakes-in-Vulkan-apps.pdf"
   },
   {
-    "name": " NVIDIA\n\n\nGPU-Driven Rendering \nGDC 16",
+    "name": " NVIDIA\n\n\nVulkan Device-Generated Commands\nGetting Vulkan Ready For VR\nGPU-Driven Rendering \nGDC 16",
     "url": "https://developer.nvidia.com/taxonomy/term/586",
     "description": "High-performance, Low-Overhead Rendering with OpenGL and Vulkan"
+  },
+  {
+    "name": "Vulkan Device-Generated Commands",
+    "url": "https://developer.nvidia.com/device-generated-commands-vulkan"
+  },
+  {
+    "name": "Getting Vulkan Ready For VR",
+    "url": "https://developer.nvidia.com/getting-vulkan-ready-vr"
   },
   {
     "name": "GPU-Driven Rendering ",
@@ -158,7 +170,7 @@
     "description": "Basic Vulkan tutorials from the Mali Vulkan SDK"
   },
   {
-    "name": "API without Secrets: Introduction to Vulkan [LICENSE]\n\n\nPart 1: The Beginning\nPart 2: Swap Chain\nPart 3: First Triangle\n",
+    "name": "API without Secrets: Introduction to Vulkan [LICENSE]\n\n\nPart 1: The Beginning\nPart 2: Swap Chain\nPart 3: First Triangle\nPart 4: Vertex Attributes\n",
     "url": "https://github.com/GameTechDev/IntroductionToVulkan"
   },
   {
@@ -172,6 +184,10 @@
   {
     "name": "Part 3: First Triangle",
     "url": "https://software.intel.com/en-us/api-without-secrets-introduction-to-vulkan-part-3"
+  },
+  {
+    "name": "Part 4: Vertex Attributes",
+    "url": "https://software.intel.com/en-us/articles/api-without-secrets-introduction-to-vulkan-part-4"
   },
   {
     "name": "Imagination\n\n\nEfficient Rendering with Vulkan on PowerVR\n Migrating to Vulkan with the New PowerVR Graphics Framework\n",
@@ -228,6 +244,10 @@
     "description": "AKA the Red Book."
   },
   {
+    "name": " Lunarg's tutorial",
+    "url": "https://vulkan.lunarg.com/doc/sdk/1.0.26.0/windows/tutorial.html"
+  },
+  {
     "name": "An overview of next-generation graphics APIs",
     "url": "http://nextgenapis.realtimerendering.com/",
     "description": "covers Vulkan, D3D12 etc."
@@ -245,6 +265,15 @@
   {
     "name": " Tutorial by Overv and its github repository. [CC BY-SA 4.0]",
     "url": "https://vulkan-tutorial.com/"
+  },
+  {
+    "name": " Vulkan Demos and Tutorials [MIT].",
+    "url": "https://github.com/Z80Fan/VulkanDemos"
+  },
+  {
+    "name": " Qualcomm Video Tutorial Series",
+    "url": "https://developer.qualcomm.com/software/adreno-gpu-sdk/tutorial-videos",
+    "description": "Leans more towards Vulkan for mobile devices."
   },
   {
     "name": " The Talos Principle",
@@ -275,6 +304,11 @@
     "name": " Doom",
     "url": "https://en.wikipedia.org/wiki/Doom_(2016_video_game)",
     "description": "by id Software."
+  },
+  {
+    "name": " vkQuake",
+    "url": "https://github.com/Novum/vkQuake",
+    "description": "Vulkan Quake port based on QuakeSpasm. [GPL]"
   },
   {
     "name": " Sascha Willems's samples and Deferred rendering of  Sponza and his talk of Khronos_meetup_munich.",
@@ -357,6 +391,11 @@
     "url": "https://github.com/Novum/vkQuake"
   },
   {
+    "name": " C# Samples",
+    "url": "https://github.com/FacticiusVir/SharpVk-Samples",
+    "description": "Port of Overv's tutorials to SharpVk [MIT]"
+  },
+  {
     "name": " Cinder and the story behind. [BSD]",
     "url": "https://github.com/cinder/Cinder"
   },
@@ -415,6 +454,16 @@
     "description": "Modern C++ Vulkan Abstraction focused on performance and a straightforward interface. [MIT]"
   },
   {
+    "name": " Intrinsic Engine",
+    "url": "http://www.intrinsic-engine.com/",
+    "description": "Intrinsic is a Vulkan based cross-platform graphics and game engine. [GPL]"
+  },
+  {
+    "name": " OpenGL Overload",
+    "url": "https://github.com/g-truc/glo",
+    "description": "OpenGL implementation on top of Vulkan."
+  },
+  {
     "name": " libvulkan.lua",
     "url": "https://github.com/CapsAdmin/ffibuild/blob/master/examples/vulkan/libvulkan.lua",
     "description": "Lua bindings for Vulkan."
@@ -452,6 +501,11 @@
     "name": " LWJGL",
     "url": "https://www.lwjgl.org/",
     "description": "Lightweight Java Game Library 3 has Vulkan bindings. [BSD]"
+  },
+  {
+    "name": " SharpVk",
+    "url": "https://github.com/FacticiusVir/SharpVk",
+    "description": "C# bindings for Vulkan with Linq-to-SPIR-V & NuGet package [MIT]"
   },
   {
     "name": " Nsight™ Visual Studio Edition 5.2+.",

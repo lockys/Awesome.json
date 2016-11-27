@@ -5,6 +5,11 @@
     "description": "Official homepage."
   },
   {
+    "name": "Documentation",
+    "url": "http://docs.serverless.com",
+    "description": "Documentation."
+  },
+  {
     "name": "GitHub organization",
     "url": "http://github.com/serverless",
     "description": "Official GitHub organization."
@@ -25,11 +30,6 @@
     "description": "List with all official Serverless meetups."
   },
   {
-    "name": "Readme.io",
-    "url": "https://serverless.readme.io",
-    "description": "Official documentation."
-  },
-  {
     "name": "Vimeo",
     "url": "https://vimeo.com/user2421131",
     "description": "JAWS Vimeo account."
@@ -40,23 +40,13 @@
     "description": "Serverless YouTube account."
   },
   {
-    "name": "Community repository",
-    "url": "https://github.com/serverless/serverless-community",
-    "description": "Resources for the community."
-  },
-  {
-    "name": "Serverless Registry",
-    "url": "https://justserverless.github.io/serverless-registry",
-    "description": "Unofficial plugin and module search."
-  },
-  {
     "name": "Roadmap",
     "url": "https://github.com/serverless/serverless/milestones",
     "description": "GitHub milestones."
   },
   {
     "name": "Stack Overflow",
-    "url": "http://stackoverflow.com/questions/tagged/serverless",
+    "url": "http://stackoverflow.com/questions/tagged/serverless-framework",
     "description": "Stack Overflow questions."
   },
   {
@@ -75,6 +65,16 @@
     "description": "Serverless specialized conference."
   },
   {
+    "name": "Serverless Camp",
+    "url": "https://serverless.camp",
+    "description": "Code camps to learn more about serverless."
+  },
+  {
+    "name": "Serverless Heroes Resources",
+    "url": "https://github.com/ServerlessHeroes/serverless-resources",
+    "description": "Another great list with serverless related resources."
+  },
+  {
     "name": "Just Serverless",
     "url": "http://justserverless.com/blog",
     "description": "Blog about the Serverless framework."
@@ -83,6 +83,21 @@
     "name": "Serverless Code",
     "url": "https://serverlesscode.com",
     "description": "Blog about everything serverless related."
+  },
+  {
+    "name": "Serverless Zone",
+    "url": "https://serverless.zone",
+    "description": "Everything Serverless related."
+  },
+  {
+    "name": "Serverless Blog",
+    "url": "http://blog.serverless.com",
+    "description": "Official blog of the Serverless Framework."
+  },
+  {
+    "name": "Serverless Stories",
+    "url": "https://medium.com/serverless-stories",
+    "description": "Medium publication from the team behind the Serverless Framework."
   },
   {
     "name": "Infoword article",
@@ -212,7 +227,7 @@
   {
     "name": "Serverless computing growing quickly",
     "url": "http://thenewstack.io/serverless-computing-growing-quickly/",
-    "description": "Overview why Serverless comuting is taking over traditional application development."
+    "description": "Overview why Serverless computing is taking over traditional application development."
   },
   {
     "name": "MongoDB with Serverless",
@@ -330,6 +345,481 @@
     "description": "Tutorial on how to build a RESTful API with Serverless v1.0 beta 1."
   },
   {
+    "name": "Interview about Serverless v1",
+    "url": "https://forrestbrazeal.com/2016/08/15/lambda-calculus-talking-serverless-with-florian-motlik/",
+    "description": "Interview with Florian from the Serverless team about the mission of the Serverless framework."
+  },
+  {
+    "name": "CI/CD with Serverless",
+    "url": "https://serverless.zone/ci-cd-with-serverless-v1-0-0-beta-ccb332944c6#.3cmhb06zk",
+    "description": "Interesting read on how to use CI/CD systems with Serverless v1."
+  },
+  {
+    "name": "451 research report",
+    "url": "https://451research.com/report-short?entityId=89566",
+    "description": "Overview of the Serverless status quo / analysis of existing FaaS providers."
+  },
+  {
+    "name": "30k page views for $0.21",
+    "url": "https://fmlnerd.com/2016/08/16/30k-page-views-for-0-21-a-serverless-story/",
+    "description": "Success story about a web app which used the serverless architecture."
+  },
+  {
+    "name": "What does Serverless mean?",
+    "url": "http://thenewstack.io/context-serverless-mean/",
+    "description": "Blog post which explains the context of the serverless architecture."
+  },
+  {
+    "name": "Serverless v1.0 beta2 announcement",
+    "url": "http://blog.serverless.com/serverless-v1-0-beta-release-2/",
+    "description": "Serverless announcement blog post about v1.0 beta 2."
+  },
+  {
+    "name": "What is Serverless?",
+    "url": "https://www.trek10.com/blog/what-is-serverless/",
+    "description": "Trek10 blog post which explains what Serverless is."
+  },
+  {
+    "name": "Scheduled Tasks",
+    "url": "https://parall.ax/blog/view/3202/tutorial-serverless-scheduled-tasks",
+    "description": "Blog post by Parall.ax on how to setup scheduled tasks with Serverless."
+  },
+  {
+    "name": "Garden Aid",
+    "url": "https://serverless.zone/serverless-architectures-9e23af71097a#.vk7w2p3ng",
+    "description": "John McKim describes how he built his Serverless IoT project \"Garden Aid\"."
+  },
+  {
+    "name": "Game-changer or a recycled fad?",
+    "url": "https://gojko.net/2016/08/27/serverless.html",
+    "description": "Critical post whether the serverless movement is just a hype or \"The next big thing\"."
+  },
+  {
+    "name": "Azure functions vs. AWS Lambda",
+    "url": "http://searchcloudcomputing.techtarget.com/tip/Serverless-showdown-Microsoft-Azure-Functions-vs-AWS-Lambda",
+    "description": "Comparison of Azure functions and AWS Lambda."
+  },
+  {
+    "name": "Serverless and Machine Learning",
+    "url": "https://blog.alexcasalboni.com/serverless-computing-machine-learning-baf52b89e1b0#.y6nu7bgfc",
+    "description": "Post about serverless and machine learning."
+  },
+  {
+    "name": "AWS Lambda and SQS",
+    "url": "http://theburningmonk.com/2016/04/aws-lambda-use-recursive-function-to-process-sqs-messages-part-1/",
+    "description": "Blog post series on how to use AWS Lambda with SQS."
+  },
+  {
+    "name": "Serverless is the new multitenancy",
+    "url": "https://techcrunch.com/2016/09/01/serverless-is-the-new-multitenancy/",
+    "description": "Overview post which explains the serverless architecture."
+  },
+  {
+    "name": "Using DynamoDB with Serverless",
+    "url": "http://blog.rowanudell.com/using-dyanmodb-with-serverless/",
+    "description": "Post which explains how to use Serverless v1 and DynamoDB."
+  },
+  {
+    "name": "Securing serverless applications",
+    "url": "https://medium.com/@marknca/4-steps-to-secure-serverless-applications-1274f0f5d321#.rnkblbm65",
+    "description": "4 Steps to secure serverless applications."
+  },
+  {
+    "name": "GraphQL with Serverless",
+    "url": "https://serverless.zone/graphql-with-the-serverless-framework-79924829a8ca#.ev7vln9l7",
+    "description": "GraphQL with the Serverless Framework v1."
+  },
+  {
+    "name": "API around Google Cloud Vision",
+    "url": "http://ramhiser.com/2016/09/05/serverless-api-around-google-cloud-vision-with-the-serverless-framework/",
+    "description": "Building a Serverless API around Google Cloud Vision."
+  },
+  {
+    "name": "Serverless v1.0 rc1 announcement",
+    "url": "http://blog.serverless.com/new-release-serverless-v1-0-rc-1/",
+    "description": "Serverless announcement blog post about v1.0 release candidate 1."
+  },
+  {
+    "name": "Yemeksepetis shift to run serverless",
+    "url": "https://aws.amazon.com/de/blogs/aws/yemeksepeti-our-shift-to-serverless-architecture/",
+    "description": "Blog post by the team behind Yemeksepeti about their shift to a serverless architecture."
+  },
+  {
+    "name": "Slack webhooks with Serverless",
+    "url": "https://serverless.zone/slack-webhooks-with-the-serverless-framework-4c01bb3c1411#.iyub4e1b1",
+    "description": "Post which describes how to use Slack webhooks with the Serverless framework."
+  },
+  {
+    "name": "Serverless computing with Azure functions",
+    "url": "http://www.hanselman.com/blog/WhatIsServerlessComputingExploringAzureFunctions.aspx",
+    "description": "Introduction to serverless computing with the help of Azure functions."
+  },
+  {
+    "name": "Autodesks sample serverless architecture",
+    "url": "https://www.infoq.com/news/2016/08/serverless-autodesk",
+    "description": "A Sample Serverless Microservice Architecture from Autodesk."
+  },
+  {
+    "name": "Understanding the serverless trend",
+    "url": "http://www.techrepublic.com/article/aws-vs-microsoft-azure-understanding-the-serverless-application-trend",
+    "description": "Blog post which outlines what the serverless trend is all about."
+  },
+  {
+    "name": "Architecture code patterns",
+    "url": "http://blog.serverless.com/serverless-architecture-code-patterns/",
+    "description": "Different serverless arhcitectural code patterns explained."
+  },
+  {
+    "name": "Serverless without the framework",
+    "url": "https://serverlesscode.com/post/serverless-without-the-framework/",
+    "description": "Blog post which explains why you should learn the fundamentals before using the framework."
+  },
+  {
+    "name": "Local Serverless development",
+    "url": "http://blog.gorillastack.com/serverless-framework-local-development-environments",
+    "description": "Tutorial how you can develop offline with Serverless (v0.5)."
+  },
+  {
+    "name": "Serverless and JAM",
+    "url": "https://www.netlify.com/blog/2016/09/15/serverless-jam---a-serverless-framework-tutorial/",
+    "description": "Tutorial on how to use Serverless with the JAMstack."
+  },
+  {
+    "name": "Serverless \"Hello World\"",
+    "url": "https://foobar123.com/serverless-hello-world-b8fa41279537#.dulikehjp",
+    "description": "Quick intro to the serverless technology and the Serverless Framework."
+  },
+  {
+    "name": "How to build a serverless Node.js microservice",
+    "url": "https://medium.freecodecamp.com/building-a-nodejs-microservice-on-aws-lambda-6adb6da53cbb#.esr503ot0",
+    "description": "Step-by-step guide on how to create a CRUD implementation with the Serverless Framework."
+  },
+  {
+    "name": "IoT with the Serverless Framework",
+    "url": "https://serverless.zone/iot-with-the-serverless-framework-e228fae87be#.1sd7ai8e5",
+    "description": "Blog post on how to use AWS IoT with Serverless."
+  },
+  {
+    "name": "Building a better Australian census site",
+    "url": "http://blog.serverless.com/challenge-accepted-building-a-better-australian-census-site-with-serverless-architecture",
+    "description": "Interview which describes how two guys build an infinitely scalable serverless version of the Australian census web application on a weekend hackathon."
+  },
+  {
+    "name": "Meet the Serverless partner Parall.ax",
+    "url": "http://blog.serverless.com/introducing-serverless-partners-meet-parallax",
+    "description": "Story on how the Serverless partner Parall.ax built the David Guetta \"This one's for you\" campaign with Serverless."
+  },
+  {
+    "name": "An abstracted serverless microservices architecture",
+    "url": "https://serverless.zone/an-abstracted-serverless-microservices-architecture-33706fabc516#.xgpwlpie4",
+    "description": "Post which discusses an architectural approach how one can manage Serverless applications in a microservice way (with decoupled services)."
+  },
+  {
+    "name": "What is serverless?",
+    "url": "https://auth0.com/blog/what-is-serverless/",
+    "description": "Auth0 blog post which describes what the serverless architecture is."
+  },
+  {
+    "name": "Creating Marbot",
+    "url": "https://cloudonaut.io/marbot-aws-serverless-chatbot-competition/",
+    "description": "Creating a Serverless chatbot called \"Marbot\"."
+  },
+  {
+    "name": "Building a Facebook Messenger Chatbot",
+    "url": "http://blog.serverless.com/building-a-facebook-messenger-chatbot-with-serverless/",
+    "description": "Tutorial how you can build a Facebook Messenger Chatbot with Serverless."
+  },
+  {
+    "name": "Unit and integration testing for Lambda",
+    "url": "https://serverless.zone/unit-and-integration-testing-for-lambda-fc9510963003#.3xzvh5juk",
+    "description": "How to do unit and integration tests with AWS Lambda."
+  },
+  {
+    "name": "What makes serverless so attractive?",
+    "url": "https://developer.ibm.com/opentech/2016/09/06/what-makes-serverless-attractive/",
+    "description": "Post which explains the benefits you get with a serverless architecture."
+  },
+  {
+    "name": "Creating your first Serverless app",
+    "url": "http://blog.altoros.com/creating-your-first-serverless-app-with-aws-lambda-and-the-serverless-framework.html",
+    "description": "Overview of the different serverless providers with an example usage of the Serverless Framework."
+  },
+  {
+    "name": "Building a serverless screenshot service",
+    "url": "http://svdgraaf.nl/2016/09/28/Serverless-Screenshot-Service-With-Lambda.html",
+    "description": "Building a serverless screenshot service."
+  },
+  {
+    "name": "Essential guide to serverless technologies",
+    "url": "http://techbeacon.com/essential-guide-serverless-technologies-architectures",
+    "description": "Guide which goes into detail about the serverless technology / architecture."
+  },
+  {
+    "name": "Guide to serverless backend technologies",
+    "url": "http://thenewstack.io/guide-serverless-technologies-functions-backends-service/",
+    "description": "A compilation of the best of FaaS and BaaS."
+  },
+  {
+    "name": "MoonMail technology stack",
+    "url": "https://blog.moonmail.io/what-is-the-technology-stack-and-architecture-behind-moonmail-4d7d6a113ed6#.r2i0cxph6",
+    "description": "Post about the architecture of the MoonMail open source project."
+  },
+  {
+    "name": "Why enterprises should care about serverless computing",
+    "url": "http://www.forbes.com/sites/janakirammsv/2016/10/12/why-enterprises-should-care-about-serverless-computing",
+    "description": "Post which outlines the future of serverless computing and enterprises."
+  },
+  {
+    "name": "Serverless v1 and fundraising",
+    "url": "https://serverless.com/blog/releasing-serverless-framework-v1-and-fundraising/",
+    "description": "Blog post which announces Serverless v1 and the fundraising behind Serverless, Inc."
+  },
+  {
+    "name": "Serverlss raises $3M to help developers go serverless",
+    "url": "https://techcrunch.com/2016/10/12/serverless-raises-3m-to-help-developers-go-serverless/",
+    "description": "TechCrunch article about the fundraising and future of Serverless, Inc."
+  },
+  {
+    "name": "Serverless, Inc. launches management framework",
+    "url": "http://www.itbusinessedge.com/blogs/it-unmasked/serverless-inc.-launches-management-framework.html",
+    "description": "Post on the launch of Serverless v1 and upcoming plans."
+  },
+  {
+    "name": "Serverless Nets $3M to radically simplify cloud infrastructure",
+    "url": "http://www.businesswire.com/news/home/20161012005381/en/Serverless-Nets-3M-Radically-Simplify-Cloud-Infrastructure",
+    "description": "BusinessWire article about the Serverless v1 launch."
+  },
+  {
+    "name": "Bustles serverless architecture",
+    "url": "http://thenewstack.io/bustle-migrated-100-million-events-per-day-product-serverless/",
+    "description": "How Bustle uses a serverless architecture to manage 52 Mio. monthly visitors."
+  },
+  {
+    "name": "The Serverless Framework & GraphQL",
+    "url": "http://www.heavybit.com/library/blog/the-serverless-framework-graphql",
+    "description": "Heavybit blog post about the Serverless GraphQL Meetup SF 06.10.2016."
+  },
+  {
+    "name": "A look at Serverless GraphQL",
+    "url": "https://www.trek10.com/blog/a-look-at-serverless-graphql",
+    "description": "Trek10 article about using Serverless with GraphQL."
+  },
+  {
+    "name": "Serverless takes pain out of Lambda deployment",
+    "url": "http://www.infoworld.com/article/3131004/cloud-computing/serverless-framework-takes-the-pain-out-of-aws-lambda-deployment.html",
+    "description": "Infoworld article about the Serverless v1 release."
+  },
+  {
+    "name": "Serverless and JAM (Part 2)",
+    "url": "https://www.netlify.com/blog/2016/10/13/serverless-jam---a-serverless-framework-tutorial-part-2/",
+    "description": "Tutorial on how to use Serverless with the JAMstack (Part 2)."
+  },
+  {
+    "name": "Developing Lambda applications with Eclipse",
+    "url": "http://cloudacademy.com/blog/how-to-develop-lambda-applications-aws-toolkit-eclipse",
+    "description": "How to develop AWS Lambda applications with AWS toolkit for Eclipse."
+  },
+  {
+    "name": "Technology behind MoonMail",
+    "url": "https://blog.moonmail.io/what-is-the-technology-stack-and-architecture-behind-moonmail-4d7d6a113ed6#.4sc9bb3fu",
+    "description": "What is the technology stack and architecture behind MoonMail?"
+  },
+  {
+    "name": "Serverless with Java 8 and DynamoDB",
+    "url": "https://medium.com/aws-activate-startup-blog/serverless-architectures-with-java-8-aws-lambda-and-amazon-dynamodb-part-1-fde79a6fb3cf#.48axcvvay",
+    "description": "Blog post series about a serverless setup with Java 8 and DynamoDB."
+  },
+  {
+    "name": "Serverless basic security",
+    "url": "https://foobar123.com/serverless-security-594942b496ec#.y8xjoi7n6",
+    "description": "Introduction to serverless and security."
+  },
+  {
+    "name": "Serverless and TypeScript",
+    "url": "https://gregshackles.com/getting-started-with-serverless-and-typescript/",
+    "description": "Getting started guide on how to use Serverless and TypeScript."
+  },
+  {
+    "name": "Meet the Serverless partner Trek10",
+    "url": "https://serverless.com/blog/introducing-serverless-partners-meet-trek10/",
+    "description": "Introduction of the people behind the Serverless specalized agency Trek10."
+  },
+  {
+    "name": "Future of Serverless after v1.0",
+    "url": "https://serverless.com/blog/serverless-post-1.0/",
+    "description": "The Serverless team shares their future improvements for the Serverless Framework."
+  },
+  {
+    "name": "Building a serverless screenshot service",
+    "url": "https://medium.com/serverless-stories/building-a-serverless-screenshot-service-with-lambda-bf4dd151877#.8mg0psckq",
+    "description": "Tutorial how one can build a Screenshot service which runs 100% serverless."
+  },
+  {
+    "name": "Adopting serverless",
+    "url": "https://read.acloud.guru/adopting-serverless-people-and-devops-336e3ab89e96#.wjs11rf9j",
+    "description": "People and DevOps - Things to be aware of when adpoting a serverless architecture in your organization."
+  },
+  {
+    "name": "Integration test serverless architectures",
+    "url": "https://serverless.zone/monkeyless-chaos-integration-testing-for-serverless-architectures-9d1a4208c3ca#.5xmrbdqui",
+    "description": "Post which explains how to integration test a serverless application based on the \"ChaosMonkey\" approach Netflix uses."
+  },
+  {
+    "name": "Getting started with Serverless Tweet",
+    "url": "https://twitter.com/slecache/status/789613648339673088",
+    "description": "Most minimal \"Getting started with Serverless\" tutorial."
+  },
+  {
+    "name": "The Serverless Framework is not serverless",
+    "url": "https://medium.com/@PaulDJohnston/the-serverless-framework-is-not-serverless-5008ef67f547#.oteafe4d0",
+    "description": "Post about the difference between the serverless architecture and the Serverless Framework."
+  },
+  {
+    "name": "Building a serverless garden",
+    "url": "https://serverless.com/blog/building-a-serverless-garden/",
+    "description": "Building A Serverless Garden Monitoring System with Lambda."
+  },
+  {
+    "name": "Path parameters with Serverless",
+    "url": "https://foobar123.com/path-parameters-with-serverless-framework-7f0953d1dfa1#.ww1vx3t1a",
+    "description": "Post which explains how to use path parameters with the Serverless Framework."
+  },
+  {
+    "name": "Serverless security vulnerabilities",
+    "url": "https://snyk.io/blog/Serverless-Security-Vulnerabilities/",
+    "description": "Post which discusses the different security vulnerabilities you need to be aware of when developing your serverless application."
+  },
+  {
+    "name": "Best serverless frameworks and tools",
+    "url": "http://thenewstack.io/tns-guide-serverless-technologies-best-frameworks-platforms-tools/",
+    "description": "Overview of all the different serverless frameworks, tools and services."
+  },
+  {
+    "name": "Look ma, No server",
+    "url": "http://www.wsj.com/articles/look-ma-no-server-corporate-it-expects-serverless-computing-to-trigger-big-changes-1477509674",
+    "description": "Wall Street Journal post about the future of serverless architectures in corporate contexts."
+  },
+  {
+    "name": "Shifter goes serverless",
+    "url": "http://cloudacademy.com/blog/wordpress-cloud-hosting-shifter",
+    "description": "Story how the Shifter platform went to a serverless architecture."
+  },
+  {
+    "name": "ServerlessConf 2016 recap",
+    "url": "https://serverlesscode.com/post/serverlessconf-london-recap/",
+    "description": "Recap of the ServerlessConf 2016 in London."
+  },
+  {
+    "name": "Serverless v1.1.0",
+    "url": "https://serverless.com/blog/serverless-v1.1.0/",
+    "description": "Release blog post about Serverless v1.1.0."
+  },
+  {
+    "name": "4 Ways to secure Serverless Applications with Snyk",
+    "url": "https://serverless.com/blog/4-ways-to-secure-prevent-vulnerabilities-in-serverless-applications/",
+    "description": "4 ways to prevent vulnerabilities in Serverless applications."
+  },
+  {
+    "name": "What's missing",
+    "url": "https://serverless.zone/serverlessconf-8cbc8bc52986#.op8mo24l3",
+    "description": "Post which outlines what features are missing in the serverless world."
+  },
+  {
+    "name": "Serverless Map / Reduce",
+    "url": "http://tothestars.io/blog/2016/11/2/serverless-mapreduce",
+    "description": "Showcase on how to use Lambda for Map / Reduce operations."
+  },
+  {
+    "name": "Serverless notifications on AWS",
+    "url": "http://zanon.io/posts/serverless-notifications-on-aws",
+    "description": "How to use the Serverless Framework and AWS IoT for Serverless Notifications."
+  },
+  {
+    "name": "Getting dirty with Serverless v1",
+    "url": "https://blog.gorillastack.com/getting-dirty-with-serverless-framework-v1-part-1-redirects",
+    "description": "Experiences and learnings gained during a transition from Serverless v0 to v1."
+  },
+  {
+    "name": "Serverless video service",
+    "url": "https://medium.com/@federicopanini/video-content-generated-solution-with-aws-lambda-ccb5d5d4629c#.3ktcgkdrx",
+    "description": "How to create a ready-to-use application where users can upload video contents."
+  },
+  {
+    "name": "My opinion on Serverless",
+    "url": "https://cloudonaut.io/my-opinion-on-serverless/",
+    "description": "Opinion from the guys at Cloudonaut about the serverless movement."
+  },
+  {
+    "name": "Save a file in S3",
+    "url": "https://foobar123.com/serverless-save-a-file-in-s3-using-aws-lamdba-d3f087880dd2#.fh7u6fjej",
+    "description": "Post which shows how to save a file to S3 when using a serverless architecture."
+  },
+  {
+    "name": "Smart persons guide to serverleess computing",
+    "url": "http://www.techrepublic.com/article/serverless-computing-the-smart-persons-guide",
+    "description": "Guide which covers what serverless computing is and how it could reduce the complexity and cost of your cloud infrastructure."
+  },
+  {
+    "name": "Prod-To-Staging Data Pipeline",
+    "url": "https://serverlesscode.com/post/lambda-rds-prod-staging-pipeline",
+    "description": "How to use Serverless to migrate data from production to staging using Yesterdaytabase."
+  },
+  {
+    "name": "Keeping the Serverless Framework up to date",
+    "url": "https://foobar123.com/keep-your-serverless-framework-up-to-date-b6af35d4cf77#.ef32fvad6",
+    "description": "Tutorial which shows you what to do to use the most recent version of the Serverless Framework."
+  },
+  {
+    "name": "Serverless Architecture",
+    "url": "https://briantroy.com/2016/10/11/series-part-1-serverless-architecture-a-practical-implementation-iot-device-data-collection-processing-and-user-interface",
+    "description": "Multi part blog post series about the serverless architecture (starts with a serverless IoT setup)."
+  },
+  {
+    "name": "Adopting serverless",
+    "url": "https://read.acloud.guru/adopting-serverless-outsourcing-4e4a4a54f218#.b986oa89h",
+    "description": "Factors to consider when choosing a serverless architecture."
+  },
+  {
+    "name": "CloudSploits switch to serverless",
+    "url": "https://blog.cloudsploit.com/we-made-the-whole-company-serverless-5a91c27cd8c4#.a59q4jmle",
+    "description": "Interesting read on how CloudSploit made their whole company run serverless."
+  },
+  {
+    "name": "AWS CLI inside of Lambda",
+    "url": "https://alestic.com/2016/11/aws-lambda-awscli",
+    "description": "Tutorial how you can run aws-cli commands within a Lambda function."
+  },
+  {
+    "name": "3 ways serverless changes app development 2017",
+    "url": "http://www.forbes.com/sites/ibm/2016/11/17/three-ways-that-serverless-computing-will-transform-app-development-in-2017/#13483a46565a",
+    "description": "Post how serverless computing will transform app development in the future."
+  },
+  {
+    "name": "Serverless PHP",
+    "url": "http://blog.zerosharp.com/the-serverless-framework-and-php/",
+    "description": "How to call PHP functions from AWS Lambda."
+  },
+  {
+    "name": "Top tips for writing Serverless plugins",
+    "url": "http://red-badger.com/blog/2016/11/21/top-tips-for-writing-serverless-plugins",
+    "description": "Blog post about tips and tricks for writing Serverless Framework plugins."
+  },
+  {
+    "name": "Serverless env variables",
+    "url": "https://serverlesscode.com/post/env-vars-support-lambda",
+    "description": "Tutorial how you can use AWS Lambda environment variables with the Serverless Framework."
+  },
+  {
+    "name": "Building an awesome developer community",
+    "url": "https://serverless.com/blog/lessons-learned-on-building-awesome-developer-community",
+    "description": "Blog post by the Serverless team about lessons learned while building a developer community."
+  },
+  {
+    "name": "Hands on with Serverless v1",
+    "url": "http://blog.rowanudell.com/hands-on-with-serverless-v1-screencast/",
+    "description": "Rowan Udell shows how to get started with Serverless v1."
+  },
+  {
     "name": "JAWS @ re:Invent YouTube Video",
     "url": "https://www.youtube.com/watch?v=D_U6luQ6I90",
     "description": "Presentation video of the re:Invent talk."
@@ -373,6 +863,81 @@
     "name": "Serverless Meetup London 07.2016",
     "url": "https://www.youtube.com/watch?v=kIpjBof5fBE",
     "description": "Video of the first Serverless meetup in London."
+  },
+  {
+    "name": "Lambda Functions and Serverless Architectures",
+    "url": "https://www.youtube.com/watch?v=9qkb_OrjRRc",
+    "description": "Talk about Lambda, AWS and the Serverless framework."
+  },
+  {
+    "name": "Use Cases & Architectures",
+    "url": "https://www.youtube.com/watch?v=Ek5fIWgkXbI",
+    "description": "Trek10 talk about different use cases and serverless architectures"
+  },
+  {
+    "name": "Serverless and GraphQL",
+    "url": "https://www.youtube.com/watch?v=Fk--XUEorvc&t=3h32m",
+    "description": "React Rally talk about Serverless and GraphQL by Kevin Old."
+  },
+  {
+    "name": "Serverless architectures with Mike Roberts",
+    "url": "http://softwareengineeringdaily.com/2016/08/23/serverless-architecture-with-mike-roberts/",
+    "description": "Software Engineering Daily podcast about the Serverless architecture."
+  },
+  {
+    "name": "Building a serverless architecture",
+    "url": "https://www.youtube.com/watch?v=vXHkruxonm0",
+    "description": "Rackspace talk on how to build a serverless architecture on AWS."
+  },
+  {
+    "name": "Serverless less server",
+    "url": "https://speakerdeck.com/mhausenblas/serverless-less-server/",
+    "description": "Slides of the \"Serverless less server\" talk."
+  },
+  {
+    "name": "How Serverless is reshaping AWS Lambda",
+    "url": "http://thenewstack.io/how-serverless-is-reshaping-aws-lambda/",
+    "description": "Podcast with Austen Collins (creator of Serverless) about v1 of the Serverless Framework."
+  },
+  {
+    "name": "Serverless v1 Fullstack Fest 2016 talk",
+    "url": "https://www.youtube.com/watch?v=9IrFIobZUEA",
+    "description": "Talk about the Serverless Framework on the Fullstack Fest conference."
+  },
+  {
+    "name": "Apigee and Autodesks talk on Serverless Microservices",
+    "url": "https://www.youtube.com/watch?v=Jtc4RWaRHX4",
+    "description": "Autodesk explains how they're transforming their architecture to be serverless."
+  },
+  {
+    "name": "Serverless microservices",
+    "url": "https://www.youtube.com/watch?v=w14NJkV5yAg",
+    "description": "General talk about serverless microservices by Ben Vandgrift and Adam Hunter."
+  },
+  {
+    "name": "Building with the Serverless Framework",
+    "url": "https://www.youtube.com/watch?v=BKx9vxxuZXY",
+    "description": "Austen Collins shows how one can build applications with the Serverless Framework."
+  },
+  {
+    "name": "Serverless GraphQL Meetup SF",
+    "url": "https://www.youtube.com/watch?v=B7SUJwvw6EI",
+    "description": "Serverless GraphQL Meetup SF 06.10.2016."
+  },
+  {
+    "name": "Build reactive systems on Lambda",
+    "url": "http://www.slideshare.net/theburningmonk/build-reactive-systems-on-lambda",
+    "description": "Presentation about the first steps with AWS Lambda."
+  },
+  {
+    "name": "JAMstack Radio podcast about the Serverless Framework",
+    "url": "http://www.heavybit.com/library/podcasts/jamstack-radio/ep-4-the-serverless-framework-and-aws-lambda/",
+    "description": "David Wells from Serverless, Inc. talks about the Serverless Framework."
+  },
+  {
+    "name": "The Future of PAAS is Serverless",
+    "url": "https://www.youtube.com/watch?v=AtJUYSzksp0",
+    "description": "Talk about serverless architectures and the Serverless Framework."
   },
   {
     "name": "Amazon AWS homepage",
@@ -595,6 +1160,11 @@
     "description": "Starter project for Python based project."
   },
   {
+    "name": "Serverless (v1.0) Python Sample",
+    "url": "https://github.com/bennybauer/serverless-python-sample",
+    "description": "A simple Serverless Python sample with REST API endpoints and dependencies."
+  },
+  {
     "name": "Express to AWS Lambda",
     "url": "https://github.com/johncmckim/express-to-aws-lambda",
     "description": "Code of the \"Express to AWS Lambda\" blog post series."
@@ -615,12 +1185,512 @@
     "description": "Npm registry built with the help of the Serverless framework."
   },
   {
+    "name": "AWS Serverless SoundCloud",
+    "url": "https://github.com/trunghieu138/aws-serverless-soundcloud",
+    "description": "Get artists tracks from SoundCloud."
+  },
+  {
+    "name": "PhantomJS Lambda pack",
+    "url": "https://github.com/justengland/phantomjs-lambda-pack",
+    "description": "PhantomJS wrapper for AWS Lambda."
+  },
+  {
+    "name": "Garden Aid",
+    "url": "https://github.com/garden-aid",
+    "description": "Serverless IoT project to track gardening related data."
+  },
+  {
+    "name": "Serverless Cloud Vision",
+    "url": "https://github.com/ramhiser/serverless-cloud-vision",
+    "description": "A project which uses Google Cloud Vision together with the Serverless framework."
+  },
+  {
+    "name": "Wolfram Lambda",
+    "url": "https://bitbucket.org/pstreule/wolfram-lambda",
+    "description": "HipChat Chatbot which integrates with WolframAlpha."
+  },
+  {
+    "name": "Yith",
+    "url": "https://github.com/craftship/yith",
+    "description": "Serverless private npm registry."
+  },
+  {
+    "name": "Trevorbot",
+    "url": "https://github.com/conveyal/trevorbot",
+    "description": "Slackbot which will say you where Trevor is."
+  },
+  {
+    "name": "Quotebot",
+    "url": "https://github.com/pmuens/quotebot",
+    "description": "Facebook Messenger chatbot which will return a random quote on message retrieval."
+  },
+  {
+    "name": "Weekly2Pocket",
+    "url": "https://github.com/s0enke/weekly2pocket",
+    "description": "Saves weekly stories to the Pocket app."
+  },
+  {
+    "name": "Pokégo serverless",
+    "url": "https://github.com/jch254/pokego-serverless",
+    "description": "Serverless-powered API to fetch nearby Pokemon Go data."
+  },
+  {
+    "name": "Serverless Example",
+    "url": "https://github.com/andymac4182/serverless_example",
+    "description": "Different, feature rich examples for Serverless v1."
+  },
+  {
+    "name": "Serverless microservice architecture",
+    "url": "https://gitlab.com/patoncrispy/serverless-sample-app",
+    "description": "Code which demonstrates a Serverless microservice architecture with decoupled Services."
+  },
+  {
+    "name": "Serverless Zwiftalizer",
+    "url": "https://github.com/mhanney/serverless-zwiftalizer",
+    "description": "Serverless project which includes Lambda functions to support the Zwiftalizer frontend."
+  },
+  {
+    "name": "React boilerplate",
+    "url": "https://github.com/99xt/serverless-react-boilerplate",
+    "description": "React boilerplate for applications which are powered by Serverless and React."
+  },
+  {
+    "name": "Serverless screenshot",
+    "url": "https://github.com/svdgraaf/serverless-screenshot",
+    "description": "Code for a screenshot service build with Serverless."
+  },
+  {
+    "name": "Serverless minimal",
+    "url": "https://github.com/mthenw/serverless-minimal",
+    "description": "The smallest possible Serverless service."
+  },
+  {
+    "name": "Serverless authorizer",
+    "url": "https://github.com/eahefnawy/serverless-authorizer",
+    "description": "Example of a service that uses API Gateway custom authorizer feature to authorize your endpoints."
+  },
+  {
+    "name": "Serverless artillery",
+    "url": "https://github.com/Nordstrom/serverless-artillery",
+    "description": "Instant and cheap performance testing at scale (combines Serverless and Artillery)."
+  },
+  {
+    "name": "Delivery Framework",
+    "url": "https://github.com/99xt/serverless-delivery-framework",
+    "description": "Boilerplate for version release pipeline with the Serverless Framework."
+  },
+  {
+    "name": "Serverless Beer",
+    "url": "https://github.com/cassiozen/serverless-beer",
+    "description": "Example application which uses DynamoDB."
+  },
+  {
+    "name": "CRUD",
+    "url": "https://github.com/pmuens/serverless-crud",
+    "description": "CRUD service."
+  },
+  {
+    "name": "Mailer",
+    "url": "https://github.com/eahefnawy/serverless-mailer",
+    "description": "Service for sending E-Mails."
+  },
+  {
+    "name": "Kinesis streams",
+    "url": "https://github.com/pmuens/serverless-kinesis-streams",
+    "description": "Service to showcase Kinesis stream support."
+  },
+  {
+    "name": "DynamoDB streams",
+    "url": "https://github.com/pmuens/serverless-dynamodb-streams",
+    "description": "Service to showcase DynamoDB stream support."
+  },
+  {
+    "name": "Landingpage backend",
+    "url": "https://github.com/pmuens/serverless-landingpage-backend",
+    "description": "Landingpage backend service to store E-Mail addresses."
+  },
+  {
+    "name": "Facebook Messenger Chatbot",
+    "url": "https://github.com/pmuens/serverless-facebook-messenger-bot",
+    "description": "Chatbot for the Facebook Messenger platform."
+  },
+  {
+    "name": "Lambda chaining",
+    "url": "https://github.com/pmuens/serverless-lambda-chaining",
+    "description": "Service which chains Lambdas through SNS."
+  },
+  {
+    "name": "Secured API",
+    "url": "https://github.com/pmuens/serverless-secured-api",
+    "description": "Service which exposes an API key accessible API."
+  },
+  {
+    "name": "Authorizer",
+    "url": "https://github.com/eahefnawy/serverless-authorizer",
+    "description": "Service that uses API Gateway custom authorizers."
+  },
+  {
+    "name": "Thumbnails",
+    "url": "https://github.com/eahefnawy/serverless-thumbnails",
+    "description": "Service that takes an image url and returns a 100x100 thumbnail."
+  },
+  {
+    "name": "Boilerplate",
+    "url": "https://github.com/eahefnawy/serverless-boilerplate",
+    "description": "Opinionated boilerplate."
+  },
+  {
+    "name": "Serverless Sharp Image",
+    "url": "https://github.com/adieuadieu/serverless-sharp-image",
+    "description": "function triggered by S3 events to resize images with the awesome Sharp library"
+  },
+  {
+    "name": "Serverles Artillery workshop",
+    "url": "https://github.com/Nordstrom/serverless-artillery-workshop",
+    "description": "Step by step workshop to create a load testing service which combines Serverless and Artillery."
+  },
+  {
+    "name": "ServerlessConf workshop",
+    "url": "https://github.com/ServerlessInc/serverlessconf-workshop",
+    "description": "Project code for the ServerlessConf London 2016 workshop."
+  },
+  {
+    "name": "Messenger boilerplate",
+    "url": "https://github.com/SC5/serverless-messenger-boilerplate",
+    "description": "Serverless messenger bot boilerplate."
+  },
+  {
+    "name": "ES6 + Jest",
+    "url": "https://github.com/americansystems/serverless-es6-jest",
+    "description": "Serverless framework with ES6 via Webpack + Babel + Jest."
+  },
+  {
+    "name": "CRUD Scala",
+    "url": "https://github.com/jahangirmohammed/serverless-crud-scala",
+    "description": "CRUD example which uses Scala and the Java runtime."
+  },
+  {
+    "name": "Generator Serverless service",
+    "url": "https://github.com/ACloudGuru/generator-serverless-service",
+    "description": "A scaffold for a Node.js Serverless service."
+  },
+  {
+    "name": "SalckNorris",
+    "url": "https://github.com/robertoestivill/slacknorris",
+    "description": "Slack command to retrieve great Chuck Norris quotes."
+  },
+  {
+    "name": "Web API scaffold",
+    "url": "https://github.com/jch254/serverless-es6-dynamodb-webapi",
+    "description": "Simple web API powered by Serverless (Node.js) and DynamoDB."
+  },
+  {
+    "name": "Serverless Notifications",
+    "url": "https://github.com/zanon-io/serverless-notifications",
+    "description": "Project which uses the Serverless Framework and AWS IoT for notifications."
+  },
+  {
+    "name": "Redirect example",
+    "url": "https://github.com/GorillaStack/serverless-redirect-example",
+    "description": "Example of how to implement redirects in the Serverless framework."
+  },
+  {
+    "name": "Meetup event collector",
+    "url": "https://github.com/mavi888/meetup-event-collector-node",
+    "description": "Node project to collect events and create a calendar feed of meetup events."
+  },
+  {
+    "name": "Yesterdaytabase",
+    "url": "https://github.com/ryansb/yesterdaytabase",
+    "description": "Cascade data from production to staging with AWS RDS and Lambda."
+  },
+  {
+    "name": "Serverless dotenv WSGI",
+    "url": "https://github.com/braahyan/serverless-dotenv-wsgi",
+    "description": "Demonstrating the use of the serverless-wsgi plugin and the serverless-plugin-dotenv plugin."
+  },
+  {
+    "name": "Serverless PHP",
+    "url": "https://github.com/ZeroSharp/serverless-php",
+    "description": "Example using an AWS Lambda which runs a PHP function."
+  },
+  {
+    "name": "Webpack",
+    "url": "https://github.com/elastic-coders/serverless-webpack",
+    "description": "Plugin to add webpack to Serverless."
+  },
+  {
+    "name": "Scriptable",
+    "url": "https://github.com/wei-xu-myob/serverless-scriptable-plugin",
+    "description": "Make Serverless scriptable without writing a Plugin."
+  },
+  {
+    "name": "Build plugin",
+    "url": "https://github.com/nfour/serverless-build-plugin",
+    "description": "Optimizes your Node.js functions before they're deployed."
+  },
+  {
+    "name": "Write env vars",
+    "url": "https://github.com/silvermine/serverless-plugin-write-env-vars",
+    "description": "Access environment variables in Lambda functions."
+  },
+  {
+    "name": "Alexa plugin",
+    "url": "https://github.com/rajington/serverless-alexa-plugin",
+    "description": "Support Alexa Lambda events."
+  },
+  {
+    "name": "Multi responses",
+    "url": "https://github.com/silvermine/serverless-plugin-multiple-responses",
+    "description": "Allow multiple content types in response templates."
+  },
+  {
+    "name": "Run function",
+    "url": "https://github.com/lithin/serverless-run-function-plugin",
+    "description": "Plugin to run your Serverless functions locally."
+  },
+  {
+    "name": "Stage variables",
+    "url": "https://www.npmjs.com/package/serverless-plugin-stage-variables",
+    "description": "Add stage variables for Serverless 1.x to ApiGateway, so you can use variables in your Lambda's."
+  },
+  {
+    "name": "DynamoDB local",
+    "url": "https://github.com/99xt/serverless-dynamodb-local/tree/v1",
+    "description": "Allows to run dynamodb locally for Serverless."
+  },
+  {
+    "name": "Stack outputs",
+    "url": "https://www.npmjs.com/package/serverless-plugin-stack-outputs",
+    "description": "Plugin that outputs all stack outputs."
+  },
+  {
+    "name": "Command line event args",
+    "url": "https://github.com/horike37/serverless-command-line-event-args",
+    "description": "Inline event.json for the invoke plugin."
+  },
+  {
+    "name": "WSGI",
+    "url": "https://github.com/logandk/serverless-wsgi",
+    "description": "Helps you to deploy Python WSGI applications (Flask/Django etc.)."
+  },
+  {
+    "name": "External SNS events",
+    "url": "https://github.com/silvermine/serverless-plugin-external-sns-events",
+    "description": "Let you use an already existent SNS topic as the event source."
+  },
+  {
+    "name": "CloudWatch Sumologic",
+    "url": "https://github.com/ACloudGuru/serverless-plugin-cloudwatch-sumologic",
+    "description": "Plugin which auto-subscribes a log delivery Lambda function to lambda log groups created by Serverless."
+  },
+  {
+    "name": "Browserify",
+    "url": "https://github.com/doapp-ryanp/serverless-plugin-browserify",
+    "description": "Add browserify to speedup Lambdas."
+  },
+  {
+    "name": "Optimize",
+    "url": "https://github.com/FidelLimited/serverless-plugin-optimize",
+    "description": "Optimize plugin for Serverless."
+  },
+  {
+    "name": "Include dependencies",
+    "url": "https://github.com/dougmoscrop/serverless-plugin-include-dependencies",
+    "description": "Explicitly include packages in your node_modules folder."
+  },
+  {
+    "name": "Subscription filter",
+    "url": "https://github.com/blackevil245/serverless-subscription-filter",
+    "description": "Register subscription filter for Lambda logs."
+  },
+  {
+    "name": "Snyk plugin",
+    "url": "https://github.com/Snyk/serverless-snyk",
+    "description": "Plugin for securing your dependencies with Snyk."
+  },
+  {
+    "name": "CloudWatch logging subscriptions",
+    "url": "https://github.com/TicketSolutionsPtyLtd/serverless-plugin-cloudwatch-logging-subscriptions",
+    "description": "Adds CloudWatch log subscriptions for each function in a Serverless service."
+  },
+  {
+    "name": "Crypt",
+    "url": "https://github.com/marcy-terui/serverless-crypt",
+    "description": "Securing Serverless secrets by AWS KMS encryption."
+  },
+  {
+    "name": "Diff",
+    "url": "https://github.com/nicka/serverless-plugin-diff",
+    "description": "Compares your local AWS CloudFormation templates against deployed ones."
+  },
+  {
+    "name": "Rollback function",
+    "url": "https://github.com/marcy-terui/serverless-rollback-function",
+    "description": "Rollback a single function."
+  },
+  {
+    "name": "CloudFormation Authorizer",
+    "url": "https://github.com/SC5/serverless-plugin-cfauthorizer",
+    "description": "Define your own API Gateway Authorizers as the Serverless CloudFormation resources and apply them to HTTP endpoints."
+  },
+  {
+    "name": "Babel",
+    "url": "https://github.com/serverless/serverless-babel-plugin",
+    "description": "Plugin to compile your JavaScript code with Babel before deployment."
+  },
+  {
+    "name": "External S3 event",
+    "url": "https://github.com/matt-filion/serverless-external-s3-event",
+    "description": "Overcomes the CloudFormation limitation on attaching an event to an uncontrolled bucket."
+  },
+  {
+    "name": "Serverless book",
+    "url": "https://github.com/pmuens/serverless-book",
+    "description": "By the Serverless team - Book focused on v1 of the serverless.com framework."
+  },
+  {
+    "name": "Serverless",
+    "url": "https://leanpub.com/serverless",
+    "description": "By Obie Fernandez - Book about Serverless development (also covers usage of the Serverless framework)."
+  },
+  {
+    "name": "Serverless Architectures on AWS",
+    "url": "http://book.acloud.guru",
+    "description": "By Peter Sbarski & Sam Kroonenburg - Book focused on covering serverless architectures using AWS."
+  },
+  {
+    "name": "Trek10",
+    "url": "http://trek10.com",
+    "description": "Consultancy."
+  },
+  {
+    "name": "Parallax",
+    "url": "https://parall.ax/",
+    "description": "Consultancy."
+  },
+  {
+    "name": "SC5 Online",
+    "url": "https://sc5.io",
+    "description": "Serverless agency."
+  },
+  {
+    "name": "Carrot creative",
+    "url": "https://carrot.is",
+    "description": "Agency."
+  },
+  {
+    "name": "Microapps",
+    "url": "http://microapps.com",
+    "description": "Agency."
+  },
+  {
+    "name": "Apiwise",
+    "url": "http://www.apiwise.nl",
+    "description": "Agency."
+  },
+  {
+    "name": "Useful.io",
+    "url": "http://useful.io",
+    "description": "Agency."
+  },
+  {
+    "name": "WhaleTec",
+    "url": "https://whaletech.co",
+    "description": "Consultancy."
+  },
+  {
+    "name": "Hop Labs",
+    "url": "http://hoplabs.com",
+    "description": "Consultancy."
+  },
+  {
+    "name": "Webscale",
+    "url": "https://webscale.fi/briefly-in-english/",
+    "description": "Consultancy."
+  },
+  {
+    "name": "API talent",
+    "url": "http://www.apitalent.co.nz",
+    "description": "Consultancy."
+  },
+  {
+    "name": "Branded Crate",
+    "url": "https://www.brandedcrate.com/",
+    "description": "Agency."
+  },
+  {
+    "name": "Cloudonaut",
+    "url": "https://cloudonaut.io/serverless-consulting/",
+    "description": "Consultancy."
+  },
+  {
+    "name": "PromptWorks",
+    "url": "https://www.promptworks.com/serverless/",
+    "description": "Consultancy."
+  },
+  {
+    "name": "Craftship",
+    "url": "https://craftship.io",
+    "description": "Consultancy."
+  },
+  {
+    "name": "EPX Labs",
+    "url": "http://www.epxlabs.com",
+    "description": "Consultancy."
+  },
+  {
+    "name": "Community repository",
+    "url": "https://github.com/serverless/serverless-community",
+    "description": "Resources for the community."
+  },
+  {
+    "name": "Readme.io",
+    "url": "https://serverless.readme.io",
+    "description": "Official documentation."
+  },
+  {
+    "name": "Community plugins",
+    "url": "https://github.com/serverless/community-plugins",
+    "description": "Repository for Serverless community plugins."
+  },
+  {
+    "name": "AWSM",
+    "url": "https://github.com/awsm-org/awsm",
+    "description": "Official GitHub organization for modules."
+  },
+  {
+    "name": "Getting started with JAWS on AWS",
+    "url": "https://aws.amazon.com/de/blogs/compute/getting-started-with-jaws-on-amazon-web-services/",
+    "description": "Getting started guide with Serverless by Amazon (might be deprecated)."
+  },
+  {
+    "name": "Serverless starter",
+    "url": "https://github.com/serverless/serverless-starter",
+    "description": "Boilerplate for new projects."
+  },
+  {
+    "name": "JAWS local server",
+    "url": "https://github.com/martinlindenberg/JawsLocalServer",
+    "description": "Local server which lets you execute Lambda functions locally."
+  },
+  {
+    "name": "Shark Notes",
+    "url": "https://github.com/JustServerless/shark-notes",
+    "description": "Full note taking tool (frontend and backend) which shows how to do CRUD with Serverless."
+  },
+  {
+    "name": "Serverless Registry",
+    "url": "https://justserverless.github.io/serverless-registry",
+    "description": "Unofficial plugin and module search."
+  },
+  {
     "name": "Plugin boilerplate",
     "url": "https://github.com/serverless/serverless-plugin-boilerplate",
     "description": "Boilerplate code if you want to develop your own plugin."
   },
   {
-    "name": "Serverless resources validation plugin",
+    "name": "Serverless resources validation",
     "url": "https://github.com/tmilewski/serverless-resources-validation-plugin",
     "description": "Plugin which validates your CloudFormation template."
   },
@@ -690,7 +1760,7 @@
     "description": "An alternative to the Serve plugin, with Velocity templates support."
   },
   {
-    "name": "Serverless optimizer plugin",
+    "name": "Serverless optimizer",
     "url": "https://github.com/asprouse/serverless-optimizer-plugin",
     "description": "Fork of the optimizer plugin which uses Webpack."
   },
@@ -800,104 +1870,14 @@
     "description": "Easy cognito management for Serverless projects."
   },
   {
-    "name": "Serverless",
-    "url": "https://leanpub.com/serverless",
-    "description": "By Obie Fernandez - Book about Serverless development (also covers usage of the Serverless framework)."
+    "name": "Hook scripts",
+    "url": "https://github.com/kennu/serverless-plugin-hookscripts",
+    "description": "Run code whenever a Serverless action is run."
   },
   {
-    "name": "Learn Serverless",
-    "url": "http://learnserverless.club",
-    "description": "By Philipp Müns - Book focused on the serverless.com framework."
-  },
-  {
-    "name": "Trek10",
-    "url": "http://trek10.com",
-    "description": "Consultancy."
-  },
-  {
-    "name": "Parallax",
-    "url": "https://parall.ax/",
-    "description": "Consultancy."
-  },
-  {
-    "name": "SC5 Online",
-    "url": "https://sc5.io",
-    "description": "Serverless agency."
-  },
-  {
-    "name": "Carrot creative",
-    "url": "https://carrot.is",
-    "description": "Agency."
-  },
-  {
-    "name": "Microapps",
-    "url": "http://microapps.com",
-    "description": "Agency."
-  },
-  {
-    "name": "Apiwise",
-    "url": "http://www.apiwise.nl",
-    "description": "Agency."
-  },
-  {
-    "name": "Useful.io",
-    "url": "http://useful.io",
-    "description": "Agency."
-  },
-  {
-    "name": "WhaleTec",
-    "url": "https://whaletech.co",
-    "description": "Consultancy."
-  },
-  {
-    "name": "Hop Labs",
-    "url": "http://hoplabs.com",
-    "description": "Consultancy."
-  },
-  {
-    "name": "Webscale",
-    "url": "https://webscale.fi/briefly-in-english/",
-    "description": "Consultancy."
-  },
-  {
-    "name": "API talent",
-    "url": "http://www.apitalent.co.nz",
-    "description": "Consultancy."
-  },
-  {
-    "name": "Branded Crate",
-    "url": "https://www.brandedcrate.com/",
-    "description": "Agency."
-  },
-  {
-    "name": "Cloudonaut",
-    "url": "https://cloudonaut.io/serverless-consulting/",
-    "description": "Consultancy."
-  },
-  {
-    "name": "AWSM",
-    "url": "https://github.com/awsm-org/awsm",
-    "description": "Official GitHub organization for modules."
-  },
-  {
-    "name": "Getting started with JAWS on AWS",
-    "url": "https://aws.amazon.com/de/blogs/compute/getting-started-with-jaws-on-amazon-web-services/",
-    "description": "Getting started guide with Serverless by Amazon (might be deprecated)."
-  },
-  {
-    "name": "Serverless starter",
-    "url": "https://github.com/serverless/serverless-starter",
-    "description": "Boilerplate for new projects."
-  },
-  {
-    "name": "JAWS local server",
-    "url": "https://github.com/martinlindenberg/JawsLocalServer",
-    "description": "Local server which let's you execute Lambda functions locally."
-  },
-  {
-    "name": "Shark Notes",
-    "url": "https://github.com/JustServerless/shark-notes",
-    "description": "Full note taking tool (frontend and backend) which shows how to do CRUD with Serverless."
+    "name": "Header function",
+    "url": "https://github.com/blackevil245/serverless-header-function",
+    "description": "Automatically run a JavaScript script on every Serverless action hooks."
   },
   {
     "name": "npm registry",
@@ -978,5 +1958,10 @@
     "name": "3scale",
     "url": "https://github.com/jerzyn/awsm-3scale",
     "description": "Integrates 3scale API management platform."
+  },
+  {
+    "name": "Learn Serverless",
+    "url": "https://github.com/JustServerless/learnserverless-book",
+    "description": "By Philipp Müns - Book focused on the serverless.com framework. Note: Deprecated."
   }
 ]

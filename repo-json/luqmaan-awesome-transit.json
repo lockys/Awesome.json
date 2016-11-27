@@ -149,6 +149,16 @@
     "description": "Creates a customizable web map layer of transit routes using Leaflet or D3."
   },
   {
+    "name": "Brand New Subway",
+    "url": "http://jpwright.net/subway/",
+    "description": "An interactive transportation planning game that lets players alter the NYC subway system to their heart's content."
+  },
+  {
+    "name": "CityMapper Webapp",
+    "url": "https://citymapper.com/nyc",
+    "description": "Really polished webapp with trip planner and route status for over 30 of cities."
+  },
+  {
     "name": "OneBusAway Apps",
     "url": "https://play.google.com/store/apps/details?id=com.joulespersecond.seattlebusbot",
     "description": "Android (source code), Fire Phone (source code), iOS  (source code), Windows Phone (source code), Windows 8 (source code), Google Glass GDK (source code)"
@@ -168,7 +178,7 @@
     "url": "http://www.allyapp.com/"
   },
   {
-    "name": "Transit App",
+    "name": "Transit",
     "url": "http://transitapp.com/"
   },
   {
@@ -182,10 +192,6 @@
   {
     "name": "Tiramisu Transit",
     "url": "http://www.tiramisutransit.com/"
-  },
-  {
-    "name": "Ridescout",
-    "url": "http://ridescout.com/"
   },
   {
     "name": "TransLoc Rider",
@@ -218,9 +224,14 @@
     "description": "Frequency visualization of subways and buses in New York City built using Transitland."
   },
   {
-    "name": "TransitWiki",
-    "url": "http://www.transitwiki.org/",
-    "description": "A wiki for transit planners to find cost-effective strategies to improve transit service."
+    "name": "When(ish) is my bus? User-centered Visualizations of Uncertainty in Everyday, Mobile Predictive Systems ",
+    "url": "http://faculty.washington.edu/jhullman/busUncertaintyVis.pdf",
+    "description": "Paper that does an amazing job answering the question of how do we communicate uncertainty in transit predictions? The paper explains the problem, existing solutions and designs a better interface for letting users know when to arrive at the bus stop."
+  },
+  {
+    "name": "When(ish) is my bus? Data and code",
+    "url": "https://github.com/mjskay/when-ish-is-my-bus",
+    "description": "The data and code (R) behind Whenish is my bus? Data includes three days of historical vehicle positions and the survey results."
   },
   {
     "name": "\"Legacy AVL system? It's okay, join the club.\" by Kurt Raschke",
@@ -236,6 +247,10 @@
     "name": "TCRP Synthesis 115",
     "url": "http://onlinepubs.trb.org/Onlinepubs/tcrp/tcrp_syn_115.pdf",
     "description": "Open Data: Challenges and Opportunities for Transit Agencies - A comprehensive report looking at the benefits and challenges of open transit data."
+  },
+  {
+    "name": "GTFS Spec Specification for the General Transit Data Feed, or GTFS.",
+    "url": "https://developers.google.com/transit/gtfs/"
   },
   {
     "name": "Mapzen GTFS",
@@ -275,7 +290,7 @@
   {
     "name": "Node-GTFS",
     "url": "https://github.com/brendannee/node-gtfs",
-    "description": "Loads transit data in GTFS format from GTFS Data Exchange, unzips it and stores it to a MongoDB database and provides some methods to query for agencies, routes, stops and times."
+    "description": "Loads transit data from GTFS Data Exchange, unzips it and stores it to a MongoDB database and provides some methods to query for agencies, routes, stops and times."
   },
   {
     "name": "GTFS-viz",
@@ -286,6 +301,26 @@
     "name": "GTFS-OSM-Sync",
     "url": "https://github.com/CUTR-at-USF/gtfs-osm-sync",
     "description": "A Java tool for syncrhonizing data in GTFS format with OpenStreetMap.org."
+  },
+  {
+    "name": "gtfs-sequelize",
+    "url": "https://github.com/evansiroky/gtfs-sequelize",
+    "description": "Node.js library modeling the static GTFS using sequelize.js."
+  },
+  {
+    "name": "gtfslib-python",
+    "url": "https://github.com/afimb/gtfslib-python",
+    "description": " An open source library in python for reading GTFS files and computing various stats and indicators about Public Transport networks."
+  },
+  {
+    "name": "multigtfs",
+    "url": "https://github.com/tulsawebdevs/django-multi-gtfs",
+    "description": "A Django application to import and export GTFS"
+  },
+  {
+    "name": "GTFSTK",
+    "url": "https://github.com/araichev/gtfstk",
+    "description": "A Python 3 toolkit for analyzing GTFS data in memory. Uses Pandas and Shapely for speed."
   },
   {
     "name": "Transmodel and IFF to GTFS",
@@ -308,19 +343,38 @@
     "description": "Python script that generates missing shapes.txt for GTFS using routing from Google Maps Directions API or OSRM."
   },
   {
+    "name": "GTFS Editor A (self-hosted) web-based GTFS editing framework.",
+    "url": "https://github.com/conveyal/gtfs-editor"
+  },
+  {
     "name": "TransitWand",
     "url": "http://transitwand.com/",
     "description": "An open source web and mobile application for collecting transit data. Use it to create GTFS feeds, capture passenger counts or generate GIS datasets."
   },
   {
-    "name": "gtfs-sequelize",
-    "url": "https://github.com/evansiroky/gtfs-sequelize",
-    "description": "Node.js library modeling the static GTFS using sequelize.js."
+    "name": "Gtfs Data Manager",
+    "url": "https://github.com/conveyal/gtfs-data-manager",
+    "description": "A workflow tool for managing large amounts of GTFS data and importing them into OpenTripPlanner."
   },
   {
-    "name": "gtfslib-python",
-    "url": "https://github.com/afimb/gtfslib-python",
-    "description": " An open source library in python for reading GTFS files and computing various stats and indicators about Public Transport networks."
+    "name": "feedValidator",
+    "url": "https://github.com/google/transitfeed/wiki/FeedValidator",
+    "description": "Google supported Python-based GTFS validator. "
+  },
+  {
+    "name": "gtfs-validator",
+    "url": "https://github.com/conveyal/gtfs-validator",
+    "description": "- A GTFS validator based on the Onebusaway GTFS Modules, runs in Java and is faster than the Google provided one. "
+  },
+  {
+    "name": "gtfs-validator",
+    "url": "https://github.com/laidig/gtfs-validator",
+    "description": "Fork of the Conveyal validator above, with additional checks. "
+  },
+  {
+    "name": "GFTS Data Package Specification",
+    "url": "https://github.com/Stephen-Gates/GTFS",
+    "description": "A Data Package specification with validation accomplished with Good Tables. Includes a data package, schemas, tests, and uses South East Queensland GTFS data as an example."
   },
   {
     "name": "gtfs-realtime-bindings",

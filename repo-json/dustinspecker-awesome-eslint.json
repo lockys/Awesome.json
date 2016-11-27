@@ -14,6 +14,11 @@
     "description": "Shareable config for ESLint's default settings"
   },
   {
+    "name": "ES",
+    "url": "https://github.com/thenativeweb/eslint-config-es",
+    "description": "Shareable config for very strict code"
+  },
+  {
     "name": "Google",
     "url": "https://github.com/google/eslint-config-google",
     "description": "Shareable config for the Google style"
@@ -52,6 +57,11 @@
     "name": "Backbone",
     "url": "https://github.com/ilyavolodin/eslint-plugin-backbone",
     "description": "Linting rules for Backbone"
+  },
+  {
+    "name": "Chai",
+    "url": "https://github.com/turbo87/eslint-plugin-chai-expect",
+    "description": "Linting rules for Chai"
   },
   {
     "name": "Jasmine",
@@ -99,6 +109,11 @@
     "description": "React Native specific linting rules"
   },
   {
+    "name": "RequireJS",
+    "url": "https://github.com/cvisco/eslint-plugin-requirejs",
+    "description": "Linting rules for RequireJS"
+  },
+  {
     "name": "Babel",
     "url": "https://github.com/babel/eslint-plugin-babel",
     "description": "Adds replacements for built-in rules to include Babel features"
@@ -112,6 +127,11 @@
     "name": "Flow",
     "url": "https://github.com/gajus/eslint-plugin-flowtype",
     "description": "Flow type linting rules"
+  },
+  {
+    "name": "Flow Errors",
+    "url": "https://github.com/amilajack/eslint-plugin-flowtype-errors",
+    "description": "Run Flow as an ESLint plugin"
   },
   {
     "name": "GraphQL",
@@ -149,9 +169,14 @@
     "description": "Introduces types, based on existing schemas (Swagger, Redux) and linting access to object properties, preventing undefined errors"
   },
   {
-    "name": "XO",
-    "url": "https://github.com/sindresorhus/eslint-plugin-xo",
-    "description": "Various useful rules"
+    "name": "unicorn",
+    "url": "https://github.com/sindresorhus/eslint-plugin-unicorn",
+    "description": "Various awesome ESLint rules"
+  },
+  {
+    "name": "ESLint Comments",
+    "url": "https://github.com/mysticatea/eslint-plugin-eslint-comments",
+    "description": "Best practices about ESLint directive comments (/*eslint-disable*/, etc...)"
   },
   {
     "name": "fp",
@@ -189,9 +214,19 @@
     "description": "Prevent using extended native objects"
   },
   {
+    "name": "Promise",
+    "url": "https://github.com/xjamundx/eslint-plugin-promise",
+    "description": "Best practices when working with promises"
+  },
+  {
     "name": "Security",
     "url": "https://github.com/nodesecurity/eslint-plugin-security",
     "description": "ESLint rules for Node Security"
+  },
+  {
+    "name": "this",
+    "url": "https://github.com/matijs/eslint-plugin-this",
+    "description": "Write pure functions, don't allow this"
   },
   {
     "name": "XSS",
@@ -239,6 +274,16 @@
     "description": "Ease into ESLint, by fixing one rule at a time"
   },
   {
+    "name": "eslint-rule-documentation",
+    "url": "https://github.com/jfmengels/eslint-rule-documentation",
+    "description": "Find the url for the documentation of an ESLint rule"
+  },
+  {
+    "name": "eslint-watch",
+    "url": "https://github.com/rizowski/eslint-watch",
+    "description": "Run ESLint with watch mode"
+  },
+  {
     "name": "Creating an ESLint Plugin",
     "url": "https://medium.com/tumblbug-engineering/creating-an-eslint-plugin-87f1cb42767f",
     "description": "Article walking through the creation of an ESLint rule and plugin"
@@ -257,5 +302,15 @@
     "name": "Linting React JSX with ESLint (in ES6)",
     "url": "https://egghead.io/lessons/react-linting-react-jsx-with-eslint-in-es6",
     "description": "Video showing how to use React and JSX with ESLint"
+  },
+  {
+    "name": "Plugin Module with Mixins",
+    "url": "https://akullpp.com/eslint-integration",
+    "description": "Article on how to write a plugin as a node module containing modular mixin configuration"
+  },
+  {
+    "name": "Writing a rule to spot undeclared props hiding in plain sight",
+    "url": "http://blog.cowchimp.com/writing-a-custom-eslint-rule-to-spot-undeclared-props/",
+    "description": "Article about creating rules that require scope analysis"
   }
 ]

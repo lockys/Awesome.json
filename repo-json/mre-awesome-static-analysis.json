@@ -25,6 +25,11 @@
     "description": "finds possible security weaknesses"
   },
   {
+    "name": "flint++ [OSS]",
+    "url": "http://l2program.co.uk/category/flint",
+    "description": "cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook."
+  },
+  {
     "name": "oclint [OSS]",
     "url": "http://oclint.org/",
     "description": "static analysis of C/C++ code"
@@ -37,7 +42,7 @@
   {
     "name": "tis-interpreter [OSS]",
     "url": "https://github.com/TrustInSoft/tis-interpreter",
-    "description": "An interpreter for finding subtle bugs in programs written in standard C "
+    "description": "An interpreter for finding subtle bugs in programs written in standard C"
   },
   {
     "name": "vera++ [OSS]",
@@ -65,14 +70,19 @@
     "description": "Designite is a software design quality assessment tool. It supports detection of implementation and design smells, computation of various code quality metrics, and trend analysis."
   },
   {
-    "name": "Gendarme[OSS]",
+    "name": "Gendarme [OSS]",
     "url": "http://www.mono-project.com/docs/tools+libraries/tools/gendarme/",
     "description": "Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked."
   },
   {
     "name": ".NET Analyzers [OSS]",
     "url": "https://github.com/DotNetAnalyzers",
-    "description": "An organization for the development of analyzers (diagnostics, code fixes, and refactorings) using the .NET Compiler Platform."
+    "description": "An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform."
+  },
+  {
+    "name": "Roslyn Security Guard [OSS]",
+    "url": "https://dotnet-security-guard.github.io/",
+    "description": "Project that focus on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more."
   },
   {
     "name": "SonarLint for Visual Studio [OSS]",
@@ -102,7 +112,7 @@
   {
     "name": "clair [OSS]",
     "url": "https://github.com/coreos/clair",
-    "description": "Vulnerability Static Analysis for Containers "
+    "description": "Vulnerability Static Analysis for Containers"
   },
   {
     "name": "collector [OSS]",
@@ -115,14 +125,44 @@
     "description": "A smarter Dockerfile linter that helps you build best practice Docker images"
   },
   {
+    "name": "CSS Stats [OSS]",
+    "url": "https://github.com/cssstats/cssstats",
+    "description": "Potentially interesting stats on stylesheets"
+  },
+  {
+    "name": "Parker [OSS]",
+    "url": "https://github.com/katiefenn/parker",
+    "description": "Stylesheet analysis tool"
+  },
+  {
+    "name": "scsslint [OSS]",
+    "url": "https://github.com/brigade/scss-lint",
+    "description": "Linter for SCSS files"
+  },
+  {
+    "name": "Specificity Graph [OSS]",
+    "url": "https://github.com/pocketjoso/specificity-graph",
+    "description": "CSS Specificity Graph Generator"
+  },
+  {
+    "name": "Stylelint [OSS]",
+    "url": "http://stylelint.io/",
+    "description": "Linter for SCSS/CSS files"
+  },
+  {
     "name": "credo [OSS]",
     "url": "https://github.com/rrrene/credo",
-    "description": " A static code analysis tool with a focus on code consistency and teaching. "
+    "description": "A static code analysis tool with a focus on code consistency and teaching."
+  },
+  {
+    "name": "Dogma [OSS]",
+    "url": "https://github.com/lpil/dogma",
+    "description": "A code style enforcer for Elixir"
   },
   {
     "name": "dingo-hunter [OSS]",
     "url": "https://github.com/nickng/dingo-hunter",
-    "description": "Static analyser for finding Deadlocks in Go"
+    "description": "Static analyser for finding deadlocks in Go"
   },
   {
     "name": "flen [OSS]",
@@ -133,6 +173,11 @@
     "name": "go/ast [OSS]",
     "url": "https://golang.org/pkg/go/ast/",
     "description": "Package ast declares the types used to represent syntax trees for Go packages."
+  },
+  {
+    "name": "go-staticcheck [OSS]",
+    "url": "https://github.com/dominikh/go-staticcheck",
+    "description": "go vet on steroids, similar to ReSharper for C#"
   },
   {
     "name": "gocyclo [OSS]",
@@ -146,18 +191,18 @@
   },
   {
     "name": "go vet [OSS]",
-    "url": "https://godoc.org/golang.org/x/tools/cmd/vet",
+    "url": "https://golang.org/cmd/vet/",
     "description": "Examines Go source code and reports suspicious constructs"
   },
   {
-    "name": "ineffassign",
+    "name": "ineffassign [OSS]",
     "url": "https://github.com/gordonklaus/ineffassign",
     "description": "Detect ineffectual assignments in Go code"
   },
   {
     "name": "safesql [OSS]",
     "url": "https://github.com/stripe/safesql",
-    "description": "Static analysis tool for Golang that protects against SQL injections "
+    "description": "Static analysis tool for Golang that protects against SQL injections"
   },
   {
     "name": "CodeNarc [OSS]",
@@ -182,7 +227,7 @@
   {
     "name": "HTML Inspector [OSS]",
     "url": "https://github.com/philipwalton/html-inspector",
-    "description": "HTML Inspector is a code quality tool to help you and your team write better markup. "
+    "description": "HTML Inspector is a code quality tool to help you and your team write better markup."
   },
   {
     "name": "checkstyle [OSS]",
@@ -197,7 +242,7 @@
   {
     "name": "Error-prone [OSS]",
     "url": "https://github.com/google/error-prone",
-    "description": "Catch common Java mistakes as compile-time errors·"
+    "description": "Catch common Java mistakes as compile-time errors"
   },
   {
     "name": "fb-contrib [OSS]",
@@ -208,6 +253,16 @@
     "name": "Findbugs [OSS]",
     "url": "https://github.com/findbugsproject/findbugs",
     "description": "FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors."
+  },
+  {
+    "name": "Find Security Bugs [OSS]",
+    "url": "https://find-sec-bugs.github.io/",
+    "description": "IDE/SonarQube plugin for security audits of Java web applications."
+  },
+  {
+    "name": "HuntBugs [OSS]",
+    "url": "https://github.com/amaembo/huntbugs",
+    "description": "Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs."
   },
   {
     "name": "PMD [OSS]",
@@ -247,7 +302,7 @@
   {
     "name": "quality [OSS]",
     "url": "https://github.com/jden/quality",
-    "description": "zero configuration code and module linting "
+    "description": "zero configuration code and module linting"
   },
   {
     "name": "jshint [OSS]",
@@ -277,42 +332,22 @@
   {
     "name": "luacheck [OSS]",
     "url": "https://github.com/mpeterv/luacheck",
-    "description": " A tool for linting and static analysis of Lua code. "
+    "description": "A tool for linting and static analysis of Lua code."
   },
   {
-    "name": "flake8 [OSS]",
-    "url": "https://pypi.python.org/pypi/flake8",
-    "description": "the modular source code checker: pep8, pyflakes and co"
+    "name": "portlint [OSS]",
+    "url": "https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports",
+    "description": "A verifier for FreeBSD and DragonFlyBSD port directories"
   },
   {
-    "name": "jedi [OSS]",
-    "url": "http://jedi.jedidjah.ch/en/latest/",
-    "description": "autocompletion/static analysis library for Python"
+    "name": "lintian [OSS]",
+    "url": "https://github.com/Debian/lintian",
+    "description": "Static analysis tool for Debian packages"
   },
   {
-    "name": "Linty fresh [OSS]",
-    "url": "https://github.com/lyft/linty_fresh",
-    "description": "Surface lint errors during code review"
-  },
-  {
-    "name": "mypy [OSS]",
-    "url": "http://mypy-lang.org/",
-    "description": "an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing"
-  },
-  {
-    "name": "prospector [OSS]",
-    "url": "https://github.com/landscapeio/prospector",
-    "description": "output information about errors, potential problems, convention violations and complexity in Python code"
-  },
-  {
-    "name": "pyflakes [OSS]",
-    "url": "https://github.com/pyflakes/pyflakes/",
-    "description": "A simple program which checks Python source files for errors."
-  },
-  {
-    "name": "pylint [OSS]",
-    "url": "https://github.com/PyCQA/pylint",
-    "description": " Looks for programming errors, helps enforcing a coding standard and sniffs for some code smells "
+    "name": "Perl::Critic [OSS]",
+    "url": "http://search.cpan.org/%7Ethaljef/Perl-Critic-1.126/lib/Perl/Critic.pm",
+    "description": "Critique Perl source code for best-practices."
   },
   {
     "name": "DesignPatternDetector [OSS]",
@@ -342,7 +377,7 @@
   {
     "name": "php7cc [OSS]",
     "url": "https://github.com/sstalle/php7cc",
-    "description": "PHP 7 Compatibility Checker "
+    "description": "PHP 7 Compatibility Checker"
   },
   {
     "name": "php7mar [OSS]",
@@ -352,7 +387,7 @@
   {
     "name": "phpcpd [OSS]",
     "url": "https://github.com/sebastianbergmann/phpcpd",
-    "description": "Copy/Paste Detector (CPD) for PHP code. "
+    "description": "Copy/Paste Detector (CPD) for PHP code."
   },
   {
     "name": "PHP_CodeSniffer [OSS]",
@@ -362,7 +397,7 @@
   {
     "name": "phpdcd [OSS]",
     "url": "https://github.com/sebastianbergmann/phpdcd",
-    "description": "Dead Code Detector (DCD) for PHP code. "
+    "description": "Dead Code Detector (DCD) for PHP code."
   },
   {
     "name": "PhpDependencyAnalysis [OSS]",
@@ -370,19 +405,29 @@
     "description": "builds a dependency graph for a project"
   },
   {
+    "name": "Php Inspections (EA Extended) [OSS]",
+    "url": "https://github.com/kalessil/phpinspectionsea",
+    "description": "A Static Code Analyzer for PHP."
+  },
+  {
     "name": "phpsa [OSS]",
     "url": "https://github.com/ovr/phpsa",
-    "description": "Static analysis tool for PHP. "
+    "description": "Static analysis tool for PHP."
   },
   {
     "name": "PHPMD [OSS]",
-    "url": "http://phpmd.org/",
+    "url": "https://phpmd.org/",
     "description": "finds possible bugs in your code"
   },
   {
     "name": "PhpMetrics [OSS]",
     "url": "https://github.com/Halleck45/PhpMetrics",
     "description": "calculates code complexity metrics"
+  },
+  {
+    "name": "PHPQA [OSS]",
+    "url": "https://github.com/EdgedesignCZ/phpqa",
+    "description": "A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)"
   },
   {
     "name": "PHP Refactoring Browser [OSS]",
@@ -402,17 +447,102 @@
   {
     "name": "RIPS [OSS]",
     "url": "https://github.com/ripsscanner/rips",
-    "description": " A static source code analyser for vulnerabilities in PHP scripts"
+    "description": "A static source code analyser for vulnerabilities in PHP scripts"
   },
   {
     "name": "Tuli [OSS]",
     "url": "https://github.com/ircmaxell/Tuli",
-    "description": "A static analysis engine "
+    "description": "A static analysis engine"
   },
   {
     "name": "twig-lint [OSS]",
     "url": "https://github.com/asm89/twig-lint",
     "description": "twig-lint is a lint tool for your twig files."
+  },
+  {
+    "name": "bandit [OSS]",
+    "url": "https://github.com/openstack/bandit",
+    "description": "a tool to find common security issues in Python code"
+  },
+  {
+    "name": "jedi [OSS]",
+    "url": "https://github.com/davidhalter/jedi",
+    "description": "autocompletion/static analysis library for Python"
+  },
+  {
+    "name": "linty fresh [OSS]",
+    "url": "https://github.com/lyft/linty_fresh",
+    "description": "parse lint errors and report them to Github as comments on a pull request"
+  },
+  {
+    "name": "mccabe [OSS]",
+    "url": "https://github.com/PyCQA/mccabe",
+    "description": "check McCabe complexity"
+  },
+  {
+    "name": "mypy [OSS]",
+    "url": "https://github.com/python/mypy",
+    "description": "an experimental optional static type checker for Python that aims to combine the benefits of dynamic (or \"duck\") typing and static typing"
+  },
+  {
+    "name": "py-find-injection [OSS]",
+    "url": "https://github.com/uber/py-find-injection",
+    "description": "find SQL injection vulnerabilities in Python code"
+  },
+  {
+    "name": "pycodestyle [OSS]",
+    "url": "https://github.com/PyCQA/pycodestyle",
+    "description": "(formerly pep8) check Python code against some of the style conventions in PEP 8"
+  },
+  {
+    "name": "pydocstyle [OSS]",
+    "url": "https://github.com/PyCQA/pydocstyle",
+    "description": "check compliance with Python docstring conventions"
+  },
+  {
+    "name": "pyflakes [OSS]",
+    "url": "https://github.com/pyflakes/pyflakes/",
+    "description": "check Python source files for errors"
+  },
+  {
+    "name": "pylint [OSS]",
+    "url": "https://github.com/PyCQA/pylint",
+    "description": "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes pyreverse (an UML diagram generator) and symilar (a similarities checker). Optional extensions are also included."
+  },
+  {
+    "name": "pyroma [OSS]",
+    "url": "https://bitbucket.org/regebro/pyroma",
+    "description": "rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved"
+  },
+  {
+    "name": "pytype [OSS]",
+    "url": "https://github.com/google/pytype",
+    "description": "a static type inferencer for Python code - commented out because it is very buggy and is not even installable from pypi )"
+  },
+  {
+    "name": "vulture [OSS]",
+    "url": "https://bitbucket.org/jendrikseipp/vulture",
+    "description": "find unused classes, functions and variables in Python code"
+  },
+  {
+    "name": "xenon [OSS]",
+    "url": "https://github.com/rubik/xenon",
+    "description": "monitor code complexity using radon"
+  },
+  {
+    "name": "ciocheck [OSS]",
+    "url": "https://github.com/ContinuumIO/ciocheck",
+    "description": "linter, formatter and test suite helper. As a linter, it is a wrapper around pep8, pydocstyle, flake8, and pylint."
+  },
+  {
+    "name": "flake8 [OSS]",
+    "url": "https://github.com/PyCQA/flake8",
+    "description": "a wrapper around pyflakes, pycodestyle and mccabe"
+  },
+  {
+    "name": "prospector [OSS]",
+    "url": "https://github.com/landscapeio/prospector",
+    "description": "a wrapper around pylint, pep8, mccabe and others"
   },
   {
     "name": "lintr [PROPRIETARY]",
@@ -427,12 +557,12 @@
   {
     "name": "cane [OSS]",
     "url": "https://github.com/square/cane",
-    "description": "Code quality threshold checking as part of your build "
+    "description": "Code quality threshold checking as part of your build"
   },
   {
     "name": "dawnscanner [OSS]",
     "url": "https://github.com/thesp0nge/dawnscanner",
-    "description": "a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks. "
+    "description": "a static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks."
   },
   {
     "name": "flay [OSS]",
@@ -442,7 +572,7 @@
   {
     "name": "flog [OSS]",
     "url": "https://github.com/seattlerb/flog",
-    "description": "Flog reports the most tortured code in an easy to read pain"
+    "description": "Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in."
   },
   {
     "name": "laser [OSS]",
@@ -457,12 +587,12 @@
   {
     "name": "pelusa [OSS]",
     "url": "https://github.com/codegram/pelusa",
-    "description": " Static analysis Lint-type tool to improve your OO Ruby code"
+    "description": "Static analysis Lint-type tool to improve your OO Ruby code"
   },
   {
     "name": "quality [OSS]",
     "url": "https://github.com/apiology/quality",
-    "description": " Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time. "
+    "description": "Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time."
   },
   {
     "name": "reek [OSS]",
@@ -472,12 +602,12 @@
   {
     "name": "rubocop [OSS]",
     "url": "https://github.com/bbatsov/rubocop",
-    "description": "A Ruby static code analyzer, based on the community Ruby style guide. "
+    "description": "A Ruby static code analyzer, based on the community Ruby style guide."
   },
   {
     "name": "rubycritic [OSS]",
     "url": "https://github.com/whitesmith/rubycritic",
-    "description": "A Ruby code quality reporter "
+    "description": "A Ruby code quality reporter"
   },
   {
     "name": "ruby-lint [OSS]",
@@ -495,9 +625,24 @@
     "description": "a code linter to catch common mistakes and improve your Rust code"
   },
   {
+    "name": "electrolysis [OSS]",
+    "url": "https://github.com/Kha/electrolysis",
+    "description": "A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover."
+  },
+  {
+    "name": "herbie [OSS]",
+    "url": "https://github.com/mcarton/rust-herbie-lint",
+    "description": "Adds warnings or errors to your crate when using a numerically unstable floating point expression."
+  },
+  {
     "name": "linter-rust [OSS]",
     "url": "https://github.com/AtomLinter/linter-rust",
-    "description": " Linting your Rust-files in Atom, using rustc and cargo"
+    "description": "Linting your Rust-files in Atom, using rustc and cargo"
+  },
+  {
+    "name": "rustfix [OSS]",
+    "url": "https://github.com/killercup/rustfix",
+    "description": "read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy)."
   },
   {
     "name": "linter [OSS]",
@@ -512,7 +657,7 @@
   {
     "name": "scapegoat [OSS]",
     "url": "https://github.com/sksamuel/scapegoat",
-    "description": "Scala compiler plugin for static code analysis "
+    "description": "Scala compiler plugin for static code analysis"
   },
   {
     "name": "WartRemover [OSS]",
@@ -522,7 +667,12 @@
   {
     "name": "shellcheck [OSS]",
     "url": "https://github.com/koalaman/shellcheck",
-    "description": "ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts "
+    "description": "ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts"
+  },
+  {
+    "name": "sqlint [OSS]",
+    "url": "https://github.com/purcell/sqlint",
+    "description": "Simple SQL linter"
   },
   {
     "name": "SwiftLint [OSS]",
@@ -535,9 +685,19 @@
     "description": "A static analysis and lint tool for source code written in Apple's Swift programming language."
   },
   {
-    "name": "PVS-Studio [PROPRIETARY]",
-    "url": "http://www.viva64.com/en/pvs-studio/",
-    "description": "static analysis of C/C++ and C# code"
+    "name": "Codelyzer [OSS]",
+    "url": "https://github.com/mgechev/codelyzer",
+    "description": "A set of tslint rules for static code analysis of Angular 2 TypeScript projects."
+  },
+  {
+    "name": "Undebt [OSS]",
+    "url": "https://github.com/Yelp/undebt",
+    "description": "Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions"
+  },
+  {
+    "name": "codeburner [OSS]",
+    "url": "https://github.com/groupon/codeburner",
+    "description": "Provides a unified interface to sort and act on the issues it finds"
   },
   {
     "name": "Coverity Save [PROPRIETARY]",
@@ -552,7 +712,7 @@
   {
     "name": "Infer [OSS]",
     "url": "https://github.com/facebook/infer",
-    "description": " A static analyzer for Java, C and Objective-C"
+    "description": "A static analyzer for Java, C and Objective-C"
   },
   {
     "name": "oclint [OSS]",
@@ -565,19 +725,39 @@
     "description": "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages"
   },
   {
+    "name": "PVS-Studio [PROPRIETARY]",
+    "url": "http://www.viva64.com/en/pvs-studio/",
+    "description": "static analysis of C/C++ and C# code"
+  },
+  {
     "name": "shipshape [OSS]",
     "url": "https://github.com/google/shipshape",
     "description": "Static program analysis platform that allows custom analyzers to plug in through a common interface"
   },
   {
     "name": "STOKE [OSS]",
-    "url": "https://github.com/StanfordPL/stoke-release",
-    "description": "a programming-language agnosti stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations"
+    "url": "https://github.com/StanfordPL/stoke",
+    "description": "a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations"
+  },
+  {
+    "name": "WALA [OSS]",
+    "url": "http://wala.sourceforge.net/wiki/index.php/Main_Page",
+    "description": "static analysis capabilities for Java bytecode and related languages and for JavaScript"
   },
   {
     "name": "XCode [PROPRIETARY/OSS]",
     "url": "https://developer.apple.com/xcode/",
     "description": "XCode provides a pretty decend UI for Clang's static code analyzer (C/C++, Obj-C)"
+  },
+  {
+    "name": "checkmake [OSS]",
+    "url": "https://github.com/mrtazz/checkmake",
+    "description": "Linter / Analyzer for Makefiles"
+  },
+  {
+    "name": "Bithound [PROPRIETARY]",
+    "url": "https://www.bithound.io/",
+    "description": "Code Analysis beyond Lint, specifically for Node.js."
   },
   {
     "name": "Codacy [PROPRIETARY]",
@@ -615,6 +795,11 @@
     "description": "Automated PHP code review"
   },
   {
+    "name": "Node Security Platform [PROPRIETARY]",
+    "url": "https://nodesecurity.io/",
+    "description": "Continuous Security monitoring for your node apps (free for Open Source Projects)"
+  },
+  {
     "name": "QuantifiedCode [PROPRIETARY]",
     "url": "https://www.quantifiedcode.com/",
     "description": "Automated code review & repair"
@@ -623,6 +808,16 @@
     "name": "Scrutinizer [PROPRIETARY]",
     "url": "https://scrutinizer-ci.com/",
     "description": "A proprietery code quality checker that can be integrated with GitHub"
+  },
+  {
+    "name": "SensioLabs Insight [PROPRIETARY]",
+    "url": "https://insight.sensiolabs.com/",
+    "description": "Detect security risks, find bugs and provide actionable metrics for PHP projects"
+  },
+  {
+    "name": "Snyk [PROPRIETARY]",
+    "url": "https://snyk.io/",
+    "description": "Vulnerability scanner for dependencies of node.js apps (free for Open Source Projects)"
   },
   {
     "name": "Teamscale [PROPRIETARY]",

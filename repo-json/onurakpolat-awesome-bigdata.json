@@ -263,6 +263,11 @@
     "description": "TimeSeries AggregatoR by Twitter."
   },
   {
+    "name": "Ambry",
+    "url": "https://github.com/linkedin/ambry",
+    "description": "a distributed object store that supports storage of trillion of small immutable objects as well as billions of large objects."
+  },
+  {
     "name": "Apache HDFS",
     "url": "http://hadoop.apache.org/",
     "description": "a way to store large files across multiple machines."
@@ -338,6 +343,11 @@
     "description": "decentralized cloud storage system."
   },
   {
+    "name": "Baidu File System",
+    "url": "https://github.com/baidu/bfs",
+    "description": "distributed filesystem."
+  },
+  {
     "name": "Actian Versant",
     "url": "http://www.actian.com/products/operational-databases/",
     "description": "commercial object-oriented database management systems ."
@@ -398,6 +408,11 @@
     "description": "column-oriented distributed datastore, inspired by BigTable."
   },
   {
+    "name": "Baidu Tera",
+    "url": "https://github.com/baidu/tera",
+    "description": "an Internet-scale database, inspired by BigTable."
+  },
+  {
     "name": "Facebook HydraBase",
     "url": "https://code.facebook.com/posts/321111638043166/hydrabase-the-evolution-of-hbase-facebook/",
     "description": "evolution of HBase made by Facebook."
@@ -443,6 +458,16 @@
     "description": "distributed key/value store, implementation of Dynamo paper."
   },
   {
+    "name": "Bolt",
+    "url": "https://github.com/boltdb/bolt",
+    "description": "an embedded key-value database for Go."
+  },
+  {
+    "name": "BuntDB",
+    "url": "https://github.com/tidwall/buntdb",
+    "description": "a fast, embeddable, in-memory key/value database for Go with custom indexing and geospatial support."
+  },
+  {
     "name": "Edis",
     "url": "http://inaka.github.io/edis/",
     "description": "is a protocol-compatible Server replacement for Redis."
@@ -461,6 +486,11 @@
     "name": "GridDB",
     "url": "https://github.com/griddb/griddb_nosql",
     "description": "suitable for sensor data stored in a timeseries."
+  },
+  {
+    "name": "HyperDex",
+    "url": "https://github.com/rescrv/HyperDex",
+    "description": "a scalable, next generation key-value and document store with a wide array of features, including consistency, fault tolerance and high performance."
   },
   {
     "name": "LinkedIn Krati",
@@ -493,6 +523,11 @@
     "description": "library to work with asynchronous key value stores, by Twitter."
   },
   {
+    "name": "SummitDB",
+    "url": "https://github.com/tidwall/summitdb",
+    "description": "an in-memory, NoSQL key/value database, with disk persistance and using the Raft consensus algorithm."
+  },
+  {
     "name": "Tarantool",
     "url": "https://github.com/tarantool/tarantool",
     "description": "an efficient NoSQL database and a Lua application server."
@@ -501,6 +536,11 @@
     "name": "TiKV",
     "url": "https://github.com/pingcap/tikv",
     "description": "a distributed key-value database powered by Rust and inspired by Google Spanner and HBase."
+  },
+  {
+    "name": "Tile38",
+    "url": "https://github.com/tidwall/tile38",
+    "description": "a geolocation data store, spatial index, and realtime geofence, supporting a variety of object types including latitude/longitude points, bounding boxes, XYZ tiles, Geohashes, and GeoJSON"
   },
   {
     "name": "TreodeDB",
@@ -526,6 +566,11 @@
     "name": "DGraph",
     "url": "https://github.com/dgraph-io/dgraph",
     "description": "A scalable, distributed, low latency, high throughput graph database aimed at providing Google production level scale and throughput, with low enough latency to be serving real time user queries, over terabytes of structured data."
+  },
+  {
+    "name": "EliasDB",
+    "url": "https://github.com/krotik/eliasdb",
+    "description": "a lightweight graph based database that does not require any third-party libraries."
   },
   {
     "name": "Facebook TAO",
@@ -618,6 +663,16 @@
     "description": "column oriented DBMS."
   },
   {
+    "name": "ClickHouse",
+    "url": "https://clickhouse.yandex/",
+    "description": "an open-source column-oriented database management system that allows generating analytical data reports in real time."
+  },
+  {
+    "name": "EventQL",
+    "url": "http://eventql.io/",
+    "description": "a distributed, column-oriented database built for large-scale event collection and analytics."
+  },
+  {
     "name": "MonetDB",
     "url": "https://www.monetdb.org/",
     "description": "column store database."
@@ -659,6 +714,11 @@
     "name": "BayesDB",
     "url": "http://probcomp.csail.mit.edu/bayesdb/index.html",
     "description": "statistic oriented SQL database."
+  },
+  {
+    "name": "Bedrock",
+    "url": "http://bedrockdb.com/",
+    "description": "a simple, modular, networked and distributed transaction layer built atop SQLite."
   },
   {
     "name": "CitusDB",
@@ -816,6 +876,34 @@
     "description": "an efficient tool for storing and querying series of events."
   },
   {
+    "name": "Druid Column oriented distributed data store ideal for powering interactive applications",
+    "url": "https://github.com/druid-io/druid/"
+  },
+  {
+    "name": "Riak-TS Riak TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data.",
+    "url": "http://basho.com/products/riak-ts/"
+  },
+  {
+    "name": "Akumuli Akumuli is a numeric time-series database. It can be used to capture, store and process time-series data in real-time. The word \"akumuli\" can be translated from esperanto as \"accumulate\".",
+    "url": "https://github.com/akumuli/Akumuli"
+  },
+  {
+    "name": "Rhombus A time-series object store for Cassandra that handles all the complexity of building wide row indexes.",
+    "url": "https://github.com/Pardot/Rhombus"
+  },
+  {
+    "name": "Dalmatiner DB Fast distributed metrics database",
+    "url": "https://github.com/dalmatinerdb/dalmatinerdb"
+  },
+  {
+    "name": "Blueflood A distributed system designed to ingest and process time series data",
+    "url": "https://github.com/rackerlabs/blueflood"
+  },
+  {
+    "name": "Timely Timely is a time series database application that provides secure access to time series data based on Accumulo and Grafana.",
+    "url": "https://github.com/NationalSecurityAgency/timely"
+  },
+  {
     "name": "Actian SQL for Hadoop",
     "url": "http://www.actian.com/products/analytics-platform/",
     "description": "high performance interactive SQL access to all Hadoop data."
@@ -836,8 +924,8 @@
     "description": "SQL-like data warehouse system for Hadoop."
   },
   {
-    "name": "Apache Optiq",
-    "url": "https://wiki.apache.org/incubator/OptiqProposal",
+    "name": "Apache Calcite",
+    "url": "http://calcite.apache.org/",
     "description": "framework that allows efficient translation of queries involving heterogeneous and federated data."
   },
   {
@@ -1016,6 +1104,11 @@
     "description": "continuous big data ingest infrastructure with a simple to use IDE."
   },
   {
+    "name": "Yahoo Pulsar",
+    "url": "https://github.com/yahoo/pulsar",
+    "description": "a distributed pub-sub messaging platform with a very flexible messaging model and an intuitive client API."
+  },
+  {
     "name": "Akka Toolkit",
     "url": "http://akka.io/",
     "description": "runtime for distributed, and fault tolerant event-driven applications on the JVM."
@@ -1126,11 +1219,6 @@
     "description": " a platform to programmatically author, schedule and monitor workflows."
   },
   {
-    "name": "Apache Mahout",
-    "url": "http://mahout.apache.org/",
-    "description": "machine learning library for Hadoop."
-  },
-  {
     "name": "brain",
     "url": "https://github.com/harthur/brain",
     "description": "Neural networks in JavaScript."
@@ -1149,6 +1237,16 @@
     "name": "convnetjs",
     "url": "https://github.com/karpathy/convnetjs",
     "description": "Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser."
+  },
+  {
+    "name": "DataVec",
+    "url": "https://github.com/deeplearning4j/DataVec",
+    "description": "A vectorization and data preprocessing library for deep learning in Java and Scala. Part of the Deeplearning4j ecosystem. "
+  },
+  {
+    "name": "Deeplearning4j",
+    "url": "https://github.com/deeplearning4j",
+    "description": "Fast, open deep learning for the JVM (Java, Scala, Clojure). A neural network configuration layer powered by a C++ library. Uses Spark and Hadoop to train nets on multiple GPUs and CPUs."
   },
   {
     "name": "Decider",
@@ -1171,11 +1269,6 @@
     "description": "scalable Machine Learning in Scalding."
   },
   {
-    "name": "Google Sibyl",
-    "url": "https://users.soe.ucsc.edu/%7Eniejiazhong/slides/chandra.pdf",
-    "description": "System for Large Scale Machine Learning at Google."
-  },
-  {
     "name": "GraphLab Create",
     "url": "https://dato.com/products/create/",
     "description": "A machine learning platform in Python with a broad collection of ML toolkits, data engineering, and deployment tools."
@@ -1183,7 +1276,17 @@
   {
     "name": "H2O",
     "url": "https://github.com/h2oai/h2o-3/",
-    "description": "statistical, machine learning and math runtime for Hadoop."
+    "description": "statistical, machine learning and math runtime with Hadoop. R and Python."
+  },
+  {
+    "name": "Keras",
+    "url": "https://github.com/fchollet/keras",
+    "description": "An intuitive neural net API inspired by Torch that runs atop Theano and Tensorflow."
+  },
+  {
+    "name": "Mahout",
+    "url": "http://mahout.apache.org/",
+    "description": "An Apache-backed machine learning library for Hadoop."
   },
   {
     "name": "MLbase",
@@ -1206,6 +1309,11 @@
     "description": "Text mining made easy. Extract and classify data from text."
   },
   {
+    "name": "ND4J",
+    "url": "https://github.com/deeplearning4j/nd4j",
+    "description": "A matrix library for the JVM. Numpy for Java. "
+  },
+  {
     "name": "nupic",
     "url": "https://github.com/numenta/nupic",
     "description": "Numenta Platform for Intelligent Computing: a brain-inspired machine intelligence platform, and biologically accurate neural network based on cortical learning algorithms."
@@ -1214,6 +1322,11 @@
     "name": "PredictionIO",
     "url": "https://prediction.io/",
     "description": "machine learning server buit on Hadoop, Mahout and Cascading."
+  },
+  {
+    "name": "RL4J",
+    "url": "https://github.com/deeplearning4j/rl4j",
+    "description": "Reinforcement learning for Java and Scala. Includes Deep-Q learning and A3C algorithms, and integrates with Open AI's Gym. Runs in the Deeplearning4j ecosystem. "
   },
   {
     "name": "SAMOA",
@@ -1231,6 +1344,31 @@
     "description": "a Spark implementation of some common machine learning (ML) functionality."
   },
   {
+    "name": "Sibyl",
+    "url": "https://users.soe.ucsc.edu/%7Eniejiazhong/slides/chandra.pdf",
+    "description": "System for Large Scale Machine Learning at Google."
+  },
+  {
+    "name": "TensorFlow",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "description": "Library from Google for machine learning using data flow graphs."
+  },
+  {
+    "name": "Theano",
+    "url": "https://github.com/theano",
+    "description": "A Python-focused machine learning library supported by the University of Montreal."
+  },
+  {
+    "name": "Torch",
+    "url": "https://github.com/torch",
+    "description": "A deep learning library with a Lua API, supported by NYU and Facebook."
+  },
+  {
+    "name": "Velox",
+    "url": "https://github.com/amplab/velox-modelserver",
+    "description": "System for serving machine learning predictions."
+  },
+  {
     "name": "Vowpal Wabbit",
     "url": "https://github.com/JohnLangford/vowpal_wabbit/wiki",
     "description": "learning system sponsored by Microsoft and Yahoo!."
@@ -1244,16 +1382,6 @@
     "name": "BidMach",
     "url": "https://github.com/BIDData/BIDMach",
     "description": "CPU and GPU-accelerated Machine Learning Library."
-  },
-  {
-    "name": "Velox",
-    "url": "https://github.com/amplab/velox-modelserver",
-    "description": "System for serving machine learning predictions."
-  },
-  {
-    "name": "TensorFlow",
-    "url": "https://github.com/tensorflow/tensorflow",
-    "description": "Open source software library from Google for machine learning using data flow graphs."
   },
   {
     "name": "Apache Hadoop Benchmarking",
@@ -1279,6 +1407,10 @@
     "name": "Yahoo Gridmix3",
     "url": "https://developer.yahoo.com/blogs/hadoop/gridmix3-emulating-production-workload-apache-hadoop-450.html",
     "description": "Hadoop cluster benchmarking from Yahoo engineer team."
+  },
+  {
+    "name": "Deeplearning4j Benchmarks",
+    "url": "https://github.com/deeplearning4j/dl4j-benchmark"
   },
   {
     "name": "Apache Eagle",
@@ -1371,6 +1503,11 @@
     "description": "Mesos framework for long-running services."
   },
   {
+    "name": "411",
+    "url": "https://github.com/etsy/411",
+    "description": "an web application for alert management resulting from scheduled searches into Elasticsearch."
+  },
+  {
     "name": "Adobe spindle",
     "url": "https://github.com/adobe-research/spindle",
     "description": "Next-generation web analytics processing with Scala, Spark, and Parquet."
@@ -1379,6 +1516,11 @@
     "name": "Apache Kiji",
     "url": "http://www.kiji.org.s3-website-us-east-1.amazonaws.com",
     "description": "framework to collect and analyze data in real-time, based on HBase."
+  },
+  {
+    "name": "Apache Metron",
+    "url": "https://metron.incubator.apache.org/",
+    "description": "a platform that integrates a variety of open source big data technologies in order to offer a centralized tool for security monitoring and analysis."
   },
   {
     "name": "Apache Nutch",
@@ -1401,6 +1543,11 @@
     "description": "Time series monitoring and alerting platform."
   },
   {
+    "name": "Atlas",
+    "url": "https://github.com/Netflix/atlas",
+    "description": "a backend for managing dimensional time series data."
+  },
+  {
     "name": "Countly",
     "url": "https://count.ly/",
     "description": "open source mobile and web analytics platform, based on Node.js & MongoDB."
@@ -1414,6 +1561,11 @@
     "name": "Eclipse BIRT",
     "url": "http://www.eclipse.org/birt/",
     "description": "Eclipse-based reporting system."
+  },
+  {
+    "name": "ElastAert",
+    "url": "https://github.com/Yelp/elastalert",
+    "description": "ElastAlert is a simple framework for alerting on anomalies, spikes, or other patterns of interest from data in ElasticSearch."
   },
   {
     "name": "Eventhub",
@@ -1446,6 +1598,11 @@
     "description": "data-processing library of an RDBMS to analyze data."
   },
   {
+    "name": "Kapacitor",
+    "url": "https://github.com/influxdata/kapacitor",
+    "description": "an open source framework for processing, monitoring, and alerting on time series data."
+  },
+  {
     "name": "Kylin",
     "url": "http://kylin.apache.org/",
     "description": "open source Distributed Analytics Engine from eBay."
@@ -1454,6 +1611,11 @@
     "name": "PivotalR",
     "url": "https://github.com/pivotalsoftware/PivotalR",
     "description": "R on Pivotal HD / HAWQ and PostgreSQL."
+  },
+  {
+    "name": "Rakam",
+    "url": "https://github.com/rakam-io/rakam",
+    "description": "open-source real-time custom analytics platform powered by Postgresql, Kinesis and PrestoDB. "
   },
   {
     "name": "Qubole",
@@ -1509,6 +1671,11 @@
     "name": "Apache Solr",
     "url": "http://lucene.apache.org/solr/",
     "description": "Search platform for Apache Lucene."
+  },
+  {
+    "name": "Elassandra",
+    "url": "https://github.com/vroyer/elassandra",
+    "description": "is a fork of Elasticsearch modified to run on top of Apache Cassandra in a scalable and resilient peer-to-peer architecture."
   },
   {
     "name": "ElasticSearch",
@@ -1750,6 +1917,11 @@
     "description": "business intelligence and analytics platform."
   },
   {
+    "name": "Redash",
+    "url": "http://redash.io/",
+    "description": "Open source business intelligence platform, supporting multiple data sources and planned queries."
+  },
+  {
     "name": "Saiku",
     "url": "http://www.meteorite.bi/",
     "description": "open source analytics platform."
@@ -1808,6 +1980,11 @@
     "name": "C3",
     "url": "http://c3js.org/",
     "description": "D3-based reusable chart library"
+  },
+  {
+    "name": "Superset",
+    "url": "https://github.com/airbnb/superset",
+    "description": "a data exploration platform designed to be visual, intuitive and interactive, making it easy to slice, dice and visualize data and perform analytics at the speed of thought."
   },
   {
     "name": "CartoDB",
@@ -1959,6 +2136,11 @@
     "description": "open-source platform to query and visualize data."
   },
   {
+    "name": "ReCharts",
+    "url": "http://recharts.org/",
+    "description": "A composable charting library built on React components"
+  },
+  {
     "name": "Shiny",
     "url": "http://shiny.rstudio.com/",
     "description": "a web application framework for R."
@@ -2023,8 +2205,14 @@
     "description": "Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase vs Couchbase vs Neo4j vs Hypertable vs ElasticSearch vs Accumulo vs VoltDB vs Scalaris comparison."
   },
   {
-    "name": "The big data successor of the spreadsheet. On what the successor of the spreadsheet should look like for big data.",
-    "url": "https://medium.com/@tommyvdv/rewriting-excel-for-the-era-of-big-ger-data-part-2-c13cc40f248e"
+    "name": "Monitoring Kafka performance",
+    "url": "https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics?ref=awesome",
+    "description": "Guide to monitoring Apache Kafka, including native methods for metrics collection."
+  },
+  {
+    "name": "Monitoring Hadoop performance",
+    "url": "https://www.datadoghq.com/blog/monitor-hadoop-metrics?ref=awesome",
+    "description": "Guide to monitoring Hadoop, with an overview of Hadoop architecture, and native methods for metrics collection."
   },
   {
     "name": "2015",
@@ -2230,6 +2418,36 @@
     "name": "2003",
     "url": "http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/gfs-sosp2003.pdf",
     "description": "Google - The Google File System."
+  },
+  {
+    "name": "Streaming Data",
+    "url": "https://www.manning.com/books/streaming-data",
+    "description": "Streaming Data introduces the concepts and requirements of streaming and real-time data systems."
+  },
+  {
+    "name": "Flink in Action",
+    "url": "https://www.manning.com/books/flink-in-action",
+    "description": "Flink in Action makes the complex topic of stream processing with Flink easy to understand and apply."
+  },
+  {
+    "name": "Storm Applied",
+    "url": "https://www.manning.com/books/storm-applied",
+    "description": "Storm Applied is a practical guide to using Apache Storm for the real-world tasks associated with processing and analyzing real-time data streams."
+  },
+  {
+    "name": "Fundamentals of Stream Processing: Application Design, Systems, and Analytics",
+    "url": "http://www.cambridge.org/us/academic/subjects/engineering/communications-and-signal-processing/fundamentals-stream-processing-application-design-systems-and-analytics",
+    "description": "This comprehensive, hands-on guide combining the fundamental building blocks and emerging research in stream processing is ideal for application designers, system builders, analytic developers, as well as students and researchers in the field."
+  },
+  {
+    "name": "Stream Data Processing: A Quality of Service Perspective",
+    "url": "http://www.springer.com/us/book/9780387710020",
+    "description": "Presents a new paradigm suitable for stream and complex event processing."
+  },
+  {
+    "name": "Unified Log Processing",
+    "url": "https://www.manning.com/books/unified-log-processing",
+    "description": "Unified Log Processing is a practical guide to implementing a unified log of event streams (Kafka or Kinesis) in your business"
   },
   {
     "name": "The beauty of data visualization",

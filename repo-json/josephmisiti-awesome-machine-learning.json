@@ -1,8 +1,13 @@
 [
   {
-    "name": "Darknet",
-    "url": "https://github.com/pjreddie/darknet",
-    "description": "Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation."
+    "name": "Recommender",
+    "url": "https://github.com/GHamrouni/Recommender",
+    "description": "A C library for product recommendations/suggestions using collaborative filtering (CF)."
+  },
+  {
+    "name": "Hybrid Recommender System",
+    "url": "https://github.com/SeniorSA/hybrid-rs-trainner",
+    "description": "A hybrid recomender system based upon scikit-learn algorithms."
   },
   {
     "name": "VLFeat",
@@ -14,14 +19,14 @@
     "url": "http://htk.eng.cam.ac.uk/"
   },
   {
-    "name": "DLib",
-    "url": "http://dlib.net/imaging.html",
-    "description": "DLib has C++ and Python interfaces for face detection and training general object detectors."
-  },
-  {
     "name": "EBLearn",
     "url": "http://eblearn.sourceforge.net/",
     "description": "Eblearn is an object-oriented C++ library that implements various machine learning models"
+  },
+  {
+    "name": "OpenCV",
+    "url": "http://opencv.org",
+    "description": "OpenCV has C++, C, Python, Java and MATLAB interfaces and supports Windows, Linux, Android and Mac OS."
   },
   {
     "name": "VIGRA",
@@ -29,82 +34,9 @@
     "description": "VIGRA is a generic cross-platform C++ computer vision and machine learning library for volumes of arbitrary dimensionality with Python bindings."
   },
   {
-    "name": "DLib",
-    "url": "http://dlib.net/ml.html",
-    "description": "A suite of ML tools designed to be easy to imbed in other applications"
-  },
-  {
-    "name": "encog-cpp",
-    "url": "https://code.google.com/p/encog-cpp/"
-  },
-  {
-    "name": "shark",
-    "url": "http://image.diku.dk/shark/sphinx_pages/build/html/index.html"
-  },
-  {
-    "name": "Vowpal Wabbit (VW)",
-    "url": "https://github.com/JohnLangford/vowpal_wabbit/wiki",
-    "description": "A fast out-of-core learning system."
-  },
-  {
-    "name": "sofia-ml",
-    "url": "https://code.google.com/p/sofia-ml/",
-    "description": "Suite of fast incremental algorithms."
-  },
-  {
-    "name": "Shogun",
-    "url": "https://github.com/shogun-toolbox/shogun",
-    "description": "The Shogun Machine Learning Toolbox"
-  },
-  {
     "name": "Caffe ",
     "url": "http://caffe.berkeleyvision.org",
     "description": "A deep learning framework developed with cleanliness, readability, and speed in mind. [DEEP LEARNING]"
-  },
-  {
-    "name": "CXXNET",
-    "url": "https://github.com/antinucleon/cxxnet",
-    "description": "Yet another deep learning framework with less than 1000 lines core code [DEEP LEARNING]"
-  },
-  {
-    "name": "XGBoost",
-    "url": "https://github.com/dmlc/xgboost",
-    "description": "A parallelized optimized general purpose gradient boosting library."
-  },
-  {
-    "name": "CUDA",
-    "url": "https://code.google.com/p/cuda-convnet/",
-    "description": "This is a fast C++/CUDA implementation of convolutional [DEEP LEARNING]"
-  },
-  {
-    "name": "Stan",
-    "url": "http://mc-stan.org/",
-    "description": "A probabilistic programming language implementing full Bayesian statistical inference with Hamiltonian Monte Carlo sampling"
-  },
-  {
-    "name": "BanditLib",
-    "url": "https://github.com/jkomiyama/banditlib",
-    "description": "A simple Multi-armed Bandit library."
-  },
-  {
-    "name": "Timbl",
-    "url": "http://ilk.uvt.nl/timbl/",
-    "description": "A software package/C++ library implementing several memory-based learning algorithms, among which IB1-IG, an implementation of k-nearest neighbor classification, and IGTree, a decision-tree approximation of IB1-IG. Commonly used for NLP."
-  },
-  {
-    "name": "Disrtibuted Machine learning Tool Kit (DMTK)",
-    "url": "http://www.dmtk.io/",
-    "description": "A distributed machine learning (parameter server) framework by Microsoft. Enables training models on large data sets across multiple machines. Current tools bundled with it include: LightLDA and Distributed (Multisense) Word Embedding."
-  },
-  {
-    "name": "igraph",
-    "url": "http://igraph.org/c/",
-    "description": "General purpose graph library"
-  },
-  {
-    "name": "Warp-CTC",
-    "url": "https://github.com/baidu-research/warp-ctc",
-    "description": "A fast parallel implementation of Connectionist Temporal Classification (CTC), on both CPU and GPU."
   },
   {
     "name": "CNTK",
@@ -112,14 +44,29 @@
     "description": "The Computational Network Toolkit (CNTK) by Microsoft Research, is a unified deep-learning toolkit that describes neural networks as a series of computational steps via a directed graph."
   },
   {
+    "name": "CUDA",
+    "url": "https://code.google.com/p/cuda-convnet/",
+    "description": "This is a fast C++/CUDA implementation of convolutional [DEEP LEARNING]"
+  },
+  {
+    "name": "CXXNET",
+    "url": "https://github.com/antinucleon/cxxnet",
+    "description": "Yet another deep learning framework with less than 1000 lines core code [DEEP LEARNING]"
+  },
+  {
     "name": "DeepDetect",
     "url": "https://github.com/beniz/deepdetect",
     "description": "A machine learning API and server written in C++11. It makes state of the art machine learning easy to work with and integrate into existing applications."
   },
   {
-    "name": "Fido",
-    "url": "https://github.com/FidoProject/Fido",
-    "description": "A highly-modular C++ machine learning library for embedded electronics and robotics."
+    "name": "Disrtibuted Machine learning Tool Kit (DMTK)",
+    "url": "http://www.dmtk.io/",
+    "description": "A distributed machine learning (parameter server) framework by Microsoft. Enables training models on large data sets across multiple machines. Current tools bundled with it include: LightLDA and Distributed (Multisense) Word Embedding."
+  },
+  {
+    "name": "DLib",
+    "url": "http://dlib.net/ml.html",
+    "description": "A suite of ML tools designed to be easy to imbed in other applications"
   },
   {
     "name": "DSSTNE",
@@ -127,9 +74,98 @@
     "description": "A software library created by Amazon for training and deploying deep neural networks using GPUs which emphasizes speed and scale over experimental flexibility."
   },
   {
+    "name": "DyNet",
+    "url": "https://github.com/clab/dynet",
+    "description": "A dynamic neural network library working well with networks that have dynamic structures that change for every training instance. Written in C++ with bindings in Python."
+  },
+  {
+    "name": "encog-cpp",
+    "url": "https://code.google.com/p/encog-cpp/"
+  },
+  {
+    "name": "Fido",
+    "url": "https://github.com/FidoProject/Fido",
+    "description": "A highly-modular C++ machine learning library for embedded electronics and robotics."
+  },
+  {
+    "name": "igraph",
+    "url": "http://igraph.org/c/",
+    "description": "General purpose graph library"
+  },
+  {
     "name": "Intel(R) DAAL",
     "url": "https://github.com/01org/daal",
     "description": "A high performance software library developed by Intel and optimized for Intel's architectures. Library provides algorithmic building blocks for all stages of data analytics and allows to process data in batch, online and distributed modes."
+  },
+  {
+    "name": "LightGBM",
+    "url": "https://github.com/Microsoft/LightGBM",
+    "description": "Microsoft's fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks."
+  },
+  {
+    "name": "MLDB",
+    "url": "http://mldb.ai",
+    "description": "The Machine Learning Database is a database designed for machine learning. Send it commands over a RESTful API to store data, explore it using SQL, then train machine learning models and expose them as APIs."
+  },
+  {
+    "name": "mlpack",
+    "url": "http://www.mlpack.org/",
+    "description": "A scalable C++ machine learning library"
+  },
+  {
+    "name": "Regularized Greedy Forest",
+    "url": "http://stat.rutgers.edu/home/tzhang/software/rgf/",
+    "description": "Regularized greedy forest (RGF) tree ensemble learning method."
+  },
+  {
+    "name": "ROOT",
+    "url": "https://root.cern.ch",
+    "description": "A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualization and storage."
+  },
+  {
+    "name": "shark",
+    "url": "http://image.diku.dk/shark/sphinx_pages/build/html/index.html",
+    "description": "A fast, modular, feature-rich open-source C++ machine learning library."
+  },
+  {
+    "name": "Shogun",
+    "url": "https://github.com/shogun-toolbox/shogun",
+    "description": "The Shogun Machine Learning Toolbox"
+  },
+  {
+    "name": "sofia-ml",
+    "url": "https://code.google.com/p/sofia-ml/",
+    "description": "Suite of fast incremental algorithms."
+  },
+  {
+    "name": "Stan",
+    "url": "http://mc-stan.org/",
+    "description": "A probabilistic programming language implementing full Bayesian statistical inference with Hamiltonian Monte Carlo sampling"
+  },
+  {
+    "name": "Timbl",
+    "url": "http://ilk.uvt.nl/timbl/",
+    "description": "A software package/C++ library implementing several memory-based learning algorithms, among which IB1-IG, an implementation of k-nearest neighbor classification, and IGTree, a decision-tree approximation of IB1-IG. Commonly used for NLP."
+  },
+  {
+    "name": "Vowpal Wabbit (VW)",
+    "url": "https://github.com/JohnLangford/vowpal_wabbit/wiki",
+    "description": "A fast out-of-core learning system."
+  },
+  {
+    "name": "Warp-CTC",
+    "url": "https://github.com/baidu-research/warp-ctc",
+    "description": "A fast parallel implementation of Connectionist Temporal Classification (CTC), on both CPU and GPU."
+  },
+  {
+    "name": "XGBoost",
+    "url": "https://github.com/dmlc/xgboost",
+    "description": "A parallelized optimized general purpose gradient boosting library."
+  },
+  {
+    "name": "colibri-core",
+    "url": "https://github.com/proycon/colibri-core",
+    "description": "C++ library, command line tools, and Python binding for extracting and working with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way."
   },
   {
     "name": "CRF++",
@@ -142,19 +178,9 @@
     "description": "CRFsuite is an implementation of Conditional Random Fields (CRFs) for labeling sequential data."
   },
   {
-    "name": "BLLIP Parser",
-    "url": "https://github.com/BLLIP/bllip-parser",
-    "description": "BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)"
-  },
-  {
-    "name": "colibri-core",
-    "url": "https://github.com/proycon/colibri-core",
-    "description": "C++ library, command line tools, and Python binding for extracting and working with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way."
-  },
-  {
-    "name": "ucto",
-    "url": "https://github.com/proycon/ucto",
-    "description": "Unicode-aware regular-expression based tokenizer for various languages. Tool and C++ library. Supports FoLiA format."
+    "name": "frog",
+    "url": "https://github.com/proycon/frog",
+    "description": "Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer."
   },
   {
     "name": "libfolia",
@@ -162,14 +188,19 @@
     "description": "C++ library for the FoLiA format"
   },
   {
-    "name": "frog",
-    "url": "https://github.com/proycon/frog",
-    "description": "Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer."
-  },
-  {
     "name": "MeTA",
     "url": "https://github.com/meta-toolkit/meta",
     "description": "MeTA : ModErn Text Analysis is a C++ Data Sciences Toolkit that facilitates mining big text data."
+  },
+  {
+    "name": "MIT Information Extraction Toolkit",
+    "url": "https://github.com/mit-nlp/MITIE",
+    "description": "C, C++, and Python tools for named entity recognition and relation extraction"
+  },
+  {
+    "name": "ucto",
+    "url": "https://github.com/proycon/ucto",
+    "description": "Unicode-aware regular-expression based tokenizer for various languages. Tool and C++ library. Supports FoLiA format."
   },
   {
     "name": "Kaldi",
@@ -230,6 +261,16 @@
     "name": "comportex",
     "url": "https://github.com/nupic-community/comportex",
     "description": "Functionally composable Machine Learning library using Numenta’s Cortical Learning Algorithm"
+  },
+  {
+    "name": "cortex",
+    "url": "https://github.com/thinktopic/cortex",
+    "description": "Neural networks, regression and feature learning in Clojure."
+  },
+  {
+    "name": "lambda-ml",
+    "url": "https://github.com/cloudkj/lambda-ml",
+    "description": "Simple, concise implementations of machine learning techniques and utilities in Clojure."
   },
   {
     "name": "PigPen",
@@ -959,6 +1000,11 @@
     "description": "Julia implementation of the scikit-learn API"
   },
   {
+    "name": "Knet",
+    "url": "https://github.com/denizyuret/Knet.jl",
+    "description": "Koç University Deep Learning Framework"
+  },
+  {
     "name": "Text Analysis",
     "url": "https://github.com/johnmyleswhite/TextAnalysis.jl",
     "description": "Julia package for text analysis"
@@ -1394,6 +1440,11 @@
     "description": "Algorithms for learning and inference with discrete probabilistic models."
   },
   {
+    "name": "PredictionBuilder",
+    "url": "https://github.com/denissimon/prediction-builder",
+    "description": "A library for machine learning that builds predictions using a linear regression."
+  },
+  {
     "name": "SimpleCV",
     "url": "http://simplecv.org/",
     "description": "An open source computer vision framework that gives access to several high-powered computer vision libraries, such as OpenCV. Written on Python and runs on Mac, Windows, and Ubuntu Linux."
@@ -1537,6 +1588,11 @@
     "name": "textacy",
     "url": "https://github.com/chartbeat-labs/textacy",
     "description": "higher-level NLP built on Spacy"
+  },
+  {
+    "name": "stanford-corenlp-python",
+    "url": "https://github.com/dasmith/stanford-corenlp-python",
+    "description": "Python wrapper for Stanford CoreNLP"
   },
   {
     "name": "XGBoost",
@@ -1830,6 +1886,21 @@
     "description": "an IPython-based environment for conducting data-driven research in a consistent and reproducible way. REP is not trying to substitute scikit-learn, but extends it and provides better user experience."
   },
   {
+    "name": "rgf_python",
+    "url": "https://github.com/fukatani/rgf_python",
+    "description": "Python bindings for Regularized Greedy Forest (Tree) Library."
+  },
+  {
+    "name": "gym",
+    "url": "https://github.com/openai/gym",
+    "description": "OpenAI Gym is a toolkit for developing and comparing reinforcement learning algorithms."
+  },
+  {
+    "name": "skbayes",
+    "url": "https://github.com/AmazaspShumik/sklearn-bayes",
+    "description": "Python package for Bayesian Machine Learning with scikit-learn API"
+  },
+  {
     "name": "NumPy",
     "url": "http://www.numpy.org/",
     "description": "A fundamental package for scientific computing with Python."
@@ -1913,6 +1984,11 @@
     "name": "d3py",
     "url": "https://github.com/mikedewar/d3py",
     "description": "A plotting library for Python, based on D3.js."
+  },
+  {
+    "name": "PyDexter",
+    "url": "https://github.com/D3xterjs/pydexter",
+    "description": "Simple plotting for Python. Wrapper for D3xterjs; easily render charts in-browser."
   },
   {
     "name": "ggplot",
@@ -2016,9 +2092,18 @@
     "description": "Self Organizing Map written in Python (Uses neural networks for data analysis)."
   },
   {
+    "name": "somoclu Massively parallel self-organizing maps: accelerate training on multicore CPUs, GPUs, and clusters, has python API.",
+    "url": "https://github.com/peterwittek/somoclu"
+  },
+  {
     "name": "HDBScan",
     "url": "https://github.com/lmcinnes/hdbscan",
     "description": "implementation of the hdbscan algorithm in Python - used for clustering"
+  },
+  {
+    "name": "visualize_ML",
+    "url": "https://github.com/ayush1997/visualize_ML",
+    "description": "A python package for data exploration and data analysis."
   },
   {
     "name": "pattern_classification",
@@ -2113,6 +2198,11 @@
     "description": "IPython notebooks for EEG/MEG data processing using mne-python"
   },
   {
+    "name": "Neon Course",
+    "url": "https://github.com/NervanaSystems/neon_course",
+    "description": "IPython notebooks for a complete course around understanding Nervana's Neon"
+  },
+  {
     "name": "pandas cookbook",
     "url": "https://github.com/jvns/pandas-cookbook",
     "description": "Recipes for using Python's pandas library"
@@ -2168,9 +2258,24 @@
     "description": "TensorDebugger (TDB) is a visual debugger for deep learning. It features interactive, node-by-node debugging and visualization for TensorFlow."
   },
   {
+    "name": "Suiron",
+    "url": "https://github.com/kendricktan/suiron/",
+    "description": "Machine Learning for RC Cars."
+  },
+  {
     "name": "Introduction to machine learning with scikit-learn",
     "url": "https://github.com/justmarkham/scikit-learn-videos",
     "description": "IPython notebooks from Data School's video tutorials on scikit-learn."
+  },
+  {
+    "name": "Practical XGBoost in Python",
+    "url": "http://education.parrotprediction.teachable.com/courses/practical-xgboost-in-python",
+    "description": "comprehensive online course about using XGBoost in Python"
+  },
+  {
+    "name": "Neuron",
+    "url": "https://github.com/molcik/Neuron",
+    "description": "Neuron is simple class for time series predictions. It's utilize LNU (Linear Neural Unit), QNU (Quadratic Neural Unit), RBF (Radial Basis Function), MLP (Multi Layer Perceptron), MLP-ELM (Multi Layer Perceptron - Extreme Learning Machine) neural networks learned with Gradient descent or LeLevenberg–Marquardt algorithm."
   },
   {
     "name": "kaggle insults",
@@ -2785,6 +2890,11 @@
     "description": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Go, Javascript and more."
   },
   {
+    "name": "TDSP-Utilities",
+    "url": "https://github.com/Azure/Azure-TDSP-Utilities",
+    "description": "Two data science utilities in R from Microsoft: 1) Interactive Data Exploration, Analysis, and Reporting (IDEAR) ; 2) Automated Modeling and Reporting (AMR)."
+  },
+  {
     "name": "Factory Miner",
     "url": "http://www.sas.com/en_us/software/analytics/factory-miner.html",
     "description": "Automatically creates deployable machine learning models across numerous market or customer segments using a GUI."
@@ -2944,6 +3054,11 @@
     "description": "Flexible Declarative Learning-Based Programming."
   },
   {
+    "name": "SwiftLearner",
+    "url": "https://github.com/valdanylchuk/swiftlearner/",
+    "description": "Simply written algorithms to help study ML or write your own implementations."
+  },
+  {
     "name": "BrainCore",
     "url": "https://github.com/aleph7/BrainCore",
     "description": "The iOS and OS X neural network framework"
@@ -2966,6 +3081,11 @@
     "name": "MLKit",
     "url": "https://github.com/Somnibyte/MLKit",
     "description": "A simple Machine Learning Framework written in Swift. Currently features Simple Linear Regression, Polynomial Regression, and Ridge Regression."
+  },
+  {
+    "name": "Swift Brain",
+    "url": "https://github.com/vlall/Swift-Brain",
+    "description": "The first neural network / machine learning library written in Swift. This is a project for AI algorithms in Swift for iOS and OS X development. This project includes algorithms focused on Bayes theorem, neural networks, SVMs, Matrices, etc.."
   },
   {
     "name": "The few go reference I found where pulled from this page",

@@ -64,7 +64,23 @@
     "url": "http://web.stanford.edu/%7Eouster/cgi-bin/cs140-spring14/projects.php"
   },
   {
-    "name": "CS 162 Operating Systems and Systems Programming UC Berkeley    \n\n\nOperating Systems course by the Chair of EECS, UC Berkeley David Culler\nYoutube Playlist Fall 2014 lectures\n",
+    "name": "6.004 Computation Structures MIT   \n\n\nIntroduces architecture of digital systems, emphasizing structural principles common to a wide range of technologies. Multilevel implementation strategies; definition of new primitives (e.g., gates, instructions, procedures, processes) and their mechanization using lower-level elements. Analysis of potential concurrency; precedence constraints and performance measures; pipelined and multidimensional systems. Instruction set design issues; architectural support for contemporary software structures. 4 Engineering Design Points. 6.004 offers an introduction to the engineering of digital systems. Starting with MOS transistors, the course develops of series of building blocks logic gates, combinational and sequential circuits, finite-state machines, computers and finally complete systems. Both hardware and software mechanisms are explored through a series of design examples.\nYoutube Playlist\nLecture Notes\nLabs-Assignments\n",
+    "url": "https://6004.mit.edu/"
+  },
+  {
+    "name": "Youtube Playlist",
+    "url": "https://www.youtube.com/watch?v=9DWlqtsNGV0&index=1&list=PLmP5iIyVnKPQ-cO_EENdUgEdlRf0u5LYa"
+  },
+  {
+    "name": "Lecture Notes",
+    "url": "http://computationstructures.org/notes/tradeoffs/notes.html"
+  },
+  {
+    "name": "Labs-Assignments",
+    "url": "http://computationstructures.org/exercises/cmos/lab.html"
+  },
+  {
+    "name": "CS 162 Operating Systems and Systems Programming UC Berkeley    \n\n\nThe purpose of this course is to teach the design of operating systems and operating systems concepts that appear in other advanced systems. Topics we will cover include concepts of operating systems, systems programming, networked and distributed systems, and storage systems, including multiple-program systems (processes, interprocess communication, and synchronization), memory allocation (segmentation, paging), resource allocation and scheduling, file systems, basic networking (sockets, layering, APIs, reliability), transactions, security, and privacy.\n\n\nOperating Systems course by the Chair of EECS, UC Berkeley David Culler\nYoutube Playlist Spring 2015 lectures\nLecture Notes Spring 2015 lectures\n\n",
     "url": "http://cs162.eecs.berkeley.edu/"
   },
   {
@@ -72,8 +88,12 @@
     "url": "http://www.cs.berkeley.edu/%7Eculler/"
   },
   {
-    "name": "Youtube Playlist Fall 2014 lectures",
-    "url": "https://www.youtube.com/playlist?list=PL-XXv-cvA_iAARFmCufZ6XeMPPgAzNSNa"
+    "name": "Youtube Playlist Spring 2015 lectures",
+    "url": "https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c"
+  },
+  {
+    "name": "Lecture Notes Spring 2015 lectures",
+    "url": "https://inst.eecs.berkeley.edu/%7Ecs162/sp15/"
   },
   {
     "name": "CS 168 Introduction to the Internet: Architecture and Protocols UC Berkeley  \n\n\nThis course is an introduction to the Internet architecture. We will focus on the concepts and fundamental design principles that have contributed to the Internet's scalability and robustness and survey the various protocols and algorithms used within this architecture. Topics include layering, addressing, intradomain routing, interdomain routing, reliable delivery, congestion control, and the core protocols (e.g., TCP, UDP, IP, DNS, and HTTP) and network technologies (e.g., Ethernet, wireless).\nLecture Notes & Assignments\nDiscussion Notes\n",
@@ -88,18 +108,6 @@
     "url": "https://inst.eecs.berkeley.edu/%7Ecs168/fa14/"
   },
   {
-    "name": "CS 186 Introduction to Database Systems UC Berkeley   \n\n\nIn the project assignments in CS186, you will write a basic database management system called SimpleDB. For this project, you will focus on implementing the core modules required to access stored data on disk; in future projects, you will add support for various query processing operators, as well as transactions, locking, and concurrent queries.\nLecture Notes\nProjects\n",
-    "url": "https://sites.google.com/site/cs186spring2015/"
-  },
-  {
-    "name": "Lecture Notes",
-    "url": "https://sites.google.com/site/cs186fall2013/section-notes"
-  },
-  {
-    "name": "Projects",
-    "url": "https://sites.google.com/site/cs186fall2013/homeworks"
-  },
-  {
     "name": "CS 179 GPU Programming Caltech   \n\n\nThis course will cover programming techniques for the GPU. The course will introduce NVIDIA's parallel computing language, CUDA. Beyond covering the CUDA programming model and syntax, the course will also discuss GPU architecture, high performance computing on GPUs, parallel algorithms, CUDA libraries, and applications of GPU computing. \nAssignments\nLecture Notes\n",
     "url": "http://courses.cms.caltech.edu/cs179/"
   },
@@ -110,6 +118,18 @@
   {
     "name": "Lecture Notes",
     "url": "http://courses.cms.caltech.edu/cs179/"
+  },
+  {
+    "name": "CS 186 Introduction to Database Systems UC Berkeley   \n\n\nIn the project assignments in CS186, you will write a basic database management system called SimpleDB. For this project, you will focus on implementing the core modules required to access stored data on disk; in future projects, you will add support for various query processing operators, as well as transactions, locking, and concurrent queries.\nLecture Notes\nProjects\n",
+    "url": "https://sites.google.com/site/cs186spring2015/"
+  },
+  {
+    "name": "Lecture Notes",
+    "url": "https://sites.google.com/site/cs186fall2013/section-notes"
+  },
+  {
+    "name": "Projects",
+    "url": "https://sites.google.com/site/cs186fall2013/homeworks"
   },
   {
     "name": "CS 241 Systems Programming (Fall 2014) Univ of Illinois, Urbana-Champaign  \n\n\nSystem programming refers to writing code that tasks advantage of operating system support for programmers. This course is designed to introduce you to system programming. By the end of this course, you should be proficient at writing programs that take full advantage of operating system support. To be concrete, we need to fix an operating system and we need to choose a programming language for writing programs. We chose the C language running on a Linux/UNIX operating system (which implements the POSIX standard interface between the programmer and the OS).\nAssignments\nGithub Page\nCrowd Sourced Book\n",
@@ -128,7 +148,7 @@
     "url": "https://github.com/angrave/SystemProgramming/wiki"
   },
   {
-    "name": "CS 425 Distributed Systems Univ of Illinois, Urbana-Champaign   \n\n\nBrilliant set of lectures and reading material covering fundamental concepts in distributed systems such as Vector clocks, Consensus and Paxos. This is the 2014 version by Prof Indranil Gupta.\nLectures\nAssignments\n",
+    "name": "CS 425 Distributed Systems Univ of Illinois, Urbana-Champaign  \n\n\nBrilliant set of lectures and reading material covering fundamental concepts in distributed systems such as Vector clocks, Consensus and Paxos. This is the 2014 version by Prof Indranil Gupta.\nLectures\nAssignments\n",
     "url": "https://courses.engr.illinois.edu/cs425/fa2014/index.html"
   },
   {
@@ -169,7 +189,7 @@
   },
   {
     "name": "CS 3410 Computer System Organization and Programming Cornell University  \n\n\nCS3410 provides an introduction to computer organization, systems programming and the hardware/software interface. Topics include instruction sets, computer arithmetic, datapath design, data formats, addressing modes, memory hierarchies including caches and virtual memory, I/O devices, bus-based I/O systems, and multicore architectures. Students learn assembly language programming and design a pipelined RISC processor.\nLectures\nAssignments\n",
-    "url": "http://www.cs.cornell.edu/courses/CS3410/2014sp/"
+    "url": "http://www.cs.cornell.edu/courses/cs3410/2016fa/"
   },
   {
     "name": "Lectures",
@@ -237,6 +257,22 @@
     "url": "http://comp.uark.edu/%7Ewingning/csce3613/Link3613.html"
   },
   {
+    "name": "CSCI-UA.0202: Operating Systems (Undergrad) Operating Systems NYU    \n\n\nNYU's operating system course. It's a fundamental course focusing basic ideas of operating systems, including memory management, process shceduling, file system, ect. It also includes some recomended reading materials. What's more, there are a series of hands-on lab materials, helping you easily understand OS.\nAssignments\nLectures\nOld Exams \n",
+    "url": "http://www.cs.nyu.edu/%7Emwalfish/classes/15sp/index.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://www.cs.nyu.edu/%7Emwalfish/classes/15sp/labs.html"
+  },
+  {
+    "name": "Lectures",
+    "url": "http://www.cs.nyu.edu/%7Emwalfish/classes/15sp/syllabus.html"
+  },
+  {
+    "name": "Old Exams ",
+    "url": "http://www.cs.nyu.edu/%7Emwalfish/classes/15sp/exams.html"
+  },
+  {
     "name": "CSCI 360 Computer Architecture 3 CUNY Hunter College  \n\n\n A course that covers cache design, buses, memory hierarchies, processor-peripheral interfaces, and multiprocessors, including GPUs.\n",
     "url": "http://compsci.hunter.cuny.edu/%7Esweiss/course_materials/csci360/csci360_f14.php"
   },
@@ -247,6 +283,34 @@
   {
     "name": "CSCI 493.75 Parallel Computing CUNY Hunter College \n\n\n\nThe course is an introduction to parallel algorithms and parallel programming in C and C++, using the Message Passing Interface (MPI) and the OpenMP application programming interface. It also includes a brief introduction to parallel architectures and interconnection networks. It is both theoretical and practical, including material on design methodology, performance analysis, and mathematical concepts, as well as details on programming using MPI and OpenMP.\n",
     "url": "http://compsci.hunter.cuny.edu/%7Esweiss/course_materials/csci493.65/csci493.65_spr14.php"
+  },
+  {
+    "name": "Hack the Kernel Introduction to Operating Systems SUNY University at Buffalo, NY   \n\n\nThis course is an introduction to operating system design and implementation. We study operating systems because they are examples of mature and elegant solutions to a difficult design problem: how to safely and efficiently share system resources and provide abstractions useful to applications.\nFor the processor, memory, and disks, we discuss how the operating system allocates each resource and explore the design and implementation of related abstractions. We also establish techniques for testing and improving system performance and introduce the idea of hardware virtualization. Programming assignments provide hands-on experience with implementing core operating system components in a realistic development environment. Course by Dr.Geoffrey Challen\nSyllabus\nSlides\nVideo lectures\nAssignments\nOld Exams\n",
+    "url": "https://www.ops-class.org/"
+  },
+  {
+    "name": "For the processor, memory, and disks, we discuss how the operating system allocates each resource and explore the design and implementation of related abstractions. We also establish techniques for testing and improving system performance and introduce the idea of hardware virtualization. Programming assignments provide hands-on experience with implementing core operating system components in a realistic development environment. Course by Dr.Geoffrey Challen",
+    "url": "https://blue.cse.buffalo.edu/people/gwa/"
+  },
+  {
+    "name": "Syllabus",
+    "url": "https://www.ops-class.org/courses/buffalo/CSE421_Spring2016/"
+  },
+  {
+    "name": "Slides",
+    "url": "https://www.ops-class.org/slides/"
+  },
+  {
+    "name": "Video lectures",
+    "url": "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3"
+  },
+  {
+    "name": "Assignments",
+    "url": "https://www.ops-class.org/asst/0/"
+  },
+  {
+    "name": "Old Exams",
+    "url": "https://www.ops-class.org/exams/"
   },
   {
     "name": "ECE 459 Programming for Performance University of Waterloo \n\n\n\nLearn techniques for profiling, rearchitecting, and implementing software systems that can handle industrial-sized inputs, and to design and build critical software infrastructure. Learn performance optimization through parallelization, multithreading, async I/O, vectorization and GPU programming, and distributed computing.\nLecture slides\n",
@@ -283,6 +347,22 @@
   {
     "name": "SPAC Parallelism and Concurrency Univ of Washington \n\n\nTechnically not a course nevertheless an awesome collection of materials used by Prof Dan Grossman to teach parallelism and concurrency concepts to sophomores at UWash\n",
     "url": "http://homes.cs.washington.edu/%7Edjg/teachingMaterials/spac/"
+  },
+  {
+    "name": "VU:Distributed Systems Distributed Systems: Principles and Paradigms (Fall 2012) Vrije Universiteit, Amsterdam   \n\n\nDistributed systems often appear to be highly complex and intertwined networked systems. Touching one component often affects many others in surprising ways. In this course, we aim at explaining the basics of distributed systems by systematically taking different perspectives, and subsequently bringing these perspectives together by looking at often-applied organizations of distributed systems. This course closely follows the timeless classic Distributed Systems: Principles and Paradigms by some of the pioneers in the field of Distributes systems-Andrew S. Tanenbaum and Maarten van Steen\nSlides\nVideo lectures\nExams\n",
+    "url": "http://www.distributed-systems.net/index.php?id=distributed-systems-principles-and-paradigms"
+  },
+  {
+    "name": "Slides",
+    "url": "http://www.distributed-systems.net/courses/ds/ds-slides/"
+  },
+  {
+    "name": "Video lectures",
+    "url": "http://www.distributed-systems.net/courses/ds/ds-screencasts/"
+  },
+  {
+    "name": "Exams",
+    "url": "http://www.distributed-systems.net/courses/ds/ds-exams/"
   },
   {
     "name": "6.824 Distributed Systems MIT  \n\n\nMIT's graduate-level DS course with a focus on fault tolerance, replication, and consistency, all taught via awesome lab assignments in Golang!\nAssignments",
@@ -329,6 +409,26 @@
   {
     "name": "Assignments",
     "url": "http://csapp.cs.cmu.edu/public/labs.html"
+  },
+  {
+    "name": "15-418Parallel Computer Architecture and Programming Carnegie-Mellon University    \n\n\nThe goal of this course is to provide a deep understanding of the fundamental principles and engineering trade-offs involved in designing modern parallel computing systems as well as to teach parallel programming techniques necessary to effectively utilize these machines. Because writing good parallel programs requires an understanding of key machine performance characteristics, this course will cover both parallel hardware and software design.\nAssignments\nLecture Notes\nLecture Videos\nReadings\n",
+    "url": "http://15418.courses.cs.cmu.edu/spring2015/"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://15418.courses.cs.cmu.edu/spring2015/exercises"
+  },
+  {
+    "name": "Lecture Notes",
+    "url": "http://15418.courses.cs.cmu.edu/spring2015/reading"
+  },
+  {
+    "name": "Lecture Videos",
+    "url": "https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22a5862643-2416-49ef-b46b-13465d1b6df0%22"
+  },
+  {
+    "name": "Readings",
+    "url": "http://15418.courses.cs.cmu.edu/spring2015/reading"
   },
   {
     "name": "15-440 Distributed Systems Carnegie-Mellon University   \n\n\nIntroduction to distributed systems with a focus on teaching concepts via projects implemented in the Go programming language.\nAssignments\n",
@@ -385,46 +485,6 @@
     "url": "http://www.ece.cmu.edu/%7Eece447/s14/doku.php?id=readings"
   },
   {
-    "name": "Slides",
-    "url": "http://www.distributed-systems.net/courses/ds/ds-slides/"
-  },
-  {
-    "name": "Video lectures",
-    "url": "http://www.distributed-systems.net/courses/ds/ds-screencasts/"
-  },
-  {
-    "name": "Exams",
-    "url": "http://www.distributed-systems.net/courses/ds/ds-exams/"
-  },
-  {
-    "name": "Slides",
-    "url": "https://www.ops-class.org/slides/"
-  },
-  {
-    "name": "Video lectures",
-    "url": "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3"
-  },
-  {
-    "name": "Assignments",
-    "url": "https://www.ops-class.org/asst/0/"
-  },
-  {
-    "name": "Old Exams",
-    "url": "https://www.ops-class.org/exams/"
-  },
-  {
-    "name": "Assignments",
-    "url": "http://www.cs.nyu.edu/%7Emwalfish/classes/15sp/labs.html"
-  },
-  {
-    "name": "Lectures",
-    "url": "http://www.cs.nyu.edu/%7Emwalfish/classes/15sp/syllabus.html"
-  },
-  {
-    "name": "Old Exams ",
-    "url": "http://www.cs.nyu.edu/%7Emwalfish/classes/15sp/exams.html"
-  },
-  {
     "name": "CIS 194 Introduction to Haskell Penn Engineering  \n\n\nExplore the joys of functional programming, using Haskell as a vehicle. The aim of the course will be to allow you to use Haskell to easily and conveniently write practical programs.\nPrevious semester also available, with more exercises\nAssignments & Lectures\n",
     "url": "http://www.seas.upenn.edu/%7Ecis194/"
   },
@@ -453,7 +513,7 @@
     "url": "http://iloveponies.github.io/120-hour-epic-sax-marathon/index.html"
   },
   {
-    "name": "CMSC430 Introduction to Compilers Univ of Maryland  \n\n\nThe goal of CMSC 430 is to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students will design and implement several related languages, and will explore parsing, syntax querying, dataflow analysis, compilation to bytecode, type systems, and language interoperation. \nLecture Notes\nAssignments\n",
+    "name": "CMSC 430 Introduction to Compilers Univ of Maryland  \n\n\nThe goal of CMSC 430 is to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students will design and implement several related languages, and will explore parsing, syntax querying, dataflow analysis, compilation to bytecode, type systems, and language interoperation. \nLecture Notes\nAssignments\n",
     "url": "http://www.cs.umd.edu/class/spring2015/cmsc430/"
   },
   {
@@ -475,6 +535,32 @@
   {
     "name": "Assignments",
     "url": "http://www.cs.princeton.edu/%7Edpw/courses/cos326-12/assignments.php"
+  },
+  {
+    "name": "CS 143 Compiler construction Stanford University \n\n\nCS143 is a Stanford's course in the practical and theoretical aspects of compiler construction.\nHome\nSyllabus\nLectures\nAssignments\nCS143",
+    "url": "https://web.stanford.edu/class/cs143/",
+    "description": "2011"
+  },
+  {
+    "name": "Home",
+    "url": "https://web.stanford.edu/class/cs143/"
+  },
+  {
+    "name": "Syllabus",
+    "url": "https://web.stanford.edu/class/cs143/schedule.html"
+  },
+  {
+    "name": "Lectures",
+    "url": "https://web.stanford.edu/class/cs143/"
+  },
+  {
+    "name": "Assignments",
+    "url": "https://web.stanford.edu/class/cs143/"
+  },
+  {
+    "name": "CS143",
+    "url": "http://www.keithschwarz.com/cs143/WWW/sum2011/",
+    "description": "2011"
   },
   {
     "name": "CS 164 Hack your language! UC Berkeley   \n\n\nIntroduction to programming languages by designing and implementing domain-specific languages.\nLecture Videos\nCode for Assignments\n",
@@ -503,6 +589,18 @@
   {
     "name": "Assignments",
     "url": "http://cs.brown.edu/courses/cs173/2014/assignments.html"
+  },
+  {
+    "name": "CS 223 Purely Functional Data Structures In Elm University of Chicago  \n\n\nThis course teaches functional reactive programming and purely functional data structures based on Chris Okazaki's book and using the Elm programming language.\nLectures\nAssignments\n",
+    "url": "https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/"
+  },
+  {
+    "name": "Lectures",
+    "url": "https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html"
   },
   {
     "name": "CS 240h Functional Systems in Haskell Stanford University  \n\n\nBuilding software systems in Haskell\nLecture Slides\n3 Assignments: Lab1, Lab2, Lab3\n",
@@ -537,18 +635,6 @@
     "url": "https://courses.engr.illinois.edu/cs421/fa2014/exams/index.html"
   },
   {
-    "name": "CS223 Purely Functional Data Structures In Elm University of Chicago  \n\n\nThis course teaches functional reactive programming and purely functional data structures based on Chris Okazaki's book and using the Elm programming language.\nLectures\nAssignments\n",
-    "url": "https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/"
-  },
-  {
-    "name": "Lectures",
-    "url": "https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html"
-  },
-  {
-    "name": "Assignments",
-    "url": "https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html"
-  },
-  {
     "name": "CS 3110 Data Structures and Functional Programming Cornell University  \n\n\nAnother course that uses OCaml to teach alternative programming paradigms, especially functional and concurrent programming.\nLecture Slides\nAssignments\n",
     "url": "http://www.cs.cornell.edu/Courses/cs3110/2014fa/course_info.php"
   },
@@ -577,7 +663,7 @@
     "url": "http://www.cs.cornell.edu/courses/CS4120/2013fa/homework.html"
   },
   {
-    "name": "CS 4400 Programming Languages Northeastern University   \n\n\nThis is a course on the study, design, and implementation of programming languages.\nThe course works at two simultaneous levels: first, we will use a programming language that can   demonstrate a wide variety of programming paradigms. Second, using this language, we will learn about the mechanics behind programming languages by implementing our own language(s). The two level approach usually means that we will often see how to use a certain feature, and continue by implementing it.\nSyllabus\nLecture Notes/Resources\nHomework\n",
+    "name": "CS 4400 Programming Languages Northeastern University   \n\n\nThis is a course on the study, design, and implementation of programming languages.\nThe course works at two simultaneous levels: first, we will use a programming language that can demonstrate a wide variety of programming paradigms. Second, using this language, we will learn about the mechanics behind programming languages by implementing our own language(s). The two level approach usually means that we will often see how to use a certain feature, and continue by implementing it.\nSyllabus\nLecture Notes/Resources\nHomework\n",
     "url": "https://pl.barzilay.org/"
   },
   {
@@ -661,6 +747,10 @@
     "url": "http://www.cs.cornell.edu/courses/CS6118/2012fa/"
   },
   {
+    "name": "CSC 253 CPython internals: A ten-hour codewalk through the Python interpreter source code University of Rochester \n\n\nNine lectures walking through the internals of CPython, the canonical Python interpreter implemented in C. They were from the Dynamic Languages and Software Development course taught in Fall 2014 at the University of Rochester.\n",
+    "url": "http://pgbovine.net/cpython-internals.htm"
+  },
+  {
     "name": "CSE 341 Programming Languages University of Washington  \n\n\nCovers non-imperative paradigms and languages such as Ruby, Racket, and ML and the fundamentals of programming languages.\nLectures\nAssignments and Tests\n",
     "url": "http://courses.cs.washington.edu/courses/cse341/14sp/"
   },
@@ -697,42 +787,28 @@
     "url": "http://cs.wheaton.edu/%7Etvandrun/dmfp/source.html"
   },
   {
-    "name": "CSC 253 CPython internals: A ten-hour codewalk through the Python interpreter source code University of Rochester \n\n\nNine lectures walking through the internals of CPython, the canonical Python interpreter implemented in C. They were from the Dynamic Languages and Software Development course taught in Fall 2014 at the University of Rochester.\n",
-    "url": "http://pgbovine.net/cpython-internals.htm"
-  },
-  {
     "name": "PCPP Practical Concurrent and Parallel Programming IT University of Copenhagen \n\n\nIn this MSc course you learn how to write correct and efficient concurrent and parallel software, primarily using Java, on standard shared-memory multicore hardware.\nThe course covers basic mechanisms such as threads, locks and shared memory as well as more advanced mechanisms such as parallel streams for bulk data, transactional memory, message passing, and lock-free data structures with compare-and-swap.\nIt covers concepts such as atomicity, safety, liveness and deadlock.\nIt covers how to measure and understand performance and scalability of parallel programs.\nIt covers tools and methods to find bugs in concurrent programs.\n",
     "url": "http://www.itu.dk/people/sestoft/itu/PCPP/E2015/"
   },
   {
-    "name": "CS 143 Compiler construction Stanford University \n\n\nCS143 is a Stanford's course in the practical and theoretical aspects of compiler construction.\nHome\nSyllabus\nLectures\nAssignments\nCS143",
-    "url": "https://web.stanford.edu/class/cs143/",
-    "description": "2011"
+    "name": "6.945 Adventures in Advanced Symbolic Programming MIT \n\n\nTaught by Gerald Sussman of SICP fame, this class deals with concepts and techniques for the design an implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications.\nAssignments: Extensive programming assignments, using MIT/GNU Scheme. Students should have significant programming experience in Scheme, Common Lisp, Haskell, CAML or other \"functional\" language.\nReadings\n",
+    "url": "https://groups.csail.mit.edu/mac/users/gjs/6.945/index.html"
   },
   {
-    "name": "Home",
-    "url": "https://web.stanford.edu/class/cs143/"
+    "name": "Assignments: Extensive programming assignments, using MIT/GNU Scheme. Students should have significant programming experience in Scheme, Common Lisp, Haskell, CAML or other \"functional\" language.",
+    "url": "https://groups.csail.mit.edu/mac/users/gjs/6.945/assignments.html"
   },
   {
-    "name": "Syllabus",
-    "url": "https://web.stanford.edu/class/cs143/schedule.html"
+    "name": "Readings",
+    "url": "https://groups.csail.mit.edu/mac/users/gjs/6.945/readings/"
   },
   {
-    "name": "Lectures",
-    "url": "https://web.stanford.edu/class/cs143/"
-  },
-  {
-    "name": "Assignments",
-    "url": "https://web.stanford.edu/class/cs143/"
-  },
-  {
-    "name": "CS143",
-    "url": "http://www.keithschwarz.com/cs143/WWW/sum2011/",
-    "description": "2011"
-  },
-  {
-    "name": "CS 61B Data Structures UC Berkeley  \n\n\nIn this course, you will study advanced programming techniques including data structures, encapsulation, abstract data types, interfaces, and algorithms for sorting and searching, and you will get a taste of “software engineering”—the design and implementation of large programs.\nLabs The link to labs and projects is included in the website.\nLecture Videos on Youtube The link to videos is included in the website.\n",
+    "name": "CS 61B Data Structures UC Berkeley    \n\n\nIn this course, you will study advanced programming techniques including data structures, encapsulation, abstract data types, interfaces, and algorithms for sorting and searching, and you will get a taste of “software engineering”—the design and implementation of large programs.\nFull Lecture Materials Lecture of Spring 2016. This website contains full matrials including video links, labs, homeworks, projects. Very good for self-learner. Also a good start for Java. And it includes some other usefull resources for Java Documentation, Data Structure Resources, Git/GitHub and Java Development Resources. Resources\nLabs The link to labs and projects is included in the website.\nLecture Videos on Youtube The link to videos is included in the website.\n",
     "url": "http://cs61b.ug/sp16/"
+  },
+  {
+    "name": "Full Lecture Materials Lecture of Spring 2016. This website contains full matrials including video links, labs, homeworks, projects. Very good for self-learner. Also a good start for Java. And it includes some other usefull resources for Java Documentation, Data Structure Resources, Git/GitHub and Java Development Resources. Resources",
+    "url": "http://datastructur.es/sp16/"
   },
   {
     "name": "Labs The link to labs and projects is included in the website.",
@@ -741,6 +817,34 @@
   {
     "name": "Lecture Videos on Youtube The link to videos is included in the website.",
     "url": "http://www.youtube.com/watch?v=frxF7Vs96YU&list=PLMM0a7ZGnITrgfhOxMNP7bpP4hhhKNY9s"
+  },
+  {
+    "name": "CS 97SI Introduction to Competitive Programming Stanford University   \n\n\nFantastic repository of theory and practice problems across various topics for students who are interested to participate in ACM-ICPC.\nLectures and Assignments\n",
+    "url": "http://web.stanford.edu/class/cs97si/"
+  },
+  {
+    "name": "Lectures and Assignments",
+    "url": "http://stanford.edu/%7Eliszt90/acm/notebook.html"
+  },
+  {
+    "name": "CS 224 Advanced Algorithms Harvard University   \n\n\nCS 224 is an advanced course in algorithm design, and topics we will cover include the word RAM model, data structures, amortization, online algorithms, linear programming, semidefinite programming, approximation algorithms, hashing, randomized algorithms, fast exponential time algorithms, graph algorithms, and computational geometry.\nLecture Videos (Youtube)\nAssignments\n",
+    "url": "http://people.seas.harvard.edu/%7Eminilek/cs224/fall14/index.html"
+  },
+  {
+    "name": "Lecture Videos (Youtube)",
+    "url": "http://people.seas.harvard.edu/%7Eminilek/cs224/fall14/lec.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://people.seas.harvard.edu/%7Eminilek/cs224/fall14/hmwk.html"
+  },
+  {
+    "name": "CS 261 A Second Course in Algorithms Stanford University   \n\n\nAlgorithms for network optimization: max-flow, min-cost flow, matching, assignment, and min-cut problems. Introduction to linear programming. Use of LP duality for design and analysis of algorithms. Approximation algorithms for NP-complete problems such as Steiner Trees, Traveling Salesman, and scheduling problems. Randomized algorithms. Introduction to online algorithms.\nLecture Notes, Videos & Assignments (Youtube)\n",
+    "url": "http://theory.stanford.edu/%7Etim/w16/w16.html"
+  },
+  {
+    "name": "Lecture Notes, Videos & Assignments (Youtube)",
+    "url": "http://theory.stanford.edu/%7Etim/w16/w16.html"
   },
   {
     "name": "CS 473/573 Fundamental Algorithms Univ of Illinois, Urbana-Champaign  \n\n\nAlgorithms class covering recursion, randomization, amortization, graph algorithms, network flows and hardness. The lecture notes by Prof. Erikson are comprehensive enough to be a book by themselves. Highly recommended!\nLecture Notes\nLabs and Exams\n",
@@ -827,6 +931,14 @@
     "url": "http://compsci.hunter.cuny.edu/%7Esweiss/course_materials/csci335/csci335_s14.php"
   },
   {
+    "name": "CSE 331 Software Design and Implementation University of Washington  \n\n\nExplores concepts and techniques for design and construction of reliable and maintainable software systems in modern high-level languages; program structure and design; program-correctness approaches, including testing.\nLectures, Assignments, and Exams\n",
+    "url": "http://courses.cs.washington.edu/courses/cse331/15sp/"
+  },
+  {
+    "name": "Lectures, Assignments, and Exams",
+    "url": "http://courses.cs.washington.edu/courses/cse331/15sp/#all"
+  },
+  {
     "name": "CSE 373 Analysis of Algorithms Stony Brook University    \n\n\nProf Steven Skiena's no stranger to any student when it comes to algorithms. His seminal book has been touted by many to be best for getting that job in Google. In addition, he's also well-known for tutoring students in competitive programming competitions. If you're looking to brush up your knowledge on Algorithms, you can't go wrong with this course.\nLecture Videos\n",
     "url": "http://www3.cs.stonybrook.edu/%7Eskiena/373/"
   },
@@ -837,22 +949,6 @@
   {
     "name": "Lecture Videos",
     "url": "http://www.cs.sunysb.edu/%7Ealgorith/video-lectures/"
-  },
-  {
-    "name": "CSE 331 Software Design and Implementation University of Washington  \n\n\nExplores concepts and techniques for design and construction of reliable and maintainable software systems in modern high-level languages; program structure and design; program-correctness approaches, including testing.\nLectures, Assignments, and Exams\n",
-    "url": "http://courses.cs.washington.edu/courses/cse331/15sp/"
-  },
-  {
-    "name": "Lectures, Assignments, and Exams",
-    "url": "http://courses.cs.washington.edu/courses/cse331/15sp/#all"
-  },
-  {
-    "name": "CS 97SI Introduction to Competitive Programming Stanford University   \n\n\nFantastic repository of theory and practice problems across various topics for students who are interested to participate in ACM-ICPC.\nLectures and Assignments\n",
-    "url": "http://web.stanford.edu/class/cs97si/"
-  },
-  {
-    "name": "Lectures and Assignments",
-    "url": "http://stanford.edu/%7Eliszt90/acm/notebook.html"
   },
   {
     "name": "ECS 122A Algorithm Design and Analysis UC Davis   \n\n\nTaught by Dan Gusfield in 2010, this course is an undergraduate introduction to algorithm design and analysis. It features traditional topics, such as Big Oh notation, as well as an importance on implementing specific algorithms. Also featured are sorting (in linear time), graph algorithms, depth-first search, string matching, dynamic programming, NP-completeness, approximation, and randomization.\nSyllabus\nLecture Videos\nAssignments\n",
@@ -907,36 +1003,8 @@
     "url": "http://courses.csail.mit.edu/iap/interview/calendar.php"
   },
   {
-    "name": "6.851 Advanced Data Structures MIT   \n\n\nThis is an advanced DS course, you must be done with the Advanced Algorithms course before attempting this one.\nLectures Contains videos from sp2012 version, but there isn't much difference.\nAssignments contains the calendar as well.\n",
-    "url": "http://courses.csail.mit.edu/6.851/spring14/index.html"
-  },
-  {
-    "name": "This is an advanced DS course, you must be done with the Advanced Algorithms course before attempting this one.",
-    "url": "http://courses.csail.mit.edu/6.854/current/"
-  },
-  {
-    "name": "Lectures Contains videos from sp2012 version, but there isn't much difference.",
-    "url": "http://courses.csail.mit.edu/6.851/spring14/lectures/"
-  },
-  {
-    "name": "Assignments contains the calendar as well.",
-    "url": "http://courses.csail.mit.edu/6.851/spring14/hmwk.html"
-  },
-  {
-    "name": "6.854/18.415J Advanced Algorithms MIT   \n\n\nAdvanced course in algorithms by Dr. David Karger covering topics such as amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms.\nRegister on NB to access the problem set and lectures.\n",
-    "url": "http://courses.csail.mit.edu/6.854/current/"
-  },
-  {
-    "name": "15-451/651 Algorithms Carnegie Mellon University \n\n\nThe required algorithms class that go in depth into all basic algorithms and the proofs behind them. This is one of the heavier algorithms curriculums on this page. Taught by Avrim Blum and Manuel Blum who has a Turing Award due to his contributions to algorithms. Course link includes a very comprehensive set of reference notes by Avrim Blum.\n",
-    "url": "http://www.cs.cmu.edu/afs/cs/academic/class/15451-f10/www/"
-  },
-  {
-    "name": "The required algorithms class that go in depth into all basic algorithms and the proofs behind them. This is one of the heavier algorithms curriculums on this page. Taught by Avrim Blum and Manuel Blum who has a Turing Award due to his contributions to algorithms. Course link includes a very comprehensive set of reference notes by Avrim Blum.",
-    "url": "http://en.wikipedia.org/wiki/Manuel_Blum"
-  },
-  {
     "name": "6.006 Introduction to Algorithms MIT  \n\n\nThis course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.\nLecture Videos\nAssignments\nReadings\nResources\nOld Exams\n",
-    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm"
+    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm"
   },
   {
     "name": "Lecture Videos",
@@ -987,8 +1055,34 @@
     "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/exams/"
   },
   {
-    "name": "6.854J/18.415J Advanced Algorithms MIT  \n\n\nThis course is a first-year graduate course in algorithms. Emphasis is placed on fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Techniques to be covered include amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms. Domains include string algorithms, network optimization, parallel algorithms, computational geometry, online algorithms, external memory, cache, and streaming algorithms, and data structures. The need for efficient algorithms arises in nearly every area of computer science. But the type of problem to be solved, the notion of what algorithms are \"efficient,'' and even the model of computation can vary widely from area to area. In this second class in algorithms, we will survey many of the techniques that apply broadly in the design of efficient algorithms, and study their application in a wide range of application domains and computational models. The goal is for the class to be broad rather than deep. Our plan is to touch upon the following areas. This is a tentative list of topics that might be covered in the class; we will select material adaptively based on the background, interests, and rate of progress of the students.\nLecture Notes\nAssignments\nReadings\nResources\n",
-    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/index.htm"
+    "name": "6.851 Advanced Data Structures MIT   \n\n\nThis is an advanced DS course, you must be done with the Advanced Algorithms course before attempting this one.\nLectures Contains videos from sp2012 version, but there isn't much difference.\nAssignments contains the calendar as well.\n",
+    "url": "http://courses.csail.mit.edu/6.851/spring14/index.html"
+  },
+  {
+    "name": "This is an advanced DS course, you must be done with the Advanced Algorithms course before attempting this one.",
+    "url": "http://courses.csail.mit.edu/6.854/current/"
+  },
+  {
+    "name": "Lectures Contains videos from sp2012 version, but there isn't much difference.",
+    "url": "http://courses.csail.mit.edu/6.851/spring14/lectures/"
+  },
+  {
+    "name": "Assignments contains the calendar as well.",
+    "url": "http://courses.csail.mit.edu/6.851/spring14/hmwk.html"
+  },
+  {
+    "name": "6.854/18.415J Advanced Algorithms MIT   \n\n\nAdvanced course in algorithms by Dr. David Karger covering topics such as amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms.\nRegister on NB to access the problem set and lectures.\n",
+    "url": "http://courses.csail.mit.edu/6.854/current/"
+  },
+  {
+    "name": "6.854J/18.415J Advanced Algorithms MIT  \n\n\nThis course is a first-year graduate course in algorithms. Emphasis is placed on fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Techniques to be covered include amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms. Domains include string algorithms, network optimization, parallel algorithms, computational geometry, online algorithms, external memory, cache, and streaming algorithms, and data structures. The need for efficient algorithms arises in nearly every area of computer science. But the type of problem to be solved, the notion of what algorithms are \"efficient,'' and even the model of computation can vary widely from area to area. In this second class in algorithms, we will survey many of the techniques that apply broadly in the design of efficient algorithms, and study their application in a wide range of application domains and computational models. The goal is for the class to be broad rather than deep. Our plan is to touch upon the following areas. This is a tentative list of topics that might be covered in the class; we will select material adaptively based on the background, interests, and rate of progress of the students.\nLecture Videos",
+    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/index.htm",
+    "description": "Spring 2016"
+  },
+  {
+    "name": "Lecture Videos",
+    "url": "https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c",
+    "description": "Spring 2016"
   },
   {
     "name": "Lecture Notes",
@@ -1005,6 +1099,22 @@
   {
     "name": "Resources",
     "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/download-course-materials/"
+  },
+  {
+    "name": "15-451/651 Algorithms Carnegie Mellon University \n\n\nThe required algorithms class that go in depth into all basic algorithms and the proofs behind them. This is one of the heavier algorithms curriculums on this page. Taught by Avrim Blum and Manuel Blum who has a Turing Award due to his contributions to algorithms. Course link includes a very comprehensive set of reference notes by Avrim Blum.\n",
+    "url": "http://www.cs.cmu.edu/afs/cs/academic/class/15451-f10/www/"
+  },
+  {
+    "name": "The required algorithms class that go in depth into all basic algorithms and the proofs behind them. This is one of the heavier algorithms curriculums on this page. Taught by Avrim Blum and Manuel Blum who has a Turing Award due to his contributions to algorithms. Course link includes a very comprehensive set of reference notes by Avrim Blum.",
+    "url": "http://en.wikipedia.org/wiki/Manuel_Blum"
+  },
+  {
+    "name": "16s-4102 Algorithms University of Virginia   \n\n\nLecture Videos & Homeworks (Youtube)\n",
+    "url": "http://www.cs.virginia.edu/%7Eshelat/16s-4102/"
+  },
+  {
+    "name": "Lecture Videos & Homeworks (Youtube)",
+    "url": "http://www.cs.virginia.edu/%7Eshelat/16s-4102/"
   },
   {
     "name": "CIS 500 Software Foundations University of Pennsylvania  \n\n\nAn introduction to formal verification of software using the Coq proof assistant. Topics include basic concepts of logic, computer-assisted theorem proving, functional programming, operational semantics, Hoare logic, and static type systems.\nLectures and Assignments\nTextbook\n",
@@ -1079,6 +1189,38 @@
     "url": "http://www.cs.cornell.edu/courses/CS3110/2014fa/index.php"
   },
   {
+    "name": "CS 3220 Introduction to Scientific Computing Cornell University  \n\n\nIn this one-semester survey course, we introduce numerical methods for solving linear and nonlinear equations, interpolating data, computing integrals, and solving differential equations, and we describe how to use these tools wisely (we hope!) when solving scientific problems.\nSyllabus\nLectures\nAssignments\n",
+    "url": "http://www.cs.cornell.edu/%7Ebindel/class/cs3220-s12/"
+  },
+  {
+    "name": "Syllabus",
+    "url": "http://www.cs.cornell.edu/%7Ebindel/class/cs3220-s12/syllabus.html"
+  },
+  {
+    "name": "Lectures",
+    "url": "http://www.cs.cornell.edu/%7Ebindel/class/cs3220-s12/lectures.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://www.cs.cornell.edu/%7Ebindel/class/cs3220-s12/assignments.html"
+  },
+  {
+    "name": "CS 4300 Information Retrieval Cornell University  \n\n\nStudies the methods used to search for and discover information in large-scale systems. The emphasis is on information retrieval applied to textual materials, but there is some discussion of other formats.The course includes techniques for searching, browsing, and filtering information and the use of classification systems and thesauruses. The techniques are illustrated with examples from web searching and digital libraries.\nSyllabus\nLectures\nAssignments\n",
+    "url": "http://www.cs.cornell.edu/courses/CS4300/2013fa/"
+  },
+  {
+    "name": "Syllabus",
+    "url": "http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures/introduction.pdf"
+  },
+  {
+    "name": "Lectures",
+    "url": "http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures.htm"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures.htm"
+  },
+  {
     "name": "CS 4810 Introduction to Theory of Computing Cornell University   \n\n\n This undergraduate course provides a broad introduction to the mathematical foundations of computer science. We will examine basic computational models, especially Turing machines. The goal is to understand what problems can or cannot be solved in these models.\nSyllabus\nLectures\nAssignments\n",
     "url": "http://www.cs.cornell.edu/%7Edsteurer/toc13/"
   },
@@ -1129,38 +1271,6 @@
   {
     "name": "Practice Exams",
     "url": "http://www.csce.uark.edu/%7Esgauch/3193/S11/exams/index.html"
-  },
-  {
-    "name": "CS 3220 Introduction to Scientific Computing Cornell University  \n\n\nIn this one-semester survey course, we introduce numerical methods for solving linear and nonlinear equations, interpolating data, computing integrals, and solving differential equations, and we describe how to use these tools wisely (we hope!) when solving scientific problems.\nSyllabus\nLectures\nAssignments\n",
-    "url": "http://www.cs.cornell.edu/%7Ebindel/class/cs3220-s12/"
-  },
-  {
-    "name": "Syllabus",
-    "url": "http://www.cs.cornell.edu/%7Ebindel/class/cs3220-s12/syllabus.html"
-  },
-  {
-    "name": "Lectures",
-    "url": "http://www.cs.cornell.edu/%7Ebindel/class/cs3220-s12/lectures.html"
-  },
-  {
-    "name": "Assignments",
-    "url": "http://www.cs.cornell.edu/%7Ebindel/class/cs3220-s12/assignments.html"
-  },
-  {
-    "name": "CS 4300 Information Retrieval Cornell University  \n\n\nStudies the methods used to search for and discover information in large-scale systems. The emphasis is on information retrieval applied to textual materials, but there is some discussion of other formats.The course includes techniques for searching, browsing, and filtering information and the use of classification systems and thesauruses. The techniques are illustrated with examples from web searching and digital libraries.\nSyllabus\nLectures\nAssignments\n",
-    "url": "http://www.cs.cornell.edu/courses/CS4300/2013fa/"
-  },
-  {
-    "name": "Syllabus",
-    "url": "http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures/introduction.pdf"
-  },
-  {
-    "name": "Lectures",
-    "url": "http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures.htm"
-  },
-  {
-    "name": "Assignments",
-    "url": "http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures.htm"
   },
   {
     "name": "6.045 Great Ideas in Theoretical Computer Science MIT   \n\n\nThis course provides a challenging introduction to some of the central ideas of theoretical computer science. Beginning in antiquity, the course will progress through finite automata, circuits and decision trees, Turing machines and computability, efficient algorithms and reducibility, the P versus NP problem, NP-completeness, the power of randomness, cryptography and one-way functions, computational learning theory, and quantum computing. It examines the classes of problems that can and cannot be solved by various kinds of machines. It tries to explain the key differences between computational models that affect their power.\nSyllabus\nLecture Notes\nLecture Videos\n",
@@ -1403,6 +1513,30 @@
     "url": "http://www.cs.cornell.edu/courses/CS1133/2013fa/assignments/index.php"
   },
   {
+    "name": "CS 1410-2 and CS2420-20 Computer Science I and II for Hackers University of Utah   \n\n\nAn intro course in the spirit of SICP designed by Professor Matthew Flatt (one of the lead designers of Racket and author of HtDP). Mostly Racket and C, and a bit of Java, with explanations on how high level functional programming concepts relate to the design of OOP programs. Do this one before SICP if SICP is a bit too much...\nLectures and Assignments 1\nLectures and Assignments 2\nTextbook\nRacket Language\n",
+    "url": "http://www.eng.utah.edu/%7Ecs1410-20/"
+  },
+  {
+    "name": "An intro course in the spirit of SICP designed by Professor Matthew Flatt (one of the lead designers of Racket and author of HtDP). Mostly Racket and C, and a bit of Java, with explanations on how high level functional programming concepts relate to the design of OOP programs. Do this one before SICP if SICP is a bit too much...",
+    "url": "http://www.cs.utah.edu/%7Emflatt/"
+  },
+  {
+    "name": "Lectures and Assignments 1",
+    "url": "http://www.eng.utah.edu/%7Ecs1410-20/schedule.html"
+  },
+  {
+    "name": "Lectures and Assignments 2",
+    "url": "http://www.eng.utah.edu/%7Ecs2420-20/schedule.html"
+  },
+  {
+    "name": "Textbook",
+    "url": "http://htdp.org/2003-09-26/Book/curriculum.html"
+  },
+  {
+    "name": "Racket Language",
+    "url": "http://racket-lang.org/"
+  },
+  {
     "name": "CS 2110 Object-Oriented Programming and Data Structures Cornell University  \n\n\nCS 2110 is an intermediate-level programming course and an introduction to computer science. Topics include program design and development, debugging and testing, object-oriented programming, proofs of correctness, complexity analysis, recursion, commonly used data structures, graph algorithms, and abstract data types. Java is the principal programming language. The course syllabus can easily be extracted by looking at the link to lectures.\nSyllabus\nLectures\nAssignments\n",
     "url": "http://www.cs.cornell.edu/courses/CS2110/2014fa/index.html"
   },
@@ -1459,6 +1593,34 @@
     "url": "http://www.csce.uark.edu/%7Esgauch/2004/S14/index.html"
   },
   {
+    "name": "CSCI E-1 Understanding Computers and the Internet Harvard University Extension College \n \n\n\nThis course is all about understanding: understanding what's going on inside your computer when you flip on the switch, why tech support has you constantly rebooting your computer, how everything you do on the Internet can be watched by others, and how your computer can become infected with a worm just by being turned on. Designed for students who use computers and the Internet every day but don't fully understand how it all works, this course fills in the gaps. Through lectures on hardware, software, the Internet, multimedia, security, privacy, website development, programming, and more, this course \"takes the hood off\" of computers and the Internet so that students understand how it all works and why. Through discussions of current events, students are exposed also to the latest technologies.\nLecture Videos\nSyllabus\nNotes / Recaps\nAssignments\n",
+    "url": "http://cse1.net/lectures"
+  },
+  {
+    "name": "Lecture Videos",
+    "url": "http://cse1.net/lectures"
+  },
+  {
+    "name": "Syllabus",
+    "url": "http://cse1.net/syllabus"
+  },
+  {
+    "name": "Notes / Recaps",
+    "url": "http://cse1.net/recaps"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://cse1.net/psets"
+  },
+  {
+    "name": "CS-for-all CS for All  Harvey Mudd College   \n\n\nThis book (and course) takes a unique approach to “Intro CS.” In a nutshell, our objective is to provide an introduction to computer science as an intellectually rich and vibrant field rather than focusing exclusively on computer programming. While programming is certainly an important and pervasive element of our approach, we emphasize concepts and problem-solving over syntax and programming language features.\nLectures and Other resources\n",
+    "url": "http://www.cs.hmc.edu/csforall/"
+  },
+  {
+    "name": "Lectures and Other resources",
+    "url": "https://www.cs.hmc.edu/twiki/bin/view/ModularCS1"
+  },
+  {
     "name": "6.001 Structure and Interpretation of Computer Programs MIT   \n\n\nTeaches big-picture computing concepts using the Scheme programming language. Students will implement programs in a variety of different programming paradigms (functional, object-oriented, logical). Heavy emphasis on function composition, code-as-data, control abstraction with continuations, and syntactic abstraction through macros. An excellent course if you are looking to build a mental framework on which to hang your programming knowledge.\nLectures\nTextbook (epub, pdf)\nIDE\n",
     "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/index.htm"
   },
@@ -1475,105 +1637,16 @@
     "url": "http://www.neilvandyke.org/racket-sicp/"
   },
   {
-    "name": "CS1410-2 and CS2420-20 Computer Science I and II for Hackers University of Utah   \n\n\nAn intro course in the spirit of SICP designed by Professor Matthew Flatt (one of the lead designers of Racket and author of HtDP). Mostly Racket and C, and a bit of Java, with explanations on how high level functional programming concepts relate to the design of OOP programs. Do this one before SICP if SICP is a bit too much...\nLectures and Assignments 1\nLectures and Assignments 2\nTextbook\nRacket Language\n",
-    "url": "http://www.eng.utah.edu/%7Ecs1410-20/"
+    "name": "COMS 4771 Machine Learning Columbia University  \n\n\nCourse taught by Tony Jebara introduces topics in Machine Learning for both generative and discriminative estimation. Material will include least squares methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines, and kernel methods.\nLectures and Assignments\n",
+    "url": "http://www.cs.columbia.edu/%7Ejebara/4771/index.html"
   },
   {
-    "name": "An intro course in the spirit of SICP designed by Professor Matthew Flatt (one of the lead designers of Racket and author of HtDP). Mostly Racket and C, and a bit of Java, with explanations on how high level functional programming concepts relate to the design of OOP programs. Do this one before SICP if SICP is a bit too much...",
-    "url": "http://www.cs.utah.edu/%7Emflatt/"
+    "name": "Course taught by Tony Jebara introduces topics in Machine Learning for both generative and discriminative estimation. Material will include least squares methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines, and kernel methods.",
+    "url": "http://www.cs.columbia.edu/%7Ejebara/resume.html"
   },
   {
-    "name": "Lectures and Assignments 1",
-    "url": "http://www.eng.utah.edu/%7Ecs1410-20/schedule.html"
-  },
-  {
-    "name": "Lectures and Assignments 2",
-    "url": "http://www.eng.utah.edu/%7Ecs2420-20/schedule.html"
-  },
-  {
-    "name": "Textbook",
-    "url": "http://htdp.org/2003-09-26/Book/curriculum.html"
-  },
-  {
-    "name": "Racket Language",
-    "url": "http://racket-lang.org/"
-  },
-  {
-    "name": "CS-for-all CS for All  Harvey Mudd College   \n\n\nThis book (and course) takes a unique approach to “Intro CS.” In a nutshell, our objective is to provide an introduction to computer science as an intellectually rich and vibrant field rather than focusing exclusively on computer programming. While programming is certainly an important and pervasive element of our approach, we emphasize concepts and problem-solving over syntax and programming language features.\nLectures and Other resources\n",
-    "url": "http://www.cs.hmc.edu/csforall/"
-  },
-  {
-    "name": "Lectures and Other resources",
-    "url": "https://www.cs.hmc.edu/twiki/bin/view/ModularCS1"
-  },
-  {
-    "name": "StatLearning Intro to Statistical Learning Stanford University    \n\n\nThis is an introductory-level course in supervised learning, with a focus on regression and classification methods. The syllabus includes: linear and polynomial regression, logistic regression and linear discriminant analysis; cross-validation and the bootstrap, model selection and regularization methods (ridge and lasso); nonlinear models, splines and generalized additive models; tree-based methods, random forests and boosting; support-vector machines.\nThe lectures cover all the material in An Introduction to Statistical Learning, with Applications in R which is a more approachable version of the Elements of Statistical Learning (or ESL) book.\n",
-    "url": "https://lagunita.stanford.edu/courses/HumanitiesandScience/StatLearning/Winter2015/about"
-  },
-  {
-    "name": "The lectures cover all the material in An Introduction to Statistical Learning, with Applications in R which is a more approachable version of the Elements of Statistical Learning (or ESL) book.",
-    "url": "http://www-bcf.usc.edu/%7Egareth/ISL/"
-  },
-  {
-    "name": "11-785 Deep Learning Carnegie Mellon University  \n\n\nThe course presents the subject through a series of seminars and labs, which will explore it from its early beginnings, and work themselves to some of the state of the art. The seminars will cover the basics of deep learning and the underlying theory, as well as the breadth of application areas to which it has been applied, as well as the latest issues on learning from very large amounts of data. We will concentrate largely, although not entirely, on the connectionist architectures that are most commonly associated with it. Lectures and Reading Notes are available on the page.\n",
-    "url": "http://deeplearning.cs.cmu.edu/"
-  },
-  {
-    "name": "10-601 Machine Learning Carnegie Mellon University    \n\n\nThis course covers the theory and practical algorithms for machine learning from a variety of perspectives. It covers topics such as Bayesian networks, decision tree learning, Support Vector Machines, statistical learning methods, unsupervised learning and reinforcement learning. The course covers theoretical concepts such as inductive bias, the PAC learning framework, Bayesian learning methods, margin-based learning, and Occam's Razor. Short programming assignments include hands-on experiments with various learning algorithms. This course is designed to give a graduate-level student a thorough grounding in the methodologies, technologies, mathematics and algorithms currently needed by people who do research in machine learning.\nTaught by one of the leading experts on Machine Learning",
-    "url": "http://www.cs.cmu.edu/%7Eninamf/courses/601sp15/",
-    "description": "Tom Mitchell"
-  },
-  {
-    "name": "Lectures",
-    "url": "http://www.cs.cmu.edu/%7Etom/10701_sp11/lectures.shtml"
-  },
-  {
-    "name": "Project Ideas and Datasets",
-    "url": "http://www.cs.cmu.edu/%7Etom/10701_sp11/proj.shtml"
-  },
-  {
-    "name": "10-708 Probabilistic Graphical Models Carnegie Mellon University    \n\n\nMany of the problems in artificial intelligence, statistics, computer systems, computer vision, natural language processing, and computational biology, among many other fields, can be viewed as the search for a coherent global conclusion from local information. The probabilistic graphical models framework provides a unified view for this wide range of problems, enabling efficient inference, decision-making and learning in problems with a very large number of attributes and huge datasets. This graduate-level course will provide you with a strong foundation for both applying graphical models to complex problems and for addressing core research topics in graphical models.\nLecture Videos\nAssignments\nLecture notes\nReadings\n",
-    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/index.html"
-  },
-  {
-    "name": "Lecture Videos",
-    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/lecture.html"
-  },
-  {
-    "name": "Assignments",
-    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/homework.html"
-  },
-  {
-    "name": "Lecture notes",
-    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/lecture.html"
-  },
-  {
-    "name": "Readings",
-    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/lecture.html"
-  },
-  {
-    "name": "EE103 Introduction to Matrix Methods Stanford University   \n\n\nThe course covers the basics of matrices and vectors, solving linear equations, least-squares methods, and many applications. It'll cover the mathematics, but the focus will be on using matrix methods in applications such as tomography, image processing, data fitting, time series prediction, finance, and many others. EE103 is based on a book that Stephen Boyd and Lieven Vandenberghe are currently writing. Students will use a new language called Julia to do computations with matrices and vectors.\nLectures\nBook\nAssignments\nCode\n",
-    "url": "http://stanford.edu/class/ee103/"
-  },
-  {
-    "name": "The course covers the basics of matrices and vectors, solving linear equations, least-squares methods, and many applications. It'll cover the mathematics, but the focus will be on using matrix methods in applications such as tomography, image processing, data fitting, time series prediction, finance, and many others. EE103 is based on a book that Stephen Boyd and Lieven Vandenberghe are currently writing. Students will use a new language called Julia to do computations with matrices and vectors.",
-    "url": "http://stanford.edu/%7Eboyd/"
-  },
-  {
-    "name": "Lectures",
-    "url": "http://stanford.edu/class/ee103/lectures.html"
-  },
-  {
-    "name": "Book",
-    "url": "http://stanford.edu/class/ee103/mma.html"
-  },
-  {
-    "name": "Assignments",
-    "url": "http://stanford.edu/class/ee103/homework.html"
-  },
-  {
-    "name": "Code",
-    "url": "http://stanford.edu/class/ee103/julia_files"
+    "name": "Lectures and Assignments",
+    "url": "http://www.cs.columbia.edu/%7Ejebara/4771/handouts.html"
   },
   {
     "name": "CS 109 Data Science Harvard University   \n\n\nLearning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries.\nLectures\nSlides\nLabs and Assignments\n2014 Lectures\n2013 Lectures (slightly better)\n",
@@ -1628,6 +1701,18 @@
     "url": "http://cs224d.stanford.edu/syllabus.html"
   },
   {
+    "name": "CS 229r Algorithms for Big Data Harvard University   \n\n\nBig data is data so large that it does not fit in the main memory of a single machine, and the need to process big data by efficient algorithms arises in Internet search, network traffic monitoring, machine learning, scientific computing, signal processing, and several other areas. This course will cover mathematically rigorous models for developing such algorithms, as well as some provable limitations of algorithms operating in those models.\nLectures (Youtube)\nAssignments\n",
+    "url": "http://people.seas.harvard.edu/%7Eminilek/cs229r/fall15/index.html"
+  },
+  {
+    "name": "Lectures (Youtube)",
+    "url": "http://people.seas.harvard.edu/%7Eminilek/cs229r/fall15/lec.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://people.seas.harvard.edu/%7Eminilek/cs229r/fall15/hmwk.html"
+  },
+  {
     "name": "CS 231n Convolutional Neural Networks for Visual Recognition Stanford University   \n\n\nComputer Vision has become ubiquitous in our society, with applications in search, image understanding, apps, mapping, medicine, drones, and self-driving cars. This course is a deep dive into details of the deep learning architectures with a focus on learning end-to-end models for these tasks, particularly image classification. During the 10-week course, students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in computer vision.\nLecture Notes\nLecture Videos\nGithub Page\n",
     "url": "http://cs231n.stanford.edu/"
   },
@@ -1656,16 +1741,12 @@
     "url": "http://www.cs.berkeley.edu/%7Epabbeel/cs287-fa13/#assignments"
   },
   {
-    "name": "CS 4786 Machine Learning for Data Science Cornell University   \n\n\nAn introductory course in machine learning, with a focus on data modeling and related methods and learning algorithms for data sciences. Tentative topic list:\n\n\nDimensionality reduction, such as principal component analysis (PCA) and the singular value decomposition (SVD), canonical correlation analysis (CCA), independent component analysis (ICA), compressed sensing, random projection, the information bottleneck. (We expect to cover some, but probably not all, of these topics).\nClustering, such as k-means, Gaussian mixture models, the expectation-maximization (EM) algorithm, link-based clustering. (We do not expect to cover hierarchical or spectral clustering.).\nProbabilistic-modeling topics such as graphical models, latent-variable models, inference (e.g., belief propagation), parameter learning.\nRegression will be covered if time permits.\n\nAssignments\nLectures\n",
-    "url": "http://www.cs.cornell.edu/courses/CS4786/2015sp/index.htm"
+    "name": "CS 395T Statistical and Discrete Methods for Scientific Computing University of Texas   \n\n\nPractical course in applying modern statistical techniques to real data, particularly bioinformatic data and large data sets. The emphasis is on efficient computation and concise coding, mostly in MATLAB and C++.\nTopics covered include probability theory and Bayesian inference; univariate distributions; Central Limit Theorem; generation of random deviates; tail (p-value) tests; multiple hypothesis correction; empirical distributions; model fitting; error estimation; contingency tables; multivariate normal distributions; phylogenetic clustering; Gaussian mixture models; EM methods; maximum likelihood estimation; Markov Chain Monte Carlo; principal component analysis; dynamic programming; hidden Markov models; performance measures for classifiers; support vector machines; Wiener filtering; wavelets; multidimensional interpolation; information theory.\nLectures and Assignments\n",
+    "url": "http://www.nr.com/CS395T/"
   },
   {
-    "name": "Assignments",
-    "url": "http://www.cs.cornell.edu/courses/CS4786/2015sp/assignments.htm"
-  },
-  {
-    "name": "Lectures",
-    "url": "http://www.cs.cornell.edu/courses/CS4786/2015sp/lectures.htm"
+    "name": "Lectures and Assignments",
+    "url": "http://granite.ices.utexas.edu/coursewiki/index.php/Main_Page"
   },
   {
     "name": "CS 4780 Machine Learning Cornell University \n\n\nThis course will introduce you to technologies for building data-centric information systems on the World Wide Web, show the practical applications of such systems, and discuss their design and their social and policy context by examining cross-cutting issues such as citizen science, data journalism and open government. Course work involves lectures and readings as well as weekly homework assignments, and a semester-long project in which the students demonstrate their expertise in building data-centric Web information systems.\nSyllabus\nLectures\n",
@@ -1680,24 +1761,16 @@
     "url": "http://www.cs.cornell.edu/courses/CS4780/2014fa/"
   },
   {
-    "name": "COMS 4771 Machine Learning Columbia University  \n\n\nCourse taught by Tony Jebara introduces topics in Machine Learning for both generative and discriminative estimation. Material will include least squares methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines, and kernel methods.\nLectures and Assignments\n",
-    "url": "http://www.cs.columbia.edu/%7Ejebara/4771/index.html"
+    "name": "CS 4786 Machine Learning for Data Science Cornell University   \n\n\nAn introductory course in machine learning, with a focus on data modeling and related methods and learning algorithms for data sciences. Tentative topic list:\n\n\nDimensionality reduction, such as principal component analysis (PCA) and the singular value decomposition (SVD), canonical correlation analysis (CCA), independent component analysis (ICA), compressed sensing, random projection, the information bottleneck. (We expect to cover some, but probably not all, of these topics).\nClustering, such as k-means, Gaussian mixture models, the expectation-maximization (EM) algorithm, link-based clustering. (We do not expect to cover hierarchical or spectral clustering.).\nProbabilistic-modeling topics such as graphical models, latent-variable models, inference (e.g., belief propagation), parameter learning.\nRegression will be covered if time permits.\n\nAssignments\nLectures\n",
+    "url": "http://www.cs.cornell.edu/courses/CS4786/2015sp/index.htm"
   },
   {
-    "name": "Course taught by Tony Jebara introduces topics in Machine Learning for both generative and discriminative estimation. Material will include least squares methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines, and kernel methods.",
-    "url": "http://www.cs.columbia.edu/%7Ejebara/resume.html"
+    "name": "Assignments",
+    "url": "http://www.cs.cornell.edu/courses/CS4786/2015sp/assignments.htm"
   },
   {
-    "name": "Lectures and Assignments",
-    "url": "http://www.cs.columbia.edu/%7Ejebara/4771/handouts.html"
-  },
-  {
-    "name": "CS395T Statistical and Discrete Methods for Scientific Computing University of Texas   \n\n\nPractical course in applying modern statistical techniques to real data, particularly bioinformatic data and large data sets. The emphasis is on efficient computation and concise coding, mostly in MATLAB and C++.\nTopics covered include probability theory and Bayesian inference; univariate distributions; Central Limit Theorem; generation of random deviates; tail (p-value) tests; multiple hypothesis correction; empirical distributions; model fitting; error estimation; contingency tables; multivariate normal distributions; phylogenetic clustering; Gaussian mixture models; EM methods; maximum likelihood estimation; Markov Chain Monte Carlo; principal component analysis; dynamic programming; hidden Markov models; performance measures for classifiers; support vector machines; Wiener filtering; wavelets; multidimensional interpolation; information theory.\nLectures and Assignments\n",
-    "url": "http://www.nr.com/CS395T/"
-  },
-  {
-    "name": "Lectures and Assignments",
-    "url": "http://granite.ices.utexas.edu/coursewiki/index.php/Main_Page"
+    "name": "Lectures",
+    "url": "http://www.cs.cornell.edu/courses/CS4786/2015sp/lectures.htm"
   },
   {
     "name": "CVX 101 Convex Optimization Stanford University  \n\n\n\nThe course concentrates on recognizing and solving convex optimization problems that arise in applications.  Topics addressed include the following.  Convex sets, functions, and optimization problems.  Basics of convex analysis.  Least-squares, linear and quadratic programs, semidefinite programming, minimax, extremal volume, and other problems.  Optimality conditions, duality theory, theorems of alternative, and applications.  Interior-point methods.  Applications to signal processing, statistics and machine learning, control and mechanical engineering, digital and analog circuit design, and finance.\nTextbook\nLectures and Assignments\n",
@@ -1728,20 +1801,17 @@
     "url": "http://techtalks.tv/deep-learning-nyu-spring-2015/"
   },
   {
-    "name": "Machine Learning: 2014-2015 University of Oxford   \n\n\nThe course focusses on neural networks and uses the Torch deep learning library (implemented in Lua) for exercises and assignments. Topics include: logistic regression, back-propagation, convolutional neural networks, max-margin learning, siamese networks, recurrent neural networks, LSTMs, hand-writing with recurrent neural networks, variational autoencoders and image generation and reinforcement learning\nLectures and Assignments\nSource code\n",
-    "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/"
+    "name": "EECS E6893 & EECS E6895 Big Data Analytics & Advanced Big Data Analytics Columbia University   \n\n\nStudents will gain knowledge on analyzing Big Data. It serves as an introductory course for graduate students who are expecting to face Big Data storage, processing, analysis, visualization, and application issues on both workplaces and research environments.\nTaught by Dr. Ching-Yung Lin\nCourse Site\nAssignments",
+    "url": "http://www.ee.columbia.edu/%7Ecylin/course/bigdata/",
+    "description": "Assignments are present in the Course Slides"
   },
   {
-    "name": "The course focusses on neural networks and uses the Torch deep learning library (implemented in Lua) for exercises and assignments. Topics include: logistic regression, back-propagation, convolutional neural networks, max-margin learning, siamese networks, recurrent neural networks, LSTMs, hand-writing with recurrent neural networks, variational autoencoders and image generation and reinforcement learning",
-    "url": "https://github.com/torch/torch7/wiki/Cheatsheet"
+    "name": "Taught by Dr. Ching-Yung Lin",
+    "url": "http://researcher.watson.ibm.com/researcher/view.php?person=us-chingyung"
   },
   {
-    "name": "Lectures and Assignments",
-    "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/"
-  },
-  {
-    "name": "Source code",
-    "url": "https://github.com/oxford-cs-ml-2015/"
+    "name": "Course Site",
+    "url": "http://www.ee.columbia.edu/%7Ecylin/course/bigdata/"
   },
   {
     "name": "EECS E6894 Deep Learning for Computer Vision and Natural Language Processing Columbia University    \n\n\nThis graduate level research class focuses on deep learning techniques for vision and natural language processing problems. It gives an overview of the various deep learning models and techniques, and surveys recent advances in the related fields. This course uses Theano as the main programming tool. GPU programming experiences are preferred although not required. Frequent paper presentations and a heavy programming workload are expected.\nReadings\nAssignments\nLecture Notes \n",
@@ -1760,26 +1830,202 @@
     "url": "http://llcao.net/cu-deeplearning15/index.html"
   },
   {
-    "name": "EECS E6893 & EECS E6895 Big Data Analytics & Advanced Big Data Analytics Columbia University   \n\n\nStudents will gain knowledge on analyzing Big Data. It serves as an introductory course for graduate students who are expecting to face Big Data storage, processing, analysis, visualization, and application issues on both workplaces and research environments.\nTaught by Dr. Ching-Yung Lin\nCourse Site\nAssignments",
-    "url": "http://www.ee.columbia.edu/%7Ecylin/course/bigdata/",
-    "description": "Assignments are present in the Course Slides"
+    "name": "EE103 Introduction to Matrix Methods Stanford University   \n\n\nThe course covers the basics of matrices and vectors, solving linear equations, least-squares methods, and many applications. It'll cover the mathematics, but the focus will be on using matrix methods in applications such as tomography, image processing, data fitting, time series prediction, finance, and many others. EE103 is based on a book that Stephen Boyd and Lieven Vandenberghe are currently writing. Students will use a new language called Julia to do computations with matrices and vectors.\nLectures\nBook\nAssignments\nCode\n",
+    "url": "http://stanford.edu/class/ee103/"
   },
   {
-    "name": "Taught by Dr. Ching-Yung Lin",
-    "url": "http://researcher.watson.ibm.com/researcher/view.php?person=us-chingyung"
+    "name": "The course covers the basics of matrices and vectors, solving linear equations, least-squares methods, and many applications. It'll cover the mathematics, but the focus will be on using matrix methods in applications such as tomography, image processing, data fitting, time series prediction, finance, and many others. EE103 is based on a book that Stephen Boyd and Lieven Vandenberghe are currently writing. Students will use a new language called Julia to do computations with matrices and vectors.",
+    "url": "http://stanford.edu/%7Eboyd/"
   },
   {
-    "name": "Course Site",
-    "url": "http://www.ee.columbia.edu/%7Ecylin/course/bigdata/"
+    "name": "Lectures",
+    "url": "http://stanford.edu/class/ee103/lectures.html"
   },
   {
-    "name": "Info 290 Analyzing Big Data with Twitter UC Berkeley school of information \n\n\nIn this course, UC Berkeley professors and Twitter engineers provide lectures on the most cutting-edge algorithms and software tools for data analytics as applied to Twitter's data. Topics include applied natural language processing algorithms such as sentiment analysis, large scale anomaly detection, real-time search, information diffusion and outbreak detection, trend detection in social streams, recommendation algorithms, and advanced frameworks for distributed computing.\n Lecture Videos\n\n",
-    "url": "http://www.ischool.berkeley.edu/courses/i290-abdt",
-    "description": " Previous Years coursepage"
+    "name": "Book",
+    "url": "http://stanford.edu/class/ee103/mma.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://stanford.edu/class/ee103/homework.html"
+  },
+  {
+    "name": "Code",
+    "url": "http://stanford.edu/class/ee103/julia_files"
+  },
+  {
+    "name": "Info 290 Analyzing Big Data with Twitter UC Berkeley school of information \n\n\nIn this course, UC Berkeley professors and Twitter engineers provide lectures on the most cutting-edge algorithms and software tools for data analytics as applied to Twitter's data. Topics include applied natural language processing algorithms such as sentiment analysis, large scale anomaly detection, real-time search, information diffusion and outbreak detection, trend detection in social streams, recommendation algorithms, and advanced frameworks for distributed computing.\n Lecture Videos\n Previous Years coursepage\n",
+    "url": "http://www.ischool.berkeley.edu/courses/i290-abdt"
   },
   {
     "name": " Lecture Videos",
     "url": "http://www.ischool.berkeley.edu/newsandevents/audiovideo/webcast/21963"
+  },
+  {
+    "name": " Previous Years coursepage",
+    "url": "http://blogs.ischool.berkeley.edu/i290-abdt-s12/"
+  },
+  {
+    "name": "Machine Learning: 2014-2015 University of Oxford   \n\n\nThe course focusses on neural networks and uses the Torch deep learning library (implemented in Lua) for exercises and assignments. Topics include: logistic regression, back-propagation, convolutional neural networks, max-margin learning, siamese networks, recurrent neural networks, LSTMs, hand-writing with recurrent neural networks, variational autoencoders and image generation and reinforcement learning\nLectures and Assignments\nSource code\n",
+    "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/"
+  },
+  {
+    "name": "The course focusses on neural networks and uses the Torch deep learning library (implemented in Lua) for exercises and assignments. Topics include: logistic regression, back-propagation, convolutional neural networks, max-margin learning, siamese networks, recurrent neural networks, LSTMs, hand-writing with recurrent neural networks, variational autoencoders and image generation and reinforcement learning",
+    "url": "https://github.com/torch/torch7/wiki/Cheatsheet"
+  },
+  {
+    "name": "Lectures and Assignments",
+    "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/"
+  },
+  {
+    "name": "Source code",
+    "url": "https://github.com/oxford-cs-ml-2015/"
+  },
+  {
+    "name": "StatLearning Intro to Statistical Learning Stanford University    \n\n\nThis is an introductory-level course in supervised learning, with a focus on regression and classification methods. The syllabus includes: linear and polynomial regression, logistic regression and linear discriminant analysis; cross-validation and the bootstrap, model selection and regularization methods (ridge and lasso); nonlinear models, splines and generalized additive models; tree-based methods, random forests and boosting; support-vector machines.\nThe lectures cover all the material in An Introduction to Statistical Learning, with Applications in R which is a more approachable version of the Elements of Statistical Learning (or ESL) book.\n",
+    "url": "https://lagunita.stanford.edu/courses/HumanitiesandScience/StatLearning/Winter2015/about"
+  },
+  {
+    "name": "The lectures cover all the material in An Introduction to Statistical Learning, with Applications in R which is a more approachable version of the Elements of Statistical Learning (or ESL) book.",
+    "url": "http://www-bcf.usc.edu/%7Egareth/ISL/"
+  },
+  {
+    "name": "10-601 Machine Learning Carnegie Mellon University    \n\n\nThis course covers the theory and practical algorithms for machine learning from a variety of perspectives. It covers topics such as Bayesian networks, decision tree learning, Support Vector Machines, statistical learning methods, unsupervised learning and reinforcement learning. The course covers theoretical concepts such as inductive bias, the PAC learning framework, Bayesian learning methods, margin-based learning, and Occam's Razor. Short programming assignments include hands-on experiments with various learning algorithms. This course is designed to give a graduate-level student a thorough grounding in the methodologies, technologies, mathematics and algorithms currently needed by people who do research in machine learning.\nTaught by one of the leading experts on Machine Learning",
+    "url": "http://www.cs.cmu.edu/%7Eninamf/courses/601sp15/",
+    "description": "Tom Mitchell"
+  },
+  {
+    "name": "Lectures",
+    "url": "http://www.cs.cmu.edu/%7Etom/10701_sp11/lectures.shtml"
+  },
+  {
+    "name": "Project Ideas and Datasets",
+    "url": "http://www.cs.cmu.edu/%7Etom/10701_sp11/proj.shtml"
+  },
+  {
+    "name": "10-708 Probabilistic Graphical Models Carnegie Mellon University    \n\n\nMany of the problems in artificial intelligence, statistics, computer systems, computer vision, natural language processing, and computational biology, among many other fields, can be viewed as the search for a coherent global conclusion from local information. The probabilistic graphical models framework provides a unified view for this wide range of problems, enabling efficient inference, decision-making and learning in problems with a very large number of attributes and huge datasets. This graduate-level course will provide you with a strong foundation for both applying graphical models to complex problems and for addressing core research topics in graphical models.\nLecture Videos\nAssignments\nLecture notes\nReadings\n",
+    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/index.html"
+  },
+  {
+    "name": "Lecture Videos",
+    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/lecture.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/homework.html"
+  },
+  {
+    "name": "Lecture notes",
+    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/lecture.html"
+  },
+  {
+    "name": "Readings",
+    "url": "http://www.cs.cmu.edu/%7Eepxing/Class/10708-14/lecture.html"
+  },
+  {
+    "name": "11-785 Deep Learning Carnegie Mellon University  \n",
+    "url": "http://deeplearning.cs.cmu.edu/",
+    "description": "The course presents the subject through a series of seminars and labs, which will explore it from its early beginnings, and work themselves to some of the state of the art. The seminars will cover the basics of deep learning and the underlying theory, as well as the breadth of application areas to which it has been applied, as well as the latest issues on learning from very large amounts of data. We will concentrate largely, although not entirely, on the connectionist architectures that are most commonly associated with it. Lectures and Reading Notes are available on the page."
+  },
+  {
+    "name": "CIS 4930 / CIS 5930 Offensive Computer Security Florida State University   \n\n\nCourse taught by W. Owen Redwood and Xiuwen Liu. It covers a wide range of computer security topics, starting from Secure C Coding and Reverse Engineering to Penetration Testing, Exploitation and Web Application Hacking, both from the defensive and the offensive point of view.\nLectures and Videos\nAssignments\n",
+    "url": "http://www.cs.fsu.edu/%7Eredwood/OffensiveComputerSecurity/"
+  },
+  {
+    "name": "Course taught by W. Owen Redwood and Xiuwen Liu. It covers a wide range of computer security topics, starting from Secure C Coding and Reverse Engineering to Penetration Testing, Exploitation and Web Application Hacking, both from the defensive and the offensive point of view.",
+    "url": "http://ww2.cs.fsu.edu/%7Eredwood/"
+  },
+  {
+    "name": "Lectures and Videos",
+    "url": "http://www.cs.fsu.edu/%7Eredwood/OffensiveComputerSecurity/lectures.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://www.cs.fsu.edu/%7Eredwood/OffensiveComputerSecurity/assignments.html"
+  },
+  {
+    "name": "CS 155 Computer and Network Security Stanford  \n\n\nPrinciples of computer systems security. Attack techniques and how to defend against them. Topics include: network attacks and defenses, operating system holes, application security (web, email, databases), viruses, social engineering attacks, privacy, and digital rights management. Course projects focus on building reliable code. Recommended: Basic Unix. Primarily intended for seniors and first-year graduate students.\n",
+    "url": "https://courseware.stanford.edu/pg/courses/349991/cs155-spring-2013"
+  },
+  {
+    "name": "CS 161 Computer Security UC Berkeley \n\n\nIntroduction to computer security. Cryptography, including encryption, authentication, hash functions, cryptographic protocols, and applications. Operating system security, access control. Network security, firewalls, viruses, and worms. Software security, defensive programming, and language-based security. Case studies from real-world systems.\n",
+    "url": "http://www-inst.eecs.berkeley.edu/%7Ecs161/sp15/"
+  },
+  {
+    "name": "CS 259 Security Modeling and Analysis Stanford   \n\n\nThe course will cover a variety of contemporary network protocols and other systems with security properties. The course goal is to give students hands-on experience in using automated tools and related techniques to analyze and evaluate security mechanisms. To understand security properties and requirements, we will look at several network protocols and their properties, including secrecy, authentication, key establishment, and fairness. In parallel, the course will look at several models and tools used in security analysis and examine their advantages and limitations. In addition to fully automated finite-state model checking techniques, we will also study other approaches, such as constraint solving, process algebras, protocol logics, probabilistic model checking, game theory, and executable models based on logic programming.\n",
+    "url": "https://courseware.stanford.edu/pg/courses/331628/cs259-winter-2013"
+  },
+  {
+    "name": "CS 261 Internet/Network Security UC Berkeley  \n\n\nThis class aims to provide a thorough grounding in network security suitable for those interested in conducting research in the area, as well as students more generally interested in either security or networking. We will also look at broader issues relating to Internet security for which networking plays a role.  Topics include: denial-of-service; capabilities; network intrusion detection; worms; forensics; scanning; traffic analysis / inferring activity; architecture; protocol issues; legality and ethics; web attacks; anonymity; honeypots; botnets; spam; the underground economy; research pitfalls. The course is taught with an emphasis on seminal papers rather than bleeding-edge for a given topic.\n",
+    "url": "http://www.icir.org/vern/cs261n-Sp14/"
+  },
+  {
+    "name": "CS 5430 System Security Cornell University   \n\n\nThis course discusses security for computers and networked information systems. We focus on abstractions, principles, and defenses for implementing military as well as commercial-grade secure systems.\nSyllabus\nLectures\nAssignments\n",
+    "url": "http://www.cs.cornell.edu/courses/CS5430/2013sp/"
+  },
+  {
+    "name": "Syllabus",
+    "url": "http://www.cs.cornell.edu/courses/CS5430/2013sp/01.intro.html"
+  },
+  {
+    "name": "Lectures",
+    "url": "http://www.cs.cornell.edu/courses/CS5430/2013sp/02.outline.html"
+  },
+  {
+    "name": "Assignments",
+    "url": "http://www.cs.cornell.edu/courses/CS5430/2013sp/"
+  },
+  {
+    "name": "CSCI 4968 Modern Binary Exploitation Rensselaer Polytechnic Institute \n\n\nThis repository contains the materials as developed and used by RPISEC to\nteach Modern Binary Exploitation at Rensselaer Polytechnic Institute in\nSpring 2015. This was a university course developed and run solely by students to teach\nskills in vulnerability research, reverse engineering, and binary exploitation.\nLectures Notes\nLabs\nProjects\n",
+    "url": "https://github.com/RPISEC/MBE"
+  },
+  {
+    "name": "This repository contains the materials as developed and used by RPISEC to\nteach Modern Binary Exploitation at Rensselaer Polytechnic Institute in\nSpring 2015. This was a university course developed and run solely by students to teach\nskills in vulnerability research, reverse engineering, and binary exploitation.",
+    "url": "http://rpis.ec"
+  },
+  {
+    "name": "Lectures Notes",
+    "url": "http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/"
+  },
+  {
+    "name": "Labs",
+    "url": "https://github.com/RPISEC/MBE/tree/master/src"
+  },
+  {
+    "name": "Projects",
+    "url": "https://github.com/RPISEC/MBE/tree/master/src"
+  },
+  {
+    "name": "CSCI 4976 Malware Analysis Rensselaer Polytechnic Institute \n\n\nThis repository contains the materials as developed and used by RPISEC to\nteach Malware Analysis at Rensselaer Polytechnic Institute in\nFall 2015. This was a university course developed and run soley by students, primarily using the\n",
+    "url": "https://github.com/RPISEC/Malware"
+  },
+  {
+    "name": "This repository contains the materials as developed and used by RPISEC to\nteach Malware Analysis at Rensselaer Polytechnic Institute in\nFall 2015. This was a university course developed and run soley by students, primarily using the",
+    "url": "http://rpis.ec"
+  },
+  {
+    "name": "EECS 588 Computer & Network Security University of Michigan  \n\n\nTaught by J. Alex Halderman who has analyzed the security of Electronic Voting Machines in the US and over seas.\nThis intensive research seminar covers foundational work and current topics in computer systems security.\nReadings\nPractical Malware Analysis\nbook by Michael Sikorski and Andrew Honig, to teach skills in reverse engineering, malicious behaviour, malware,\nand anti-analysis techniques.\nLectures Notes\nLabs\nProjects\n",
+    "url": "https://www.eecs.umich.edu/courses/eecs588/"
+  },
+  {
+    "name": "Taught by J. Alex Halderman who has analyzed the security of Electronic Voting Machines in the US and over seas.",
+    "url": "https://jhalderm.com/"
+  },
+  {
+    "name": "Readings\nPractical Malware Analysis\nbook by Michael Sikorski and Andrew Honig, to teach skills in reverse engineering, malicious behaviour, malware,\nand anti-analysis techniques.",
+    "url": "https://www.eecs.umich.edu/courses/eecs588/readings.html"
+  },
+  {
+    "name": "Lectures Notes",
+    "url": "https://github.com/RPISEC/Malware/tree/master/Lectures"
+  },
+  {
+    "name": "Labs",
+    "url": "https://github.com/RPISEC/Malware/tree/master/Labs"
+  },
+  {
+    "name": "Projects",
+    "url": "https://github.com/RPISEC/Malware/tree/master/Projects"
   },
   {
     "name": "6.857 Computer and Network Security MIT \n\n\nEmphasis on applied cryptography and may include: basic notion of systems security, cryptographic hash functions, symmetric cryptography (one-time pad, stream ciphers, block ciphers), cryptanalysis, secret-sharing, authentication codes, public-key cryptography (encryption, digital signatures), public-key attacks, web browser security, biometrics, electronic cash, viruses, electronic voting, Assignments include a group final project. Topics may vary year to year.\nLecture Notes\nReferences\n",
@@ -1814,128 +2060,8 @@
     "url": "http://css.csail.mit.edu/6.858/2014/projects.html"
   },
   {
-    "name": "CIS 4930 / CIS 5930 Offensive Computer Security Florida State University   \n\n\nCourse taught by W. Owen Redwood and Xiuwen Liu. It covers a wide range of computer security topics, starting from Secure C Coding and Reverse Engineering to Penetration Testing, Exploitation and Web Application Hacking, both from the defensive and the offensive point of view.\nLectures and Videos\nAssignments\n",
-    "url": "http://www.cs.fsu.edu/%7Eredwood/OffensiveComputerSecurity/"
-  },
-  {
-    "name": "Course taught by W. Owen Redwood and Xiuwen Liu. It covers a wide range of computer security topics, starting from Secure C Coding and Reverse Engineering to Penetration Testing, Exploitation and Web Application Hacking, both from the defensive and the offensive point of view.",
-    "url": "http://ww2.cs.fsu.edu/%7Eredwood/"
-  },
-  {
-    "name": "Lectures and Videos",
-    "url": "http://www.cs.fsu.edu/%7Eredwood/OffensiveComputerSecurity/lectures.html"
-  },
-  {
-    "name": "Assignments",
-    "url": "http://www.cs.fsu.edu/%7Eredwood/OffensiveComputerSecurity/assignments.html"
-  },
-  {
-    "name": "CS 5430 System Security Cornell University   \n\n\nThis course discusses security for computers and networked information systems. We focus on abstractions, principles, and defenses for implementing military as well as commercial-grade secure systems.\nSyllabus\nLectures\nAssignments\n",
-    "url": "http://www.cs.cornell.edu/courses/CS5430/2013sp/"
-  },
-  {
-    "name": "Syllabus",
-    "url": "http://www.cs.cornell.edu/courses/CS5430/2013sp/01.intro.html"
-  },
-  {
-    "name": "Lectures",
-    "url": "http://www.cs.cornell.edu/courses/CS5430/2013sp/02.outline.html"
-  },
-  {
-    "name": "Assignments",
-    "url": "http://www.cs.cornell.edu/courses/CS5430/2013sp/"
-  },
-  {
-    "name": "CS 161 Computer Security UC Berkeley \n\n\nIntroduction to computer security. Cryptography, including encryption, authentication, hash functions, cryptographic protocols, and applications. Operating system security, access control. Network security, firewalls, viruses, and worms. Software security, defensive programming, and language-based security. Case studies from real-world systems.\n",
-    "url": "http://www-inst.eecs.berkeley.edu/%7Ecs161/sp15/"
-  },
-  {
-    "name": "CS 261 Internet/Network Security UC Berkeley  \n\n\nThis class aims to provide a thorough grounding in network security suitable for those interested in conducting research in the area, as well as students more generally interested in either security or networking. We will also look at broader issues relating to Internet security for which networking plays a role.  Topics include: denial-of-service; capabilities; network intrusion detection; worms; forensics; scanning; traffic analysis / inferring activity; architecture; protocol issues; legality and ethics; web attacks; anonymity; honeypots; botnets; spam; the underground economy; research pitfalls. The course is taught with an emphasis on seminal papers rather than bleeding-edge for a given topic.\n",
-    "url": "http://www.icir.org/vern/cs261n-Sp14/"
-  },
-  {
-    "name": "CS 155 Computer and Network Security Stanford  \n\n\nPrinciples of computer systems security. Attack techniques and how to defend against them. Topics include: network attacks and defenses, operating system holes, application security (web, email, databases), viruses, social engineering attacks, privacy, and digital rights management. Course projects focus on building reliable code. Recommended: Basic Unix. Primarily intended for seniors and first-year graduate students.\n",
-    "url": "https://courseware.stanford.edu/pg/courses/349991/cs155-spring-2013"
-  },
-  {
     "name": "18-636 Browser Security Stanford  \n\n\nThe Web continues to grow in popularity as platform for retail transactions, financial services, and rapidly evolving forms of communication. It is becoming an increasingly attractive target for attackers who wish to compromise users' systems or steal data from other sites. Browser vendors must stay ahead of these attacks by providing features that support secure web applications. This course will study vulnerabilities in existing web browsers and the applications they render, as well as new technologies that enable web applications that were never before possible. The material will be largely based on current research problems, and students will be expected to criticize and improve existing defenses. Topics of study include (but are not limited to) browser encryption, JavaScript security, plug-in security, sandboxing, web mashups, and authentication.\n",
     "url": "https://courseware.stanford.edu/pg/courses/334553/18636-spring-2013"
-  },
-  {
-    "name": "CS 259 Security Modeling and Analysis Stanford   \n\n\nThe course will cover a variety of contemporary network protocols and other systems with security properties. The course goal is to give students hands-on experience in using automated tools and related techniques to analyze and evaluate security mechanisms. To understand security properties and requirements, we will look at several network protocols and their properties, including secrecy, authentication, key establishment, and fairness. In parallel, the course will look at several models and tools used in security analysis and examine their advantages and limitations. In addition to fully automated finite-state model checking techniques, we will also study other approaches, such as constraint solving, process algebras, protocol logics, probabilistic model checking, game theory, and executable models based on logic programming.\n",
-    "url": "https://courseware.stanford.edu/pg/courses/331628/cs259-winter-2013"
-  },
-  {
-    "name": "CSCI 4976 Modern Binary Exploitation Rensselaer Polytechnic Institute \n\n\nThis repository contains the materials as developed and used by RPISEC to\nteach Modern Binary Exploitation at Rensselaer Polytechnic Institute in\nSpring 2015. This was a university course developed and run solely by students to teach\nskills in vulnerability research, reverse engineering, and binary exploitation.\nLectures Notes\nLabs\nProjects\n",
-    "url": "https://github.com/RPISEC/MBE"
-  },
-  {
-    "name": "This repository contains the materials as developed and used by RPISEC to\nteach Modern Binary Exploitation at Rensselaer Polytechnic Institute in\nSpring 2015. This was a university course developed and run solely by students to teach\nskills in vulnerability research, reverse engineering, and binary exploitation.",
-    "url": "http://rpis.ec"
-  },
-  {
-    "name": "Lectures Notes",
-    "url": "http://security.cs.rpi.edu/courses/binexp-spring2015/lectures/"
-  },
-  {
-    "name": "Labs",
-    "url": "https://github.com/RPISEC/MBE/tree/master/src"
-  },
-  {
-    "name": "Projects",
-    "url": "https://github.com/RPISEC/MBE/tree/master/src"
-  },
-  {
-    "name": "CSCI 4976 Malware Analysis Rensselaer Polytechnic Institute \n\n\nThis repository contains the materials as developed and used by RPISEC to\nteach Malware Analysis at Rensselaer Polytechnic Institute in\nFall 2015. This was a university course developed and run soley by students, primarily using the\nPractical Malware Analysis\nbook by Michael Sikorski and Andrew Honig, to teach skills in reverse engineering, malicious behaviour, malware,\nand anti-analysis techniques.\nLectures Notes\nLabs\nProjects\n",
-    "url": "https://github.com/RPISEC/Malware"
-  },
-  {
-    "name": "This repository contains the materials as developed and used by RPISEC to\nteach Malware Analysis at Rensselaer Polytechnic Institute in\nFall 2015. This was a university course developed and run soley by students, primarily using the\nPractical Malware Analysis\nbook by Michael Sikorski and Andrew Honig, to teach skills in reverse engineering, malicious behaviour, malware,\nand anti-analysis techniques.",
-    "url": "http://rpis.ec"
-  },
-  {
-    "name": "Lectures Notes",
-    "url": "https://github.com/RPISEC/Malware/tree/master/Lectures"
-  },
-  {
-    "name": "Labs",
-    "url": "https://github.com/RPISEC/Malware/tree/master/Labs"
-  },
-  {
-    "name": "Projects",
-    "url": "https://github.com/RPISEC/Malware/tree/master/Projects"
-  },
-  {
-    "name": "EECS 588 Computer & Network Security University of Michigan  \n\n\nTaught by J. Alex Halderman who has analyzed the security of Electronic Voting Machines in the US and over seas.\nThis intensive research seminar covers foundational work and current topics in computer systems security.\nReadings\n",
-    "url": "https://www.eecs.umich.edu/courses/eecs588/"
-  },
-  {
-    "name": "Taught by J. Alex Halderman who has analyzed the security of Electronic Voting Machines in the US and over seas.",
-    "url": "https://jhalderm.com/"
-  },
-  {
-    "name": "Readings",
-    "url": "https://www.eecs.umich.edu/courses/eecs588/readings.html"
-  },
-  {
-    "name": "6.868J The Society of Mind MIT    \n\n\nThis course is an introduction, by Prof. Marvin Minsky, to the theory that tries to explain how minds are made from collections of simpler processes. It treats such aspects of thinking as vision, language, learning, reasoning, memory, consciousness, ideals, emotions, and personality. It incorporates ideas from psychology, artificial intelligence, and computer science to resolve theoretical issues such as wholes vs. parts, structural vs. functional descriptions, declarative vs. procedural representations, symbolic vs. connectionist models, and logical vs. common-sense theories of learning.\nLectures\nAssignments\nReadings\n",
-    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/index.htm"
-  },
-  {
-    "name": "This course is an introduction, by Prof. Marvin Minsky, to the theory that tries to explain how minds are made from collections of simpler processes. It treats such aspects of thinking as vision, language, learning, reasoning, memory, consciousness, ideals, emotions, and personality. It incorporates ideas from psychology, artificial intelligence, and computer science to resolve theoretical issues such as wholes vs. parts, structural vs. functional descriptions, declarative vs. procedural representations, symbolic vs. connectionist models, and logical vs. common-sense theories of learning.",
-    "url": "http://www.nytimes.com/2016/01/26/business/marvin-minsky-pioneer-in-artificial-intelligence-dies-at-88.html?_r=0"
-  },
-  {
-    "name": "Lectures",
-    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/video-lectures/"
-  },
-  {
-    "name": "Assignments",
-    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/assignments/"
-  },
-  {
-    "name": "Readings",
-    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/readings/"
   },
   {
     "name": "CS 188 Introduction to Artificial Intelligence UC Berkeley   \n\n\nThis course will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision-theoretic modeling paradigm. By the end of this course, you will have built autonomous agents that efficiently make decisions in fully informed, partially observable and adversarial settings. Your agents will draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in this course apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.\nLectures\nProjects\nExams\n",
@@ -1982,20 +2108,24 @@
     "url": "http://www.cs.cornell.edu/courses/CS6700/2013sp/"
   },
   {
-    "name": "CS L333 Introduction to Artificial Intelligence IIT Delhi   \n\n\nIntroduction to Artificial Intelligence- Problem Solving, Game Playing, Knowledge Representation, Handling uncertainty using probabilistic models and Fuzzy Logic. Expert systems and Intelligent agents. Machine Learning, Soft computing and NLP.\nLectures\nAssignments\nReadings\n",
-    "url": "http://www.cse.iitd.ernet.in/%7Esaroj/AI/ai2013/ai_main_13.htm"
+    "name": "6.868J The Society of Mind MIT    \n\n\nThis course is an introduction, by Prof. Marvin Minsky, to the theory that tries to explain how minds are made from collections of simpler processes. It treats such aspects of thinking as vision, language, learning, reasoning, memory, consciousness, ideals, emotions, and personality. It incorporates ideas from psychology, artificial intelligence, and computer science to resolve theoretical issues such as wholes vs. parts, structural vs. functional descriptions, declarative vs. procedural representations, symbolic vs. connectionist models, and logical vs. common-sense theories of learning.\nLectures\nAssignments\nReadings\n",
+    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/index.htm"
+  },
+  {
+    "name": "This course is an introduction, by Prof. Marvin Minsky, to the theory that tries to explain how minds are made from collections of simpler processes. It treats such aspects of thinking as vision, language, learning, reasoning, memory, consciousness, ideals, emotions, and personality. It incorporates ideas from psychology, artificial intelligence, and computer science to resolve theoretical issues such as wholes vs. parts, structural vs. functional descriptions, declarative vs. procedural representations, symbolic vs. connectionist models, and logical vs. common-sense theories of learning.",
+    "url": "http://www.nytimes.com/2016/01/26/business/marvin-minsky-pioneer-in-artificial-intelligence-dies-at-88.html?_r=0"
   },
   {
     "name": "Lectures",
-    "url": "http://www.cse.iitd.ernet.in/%7Esaroj/AI/ai2013/ai_main_13.htm"
+    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/video-lectures/"
   },
   {
     "name": "Assignments",
-    "url": "http://www.cse.iitd.ernet.in/%7Esaroj/AI/ai2013/ai_main_13.htm"
+    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/assignments/"
   },
   {
     "name": "Readings",
-    "url": "http://www.cse.iitd.ernet.in/%7Esaroj/AI/ai2013/ai_main_13.htm#book"
+    "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-868j-the-society-of-mind-fall-2011/readings/"
   },
   {
     "name": "CAP 5415 Computer Vision University of Central Florida   \n\n\nAn introductory level course covering the basic topics of computer vision, and introducing some fundamental approaches for computer vision research.\nLectures and Videos\nAssignments\n",
@@ -2022,6 +2152,18 @@
     "url": "https://alliance.seas.upenn.edu/%7Ecis581/wiki/index.php?title=Projects"
   },
   {
+    "name": "CMU 462 Computer Graphics Carnegie Mellon University   \n\n\nThis course provides a comprehensive introduction to computer graphics. Focuses on fundamental concepts and techniques, and their cross-cutting relationship to multiple problem domains in graphics (rendering, animation, geometry, imaging). Topics include: sampling, aliasing, interpolation, rasterization, geometric transformations, parameterization, visibility, compositing, filtering, convolution, curves & surfaces, geometric data structures, subdivision, meshing, spatial hierarchies, ray tracing, radiometry, reflectance, light fields, geometric optics, Monte Carlo rendering, importance sampling, camera models, high-performance ray tracing, differential equations, time integration, numerical differentiation, physically-based animation, optimization, numerical linear algebra, inverse kinematics, Fourier methods, data fitting, example-based synthesis.\nLectures and Readings\nAssignments and Quizes\n",
+    "url": "http://15462.courses.cs.cmu.edu/fall2015"
+  },
+  {
+    "name": "Lectures and Readings",
+    "url": "http://15462.courses.cs.cmu.edu/fall2015/reading"
+  },
+  {
+    "name": "Assignments and Quizes",
+    "url": "http://15462.courses.cs.cmu.edu/fall2015/exercises"
+  },
+  {
     "name": "CS 378 3D Reconstruction with Computer Vision UTexas  \n\n\nIn this lab-based class, we'll dive into practical applications of 3D reconstruction, combining hardware and software to build our own 3D environments from scratch. We'll use open-source frameworks like OpenCV to do the heavy lifting, with the focus on understanding and applying state-of-the art approaches to geometric computer vision\nLectures\n",
     "url": "https://github.com/ut-cs378-vision-2014fall/course-info"
   },
@@ -2040,14 +2182,6 @@
   {
     "name": "Exams",
     "url": "http://www.cs.cornell.edu/Courses/CS4620/2014fa/index.shtml#exams"
-  },
-  {
-    "name": "CSCI-GA.2270-001 Graduate Computer Graphics New York University   \n\n\nStep-by-step study computer graphics, with reading and homework at each lecture (Fall2015)\nLectures\n",
-    "url": "https://mrl.nyu.edu/%7Eperlin/courses/fall2015/"
-  },
-  {
-    "name": "Lectures",
-    "url": "https://mrl.nyu.edu/%7Eperlin/courses/fall2015/"
   },
   {
     "name": "CS 4670 Introduction to Computer Vision Cornell University   \n\n\nThis course will provide an introduction to computer vision, with topics including image formation, feature detection, motion estimation, image mosaics, 3D shape reconstruction, and object and face detection and recognition. Applications of these techniques include building 3D maps, creating virtual characters, organizing photo and video databases, human computer interaction, video surveillance, automatic vehicle navigation, and mobile computer vision. This is a project-based course, in which you will implement several computer vision algorithms throughout the semester.\nAssignments\nLectures\n",
@@ -2078,8 +2212,16 @@
     "url": "https://canvas.instructure.com/courses/904706/assignments"
   },
   {
+    "name": "CSCI-GA.2270-001 Graduate Computer Graphics New York University   \n\n\nStep-by-step study computer graphics, with reading and homework at each lecture (Fall2015)\nLectures\n",
+    "url": "https://mrl.nyu.edu/%7Eperlin/courses/fall2015/"
+  },
+  {
+    "name": "Lectures",
+    "url": "https://mrl.nyu.edu/%7Eperlin/courses/fall2015/"
+  },
+  {
     "name": "AM 207 Monte Carlo Methods and Stochastic Optimization Harvard University   \n\n\nThis course introduces important principles of Monte Carlo techniques and demonstrates the power of these techniques with simple (but very useful) applications. All of this in Python!\nLecture Videos\nAssignments\nLecture Notes\n",
-    "url": "http://am207.org/"
+    "url": "http://am207.github.io/2016/index.html"
   },
   {
     "name": "Lecture Videos",
@@ -2087,11 +2229,11 @@
   },
   {
     "name": "Assignments",
-    "url": "http://am207.github.io/2015/homework.html"
+    "url": "http://am207.github.io/2016/homework.html"
   },
   {
     "name": "Lecture Notes",
-    "url": "http://am207.github.io/2015/lectures.html"
+    "url": "http://am207.github.io/2016/lectures.html"
   },
   {
     "name": "CS 75  Introduction to Game Development Tufts University  \n\n\nThe course taught by Ming Y. Chow teaches game development initially in PyGame through Python, before moving on to addressing all facets of game development. Topics addressed include game physics, sprites, animation, game development methodology, sound, testing, MMORPGs and online games, and addressing mobile development in Android, HTML5, and iOS. Most to all of the development is focused on PyGame for learning principles\nText Lectures\nAssignments\nLabs\n",
@@ -2128,6 +2270,10 @@
   {
     "name": "CS 108 Object Oriented System Design Stanford  \n\n\nSoftware design and construction in the context of large OOP libraries. Taught in Java. Topics: OOP design, design patterns, testing, graphical user interface (GUI) OOP libraries, software engineering strategies, approaches to programming in teams.\n",
     "url": "http://web.stanford.edu/class/cs108/"
+  },
+  {
+    "name": "CS 168 Computer Networks UC Berkeley  \n\n\nThis is an undergraduate level course covering the fundamental concepts of networking as embodied in the Internet. The course will cover a wide range of topics; see the lecture schedule for more details. While the class has a textbook, we will not follow its order of presentation but will instead use the text as a reference when covering each individual topic. The course will also have several projects that involve programming (in Python). \nYou should know programming, data structures, and software engineering. In terms of mathematics, your algebra should be very solid, you need to know basic probability, and you should be comfortable with thinking abstractly. The TAs will spend very little time reviewing material that is not specific to networking. We assume that you either know the material covered in those courses, or are willing to learn the material as necessary. We won't cover any of this material in lecture.\n",
+    "url": "https://inst.eecs.berkeley.edu/%7Ecs168/fa15/"
   },
   {
     "name": "CS 193a Android App Development, Spring 2016 Stanford University  \n\n\nCourse Description: This course provides an introduction to developing applications for the Android mobile platform.\nPrerequisite: CS 106B or equivalent. Java experience highly recommended. OOP highly recommmended.\nDevices: Access to an Android phone and/or tablet recommended but not required.\nVideos: Videos list can be found here\nOther materials: Some codes, handsout, homework ..... and lecture notes are not downloadable on the site due to login requirement. Please head to my Github repo here to download them.\n",
@@ -2171,6 +2317,22 @@
   {
     "name": "Assignments",
     "url": "http://see.stanford.edu/see/materials/aiircs223a/assignments.aspx"
+  },
+  {
+    "name": "CS 262a Advanced Topics in Computer Systems UC Berkeley  \n\n\nCS262a is the first semester of a year-long sequence on computer systems research, including operating systems, database systems, and Internet infrastructure systems.  The goal of the course is to cover a broad array of research topics in computer systems, and to engage you in top-flight systems research.  The first semester is devoted to basic thematic issues and underlying techniques in computer systems, while the second semester goes deeper into topics related to scalable, parallel and distributed systems.  The class is based on a discussion of important research papers and a research project.\nParts: Some Classics, Persistent Storage, Concurrency, Higher-Level Models, Virtual Machines, Cloud Computing, Parallel and Distributed Computing, Potpourri.\nPrerequisites: The historical prerequisite was to pass an entrance exam in class, which covered undergraduate operating systems material (similar to UCB's CS162). There is no longer an exam. However, if you have not already taken a decent undergrad OS class, you should talk with me before taking this class. The exam had the benefit of \"paging in\" the undergrad material, which may have been its primary value (since the pass rate was high).\nReadings & Lectures\n",
+    "url": "http://www.cs.berkeley.edu/%7Ebrewer/cs262/"
+  },
+  {
+    "name": "Prerequisites: The historical prerequisite was to pass an entrance exam in class, which covered undergraduate operating systems material (similar to UCB's CS162). There is no longer an exam. However, if you have not already taken a decent undergrad OS class, you should talk with me before taking this class. The exam had the benefit of \"paging in\" the undergrad material, which may have been its primary value (since the pass rate was high).",
+    "url": "https://cs162.eecs.berkeley.edu/"
+  },
+  {
+    "name": "Readings & Lectures",
+    "url": "http://www.cs.berkeley.edu/%7Ebrewer/cs262/"
+  },
+  {
+    "name": "CS 294 Cutting-edge Web Technologies Berkeley   \n\n\nWant to learn what makes future web technologies tick? Join us for the class where we will dive into the internals of many of the newest web technologies, analyze and dissect them. We will conduct survey lectures to provide the background and overview of the area as well as invite guest lecturers from various leading projects to present their technologies.\n",
+    "url": "http://inst.eecs.berkeley.edu/%7Ecs294-101/sp15/"
   },
   {
     "name": "CS 411 Software Architecture Design Bilkent University \n\n\nThis course teaches the basic concepts, methods and techniques for designing software architectures. The topics include: rationale for software architecture design, modeling software architecture design, architectural styles/patterns, architectural requirements analysis, comparison and evaluation of architecture design methods, synthesis-based software architecture design, software product-line architectures, domain modeling, domain engineering and application engineering, software architecture implementation, evaluating software architecture designs.\n",
@@ -2465,10 +2627,6 @@
     "url": "https://www.youtube.com/playlist?list=PL7A85FD7803A8CB1F"
   },
   {
-    "name": "CS294 Cutting-edge Web Technologies Berkeley   \n\n\nWant to learn what makes future web technologies tick? Join us for the class where we will dive into the internals of many of the newest web technologies, analyze and dissect them. We will conduct survey lectures to provide the background and overview of the area as well as invite guest lecturers from various leading projects to present their technologies.\n",
-    "url": "http://inst.eecs.berkeley.edu/%7Ecs294-101/sp15/"
-  },
-  {
     "name": "SCICOMP An Introduction to Efficient Scientific Computation Universität Bremen \n\n\nThis is a graduate course in scientific computing created and taught by Oliver Serang in 2014, which covers topics in computer science and statistics with applications from biology. The course is designed top-down, starting with a problem and then deriving a variety of solutions from scratch.\nTopics include memoization, recurrence closed forms, string matching (sorting, hash tables, radix tries, and suffix tries), dynamic programming (e.g. Smith-Waterman and Needleman-Wunsch), Bayesian statistics (e.g. the envelope paradox), graphical models (HMMs, Viterbi, junction tree, belief propagation), FFT, and the probabilistic convolution tree.\nLecture videos on Youtube and for direct download\n",
     "url": "http://mlecture.uni-bremen.de/ml/index.php?option=com_content&view=article&id=233"
   },
@@ -2484,21 +2642,5 @@
     "name": "14-740 Fundamentals of Computer Networks CMU    \n\n\nThis is an introductory course on Networking for graduate students. It follows a top-down approach to teaching Computer Networks, so it starts with the Application layer which most of the students are familiar with and as the course unravels we learn more about transport, network and link layers of the protocol stack.\nAs far as prerequisites are concerned",
     "url": "http://ini740.com/F15/",
     "description": "basic computer, programming and probability theory background is required."
-  },
-  {
-    "name": "CS 168 Computer Networks UC Berkeley  \n\n\nThis is an undergraduate level course covering the fundamental concepts of networking as embodied in the Internet. The course will cover a wide range of topics; see the lecture schedule for more details. While the class has a textbook, we will not follow its order of presentation but will instead use the text as a reference when covering each individual topic. The course will also have several projects that involve programming (in Python). \nYou should know programming, data structures, and software engineering. In terms of mathematics, your algebra should be very solid, you need to know basic probability, and you should be comfortable with thinking abstractly. The TAs will spend very little time reviewing material that is not specific to networking. We assume that you either know the material covered in those courses, or are willing to learn the material as necessary. We won't cover any of this material in lecture.\n",
-    "url": "https://inst.eecs.berkeley.edu/%7Ecs168/fa15/"
-  },
-  {
-    "name": "CS 262a Advanced Topics in Computer Systems UC Berkeley  \n\n\nCS262a is the first semester of a year-long sequence on computer systems research, including operating systems, database systems, and Internet infrastructure systems.  The goal of the course is to cover a broad array of research topics in computer systems, and to engage you in top-flight systems research.  The first semester is devoted to basic thematic issues and underlying techniques in computer systems, while the second semester goes deeper into topics related to scalable, parallel and distributed systems.  The class is based on a discussion of important research papers and a research project.\nParts: Some Classics, Persistent Storage, Concurrency, Higher-Level Models, Virtual Machines, Cloud Computing, Parallel and Distributed Computing, Potpourri.\nPrerequisites: The historical prerequisite was to pass an entrance exam in class, which covered undergraduate operating systems material (similar to UCB's CS162). There is no longer an exam. However, if you have not already taken a decent undergrad OS class, you should talk with me before taking this class. The exam had the benefit of \"paging in\" the undergrad material, which may have been its primary value (since the pass rate was high).\nReadings & Lectures\n",
-    "url": "http://www.cs.berkeley.edu/%7Ebrewer/cs262/"
-  },
-  {
-    "name": "Prerequisites: The historical prerequisite was to pass an entrance exam in class, which covered undergraduate operating systems material (similar to UCB's CS162). There is no longer an exam. However, if you have not already taken a decent undergrad OS class, you should talk with me before taking this class. The exam had the benefit of \"paging in\" the undergrad material, which may have been its primary value (since the pass rate was high).",
-    "url": "https://cs162.eecs.berkeley.edu/"
-  },
-  {
-    "name": "Readings & Lectures",
-    "url": "http://www.cs.berkeley.edu/%7Ebrewer/cs262/"
   }
 ]

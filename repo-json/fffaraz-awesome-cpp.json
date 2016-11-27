@@ -40,7 +40,7 @@
     "description": "Adobe Source Libraries provides peer-reviewed and portable C++ source libraries. [MIT]"
   },
   {
-    "name": "Boost ⚡",
+    "name": "Boost ⚡️",
     "url": "https://github.com/boostorg",
     "description": "A large collection of generic C++ libraries. [Boost] website"
   },
@@ -60,7 +60,7 @@
     "description": "A small, header-only library that backports to C++03 some of the nifty C++11 goodies. [MIT]"
   },
   {
-    "name": "Dlib ⚡",
+    "name": "Dlib ⚡️",
     "url": "http://dlib.net/",
     "description": "A general purpose cross-platform C++ library designed using contract programming and modern C++ techniques. [Boost]"
   },
@@ -115,7 +115,7 @@
     "description": "A cross platform open source toolkit for creative coding in C++. [MIT] website"
   },
   {
-    "name": "Qt ⚡",
+    "name": "Qt ⚡️",
     "url": "http://www.qt.io",
     "description": "A cross-platform application and UI framework. [GPL/LGPL/Commercial]"
   },
@@ -220,6 +220,11 @@
     "description": "An easy to use crossplatform audio engine and audio content creation tool for games. [Free for non-commercial/Commercial]"
   },
   {
+    "name": "KFR",
+    "url": "https://www.kfrlib.com/",
+    "description": "Fast, modern C++ DSP framework, FFT, FIR/IIR filters, Sample Rate Conversion. [GPL/Commercial]"
+  },
+  {
     "name": "Maximilian",
     "url": "https://github.com/micknoise/Maximilian",
     "description": "C++ Audio and Music DSP Library. [MIT]"
@@ -320,9 +325,19 @@
     "description": "A C library for writing text-based user interfaces. [BSD]"
   },
   {
+    "name": "Brotli",
+    "url": "https://github.com/google/brotli",
+    "description": "Brotli compression format. Developed by Google. [MIT]"
+  },
+  {
     "name": "bzip2",
     "url": "http://www.bzip.org/",
     "description": "A freely available, patent free, high-quality data compressor. [BSD]"
+  },
+  {
+    "name": "FiniteStateEntropy",
+    "url": "https://github.com/Cyan4973/FiniteStateEntropy",
+    "description": "New generation entropy codecs : Finite State Entropy and Huff0."
   },
   {
     "name": "PhysicsFS",
@@ -336,8 +351,13 @@
   },
   {
     "name": "LZ4",
-    "url": "https://code.google.com/p/lz4/",
+    "url": "https://github.com/Cyan4973/lz4",
     "description": "Extremely Fast Compression algorithm. [BSD]"
+  },
+  {
+    "name": "LZFSE",
+    "url": "https://github.com/lzfse/lzfse",
+    "description": "LZFSE compression library and command line tool. Developed by Apple."
   },
   {
     "name": "LZHAM",
@@ -345,7 +365,7 @@
     "description": "Lossless data compression library with a compression ratio similar to LZMA but with much faster decompression. [BSD]"
   },
   {
-    "name": "LZMA ⚡",
+    "name": "LZMA ⚡️",
     "url": "http://www.7-zip.org/sdk.html",
     "description": "The default and general compression method of 7z format. [PublicDomain]"
   },
@@ -371,7 +391,7 @@
   },
   {
     "name": "Snappy",
-    "url": "https://code.google.com/p/snappy/",
+    "url": "https://google.github.io/snappy/",
     "description": "A fast compressor/decompressor. [BSD]"
   },
   {
@@ -383,6 +403,11 @@
     "name": "zlib-ng",
     "url": "https://github.com/Dead2/zlib-ng",
     "description": "zlib for the \"next generation\" systems. Drop-In replacement with some serious optimizations. [zlib]"
+  },
+  {
+    "name": "zstd",
+    "url": "https://github.com/facebook/zstd",
+    "description": "Zstandard - Fast real-time compression algorithm. Developed by Facebook. [BSD]"
   },
   {
     "name": "ZZIPlib",
@@ -541,7 +566,7 @@
   {
     "name": "mbedTLS",
     "url": "https://github.com/ARMmbed/mbedtls",
-    "description": "Tiny crypto suite aimed at embedded development, previously known as PolarSSL. [Apache2]"
+    "description": "An open source, portable, easy to use, readable and flexible SSL library, previously known as PolarSSL. [Apache2] website"
   },
   {
     "name": "Nettle",
@@ -581,7 +606,7 @@
   {
     "name": "LevelDB",
     "url": "https://github.com/google/leveldb",
-    "description": "A fast key-value storage library. [BSD]"
+    "description": "A fast key-value storage library written at Google that provides an ordered mapping from string keys to string values. [BSD]"
   },
   {
     "name": "LMDB",
@@ -709,9 +734,9 @@
     "description": "Profiler with web-view for multiple platforms. [PublicDomain]"
   },
   {
-    "name": "minUnit",
-    "url": "http://www.jera.com/techinfo/jtns/jtn002.html",
-    "description": "A minimal unit testing framework for C written using only 2 macros. [PublicDomain]"
+    "name": "MinUnit",
+    "url": "https://github.com/siu/minunit",
+    "description": "A minimal unit testing framework for C/C++ self-contained in a single header file. [MIT]"
   },
   {
     "name": "Mockator",
@@ -889,7 +914,7 @@
     "description": "C++11 and OpenGL 2D/3D graphics engine. [MIT] website"
   },
   {
-    "name": "Ogre 3D ⚡",
+    "name": "Ogre 3D ⚡️",
     "url": "http://www.ogre3d.org/",
     "description": "A scene-oriented, real-time, flexible 3D rendering engine (as opposed to a game engine) written in C++. [MIT]"
   },
@@ -935,7 +960,7 @@
   },
   {
     "name": "CImg",
-    "url": "http://cimg.sourceforge.net/",
+    "url": "http://cimg.eu/",
     "description": "A small, open source, C++ toolkit for image processing. [Own LGPL or GPL]"
   },
   {
@@ -979,7 +1004,7 @@
     "description": "ImageMagick program interfaces for C. [Apache2]"
   },
   {
-    "name": "OpenCV ⚡",
+    "name": "OpenCV ⚡️",
     "url": "http://opencv.org/",
     "description": "Open source computer vision. [BSD]"
   },
@@ -1099,7 +1124,7 @@
     "description": "A very sane (header only) C++ JSON library. [BSD]"
   },
   {
-    "name": "json ⚡",
+    "name": "json ⚡️",
     "url": "https://github.com/nlohmann/json",
     "description": "JSON for Modern C++. [MIT]"
   },
@@ -1144,7 +1169,7 @@
     "description": "Lightweight JSON library. [?]"
   },
   {
-    "name": "LIBUCL ⚡",
+    "name": "LIBUCL ⚡️",
     "url": "https://github.com/vstakhov/libucl",
     "description": "Universal configuration library parser [?]"
   },
@@ -1164,7 +1189,7 @@
     "description": "A qt-based library that maps JSON data to QVariant objects. [LGPL2]"
   },
   {
-    "name": "RapidJSON ⚡",
+    "name": "RapidJSON ⚡️",
     "url": "https://github.com/miloyip/rapidjson",
     "description": "A fast JSON parser/generator for C++ with both SAX/DOM style API. [MIT]"
   },
@@ -1259,7 +1284,7 @@
     "description": "A scalable c++ machine learning library. [LGPLv3]"
   },
   {
-    "name": "OpenCV ⚡",
+    "name": "OpenCV ⚡️",
     "url": "https://github.com/Itseez/opencv",
     "description": "Open Source Computer Vision Library. [BSD] website"
   },
@@ -1290,7 +1315,7 @@
   },
   {
     "name": "blaze",
-    "url": "https://code.google.com/p/blaze-lib/",
+    "url": "https://bitbucket.org/blaze-lib/blaze",
     "description": "high-performance C++ math library for dense and sparse arithmetic. [BSD]"
   },
   {
@@ -1319,6 +1344,11 @@
     "description": "A high-level C++ library of template headers for linear algebra, matrix and vector operations, numerical solvers and related algorithms. [MPL2]"
   },
   {
+    "name": "ExprTK",
+    "url": "http://www.partow.net/programming/exprtk/",
+    "description": "The C++ Mathematical Expression Toolkit Library (ExprTk) is a simple to use, easy to integrate and extremely efficient run-time mathematical expression parser and evaluation engine. [CPL]"
+  },
+  {
     "name": "GLM",
     "url": "https://github.com/g-truc/glm",
     "description": "Header-only C++ math library that matches and inter-operates with OpenGL's GLSL math. [MIT]"
@@ -1339,6 +1369,11 @@
     "description": "A Multiprecision Integer and Rational Arithmetic Cryptographic Library. [AGPL]"
   },
   {
+    "name": "muparser",
+    "url": "http://beltoforion.de/article.php?a=muparser",
+    "description": "muParser is an extensible high performance math expression parser library written in C++. [MIT]"
+  },
+  {
     "name": "NT2",
     "url": "https://github.com/jfalcou/nt2",
     "description": "A SIMD-optimized numerical template library that provides an interface with MATLAB-like syntax. [Boost]"
@@ -1352,6 +1387,11 @@
     "name": "QuantLib",
     "url": "https://github.com/lballabio/quantlib",
     "description": "A free/open-source library for quantitative finance. [Modified BSD] website"
+  },
+  {
+    "name": "Vc",
+    "url": "https://github.com/VcDevel/Vc",
+    "description": "SIMD Vector Classes for C++. [BSD]"
   },
   {
     "name": "Versor",
@@ -1379,12 +1419,12 @@
     "description": "A multimedia playback framework based on Qt and FFmpeg to write a player easily. [LGPL] website"
   },
   {
-    "name": "SDL ⚡",
+    "name": "SDL ⚡️",
     "url": "http://www.libsdl.org/",
     "description": "Simple DirectMedia Layer. [zlib]"
   },
   {
-    "name": "SFML ⚡",
+    "name": "SFML ⚡️",
     "url": "https://github.com/SFML/SFML",
     "description": "Simple and Fast Multimedia Library. [zlib] website"
   },
@@ -1394,7 +1434,7 @@
     "description": "An OO Network Programming Toolkit in C++. [?MIT?]"
   },
   {
-    "name": "Boost.Asio ⚡",
+    "name": "Boost.Asio ⚡️",
     "url": "http://think-async.com/",
     "description": "A cross-platform C++ library for network and low-level I/O programming. [Boost]"
   },
@@ -1459,7 +1499,7 @@
     "description": "HTTP server library in C designed to be lightweight and easy to use. [Apache2/GPL2]"
   },
   {
-    "name": "POCO ⚡",
+    "name": "POCO ⚡️",
     "url": "https://github.com/pocoproject",
     "description": "C++ class libraries and frameworks for building network- and internet-based applications that run on desktop, server, mobile and embedded systems. [Boost] website"
   },
@@ -1848,7 +1888,7 @@
     "description": "A simple header file for developers to ban unsafe C/C++ functions from applications."
   },
   {
-    "name": "HTTP Parser ⚡",
+    "name": "HTTP Parser ⚡️",
     "url": "https://github.com/nodejs/http-parser",
     "description": "A http request/response parser for C. [MIT]"
   },
@@ -2183,7 +2223,7 @@
     "description": "An IDE for developing primarily with Java, but also with other languages, in particular PHP, C/C++, and HTML5."
   },
   {
-    "name": "Qt Creator ⚡",
+    "name": "Qt Creator ⚡️",
     "url": "http://www.qt.io/developers/",
     "description": "A cross-platform C++, JavaScript and QML IDE which is part of the SDK for Qt."
   },
@@ -2234,13 +2274,13 @@
   },
   {
     "name": "Ninja",
-    "url": "http://martine.github.io/ninja/",
+    "url": "https://ninja-build.org/",
     "description": "A small build system with a focus on speed."
   },
   {
     "name": "Scons",
     "url": "http://www.scons.org/",
-    "description": "A software construction tool configured with Python scipt."
+    "description": "A software construction tool configured with a Python script."
   },
   {
     "name": "Sconsolidator",
@@ -2260,7 +2300,7 @@
   {
     "name": "Premake",
     "url": "http://premake.github.io",
-    "description": "A tool configured with lua scipt to generate project files for Visual Studio, GNU Make, Xcode, Code::Blocks, and more across Windows, Mac OS X, and Linux."
+    "description": "A tool configured with a Lua script to generate project files for Visual Studio, GNU Make, Xcode, Code::Blocks, and more across Windows, Mac OS X, and Linux."
   },
   {
     "name": "Cppcheck",
@@ -2316,14 +2356,19 @@
     "url": "https://doc.qt.io/archives/qq/qq13-apis.html"
   },
   {
-    "name": "CppCon 2015 Speaker Materials",
-    "url": "https://github.com/CppCon/CppCon2015",
-    "description": "Speaker materials from CppCon 2015."
+    "name": "CppCon 2016 Presentation Materials",
+    "url": "https://github.com/CppCon/CppCon2016",
+    "description": "CppCon 2016 Presentation Materials."
   },
   {
-    "name": "CppCon 2014 Speaker Materials",
+    "name": "CppCon 2015 Presentation Materials",
+    "url": "https://github.com/CppCon/CppCon2015",
+    "description": "CppCon 2015 Presentation Materials."
+  },
+  {
+    "name": "CppCon 2014 Presentation Materials",
     "url": "https://github.com/CppCon/CppCon2014",
-    "description": "Speaker materials from CppCon 2014."
+    "description": "CppCon 2014 Presentation Materials."
   },
   {
     "name": "C++Now 2016 Presentations",
@@ -2401,7 +2446,7 @@
     "url": "http://llvm.org/docs/CodingStandards.html"
   },
   {
-    "name": "CppCon Talks ⚡",
+    "name": "CppCon Talks ⚡️",
     "url": "https://www.youtube.com/user/CppCon/videos",
     "description": "The C++ conference."
   },
@@ -2459,7 +2504,7 @@
     "description": "Boost Library, C++ Standard Library, Modern C++, Advanced C++, Advanced STL, ..."
   },
   {
-    "name": "Standard C++ ⚡",
+    "name": "Standard C++ ⚡️",
     "url": "https://isocpp.org/",
     "description": "News, Status & Discussion about Standard C++."
   },

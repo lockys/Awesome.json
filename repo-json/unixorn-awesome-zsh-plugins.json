@@ -19,11 +19,6 @@
     "description": "an exhaustive list of ZSH tips by Christian Schneider."
   },
   {
-    "name": "ZSH Tips by ZZapper",
-    "url": "http://www.rayninfo.co.uk/tips/zshtips.html",
-    "description": "ZZapper's list of tips."
-  },
-  {
     "name": "https://wiki.archlinux.org/index.php/zsh",
     "url": "https://wiki.archlinux.org/index.php/zsh",
     "description": "Arch Linux's ZSH introduction."
@@ -52,12 +47,8 @@
     "description": "Part of the 2011 ZSH Advent Calendar. Covers oh-my-zsh and zshuery."
   },
   {
-    "name": "Mark Nichols' Oh-My-Zsh tutorial",
-    "url": "http://zanshin.net/2011/08/12/oh-my-zsh/"
-  },
-  {
     "name": "A Beautifully Productive Terminal Experience",
-    "url": "http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/",
+    "url": "http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience",
     "description": "Mike Buss' blog post about using Prezto, Tmux & Tmuxinator."
   },
   {
@@ -93,7 +84,12 @@
   {
     "name": "almostontop",
     "url": "https://github.com/Valiev/almostontop",
-    "description": "Clears previous command output every time before new command executed in shell. Insipred by alwaysontop plugin for bash"
+    "description": "Clears previous command output every time before new command executed in shell. Inspired by alwaysontop plugin for bash"
+  },
+  {
+    "name": "ansible",
+    "url": "https://github.com/sparsick/ansible-zsh",
+    "description": "A plugin for Ansible"
   },
   {
     "name": "ansiweather",
@@ -121,6 +117,11 @@
     "description": "Adds aliases and functions for managing Apache2"
   },
   {
+    "name": "asciidoctor",
+    "url": "https://github.com/sparsick/asciidoctor-zsh",
+    "description": "A plugin for AsciiDoctor"
+  },
+  {
     "name": "atom_plugin.zsh",
     "url": "https://github.com/kingsj/atom_plugin.zsh",
     "description": "A plugin for the Atom editor on OS X"
@@ -134,6 +135,11 @@
     "name": "autoenv",
     "url": "https://github.com/horosgrisa/autoenv",
     "description": "Extended version of the zsh-autoenv plugin."
+  },
+  {
+    "name": "autojump",
+    "url": "https://github.com/wting/autojump",
+    "description": "A cd command that learns - easily navigate directories from the command line. Install autojump-zsh for best results."
   },
   {
     "name": "autoupdate-antigen.zshplugin",
@@ -325,6 +331,11 @@
     "description": "A zsh plugin for generating a GitHub short URL using git.io."
   },
   {
+    "name": "gitsync",
+    "url": "https://github.com/washtubs/gitsync",
+    "description": "zsh plugin to improve workflows for one person developing on the same repository on multiple machines"
+  },
+  {
     "name": "goenv",
     "url": "https://github.com/bbenne10/goenv",
     "description": "Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper."
@@ -343,6 +354,11 @@
     "name": "grep2awk",
     "url": "https://github.com/joepvd/grep2awk",
     "description": "ZLE widget to transform grep command into awk command."
+  },
+  {
+    "name": "gtm-terminal-plugin",
+    "url": "https://github.com/git-time-metric/gtm-terminal-plugin",
+    "description": "terminal plugin for git time metrics."
   },
   {
     "name": "hipchat",
@@ -410,6 +426,11 @@
     "description": "Allows searching for Sublime Text projects and opens them in Sublime."
   },
   {
+    "name": "lumberjack",
+    "url": "https://github.com/molovo/lumberjack",
+    "description": "Lumberjack is a logging interface for shell scripts"
+  },
+  {
     "name": "mac-packaging",
     "url": "https://github.com/Temikus/mac-packaging",
     "description": "A set of common functions used for enterprise Mac packaging with Munki"
@@ -448,6 +469,11 @@
     "name": "nodenv.plugin.zsh",
     "url": "https://github.com/jsahlen/nodenv.plugin.zsh",
     "description": "Auto-load nodenv and its completions into the shell."
+  },
+  {
+    "name": "nodeys",
+    "url": "https://github.com/marszall87/nodeys-zsh-theme",
+    "description": "Based on ys theme, with added NodeJS version (from NVM plugin)"
   },
   {
     "name": "noreallyjustfuckingstopalready",
@@ -515,6 +541,11 @@
     "description": "Parallels desktop plugin"
   },
   {
+    "name": "pctl",
+    "url": "https://github.com/ytet5uy4/pctl",
+    "description": "Toggle the environment variables for proxying"
+  },
+  {
     "name": "phpunit.plugin.zsh",
     "url": "https://github.com/voronkovich/phpunit.plugin.zsh",
     "description": "Plugin for PHPUnit"
@@ -533,6 +564,11 @@
     "name": "pretty-time-zsh",
     "url": "https://github.com/sindresorhus/pretty-time-zsh",
     "description": "Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s."
+  },
+  {
+    "name": "revolver",
+    "url": "https://github.com/molovo/revolver",
+    "description": "A progress spinner for ZSH scripts"
   },
   {
     "name": "robo-zsh-plugin",
@@ -652,7 +688,7 @@
   {
     "name": "wd",
     "url": "https://github.com/mfaerevaag/wd",
-    "description": "Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path."
+    "description": "Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems inefficient when the folder is frequently visited or has a long path."
   },
   {
     "name": "yeoman-zsh-plugin",
@@ -683,6 +719,11 @@
     "name": "zsh-256color",
     "url": "https://github.com/chrissicool/zsh-256color",
     "description": "Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available."
+  },
+  {
+    "name": "zsh-abbrev-alias",
+    "url": "https://github.com/momo-lab/zsh-abbrev-alias",
+    "description": "Provides functionality similar to Vim's abbreviation expansion."
   },
   {
     "name": "zsh-async",
@@ -725,6 +766,11 @@
     "description": "Jump back to a specific directory, without doing cd ../../.."
   },
   {
+    "name": "zsh-carthage",
+    "url": "https://github.com/cfdrake/zsh-carthage",
+    "description": "Provides completions and aliases for use with Carthage"
+  },
+  {
     "name": "zsh-cmd-architect",
     "url": "https://github.com/psprint/zsh-cmd-architect",
     "description": "build commands from what's in history and at prompt, move, delete, add command segments and search history with multi-word queries"
@@ -758,6 +804,16 @@
     "name": "zsh-editing-workbench",
     "url": "https://github.com/psprint/zsh-editing-workbench",
     "description": "Adds sane, complex command line editing (e.g. incremental history word completion)."
+  },
+  {
+    "name": "zsh-emojis",
+    "url": "https://github.com/MichaelAquilina/zsh-emojis",
+    "description": "Adds numerous ascii art emojis to your environment in convenient variables."
+  },
+  {
+    "name": "zsh-favorite-directories",
+    "url": "https://github.com/seletskiy/zsh-favorite-directories",
+    "description": "Fast jumps to your favorite directories"
   },
   {
     "name": "zsh-functional",
@@ -867,7 +923,7 @@
   {
     "name": "zsh-pg",
     "url": "https://github.com/caarlos0/zsh-pg",
-    "description": "Utility functions to work with PosgreSQL"
+    "description": "Adds utility functions to work with PosgreSQL"
   },
   {
     "name": "zsh-plugin-ibtool",
@@ -903,6 +959,11 @@
     "name": "zsh-suffix-alias",
     "url": "https://github.com/srijanshetty/zsh-suffix-alias",
     "description": "Directly open files in the shell using ZSH's suffix aliases."
+  },
+  {
+    "name": "zsh-syntax-highlighting-filetypes",
+    "url": "https://github.com/trapd00r/zsh-syntax-highlighting-filetypes",
+    "description": "zsh syntax highlighting with dircolors in realtime"
   },
   {
     "name": "zsh-syntax-highlighting",
@@ -1050,6 +1111,16 @@
     "description": "Adds autocompletion options for all Concourse CLI commands."
   },
   {
+    "name": "gcloud-zsh-completion",
+    "url": "https://github.com/littleq0903/gcloud-zsh-completion",
+    "description": "Add completions for the Google Cloud SDK"
+  },
+  {
+    "name": "gentoo-zsh-completions",
+    "url": "https://github.com/gentoo/gentoo-zsh-completions",
+    "description": "providing Zsh completion support to various Gentoo tools that lack completion scripts upstream."
+  },
+  {
     "name": "git-flow-completion",
     "url": "https://github.com/bobthecow/git-flow-completion",
     "description": "ZSH completion support for git-flow"
@@ -1075,9 +1146,19 @@
     "description": "Adds autocompletion for jumpstorm"
   },
   {
+    "name": "newman",
+    "url": "https://github.com/selop/newman-autocomplete",
+    "description": "provides autocompletion for the Newman CLI"
+  },
+  {
     "name": "nix-zsh-completions",
     "url": "https://github.com/spwhitt/nix-zsh-completions",
     "description": "Completions for nix, NixOS, and NixOps."
+  },
+  {
+    "name": "npm-run.plugin.zsh",
+    "url": "https://github.com/akoenig/npm-run.plugin.zsh",
+    "description": "Autocompletion support for npm run"
   },
   {
     "name": "octopress-zsh-completion",
@@ -1115,9 +1196,19 @@
     "description": "Add fast tab completion for rakefile targets"
   },
   {
+    "name": "ssh-agent",
+    "url": "https://github.com/hkupty/ssh-agent",
+    "description": "Automatically starts ssh-agent to set up and load whichever credentials you want for ssh connections."
+  },
+  {
     "name": "surf.plugin.zsh",
     "url": "https://github.com/markussom/surf.plugin.zsh",
     "description": "Add completions for surf"
+  },
+  {
+    "name": "test-kitchen-zsh-plugin",
+    "url": "https://github.com/pelletiermaxime/test-kitchen-zsh-plugin",
+    "description": "Add completions for Test Kitchen"
   },
   {
     "name": "tmux pane words",
@@ -1185,9 +1276,29 @@
     "description": "Completions for haxelib"
   },
   {
+    "name": "aaron-zsh-theme",
+    "url": "https://github.com/aaronjamesyoung/aaron-zsh-theme",
+    "description": "Based on the Sorin theme"
+  },
+  {
+    "name": "adlee",
+    "url": "https://github.com/adlee-was-taken/oh-my-zsh-osx/blob/master/adlee.zsh-theme",
+    "description": "OS X theme, requires Powerline font"
+  },
+  {
     "name": "af-magic-mod",
     "url": "https://raw.githubusercontent.com/desyncr/zshrc/master/themes/af-magic-mod.zsh-theme",
     "description": "af-magic-mod theme. Install with antigen theme desyncr/zshrc themes/af-magic-mod."
+  },
+  {
+    "name": "agnosterAfro",
+    "url": "https://github.com/afrozalm/agnosterAfro",
+    "description": "Based on Powerline and Agnoster Theme and inspired from agnosterzak"
+  },
+  {
+    "name": "agnosterzak",
+    "url": "https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme",
+    "description": "Based on Agnoster, shows battery life, date & time, git status, current directory and user & host information"
   },
   {
     "name": "alpharized",
@@ -1200,9 +1311,24 @@
     "description": "Shows git information in right hand prompt."
   },
   {
+    "name": "aplos",
+    "url": "https://github.com/nostophilia/aplos",
+    "description": "minimal ZSH prompt with working directory, Git local info, Git remote info, time and exit code."
+  },
+  {
+    "name": "avit-d2k",
+    "url": "https://github.com/fdaciuk/avit-da2k",
+    "description": "Based on Avit, with small changes."
+  },
+  {
     "name": "bashi",
     "url": "https://github.com/eli-oat/bashi",
     "description": "Optimized for Ahmet Sülek's Flat UI Terminal Theme and Pasquale D'Silva's Saturn Terminal Theme."
+  },
+  {
+    "name": "bklyn",
+    "url": "https://github.com/gporrata/bklyn-zsh",
+    "description": "Variant of Powerlevel9k with customizations applied."
   },
   {
     "name": "blinks-xfan",
@@ -1230,9 +1356,19 @@
     "description": "Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant."
   },
   {
+    "name": "bunnyruni",
+    "url": "https://github.com/jopcode/oh-my-zsh-bunnyruni-theme",
+    "description": "Simple, clean, and beautiful theme."
+  },
+  {
     "name": "bureau",
     "url": "https://github.com/isqua/bureau",
     "description": "A clear and informative two-lined prompt. Includes git status optimized for large repositories."
+  },
+  {
+    "name": "bureau-colorized",
+    "url": "https://github.com/CCheminaud/bureau-colorized",
+    "description": "Based on bureau.zsh-theme, for people who use Git and NVM."
   },
   {
     "name": "candy-light",
@@ -1250,6 +1386,21 @@
     "description": "A zsh theme optimized for iTerm users on OS X"
   },
   {
+    "name": "ciacho",
+    "url": "https://github.com/Ciacho/ciacho-ohmyzsh-theme",
+    "description": "Based on Agnoster"
+  },
+  {
+    "name": "classyTouch",
+    "url": "https://github.com/yarisgutierrez/classyTouch_oh-my-zsh",
+    "description": "Minimal, clean theme with git support"
+  },
+  {
+    "name": "clean",
+    "url": "https://github.com/akz92/clean",
+    "description": "Minimalist zsh theme"
+  },
+  {
     "name": "cobalt2",
     "url": "https://github.com/wesbos/Cobalt2-iterm",
     "description": "Wes Bos' Cobalt 2 theme for ZSH and iTerm 2."
@@ -1258,6 +1409,11 @@
     "name": "codemachine",
     "url": "https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine",
     "description": "Codemachine theme."
+  },
+  {
+    "name": "cordial",
+    "url": "https://github.com/stevelacy/cordial-zsh-theme",
+    "description": "Clean and effective zsh theme with git and npm support"
   },
   {
     "name": "cute-theme",
@@ -1275,6 +1431,16 @@
     "description": "A minimal Zsh prompt"
   },
   {
+    "name": "dexter",
+    "url": "https://github.com/shvenkat/zsh-theme-dexter",
+    "description": "A theme with an emphasis on the right side (hence the name) of the terminal."
+  },
+  {
+    "name": "dissonance",
+    "url": "https://github.com/RyanScottLewis/theme-dissonance-zsh",
+    "description": "Comes with custom LSCOLORS and LS_COLORS settings files, works with both dark and light terminal themes"
+  },
+  {
     "name": "dracula",
     "url": "https://github.com/zenorocha/dracula-theme",
     "description": "A dark theme for Atom, Alfred, Chrome DevTools, iTerm, Sublime Text, Textmate, Terminal.app, Vim, Xcode, Zsh."
@@ -1283,6 +1449,21 @@
     "name": "excess",
     "url": "https://github.com/davydovanton/excess.zsh-theme",
     "description": "Simple zsh color theme."
+  },
+  {
+    "name": "feder",
+    "url": "https://github.com/samfeder/feder.zsh-theme/blob/master/feder.zsh-theme",
+    "description": "Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors"
+  },
+  {
+    "name": "filthy",
+    "url": "https://github.com/molovo/filthy",
+    "description": "A disgustingly clean ZSH prompt"
+  },
+  {
+    "name": "friendly-fiesta",
+    "url": "https://github.com/bruino/friendly-fiesta",
+    "description": "Fork of terminal-party theme"
   },
   {
     "name": "frisk-arrow",
@@ -1305,6 +1486,11 @@
     "description": "Fork of the Cloud oh-my-zsh theme. with different colors and emojis."
   },
   {
+    "name": "garrett",
+    "url": "https://github.com/chauncey-garrett/zsh-prompt-garrett",
+    "description": "Prezto prompt with the information you need the moment you need it"
+  },
+  {
     "name": "gawaine",
     "url": "https://github.com/nicolaracco/gawaine.zsh-theme",
     "description": "Nicola Racco's theme. Requires rvm & git plugins."
@@ -1312,7 +1498,7 @@
   {
     "name": "geometry",
     "url": "https://github.com/frmendes/geometry",
-    "description": "A minimal ZSH theme"
+    "description": "A minimal ZSH theme based on Avit and Pure that displays a lot of git information."
   },
   {
     "name": "girazz",
@@ -1345,6 +1531,16 @@
     "description": "A theme with git status and exit code of last command run embedded in the prompt. Related to powerlevel9k."
   },
   {
+    "name": "haribo",
+    "url": "https://github.com/haribo/omz-haribo-theme",
+    "description": "Simple git status + timestamp in prompt"
+  },
+  {
+    "name": "hedgehog",
+    "url": "https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157",
+    "description": "Simple, no-nonsense and clean, with support for git and return codes."
+  },
+  {
     "name": "honukai-iterm-zsh",
     "url": "https://github.com/oskarkrawczyk/honukai-iterm-zsh",
     "description": "Honukai theme and colors for oh-my-zsh and iTerm"
@@ -1355,9 +1551,24 @@
     "description": "A very minimal brown/red zsh theme."
   },
   {
+    "name": "hub",
+    "url": "https://gist.github.com/hub23/c226b1c77446e099f7684b0d21c6b22a",
+    "description": "Simple and clean, includes the return code of the last command executed"
+  },
+  {
     "name": "hyperzsh",
     "url": "https://github.com/tylerreckart/hyperzsh",
     "description": "Gives you a comprehensive overview of the branch you're working on and the status of your repository without cluttering your terminal."
+  },
+  {
+    "name": "iggy",
+    "url": "https://github.com/eugenk/zsh-prompt-iggy",
+    "description": "A super happy awesome Powerline-style, Git-aware prezto only theme."
+  },
+  {
+    "name": "igorsilva",
+    "url": "https://github.com/igor9silva/zsh-theme",
+    "description": "Shows current directory, customizable delimiter, current branch, git status"
   },
   {
     "name": "intheloop-powerline",
@@ -1400,6 +1611,11 @@
     "description": "A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications"
   },
   {
+    "name": "lambda-pure",
+    "url": "https://github.com/marszall87/lambda-pure",
+    "description": "A minimal zsh theme, based on Pure, with added NodeJS version"
+  },
+  {
     "name": "lime",
     "url": "https://github.com/yous/lime",
     "description": "Simple standalone Zsh theme."
@@ -1408,6 +1624,11 @@
     "name": "liquidprompt",
     "url": "https://github.com/nojhan/liquidprompt",
     "description": "A full-featured & carefully designed adaptive prompt for Bash & ZSH."
+  },
+  {
+    "name": "lone-star",
+    "url": "https://github.com/designfrontier/lonestar-zsh-theme/blob/master/lone-star.zsh-theme",
+    "description": "Texas-themed theme based on Sindre Sorhus' pure theme."
   },
   {
     "name": "magico",
@@ -1450,6 +1671,11 @@
     "description": "Provides useful information (in your prompt) about the repository that you are in. It currently works for Git and Mercurial, under zsh as well as bash"
   },
   {
+    "name": "muslim",
+    "url": "https://github.com/nksoff/muslim",
+    "description": "A simple minimal zsh prompt theme."
+  },
+  {
     "name": "nanofish",
     "url": "https://github.com/tweekmonster/nanofish",
     "description": "Adds fish-style directory prompt to nanotech theme."
@@ -1460,6 +1686,21 @@
     "description": "Based on af-magic."
   },
   {
+    "name": "nknu",
+    "url": "https://github.com/aanc/oh-my-zsh-nknu-theme",
+    "description": "A simple OMZ theme."
+  },
+  {
+    "name": "nodeys",
+    "url": "https://github.com/marszall87/nodeys-zsh-theme",
+    "description": "Based on ys theme, with added NodeJS version (from NVM plugin)"
+  },
+  {
+    "name": "nt9",
+    "url": "https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme",
+    "description": "Clean, distraction free and git focused development theme. Shows path relative to git root (or ~ when outside git repo), time since last commit, current SHA, branch and branch state."
+  },
+  {
     "name": "odin",
     "url": "https://github.com/tylerreckart/odin",
     "description": "Odin is a git-flavored zsh theme."
@@ -1468,6 +1709,11 @@
     "name": "oh-my-git",
     "url": "https://github.com/arialdomartini/oh-my-git",
     "description": "An opinionated prompt for bash and zsh."
+  },
+  {
+    "name": "oh-my-via",
+    "url": "https://github.com/badouralix/oh-my-via",
+    "description": "Theme for ZSH which mainly forks the historical theme used on VIA servers"
   },
   {
     "name": "oh-my-zsh-node-theme",
@@ -1489,14 +1735,34 @@
     "description": "Platypus is a simple and convenient theme for oh-my-zsh used by Frédéric de Villamil."
   },
   {
+    "name": "poncho",
+    "url": "https://github.com/RainyDayMedia/oh-my-zsh-poncho",
+    "description": "RDM's basic oh-my-zsh custom theme"
+  },
+  {
     "name": "powerlevel9k",
     "url": "https://github.com/bhilburn/powerlevel9k",
     "description": "A very flexible theme based on the well-known agnoster-theme with support for various VCS, AWS, rbenv, virtualenv, etc."
   },
   {
+    "name": "powerline",
+    "url": "https://github.com/syui/powerline.zsh",
+    "description": "A git aware powerline theme."
+  },
+  {
     "name": "powerline-cute",
     "url": "https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme",
     "description": "Based on bullet-train."
+  },
+  {
+    "name": "pre-theme",
+    "url": "https://github.com/leandromatos/pre-theme",
+    "description": "A collection of themes for Sublime Text, Terminal, iTerm2 and zsh."
+  },
+  {
+    "name": "predawn-shell",
+    "url": "https://github.com/jamiewilson/predawn-shell",
+    "description": "Theme for dark terminal themes"
   },
   {
     "name": "prezto-cloud-prompt",
@@ -1514,6 +1780,11 @@
     "description": "Powerline for prezto. Shows git information, RVM version."
   },
   {
+    "name": "punctual",
+    "url": "https://github.com/dannynimmo/punctual-zsh-theme",
+    "description": "Easily customizable, influenced by spaceship"
+  },
+  {
     "name": "pure",
     "url": "https://github.com/sindresorhus/pure",
     "description": "Pretty, minimal and fast ZSH prompt."
@@ -1524,18 +1795,54 @@
     "description": "Based on af-magic and posh-git."
   },
   {
+    "name": "radium",
+    "url": "https://github.com/dimitardimitrov/radium",
+    "description": "Designed for dark terminals, (works best with Solarized iTerm2 theme) (prezto)"
+  },
+  {
+    "name": "raincoat",
+    "url": "https://github.com/ginfuru/RainCoat",
+    "description": "A simple omz-compatible theme with a corresponding iTerm2 color scheme."
+  },
+  {
     "name": "remiii",
     "url": "https://github.com/Remiii/remiii.zsh-theme",
     "description": "Based on agnoster, optimized for solarized terminal themes."
   },
   {
-    "name": "rummik/zsh-theme Rummik's theme.",
-    "url": "https://github.com/rummik/zsh-theme"
+    "name": "rummik/zsh-theme",
+    "url": "https://github.com/rummik/zsh-theme",
+    "description": "Rummik's theme."
+  },
+  {
+    "name": "rzh",
+    "url": "https://github.com/patwhatev/rzh",
+    "description": "Theme with git states indicated by emojis."
+  },
+  {
+    "name": "schminitz",
+    "url": "https://gist.github.com/schminitz/9931af23bbb59e772eec",
+    "description": "Shows if Vim is running in the background when using :sh command"
   },
   {
     "name": "seeker",
     "url": "https://github.com/tonyseek/oh-my-zsh-seeker-theme",
     "description": "This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts."
+  },
+  {
+    "name": "sepshell",
+    "url": "https://github.com/sepehr/sepshell",
+    "description": "Clean and minimal zsh theme based on the old lost taybalt theme."
+  },
+  {
+    "name": "sfz",
+    "url": "https://github.com/mreinhardt/sfz-prompt.zsh",
+    "description": "an evolution of lean prompt which itself is a rewrite of pure."
+  },
+  {
+    "name": "shellder",
+    "url": "https://github.com/simnalamburt/shellder",
+    "description": "Minimal theme with git branch display. Requires a powerline font."
   },
   {
     "name": "sinon",
@@ -1578,6 +1885,11 @@
     "description": "Written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin."
   },
   {
+    "name": "staples",
+    "url": "https://github.com/dersam/staples",
+    "description": "based on bureau, displays user@host if connected through SSH"
+  },
+  {
     "name": "statusline",
     "url": "https://github.com/el1t/statusline",
     "description": "A responsive zsh theme that provides informational segments when you need them"
@@ -1598,6 +1910,11 @@
     "description": "A theme based on gallifrey."
   },
   {
+    "name": "trinity",
+    "url": "https://github.com/de-luca/Trinity",
+    "description": "A simple theme based on geometry"
+  },
+  {
     "name": "tvline",
     "url": "https://github.com/thvitt/tvline",
     "description": "Derived from agnoster's theme, adds powerline font enhancements."
@@ -1606,6 +1923,11 @@
     "name": "vinhnx",
     "url": "https://github.com/vinhnx/vinhnx.zsh-theme",
     "description": "Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme."
+  },
+  {
+    "name": "wang-iterm-zsh",
+    "url": "https://github.com/0532/wang-iterm-zsh",
+    "description": "based on the 0532 theme"
   },
   {
     "name": "wild-cherry",
@@ -1621,6 +1943,11 @@
     "name": "xxf",
     "url": "https://gist.github.com/xfanwu/18fd7c24360c68bab884",
     "description": "Shows Current commit shorten hash and message."
+  },
+  {
+    "name": "yairshefi",
+    "url": "https://github.com/yaireclipse/yairshefi-ohmyzsh-theme",
+    "description": "Minimal theme with line separated prompts"
   },
   {
     "name": "z4rr3t",
@@ -1643,19 +1970,24 @@
     "description": "Shows username, git information, machine name, current working directory"
   },
   {
+    "name": "zsh-blackrain",
+    "url": "https://github.com/ginfuru/zsh-blackrain",
+    "description": "git-aware theme"
+  },
+  {
     "name": "zsh-megaprompt",
     "url": "https://github.com/willghatch/zsh-megaprompt",
     "description": "A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character. Requires the hooks plugin."
   },
   {
-    "name": "zsh-prompt-iggy",
-    "url": "https://github.com/eugenk/zsh-prompt-iggy",
-    "description": "A super happy awesome Powerline-style, Git-aware prezto only theme."
-  },
-  {
     "name": "zsh-prompt-powerline",
     "url": "https://github.com/Valodim/zsh-prompt-powerline",
     "description": "A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background."
+  },
+  {
+    "name": "zsh-theme-nerdish",
+    "url": "https://github.com/nyarla/zsh-theme-nerdish",
+    "description": "prompt theme for zsh with Nerd Fonts"
   },
   {
     "name": "zsh2000",
@@ -1716,6 +2048,11 @@
     "name": "zshdb",
     "url": "https://github.com/rocky/zshdb",
     "description": "A ZSH debugger"
+  },
+  {
+    "name": "zunit",
+    "url": "https://github.com/molovo/zunit",
+    "description": "A powerful unit testing framework for ZSH"
   },
   {
     "name": "awesome-devenv",

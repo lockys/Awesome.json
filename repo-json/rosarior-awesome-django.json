@@ -31,17 +31,17 @@
   },
   {
     "name": "django-admin2",
-    "url": "https://github.com/pydanny/django-admin2/",
+    "url": "https://github.com/jazzband/django-admin2/",
     "description": "Extendable, adaptable rewrite of django.contrib.admin"
   },
   {
     "name": "django-flat-theme",
     "url": "https://github.com/elky/django-flat-theme",
-    "description": "A flat theme for Django admin interface. Modern, fresh, simple."
+    "description": "A flat theme for Django admin interface. Modern, fresh, simple. (merged into Django 1.9+)"
   },
   {
     "name": "django-fluent-dashboard",
-    "url": "https://github.com/edoburu/django-fluent-dashboard/",
+    "url": "https://github.com/django-fluent/django-fluent-dashboard",
     "description": "An improved django-admin-tools dashboard for Django projects"
   },
   {
@@ -57,7 +57,7 @@
   {
     "name": "django-jet",
     "url": "https://github.com/geex-arts/django-jet",
-    "description": "Mordern template admin interface with improved functionality."
+    "description": "Modern responsive template for the admin interface with improved functionality."
   },
   {
     "name": "django-material Material design for Django Forms and Admin. Template driven.",
@@ -79,7 +79,7 @@
   },
   {
     "name": "django-xadmin",
-    "url": "https://github.com/sshwsfc/django-xadmin/",
+    "url": "https://github.com/sshwsfc/xadmin/",
     "description": "Drop-in replacement of Django admin comes with lots of goodies, fully extensible with plugin support, pretty UI based on Twitter Bootstrap"
   },
   {
@@ -115,7 +115,7 @@
   {
     "name": "django-systemjs",
     "url": "https://github.com/sergei-maertens/django-systemjs",
-    "description": "Django SystemJS brings the Javascript of tomorrow to Django, today. (JSPM intergration in Django)"
+    "description": "Django SystemJS brings the Javascript of tomorrow to Django, today. (JSPM integration in Django)"
   },
   {
     "name": "django-webpack-loader",
@@ -257,6 +257,11 @@
     "description": "Johnny Cache is a caching framework for django applications."
   },
   {
+    "name": "diskcache",
+    "url": "http://www.grantjenks.com/docs/diskcache/",
+    "description": "Fast SQLite and file backed cache backend for Django."
+  },
+  {
     "name": "django-compat",
     "url": "https://github.com/arteria/django-compat",
     "description": "For- and backwards compatibility layer for the officially  supported Django versions."
@@ -298,7 +303,7 @@
   },
   {
     "name": "django-debug-toolbar",
-    "url": "https://github.com/django-debug-toolbar/django-debug-toolbar/",
+    "url": "https://github.com/jazzband/django-debug-toolbar/",
     "description": "A configurable set of panels that display various debug information about the current request/response."
   },
   {
@@ -368,7 +373,7 @@
   },
   {
     "name": "django-templated-email",
-    "url": "https://github.com/BradWhittington/django-templated-email",
+    "url": "https://github.com/vintasoftware/django-templated-email",
     "description": "Django module to easily send templated emails using django templates, or using a transactional mail provider (mailchimp, silverpop, etc.)"
   },
   {
@@ -432,6 +437,11 @@
     "description": "MAC Address model and form fields for Django."
   },
   {
+    "name": "django-money",
+    "url": "https://github.com/django-money/django-money",
+    "description": "A little Django app that uses py-moneyed to add support for Money fields in your models and forms."
+  },
+  {
     "name": "django-phonenumber-field",
     "url": "https://github.com/stefanfoulis/django-phonenumber-field/",
     "description": "A Django library which interfaces with python-phonenumbers to validate, pretty print and convert"
@@ -453,7 +463,7 @@
   },
   {
     "name": "django-versatileimagefield",
-    "url": "https://github.com/WGBH/django-versatileimagefield/",
+    "url": "https://github.com/respondcreate/django-versatileimagefield/",
     "description": "A drop-in replacement for django's ImageField that provides a flexible, intuitive and easily-extensible interface for quickly creating new images from the one assigned to the field."
   },
   {
@@ -483,7 +493,7 @@
   },
   {
     "name": "django-crispy-forms",
-    "url": "https://github.com/maraujop/django-crispy-forms/",
+    "url": "https://github.com/django-crispy-forms/django-crispy-forms/",
     "description": "The best way to have DRY Django forms. The app provides a tag and filter that lets you quickly render forms in a div format while providing an enormous amount of capability to configure and control the rendered HTML."
   },
   {
@@ -518,8 +528,13 @@
   },
   {
     "name": "django-versatileimagefield",
-    "url": "https://github.com/WGBH/django-versatileimagefield/",
+    "url": "https://github.com/respondcreate/django-versatileimagefield/",
     "description": "A drop-in replacement for django's ImageField that provides a flexible, intuitive and easily-extensible interface for quickly creating new images from the one assigned to the field."
+  },
+  {
+    "name": "django-import-export",
+    "url": "https://github.com/django-import-export/django-import-export",
+    "description": "Django application and library for importing and exporting data with admin integration."
   },
   {
     "name": "South",
@@ -562,7 +577,7 @@
   },
   {
     "name": "dj-stripe",
-    "url": "https://github.com/pydanny/dj-stripe/",
+    "url": "https://github.com/kavdev/dj-stripe/",
     "description": "Django + Stripe Made Easy."
   },
   {
@@ -642,7 +657,7 @@
   },
   {
     "name": "drfdocs",
-    "url": "https://github.com/ekonstantinidis/django-rest-framework-docs",
+    "url": "https://github.com/manosim/django-rest-framework-docs",
     "description": "Document Web APIs made with Django REST Framework"
   },
   {
@@ -677,7 +692,7 @@
   },
   {
     "name": "django-axes",
-    "url": "https://github.com/django-pci/django-axes/",
+    "url": "https://github.com/jazzband/django-axes/",
     "description": "is a very simple way for you to keep track of failed login attempts, both for the Django admin and for the rest of your site."
   },
   {
@@ -689,11 +704,6 @@
     "name": "django-password-session",
     "url": "https://github.com/atugushev/django-password-session/",
     "description": "Invalidate all active sessions after change password (not needed for Django 1.7+)."
-  },
-  {
-    "name": "django-secure",
-    "url": "https://github.com/carljm/django-secure/",
-    "description": "Helping you remember to do the stupid little things to improve your Django site's security."
   },
   {
     "name": "django-secure-auth",
@@ -867,7 +877,7 @@
   },
   {
     "name": "factory_boy",
-    "url": "https://github.com/rbarrois/factory_boy/",
+    "url": "https://github.com/FactoryBoy/factory_boy/",
     "description": "A test fixtures replacement for Python"
   },
   {
@@ -912,7 +922,7 @@
   },
   {
     "name": "django-versatileimagefield",
-    "url": "https://github.com/WGBH/django-versatileimagefield/",
+    "url": "https://github.com/respondcreate/django-versatileimagefield/",
     "description": "A drop-in replacement for django's ImageField that provides a flexible, intuitive and easily-extensible interface for quickly creating new images from the one assigned to the field."
   },
   {
@@ -942,7 +952,7 @@
   },
   {
     "name": "django-parler",
-    "url": "https://github.com/edoburu/django-parler",
+    "url": "https://github.com/django-parler/django-parler",
     "description": "Simple Django model translations without nasty hacks"
   },
   {
@@ -997,7 +1007,7 @@
   },
   {
     "name": "django-wysiwyg",
-    "url": "https://github.com/pydanny/django-wysiwyg/",
+    "url": "https://github.com/pydanny-archive/django-wysiwyg/",
     "description": "A Django application for making Django textareas rich text editors. Certainly as a template tag and possibly as a form widget."
   },
   {
@@ -1105,7 +1115,7 @@
   },
   {
     "name": "django-filter",
-    "url": "https://github.com/alex/django-filter/",
+    "url": "https://github.com/carltongibson/django-filter/",
     "description": "A generic system for filtering Django QuerySets based on user selections."
   },
   {
@@ -1180,7 +1190,7 @@
   },
   {
     "name": "django-sql-explorer",
-    "url": "https://github.com/epantry/django-sql-explorer/",
+    "url": "https://github.com/groveco/django-sql-explorer/",
     "description": "Easily share data via SQL queries, right from Django"
   },
   {
@@ -1246,7 +1256,7 @@
   {
     "name": "wagtail",
     "url": "https://github.com/torchbox/wagtail/",
-    "description": "A new Django content management system."
+    "description": "A Django content management system focused on flexibility and user experience."
   },
   {
     "name": "leonardo",
@@ -1255,7 +1265,7 @@
   },
   {
     "name": "mayan-edms",
-    "url": "https://github.com/mayan-edms/mayan-edms/",
+    "url": "https://gitlab.com/mayan-edms/mayan-edms",
     "description": "Open source, Django based DMS (document management system) with custom metadata indexing, file serving integration, OCR capabilities, document versioning and electronic signature verification."
   },
   {
@@ -1286,7 +1296,7 @@
   {
     "name": "Satchmo",
     "url": "https://bitbucket.org/chris1610/satchmo/src/",
-    "description": "Satchmo is an eCommerce framework creatde in Django which allows you to develop unique and robust online stores."
+    "description": "Satchmo is an eCommerce framework created in Django which allows you to develop unique and robust online stores."
   },
   {
     "name": "Django packages",
@@ -1332,7 +1342,7 @@
   },
   {
     "name": "Getting started with Django (video)",
-    "url": "http://gettingstartedwithdjango.com/"
+    "url": "http://www.gettingstartedwithdjango.com/"
   },
   {
     "name": "High Performance Django (1.7)",
@@ -1359,7 +1369,7 @@
   },
   {
     "name": "Django Girls Tutorial",
-    "url": "http://tutorial.djangogirls.org/",
+    "url": "https://tutorial.djangogirls.org/",
     "description": "A fun and engaging tutorial showing how to build a blog using Django and deploy it to Heroku."
   },
   {
@@ -1369,7 +1379,7 @@
   },
   {
     "name": "Django Packages",
-    "url": "https://www.djangopackages.com/",
+    "url": "https://djangopackages.org/",
     "description": "Django Packages is a directory of reusable apps, sites, tools, and more for your Django projects."
   },
   {
@@ -1379,7 +1389,7 @@
   },
   {
     "name": "Full Stack Python's Django page",
-    "url": "http://www.fullstackpython.com/django.html",
+    "url": "https://www.fullstackpython.com/django.html",
     "description": "contains explanations for Django's philosophy and its components along with links to other resources and tutorials."
   },
   {
@@ -1399,7 +1409,7 @@
   },
   {
     "name": "Django: Under The Hood",
-    "url": "http://www.djangounderthehood.com/",
+    "url": "https://www.djangounderthehood.com/",
     "description": "is an exciting new Django conference for experienced Django developers. Come and learn about the internals of Django, and help to shape its future."
   },
   {
@@ -1409,7 +1419,7 @@
   },
   {
     "name": "DjangoCon US",
-    "url": "http://www.djangocon.us/",
+    "url": "https://2016.djangocon.us/",
     "description": "is the largest North American Django conference generally held the first week in September each year."
   },
   {
@@ -1431,6 +1441,11 @@
     "name": "CodingforEntrepreneur",
     "url": "https://www.codingforentrepreneurs.com/projects/",
     "description": "One of the best collection of Django Videos and all the projects are written in Django."
+  },
+  {
+    "name": "Code School",
+    "url": "https://www.codeschool.com/courses/try-django",
+    "description": "Try Django - An introduction to the basics of Django. "
   },
   {
     "name": "GoDjango",
