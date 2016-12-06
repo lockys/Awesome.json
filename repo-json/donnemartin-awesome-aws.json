@@ -1922,6 +1922,11 @@
     "description": "Sample universal client/server routing and data in React."
   },
   {
+    "name": "snowplow/snowplow 🔥🔥🔥🔥🔥",
+    "url": "https://github.com/snowplow/snowplow",
+    "description": "Enterprise-strength web, mobile and event analytics, powered by Hadoop, Kafka, Kinesis, Redshift and Elasticsearch."
+  },
+  {
     "name": "Spinnaker/spinnaker 🔥🔥🔥🔥🔥",
     "url": "https://github.com/Spinnaker/spinnaker",
     "description": "Successor to asgard supporting pipelines and more."
@@ -2516,383 +2521,473 @@
     "description": "Entertaining and educational, a community contribution."
   },
   {
-    "name": "Amazon Elastic Compute Cloud (EC2)",
-    "url": "http://aws.amazon.com/ec2/",
-    "description": "Provides scalable virtual private servers using Xen."
-  },
-  {
-    "name": "Amazon EC2 Container Service (ECS)",
-    "url": "https://aws.amazon.com/ecs/",
-    "description": "Supports Docker containers on EC2 instances."
-  },
-  {
-    "name": "AWS Elastic Beanstalk",
-    "url": "https://aws.amazon.com/elasticbeanstalk/",
-    "description": "Provides quick deployment and management of applications in the cloud."
-  },
-  {
-    "name": "Amazon Lambda",
-    "url": "https://aws.amazon.com/lambda/",
-    "description": "Runs code in response to events and automatically manages EC2 instances."
-  },
-  {
     "name": "Auto Scaling",
     "url": "https://aws.amazon.com/autoscaling/",
     "description": "Launches or terminates EC2 instances based on policies, schedules, and health checks."
   },
   {
-    "name": "Amazon Elastic Load Balancing (ELB)",
+    "name": "Batch",
+    "url": "https://aws.amazon.com/batch/",
+    "description": "Run batch jobs at scale."
+  },
+  {
+    "name": "Blox",
+    "url": "https://blox.github.io/",
+    "description": "Open source projects for building custom schedulers on ECS."
+  },
+  {
+    "name": "EC2 Container Service (ECS)",
+    "url": "https://aws.amazon.com/ecs/",
+    "description": "Supports Docker containers on EC2 instances."
+  },
+  {
+    "name": "EC2 Systems Manager",
+    "url": "https://aws.amazon.com/ec2/systems-manager/",
+    "description": "Easily configure and manage EC2 and on-premises systems."
+  },
+  {
+    "name": "Elastic Beanstalk",
+    "url": "https://aws.amazon.com/elasticbeanstalk/",
+    "description": "Provides quick deployment and management of applications in the cloud."
+  },
+  {
+    "name": "Elastic Compute Cloud (EC2)",
+    "url": "http://aws.amazon.com/ec2/",
+    "description": "Provides scalable virtual private servers using Xen."
+  },
+  {
+    "name": "Elastic GPUs",
+    "url": "https://aws.amazon.com/ec2/Elastic-GPUs/",
+    "description": "Attach low-cost GPUs to EC2 instances for graphics acceleration."
+  },
+  {
+    "name": "Elastic Load Balancing (ELB)",
     "url": "https://aws.amazon.com/elasticloadbalancing/",
     "description": "Automatically distributes incoming traffic across multiple EC2 instances."
   },
   {
-    "name": "Amazon Virtual Private Cloud (VPC)",
+    "name": "Lambda",
+    "url": "https://aws.amazon.com/lambda/",
+    "description": "Runs code in response to events and automatically manages EC2 instances."
+  },
+  {
+    "name": "Lightsail",
+    "url": "https://amazonlightsail.com/",
+    "description": "Launch and manage simple virtual private servers."
+  },
+  {
+    "name": "Virtual Private Cloud (VPC)",
     "url": "https://aws.amazon.com/vpc/",
     "description": "Creates a logically isolated set of EC2 instances which can be connected to an existing network using a VPN connection."
   },
   {
-    "name": "AWS Direct Connect",
+    "name": "Direct Connect",
     "url": "https://aws.amazon.com/directconnect/",
     "description": "Provides dedicated connections to AWS for faster and cheaper data throughput."
   },
   {
-    "name": "Amazon Elastic Load Balancing (ELB)",
+    "name": "Elastic Load Balancing (ELB)",
     "url": "https://aws.amazon.com/elasticloadbalancing/",
     "description": "Automatically distributes incoming traffic across multiple EC2 instances."
   },
   {
-    "name": "Amazon Route 53",
+    "name": "Route 53",
     "url": "https://aws.amazon.com/route53/",
     "description": "Provides a highly available and scalable Domain Name System (DNS) web service."
   },
   {
-    "name": "Amazon Virtual Private Cloud (VPC)",
+    "name": "Virtual Private Cloud (VPC)",
     "url": "https://aws.amazon.com/vpc/",
     "description": "Creates a logically isolated set of EC2 instances which can be connected to an existing network using a VPN connection."
   },
   {
-    "name": "Amazon WorkSpaces",
-    "url": "https://aws.amazon.com/workspaces/",
-    "description": "Provides a cloud-based desktop experience to end-users."
-  },
-  {
-    "name": "Amazon Workspaces Application Manager (WAM)",
-    "url": "http://aws.amazon.com/workspaces/applicationmanager/",
-    "description": "Simplifies deployment and management of WorkSpaces."
-  },
-  {
-    "name": "Amazon WorkDocs",
+    "name": "WorkDocs",
     "url": "https://aws.amazon.com/workdocs/",
     "description": "Provides a fully managed, secure enterprise storage and sharing service."
   },
   {
-    "name": "Amazon WorkMail",
+    "name": "WorkMail",
     "url": "https://aws.amazon.com/workmail/",
     "description": "Provides managed email and calendaring service."
   },
   {
-    "name": "Amazon Elastic MapReduce (EMR)",
-    "url": "http://aws.amazon.com/elasticmapreduce/",
-    "description": "Hosts a Hadoop and Spark framework running on EC2 and S3."
+    "name": "WorkSpaces",
+    "url": "https://aws.amazon.com/workspaces/",
+    "description": "Provides a cloud-based desktop experience to end-users."
   },
   {
-    "name": "AWS Data Pipeline",
+    "name": "Workspaces Application Manager (WAM)",
+    "url": "http://aws.amazon.com/workspaces/applicationmanager/",
+    "description": "Simplifies deployment and management of WorkSpaces."
+  },
+  {
+    "name": "Athena",
+    "url": "https://aws.amazon.com/athena/",
+    "description": "Query data on S3 instantly."
+  },
+  {
+    "name": "Data Pipeline",
     "url": "https://aws.amazon.com/datapipeline/",
     "description": "Provides workload management by processing and moving data between services."
   },
   {
-    "name": "Amazon Elasticsearch Service (ES)",
+    "name": "Elastic MapReduce (EMR)",
+    "url": "http://aws.amazon.com/elasticmapreduce/",
+    "description": "Hosts a Hadoop and Spark framework running on EC2 and S3."
+  },
+  {
+    "name": "Elasticsearch Service (ES)",
     "url": "https://aws.amazon.com/elasticsearch-service/",
     "description": "Managed Elasticsearch, a popular open-source search and analytics engine."
   },
   {
-    "name": "Amazon Kinesis",
+    "name": "Glue",
+    "url": "https://aws.amazon.com/glue/",
+    "description": "Prepare and load data to data stores."
+  },
+  {
+    "name": "Kinesis",
     "url": "https://aws.amazon.com/kinesis/",
     "description": "Provides real-time data processing over large, distributed data streams."
   },
   {
-    "name": "Amazon Kinesis Firehose",
+    "name": "Kinesis Analytics",
+    "url": "https://aws.amazon.com/kinesis/analytics/",
+    "description": "Write standard SQL queries on streaming data without having to learn any new programming skills."
+  },
+  {
+    "name": "Kinesis Firehose",
     "url": "https://aws.amazon.com/kinesis/firehose/",
     "description": "Captures and automatically loads streaming data into S3 and Redshift."
   },
   {
-    "name": "Amazon Machine Learning",
-    "url": "https://aws.amazon.com/machine-learning/",
-    "description": "Provides managed machine learning technology."
-  },
-  {
-    "name": "Amazon Redshift",
-    "url": "https://aws.amazon.com/redshift/",
-    "description": "Provides petabyte-scale data warehousing with columnar storage and multi-node compute."
-  },
-  {
-    "name": "Amazon Quicksight",
+    "name": "Quicksight",
     "url": "https://aws.amazon.com/quicksight/",
     "description": "Provides cloud-powered business intelligence for 1/10th the cost of traditional BI solutions."
   },
   {
-    "name": "Amazon CloudWatch",
-    "url": "https://aws.amazon.com/cloudwatch/",
-    "description": "Provides monitoring for AWS cloud resources and applications, starting with EC2."
-  },
-  {
-    "name": "Amazon CloudFormation",
-    "url": "https://aws.amazon.com/cloudformation/",
-    "description": "Provides a file-based interface for provisioning other resources."
-  },
-  {
-    "name": "AWS CloudTrail",
-    "url": "https://aws.amazon.com/cloudtrail/",
-    "description": "Provides logs of all activity."
-  },
-  {
-    "name": "AWS Command Line Interface (CLI)",
-    "url": "https://aws.amazon.com/cli/",
-    "description": "Provides a CLI to manage all services."
-  },
-  {
-    "name": "AWS Config",
-    "url": "https://aws.amazon.com/config/",
-    "description": "Provides a detailed view of all resources."
-  },
-  {
-    "name": "AWS Management Console (AWS Console)",
-    "url": "https://aws.amazon.com/console/",
-    "description": "A web-based interface to manage all services."
-  },
-  {
-    "name": "AWS OpsWorks",
-    "url": "https://aws.amazon.com/opsworks/",
-    "description": "Provides configuration of EC2 services using Chef."
-  },
-  {
-    "name": "AWS Service Catalog",
-    "url": "https://aws.amazon.com/servicecatalog/",
-    "description": "AWS Service Catalog allows IT administrators to create, manage, and distribute portfolios of approved products to end users, who can then access the products they need in a personalized portal."
-  },
-  {
-    "name": "Amazon Identity and Access Management (IAM)",
-    "url": "https://aws.amazon.com/iam/",
-    "description": "An implicit service, the authentication infrastructure used to authenticate access to the various services."
-  },
-  {
-    "name": "AWS Directory Service",
-    "url": "https://aws.amazon.com/directoryservice/",
-    "description": "A managed service that allows you to connect your AWS resources with an existing on-premises Microsoft Active Directory or to set up a new, stand-alone directory in the AWS Cloud."
-  },
-  {
-    "name": "Amazon Inspector",
-    "url": "https://aws.amazon.com/inspector/",
-    "description": "An automated security assessment service that helps improve the security and compliance of applications deployed on AWS."
-  },
-  {
-    "name": "Amazon CloudHSM",
-    "url": "https://aws.amazon.com/cloudhsm/",
-    "description": "Helps meet corporate, contractual and regulatory compliance requirements for data security by using dedicated Hardware Security Module (HSM) appliances within the AWS cloud."
-  },
-  {
-    "name": "AWS Key Management Service (KMS)",
-    "url": "https://aws.amazon.com/kms/",
-    "description": "A managed service that makes it easy for you to create and control the encryption keys used to encrypt your data."
-  },
-  {
-    "name": "AWS WAF",
-    "url": "https://aws.amazon.com/waf/",
-    "description": "A web application firewall service that monitors and manages CloudFront distributions."
-  },
-  {
-    "name": "Trusted Advisor",
-    "url": "https://aws.amazon.com/documentation/aws-support/",
-    "description": "Helps you observe best practices by inspecting your environment for saving costs, improving system performance and reliability, and closing security gaps."
-  },
-  {
-    "name": "AWS IoT",
-    "url": "https://aws.amazon.com/iot/",
-    "description": "Enables secure, bi-directional communication between internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the AWS cloud over MQTT and HTTP."
-  },
-  {
-    "name": "AWS Mobile Hub",
-    "url": "https://aws.amazon.com/mobile/",
-    "description": "Provides an integrated console that helps you build, test, and monitor your mobile apps."
-  },
-  {
-    "name": "Amazon API Gateway",
-    "url": "https://aws.amazon.com/api-gateway/",
-    "description": "Service for publishing, maintaining and securing web service APIs."
-  },
-  {
-    "name": "Amazon Cognito",
-    "url": "https://aws.amazon.com/cognito/",
-    "description": "Provides user identity and data synchronization."
-  },
-  {
-    "name": "AWS Device Farm",
-    "url": "https://aws.amazon.com/device-farm/",
-    "description": "App testing service for iOS, Android and Fire OS apps on physical devices."
-  },
-  {
-    "name": "Amazon Mobile Analytics",
-    "url": "https://aws.amazon.com/mobileanalytics/",
-    "description": "Service for collecting, visualizing, and understanding app usage data."
-  },
-  {
-    "name": "Amazon Simple Notification Service (SNS)",
-    "url": "https://aws.amazon.com/sns/",
-    "description": "Provides a hosted multi-protocol \"push\" messaging for applications."
-  },
-  {
-    "name": "Amazon Simple Storage Service (S3)",
-    "url": "https://aws.amazon.com/s3/",
-    "description": "Provides Web Service based storage."
-  },
-  {
-    "name": "Amazon CloudFront",
-    "url": "https://aws.amazon.com/cloudfront/",
-    "description": "A content delivery network (CDN) for distributing objects to locations near the requester."
-  },
-  {
-    "name": "Amazon Elastic Block Store (EBS)",
-    "url": "https://aws.amazon.com/ebs/",
-    "description": "Provides persistent block-level storage volumes for EC2."
-  },
-  {
-    "name": "Amazon Elastic File System (EFS)",
-    "url": "https://aws.amazon.com/efs/",
-    "description": "A file storage service for EC2 instances."
-  },
-  {
-    "name": "Amazon Glacier",
-    "url": "https://aws.amazon.com/glacier/",
-    "description": "Provides a low-cost, long-term storage option, intended for archiving data."
-  },
-  {
-    "name": "AWS Import/Export",
-    "url": "https://aws.amazon.com/importexport/",
-    "description": "Accelerates moving large amounts of data into and out of AWS using portable storage devices for transport."
-  },
-  {
-    "name": "AWS Storage Gateway",
-    "url": "https://aws.amazon.com/storagegateway/",
-    "description": "An iSCSI block storage virtual appliance with cloud-based backup."
-  },
-  {
-    "name": "Amazon Relational Database Service (RDS)",
-    "url": "https://aws.amazon.com/rds/",
-    "description": "Provides a scalable database server with MySQL, Oracle, SQL Server, PostgreSQL, and MariaDB support."
-  },
-  {
-    "name": "AWS Schema Conversion Tool",
-    "url": "https://aws.amazon.com/documentation/SchemaConversionTool/",
-    "description": "App that helps you convert your database schema from an Oracle or Microsoft SQL Server database, to an RDS MySQL DB instance or an Aurora DB cluster."
-  },
-  {
-    "name": "Amazon DynamoDB",
-    "url": "https://aws.amazon.com/dynamodb/",
-    "description": "Provides a scalable, low-latency NoSQL online Database Service backed by SSDs."
-  },
-  {
-    "name": "Amazon ElastiCache",
-    "url": "https://aws.amazon.com/elasticache/",
-    "description": "Provides in-memory caching for web apps (Memcached, Redis)."
-  },
-  {
-    "name": "Amazon Redshift",
+    "name": "Redshift",
     "url": "https://aws.amazon.com/redshift/",
     "description": "Provides petabyte-scale data warehousing with columnar storage and multi-node compute."
   },
   {
-    "name": "Amazon SimpleDB",
-    "url": "https://aws.amazon.com/simpledb/",
-    "description": "Allows developers to run queries on structured data."
+    "name": "Lex",
+    "url": "https://aws.amazon.com/lex/",
+    "description": "Build conversational interfaces through voice or text."
   },
   {
-    "name": "Amazon API Gateway",
-    "url": "https://aws.amazon.com/api-gateway/",
-    "description": "Service for publishing, maintaining and securing web service APIs."
+    "name": "Machine Learning",
+    "url": "https://aws.amazon.com/machine-learning/",
+    "description": "Provides managed machine learning technology."
   },
   {
-    "name": "Amazon AppStream",
-    "url": "https://aws.amazon.com/appstream/",
-    "description": "Flexible, low-latency streaming service for apps and games."
+    "name": "Polly",
+    "url": "https://aws.amazon.com/polly/",
+    "description": "Turn text into lifelike speech."
   },
   {
-    "name": "Amazon CloudSearch",
-    "url": "https://aws.amazon.com/cloudsearch/",
-    "description": "Provides basic full-text search and indexing of textual content."
+    "name": "Rekognition",
+    "url": "https://aws.amazon.com/rekognition/",
+    "description": "Deep learning-based image analysis."
   },
   {
-    "name": "Amazon DevPay",
-    "url": "https://aws.amazon.com/devpay/",
-    "description": "Provides billing and account management."
+    "name": "CloudFormation",
+    "url": "https://aws.amazon.com/cloudformation/",
+    "description": "Provides a file-based interface for provisioning other resources."
   },
   {
-    "name": "Amazon Elastic Transcoder (ETS)",
-    "url": "https://aws.amazon.com/elastictranscoder/",
-    "description": "Provides video transcoding of S3 hosted videos."
+    "name": "CloudTrail",
+    "url": "https://aws.amazon.com/cloudtrail/",
+    "description": "Provides logs of all activity."
   },
   {
-    "name": "Amazon Flexible Payments Service (FPS)",
-    "url": "https://payments.amazon.com/developer",
-    "description": "Provides an interface for micropayments."
+    "name": "CloudWatch",
+    "url": "https://aws.amazon.com/cloudwatch/",
+    "description": "Provides monitoring for AWS cloud resources and applications, starting with EC2."
   },
   {
-    "name": "Amazon Simple Email Service (SES)",
-    "url": "https://aws.amazon.com/ses/",
-    "description": "Provides bulk and transactional email sending."
-  },
-  {
-    "name": "Amazon Simple Notification Service (SNS)",
-    "url": "https://aws.amazon.com/sns/",
-    "description": "Provides a hosted multi-protocol \"push\" messaging for applications."
-  },
-  {
-    "name": "Amazon Simple Queue Service (SQS)",
-    "url": "https://aws.amazon.com/sqs/",
-    "description": "Provides a hosted message queue for web applications."
-  },
-  {
-    "name": "Amazon Simple Workflow (SWF)",
-    "url": "https://aws.amazon.com/swf/",
-    "description": "A workflow service for building scalable, resilient applications."
-  },
-  {
-    "name": "AWS CodeCommit",
-    "url": "https://aws.amazon.com/documentation/codecommit/",
-    "description": "Hosted Git version control service."
-  },
-  {
-    "name": "AWS CodeDeploy",
-    "url": "https://aws.amazon.com/codedeploy/",
-    "description": "Provides automated code deployment to EC2 instances."
-  },
-  {
-    "name": "AWS CodePipeline",
-    "url": "https://aws.amazon.com/documentation/codepipeline/",
-    "description": "Continuous delivery service."
-  },
-  {
-    "name": "AWS Command Line Interface (CLI)",
+    "name": "Command Line Interface (CLI)",
     "url": "https://aws.amazon.com/cli/",
     "description": "Provides a CLI to manage all services."
   },
   {
-    "name": "Amazon Fulfillment Web Service",
+    "name": "Config",
+    "url": "https://aws.amazon.com/config/",
+    "description": "Provides a detailed view of all resources."
+  },
+  {
+    "name": "Management Console (AWS Console)",
+    "url": "https://aws.amazon.com/console/",
+    "description": "A web-based interface to manage all services."
+  },
+  {
+    "name": "OpsWorks",
+    "url": "https://aws.amazon.com/opsworks/",
+    "description": "Provides configuration of EC2 services using Chef."
+  },
+  {
+    "name": "Personal Health Dashboard",
+    "url": "https://aws.amazon.com/premiumsupport/phd/",
+    "description": "Your personalized view of service health."
+  },
+  {
+    "name": "Service Catalog",
+    "url": "https://aws.amazon.com/servicecatalog/",
+    "description": "Service Catalog allows IT administrators to create, manage, and distribute portfolios of approved products to end users, who can then access the products they need in a personalized portal."
+  },
+  {
+    "name": "Certificate Manager",
+    "url": "https://aws.amazon.com/certificate-manager/",
+    "description": "Lets you easily provision, manage, and deploy SSL/TLS certificates for use with AWS services."
+  },
+  {
+    "name": "CloudHSM",
+    "url": "https://aws.amazon.com/cloudhsm/",
+    "description": "Helps meet corporate, contractual and regulatory compliance requirements for data security by using dedicated Hardware Security Module (HSM) appliances within the AWS cloud."
+  },
+  {
+    "name": "Directory Service",
+    "url": "https://aws.amazon.com/directoryservice/",
+    "description": "A managed service that allows you to connect your resources with an existing on-premises Microsoft Active Directory or to set up a new, stand-alone directory in the AWS Cloud."
+  },
+  {
+    "name": "Identity and Access Management (IAM)",
+    "url": "https://aws.amazon.com/iam/",
+    "description": "An implicit service, the authentication infrastructure used to authenticate access to the various services."
+  },
+  {
+    "name": "Inspector",
+    "url": "https://aws.amazon.com/inspector/",
+    "description": "An automated security assessment service that helps improve the security and compliance of applications deployed on AWS."
+  },
+  {
+    "name": "Key Management Service (KMS)",
+    "url": "https://aws.amazon.com/kms/",
+    "description": "A managed service that makes it easy for you to create and control the encryption keys used to encrypt your data."
+  },
+  {
+    "name": "Shield",
+    "url": "https://aws.amazon.com/shield/",
+    "description": "Managed DDoS Protection."
+  },
+  {
+    "name": "WAF",
+    "url": "https://aws.amazon.com/waf/",
+    "description": "A web application firewall service that monitors and manages CloudFront distributions."
+  },
+  {
+    "name": "IoT",
+    "url": "https://aws.amazon.com/iot/",
+    "description": "Enables secure, bi-directional communication between internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the AWS cloud over MQTT and HTTP."
+  },
+  {
+    "name": "API Gateway",
+    "url": "https://aws.amazon.com/api-gateway/",
+    "description": "Service for publishing, maintaining and securing web service APIs."
+  },
+  {
+    "name": "Cognito",
+    "url": "https://aws.amazon.com/cognito/",
+    "description": "Provides user identity and data synchronization."
+  },
+  {
+    "name": "Device Farm",
+    "url": "https://aws.amazon.com/device-farm/",
+    "description": "App testing service for iOS, Android and Fire OS apps on physical devices."
+  },
+  {
+    "name": "Mobile Analytics",
+    "url": "https://aws.amazon.com/mobileanalytics/",
+    "description": "Service for collecting, visualizing, and understanding app usage data."
+  },
+  {
+    "name": "Mobile Hub",
+    "url": "https://aws.amazon.com/mobile/",
+    "description": "Provides an integrated console that helps you build, test, and monitor your mobile apps."
+  },
+  {
+    "name": "Pinpoint",
+    "url": "https://aws.amazon.com/pinpoint/",
+    "description": "Targeted push notifications for mobile apps."
+  },
+  {
+    "name": "Simple Notification Service (SNS)",
+    "url": "https://aws.amazon.com/sns/",
+    "description": "Provides a hosted multi-protocol \"push\" messaging for applications."
+  },
+  {
+    "name": "CloudFront",
+    "url": "https://aws.amazon.com/cloudfront/",
+    "description": "A content delivery network (CDN) for distributing objects to locations near the requester."
+  },
+  {
+    "name": "Elastic Block Store (EBS)",
+    "url": "https://aws.amazon.com/ebs/",
+    "description": "Provides persistent block-level storage volumes for EC2."
+  },
+  {
+    "name": "Elastic File System (EFS)",
+    "url": "https://aws.amazon.com/efs/",
+    "description": "A file storage service for EC2 instances."
+  },
+  {
+    "name": "Glacier",
+    "url": "https://aws.amazon.com/glacier/",
+    "description": "Provides a low-cost, long-term storage option, intended for archiving data."
+  },
+  {
+    "name": "Import/Export",
+    "url": "https://aws.amazon.com/importexport/",
+    "description": "Accelerates moving large amounts of data into and out of AWS using portable storage devices for transport."
+  },
+  {
+    "name": "Simple Storage Service (S3)",
+    "url": "https://aws.amazon.com/s3/",
+    "description": "Provides Web Service based storage."
+  },
+  {
+    "name": "Storage Gateway",
+    "url": "https://aws.amazon.com/storagegateway/",
+    "description": "An iSCSI block storage virtual appliance with cloud-based backup."
+  },
+  {
+    "name": "Aurora",
+    "url": "https://aws.amazon.com/rds/aurora/",
+    "description": "MySQL and PostgreSQL compatible relational database with improved performance."
+  },
+  {
+    "name": "DynamoDB",
+    "url": "https://aws.amazon.com/dynamodb/",
+    "description": "Provides a scalable, low-latency NoSQL online Database Service backed by SSDs."
+  },
+  {
+    "name": "ElastiCache",
+    "url": "https://aws.amazon.com/elasticache/",
+    "description": "Provides in-memory caching for web apps (Memcached, Redis)."
+  },
+  {
+    "name": "Redshift",
+    "url": "https://aws.amazon.com/redshift/",
+    "description": "Provides petabyte-scale data warehousing with columnar storage and multi-node compute."
+  },
+  {
+    "name": "Relational Database Service (RDS)",
+    "url": "https://aws.amazon.com/rds/",
+    "description": "Provides a scalable database server with MySQL, Oracle, SQL Server, PostgreSQL, and MariaDB support."
+  },
+  {
+    "name": "Schema Conversion Tool",
+    "url": "https://aws.amazon.com/documentation/SchemaConversionTool/",
+    "description": "App that helps you convert your database schema from an Oracle or Microsoft SQL Server database, to an RDS MySQL DB instance or an Aurora DB cluster."
+  },
+  {
+    "name": "SimpleDB",
+    "url": "https://aws.amazon.com/simpledb/",
+    "description": "Allows developers to run queries on structured data."
+  },
+  {
+    "name": "API Gateway",
+    "url": "https://aws.amazon.com/api-gateway/",
+    "description": "Service for publishing, maintaining and securing web service APIs."
+  },
+  {
+    "name": "AppStream",
+    "url": "https://aws.amazon.com/appstream/",
+    "description": "Flexible, low-latency streaming service for apps and games."
+  },
+  {
+    "name": "CloudSearch",
+    "url": "https://aws.amazon.com/cloudsearch/",
+    "description": "Provides basic full-text search and indexing of textual content."
+  },
+  {
+    "name": "DevPay",
+    "url": "https://aws.amazon.com/devpay/",
+    "description": "Provides billing and account management."
+  },
+  {
+    "name": "Elastic Transcoder (ETS)",
+    "url": "https://aws.amazon.com/elastictranscoder/",
+    "description": "Provides video transcoding of S3 hosted videos."
+  },
+  {
+    "name": "Flexible Payments Service (FPS)",
+    "url": "https://payments.amazon.com/developer",
+    "description": "Provides an interface for micropayments."
+  },
+  {
+    "name": "Simple Email Service (SES)",
+    "url": "https://aws.amazon.com/ses/",
+    "description": "Provides bulk and transactional email sending."
+  },
+  {
+    "name": "Simple Notification Service (SNS)",
+    "url": "https://aws.amazon.com/sns/",
+    "description": "Provides a hosted multi-protocol \"push\" messaging for applications."
+  },
+  {
+    "name": "Simple Queue Service (SQS)",
+    "url": "https://aws.amazon.com/sqs/",
+    "description": "Provides a hosted message queue for web applications."
+  },
+  {
+    "name": "Simple Workflow (SWF)",
+    "url": "https://aws.amazon.com/swf/",
+    "description": "A workflow service for building scalable, resilient applications."
+  },
+  {
+    "name": "Step Functions",
+    "url": "https://aws.amazon.com/step-functions/",
+    "description": "Coordinate components of distributed applications."
+  },
+  {
+    "name": "CodeBuild",
+    "url": "https://aws.amazon.com/codebuild/",
+    "description": "Build and test code."
+  },
+  {
+    "name": "CodeCommit",
+    "url": "https://aws.amazon.com/documentation/codecommit/",
+    "description": "Hosted Git version control service."
+  },
+  {
+    "name": "CodeDeploy",
+    "url": "https://aws.amazon.com/codedeploy/",
+    "description": "Provides automated code deployment to EC2 instances."
+  },
+  {
+    "name": "CodePipeline",
+    "url": "https://aws.amazon.com/documentation/codepipeline/",
+    "description": "Continuous delivery service."
+  },
+  {
+    "name": "Command Line Interface (CLI)",
+    "url": "https://aws.amazon.com/cli/",
+    "description": "Provides a CLI to manage all services."
+  },
+  {
+    "name": "X-Ray",
+    "url": "https://aws.amazon.com/xray/",
+    "description": "Analyze and debug your applications."
+  },
+  {
+    "name": "Fulfillment Web Service",
     "url": "https://aws.amazon.com/about-aws/whats-new/2008/03/19/announcing-amazon-fulfillment-web-service/",
     "description": "Provides a programmatic web service for sellers to ship items to and from Amazon using Fulfillment by Amazon."
   },
   {
-    "name": "Amazon Mechanical Turk",
+    "name": "Mechanical Turk",
     "url": "https://www.mturk.com/mturk/welcome",
     "description": "Manages small units of work distributed among many persons."
   },
   {
-    "name": "Amazon Product Advertising API",
-    "url": "http://docs.aws.amazon.com/AWSECommerceService/latest/GSG/Welcome.html",
-    "description": "Provides access to product data and electronic commerce functionality."
-  },
-  {
-    "name": "AWS Partner Network (APN)",
+    "name": "Partner Network (APN)",
     "url": "https://aws.amazon.com/partners/",
     "description": "Provides partners with the technical information and sales and marketing support to increase business opportunities."
+  },
+  {
+    "name": "Product Advertising API",
+    "url": "http://docs.aws.amazon.com/AWSECommerceService/latest/GSG/Welcome.html",
+    "description": "Provides access to product data and electronic commerce functionality."
   }
 ]
