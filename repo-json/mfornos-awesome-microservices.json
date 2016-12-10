@@ -30,6 +30,11 @@
     "description": "Open source project for running containerized workloads on a cluster. Lattice bundles up http load-balancing, a cluster scheduler, log aggregation/streaming and health management into an easy-to-deploy and easy-to-use package."
   },
   {
+    "name": "Lightbend",
+    "url": "https://www.lightbend.com/",
+    "description": "Platform for building scalable reactive systems on the JVM."
+  },
+  {
     "name": "Netflix OSS",
     "url": "https://netflix.github.io/",
     "description": "Netflix open source software ecosystem."
@@ -117,7 +122,7 @@
   {
     "name": "CoAP",
     "url": "http://coap.technology/impls.html",
-    "description": "Constrained Application Protocol implementations."
+    "description": "Constrained application protocol implementations."
   },
   {
     "name": "GRPC",
@@ -235,19 +240,14 @@
     "description": "Erlang library for building lightweight HTTP servers."
   },
   {
-    "name": "Crudapi",
-    "url": "https://github.com/sauerbraten/crudapi",
-    "description": "Go implementation of a RESTful JSON API exposing CRUD functionality relying on a custom storage."
-  },
-  {
     "name": "Echo",
     "url": "https://echo.labstack.com/",
     "description": "Fast and unfancy HTTP server framework for Go. Up to 10x faster than the rest."
   },
   {
-    "name": "Gin",
-    "url": "http://gin-gonic.github.io/gin/",
-    "description": "Web framework written in Golang."
+    "name": "Gizmo",
+    "url": "https://github.com/nytimes/gizmo",
+    "description": "Microservices toolkit."
   },
   {
     "name": "Goa",
@@ -295,11 +295,6 @@
     "description": "Ultra-lightweight networking library which lets network services communicate in the same way that goroutines communicate using channels."
   },
   {
-    "name": "Macaron",
-    "url": "https://go-macaron.com/",
-    "description": "Modular web framework in Go."
-  },
-  {
     "name": "Micro",
     "url": "https://github.com/micro/micro",
     "description": "A microservices toolchain in Go."
@@ -317,7 +312,7 @@
   {
     "name": "RPCX",
     "url": "https://github.com/smallnest/rpcx",
-    "description": "A distributed RPC service framework based on net/rpc like alibaba Dubbo and weibo Motan."
+    "description": "A distributed RPC service framework based on NET/RPC like Alibaba Dubbo and Weibo Motan."
   },
   {
     "name": "Sleepy",
@@ -392,7 +387,7 @@
   {
     "name": "Disruptor",
     "url": "https://github.com/LMAX-Exchange/disruptor",
-    "description": "A High Performance Inter-Thread Messaging Library."
+    "description": "High-performance inter-thread messaging library."
   },
   {
     "name": "Dropwizard",
@@ -400,14 +395,14 @@
     "description": "Java framework for developing ops-friendly, high-performance, RESTful web services."
   },
   {
-    "name": "Jersey",
-    "url": "https://jersey.java.net/",
-    "description": "RESTful Web Services in Java. JAX-RS (JSR 311 & JSR 339) Reference Implementation."
+    "name": "HTTP Remoting",
+    "url": "https://github.com/palantir/http-remoting",
+    "description": "Libraries for defining and creating RESTish/RPC servers and clients based on Feign or Retrofit as a client and Dropwizard/Jersey with JAX-RS service definitions as a server."
   },
   {
-    "name": "MSF4J",
-    "url": "https://github.com/wso2/msf4j",
-    "description": "High throughput & low memory footprint Java microservices framework."
+    "name": "Jersey",
+    "url": "https://jersey.java.net/",
+    "description": "RESTful services in Java. JAX-RS reference implementation."
   },
   {
     "name": "QBit",
@@ -423,6 +418,11 @@
     "name": "Restlet",
     "url": "http://restlet.com/",
     "description": "Helps Java developers build web APIs that follow the REST architecture style."
+  },
+  {
+    "name": "Spark",
+    "url": "http://sparkjava.com/",
+    "description": "A micro-framework for creating web applications in Java 8 with minimal effort."
   },
   {
     "name": "Spring Boot",
@@ -570,11 +570,6 @@
     "description": "Micro-framework that helps you quickly write simple yet powerful web applications and APIs."
   },
   {
-    "name": "Celery",
-    "url": "http://www.celeryproject.org",
-    "description": "An asynchronous task queue/job queue based on distributed message passing. Focused on real-time operation and supports scheduling."
-  },
-  {
     "name": "Flask",
     "url": "http://flask.pocoo.org/",
     "description": "Python framework for microservices based on Werkzeug and Jinja 2."
@@ -592,10 +587,10 @@
   {
     "name": "Twisted",
     "url": "https://twistedmatrix.com/trac/",
-    "description": "An Event-Drive Network Programming Engine."
+    "description": "Event-driven network programming engine."
   },
   {
-    "name": "web.py",
+    "name": "Web.py",
     "url": "https://github.com/webpy/webpy/",
     "description": "Minimalist web framework for Python."
   },
@@ -613,6 +608,11 @@
     "name": "Scorched",
     "url": "https://github.com/wardrop/Scorched",
     "description": "Light-weight web framework for Ruby."
+  },
+  {
+    "name": "Caddy",
+    "url": "https://caddyserver.com/",
+    "description": "Extensible HTTP/2 web server with automatic HTTPS."
   },
   {
     "name": "Camel",
@@ -783,6 +783,11 @@
     "name": "Vault",
     "url": "https://www.vaultproject.io/",
     "description": "Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing."
+  },
+  {
+    "name": "Celery",
+    "url": "http://www.celeryproject.org",
+    "description": "Asynchronous task queue/job queue based on distributed message passing. Focused on real-time operation and supports scheduling."
   },
   {
     "name": "Chronos",
@@ -1058,6 +1063,11 @@
     "name": "ArangoDB",
     "url": "https://www.arangodb.com/",
     "description": "A distributed free and open source database with a flexible data model for documents, graphs, and key-values."
+  },
+  {
+    "name": "AtlasDB",
+    "url": "https://github.com/palantir/atlasdb",
+    "description": "Transactional layer on top of a key value store."
   },
   {
     "name": "ClickHouse",
@@ -1757,6 +1767,16 @@
     "url": "http://www.infoq.com/news/2015/04/scaling-microservices-gilt"
   },
   {
+    "name": "Interact",
+    "url": "https://interact.io/",
+    "description": "CRM microservices for rapid delivery of tailored solutions."
+  },
+  {
+    "name": "Predix",
+    "url": "https://predix.io/",
+    "description": "Industrial microservices platform."
+  },
+  {
     "name": "AKF Scale Cube",
     "url": "http://akfpartners.com/techblog/2008/05/08/splitting-applications-or-services-for-scale/",
     "description": "Model depicting the dimensions to scale a service."
@@ -1795,6 +1815,11 @@
     "name": "Microservices and SOA",
     "url": "http://www.oracle.com/technetwork/issue-archive/2015/15-mar/o25architect-2458702.html",
     "description": "Similarities, differences, and where we go from here."
+  },
+  {
+    "name": "Microservices – Please, don’t",
+    "url": "http://basho.com/posts/technical/microservices-please-dont/",
+    "description": "Critical advice about some problems regarding a microservices approach."
   },
   {
     "name": "Microservices RefCard",
@@ -1878,6 +1903,11 @@
   {
     "name": "Microservices with Python, RabbitMQ and Nameko",
     "url": "http://brunorocha.org/python/microservices-with-python-rabbitmq-and-nameko.html"
+  },
+  {
+    "name": "Reactive Microservices",
+    "url": "https://github.com/theiterators/reactive-microservices",
+    "description": "Project showcasing different microservice communication styles using Scala, Akka, Play and other tools from Scala ecosystem."
   },
   {
     "name": "Using Packer and Ansible to build immutable infrastructure",
