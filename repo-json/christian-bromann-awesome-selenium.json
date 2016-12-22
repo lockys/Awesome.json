@@ -47,12 +47,27 @@
   {
     "name": "Karma",
     "url": "http://karma-runner.github.io/0.12/index.html",
-    "description": "Brings a productive testing environment to developers."
+    "description": "Brings a productive testing environment to developers for unit testing (mostly AngularJS)."
   },
   {
-    "name": "Protractor ",
+    "name": "Protractor",
     "url": "https://angular.github.io/protractor/",
     "description": "Protractor is an end-to-end test framework for AngularJS applications."
+  },
+  {
+    "name": "Cypress",
+    "url": "https://www.cypress.io/",
+    "description": "Cypress helps developers write automated tests for the web."
+  },
+  {
+    "name": "Selenium with Ruby",
+    "url": "http://seleniumhq.github.io/selenium/docs/api/rb/index.html",
+    "description": "Selenium Ruby bindings"
+  },
+  {
+    "name": "Watir",
+    "url": "https://watir.com/",
+    "description": "Automated testing that doesn’t hurt"
   },
   {
     "name": "Anemone",
@@ -85,9 +100,24 @@
     "description": "A tool for PHP developers to start their own Selenium server."
   },
   {
+    "name": "Selenium with Python",
+    "url": "http://selenium-python.readthedocs.io/",
+    "description": "Selenium Python bindings"
+  },
+  {
+    "name": "Pomade",
+    "url": "https://github.com/saucelabs/pomade",
+    "description": "SauceLabs integrated test runner for Selenium test."
+  },
+  {
     "name": "mechanize",
     "url": "http://wwwsearch.sourceforge.net/mechanize/",
     "description": "Stateful programmatic web browsing."
+  },
+  {
+    "name": "Selenium with Java",
+    "url": "http://seleniumhq.github.io/selenium/docs/api/java/index.html",
+    "description": "Selenium Java bindings"
   },
   {
     "name": "Conductor",
@@ -105,6 +135,11 @@
     "description": "It is an open source library for writing better quality automated acceptance tests faster. (Formerly Thucydides)."
   },
   {
+    "name": "Selenium with C#",
+    "url": "http://seleniumhq.github.io/selenium/docs/api/dotnet/index.html",
+    "description": "Selenium C# bindings"
+  },
+  {
     "name": "PhantomCSS",
     "url": "https://github.com/Huddle/PhantomCSS",
     "description": "Visual/CSS regression testing with PhantomJS."
@@ -112,12 +147,17 @@
   {
     "name": "WebdriverCSS",
     "url": "https://github.com/webdriverio/webdrivercss",
-    "description": "Regression testing tool for WebdriverIO."
+    "description": "Regression testing tool for WebdriverIO (currently deprecated, please use wdio-screenshot for the time being)."
   },
   {
     "name": "Firefox",
     "url": "https://github.com/SeleniumHQ/selenium/wiki/FirefoxDriver",
-    "description": "Firefox driver is included in the selenium-server-standalone.jar available in the downloads."
+    "description": "Firefox driver (for FF < v48) is included in the selenium-server-standalone.jar available in the downloads."
+  },
+  {
+    "name": "Geckodriver",
+    "url": "https://github.com/mozilla/geckodriver",
+    "description": "Firefox driver (for FF > v48), supported with Selenium >= v3"
   },
   {
     "name": "Chrome",
@@ -130,14 +170,24 @@
     "description": "The InternetExplorerDriver is a standalone server which implements WebDriver's wire protocol."
   },
   {
+    "name": "Edgedriver",
+    "url": "https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/",
+    "description": "Microsoft Webdriver server for Edge"
+  },
+  {
     "name": "Safari",
     "url": "https://github.com/SeleniumHQ/selenium/wiki/SafariDriver",
-    "description": "The SafariDriver is implemented as a Safari browser extension. The driver inverts the traditional client/server relationship and communicates with the WebDriver client using WebSockets."
+    "description": "The SafariDriver is implemented as a Safari browser extension. The driver inverts the traditional client/server relationship and communicates with the WebDriver client using WebSockets (only supported for Safari <= v9, all new Safari version comming with macOS Sierra come with an integrated SafariDriver that is closed source by Apple)."
   },
   {
     "name": "Opera",
     "url": "https://github.com/operasoftware/operachromiumdriver/blob/master/README.md",
     "description": "OperaDriver is a vendor-supported WebDriver implementation developed by Opera Software and volunteers that implements WebDriver API for Opera."
+  },
+  {
+    "name": "Appium",
+    "url": "http://appium.io/",
+    "description": "Appium is an open source test automation framework for use with native and hybrid mobile apps. It drives iOS, Android and Windows Apps using the WebDriver protocol."
   },
   {
     "name": "Selendroid",
@@ -148,11 +198,6 @@
     "name": "ios-driver",
     "url": "http://ios-driver.github.io/ios-driver/",
     "description": "Test any IOS native, hybrid, or mobile web application using Selenium / WebDriver."
-  },
-  {
-    "name": "Appium",
-    "url": "http://appium.io/",
-    "description": "Appium is an open source test automation framework for use with native and hybrid mobile apps. It drives iOS and Android apps using the WebDriver JSON wire protocol."
   },
   {
     "name": "Winium",
@@ -213,5 +258,10 @@
     "name": "Assert Selenium",
     "url": "http://www.assertselenium.com/",
     "description": "Selenium Automation in a Right way - A Selenium only blog."
+  },
+  {
+    "name": "SauceLabs Blog",
+    "url": "https://saucelabs.com/blog",
+    "description": "Blog curated by SauceLabs"
   }
 ]

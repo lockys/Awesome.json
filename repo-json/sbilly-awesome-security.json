@@ -35,6 +35,46 @@
     "description": "Nmap is a free and open source utility for network discovery and security auditing."
   },
   {
+    "name": "snyk.io",
+    "url": "https://snyk.io/",
+    "description": " Snyk is a paid-for opensource tool to scan for vulnerabilities. Find, fix and monitor for known vulnerabilities in Node.js npm package fixtures used for testing the patches of vulndb."
+  },
+  {
+    "name": "justniffer",
+    "url": "http://justniffer.sourceforge.net/",
+    "description": "Justniffer is a network protocol analyzer that captures network traffic and produces logs in a customized way, can emulate Apache web server log files, track response times and extract all \"intercepted\" files from the HTTP traffic."
+  },
+  {
+    "name": "httpry",
+    "url": "http://dumpsterventures.com/jason/httpry/",
+    "description": "httpry is a specialized packet sniffer designed for displaying and logging HTTP traffic. It is not intended to perform analysis itself, but to capture, parse, and log the traffic for later analysis. It can be run in real-time displaying the traffic as it is parsed, or as a daemon process that logs to an output file. It is written to be as lightweight and flexible as possible, so that it can be easily adaptable to different applications."
+  },
+  {
+    "name": "ngrep",
+    "url": "http://ngrep.sourceforge.net/",
+    "description": "ngrep strives to provide most of GNU grep's common features, applying them to the network layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or hexadecimal expressions to match against data payloads of packets. It currently recognizes IPv4/6, TCP, UDP, ICMPv4/6, IGMP and Raw across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and understands BPF filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop."
+  },
+  {
+    "name": "passivedns",
+    "url": "https://github.com/gamelinux/passivedns",
+    "description": "A tool to collect DNS records passively to aid Incident handling, Network Security Monitoring (NSM) and general digital forensics. PassiveDNS sniffs traffic from an interface or reads a pcap-file and outputs the DNS-server answers to a log file. PassiveDNS can cache/aggregate duplicate DNS answers in-memory, limiting the amount of data in the logfile without loosing the essens in the DNS answer."
+  },
+  {
+    "name": "sagan",
+    "url": "http://sagan.quadrantsec.com/",
+    "description": "Sagan uses a 'Snort like' engine and rules to analyze logs (syslog/event log/snmptrap/netflow/etc)."
+  },
+  {
+    "name": "Node Security Platform",
+    "url": "https://nodesecurity.io/",
+    "description": "Similar feature set to Snyk, but free in most cases, and very cheap for others."
+  },
+  {
+    "name": "ntopng",
+    "url": "http://www.ntop.org/products/traffic-analysis/ntop/",
+    "description": "Ntopng is a network traffic probe that shows the network usage, similar to what the popular top Unix command does."
+  },
+  {
     "name": "Fibratus",
     "url": "https://github.com/rabbitstack/fibratus",
     "description": "Fibratus is a tool for exploration and tracing of the Windows kernel. It is able to capture the most of the Windows kernel activity - process/thread creation and termination, file system I/O, registry, network activity, DLL loading/unloading and much more. Fibratus has a very simple CLI which encapsulates the machinery to start the kernel event stream collector, set kernel event filters or run the lightweight Python modules called filaments."
@@ -50,6 +90,11 @@
     "description": "Bro is a powerful network analysis framework that is much different from the typical IDS you may know."
   },
   {
+    "name": "OSSEC",
+    "url": "https://ossec.github.io/",
+    "description": "Comprehensive Open Source HIDS. Not for the faint of heart. Takes a bit to get your head around how it works. Performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response. It runs on most operating systems, including Linux, MacOS, Solaris, HP-UX, AIX and Windows. Plenty of reasonable documentation. Sweet spot is medium to large deployments."
+  },
+  {
     "name": "Suricata",
     "url": "http://suricata-ids.org/",
     "description": "Suricata is a high performance Network IDS, IPS and Network Security Monitoring engine. Open Source and owned by a community run non-profit foundation, the Open Information Security Foundation (OISF). Suricata is developed by the OISF and its supporting vendors."
@@ -63,6 +108,11 @@
     "name": "sshwatch",
     "url": "https://github.com/marshyski/sshwatch",
     "description": "IPS for SSH similar to DenyHosts written in Python.  It also can gather information about attacker during the attack in a log."
+  },
+  {
+    "name": "Stealth",
+    "url": "https://fbb-git.github.io/stealth/",
+    "description": "File integrity checker that leaves virtually no sediment. Controller runs from another machine, which makes it hard for an attacker to know that the file system is being checked at defined pseudo random intervals over SSH. Highly recommended for small to medium deployments."
   },
   {
     "name": "AIEngine",
@@ -83,6 +133,11 @@
     "name": "SSHGuard",
     "url": "http://www.sshguard.net/",
     "description": "A software to protect services in addition to SSH, written in C"
+  },
+  {
+    "name": "awesome-honeypots",
+    "url": "https://github.com/paralax/awesome-honeypots",
+    "description": "The canonical awesome honeypot list."
   },
   {
     "name": "HoneyPy",
@@ -280,6 +335,11 @@
     "description": "GRR Rapid Response is an incident response framework focused on remote live forensics."
   },
   {
+    "name": "Volatility",
+    "url": "https://github.com/volatilityfoundation/volatility",
+    "description": "Python based memory extraction and analysis framework."
+  },
+  {
     "name": "mig",
     "url": "http://mig.mozilla.org/",
     "description": "MIG is a platform to perform investigative surgery on remote endpoints. It enables investigators to obtain information from large numbers of systems in parallel, thus accelerating investigation of incidents and day-to-day operations security."
@@ -363,6 +423,11 @@
     "name": "CIFv2",
     "url": "https://github.com/csirtgadgets/massive-octo-spice",
     "description": "CIF is a cyber threat intelligence management system. CIF allows you to combine known malicious threat information from many sources and use that information for identification (incident response), detection (IDS) and mitigation (null route)."
+  },
+  {
+    "name": "CriticalStack",
+    "url": "https://intel.criticalstack.com/",
+    "description": "Free aggregated threat intel for the Bro network security monitoring platform."
   },
   {
     "name": "OWASP",
