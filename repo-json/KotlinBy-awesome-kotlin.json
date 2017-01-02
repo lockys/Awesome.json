@@ -396,7 +396,12 @@
   {
     "name": "arturbosch/detekt",
     "url": "https://github.com/arturbosch/detekt",
-    "description": "Static code analysis for Kotlin"
+    "description": "Static code analysis for Kotlin."
+  },
+  {
+    "name": "ligee/kotlin-jupyter",
+    "url": "https://github.com/ligee/kotlin-jupyter",
+    "description": "Kotlin kernel for Jupyter/iPython."
   },
   {
     "name": "edvin/tornadofx",
@@ -467,31 +472,6 @@
     "name": "birkenfeld/pygments-main",
     "url": "https://bitbucket.org/birkenfeld/pygments-main",
     "description": "Python syntax highlighter."
-  },
-  {
-    "name": "danfma/kotlinjs-react",
-    "url": "https://github.com/danfma/kotlinjs-react",
-    "description": "A react wrapper to the kotlin library."
-  },
-  {
-    "name": "andrewoma/reakt",
-    "url": "https://github.com/andrewoma/reakt",
-    "description": "Reakt is a Kotlin wrapper for facebook's React library."
-  },
-  {
-    "name": "pixijs/pixi-native",
-    "url": "https://github.com/pixijs/pixi-native",
-    "description": "The aim of this project is to provide a fast lightweight 2D library that works across all devices."
-  },
-  {
-    "name": "bashor/ts2kt",
-    "url": "https://github.com/bashor/ts2kt",
-    "description": "Converter of TypeScript definition files to Kotlin declarations (stubs)"
-  },
-  {
-    "name": "shafirov/klogging",
-    "url": "https://github.com/shafirov/klogging",
-    "description": "Kotlin logging, both js and jvm."
   },
   {
     "name": "czyzby/ktx",
@@ -611,12 +591,27 @@
   {
     "name": "soywiz/korio",
     "url": "https://github.com/soywiz/korio",
-    "description": "Kotlin cORoutines I/O: Streams + Virtual File System."
+    "description": "Korio: Kotlin cORoutines I/O: Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser."
+  },
+  {
+    "name": "soywiz/korim",
+    "url": "https://github.com/soywiz/korim",
+    "description": "Korim: Kotlin cORoutines IMaging utilities depending on Korio."
+  },
+  {
+    "name": "soywiz/korui",
+    "url": "https://github.com/soywiz/korui",
+    "description": "Korui: Kotlin cORoutines User Interfaces: korio + kimage + korui"
   },
   {
     "name": "jimschubert/kopper",
     "url": "https://github.com/jimschubert/kopper",
     "description": "A simple Kotlin option parser"
+  },
+  {
+    "name": "moshbit/Kotlift",
+    "url": "https://github.com/moshbit/Kotlift",
+    "description": "Kotlift is the first source-to-source language transpiler from Kotlin to Swift."
   },
   {
     "name": "Kotlin/kotlinx.support",
@@ -657,6 +652,36 @@
     "name": "java-graphics/assimp",
     "url": "https://github.com/java-graphics/assimp",
     "description": "Java Open Asset Import Library"
+  },
+  {
+    "name": "danfma/kotlinjs-react",
+    "url": "https://github.com/danfma/kotlinjs-react",
+    "description": "A react wrapper to the kotlin library."
+  },
+  {
+    "name": "andrewoma/reakt",
+    "url": "https://github.com/andrewoma/reakt",
+    "description": "Reakt is a Kotlin wrapper for facebook's React library."
+  },
+  {
+    "name": "pixijs/pixi-native",
+    "url": "https://github.com/pixijs/pixi-native",
+    "description": "The aim of this project is to provide a fast lightweight 2D library that works across all devices."
+  },
+  {
+    "name": "bashor/ts2kt",
+    "url": "https://github.com/bashor/ts2kt",
+    "description": "Converter of TypeScript definition files to Kotlin declarations (stubs)"
+  },
+  {
+    "name": "shafirov/klogging",
+    "url": "https://github.com/shafirov/klogging",
+    "description": "Kotlin logging, both js and jvm."
+  },
+  {
+    "name": "olegcherr/Aza-Kotlin-CSS",
+    "url": "https://github.com/olegcherr/Aza-Kotlin-CSS",
+    "description": "Kotlin DSL for CSS"
   },
   {
     "name": "sdeleuze/spring-boot-kotlin-demo",
@@ -869,6 +894,11 @@
     "description": "StaticLog - super lightweight static logging for Kotlin, Java and Android."
   },
   {
+    "name": "zserge/anvil",
+    "url": "https://github.com/zserge/anvil",
+    "description": "Minimal UI library for Android inspired by React."
+  },
+  {
     "name": "nekocode/kotgo",
     "url": "https://github.com/nekocode/kotgo",
     "description": "An android development framwork on kotlin using MVP architecture."
@@ -1014,9 +1044,24 @@
     "description": "Korea"
   },
   {
+    "name": "Kotlin, rockin’ in production",
+    "url": "http://kotlin.link/articles/Kotlin-rockin%E2%80%99-in-production.html",
+    "description": "Nabeel Ali Memon"
+  },
+  {
     "name": "Kotlin 1.0.6 is here!",
     "url": "http://kotlin.link/articles/Kotlin-1-0-6-is-here.html",
     "description": "Yan Zhulanow"
+  },
+  {
+    "name": "Write a lightweight, cross-platform HTML5 desktop app with Kotlin",
+    "url": "http://kotlin.link/articles/Write-a-lightweight-cross-platform-HTML5-desktop-app-with-Kotlin.html",
+    "description": "Lorenzo Angelini"
+  },
+  {
+    "name": "Kotlin is cheating on me...",
+    "url": "http://kotlin.link/articles/Kotlin-is-cheating-on-me-.html",
+    "description": "Andrea Franceschini"
   },
   {
     "name": "Concurrency Primitives in Kotlin",
@@ -1027,6 +1072,11 @@
     "name": "Kotlin 1.1-M04 is here!",
     "url": "http://kotlin.link/articles/Kotlin-1-1-M04-is-here.html",
     "description": "Ilya Chernikov"
+  },
+  {
+    "name": "Kotlin in Practice with Spring Boot and Vaadin",
+    "url": "http://kotlin.link/articles/Kotlin-in-Practice-with-Spring-Boot-and-Vaadin.html",
+    "description": "Philipp Hauer"
   },
   {
     "name": "Building microservices with Kotlin and Spring Boot",
@@ -1162,6 +1212,11 @@
     "name": "The Road to Gradle Script Kotlin 1.0",
     "url": "http://kotlin.link/articles/The-Road-to-Gradle-Script-Kotlin-1-0.html",
     "description": "Rodrigo B. de Oliveira"
+  },
+  {
+    "name": "DSL builder in Kotlin",
+    "url": "http://kotlin.link/articles/DSL-builder-in-Kotlin.html",
+    "description": "Piotr Ślesarew"
   },
   {
     "name": "Kotlin 1.1-M02 is here!",
@@ -1559,14 +1614,14 @@
     "description": "Ilya Gorbunov"
   },
   {
-    "name": "Kotlin + Android First Impressions",
-    "url": "http://kotlin.link/articles/Kotlin-Android-First-Impressions.html",
-    "description": "Keyhole Software"
-  },
-  {
     "name": "Exercises in Kotlin: Part 3",
     "url": "http://kotlin.link/articles/Exercises-in-Kotlin-Part-3-Functions.html",
     "description": "Functions - Dhananjay Nene"
+  },
+  {
+    "name": "Kotlin + Android First Impressions",
+    "url": "http://kotlin.link/articles/Kotlin-Android-First-Impressions.html",
+    "description": "Keyhole Software"
   },
   {
     "name": "Exercises in Kotlin: Part 2",
@@ -1944,14 +1999,14 @@
     "description": "Mike Gehard"
   },
   {
-    "name": "(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.",
-    "url": "http://kotlin.link/articles/RU-Podcast-%D0%A0%D0%B0%D0%B7%D0%B1%D0%BE%D1%80-%D0%9F%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2-Episode-102-%E2%80%94-Kotlin-%D1%82%D0%B5%D1%81%D1%82%D1%8B-%D0%B8-%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8B%D0%B9-%D1%81%D0%BE%D0%BD.html",
-    "description": "Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov"
-  },
-  {
     "name": "Kotlin & Android: A Brass Tacks Experiment, Part 4",
     "url": "http://kotlin.link/articles/Kotlin-Android-A-Brass-Tacks-Experiment-Part-4.html",
     "description": "Doug Stevenson"
+  },
+  {
+    "name": "(RU) Podcast Разбор Полетов: Episode 102 — Kotlin, тесты и здоровый сон.",
+    "url": "http://kotlin.link/articles/RU-Podcast-%D0%A0%D0%B0%D0%B7%D0%B1%D0%BE%D1%80-%D0%9F%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2-Episode-102-%E2%80%94-Kotlin-%D1%82%D0%B5%D1%81%D1%82%D1%8B-%D0%B8-%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8B%D0%B9-%D1%81%D0%BE%D0%BD.html",
+    "description": "Dmitry Jemerov, Viktor Gamov, Alexey Abashev, Anton Arphipov,  Dmitry Churbanov, Anton Arhipov"
   },
   {
     "name": "Kotlin 1.0 Release Candidate is Out!",
