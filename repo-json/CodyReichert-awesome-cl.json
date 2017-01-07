@@ -306,7 +306,7 @@
   },
   {
     "name": "A tutorial for creating and publishing open-source Common Lisp software",
-    "url": "http://arxiv.org/abs/1209.5626",
+    "url": "https://arxiv.org/abs/1209.5626",
     "description": "A handy tutorial for using Quicklisp and a bunch of other tools to create and publish a project in Common Lisp."
   },
   {
@@ -410,19 +410,129 @@
     "description": "A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism Apache2.0."
   },
   {
+    "name": "Dexador",
+    "url": "https://github.com/fukamachi/dexador",
+    "description": "An HTTP client, that aims at replacing Drakma. MIT."
+  },
+  {
+    "name": "Clack",
+    "url": "https://github.com/fukamachi/clack",
+    "description": "A web application environment inspired by Rack and WSGI. LLGPL. Replaces Hunchentoot."
+  },
+  {
     "name": "aserve",
     "url": "https://github.com/franzinc/aserve",
     "description": "AllegroServe; a web server. LLGPL."
   },
   {
-    "name": "avatar-api",
-    "url": "https://github.com/eudoxia0/avatar-api",
-    "description": "Get avatars from Google+, Gravatar and others. Expat."
+    "name": "clack-errors",
+    "url": "https://github.com/eudoxia0/clack-errors",
+    "description": "Error page middleware for Clack. LLGPL."
+  },
+  {
+    "name": "hermetic",
+    "url": "https://github.com/eudoxia0/hermetic",
+    "description": "Security for Clack-based web applications. Expat."
+  },
+  {
+    "name": "wookie",
+    "url": "https://github.com/orthecreedence/wookie",
+    "description": "Asynchronous HTTP server. Expat."
+  },
+  {
+    "name": "woo",
+    "url": "https://github.com/fukamachi/woo",
+    "description": "A fast non-blocking HTTP server on top of libev. MIT."
   },
   {
     "name": "Caveman",
     "url": "https://github.com/fukamachi/caveman",
     "description": "A powerful web framework. LLGPL."
+  },
+  {
+    "name": "hh-web",
+    "url": "https://github.com/hargettp/hh-web",
+    "description": "Framework for building modern web apps. Expat."
+  },
+  {
+    "name": "ningle",
+    "url": "https://github.com/fukamachi/ningle",
+    "description": "A super-micro web framework. LLGPL."
+  },
+  {
+    "name": "radiance",
+    "url": "https://github.com/Shirakumo/radiance",
+    "description": "An extensible framework library and multi-application CMS. Artistic License 2.0."
+  },
+  {
+    "name": "Lucerne",
+    "url": "https://github.com/eudoxia0/lucerne",
+    "description": "A minimal web framework built on Clack, inspired by Flask. MIT."
+  },
+  {
+    "name": "http-parse",
+    "url": "https://github.com/orthecreedence/http-parse",
+    "description": "An HTTP parser in Common Lisp. Expat."
+  },
+  {
+    "name": "Plump",
+    "url": "https://github.com/Shinmera/plump",
+    "description": "A lenient HTTP/XML parser, tolerand on malformed markup. Artistic License 2.0. Best used with lquery and clss."
+  },
+  {
+    "name": "lquery",
+    "url": "https://github.com/Shinmera/lquery",
+    "description": "A jQuery-like HTML/DOM manipulation library. Artistic License 2.0."
+  },
+  {
+    "name": "cl-who",
+    "url": "http://weitz.de/cl-who/",
+    "description": "An HTML generator. FreeBSD."
+  },
+  {
+    "name": "spinneret",
+    "url": "https://github.com/ruricolist/spinneret",
+    "description": "Common Lisp HTML5 generator. Expat."
+  },
+  {
+    "name": "cl-markup",
+    "url": "https://github.com/arielnetworks/cl-markup",
+    "description": "Modern markup generation library. LLGPL."
+  },
+  {
+    "name": "Djula",
+    "url": "https://github.com/mmontone/djula",
+    "description": "A port of Django's template engine to Common Lisp. Expat."
+  },
+  {
+    "name": "eco",
+    "url": "https://github.com/eudoxia0/eco",
+    "description": "Fast, flexible, designer-friendly template engine. Expat."
+  },
+  {
+    "name": "puri-unicode",
+    "url": "https://github.com/hankhero/cl-json",
+    "description": "Pure URI library with Unicode support. LLGPL."
+  },
+  {
+    "name": "Parenscript",
+    "url": "https://github.com/vsedach/Parenscript",
+    "description": "A translator from Common Lisp to Javascript. 3-clause BSD."
+  },
+  {
+    "name": "parse-js",
+    "url": "http://marijnhaverbeke.nl/parse-js/",
+    "description": "A package for parsing ECMAScript 3. zlib."
+  },
+  {
+    "name": "JSCL",
+    "url": "https://github.com/jscl-project/jscl",
+    "description": "A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop."
+  },
+  {
+    "name": "avatar-api",
+    "url": "https://github.com/eudoxia0/avatar-api",
+    "description": "Get avatars from Google+, Gravatar and others. Expat."
   },
   {
     "name": "chirp",
@@ -440,39 +550,14 @@
     "description": "An IRC client library. Expat."
   },
   {
-    "name": "cl-markup",
-    "url": "https://github.com/arielnetworks/cl-markup",
-    "description": "Modern markup generation library. LLGPL."
-  },
-  {
     "name": "cl-openid",
     "url": "https://common-lisp.net/project/cl-openid/darcs/cl-openid/",
     "description": "An implementation of OpenID. LLGPL."
   },
   {
-    "name": "cl-who",
-    "url": "http://weitz.de/cl-who/",
-    "description": "An HTML generator. FreeBSD."
-  },
-  {
     "name": "cl-ses",
     "url": "https://github.com/CodyReichert/cl-ses/",
     "description": "Library for AWS SES. Expat."
-  },
-  {
-    "name": "spinneret",
-    "url": "https://github.com/ruricolist/spinneret",
-    "description": "Common Lisp HTML5 generator. Expat."
-  },
-  {
-    "name": "Clack",
-    "url": "https://github.com/fukamachi/clack",
-    "description": "A web application environment inspired by Rack and WSGI. LLGPL."
-  },
-  {
-    "name": "clack-errors",
-    "url": "https://github.com/eudoxia0/clack-errors",
-    "description": "Error page middleware for Clack. LLGPL."
   },
   {
     "name": "colleen",
@@ -485,59 +570,9 @@
     "description": "A CSS grammar. Expat."
   },
   {
-    "name": "Djula",
-    "url": "https://github.com/mmontone/djula",
-    "description": "A port of Django's template engine to Common Lisp. Expat."
-  },
-  {
-    "name": "Drakma",
-    "url": "http://weitz.de/drakma/",
-    "description": "An HTTP client. FreeBSD."
-  },
-  {
-    "name": "Dexador",
-    "url": "https://github.com/fukamachi/dexador",
-    "description": "An HTTP client, that aims at replacing Drakma. MIT."
-  },
-  {
-    "name": "eco",
-    "url": "https://github.com/eudoxia0/eco",
-    "description": "Fast, flexible, designer-friendly template engine. Expat."
-  },
-  {
-    "name": "hermetic",
-    "url": "https://github.com/eudoxia0/hermetic",
-    "description": "Security for Clack-based web applications. Expat."
-  },
-  {
-    "name": "hh-web",
-    "url": "https://github.com/hargettp/hh-web",
-    "description": "Framework for building modern web apps. Expat."
-  },
-  {
-    "name": "http-parse",
-    "url": "https://github.com/orthecreedence/http-parse",
-    "description": "An HTTP parser in Common Lisp. Expat."
-  },
-  {
     "name": "humbler",
     "url": "https://github.com/Shinmera/humbler",
     "description": "A Tumblr API interface. Artistic License 2.0."
-  },
-  {
-    "name": "hunchentoot",
-    "url": "http://weitz.de/hunchentoot/",
-    "description": "A web server. FreeBSD."
-  },
-  {
-    "name": "lquery",
-    "url": "https://github.com/Shinmera/lquery",
-    "description": "A jQuery-like HTML/DOM manipulation library. Artistic License 2.0."
-  },
-  {
-    "name": "ningle",
-    "url": "https://github.com/fukamachi/ningle",
-    "description": "A super-micro web framework. LLGPL."
   },
   {
     "name": "Postmaster",
@@ -545,34 +580,9 @@
     "description": "A simple, easy-to-use SMTP/IMAP library. Expat."
   },
   {
-    "name": "radiance",
-    "url": "https://github.com/Shirakumo/radiance",
-    "description": "An extensible framework library and multi-application CMS. Artistic License 2.0."
-  },
-  {
-    "name": "saluto",
-    "url": "https://github.com/dmitrys99/saluto",
-    "description": "OAuth 2.0 module for the RESTAS web framework. Not available on Quicklisp. 3-clause BSD."
-  },
-  {
-    "name": "sytes",
-    "url": "https://github.com/mishoo/sytes",
-    "description": "A library for making simple websites quickly. Not available on Quicklisp. No license specified."
-  },
-  {
     "name": "usocket",
     "url": "https://github.com/usocket/usocket",
     "description": "A portable TCP and UDP socket interface. Expat."
-  },
-  {
-    "name": "weblocks",
-    "url": "http://weblocks-framework.info/",
-    "description": "An advanced web framework. LLGPL"
-  },
-  {
-    "name": "wookie",
-    "url": "https://github.com/orthecreedence/wookie",
-    "description": "Asynchronous HTTP server. Expat."
   },
   {
     "name": "cl-spark",

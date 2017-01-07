@@ -905,24 +905,14 @@
     "description": "Providing user-friendly functions to help perform common date and time actions."
   },
   {
-    "name": "django-debug-toolbar",
-    "url": "https://github.com/django-debug-toolbar/django-debug-toolbar",
-    "description": "Display various debug information for Django."
-  },
-  {
-    "name": "django-devserver",
-    "url": "https://github.com/dcramer/django-devserver",
-    "description": "A drop-in replacement for Django's runserver."
-  },
-  {
-    "name": "flask-debugtoolbar",
-    "url": "https://github.com/mgood/flask-debugtoolbar",
-    "description": "A port of the django-debug-toolbar to flask."
-  },
-  {
     "name": "ipdb",
     "url": "https://pypi.python.org/pypi/ipdb",
     "description": "IPython-enabled pdb."
+  },
+  {
+    "name": "pdb++",
+    "url": "https://pypi.python.org/pypi/pdbpp/",
+    "description": "Another drop-in replacement for pdb."
   },
   {
     "name": "pudb",
@@ -930,19 +920,14 @@
     "description": "A full-screen, console-based Python debugger."
   },
   {
-    "name": "pyringe",
-    "url": "https://github.com/google/pyringe",
-    "description": "Debugger capable of attaching to and injecting code into Python processes."
+    "name": "remote-pdb",
+    "url": "https://github.com/ionelmc/python-remote-pdb",
+    "description": "Remote vanilla PDB (over TCP sockets)."
   },
   {
     "name": "wdb",
     "url": "https://github.com/Kozea/wdb",
     "description": "An improbable web debugger through WebSockets."
-  },
-  {
-    "name": "winpdb",
-    "url": "http://winpdb.org/",
-    "description": "A Python Debugger with GUI, capable of remote debugging based on rpdb2."
   },
   {
     "name": "line_profiler",
@@ -960,14 +945,44 @@
     "description": "An interactive Python profiler."
   },
   {
+    "name": "django-debug-toolbar",
+    "url": "https://github.com/django-debug-toolbar/django-debug-toolbar",
+    "description": "Display various debug information for Django."
+  },
+  {
+    "name": "django-devserver",
+    "url": "https://github.com/dcramer/django-devserver",
+    "description": "A drop-in replacement for Django's runserver."
+  },
+  {
+    "name": "flask-debugtoolbar",
+    "url": "https://github.com/mgood/flask-debugtoolbar",
+    "description": "A port of the django-debug-toolbar to flask."
+  },
+  {
+    "name": "hunter",
+    "url": "https://github.com/ionelmc/python-hunter",
+    "description": "Hunter is a flexible code tracing toolkit."
+  },
+  {
+    "name": "lptrace",
+    "url": "https://github.com/khamidou/lptrace",
+    "description": "strace for Python programs."
+  },
+  {
+    "name": "manhole",
+    "url": "https://github.com/ionelmc/python-manhole",
+    "description": "Debug service that will accept unix domain socket connections and present the stacktraces for all threads and an interactive prompt."
+  },
+  {
     "name": "pyelftools",
     "url": "https://github.com/eliben/pyelftools",
     "description": "Parsing and analyzing ELF files and DWARF debugging information."
   },
   {
-    "name": "python-statsd",
-    "url": "https://github.com/WoLpH/python-statsd",
-    "description": "Python Client for the statsd server."
+    "name": "pyringe",
+    "url": "https://github.com/google/pyringe",
+    "description": "Debugger capable of attaching to and injecting code into Python processes."
   },
   {
     "name": "Caffe",
@@ -1661,7 +1676,7 @@
   {
     "name": "Pyjion",
     "url": "https://github.com/Microsoft/Pyjion",
-    "description": "A JIT for Python based upon CoreCLR "
+    "description": "A JIT for Python based upon CoreCLR."
   },
   {
     "name": "Stackless Python",
