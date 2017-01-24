@@ -1,5 +1,9 @@
 [
   {
+    "name": "Awesome Common Lisp",
+    "url": "https://github.com/sindresorhus/awesome"
+  },
+  {
     "name": "ASDF",
     "url": "https://common-lisp.net/project/asdf/",
     "description": "Another System Definition Facility; a build system for Common Lisp. Expat."
@@ -365,6 +369,11 @@
     "description": "A thorough, practical covering of the entire language, with exercises. Not recommended as a starter text, due to some caveats."
   },
   {
+    "name": "Common Lisp Recipes",
+    "url": "http://weitz.de/cl-recipes/",
+    "description": "Common Lisp Recipes is a collection of solutions to problems and answers to questions you are likely to encounter when writing real-world applications in Common Lisp."
+  },
+  {
     "name": "Let Over Lambda",
     "url": "http://letoverlambda.com/",
     "description": "A book on advanced macro techniques. All eight chapters are available in the print copy."
@@ -530,6 +539,16 @@
     "description": "A CL-to-JS compiler designed to be self-hosting from day one. Lacks CLOS, format and loop."
   },
   {
+    "name": "parse-js",
+    "url": "http://marijnhaverbeke.nl/parse-js/",
+    "description": "A package for parsing ECMAScript 3. zlib."
+  },
+  {
+    "name": "CL-JavaScript",
+    "url": "http://marijnhaverbeke.nl/cl-javascript/",
+    "description": "A translator from Javascript to Common Lisp. Not available on Quicklisp. Expat."
+  },
+  {
     "name": "avatar-api",
     "url": "https://github.com/eudoxia0/avatar-api",
     "description": "Get avatars from Google+, Gravatar and others. Expat."
@@ -665,14 +684,29 @@
     "description": "Superior Lisp Interaction Mode for Vim; a full-blown environment for Common Lisp inside of Vim. No license specified."
   },
   {
+    "name": "quickapp",
+    "url": "https://github.com/triclops200/quickapp",
+    "description": "A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. 3-clause BSD."
+  },
+  {
     "name": "quickapp-cli",
     "url": "https://github.com/triclops200/quickapp-cli",
     "description": "quickapp as a command-line utility. 3-clause BSD."
   },
   {
+    "name": "quicksearch",
+    "url": "https://github.com/tkych/quicksearch",
+    "description": "Look up online libraries from the REPL. Expat."
+  },
+  {
     "name": "SWIG",
     "url": "http://www.swig.org/",
     "description": "A tool for generating FFI code from C/C++ header files. GNU GPL3."
+  },
+  {
+    "name": "cl-project",
+    "url": "https://github.com/fukamachi/cl-project",
+    "description": "General modern project skeletons. LLGPL."
   },
   {
     "name": "FiveAM",
@@ -700,6 +734,11 @@
     "description": "Yet another unit testing framework Expat."
   },
   {
+    "name": "cl21",
+    "url": "https://github.com/cl21/cl21",
+    "description": "An experimental project to move Common Lisp into the 21st century. Expat."
+  },
+  {
     "name": "alexandria",
     "url": "https://common-lisp.net/project/alexandria/",
     "description": "A general-purpose utility library. Public domain."
@@ -708,6 +747,56 @@
     "name": "anaphora",
     "url": "https://common-lisp.net/project/anaphora/",
     "description": "A collection of anaphoric macros. Public domain."
+  },
+  {
+    "name": "cl-algebraic-data-type",
+    "url": "https://bitbucket.org/tarballs_are_good/cl-algebraic-data-type",
+    "description": "A library for defining algebraic data types in a similar spirit to Haskell or ML. 3-clause BSD."
+  },
+  {
+    "name": "FSet",
+    "url": "http://quickdocs.org/fset/",
+    "description": "A functional, set-theoretic collections data structure library. LLGPL."
+  },
+  {
+    "name": "iterate",
+    "url": "https://common-lisp.net/project/iterate/",
+    "description": "An iteration construct for Common Lisp which is extensible and Lispier. No license specified."
+  },
+  {
+    "name": "optima",
+    "url": "https://bitbucket.org/tarballs_are_good/cl-algebraic-data-type",
+    "description": "Optimized pattern-matching library. LLGPL."
+  },
+  {
+    "name": "trivial-types",
+    "url": "https://github.com/m2ym/trivial-types",
+    "description": "Trivial type definitions. LLGPL."
+  },
+  {
+    "name": "interface",
+    "url": "https://bitbucket.org/tarballs_are_good/interface",
+    "description": "A protocol library. 3-clause BSD."
+  },
+  {
+    "name": "cl-fad",
+    "url": "http://weitz.de/cl-fad/",
+    "description": "A portable pathname library. FreeBSD."
+  },
+  {
+    "name": "localtime",
+    "url": "https://common-lisp.net/project/local-time/",
+    "description": "A development library for manipulating date and time information in a semi-standard manner. 3-clause BSD."
+  },
+  {
+    "name": "ratify",
+    "url": "https://github.com/Shinmera/ratify",
+    "description": "A collection of utilities to ratify, validate and parse inputs. Artistic License 2.0."
+  },
+  {
+    "name": "cl-csv",
+    "url": "https://github.com/AccelerationNet/cl-csv",
+    "description": "A library for parsing CSV files. 3-clause BSD."
   },
   {
     "name": "babel",
@@ -735,19 +824,9 @@
     "description": "Python-like annotations for Common Lisp. LLGPL."
   },
   {
-    "name": "cl-csv",
-    "url": "https://github.com/AccelerationNet/cl-csv",
-    "description": "A library for parsing CSV files. 3-clause BSD."
-  },
-  {
     "name": "cl-cuda",
     "url": "https://github.com/takagi/cl-cuda",
     "description": "A library to use NVIDIA CUDA in Common Lisp programs. LLGPL."
-  },
-  {
-    "name": "cl-fad",
-    "url": "http://weitz.de/cl-fad/",
-    "description": "A portable pathname library. FreeBSD."
   },
   {
     "name": "cl-interpol",
@@ -755,29 +834,14 @@
     "description": "A set of reader modifications to allow string interpolation. No license specified."
   },
   {
-    "name": "CL-JavaScript",
-    "url": "http://marijnhaverbeke.nl/cl-javascript/",
-    "description": "A translator from Javascript to Common Lisp. Not available on Quicklisp. Expat."
-  },
-  {
     "name": "cl-locale",
     "url": "https://github.com/fukamachi/cl-locale",
     "description": "A simple i18n library. LLGPL."
   },
   {
-    "name": "cl-project",
-    "url": "https://github.com/fukamachi/cl-project",
-    "description": "General modern project skeletons. LLGPL."
-  },
-  {
     "name": "cl-syntax",
     "url": "https://github.com/m2ym/cl-syntax",
     "description": "Reader syntax conventions. LLGPL."
-  },
-  {
-    "name": "cl21",
-    "url": "https://github.com/cl21/cl21",
-    "description": "An experimental project to move Common Lisp into the 21st century. Expat."
   },
   {
     "name": "closer-mop",
@@ -800,34 +864,14 @@
     "description": "Fast octet-vector/stream I/O. 3-clause BSD."
   },
   {
-    "name": "FSet",
-    "url": "http://quickdocs.org/fset/",
-    "description": "A functional, set-theoretic collections data structure library. LLGPL."
-  },
-  {
     "name": "glyphs",
     "url": "https://github.com/ahungry/glyphs/",
     "description": "A library for cutting down the verboseness of Common Lisp in places. GNU GPL3."
   },
   {
-    "name": "interface",
-    "url": "https://bitbucket.org/tarballs_are_good/interface",
-    "description": "A protocol library. 3-clause BSD."
-  },
-  {
     "name": "iolib",
     "url": "https://github.com/sionescu/iolib",
     "description": "I/O library. Expat."
-  },
-  {
-    "name": "iterate",
-    "url": "https://common-lisp.net/project/iterate/",
-    "description": "An iteration construct for Common Lisp which is extensible and Lispier. No license specified."
-  },
-  {
-    "name": "localtime",
-    "url": "https://common-lisp.net/project/local-time/",
-    "description": "A development library for manipulating date and time information in a semi-standard manner. 3-clause BSD."
   },
   {
     "name": "log4cl",
@@ -845,44 +889,9 @@
     "description": "Provides a readtable namespace, akin to package namespaces. 3-clause BSD."
   },
   {
-    "name": "optima",
-    "url": "https://bitbucket.org/tarballs_are_good/cl-algebraic-data-type",
-    "description": "Optimized pattern-matching library. LLGPL."
-  },
-  {
     "name": "osicat",
     "url": "https://common-lisp.net/project/osicat/",
     "description": "A lightweight operating system interface on POSIX-like systems. Expat."
-  },
-  {
-    "name": "Parenscript",
-    "url": "https://github.com/vsedach/Parenscript",
-    "description": "A translator from Common Lisp to Javascript. 3-clause BSD."
-  },
-  {
-    "name": "parse-js",
-    "url": "http://marijnhaverbeke.nl/parse-js/",
-    "description": "A package for parsing ECMAScript 3. zlib."
-  },
-  {
-    "name": "puri-unicode",
-    "url": "https://github.com/hankhero/cl-json",
-    "description": "Pure URI library with Unicode support. LLGPL."
-  },
-  {
-    "name": "quickapp",
-    "url": "https://github.com/triclops200/quickapp",
-    "description": "A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. 3-clause BSD."
-  },
-  {
-    "name": "quicksearch",
-    "url": "https://github.com/tkych/quicksearch",
-    "description": "Look up online libraries from the REPL. Expat."
-  },
-  {
-    "name": "ratify",
-    "url": "https://github.com/Shinmera/ratify",
-    "description": "A collection of utilities to ratify, validate and parse inputs. Artistic License 2.0."
   },
   {
     "name": "Salza2",
@@ -918,11 +927,6 @@
     "name": "trivial-garbage",
     "url": "https://github.com/trivial-garbage/trivial-garbage",
     "description": "A portable finalizer, weak hash-table and weak pointer API. Public domain."
-  },
-  {
-    "name": "trivial-types",
-    "url": "https://github.com/m2ym/trivial-types",
-    "description": "Trivial type definitions. LLGPL."
   },
   {
     "name": "trivial-utf8",
