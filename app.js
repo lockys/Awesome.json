@@ -4,8 +4,8 @@ var buildAwesome = 'npm run awesome';
 var buildAllRepo = 'npm run build';
 var pushToGithub = 'npm run push';
 
-console.log('Do The Cron Job! Awesome :)');
-new CronJob('00 00 09 * * *', function() {
+console.log('Do The Crob Job! Awesome :)');
+new CronJob('* * */6 * * *', function() {
   try {
     exec(buildAwesome, finishAwesome);
   } catch (e) {
