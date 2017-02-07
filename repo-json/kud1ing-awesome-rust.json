@@ -197,6 +197,11 @@
     "url": "https://github.com/gchp/iota"
   },
   {
+    "name": "mathall/rim",
+    "url": "https://github.com/mathall/rim",
+    "description": "Vim-like text editor written in Rust "
+  },
+  {
     "name": "xi-editor — a modern editor with a backend written in Rust.",
     "url": "https://github.com/google/xi-editor"
   },
@@ -844,11 +849,11 @@
     "url": "https://github.com/sfackler/r2d2"
   },
   {
-    "name": "NoSQL [nosql]\n\n\nCassandra [cassandra, cql]\n\n\nAlexPikalov/cdrs [cdrs] — native client written in Rust \ntupshin/cassandra-rust —  bindings to the C++ client\n\nCouchDB [couchdb]\n\n\nchill-rs/chill [couchdb] — a Rust client for the CouchDB REST API \n\nElasticsearch [elasticsearch]\n\n\nbenashford/rs-es [rs-es] — a Rust client for the Elastic REST API \nelastic-rs/elastic-hyper [elastic_hyper] — a lightweight implementation of the Elasticsearch API based on Hyper \n\netcd\n\n\njimmycuadra/rust-etcd [etcd] — A client library for CoreOS's etcd. \n\nForestDB\n\n\nvhbit/sherwood — ForestDB bindings \n\nLevelDB\n\n\nskade/leveldb — LevelDB bindings \n\nLMDB [lmdb]\n\n\nvhbit/lmdb-rs [lmdb-rs] — LMDB bindings \n\nMongoDB [mongodb]\n\n\nmongodb-labs/mongo-rust-driver-prototype [mongodb] — MongoDB bindings \n\nNeo4j [cypher, neo4j]\nRedis [redis]\n\n\nmitsuhiko/redis-rs — Redis library in Rust \n\nRocksDB\n\n\nspacejam/rust-rocksdb — RocksDB bindings \n\nUnQLite\n\n\nzitsen/unqlite.rs — UnQLite bindings \n\nZooKeeper\n\n\nbonifaido/rust-zookeeper [zookeeper] — A client library for Apache ZooKeeper. \n\n",
+    "name": "NoSQL [nosql]\n\n\nCassandra [cassandra, cql]\n\n\nAlexPikalov/cdrs [cdrs] — native client written in Rust \ntupshin/cassandra-rs —  bindings to the C++ client \n\nCouchDB [couchdb]\n\n\nchill-rs/chill [couchdb] — a Rust client for the CouchDB REST API \n\nElasticsearch [elasticsearch]\n\n\nbenashford/rs-es [rs-es] — a Rust client for the Elastic REST API \nelastic-rs/elastic-hyper [elastic_hyper] — a lightweight implementation of the Elasticsearch API based on Hyper \n\netcd\n\n\njimmycuadra/rust-etcd [etcd] — A client library for CoreOS's etcd. \n\nForestDB\n\n\nvhbit/sherwood — ForestDB bindings \n\nLevelDB\n\n\nskade/leveldb — LevelDB bindings \n\nLMDB [lmdb]\n\n\nvhbit/lmdb-rs [lmdb-rs] — LMDB bindings \n\nMongoDB [mongodb]\n\n\nmongodb-labs/mongo-rust-driver-prototype [mongodb] — MongoDB bindings \n\nNeo4j [cypher, neo4j]\nRedis [redis]\n\n\nmitsuhiko/redis-rs — Redis library in Rust \n\nRocksDB\n\n\nspacejam/rust-rocksdb — RocksDB bindings \n\nUnQLite\n\n\nzitsen/unqlite.rs — UnQLite bindings \n\nZooKeeper\n\n\nbonifaido/rust-zookeeper [zookeeper] — A client library for Apache ZooKeeper. \n\n",
     "url": "https://crates.io/keywords/nosql"
   },
   {
-    "name": "Cassandra [cassandra, cql]\n\n\nAlexPikalov/cdrs [cdrs] — native client written in Rust \ntupshin/cassandra-rust —  bindings to the C++ client\n",
+    "name": "Cassandra [cassandra, cql]\n\n\nAlexPikalov/cdrs [cdrs] — native client written in Rust \ntupshin/cassandra-rs —  bindings to the C++ client \n",
     "url": "http://cassandra.apache.org"
   },
   {
@@ -856,7 +861,7 @@
     "url": "https://github.com/AlexPikalov/cdrs"
   },
   {
-    "name": "tupshin/cassandra-rust —  bindings to the C++ client",
+    "name": "tupshin/cassandra-rs —  bindings to the C++ client ",
     "url": "https://github.com/tupshin/cassandra-rs"
   },
   {
@@ -944,7 +949,7 @@
     "url": "https://github.com/bonifaido/rust-zookeeper"
   },
   {
-    "name": "SQL [sql]\n\n\nMicrosoft SQL\n\n\nsteffengy/tiberius — \n\nMySql [mysql]\n\n\nAgilData/mysql-proxy-rs — a MySQL Proxy \nblackbeam/mysql_async [mysql_async] — asyncronous Rust Mysql driver based on Tokio. \nblackbeam/rust-mysql-simple [mysql] — a native MySql client \n\nORM [orm]\n\n\ndeuterium-orm/deuterium — an SQL query builder for Rust  \ndiesel-rs/diesel — an ORM and Query builder for Rust \nivanceras/rustorm — an ORM for Rust \n\nPostgreSql [postgres, postgresql]\n\n\nsfackler/rust-postgres [postgres] — a native PostgreSQL client \n\nSqlite [sqlite]\n\n\ndckc/rust-sqlite3 — Sqlite3 bindings \njgallagher/rusqlite — Sqlite3 bindings \n\n",
+    "name": "SQL [sql]\n\n\nMicrosoft SQL\n\n\nsteffengy/tiberius — \n\nMySql [mysql]\n\n\nAgilData/mysql-proxy-rs — a MySQL Proxy \nblackbeam/mysql_async [mysql_async] — asyncronous Rust Mysql driver based on Tokio. \nblackbeam/rust-mysql-simple [mysql] — a native MySql client \n\nORM [orm]\n\n\ndiesel-rs/diesel — an ORM and Query builder for Rust \nivanceras/rustorm — an ORM for Rust \n\nPostgreSql [postgres, postgresql]\n\n\nsfackler/rust-postgres [postgres] — a native PostgreSQL client \n\nSqlite [sqlite]\n\n\ndckc/rust-sqlite3 — Sqlite3 bindings \njgallagher/rusqlite — Sqlite3 bindings \n\n",
     "url": "https://crates.io/keywords/sql"
   },
   {
@@ -968,12 +973,8 @@
     "url": "https://github.com/blackbeam/rust-mysql-simple"
   },
   {
-    "name": "ORM [orm]\n\n\ndeuterium-orm/deuterium — an SQL query builder for Rust  \ndiesel-rs/diesel — an ORM and Query builder for Rust \nivanceras/rustorm — an ORM for Rust \n",
+    "name": "ORM [orm]\n\n\ndiesel-rs/diesel — an ORM and Query builder for Rust \nivanceras/rustorm — an ORM for Rust \n",
     "url": "https://crates.io/keywords/orm"
-  },
-  {
-    "name": "deuterium-orm/deuterium — an SQL query builder for Rust  ",
-    "url": "https://github.com/deuterium-orm/deuterium"
   },
   {
     "name": "diesel-rs/diesel — an ORM and Query builder for Rust ",
@@ -1028,8 +1029,8 @@
     "url": "https://github.com/serde-rs/serde"
   },
   {
-    "name": "lifthrasiir/rust-chrono — ",
-    "url": "https://github.com/lifthrasiir/rust-chrono"
+    "name": "chronotope/chrono — ",
+    "url": "https://github.com/chronotope/chrono"
   },
   {
     "name": "yaa110/rust-persian-calendar — ",
