@@ -7,13 +7,13 @@ Run
 ==
 ```sh
 $ git clone https://github.com/lockys/awesome.json.git
-$ cd awesome.json && mkdir test-output
+$ cd awesome.json && mkdir test-output 
 $ npm run awesome # To get the latest curated lists of awesome lists.
 $ npm run build # To get all links of all awesome lists.
 ```
 
 This is repo of necessary files for https://awesomelists.top  
-Please see:
+Please see below:
 ```
 repo-json/*.json
 awesome/awesome.json

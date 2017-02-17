@@ -13,7 +13,7 @@ new CronJob('* * */6 * * *', function () {
   }
 }, false, 'Asia/Taipei');
 
-new CronJob('00 20 15 * * *', function () {
+new CronJob('00 40 15 * * *', function () {
   try {
     exec(buildAllRepo, finishBuild);
   } catch (e) {
@@ -21,7 +21,7 @@ new CronJob('00 20 15 * * *', function () {
   }
 }, true, 'Asia/Taipei');
 
-new CronJob('00 25 15 * * *', function () {
+new CronJob('00 43 15 * * *', function () {
   try {
     exec(pushToGithub, function (err, stdout, stderr) {
       if (err) {
