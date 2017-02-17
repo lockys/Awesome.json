@@ -13,7 +13,7 @@ $ npm run build # To get all links of all awesome lists.
 ```
 
 This is repo of necessary files for https://awesomelists.top  
-Please see:
+Please see below:
 ```
 repo-json/*.json
 awesome/awesome.json
