@@ -5,7 +5,7 @@
     "description": "detects run-time and logic errors"
   },
   {
-    "name": "Polyspace [PROPRIETARY]",
+    "name": "Polyspace for Ada [PROPRIETARY]",
     "url": "https://www.mathworks.com/products/polyspace-ada.html",
     "description": "provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in source code."
   },
@@ -53,6 +53,16 @@
     "name": "oclint [OSS]",
     "url": "http://oclint.org/",
     "description": "static analysis of C/C++ code"
+  },
+  {
+    "name": "Polyspace Bug Finder [PROPRIETARY]",
+    "url": "https://www.mathworks.com/products/polyspace-bug-finder.html",
+    "description": "identifies run-time errors, concurrency issues, security vulnerabilities, and other defects in C and C++ embedded software."
+  },
+  {
+    "name": "Polyspace Code Prover [PROPRIETARY]",
+    "url": "https://www.mathworks.com/products/polyspace-code-prover.html",
+    "description": "provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code."
   },
   {
     "name": "splint [OSS]",
@@ -135,61 +145,6 @@
     "description": ".NET Compiler Platform (\"Roslyn\") diagnostic analyzers and code fixes written by Wintellect."
   },
   {
-    "name": "clair [OSS]",
-    "url": "https://github.com/coreos/clair",
-    "description": "Vulnerability Static Analysis for Containers"
-  },
-  {
-    "name": "collector [OSS]",
-    "url": "https://github.com/banyanops/collector",
-    "description": "Run arbitrary scripts inside containers, and gather useful information"
-  },
-  {
-    "name": "Docker Label Inspector [OSS]",
-    "url": "https://github.com/garethr/docker-label-inspector",
-    "description": "Lint and validate Dockerfile labels"
-  },
-  {
-    "name": "Haskell Dockerfile Linter [OSS]",
-    "url": "https://github.com/lukasmartinelli/hadolint",
-    "description": "A smarter Dockerfile linter that helps you build best practice Docker images"
-  },
-  {
-    "name": "CSScomb [OSS]",
-    "url": "https://github.com/csscomb/csscomb.js",
-    "description": "a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent"
-  },
-  {
-    "name": "CSSLint [OSS]",
-    "url": "https://github.com/CSSLint/csslint",
-    "description": "Does basic syntax checking and finds problematic patterns or signs of inefficiency"
-  },
-  {
-    "name": "CSS Stats [OSS]",
-    "url": "https://github.com/cssstats/cssstats",
-    "description": "Potentially interesting stats on stylesheets"
-  },
-  {
-    "name": "Parker [OSS]",
-    "url": "https://github.com/katiefenn/parker",
-    "description": "Stylesheet analysis tool"
-  },
-  {
-    "name": "scsslint [OSS]",
-    "url": "https://github.com/brigade/scss-lint",
-    "description": "Linter for SCSS files"
-  },
-  {
-    "name": "Specificity Graph [OSS]",
-    "url": "https://github.com/pocketjoso/specificity-graph",
-    "description": "CSS Specificity Graph Generator"
-  },
-  {
-    "name": "Stylelint [OSS]",
-    "url": "http://stylelint.io/",
-    "description": "Linter for SCSS/CSS files"
-  },
-  {
     "name": "credo [OSS]",
     "url": "https://github.com/rrrene/credo",
     "description": "A static code analysis tool with a focus on code consistency and teaching."
@@ -270,16 +225,6 @@
     "description": "A static analysis tool to help developers write Haxe code that adheres to a coding standard."
   },
   {
-    "name": "HTMLHint [OSS]",
-    "url": "https://github.com/yaniswang/HTMLHint",
-    "description": "A Static Code Analysis Tool for HTML"
-  },
-  {
-    "name": "HTML Inspector [OSS]",
-    "url": "https://github.com/philipwalton/html-inspector",
-    "description": "HTML Inspector is a code quality tool to help you and your team write better markup."
-  },
-  {
     "name": "Checker Framework [OSS]",
     "url": "https://github.com/typetools/checker-framework/",
     "description": "Pluggable type-checking for Java http://checkerframework.org/"
@@ -323,11 +268,6 @@
     "name": "OWASP Dependency Check [OSS]",
     "url": "https://www.owasp.org/index.php/OWASP_Dependency_Check",
     "description": "Checks dependencies for known, publicly disclosed, vulnerabilities."
-  },
-  {
-    "name": "PMD [OSS]",
-    "url": "https://pmd.github.io/",
-    "description": "A Java source code analyzer"
   },
   {
     "name": "aether [OSS]",
@@ -403,16 +343,6 @@
     "name": "luacheck [OSS]",
     "url": "https://github.com/mpeterv/luacheck",
     "description": "A tool for linting and static analysis of Lua code."
-  },
-  {
-    "name": "portlint [OSS]",
-    "url": "https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports",
-    "description": "A verifier for FreeBSD and DragonFlyBSD port directories"
-  },
-  {
-    "name": "lintian [OSS]",
-    "url": "https://github.com/Debian/lintian",
-    "description": "Static analysis tool for Debian packages"
   },
   {
     "name": "Perl::Critic [OSS]",
@@ -780,21 +710,6 @@
     "description": "A set of tslint rules for static code analysis of Angular 2 TypeScript projects."
   },
   {
-    "name": "checkmake [OSS]",
-    "url": "https://github.com/mrtazz/checkmake",
-    "description": "Linter / Analyzer for Makefiles"
-  },
-  {
-    "name": "codechecker [OSS]",
-    "url": "https://github.com/Ericsson/codechecker",
-    "description": "a defect database and viewer extension for the Clang Static Analyzer"
-  },
-  {
-    "name": "qark [OSS]",
-    "url": "https://github.com/linkedin/qark",
-    "description": "Tool to look for several security related Android application vulnerabilities"
-  },
-  {
     "name": "Axivion Bauhaus Suite [PROPRIETARY]",
     "url": "https://www.axivion.com/en/products-services-9#products_bauhaussuite",
     "description": "Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95"
@@ -850,6 +765,11 @@
     "description": "Facebook's tools for code analysis, visualizations, or style-preserving source transformation for many languages"
   },
   {
+    "name": "PMD [OSS]",
+    "url": "https://pmd.github.io/",
+    "description": "A source code analyzer for Java, Javascript, PLSQL, XML, XSL and others"
+  },
+  {
     "name": "pre-commit [OSS]",
     "url": "https://github.com/pre-commit/pre-commit",
     "description": "A framework for managing and maintaining multi-language pre-commit hooks."
@@ -867,7 +787,7 @@
   {
     "name": "SonarQube [OSS]",
     "url": "http://www.sonarqube.org/",
-    "description": "SonarQube is an open platform to manage code quality. "
+    "description": "SonarQube is an open platform to manage code quality."
   },
   {
     "name": "STOKE [OSS]",
@@ -885,29 +805,94 @@
     "description": "XCode provides a pretty decend UI for Clang's static code analyzer (C/C++, Obj-C)"
   },
   {
-    "name": "Tools for C/C++",
-    "url": "https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources",
-    "description": "A list of static analysis tools for C/C++"
+    "name": "checkmake [OSS]",
+    "url": "https://github.com/mrtazz/checkmake",
+    "description": "Linter / Analyzer for Makefiles"
   },
   {
-    "name": "go-tools",
-    "url": "https://github.com/dominikh/go-tools",
-    "description": "A collection of tools and libraries for working with Go code, including linters and static analysis"
+    "name": "codechecker [OSS]",
+    "url": "https://github.com/Ericsson/codechecker",
+    "description": "a defect database and viewer extension for the Clang Static Analyzer"
   },
   {
-    "name": "linters",
-    "url": "https://github.com/mcandre/linters",
-    "description": "An introduction to static code analysis"
+    "name": "clair [OSS]",
+    "url": "https://github.com/coreos/clair",
+    "description": "Vulnerability Static Analysis for Containers"
   },
   {
-    "name": "php-static-analysis-tools",
-    "url": "https://github.com/exakat/php-static-analysis-tools",
-    "description": " A reviewed list of useful PHP static analysis tools"
+    "name": "collector [OSS]",
+    "url": "https://github.com/banyanops/collector",
+    "description": "Run arbitrary scripts inside containers, and gather useful information"
   },
   {
-    "name": "Wikipedia",
-    "url": "http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis",
-    "description": " A list of tools for static code analysis."
+    "name": "Docker Label Inspector [OSS]",
+    "url": "https://github.com/garethr/docker-label-inspector",
+    "description": "Lint and validate Dockerfile labels"
+  },
+  {
+    "name": "Haskell Dockerfile Linter [OSS]",
+    "url": "https://github.com/lukasmartinelli/hadolint",
+    "description": "A smarter Dockerfile linter that helps you build best practice Docker images"
+  },
+  {
+    "name": "CSScomb [OSS]",
+    "url": "https://github.com/csscomb/csscomb.js",
+    "description": "a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent"
+  },
+  {
+    "name": "CSSLint [OSS]",
+    "url": "https://github.com/CSSLint/csslint",
+    "description": "Does basic syntax checking and finds problematic patterns or signs of inefficiency"
+  },
+  {
+    "name": "CSS Stats [OSS]",
+    "url": "https://github.com/cssstats/cssstats",
+    "description": "Potentially interesting stats on stylesheets"
+  },
+  {
+    "name": "Parker [OSS]",
+    "url": "https://github.com/katiefenn/parker",
+    "description": "Stylesheet analysis tool"
+  },
+  {
+    "name": "scsslint [OSS]",
+    "url": "https://github.com/brigade/scss-lint",
+    "description": "Linter for SCSS files"
+  },
+  {
+    "name": "Specificity Graph [OSS]",
+    "url": "https://github.com/pocketjoso/specificity-graph",
+    "description": "CSS Specificity Graph Generator"
+  },
+  {
+    "name": "Stylelint [OSS]",
+    "url": "http://stylelint.io/",
+    "description": "Linter for SCSS/CSS files"
+  },
+  {
+    "name": "HTMLHint [OSS]",
+    "url": "https://github.com/yaniswang/HTMLHint",
+    "description": "A Static Code Analysis Tool for HTML"
+  },
+  {
+    "name": "HTML Inspector [OSS]",
+    "url": "https://github.com/philipwalton/html-inspector",
+    "description": "HTML Inspector is a code quality tool to help you and your team write better markup."
+  },
+  {
+    "name": "portlint [OSS]",
+    "url": "https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports",
+    "description": "A verifier for FreeBSD and DragonFlyBSD port directories"
+  },
+  {
+    "name": "qark [OSS]",
+    "url": "https://github.com/linkedin/qark",
+    "description": "Tool to look for several security related Android application vulnerabilities"
+  },
+  {
+    "name": "lintian [OSS]",
+    "url": "https://github.com/Debian/lintian",
+    "description": "Static analysis tool for Debian packages"
   },
   {
     "name": "Bithound [PROPRIETARY]",
@@ -983,5 +968,30 @@
     "name": "Upsource [PROPRIETARY]",
     "url": "https://www.jetbrains.com/upsource/",
     "description": "Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin."
+  },
+  {
+    "name": "Tools for C/C++",
+    "url": "https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources",
+    "description": "A list of static analysis tools for C/C++"
+  },
+  {
+    "name": "go-tools",
+    "url": "https://github.com/dominikh/go-tools",
+    "description": "A collection of tools and libraries for working with Go code, including linters and static analysis"
+  },
+  {
+    "name": "linters",
+    "url": "https://github.com/mcandre/linters",
+    "description": "An introduction to static code analysis"
+  },
+  {
+    "name": "php-static-analysis-tools",
+    "url": "https://github.com/exakat/php-static-analysis-tools",
+    "description": " A reviewed list of useful PHP static analysis tools"
+  },
+  {
+    "name": "Wikipedia",
+    "url": "http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis",
+    "description": " A list of tools for static code analysis."
   }
 ]
