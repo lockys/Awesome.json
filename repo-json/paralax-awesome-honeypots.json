@@ -93,26 +93,6 @@
     "description": "PHP Script demonstrating a smart honey pot."
   },
   {
-    "name": "HonnyPotter",
-    "url": "https://github.com/MartinIngesen/HonnyPotter",
-    "description": "A WordPress login honeypot for collection and analysis of failed login attempts."
-  },
-  {
-    "name": "HoneyPress",
-    "url": "https://github.com/dustyfresh/HoneyPress",
-    "description": "python based WordPress honeypot in a docker container."
-  },
-  {
-    "name": "wp-smart-honeypot",
-    "url": "https://github.com/freak3dot/wp-smart-honeypot",
-    "description": "WordPress plugin to reduce comment spam with a smarter honeypot."
-  },
-  {
-    "name": "wordpot",
-    "url": "https://github.com/gbrindisi/wordpot",
-    "description": "A WordPress Honeypot."
-  },
-  {
     "name": "Bukkit Honeypot Honeypot",
     "url": "https://github.com/Argomirr/Honeypot",
     "description": "A honeypot plugin for Bukkit."
@@ -141,6 +121,26 @@
     "name": "django-admin-honeypot",
     "url": "https://github.com/dmpayton/django-admin-honeypot",
     "description": "A fake Django admin login screen to notify admins of attempted unauthorized access."
+  },
+  {
+    "name": "HonnyPotter",
+    "url": "https://github.com/MartinIngesen/HonnyPotter",
+    "description": "A WordPress login honeypot for collection and analysis of failed login attempts."
+  },
+  {
+    "name": "HoneyPress",
+    "url": "https://github.com/dustyfresh/HoneyPress",
+    "description": "python based WordPress honeypot in a docker container."
+  },
+  {
+    "name": "wp-smart-honeypot",
+    "url": "https://github.com/freak3dot/wp-smart-honeypot",
+    "description": "WordPress plugin to reduce comment spam with a smarter honeypot."
+  },
+  {
+    "name": "wordpot",
+    "url": "https://github.com/gbrindisi/wordpot",
+    "description": "A WordPress Honeypot."
   },
   {
     "name": "honeyntp",
@@ -227,11 +227,6 @@
     "description": "A low interaction honeypot intended to be run on internal networks."
   },
   {
-    "name": "libemu",
-    "url": "https://github.com/buffer/libemu",
-    "description": "Shellcode emulation library, useful for shellcode detection."
-  },
-  {
     "name": "OFPot",
     "url": "https://github.com/upa/ofpot",
     "description": "OpenFlow Honeypot, redirects traffic for unused IPs to a honeypot. Built on POX."
@@ -247,24 +242,24 @@
     "description": "Botnet command & control monitor."
   },
   {
+    "name": "dnsMole",
+    "url": "https://code.google.com/p/dns-mole/",
+    "description": " analyse dns traffic, and to potentionaly detect botnet C&C server and infected hosts."
+  },
+  {
+    "name": "botsnoopd",
+    "url": "http://botsnoopd.mwcollect.org",
+    "description": "Botnet C2 monitoring"
+  },
+  {
     "name": "ipv6-attack-detector ",
     "url": "https://github.com/mzweilin/ipv6-attack-detector/",
     "description": "Google Summer of Code 2012 project, supported by The Honeynet Project organization."
   },
   {
-    "name": "vEYE",
-    "url": "http://link.springer.com/article/10.1007%2Fs10115-008-0137-3",
-    "description": "behavioral footprinting for self-propagating worm detection and profiling."
-  },
-  {
     "name": "Frida",
     "url": "http://www.frida.re",
     "description": "Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android."
-  },
-  {
-    "name": "DionaeaFR",
-    "url": "https://github.com/rubenespadas/DionaeaFR",
-    "description": "Front Web to Dionaea low-interaction honeypot."
   },
   {
     "name": "HIHAT",
@@ -275,16 +270,6 @@
     "name": "Kippo-Malware",
     "url": "http://bruteforce.gr/kippo-malware",
     "description": "Python script that will download all malicious files stored as URLs in a Kippo SSH honeypot database."
-  },
-  {
-    "name": "Qebek",
-    "url": "https://projects.honeynet.org/sebek/wiki/Qebek",
-    "description": "QEMU based Sebek. As Sebek, it is data capture tool for high interaction honeypot."
-  },
-  {
-    "name": "imalse",
-    "url": "https://github.com/hbhzwj/imalse",
-    "description": "Integrated MALware Simulator and Emulator."
   },
   {
     "name": "Smarthoneypot",
@@ -310,11 +295,6 @@
     "name": "LogAnon",
     "url": "http://code.google.com/p/loganon/",
     "description": "log anonymization library that helps having anonymous logs consistent between logs and network captures."
-  },
-  {
-    "name": "dnsMole",
-    "url": "https://code.google.com/p/dns-mole/",
-    "description": " analyse dns traffic, and to potentionaly detect botnet C&C server and infected hosts."
   },
   {
     "name": "Honeypot-32764",
@@ -347,6 +327,11 @@
     "description": " honeypot for malware that propagates via USB storage devices."
   },
   {
+    "name": "Honeystick ",
+    "url": "http://www.ukhoneynet.org/research/honeystick-howto/",
+    "description": "low interaction honeypot on USB stick"
+  },
+  {
     "name": "Kippo2MySQL",
     "url": "http://bruteforce.gr/kippo2mysql",
     "description": " extracts some very basic stats from Kippo’s text-based log files (a mess to analyze!) and inserts them in a MySQL database."
@@ -375,6 +360,16 @@
     "name": "vmitools",
     "url": "http://libvmi.com/",
     "description": "C library with Python bindings that makes it easy to monitor the low-level details of a running virtual machine."
+  },
+  {
+    "name": "Antivmdetect",
+    "url": "https://github.com/nsmfoo/antivmdetection",
+    "description": "Script to create templates to use with VirtualBox to make vm detection harder."
+  },
+  {
+    "name": "VMCloak",
+    "url": "https://github.com/jbremer/vmcloak",
+    "description": "Automated Virtual Machine Generation and Cloaking for Cuckoo Sandbox."
   },
   {
     "name": "Hexgolems",
@@ -516,11 +511,6 @@
     "description": "A Telnet honeypot designed to track the Mirai botnet."
   },
   {
-    "name": "Antivmdetect",
-    "url": "https://github.com/nsmfoo/antivmdetection",
-    "description": "Script to create templates to use with VirtualBox to make vm detection harder."
-  },
-  {
     "name": "Honeycomb",
     "url": "http://www.icir.org/christian/honeycomb/",
     "description": "Automated signature creation using honeypots."
@@ -546,11 +536,6 @@
     "description": "lightweight authenticated publish-subscribe protocol."
   },
   {
-    "name": "Pylibemu",
-    "url": "https://github.com/buffer/pylibemu",
-    "description": "A Libemu Cython wrapper."
-  },
-  {
     "name": "PHARM",
     "url": "http://www.nepenthespharm.com/",
     "description": "Manage , Report, Analyze your distributed Nepenthes instances."
@@ -559,11 +544,6 @@
     "name": "Impost",
     "url": "http://impost.sourceforge.net/",
     "description": "a network security auditing tool designed to analyze the forensics behind compromised and/or vulnerable daemons."
-  },
-  {
-    "name": "VMCloak",
-    "url": "https://github.com/jbremer/vmcloak",
-    "description": "Automated Virtual Machine Generation and Cloaking for Cuckoo Sandbox."
   },
   {
     "name": "Modern Honeynet Network",
@@ -576,23 +556,9 @@
     "description": "an open source Distributed Intrusion Detection System based on passive sensors."
   },
   {
-    "name": "Cuckoo",
-    "url": "https://cuckoosandbox.org/",
-    "description": "he leading open source automated malware analysis system."
-  },
-  {
-    "name": "Hybrid Analysis",
-    "url": "https://www.hybrid-analysis.com",
-    "description": "a free malware analysis service powered by Payload Security that detects and analyzes unknown threats using a unique Hybrid Analysis technology."
-  },
-  {
     "name": "mwcollectd",
     "url": "https://www.openhub.net/p/mwcollectd",
     "description": "a versatile malware collection daemon, uniting the best features of nepenthes and honeytrap"
-  },
-  {
-    "name": "Honeystick",
-    "url": "http://www.ukhoneynet.org/research/honeystick-howto/"
   },
   {
     "name": "Whireshark Extensions",
@@ -704,10 +670,6 @@
     "url": "http://honeybrid.sourceforge.net"
   },
   {
-    "name": "xebek",
-    "url": "https://code.google.com/p/xebek/"
-  },
-  {
     "name": "Kojoney",
     "url": "http://kojoney.sourceforge.net/"
   },
@@ -794,12 +756,19 @@
     "url": "http://www.cgsecurity.org/"
   },
   {
-    "name": "VirusTotal",
-    "url": "https://www.virustotal.com/"
+    "name": "Sebek",
+    "url": "https://projects.honeynet.org/sebek/",
+    "description": "data capture"
   },
   {
-    "name": "Sebek",
-    "url": "https://projects.honeynet.org/sebek/"
+    "name": "Qebek",
+    "url": "https://projects.honeynet.org/sebek/wiki/Qebek",
+    "description": "QEMU based Sebek. As Sebek, it is data capture tool for high interaction honeypot."
+  },
+  {
+    "name": "xebek",
+    "url": "https://code.google.com/p/xebek/",
+    "description": "Sebek on Xen"
   },
   {
     "name": "HonSSH",
@@ -908,20 +877,8 @@
     "url": "https://bitbucket.org/zaccone/quechua"
   },
   {
-    "name": "Sebek Dataviz",
-    "url": "http://www.honeynet.org/gsoc/project4"
-  },
-  {
     "name": "Artemnesia VoIP",
     "url": "http://artemisa.sourceforge.net"
-  },
-  {
-    "name": "botsnoopd",
-    "url": "http://botsnoopd.mwcollect.org"
-  },
-  {
-    "name": "mysqlpot",
-    "url": "https://github.com/schmalle/mysqlpot"
   },
   {
     "name": "Honeybow",
@@ -982,6 +939,26 @@
     "description": "An emulator for capturing zero-day attacks"
   },
   {
+    "name": "libemu",
+    "url": "https://github.com/buffer/libemu",
+    "description": "Shellcode emulation library, useful for shellcode detection."
+  },
+  {
+    "name": "Pylibemu",
+    "url": "https://github.com/buffer/pylibemu",
+    "description": "A Libemu Cython wrapper."
+  },
+  {
+    "name": "imalse",
+    "url": "https://github.com/hbhzwj/imalse",
+    "description": "Integrated MALware Simulator and Emulator."
+  },
+  {
+    "name": "Cuckoo",
+    "url": "https://cuckoosandbox.org/",
+    "description": "he leading open source automated malware analysis system."
+  },
+  {
     "name": "malwr.com",
     "url": "https://malwr.com/",
     "description": "free malware analysis service and community."
@@ -995,6 +972,15 @@
     "name": "Joebox Cloud",
     "url": "https://jbxcloud.joesecurity.org/login",
     "description": "analyzes the behavior of malicious files including PEs, PDFs, DOCs, PPTs, XLSs, APKs, URLs and MachOs on Windows, Android and Mac OS X for suspicious activities."
+  },
+  {
+    "name": "VirusTotal",
+    "url": "https://www.virustotal.com/"
+  },
+  {
+    "name": "Hybrid Analysis",
+    "url": "https://www.hybrid-analysis.com",
+    "description": "a free malware analysis service powered by Payload Security that detects and analyzes unknown threats using a unique Hybrid Analysis technology."
   },
   {
     "name": "Tango",
@@ -1025,6 +1011,11 @@
     "name": "honeyalarmg2",
     "url": "https://github.com/schmalle/honeyalarmg2",
     "description": "Simplified UI for showing honeypot alarms."
+  },
+  {
+    "name": "DionaeaFR",
+    "url": "https://github.com/rubenespadas/DionaeaFR",
+    "description": "Front Web to Dionaea low-interaction honeypot."
   },
   {
     "name": "Kippo-Graph",
@@ -1079,6 +1070,11 @@
     "description": "Automated Attack Community Graph Construction."
   },
   {
+    "name": "Sebek Dataviz",
+    "url": "http://www.honeynet.org/gsoc/project4",
+    "description": "Sebek data visualization"
+  },
+  {
     "name": "Dionaea and EC2 in 20 Minutes",
     "url": "http://andrewmichaelsmith.com/2012/03/dionaea-honeypot-on-ec2-in-20-minutes/",
     "description": "a tutorial on setting up Dionaea on an EC2 instance"
@@ -1087,5 +1083,10 @@
     "name": "honeypotpi",
     "url": "https://github.com/free5ty1e/honeypotpi",
     "description": "Script for turning a Raspberry Pi into a Honey Pot Pi"
+  },
+  {
+    "name": "vEYE",
+    "url": "http://link.springer.com/article/10.1007%2Fs10115-008-0137-3",
+    "description": "behavioral footprinting for self-propagating worm detection and profiling."
   }
 ]
