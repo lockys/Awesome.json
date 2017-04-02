@@ -3080,11 +3080,6 @@
     "description": "Keep Lambdas warm so to avoid slow cold starts."
   },
   {
-    "name": "SQS FIFO",
-    "url": "https://github.com/vortarian/serverless-sqs-fifo",
-    "description": "Handle the creation of SQS FIFO queues in AWS (stop-gap)."
-  },
-  {
     "name": "ReasonML",
     "url": "https://github.com/ReasonVienna/serverless-reason-plugin",
     "description": "Use ReasonML with Serverless."
@@ -3123,6 +3118,16 @@
     "name": "RDS trigger",
     "url": "https://www.npmjs.com/package/serverless-plugin-rds-trigger",
     "description": "Allows Lambda functions to be triggered by AWS RDS triggers."
+  },
+  {
+    "name": "SQS alarms",
+    "url": "https://github.com/sbstjn/serverless-sqs-alarms-plugin",
+    "description": "Wrapper to setup CloudWatch Alarms on SQS queue length."
+  },
+  {
+    "name": "SQS fifo",
+    "url": "https://github.com/vortarian/serverless-sqs-fifo",
+    "description": "Plugin to handle creation of SQS fifo queue's in aws (stop-gap)."
   },
   {
     "name": "Serverless book",
