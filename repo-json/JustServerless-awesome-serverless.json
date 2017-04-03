@@ -85,6 +85,11 @@
     "description": "A step-by-step guide to creating full-stack serverless apps."
   },
   {
+    "name": "ThoughtWorks Technology Radar",
+    "url": "https://www.thoughtworks.com/radar/tools/serverless-framework",
+    "description": "The Serverless Framework on the ThoughtWorks Technology Radar."
+  },
+  {
     "name": "Just Serverless",
     "url": "http://justserverless.com/blog",
     "description": "Blog about the Serverless framework."
@@ -1387,7 +1392,52 @@
   {
     "name": "Functions as a Service",
     "url": "http://blog.alexellis.io/functions-as-a-service/",
+    "description": "Introduction blog post about the FaaS project."
+  },
+  {
+    "name": "Fighting hype and buzzwords",
+    "url": "https://ascent.atos.net/fighting-hype-buzzwords-using-little-dose-critical-thinking/",
+    "description": "Post about the issues one might face when introducing serverless architectures."
+  },
+  {
+    "name": "Open source project uses Docker for serverless computing",
+    "url": "http://www.infoworld.com/article/3184757/open-source-tools/open-source-project-uses-docker-for-serverless-computing.html",
     "description": "Post about the FaaS project."
+  },
+  {
+    "name": "Serverless v1.10.0",
+    "url": "https://serverless.com/blog/serverless-v1.10.0/",
+    "description": "Announcement blog post for Serverless Framework v1.10.0."
+  },
+  {
+    "name": "API Gateway & Lambda & VPC performance",
+    "url": "https://robertvojta.com/aws-journey-api-gateway-lambda-vpc-performance-452c6932093b",
+    "description": "Post about performance of AWS Lambda and API Gateway when dealing with VPC setups."
+  },
+  {
+    "name": "Why Serverless Computing will create a revolution in cloud technology",
+    "url": "https://datafloq.com/read/7-reasons-serverless-computing-revolution-cloud/2871",
+    "description": "7 reasons why serverless computing will change the cloud technology."
+  },
+  {
+    "name": "Building code.mil for the US Department of Defense",
+    "url": "https://serverless.com/blog/dept-of-defense-doc-bot/",
+    "description": "How the US Department of Defense is streamlining open source contributions with serverless code."
+  },
+  {
+    "name": "Faster Networks + Cheaper Messages => Microservices => Functions => Edge",
+    "url": "http://highscalability.com/blog/2017/3/27/faster-networks-cheaper-messages-microservices-functions-edg.html",
+    "description": "How working with servers and infrastructure changed and will continue to change over time."
+  },
+  {
+    "name": "Serverless Alexa skill for Amazon Echo",
+    "url": "https://sbstjn.com/serverless-alexa-skill-for-amazon-echo-with-aws-lambda.html",
+    "description": "Tutorial how to build a Serverless Alexa skill with the Serverless Framework."
+  },
+  {
+    "name": "Building a REST API with Serverless in Node.js",
+    "url": "https://serverless.com/blog/node-rest-api-with-serverless-lambda-and-dynamodb/",
+    "description": "Building a REST API in Node.js with AWS Lambda, API Gateway, DynamoDB, and the Serverless Framework."
   },
   {
     "name": "Hands on with Serverless v1",
@@ -1648,6 +1698,21 @@
     "name": "Reactathon Day 1: Intro, OpenTable API, Serverless",
     "url": "https://www.youtube.com/watch?v=2MeCKMjZ5wo&feature=youtu.be&t=13m15s",
     "description": "Reactathon talk about the Serverless Framework by David Wells."
+  },
+  {
+    "name": "Application lifecycle management in a serverless world",
+    "url": "https://www.slideshare.net/AmazonWebServices/application-lifecycle-management-in-a-serverless-world-73808231",
+    "description": "How ALM works when dealing with a serverless architecture."
+  },
+  {
+    "name": "Developing provider-independent functions in the serverless world part 1",
+    "url": "https://www.youtube.com/watch?v=HpGt-6MboMw",
+    "description": "Part 1 of the series about provider independent functions in a serverless world."
+  },
+  {
+    "name": "Developing provider-independent functions in the serverless world part 2",
+    "url": "https://www.youtube.com/watch?v=-en0U_nvlio",
+    "description": "Part 2 of the series about provider independent functions in a serverless world."
   },
   {
     "name": "Amazon AWS homepage",
@@ -2565,6 +2630,26 @@
     "description": "Run headless Chrome on AWS Lambda."
   },
   {
+    "name": "Modern koa",
+    "url": "https://github.com/barczaG/serverless-modern-koa",
+    "description": "Template which makes it easy to build koa apps what can be also run on AWS lambda or as a standalone koa server (or in Docker)."
+  },
+  {
+    "name": "Alexa skill",
+    "url": "https://github.com/sbstjn/serverless-alexa-skill",
+    "description": "Serverless example for a custom Amazon Alexa skill."
+  },
+  {
+    "name": "OpenWhisk Slack SMS bot",
+    "url": "https://github.com/ibmets/smsbot",
+    "description": "SMS Bot for Slack using Twilio and OpenWhisk."
+  },
+  {
+    "name": "DynamoDB autoscaling",
+    "url": "https://github.com/trek10inc/dynamodb-autoscaling",
+    "description": "Serverlessly monitor and autoscale DynamoDB."
+  },
+  {
     "name": "DataFire",
     "url": "https://github.com/DataFire/DataFire",
     "description": "Open Integration Framework."
@@ -2643,6 +2728,16 @@
     "name": "Localstack",
     "url": "https://github.com/atlassian/localstack",
     "description": "A fully functional local AWS cloud stack."
+  },
+  {
+    "name": "Azure functions pack",
+    "url": "https://github.com/christopheranderson/azure-functions-pack",
+    "description": "Easily package your Node.js Functions for Azure Functions."
+  },
+  {
+    "name": "Azure Functions",
+    "url": "https://github.com/Azure/Azure-Functions",
+    "description": "Overview repository about Azure Functions."
   },
   {
     "name": "Webpack",
@@ -2985,11 +3080,6 @@
     "description": "Keep Lambdas warm so to avoid slow cold starts."
   },
   {
-    "name": "SQS FIFO",
-    "url": "https://github.com/vortarian/serverless-sqs-fifo",
-    "description": "Handle the creation of SQS FIFO queues in AWS (stop-gap)."
-  },
-  {
     "name": "ReasonML",
     "url": "https://github.com/ReasonVienna/serverless-reason-plugin",
     "description": "Use ReasonML with Serverless."
@@ -3023,6 +3113,21 @@
     "name": "Import swagger",
     "url": "https://github.com/AKIRA-MIYAKE/serverless-import-swagger",
     "description": "Import functions from swagger spec file to serverless.yml."
+  },
+  {
+    "name": "RDS trigger",
+    "url": "https://www.npmjs.com/package/serverless-plugin-rds-trigger",
+    "description": "Allows Lambda functions to be triggered by AWS RDS triggers."
+  },
+  {
+    "name": "SQS alarms",
+    "url": "https://github.com/sbstjn/serverless-sqs-alarms-plugin",
+    "description": "Wrapper to setup CloudWatch Alarms on SQS queue length."
+  },
+  {
+    "name": "SQS fifo",
+    "url": "https://github.com/vortarian/serverless-sqs-fifo",
+    "description": "Plugin to handle creation of SQS fifo queue's in aws (stop-gap)."
   },
   {
     "name": "Serverless book",
