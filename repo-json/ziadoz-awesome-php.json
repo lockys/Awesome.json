@@ -70,9 +70,9 @@
     "description": "A static Composer repository and proxy."
   },
   {
-    "name": "Aura PHP",
-    "url": "http://auraphp.com/",
-    "description": "A framework of independent components."
+    "name": "Aura Framework",
+    "url": "http://auraphp.com/framework/",
+    "description": "A framework built from independent components."
   },
   {
     "name": "CakePHP",
@@ -115,11 +115,6 @@
     "description": "Another framework comprised of individual components (ZF2)."
   },
   {
-    "name": "Radar",
-    "url": "https://github.com/radarphp/Radar.Adr",
-    "description": "An Action-Domain-Responder implementation for PHP."
-  },
-  {
     "name": "Ice",
     "url": "https://www.iceframework.org/",
     "description": "Another simple and fast PHP framework delivered as C-extension."
@@ -138,6 +133,11 @@
     "name": "Symfony CMF",
     "url": "https://github.com/symfony-cmf/symfony-cmf",
     "description": "A Content Management Framework to create custom CMS."
+  },
+  {
+    "name": "Aura",
+    "url": "http://auraphp.com/",
+    "description": "Independent components, fully decoupled from each other and from any framework."
   },
   {
     "name": "CakePHP Plugins",
@@ -180,6 +180,11 @@
     "description": "A StackPHP compatible micro framework."
   },
   {
+    "name": "Radar",
+    "url": "https://github.com/radarphp/Radar.Adr",
+    "description": "An Action-Domain-Responder implementation for PHP."
+  },
+  {
     "name": "Silex",
     "url": "http://silex.sensiolabs.org/",
     "description": "A micro framework built around Symfony components."
@@ -210,6 +215,11 @@
     "description": "A collection of custom views for Slim."
   },
   {
+    "name": "Aura.Router",
+    "url": "https://github.com/auraphp/Aura.Router",
+    "description": "A full-featured routing library."
+  },
+  {
     "name": "Fast Route",
     "url": "https://github.com/nikic/FastRoute",
     "description": "A fast routing library."
@@ -228,6 +238,11 @@
     "name": "Route",
     "url": "https://github.com/thephpleague/route",
     "description": "A routing library built on top of Fast Route."
+  },
+  {
+    "name": "Aura.View",
+    "url": "https://github.com/auraphp/Aura.View",
+    "description": "Provides TemplateView and TwoStepView using PHP as the tempting language, with support for partials, sections, and helpers."
   },
   {
     "name": "Foil",
@@ -488,6 +503,11 @@
     "name": "Streamer",
     "url": "https://github.com/fzaninotto/Streamer",
     "description": "A simple object-orientated stream wrapper library."
+  },
+  {
+    "name": "Aura.Di",
+    "url": "https://github.com/auraphp/Aura.Di",
+    "description": "A serializable dependency injection container with constructor and setter injection, interface and trait awareness, configuration inheritance, and much more."
   },
   {
     "name": "Acclimate",
@@ -1425,6 +1445,16 @@
     "description": "A pure PHP library for reading and writing spreadsheet files (successor of PHPExcel)"
   },
   {
+    "name": "Aura.Sql",
+    "url": "https://github.com/auraphp/Aura.Sql",
+    "description": "Provides an extension to the native PDO along with a profiler and connection locator."
+  },
+  {
+    "name": "Aura.SqlQuery",
+    "url": "https://github.com/auraphp/Aura.SqlQuery",
+    "description": "Independent query builders for MySQL, PostgreSQL, SQLite, and Microsoft SQL Server. Edit"
+  },
+  {
     "name": "Baum",
     "url": "https://github.com/etrepat/baum",
     "description": "A nested set implementation for Eloquent."
@@ -1476,7 +1506,7 @@
   },
   {
     "name": "Spot2",
-    "url": "https://github.com/vlucas/spot2",
+    "url": "https://github.com/spotorm/spot2",
     "description": "A MySQL datamapper ORM."
   },
   {
@@ -1580,6 +1610,11 @@
     "description": "A query library for the Sphinx search engine."
   },
   {
+    "name": "Aura.Cli",
+    "url": "https://github.com/auraphp/Aura.Cli",
+    "description": "Provides the equivalent of request ( Context ) and response ( Stdio ) objects for the command line interface, including Getopt support, and an independent Help object for describing commands."
+  },
+  {
     "name": "Boris",
     "url": "https://github.com/borisrepl/boris",
     "description": "A tiny PHP REPL."
@@ -1648,6 +1683,11 @@
     "name": "ShellWrap",
     "url": "https://github.com/MrRio/shellwrap",
     "description": "A simple command line wrapper library."
+  },
+  {
+    "name": "Aura.Auth",
+    "url": "https://github.com/auraphp/Aura.Auth",
+    "description": "Provides authentication functionality and session tracking using various adapters."
   },
   {
     "name": "Hawk",
@@ -1868,6 +1908,11 @@
     "name": "PHP Units of Measure",
     "url": "https://github.com/triplepoint/php-units-of-measure",
     "description": "A library for converting between units of measure."
+  },
+  {
+    "name": "Aura.Filter",
+    "url": "https://github.com/auraphp/Aura.Filter",
+    "description": "Provides tools to validate and sanitize objects and arrays."
   },
   {
     "name": "Cake Validation",
@@ -2120,8 +2165,9 @@
     "description": "A fast and easy deployer for the PHP world."
   },
   {
-    "name": "Aura Intl",
-    "url": "https://github.com/auraphp/Aura.Intl"
+    "name": "Aura.Intl",
+    "url": "https://github.com/auraphp/Aura.Intl",
+    "description": "Provides internationalization (I18N) tools, specifically package-oriented per-locale message translation."
   },
   {
     "name": "Cake I18n",
@@ -2583,6 +2629,16 @@
     "description": "Peer to peer PHP mentorship organization."
   },
   {
+    "name": "PHP Package Development Standards",
+    "url": "http://php-pds.com",
+    "description": "Package development standards for PHP."
+  },
+  {
+    "name": "PHP School",
+    "url": "https://www.phpschool.io/",
+    "description": "Open Source Learning for PHP."
+  },
+  {
     "name": "PHP Security",
     "url": "http://phpsecurity.readthedocs.io/en/latest/index.html",
     "description": "A guide to PHP security."
@@ -2673,9 +2729,9 @@
     "description": "A book about new PHP features and best practices by Josh Lockhart."
   },
   {
-    "name": "Modernising Legacy Applications in PHP",
+    "name": "Modernizing Legacy Applications in PHP",
     "url": "https://leanpub.com/mlaphp",
-    "description": "A book about modernising legacy PHP applications by Paul M. Jones."
+    "description": "A book about modernizing legacy PHP applications by Paul M. Jones."
   },
   {
     "name": "PHP 7 Upgrade Guide",
