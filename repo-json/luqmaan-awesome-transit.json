@@ -402,7 +402,7 @@
   {
     "name": "gtfs-validator",
     "url": "https://github.com/conveyal/gtfs-validator",
-    "description": "- A GTFS validator based on the Onebusaway GTFS Modules, runs in Java and is faster than the Google provided one."
+    "description": "- A GTFS validator based on the OneBusAway GTFS Modules, runs in Java and is faster than the Google provided one."
   },
   {
     "name": "GFTS Data Package Specification",
@@ -413,26 +413,6 @@
     "name": "gtfs-realtime-bindings",
     "url": "https://github.com/google/gtfs-realtime-bindings",
     "description": "The official bindings for Java, .NET, Node.js, Python, and Ruby generated from the official GTFS-realtime protocol buffer specification."
-  },
-  {
-    "name": "gtfs-rt-dump",
-    "url": "https://github.com/kurtraschke/gtfs-rt-dump",
-    "description": "Converts protocol buffer format to plain text for easy viewing of a GTFS-realtime feed in plain text (for debugging purposes)"
-  },
-  {
-    "name": "gtfsrdb",
-    "url": "https://github.com/mattwigway/gtfsrdb",
-    "description": "A Python tool that supports reading and archiving GTFS-realtime feeds into a database"
-  },
-  {
-    "name": "GTFS-realtime to SQL",
-    "url": "https://github.com/TransitFeeds/GtfsRealTimeToSql",
-    "description": "Parses a GTFS-RealTime feed into an SQL database (used in TransitFeeds.com)"
-  },
-  {
-    "name": "GTFS-realtime Validator",
-    "url": "https://github.com/CUTR-at-USF/gtfs-realtime-validator",
-    "description": "A Java-based tool that validates GTFS-realtime feeds"
   },
   {
     "name": "GTFS-realtime Exporter",
@@ -458,6 +438,21 @@
     "name": "GTFS-realtime Vehicle Positions Consumer/Visualizer Demo",
     "url": "https://github.com/OneBusAway/onebusaway-gtfs-realtime-visualizer/wiki",
     "description": "A Java-based demo project for consuming a GTFS-realtime Vehicle Positions feed and displaying this info on a map."
+  },
+  {
+    "name": "gtfs-realtime-validator",
+    "url": "https://github.com/CUTR-at-USF/gtfs-realtime-validator",
+    "description": "A GTFS-realtime validation tool developed by the Center for Urban Transportation Research at the University of South Florida.  Also includes an integrated version of the gtfs-validator tool."
+  },
+  {
+    "name": "GTFS-realtime to SQL",
+    "url": "https://github.com/TransitFeeds/GtfsRealTimeToSql",
+    "description": "Parses a GTFS-RealTime feed into an SQL database (used in TransitFeeds.com)"
+  },
+  {
+    "name": "gtfsrdb",
+    "url": "https://github.com/CUTR-at-USF/gtfsrdb",
+    "description": "A Python tool that supports reading and archiving GTFS-realtime feeds into a database"
   },
   {
     "name": "SIRI to GTFS-realtime",
@@ -520,6 +515,11 @@
     "description": "Screen-scrapes KCATA’s TransitMaster WebWatch installation to produce a GTFS-realtime feed."
   },
   {
+    "name": "gtfs-rt-dump",
+    "url": "https://github.com/kurtraschke/gtfs-rt-dump",
+    "description": "Converts protocol buffer format to plain text for easy viewing of a GTFS-realtime feed in plain text (for debugging purposes)"
+  },
+  {
     "name": "GTFS-realtime Munin Plugin",
     "url": "https://github.com/OneBusAway/onebusaway-gtfs-realtime-munin-plugin",
     "description": "Provides a Munin plugin for logging information about a GTFS-realtime feed."
@@ -530,12 +530,17 @@
     "description": "Provides a Nagios plugin for monitoring a GTFS-realtime feed"
   },
   {
+    "name": "GTFS-realtime-test-service",
+    "url": "https://github.com/CUTR-at-USF/gtfs-realtime-test-service",
+    "description": "A tool for mocking GTFS-realtime feed content (e.g., for use in testing a GTFS-realtime consuming application)"
+  },
+  {
     "name": "SIRI API",
     "url": "https://github.com/OneBusAway/onebusaway/wiki/SIRI-Resources",
     "description": "Java classes generated from the v1.0 and v1.3 SIRI schemas."
   },
   {
-    "name": "[SIRI 2.0 API] (https://github.com/laidig/siri-20-java)",
+    "name": "SIRI 2.0 API",
     "url": "https://github.com/laidig/siri-20-java",
     "description": "Java classes generated from the v2.0 SIRI schemas."
   },
@@ -552,6 +557,16 @@
   {
     "name": "King County Metro Legacy AVL to SIRI",
     "url": "https://github.com/bdferris/onebusaway-king-county-metro/tree/master/onebusaway-king-county-metro-legacy-avl-to-siri",
-    "description": "Java-based tool to convert King County Metro's Legacy AVL format to GTFS-realtime."
+    "description": "Java-based tool to convert King County Metro's Legacy AVL format to SIRI."
+  },
+  {
+    "name": "SIRI REST Client",
+    "url": "https://github.com/CUTR-at-USF/SiriRestClient/wiki",
+    "description": "An open-source Android library for interacting with the RESTful SIRI interface for real-time transit data, such as that currently being used by the MTA Bus Time API."
+  },
+  {
+    "name": "SIRI 1.3 POJOs (Android-compatible)",
+    "url": "https://github.com/CUTR-at-USF/onebusaway-siri-api-v13-pojos/wiki",
+    "description": "Android-compatible Plain Old Java Objects (POJOSs) used for data binding (deserliazing XML/JSON) responses for SIRI v1.3 APIs.  Used by the SIRI REST Client."
   }
 ]
