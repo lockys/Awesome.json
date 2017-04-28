@@ -12,7 +12,7 @@
     "url": "http://kotlinlang.org/docs/reference/"
   },
   {
-    "name": "Slack (6200+ users)",
+    "name": "Slack (6700+ users)",
     "url": "http://kotlinslackin.herokuapp.com/"
   },
   {
@@ -459,6 +459,11 @@
     "description": "Static code analysis for Kotlin."
   },
   {
+    "name": "cypressious/KotlinW",
+    "url": "https://github.com/cypressious/KotlinW",
+    "description": "A small wrapper for the Kotlin compiler that can be used to execute .kts scripts."
+  },
+  {
     "name": "edvin/tornadofx",
     "url": "https://github.com/edvin/tornadofx",
     "description": "Lightweight JavaFX Framework for Kotlin/"
@@ -594,11 +599,6 @@
     "description": "Progress for Kotlin."
   },
   {
-    "name": "leprosus/kotlin-cli",
-    "url": "https://github.com/leprosus/kotlin-cli",
-    "description": "Kotlin-CLI - command line interface options parser for Kotlin."
-  },
-  {
     "name": "sargunster/CakeParse",
     "url": "https://github.com/sargunster/CakeParse",
     "description": "Simple parser combinator library for Kotlin."
@@ -649,11 +649,6 @@
     "description": "Kotlin implementation of Groovy Truth."
   },
   {
-    "name": "elect86/kotlin-unsigned",
-    "url": "https://github.com/elect86/kotlin-unsigned",
-    "description": "Boxed unsigned support, Ubyte, Uint, Ulong and Ushort."
-  },
-  {
     "name": "Jire/Strukt",
     "url": "https://github.com/Jire/Strukt",
     "description": "Value types on the JVM, today!"
@@ -672,11 +667,6 @@
     "name": "soywiz/korui",
     "url": "https://github.com/soywiz/korui",
     "description": "Korui: Kotlin cORoutines User Interfaces: korio + kimage + korui"
-  },
-  {
-    "name": "jimschubert/kopper",
-    "url": "https://github.com/jimschubert/kopper",
-    "description": "A simple Kotlin option parser"
   },
   {
     "name": "moshbit/Kotlift",
@@ -734,34 +724,54 @@
     "description": "Flexible and easy to use config library written in kotlin."
   },
   {
-    "name": "elect86/glm",
-    "url": "https://github.com/elect86/glm",
-    "description": "Porting of cpp g-truck glm, opengl math lib"
+    "name": "kotlin-graphics/glm",
+    "url": "https://github.com/kotlin-graphics/glm",
+    "description": "g-truck glm port, opengl mathematics library"
   },
   {
-    "name": "elect86/ovr",
-    "url": "https://github.com/elect86/ovr",
+    "name": "kotlin-graphics/kotlin-unsigned",
+    "url": "https://github.com/kotlin-graphics/kotlin-unsigned",
+    "description": "Unsigned operators and boxed types (Ubyte, Uint, Ulong and Ushort) for unsigned support."
+  },
+  {
+    "name": "kotlin-graphics/gli",
+    "url": "https://github.com/kotlin-graphics/gli",
+    "description": "g-truck gli port, image library"
+  },
+  {
+    "name": "kotlin-graphics/uno-sdk",
+    "url": "https://github.com/kotlin-graphics/uno-sdk",
+    "description": "Unofficial OpenGL SDK"
+  },
+  {
+    "name": "kotlin-graphics/ovr",
+    "url": "https://github.com/kotlin-graphics/ovr",
     "description": "Oculus binding"
   },
   {
-    "name": "elect86/openvr",
-    "url": "https://github.com/elect86/openvr",
-    "description": "Openvr binding"
-  },
-  {
-    "name": "elect86/kt",
-    "url": "https://github.com/elect86/kt",
-    "description": "gli, port of cpp g-truck gli, texture util"
+    "name": "kotlin-graphics/openvr",
+    "url": "https://github.com/kotlin-graphics/openvr",
+    "description": "OpenVR binding"
   },
   {
     "name": "java-graphics/assimp",
     "url": "https://github.com/java-graphics/assimp",
-    "description": "Java Open Asset Import Library"
+    "description": "Open Asset Import Library port"
   },
   {
     "name": "GlimpseFramework/glimpse-framework",
     "url": "https://github.com/GlimpseFramework/glimpse-framework",
     "description": "OpenGL made simple."
+  },
+  {
+    "name": "java-opengl-labs/modern-jogl-examples",
+    "url": "https://github.com/java-opengl-labs/modern-jogl-examples",
+    "description": "port of 'Learning Modern 3D Graphic Programming' by J.L.McKesson (jogl)"
+  },
+  {
+    "name": "java-opengl-labs/learn-OpenGL",
+    "url": "https://github.com/java-opengl-labs/learn-OpenGL",
+    "description": "port of https://learnopengl.com/ tutorial (lwjgl)"
   },
   {
     "name": "ligee/kotlin-jupyter",
@@ -782,6 +792,21 @@
     "name": "kyonifer/golem",
     "url": "https://github.com/kyonifer/golem",
     "description": "Golem is a scientific environment for Kotlin that emphasizes language/platform interop, performance, and flexibility."
+  },
+  {
+    "name": "leprosus/kotlin-cli",
+    "url": "https://github.com/leprosus/kotlin-cli",
+    "description": "Kotlin-CLI - command line interface options parser for Kotlin."
+  },
+  {
+    "name": "jimschubert/kopper",
+    "url": "https://github.com/jimschubert/kopper",
+    "description": "A simple Kotlin option parser"
+  },
+  {
+    "name": "xenomachina/kotlin-argparser",
+    "url": "https://github.com/xenomachina/kotlin-argparser",
+    "description": "Easy to use and concise yet powerful and robust command line argument parsing for Kotlin."
   },
   {
     "name": "sdeleuze/spring-boot-kotlin-demo",
@@ -822,6 +847,16 @@
     "name": "spolnik/JAlgoArena",
     "url": "https://github.com/spolnik/JAlgoArena",
     "description": "JAlgoArena is a highly scalable programming contest platform which you can host on own infrastructure. It allows to define new problems and solve them in Kotlin and Java."
+  },
+  {
+    "name": "mixitconf/mixit",
+    "url": "https://github.com/mixitconf/mixit",
+    "description": "MiXiT website"
+  },
+  {
+    "name": "derveloper/kiny",
+    "url": "https://github.com/derveloper/kiny",
+    "description": "Your super simple private serverless service running your kotlin functions like AWS lambda."
   },
   {
     "name": "cbeust/kobalt",
@@ -1279,8 +1314,48 @@
     "description": "Andrew Binstock"
   },
   {
+    "name": "Use Kotlin with npm, webpack and react",
+    "url": "http://kotlin.link/articles/Use-Kotlin-with-npm-webpack-and-react.html",
+    "description": "Dmitry Jemerov"
+  },
+  {
     "name": "Kotlin 1.1.2 is out",
     "url": "http://kotlin.link/articles/Kotlin-1-1-2-is-out.html",
+    "description": "Dmitry Jemerov"
+  },
+  {
+    "name": "Bytecode behind coroutines in Kotlin",
+    "url": "http://kotlin.link/articles/Bytecode-behind-coroutines-in-Kotlin.html",
+    "description": "Eugene Petrenko"
+  },
+  {
+    "name": "Kotlin 1.1 Released with JavaScript Support, Coroutines and more",
+    "url": "http://kotlin.link/articles/Kotlin-1-1-Released-with-JavaScript-Support-Coroutines-and-more.html",
+    "description": "Roman Belov"
+  },
+  {
+    "name": "Kotlin 1.1 Event",
+    "url": "http://kotlin.link/articles/Kotlin-1-1-Event.html",
+    "description": "Alina Dolgikh"
+  },
+  {
+    "name": "Gradle Script Kotlin 0.8.0 Release Notes",
+    "url": "http://kotlin.link/articles/Gradle-Script-Kotlin-0-8-0-Release-Notes.html",
+    "description": "Rodrigo B. de Oliveira"
+  },
+  {
+    "name": "Kotlin 1.0.7 is out",
+    "url": "http://kotlin.link/articles/Kotlin-1-0-7-is-out.html",
+    "description": "Dmitry Jemerov"
+  },
+  {
+    "name": "Reactor Kotlin Extensions 1.0.0.M1 released",
+    "url": "http://kotlin.link/articles/Reactor-Kotlin-Extensions-1-0-0-M1-released.html",
+    "description": "Sébastien Deleuze"
+  },
+  {
+    "name": "Kotlin 1.1 Beta 2 is here",
+    "url": "http://kotlin.link/articles/Kotlin-1-1-Beta-2-is-here.html",
     "description": "Dmitry Jemerov"
   },
   {
@@ -1317,6 +1392,31 @@
     "name": "I wrote my website in Kotlin",
     "url": "http://kotlin.link/articles/I-wrote-my-website-in-Kotlin.html",
     "description": "Lewis Rhine"
+  },
+  {
+    "name": "Corda: Kotlin",
+    "url": "http://kotlin.link/articles/Corda-Kotlin.html",
+    "description": "Mike Hearn"
+  },
+  {
+    "name": "Kotlin 1.1 Beta Is Here!",
+    "url": "http://kotlin.link/articles/Kotlin-1-1-Beta-Is-Here.html",
+    "description": "Andrey Breslav"
+  },
+  {
+    "name": " Experimental status of coroutines in 1.1 and related compatibility concerns",
+    "url": "http://kotlin.link/articles/Experimental-status-of-coroutines-in-1-1-and-related-compatibility-concerns.html",
+    "description": "Andrey Breslav"
+  },
+  {
+    "name": "Kotlin 1.1: What’s coming in the standard library",
+    "url": "http://kotlin.link/articles/Kotlin-1-1-What%E2%80%99s-coming-in-the-standard-library.html",
+    "description": "ilya.gorbunov"
+  },
+  {
+    "name": "Announcing the Support Program for Kotlin User Groups and Events",
+    "url": "http://kotlin.link/articles/Announcing-the-Support-Program-for-Kotlin-User-Groups-and-Events.html",
+    "description": "Alina Dolgikh"
   },
   {
     "name": "Data Binding in Anko",
