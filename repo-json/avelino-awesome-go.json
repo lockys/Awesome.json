@@ -155,6 +155,11 @@
     "description": "Library for keeping track of users, login states and permissions. Uses secure cookies and bcrypt."
   },
   {
+    "name": "session",
+    "url": "https://github.com/icza/session",
+    "description": "Go session management for web servers (including support for Google App Engine - GAE)."
+  },
+  {
     "name": "traefik",
     "url": "https://github.com/containous/traefik",
     "description": "A reverse proxy and load balancer with support for multiple backends."
@@ -1069,6 +1074,11 @@
     "description": "A port of Google's \"Jump\" Consistent Hash function."
   },
   {
+    "name": "go-kit",
+    "url": "https://github.com/go-kit/kit",
+    "description": "A Microservice toolkit with support for service discovery, load balancing, pluggable transports, request tracking, etc."
+  },
+  {
     "name": "gorpc",
     "url": "https://github.com/valyala/gorpc",
     "description": "Simple, fast and scalable RPC library for high load."
@@ -1402,6 +1412,11 @@
     "name": "Leaf",
     "url": "https://github.com/name5566/leaf",
     "description": "A lightweight game server framework"
+  },
+  {
+    "name": "Pixel",
+    "url": "https://github.com/faiface/pixel",
+    "description": "A hand-crafted 2D game library in Go"
   },
   {
     "name": "raylib-go",
@@ -1944,6 +1959,11 @@
     "description": "The lightweight event bus with async compatibility."
   },
   {
+    "name": "Glue",
+    "url": "https://github.com/desertbit/glue",
+    "description": "Robust Go and Javascript Socket Library (Alternative to Socket.io)."
+  },
+  {
     "name": "go-longpoll",
     "url": "https://github.com/ventu-io/go-longpoll",
     "description": "PubSub with long polling."
@@ -1959,9 +1979,24 @@
     "description": "the official Go package for NSQ"
   },
   {
+    "name": "go-socket.io",
+    "url": "https://github.com/googollee/go-socket.io",
+    "description": "socket.io library for golang, a realtime application framework."
+  },
+  {
     "name": "go-vitotrol",
     "url": "https://github.com/maxatome/go-vitotrol",
     "description": "A client library to Viessmann Vitotrol web service."
+  },
+  {
+    "name": "golongpoll",
+    "url": "https://github.com/jcuga/golongpoll",
+    "description": "HTTP longpoll server library that makes web pub-sub simple."
+  },
+  {
+    "name": "goose",
+    "url": "https://github.com/ian-kent/goose",
+    "description": "Server Sent Events in Go"
   },
   {
     "name": "gopush-cluster",
@@ -2109,6 +2144,11 @@
     "description": "Implementation of Universally Unique Identifier (UUID). Supported both creation and parsing of UUIDs."
   },
   {
+    "name": "gofakeit",
+    "url": "https://github.com/brianvoe/gofakeit",
+    "description": "Random data generator written in go"
+  },
+  {
     "name": "gopsutil",
     "url": "https://github.com/shirou/gopsutil",
     "description": "A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc)."
@@ -2162,6 +2202,11 @@
     "name": "uuid",
     "url": "https://github.com/agext/uuid",
     "description": "Generate, encode, and decode UUIDs v1 with fast or cryptographic-quality random node identifier."
+  },
+  {
+    "name": "VarHandler",
+    "url": "https://github.com/azr/generators/tree/master/varhandler",
+    "description": "Generate boilerplate http input and ouput handling."
   },
   {
     "name": "werr",
@@ -4207,19 +4252,9 @@
     "description": "An ideal RESTful web framework for Go."
   },
   {
-    "name": "alien",
-    "url": "https://github.com/gernest/alien",
-    "description": "A lightweight and  fast http router from outer space"
-  },
-  {
     "name": "Beego",
     "url": "https://github.com/astaxie/beego",
     "description": "beego is an open-source, high-performance web framework for the Go programming language."
-  },
-  {
-    "name": "Bone",
-    "url": "https://github.com/go-zoo/bone",
-    "description": "Lightning Fast HTTP Multiplexer."
   },
   {
     "name": "Buffalo",
@@ -4227,24 +4262,9 @@
     "description": "Bringing the productivity of Rails to Go!"
   },
   {
-    "name": "Bxog",
-    "url": "https://github.com/claygod/Bxog",
-    "description": "Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters."
-  },
-  {
-    "name": "chi",
-    "url": "https://github.com/pressly/chi",
-    "description": "Small, fast and expressive HTTP router built on net/context."
-  },
-  {
     "name": "Echo",
     "url": "https://github.com/labstack/echo",
     "description": "High performance, minimalist Go web framework."
-  },
-  {
-    "name": "fasthttprouter",
-    "url": "https://github.com/buaazp/fasthttprouter",
-    "description": "A high performance router forked from httprouter. The first router fit for fasthttp."
   },
   {
     "name": "Fireball",
@@ -4272,19 +4292,9 @@
     "description": "Microservice toolkit used by the New York Times."
   },
   {
-    "name": "Glue",
-    "url": "https://github.com/desertbit/glue",
-    "description": "Robust Go and Javascript Socket Library (Alternative to Socket.io)."
-  },
-  {
     "name": "go-json-rest",
     "url": "https://github.com/ant0ine/go-json-rest",
     "description": "A quick and easy way to setup a RESTful JSON API."
-  },
-  {
-    "name": "go-kit",
-    "url": "https://github.com/go-kit/kit",
-    "description": "A Microservice toolkit with support for service discovery, load balancing, pluggable transports, request tracking, etc."
   },
   {
     "name": "go-relax",
@@ -4297,11 +4307,6 @@
     "description": "A small and evil REST framework for Go."
   },
   {
-    "name": "go-socket.io",
-    "url": "https://github.com/googollee/go-socket.io",
-    "description": "socket.io library for golang, a realtime application framework."
-  },
-  {
     "name": "goa",
     "url": "https://github.com/raphael/goa",
     "description": "Framework for developing microservices based on the design of Ruby's Praxis."
@@ -4312,24 +4317,9 @@
     "description": "A minimalistic REST API server in Go."
   },
   {
-    "name": "gocraft/web",
-    "url": "https://github.com/gocraft/web",
-    "description": "A mux and middleware package in Go."
-  },
-  {
-    "name": "Goji",
-    "url": "https://github.com/goji/goji",
-    "description": "Goji is a minimalistic and flexible HTTP request multiplexer with support for net/context."
-  },
-  {
     "name": "Golf",
     "url": "https://github.com/dinever/golf",
     "description": "Golf is a fast, simple and lightweight micro-web framework for Go. It comes with powerful features and has no dependencies other than the Go Standard Library."
-  },
-  {
-    "name": "golongpoll",
-    "url": "https://github.com/jcuga/golongpoll",
-    "description": "HTTP longpoll server library that makes web pub-sub simple."
   },
   {
     "name": "Gondola",
@@ -4342,31 +4332,6 @@
     "description": "A fast Go web framework with input mapping/validation and (DI) Dependency Injection"
   },
   {
-    "name": "goose",
-    "url": "https://github.com/ian-kent/goose",
-    "description": "Server Sent Events in Go"
-  },
-  {
-    "name": "Gorilla",
-    "url": "https://github.com/gorilla/",
-    "description": "Gorilla is a web toolkit for the Go programming language."
-  },
-  {
-    "name": "httprouter",
-    "url": "https://github.com/julienschmidt/httprouter",
-    "description": "A high performance router. Use this and the standard http handlers to form a very high performance web framework."
-  },
-  {
-    "name": "httptreemux",
-    "url": "https://github.com/dimfeld/httptreemux",
-    "description": "High-speed, flexible tree-based HTTP router for Go. Inspiration from httprouter."
-  },
-  {
-    "name": "lars",
-    "url": "https://github.com/go-playground/lars",
-    "description": "Is a lightweight, fast and extensible zero allocation HTTP router for Go used to create customizable frameworks."
-  },
-  {
     "name": "Macaron",
     "url": "https://github.com/go-macaron/macaron",
     "description": "Macaron is a high productive and modular design web framework in Go."
@@ -4377,34 +4342,14 @@
     "description": "Mango is a modular web-application framework for Go, inspired by Rack, and PEP333."
   },
   {
-    "name": "medeina",
-    "url": "https://github.com/imdario/medeina",
-    "description": "Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba."
-  },
-  {
     "name": "Microservice",
     "url": "https://github.com/claygod/microservice",
     "description": "The framework for the creation of microservices, written in Golang."
   },
   {
-    "name": "mux",
-    "url": "https://github.com/gorilla/mux",
-    "description": "A powerful URL router and dispatcher for golang."
-  },
-  {
     "name": "neo",
     "url": "https://github.com/ivpusic/neo",
     "description": "Neo is minimal and fast Go Web Framework with extremely simple API."
-  },
-  {
-    "name": "ozzo-routing",
-    "url": "https://github.com/go-ozzo/ozzo-routing",
-    "description": "A high-performance HTTP router and Web framework supporting routes with regular expressions. Comes with full support for quickly building a RESTful API application."
-  },
-  {
-    "name": "pat",
-    "url": "https://github.com/bmizerany/pat",
-    "description": "Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra."
   },
   {
     "name": "Resoursea",
@@ -4432,16 +4377,6 @@
     "description": "lightweight, open-source web framework for building high-performance, data-driven web applications."
   },
   {
-    "name": "session",
-    "url": "https://github.com/icza/session",
-    "description": "Go session management for web servers (including support for Google App Engine - GAE)."
-  },
-  {
-    "name": "Siesta",
-    "url": "https://github.com/VividCortex/siesta",
-    "description": "Composable framework to write middleware and handlers"
-  },
-  {
     "name": "tango",
     "url": "https://github.com/lunny/tango",
     "description": "Micro & pluggable web framework for Go."
@@ -4462,26 +4397,6 @@
     "description": "A lightweight MVC framework for Go(Golang)."
   },
   {
-    "name": "VarHandler",
-    "url": "https://github.com/azr/generators/tree/master/varhandler",
-    "description": "Generate boilerplate http input and ouput handling."
-  },
-  {
-    "name": "vestigo",
-    "url": "https://github.com/husobee/vestigo",
-    "description": " A performant, stand-alone, HTTP compliant URL Router for go web applications."
-  },
-  {
-    "name": "Volatile",
-    "url": "https://github.com/volatile/core",
-    "description": "Minimalist middleware stack promoting flexibility, good practices and clean code."
-  },
-  {
-    "name": "xmux",
-    "url": "https://github.com/rs/xmux",
-    "description": "A high performance muxer based on httprouter with net/context support."
-  },
-  {
     "name": "YARF",
     "url": "https://github.com/yarf-framework/yarf",
     "description": "Fast micro-framework designed to build REST APIs and web services in a fast and simple way."
@@ -4490,11 +4405,6 @@
     "name": "Zerver",
     "url": "https://github.com/cosiner/zerver",
     "description": "Zerver is an expressive, modular, feature completed RESTful framework."
-  },
-  {
-    "name": "zeus",
-    "url": "https://github.com/daryl/zeus",
-    "description": "A very simple and fast HTTP router for Go."
   },
   {
     "name": "CORS",
@@ -4575,6 +4485,106 @@
     "name": "stats",
     "url": "https://github.com/thoas/stats",
     "description": "A Go middleware that stores various information about your web application."
+  },
+  {
+    "name": "Volatile",
+    "url": "https://github.com/volatile/core",
+    "description": "Minimalist middleware stack promoting flexibility, good practices and clean code."
+  },
+  {
+    "name": "alien",
+    "url": "https://github.com/gernest/alien",
+    "description": "A lightweight and fast http router from outer space"
+  },
+  {
+    "name": "Bone",
+    "url": "https://github.com/go-zoo/bone",
+    "description": "Lightning Fast HTTP Multiplexer."
+  },
+  {
+    "name": "Bxog",
+    "url": "https://github.com/claygod/Bxog",
+    "description": "Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters."
+  },
+  {
+    "name": "chi",
+    "url": "https://github.com/pressly/chi",
+    "description": "Small, fast and expressive HTTP router built on net/context."
+  },
+  {
+    "name": "fasthttprouter",
+    "url": "https://github.com/buaazp/fasthttprouter",
+    "description": "A high performance router forked from httprouter. The first router fit for fasthttp."
+  },
+  {
+    "name": "gocraft/web",
+    "url": "https://github.com/gocraft/web",
+    "description": "A mux and middleware package in Go."
+  },
+  {
+    "name": "Goji",
+    "url": "https://github.com/goji/goji",
+    "description": "Goji is a minimalistic and flexible HTTP request multiplexer with support for net/context."
+  },
+  {
+    "name": "httprouter",
+    "url": "https://github.com/julienschmidt/httprouter",
+    "description": "A high performance router. Use this and the standard http handlers to form a very high performance web framework."
+  },
+  {
+    "name": "httptreemux",
+    "url": "https://github.com/dimfeld/httptreemux",
+    "description": "High-speed, flexible tree-based HTTP router for Go. Inspiration from httprouter."
+  },
+  {
+    "name": "lars",
+    "url": "https://github.com/go-playground/lars",
+    "description": "Is a lightweight, fast and extensible zero allocation HTTP router for Go used to create customizable frameworks."
+  },
+  {
+    "name": "medeina",
+    "url": "https://github.com/imdario/medeina",
+    "description": "Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba."
+  },
+  {
+    "name": "mux",
+    "url": "https://github.com/gorilla/mux",
+    "description": "A powerful URL router and dispatcher for golang."
+  },
+  {
+    "name": "ozzo-routing",
+    "url": "https://github.com/go-ozzo/ozzo-routing",
+    "description": "An extremely fast Go (golang) HTTP router that supports regular expression route matching. Comes with full support for building RESTful APIs."
+  },
+  {
+    "name": "pat",
+    "url": "https://github.com/bmizerany/pat",
+    "description": "Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra."
+  },
+  {
+    "name": "pure",
+    "url": "https://github.com/go-playground/pure",
+    "description": "Is a lightweight HTTP router that sticks to the std \"net/http\" implementation"
+  },
+  {
+    "name": "Siesta",
+    "url": "https://github.com/VividCortex/siesta",
+    "description": "Composable framework to write middleware and handlers"
+  },
+  {
+    "name": "vestigo",
+    "url": "https://github.com/husobee/vestigo",
+    "description": " A performant, stand-alone, HTTP compliant URL Router for go web applications."
+  },
+  {
+    "name": "xmux",
+    "url": "https://github.com/rs/xmux",
+    "description": "A high performance muxer based on httprouter with net/context support."
+  },
+  {
+    "name": "zeus",
+    "url": "https://github.com/daryl/zeus",
+    "description": "A very simple and fast HTTP router for Go."
   },
   {
     "name": "apicompat",
