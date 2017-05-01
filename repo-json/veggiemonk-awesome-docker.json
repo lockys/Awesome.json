@@ -18,20 +18,12 @@
     "url": "http://etherealmind.com/basics-docker-containers-hypervisors-coreos/"
   },
   {
-    "name": "Watch the video: Docker for Developers (54:26) by @jpetazzo",
-    "url": "https://www.youtube.com/watch?v=FdkNAjjO5yQ"
-  },
-  {
     "name": "Docker Jumpstart: a quick introduction",
     "url": "https://github.com/odewahn/docker-jumpstart/"
   },
   {
     "name": "Docker Curriculum: A comprehensive tutorial for getting started with Docker. Teaches how to use Docker and deploy dockerized apps on AWS with Elastic Beanstalk and Elastic Container Service.",
     "url": "https://prakhar.me/docker-curriculum/"
-  },
-  {
-    "name": "Try Panamax: Docker Management for Humans It will install a CoreOS VM with VirtualBox and has nice front end",
-    "url": "http://panamax.io/"
   },
   {
     "name": "Docker Toolbox",
@@ -43,16 +35,9 @@
     "url": "https://github.com/wsargent/docker-cheat-sheet"
   },
   {
-    "name": "Project Web Dev : (Article series) How to create your own website based on Docker",
-    "url": "http://project-webdev.blogspot.de"
-  },
-  {
-    "name": "Docker Containers on the desktop by @jessfraz) The funniest way to learn about docker! (Tips: checkout her dotfiles and her dockerfiles)",
-    "url": "https://blog.jessfraz.com/post/docker-containers-on-the-desktop/"
-  },
-  {
-    "name": "Container Hacks and Fun Images by @jessfraz @ DockerCon 2015 MUST WATCH VIDEO (38:50)",
-    "url": "https://www.youtube.com/watch?v=1qlLUf7KtAw"
+    "name": "Docker Containers on the Desktop",
+    "url": "https://blog.jessfraz.com/post/docker-containers-on-the-desktop/",
+    "description": "The funniest way to learn about docker by @jessfraz who also gave a presentation about it @ DockerCon 2015 (Tips: checkout her dotfiles and her dockerfiles)"
   },
   {
     "name": "Learn Docker Full environment set up, screenshots, step-by-step tutorial and more resources (video, articles, cheat sheets) by @dwyl",
@@ -382,12 +367,7 @@
     "description": "Tool to improve performance when using Docker on Mac OS X and your volume has several folders and files like gulp projects for instance. By @EugenMayer"
   },
   {
-    "name": "Dray",
-    "url": "http://dray.it/",
-    "description": "Dray is an engine for managing the execution of container-based workflows. Docker Workflow Engine - UNIX pipes for Docker by @CenturyLinkLabs"
-  },
-  {
-    "name": "[Stacker] (https://github.com/stacker/stacker-cli)",
+    "name": "Stacker",
     "url": "https://github.com/stacker/stacker-cli",
     "description": "Docker Compose Templates. Stacker provides an abstraction layer over Docker Compose and a better DX (developer experience)."
   },
@@ -431,10 +411,6 @@
   {
     "name": "Dockerfile Example 2 by @kstaken",
     "url": "https://github.com/kstaken/dockerfile-examples"
-  },
-  {
-    "name": "Dockerfile @jessfraz by @jessfraz MUST SEE for a fully containerized desktop!",
-    "url": "https://github.com/jessfraz/dockerfiles"
   },
   {
     "name": "Vektorcloud",
@@ -713,14 +689,9 @@
     "description": "Simple and transparent alternative to boot2docker (backed by Vagrant) by @shyiko"
   },
   {
-    "name": "Dokku",
-    "url": "https://github.com/dokku/dokku",
-    "description": "Docker powered mini-Heroku in around 100 lines of Bash by @progrium"
-  },
-  {
     "name": "Dray",
     "url": "https://github.com/CenturyLinkLabs/dray",
-    "description": "An engine for managing the execution of container-based workflows. http://Dray.it by @CenturyLinkLabs"
+    "description": "An engine for managing the execution of container-based workflows by @CenturyLinkLabs"
   },
   {
     "name": "Dusty",
@@ -938,7 +909,7 @@
   {
     "name": "Dokku",
     "url": "https://github.com/dokku/dokku",
-    "description": "Docker powered mini-Heroku in around 100 lines of Bash by @progrium"
+    "description": "Docker powered mini-Heroku that helps you build and manage the lifecycle of applications (originally by @progrium)"
   },
   {
     "name": "Empire",
@@ -959,11 +930,6 @@
     "name": "OpenShift",
     "url": "https://www.openshift.org/",
     "description": "An open source PaaS built on Kubernetes and optimized for Dockerized app development and deployment by Red Hat"
-  },
-  {
-    "name": "Rancher",
-    "url": "https://github.com/rancher",
-    "description": "Rancher is an open source project that provides a complete platform for operating Docker in production"
   },
   {
     "name": "Tsuru",
@@ -1071,18 +1037,18 @@
   },
   {
     "name": "Panamax",
-    "url": "https://github.com/CenturyLinkLabs/panamax-ui/wiki",
-    "description": "Docker Management for Humans panamax.io"
+    "url": "https://github.com/CenturyLinkLabs/panamax-ui",
+    "description": "An open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop by @CenturyLinkLabs."
   },
   {
     "name": "Portainer",
-    "url": "http://portainer.io/",
-    "description": "A lightweight management UI for managing your Docker host or Docker Swarm cluster"
+    "url": "https://github.com/portainer/portainer",
+    "description": "A lightweight management UI for managing your Docker host or Docker Swarm cluster (previously DockerUI by @kevana)"
   },
   {
     "name": "Rancher",
     "url": "https://github.com/rancher/rancher",
-    "description": "Portable AWS-style infrastructure service for Docker http://rancher.com/"
+    "description": "An open source project that provides a complete platform for operating Docker in production by @rancher."
   },
   {
     "name": "Serf",
@@ -1574,11 +1540,6 @@
     "description": "Simple Web-Interface for Docker with a lot of features by @Electrofenster"
   },
   {
-    "name": "portainer.io",
-    "url": "https://github.com/portainer/portainer",
-    "description": "A simple management UI for Docker (It is the continuation of DockerUI) by @kevana"
-  },
-  {
     "name": "Portus",
     "url": "https://github.com/SUSE/Portus",
     "description": "Authorization service and frontend for Docker registry (v2) by @SUSE"
@@ -1639,10 +1600,6 @@
   {
     "name": "Docker Cheat Sheet by @wsargent MUST SEE",
     "url": "https://github.com/wsargent/docker-cheat-sheet"
-  },
-  {
-    "name": "Docker Containers on the desktop by @jessfraz The funniest way to learn",
-    "url": "https://blog.jessfraz.com/post/docker-containers-on-the-desktop/"
   },
   {
     "name": "Docker Ecosystem (PDF) MUST SEE    find it on blog by Bryzgalov Peter.",
@@ -1849,10 +1806,6 @@
   {
     "name": "Quoi d'neuf Docker FRENCH chronique vidéo sur Youtube proposant de courtes vidéos (maximum 15 minutes) sur la thématique \"Docker et son écosystème\" Site Web",
     "url": "https://www.youtube.com/channel/UCOAhkxpryr_BKybt9wIw-NQ/videos"
-  },
-  {
-    "name": "Container Hacks and Fun Images by @jessfraz @ DockerCon 2015 (MUST WATCH VIDEO: 38:50)",
-    "url": "https://www.youtube.com/watch?v=1qlLUf7KtAw"
   },
   {
     "name": "Contributing to Docker by Andrew \"Tianon\" Page (InfoSiftr) (34:31)",
