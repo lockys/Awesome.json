@@ -15,19 +15,14 @@
     "description": "IDE that provides code analysis, standards testing, metrics, graphing, dependency analysis and more for Ada and VHDL."
   },
   {
-    "name": "CMetrics",
-    "url": "https://github.com/MetricsGrimoire/CMetrics",
-    "description": "Measures size and complexity for C files"
-  },
-  {
-    "name": "cqmetrics",
-    "url": "https://github.com/dspinellis/cqmetrics",
-    "description": "quality metrics for C code"
-  },
-  {
     "name": "clang-tidy",
     "url": "http://clang.llvm.org/extra/clang-tidy/",
     "description": "clang static analyser"
+  },
+  {
+    "name": "CMetrics",
+    "url": "https://github.com/MetricsGrimoire/CMetrics",
+    "description": "Measures size and complexity for C files"
   },
   {
     "name": "Corrode",
@@ -38,6 +33,11 @@
     "name": "cppcheck",
     "url": "https://github.com/danmar/cppcheck",
     "description": "static analysis of C/C++ code"
+  },
+  {
+    "name": "cqmetrics",
+    "url": "https://github.com/dspinellis/cqmetrics",
+    "description": "quality metrics for C code"
   },
   {
     "name": "flawfinder",
@@ -65,6 +65,11 @@
     "description": "provide code verification that proves the absence of overflow, divide-by-zero, out-of-bounds array access, and certain other run-time errors in C and C++ source code."
   },
   {
+    "name": "scan-build",
+    "url": "https://clang-analyzer.llvm.org/scan-build.html",
+    "description": "Analyzes C/C++ code using LLVM at compile-time"
+  },
+  {
     "name": "splint",
     "url": "http://www.splint.org/",
     "description": "static analysis of C/C++ code"
@@ -78,6 +83,11 @@
     "name": "vera++",
     "url": "https://bitbucket.org/verateam/vera/wiki/Introduction",
     "description": "Vera++ is a programmable tool for verification, analysis and transformation of C++ source code."
+  },
+  {
+    "name": ".NET Analyzers",
+    "url": "https://github.com/DotNetAnalyzers",
+    "description": "An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform."
   },
   {
     "name": "Code Analysis Rule Collection",
@@ -110,9 +120,14 @@
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity in your project."
   },
   {
-    "name": ".NET Analyzers",
-    "url": "https://github.com/DotNetAnalyzers",
-    "description": "An organization for the development of analyzers (diagnostics and code fixes) using the .NET Compiler Platform."
+    "name": "Refactoring Essentials",
+    "url": "http://vsrefactoringessentials.com/",
+    "description": "The premier free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers to improve your projects."
+  },
+  {
+    "name": "ReSharper ©️",
+    "url": "https://www.jetbrains.com/resharper/",
+    "description": "Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies."
   },
   {
     "name": "Roslyn Security Guard",
@@ -123,16 +138,6 @@
     "name": "SonarLint for Visual Studio",
     "url": "https://github.com/SonarSource/sonarlint-vs",
     "description": "SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code."
-  },
-  {
-    "name": "Refactoring Essentials",
-    "url": "http://vsrefactoringessentials.com/",
-    "description": "The premier free Visual Studio 2015 extension for C# and VB.NET refactorings, including code best practice analyzers to improve your projects."
-  },
-  {
-    "name": "ReSharper ©️",
-    "url": "https://www.jetbrains.com/resharper/",
-    "description": "Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies."
   },
   {
     "name": "VSDiagnostics",
@@ -170,6 +175,21 @@
     "description": "Get info on length of functions in a Go package"
   },
   {
+    "name": "Go Meta Linter",
+    "url": "https://github.com/alecthomas/gometalinter",
+    "description": "Concurrently run Go lint tools and normalise their output"
+  },
+  {
+    "name": "go vet",
+    "url": "https://golang.org/cmd/vet/",
+    "description": "Examines Go source code and reports suspicious constructs"
+  },
+  {
+    "name": "go-staticcheck",
+    "url": "https://github.com/dominikh/go-staticcheck",
+    "description": "go vet on steroids, similar to ReSharper for C#"
+  },
+  {
     "name": "go/ast",
     "url": "https://golang.org/pkg/go/ast/",
     "description": "Package ast declares the types used to represent syntax trees for Go packages."
@@ -188,21 +208,6 @@
     "name": "goreporter",
     "url": "https://github.com/wgliang/goreporter",
     "description": "concurrently runs many linters and normalises their output to a report"
-  },
-  {
-    "name": "go-staticcheck",
-    "url": "https://github.com/dominikh/go-staticcheck",
-    "description": "go vet on steroids, similar to ReSharper for C#"
-  },
-  {
-    "name": "Go Meta Linter",
-    "url": "https://github.com/alecthomas/gometalinter",
-    "description": "Concurrently run Go lint tools and normalise their output"
-  },
-  {
-    "name": "go vet",
-    "url": "https://golang.org/cmd/vet/",
-    "description": "Examines Go source code and reports suspicious constructs"
   },
   {
     "name": "ineffassign",
@@ -255,14 +260,14 @@
     "description": "A plugin for FindBugs with additional bug detectors"
   },
   {
-    "name": "Findbugs",
-    "url": "https://github.com/findbugsproject/findbugs",
-    "description": "FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors."
-  },
-  {
     "name": "Find Security Bugs",
     "url": "https://find-sec-bugs.github.io/",
     "description": "IDE/SonarQube plugin for security audits of Java web applications."
+  },
+  {
+    "name": "Findbugs",
+    "url": "https://github.com/findbugsproject/findbugs",
+    "description": "FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors."
   },
   {
     "name": "HuntBugs",
@@ -310,11 +315,6 @@
     "description": "ECMAScript parsing infrastructure for multipurpose analysis"
   },
   {
-    "name": "quality",
-    "url": "https://github.com/jden/quality",
-    "description": "zero configuration code and module linting"
-  },
-  {
     "name": "jshint",
     "url": "https://github.com/jshint/jshint",
     "description": "detect errors and potential problems in JavaScript code and enforce your team's coding conventions"
@@ -330,19 +330,24 @@
     "description": "Visualize JavaScript source complexity"
   },
   {
+    "name": "quality",
+    "url": "https://github.com/jden/quality",
+    "description": "zero configuration code and module linting"
+  },
+  {
     "name": "standard",
     "url": "http://standardjs.com/",
     "description": "An npm module that checks for Javascript Styleguide issues"
   },
   {
-    "name": "yardstick",
-    "url": "https://github.com/calmh/yardstick",
-    "description": "Javascript code metrics"
-  },
-  {
     "name": "XO",
     "url": "https://github.com/sindresorhus/xo",
     "description": "Enforce strict code style. Never discuss code style on a pull request again!"
+  },
+  {
+    "name": "yardstick",
+    "url": "https://github.com/calmh/yardstick",
+    "description": "Javascript code metrics"
   },
   {
     "name": "luacheck",
@@ -355,11 +360,6 @@
     "description": "Critique Perl source code for best-practices."
   },
   {
-    "name": "DesignPatternDetector",
-    "url": "https://github.com/Halleck45/DesignPatternDetector",
-    "description": "detection of design patterns in PHP code"
-  },
-  {
     "name": "dephpend",
     "url": "https://github.com/mihaeu/dephpend",
     "description": "Dependency analysis tool"
@@ -368,6 +368,11 @@
     "name": "deptrac",
     "url": "https://github.com/sensiolabs-de/deptrac",
     "description": "Enforce rules for dependencies between software layers."
+  },
+  {
+    "name": "DesignPatternDetector",
+    "url": "https://github.com/Halleck45/DesignPatternDetector",
+    "description": "detection of design patterns in PHP code"
   },
   {
     "name": "exakat",
@@ -390,6 +395,26 @@
     "description": "a modern static analyzer from etsy"
   },
   {
+    "name": "Php Inspections (EA Extended)",
+    "url": "https://github.com/kalessil/phpinspectionsea",
+    "description": "A Static Code Analyzer for PHP."
+  },
+  {
+    "name": "PHP Refactoring Browser",
+    "url": "https://github.com/QafooLabs/php-refactoring-browser",
+    "description": "Refactoring helper"
+  },
+  {
+    "name": "PHP-Parser",
+    "url": "https://github.com/nikic/PHP-Parser",
+    "description": "A PHP parser written in PHP"
+  },
+  {
+    "name": "PHP-Token-Reflection",
+    "url": "https://github.com/Andrewsville/PHP-Token-Reflection",
+    "description": "Library emulating the PHP internal reflection"
+  },
+  {
     "name": "php7cc",
     "url": "https://github.com/sstalle/php7cc",
     "description": "PHP 7 Compatibility Checker"
@@ -400,14 +425,14 @@
     "description": "assist developers in porting their code quickly to PHP 7"
   },
   {
-    "name": "phpcpd",
-    "url": "https://github.com/sebastianbergmann/phpcpd",
-    "description": "Copy/Paste Detector (CPD) for PHP code."
-  },
-  {
     "name": "PHP_CodeSniffer",
     "url": "https://github.com/squizlabs/PHP_CodeSniffer",
     "description": "detects violations of a defined set of coding standards"
+  },
+  {
+    "name": "phpcpd",
+    "url": "https://github.com/sebastianbergmann/phpcpd",
+    "description": "Copy/Paste Detector (CPD) for PHP code."
   },
   {
     "name": "phpdcd",
@@ -425,16 +450,6 @@
     "description": "Add scalar type hints and return types to existing PHP projects using PHPDoc annotations"
   },
   {
-    "name": "Php Inspections (EA Extended)",
-    "url": "https://github.com/kalessil/phpinspectionsea",
-    "description": "A Static Code Analyzer for PHP."
-  },
-  {
-    "name": "phpsa",
-    "url": "https://github.com/ovr/phpsa",
-    "description": "Static analysis tool for PHP."
-  },
-  {
     "name": "PHPMD",
     "url": "https://phpmd.org/",
     "description": "finds possible bugs in your code"
@@ -443,11 +458,6 @@
     "name": "PhpMetrics",
     "url": "https://github.com/Halleck45/PhpMetrics",
     "description": "calculates code complexity metrics"
-  },
-  {
-    "name": "PHPStan",
-    "url": "https://github.com/phpstan/phpstan",
-    "description": "PHP Static Analysis Tool - discover bugs in your code without running it!"
   },
   {
     "name": "PHPQA",
@@ -460,19 +470,14 @@
     "description": "PHPQA all-in-one Analyzer CLI tool"
   },
   {
-    "name": "PHP Refactoring Browser",
-    "url": "https://github.com/QafooLabs/php-refactoring-browser",
-    "description": "Refactoring helper"
+    "name": "phpsa",
+    "url": "https://github.com/ovr/phpsa",
+    "description": "Static analysis tool for PHP."
   },
   {
-    "name": "PHP-Token-Reflection",
-    "url": "https://github.com/Andrewsville/PHP-Token-Reflection",
-    "description": "Library emulating the PHP internal reflection"
-  },
-  {
-    "name": "PHP-Parser",
-    "url": "https://github.com/nikic/PHP-Parser",
-    "description": "A PHP parser written in PHP"
+    "name": "PHPStan",
+    "url": "https://github.com/phpstan/phpstan",
+    "description": "PHP Static Analysis Tool - discover bugs in your code without running it!"
   },
   {
     "name": "Psalm",
@@ -550,14 +555,14 @@
     "description": "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes pyreverse (an UML diagram generator) and symilar (a similarities checker). Optional extensions are also included."
   },
   {
-    "name": "PyT",
-    "url": "https://github.com/python-security/pyt",
-    "description": "Python Taint - A static analysis tool for detecting security vulnerabilities in Python web applications."
-  },
-  {
     "name": "pyroma",
     "url": "https://bitbucket.org/regebro/pyroma",
     "description": "rate how well a Python project complies with the best practices of the Python packaging ecosystem, and list issues that could be improved"
+  },
+  {
+    "name": "PyT",
+    "url": "https://github.com/python-security/pyt",
+    "description": "Python Taint - A static analysis tool for detecting security vulnerabilities in Python web applications."
   },
   {
     "name": "vulture",
@@ -645,14 +650,14 @@
     "description": "A Ruby static code analyzer, based on the community Ruby style guide."
   },
   {
-    "name": "rubycritic",
-    "url": "https://github.com/whitesmith/rubycritic",
-    "description": "A Ruby code quality reporter"
-  },
-  {
     "name": "ruby-lint",
     "url": "https://github.com/YorickPeterse/ruby-lint",
     "description": "Static code analysis for Ruby"
+  },
+  {
+    "name": "rubycritic",
+    "url": "https://github.com/whitesmith/rubycritic",
+    "description": "A Ruby code quality reporter"
   },
   {
     "name": "SandyMeter",
@@ -750,11 +755,6 @@
     "description": "Language independent framework for creating code analysis - supports over 60 languages by default"
   },
   {
-    "name": "Undebt",
-    "url": "https://github.com/Yelp/undebt",
-    "description": "Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions"
-  },
-  {
     "name": "codeburner",
     "url": "https://github.com/groupon/codeburner",
     "description": "Provides a unified interface to sort and act on the issues it finds"
@@ -825,6 +825,11 @@
     "description": "a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations"
   },
   {
+    "name": "Undebt",
+    "url": "https://github.com/Yelp/undebt",
+    "description": "Language-independent tool for massive, automatic, programmable refactoring based on simple pattern definitions"
+  },
+  {
     "name": "WALA",
     "url": "http://wala.sourceforge.net/wiki/index.php/Main_Page",
     "description": "static analysis capabilities for Java bytecode and related languages and for JavaScript"
@@ -890,6 +895,11 @@
     "description": "Check that your Puppet manifests conform to the style guide."
   },
   {
+    "name": "CSS Stats",
+    "url": "https://github.com/cssstats/cssstats",
+    "description": "Potentially interesting stats on stylesheets"
+  },
+  {
     "name": "CSScomb",
     "url": "https://github.com/csscomb/csscomb.js",
     "description": "a coding style formatter for CSS. Supports own configurations to make style sheets beautiful and consistent"
@@ -898,11 +908,6 @@
     "name": "CSSLint",
     "url": "https://github.com/CSSLint/csslint",
     "description": "Does basic syntax checking and finds problematic patterns or signs of inefficiency"
-  },
-  {
-    "name": "CSS Stats",
-    "url": "https://github.com/cssstats/cssstats",
-    "description": "Potentially interesting stats on stylesheets"
   },
   {
     "name": "Parker",
@@ -1040,11 +1045,6 @@
     "description": "Code review tool with static code analysis and code-aware navigation for Java, PHP, JavaScript and Kotlin."
   },
   {
-    "name": "Tools for C/C++",
-    "url": "https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources",
-    "description": "A list of static analysis tools for C/C++"
-  },
-  {
     "name": "go-tools",
     "url": "https://github.com/dominikh/go-tools",
     "description": "A collection of tools and libraries for working with Go code, including linters and static analysis"
@@ -1058,6 +1058,11 @@
     "name": "php-static-analysis-tools",
     "url": "https://github.com/exakat/php-static-analysis-tools",
     "description": " A reviewed list of useful PHP static analysis tools"
+  },
+  {
+    "name": "Tools for C/C++",
+    "url": "https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources",
+    "description": "A list of static analysis tools for C/C++"
   },
   {
     "name": "Wikipedia",
