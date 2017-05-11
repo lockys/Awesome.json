@@ -144,6 +144,11 @@
     "description": "Docker based integration tests. A simple Node based utility for running Docker based unit tests. By @dockunit"
   },
   {
+    "name": "DockerSpec",
+    "url": "https://github.com/zuazo/dockerspec",
+    "description": "A small Ruby Gem to run RSpec and Serverspec, Infrataster and Capybara tests against Dockerfiles or Docker images easily. By @zuazo"
+  },
+  {
     "name": "Drone",
     "url": "https://github.com/drone/drone",
     "description": "Continuous integration server built on Docker and configured using YAML files."
@@ -203,6 +208,11 @@
     "description": "Work with your established Docker workflows while automating your testing and deployment tasks with our hosted platform dedicated to speed and security."
   },
   {
+    "name": "ConcourseCI",
+    "url": "https://concourse.ci",
+    "description": "A CI SaaS platform for developers and DevOps teams pipeline oriented."
+  },
+  {
     "name": "Semaphore CI — A high-performance cloud solution that makes it easy to build, test and ship your containers to production.",
     "url": "https://semaphoreci.com/product/docker"
   },
@@ -215,6 +225,16 @@
     "name": "IBM DevOps Services",
     "url": "https://hub.jazz.net",
     "description": "Continuous delivery using a pipeline deployment onto IBM Containers on Bluemix."
+  },
+  {
+    "name": "TravisCI",
+    "url": "https://travis-ci.org/",
+    "description": "A Free github projects continuous integration Saas platform for developers and Devops."
+  },
+  {
+    "name": "Wrecker",
+    "url": "http://www.wercker.com/",
+    "description": "A Docker-Native continous integration & deployment Automation platform for Kubernetes & Microservice Deployments."
   },
   {
     "name": "Centurion",
@@ -639,6 +659,11 @@
     "description": "A rule-based 'linter' for Dockerfiles by @redhataccess"
   },
   {
+    "name": "Hadolint",
+    "url": "https://github.com/lukasmartinelli/hadolint",
+    "description": "A Dockerfile linter written in Haskell by @lukasmartinelli"
+  },
+  {
     "name": "Lorry",
     "url": "https://lorry.io/",
     "description": "Lorry is a docker-compose.yml validator and composer by @CenturyLinkLabs"
@@ -646,7 +671,7 @@
   {
     "name": "Whale-linter",
     "url": "https://github.com/jeromepin/whale-linter",
-    "description": "A simple and small Dockerfile linter written in Python3+ without dependencies."
+    "description": "A simple and small Dockerfile linter written in Python3+ without dependencies by @jeromepin"
   },
   {
     "name": "Ansible",
@@ -712,6 +737,11 @@
     "name": "percheron",
     "url": "https://github.com/ashmckenzie/percheron",
     "description": "Organise your Docker containers with muscle and intelligence by @ashmckenzie"
+  },
+  {
+    "name": "SaltStack Docker module",
+    "url": "https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.dockerng.html#module-salt.modules.dockerng",
+    "description": "SaltStack Docker module"
   },
   {
     "name": "Shutit",
@@ -838,7 +868,7 @@
   },
   {
     "name": "CoScale",
-    "url": "http://www.coscale.com/docker-monitoring",
+    "url": "https://www.coscale.com/docker-monitoring",
     "description": "Full stack monitoring for containerized applications and microservices. Powered by anomaly detection to find performance problems faster."
   },
   {
@@ -934,7 +964,7 @@
   {
     "name": "Tsuru",
     "url": "https://github.com/tsuru/tsuru",
-    "description": "Tsuru is an extensible and open source Platform as a Service software https://tsuru.io/"
+    "description": "Tsuru is an extensible and open source Platform as a Service software. By @tsuru"
   },
   {
     "name": "Workflow",
@@ -1093,11 +1123,11 @@
   {
     "name": "Swarm Ingress Router",
     "url": "https://github.com/tpbowden/swarm-ingress-router",
-    "description": "Route DNS names to Swarm services based on labels."
+    "description": "Route DNS names to Swarm services based on labels. By @tpbowden"
   },
   {
     "name": "Træfɪk",
-    "url": "https://traefik.io/",
+    "url": "https://github.com/containous/traefik",
     "description": "Automated reverse proxy and load-balancer for Docker, Mesos, Consul, Etcd... By @EmileVauge"
   },
   {
@@ -1116,34 +1146,34 @@
     "description": "a server and a client for running and interacting with trusted collections. By @docker"
   },
   {
-    "name": "Twistlock ",
+    "name": "Twistlock $$$",
     "url": "https://twistlock.com/",
     "description": "Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications."
   },
   {
-    "name": "ATOMIQ",
-    "url": "https://github.com/atomiqio/atomiq",
-    "description": "The open source unified CaaS/FaaS platform for Docker, batteries included. (formerly AMP by Team Appcelerator)"
+    "name": "AMP",
+    "url": "https://github.com/appcelerator/amp",
+    "description": "The open source unified CaaS/FaaS platform for Docker, batteries included. By @Appcelerator"
   },
   {
     "name": "Apache OpenWhisk",
     "url": "https://github.com/openwhisk/openwhisk",
-    "description": "serverless distributed event-based programming service that executes functions in response to events at any scale."
+    "description": "serverless distributed event-based programming service that executes functions in response to events at any scale. By @openwhisk"
   },
   {
     "name": "Docker-Lambda",
     "url": "https://github.com/lambci/docker-lambda",
-    "description": "Docker images and test runners that replicate the live AWS Lambda environment"
+    "description": "Docker images and test runners that replicate the live AWS Lambda environment. By @lamb-ci"
   },
   {
     "name": "FaaS",
     "url": "https://github.com/alexellis/faas",
-    "description": "Docker Serverless/Functions as a Service (on Docker Swarm)"
+    "description": "Docker Serverless/Functions as a Service (on Docker Swarm). By @alexellis"
   },
   {
     "name": "Funker",
     "url": "https://github.com/bfirsh/funker-example-voting-app",
-    "description": "Functions as Docker containers"
+    "description": "Functions as Docker containers example voting app. By @bfirsh"
   },
   {
     "name": "IronFunctions",
@@ -1423,11 +1453,6 @@
     "name": "Dropdock",
     "url": "http://dropdock.io/",
     "description": "A framework designed for Drupal to build fast, isolated development environments using Docker."
-  },
-  {
-    "name": "Dupper",
-    "url": "https://github.com/athakwani/dupper",
-    "description": "Use git repository as Object Oriented Container. Setup Cloud Development environments with few commands for any git repository by @athakwani"
   },
   {
     "name": "DVM",
