@@ -21,7 +21,7 @@ new CronJob('00 00 10 * * *', function () {
   }
 }, true, 'Asia/Taipei');
 
-new CronJob('00 00 12 * * *', function () {
+new CronJob('*/20 * * * * *', function () {
   try {
     exec(pushToGithub, function (err, stdout, stderr) {
       if (err) {
