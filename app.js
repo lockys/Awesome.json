@@ -5,7 +5,7 @@ var buildAllRepo = 'npm run build';
 var pushToGithub = 'npm run push';
 
 console.log('Do The Crob Job! Awesome :)');
-new CronJob('* * * */23 * *', function () {
+new CronJob('* * */23 * * *', function () {
   try {
     exec(buildAwesome, finishAwesome);
   } catch (e) {
@@ -13,7 +13,7 @@ new CronJob('* * * */23 * *', function () {
   }
 }, false, 'Asia/Taipei');
 
-new CronJob('* * * 09 40 00', function () {
+new CronJob('00 17 21 * * *', function () {
   try {
     exec(buildAllRepo, finishBuild);
   } catch (e) {
@@ -21,7 +21,7 @@ new CronJob('* * * 09 40 00', function () {
   }
 }, true, 'Asia/Taipei');
 
-new CronJob('* * * 12 00 00', function () {
+new CronJob('00 00 12 * * *', function () {
   try {
     exec(pushToGithub, function (err, stdout, stderr) {
       if (err) {
