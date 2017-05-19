@@ -165,7 +165,7 @@
   {
     "name": "Moscapsule",
     "url": "https://github.com/flightonary/Moscapsule",
-    "description": "MQTT Client for iOS written in Swift"
+    "description": "MQTT Client for iOS written in Swift."
   },
   {
     "name": "hbmqtt",
@@ -215,7 +215,7 @@
   {
     "name": "mqtt_client_cpp",
     "url": "https://github.com/redboltz/mqtt_client_cpp",
-    "description": "MQTT client for C++14 based on Boost.Asio"
+    "description": "MQTT client for C++14 based on Boost.Asio."
   },
   {
     "name": "mqtt_lua",
@@ -241,6 +241,11 @@
     "name": "pubsubclient",
     "url": "https://github.com/knolleary/pubsubclient",
     "description": "A client library for the Arduino Ethernet Shield that provides support for MQTT."
+  },
+  {
+    "name": "rumqtt",
+    "url": "https://github.com/AtherEnergy/rumqtt",
+    "description": "A fast, lock free pure rust mqtt cilent."
   },
   {
     "name": "ruby-mqtt",
@@ -365,7 +370,7 @@
   {
     "name": "psmqtt",
     "url": "https://github.com/eschava/psmqtt",
-    "description": "Utility reporting system health and status via MQTT"
+    "description": "Utility reporting system health and status via MQTT."
   },
   {
     "name": "check-mqtt",
@@ -438,6 +443,11 @@
     "description": "Interface between the KNX home automation standard and MQTT."
   },
   {
+    "name": "mqtt2homekit",
+    "url": "https://github.com/forty2/mqtt2homekit",
+    "description": "Roughly the opposite of homekit2mqtt: Control your HomeKit-enabled devices with MQTT and without Siri or iPhone."
+  },
+  {
     "name": "mqtt-dss-bridge",
     "url": "https://github.com/cgHome/mqtt-dss-bridge",
     "description": "MQTT digitalSTROM-Server Bridge."
@@ -490,18 +500,9 @@
     "url": "https://pimatic.org/"
   },
   {
-    "name": "homely",
-    "url": "https://github.com/baol/homely",
-    "description": "collection of Go daemons for connecting Domoticz and other stuff."
-  },
-  {
-    "name": "Tasker (Automation for Android) MQTT Publisher Plugin",
-    "url": "https://play.google.com/store/apps/details?id=net.nosybore.mqttpublishplugin"
-  },
-  {
     "name": "chromoflex2mqtt",
     "url": "https://github.com/owagner/chromoflex2mqtt",
-    "description": "Control Chromoflex USP3 RGB LED modules via MQTT"
+    "description": "Control Chromoflex USP3 RGB LED modules via MQTT."
   },
   {
     "name": "h801/mqtt",
@@ -529,6 +530,11 @@
     "description": "MQTT controlled Multi-Room Audio with Airplay/Airtunes Devices."
   },
   {
+    "name": "bravia2mqtt",
+    "url": "https://github.com/forty2/bravia2mqtt",
+    "description": "Control your Sony Bravia TV with MQTT."
+  },
+  {
     "name": "chromecast-mqtt-connector",
     "url": "https://github.com/nohum/chromecast-mqtt-connector",
     "description": "Control your Google Chromecast devices using MQTT."
@@ -554,6 +560,16 @@
     "description": "Send and receive infrared via LIRC."
   },
   {
+    "name": "mqtt2atlonamatrix",
+    "url": "https://github.com/forty2/mqtt2atlonamatrix",
+    "description": "Control Atlona HDMI matrix switches with MQTT."
+  },
+  {
+    "name": "mqtt2tivoremote",
+    "url": "https://github.com/forty2/mqtt2tivoremote",
+    "description": "Make TiVo DVR remote control available through an mqtt-smarthome style interface."
+  },
+  {
     "name": "onkyo2mqtt",
     "url": "https://github.com/owagner/onkyo2mqtt",
     "description": "Interface between Onkyo AVR's EISCP network remote protocol and MQTT. Uses the onkyo-eiscp library."
@@ -570,32 +586,8 @@
   },
   {
     "name": "yamaha-avr2mqtt",
-    "url": "https://github.com/akentner/yamaha-avr2mqtt"
-  },
-  {
-    "name": "AlexaMqttBridge",
-    "url": "https://github.com/mhdawson/AlexaMqttBridge",
-    "description": "Bridge between Amazon Alexa and Mqtt."
-  },
-  {
-    "name": "dashbutton2mqtt",
-    "url": "https://github.com/hobbyquaker/dashbutton2mqtt",
-    "description": "Publish dash button presses to MQTT."
-  },
-  {
-    "name": "flowerpower2mqtt",
-    "url": "https://github.com/hobbyquaker/flowerpower2mqtt",
-    "description": "Publish measurements from Parrot Flower Power plant sensors to MQTT."
-  },
-  {
-    "name": "node-mqtt-for-anki-overdrive",
-    "url": "https://github.com/IBM-Bluemix/node-mqtt-for-anki-overdrive",
-    "description": "Node.js Controller and MQTT API for Anki Overdrive."
-  },
-  {
-    "name": "parrot-sample",
-    "url": "https://github.com/IBM-Bluemix/parrot-sample",
-    "description": "Sample code which uses MQTT to control a Parrot AR Drone."
+    "url": "https://github.com/akentner/yamaha-avr2mqtt",
+    "description": "A simple adapter for connection Yamaha AVR to MQTT."
   },
   {
     "name": "bcontrol2mqtt",
@@ -618,9 +610,53 @@
     "description": "A python daemon that uses the Twitter Streaming API to access tweets and republishes them to an MQTT topic."
   },
   {
+    "name": "AlexaMqttBridge",
+    "url": "https://github.com/mhdawson/AlexaMqttBridge",
+    "description": "Bridge between Amazon Alexa and Mqtt."
+  },
+  {
+    "name": "dashbutton2mqtt",
+    "url": "https://github.com/hobbyquaker/dashbutton2mqtt",
+    "description": "Publish Amazon Dash Button presses to MQTT."
+  },
+  {
+    "name": "flowerpower2mqtt",
+    "url": "https://github.com/hobbyquaker/flowerpower2mqtt",
+    "description": "Publish measurements from Parrot Flower Power plant sensors to MQTT."
+  },
+  {
+    "name": "haiku2mqtt",
+    "url": "https://github.com/forty2/haiku2mqtt",
+    "description": "A bridge between Haiku smart fans and MQTT."
+  },
+  {
+    "name": "homely",
+    "url": "https://github.com/baol/homely",
+    "description": "collection of Go daemons for connecting Domoticz and other stuff."
+  },
+  {
     "name": "leaf-python-mqtt",
     "url": "https://github.com/glynhudson/leaf-python-mqtt",
     "description": "Extract data from Nissan Leaf API and post to mqtt."
+  },
+  {
+    "name": "node-mqtt-for-anki-overdrive",
+    "url": "https://github.com/IBM-Bluemix/node-mqtt-for-anki-overdrive",
+    "description": "Node.js Controller and MQTT API for Anki Overdrive."
+  },
+  {
+    "name": "parrot-sample",
+    "url": "https://github.com/IBM-Bluemix/parrot-sample",
+    "description": "Sample code which uses MQTT to control a Parrot AR Drone."
+  },
+  {
+    "name": "Tasker (Automation for Android) MQTT Publisher Plugin.",
+    "url": "https://play.google.com/store/apps/details?id=net.nosybore.mqttpublishplugin"
+  },
+  {
+    "name": "wlan-thermo-mqtt-addon",
+    "url": "https://bitbucket.org/IOcastor/wlan-thermo-mqtt-addon/",
+    "description": "Addon for a popular DIY barbecue thermometer."
   },
   {
     "name": "Crouton",
@@ -630,7 +666,7 @@
   {
     "name": "d3-MQTT-Topic-Tree",
     "url": "https://github.com/hardillb/d3-MQTT-Topic-Tree",
-    "description": "A MQTT Topic Tree viewer using the d3 collapsable tree and MQTT over websockets"
+    "description": "A MQTT Topic Tree viewer using the d3 collapsable tree and MQTT over websockets."
   },
   {
     "name": "HOMR-REACT",
@@ -665,7 +701,7 @@
   {
     "name": "Homie",
     "url": "https://github.com/marvinroger/homie",
-    "description": "A lightweight MQTT convention for the IoT"
+    "description": "A lightweight MQTT convention for the IoT."
   },
   {
     "name": "mqtt-smarthome",
