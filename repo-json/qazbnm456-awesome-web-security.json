@@ -1,5 +1,9 @@
 [
   {
+    "name": "XXE",
+    "url": "introductions-xxe"
+  },
+  {
     "name": "Drops (backup)",
     "url": "https://drops.secquan.org/",
     "description": "Drops was known as a famous knowledge base for hacking technology."
@@ -32,7 +36,7 @@
   {
     "name": "HQL for pentesters",
     "url": "http://blog.h3xstream.com/2014/02/hql-for-pentesters.html",
-    "description": "Brief introduction to Hibernate Query Injection."
+    "description": "Written by @h3xstream."
   },
   {
     "name": "XML实体攻击",
@@ -40,9 +44,19 @@
     "description": "从内网探测到命令执行步步惊心 - Written by 张天琪."
   },
   {
+    "name": "XXE",
+    "url": "https://phonexicum.github.io/infosec/xxe.html",
+    "description": "Written by @phonexicum."
+  },
+  {
     "name": "讓我們來談談 CSRF",
     "url": "http://blog.techbridge.cc/2017/02/25/csrf-introduction/",
     "description": "Written by TechBridge."
+  },
+  {
+    "name": "SSRF bible. Cheatsheet",
+    "url": "https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit",
+    "description": "Written by @Wallarm."
   },
   {
     "name": "Rails 動態樣板路徑的風險",
@@ -68,6 +82,11 @@
     "name": "Webmail-Hacking",
     "url": "https://github.com/mottoin/SecPaper/blob/master/Webmail-Hacking.pdf",
     "description": "Written by 千域千寻."
+  },
+  {
+    "name": "PENETRATION TESTING AWS STORAGE: KICKING THE S3 BUCKET",
+    "url": "https://rhinosecuritylabs.com/penetration-testing/penetration-testing-aws-storage/",
+    "description": "Written by Dwight Hohnstein from Rhino Security Labs."
   },
   {
     "name": "Security Geek 2016",
@@ -98,6 +117,10 @@
     "name": "Airbnb – When Bypassing JSON Encoding, XSS Filter, WAF, CSP, and Auditor turns into Eight Vulnerabilities",
     "url": "https://buer.haus/2017/03/08/airbnb-when-bypassing-json-encoding-xss-filter-waf-csp-and-auditor-turns-into-eight-vulnerabilities/",
     "description": "Written by @Brett Buerhaus."
+  },
+  {
+    "name": "How to bypass libinjection in many WAF/NGWAF",
+    "url": "https://medium.com/@d0znpp/how-to-bypass-libinjection-in-many-waf-ngwaf-1e2513453c0f"
   },
   {
     "name": "JavaScript MVC and Templating Frameworks",
@@ -173,6 +196,10 @@
     "name": "SQL injection in an UPDATE query",
     "url": "http://zombiehelp54.blogspot.jp/2017/02/sql-injection-in-update-query-bug.html",
     "description": "a bug bounty story! - Written by Zombiehelp54."
+  },
+  {
+    "name": "GitHub Enterprise SQL Injection",
+    "url": "http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html"
   },
   {
     "name": "SSRF in https://imgur.com/vidgif/url",
@@ -255,24 +282,24 @@
     "description": "各种漏洞poc、Exp的收集或编写 by @coffeehb."
   },
   {
+    "name": "Censys",
+    "url": "https://censys.io/",
+    "description": "Censys is a search engine that allows computer scientists to ask questions about the devices and networks that compose the Internet by University of Michigan."
+  },
+  {
+    "name": "urlscan.io",
+    "url": "https://urlscan.io/",
+    "description": "Service which analyses websites and the resources they request by @heipei."
+  },
+  {
+    "name": "Certificate Transparency",
+    "url": "https://github.com/google/certificate-transparency",
+    "description": "Google's Certificate Transparency project fixes several structural flaws in the SSL certificate system by @google."
+  },
+  {
     "name": "VWGen",
     "url": "https://github.com/qazbnm456/lulumi-browser",
     "description": "Vulnerable Web applications Generator by @qazbnm456."
-  },
-  {
-    "name": "plasma",
-    "url": "https://github.com/plasma-disassembler/plasma",
-    "description": "Plasma is an interactive disassembler for x86/ARM/MIPS by @plasma-disassembler."
-  },
-  {
-    "name": "radare2",
-    "url": "https://github.com/radare/radare2",
-    "description": "Unix-like reverse engineering framework and commandline tools by @radare."
-  },
-  {
-    "name": "Iaitō",
-    "url": "https://github.com/hteso/iaito",
-    "description": "Qt and C++ GUI for radare2 reverse engineering framework by @hteso."
   },
   {
     "name": "wfuzz",
@@ -345,9 +372,39 @@
     "description": "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist by @leizongmin."
   },
   {
+    "name": "webshell",
+    "url": "https://github.com/tennc/webshell",
+    "description": "This is a webshell open source project by @tennc."
+  },
+  {
+    "name": "plasma",
+    "url": "https://github.com/plasma-disassembler/plasma",
+    "description": "Plasma is an interactive disassembler for x86/ARM/MIPS by @plasma-disassembler."
+  },
+  {
+    "name": "radare2",
+    "url": "https://github.com/radare/radare2",
+    "description": "Unix-like reverse engineering framework and commandline tools by @radare."
+  },
+  {
+    "name": "Iaitō",
+    "url": "https://github.com/hteso/iaito",
+    "description": "Qt and C++ GUI for radare2 reverse engineering framework by @hteso."
+  },
+  {
     "name": "Dnslogger",
     "url": "https://wiki.skullsecurity.org/index.php?title=Dnslogger",
     "description": "DNS Logger by @iagox86."
+  },
+  {
+    "name": "haveibeenpwned",
+    "url": "https://haveibeenpwned.com/",
+    "description": "Check if you have an account that has been compromised in a data breach by Troy Hunt."
+  },
+  {
+    "name": "70 SECURITY TEAM Social Engineering Data",
+    "url": "http://s.70sec.com/",
+    "description": "70 SECURITY TEAM 社工库 by 70 Security Team."
   },
   {
     "name": "Orange",
@@ -398,6 +455,11 @@
     "name": "@kinugawamasato",
     "url": "https://twitter.com/kinugawamasato",
     "description": "Japanese web penetrator."
+  },
+  {
+    "name": "@h3xstream",
+    "url": "https://twitter.com/h3xstream/",
+    "description": "Security Researcher, interested in web security, crypto, pentest, static analysis but most of all, samy is my hero."
   },
   {
     "name": "FLAWS",
