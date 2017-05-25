@@ -1,0 +1,647 @@
+[
+  {
+    "name": "OpenVAS",
+    "url": "http://www.openvas.org/",
+    "description": "OpenVAS is a framework of several services and tools offering a comprehensive and powerful vulnerability scanning and vulnerability management solution."
+  },
+  {
+    "name": "Metasploit Framework",
+    "url": "https://github.com/rapid7/metasploit-framework",
+    "description": "A tool for developing and executing exploit code against a remote target machine. Other important sub-projects include the Opcode Database, shellcode archive and related research."
+  },
+  {
+    "name": "Kali",
+    "url": "https://www.kali.org/",
+    "description": "Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing. Kali Linux is preinstalled with numerous penetration-testing programs, including nmap (a port scanner), Wireshark (a packet analyzer), John the Ripper (a password cracker), and Aircrack-ng (a software suite for penetration-testing wireless LANs)."
+  },
+  {
+    "name": "pig",
+    "url": "https://github.com/rafael-santiago/pig",
+    "description": "A Linux packet crafting tool."
+  },
+  {
+    "name": "scapy",
+    "url": "https://github.com/secdev/scapy",
+    "description": "Scapy: the python-based interactive packet manipulation program & library."
+  },
+  {
+    "name": "Pompem",
+    "url": "https://github.com/rfunix/Pompem",
+    "description": "Pompem is an open source tool, which is designed to automate the search for exploits in major databases. Developed in Python, has a system of advanced search, thus facilitating the work of pentesters and ethical hackers. In its current version, performs searches in databases: Exploit-db, 1337day, Packetstorm Security..."
+  },
+  {
+    "name": "Nmap",
+    "url": "https://nmap.org",
+    "description": "Nmap is a free and open source utility for network discovery and security auditing."
+  },
+  {
+    "name": "justniffer",
+    "url": "http://justniffer.sourceforge.net/",
+    "description": "Justniffer is a network protocol analyzer that captures network traffic and produces logs in a customized way, can emulate Apache web server log files, track response times and extract all \"intercepted\" files from the HTTP traffic."
+  },
+  {
+    "name": "httpry",
+    "url": "http://dumpsterventures.com/jason/httpry/",
+    "description": "httpry is a specialized packet sniffer designed for displaying and logging HTTP traffic. It is not intended to perform analysis itself, but to capture, parse, and log the traffic for later analysis. It can be run in real-time displaying the traffic as it is parsed, or as a daemon process that logs to an output file. It is written to be as lightweight and flexible as possible, so that it can be easily adaptable to different applications."
+  },
+  {
+    "name": "ngrep",
+    "url": "http://ngrep.sourceforge.net/",
+    "description": "ngrep strives to provide most of GNU grep's common features, applying them to the network layer. ngrep is a pcap-aware tool that will allow you to specify extended regular or hexadecimal expressions to match against data payloads of packets. It currently recognizes IPv4/6, TCP, UDP, ICMPv4/6, IGMP and Raw across Ethernet, PPP, SLIP, FDDI, Token Ring and null interfaces, and understands BPF filter logic in the same fashion as more common packet sniffing tools, such as tcpdump and snoop."
+  },
+  {
+    "name": "passivedns",
+    "url": "https://github.com/gamelinux/passivedns",
+    "description": "A tool to collect DNS records passively to aid Incident handling, Network Security Monitoring (NSM) and general digital forensics. PassiveDNS sniffs traffic from an interface or reads a pcap-file and outputs the DNS-server answers to a log file. PassiveDNS can cache/aggregate duplicate DNS answers in-memory, limiting the amount of data in the logfile without loosing the essens in the DNS answer."
+  },
+  {
+    "name": "sagan",
+    "url": "http://sagan.quadrantsec.com/",
+    "description": "Sagan uses a 'Snort like' engine and rules to analyze logs (syslog/event log/snmptrap/netflow/etc)."
+  },
+  {
+    "name": "Node Security Platform",
+    "url": "https://nodesecurity.io/",
+    "description": "Similar feature set to Snyk, but free in most cases, and very cheap for others."
+  },
+  {
+    "name": "ntopng",
+    "url": "http://www.ntop.org/products/traffic-analysis/ntop/",
+    "description": "Ntopng is a network traffic probe that shows the network usage, similar to what the popular top Unix command does."
+  },
+  {
+    "name": "Fibratus",
+    "url": "https://github.com/rabbitstack/fibratus",
+    "description": "Fibratus is a tool for exploration and tracing of the Windows kernel. It is able to capture the most of the Windows kernel activity - process/thread creation and termination, file system I/O, registry, network activity, DLL loading/unloading and much more. Fibratus has a very simple CLI which encapsulates the machinery to start the kernel event stream collector, set kernel event filters or run the lightweight Python modules called filaments."
+  },
+  {
+    "name": "Snort",
+    "url": "https://www.snort.org/",
+    "description": "Snort is a free and open source network intrusion prevention system (NIPS) and network intrusion detection system (NIDS)created by Martin Roesch in 1998. Snort is now developed by Sourcefire, of which Roesch is the founder and CTO. In 2009, Snort entered InfoWorld's Open Source Hall of Fame as one of the \"greatest [pieces of] open source software of all time\"."
+  },
+  {
+    "name": "Bro",
+    "url": "https://www.bro.org/",
+    "description": "Bro is a powerful network analysis framework that is much different from the typical IDS you may know."
+  },
+  {
+    "name": "OSSEC",
+    "url": "https://ossec.github.io/",
+    "description": "Comprehensive Open Source HIDS. Not for the faint of heart. Takes a bit to get your head around how it works. Performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response. It runs on most operating systems, including Linux, MacOS, Solaris, HP-UX, AIX and Windows. Plenty of reasonable documentation. Sweet spot is medium to large deployments."
+  },
+  {
+    "name": "Suricata",
+    "url": "http://suricata-ids.org/",
+    "description": "Suricata is a high performance Network IDS, IPS and Network Security Monitoring engine. Open Source and owned by a community run non-profit foundation, the Open Information Security Foundation (OISF). Suricata is developed by the OISF and its supporting vendors."
+  },
+  {
+    "name": "Security Onion",
+    "url": "http://blog.securityonion.net/",
+    "description": "Security Onion is a Linux distro for intrusion detection, network security monitoring, and log management. It's based on Ubuntu and contains Snort, Suricata, Bro, OSSEC, Sguil, Squert, Snorby, ELSA, Xplico, NetworkMiner, and many other security tools. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes!"
+  },
+  {
+    "name": "sshwatch",
+    "url": "https://github.com/marshyski/sshwatch",
+    "description": "IPS for SSH similar to DenyHosts written in Python.  It also can gather information about attacker during the attack in a log."
+  },
+  {
+    "name": "Stealth",
+    "url": "https://fbb-git.github.io/stealth/",
+    "description": "File integrity checker that leaves virtually no sediment. Controller runs from another machine, which makes it hard for an attacker to know that the file system is being checked at defined pseudo random intervals over SSH. Highly recommended for small to medium deployments."
+  },
+  {
+    "name": "AIEngine",
+    "url": "https://bitbucket.org/camp0/aiengine",
+    "description": "AIEngine is a next generation interactive/programmable Python/Ruby/Java/Lua packet inspection engine with capabilities of learning without any human intervention, NIDS(Network Intrusion Detection System) functionality, DNS domain classification, network collector, network forensics and many others."
+  },
+  {
+    "name": "Denyhosts",
+    "url": "http://denyhosts.sourceforge.net/",
+    "description": "Thwart SSH dictionary based attacks and brute force attacks."
+  },
+  {
+    "name": "Fail2Ban",
+    "url": "http://www.fail2ban.org/wiki/index.php/Main_Page",
+    "description": "Scans log files and takes action on IPs that show malicious behavior."
+  },
+  {
+    "name": "SSHGuard",
+    "url": "http://www.sshguard.net/",
+    "description": "A software to protect services in addition to SSH, written in C"
+  },
+  {
+    "name": "awesome-honeypots",
+    "url": "https://github.com/paralax/awesome-honeypots",
+    "description": "The canonical awesome honeypot list."
+  },
+  {
+    "name": "HoneyPy",
+    "url": "https://github.com/foospidy/HoneyPy",
+    "description": "HoneyPy is a low to medium interaction honeypot. It is intended to be easy to: deploy, extend functionality with plugins, and apply custom configurations."
+  },
+  {
+    "name": "Dionaea",
+    "url": "http://dionaea.carnivore.it/",
+    "description": "Dionaea is meant to be a nepenthes successor, embedding python as scripting language, using libemu to detect shellcodes, supporting ipv6 and tls."
+  },
+  {
+    "name": "Conpot",
+    "url": "http://conpot.org/",
+    "description": "ICS/SCADA Honeypot. Conpot is a low interactive server side Industrial Control Systems honeypot designed to be easy to deploy, modify and extend. By providing a range of common industrial control protocols we created the basics to build your own system, capable to emulate complex infrastructures to convince an adversary that he just found a huge industrial complex. To improve the deceptive capabilities, we also provided the possibility to server a custom human machine interface to increase the honeypots attack surface. The response times of the services can be artificially delayed to mimic the behaviour of a system under constant load. Because we are providing complete stacks of the protocols, Conpot can be accessed with productive HMI's or extended with real hardware. Conpot is developed under the umbrella of the Honeynet Project and on the shoulders of a couple of very big giants."
+  },
+  {
+    "name": "Amun",
+    "url": "https://github.com/zeroq/amun",
+    "description": "Amun Python-based low-interaction Honeypot."
+  },
+  {
+    "name": "Glastopf",
+    "url": "http://glastopf.org/",
+    "description": "Glastopf is a Honeypot which emulates thousands of vulnerabilities to gather data from attacks targeting web applications. The principle behind it is very simple: Reply the correct response to the attacker exploiting the web application."
+  },
+  {
+    "name": "Kippo",
+    "url": "https://github.com/desaster/kippo",
+    "description": "Kippo is a medium interaction SSH honeypot designed to log brute force attacks and, most importantly, the entire shell interaction performed by the attacker."
+  },
+  {
+    "name": "Kojoney",
+    "url": "http://kojoney.sourceforge.net/",
+    "description": "Kojoney is a low level interaction honeypot that emulates an SSH server. The daemon is written in Python using the Twisted Conch libraries."
+  },
+  {
+    "name": "HonSSH",
+    "url": "https://github.com/tnich/honssh",
+    "description": "HonSSH is a high-interaction Honey Pot solution. HonSSH will sit between an attacker and a honey pot, creating two separate SSH connections between them."
+  },
+  {
+    "name": "Bifrozt",
+    "url": "http://sourceforge.net/projects/bifrozt/",
+    "description": "Bifrozt is a NAT device with a DHCP server that is usually deployed with one NIC connected directly to the Internet and one NIC connected to the internal network. What differentiates Bifrozt from other standard NAT devices is its ability to work as a transparent SSHv2 proxy between an attacker and your honeypot. If you deployed an SSH server on Bifrozt’s internal network it would log all the interaction to a TTY file in plain text that could be viewed later and capture a copy of any files that were downloaded. You would not have to install any additional software, compile any kernel modules or use a specific version or type of operating system on the internal SSH server for this to work. It will limit outbound traffic to a set number of ports and will start to drop outbound packets on these ports when certain limits are exceeded."
+  },
+  {
+    "name": "HoneyDrive",
+    "url": "http://bruteforce.gr/honeydrive",
+    "description": "HoneyDrive is the premier honeypot Linux distro. It is a virtual appliance (OVA) with Xubuntu Desktop 12.04.4 LTS edition installed. It contains over 10 pre-installed and pre-configured honeypot software packages such as Kippo SSH honeypot, Dionaea and Amun malware honeypots, Honeyd low-interaction honeypot, Glastopf web honeypot and Wordpot, Conpot SCADA/ICS honeypot, Thug and PhoneyC honeyclients and more. Additionally it includes many useful pre-configured scripts and utilities to analyze, visualize and process the data it can capture, such as Kippo-Graph, Honeyd-Viz, DionaeaFR, an ELK stack and much more. Lastly, almost 90 well-known malware analysis, forensics and network monitoring related tools are also present in the distribution."
+  },
+  {
+    "name": "Cuckoo Sandbox",
+    "url": "http://www.cuckoosandbox.org/",
+    "description": "Cuckoo Sandbox is an Open Source software for automating analysis of suspicious files. To do so it makes use of custom components that monitor the behavior of the malicious processes while running in an isolated environment."
+  },
+  {
+    "name": "tcpflow",
+    "url": "https://github.com/simsong/tcpflow",
+    "description": "tcpflow is a program that captures data transmitted as part of TCP connections (flows), and stores the data in a way that is convenient for protocol analysis and debugging. Each TCP flow is stored in its own file. Thus, the typical TCP flow will be stored in two files, one for each direction. tcpflow can also process stored 'tcpdump' packet flows."
+  },
+  {
+    "name": "Xplico",
+    "url": "http://www.xplico.org/",
+    "description": "The goal of Xplico is extract from an internet traffic capture the applications data contained. For example, from a pcap file Xplico extracts each email (POP, IMAP, and SMTP protocols), all HTTP contents, each VoIP call (SIP), FTP, TFTP, and so on. Xplico isn’t a network protocol analyzer. Xplico is an open source Network Forensic Analysis Tool (NFAT)."
+  },
+  {
+    "name": "Moloch",
+    "url": "https://github.com/aol/moloch",
+    "description": "Moloch is an open source, large scale IPv4 packet capturing (PCAP), indexing and database system. A simple web interface is provided for PCAP browsing, searching, and exporting. APIs are exposed that allow PCAP data and JSON-formatted session data to be downloaded directly. Simple security is implemented by using HTTPS and HTTP digest password support or by using apache in front. Moloch is not meant to replace IDS engines but instead work along side them to store and index all the network traffic in standard PCAP format, providing fast access. Moloch is built to be deployed across many systems and can scale to handle multiple gigabits/sec of traffic."
+  },
+  {
+    "name": "OpenFPC",
+    "url": "http://www.openfpc.org",
+    "description": "OpenFPC is a set of tools that combine to provide a lightweight full-packet network traffic recorder & buffering system. It's design goal is to allow non-expert users to deploy a distributed network traffic recorder on COTS hardware while integrating into existing alert and log management tools."
+  },
+  {
+    "name": "Dshell",
+    "url": "https://github.com/USArmyResearchLab/Dshell",
+    "description": "Dshell is a network forensic analysis framework. Enables rapid development of plugins to support the dissection of network packet captures."
+  },
+  {
+    "name": "stenographer",
+    "url": "https://github.com/google/stenographer",
+    "description": "Stenographer is a packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets."
+  },
+  {
+    "name": "wireshark",
+    "url": "https://www.wireshark.org",
+    "description": "Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education. Wireshark is very similar to tcpdump, but has a graphical front-end, plus some integrated sorting and filtering options."
+  },
+  {
+    "name": "netsniff-ng",
+    "url": "http://netsniff-ng.org/",
+    "description": " netsniff-ng is a free Linux networking toolkit, a Swiss army knife for your daily Linux network plumbing if you will. Its gain of performance is reached by zero-copy mechanisms, so that on packet reception and transmission the kernel does not need to copy packets from kernel space to user space and vice versa."
+  },
+  {
+    "name": "Live HTTP headers",
+    "url": "https://addons.mozilla.org/de/firefox/addon/live-http-headers/",
+    "description": "Live HTTP headers is a free firefox addon to see your browser requests in real time. It shows the entire headers of the requests and can be used to find the security loopholes in implementations."
+  },
+  {
+    "name": "Prelude",
+    "url": "https://www.prelude-ids.org/",
+    "description": "Prelude is a Universal \"Security Information & Event Management\" (SIEM) system. Prelude collects, normalizes, sorts, aggregates, correlates and reports all security-related events independently of the product brand or license giving rise to such events; Prelude is \"agentless\"."
+  },
+  {
+    "name": "OSSIM",
+    "url": "https://www.alienvault.com/open-threat-exchange/projects",
+    "description": "OSSIM provides all of the features that a security professional needs from a SIEM offering – event collection, normalization, and correlation."
+  },
+  {
+    "name": "FIR",
+    "url": "https://github.com/certsocietegenerale/FIR",
+    "description": "Fast Incident Response, a cybersecurity incident management platform."
+  },
+  {
+    "name": "OpenVPN",
+    "url": "https://openvpn.net/",
+    "description": "OpenVPN is an open source software application that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It uses a custom security protocol that utilizes SSL/TLS for key exchange."
+  },
+  {
+    "name": "DPDK",
+    "url": "http://dpdk.org/",
+    "description": "DPDK is a set of libraries and drivers for fast packet processing."
+  },
+  {
+    "name": "PFQ",
+    "url": "https://github.com/pfq/PFQ",
+    "description": "PFQ is a functional networking framework designed for the Linux operating system that allows efficient packets capture/transmission (10G and beyond), in-kernel functional processing and packets steering across sockets/end-points."
+  },
+  {
+    "name": "PF_RING",
+    "url": "http://www.ntop.org/products/packet-capture/pf_ring/",
+    "description": "PF_RING is a new type of network socket that dramatically improves the packet capture speed."
+  },
+  {
+    "name": "PF_RING ZC (Zero Copy)",
+    "url": "http://www.ntop.org/products/packet-capture/pf_ring/pf_ring-zc-zero-copy/",
+    "description": "PF_RING ZC (Zero Copy) is a flexible packet processing framework that  allows you to achieve 1/10 Gbit line rate packet processing (both RX and TX) at any packet size. It implements zero copy operations including patterns for inter-process and inter-VM (KVM) communications."
+  },
+  {
+    "name": "PACKET_MMAP/TPACKET/AF_PACKET",
+    "url": "http://lxr.free-electrons.com/source/Documentation/networking/packet_mmap.txt",
+    "description": "It's fine to use PACKET_MMAP to improve the performance of the capture and transmission process in Linux."
+  },
+  {
+    "name": "netmap",
+    "url": "http://info.iet.unipi.it/%7Eluigi/netmap/",
+    "description": "netmap is a framework for high speed packet I/O. Together with its companion VALE software switch, it is implemented as a single kernel module and available for FreeBSD, Linux and now also Windows."
+  },
+  {
+    "name": "pfSense",
+    "url": "https://www.pfsense.org/",
+    "description": "Firewall and Router FreeBSD distribution."
+  },
+  {
+    "name": "OPNsense",
+    "url": "https://opnsense.org/",
+    "description": "is an open source, easy-to-use and easy-to-build FreeBSD based firewall and routing platform. OPNsense includes most of the features available in expensive commercial firewalls, and more in many cases. It brings the rich feature set of commercial offerings with the benefits of open and verifiable sources."
+  },
+  {
+    "name": "fwknop",
+    "url": "https://www.cipherdyne.org/fwknop/",
+    "description": "Protects ports via Single Packet Authorization in your firewall."
+  },
+  {
+    "name": "SpamAssassin",
+    "url": "https://spamassassin.apache.org/",
+    "description": "A powerful and popular email spam filter employing a variety of detection technique."
+  },
+  {
+    "name": "Linux Malware Detect",
+    "url": "https://www.rfxn.com/projects/linux-malware-detect/",
+    "description": "A malware scanner for Linux designed around the threats faced in shared hosted environments."
+  },
+  {
+    "name": "Rudder",
+    "url": "http://www.rudder-project.org/",
+    "description": "Rudder is an easy to use, web-driven, role-based solution for IT Infrastructure Automation & Compliance. Automate common system administration tasks (installation, configuration); Enforce configuration over time (configuring once is good, ensuring that configuration is valid and automatically fixing it is better); Inventory of all managed nodes; Web interface to configure and manage nodes and their configuration; Compliance reporting, by configuration and/or by node."
+  },
+  {
+    "name": "google-authenticator",
+    "url": "https://github.com/google/google-authenticator",
+    "description": "The Google Authenticator project includes implementations of one-time passcode generators for several mobile platforms, as well as a pluggable authentication module (PAM). One-time passcodes are generated using open standards developed by the Initiative for Open Authentication (OATH) (which is unrelated to OAuth). These implementations support the HMAC-Based One-time Password (HOTP) algorithm specified in RFC 4226 and the Time-based One-time Password (TOTP) algorithm specified in RFC 6238. Tutorials: How to set up two-factor authentication for SSH login on Linux"
+  },
+  {
+    "name": "android-security-awesome",
+    "url": "https://github.com/ashishb/android-security-awesome",
+    "description": "A collection of android security related resources. A lot of work is happening in academia and industry on tools to perform dynamic analysis, static analysis and reverse engineering of android apps."
+  },
+  {
+    "name": "SecMobi Wiki",
+    "url": "http://wiki.secmobi.com/",
+    "description": "A collection of mobile security resources which including articles, blogs, books, groups, projects, tools and conferences. *"
+  },
+  {
+    "name": "grr",
+    "url": "https://github.com/google/grr",
+    "description": "GRR Rapid Response is an incident response framework focused on remote live forensics."
+  },
+  {
+    "name": "Volatility",
+    "url": "https://github.com/volatilityfoundation/volatility",
+    "description": "Python based memory extraction and analysis framework."
+  },
+  {
+    "name": "mig",
+    "url": "http://mig.mozilla.org/",
+    "description": "MIG is a platform to perform investigative surgery on remote endpoints. It enables investigators to obtain information from large numbers of systems in parallel, thus accelerating investigation of incidents and day-to-day operations security."
+  },
+  {
+    "name": "ir-rescue",
+    "url": "https://github.com/diogo-fernan/ir-rescue",
+    "description": "ir-rescue is a Windows Batch script and a Unix Bash script to comprehensively collect host forensic data during incident response."
+  },
+  {
+    "name": "abuse.ch",
+    "url": "https://www.abuse.ch/",
+    "description": "ZeuS Tracker / SpyEye Tracker / Palevo Tracker / Feodo Tracker tracks Command&Control servers (hosts) around the world and provides you a domain- and an IP-blocklist."
+  },
+  {
+    "name": "Emerging Threats",
+    "url": "http://www.emergingthreats.net/open-source",
+    "description": "Open Source - Emerging Threats began 10 years ago as an open source community for collecting Suricata and SNORT® rules, firewall rules, and other IDS rulesets. The open source community still plays an active role in Internet security, with more than 200,000 active users downloading the ruleset daily. The ETOpen Ruleset is open to any user or organization, as long as you follow some basic guidelines. Our ETOpen Ruleset is available for download any time."
+  },
+  {
+    "name": "PhishTank",
+    "url": "http://www.phishtank.com/",
+    "description": "PhishTank is a collaborative clearing house for data and information about phishing on the Internet. Also, PhishTank provides an open API for developers and researchers to integrate anti-phishing data into their applications at no charge."
+  },
+  {
+    "name": "SBL / XBL / PBL / DBL / DROP / ROKSO",
+    "url": "http://www.spamhaus.org/",
+    "description": "The Spamhaus Project is an international nonprofit organization whose mission is to track the Internet's spam operations and sources, to provide dependable realtime anti-spam protection for Internet networks, to work with Law Enforcement Agencies to identify and pursue spam and malware gangs worldwide, and to lobby governments for effective anti-spam legislation."
+  },
+  {
+    "name": "Internet Storm Center",
+    "url": "https://www.dshield.org/reports.html",
+    "description": "The ISC was created in 2001 following the successful detection, analysis, and widespread warning of the Li0n worm. Today, the ISC provides a free analysis and warning service to thousands of Internet users and organizations, and is actively working with Internet Service Providers to fight back against the most malicious attackers."
+  },
+  {
+    "name": "AutoShun",
+    "url": "https://www.autoshun.org/",
+    "description": "AutoShun is a Snort plugin that allows you to send your Snort IDS logs to a centralized server that will correlate attacks from your sensor logs with other snort sensors, honeypots, and mail filters from around the world."
+  },
+  {
+    "name": "DNS-BH",
+    "url": "http://www.malwaredomains.com/",
+    "description": "The DNS-BH project creates and maintains a listing of domains that are known to be used to propagate malware and spyware. This project creates the Bind and Windows zone files required to serve fake replies to localhost for any requests to these, thus preventing many spyware installs and reporting."
+  },
+  {
+    "name": "AlienVault Open Threat Exchange",
+    "url": "http://www.alienvault.com/open-threat-exchange/dashboard",
+    "description": "AlienVault Open Threat Exchange (OTX), to help you secure your networks from data loss, service disruption and system compromise caused by malicious IP addresses."
+  },
+  {
+    "name": "Tor Bulk Exit List",
+    "url": "https://collector.torproject.org/",
+    "description": "CollecTor, your friendly data-collecting service in the Tor network. CollecTor fetches data from various nodes and services in the public Tor network and makes it available to the world. If you're doing research on the Tor network, or if you're developing an application that uses Tor network data, this is your place to start. TOR Node List /  DNS Blacklists / Tor Node List"
+  },
+  {
+    "name": "leakedin.com",
+    "url": "http://www.leakedin.com/",
+    "description": "The primary purpose of leakedin.com is to make visitors aware about the risks of loosing data. This blog just compiles samples of data lost or disclosed on sites like pastebin.com."
+  },
+  {
+    "name": "FireEye OpenIOCs",
+    "url": "https://github.com/fireeye/iocs",
+    "description": "FireEye Publicly Shared Indicators of Compromise (IOCs)"
+  },
+  {
+    "name": "OpenVAS NVT Feed",
+    "url": "http://www.openvas.org/openvas-nvt-feed.html",
+    "description": "The public feed of Network Vulnerability Tests (NVTs). It contains more than 35,000 NVTs (as of April 2014), growing on a daily basis. This feed is configured as the default for OpenVAS."
+  },
+  {
+    "name": "Project Honey Pot",
+    "url": "http://www.projecthoneypot.org/",
+    "description": "Project Honey Pot is the first and only distributed system for identifying spammers and the spambots they use to scrape addresses from your website. Using the Project Honey Pot system you can install addresses that are custom-tagged to the time and IP address of a visitor to your site. If one of these addresses begins receiving email we not only can tell that the messages are spam, but also the exact moment when the address was harvested and the IP address that gathered it."
+  },
+  {
+    "name": "virustotal",
+    "url": "https://www.virustotal.com/",
+    "description": "VirusTotal, a subsidiary of Google, is a free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners. At the same time, it may be used as a means to detect false positives, i.e. innocuous resources detected as malicious by one or more scanners."
+  },
+  {
+    "name": "IntelMQ",
+    "url": "https://github.com/certtools/intelmq/",
+    "description": "IntelMQ is a solution for CERTs for collecting and processing security feeds, pastebins, tweets using a message queue protocol. It's a community driven initiative called IHAP (Incident Handling Automation Project) which was conceptually designed by European CERTs during several InfoSec events. Its main goal is to give to incident responders an easy way to collect & process threat intelligence thus improving the incident handling processes of CERTs. ENSIA Homepage."
+  },
+  {
+    "name": "CIFv2",
+    "url": "https://github.com/csirtgadgets/massive-octo-spice",
+    "description": "CIF is a cyber threat intelligence management system. CIF allows you to combine known malicious threat information from many sources and use that information for identification (incident response), detection (IDS) and mitigation (null route)."
+  },
+  {
+    "name": "CriticalStack",
+    "url": "https://intel.criticalstack.com/",
+    "description": "Free aggregated threat intel for the Bro network security monitoring platform."
+  },
+  {
+    "name": "OWASP",
+    "url": "http://www.owasp.org",
+    "description": "The Open Web Application Security Project (OWASP) is a 501(c)(3) worldwide not-for-profit charitable organization focused on improving the security of software."
+  },
+  {
+    "name": "ModSecurity",
+    "url": "http://www.modsecurity.org/",
+    "description": "ModSecurity is a toolkit for real-time web application monitoring, logging, and access control."
+  },
+  {
+    "name": "NAXSI",
+    "url": "https://github.com/nbs-system/naxsi",
+    "description": "NAXSI is an open-source, high performance, low rules maintenance WAF for NGINX, NAXSI means Nginx Anti Xss & Sql Injection."
+  },
+  {
+    "name": "ironbee",
+    "url": "https://www.ironbee.com/",
+    "description": "IronBee is an open source project to build a universal web application security sensor. IronBee as a framework for developing a system for securing web applications - a framework for building a web application firewall (WAF)."
+  },
+  {
+    "name": "sqlmap",
+    "url": "http://sqlmap.org/",
+    "description": "sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to accessing the underlying file system and executing commands on the operating system via out-of-band connections."
+  },
+  {
+    "name": "ZAP",
+    "url": "https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project",
+    "description": "The Zed Attack Proxy (ZAP) is an easy to use integrated penetration testing tool for finding vulnerabilities in web applications. It is designed to be used by people with a wide range of security experience and as such is ideal for developers and functional testers who are new to penetration testing. ZAP provides automated scanners as well as a set of tools that allow you to find security vulnerabilities manually."
+  },
+  {
+    "name": "w3af",
+    "url": "http://w3af.org/",
+    "description": "w3af is a Web Application Attack and Audit Framework. The project’s goal is to create a framework to help you secure your web applications by finding and exploiting all web application vulnerabilities."
+  },
+  {
+    "name": "Recon-ng",
+    "url": "https://bitbucket.org/LaNMaSteR53/recon-ng",
+    "description": "Recon-ng is a full-featured Web Reconnaissance framework written in Python. Recon-ng has a look and feel similar to the Metasploit Framework."
+  },
+  {
+    "name": "PTF",
+    "url": "https://github.com/trustedsec/ptf",
+    "description": "The Penetration Testers Framework (PTF) is a way for modular support for up-to-date tools."
+  },
+  {
+    "name": "Sqreen",
+    "url": "https://www.sqreen.io/",
+    "description": "Sqreen is a Runtime Application Self-Protection (RASP) solution for software teams. An in-app agent instruments and monitors the app. Suspicious user activities are reported and attacks are blocked at runtime without code modification or traffic redirection."
+  },
+  {
+    "name": "Secure by Design",
+    "url": "https://www.manning.com/books/secure-by-design?a_aid=danbjson&a_bid=0b3fac80",
+    "description": "Book that identifies design patterns and coding styles that make lots of security vulnerabilities less likely. (early access, published continuously, final release fall 2017)"
+  },
+  {
+    "name": "data_hacking",
+    "url": "https://github.com/ClickSecurity/data_hacking",
+    "description": "Examples of using IPython, Pandas, and Scikit Learn to get the most out of your security data."
+  },
+  {
+    "name": "hadoop-pcap",
+    "url": "https://github.com/RIPE-NCC/hadoop-pcap",
+    "description": "Hadoop library to read packet capture (PCAP) files."
+  },
+  {
+    "name": "Workbench",
+    "url": "http://workbench.readthedocs.org/",
+    "description": "A scalable python framework for security research and development teams."
+  },
+  {
+    "name": "OpenSOC",
+    "url": "https://github.com/OpenSOC/opensoc",
+    "description": "OpenSOC integrates a variety of open source big data technologies in order to offer a centralized tool for security monitoring and analysis."
+  },
+  {
+    "name": "Apache Metron (incubating)",
+    "url": "github.com/apache/incubator-metron",
+    "description": "Metron integrates a variety of open source big data technologies in order to offer a centralized tool for security monitoring and analysis."
+  },
+  {
+    "name": "Apache Spot (incubating)",
+    "url": "github.com/apache/incubator-spot",
+    "description": "Apache Spot is open source software for leveraging insights from flow and packet analysis."
+  },
+  {
+    "name": "binarypig",
+    "url": "https://github.com/endgameinc/binarypig",
+    "description": "Scalable Binary Data Extraction in Hadoop. Malware Processing and Analytics over Pig, Exploration through Django, Twitter Bootstrap, and Elasticsearch."
+  },
+  {
+    "name": "Securing DevOps",
+    "url": "https://manning.com/books/securing-devops?a_aid=securingdevops&a_bid=1353bcd8",
+    "description": "A book on Security techniques for DevOps that reviews state of the art practices used in securing web applications and their infrastructure."
+  },
+  {
+    "name": "Security related Operating Systems @ Rawsec",
+    "url": "http://rawsec.ml/en/security-related-os/",
+    "description": "Complete list of security related operating systems"
+  },
+  {
+    "name": "Best Linux Penetration Testing Distributions @ CyberPunk",
+    "url": "https://n0where.net/best-linux-penetration-testing-distributions/",
+    "description": "Description of main penetration testing distributions"
+  },
+  {
+    "name": "Security @ Distrowatch",
+    "url": "http://distrowatch.com/search.php?category=Security",
+    "description": "Website dedicated to talking about, reviewing and keeping up to date with open source operating systems"
+  },
+  {
+    "name": "Vault",
+    "url": "https://www.vaultproject.io/",
+    "description": "An encrypted datastore secure enough to hold environment and application secrets."
+  },
+  {
+    "name": "Safe",
+    "url": "https://github.com/starkandwayne/safe",
+    "description": "A Vault CLI that makes reading from and writing to the Vault easier to do."
+  },
+  {
+    "name": "Sops",
+    "url": "https://github.com/mozilla/sops",
+    "description": "An editor of encrypted files that supports YAML, JSON and BINARY formats and encrypts with AWS KMS and PGP."
+  },
+  {
+    "name": "Android Security Awesome",
+    "url": "https://github.com/ashishb/android-security-awesome",
+    "description": "A collection of android security related resources."
+  },
+  {
+    "name": "Awesome CTF",
+    "url": "https://github.com/apsdehal/awesome-ctf",
+    "description": "A curated list of CTF frameworks, libraries, resources and software."
+  },
+  {
+    "name": "Awesome Cyber Skills",
+    "url": "https://github.com/joe-shenouda/awesome-cyber-skills",
+    "description": "A curated list of hacking environments where you can train your cyber skills legally and safely."
+  },
+  {
+    "name": "Awesome Hacking",
+    "url": "https://github.com/carpedm20/awesome-hacking",
+    "description": "A curated list of awesome Hacking tutorials, tools and resources."
+  },
+  {
+    "name": "Awesome Honeypots",
+    "url": "https://github.com/paralax/awesome-honeypots",
+    "description": "An awesome list of honeypot resources."
+  },
+  {
+    "name": "Awesome Malware Analysis",
+    "url": "https://github.com/rshipp/awesome-malware-analysis",
+    "description": "A curated list of awesome malware analysis tools and resources."
+  },
+  {
+    "name": "Awesome PCAP Tools",
+    "url": "https://github.com/caesar0301/awesome-pcaptools",
+    "description": "A collection of tools developed by other researchers in the Computer Science area to process network traces."
+  },
+  {
+    "name": "Awesome Pentest",
+    "url": "https://github.com/enaqx/awesome-pentest",
+    "description": "A collection of awesome penetration testing resources, tools and other shiny things."
+  },
+  {
+    "name": "Awesome Linux Containers",
+    "url": "https://github.com/Friz-zy/awesome-linux-containers",
+    "description": "A curated list of awesome Linux Containers frameworks, libraries and software."
+  },
+  {
+    "name": "Awesome Incident Response",
+    "url": "https://github.com/meirwah/awesome-incident-response",
+    "description": "A curated list of resources for incident response."
+  },
+  {
+    "name": "Awesome Web Hacking",
+    "url": "https://github.com/infoslack/awesome-web-hacking",
+    "description": "This list is for anyone wishing to learn about web application security but do not have a starting point."
+  },
+  {
+    "name": "Awesome Threat Intelligence",
+    "url": "https://github.com/hslatman/awesome-threat-intelligence",
+    "description": "A curated list of threat intelligence resources."
+  },
+  {
+    "name": "Awesome Pentest Cheat Sheets",
+    "url": "https://github.com/coreb1t/awesome-pentest-cheat-sheets",
+    "description": "Collection of the cheat sheets useful for pentesting"
+  },
+  {
+    "name": "Awesome Industrial Control System Security",
+    "url": "https://github.com/mpesen/awesome-industrial-control-system-security",
+    "description": "A curated list of resources related to Industrial Control System (ICS) security."
+  },
+  {
+    "name": "awesome-awesomeness",
+    "url": "https://github.com/bayandin/awesome-awesomeness",
+    "description": "awesome-* or *-awesome lists."
+  },
+  {
+    "name": "lists",
+    "url": "https://github.com/jnv/lists",
+    "description": "The definitive list of (awesome) lists curated on GitHub."
+  },
+  {
+    "name": "Movies For Hacker",
+    "url": "https://github.com/k4m4/movies-for-hackers",
+    "description": "A curated list of movies every hacker & cyberpunk must watch."
+  }
+]
