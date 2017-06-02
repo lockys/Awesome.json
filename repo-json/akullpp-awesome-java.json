@@ -270,11 +270,6 @@
     "description": "Code generator that aims to reduce verbosity."
   },
   {
-    "name": "picocli",
-    "url": "http://picocli.info/",
-    "description": "ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args."
-  },
-  {
     "name": "Airline",
     "url": "https://github.com/airlift/airline",
     "description": "Annotation-based framework for parsing Git-like command-line arguments."
@@ -293,6 +288,11 @@
     "name": "JOpt Simple",
     "url": "http://pholser.github.io/jopt-simple/",
     "description": "Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations."
+  },
+  {
+    "name": "picocli",
+    "url": "http://picocli.info/",
+    "description": "ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args."
   },
   {
     "name": "ANTLR",
@@ -1045,11 +1045,6 @@
     "description": "Multi-format 1D/2D barcode image processing library."
   },
   {
-    "name": "HikariJSON",
-    "url": "https://github.com/brettwooldridge/HikariJSON",
-    "description": "High-performance JSON parser, 2x faster than Jackson."
-  },
-  {
     "name": "Genson",
     "url": "http://owlike.github.io/genson/",
     "description": "Powerful and easy to use Java-to-JSON conversion library."
@@ -1058,6 +1053,11 @@
     "name": "Gson",
     "url": "https://github.com/google/gson",
     "description": "Serializes objects to JSON and vice versa. Good performance with on-the-fly usage."
+  },
+  {
+    "name": "HikariJSON",
+    "url": "https://github.com/brettwooldridge/HikariJSON",
+    "description": "High-performance JSON parser, 2x faster than Jackson."
   },
   {
     "name": "Jackson-datatype-money",
@@ -1315,11 +1315,6 @@
     "description": "Functional fault tolerance library."
   },
   {
-    "name": "JBot",
-    "url": "https://github.com/ramswaroop/jbot",
-    "description": "Framework for building chat bots."
-  },
-  {
     "name": "JavaX",
     "url": "http://javax.ai1.lol/",
     "description": "Reinventing and extending Java with a focus on simplicity."
@@ -1328,6 +1323,11 @@
     "name": "JBake",
     "url": "http://jbake.org",
     "description": "Static website generator."
+  },
+  {
+    "name": "JBot",
+    "url": "https://github.com/ramswaroop/jbot",
+    "description": "Framework for building chat bots."
   },
   {
     "name": "Jimfs",
@@ -1410,14 +1410,14 @@
     "description": "Performance monitor."
   },
   {
-    "name": "Glowroot",
-    "url": "https://glowroot.org/",
-    "description": "Open-source Java APM."
-  },
-  {
     "name": "Automon",
     "url": "https://github.com/stevensouza/automon",
     "description": "Combines the power of AOP with monitoring and/or logging tools."
+  },
+  {
+    "name": "Glowroot",
+    "url": "https://glowroot.org/",
+    "description": "Open-source Java APM."
   },
   {
     "name": "Instrumental ",
@@ -1565,11 +1565,6 @@
     "description": "Represent, parse and encode URNs as in RFC 2141."
   },
   {
-    "name": "SimpleFlatMapper",
-    "url": "https://github.com/arnaudroger/SimpleFlatMapper",
-    "description": "Simple database and CSV mapper."
-  },
-  {
     "name": "Apache Cayenne",
     "url": "http://cayenne.apache.org/",
     "description": "Provides clean, static API for data access. Also includes GUI Modeler for working with database mappings, DB reverse engineering and generation."
@@ -1593,6 +1588,11 @@
     "name": "MyBatis",
     "url": "http://www.mybatis.org/mybatis-3/",
     "description": "Couples objects with stored procedures or SQL statements."
+  },
+  {
+    "name": "SimpleFlatMapper",
+    "url": "https://github.com/arnaudroger/SimpleFlatMapper",
+    "description": "Simple database and CSV mapper."
   },
   {
     "name": "AWS Elastic Beanstalk ",
@@ -2019,6 +2019,11 @@
     "description": "A collection of Gherkin steps for REST-service testing using Cucumber."
   },
   {
+    "name": "Fixture Factory",
+    "url": "https://github.com/six2six/fixture-factory",
+    "description": "Generates fake objects from a template."
+  },
+  {
     "name": "Galen",
     "url": "https://github.com/galenframework/galen",
     "description": "Layout and functional testing framework for websites."
@@ -2047,11 +2052,6 @@
     "name": "JFairy",
     "url": "https://github.com/Codearte/jfairy",
     "description": "Fake data generator."
-  },
-  {
-    "name": "Fixture Factory",
-    "url": "https://github.com/six2six/fixture-factory",
-    "description": "Generates fake objects from a template."
   },
   {
     "name": "JGiven",
@@ -2319,10 +2319,6 @@
     "description": "Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side."
   },
   {
-    "name": "ciandcd",
-    "url": "https://github.com/ciandcd/awesome-ciandcd"
-  },
-  {
     "name": "Awesome Gradle Plugins",
     "url": "https://github.com/ksoichiro/awesome-gradle"
   },
@@ -2333,6 +2329,10 @@
   {
     "name": "Awesome REST",
     "url": "https://github.com/marmelab/awesome-rest"
+  },
+  {
+    "name": "ciandcd",
+    "url": "https://github.com/ciandcd/awesome-ciandcd"
   },
   {
     "name": "Useful Java Links",
@@ -2380,6 +2380,11 @@
   {
     "name": "Java Off Heap",
     "url": "http://www.javaoffheap.com/"
+  },
+  {
+    "name": "Marco Behler's Screencasts",
+    "url": "https://www.marcobehler.com/series",
+    "description": "Screencasts about modern Java development."
   },
   {
     "name": "The Java Council",
