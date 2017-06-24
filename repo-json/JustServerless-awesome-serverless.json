@@ -115,6 +115,11 @@
     "description": "Conference focused on serverless architectures."
   },
   {
+    "name": "Shipped",
+    "url": "http://shipped.devopslinks.com/",
+    "description": "Independent newsletter focused on serverless computing, containers & orchestration."
+  },
+  {
     "name": "Just Serverless",
     "url": "http://justserverless.com/blog",
     "description": "Blog about the Serverless framework."
@@ -183,11 +188,6 @@
     "name": "Moving from Ruby on Rails to Serverless",
     "url": "http://microapps.com/blog/learnt-building-monolithic-rails-app/",
     "description": "Blog post why and how this transition was made."
-  },
-  {
-    "name": "Zerosharp blog posts series",
-    "url": "http://blog.zerosharp.com/serverless-framework-part-1-up-and-running/",
-    "description": "Step-by-step development of an example application."
   },
   {
     "name": "Serverless and GraphQL",
@@ -2599,6 +2599,71 @@
     "description": "Tutorial on how to build a serverless Twilio SMS + call forwarding bot in 7 minutes."
   },
   {
+    "name": "Web auth with AWS Lambda and API Gateway",
+    "url": "https://www.sandersdenardi.com/aws-lambda-api-auth/",
+    "description": "Tutorial on how to do web authentication with AWS Lambda and API Gateway."
+  },
+  {
+    "name": "Why go serverless?",
+    "url": "http://blog.backand.com/why-go-serverless/",
+    "description": "Post which explaines why one should consider to go serverless."
+  },
+  {
+    "name": "Event-driven processing with Serverless and DynamoDB streams",
+    "url": "https://serverless.com/blog/event-driven-architecture-dynamodb/",
+    "description": "How to setup an event-driven data processing pipeline with the Serverless Framework and DynamoDB streams."
+  },
+  {
+    "name": "Serverless v1.16.0",
+    "url": "https://serverless.com/blog/serverless-v1.16.0/",
+    "description": "Announcement blog post for Serverless Framework v1.16.0."
+  },
+  {
+    "name": "How do different factors affect Lambda cold starts?",
+    "url": "https://read.acloud.guru/does-coding-language-memory-or-package-size-affect-cold-starts-of-aws-lambda-a15e26d12c76",
+    "description": "Post on how language, memory and package size affect AWS Lambda cold starts."
+  },
+  {
+    "name": "AWS Lambda runtime performance comparisons",
+    "url": "https://read.acloud.guru/comparing-aws-lambda-performance-when-using-node-js-java-c-or-python-281bef2c740f",
+    "description": "Comparing AWS Lambda performance when using Node.js, Java, C# or Python."
+  },
+  {
+    "name": "Serverless (Cron)icle 3",
+    "url": "https://serverless.com/blog/serverless-cron-icle-3/",
+    "description": "Serverless (Cron)icle 2 - News from the serverless ecosystem."
+  },
+  {
+    "name": "Writing IAM policies CAREfully",
+    "url": "https://serverlesscode.com/post/iam-policies-like-you-care/",
+    "description": "Conceptual framework that helps writing better IAM policies."
+  },
+  {
+    "name": "FaunaDB with GraphQL",
+    "url": "https://fauna.com/blog/graphql-faunadb",
+    "description": "How to use FaunaDB with GraphQL and the Serverless Framework."
+  },
+  {
+    "name": "5 handy serverless APIs",
+    "url": "https://thenewstack.io/5-handy-api-services-web-development/",
+    "description": "5 handy APIs one can use for serverless development."
+  },
+  {
+    "name": "Python 3 apps with the Serverless Framework",
+    "url": "https://serverlesscode.com/post/python-3-on-serverless-framework/",
+    "description": "How to build Python 3 services with the Serverless Framework."
+  },
+  {
+    "name": "Serving 39 million requests for $370 / month",
+    "url": "https://trackchanges.postlight.com/serving-39-million-requests-for-370-month-or-how-we-reduced-our-hosting-costs-by-two-orders-of-edc30a9a88cd",
+    "description": "Post which outlines how Postlight reduced their hosting costs by two orders of magnitude."
+  },
+  {
+    "name": "Serverless stripe",
+    "url": "https://yos.io/2017/06/22/serverless-stripe/",
+    "description": "Post on how to receive payments in a serverless fashion with Stripe and AWS Lambda."
+  },
+  {
     "name": "Hands on with Serverless v1",
     "url": "http://blog.rowanudell.com/hands-on-with-serverless-v1-screencast/",
     "description": "Rowan Udell shows how to get started with Serverless v1."
@@ -2752,6 +2817,11 @@
     "name": "How to make a Serverless Framework plugin",
     "url": "https://www.youtube.com/watch?v=lzcmdmk2Lc8",
     "description": "Video which shows how to make a Serverless Framework plugin in under 2 minutes."
+  },
+  {
+    "name": "What's new in Serverless v1.16",
+    "url": "https://www.youtube.com/watch?v=_F4YO6pi1sg",
+    "description": "Video walkthrough about all the new features in Serverless v1.16."
   },
   {
     "name": "JAWS @ re:Invent YouTube Video",
@@ -4434,6 +4504,21 @@
     "description": "Error tracking tool on AWS managed services."
   },
   {
+    "name": "Dev dependencies",
+    "url": "https://github.com/cjelger/serverless-dev-dependencies",
+    "description": "Dummy project to show exclusion of dev dependencies when packaging with the Serverless Framework."
+  },
+  {
+    "name": "FaunaDB powered GraphQL blog",
+    "url": "https://github.com/fauna/serverless-graphql-blog",
+    "description": "Serverless blog leveraging GraphQL in combination with FaunaDB."
+  },
+  {
+    "name": "Stripe backend",
+    "url": "https://github.com/yosriady/serverless-stripe-backend",
+    "description": "Backend application for serverless-stripe-frontend built on AWS Lambda & the Serverless Framework."
+  },
+  {
     "name": "Dashbird",
     "url": "https://dashbird.io",
     "description": "Service to analyse and debug lambda executions."
@@ -4717,6 +4802,16 @@
     "name": "Serverless Computing: Current Trends and open problems",
     "url": "https://arxiv.org/pdf/1706.03178.pdf",
     "description": "Research paper on serverless computing."
+  },
+  {
+    "name": "Lambda session auth",
+    "url": "https://github.com/sedenardi/lambda-session-auth",
+    "description": "Cookie-based session authentication using AWS Lambda and Node.js."
+  },
+  {
+    "name": "CloudBoost",
+    "url": "https://github.com/cloudboost/cloudboost",
+    "description": "One complete serverless platform for the next web."
   },
   {
     "name": "Webpack",
@@ -5344,6 +5439,11 @@
     "description": "Reduce the size and speed up your Node.js based Lambdas using Browserify."
   },
   {
+    "name": "Shell",
+    "url": "https://github.com/UnitedIncome/serverless-shell",
+    "description": "Drop to a runtime shell with all the environment variables set that you'd have in Lambda."
+  },
+  {
     "name": "Serverless book",
     "url": "https://github.com/pmuens/serverless-book",
     "description": "By the Serverless team - Book focused on v1 of the serverless.com framework."
@@ -5367,6 +5467,11 @@
     "name": "Introduction to serverless computing with AWS Lambda",
     "url": "https://www.contino.io/files/Contino-Introduction-to-Serverless-Computing-with-AWS-Lambda.pdf",
     "description": "Guide about serverless computing on AWS Lambda."
+  },
+  {
+    "name": "Going serverless",
+    "url": "https://leanpub.com/going-serverless",
+    "description": "Building scalable applications with the Serverless Framework and AWS Lambda."
   },
   {
     "name": "Trek10",
@@ -5497,6 +5602,31 @@
     "name": "Serverless Registry",
     "url": "https://justserverless.github.io/serverless-registry",
     "description": "Unofficial plugin and module search."
+  },
+  {
+    "name": "Serverless Framework tutorial",
+    "url": "http://blog.zerosharp.com/serverless-framework-part-1-up-and-running/",
+    "description": "Part 1 - Part 1 of the Serverless Framework tutorial by zerosharp."
+  },
+  {
+    "name": "Serverless Framework tutorial",
+    "url": "http://blog.zerosharp.com/serverless-framework-part-2-typescript-and-mocha/",
+    "description": "Part 2 - Part 2 of the Serverless Framework tutorial by zerosharp."
+  },
+  {
+    "name": "Serverless Framework tutorial",
+    "url": "http://blog.zerosharp.com/serverless-framework-part-3-the-guts/",
+    "description": "Part 3 - Part 3 of the Serverless Framework tutorial by zerosharp."
+  },
+  {
+    "name": "Serverless Framework tutorial",
+    "url": "http://blog.zerosharp.com/serverless-framework-part-4-connecting-the-parts/",
+    "description": "Part 4 - Part 4 of the Serverless Framework tutorial by zerosharp."
+  },
+  {
+    "name": "Serverless Framework tutorial",
+    "url": "http://blog.zerosharp.com/serverless-framework-part-5-pulling-in-a-node-package/",
+    "description": "Part 5 - Part 5 of the Serverless Framework tutorial by zerosharp."
   },
   {
     "name": "Demo with DynamoDB",
