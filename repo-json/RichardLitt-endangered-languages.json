@@ -73,8 +73,9 @@
     "url": "https://sourceforge.net/p/lingala/code/HEAD/tree/"
   },
   {
-    "name": "AGTK  AGTK is a suite of software components for building tools for annotating linguistic signals, time-series data which documents any kind of linguistic behavior (e.g. audio, video). The internal data structures are based on annotation graphs. (Original project is on SourceForge: https://sourceforge.net/projects/agtk/)",
-    "url": "https://github.com/lowresourcelanguages/agtk"
+    "name": "alignment-with-openfst",
+    "url": "https://github.com/ldmt-muri/alignment-with-openfst",
+    "description": "This is an implementation of the CRF autoencoder framework for four tasks: bitext word alignment, part-of-speech tagging, code switching, dependency parsing."
   },
   {
     "name": "ANNIS Search and Visualization in Multilayer Linguistic Corpora",
@@ -194,20 +195,12 @@
     "url": "https://github.com/alvations/DLTK"
   },
   {
-    "name": "ELAN ELAN is a professional tool for the creation of complex annotations on video and audio resources.",
-    "url": "https://tla.mpi.nl/tools/tla-tools/elan/"
-  },
-  {
     "name": "ELDER: Endangered Language Data Electronic Repository   Endangered Language Data Electronic Repository: A web-based ontologically-compliant collaborative linguistic data cataloguing tool.",
     "url": "https://github.com/elderonline/ELDER"
   },
   {
     "name": "EMMA A Novel Evaluation Metric for Morphological Analysis",
     "url": "http://www.cs.bris.ac.uk/Research/MachineLearning/Morphology/resources.jsp#eval"
-  },
-  {
-    "name": "eopas   ETHNOER Online Presentation and Annotation System",
-    "url": "https://github.com/eopas/eopas"
   },
   {
     "name": "fast_align  Simple, fast unsupervised word aligner.",
@@ -221,11 +214,6 @@
   {
     "name": "FieldWorks   FieldWorks is a suite of software tools for language and cultural data, with support for complex scripts. http://fieldworks.sil.org/ FieldWorks Language Explorer (or FLEx, for short) is designed to help field linguists perform many common language documentation and analysis tasks. It can help you: elicit and record lexical information, create dictionaries, interlinearize texts, analyze discourse features, study morphology",
     "url": "https://github.com/sillsdev/FieldWorks"
-  },
-  {
-    "name": "FLAT",
-    "url": "https://github.com/proycon/flat",
-    "description": "FoLia Linguistic Annotation Tool FLAT is a web-based linguistic annotation environment based around the FoLiA format (http://proycon.github.io/folia/), a rich XML-based format for linguistic annotation. FLAT allows users to view annotated FoLiA documents and enrich these documents with new annotations, a wide variety of linguistic annotation types is supported through the FoLiA paradigm. It is a document-centric tool that fully preserves and visualises document structure."
   },
   {
     "name": "Franc  Natural language detection http://wooorm.com/franc/",
@@ -252,12 +240,13 @@
     "url": "https://github.com/moses-smt/giza-pp"
   },
   {
-    "name": "Glottolog data   Glottolog provides comprehensive reference information for the world's languages.",
-    "url": "https://github.com/clld/glottolog-data"
+    "name": "gv-crawl",
+    "url": "https://github.com/vchahun/gv-crawl",
+    "description": "Global Voices bitext crawler for creating parallel corpora."
   },
   {
-    "name": "graf-python   The library graf-python is an open source Python implemenation to parse and write GrAF/XML files as described in ISO 24612. The parser of the library creates an annotation graph from the files. The user may then query the annotation graph via the API of graf-python.",
-    "url": "https://github.com/cidles/graf-python"
+    "name": "Glottolog data   Glottolog provides comprehensive reference information for the world's languages.",
+    "url": "https://github.com/clld/glottolog-data"
   },
   {
     "name": "Gramadóir  Grammar checking engine that is designed for the rapid development of grammar checkers for minority languages and other languages with limited computational resources.",
@@ -315,10 +304,6 @@
   {
     "name": "langtech A host of resources provided in SVN by the University of Tromsø. Details are here and in English here.",
     "url": "https://victorio.uit.no/langtech/trunk/"
-  },
-  {
-    "name": "LDC Word Aligner LDC Word Aligner is a software tool used for manual annotation of word alignment developed to support Arabic-English and Chinese-English word alignment tasks. It has a clean, easy-to-use interface. Since its development in 2009, LDC has used LDC Word Aligner to generate over 1,000,000 tokens of annotated word alignment data from a variety of genres including broadcast, newswire and web-based sources.",
-    "url": "https://www.ldc.upenn.edu/language-resources/tools/ldc-word-aligner"
   },
   {
     "name": "leebock/languages   Application files for the Smithsonian endangered languages story map.",
@@ -387,6 +372,11 @@
   {
     "name": "morfessor   Morfessor is a tool for unsupervised and semi-supervised morphological segmentation",
     "url": "https://github.com/aalto-speech/morfessor"
+  },
+  {
+    "name": "morpholm",
+    "url": "https://github.com/ldmt-muri/morpholm",
+    "description": "Morphology-aware language models."
   },
   {
     "name": "mosesdecoder Moses, the machine translation system",
@@ -461,28 +451,12 @@
     "url": "https://github.com/sillsdev/phonology-assistant"
   },
   {
-    "name": "poio-analyzer   Poio is a collection of software tools for linguists working in language documentation, descriptive linguistics and/or language typology. It allows linguists to manage and analyze their data. The Poio Interlinear Editor allows to add morpho-syntactic annotations to transcriptions. It supports various file formats for input, but will only output standardized XML defined by the Corpus Encoding Standard and the Text Encoding Initiative. Several tools for analyzing linguistic data will be made available to further process annotated data. Poio tools are written in Python and are based on PyQt.",
-    "url": "https://github.com/cidles/poio-analyzer"
-  },
-  {
-    "name": "poio-api   Poio API is a free and open source Python library to access and search data from language documentation in your linguistic analysis workflow. It converts file formats like Elan’s EAF, Toolbox files, Typecraft XML and others into annotation graphs as defined in ISO 24612. Those graphs, for which we use an implementation called “Graph Annotation F… http://www.poio.eu/",
-    "url": "https://github.com/cidles/poio-api"
-  },
-  {
-    "name": "poio-doc   Documentation of the Poio project.http://www.poio.eu",
-    "url": "https://github.com/cidles/poio-doc"
-  },
-  {
     "name": "pressagio   Pressagio is a library that predicts text based on n-gram models. For example, you can send a string and the library will return the most likely word completions for the last token in the string.",
     "url": "https://github.com/cidles/pressagio"
   },
   {
     "name": "PrimerPro The purpose of PrimerPro is to assist the literacy worker in the development of primers for a given language.",
     "url": "https://github.com/sillsdev/PrimerPro"
-  },
-  {
-    "name": "pyannotation   PyAnnotation is a Python Library to access and manipulate linguistically annotated corpus files.",
-    "url": "https://github.com/cidles/pyannotation"
   },
   {
     "name": "pyDelphin   Python libraries for DELPH-IN (Friendly Fork)",
@@ -623,6 +597,52 @@
   {
     "name": "XDXF_Makedict   XDXF dictionary format and \"makedict\" dictionary converting software (official repository)",
     "url": "https://github.com/soshial/xdxf_makedict"
+  },
+  {
+    "name": "AGTK  AGTK is a suite of software components for building tools for annotating linguistic signals, time-series data which documents any kind of linguistic behavior (e.g. audio, video). The internal data structures are based on annotation graphs. (Original project is on SourceForge: https://sourceforge.net/projects/agtk/)",
+    "url": "https://github.com/lowresourcelanguages/agtk"
+  },
+  {
+    "name": "brendano",
+    "url": "https://github.com/brendano/gfl_syntax",
+    "description": "Graph Fragment Language for Easy Syntactic Annotation http://www.ark.cs.cmu.edu/FUDG"
+  },
+  {
+    "name": "ELAN ELAN is a professional tool for the creation of complex annotations on video and audio resources.",
+    "url": "https://tla.mpi.nl/tools/tla-tools/elan/"
+  },
+  {
+    "name": "eopas   ETHNOER Online Presentation and Annotation System",
+    "url": "https://github.com/eopas/eopas"
+  },
+  {
+    "name": "FLAT",
+    "url": "https://github.com/proycon/flat",
+    "description": "FoLia Linguistic Annotation Tool FLAT is a web-based linguistic annotation environment based around the FoLiA format (http://proycon.github.io/folia/), a rich XML-based format for linguistic annotation. FLAT allows users to view annotated FoLiA documents and enrich these documents with new annotations, a wide variety of linguistic annotation types is supported through the FoLiA paradigm. It is a document-centric tool that fully preserves and visualises document structure."
+  },
+  {
+    "name": "graf-python   The library graf-python is an open source Python implemenation to parse and write GrAF/XML files as described in ISO 24612. The parser of the library creates an annotation graph from the files. The user may then query the annotation graph via the API of graf-python.",
+    "url": "https://github.com/cidles/graf-python"
+  },
+  {
+    "name": "LDC Word Aligner LDC Word Aligner is a software tool used for manual annotation of word alignment developed to support Arabic-English and Chinese-English word alignment tasks. It has a clean, easy-to-use interface. Since its development in 2009, LDC has used LDC Word Aligner to generate over 1,000,000 tokens of annotated word alignment data from a variety of genres including broadcast, newswire and web-based sources.",
+    "url": "https://www.ldc.upenn.edu/language-resources/tools/ldc-word-aligner"
+  },
+  {
+    "name": "poio-analyzer   Poio is a collection of software tools for linguists working in language documentation, descriptive linguistics and/or language typology. It allows linguists to manage and analyze their data. The Poio Interlinear Editor allows to add morpho-syntactic annotations to transcriptions. It supports various file formats for input, but will only output standardized XML defined by the Corpus Encoding Standard and the Text Encoding Initiative. Several tools for analyzing linguistic data will be made available to further process annotated data. Poio tools are written in Python and are based on PyQt.",
+    "url": "https://github.com/cidles/poio-analyzer"
+  },
+  {
+    "name": "poio-api   Poio API is a free and open source Python library to access and search data from language documentation in your linguistic analysis workflow. It converts file formats like Elan’s EAF, Toolbox files, Typecraft XML and others into annotation graphs as defined in ISO 24612. Those graphs, for which we use an implementation called “Graph Annotation F… http://www.poio.eu/",
+    "url": "https://github.com/cidles/poio-api"
+  },
+  {
+    "name": "poio-doc   Documentation of the Poio project.http://www.poio.eu",
+    "url": "https://github.com/cidles/poio-doc"
+  },
+  {
+    "name": "pyannotation   PyAnnotation is a Python Library to access and manipulate linguistically annotated corpus files.",
+    "url": "https://github.com/cidles/pyannotation"
   },
   {
     "name": "XTrans Trans is a next generation multi-platform, multilingual, multi-channel transcription tool that supports manual transcription and annotation of audio recordings. The XTrans toolkit provides new and efficient solutions to common transcription challenges and addresses critical gaps in existing tools.Designed with input from experienced human transcribers working with real world data, XTrans provides a flexible and intuitive graphical user interface for a multitude of speech annotation tasks including (virtual) segmentation of audio into smaller units like turns and sentences; speaker identification; orthographic transcription in any language; and labeling of structural elements of the transcript like topics.",
