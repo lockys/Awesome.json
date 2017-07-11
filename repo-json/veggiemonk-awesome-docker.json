@@ -402,8 +402,9 @@
     "description": "Vagga is a containerisation tool without daemons. It is a fully-userspace container engine inspired by Vagrant and Docker, specialized for development environments by @tailhook"
   },
   {
-    "name": "Docker Compose Example by @llitfkitfk",
-    "url": "https://github.com/llitfkitfk/docker-compose-demo"
+    "name": "chaperone-docker",
+    "url": "https://github.com/garywiz/chaperone-docker",
+    "description": "A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits."
   },
   {
     "name": "Collection of Dockerfiles by @crosbymichael",
@@ -424,6 +425,15 @@
   {
     "name": "Collection of Dockerfiles 5 by @arun-gupta",
     "url": "https://github.com/arun-gupta/docker-images"
+  },
+  {
+    "name": "docker-alpine",
+    "url": "https://github.com/gliderlabs/docker-alpine",
+    "description": "A super small Docker base image (5MB) using Alpine Linux by @gliderlabs"
+  },
+  {
+    "name": "Docker Compose Example by @llitfkitfk",
+    "url": "https://github.com/llitfkitfk/docker-compose-demo"
   },
   {
     "name": "Dockerfile Project : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.",
@@ -485,10 +495,6 @@
     "url": "https://cargos.io/"
   },
   {
-    "name": "Container Compliance Open Source tool for assesing running containers and cold images for vulnerabilites and audits.",
-    "url": "https://github.com/OpenSCAP/container-compliance"
-  },
-  {
     "name": "Cycle.io Bare-metal container hosting.",
     "url": "https://cycle.io/"
   },
@@ -533,52 +539,6 @@
   {
     "name": "VMWare Harbor Project Harbor by VMWare is an enterprise-class registry server that stores and distributes Docker images. Harbor extends the open source Docker Distribution by adding the functionalities usually required by an enterprise, such as security, identity and management.",
     "url": "http://vmware.github.io/harbor/"
-  },
-  {
-    "name": "Base Image by @phusion",
-    "url": "https://github.com/phusion/baseimage-docker"
-  },
-  {
-    "name": "Busybox",
-    "url": "https://github.com/jpetazzo/docker-busybox",
-    "description": "with either buildroot or Ubuntu's busybox-static by @jpetazzo"
-  },
-  {
-    "name": "chaperone-docker",
-    "url": "https://github.com/garywiz/chaperone-docker",
-    "description": "A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits."
-  },
-  {
-    "name": "docker-alpine",
-    "url": "https://github.com/gliderlabs/docker-alpine",
-    "description": "A super small Docker base image (5MB) using Alpine Linux by @gliderlabs"
-  },
-  {
-    "name": "docker-fluentd",
-    "url": "https://github.com/kiyoto/docker-fluentd",
-    "description": "the Container to Log Other Containers' Logs by @kiyoto"
-  },
-  {
-    "name": "nvidia-docker",
-    "url": "https://github.com/NVIDIA/nvidia-docker",
-    "description": "Build and run Docker containers leveraging NVIDIA GPUs."
-  },
-  {
-    "name": "Official Images from Docker Hub",
-    "url": "https://github.com/docker-library/official-images"
-  },
-  {
-    "name": "OpenWRT by @zoobab",
-    "url": "http://www.zoobab.com/docker-openwrt-image"
-  },
-  {
-    "name": "passenger-docker",
-    "url": "https://github.com/phusion/passenger-docker",
-    "description": "Docker base images for Ruby, Python, Node.js and Meteor web apps by @phusion"
-  },
-  {
-    "name": "Phusion Docker Hub Account",
-    "url": "https://hub.docker.com/u/phusion/"
   },
   {
     "name": "bocker (2)",
@@ -917,6 +877,11 @@
     "description": "Flannel is a virtual network that gives a subnet to each host for use with container runtimes. By @coreos"
   },
   {
+    "name": "netshoot",
+    "url": "https://github.com/nicolaka/netshoot",
+    "description": "The netshoot container has a powerful set of networking tools to help troubleshoot Docker networking issues by @nicolaka"
+  },
+  {
     "name": "Weave (The Docker network)",
     "url": "https://github.com/weaveworks/weave",
     "description": "Weave creates a virtual network that connects Docker containers deployed across multiple hosts."
@@ -1110,6 +1075,11 @@
     "description": "Composable Docker Management"
   },
   {
+    "name": "Swarmpit",
+    "url": "https://github.com/swarmpit/swarmpit",
+    "description": "Lightweight Docker Swarm orchestration. Swarmpit provides clean way to manage your Docker Swarm cluster with various handful features such Service management, smart search, shared access and private registries."
+  },
+  {
     "name": "docker-proxy",
     "url": "https://github.com/silarsis/docker-proxy",
     "description": "Transparent proxy for docker containers, run in a docker container. By @silarsis"
@@ -1168,6 +1138,11 @@
     "name": "notary",
     "url": "https://github.com/docker/notary",
     "description": "a server and a client for running and interacting with trusted collections. By @docker"
+  },
+  {
+    "name": "oscap-docker",
+    "url": "https://github.com/OpenSCAP/openscap",
+    "description": "OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By RedHat"
   },
   {
     "name": "Twistlock $$$",
@@ -1359,34 +1334,14 @@
     "description": "Python based Assistance for Docker by @qazbnm456"
   },
   {
-    "name": "appium-docker-android",
-    "url": "https://github.com/appium/appium-docker-android",
-    "description": "Docker images from appium which helps to run tests on real devices."
-  },
-  {
     "name": "dgoss",
     "url": "https://github.com/aelsabbahy/goss/tree/master/extras/dgoss",
     "description": "A fast YAML based tool for validating docker containers."
   },
   {
-    "name": "elgalu/docker-selenium",
-    "url": "https://github.com/elgalu/docker-selenium",
-    "description": "Selenium in Docker with Chrome & Firefox plus video recording support."
-  },
-  {
     "name": "Pumba",
     "url": "https://github.com/gaia-adm/pumba",
     "description": "Chaos testing tool for Docker. Can be deployed on Kubernets and CoreOS clusters."
-  },
-  {
-    "name": "SeleniumHQ/docker-selenium",
-    "url": "https://github.com/SeleniumHQ/docker-selenium",
-    "description": "Docker images for Selenium Standalone Server, Hub, and Node configurations with Chrome and Firefox."
-  },
-  {
-    "name": "zalenium",
-    "url": "https://github.com/zalando/zalenium",
-    "description": "A Selenium Grid extension to scale up and down your local grid dynamically with docker containers."
   },
   {
     "name": "athena",
