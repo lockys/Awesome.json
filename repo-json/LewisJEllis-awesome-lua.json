@@ -16,13 +16,18 @@
   },
   {
     "name": "lua.vm.js",
-    "url": "https://github.com/kripken/lua.vm.js",
+    "url": "https://github.com/daurnimator/lua.vm.js",
     "description": "Lua VM on the web; a direct port of the C interpreter via LLVM, emscripten, and asm.js."
   },
   {
     "name": "Moonshine",
     "url": "https://github.com/gamesys/moonshine",
     "description": "A Lua VM implemented in JavaScript. Slower than lua.vm.js, but with better docs, examples, and JS interfacing."
+  },
+  {
+    "name": "Fengari",
+    "url": "https://github.com/fengari-lua/fengari",
+    "description": "The Lua VM rewritten in Javascript with seamless JS interoperability."
   },
   {
     "name": "MoonSharp",
@@ -51,13 +56,8 @@
   },
   {
     "name": "LuaRocks",
-    "url": "http://luarocks.org/en",
-    "description": "Allows you to install Lua modules as packages called \"rocks\", which contain version and dependency information. Much like npm or pip."
-  },
-  {
-    "name": "MoonRocks",
-    "url": "https://rocks.moonscript.org/",
-    "description": "Public Lua rock repository, website, and uploading tool. Default server used by LuaRocks."
+    "url": "https://luarocks.org/",
+    "description": "De-facto tool for installing Lua modules as packages called \"rocks\", plus public rock repository and website.  Much like npm or pip."
   },
   {
     "name": "ProFi",
@@ -86,7 +86,7 @@
   },
   {
     "name": "Lua Development Tools",
-    "url": "http://www.eclipse.org/koneki/ldt/",
+    "url": "https://eclipse.org/ldt/",
     "description": "Eclipse plugin which provides code completion, debugging, and more. Built on Metalua."
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "name": "ZeroBraneStudio",
-    "url": "http://studio.zerobrane.com/",
+    "url": "https://studio.zerobrane.com/",
     "description": "Lightweight, customizable, cross-platform Lua-dedicated IDE with code completion and analysis, written in Lua. Has broad debugging support for numerous Lua engines."
   },
   {
@@ -106,7 +106,7 @@
   },
   {
     "name": "Lua Fun",
-    "url": "https://github.com/rtsisyk/luafun",
+    "url": "https://github.com/luafun/luafun",
     "description": "High-performance functional programming library designed for LuaJIT."
   },
   {
@@ -136,7 +136,7 @@
   },
   {
     "name": "Corona SDK",
-    "url": "https://coronalabs.com/products/corona-sdk/",
+    "url": "https://coronalabs.com/",
     "description": "Development platform for iOS and Android. Proprietary, but used by numerous top games and apps, totaling over 150 million downloads."
   },
   {
@@ -160,13 +160,18 @@
     "description": "A 2d game engine for fast development, using entities and components system, for Linux, Windows and HTML5."
   },
   {
+    "name": "LÖVR",
+    "url": "http://lovr.org",
+    "description": "3D framework for creating virtual reality experiences, inspired by LÖVE 2D."
+  },
+  {
     "name": "Coronium.io",
-    "url": "http://coronium.io/",
+    "url": "http://www.coronium.io/",
     "description": "Simple cloud platform supporting analytics, data objects, user management, and more."
   },
   {
     "name": "awesome-love2d",
-    "url": "https://github.com/JanWerder/awesome-love2d",
+    "url": "https://github.com/love2d-community/awesome-love2d",
     "description": "A list like this one, but focused on game dev and the LÖVE platform."
   },
   {
@@ -176,12 +181,12 @@
   },
   {
     "name": "HUMP",
-    "url": "http://vrld.github.io/hump",
+    "url": "http://vrld.github.io/hump/",
     "description": "A set of lightweight helpers for LÖVE; a game-oriented utility belt."
   },
   {
     "name": "moaifiddle",
-    "url": "http://moaifiddle.com",
+    "url": "https://moaifiddle.com",
     "description": "Edit and share short scripts for the MOAI game engine and run them in the browser using WebGL."
   },
   {
@@ -246,22 +251,22 @@
   },
   {
     "name": "OpenResty",
-    "url": "http://openresty.org/",
+    "url": "http://openresty.org/en/",
     "description": "A fast and scalable web application platform created by extending Nginx with Lua. Today's de-facto Lua web platform, used heavily by Cloudflare, Taobao, Tencent, and others."
   },
   {
     "name": "turbo",
-    "url": "http://www.turbolua.org/",
+    "url": "https://turbo.readthedocs.io/en/latest/",
     "description": "Event-driven, non-blocking, LuaJIT-based networking suite and framework, inspired by Tornado."
   },
   {
     "name": "Kepler Project",
-    "url": "http://www.keplerproject.org/",
+    "url": "https://github.com/keplerproject",
     "description": "A collection of web-oriented projects using a common set of standards and components."
   },
   {
     "name": "Pegasus.lua",
-    "url": "http://github.com/EvandroLG/pegasus.lua",
+    "url": "https://github.com/EvandroLG/pegasus.lua",
     "description": "Pegasus.lua is a http server to work with web applications written in Lua language."
   },
   {
@@ -415,7 +420,7 @@
   },
   {
     "name": "LuaFFT",
-    "url": "https://github.com/vection/luafft",
+    "url": "https://github.com/h4rm/luafft",
     "description": "An easy to use Fast Fourier Transformation package in pure Lua."
   },
   {
@@ -440,8 +445,8 @@
   },
   {
     "name": "lhf's Lua Tools",
-    "url": "http://www.tecgraf.puc-rio.br/%7Elhf/ftp/lua/",
-    "description": "Assorted libraries and tools, many math-related."
+    "url": "http://webserver2.tecgraf.puc-rio.br/%7Elhf/ftp/lua/",
+    "description": "Assorted libraries and tools, many math- or data-related."
   },
   {
     "name": "lua-cjson",
@@ -540,7 +545,7 @@
   },
   {
     "name": "LuaSQL",
-    "url": "http://www.keplerproject.org/luasql/",
+    "url": "http://keplerproject.github.io/luasql/",
     "description": "Simple interface for connecting to ODBC, ADO, Oracle, MySQL, SQLite and PostgreSQL."
   },
   {
@@ -670,12 +675,12 @@
   },
   {
     "name": "AwesomeWM",
-    "url": "http://awesome.naquadah.org",
+    "url": "https://awesomewm.org/",
     "description": "A highly configurable and extensible window manager for X, scripted and configured by Lua."
   },
   {
     "name": "Textadept",
-    "url": "http://foicica.com/textadept/",
+    "url": "https://foicica.com/textadept/",
     "description": "Extremely lightweight, customizable, cross-platform editor, written (mostly) in (and scripted by) Lua."
   },
   {
@@ -760,7 +765,7 @@
   },
   {
     "name": "Embedding Lua in C",
-    "url": "http://www.debian-administration.org/articles/264",
+    "url": "https://debian-administration.org/article/264/Embedding_a_scripting_language_inside_your_C/C_code",
     "description": "An introductory walkthrough of embedding Lua in a C program. A bit dated, but still a great walkthrough."
   },
   {
@@ -789,6 +794,11 @@
     "description": "The authoritative intro to all aspects of Lua programming, written by Lua's chief architect. Three editions released; first edition available online."
   },
   {
+    "name": "Lua Quick Reference",
+    "url": "https://foicica.com/lua/",
+    "description": "A quick reference on how to program in and embed Lua 5.1 through 5.3, by the creator of Textadept."
+  },
+  {
     "name": "Programming Gems",
     "url": "http://www.lua.org/gems/",
     "description": "A collection of articles covering existing wisdom and practices on programming well in Lua, in a broad variety of use cases."
@@ -805,13 +815,8 @@
   },
   {
     "name": "awesome-love2d",
-    "url": "https://github.com/JanWerder/awesome-love2d",
+    "url": "https://github.com/love2d-community/awesome-love2d",
     "description": "A list like this one, but focused on game dev and the LÖVE platform."
-  },
-  {
-    "name": "awesome-lua by @forhappy",
-    "url": "https://github.com/forhappy/awesome-lua",
-    "description": "Another list similar to this one. It goes into more depth in a few categories, but has less breadth."
   },
   {
     "name": "Where Lua is Used",
