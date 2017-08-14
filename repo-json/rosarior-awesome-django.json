@@ -124,13 +124,18 @@
   },
   {
     "name": "django-webpack-loader",
-    "url": "https://github.com/owais/django-webpack-loader/",
+    "url": "https://github.com/ezhome/django-webpack-loader/",
     "description": "Transparent webpack integration for django."
   },
   {
     "name": "python-webpack",
     "url": "https://github.com/markfinger/python-webpack",
     "description": "Python bindings for webpack with django integration."
+  },
+  {
+    "name": "django-webpacker",
+    "url": "https://github.com/MicroPyramid/django-webpacker",
+    "description": "A django compressor tool which bundles css, js files to a single css, js file with webpack and updates your html files with respective css, js file path."
   },
   {
     "name": "django-allauth",
@@ -202,16 +207,6 @@
     "description": "A tiny but powerful app providing object-level permissions to Django, without requiring a database. At its core, it is a generic framework for building rule-based systems, similar to decision trees. It can also be used as a standalone library in other contexts and frameworks."
   },
   {
-    "name": "django-blog-zinnia",
-    "url": "https://github.com/Fantomas42/django-blog-zinnia",
-    "description": " Simple yet powerful and really extendable application for managing a blog within your Django Web site."
-  },
-  {
-    "name": "puput",
-    "url": "https://github.com/APSL/puput",
-    "description": "A Django blog app implemented in Wagtail."
-  },
-  {
     "name": "cookiecutter",
     "url": "https://github.com/audreyr/cookiecutter/",
     "description": "A command-line utility that creates projects from cookiecutters (project templates)."
@@ -269,7 +264,7 @@
   {
     "name": "django-compat",
     "url": "https://github.com/arteria/django-compat",
-    "description": "For- and backwards compatibility layer for the officially  supported Django versions."
+    "description": "Forward and backwards compatibility layer for the officially supported Django versions."
   },
   {
     "name": "django-compat-lint",
@@ -323,7 +318,7 @@
   },
   {
     "name": "django-silk",
-    "url": "https://github.com/django-silk/silk",
+    "url": "https://github.com/jazzband/silk/",
     "description": "Silky smooth profiling for Django"
   },
   {
@@ -335,6 +330,11 @@
     "name": "sentry",
     "url": "https://github.com/getsentry/sentry",
     "description": "A modern error logging and aggregation platform."
+  },
+  {
+    "name": "django-web-profiler",
+    "url": "https://github.com/MicroPyramid/django-web-profiler",
+    "description": "A django profiling tool which logs, stores debug toolbar statistics and also a set of URL's statistics using a management command."
   },
   {
     "name": "django-celery-email",
@@ -573,7 +573,7 @@
   },
   {
     "name": "django-model-utils",
-    "url": "https://github.com/carljm/django-model-utils/",
+    "url": "https://github.com/jazzband/django-model-utils/",
     "description": "Django model mixins and utilities."
   },
   {
@@ -583,7 +583,7 @@
   },
   {
     "name": "django-treebeard -Alternative tree data structures for Django (provides 3 different methods for storing hierarchical data, including MPTT )",
-    "url": "https://github.com/tabo/django-treebeard"
+    "url": "https://github.com/django-treebeard/django-treebeard/"
   },
   {
     "name": "django-tenant-schemas",
@@ -592,7 +592,7 @@
   },
   {
     "name": "dj-stripe",
-    "url": "https://github.com/kavdev/dj-stripe/",
+    "url": "https://github.com/dj-stripe/dj-stripe/",
     "description": "Django + Stripe Made Easy."
   },
   {
@@ -602,7 +602,7 @@
   },
   {
     "name": "django-oscar-adyen",
-    "url": "https://github.com/oscaro/django-oscar-adyen/",
+    "url": "https://github.com/django-oscar/django-oscar-adyen/",
     "description": "This package provides integration with the Adyen payment gateway. It is designed to work seamlessly with the e-commerce framework django-oscar but can be used without Oscar."
   },
   {
@@ -749,6 +749,11 @@
     "name": "django-sudo",
     "url": "https://github.com/mattrobenolt/django-sudo",
     "description": "Sudo mode is an extra layer of security for your most sensitive pages. This is an implementation of GitHub's Sudo Mode for Django."
+  },
+  {
+    "name": "django-mfa",
+    "url": "https://github.com/MicroPyramid/django-mfa",
+    "description": "Django app for providing MFA (Multi-Factor Authentication)."
   },
   {
     "name": "django-meta",
@@ -952,7 +957,7 @@
   },
   {
     "name": "sorl-thumbnail",
-    "url": "https://github.com/mariocesar/sorl-thumbnail/",
+    "url": "https://github.com/jazzband/sorl-thumbnail/",
     "description": "Thumbnails for Django."
   },
   {
@@ -1026,14 +1031,14 @@
     "description": "TinyMCE integration for Django."
   },
   {
+    "name": "django-redactoreditor",
+    "url": "https://github.com/mazelife/django-redactoreditor/",
+    "description": "This package helps integrate the Redactor Javascript WYSIWYG-editor in Django."
+  },
+  {
     "name": "django-wysiwyg",
     "url": "https://github.com/pydanny-archive/django-wysiwyg/",
     "description": "A Django application for making Django textareas rich text editors. Certainly as a template tag and possibly as a form widget."
-  },
-  {
-    "name": "django-wysiwyg-redactor",
-    "url": "https://github.com/douglasmiranda/django-wysiwyg-redactor/",
-    "description": "A lightweight wysiwyg editor for Django."
   },
   {
     "name": "django-wiki A wiki system with complex functionality for simple integration and a superb interface. Store your knowledge with style: Use django models.",
@@ -1105,7 +1110,7 @@
   },
   {
     "name": "django-calendarium",
-    "url": "https://github.com/bitmazk/django-calendarium/",
+    "url": "https://github.com/bitlabstudio/django-calendarium/",
     "description": "A reusable app to manage and display a calendar in your templates."
   },
   {
@@ -1157,6 +1162,11 @@
     "name": "django-ipware",
     "url": "https://github.com/un33k/django-ipware",
     "description": "A Django application to retrieve user's IP address."
+  },
+  {
+    "name": "django-macros-url",
+    "url": "https://github.com/phpdude/django-macros-url/",
+    "description": "Django Macros URL. Routing must be simple as possible."
   },
   {
     "name": "django-magic-embed",
@@ -1260,7 +1270,7 @@
   },
   {
     "name": "django-fiber",
-    "url": "https://github.com/ridethepony/django-fiber",
+    "url": "https://github.com/django-fiber/django-fiber/",
     "description": "Django Fiber, a simple, user-friendly CMS for all your Django projects"
   },
   {
@@ -1275,7 +1285,7 @@
   },
   {
     "name": "wagtail",
-    "url": "https://github.com/torchbox/wagtail/",
+    "url": "https://github.com/wagtail/wagtail/",
     "description": "A Django content management system focused on flexibility and user experience."
   },
   {
@@ -1325,8 +1335,13 @@
   },
   {
     "name": "Django packages",
-    "url": "https://github.com/pydanny/djangopackages/",
+    "url": "https://github.com/djangopackages/djangopackages/",
     "description": "Django Packages is a directory of reusable apps, sites, tools, and more for your Django projects."
+  },
+  {
+    "name": "Django-QA",
+    "url": "https://github.com/swappsco/django-qa/",
+    "description": "A simple Q&A App."
   },
   {
     "name": "django-salted",
@@ -1344,8 +1359,13 @@
     "description": "Beautiful CRM/ERP for small business."
   },
   {
+    "name": "OmniDB",
+    "url": "https://github.com/OmniDB/OmniDB",
+    "description": "Web tool for database management and conversion, built with Django."
+  },
+  {
     "name": "ITSY",
-    "url": "https://github.com/orges/itsy/",
+    "url": "https://github.com/yetkinozturk/ITSY/",
     "description": "Issue Tracking System"
   },
   {
@@ -1388,14 +1408,19 @@
     "url": "http://chimera.labs.oreilly.com/books/1234000000754/index.html"
   },
   {
-    "name": "Two Scoops of Django: Best Practices for Django 1.8",
-    "url": "https://www.twoscoopspress.com/products/two-scoops-of-django-1-8/",
+    "name": "Two Scoops of Django: Best Practices for Django 1.11",
+    "url": "https://www.twoscoopspress.com/products/two-scoops-of-django-1-11/",
     "description": "A best practice book for making Python and Django as fun as ice cream."
   },
   {
     "name": "Django Girls Tutorial",
     "url": "https://tutorial.djangogirls.org/",
     "description": "A fun and engaging tutorial showing how to build a blog using Django and deploy it to Heroku."
+  },
+  {
+    "name": "Mozilla Tutorial",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django",
+    "description": "Tutorial that shows how to set up a development environment, and how to get started with using it to create your own web applications."
   },
   {
     "name": "Django Introduction",
@@ -1421,6 +1446,11 @@
     "name": "Simple is Better Than Complex",
     "url": "https://simpleisbetterthancomplex.com",
     "description": "A blog about Django, Python and Web Development. Weekly updates containing tutorials, tips, featured packages, reference guides and code snippets."
+  },
+  {
+    "name": "Marina Mele's site",
+    "url": "http://www.marinamele.com/",
+    "description": "A blog about Django and Python. Includes deployment to Heroku, a Django project boilerplate for best practices, testing and more."
   },
   {
     "name": "Django Beer",
@@ -1486,11 +1516,6 @@
     "name": "Must Watch Django Videos",
     "url": "https://github.com/rosarior/django-must-watch/",
     "description": "Must-watch videos about Django (or about Python as applied to Django)"
-  },
-  {
-    "name": "One Month Django",
-    "url": "https://onemonth.com",
-    "description": "The video series will teach you Django in one month"
   },
   {
     "name": "Django-manage.py-anywhere",
