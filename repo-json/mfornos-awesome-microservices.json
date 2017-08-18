@@ -530,6 +530,11 @@
     "description": "To build and maintain scalable HATEOAS/Level 3 REST APIs."
   },
   {
+    "name": "Cote",
+    "url": "https://github.com/dashersw/cote",
+    "description": "A Node.js library for building zero-configuration microservices."
+  },
+  {
     "name": "Express",
     "url": "http://expressjs.com/",
     "description": "Fast, unopinionated, minimalist web framework for Node.js"
@@ -610,6 +615,11 @@
     "description": "API-first web framework on top of Symfony with JSON-LD, Schema.org and Hydra support."
   },
   {
+    "name": "Flight",
+    "url": "https://github.com/mikecao/flight",
+    "description": "An extensible micro-framework."
+  },
+  {
     "name": "Lumen",
     "url": "https://lumen.laravel.com/",
     "description": "Stunningly fast micro-framework."
@@ -680,9 +690,19 @@
     "description": "Framework for both designing and implementing APIs."
   },
   {
+    "name": "Rails API",
+    "url": "http://edgeguides.rubyonrails.org/api_app.html",
+    "description": "Rails as an API only."
+  },
+  {
     "name": "Scorched",
     "url": "https://github.com/wardrop/Scorched",
     "description": "Light-weight web framework for Ruby."
+  },
+  {
+    "name": "Sinatra",
+    "url": "http://www.sinatrarb.com/",
+    "description": "Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort."
   },
   {
     "name": "Amalgam8",
@@ -775,21 +795,6 @@
     "description": "An edge service that provides dynamic routing, monitoring, resiliency, security, and more."
   },
   {
-    "name": "AWS Step Functions 🔸 commercial",
-    "url": "https://aws.amazon.com/step-functions/",
-    "description": "Coordinate the components of distributed applications and microservices using visual workflows."
-  },
-  {
-    "name": "Azuqua  🔸 commercial",
-    "url": "https://azuqua.com/",
-    "description": "Orchestration and governance platform for distributed applications."
-  },
-  {
-    "name": "Conductor",
-    "url": "https://github.com/Netflix/conductor",
-    "description": "A microservices orchestration engine."
-  },
-  {
     "name": "Consul",
     "url": "https://www.consul.io/",
     "description": "Service discovery and configuration made easy. Distributed, highly available, and datacenter-aware."
@@ -855,89 +860,19 @@
     "description": "Open source server which enables highly reliable distributed coordination."
   },
   {
-    "name": "Crtauth",
-    "url": "https://github.com/spotify/crtauth",
-    "description": "A public key backed client/server authentication system."
+    "name": "AWS Step Functions ",
+    "url": "https://aws.amazon.com/step-functions/",
+    "description": "Coordinate the components of distributed applications and microservices using visual workflows."
   },
   {
-    "name": "Dex",
-    "url": "https://github.com/coreos/dex",
-    "description": "Opinionated auth/directory service with pluggable connectors. OpenID Connect provider and third-party OAuth 2.0 delegation."
+    "name": "Azuqua ",
+    "url": "https://azuqua.com/",
+    "description": "Orchestration and governance platform for distributed applications."
   },
   {
-    "name": "JWT",
-    "url": "http://jwt.io/",
-    "description": "JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties."
-  },
-  {
-    "name": "Keycloak",
-    "url": "https://github.com/keycloak/keycloak",
-    "description": "Full-featured and extensible auth service. OpenID Connect provider and third-party OAuth 2.0 delegation."
-  },
-  {
-    "name": "Light OAuth2",
-    "url": "https://github.com/networknt/light-oauth2",
-    "description": "A fast, lightweight and cloud native OAuth 2.0 authorization microservices based on light-java."
-  },
-  {
-    "name": "OAuth",
-    "url": "http://oauth.net/2/",
-    "description": "Provides specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. Many implementations."
-  },
-  {
-    "name": "OpenID Connect",
-    "url": "http://openid.net/developers/libraries/",
-    "description": "Libraries, products, and tools implementing current OpenID specifications and related specs."
-  },
-  {
-    "name": "OSIAM",
-    "url": "https://github.com/osiam/osiam",
-    "description": "Open source identity and access management implementing OAuth 2.0 and SCIMv2."
-  },
-  {
-    "name": "SCIM",
-    "url": "http://www.simplecloud.info/",
-    "description": "System for Cross-domain Identity Management."
-  },
-  {
-    "name": "Vault",
-    "url": "https://www.vaultproject.io/",
-    "description": "Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing."
-  },
-  {
-    "name": "Celery",
-    "url": "http://www.celeryproject.org",
-    "description": "Asynchronous task queue/job queue based on distributed message passing. Focused on real-time operation and supports scheduling."
-  },
-  {
-    "name": "Chronos",
-    "url": "https://github.com/mesos/chronos",
-    "description": "Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules."
-  },
-  {
-    "name": "Fenzo",
-    "url": "https://github.com/Netflix/Fenzo",
-    "description": "Extensible scheduler for Mesos frameworks."
-  },
-  {
-    "name": "JobScheduler",
-    "url": "http://www.sos-berlin.com/jobscheduler",
-    "description": "Open Source solution for enterprise-level workload automation. It is used to launch executable files and shell scripts and to run database procedures automatically."
-  },
-  {
-    "name": "OpenLava",
-    "url": "http://www.openlava.org/",
-    "description": "Workload scheduler that supports a variety of HPC and analytic applications."
-  },
-  {
-    "name": "Rundeck",
-    "url": "http://rundeck.org/",
-    "description": "Job scheduler and runbook automation. Enable self-service access to existing scripts and tools."
-  },
-  {
-    "name": "Schedulix",
-    "url": "http://www.schedulix.org/en",
-    "description": "Open source enterprise job scheduling system lays down ground-breaking standards for the professional automation of IT processes in advanced system environments."
+    "name": "Conductor",
+    "url": "https://github.com/Netflix/conductor",
+    "description": "A microservices orchestration engine."
   },
   {
     "name": "Galaxy",
@@ -998,6 +933,71 @@
     "name": "Serf",
     "url": "https://www.serfdom.io/",
     "description": "Decentralized solution for cluster membership, failure detection and orchestration."
+  },
+  {
+    "name": "Celery",
+    "url": "http://www.celeryproject.org",
+    "description": "Asynchronous task queue/job queue based on distributed message passing. Focused on real-time operation and supports scheduling."
+  },
+  {
+    "name": "Chronos",
+    "url": "https://github.com/mesos/chronos",
+    "description": "Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules."
+  },
+  {
+    "name": "Fenzo",
+    "url": "https://github.com/Netflix/Fenzo",
+    "description": "Extensible scheduler for Mesos frameworks."
+  },
+  {
+    "name": "JobScheduler",
+    "url": "http://www.sos-berlin.com/jobscheduler",
+    "description": "Open Source solution for enterprise-level workload automation. It is used to launch executable files and shell scripts and to run database procedures automatically."
+  },
+  {
+    "name": "OpenLava",
+    "url": "http://www.openlava.org/",
+    "description": "Workload scheduler that supports a variety of HPC and analytic applications."
+  },
+  {
+    "name": "Rundeck",
+    "url": "http://rundeck.org/",
+    "description": "Job scheduler and runbook automation. Enable self-service access to existing scripts and tools."
+  },
+  {
+    "name": "Schedulix",
+    "url": "http://www.schedulix.org/en",
+    "description": "Open source enterprise job scheduling system lays down ground-breaking standards for the professional automation of IT processes in advanced system environments."
+  },
+  {
+    "name": "Bunyan",
+    "url": "https://github.com/trentm/node-bunyan",
+    "description": "Simple and fast JSON logging library for Node.js services."
+  },
+  {
+    "name": "Fluentd",
+    "url": "http://www.fluentd.org/",
+    "description": "Open source data collector for unified logging layer."
+  },
+  {
+    "name": "Graylog",
+    "url": "https://www.graylog.org/",
+    "description": "Fully integrated open source log management platform."
+  },
+  {
+    "name": "Kibana",
+    "url": "https://www.elastic.co/products/kibana",
+    "description": "Flexible analytics and visualization platform."
+  },
+  {
+    "name": "Logstash",
+    "url": "https://www.elastic.co/products/logstash",
+    "description": "Tool for managing events and logs."
+  },
+  {
+    "name": "Suro",
+    "url": "https://github.com/Netflix/suro/wiki",
+    "description": "Distributed data pipeline which enables services for moving, aggregating, routing, storing data."
   },
   {
     "name": "ØMQ",
@@ -1085,9 +1085,189 @@
     "description": "Open source Erlang-based message broker that just works."
   },
   {
+    "name": "RocketMQ",
+    "url": "https://github.com/apache/incubator-rocketmq",
+    "description": "A low latency, reliable, scalable, easy to use message oriented middleware born from alibaba massive messaging business."
+  },
+  {
     "name": "VerneMQ",
     "url": "https://verne.mq",
     "description": "Open source, scalable, Erlang-based MQTT broker."
+  },
+  {
+    "name": "Beats",
+    "url": "https://www.elastic.co/products/beats",
+    "description": "Lightweight shippers for Elasticsearch & Logstash."
+  },
+  {
+    "name": "Collectd",
+    "url": "https://collectd.org/",
+    "description": "The system statistics collection daemon."
+  },
+  {
+    "name": "Elastalert",
+    "url": "https://github.com/yelp/elastalert",
+    "description": "Easy & flexible alerting for Elasticsearch."
+  },
+  {
+    "name": "Ganglia",
+    "url": "http://ganglia.info/",
+    "description": "A scalable distributed monitoring system for high-performance computing systems such as clusters and grids."
+  },
+  {
+    "name": "Grafana",
+    "url": "http://grafana.org/",
+    "description": "An open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB."
+  },
+  {
+    "name": "Graphite",
+    "url": "http://graphite.wikidot.com/",
+    "description": "Scalable realtime graphing."
+  },
+  {
+    "name": "Parallec",
+    "url": "https://github.com/eBay/parallec",
+    "description": "Fast parallel asynchronous HTTP/SSH/TCP/Ping client Java library."
+  },
+  {
+    "name": "Prometheus",
+    "url": "http://prometheus.io/",
+    "description": "An open source service monitoring system and time series database."
+  },
+  {
+    "name": "REST Commander",
+    "url": "https://github.com/eBay/restcommander",
+    "description": "Fast parallel asynchronous HTTP client as a service to monitor and manage HTTP endpoints."
+  },
+  {
+    "name": "Riemann",
+    "url": "http://riemann.io/",
+    "description": "Monitors distributed systems."
+  },
+  {
+    "name": "Sensu",
+    "url": "https://github.com/sensu",
+    "description": "Monitoring for today's infrastructure."
+  },
+  {
+    "name": "Trace",
+    "url": "https://github.com/RisingStack/trace-nodejs",
+    "description": "A visualised stack trace platform designed for microservices."
+  },
+  {
+    "name": "Watcher",
+    "url": "https://www.elastic.co/products/watcher",
+    "description": "Alerting for Elasticsearch."
+  },
+  {
+    "name": "Zabbix",
+    "url": "http://www.zabbix.com/",
+    "description": "Open source enterprise-class monitoring solution."
+  },
+  {
+    "name": "Zipkin",
+    "url": "http://zipkin.io",
+    "description": "Distributed tracing system."
+  },
+  {
+    "name": "Reactor.io",
+    "url": "http://projectreactor.io",
+    "description": "A second-generation Reactive library for building non-blocking applications on the JVM based on the Reactive Streams Specification."
+  },
+  {
+    "name": "Reactive Kafka",
+    "url": "https://github.com/softwaremill/reactive-kafka",
+    "description": "Reactive Streams API for Apache Kafka."
+  },
+  {
+    "name": "ReactiveX",
+    "url": "http://reactivex.io/",
+    "description": "API for asynchronous programming with observable streams. Available for idiomatic Java, Scala, C#, C++, Clojure, JavaScript, Python, Groovy, JRuby, and others."
+  },
+  {
+    "name": "Simple React",
+    "url": "https://github.com/aol/simple-react",
+    "description": "Powerful future streams & asynchronous data structures for Java 8."
+  },
+  {
+    "name": "Hystrix",
+    "url": "https://github.com/Netflix/Hystrix",
+    "description": "Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable."
+  },
+  {
+    "name": "Pathod",
+    "url": "http://pathod.net/",
+    "description": "Crafted malice for tormenting HTTP clients and servers."
+  },
+  {
+    "name": "Raft Consensus",
+    "url": "http://raftconsensus.github.io/",
+    "description": "Consensus algorithm that is designed to be easy to understand. It's equivalent to Paxos in fault-tolerance and performance."
+  },
+  {
+    "name": "Resilient HTTP",
+    "url": "http://resilient-http.github.io/",
+    "description": "A smart HTTP client with super powers like fault tolerance, dynamic server discovery, auto balancing and reactive recovery, designed for distributed systems."
+  },
+  {
+    "name": "Saboteur",
+    "url": "https://github.com/tomakehurst/saboteur",
+    "description": "Causing deliberate network mayhem for better resilience."
+  },
+  {
+    "name": "Simian Army",
+    "url": "https://github.com/Netflix/SimianArmy",
+    "description": "Suite of tools for keeping your cloud operating in top form. Chaos Monkey, the first member, is a resiliency tool that helps ensure that your applications can tolerate random instance failures."
+  },
+  {
+    "name": "Crtauth",
+    "url": "https://github.com/spotify/crtauth",
+    "description": "A public key backed client/server authentication system."
+  },
+  {
+    "name": "Dex",
+    "url": "https://github.com/coreos/dex",
+    "description": "Opinionated auth/directory service with pluggable connectors. OpenID Connect provider and third-party OAuth 2.0 delegation."
+  },
+  {
+    "name": "JWT",
+    "url": "http://jwt.io/",
+    "description": "JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties."
+  },
+  {
+    "name": "Keycloak",
+    "url": "https://github.com/keycloak/keycloak",
+    "description": "Full-featured and extensible auth service. OpenID Connect provider and third-party OAuth 2.0 delegation."
+  },
+  {
+    "name": "Light OAuth2",
+    "url": "https://github.com/networknt/light-oauth2",
+    "description": "A fast, lightweight and cloud native OAuth 2.0 authorization microservices based on light-java."
+  },
+  {
+    "name": "OAuth",
+    "url": "http://oauth.net/2/",
+    "description": "Provides specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. Many implementations."
+  },
+  {
+    "name": "OpenID Connect",
+    "url": "http://openid.net/developers/libraries/",
+    "description": "Libraries, products, and tools implementing current OpenID specifications and related specs."
+  },
+  {
+    "name": "OSIAM",
+    "url": "https://github.com/osiam/osiam",
+    "description": "Open source identity and access management implementing OAuth 2.0 and SCIMv2."
+  },
+  {
+    "name": "SCIM",
+    "url": "http://www.simplecloud.info/",
+    "description": "System for Cross-domain Identity Management."
+  },
+  {
+    "name": "Vault",
+    "url": "https://www.vaultproject.io/",
+    "description": "Secures, stores, and tightly controls access to tokens, passwords, certificates, API keys, and other secrets in modern computing."
   },
   {
     "name": "Avro",
@@ -1175,7 +1355,22 @@
     "description": "The Apache Thrift software framework, for scalable cross-language services development."
   },
   {
-    "name": "Aerospike",
+    "name": "Apache Hive",
+    "url": "https://hive.apache.org/",
+    "description": "Data warehouse infrastructure built on top of Hadoop."
+  },
+  {
+    "name": "Apache Cassandra",
+    "url": "http://cassandra.apache.org",
+    "description": "Column-oriented and providing high availability with no single point of failure."
+  },
+  {
+    "name": "Apache HBase",
+    "url": "http://hbase.apache.org",
+    "description": "Hadoop database for big data."
+  },
+  {
+    "name": "Aerospike ",
     "url": "http://www.aerospike.com/",
     "description": "High performance NoSQL database delivering speed at scale."
   },
@@ -1195,12 +1390,17 @@
     "description": "Column-oriented database management system that allows generating analytical data reports in real time."
   },
   {
+    "name": "CockroachDB ",
+    "url": "https://www.cockroachlabs.com/product/cockroachdb-core/",
+    "description": "A cloud-native SQL database modelled after Google Spanner."
+  },
+  {
     "name": "Couchbase",
     "url": "http://www.couchbase.com/",
     "description": "A distributed database engineered for performance, scalability, and simplified administration."
   },
   {
-    "name": "Crate",
+    "name": "Crate ",
     "url": "https://crate.io/",
     "description": "Scalable SQL database with the NoSQL goodies."
   },
@@ -1230,14 +1430,29 @@
     "description": "Open source, distributed, in-memory database for scale-out applications."
   },
   {
+    "name": "Infinispan",
+    "url": "http://infinispan.org/",
+    "description": "Highly concurrent key/value datastore used for caching."
+  },
+  {
+    "name": "InfluxDB",
+    "url": "https://github.com/influxdata/influxdb",
+    "description": "Scalable datastore for metrics, events, and real-time analytics."
+  },
+  {
     "name": "Manta",
     "url": "https://www.joyent.com/manta",
     "description": "Highly scalable, distributed object storage service with integrated compute."
   },
   {
-    "name": "MemSQL",
+    "name": "MemSQL ",
     "url": "http://www.memsql.com/",
     "description": "High-performance, in-memory database that combines the horizontal scalability of distributed systems with the familiarity of SQL."
+  },
+  {
+    "name": "OpenTSDB",
+    "url": "http://opentsdb.net",
+    "description": "Scalable and distributed time series database written on top of Apache HBase."
   },
   {
     "name": "Parquet",
@@ -1265,54 +1480,14 @@
     "description": "Memory-centric distributed storage system, enabling reliable data sharing at memory-speed across cluster frameworks."
   },
   {
-    "name": "Reactor.io",
-    "url": "http://projectreactor.io",
-    "description": "A second-generation Reactive library for building non-blocking applications on the JVM based on the Reactive Streams Specification."
+    "name": "Voldemort",
+    "url": "https://github.com/voldemort/voldemort",
+    "description": "Open source clone of Amazon DynamoDB"
   },
   {
-    "name": "Reactive Kafka",
-    "url": "https://github.com/softwaremill/reactive-kafka",
-    "description": "Reactive Streams API for Apache Kafka."
-  },
-  {
-    "name": "ReactiveX",
-    "url": "http://reactivex.io/",
-    "description": "API for asynchronous programming with observable streams. Available for idiomatic Java, Scala, C#, C++, Clojure, JavaScript, Python, Groovy, JRuby, and others."
-  },
-  {
-    "name": "Simple React",
-    "url": "https://github.com/aol/simple-react",
-    "description": "Powerful future streams & asynchronous data structures for Java 8."
-  },
-  {
-    "name": "Hystrix",
-    "url": "https://github.com/Netflix/Hystrix",
-    "description": "Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable."
-  },
-  {
-    "name": "Pathod",
-    "url": "http://pathod.net/",
-    "description": "Crafted malice for tormenting HTTP clients and servers."
-  },
-  {
-    "name": "Raft Consensus",
-    "url": "http://raftconsensus.github.io/",
-    "description": "Consensus algorithm that is designed to be easy to understand. It's equivalent to Paxos in fault-tolerance and performance."
-  },
-  {
-    "name": "Resilient HTTP",
-    "url": "http://resilient-http.github.io/",
-    "description": "A smart HTTP client with super powers like fault tolerance, dynamic server discovery, auto balancing and reactive recovery, designed for distributed systems."
-  },
-  {
-    "name": "Saboteur",
-    "url": "https://github.com/tomakehurst/saboteur",
-    "description": "Causing deliberate network mayhem for better resilience."
-  },
-  {
-    "name": "Simian Army",
-    "url": "https://github.com/Netflix/SimianArmy",
-    "description": "Suite of tools for keeping your cloud operating in top form. Chaos Monkey, the first member, is a resiliency tool that helps ensure that your applications can tolerate random instance failures."
+    "name": "VoltDB ",
+    "url": "https://www.voltdb.com/",
+    "description": "In-Memory ACID compliant distributed database."
   },
   {
     "name": "Mitmproxy",
@@ -1345,284 +1520,9 @@
     "description": "Flexible library for stubbing and mocking web services. Unlike general purpose mocking tools it works by creating an actual HTTP server that your code under test can connect to as it would a real web service."
   },
   {
-    "name": "Beats",
-    "url": "https://www.elastic.co/products/beats",
-    "description": "Lightweight shippers for Elasticsearch & Logstash."
-  },
-  {
-    "name": "Collectd",
-    "url": "https://collectd.org/",
-    "description": "The system statistics collection daemon."
-  },
-  {
-    "name": "Elastalert",
-    "url": "https://github.com/yelp/elastalert",
-    "description": "Easy & flexible alerting for Elasticsearch."
-  },
-  {
-    "name": "Ganglia",
-    "url": "http://ganglia.info/",
-    "description": "A scalable distributed monitoring system for high-performance computing systems such as clusters and grids."
-  },
-  {
-    "name": "Grafana",
-    "url": "http://grafana.org/",
-    "description": "An open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB."
-  },
-  {
-    "name": "Graphite",
-    "url": "http://graphite.wikidot.com/",
-    "description": "Scalable realtime graphing."
-  },
-  {
-    "name": "Parallec",
-    "url": "https://github.com/eBay/parallec",
-    "description": "Fast parallel asynchronous HTTP/SSH/TCP/Ping client Java library."
-  },
-  {
-    "name": "Prometheus",
-    "url": "http://prometheus.io/",
-    "description": "An open source service monitoring system and time series database."
-  },
-  {
-    "name": "REST Commander",
-    "url": "https://github.com/eBay/restcommander",
-    "description": "Fast parallel asynchronous HTTP client as a service to monitor and manage HTTP endpoints."
-  },
-  {
-    "name": "Riemann",
-    "url": "http://riemann.io/",
-    "description": "Monitors distributed systems."
-  },
-  {
-    "name": "Sensu",
-    "url": "https://github.com/sensu",
-    "description": "Monitoring for today's infrastructure."
-  },
-  {
-    "name": "Trace",
-    "url": "https://github.com/RisingStack/trace-nodejs",
-    "description": "A visualised stack trace platform designed for microservices."
-  },
-  {
-    "name": "Watcher",
-    "url": "https://www.elastic.co/products/watcher",
-    "description": "Alerting for Elasticsearch."
-  },
-  {
-    "name": "Zabbix",
-    "url": "http://www.zabbix.com/",
-    "description": "Open source enterprise-class monitoring solution."
-  },
-  {
-    "name": "Zipkin",
-    "url": "http://zipkin.io",
-    "description": "Distributed tracing system."
-  },
-  {
-    "name": "Bunyan",
-    "url": "https://github.com/trentm/node-bunyan",
-    "description": "Simple and fast JSON logging library for Node.js services."
-  },
-  {
-    "name": "Fluentd",
-    "url": "http://www.fluentd.org/",
-    "description": "Open source data collector for unified logging layer."
-  },
-  {
-    "name": "Graylog",
-    "url": "https://www.graylog.org/",
-    "description": "Fully integrated open source log management platform."
-  },
-  {
-    "name": "Kibana",
-    "url": "https://www.elastic.co/products/kibana",
-    "description": "Flexible analytics and visualization platform."
-  },
-  {
-    "name": "Logstash",
-    "url": "https://www.elastic.co/products/logstash",
-    "description": "Tool for managing events and logs."
-  },
-  {
-    "name": "Suro",
-    "url": "https://github.com/Netflix/suro/wiki",
-    "description": "Distributed data pipeline which enables services for moving, aggregating, routing, storing data."
-  },
-  {
-    "name": "Ansible",
-    "url": "http://www.ansible.com/",
-    "description": "Radically simple IT automation platform that makes your applications and systems easier to deploy."
-  },
-  {
-    "name": "Chef",
-    "url": "https://www.chef.io/chef/",
-    "description": "Automate how you build, deploy, and manage your infrastructure."
-  },
-  {
-    "name": "Helios",
-    "url": "https://github.com/spotify/helios",
-    "description": "Docker container orchestration platform."
-  },
-  {
-    "name": "Packer",
-    "url": "https://www.packer.io/",
-    "description": "Tool for creating identical machine images for multiple platforms from a single source configuration."
-  },
-  {
-    "name": "PM2",
-    "url": "https://github.com/Unitech/pm2",
-    "description": "Production process manager for Node.js apps with a built-in load balancer."
-  },
-  {
-    "name": "Puppet",
-    "url": "https://puppetlabs.com/",
-    "description": "From provisioning bare metal & launching containers to new ways to manage infrastructure as code."
-  },
-  {
-    "name": "Salt",
-    "url": "https://github.com/saltstack/salt",
-    "description": "Infrastructure automation and management system."
-  },
-  {
-    "name": "Terraform",
-    "url": "https://www.terraform.io/",
-    "description": "Provides a common configuration to launch infrastructure, from physical and virtual servers to email and DNS providers."
-  },
-  {
-    "name": "Buddy Go",
-    "url": "https://buddy.works/buddy-go",
-    "description": "The On-Premises Git and Continuous Integration Platform"
-  },
-  {
-    "name": "Drone",
-    "url": "https://github.com/drone/drone",
-    "description": "Drone is a continuous delivery platform built on Docker, written in Go."
-  },
-  {
-    "name": "ION-Roller",
-    "url": "https://github.com/gilt/ionroller",
-    "description": "AWS immutable deployment framework for web services."
-  },
-  {
-    "name": "Janky",
-    "url": "https://github.com/github/janky",
-    "description": "Continuous integration server built on top of Jenkins and Hubot."
-  },
-  {
-    "name": "Jenkins",
-    "url": "http://jenkins-ci.org/",
-    "description": "Extensible open source continuous integration server."
-  },
-  {
-    "name": "Nscale",
-    "url": "https://github.com/nearform/nscale",
-    "description": "Open toolkit supporting configuration, build and deployment of connected container sets."
-  },
-  {
-    "name": "Project 6",
-    "url": "https://github.com/DatawiseIO/Project6",
-    "description": "Software for deploying and managing Docker containers across a cluster of hosts, with a focus on simplifying network and storage configurations for on-premises environments."
-  },
-  {
-    "name": "Puller",
-    "url": "https://github.com/crufter/puller",
-    "description": "A very simple, distributed tool to deploy and do CI with Docker containers."
-  },
-  {
-    "name": "Rancher",
-    "url": "https://github.com/rancher/rancher",
-    "description": "Open source platform for operating Docker in production."
-  },
-  {
-    "name": "Spinnaker",
-    "url": "https://github.com/spinnaker/spinnaker",
-    "description": "Open source cloud-agnostic continuous delivery and infrastructure management platform."
-  },
-  {
-    "name": "AWS CodeDeploy",
-    "url": "http://aws.amazon.com/codedeploy/",
-    "description": "Deployment service that enables developers to automate the deployment of applications to instances and to update the applications as required."
-  },
-  {
-    "name": "AWS OpsWorks",
-    "url": "http://aws.amazon.com/opsworks/",
-    "description": "Provides a simple and flexible way to create and manage stacks and applications."
-  },
-  {
-    "name": "Buddy",
-    "url": "https://buddy.works/",
-    "description": "The Git and Continuous Delivery Platform."
-  },
-  {
-    "name": "Codeship",
-    "url": "https://codeship.com/",
-    "description": "Hosted continuous delivery platform that takes care of the testing and deployment process."
-  },
-  {
-    "name": "Semaphore",
-    "url": "https://semaphoreci.com/",
-    "description": "Continuous integration and deployment service with native Docker support."
-  },
-  {
-    "name": "Travis",
-    "url": "https://travis-ci.org/",
-    "description": "Continuous integration and deployment service."
-  },
-  {
-    "name": "Capsule",
-    "url": "https://github.com/puniverse/capsule",
-    "description": "Packaging and deployment tool for JVM applications."
-  },
-  {
-    "name": "Fleet",
-    "url": "https://github.com/substack/fleet",
-    "description": "Multi-server continuous git-based deployment and process management."
-  },
-  {
-    "name": "Kafka Deploy",
-    "url": "https://github.com/nathanmarz/kafka-deploy",
-    "description": "Automated deploy for a Kafka cluster on AWS."
-  },
-  {
-    "name": "LambdaCD",
-    "url": "https://github.com/flosell/lambdacd",
-    "description": "A library to define a continuous delivery pipeline in code."
-  },
-  {
-    "name": "AWS ECS",
-    "url": "http://aws.amazon.com/ecs/",
-    "description": "Easily run and manage Docker-enabled applications across a cluster of Amazon EC2 instances."
-  },
-  {
-    "name": "CoreOS",
-    "url": "https://coreos.com/",
-    "description": "Open source lightweight operating system based on the Linux kernel and designed for providing infrastructure to clustered deployments."
-  },
-  {
-    "name": "DC/OS",
-    "url": "https://dcos.io/",
-    "description": "Open source orchestration system (built on top of Mesos and Marathon) for automatically distributing and running containers on several computers."
-  },
-  {
-    "name": "Docker",
-    "url": "https://www.docker.com/",
-    "description": "Open platform for distributed applications for developers and sysadmins."
-  },
-  {
-    "name": "Kubernetes",
-    "url": "http://kubernetes.io/",
-    "description": "Open source orchestration system for Docker containers."
-  },
-  {
-    "name": "Linux Containers",
-    "url": "https://linuxcontainers.org/",
-    "description": "The umbrella project behind LXC, LXD, LXCFS and CGManager."
-  },
-  {
-    "name": "RancherOS",
-    "url": "https://github.com/rancher/os",
-    "description": "The smallest, easiest way to run Docker in production at scale."
+    "name": "Awesome CI/CD DevOps",
+    "url": "https://github.com/ciandcd/awesome-ciandcd",
+    "description": "A curated list of awesome tools for continuous integration, continuous delivery and DevOps."
   },
   {
     "name": "Aglio",
