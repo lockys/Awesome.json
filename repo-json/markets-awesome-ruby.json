@@ -209,9 +209,24 @@
     "description": "A plugin for versioning Rails based RESTful APIs."
   },
   {
-    "name": "Compass",
-    "url": "https://github.com/Compass/compass",
-    "description": "Compass is a Stylesheet Authoring Environment that makes your website design simpler to implement and easier to maintain."
+    "name": "Asset Sync",
+    "url": "https://github.com/AssetSync/asset_sync",
+    "description": "Synchronises Assets between Rails and S3."
+  },
+  {
+    "name": "Autoprefixer",
+    "url": "https://github.com/ai/autoprefixer-rails",
+    "description": "Parse CSS and add vendor prefixes to rules by Can I Use."
+  },
+  {
+    "name": "Bourbon",
+    "url": "https://github.com/thoughtbot/bourbon",
+    "description": "A Lightweight Sass Tool Set."
+  },
+  {
+    "name": "bower-rails",
+    "url": "https://github.com/rharriso/bower-rails",
+    "description": "Bower support for Rails projects."
   },
   {
     "name": "Emoji",
@@ -229,29 +244,14 @@
     "description": "Leaner CSS, in your browser or Ruby."
   },
   {
-    "name": "Sass",
-    "url": "http://sass-lang.com",
-    "description": "Sass makes CSS fun again."
-  },
-  {
-    "name": "Asset Sync",
-    "url": "https://github.com/AssetSync/asset_sync",
-    "description": "Synchronises Assets between Rails and S3."
-  },
-  {
-    "name": "Autoprefixer",
-    "url": "https://github.com/ai/autoprefixer-rails",
-    "description": "Parse CSS and add vendor prefixes to rules by Can I Use."
-  },
-  {
-    "name": "bower-rails",
-    "url": "https://github.com/rharriso/bower-rails",
-    "description": "Bower support for Rails projects."
-  },
-  {
     "name": "Rails Assets",
     "url": "https://rails-assets.org",
     "description": "Bundler to Bower proxy."
+  },
+  {
+    "name": "Sass",
+    "url": "http://sass-lang.com",
+    "description": "Sass makes CSS fun again."
   },
   {
     "name": "Sprockets",
@@ -262,6 +262,11 @@
     "name": "Torba",
     "url": "https://github.com/torba-rb/torba",
     "description": "Bower-less bundler for Sprockets."
+  },
+  {
+    "name": "Webpacker",
+    "url": "https://github.com/rails/webpacker",
+    "description": "Use Webpack to manage app-like JavaScript modules in Rails."
   },
   {
     "name": "Authlogic",
@@ -1399,6 +1404,11 @@
     "description": "An incoming mail processing microframework in Ruby."
   },
   {
+    "name": "Maily",
+    "url": "https://github.com/markets/maily",
+    "description": "A Rails Engine to manage, test and navigate through all your email templates of your app, being able to preview them directly in your browser."
+  },
+  {
     "name": "Markerb",
     "url": "https://github.com/plataformatec/markerb",
     "description": "Allows you to render multipart e-mails from a single template written in Markdown."
@@ -1589,6 +1599,11 @@
     "description": "The gem that swaps out text with a fully-compliant Rails form in one click."
   },
   {
+    "name": "Cocoon",
+    "url": "https://github.com/nathanvda/cocoon",
+    "description": "Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms."
+  },
+  {
     "name": "Formtastic",
     "url": "https://github.com/justinfrench/formtastic",
     "description": "A Rails form builder plugin with semantically rich and accessible markup."
@@ -1599,24 +1614,14 @@
     "description": "Rails form builder that makes it super easy to create beautiful-looking forms with Twitter Bootstrap 3+."
   },
   {
-    "name": "Simple Form",
-    "url": "https://github.com/plataformatec/simple_form",
-    "description": "Rails forms made easy."
-  },
-  {
-    "name": "ActiveForm",
-    "url": "https://github.com/railsgsoc/actionform",
-    "description": "Provides an object-oriented approach to represent your forms by building a Form Object which deals with create/update actions of nested objects in a more seamless way."
-  },
-  {
-    "name": "Cocoon",
-    "url": "https://github.com/nathanvda/cocoon",
-    "description": "Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms."
-  },
-  {
     "name": "Reform",
     "url": "https://github.com/apotonick/reform",
     "description": "Gives you a form object with validations and nested setup of models. It is completely framework-agnostic and doesn't care about your database."
+  },
+  {
+    "name": "Simple Form",
+    "url": "https://github.com/plataformatec/simple_form",
+    "description": "Rails forms made easy."
   },
   {
     "name": "Gosu",
@@ -2636,6 +2641,10 @@
     "name": "posix-spawn",
     "url": "https://github.com/rtomayko/posix-spawn",
     "description": "Fast Process::spawn for Rubys >= 1.8.7 based on the posix_spawn() system interfaces."
+  },
+  {
+    "name": "batch-loader – A generic lazy batching mechanism to avoid N+1 DB queries, HTTP queries, etc.",
+    "url": "https://github.com/exaspark/batch-loader"
   },
   {
     "name": "benchmark-ips",

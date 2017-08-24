@@ -180,8 +180,8 @@
     "description": "X11 bindings"
   },
   {
-    "name": "Bloom Filter",
-    "url": "https://github.com/greyblake/crystal-bloom_filter",
+    "name": "bloom_filter",
+    "url": "https://github.com/crystal-community/bloom_filter",
     "description": "Implementation of Bloom filter"
   },
   {
@@ -325,11 +325,6 @@
     "description": "Common db api"
   },
   {
-    "name": "crystal-leveldb",
-    "url": "https://github.com/greyblake/crystal-leveldb",
-    "description": "Crystal bindings for LevelDB"
-  },
-  {
     "name": "crystal-monetdb-libmapi",
     "url": "https://github.com/puppetpies/crystal-monetdb-libmapi",
     "description": "Bindings for MonetDB"
@@ -365,13 +360,18 @@
     "description": "InfluxDB driver"
   },
   {
+    "name": "leveldb",
+    "url": "https://github.com/crystal-community/leveldb",
+    "description": "Crystal bindings for LevelDB"
+  },
+  {
     "name": "mongo.cr",
     "url": "https://github.com/datanoise/mongo.cr",
     "description": "Binding for MongoDB C driver"
   },
   {
-    "name": "rethinkdb-crystal",
-    "url": "https://github.com/lbguilherme/rethinkdb-crystal",
+    "name": "rethinkdb.cr",
+    "url": "https://github.com/CubosTecnologia/rethinkdb.cr",
     "description": "RethinkDB Driver"
   },
   {
@@ -471,7 +471,7 @@
   },
   {
     "name": "crsfml-examples",
-    "url": "https://github.com/BlaXpirit/crsfml-examples",
+    "url": "https://github.com/oprypin/crsfml-examples",
     "description": "Simple games made with CrSFML"
   },
   {
@@ -515,6 +515,11 @@
     "description": "An example Dockerized Crystal Kemal project"
   },
   {
+    "name": "exercism-crystal",
+    "url": "https://github.com/exercism/crystal",
+    "description": "Exercism exercises"
+  },
+  {
     "name": "jihantoro-cr-mysql",
     "url": "https://github.com/codenoid/jihantoro-cr-mysql",
     "description": "Crystal MySQL from scratch sample app"
@@ -546,23 +551,13 @@
   },
   {
     "name": "kemal-react-pg-chat",
-    "url": "https://github.com/Angarsk8/kemal-react-pg-chat",
+    "url": "https://github.com/Angarsk8/chat-app-demo",
     "description": "Chat application developed with Kemal, React, ES2015 and PostgreSQL"
   },
   {
     "name": "kemal-ws-pg-todo-app",
     "url": "https://github.com/Angarsk8/kemal-ws-pg-todo-app",
-    "description": "Realtime Todo application developed with Kemal, Websockets, jQuery, ES2015 and PostgreSQL"
-  },
-  {
-    "name": "kemal-ws-react-pg-todo-app",
-    "url": "https://github.com/Angarsk8/kemal-ws-react-pg-todo-app",
-    "description": "Realtime Todo application developed with Kemal, Websockets, React, ES2015 and PostgreSQL"
-  },
-  {
-    "name": "kemal-ws-todo-app",
-    "url": "https://github.com/Angarsk8/kemal-ws-todo-app",
-    "description": "Realtime Todo application developed with Kemal and Websockets"
+    "description": "Realtime Todo application developed with Kemal, Websockets, ES2015 and PostgreSQL"
   },
   {
     "name": "kemal_elm_chat",
@@ -585,6 +580,11 @@
     "description": "x86 Kernel implemented in Crystal"
   },
   {
+    "name": "realtime-todo-app",
+    "url": "https://github.com/Angarsk8/realtime-todo-app",
+    "description": "Realtime Todo application developed with Kemal, Websockets, React, ES2015 and PostgreSQL"
+  },
+  {
     "name": "rocky",
     "url": "https://github.com/codingphasedotcom/rocky",
     "description": "React Over Crystal Kemal and Yarn"
@@ -593,11 +593,6 @@
     "name": "try.cr",
     "url": "https://github.com/maiha/try.cr",
     "description": "Try monad"
-  },
-  {
-    "name": "xcrystal",
-    "url": "https://github.com/exercism/xcrystal",
-    "description": "Exercism exercises"
   },
   {
     "name": "flipper",
@@ -681,7 +676,7 @@
   },
   {
     "name": "spec-kemal",
-    "url": "https://github.com/sdogruyol/spec-kemal",
+    "url": "https://github.com/kemalcr/spec-kemal",
     "description": "Easy testing for Kemal"
   },
   {
@@ -691,7 +686,7 @@
   },
   {
     "name": "crystal-chipmunk",
-    "url": "https://github.com/BlaXpirit/crystal-chipmunk",
+    "url": "https://github.com/oprypin/crystal-chipmunk",
     "description": "Bindings for Chipmunk, a fast and lightweight 2D game physics library"
   },
   {
@@ -745,6 +740,11 @@
     "description": "Fast HTML5 Parser"
   },
   {
+    "name": "cossack",
+    "url": "https://github.com/crystal-community/cossack",
+    "description": "Simple flexible HTTP client"
+  },
+  {
     "name": "crul",
     "url": "https://github.com/porras/crul",
     "description": "Command line HTTP client"
@@ -753,11 +753,6 @@
     "name": "cryload",
     "url": "https://github.com/sdogruyol/cryload",
     "description": "HTTP benchmarking tool"
-  },
-  {
-    "name": "crystal-cossack",
-    "url": "https://github.com/greyblake/crystal-cossack",
-    "description": "Simple flexible HTTP client"
   },
   {
     "name": "helmet",
@@ -801,7 +796,7 @@
   },
   {
     "name": "session",
-    "url": "https://github.com/porras/session.git",
+    "url": "https://github.com/porras/session",
     "description": "Cookie based sessions in Crystal HTTP applications"
   },
   {
@@ -811,12 +806,12 @@
   },
   {
     "name": "stumpy_gif",
-    "url": "https://github.com/l3kn/stumpy_gif",
+    "url": "https://github.com/stumpycr/stumpy_gif",
     "description": "Write (animated) GIF images"
   },
   {
     "name": "stumpy_png",
-    "url": "https://github.com/l3kn/stumpy_png",
+    "url": "https://github.com/stumpycr/stumpy_png",
     "description": "Read and write PNG images"
   },
   {
@@ -873,6 +868,11 @@
     "name": "crystal-logreader",
     "url": "https://github.com/arcage/crystal-logreader",
     "description": "Tailing log file"
+  },
+  {
+    "name": "fluent-logger-crystal",
+    "url": "https://github.com/TobiasGSmollett/fluent-logger-crystal",
+    "description": "A structured logger for Fluentd"
   },
   {
     "name": "katip",
@@ -1025,8 +1025,8 @@
     "description": "HTML doc builder for RAML 1.0"
   },
   {
-    "name": "raytracer-crystal",
-    "url": "https://github.com/l3kn/raytracer-crystal",
+    "name": "raytracer",
+    "url": "https://github.com/l3kn/raytracer",
     "description": "CPU Raytracer with examples"
   },
   {
@@ -1065,11 +1065,6 @@
     "description": "Native BSON implementation"
   },
   {
-    "name": "crystal-jwt",
-    "url": "https://github.com/greyblake/crystal-jwt",
-    "description": "Implementation of JWT (JSON Web Token)"
-  },
-  {
     "name": "CrystalIrc",
     "url": "https://github.com/Meoowww/CrystalIrc",
     "description": "IRC implementation (Client, Server, Bots)"
@@ -1085,8 +1080,13 @@
     "description": "Library to handle IPv4 and IPv6 addresses"
   },
   {
+    "name": "jwt",
+    "url": "https://github.com/crystal-community/jwt",
+    "description": "Implementation of JWT (JSON Web Token)"
+  },
+  {
     "name": "msgpack-crystal",
-    "url": "https://github.com/benoist/msgpack-crystal",
+    "url": "https://github.com/crystal-community/msgpack-crystal",
     "description": "MessagePack library"
   },
   {
@@ -1101,12 +1101,12 @@
   },
   {
     "name": "crecto",
-    "url": "https://github.com/fridgerator/crecto",
+    "url": "https://github.com/Crecto/crecto",
     "description": "Database wrapper, based on Ecto"
   },
   {
     "name": "granite-orm",
-    "url": "https://github.com/kemalyst/granite-orm",
+    "url": "https://github.com/amber-crystal/granite-orm",
     "description": "ORM for Postgres, Mysql, Sqlite"
   },
   {
@@ -1136,7 +1136,7 @@
   },
   {
     "name": "topaz",
-    "url": "https://github.com/tbrand/topaz",
+    "url": "https://github.com/topaz-crystal/topaz",
     "description": "A simple and useful db wrapper"
   },
   {
@@ -1146,7 +1146,7 @@
   },
   {
     "name": "shards",
-    "url": "https://github.com/ysbaddaden/shards",
+    "url": "https://github.com/crystal-lang/shards",
     "description": "Dependency manager for the Crystal"
   },
   {
@@ -1156,7 +1156,7 @@
   },
   {
     "name": "promise",
-    "url": "https://github.com/jwaldrip/promise-cr",
+    "url": "https://github.com/jwaldrip/promise.cr",
     "description": "A Promise Implementation"
   },
   {
@@ -1176,7 +1176,7 @@
   },
   {
     "name": "kgen",
-    "url": "https://github.com/TechMagister/kemalyst-generator",
+    "url": "https://github.com/kemalyst/kemalyst-generator",
     "description": "Kemalyst command line tool for console, init, generate (scaffolding), and watch."
   },
   {
@@ -1475,8 +1475,8 @@
     "description": "A library to access the Spotify API"
   },
   {
-    "name": "TelegramBot",
-    "url": "https://github.com/hangyas/TelegramBot",
+    "name": "telegram_bot",
+    "url": "https://github.com/hangyas/telegram_bot",
     "description": "A wrapper for the Telegram Bot API"
   },
   {
@@ -1501,7 +1501,7 @@
   },
   {
     "name": "kemal",
-    "url": "https://github.com/sdogruyol/kemal",
+    "url": "https://github.com/kemalcr/kemal",
     "description": "Lightning Fast, Super Simple web framework. Inspired by Sinatra"
   },
   {
@@ -1546,7 +1546,7 @@
   },
   {
     "name": "Crystal weekly newsletters",
-    "url": "http://www.crystalweekly.com/"
+    "url": "http://crystalweekly.com/"
   },
   {
     "name": "Gitter",
@@ -1568,7 +1568,7 @@
   },
   {
     "name": "Reddit",
-    "url": "https://www.reddit.com/r/crystal_programming"
+    "url": "https://www.reddit.com/r/crystal_programming/"
   },
   {
     "name": "Slack Group",
@@ -1576,7 +1576,7 @@
   },
   {
     "name": "Stackoverflow",
-    "url": "http://stackoverflow.com/tags/crystal-lang/info"
+    "url": "https://stackoverflow.com/tags/crystal-lang/info"
   },
   {
     "name": "Crystal for Rubyists",
@@ -1585,7 +1585,7 @@
   },
   {
     "name": "crystal-lang.org",
-    "url": "http://crystal-lang.org",
+    "url": "https://crystal-lang.org",
     "description": "Official language site"
   },
   {
@@ -1645,7 +1645,7 @@
   },
   {
     "name": "icr",
-    "url": "https://github.com/greyblake/crystal-icr",
+    "url": "https://github.com/crystal-community/icr",
     "description": "Interactive console for Crystal (like IRB for Ruby)"
   },
   {
@@ -1710,12 +1710,12 @@
   },
   {
     "name": "sublime-crystal",
-    "url": "https://github.com/crystal-lang/sublime-crystal",
+    "url": "https://github.com/crystal-lang-tools/sublime-crystal",
     "description": "Crystal syntax highlighting for sublime Text"
   },
   {
     "name": "Crystal.tmbundle",
-    "url": "https://github.com/huacnlee/Crystal.tmbundle",
+    "url": "https://github.com/crystal-lang-tools/Crystal.tmbundle",
     "description": "Crystal syntax highlighting, compile, format command, snippets"
   },
   {
@@ -1730,7 +1730,7 @@
   },
   {
     "name": "vim-slang",
-    "url": "https://github.com/isaacsloan/vim-slang",
+    "url": "https://github.com/elorest/vim-slang",
     "description": "Vim filetype support for Slang Templating Engine"
   },
   {
@@ -1740,12 +1740,12 @@
   },
   {
     "name": "vscode-crystal-ide",
-    "url": "https://github.com/kofno/crystal-ide",
+    "url": "https://github.com/crystal-lang-tools/crystal-ide",
     "description": "Crystal IDE powered by Language Server Protocol"
   },
   {
     "name": "vscode-crystal-lang",
-    "url": "https://github.com/faustinoaq/vscode-crystal-lang",
+    "url": "https://github.com/crystal-lang-tools/vscode-crystal-lang",
     "description": "Formatter, linter and syntax highlighting for cr and ecr files"
   },
   {
