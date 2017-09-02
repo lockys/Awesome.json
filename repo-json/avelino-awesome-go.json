@@ -431,7 +431,7 @@
   },
   {
     "name": "gone/jconf",
-    "url": "https://github.com/One-com/gone/tree/master/jconf#readme",
+    "url": "https://github.com/One-com/gone/tree/master/jconf",
     "description": "Modular JSON configuration. Keep you config structs along the code they configure and delegate parsing to submodules without sacrificing full config serialization."
   },
   {
@@ -1251,7 +1251,7 @@
   },
   {
     "name": "raft",
-    "url": "https://github.com/coreos/etcd/tree/master/raft#readme",
+    "url": "https://github.com/coreos/etcd/tree/master/raft",
     "description": "Go implementation of the Raft consensus protocol, by CoreOS."
   },
   {
@@ -1951,7 +1951,7 @@
   },
   {
     "name": "gone/log",
-    "url": "https://github.com/One-com/gone/tree/master/log#readme",
+    "url": "https://github.com/One-com/gone/tree/master/log",
     "description": "Fast, extendable, full-featured, std-lib source compatible log library."
   },
   {
@@ -2595,6 +2595,11 @@
     "description": "Extract values from strings and fill your structs with nlp."
   },
   {
+    "name": "nlp",
+    "url": "https://github.com/james-bowman/nlp",
+    "description": "Go Natural Language Processing library supporting LSA (Latent Semantic Analysis)."
+  },
+  {
     "name": "paicehusk",
     "url": "https://github.com/rookii/paicehusk",
     "description": "Golang implementation of the Paice/Husk Stemming Algorithm."
@@ -3190,6 +3195,11 @@
     "description": "Implementation of the \"Bailey-Borwein-Plouffe\" algorithm for the hexadecimal number Pi."
   },
   {
+    "name": "sparse",
+    "url": "https://github.com/james-bowman/sparse",
+    "description": "Go Sparse matrix formats for linear algebra supporting scientific and machine learning applications, compatible with gonum matrix libraries."
+  },
+  {
     "name": "stats",
     "url": "https://github.com/montanaflynn/stats",
     "description": "Statistics package with common functions missing from the Golang standard library."
@@ -3255,6 +3265,11 @@
     "description": "Asn.1 BER and DER encoding library for golang."
   },
   {
+    "name": "bambam",
+    "url": "https://github.com/glycerine/bambam",
+    "description": "generator for Cap'n Proto schemas from go."
+  },
+  {
     "name": "colfer",
     "url": "https://github.com/pascaldekloe/colfer",
     "description": "Code generation for the Colfer binary format."
@@ -3263,11 +3278,6 @@
     "name": "go-capnproto",
     "url": "https://github.com/glycerine/go-capnproto",
     "description": "Cap'n Proto library and parser for go."
-  },
-  {
-    "name": "bambam",
-    "url": "https://github.com/glycerine/bambam",
-    "description": "generator for Cap'n Proto schemas from go."
   },
   {
     "name": "go-codec",
@@ -4940,41 +4950,6 @@
     "description": "Zerver is an expressive, modular, feature completed RESTful framework."
   },
   {
-    "name": "d3d9",
-    "url": "https://github.com/gonutz/d3d9",
-    "description": "Go bindings for Direct3D9."
-  },
-  {
-    "name": "go-ole",
-    "url": "https://github.com/go-ole/go-ole",
-    "description": "Win32 OLE implementation for golang."
-  },
-  {
-    "name": "go-pkg-xmlx",
-    "url": "https://github.com/jteeuwen/go-pkg-xmlx",
-    "description": "Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions."
-  },
-  {
-    "name": "XML-Comp",
-    "url": "https://github.com/xml-comp/xml-comp",
-    "description": "Simple command line XML comparer that generates diffs of folders, files and tags."
-  },
-  {
-    "name": "xmlwriter",
-    "url": "https://github.com/shabbyrobe/xmlwriter",
-    "description": "Procedural XML generation API based on libxml2's xmlwriter module."
-  },
-  {
-    "name": "xpath",
-    "url": "https://github.com/antchfx/xpath",
-    "description": "XPath package for Go."
-  },
-  {
-    "name": "xquery",
-    "url": "https://github.com/antchfx/xquery",
-    "description": "XQuery lets you extract data from HTML/XML documents using XPath expression."
-  },
-  {
     "name": "CORS",
     "url": "https://github.com/rs/cors",
     "description": "Easily add CORS capabilities to your API."
@@ -5163,6 +5138,41 @@
     "name": "zeus",
     "url": "https://github.com/daryl/zeus",
     "description": "Very simple and fast HTTP router for Go."
+  },
+  {
+    "name": "d3d9",
+    "url": "https://github.com/gonutz/d3d9",
+    "description": "Go bindings for Direct3D9."
+  },
+  {
+    "name": "go-ole",
+    "url": "https://github.com/go-ole/go-ole",
+    "description": "Win32 OLE implementation for golang."
+  },
+  {
+    "name": "go-pkg-xmlx",
+    "url": "https://github.com/jteeuwen/go-pkg-xmlx",
+    "description": "Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions."
+  },
+  {
+    "name": "XML-Comp",
+    "url": "https://github.com/xml-comp/xml-comp",
+    "description": "Simple command line XML comparer that generates diffs of folders, files and tags."
+  },
+  {
+    "name": "xmlwriter",
+    "url": "https://github.com/shabbyrobe/xmlwriter",
+    "description": "Procedural XML generation API based on libxml2's xmlwriter module."
+  },
+  {
+    "name": "xpath",
+    "url": "https://github.com/antchfx/xpath",
+    "description": "XPath package for Go."
+  },
+  {
+    "name": "xquery",
+    "url": "https://github.com/antchfx/xquery",
+    "description": "XQuery lets you extract data from HTML/XML documents using XPath expression."
   },
   {
     "name": "apicompat",
@@ -5626,7 +5636,7 @@
   },
   {
     "name": "Go Package Store",
-    "url": "https://github.com/shurcooL/Go-Package-Store#go-package-store-",
+    "url": "https://github.com/shurcooL/Go-Package-Store",
     "description": "App that displays updates for the Go packages in your GOPATH."
   },
   {
