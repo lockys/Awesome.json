@@ -229,9 +229,9 @@
     "description": "Depcon is written in Go and allows you to easily deploy Docker containers to Apache Mesos/Marathon, Amazon ECS and Kubernetes.  By @gonodr"
   },
   {
-    "name": "deploy",
+    "name": "deploy 🤕",
     "url": "https://github.com/ttiny/deploy",
-    "description": "Git and Docker deployment tool. A middle ground between simple Docker composition tools and full blown cluster orchestration. Declarative configuration and short commands for managing (syncing, building, running) of infrastructures of more than a few services. Able to deploy whole preconfigured server or system of services with a single line (without having to scroll the line)."
+    "description": "Git and Docker deployment tool. A middle ground between simple Docker composition tools and full blown cluster orchestration by @ttiny"
   },
   {
     "name": "Docket",
@@ -239,12 +239,12 @@
     "description": "Custom docker registry that allows for lightning fast deploys through bittorrent by @netvarun"
   },
   {
-    "name": "dockit",
+    "name": "dockit 💀",
     "url": "https://github.com/humblec/dockit",
     "description": "Do docker actions and Deploy gluster containers! By @humblec"
   },
   {
-    "name": "Longshoreman",
+    "name": "Longshoreman 💀",
     "url": "https://github.com/longshoreman/longshoreman",
     "description": "Longshoreman automates application deployment using Docker. Just create a Docker repository (or use a service), configure the cluster using AWS or Digital Ocean (or whatever you like) and deploy applications using a Heroku-like CLI tool. By longshoreman"
   },
@@ -264,19 +264,9 @@
     "description": "Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd by @kiyoto"
   },
   {
-    "name": "Docker-mon",
-    "url": "https://github.com/icecrime/docker-mon",
-    "description": "Console-based Docker monitoring by @icecrime"
-  },
-  {
     "name": "Dockerana",
     "url": "https://github.com/dockerana/dockerana",
     "description": "packaged version of Graphite and Grafana, specifically targeted at metrics from Docker."
-  },
-  {
-    "name": "DoMonit",
-    "url": "https://github.com/eon01/DoMonit",
-    "description": "A simple Docker Monitoring wrapper For Docker API"
   },
   {
     "name": "Dynatrace",
@@ -318,11 +308,6 @@
     "description": "Docker host and container monitoring, logging and alerting out of the box using cAdvisor, Prometheus, Grafana for monitoring, Elasticsearch, Kibana and Logstash for logging and elastalert and Alertmanager for alerting. Set up in 5 Minutes. Secure mode for production use with built-in Automated Nginx Reverse Proxy (jwilder's)."
   },
   {
-    "name": "Seagull",
-    "url": "https://github.com/tobegit3hub/seagull",
-    "description": "Friendly Web UI to monitor docker daemon. by @tobegit3hub"
-  },
-  {
     "name": "Zabbix Docker module",
     "url": "https://github.com/monitoringartist/Zabbix-Docker-Monitoring",
     "description": "Zabbix module that provides discovery of running containers, CPU/memory/blk IO/net container metrics. Systemd Docker and LXC execution driver is also supported. It's a dynamically linked shared object library, so its performance is (~10x) better, than any script solution."
@@ -358,12 +343,7 @@
     "description": "An automation platform with a plugin architecture that allows you to easily create and share services."
   },
   {
-    "name": "autodock",
-    "url": "https://github.com/prologic/autodock",
-    "description": "Daemon for Docker Automation by @prologic"
-  },
-  {
-    "name": "blimp",
+    "name": "blimp 💀",
     "url": "https://github.com/tubesandlube/blimp",
     "description": "Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more by @defermat and @schvin"
   },
@@ -387,22 +367,7 @@
     "description": "Control plane based on docker built-in swarm @Dataman-Cloud"
   },
   {
-    "name": "Deploying a Containerized App on a Public Node with Mesos",
-    "url": "https://docs.mesosphere.com/usage/tutorials/containerized-app/",
-    "description": "Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment"
-  },
-  {
-    "name": "ElasticKube",
-    "url": "https://github.com/ElasticBox/elastickube",
-    "description": "Open source management platform for Kubernetes"
-  },
-  {
-    "name": "Flocker",
-    "url": "https://github.com/ClusterHQ/flocker",
-    "description": "Flocker is a data volume manager and multi-host Docker cluster management tool by @ClusterHQ"
-  },
-  {
-    "name": "gantryd",
+    "name": "gantryd 💀",
     "url": "https://github.com/DevTable/gantryd",
     "description": "A framework for easy management of docker-based components across machines by @DevTable"
   },
@@ -437,9 +402,14 @@
     "description": "Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is \"always on\""
   },
   {
-    "name": "MCollective Docker Agent",
-    "url": "https://github.com/m4ce/mcollective-docker-agent",
-    "description": "Uses MCollective to orchestrate your Docker containers and images by  @m4ce"
+    "name": "Mesos",
+    "url": "https://mesos.apache.org/documentation/latest/docker-containerizer",
+    "description": "Resource/Job scheduler for containers, VM's and physical hosts @apache"
+  },
+  {
+    "name": "Mesosphere DC/OS 💲",
+    "url": "https://mesosphere.com/product/",
+    "description": "Integrated platform for data and containers built on Apache Mesos by @mesosphere"
   },
   {
     "name": "Nebula",
@@ -457,24 +427,9 @@
     "description": "An open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop by @CenturyLinkLabs."
   },
   {
-    "name": "Portainer",
-    "url": "https://github.com/portainer/portainer",
-    "description": "A lightweight management UI for managing your Docker host or Docker Swarm cluster (previously DockerUI by @kevana)"
-  },
-  {
     "name": "Rancher",
     "url": "https://github.com/rancher/rancher",
     "description": "An open source project that provides a complete platform for operating Docker in production by @rancher."
-  },
-  {
-    "name": "Serf",
-    "url": "https://github.com/hashicorp/serf",
-    "description": "Service orchestration and management tool by @hashicorp"
-  },
-  {
-    "name": "Shipyard",
-    "url": "https://github.com/shipyard/shipyard",
-    "description": "Composable Docker Management"
   },
   {
     "name": "Swarmpit",
@@ -482,7 +437,7 @@
     "description": "Lightweight Docker Swarm orchestration. Swarmpit provides clean way to manage your Docker Swarm cluster with various handful features such Service management, smart search, shared access and private registries."
   },
   {
-    "name": "Atlantis",
+    "name": "Atlantis 💀",
     "url": "https://github.com/ooyala/atlantis",
     "description": "Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go"
   },
@@ -512,9 +467,9 @@
     "description": "A next generation open source platform as a service"
   },
   {
-    "name": "Nanobox",
+    "name": "Nanobox 💲",
     "url": "https://github.com/nanobox-io/nanobox",
-    "description": "A micro-PaaS (μPaaS) for creating consistent, isolated, development environments deployable anywhere"
+    "description": "An application development platform that creates local environments that can then be deployed and scaled in the cloud."
   },
   {
     "name": "OpenShift",
@@ -572,7 +527,7 @@
     "description": "Automated reverse proxy and load-balancer for Docker, Mesos, Consul, Etcd... By @EmileVauge"
   },
   {
-    "name": "Aqua Security $$$",
+    "name": "Aqua Security 💲",
     "url": "https://www.aquasec.com",
     "description": "Securing container-based applications from Dev to Production on any platform"
   },
@@ -602,7 +557,7 @@
     "description": "OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By RedHat"
   },
   {
-    "name": "Twistlock $$$",
+    "name": "Twistlock 💲",
     "url": "https://www.twistlock.com/",
     "description": "Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications."
   },
@@ -662,8 +617,18 @@
     "description": "S3 compatible object storage server in Docker containers"
   },
   {
+    "name": "portworx 💲",
+    "url": "https://portworx.com",
+    "description": "Decentralized storage solution for persistent, shared and replicated volumes."
+  },
+  {
     "name": "REX-Ray Vendor agnostic storage orchestration engine to provide persistent storage for Docker containers as well as Mesos frameworks and tasks.",
     "url": "https://github.com/codedellemc/rexray"
+  },
+  {
+    "name": "quobyte 💲",
+    "url": "https://www.quobyte.com/",
+    "description": "fully fault-tolerant distributed file system with a docker volume driver"
   },
   {
     "name": "DockStation",
@@ -697,6 +662,11 @@
   {
     "name": "dockerfile-mode An emacs mode for handling Dockerfiles by spotify",
     "url": "https://github.com/spotify/dockerfile-mode"
+  },
+  {
+    "name": "Docker-mon 💀",
+    "url": "https://github.com/icecrime/docker-mon",
+    "description": "Console-based Docker monitoring by @icecrime"
   },
   {
     "name": "dockersql",
@@ -779,6 +749,11 @@
     "description": "A browser extension for GitHub that makes the image name in a Dockerfile clickable and redirect you to the related Docker Hub page."
   },
   {
+    "name": "Portainer",
+    "url": "https://github.com/portainer/portainer",
+    "description": "A lightweight management UI for managing your Docker host or Docker Swarm cluster by @kevana"
+  },
+  {
     "name": "Portus",
     "url": "https://github.com/SUSE/Portus",
     "description": "Authorization service and frontend for Docker registry (v2) by @SUSE"
@@ -787,6 +762,21 @@
     "name": "Rapid Dashboard",
     "url": "https://github.com/ozlerhakan/rapid",
     "description": "A simple query dashboard to use Docker Remote API by @ozlerhakan"
+  },
+  {
+    "name": "Seagull",
+    "url": "https://github.com/tobegit3hub/seagull",
+    "description": "Friendly Web UI to monitor docker daemon. by @tobegit3hub"
+  },
+  {
+    "name": "Shipyard",
+    "url": "https://github.com/shipyard/shipyard",
+    "description": "Shipyard enables multi-host, Docker cluster management using Docker Swarm."
+  },
+  {
+    "name": "autodock",
+    "url": "https://github.com/prologic/autodock",
+    "description": "Daemon for Docker Automation by @prologic"
   },
   {
     "name": "Chaperone",
@@ -980,6 +970,11 @@
     "url": "https://cycle.io/"
   },
   {
+    "name": "Docket",
+    "url": "https://github.com/netvarun/docket",
+    "description": "Custom docker registry that allows for lightning fast deploys through bittorrent by @netvarun"
+  },
+  {
     "name": "Docker Hub provided by Docker Inc.",
     "url": "https://hub.docker.com/"
   },
@@ -1062,6 +1057,11 @@
     "description": "Docker Remote API node.js module by @apocas"
   },
   {
+    "name": "DoMonit",
+    "url": "https://github.com/eon01/DoMonit",
+    "description": "A simple Docker Monitoring wrapper For Docker API"
+  },
+  {
     "name": "go-dockerclient",
     "url": "https://github.com/fsouza/go-dockerclient/",
     "description": "Go HTTP client for the Docker remote API by @fsouza"
@@ -1090,11 +1090,6 @@
     "name": "sbt-docker-compose",
     "url": "https://github.com/Tapad/sbt-docker-compose",
     "description": "Integrates Docker Compose functionality into sbt by @kurtkopchik"
-  },
-  {
-    "name": "Awesome-ciandcd",
-    "url": "https://github.com/ciandcd/awesome-ciandcd",
-    "description": "Not specific to docker but relevant."
   },
   {
     "name": "Buddy",
@@ -1346,6 +1341,11 @@
     "description": "Docker run wrapper without orchestration by @mattes"
   },
   {
+    "name": "runlike",
+    "url": "https://github.com/lavie/runlike",
+    "description": "Given an existing docker container, prints the command line necessary to run a copy of it by lavie"
+  },
+  {
     "name": "SaltStack Docker module",
     "url": "https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.dockerng.html#module-salt.modules.dockerng",
     "description": "SaltStack Docker module"
@@ -1405,7 +1405,7 @@
     "description": "A SaaS platform for developers and DevOps teams that significantly reduces the time taken for code to be built, tested and deployed to production."
   },
   {
-    "name": "IBM Bluemix Continous Delivery $$$",
+    "name": "IBM Bluemix Continous Delivery",
     "url": "https://console.bluemix.net/devops/getting-started?auth=false",
     "description": "Continuous delivery using a pipeline deployment onto IBM containers on Bluemix."
   },
@@ -1448,11 +1448,6 @@
     "name": "ContainerShip Cloud",
     "url": "https://containership.io",
     "description": "Multi-Cloud Container Hosting Automation Platform."
-  },
-  {
-    "name": "DataMC",
-    "url": "http://datamc.io/",
-    "description": "DataMc is a PaaS for Production ready and fully managed Data Platform"
   },
   {
     "name": "Docker Cloud",
@@ -1512,7 +1507,7 @@
   {
     "name": "CA Technologies Docker Monitoring",
     "url": "https://www.ca.com/us/products/docker-monitoring.html",
-    "description": "$$$ - Agile Operations solutions from CA deliver the modern Docker monitoring businesses need to accelerate and optimize the performance of microservices and the dynamic Docker environments running them. Monitor both the Docker environment and apps that run inside them."
+    "description": "Agile Operations solutions from CA deliver the modern Docker monitoring businesses need to accelerate and optimize the performance of microservices and the dynamic Docker environments running them. Monitor both the Docker environment and apps that run inside them."
   },
   {
     "name": "Collecting docker logs and stats with Splunk",
@@ -1628,6 +1623,11 @@
   {
     "name": "Docker Weekly Huge resource",
     "url": "https://blog.docker.com/docker-weekly-archives/"
+  },
+  {
+    "name": "Awesome-ciandcd",
+    "url": "https://github.com/ciandcd/awesome-ciandcd",
+    "description": "Not specific to docker but relevant."
   },
   {
     "name": "Awesome Kubernetes by @ramitsurana",
