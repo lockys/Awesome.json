@@ -72,7 +72,7 @@
   {
     "name": "Mono",
     "url": "https://github.com/mono/mono",
-    "description": "Mono open source ECMA CLI, C# and .NET implementation"
+    "description": "Open source ECMA CLI, C#, F#, VB and .NET implementation"
   },
   {
     "name": "Mono-Addins",
@@ -268,6 +268,11 @@
     "name": "Nake",
     "url": "https://github.com/yevhen/Nake",
     "description": "Magic script-based C# task runner"
+  },
+  {
+    "name": "Nuke",
+    "url": "https://github.com/nuke-build/nuke",
+    "description": "Cross-platform build automation system"
   },
   {
     "name": "CacheCow",
@@ -575,13 +580,8 @@
     "description": "Ready to work, extensible and developer-friendly build server — out of the box [$]"
   },
   {
-    "name": "CruiseControl.NET",
-    "url": "http://www.cruisecontrolnet.org/",
-    "description": "an Automated Continuous Integration server, implemented using the .NET Framework"
-  },
-  {
     "name": "MyGet",
-    "url": "http://www.myget.org/",
+    "url": "https://www.myget.org/",
     "description": "Continuous Integration and Deployment, Hosted Package Repository for NuGet, NPM, Bower and VSIX. [Free for OSS] [$]"
   },
   {
@@ -905,9 +905,34 @@
     "description": "Reactive ETL is a rewrite of Rhino ETL using the reactive extensions for .NET"
   },
   {
+    "name": "Mediator.Net",
+    "url": "https://github.com/mayuanyang/Mediator.Net",
+    "description": "A simple mediator for .Net for sending command, publishing event and request response with pipelines supported"
+  },
+  {
+    "name": "MediatR",
+    "url": "https://github.com/jbogard/MediatR",
+    "description": "Simple, unambitious mediator implementation in .NET"
+  },
+  {
+    "name": "Rx Event Aggregator",
+    "url": "https://mikebridge.github.io/articles/csharp-domain-event-aggregator/",
+    "description": "Super-simple Reactive-Extension code from Reactive.EventAggregator"
+  },
+  {
+    "name": "TinyMessenger",
+    "url": "https://github.com/grumpydev/TinyMessenger",
+    "description": "A lightweight event aggregator/messenger for loosely coupled communication."
+  },
+  {
     "name": "Exceptionless",
     "url": "https://github.com/exceptionless/Exceptionless.Net",
     "description": "Exceptionless .NET Client"
+  },
+  {
+    "name": "ExtensionMethods.Net",
+    "url": "http://www.extensionmethod.net/csharp",
+    "description": "Site with collection of extension methods"
   },
   {
     "name": "Z.ExtensionMethods",
@@ -1308,6 +1333,11 @@
     "description": ".NET wrapper for the ImageMagick library."
   },
   {
+    "name": "OpenCvSharp",
+    "url": "https://github.com/shimat/opencvsharp/",
+    "description": "Cross platform wrapper of OpenCV for .NET Framework."
+  },
+  {
     "name": "Wix Toolset",
     "url": "http://wixtoolset.org/",
     "description": "The most powerful set of tools available to create your Windows installation experience"
@@ -1363,14 +1393,14 @@
     "description": "Python and .NET interop framework"
   },
   {
+    "name": "LegacyWrapper",
+    "url": "https://github.com/CodefoundryDE/LegacyWrapper",
+    "description": "LegacyWrapper uses a wrapper process to call DLLs from a process of the opposing architecture (X86 or AMD64)."
+  },
+  {
     "name": "Castle Windsor",
     "url": "https://github.com/castleproject/Windsor",
     "description": "Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight"
-  },
-  {
-    "name": "Unity",
-    "url": "https://github.com/unitycontainer/unity",
-    "description": "Lightweight extensible dependency injection container with support for constructor, property, and method call injection"
   },
   {
     "name": "Autofac",
@@ -1421,6 +1451,11 @@
     "name": "VS MEF",
     "url": "https://github.com/Microsoft/vs-mef",
     "description": "Managed Extensibility Framework (MEF) implementation used by Visual Studio."
+  },
+  {
+    "name": "TinyIoC",
+    "url": "https://github.com/grumpydev/TinyIoC",
+    "description": "An easy to use, hassle free, Inversion of Control Container for small projects, libraries and beginners alike."
   },
   {
     "name": "ClearScript",
@@ -1511,6 +1546,11 @@
     "name": "elmah.io",
     "url": "https://elmah.io",
     "description": "Cloud logging for .NET web applications using ELMAH. Find bugs before you go live. Powerful search, API, integration with Slack, GitHub, Visual Studio and more. [Free for OSS] [$]"
+  },
+  {
+    "name": "BugSnag",
+    "url": "https://docs.bugsnag.com/platforms/dotnet/",
+    "description": "Logs errors. Includes useful diagnostic info like stack trace, session, release, etc. Has a free tier. [Free for OSS][$]"
   },
   {
     "name": "Infer.NET",
@@ -1616,6 +1656,11 @@
     "name": "UnitConversion",
     "url": "https://github.com/Stratajet/UnitConversion",
     "description": "Expansible Unit Conversion Library for .Net Core and .Net Framework"
+  },
+  {
+    "name": "ALGLIB",
+    "url": "http://www.alglib.net/",
+    "description": "ALGLIB is a cross-platform numerical analysis and data processing library. It supports several programming languages (C++, C#, Delphi) and several operating systems (Windows and POSIX, including Linux) [Proprietary] and [Free Edition]"
   },
   {
     "name": "TagLib#",
@@ -1743,11 +1788,6 @@
     "description": "A lightweight F#/C# library for efficient functional-style pipelines on streams of data."
   },
   {
-    "name": "MediatR",
-    "url": "https://github.com/jbogard/MediatR",
-    "description": "Simple, unambitious mediator implementation in .NET"
-  },
-  {
     "name": "Warden",
     "url": "https://github.com/warden-stack/Warden",
     "description": "Define \"health checks\" for your applications, resources and infrastructure. Keep your Warden on the watch"
@@ -1763,14 +1803,14 @@
     "description": "a library for persisting and restoring application state (a better alternative to .settings files)."
   },
   {
-    "name": "Mediator.Net",
-    "url": "https://github.com/mayuanyang/Mediator.Net",
-    "description": "A simple mediator for .Net for sending command, publishing event and request response with pipelines supported"
-  },
-  {
     "name": "Enums.NET",
     "url": "https://github.com/TylerBrinkley/Enums.NET",
     "description": "Enums.NET is a high-performance type-safe .NET enum utility library"
+  },
+  {
+    "name": "HidLibrary",
+    "url": "https://github.com/mikeobrien/HidLibrary",
+    "description": "This library enables you to enumerate and communicate with Hid compatible USB devices in .NET."
   },
   {
     "name": "Caliburn.Micro",
@@ -1833,6 +1873,11 @@
     "description": "Visual Composition framework to easily build modularized MVVM applications based on the Managed Extensibility Framework (MEF)."
   },
   {
+    "name": "MVVM Dialogs",
+    "url": "https://github.com/FantasticFiasco/mvvm-dialogs",
+    "description": "Framework simplifying the concept of opening dialogs from a view model when using MVVM in WPF or UWP."
+  },
+  {
     "name": "AutoMapper",
     "url": "https://github.com/AutoMapper/AutoMapper",
     "description": "A convention-based object-object mapper in .NET. http://automapper.org"
@@ -1873,6 +1918,11 @@
     "description": "The Open XML SDK provides open-source libraries for working with Open XML Documents (DOCX, XLSX, and PPTX)."
   },
   {
+    "name": "DocX",
+    "url": "https://github.com/WordDocX/DocX",
+    "description": "DocX is a .NET library that allows developers to manipulate Word 2007/2010/2013 files, it does not require Microsoft Word or Office to be installed."
+  },
+  {
     "name": "Entity Framework 6",
     "url": "https://github.com/aspnet/EntityFramework6",
     "description": "Object-relational mapper that enables .NET developers to work with relational data using domain-specific objects"
@@ -1881,11 +1931,6 @@
     "name": "Entity Framework Core",
     "url": "https://github.com/aspnet/EntityFrameworkCore",
     "description": "Object-relational mapper that enables .NET developers to work with relational data using domain-specific objects"
-  },
-  {
-    "name": "BL Toolkit",
-    "url": "https://github.com/igor-tkachev/bltoolkit",
-    "description": "Business Logic Toolkit for .NET"
   },
   {
     "name": "Dapper",
@@ -1978,7 +2023,7 @@
   },
   {
     "name": "MyGet",
-    "url": "http://www.myget.org/",
+    "url": "https://www.myget.org/",
     "description": "Hosted Package Repository for NuGet, NPM, Bower and VSIX. Also provides CI as-a-Service. [Free for OSS] [$]"
   },
   {
@@ -1990,6 +2035,11 @@
     "name": "ITextSharp",
     "url": "https://github.com/itext/itextsharp",
     "description": "iText is a PDF library that allows you to CREATE, ADAPT, INSPECT and MAINTAIN documents in the Portable Document Format (PDF)[$]****[Free for OSS]"
+  },
+  {
+    "name": "PdfiumViewer",
+    "url": "https://github.com/pvginkel/PdfiumViewer",
+    "description": "PdfiumViewer is a PDF viewer based on the PDFium project."
   },
   {
     "name": "MiniProfiler",
@@ -2020,6 +2070,11 @@
     "name": "PushSharp",
     "url": "https://github.com/Redth/PushSharp",
     "description": "A server-side library for sending Push Notifications to iOS, OSX, Android, Chrome, Windows Phone, Windows 8, Blackberry, and Amazon devices."
+  },
+  {
+    "name": "SqlKata",
+    "url": "https://sqlkata.com",
+    "description": "Elegant Sql Query Builder, that supports complex queries, joins, sub queries, nested where conditions, vendor engine targets and more"
   },
   {
     "name": "CAP",
