@@ -50,16 +50,21 @@
     "url": "https://github.com/dbuenzli/cmdliner"
   },
   {
-    "name": "Minicli – Minimalist library for command line parsing.",
-    "url": "https://github.com/UnixJunkie/minicli"
+    "name": "Core – Jane Street Capital's full-fledged standard library overlay. A portable subset of Core is also available: Core_kernel.",
+    "url": "https://github.com/janestreet/core"
   },
   {
-    "name": "Core – Jane Street Capital's standard library overlay.",
-    "url": "https://github.com/janestreet/core"
+    "name": "Base",
+    "url": "https://github.com/janestreet/base",
+    "description": "Jane Street Capital's dependency-free, quick-compiling, fully-portable across any environment that can run OCaml code standard library."
   },
   {
     "name": "React – React is an OCaml module for functional reactive programming (FRP). It provides support to program with time varying values: declarative events and signals.",
     "url": "http://erratique.ch/software/react"
+  },
+  {
+    "name": "Minicli – Minimalist library for command line parsing.",
+    "url": "https://github.com/UnixJunkie/minicli"
   },
   {
     "name": "ctypes – Library for binding to C libraries using pure OCaml.",
@@ -76,11 +81,6 @@
   {
     "name": "ocaml-containers – A small standard library extension, string library, and (in \"misc\") a bunch of random things of lower quality. BSD license.",
     "url": "https://github.com/c-cube/ocaml-containers"
-  },
-  {
-    "name": "Notty",
-    "url": "https://github.com/pqwy/notty",
-    "description": "Notty is a declarative terminal library for OCaml, structured around a notion of composable images."
   },
   {
     "name": "Gagallium",
@@ -276,16 +276,24 @@
     "url": "http://nopaniers.calepin.co/getting-started-with-ocaml-bindings-for-llvm.html"
   },
   {
+    "name": "Lwt — A cooperative threads library for OCaml.",
+    "url": "http://ocsigen.org/lwt/"
+  },
+  {
     "name": "Async — A monadic concurrence library to go with the Core library.",
     "url": "http://janestreet.github.io/"
   },
   {
-    "name": "Cooperative Concurrency in OCaml: A Core.Std.Async Example.",
-    "url": "http://philtomson.github.io/blog/2014/07/09/core-dot-async-example/"
+    "name": "The blog post that introduced Async",
+    "url": "https://blog.janestreet.com/announcing-async/"
   },
   {
-    "name": "Lwt — A cooperative threads library for OCaml.",
-    "url": "http://ocsigen.org/lwt/"
+    "name": "A user gives up on Async",
+    "url": "http://rgrinberg.com/posts/abandoning-async/"
+  },
+  {
+    "name": "Cooperative Concurrency in OCaml: A Core.Std.Async Example.",
+    "url": "http://philtomson.github.io/blog/2014/07/09/core-dot-async-example/"
   },
   {
     "name": "Dbm — A binding to the NDBM/GDBM Unix \"databases\".",
@@ -296,8 +304,16 @@
     "url": "http://massd.github.io/mongo/"
   },
   {
-    "name": "PG'OCaml — PG'OCaml provides an interface to PostgreSQL databases for OCaml applications.",
+    "name": "PG'OCaml — A type-safe interface to PostgreSQL in pure OCaml.\n\nppx_pgsql – A syntax extension for embedded SQL queries using PG'OCaml.\n\n",
     "url": "http://pgocaml.forge.ocamlcore.org/"
+  },
+  {
+    "name": "ppx_pgsql – A syntax extension for embedded SQL queries using PG'OCaml.",
+    "url": "https://github.com/tizoc/ppx_pgsql"
+  },
+  {
+    "name": "PostgreSQL-OCaml — An interface to PostgreSQL through the C API (libpq).",
+    "url": "https://mmottl.github.io/postgresql-ocaml/"
   },
   {
     "name": "SQLite3 — OCaml bindings to the SQLite3 database.",
@@ -569,6 +585,15 @@
   {
     "name": "TSDL – Tsdl is an OCaml module providing thin bindings to the cross-platform SDL library.",
     "url": "http://erratique.ch/software/tsdl"
+  },
+  {
+    "name": "Lambda-Term – Lambda-Term is a cross-platform library for manipulating the terminal. It provides an abstraction for keys, mouse events, colors, as well as a set of widgets to write curses-like applications.",
+    "url": "https://github.com/diml/lambda-term"
+  },
+  {
+    "name": "Notty",
+    "url": "https://github.com/pqwy/notty",
+    "description": "Notty is a declarative terminal library for OCaml, structured around a notion of composable images."
   },
   {
     "name": "Higher-Rank Polymorphism in OCaml",
