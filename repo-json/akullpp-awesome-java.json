@@ -26,7 +26,7 @@
   },
   {
     "name": "GlassFish",
-    "url": "https://glassfish.java.net/",
+    "url": "http://javaee.github.io/glassfish/",
     "description": "Application server and reference implementation for Java EE, sponsored by Oracle."
   },
   {
@@ -45,11 +45,6 @@
     "description": "Clear, concise, modular and made for embedding."
   },
   {
-    "name": "Hudson",
-    "url": "http://hudson-ci.org/",
-    "description": "Continuous integration server still in active development."
-  },
-  {
     "name": "Java Modeling Language (JML)",
     "url": "http://www.eecs.ucf.edu/%7Eleavens/JML/",
     "description": "Behavioral interface specification language useful for specifying the behavior of code modules. It combines Eiffel's Design by Contract approach with the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools."
@@ -61,12 +56,12 @@
   },
   {
     "name": "JavaServer Faces",
-    "url": "https://javaserverfaces.java.net/",
+    "url": "http://javaee.github.io/javaserverfaces-spec/",
     "description": "Oracle's open-source implementation of the JSF standard, Mojarra."
   },
   {
     "name": "JavaServer Pages",
-    "url": "https://jsp.java.net/",
+    "url": "http://javaee.github.io/javaee-jsp-api/",
     "description": "Common templating for websites with custom tag libraries."
   },
   {
@@ -575,16 +570,6 @@
     "description": "Parse and build iCalendar RFC 5545 data models."
   },
   {
-    "name": "Joda-Time",
-    "url": "http://www.joda.org/joda-time/",
-    "description": "De facto standard date/time-library before Java 8."
-  },
-  {
-    "name": "ThreeTenBP",
-    "url": "https://github.com/ThreeTen/threetenbp",
-    "description": "Port of JSR 310 (java.time package) by the author of Joda-Time."
-  },
-  {
     "name": "Time4J",
     "url": "https://github.com/MenoData/Time4J",
     "description": "Advanced date and time library."
@@ -616,7 +601,7 @@
   },
   {
     "name": "HK2",
-    "url": "https://hk2.java.net",
+    "url": "http://javaee.github.io/hk2",
     "description": "Lightweight and dynamic dependency injection framework."
   },
   {
@@ -658,11 +643,6 @@
     "name": "NoException",
     "url": "https://noexception.machinezoo.com/",
     "description": "Allows checked exceptions in functional interfaces and converts exceptions to Optional return."
-  },
-  {
-    "name": "Spring Loaded",
-    "url": "https://github.com/spring-projects/spring-loaded",
-    "description": "Class reloading agent."
   },
   {
     "name": "Apache Geode",
@@ -1171,7 +1151,7 @@
   },
   {
     "name": "JDK 9",
-    "url": "https://jdk9.java.net/",
+    "url": "http://jdk9.java.net/",
     "description": "Early-access releases of JDK 9."
   },
   {
@@ -1370,11 +1350,6 @@
     "description": "Java-to-Objective-C translator for porting Android libraries to iOS."
   },
   {
-    "name": "javaslang-circuitbreaker",
-    "url": "https://github.com/javaslang/javaslang-circuitbreaker",
-    "description": "Functional fault tolerance library."
-  },
-  {
     "name": "JavaX",
     "url": "http://javax.ai1.lol/",
     "description": "Reinventing and extending Java with a focus on simplicity."
@@ -1413,6 +1388,11 @@
     "name": "LightAdmin",
     "url": "http://lightadmin.org/",
     "description": "Pluggable CRUD UI library for rapid application development."
+  },
+  {
+    "name": "Maven Wrapper",
+    "url": "https://github.com/takari/maven-wrapper",
+    "description": "Analogue of Gradle Wrapper for Maven, allows build projects without installing maven."
   },
   {
     "name": "Membrane Service Proxy",
@@ -1601,7 +1581,7 @@
   },
   {
     "name": "Grizzly",
-    "url": "https://grizzly.java.net/",
+    "url": "http://javaee.github.io/grizzly",
     "description": "NIO framework. Used as a network layer in Glassfish."
   },
   {
@@ -1796,7 +1776,7 @@
   },
   {
     "name": "Spring",
-    "url": "http://projects.spring.io/spring-framework/",
+    "url": "https://spring.io/projects",
     "description": "Provides many packages for dependency injection, aspect-oriented programming, security, etc."
   },
   {
@@ -1831,7 +1811,7 @@
   },
   {
     "name": "Jersey",
-    "url": "https://jersey.java.net/",
+    "url": "https://github.com:jersey/jersey",
     "description": "JAX-RS reference implementation."
   },
   {
@@ -2094,11 +2074,6 @@
     "description": "Generates fake objects from a template."
   },
   {
-    "name": "Galen",
-    "url": "https://github.com/galenframework/galen",
-    "description": "Layout and functional testing framework for websites."
-  },
-  {
     "name": "Gatling",
     "url": "http://gatling.io/",
     "description": "Load testing tool designed for ease of use, maintainability and high performance."
@@ -2202,21 +2177,6 @@
     "name": "REST Assured",
     "url": "https://github.com/jayway/rest-assured",
     "description": "Java DSL for easy testing of REST/HTTP services."
-  },
-  {
-    "name": "Selenide",
-    "url": "http://selenide.org/",
-    "description": "Concise API around Selenium to write stable and readable UI tests."
-  },
-  {
-    "name": "Selenium",
-    "url": "http://docs.seleniumhq.org/",
-    "description": "Portable software testing framework for web applications."
-  },
-  {
-    "name": "Spock",
-    "url": "https://github.com/spockframework/spock",
-    "description": "Developer testing and specification framework for Java and Groovy applications."
   },
   {
     "name": "TestContainers",
@@ -2403,6 +2363,10 @@
   {
     "name": "Awesome REST",
     "url": "https://github.com/marmelab/awesome-rest"
+  },
+  {
+    "name": "Awesome Selenium",
+    "url": "https://github.com/christian-bromann/awesome-selenium"
   },
   {
     "name": "ciandcd",
