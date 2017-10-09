@@ -452,15 +452,20 @@
   {
     "name": "gtfs-validator",
     "url": "https://github.com/conveyal/gtfs-validator",
-    "description": "- A GTFS validator based on the OneBusAway GTFS Modules, runs in Java and is faster than the Google provided one."
+    "description": "A GTFS validator based on the OneBusAway GTFS Modules, runs in Java and is faster than the Google provided one."
   },
   {
-    "name": "GFTS Data Package Specification",
+    "name": "gtfs-lib",
+    "url": "https://github.com/conveyal/gtfs-lib/",
+    "description": "Conveyal's successor to gtfs-validator, a library for loading and saving GTFS feeds of arbitrary size with disk-backed storage."
+  },
+  {
+    "name": "GTFS Data Package Specification",
     "url": "https://github.com/Stephen-Gates/GTFS",
     "description": "A Data Package specification with validation accomplished with Good Tables. Includes a data package, schemas, tests, and uses South East Queensland GTFS data as an example."
   },
   {
-    "name": "GTFS Meta-Validator",
+    "name": "Web GTFS Meta-Validator (hosted by Omni)",
     "url": "http://gtfsvalidator.omnimodal.io",
     "description": "A web-based GTFS validator that runs both feedValidator and gtfs-validator on uploaded GTFS files."
   },
@@ -507,6 +512,11 @@
     "name": "gtfs-realtime-validator",
     "url": "https://github.com/CUTR-at-USF/gtfs-realtime-validator",
     "description": "A GTFS-realtime validation tool developed by the Center for Urban Transportation Research at the University of South Florida.  Also includes an integrated version of the gtfs-validator tool."
+  },
+  {
+    "name": "Web gtfs-realtime-validator (hosted by TransitScreen)",
+    "url": "http://gtfsrealtimevalidator.transitscreen.com/",
+    "description": "A web-based interface to gtfs-realtime-validator."
   },
   {
     "name": "GTFS-realtime to SQL",
