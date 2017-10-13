@@ -355,11 +355,6 @@
     "description": "ELU activation function for CIFAR vision tasks."
   },
   {
-    "name": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
-    "url": "https://arxiv.org/pdf/1505.04597.pdf",
-    "description": "U-Net, an interesting approach to image segmentation, to me that slightly resembles a convolutional autoencoder but with proper pixel-to-pixel alignment of segmentation."
-  },
-  {
     "name": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
     "url": "https://arxiv.org/pdf/1409.1556v6.pdf",
     "description": "Interesting idea of stacking multiple 3x3 conv+ReLU before pooling for a bigger filter size with just a few parameters. There is also a nice table for \"ConvNet Configuration\"."
@@ -378,6 +373,11 @@
     "name": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
     "url": "https://arxiv.org/pdf/1502.03167v3.pdf",
     "description": "Batch normalization (BN): to normalize a layer's output by also summing over the entire batch, and then performing a linear rescaling and shifting of a certain trainable amount."
+  },
+  {
+    "name": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "url": "https://arxiv.org/pdf/1505.04597.pdf",
+    "description": "The U-Net is an encoder-decoder CNN that also has skip-connections, good for image segmentation at a per-pixel level."
   },
   {
     "name": "Deep Residual Learning for Image Recognition",
@@ -407,7 +407,12 @@
   {
     "name": "Densely Connected Convolutional Networks",
     "url": "https://arxiv.org/pdf/1608.06993.pdf",
-    "description": "Best Paper Award at CVPR 2017, yielding improvements on state-of-the-art performances on CIFAR-10, CIFAR-100 and SVHN datasets."
+    "description": "Best Paper Award at CVPR 2017, yielding improvements on state-of-the-art performances on CIFAR-10, CIFAR-100 and SVHN datasets, this new neural network architecture is named DenseNet."
+  },
+  {
+    "name": "The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation",
+    "url": "https://arxiv.org/pdf/1611.09326.pdf",
+    "description": "Merges the ideas of the U-Net and the DenseNet, this new neural network is especially good for huge datasets in image segmentation."
   },
   {
     "name": "Tensor Calculus and the Calculus of Moving Surfaces",
