@@ -105,11 +105,6 @@
     "description": "Standalone, specification-compliant,  OAuth2 server written in Golang."
   },
   {
-    "name": "go.auth",
-    "url": "https://github.com/bradrydzewski/go.auth",
-    "description": "Authentication API for Go web applications."
-  },
-  {
     "name": "gologin",
     "url": "https://github.com/dghubble/gologin",
     "description": "chainable handlers for login with OAuth1 and OAuth2 authentication providers."
@@ -122,7 +117,7 @@
   {
     "name": "goth",
     "url": "https://github.com/markbates/goth",
-    "description": "provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple provides out of the box."
+    "description": "provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple providers out of the box."
   },
   {
     "name": "httpauth",
@@ -137,7 +132,7 @@
   {
     "name": "jwt-auth",
     "url": "https://github.com/adam-hanna/jwt-auth",
-    "description": "JWT middleware for goLang http servers with many configuration options."
+    "description": "JWT middleware for Golang http servers with many configuration options."
   },
   {
     "name": "jwt-go",
@@ -175,6 +170,11 @@
     "description": "Go session management for web servers (including support for Google App Engine - GAE)."
   },
   {
+    "name": "sessiongate-go",
+    "url": "https://github.com/f0rmiga/sessiongate-go",
+    "description": "Go session management using the SessionGate Redis module."
+  },
+  {
     "name": "sessions",
     "url": "https://github.com/adam-hanna/sessions",
     "description": "Dead simple, highly performant, highly customizable sessions service for go http servers."
@@ -197,12 +197,12 @@
   {
     "name": "cli",
     "url": "https://github.com/mkideal/cli",
-    "description": "Feature-rich and easy to use command-line package based on golang tag."
+    "description": "Feature-rich and easy to use command-line package based on golang struct tags."
   },
   {
     "name": "cli-init",
     "url": "https://github.com/tcnksm/gcli",
-    "description": "The easy way to start building Golang command line application."
+    "description": "The easy way to start building Golang command line applications."
   },
   {
     "name": "climax",
@@ -237,7 +237,7 @@
   {
     "name": "flag",
     "url": "https://github.com/cosiner/flag",
-    "description": "Simple but powerful command line option parsing library for Go support subcommand."
+    "description": "Simple but powerful command line option parsing library for Go supporting subcommand."
   },
   {
     "name": "go-arg",
@@ -277,7 +277,7 @@
   {
     "name": "readline",
     "url": "https://github.com/chzyer/readline",
-    "description": "Pure golang implementation that provide most of features in GNU-Readline under MIT license."
+    "description": "Pure golang implementation that provides most features in GNU-Readline under MIT license."
   },
   {
     "name": "sflags",
@@ -420,6 +420,11 @@
     "description": "Read your configuration from environment variables."
   },
   {
+    "name": "envh",
+    "url": "https://github.com/antham/envh",
+    "description": "Helpers to manage environment variables."
+  },
+  {
     "name": "gcfg",
     "url": "https://github.com/go-gcfg/gcfg",
     "description": "read INI-style configuration files into Go structs; supports user-defined types and subsections."
@@ -427,7 +432,7 @@
   {
     "name": "goConfig",
     "url": "https://github.com/crgimenes/goConfig",
-    "description": "Parse a struct as input and populates the fields of this struct with parameters fom command line, environment variables and configuration file."
+    "description": "Parses a struct as input and populates the fields of this struct with parameters from command line, environment variables and configuration file."
   },
   {
     "name": "godotenv",
@@ -442,7 +447,7 @@
   {
     "name": "gone/jconf",
     "url": "https://github.com/One-com/gone/tree/master/jconf",
-    "description": "Modular JSON configuration. Keep you config structs along the code they configure and delegate parsing to submodules without sacrificing full config serialization."
+    "description": "Modular JSON configuration. Keep you config structs along with the code they configure and delegate parsing to submodules without sacrificing full config serialization."
   },
   {
     "name": "hjson",
@@ -457,7 +462,7 @@
   {
     "name": "ini",
     "url": "https://github.com/go-ini/ini",
-    "description": "Go package for read and write INI files."
+    "description": "Go package to read and write INI files."
   },
   {
     "name": "joshbetz/config",
@@ -747,7 +752,7 @@
   {
     "name": "goleveldb",
     "url": "https://github.com/syndtr/goleveldb",
-    "description": "Implementation of the LevelDB key/value database in the Go."
+    "description": "Implementation of the LevelDB key/value database in Go."
   },
   {
     "name": "groupcache",
@@ -842,7 +847,7 @@
   {
     "name": "pravasan",
     "url": "https://github.com/pravasan/pravasan",
-    "description": "Simple Migration tool - currently for MySQL but planning to support soon for Postgres, SQLite, MongoDB, etc."
+    "description": "Simple Migration tool - currently for MySQL but planning to soon support Postgres, SQLite, MongoDB, etc."
   },
   {
     "name": "soda",
@@ -872,7 +877,7 @@
   {
     "name": "myreplication",
     "url": "https://github.com/2tvenom/myreplication",
-    "description": "MySql binary log replication listener. Support statement and row based replication."
+    "description": "MySql binary log replication listener. Supports statement and row based replication."
   },
   {
     "name": "orchestrator",
@@ -902,7 +907,7 @@
   {
     "name": "Dotsql",
     "url": "https://github.com/gchaincl/dotsql",
-    "description": "Go library that helps you keep sql files in one place and use it with ease."
+    "description": "Go library that helps you keep sql files in one place and use them with ease."
   },
   {
     "name": "goqu",
@@ -957,7 +962,7 @@
   {
     "name": "go-adodb",
     "url": "https://github.com/mattn/go-adodb",
-    "description": "Microsoft ActiveX Object DataBase driver for go that using database/sql."
+    "description": "Microsoft ActiveX Object DataBase driver for go that uses database/sql."
   },
   {
     "name": "go-bqstreamer",
@@ -972,7 +977,7 @@
   {
     "name": "go-oci8",
     "url": "https://github.com/mattn/go-oci8",
-    "description": "Oracle driver for go that using database/sql."
+    "description": "Oracle driver for go that uses database/sql."
   },
   {
     "name": "go-sql-driver/mysql",
@@ -982,7 +987,7 @@
   {
     "name": "go-sqlite3",
     "url": "https://github.com/mattn/go-sqlite3",
-    "description": "SQLite3 driver for go that using database/sql."
+    "description": "SQLite3 driver for go that uses database/sql."
   },
   {
     "name": "gofreetds",
@@ -1157,12 +1162,12 @@
   {
     "name": "durafmt",
     "url": "https://github.com/hako/durafmt",
-    "description": "Uime duration formatting library for Go."
+    "description": "Time duration formatting library for Go."
   },
   {
     "name": "feiertage",
     "url": "https://github.com/wlbr/feiertage",
-    "description": "Set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecoast, Thanksgiving..."
+    "description": "Set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecost, Thanksgiving..."
   },
   {
     "name": "go-persian-calendar",
@@ -1797,7 +1802,7 @@
   {
     "name": "robotgo",
     "url": "https://github.com/go-vgo/robotgo",
-    "description": "Go Native cross-platform GUI system automation;Control the mouse, keyboard and other."
+    "description": "Go Native cross-platform GUI system automation. Control the mouse, keyboard and other."
   },
   {
     "name": "systray",
@@ -1907,7 +1912,7 @@
   {
     "name": "resize",
     "url": "https://github.com/nfnt/resize",
-    "description": "Image resizing for the Go with common interpolation methods."
+    "description": "Image resizing for Go with common interpolation methods."
   },
   {
     "name": "rez",
@@ -2575,6 +2580,11 @@
     "description": "Framework for building Telegram bots."
   },
   {
+    "name": "persian",
+    "url": "https://github.com/mavihq/persian",
+    "description": "Some utilities for Persian language in go."
+  },
+  {
     "name": "secdl",
     "url": "https://github.com/xor-gate/secdl",
     "description": "Lighttpd ModSecDownload algorithm ported to go to secure download urls."
@@ -2950,6 +2960,11 @@
     "description": "It's a Super Simples Load Balancer, just a little project to achieve some kind of performance."
   },
   {
+    "name": "stun",
+    "url": "https://github.com/go-rtc/stun",
+    "description": "Go implementation of RFC 5389 STUN protocol."
+  },
+  {
     "name": "tcp_server",
     "url": "https://github.com/firstrow/tcp_server",
     "description": "Go library for building tcp servers faster."
@@ -3038,6 +3053,11 @@
     "name": "gorp",
     "url": "https://github.com/go-gorp/gorp",
     "description": "Go Relational Persistence, ORM-ish library for Go."
+  },
+  {
+    "name": "lore",
+    "url": "https://github.com/abrahambotros/lore",
+    "description": "Simple and lightweight pseudo-ORM/pseudo-struct-mapping environment for Go."
   },
   {
     "name": "Marlow",
@@ -3363,6 +3383,11 @@
     "name": "go-yara",
     "url": "https://github.com/hillu/go-yara",
     "description": "Go Bindings for YARA, the \"pattern matching swiss knife for malware researchers (and everyone else)\"."
+  },
+  {
+    "name": "goSecretBoxPassword",
+    "url": "https://github.com/dwin/goSecretBoxPassword",
+    "description": "A probably paranoid package for securely hashing and encrypting passwords."
   },
   {
     "name": "lego",
@@ -4830,6 +4855,11 @@
     "description": "Simple and powerful toolkit for BoltDB."
   },
   {
+    "name": "structs",
+    "url": "https://github.com/PumpkinSeed/structs",
+    "description": "Implement simple functions to manipulate structs."
+  },
+  {
     "name": "Task",
     "url": "https://github.com/go-task/task",
     "description": "simple \"Make\" alternative."
@@ -4878,6 +4908,11 @@
     "name": "govalidator",
     "url": "https://github.com/asaskevich/govalidator",
     "description": "Validators and sanitizers for strings, numerics, slices and structs."
+  },
+  {
+    "name": "govalidator",
+    "url": "https://github.com/thedevsaddam/govalidator",
+    "description": "Validate Golang request data with simple rules. Highly inspired by Laravel's request validation."
   },
   {
     "name": "ozzo-validation",
