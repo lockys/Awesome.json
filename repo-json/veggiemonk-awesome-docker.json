@@ -72,15 +72,20 @@
   },
   {
     "name": "Windows Containers Quick Start Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016",
-    "url": "https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/"
+    "url": "https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/index"
   },
   {
     "name": "Build And Run Your First Docker Windows Server Container Walkthrough installing Docker on Windows 10, building a Docker image and running a Windows container",
     "url": "https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/"
   },
   {
-    "name": "Video: Windows Containers and Docker: The 101 A 20-minute overview, using Docker to run  PowerShell, ASP.NET Core and ASP.NET apps",
-    "url": "https://www.youtube.com/watch?v=N7SG2wEyQtM"
+    "name": "Docker on Windows behind a firewall by @kaitoedter",
+    "url": "https://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/"
+  },
+  {
+    "name": "Windows Containers and Docker: The 101 🎥",
+    "url": "https://www.youtube.com/watch?v=N7SG2wEyQtM",
+    "description": "A 20-minute overview, using Docker to run  PowerShell, ASP.NET Core and ASP.NET apps"
   },
   {
     "name": "A Comparative Study of Docker Engine on Windows Server vs Linux Platform Comparing the feature sets and implementations of Docker on Windows and Linux",
@@ -561,6 +566,16 @@
     "description": "Automated reverse proxy and load-balancer for Docker, Mesos, Consul, Etcd... By @EmileVauge"
   },
   {
+    "name": "Anchor Engine",
+    "url": "https://github.com/anchore/anchore",
+    "description": "Analyze images for CVE vulnerabilities and against custom security policies by @Anchor"
+  },
+  {
+    "name": "Anchor Cloud 💲",
+    "url": "https://anchore.com/cloud/",
+    "description": "Hosted version of Anchor Engine by @Anchor"
+  },
+  {
     "name": "Aqua Security 💲",
     "url": "https://www.aquasec.com",
     "description": "Securing container-based applications from Dev to Production on any platform"
@@ -587,8 +602,8 @@
   },
   {
     "name": "notary",
-    "url": "https://github.com/docker/notary",
-    "description": "a server and a client for running and interacting with trusted collections. By @docker"
+    "url": "https://github.com/theupdateframework/notary",
+    "description": "a server and a client for running and interacting with trusted collections. By @TUF"
   },
   {
     "name": "oscap-docker",
@@ -666,8 +681,8 @@
     "description": "Decentralized storage solution for persistent, shared and replicated volumes."
   },
   {
-    "name": "REX-Ray Vendor agnostic storage orchestration engine to provide persistent storage for Docker containers as well as Mesos frameworks and tasks.",
-    "url": "https://github.com/codedellemc/rexray"
+    "name": "REX-Ray Vendor agnostic storage orchestration engine to provide persistent storage for Docker containers as well as Mesos frameworks and tasks. By@Dell",
+    "url": "https://github.com/thecodeteam/rexray"
   },
   {
     "name": "quobyte 💲",
@@ -683,6 +698,11 @@
     "name": "Dockeron",
     "url": "https://github.com/dockeron/dockeron",
     "description": "A project built on Electron + Vue.js for Docker on desktop. @fluency03"
+  },
+  {
+    "name": "Lifeboat",
+    "url": "https://github.com/jplhomer/lifeboat",
+    "description": "An easy way to launch Docker projects with a graphical interface on your Mac. @jplhomer"
   },
   {
     "name": "ctop (1)",
@@ -957,40 +977,12 @@
     "description": "A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits."
   },
   {
-    "name": "Collection of Dockerfiles by @crosbymichael",
-    "url": "https://github.com/crosbymichael/Dockerfiles"
-  },
-  {
-    "name": "Collection of Dockerfiles 2 by @pandrew",
-    "url": "https://github.com/pandrew/dockerfiles"
-  },
-  {
-    "name": "Collection of Dockerfiles 3 by @vimagick",
-    "url": "https://github.com/vimagick/dockerfiles"
-  },
-  {
-    "name": "Collection of Dockerfiles 4 by @ondrejmo",
-    "url": "https://github.com/ondrejmo/Dockerfiles"
-  },
-  {
-    "name": "Collection of Dockerfiles 5 by @arun-gupta",
-    "url": "https://github.com/arun-gupta/docker-images"
-  },
-  {
-    "name": "Docker Compose Example by @llitfkitfk",
-    "url": "https://github.com/llitfkitfk/docker-compose-demo"
-  },
-  {
     "name": "Dockerfile Project : Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container.",
     "url": "http://dockerfile.github.io/"
   },
   {
-    "name": "Dockerfile Example by @komljen",
-    "url": "https://github.com/komljen/dockerfile-examples"
-  },
-  {
-    "name": "Dockerfile Example 2 💀 by @kstaken",
-    "url": "https://github.com/kstaken/dockerfile-examples"
+    "name": "Dockerfile Generator",
+    "url": "http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/"
   },
   {
     "name": "Vektorcloud",
@@ -1264,6 +1256,11 @@
     "name": "DLite",
     "url": "https://github.com/nlf/dlite",
     "description": "Simplest way to use Docker on OSX, no VM needed. By @nlf"
+  },
+  {
+    "name": "Docker-Arch",
+    "url": "https://github.com/ph3nol/docker-arch",
+    "description": "Generate Web/CLI projects Dockerized development environments, from 1 simple YAML file. By @Ph3nol"
   },
   {
     "name": "docker-vm",
@@ -1674,6 +1671,10 @@
     "url": "http://container42.com/"
   },
   {
+    "name": "Cloud Native Landscape",
+    "url": "https://github.com/cncf/landscape"
+  },
+  {
     "name": "Docker Cheat Sheet by @JensPiegsa (updated for Docker 1.13)",
     "url": "http://docker.jens-piegsa.com"
   },
@@ -1684,14 +1685,6 @@
   {
     "name": "Docker Cheat Sheet by @wsargent MUST SEE",
     "url": "https://github.com/wsargent/docker-cheat-sheet"
-  },
-  {
-    "name": "Docker Ecosystem (PDF) MUST SEE    find it on blog by Bryzgalov Peter.",
-    "url": "http://comp.photo777.org/wp-content/uploads/2015/09/Docker-ecosystem-8.5.1.pdf"
-  },
-  {
-    "name": "Docker Ecosystem (Mind Map) MUST SEE",
-    "url": "https://www.mindmeister.com/389671722/docker-ecosystem"
   },
   {
     "name": "Docker Kubernetes Lab Handbook",
@@ -1776,25 +1769,16 @@
     "url": "https://backdrift.org/docker-cifs-howto-mount-cifs-volume-docker-container"
   },
   {
-    "name": "Docker on Windows behind a firewall by @kaitoedter",
-    "url": "https://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/"
-  },
-  {
     "name": "Docker Tips by @jmervine",
     "url": "http://www.mervine.net/notes/docker-tips"
   },
   {
-    "name": "Dockerfile Generator (ruby script)",
-    "url": "http://jrruethe.github.io/blog/2015/09/20/dockerfile-generator/"
+    "name": "Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files by @King Chung Huang",
+    "url": "https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd"
   },
   {
     "name": "GUI Apps with Docker by @fgrehm",
     "url": "http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/"
-  },
-  {
-    "name": "Kubernetes Cheatsheet",
-    "url": "http://k8s.info/cs.html",
-    "description": "A great resource for managing your Kubernetes installation"
   },
   {
     "name": "Migration from VMs to Containers",
