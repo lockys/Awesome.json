@@ -535,6 +535,11 @@
     "description": "AWS Signature Version 4 Signing Library for Elixir."
   },
   {
+    "name": "basic_auth",
+    "url": "https://github.com/CultivateHQ/basic_auth",
+    "description": "Elixir Plug to easily add HTTP basic authentication to an app."
+  },
+  {
     "name": "blackbook",
     "url": "https://github.com/bigmachine-io/blackbook",
     "description": "All-in-one membership/authentication system for Elixir."
@@ -580,6 +585,16 @@
     "description": "An OAuth 2.0 client library for Elixir."
   },
   {
+    "name": "oauth2_facebook",
+    "url": "https://github.com/chrislaskey/oauth2_facebook",
+    "description": "A Facebook OAuth2 Provider for Elixir."
+  },
+  {
+    "name": "oauth2_github",
+    "url": "https://github.com/chrislaskey/oauth2_github",
+    "description": "A GitHub OAuth2 Provider for Elixir."
+  },
+  {
     "name": "oauth2cli",
     "url": "https://github.com/mgamini/oauth2cli-elixir",
     "description": "Simple OAuth2 client written for Elixir."
@@ -595,9 +610,14 @@
     "description": "An OAuth 1.0 implementation for Elixir."
   },
   {
-    "name": "openmaize",
-    "url": "https://github.com/riverrun/openmaize",
-    "description": "Authentication library for Elixir."
+    "name": "phauxth",
+    "url": "https://github.com/riverrun/phauxth",
+    "description": "Authentication library for Phoenix 1.3 and other Plug-based apps."
+  },
+  {
+    "name": "samly",
+    "url": "https://github.com/handnot2/samly",
+    "description": "SAML SP SSO made easy (Doc)."
   },
   {
     "name": "sesamex",
@@ -1130,6 +1150,11 @@
     "description": "Command-line option parser for Elixir inspired by clap.rs."
   },
   {
+    "name": "phoenix-cli",
+    "url": "https://phoenix-cli.github.io/",
+    "description": "Command-line interface for Phoenix Framework like Rails commands."
+  },
+  {
     "name": "progress_bar",
     "url": "https://github.com/henrik/progress_bar",
     "description": "Command-line progress bars and spinners."
@@ -1207,7 +1232,7 @@
   {
     "name": "comeonin",
     "url": "https://github.com/riverrun/comeonin",
-    "description": "Password authorization (bcrypt, pbkdf2_sha512 and one-time passwords) library for Elixir."
+    "description": "Password hashing (argon2, bcrypt, pbkdf2_sha512) library for Elixir."
   },
   {
     "name": "crypto_rsassa_pss",
@@ -1233,6 +1258,11 @@
     "name": "exgpg",
     "url": "https://github.com/rozap/exgpg",
     "description": "Use gpg from Elixir."
+  },
+  {
+    "name": "one_time_pass_ecto",
+    "url": "https://github.com/riverrun/one_time_pass_ecto",
+    "description": "One-time password library for Elixir."
   },
   {
     "name": "pot",
@@ -1450,9 +1480,19 @@
     "description": "Deployment for Elixir and Erlang."
   },
   {
+    "name": "elixir-on-docker",
+    "url": "https://github.com/CrowdHailer/elixir-on-docker",
+    "description": "A project template to get started developing clustered Elixir applications for cloud environments."
+  },
+  {
     "name": "exdm",
     "url": "https://github.com/joeyates/exdm",
     "description": "Deploy Elixir applications via mix tasks."
+  },
+  {
+    "name": "exreleasy",
+    "url": "https://github.com/miros/exreleasy",
+    "description": "Dead simple and Mix friendly tool for releasing Elixir applications."
   },
   {
     "name": "gatling",
@@ -1473,6 +1513,11 @@
     "name": "Nanobox",
     "url": "https://github.com/nanobox-io/nanobox",
     "description": "A micro-PaaS (μPaaS) for creating consistent, isolated, development environments deployable anywhere https://nanobox.io."
+  },
+  {
+    "name": "blue_bird",
+    "url": "https://github.com/KittyHeaven/blue_bird",
+    "description": "BlueBird is a library written in the Elixir programming language for the Phoenix framework. It lets you generate API documentation in the API Blueprint format from annotations in controllers and automated tests."
   },
   {
     "name": "bureaucrat",
@@ -1520,11 +1565,6 @@
     "description": "Fully featured GraphQL library."
   },
   {
-    "name": "graphql",
-    "url": "https://github.com/graphql-elixir/graphql",
-    "description": "An Elixir implementation of Facebook's GraphQL."
-  },
-  {
     "name": "estree",
     "url": "https://github.com/bryanjos/elixir-estree",
     "description": "A implementation of the SpiderMonkey Parser API in Elixir."
@@ -1533,6 +1573,11 @@
     "name": "phoenix_gon",
     "url": "https://github.com/khusnetdinov/phoenix_gon",
     "description": "Allow you to pass Phoenix environment or controller variables to JavaScript without problems."
+  },
+  {
+    "name": "phoenix_routes_js",
+    "url": "https://github.com/khusnetdinov/phoenix_routes_js",
+    "description": "Phoenix routes helpers in JavaScript code and browser console."
   },
   {
     "name": "bamboo",
@@ -1890,6 +1935,11 @@
     "description": "A code generation tool for the Phoenix web framework."
   },
   {
+    "name": "better_params",
+    "url": "https://github.com/sheharyarn/better_params",
+    "description": "Elixir Plug for cleaner request params in web apps."
+  },
+  {
     "name": "blaguth",
     "url": "https://github.com/lexmag/blaguth",
     "description": "Basic Access Authentication in Plug applications."
@@ -2088,6 +2138,11 @@
     "name": "plug_jwt",
     "url": "https://github.com/bryanjos/plug_jwt",
     "description": "Plug for JWT authentication."
+  },
+  {
+    "name": "plug_password",
+    "url": "https://github.com/azranel/plug_password",
+    "description": "Plug for adding simple cookie-based authentication."
   },
   {
     "name": "plug_rails_cookie_session_store",
@@ -2353,6 +2408,11 @@
     "name": "cauldron",
     "url": "https://github.com/meh/cauldron",
     "description": "An HTTP/SPDY server as a library."
+  },
+  {
+    "name": "Crawler",
+    "url": "https://github.com/fredwu/crawler",
+    "description": "A high performance web crawler in Elixir."
   },
   {
     "name": "elli",
@@ -3050,6 +3110,11 @@
     "description": "Translates Elixir functions to match specifications for use with ets."
   },
   {
+    "name": "ex_phone_number",
+    "url": "https://github.com/socialpaymentsbv/ex_phone_number",
+    "description": "Format, normalize, and validate phone numbers."
+  },
+  {
     "name": "ex_rated",
     "url": "https://github.com/grempe/ex_rated",
     "description": "Simple and flexible rate-limiting for API's or anything."
@@ -3265,11 +3330,6 @@
     "description": "Elixir server of engine.io."
   },
   {
-    "name": "ejabberd",
-    "url": "https://github.com/processone/ejabberd",
-    "description": "Robust, ubiquitous and massively scalable Jabber/XMPP Instant Messaging platform."
-  },
-  {
     "name": "ExPcap",
     "url": "https://github.com/cobenian/expcap",
     "description": "PCAP parser written in Elixir."
@@ -3433,11 +3493,6 @@
     "name": "ecto_fixtures",
     "url": "https://github.com/DockYard/ecto_fixtures",
     "description": "Fixtures for Elixir apps using Ecto."
-  },
-  {
-    "name": "ecto_hstore",
-    "url": "https://github.com/stavro/ecto_hstore",
-    "description": "Ecto.Hstore adds Postgres Hstore compatibility to Ecto."
   },
   {
     "name": "ecto_lazy_float",
@@ -3735,6 +3790,11 @@
     "description": "An Elixir flavored DSL for building JSON based requests to Elasticsearch engine."
   },
   {
+    "name": "triplex",
+    "url": "https://github.com/ateliware/triplex",
+    "description": "Database multitenancy with postgres schemas for Elixir applications!"
+  },
+  {
     "name": "udpflux",
     "url": "https://github.com/timbuchwaldt/udpflux",
     "description": "An opinionated InfluxDB UDP only client."
@@ -3923,6 +3983,11 @@
     "name": "mqs",
     "url": "https://github.com/synrc/mqs",
     "description": "RabbitMQ client library, routing keys, RPC over MQ and other stuff."
+  },
+  {
+    "name": "opq",
+    "url": "https://github.com/fredwu/opq",
+    "description": "A simple, in-memory queue with worker pooling and rate limiting in Elixir."
   },
   {
     "name": "pqueue",
@@ -4178,6 +4243,11 @@
     "name": "bypass",
     "url": "https://github.com/pspdfkit-labs/bypass",
     "description": "Bypass provides a quick way to create a mock HTTP server with a custom plug."
+  },
+  {
+    "name": "chaperon",
+    "url": "https://github.com/polleverywhere/chaperon",
+    "description": "An HTTP service performance & load testing framework written in Elixir."
   },
   {
     "name": "chemistry",
@@ -4985,6 +5055,11 @@
     "description": "A Lingr client module."
   },
   {
+    "name": "explay",
+    "url": "https://github.com/sheharyarn/explay",
+    "description": "Unofficial Google Play API in Elixir."
+  },
+  {
     "name": "exstagram",
     "url": "https://github.com/arthurcolle/exstagram",
     "description": "Elixir library for Instagram v1 API."
@@ -5350,6 +5425,11 @@
     "description": "Ar2ecto is a set of mix tasks to help you migrate from ActiveRecord to Ecto."
   },
   {
+    "name": "async_with",
+    "url": "https://github.com/fertapric/async_with",
+    "description": "A modifier for Elixir's \"with\" to execute all its clauses in parallel."
+  },
+  {
     "name": "crutches",
     "url": "https://github.com/mykewould/crutches",
     "description": "Utility library for Elixir, designed to complement the standard library bundled with the language."
@@ -5585,6 +5665,11 @@
     "description": "This book is a set of recipes grouped by topic by Paulo A Pereira (2015)."
   },
   {
+    "name": "Elixir do zero à concorrência",
+    "url": "https://www.casadocodigo.com.br/products/livro-elixir",
+    "description": "(Portuguese) The book provides introduction to functional and concurrent programming with Elixir by Tiago Davi(2014)."
+  },
+  {
     "name": "Elixir in Action",
     "url": "https://www.manning.com/books/elixir-in-action",
     "description": "A brief intro to the language followed by a more detailed look at building production-ready systems in Elixir by Saša Jurić (2015)."
@@ -5623,6 +5708,11 @@
     "name": "Metaprogramming Elixir: Write Less Code, Get More Done (and Have Fun!)",
     "url": "https://pragprog.com/book/cmelixir/metaprogramming-elixir",
     "description": "Thorough explanation on how to exploit Elixir's metaprogramming capabilities to improve your Elixir coding by Chris McCord (2015)."
+  },
+  {
+    "name": "Phoenix Inside Out",
+    "url": "https://shankardevy.com/phoenix-book/",
+    "description": "The goal of this series is to enable you as a Confident Phoenix developer. There are 3 different editions to address varied needs of devs jumping into Phoenix."
   },
   {
     "name": "Programming Elixir",
