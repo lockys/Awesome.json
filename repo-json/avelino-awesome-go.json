@@ -200,6 +200,11 @@
     "description": "Feature-rich and easy to use command-line package based on golang struct tags."
   },
   {
+    "name": "cli",
+    "url": "https://github.com/teris-io/cli",
+    "description": "Simple and complete API for building command line interfaces in Go."
+  },
+  {
     "name": "cli-init",
     "url": "https://github.com/tcnksm/gcli",
     "description": "The easy way to start building Golang command line applications."
@@ -358,6 +363,11 @@
     "name": "mpb",
     "url": "https://github.com/vbauerster/mpb",
     "description": "Multi progress bar for terminal applications."
+  },
+  {
+    "name": "progressbar",
+    "url": "https://github.com/schollz/progressbar",
+    "description": "Basic thread-safe progress bar that works in every OS."
   },
   {
     "name": "termbox-go",
@@ -858,6 +868,11 @@
     "name": "sql-migrate",
     "url": "https://github.com/rubenv/sql-migrate",
     "description": "Database migration tool. Allows embedding migrations into the application using go-bindata."
+  },
+  {
+    "name": "chproxy",
+    "url": "https://github.com/Vertamedia/chproxy",
+    "description": "HTTP proxy for ClickHouse database."
   },
   {
     "name": "go-mysql",
@@ -1875,6 +1890,11 @@
     "description": "Port of webcolors library from Python to Go."
   },
   {
+    "name": "gocv",
+    "url": "https://github.com/hybridgroup/gocv",
+    "description": "Go package for computer vision using OpenCV 3.3+."
+  },
+  {
     "name": "govatar",
     "url": "https://github.com/o1egl/govatar",
     "description": "Library and CMD tool for generating funny avatars."
@@ -2040,6 +2060,11 @@
     "description": "Simple, configurable and scalable Structured Logging for Go."
   },
   {
+    "name": "log",
+    "url": "https://github.com/teris-io/log",
+    "description": "Structured log interface for Go cleanly separates logging facade from its implementation."
+  },
+  {
     "name": "log-voyage",
     "url": "https://github.com/firstrow/logvoyage",
     "description": "Full-featured logging saas written in golang."
@@ -2108,16 +2133,6 @@
     "name": "seelog",
     "url": "https://github.com/cihub/seelog",
     "description": "Logging functionality with flexible dispatching, filtering, and formatting."
-  },
-  {
-    "name": "slf",
-    "url": "https://github.com/ventu-io/slf",
-    "description": "The Structured Logging Facade (SLF) for Go (like SLF4J but structured and for Go)."
-  },
-  {
-    "name": "slog",
-    "url": "https://github.com/ventu-io/slog",
-    "description": "The reference implementation of the Structured Logging Facade (SLF) for Go."
   },
   {
     "name": "spew",
@@ -2325,11 +2340,6 @@
     "description": "Robust Go and Javascript Socket Library (Alternative to Socket.io)."
   },
   {
-    "name": "go-longpoll",
-    "url": "https://github.com/ventu-io/go-longpoll",
-    "description": "PubSub with long polling."
-  },
-  {
     "name": "go-notify",
     "url": "https://github.com/TheCreeper/go-notify",
     "description": "Native implementation of the freedesktop notification spec."
@@ -2530,11 +2540,6 @@
     "description": "Framework to build bot for desired chat services including LINE, Slack, Gitter and more."
   },
   {
-    "name": "go-shortid",
-    "url": "https://github.com/ventu-io/go-shortid",
-    "description": "Distributed generation of super short, unique, non-sequential, URL friendly IDs."
-  },
-  {
     "name": "go-unarr",
     "url": "https://github.com/gen2brain/go-unarr",
     "description": "Decompression library for RAR, TAR, ZIP and 7z archives."
@@ -2580,6 +2585,11 @@
     "description": "Easy to use, extensible health check library."
   },
   {
+    "name": "healthcheck",
+    "url": "https://github.com/etherlabsio/healthcheck",
+    "description": "An opinionated and concurrent health-check HTTP handler for RESTful services."
+  },
+  {
     "name": "hostutils",
     "url": "https://github.com/Wing924/hostutils",
     "description": "A golang library for packing and unpacking FQDNs list."
@@ -2618,6 +2628,11 @@
     "name": "shellwords",
     "url": "https://github.com/Wing924/shellwords",
     "description": "A Golang library to manipulate strings according to the word parsing rules of the UNIX Bourne shell."
+  },
+  {
+    "name": "shortid",
+    "url": "https://github.com/teris-io/shortid",
+    "description": "Distributed generation of super short, unique, non-sequential, URL friendly IDs."
   },
   {
     "name": "slacker",
@@ -3228,11 +3243,6 @@
     "name": "fileb0x",
     "url": "https://github.com/UnnoTed/fileb0x",
     "description": "Simple tool to embed files in go with focus on \"customization\" and ease to use."
-  },
-  {
-    "name": "go-bindata",
-    "url": "https://github.com/jteeuwen/go-bindata",
-    "description": "Package that converts any file into managable Go source code."
   },
   {
     "name": "go-embed",
@@ -4035,6 +4045,11 @@
     "description": "fast string sorting algorithm."
   },
   {
+    "name": "xj2go",
+    "url": "https://github.com/stackerzzq/xj2go",
+    "description": "Convert xml or json to go struct."
+  },
+  {
     "name": "xurls",
     "url": "https://github.com/mvdan/xurls",
     "description": "Extract urls from text."
@@ -4395,6 +4410,11 @@
     "description": "Blazingly fast CLI tool for creating projects from boilerplate templates."
   },
   {
+    "name": "chyle",
+    "url": "https://github.com/antham/chyle",
+    "description": "Changelog generator using a git repository with multiple configuration possibilities."
+  },
+  {
     "name": "circuitbreaker",
     "url": "https://github.com/rubyist/circuitbreaker",
     "description": "Circuit Breakers in Go."
@@ -4448,6 +4468,11 @@
     "name": "ergo",
     "url": "https://github.com/cristianoliveira/ergo",
     "description": "The management of multiple local services running over different ports made easy."
+  },
+  {
+    "name": "evaluator",
+    "url": "https://github.com/nullne/evaluator",
+    "description": "Evaluate an expression dynamicly based on s-expression. It's simple and easy to extend."
   },
   {
     "name": "excelize",
@@ -5830,6 +5855,11 @@
     "description": "Benchmarks a set of HTTP endpoints (like ab), with possibility to use the reponse code and data between each call for specific server stress based on its previous response."
   },
   {
+    "name": "skm",
+    "url": "https://github.com/TimothyYe/skm",
+    "description": "SKM is a simple and powerful SSH Keys Manager, it helps you to manage your multiple SSH keys easily!"
+  },
+  {
     "name": "StatusOK",
     "url": "https://github.com/sanathp/statusok",
     "description": "Monitor your Website and REST APIs.Get Notified through Slack, E-mail when your server is down or response time is more than expected."
@@ -6440,6 +6470,11 @@
     "description": "List of projects on the Go community wiki."
   },
   {
+    "name": "Go Report Card",
+    "url": "https://goreportcard.com",
+    "description": "A report card for your Go package."
+  },
+  {
     "name": "gocryforhelp",
     "url": "https://github.com/ninedraft/gocryforhelp",
     "description": "Collection of Go projects that needs help. Good place to start your open-source way in Go."
@@ -6473,6 +6508,11 @@
     "name": "Google Plus Community",
     "url": "https://plus.google.com/communities/114112804251407510571",
     "description": "The Google+ community for #golang enthusiasts."
+  },
+  {
+    "name": "Gopher Community Chat",
+    "url": "https://invite.slack.golangbridge.org",
+    "description": "Join Our New Slack Community For Gophers (Understand how it came)."
   },
   {
     "name": "gowalker.org",
