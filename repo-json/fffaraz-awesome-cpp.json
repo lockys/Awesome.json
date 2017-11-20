@@ -325,6 +325,11 @@
     "description": "A minimalist, frustration-free, header-only argument handler. [BSD]"
   },
   {
+    "name": "Taywee/args",
+    "url": "https://github.com/taywee/args",
+    "description": "A simple header-only C++ argument parser library. [MIT]"
+  },
+  {
     "name": "Boost.Program_options",
     "url": "http://www.boost.org/doc/libs/1_57_0/doc/html/program_options.html",
     "description": "A library to obtain program options via conventional methods such as command line and config file. [Boost]"
@@ -348,6 +353,11 @@
     "name": "PDCurses",
     "url": "https://github.com/wmcbrine/PDCurses",
     "description": "Public domain curses library with both source code and pre-compiled library available. [PublicDomain]"
+  },
+  {
+    "name": "TCLAP",
+    "url": "http://tclap.sourceforge.net",
+    "description": "A mature, stable and feature-rich library for defining and accessing command line arguments in ANSI C++. [MIT]"
   },
   {
     "name": "termbox",
@@ -567,11 +577,12 @@
   {
     "name": "Bcrypt",
     "url": "http://bcrypt.sourceforge.net/",
-    "description": "A cross platform file encryption utility. Encrypted files are portable across all supported operating systems and processors."
+    "description": "A cross platform file encryption utility. Encrypted files are portable across all supported operating systems and processors. [BSD]"
   },
   {
     "name": "BeeCrypt",
-    "url": "http://beecrypt.sourceforge.net/"
+    "url": "http://beecrypt.sourceforge.net/",
+    "description": "A portable and fast cryptography library. [LGPLv2.1+]"
   },
   {
     "name": "Botan",
@@ -580,8 +591,8 @@
   },
   {
     "name": "Crypto++",
-    "url": "http://www.cryptopp.com/",
-    "description": "A free C++ class library of cryptographic schemes. [Boost]"
+    "url": "https://github.com/weidai11/cryptopp",
+    "description": "A free C++ class library of cryptographic schemes. [Boost] website"
   },
   {
     "name": "GnuPG",
@@ -595,7 +606,13 @@
   },
   {
     "name": "Libgcrypt",
-    "url": "http://www.gnu.org/software/libgcrypt/"
+    "url": "http://www.gnu.org/software/libgcrypt/",
+    "description": "A general purpose cryptographic library originally based on code from GnuPG. [LGPLv2.1+]"
+  },
+  {
+    "name": "libhydrogen",
+    "url": "https://github.com/jedisct1/libhydrogen",
+    "description": "A lightweight, secure, easy-to-use crypto library for constrained environments. [ISC]"
   },
   {
     "name": "LibreSSL",
@@ -866,6 +883,11 @@
     "name": "Grit",
     "url": "http://www.gritengine.com/",
     "description": "Community project to build a free game engine for implementing open world 3D games. [MIT]"
+  },
+  {
+    "name": "KlayGE",
+    "url": "https://github.com/gongminmin/KlayGE",
+    "description": "a cross-platform open source game engine with plugin-based architecture. [GPLv2] website"
   },
   {
     "name": "Oxygine",
@@ -1613,6 +1635,11 @@
     "description": "Asynchronous networking for C. [MIT]"
   },
   {
+    "name": "HTTP Parser ⚡️",
+    "url": "https://github.com/nodejs/http-parser",
+    "description": "A http request/response parser for C. [MIT]"
+  },
+  {
     "name": "libcurl",
     "url": "http://curl.haxx.se/libcurl/",
     "description": "Multiprotocol file transfer library. [MIT/X derivate license]"
@@ -1623,6 +1650,16 @@
     "description": "Google talk voice and P2P interoperability library. [BSD]"
   },
   {
+    "name": "libquic",
+    "url": "https://github.com/devsisters/libquic",
+    "description": "A QUIC protocol library extracted from Chromium's QUIC Implementation. [BSD]"
+  },
+  {
+    "name": "libwebsockets",
+    "url": "https://github.com/warmcat/libwebsockets",
+    "description": "A lightweight pure C WebSocket implementation that provides both client and server libraries. [LGPL2.1 + static link exception] website"
+  },
+  {
     "name": "Mongoose",
     "url": "https://github.com/cesanta/mongoose",
     "description": "Extremely lightweight webserver. [GPL2]"
@@ -1631,11 +1668,6 @@
     "name": "Muduo",
     "url": "https://github.com/chenshuo/muduo",
     "description": "A C++ non-blocking network library for multi-threaded server in Linux. [BSD]"
-  },
-  {
-    "name": "net_skeleton",
-    "url": "https://github.com/cesanta/fossa",
-    "description": "TCP client/server library for C/C++. [GPL2]"
   },
   {
     "name": "nope.c",
@@ -1741,6 +1773,26 @@
     "name": "Simbody",
     "url": "https://github.com/simbody/simbody",
     "description": "High-performance C++ multibody dynamics/physics library for simulating articulated biomechanical and mechanical systems like vehicles, robots, and the human skeleton. [Apache2]"
+  },
+  {
+    "name": "CppVerbalExpressions",
+    "url": "https://github.com/VerbalExpressions/CppVerbalExpressions",
+    "description": "C++ regular expressions made easy. [MIT]"
+  },
+  {
+    "name": "PCRE",
+    "url": "http://pcre.org/",
+    "description": "A regular expression C library inspired by the regular expression capabilities in Perl. [BSD]"
+  },
+  {
+    "name": "RE2",
+    "url": "https://github.com/google/re2",
+    "description": "A software library for regular expressions via a finite-state machine using automata theory. [BSD-3-Clause]"
+  },
+  {
+    "name": "SLRE",
+    "url": "https://github.com/cesanta/slre",
+    "description": "Super Light Regexp engine for C/C++. [GPLv2/Commercial]"
   },
   {
     "name": "MOOS-IvP",
@@ -2042,11 +2094,6 @@
     "description": "A set of c++ core libraries derived from aips++. [LGPL]"
   },
   {
-    "name": "CppVerbalExpressions",
-    "url": "https://github.com/VerbalExpressions/CppVerbalExpressions",
-    "description": "C++ regular expressions made easy. [MIT]"
-  },
-  {
     "name": "QtVerbalExpressions",
     "url": "https://github.com/VerbalExpressions/QtVerbalExpressions",
     "description": "This Qt lib is based off of the C++ VerbalExpressions library. [MIT]"
@@ -2070,11 +2117,6 @@
     "name": "gcc-poison",
     "url": "https://github.com/leafsr/gcc-poison",
     "description": "A simple header file for developers to ban unsafe C/C++ functions from applications."
-  },
-  {
-    "name": "HTTP Parser ⚡️",
-    "url": "https://github.com/nodejs/http-parser",
-    "description": "A http request/response parser for C. [MIT]"
   },
   {
     "name": "Kangaru",
@@ -2117,19 +2159,9 @@
     "description": "A Pattern-matching library for C++. [BSD]"
   },
   {
-    "name": "PCRE",
-    "url": "http://pcre.org/",
-    "description": "A regular expression C library inspired by the regular expression capabilities in Perl. [BSD]"
-  },
-  {
     "name": "pdqsort",
     "url": "https://github.com/orlp/pdqsort",
     "description": "Pattern-defeating quicksort. [zlib]"
-  },
-  {
-    "name": "RE2",
-    "url": "https://github.com/google/re2",
-    "description": "A software library for regular expressions via a finite-state machine using automata theory."
   },
   {
     "name": "PHP-CPP",
@@ -2165,16 +2197,6 @@
     "name": "sigslot",
     "url": "http://sigslot.sourceforge.net/",
     "description": "C++ Signal/Slot Library. [PublicDomain]"
-  },
-  {
-    "name": "SLDR",
-    "url": "https://github.com/cesanta/sldr",
-    "description": "Super Light DNS Resolver. [GPL2/Commercial]"
-  },
-  {
-    "name": "SLRE",
-    "url": "https://github.com/cesanta/slre",
-    "description": "Super Light Regexp engine for C/C++. [GPL2/Commercial]"
   },
   {
     "name": "Stage",
