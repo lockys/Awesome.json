@@ -125,14 +125,14 @@
     "description": "An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties."
   },
   {
-    "name": "CSharpEssentials",
-    "url": "https://github.com/DustinCampbell/CSharpEssentials",
-    "description": "C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features."
-  },
-  {
     "name": "CodeRush ©️",
     "url": "https://www.devexpress.com/products/coderush/",
     "description": "Code creation, debugging, navigation, refactoring, analysis and visualization tools that use the Roslyn engine in Visual Studio 2015 and up."
+  },
+  {
+    "name": "CSharpEssentials",
+    "url": "https://github.com/DustinCampbell/CSharpEssentials",
+    "description": "C# Essentials is a collection of Roslyn diagnostic analyzers, code fixes and refactorings that make it easy to work with C# 6 language features."
   },
   {
     "name": "Designite ©️",
@@ -142,7 +142,7 @@
   {
     "name": "Gendarme",
     "url": "http://www.mono-project.com/docs/tools+libraries/tools/gendarme/",
-    "description": "Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET) and looks for common problems with the code, problems that compiler do not typically check or have not historically checked."
+    "description": "Gendarme inspects programs and libraries that contain code in ECMA CIL format (Mono and .NET)."
   },
   {
     "name": "NDepend ©️",
@@ -171,8 +171,8 @@
   },
   {
     "name": "SonarLint for Visual Studio",
-    "url": "https://github.com/SonarSource/sonarlint-vs",
-    "description": "SonarLint is a Visual Studio 2015 extension that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code."
+    "url": "https://vs.sonarlint.org/",
+    "description": "SonarLint is an extension for Visual Studio 2015 and 2017 that provides on-the-fly feedback to developers on new bugs and quality issues injected into .NET code."
   },
   {
     "name": "VSDiagnostics",
@@ -210,29 +210,64 @@
     "description": "Erlang Style Reviewer"
   },
   {
+    "name": "deadcode",
+    "url": "https://github.com/tsenart/deadcode",
+    "description": "Finds unused code."
+  },
+  {
     "name": "dingo-hunter",
     "url": "https://github.com/nickng/dingo-hunter",
-    "description": "Static analyser for finding deadlocks in Go"
+    "description": "Static analyser for finding deadlocks in Go."
+  },
+  {
+    "name": "dupl",
+    "url": "https://github.com/mibk/dupl",
+    "description": "Reports potentially duplicated code."
+  },
+  {
+    "name": "errcheck",
+    "url": "https://github.com/kisielk/errcheck",
+    "description": "Check that error return values are used."
   },
   {
     "name": "flen",
     "url": "https://github.com/lafolle/flen",
-    "description": "Get info on length of functions in a Go package"
+    "description": "Get info on length of functions in a Go package."
+  },
+  {
+    "name": "gas",
+    "url": "https://github.com/GoASTScanner/gas",
+    "description": "Inspects source code for security problems by scanning the Go AST."
   },
   {
     "name": "Go Meta Linter",
     "url": "https://github.com/alecthomas/gometalinter",
-    "description": "Concurrently run Go lint tools and normalise their output"
+    "description": "Concurrently run Go lint tools and normalise their output."
+  },
+  {
+    "name": "goconst",
+    "url": "https://github.com/jgautheron/goconst",
+    "description": "Finds repeated strings that could be replaced by a constant."
   },
   {
     "name": "go vet",
     "url": "https://golang.org/cmd/vet/",
-    "description": "Examines Go source code and reports suspicious constructs"
+    "description": "Examines Go source code and reports suspicious."
+  },
+  {
+    "name": "go tool vet --shadow",
+    "url": "https://golang.org/cmd/vet/#hdr-Shadowed_variables",
+    "description": "Reports variables that may have been unintentionally shadowed."
+  },
+  {
+    "name": "gotype",
+    "url": "https://golang.org/x/tools/cmd/gotype",
+    "description": "Syntactic and semantic analysis similar to the Go compiler."
   },
   {
     "name": "go-staticcheck",
     "url": "https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck",
-    "description": "go vet on steroids, similar to ReSharper for C#"
+    "description": "go vet on steroids, similar to ReSharper for C#."
   },
   {
     "name": "go/ast",
@@ -242,7 +277,17 @@
   {
     "name": "gocyclo",
     "url": "https://github.com/fzipp/gocyclo",
-    "description": "Calculate cyclomatic complexities of functions in Go source code"
+    "description": "Calculate cyclomatic complexities of functions in Go source code."
+  },
+  {
+    "name": "gofmt -s",
+    "url": "https://golang.org/cmd/gofmt/",
+    "description": "Checks if the code is properly formatted and could not be further simplified."
+  },
+  {
+    "name": "goimports",
+    "url": "https://godoc.org/golang.org/x/tools/cmd/goimports",
+    "description": "Checks missing or unreferenced package imports."
   },
   {
     "name": "golint",
@@ -252,7 +297,7 @@
   {
     "name": "goreporter",
     "url": "https://github.com/wgliang/goreporter",
-    "description": "concurrently runs many linters and normalises their output to a report"
+    "description": "concurrently runs many linters and normalises their output to a report."
   },
   {
     "name": "goroutine-inspect",
@@ -260,14 +305,94 @@
     "description": "An interactive tool to analyze Golang goroutine dump."
   },
   {
+    "name": "gosimple",
+    "url": "https://github.com/dominikh/go-tools/tree/master/cmd/gosimple",
+    "description": "Report simplifications in code."
+  },
+  {
     "name": "ineffassign",
     "url": "https://github.com/gordonklaus/ineffassign",
     "description": "Detect ineffectual assignments in Go code"
   },
   {
+    "name": "interfacer",
+    "url": "https://github.com/mvdan/interfacer",
+    "description": "Suggest narrower interfaces that can be used."
+  },
+  {
+    "name": "lll",
+    "url": "https://github.com/walle/lll",
+    "description": "Report long lines."
+  },
+  {
+    "name": "maligned",
+    "url": "https://github.com/mdempsky/maligned",
+    "description": " Detect structs that would take less memory if their fields were sorted."
+  },
+  {
+    "name": "megacheck",
+    "url": "https://github.com/dominikh/go-tools/tree/master/cmd/megacheck",
+    "description": "Run staticcheck, gosimple and unused, sharing work."
+  },
+  {
+    "name": "misspell",
+    "url": "https://github.com/client9/misspell",
+    "description": "Finds commonly misspelled English words."
+  },
+  {
+    "name": "nakedret",
+    "url": "https://github.com/alexkohler/nakedret",
+    "description": "Finds naked returns."
+  },
+  {
+    "name": "prealloc",
+    "url": "https://github.com/alexkohler/prealloc",
+    "description": "Finds slice declarations that could potentially be preallocated."
+  },
+  {
     "name": "safesql",
     "url": "https://github.com/stripe/safesql",
-    "description": "Static analysis tool for Golang that protects against SQL injections"
+    "description": "Static analysis tool for Golang that protects against SQL injections."
+  },
+  {
+    "name": "structcheck",
+    "url": "https://github.com/opennota/check",
+    "description": "Find unused struct fields."
+  },
+  {
+    "name": "test",
+    "url": "http://golang.org/pkg/testing/",
+    "description": "Show location of test failures from the stdlib testing module."
+  },
+  {
+    "name": "testify",
+    "url": "https://github.com/stretchr/testify",
+    "description": "Show location of failed testify assertions."
+  },
+  {
+    "name": "varcheck",
+    "url": "https://github.com/opennota/check",
+    "description": "Find unused global variables and constants."
+  },
+  {
+    "name": "unconvert",
+    "url": "https://github.com/mdempsky/unconvert",
+    "description": "Detect redundant type conversions."
+  },
+  {
+    "name": "unimport",
+    "url": "https://github.com/alexkohler/unimport",
+    "description": "Finds unnecessary import aliases"
+  },
+  {
+    "name": "unparam",
+    "url": "https://github.com/mvdan/unparam",
+    "description": "Find unused function parameters."
+  },
+  {
+    "name": "unused",
+    "url": "https://github.com/dominikh/go-tools/tree/master/cmd/unused",
+    "description": "Find unused variables."
   },
   {
     "name": "CodeNarc",
@@ -320,6 +445,11 @@
     "description": "FindBugs is a program to find bugs in Java programs. It looks for patterns are likely to be errors."
   },
   {
+    "name": "Hopper",
+    "url": "https://github.com/cuplv/hopper",
+    "description": "A static analysis tool written in scala for languages that run on JVM"
+  },
+  {
     "name": "HuntBugs",
     "url": "https://github.com/amaembo/huntbugs",
     "description": "Bytecode static analyzer tool based on Procyon Compiler Tools aimed to supersede FindBugs."
@@ -330,6 +460,11 @@
     "description": "Type-based null-pointer checker with low build-time overhead; an Error Prone plugin"
   },
   {
+    "name": "OWASP Dependency Check",
+    "url": "https://www.owasp.org/index.php/OWASP_Dependency_Check",
+    "description": "Checks dependencies for known, publicly disclosed, vulnerabilities."
+  },
+  {
     "name": "Spoon",
     "url": "https://github.com/INRIA/spoon",
     "description": "Library to write your own static analyses and architectural rule checkers for Java. Can be integrated in Maven and Gradle."
@@ -338,16 +473,6 @@
     "name": "SpotBugs",
     "url": "https://spotbugs.github.io/",
     "description": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
-  },
-  {
-    "name": "OWASP Dependency Check",
-    "url": "https://www.owasp.org/index.php/OWASP_Dependency_Check",
-    "description": "Checks dependencies for known, publicly disclosed, vulnerabilities."
-  },
-  {
-    "name": "Hopper",
-    "url": "https://github.com/cuplv/hopper",
-    "description": "A static analysis tool written in scala for languages that run on JVM"
   },
   {
     "name": "aether",
@@ -617,7 +742,7 @@
   {
     "name": "WAP",
     "url": "https://www.owasp.org/index.php/OWASP_WAP-Web_Application_Protection",
-    "description": "Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives. It combines source code static analysis and data mining to detect vulnerabilities and predict false positives."
+    "description": "Tool to detect and correct input validation vulnerabilities in PHP (4.0 or higher) web applications and predicts false positives by combining static analysis and data mining."
   },
   {
     "name": "bandit",
@@ -667,7 +792,7 @@
   {
     "name": "pylint",
     "url": "https://github.com/PyCQA/pylint",
-    "description": "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes pyreverse (an UML diagram generator) and symilar (a similarities checker). Optional extensions are also included."
+    "description": "looks for programming errors, helps enforcing a coding standard and sniffs for some code smells. It additionally includes pyreverse (an UML diagram generator) and symilar (a similarities checker)."
   },
   {
     "name": "pyroma",
@@ -800,14 +925,14 @@
     "description": "Linting your Rust-files in Atom, using rustc and cargo"
   },
   {
-    "name": "rustfix",
-    "url": "https://github.com/killercup/rustfix",
-    "description": "read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy)."
-  },
-  {
     "name": "Rust Language Server",
     "url": "https://github.com/rust-lang-nursery/rls",
     "description": "Supports functionality such as 'goto definition', symbol search, reformatting, and code completion, and enables renaming and refactorings."
+  },
+  {
+    "name": "rustfix",
+    "url": "https://github.com/killercup/rustfix",
+    "description": "read and apply the suggestions made by rustc (and third-party lints, like those offered by clippy)."
   },
   {
     "name": "linter",
@@ -835,14 +960,14 @@
     "description": "ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts"
   },
   {
-    "name": "sqlint",
-    "url": "https://github.com/purcell/sqlint",
-    "description": "Simple SQL linter"
-  },
-  {
     "name": "sqlcheck",
     "url": "https://github.com/jarulraj/sqlcheck",
     "description": "Automatically identify anti-patterns in SQL queries"
+  },
+  {
+    "name": "sqlint",
+    "url": "https://github.com/purcell/sqlint",
+    "description": "Simple SQL linter"
   },
   {
     "name": "SwiftLint",
@@ -895,14 +1020,29 @@
     "description": "Language independent framework for creating code analysis - supports over 60 languages by default"
   },
   {
+    "name": "Cobra ©️",
+    "url": "http://spinroot.com/cobra/",
+    "description": "Structural source code analyzer by NASA's Jet Propulsion Laboratory. Supports C, C++, Ada, and Python."
+  },
+  {
     "name": "codeburner",
     "url": "https://github.com/groupon/codeburner",
     "description": "Provides a unified interface to sort and act on the issues it finds"
   },
   {
+    "name": "CodeFactor ©️",
+    "url": "https://codefactor.io",
+    "description": "Static Code Analysis for C#, C, C++, CoffeeScript, CSS, Groovy, GO, JAVA, JavaScript, Less, Python, Ruby, Scala, SCSS, TypeScript."
+  },
+  {
     "name": "Coverity Save ©️",
     "url": "http://www.coverity.com/products/coverity-save/",
     "description": "Static analysis for  C/C++, Java and C#"
+  },
+  {
+    "name": "cqc",
+    "url": "https://github.com/xcatliu/cqc",
+    "description": "Check your code quality for js, jsx, vue, css, less, scss, sass and styl files."
   },
   {
     "name": "DevSkim",
@@ -1095,11 +1235,6 @@
     "description": "Linter for SCSS/CSS files"
   },
   {
-    "name": "HTMLHint",
-    "url": "https://github.com/yaniswang/HTMLHint",
-    "description": "A Static Code Analysis Tool for HTML"
-  },
-  {
     "name": "HTML Inspector",
     "url": "https://github.com/philipwalton/html-inspector",
     "description": "HTML Inspector is a code quality tool to help you and your team write better markup."
@@ -1110,9 +1245,19 @@
     "description": "Corrects and cleans up HTML and XML documents by fixing markup errors and upgrading legacy code to modern standards."
   },
   {
+    "name": "HTMLHint",
+    "url": "https://github.com/yaniswang/HTMLHint",
+    "description": "A Static Code Analysis Tool for HTML"
+  },
+  {
     "name": "ale",
     "url": "https://github.com/w0rp/ale",
     "description": "Asynchronous Lint Engine for Vim and NeoVim with support for many languages"
+  },
+  {
+    "name": "Attackflow Extension ©️",
+    "url": "https://www.attackflow.com/Extension",
+    "description": "Attackflow plugin for Visual Studio, which enables developers to find critical security bugs at real time in the source code without any prior knowledge."
   },
   {
     "name": "Puma Scan",
@@ -1145,6 +1290,11 @@
     "description": "A tool to check markdown files and flag style issues."
   },
   {
+    "name": "android-lint-summary",
+    "url": "https://github.com/passy/android-lint-summary",
+    "description": "Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once."
+  },
+  {
     "name": "FlowDroid",
     "url": "https://github.com/secure-software-engineering/soot-infoflow-android",
     "description": "static taint analysis tool for Android applications"
@@ -1158,11 +1308,6 @@
     "name": "qark",
     "url": "https://github.com/linkedin/qark",
     "description": "Tool to look for several security related Android application vulnerabilities"
-  },
-  {
-    "name": "android-lint-summary",
-    "url": "https://github.com/passy/android-lint-summary",
-    "description": "Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once."
   },
   {
     "name": "lintian",
@@ -1215,6 +1360,11 @@
     "description": "A customizable, syntax-aware linter for prose."
   },
   {
+    "name": "Attackflow ©️",
+    "url": "https://www.attackflow.com",
+    "description": "Application security testing tool with rules grouped into nine classes including Authorization, Injection, Cryptography, Authentication and Code Quality."
+  },
+  {
     "name": "Bithound ©️",
     "url": "https://www.bithound.io/",
     "description": "Code Analysis beyond Lint, specifically for Node.js."
@@ -1230,9 +1380,9 @@
     "description": "The open and extensible static analysis platform, for everyone."
   },
   {
-    "name": "ConQAT",
-    "url": "http://www.conqat.org/",
-    "description": "a toolkit for rapid development and execution of software quality analyses."
+    "name": "CodeFactor ©️",
+    "url": "https://codefactor.io",
+    "description": "Automated Code Analysis for repos on GitHub or BitBucket."
   },
   {
     "name": "Functor Prevent ©️",
@@ -1287,7 +1437,7 @@
   {
     "name": "Teamscale ©️",
     "url": "http://www.teamscale.com/",
-    "description": "analyze, monitor, and improve the quality of your code."
+    "description": "Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available."
   },
   {
     "name": "Upsource ©️",
