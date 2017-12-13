@@ -25,11 +25,6 @@
     "description": "Elasticsearch real-time search and analytics natively integrated with Hadoop. Supports Map/Reduce, Cascading, Apache Hive and Apache Pig."
   },
   {
-    "name": "dumbo",
-    "url": "https://github.com/klbostee/dumbo",
-    "description": "Python module that allows you to easily write and run Hadoop programs."
-  },
-  {
     "name": "hadoopy",
     "url": "https://github.com/bwhite/hadoopy",
     "description": "Python MapReduce library written in Cython."
@@ -53,10 +48,6 @@
     "name": "White Elephant",
     "url": "https://github.com/linkedin/white-elephant",
     "description": "Hadoop log aggregator and dashboard"
-  },
-  {
-    "name": "Kiji Project",
-    "url": "http://www.kiji.org/"
   },
   {
     "name": "Genie",
@@ -138,11 +129,6 @@
     "url": "http://cassandra.apache.org/"
   },
   {
-    "name": "Apache Kudu",
-    "url": "https://kudu.apache.org/",
-    "description": "Kudu provides a combination of fast inserts/updates and efficient columnar scans to enable multiple real-time analytic workloads across a single storage layer, complementing HDFS and Apache HBase."
-  },
-  {
     "name": "Apache Hive",
     "url": "http://hive.apache.org",
     "description": "The Apache Hive data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL"
@@ -162,8 +148,9 @@
     "description": "SQL interface for Cascading (MR/Tez job generator)"
   },
   {
-    "name": "Cloudera Impala",
-    "url": "http://impala.io/"
+    "name": "Apache Impala",
+    "url": "https://impala.apache.org/",
+    "description": "Apache Impala is an open source massively parallel processing (MPP) SQL query engine for data stored in a computer cluster running Apache Hadoop. Impala has been described as the open-source equivalent of Google F1, which inspired its development in 2012."
   },
   {
     "name": "Presto",
@@ -193,6 +180,11 @@
     "name": "Apache Atlas",
     "url": "http://atlas.incubator.apache.org/",
     "description": "Metadata tagging & lineage capture suppoting complex business data taxonomies"
+  },
+  {
+    "name": "Apache Kudu",
+    "url": "https://kudu.apache.org/",
+    "description": "Kudu provides a combination of fast inserts/updates and efficient columnar scans to enable multiple real-time analytic workloads across a single storage layer, complementing HDFS and Apache HBase."
   },
   {
     "name": "Apache Oozie",
@@ -347,6 +339,21 @@
     "description": "a service for exposing Apache Spark analytics jobs and machine learning models as realtime, batch or reactive web services."
   },
   {
+    "name": "snakebite",
+    "url": "https://pypi.python.org/pypi/snakebite/",
+    "description": "A pure python HDFS client"
+  },
+  {
+    "name": "Apache Parquet",
+    "url": "https://parquet.apache.org/",
+    "description": "Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language."
+  },
+  {
+    "name": "Apache Superset (incubating)",
+    "url": "https://superset.incubator.apache.org/",
+    "description": "Apache Superset (incubating) is a modern, enterprise-ready business intelligence web application"
+  },
+  {
     "name": "Apache Storm",
     "url": "http://storm.apache.org/"
   },
@@ -362,6 +369,16 @@
     "name": "Apache Flink",
     "url": "https://flink.apache.org/features.html#unified-stream-amp-batch-processing",
     "description": "Apache Flink is a platform for efficient, distributed, general-purpose data processing. It supports exactly once stream processing."
+  },
+  {
+    "name": "Apache Pulsar (incubating)",
+    "url": "http://pulsar.incubator.apache.org/",
+    "description": "Apache Pulsar (incubating) is a highly scalable, low latency messaging platform running on commodity hardware. It provides simple pub-sub semantics over topics, guaranteed at-least-once delivery of messages, automatic cursor management for subscribers, and cross-datacenter replication."
+  },
+  {
+    "name": "Druid",
+    "url": "http://druid.io/",
+    "description": "Column oriented distributed data store ideal for powering interactive applications"
   },
   {
     "name": "Apache Spark",
@@ -395,6 +412,11 @@
     "name": "Apache Apex (incubating)",
     "url": "http://apex.incubator.apache.org/",
     "description": "Enterprise-grade unified stream and batch processing engine."
+  },
+  {
+    "name": "Apache Livy (incubating)",
+    "url": "https://livy.incubator.apache.org/",
+    "description": "Apache Livy (incubating) is web service that exposes a REST interface for managing long running Apache Spark contexts in your cluster. With Livy, new applications can be built on top of Apache Spark that require fine grained interaction with many Spark contexts."
   },
   {
     "name": "Apache Bigtop",
@@ -451,7 +473,8 @@
   },
   {
     "name": "Apache Solr",
-    "url": "http://lucene.apache.org/solr/"
+    "url": "http://lucene.apache.org/solr/",
+    "description": "Apache Solr is an open source search platform built upon a Java library called Lucene."
   },
   {
     "name": "SenseiDB",
@@ -551,6 +574,11 @@
     "description": "SINGA is a general distributed deep learning platform for training big deep learning models over large datasets"
   },
   {
+    "name": "BigDL",
+    "url": "https://bigdl-project.github.io/",
+    "description": "BigDL is a distributed deep learning library for Apache Spark; with BigDL, users can write their deep learning applications as standard Spark programs, which can directly run on top of existing Spark or Hadoop clusters."
+  },
+  {
     "name": "http://nexr.github.io/hive-udf/",
     "url": "http://nexr.github.io/hive-udf/"
   },
@@ -620,14 +648,6 @@
     "url": "https://github.com/balshor/gdata-storagehandler"
   },
   {
-    "name": "https://github.com/karthkk/hive-hbase-json",
-    "url": "https://github.com/karthkk/hive-hbase-json"
-  },
-  {
-    "name": "https://github.com/sunsuk7tp/hive-hbase-integration",
-    "url": "https://github.com/sunsuk7tp/hive-hbase-integration"
-  },
-  {
     "name": "https://bitbucket.org/rodrigopr/redisstoragehandler",
     "url": "https://bitbucket.org/rodrigopr/redisstoragehandler"
   },
@@ -660,15 +680,6 @@
     "url": "https://github.com/parag/HiveJsonSerde"
   },
   {
-    "name": "https://github.com/electrum/hive-serde",
-    "url": "https://github.com/electrum/hive-serde",
-    "description": "JSON"
-  },
-  {
-    "name": "https://github.com/karthkk/hive-hbase-json",
-    "url": "https://github.com/karthkk/hive-hbase-json"
-  },
-  {
     "name": "https://github.com/forward3d/rbhive",
     "url": "https://github.com/forward3d/rbhive"
   },
@@ -697,14 +708,6 @@
     "name": "clive",
     "url": "https://github.com/bmuller/clive",
     "description": "Clojure library for interacting with Hive via Thrift"
-  },
-  {
-    "name": "https://github.com/anjuke/hwi",
-    "url": "https://github.com/anjuke/hwi"
-  },
-  {
-    "name": "https://code.google.com/a/apache-extras.org/p/hipy/",
-    "url": "https://code.google.com/a/apache-extras.org/p/hipy/"
   },
   {
     "name": "https://github.com/dmorel/Thrift-API-HiveClient2 (Perl",
@@ -943,7 +946,11 @@
     "url": "http://conferences.oreilly.com/strata"
   },
   {
-    "name": "Hadoop Summit",
-    "url": "http://hadoopsummit.org/"
+    "name": "DataWorks Summit",
+    "url": "https://dataworkssummit.com/"
+  },
+  {
+    "name": "Spark Summit",
+    "url": "https://databricks.com/sparkaisummit"
   }
 ]
