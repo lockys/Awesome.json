@@ -935,11 +935,6 @@
     "description": "A realistic PHP password strength estimate library based on Zxcvbn JS."
   },
   {
-    "name": "Athletic",
-    "url": "https://github.com/polyfractal/athletic",
-    "description": "An annotation based benchmark framework."
-  },
-  {
     "name": "Better Reflection",
     "url": "https://github.com/Roave/BetterReflection",
     "description": "AST-based reflection library that allows analysis and manipulation of code"
@@ -950,94 +945,14 @@
     "description": "An automated code review."
   },
   {
-    "name": "Dissect",
-    "url": "https://github.com/jakubledl/dissect",
-    "description": "A set of tools for lexical and syntactical analysis."
-  },
-  {
-    "name": "Exakat",
-    "url": "https://github.com/exakat/exakat",
-    "description": "A static analysis engine for PHP."
-  },
-  {
-    "name": "GrumPHP",
-    "url": "https://github.com/phpro/grumphp",
-    "description": "A composer plugin to defend code quality."
-  },
-  {
-    "name": "Mondrian",
-    "url": "https://github.com/Trismegiste/Mondrian",
-    "description": "A code analysis tool using Graph Theory."
-  },
-  {
-    "name": "PHP Analyser",
-    "url": "https://github.com/scrutinizer-ci/php-analyzer",
-    "description": "A library for analysing PHP code to find bugs and errors."
-  },
-  {
-    "name": "PHP Code Sniffer",
-    "url": "https://github.com/squizlabs/PHP_CodeSniffer",
-    "description": "A library that detects PHP, CSS and JS coding standard violations."
-  },
-  {
-    "name": "PHP CS Fixer",
-    "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer",
-    "description": "A coding standards fixer library."
-  },
-  {
-    "name": "PHP Manipulator",
-    "url": "https://github.com/schmittjoh/php-manipulator",
-    "description": "A library for analysing and modifying PHP Source Code."
-  },
-  {
-    "name": "PHP Mess Detector",
-    "url": "https://phpmd.org/",
-    "description": "A library that scans code for bugs, sub-optimal code, unused parameters and more."
-  },
-  {
-    "name": "PHP Metrics",
-    "url": "https://github.com/phpmetrics/PhpMetrics",
-    "description": "A static metric library."
-  },
-  {
-    "name": "PHP Migration",
-    "url": "https://github.com/monque/PHP-Migration",
-    "description": "A static analyzer for PHP version migration."
-  },
-  {
     "name": "PHP Parser",
     "url": "https://github.com/nikic/PHP-Parser",
     "description": "A PHP parser written in PHP."
   },
   {
-    "name": "PHP Refactoring Browser",
-    "url": "https://github.com/QafooLabs/php-refactoring-browser",
-    "description": "A command line utility for refactoring PHP code."
-  },
-  {
     "name": "PHP Semantic Versioning Checker",
     "url": "https://github.com/tomzx/php-semver-checker",
     "description": "A command line utility that compares two source sets and determines the appropriate semantic versioning to apply."
-  },
-  {
-    "name": "phan",
-    "url": "https://github.com/phan/phan",
-    "description": "A static analyzer based on PHP 7+ and the php-ast extension."
-  },
-  {
-    "name": "PHPCheckstyle",
-    "url": "https://github.com/PHPCheckstyle/phpcheckstyle",
-    "description": "A tool to help adhere to certain coding conventions."
-  },
-  {
-    "name": "PHPCPD",
-    "url": "https://github.com/sebastianbergmann/phpcpd",
-    "description": "A library that detects copied and pasted code."
-  },
-  {
-    "name": "PhpDependencyAnalysis",
-    "url": "https://github.com/mamuz/PhpDependencyAnalysis",
-    "description": "A tool to create customisable dependency graphs."
   },
   {
     "name": "PHPLOC",
@@ -1048,21 +963,6 @@
     "name": "PHPQA",
     "url": "https://github.com/EdgedesignCZ/phpqa",
     "description": "A tool for running QA tools (phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics)."
-  },
-  {
-    "name": "PHPPHP",
-    "url": "https://github.com/ircmaxell/PHPPHP",
-    "description": "A PHP VM implementation in PHP."
-  },
-  {
-    "name": "PHPSandbox",
-    "url": "https://github.com/Corveda/PHPSandbox",
-    "description": "A PHP sandbox environment."
-  },
-  {
-    "name": "PHPStan",
-    "url": "https://github.com/phpstan/phpstan",
-    "description": "A PHP Static Analysis Tool."
   },
   {
     "name": "Qafoo Quality Analyzer",
@@ -1078,6 +978,76 @@
     "name": "UBench",
     "url": "https://github.com/devster/ubench",
     "description": "A simple micro benchmark library."
+  },
+  {
+    "name": "PHP CodeSniffer",
+    "url": "https://github.com/squizlabs/PHP_CodeSniffer",
+    "description": "A library that detects PHP, CSS and JS coding standard violations."
+  },
+  {
+    "name": "PHP CS Fixer",
+    "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer",
+    "description": "A coding standards fixer library."
+  },
+  {
+    "name": "PHP Mess Detector",
+    "url": "https://phpmd.org/",
+    "description": "A library that scans code for bugs, sub-optimal code, unused parameters and more."
+  },
+  {
+    "name": "PHPCheckstyle",
+    "url": "https://github.com/PHPCheckstyle/phpcheckstyle",
+    "description": "A tool to help adhere to certain coding conventions."
+  },
+  {
+    "name": "PHPCPD",
+    "url": "https://github.com/sebastianbergmann/phpcpd",
+    "description": "A library that detects copied and pasted code."
+  },
+  {
+    "name": "Exakat",
+    "url": "https://github.com/exakat/exakat",
+    "description": "A static analysis engine for PHP."
+  },
+  {
+    "name": "Mondrian",
+    "url": "https://github.com/Trismegiste/Mondrian",
+    "description": "A code analysis tool using Graph Theory."
+  },
+  {
+    "name": "phan",
+    "url": "https://github.com/phan/phan",
+    "description": "A static analyzer based on PHP 7+ and the php-ast extension."
+  },
+  {
+    "name": "PHPCompatibility",
+    "url": "https://github.com/wimg/PHPCompatibility",
+    "description": "A PHP compatibility checker for PHP CodeSniffer."
+  },
+  {
+    "name": "PhpDependencyAnalysis",
+    "url": "https://github.com/mamuz/PhpDependencyAnalysis",
+    "description": "A tool to create customisable dependency graphs."
+  },
+  {
+    "name": "PHP Metrics",
+    "url": "https://github.com/phpmetrics/PhpMetrics",
+    "description": "A static metric library."
+  },
+  {
+    "name": "PHP Migration",
+    "url": "https://github.com/monque/PHP-Migration",
+    "description": "A static analyzer for PHP version migration."
+  },
+  {
+    "name": "PHPStan",
+    "url": "https://github.com/phpstan/phpstan",
+    "description": "A PHP Static Analysis Tool."
+  },
+  {
+    "name": "Pslam",
+    "url": "https://github.com/vimeo/psalm",
+    "description": "A static analysis tool for finding errors in PHP applications."
   },
   {
     "name": "Compose",
@@ -1245,11 +1215,6 @@
     "description": "A pure PHP task runner inspired by Grunt and Gulp."
   },
   {
-    "name": "Cartographer",
-    "url": "https://github.com/tackk/cartographer",
-    "description": "A sitemap generation library."
-  },
-  {
     "name": "KnpMenu",
     "url": "https://github.com/KnpLabs/KnpMenu",
     "description": "A menu library."
@@ -1308,11 +1273,6 @@
     "name": "Chronos",
     "url": "https://github.com/cakephp/chronos",
     "description": "A DateTime API extension supporting both mutable and immutable date/time."
-  },
-  {
-    "name": "ExpressiveDate",
-    "url": "https://github.com/jasonlewis/expressive-date",
-    "description": "Another DateTime API extension."
   },
   {
     "name": "Moment.php",
@@ -1388,16 +1348,6 @@
     "name": "Workerman",
     "url": "https://github.com/walkor/Workerman",
     "description": "An event driven non-blocking I/O library."
-  },
-  {
-    "name": "Analog",
-    "url": "https://github.com/jbroadway/analog",
-    "description": "A closure-based micro logging package."
-  },
-  {
-    "name": "KLogger",
-    "url": "https://github.com/katzgrau/KLogger",
-    "description": "An easy-to-use PSR-3 compliant logging class."
   },
   {
     "name": "Monolog",
