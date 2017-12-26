@@ -345,16 +345,6 @@
     "description": "High performance general purpose redis client for .NET languages (C# etc)."
   },
   {
-    "name": "BCrypt.NET-Core",
-    "url": "https://github.com/neoKushan/BCrypt.Net-Core",
-    "description": ".NET Core port of BCrypt.NET used to store passwords securely."
-  },
-  {
-    "name": "BouncyCastle PCL",
-    "url": "https://github.com/onovotny/BouncyCastle-PCL",
-    "description": "The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols."
-  },
-  {
     "name": "Blogifier.Core",
     "url": "https://github.com/blogifierdotnet/Blogifier.Core",
     "description": "ASP.NET applications to provide common blogging functionality."
@@ -430,6 +420,16 @@
     "description": "Refactoring Essentials for Visual Studio."
   },
   {
+    "name": "lz4net",
+    "url": "https://github.com/MiloszKrajewski/lz4net",
+    "description": "Ultra fast compression algorithm for all .NET platforms."
+  },
+  {
+    "name": "sharpcompress",
+    "url": "https://github.com/adamhathcock/sharpcompress",
+    "description": "Fully managed C# library to deal with many compression types and formats."
+  },
+  {
     "name": "roslyn",
     "url": "https://github.com/dotnet/roslyn",
     "description": "The .NET Compiler Platform (\"Roslyn\") provides open-source C# and Visual Basic compilers with rich code analysis APIs."
@@ -438,6 +438,16 @@
     "name": "Sprache",
     "url": "https://github.com/sprache/Sprache",
     "description": "Tiny C# Monadic Parser Framework."
+  },
+  {
+    "name": "BCrypt.NET-Core",
+    "url": "https://github.com/neoKushan/BCrypt.Net-Core",
+    "description": ".NET Core port of BCrypt.NET used to store passwords securely."
+  },
+  {
+    "name": "BouncyCastle PCL",
+    "url": "https://github.com/onovotny/BouncyCastle-PCL",
+    "description": "The Bouncy Castle Crypto package is a C# implementation of cryptographic algorithms and protocols."
   },
   {
     "name": "DBreeze",
@@ -472,7 +482,7 @@
   {
     "name": "LiteDB",
     "url": "https://github.com/mbdavid/LiteDB",
-    "description": ".NET NoSQL Document Store in a single data file - http://www.litedb.org. work-around for .NET Core at #219"
+    "description": ".NET NoSQL Document Store in a single data file - http://www.litedb.org."
   },
   {
     "name": "MongoDB.Driver",
@@ -518,6 +528,11 @@
     "name": "FluentDateTime",
     "url": "https://github.com/FluentDateTime/FluentDateTime",
     "description": "Allows you to write cleaner DateTime expressions and operation. Partially inspired by Ruby DateTime Extensions."
+  },
+  {
+    "name": "nodatime",
+    "url": "https://github.com/nodatime/nodatime",
+    "description": "Better date and time API for .NET http://nodatime.org."
   },
   {
     "name": "Foundatio",
@@ -625,6 +640,11 @@
     "description": "A simple, direct, ultra-thin CLR library for high-performance Win32 Native Interop with automation, windowing, DirectX, OpenGL and Skia helpers."
   },
   {
+    "name": "Mono",
+    "url": "https://github.com/mono/monodevelop",
+    "description": "MonoDevelop enables developers to quickly write desktop and web applications on Linux, Windows and Mac OS X. It also makes it easy for developers to port .NET applications created with Visual Studio to Linux and Mac OS X maintaining a single code base for all platforms."
+  },
+  {
     "name": "rider",
     "url": "https://www.jetbrains.com/rider/",
     "description": "Cross-platform C# IDE based on the IntelliJ platform and ReSharper."
@@ -633,6 +653,11 @@
     "name": "Omnisharp",
     "url": "http://www.omnisharp.net/",
     "description": "Family of Open Source projects, each with one goal: To enable a great .NET experience in YOUR editor of choice."
+  },
+  {
+    "name": "SharpDevelop",
+    "url": "https://github.com/icsharpcode/SharpDevelop",
+    "description": "SharpDevelop is a free Integrated Development Environment (IDE) for C#, VB.NET, Boo, IronPython, IronRuby and F# projects on Microsoft's .NET platform. It is written (almost) entirely in C#, and comes with features you would expect in an IDE plus a few more."
   },
   {
     "name": "Visual Studio Code",
@@ -650,14 +675,13 @@
     "description": "Localization abstractions and implementations for ASP.NET Core applications."
   },
   {
-    "name": "nodatime",
-    "url": "https://github.com/nodatime/nodatime",
-    "description": "Better date and time API for .NET http://nodatime.org."
-  },
-  {
     "name": "Autofac",
     "url": "https://github.com/autofac/Autofac",
     "description": "Addictive .NET IoC container."
+  },
+  {
+    "name": "Castle.Windsor Castle Windsor is a best of breed, mature Inversion of Control container available for .NET.",
+    "url": "https://github.com/castleproject/Windsor"
   },
   {
     "name": "DryIoc",
@@ -800,19 +824,9 @@
     "description": "The implementation of CommonMark specification in C# for converting Markdown documents to HTML."
   },
   {
-    "name": "consuldotnet",
-    "url": "https://github.com/PlayFab/consuldotnet/tree/develop",
-    "description": ".NET API for Consul."
-  },
-  {
     "name": "datatables",
     "url": "https://github.com/ALMMa/datatables.aspnet/tree/dev",
     "description": "Microsoft ASP.NET server-side support and helpers for jQuery DataTables."
-  },
-  {
-    "name": "Docker.DotNet",
-    "url": "https://github.com/Microsoft/Docker.DotNet",
-    "description": ".NET (C#) Client Library for Docker API."
   },
   {
     "name": "Enums.NET",
@@ -845,18 +859,13 @@
     "description": "Fast, powerfull, CommonMark compliant, extensible Markdown processor for .NET."
   },
   {
-    "name": "Microphone",
-    "url": "https://github.com/rogeralsing/Microphone",
-    "description": "Lightweight framework to run self hosting REST services using Web Api or NancyFx ontop of a Consul or ETCD cluster."
-  },
-  {
     "name": "NReco.LambdaParser",
     "url": "https://github.com/nreco/lambdaparser",
     "description": "Parses string expressions (formulas, methods calls, conditions) to LINQ expression tree that can be compiled to lambda and evaluated."
   },
   {
     "name": "NReco.PivotData",
-    "url": "https://www.nuget.org/packages/NReco.PivotData/",
+    "url": "https://www.nuget.org/packages/NReco.PivotData",
     "description": "In-memory data cube with OLAP operations and PivotTable data model."
   },
   {
@@ -890,11 +899,6 @@
     "description": "PdfReport.Core is a code first reporting engine, which is built on top of the iTextSharp.LGPLv2.Core and EPPlus.Core libraries."
   },
   {
-    "name": "PreStorm",
-    "url": "https://github.com/jshirota/PreStorm",
-    "description": "Parallel REST Client for ArcGIS Server."
-  },
-  {
     "name": "Polly",
     "url": "https://github.com/App-vNext/Polly",
     "description": ".NET 3.5 / 4.0 / 4.5 / PCL library that allows developers to express transient exception and fault handling policies such as Retry, Retry Forever, Wait and Retry or Circuit Breaker in a fluent manner."
@@ -903,11 +907,6 @@
     "name": "Scrutor",
     "url": "https://github.com/khellang/Scrutor",
     "description": "Assembly scanning extensions for Microsoft.Extensions.DependencyInjection."
-  },
-  {
-    "name": "sharpcompress",
-    "url": "https://github.com/adamhathcock/sharpcompress",
-    "description": "Fully managed C# library to deal with many compression types and formats."
   },
   {
     "name": "SmartFormat.NET",
@@ -1130,14 +1129,34 @@
     "description": ".NET Standard client library for Azure Event Hubs."
   },
   {
+    "name": "Bittrex.Net",
+    "url": "https://github.com/JKorf/Bittrex.Net",
+    "description": "C# .Net wrapper for the Bittrex web API including all features easily accessible and usable."
+  },
+  {
+    "name": "Binance.Net",
+    "url": "https://github.com/JKorf/Binance.Net",
+    "description": ".Net API wrapper for the Binance web API."
+  },
+  {
+    "name": "consuldotnet",
+    "url": "https://github.com/PlayFab/consuldotnet/tree/develop",
+    "description": ".NET API for Consul."
+  },
+  {
     "name": "DarkSkyCore",
     "url": "https://github.com/amweiss/dark-sky-core",
     "description": "A .NET Standard wrapper for the Dark Sky API."
   },
   {
-    "name": "NBitcoin",
-    "url": "https://github.com/MetacoSA/NBitcoin",
-    "description": "Comprehensive Bitcoin library for the .NET framework."
+    "name": "Docker.DotNet",
+    "url": "https://github.com/Microsoft/Docker.DotNet",
+    "description": ".NET (C#) Client Library for Docker API."
+  },
+  {
+    "name": "Microphone",
+    "url": "https://github.com/rogeralsing/Microphone",
+    "description": "Lightweight framework to run self hosting REST services using Web Api or NancyFx ontop of a Consul or ETCD cluster."
   },
   {
     "name": "NetTelegramBotApi",
@@ -1150,9 +1169,14 @@
     "description": "GitHub API client library for .NET."
   },
   {
-    "name": "Open-XML-SDK-for-NET-Platform-Standard",
-    "url": "https://github.com/xrkolovos/Open-XML-SDK-for-NET-Platform-Standard",
-    "description": ".NET Platform Standard implementation of Open XML SDK 2.5."
+    "name": "Open-XML-SDK",
+    "url": "https://github.com/OfficeDev/Open-XML-SDK",
+    "description": "The Open XML SDK provides tools for working with Office Word, Excel, and PowerPoint documents."
+  },
+  {
+    "name": "PreStorm",
+    "url": "https://github.com/jshirota/PreStorm",
+    "description": "Parallel REST Client for ArcGIS Server."
   },
   {
     "name": "SendGrid-csharp",
@@ -1166,7 +1190,7 @@
   },
   {
     "name": "tweetinvi",
-    "url": "https://github.com/linvi/tweetinvi/tree/tweetinvi.netcore",
+    "url": "https://github.com/linvi/tweetinvi",
     "description": "Intuitive .NET C# library to access the Twitter REST and STREAM API."
   },
   {
@@ -1380,9 +1404,14 @@
     "description": "The simplest BDD framework EVER!"
   },
   {
-    "name": "xunit",
+    "name": "xBehave.net",
+    "url": "https://github.com/xbehave/xbehave.net",
+    "description": "An xUnit.net extension for describing your tests using natural language. http://xbehave.github.io"
+  },
+  {
+    "name": "xUnit.net",
     "url": "https://github.com/xunit/xunit",
-    "description": "Free, open source, community-focused unit testing tool for the .NET Framework."
+    "description": "A free, open source, community-focused unit testing tool for the .NET Framework. https://xunit.github.io/"
   },
   {
     "name": "CatLight",
@@ -1471,6 +1500,11 @@
     "name": "SignalR Server",
     "url": "https://github.com/aspnet/signalr",
     "description": "Real-time web functionality for web apps, including server-side push."
+  },
+  {
+    "name": "SuperSocket",
+    "url": "https://github.com/kerryjiang/SuperSocket",
+    "description": "Light weight, cross platform and extensible socket server application framework."
   },
   {
     "name": "WampSharp",

@@ -20,7 +20,7 @@
   },
   {
     "name": "Why ZSH is Cooler than your Shell",
-    "url": "http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692",
+    "url": "https://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692",
     "description": "slideshare presentation."
   },
   {
@@ -78,14 +78,14 @@
     "description": "Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available."
   },
   {
-    "name": "abbrev-alias",
-    "url": "https://github.com/momo-lab/zsh-abbrev-alias",
-    "description": "Provides functionality similar to Vim's abbreviation expansion."
-  },
-  {
     "name": "abbr-path",
     "url": "https://github.com/felixgravila/zsh-abbr-path",
     "description": "Adds functionality of the theme_title_use_abbreviated_path parameter from some oh-my-fish themes."
+  },
+  {
+    "name": "abbrev-alias",
+    "url": "https://github.com/momo-lab/zsh-abbrev-alias",
+    "description": "Provides functionality similar to Vim's abbreviation expansion."
   },
   {
     "name": "accurev-zsh",
@@ -308,14 +308,14 @@
     "description": "Build commands from what's in history and at prompt, move, delete, add command segments and search history with multi-word queries."
   },
   {
-    "name": "colored-man-pages",
-    "url": "https://github.com/ael-code/zsh-colored-man-pages",
-    "description": "Colorize man pages"
-  },
-  {
     "name": "colored-man-pages-mod",
     "url": "https://github.com/zuxfoucault/colored-man-pages_mod",
     "description": "Forked from robbyrussell/oh-my-zsh/plugins/colored-man-pages. Colorizes man output."
+  },
+  {
+    "name": "colored-man-pages",
+    "url": "https://github.com/ael-code/zsh-colored-man-pages",
+    "description": "Colorize man pages"
   },
   {
     "name": "colors",
@@ -976,6 +976,11 @@
     "description": "A ZSH plugin to open pull requests from command line."
   },
   {
+    "name": "openshift-origin-zsh-plugin",
+    "url": "https://github.com/ryanswart/openshift-origin-zsh-plugin",
+    "description": "Add a few shortcuts to common openshift origin (oc) actions."
+  },
+  {
     "name": "opera-git-plugin",
     "url": "https://github.com/aswitalski/oh-my-zsh-opera-git-plugin",
     "description": "Git aliases."
@@ -1331,6 +1336,11 @@
     "description": "A lightweight start point of shell configuration."
   },
   {
+    "name": "velocity",
+    "url": "https://github.com/rahulsalvi/velocity",
+    "description": "Powerline-based theme elements for ZSH and tmux."
+  },
+  {
     "name": "viexchange",
     "url": "https://github.com/okapia/zsh-viexchange",
     "description": "Vi mode plugin for easily swapping text between two places in the buffer, like vim-exchange."
@@ -1635,34 +1645,24 @@
     "description": "Completions for nix, NixOS, and NixOps."
   },
   {
-    "name": "npm-run.plugin.zsh",
-    "url": "https://github.com/akoenig/npm-run.plugin.zsh",
-    "description": "Autocompletion support for npm run."
-  },
-  {
     "name": "nova",
     "url": "https://github.com/rbirnie/oh-my-zsh-nova",
     "description": "Provides auto-complete for nova."
   },
   {
-    "name": "pass-zsh-completion",
-    "url": "https://github.com/ninrod/pass-zsh-completion",
-    "description": "convenience repo to easily obtain pass command completion for ZSH."
-  },
-  {
-    "name": "spring-boot-plugin",
-    "url": "https://github.com/linux-china/oh-my-zsh-spring-boot-plugin",
-    "description": "Adds autocompletions for spring-boot commands."
-  },
-  {
-    "name": "razor_plugin",
-    "url": "https://github.com/dalang/oh-my-zsh_razor_plugin",
-    "description": "Provides autocomplete for Razor."
+    "name": "npm-run.plugin.zsh",
+    "url": "https://github.com/akoenig/npm-run.plugin.zsh",
+    "description": "Autocompletion support for npm run."
   },
   {
     "name": "parallels-zsh-plugin",
     "url": "https://github.com/benclark/parallels-zsh-plugin",
     "description": "Add completions for Parallels desktop."
+  },
+  {
+    "name": "pass-zsh-completion",
+    "url": "https://github.com/ninrod/pass-zsh-completion",
+    "description": "convenience repo to easily obtain pass command completion for ZSH."
   },
   {
     "name": "pebble-zsh-completion",
@@ -1685,9 +1685,19 @@
     "description": "Add completions for the Rancher CLI."
   },
   {
+    "name": "razor_plugin",
+    "url": "https://github.com/dalang/oh-my-zsh_razor_plugin",
+    "description": "Provides autocomplete for Razor."
+  },
+  {
     "name": "snappy",
     "url": "https://github.com/Arlon1/Snappy_zsh_autocompletion",
     "description": "Add completions for snappy."
+  },
+  {
+    "name": "spring-boot-plugin",
+    "url": "https://github.com/linux-china/oh-my-zsh-spring-boot-plugin",
+    "description": "Adds autocompletions for spring-boot commands."
   },
   {
     "name": "ssh-agent",
@@ -1805,9 +1815,24 @@
     "description": "Displays git branch and status and vi editing mode in the main prompt and also displays non-zero exit codes in ZSH's right prompt. An SSH connection is indicated by the presence of a hostname in the prompt; local connections show only a username."
   },
   {
+    "name": "agnoster-fcamblor",
+    "url": "https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor",
+    "description": "Solarized Agnoster variant with git information. Requires a unicode font."
+  },
+  {
+    "name": "agnoster-mod",
+    "url": "https://github.com/fsegouin/oh-my-zsh-agnoster-mod-theme",
+    "description": "Agnoster variant with a right-prompt."
+  },
+  {
     "name": "agnoster-plus",
     "url": "https://github.com/jiahut/agnoster-plus.zsh-theme",
     "description": "Agnoster variant optimized for use with Solarized Dark terminal color scheme. Includes git status."
+  },
+  {
+    "name": "agnoster-refresh",
+    "url": "https://github.com/fusion94/Agnoster-refresh",
+    "description": "Agnoster variant, includes battery and online status."
   },
   {
     "name": "agnosterAfro",
@@ -1878,6 +1903,11 @@
     "name": "bashi",
     "url": "https://github.com/eli-oat/bashi",
     "description": "Optimized for Ahmet Sülek's Flat UI Terminal Theme and Pasquale D'Silva's Saturn Terminal Theme."
+  },
+  {
+    "name": "bgnoster",
+    "url": "https://github.com/47bytes/bgnoster.zsh-theme",
+    "description": "Agnoster variant with unicode symbols baked in."
   },
   {
     "name": "bilibili",
@@ -2035,11 +2065,6 @@
     "description": "A theme with an emphasis on the right side (hence the name) of the terminal."
   },
   {
-    "name": "dp",
-    "url": "https://github.com/davidparsson/zsh-dp-theme",
-    "description": "Low contrast theme that shows current git branch, if the repository is dirty and the value of $PYENV_VERSION."
-  },
-  {
     "name": "dissonance",
     "url": "https://github.com/RyanScottLewis/theme-dissonance-zsh",
     "description": "Comes with custom LSCOLORS and LS_COLORS settings files, works with both dark and light terminal themes."
@@ -2048,6 +2073,11 @@
     "name": "dmx",
     "url": "https://github.com/domix/dmx.zsh-theme",
     "description": "Optimized for dark terminal windows."
+  },
+  {
+    "name": "dp",
+    "url": "https://github.com/davidparsson/zsh-dp-theme",
+    "description": "Low contrast theme that shows current git branch, if the repository is dirty and the value of $PYENV_VERSION."
   },
   {
     "name": "dracula",
@@ -2152,6 +2182,11 @@
     "name": "girazz",
     "url": "https://github.com/mdentremont/girazz",
     "description": "A modification to the gnzh theme which adds VI mode to the right prompt."
+  },
+  {
+    "name": "git-prompt",
+    "url": "https://github.com/olivierverdier/zsh-git-prompt",
+    "description": "Displays information about the current git repository. In particular the branch name, difference with remote branch, number of files staged, changed, etc."
   },
   {
     "name": "gitsome",
@@ -2404,6 +2439,11 @@
     "description": "Based on agnoster."
   },
   {
+    "name": "moonline",
+    "url": "https://github.com/kagamilove0707/moonline.zsh",
+    "description": "Minimal but easily extensible prompt."
+  },
+  {
     "name": "multi-shell-repo-prompt",
     "url": "https://github.com/dotcode/multi-shell-repo-prompt",
     "description": "Provides useful information (in your prompt) about the repository that you are in. It currently works for Git and Mercurial, under ZSH as well as bash."
@@ -2449,6 +2489,11 @@
     "description": "Based on ys theme, with added NodeJS version (from NVM plugin)."
   },
   {
+    "name": "nothing",
+    "url": "https://github.com/eendroroy/nothing",
+    "description": "Lightning fast and really simple because it has almost nothing in it."
+  },
+  {
     "name": "nt9",
     "url": "https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme",
     "description": "Clean, distraction free and git focused development theme. Shows path relative to git root (or ~ when outside git repo), time since last commit, current SHA, branch and branch state."
@@ -2492,11 +2537,6 @@
     "name": "pad",
     "url": "https://github.com/eproxus/pad.zsh-theme",
     "description": "A concise and colorful oh-my-zsh theme."
-  },
-  {
-    "name": "parrot-os",
-    "url": "https://github.com/Sameera-Madushan-Perera/Parrot-OS-mod-zsh-theme",
-    "description": "Equivalent to the default Bash Shell Theme Used in Parrot Security Operating System."
   },
   {
     "name": "phi φ",
@@ -2557,6 +2597,11 @@
     "name": "powerline-shell",
     "url": "https://github.com/banga/powerline-shell",
     "description": "A powerline-like prompt for Bash, ZSH and Fish. Shows important details about git/svn/hg/fossil branch and is easy to customize/extend."
+  },
+  {
+    "name": "powerline-train",
+    "url": "https://github.com/sherubthakur/powerline-train",
+    "description": "A powerline variant"
   },
   {
     "name": "powerline",
@@ -2634,6 +2679,11 @@
     "description": "Random emoji."
   },
   {
+    "name": "razer-status-code",
+    "url": "https://github.com/michaelmcallister/razer-status-code",
+    "description": "change the colour of your Razer Mouse based on the status of the last executed command. Requires OpenRazer linux drivers."
+  },
+  {
     "name": "refined",
     "url": "https://github.com/octarect/refined.zsh",
     "description": "A ZSH theme focused on simpleness and usefulness."
@@ -2644,14 +2694,14 @@
     "description": "Based on agnoster, optimized for solarized terminal themes."
   },
   {
-    "name": "rummik/zsh-theme",
-    "url": "https://github.com/rummik/zsh-theme",
-    "description": "@rummik's theme."
-  },
-  {
     "name": "remolueoend",
     "url": "https://github.com/remolueoend/remolueoend.zsh-theme",
     "description": "Prezto ZSH theme based on Sorin, using emojis for tracking GIT context."
+  },
+  {
+    "name": "rummik/zsh-theme",
+    "url": "https://github.com/rummik/zsh-theme",
+    "description": "@rummik's theme."
   },
   {
     "name": "rzh",
@@ -2794,6 +2844,11 @@
     "description": "Based on theunraveler."
   },
   {
+    "name": "topan",
+    "url": "https://github.com/fudyartanto/topan-theme-oh-my-zsh",
+    "description": "Includes git information; best on dark backgrounds."
+  },
+  {
     "name": "tq",
     "url": "https://github.com/kitian616/tq-zsh-theme",
     "description": "Displays git status, time, requires a Powerline font."
@@ -2832,6 +2887,11 @@
     "name": "vira",
     "url": "https://github.com/FernandoTorres/omz-vira",
     "description": "An update of the bira theme that shows the vim bindkey -v status."
+  },
+  {
+    "name": "wade",
+    "url": "https://github.com/wadehammes/wade.zsh-theme",
+    "description": "Mashup of the popular ZSH themes 'Agnoster' and 'Fishy', with some visual tweaks."
   },
   {
     "name": "wang-iterm-zsh",
