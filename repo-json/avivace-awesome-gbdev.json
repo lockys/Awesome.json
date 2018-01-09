@@ -22,19 +22,18 @@
     "description": "IRC channel."
   },
   {
-    "name": "gbdev.gg8.se",
-    "url": "http://gbdev.gg8.se",
-    "description": "This is basically the home of the gbdev scene. The wiki has a lot of articles from previous sites, tutorials and other documents about a lot of topics."
+    "name": "gbdev.gg8.se Wiki",
+    "url": "http://gbdev.gg8.se/wiki/articles/Main_Page"
   },
   {
     "name": "devrs.com/gb",
     "url": "http://devrs.com/gb",
-    "description": "Jeff Frohwein’s page, this the main reference for everything. Almost everything is archived here: code examples and working programs(ASM and C), complete documentation and various tools."
+    "description": "Jeff Frohwein’s page. Old home of the scene, a lot was posted here: code examples and working programs(ASM and C), complete documentation, single text files and various tools."
   },
   {
     "name": "Game Boy Programming Manual",
     "url": "https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf",
-    "description": "Official Game Boy programming and hardware manual by Nintendo. Pretty much everything in the console is covered and explained. This should be your first and main resource to start understanding what Game Boy is."
+    "description": "Official Game Boy programming and hardware manual by Nintendo. Pretty much everything in the console is covered and explained."
   },
   {
     "name": "The Cycle-Accurate Game Boy Docs",
@@ -42,18 +41,36 @@
     "description": "A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator."
   },
   {
-    "name": "Game Boy: Complete Technical Reference",
+    "name": "Complete Technical Reference",
     "url": "https://gekkio.fi/files/gb-docs/gbctr.pdf"
   },
   {
     "name": "Pan Docs",
     "url": "http://gbdev.gg8.se/wiki/articles/Pan_Docs",
-    "description": "The single most comprehensive technical reference to Game Boy that is available to the public, wikified and updated. Also archived on BGB's website."
+    "description": "Historical comprehensive technical reference, wikified, corrected and updated. Original version."
   },
   {
-    "name": "Game Boy hardware database",
-    "url": "https://gbhwdb.gekkio.fi/",
-    "description": "Data and photos of various types of Game Boy consoles."
+    "name": "Game Boy CPU Manual",
+    "url": "http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf",
+    "description": "Assembly language commands, timings and opcodes."
+  },
+  {
+    "name": "RGBDS Documentation",
+    "url": "https://rednex.github.io/"
+  },
+  {
+    "name": "GBDK libraries documentation",
+    "url": "http://gbdk.sourceforge.net/doc/gbdk-doc.pdf"
+  },
+  {
+    "name": "Introduction to Game Boy Hacking",
+    "url": "http://pepijndevos.nl/sha2017/workshop.pdf",
+    "description": "Workshop introducing basic assembly, debugging and reverse engineering."
+  },
+  {
+    "name": "Assembly Language Programming Course",
+    "url": "http://cratel.wichita.edu/cratel/ECE238Spr08",
+    "description": "Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Game Boy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State University)."
   },
   {
     "name": "Everything You Always Wanted To Know About GAME BOY",
@@ -64,11 +81,6 @@
     "name": "GBSOUND.txt",
     "url": "https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt",
     "description": "A document detailing the Game Boy sound engine."
-  },
-  {
-    "name": "DMG Schematics",
-    "url": "http://gbdev.gg8.se/wiki/articles/DMG_Schematics",
-    "description": "Hardware schematics."
   },
   {
     "name": "GB Instructions Game Boy Assembly commands.",
@@ -94,44 +106,9 @@
     "description": "WLA DX Macro Assembler Package manual."
   },
   {
-    "name": "GBDK libraries documentation",
-    "url": "http://gbdk.sourceforge.net/doc/gbdk-doc.pdf"
-  },
-  {
     "name": "gbdev FAQs",
     "url": "http://www.devrs.com/gb/files/faqs.html",
     "description": "Must read by Jeff Frohwein."
-  },
-  {
-    "name": "Game Boy CPU InstructionSet Sheet (GCISheet)",
-    "url": "http://www.devrs.com/gb/files/GBCPU_Instr.html",
-    "description": "Cheatsheet for the available Instruction Set."
-  },
-  {
-    "name": "Opcode table",
-    "url": "http://goldencrystal.free.fr/GBZ80Opcodes.pdf"
-  },
-  {
-    "name": "Opcode table with timings and flags",
-    "url": "http://www.devrs.com/gb/files/opcodes.html"
-  },
-  {
-    "name": "Game Boy CPU Manual",
-    "url": "http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf",
-    "description": "Assembly language commands, timings and opcodes."
-  },
-  {
-    "name": "OP Codes cheatsheet",
-    "url": "http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html"
-  },
-  {
-    "name": "rednex gbz80 opcode reference",
-    "url": "https://rednex.github.io/rgbds/gbz80.7.html"
-  },
-  {
-    "name": "Assembly Language Programming Course",
-    "url": "http://cratel.wichita.edu/cratel/ECE238Spr08",
-    "description": "Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Game Boy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State University)."
   },
   {
     "name": "Game Boy Bootrom",
@@ -148,15 +125,6 @@
     "url": "http://www.z80.info/z80gboy.txt"
   },
   {
-    "name": "Archive of related files",
-    "url": "http://gbdev.gg8.se/files/"
-  },
-  {
-    "name": "fruttenboel",
-    "url": "http://verhoeven272.nl/fruttenboel/Gameboy/index.html",
-    "description": "Page with loads of information on the actual hardware, custom boards to interface with the console and other related projects."
-  },
-  {
     "name": "Gameboy 2BPP Graphics Format",
     "url": "http://www.huderlem.com/demos/gameboy2bpp.html",
     "description": "Information on how the Game Boy interprets VRAM tile data to color pixels."
@@ -167,9 +135,69 @@
     "description": "A handy printable reference sheet with ASM opcodes, memory locations, and much more."
   },
   {
-    "name": "Introduction to Game Boy Hacking",
-    "url": "http://pepijndevos.nl/sha2017/workshop.pdf",
-    "description": "Workshop introducing basic assembly, debugging and reverse engineering."
+    "name": "OP Codes cheatsheet",
+    "url": "http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html"
+  },
+  {
+    "name": "rednex gbz80 opcode reference",
+    "url": "https://rednex.github.io/rgbds/gbz80.7.html"
+  },
+  {
+    "name": "Opcode table",
+    "url": "http://goldencrystal.free.fr/GBZ80Opcodes.pdf"
+  },
+  {
+    "name": "Opcode table with timings and flags",
+    "url": "http://www.devrs.com/gb/files/opcodes.html"
+  },
+  {
+    "name": "Gameboy CPU (LR35902) instruction set",
+    "url": "http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html",
+    "description": "Another Opcodes cheatsheet."
+  },
+  {
+    "name": "Game Boy CPU Instruction Set Sheet (GCISheet)",
+    "url": "http://www.devrs.com/gb/files/GBCPU_Instr.html",
+    "description": "Cheatsheet for the available Instruction Set."
+  },
+  {
+    "name": "Archive of related files",
+    "url": "http://gbdev.gg8.se/files/"
+  },
+  {
+    "name": "The Game Boy Archive",
+    "url": "https://github.com/gb-archive",
+    "description": "A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades."
+  },
+  {
+    "name": "The Game Boy Archive",
+    "url": "https://github.com/gb-archive/salvage",
+    "description": "Salvage - Old articles, FAQs and various documents."
+  },
+  {
+    "name": "DMG Schematics",
+    "url": "http://gbdev.gg8.se/wiki/articles/DMG_Schematics",
+    "description": "Hardware schematics."
+  },
+  {
+    "name": "The Game Boy Project",
+    "url": "http://marc.rawer.de/Gameboy/Docs/GBProject.pdf",
+    "description": "Provides a study on the hardware and detailed constructional information for the realisation of three 8-bit bidirectional parallel ports."
+  },
+  {
+    "name": "Related custom hardware",
+    "url": "https://github.com/Gekkio/gb-hardware",
+    "description": "by gekkio."
+  },
+  {
+    "name": "fruttenboel",
+    "url": "http://verhoeven272.nl/fruttenboel/Gameboy/index.html",
+    "description": "Page with loads of information on the actual hardware, custom boards to interface with the console and other related projects."
+  },
+  {
+    "name": "Game Boy hardware database",
+    "url": "https://gbhwdb.gekkio.fi/",
+    "description": "Data and photos of various types of Game Boy consoles."
   },
   {
     "name": "Game Boy Color Bootstrap ROM",
@@ -182,6 +210,10 @@
   {
     "name": "GBC colorization palettes in the BIOS",
     "url": "https://forums.nesdev.com/viewtopic.php?p=114388&sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388"
+  },
+  {
+    "name": "High resolution GBC schematics",
+    "url": "https://drive.google.com/file/d/1a0HTmBiRxoZw4XgLEDzwGCugfTfdIQwT/view?usp=sharing"
   },
   {
     "name": "Game Boy Camera RE",
@@ -648,8 +680,8 @@
     "description": "A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading."
   },
   {
-    "name": "[https://github.com/nezticle/rgbds-template]",
-    "url": "https://github.com/nezticle/rgbds-template",
+    "name": "https://github.com/nezticle/rgbds-template",
+    "url": "rgbds-template",
     "description": "Basic hello-world example for Game Boy using RGBDS."
   },
   {
@@ -912,7 +944,8 @@
   },
   {
     "name": "Bubble Factory",
-    "url": "https://github.com/DonaldHays/bubblefactory"
+    "url": "https://github.com/DonaldHays/bubblefactory",
+    "description": "Vanilla SDCC (no gbdk)."
   },
   {
     "name": "GBC Atari Boxing",
@@ -981,6 +1014,38 @@
     "url": "https://github.com/DevEd2/FXHammer-Disasm"
   },
   {
+    "name": "Making a Game Boy game in 2017: A \"Sheep It Up!\" Post-Mortem (part 1/2)",
+    "url": "https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/"
+  },
+  {
+    "name": "Nintendo's fake logos",
+    "url": "http://fuji.drillspirits.net/?post=87",
+    "description": "Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system."
+  },
+  {
+    "name": "Booting the Game Boy with a custom logo",
+    "url": "https://dhole.github.io/post/gameboy_custom_logo/",
+    "description": "Bypassing the Nintendo logo check."
+  },
+  {
+    "name": "GBDK Developers",
+    "url": "http://gbdk-developers.com/",
+    "description": "Active blog about everything related to the scene. Including features, insights and interviews."
+  },
+  {
+    "name": "pdroms.de Game Boy releases.",
+    "url": "http://pdroms.de/news/gameboy/"
+  },
+  {
+    "name": "Game Boy Demospotting",
+    "url": "http://gameboy.modermodemet.se/en",
+    "description": "A collection of demos."
+  },
+  {
+    "name": "Pokemon Pocket Computer: What is it and how to use it to make cheat codes.",
+    "url": "https://tilde.town/%7Eminerobber/techwriteups/pokemonpc.html"
+  },
+  {
     "name": "ArduinoBoy",
     "url": "https://github.com/trash80/Arduinoboy",
     "description": "Serial communication (MIDI) from an Arduino to the Game Boy for music applications such as LittleSoundDJ, Nanoloop, and mGB."
@@ -1001,11 +1066,6 @@
     "description": "A LUA-driven AI that plays classic Game Boy color games using experimentation. In active development."
   },
   {
-    "name": "The Game Boy Project",
-    "url": "http://marc.rawer.de/Gameboy/Docs/GBProject.pdf",
-    "description": "Provides a study on the hardware and detailed constructional information for the realisation of three 8-bit bidirectional parallel ports."
-  },
-  {
     "name": "gbdk-n",
     "url": "https://github.com/rotmoset/gbdk-n",
     "description": "Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms."
@@ -1019,30 +1079,6 @@
     "name": "Gatesboy",
     "url": "https://web.archive.org/web/*/http://www.gatesboy.com/",
     "description": "Non-gaming purposes applications development."
-  },
-  {
-    "name": "pdroms.de Game Boy releases.",
-    "url": "http://pdroms.de/news/gameboy/"
-  },
-  {
-    "name": "Game Boy Demospotting",
-    "url": "http://gameboy.modermodemet.se/en",
-    "description": "A collection of demos."
-  },
-  {
-    "name": "Nintendo's fake logos",
-    "url": "http://fuji.drillspirits.net/?post=87",
-    "description": "Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system."
-  },
-  {
-    "name": "Booting the Game Boy with a custom logo",
-    "url": "https://dhole.github.io/post/gameboy_custom_logo/",
-    "description": "Bypassing the Nintendo logo check."
-  },
-  {
-    "name": "GBDK Developers",
-    "url": "http://gbdk-developers.com/",
-    "description": "Active blog about everything related to the scene. Including features, insights and interviews."
   },
   {
     "name": "Ostrich",
@@ -1080,21 +1116,13 @@
     "description": "Patches to add save state support to Game Boy games when playing on the original hardware."
   },
   {
-    "name": "The Game Boy Archive",
-    "url": "https://github.com/gb-archive",
-    "description": "A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades."
-  },
-  {
     "name": "gbcpu",
     "url": "https://github.com/jdeblese/gbcpu",
     "description": "A CPU and peripherals implementing the Game Boy instruction set and functionality."
   },
   {
-    "name": "Pokemon Pocket Computer: What is it and how to use it to make cheat codes",
-    "url": "https://tilde.town/%7Eminerobber/techwriteups/pokemonpc.html"
-  },
-  {
-    "name": "Making a Game Boy game in 2017: A \"Sheep It Up!\" Post-Mortem (part 1/2)",
-    "url": "https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/"
+    "name": "llvm-gbz80",
+    "url": "https://github.com/euclio/llvm-gbz80",
+    "description": "LLVM with a Game Boy Z80 Assembly Backend."
   }
 ]
