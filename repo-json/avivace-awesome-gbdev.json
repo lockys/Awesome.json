@@ -161,20 +161,6 @@
     "description": "Cheatsheet for the available Instruction Set."
   },
   {
-    "name": "Archive of related files",
-    "url": "http://gbdev.gg8.se/files/"
-  },
-  {
-    "name": "The Game Boy Archive",
-    "url": "https://github.com/gb-archive",
-    "description": "A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades."
-  },
-  {
-    "name": "The Game Boy Archive",
-    "url": "https://github.com/gb-archive/salvage",
-    "description": "Salvage - Old articles, FAQs and various documents."
-  },
-  {
     "name": "DMG Schematics",
     "url": "http://gbdev.gg8.se/wiki/articles/DMG_Schematics",
     "description": "Hardware schematics."
@@ -555,11 +541,6 @@
     "description": "HTML5 / JS web application that will convert bitmap images to hexadecimal data appropriate for use in tile based graphical applications, specifically GB."
   },
   {
-    "name": "rgbds_textmate",
-    "url": "https://github.com/Bananattack/rgbds_textmate",
-    "description": "Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3. The syntax is particularly designed for RGBDS and Game Boy-specific Z80 instructions."
-  },
-  {
     "name": "Harry Mulder's GB Development",
     "url": "http://www.devrs.com/gb/hmgd/intro.html",
     "description": "Some sources and home of Game Boy Tile Designer and Game Boy Map Builder tools."
@@ -595,19 +576,9 @@
     "description": "8bpp bitmap converter for Game Boy Color development."
   },
   {
-    "name": "Vim syntax file for the Game Boy assembler RGBASM",
-    "url": "http://www.vim.org/scripts/script.php?script_id=819",
-    "description": "Vim syntax highlighting for RGBDS assembly."
-  },
-  {
-    "name": "Vim syntax file for RGBDS",
-    "url": "https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim",
-    "description": "Another Vim syntax highlighting file for RGBDS assembly."
-  },
-  {
-    "name": "Notepad++ syntax file for RGBDS",
-    "url": "https://issotm.github.io/GBz80.xml",
-    "description": "Notepad++ syntax highlighting file for RGBDS assembly. Somewhat compatible with other syntaxes, such as WLA-DX."
+    "name": "png2gb",
+    "url": "https://github.com/LuckyLights/png2gb",
+    "description": "CLI tool to convert image file to game boy .c array."
   },
   {
     "name": "gbdk-lib-extension",
@@ -640,11 +611,6 @@
     "description": "A collection of primitive editor/converter tools for making assets used with homebrew ROM development."
   },
   {
-    "name": "Atom language package for RGBASM",
-    "url": "https://atom.io/packages/language-rgbasm",
-    "description": "Atom syntax highlighting for RGBDS assembly."
-  },
-  {
     "name": "Game Boy Text Tools",
     "url": "https://github.com/raphaklaus/gameboy-text-tools",
     "description": "Set of tools for text manipulation and translation of Game Boy ROMs written in NodeJS"
@@ -653,6 +619,36 @@
     "name": "mmlgb",
     "url": "https://github.com/SimonLarsen/mmlgb",
     "description": "MML to Game Boy parser and driver."
+  },
+  {
+    "name": "mgbdis",
+    "url": "https://github.com/mattcurrie/mgbdis",
+    "description": "Game Boy ROM disassembler with RGBDS compatible output."
+  },
+  {
+    "name": "Atom language package for RGBASM",
+    "url": "https://atom.io/packages/language-rgbasm",
+    "description": "Atom syntax highlighting for RGBDS assembly."
+  },
+  {
+    "name": "gbz80-highlight",
+    "url": "https://github.com/ISSOtm/gbz80-highlight",
+    "description": "Notepad++ and gedit syntax highlighting files for RGBDS assembly."
+  },
+  {
+    "name": "Vim syntax file for the Game Boy assembler RGBASM",
+    "url": "http://www.vim.org/scripts/script.php?script_id=819",
+    "description": "Vim syntax highlighting for RGBDS assembly."
+  },
+  {
+    "name": "Vim syntax file for RGBDS",
+    "url": "https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim",
+    "description": "Another Vim syntax highlighting file for RGBDS assembly."
+  },
+  {
+    "name": "rgbds_textmate",
+    "url": "https://github.com/Bananattack/rgbds_textmate",
+    "description": "Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3. The syntax is particularly designed for RGBDS and Game Boy-specific Z80 instructions."
   },
   {
     "name": "ASMSchool",
@@ -896,7 +892,12 @@
   {
     "name": "flappybird-gameboy",
     "url": "https://github.com/pashutk/flappybird-gameboy",
-    "description": "Yet another gbdk powered Flappybird clone."
+    "description": "Flappy Bird clone (gbdk)"
+  },
+  {
+    "name": "fbgb",
+    "url": "https://github.com/gb-archive/fbgb",
+    "description": "Flappy Bird clone (gbdk)"
   },
   {
     "name": "Novascape",
@@ -962,6 +963,14 @@
     "description": "An arcade platformer for the Game Boy."
   },
   {
+    "name": "Burly Bear vs. The Mean Foxes (GBC port)",
+    "url": "http://sebastianmihai.com/main.php?t=18&"
+  },
+  {
+    "name": "Trainin' in a Winter Wonderland (Pokemon Gold (U))",
+    "url": "https://www.pokecommunity.com/showthread.php?t=276298"
+  },
+  {
     "name": "Sonic 1",
     "url": "https://github.com/Kroc/Sonic1-Z80-ASM"
   },
@@ -1012,38 +1021,6 @@
   {
     "name": "FX Hammer disassembly",
     "url": "https://github.com/DevEd2/FXHammer-Disasm"
-  },
-  {
-    "name": "Making a Game Boy game in 2017: A \"Sheep It Up!\" Post-Mortem (part 1/2)",
-    "url": "https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/"
-  },
-  {
-    "name": "Nintendo's fake logos",
-    "url": "http://fuji.drillspirits.net/?post=87",
-    "description": "Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system."
-  },
-  {
-    "name": "Booting the Game Boy with a custom logo",
-    "url": "https://dhole.github.io/post/gameboy_custom_logo/",
-    "description": "Bypassing the Nintendo logo check."
-  },
-  {
-    "name": "GBDK Developers",
-    "url": "http://gbdk-developers.com/",
-    "description": "Active blog about everything related to the scene. Including features, insights and interviews."
-  },
-  {
-    "name": "pdroms.de Game Boy releases.",
-    "url": "http://pdroms.de/news/gameboy/"
-  },
-  {
-    "name": "Game Boy Demospotting",
-    "url": "http://gameboy.modermodemet.se/en",
-    "description": "A collection of demos."
-  },
-  {
-    "name": "Pokemon Pocket Computer: What is it and how to use it to make cheat codes.",
-    "url": "https://tilde.town/%7Eminerobber/techwriteups/pokemonpc.html"
   },
   {
     "name": "ArduinoBoy",
@@ -1124,5 +1101,51 @@
     "name": "llvm-gbz80",
     "url": "https://github.com/euclio/llvm-gbz80",
     "description": "LLVM with a Game Boy Z80 Assembly Backend."
+  },
+  {
+    "name": "Archive of related files",
+    "url": "http://gbdev.gg8.se/files/"
+  },
+  {
+    "name": "The Game Boy Archive",
+    "url": "https://github.com/gb-archive",
+    "description": "A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades."
+  },
+  {
+    "name": "The Game Boy Archive",
+    "url": "https://github.com/gb-archive/salvage",
+    "description": "Salvage - Old articles, FAQs and various documents."
+  },
+  {
+    "name": "Making a Game Boy game in 2017: A \"Sheep It Up!\" Post-Mortem (part 1/2)",
+    "url": "https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/"
+  },
+  {
+    "name": "Nintendo's fake logos",
+    "url": "http://fuji.drillspirits.net/?post=87",
+    "description": "Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system."
+  },
+  {
+    "name": "Booting the Game Boy with a custom logo",
+    "url": "https://dhole.github.io/post/gameboy_custom_logo/",
+    "description": "Bypassing the Nintendo logo check."
+  },
+  {
+    "name": "GBDK Developers",
+    "url": "http://gbdk-developers.com/",
+    "description": "Active blog about everything related to the scene. Including features, insights and interviews."
+  },
+  {
+    "name": "pdroms.de Game Boy releases.",
+    "url": "http://pdroms.de/news/gameboy/"
+  },
+  {
+    "name": "Game Boy Demospotting",
+    "url": "http://gameboy.modermodemet.se/en",
+    "description": "A collection of demos."
+  },
+  {
+    "name": "Pokemon Pocket Computer: What is it and how to use it to make cheat codes.",
+    "url": "https://tilde.town/%7Eminerobber/techwriteups/pokemonpc.html"
   }
 ]
