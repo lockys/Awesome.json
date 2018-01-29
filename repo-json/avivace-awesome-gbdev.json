@@ -28,7 +28,7 @@
   {
     "name": "devrs.com/gb",
     "url": "http://devrs.com/gb",
-    "description": "Jeff Frohwein’s page. Old home of the scene, a lot was posted here: code examples and working programs(ASM and C), complete documentation, single text files and various tools."
+    "description": "Jeff Frohwein’s page: old home of the scene, a lot was posted here: code examples and full sources, complete documentation, guides and tutorials, various tools."
   },
   {
     "name": "Game Boy Programming Manual",
@@ -56,7 +56,7 @@
   },
   {
     "name": "RGBDS Documentation",
-    "url": "https://rednex.github.io/"
+    "url": "https://rednex.github.io/rgbds/"
   },
   {
     "name": "GBDK libraries documentation",
@@ -202,6 +202,10 @@
     "url": "https://drive.google.com/file/d/1a0HTmBiRxoZw4XgLEDzwGCugfTfdIQwT/view?usp=sharing"
   },
   {
+    "name": "GameBoy Color Boot ROM Disassembly",
+    "url": "https://gist.github.com/drhelius/6063265"
+  },
+  {
     "name": "Game Boy Camera RE",
     "url": "https://github.com/AntonioND/gbcam-rev-engineer",
     "description": "Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO."
@@ -320,6 +324,11 @@
     "name": "Why did I spend 1.5 months creating a Gameboy emulator?",
     "url": "http://blog.rekawek.eu/2017/02/09/coffee-gb/",
     "description": "Blog post."
+  },
+  {
+    "name": "binjgb rewind",
+    "url": "https://binji.github.io/2017/12/31/binjgb-rewind.html",
+    "description": "Implementing a rewind feature."
   },
   {
     "name": "Mooneye-gb",
@@ -474,6 +483,11 @@
     "name": "GBRE",
     "url": "https://github.com/ericgramgb/GBRE",
     "description": "Game Boy Runtime Environment for iOS (iOS Safari and Chrome)."
+  },
+  {
+    "name": "Homebrew Hub",
+    "url": "https://gbhh.avivace.com",
+    "description": "Every unofficial homebrew ever produced for Game Boy playable online (mobile/touch too): a community-lead attempt to collect, archive and save every unofficial game, homebrew, demo, patch, hackrom for Game Boy (Color) produced by the community through years of passionate work."
   },
   {
     "name": "RGBDS",
@@ -651,6 +665,26 @@
     "description": "Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3. The syntax is particularly designed for RGBDS and Game Boy-specific Z80 instructions."
   },
   {
+    "name": "ASMSchool",
+    "url": "http://gameboy.mongenel.com/asmschool.html",
+    "description": "A set of lessons by Duo about coding in Assembly for GB/GBC and disassembling."
+  },
+  {
+    "name": "dev'rs ASM section",
+    "url": "http://www.devrs.com/gb/asmcode.php",
+    "description": "A lot of working demos and sources."
+  },
+  {
+    "name": "Assembly tutorial by David Pello",
+    "url": "https://avivace.com/apps/gbdev/salvage/tutorial_de_ensamblador%20%5BLa%20decadence%5D.html",
+    "description": "Good document to actually learn to produce working asm code for gb. Brief explanations of many important topics. Many examples with commented source code."
+  },
+  {
+    "name": "assemblydigest",
+    "url": "https://github.com/assemblydigest/gameboy",
+    "description": "Exploring Game Boy programming techniques:"
+  },
+  {
     "name": "Making an Empty Game Boy ROM (in RGBDS)",
     "url": "http://assemblydigest.tumblr.com/post/77198211186/tutorial-making-an-empty-game-boy-rom-in-rgbds"
   },
@@ -665,6 +699,50 @@
   {
     "name": "Helpful Libraries",
     "url": "http://assemblydigest.tumblr.com/post/77432349682/code-helpful-libraries"
+  },
+  {
+    "name": "Beginner's Guide to Reverse Engineering GB",
+    "url": "http://web.archive.org/web/20150511145100/http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm",
+    "description": "Some starting tips on disassembling and reverse engineering."
+  },
+  {
+    "name": "gb-template",
+    "url": "https://github.com/exezin/gb-template",
+    "description": "A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading."
+  },
+  {
+    "name": "https://github.com/nezticle/rgbds-template",
+    "url": "rgbds-template",
+    "description": "Basic hello-world example for Game Boy using RGBDS."
+  },
+  {
+    "name": "Reverse Engineering for Beginners",
+    "url": "https://beginners.re/",
+    "description": "Free ebook (1060 pages) by Dennis Yurichev."
+  },
+  {
+    "name": "FlappyBoy: Making a simple Game Boy Game",
+    "url": "http://voidptr.io/blog/2017/01/21/GameBoy.html"
+  },
+  {
+    "name": "bootstrap.gb",
+    "url": "https://github.com/yenatch/bootstrap.gb",
+    "description": "An example Game Boy project."
+  },
+  {
+    "name": "Game Boy Assembly Language Primer",
+    "url": "http://www.devrs.com/gb/files/galp.zip",
+    "description": "Simple template code with memory defines, copy routines and IBM font tilemap."
+  },
+  {
+    "name": "Super Game Boy development",
+    "url": "https://imanoleasgames.blogspot.no/2016/12/games-aside-1-super-game-boy.html",
+    "description": "Step by step tutorial to implement Super Game Boy features (frame and palettes)."
+  },
+  {
+    "name": "GameBoy programming tutorial: Hello World!",
+    "url": "http://peterwynroberts.com/?p=10",
+    "description": "Step by step tutorial."
   },
   {
     "name": "DMA hijacking",
@@ -1109,7 +1187,8 @@
     "description": "A collection of demos."
   },
   {
-    "name": "Pokemon Pocket Computer: What is it and how to use it to make cheat codes.",
-    "url": "https://tilde.town/%7Eminerobber/techwriteups/pokemonpc.html"
+    "name": "Pokemon Pocket Computer:",
+    "url": "https://tilde.town/%7Eminerobber/techwriteups/pokemonpc.html",
+    "description": "What is it and how to use it to make cheat codes."
   }
 ]
