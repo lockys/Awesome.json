@@ -45,6 +45,21 @@
     "description": "An easier, more reliable and faster way to build software. MIT License."
   },
   {
+    "name": "Ninja",
+    "url": "https://github.com/ninja-build/ninja",
+    "description": "Small, simple build system with a focus on speed. [Apache2.0]"
+  },
+  {
+    "name": "Bazel",
+    "url": "https://github.com/bazelbuild/bazel",
+    "description": "Build system for various operating systems and targets. [Apache2.0]"
+  },
+  {
+    "name": "Buck",
+    "url": "https://github.com/facebook/buck",
+    "description": "Build system created and used by Facebook. [Apache2.0]"
+  },
+  {
     "name": "Clang",
     "url": "http://clang.llvm.org/",
     "description": "C compiler for LLVM. Supports C11. [NCSA]"
@@ -70,6 +85,16 @@
     "description": "Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU LGPL2.1 only]"
   },
   {
+    "name": "Intel SPMD",
+    "url": "https://github.com/ispc/ispc",
+    "description": "Compiler for a variant of the C language, for single program, multiple data programming"
+  },
+  {
+    "name": "yasm",
+    "url": "https://github.com/yasm/yasm",
+    "description": "Yasm Modular Assembler Project. [2-clause BSD]"
+  },
+  {
     "name": "libzip",
     "url": "https://github.com/nih-at/libzip",
     "description": "A C library for reading, creating, and modifying zip archives. [3-clause BSD]"
@@ -83,6 +108,36 @@
     "name": "zlib",
     "url": "https://github.com/madler/zlib",
     "description": "Massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD]"
+  },
+  {
+    "name": "bzip2",
+    "url": "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
+    "description": "Patent free, high quality data compressor. [3-clause BSD]"
+  },
+  {
+    "name": "lz4",
+    "url": "https://github.com/lz4/lz4",
+    "description": "Fast Compression algorithm."
+  },
+  {
+    "name": "snappy",
+    "url": "https://github.com/google/snappy",
+    "description": "Fast compression library (implementation in C++, native bindings to C)"
+  },
+  {
+    "name": "zstd",
+    "url": "https://github.com/facebook/zstd",
+    "description": "Fast real-time compression algorithm [3-clause BSD]"
+  },
+  {
+    "name": "brotli",
+    "url": "https://github.com/google/brotli",
+    "description": "Generic lossless compression algorithm based on LZ77, Huffman coding and 2nd order context modelling [MIT]"
+  },
+  {
+    "name": "quicklz",
+    "url": "http://www.quicklz.com/download.html",
+    "description": "Fast compression library. [GNU GPL2.1 only]"
   },
   {
     "name": "GnuTLS",
@@ -330,6 +385,11 @@
     "description": "Range of single-file libraries for C. [Public domain]"
   },
   {
+    "name": "libsrt",
+    "url": "https://github.com/faragon/libsrt",
+    "description": "Safe Real-Time library for C. [3-clause BSD]"
+  },
+  {
     "name": "Corange",
     "url": "https://github.com/orangeduck/Corange",
     "description": "Game engine in pure C. [FreeBSD]"
@@ -511,6 +571,26 @@
     "name": "nuklear",
     "url": "https://github.com/vurtun/nuklear",
     "description": "Single-header ANSI C gui library. [Public domain]"
+  },
+  {
+    "name": "jwHash",
+    "url": "https://github.com/watmough/jwHash",
+    "description": "Fast hashtable implementation. [Apache2.0]"
+  },
+  {
+    "name": "xxHash",
+    "url": "https://github.com/Cyan4973/xxHash",
+    "description": "Extremely fast non-cryptographic hash algorithm. [2-clause BSD]"
+  },
+  {
+    "name": "libcrc",
+    "url": "https://github.com/lammertb/libcrc",
+    "description": "Multi platform CRC library. [MIT License]"
+  },
+  {
+    "name": "murmur",
+    "url": "https://github.com/ispc/ispc",
+    "description": "C implementation of MurMur Hashing [Public domain]"
   },
   {
     "name": "libccv",
@@ -705,6 +785,10 @@
     "url": "https://www.codeproject.com/articles/6154/writing-efficient-c-and-c-code-optimization"
   },
   {
+    "name": "What every programmer should know about memory",
+    "url": "https://www.akkadia.org/drepper/cpumemory.pdf"
+  },
+  {
     "name": "C Programming Language Certified Associate preparation course",
     "url": "http://cppinstitute.com/study-resources"
   },
@@ -764,6 +848,31 @@
     "description": "Suite of macros to implement advanced features like default function arguments, scope-bound resources, etc. [Q Public License] (Requires C99)"
   },
   {
+    "name": "jemalloc",
+    "url": "https://github.com/jemalloc/jemalloc",
+    "description": "General purpose malloc(3) implementation that emphasizes"
+  },
+  {
+    "name": "dlmalloc",
+    "url": "http://g.oswego.edu/pub/misc/malloc.c",
+    "description": "Doug Lea's malloc(3) implementation, useful for academic and research purposes [Public Domain]"
+  },
+  {
+    "name": "Hoard",
+    "url": "https://github.com/emeryberger/Hoard",
+    "description": "A Fast, Scalable, and Memory-efficient Malloc for Linux, Windows, Mac, and Solaris [GNU GPL2 only]"
+  },
+  {
+    "name": "nedmalloc",
+    "url": "https://github.com/ned14/nedmalloc",
+    "description": "An EXTREMELY FAST portable thread caching malloc(3) implementation written in C [GNU GPL2 only]"
+  },
+  {
+    "name": "rpmalloc",
+    "url": "https://github.com/rxi/dyad",
+    "description": "Public domain. cross platform, lock-free memory allocator [Public Domain]"
+  },
+  {
     "name": "FFMPEG",
     "url": "https://www.ffmpeg.org/",
     "description": "Complete, cross-platform solution to record, convert and stream audio and video. [GNU LGPL2.1 or later] or [GNU GPL2.1 or later (some parts)]"
@@ -777,6 +886,21 @@
     "name": "lodepng",
     "url": "http://lodev.org/lodepng/",
     "description": "Simple PNG image decoder and encoder, requiring no other dependencies. [3-clause BSD]"
+  },
+  {
+    "name": "libsoup",
+    "url": "https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup",
+    "description": "GNOME HTTP client/server library. Uses GObject. [GNU LGPL2.1 only]"
+  },
+  {
+    "name": "libmpv",
+    "url": "https://github.com/mpv-player/mpv",
+    "description": "Music-playing library. Compile with ./waf configure --disable-cplayer --enable-libmpv-shared to not have the music player. [GNU GPL2.1 or later]"
+  },
+  {
+    "name": "libsoundio",
+    "url": "https://github.com/andrewrk/libsoundio",
+    "description": "Library for cross-platform, real-time audio input and output. Has a range of back-ends. [Expat]"
   },
   {
     "name": "asnlc",
@@ -834,6 +958,11 @@
     "description": "Yet another event loop. [FreeBSD]"
   },
   {
+    "name": "libuv",
+    "url": "https://github.com/libuv/libuv",
+    "description": "Cross-platform asynchronous I/O. [Expat]"
+  },
+  {
     "name": "libevent",
     "url": "http://libevent.org/",
     "description": "Event loop replacement for network servers. [3-clause BSD]"
@@ -857,11 +986,6 @@
     "name": "libmicrohttpd",
     "url": "https://www.gnu.org/software/libmicrohttpd/",
     "description": "Small C library that makes it easy to run an HTTP server as part of another application. [GNU LGPL2.1 or later]"
-  },
-  {
-    "name": "libsoup",
-    "url": "https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup",
-    "description": "GNOME HTTP client/server library. Uses GObject. [GNU LGPL2.1 only]"
   },
   {
     "name": "lwan",
@@ -919,6 +1043,16 @@
     "description": "Library for building simple and elegant cross-platform mmo client-server solutions. [Apache2.0]"
   },
   {
+    "name": "dyad",
+    "url": "https://github.com/rxi/dyad",
+    "description": "Asynchronous networking library [MIT License]"
+  },
+  {
+    "name": "h2o",
+    "url": "https://github.com/h2o/h2o",
+    "description": "Optimized HTTP/1, HTTP/2 high performance server/library [MIT License]"
+  },
+  {
     "name": "balde",
     "url": "https://github.com/balde/balde",
     "description": "Microframework for C based on GLib. [GNU LGPLv2.1 only]"
@@ -937,6 +1071,11 @@
     "name": "klone",
     "url": "https://github.com/koanlogic/klone",
     "description": "KLone is a fully-featured, multiplatform, web application development framework."
+  },
+  {
+    "name": "duda",
+    "url": "https://github.com/monkey/duda",
+    "description": "Duda I/O is an event-driven and high performant web services framework written in C. [Apache2.0]"
   },
   {
     "name": "apophenia",
@@ -1044,6 +1183,11 @@
     "description": "Go-style concurrency in C. [X11]"
   },
   {
+    "name": "libdill",
+    "url": "https://github.com/sustrik/libdill",
+    "description": "Structured concurrency in C. [X11]"
+  },
+  {
     "name": "MPICH",
     "url": "http://www.mpich.org/",
     "description": "Another implementation of MPI. [MPICH licence]"
@@ -1082,6 +1226,31 @@
     "name": "TinyCThread",
     "url": "https://tinycthread.github.io/",
     "description": "Portable, small implementation of the C11 threads API. [zlib]"
+  },
+  {
+    "name": "hammer",
+    "url": "https://github.com/abiggerhammer/hammer",
+    "description": "Parser combinators for binary formats. [GNU GPL2.1 only]"
+  },
+  {
+    "name": "iniparser",
+    "url": "https://github.com/ndevilla/iniparser",
+    "description": "Parser for .ini files. [Expat]"
+  },
+  {
+    "name": "libYAML",
+    "url": "http://www.pyyaml.org/wiki/LibYAML",
+    "description": "YAML 1.1 parser and emitter. [Expat]"
+  },
+  {
+    "name": "mpc",
+    "url": "https://github.com/orangeduck/mpc",
+    "description": "Parser combinator library. [FreeBSD]"
+  },
+  {
+    "name": "libucl",
+    "url": "https://github.com/vstakhov/libucl",
+    "description": "Universal configuration library parser. [FreeBSD]"
   },
   {
     "name": "PCRE",
@@ -1259,6 +1428,11 @@
     "description": "Minimal unit testing framework for C. [Expat]"
   },
   {
+    "name": "munit",
+    "url": "https://nemequ.github.io/munit/",
+    "description": "Small but full-featured unit testing framework for C with no dependencies. [MIT License]"
+  },
+  {
     "name": "Unity",
     "url": "https://github.com/ThrowTheSwitch/Unity",
     "description": "Simple unit testing framework for C. [Expat]"
@@ -1384,16 +1558,6 @@
     "description": "Formats C source code automatically to make it easier to read. Also converts from one style of source to another. [GNU GPLv3 or later]"
   },
   {
-    "name": "Make",
-    "url": "https://www.gnu.org/software/make/",
-    "description": "Tool which controls the generation of executables and other non-source files of a program (link to the GNU implementation). [GNU GPL3 or later]"
-  },
-  {
-    "name": "qo",
-    "url": "https://github.com/andlabs/qo",
-    "description": "Build system that works without a separate config file. [Expat]"
-  },
-  {
     "name": "rr",
     "url": "http://rr-project.org/",
     "description": "Debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD]"
@@ -1424,14 +1588,9 @@
     "description": "Library for manipulating binary object files. Part of GNU binutils. [GNU GPL3 or later]"
   },
   {
-    "name": "ccv",
-    "url": "https://github.com/liuliu/ccv",
-    "description": "C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD]"
-  },
-  {
     "name": "cf4ocl",
     "url": "https://fakenmc.github.io/cf4ocl/",
-    "description": "The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking OpenCL projects. [GNU LGPL3 (library)] or [GNU GPL3 (project code)]"
+    "description": "The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking  OpenCL projects. [GNU LGPL3 (library)] or [GNU GPL3 (project code)]"
   },
   {
     "name": "CommonMark",
@@ -1489,29 +1648,9 @@
     "description": "Collection of utilities for measuring and improving performance. [3-clause BSD]"
   },
   {
-    "name": "hammer",
-    "url": "https://github.com/abiggerhammer/hammer",
-    "description": "Parser combinators for binary formats. [GNU GPL2.1 only]"
-  },
-  {
     "name": "huffandpuff",
     "url": "https://github.com/adamierymenko/huffandpuff",
     "description": "Minimal Huffman encoder and decoder. [Public domain]"
-  },
-  {
-    "name": "iniparser",
-    "url": "https://github.com/ndevilla/iniparser",
-    "description": "Parser for .ini files. [Expat]"
-  },
-  {
-    "name": "jemalloc",
-    "url": "http://jemalloc.net/",
-    "description": "Malloc implementation that emphasizes avoidance of fragmentation and scalable concurrency support. [FreeBSD]"
-  },
-  {
-    "name": "jwHash",
-    "url": "https://github.com/watmough/jwHash",
-    "description": "Fast hashtable implementation. [Apache2.0]"
   },
   {
     "name": "kdtree",
@@ -1554,11 +1693,6 @@
     "description": "Cross-platform protocol library to communicate with iThings. [GNU LGPLv2.1 or later (library)] or [GNU GPL2.1 or later (tools)]"
   },
   {
-    "name": "libmpv",
-    "url": "https://github.com/mpv-player/mpv",
-    "description": "Music-playing library. Compile with ./waf configure --disable-cplayer --enable-libmpv-shared to not have the music player. [GNU GPL2.1 or later]"
-  },
-  {
     "name": "libnfc",
     "url": "https://github.com/nfc-tools/libnfc",
     "description": "Platform-independent Near-Field Communication library. [GNU LGPL3 only]"
@@ -1567,31 +1701,6 @@
     "name": "libPhenom",
     "url": "http://facebook.github.io/libphenom/index.html",
     "description": "Eventing framework for building high-scalability and high-performance systems. [Apache2.0]"
-  },
-  {
-    "name": "libsoundio",
-    "url": "https://github.com/andrewrk/libsoundio",
-    "description": "Library for cross-platform, real-time audio input and output. Has a range of back-ends. [Expat]"
-  },
-  {
-    "name": "libucl",
-    "url": "https://github.com/vstakhov/libucl",
-    "description": "Universal configuration library parser. [FreeBSD]"
-  },
-  {
-    "name": "libuv",
-    "url": "https://github.com/libuv/libuv",
-    "description": "Cross-platform asynchronous I/O. [Expat]"
-  },
-  {
-    "name": "libYAML",
-    "url": "http://www.pyyaml.org/wiki/LibYAML",
-    "description": "YAML 1.1 parser and emitter. [Expat]"
-  },
-  {
-    "name": "mpc",
-    "url": "https://github.com/orangeduck/mpc",
-    "description": "Parser combinator library. [FreeBSD]"
   },
   {
     "name": "ncurses",
@@ -1622,6 +1731,21 @@
     "name": "uthash",
     "url": "http://troydhanson.github.io/uthash/",
     "description": "Hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD]"
+  },
+  {
+    "name": "cpu_features",
+    "url": "https://github.com/google/cpu_features",
+    "description": "A cross platform C99 library to get cpu features at runtime. [Apache2.0]"
+  },
+  {
+    "name": "pblog",
+    "url": "https://github.com/google/pblog",
+    "description": "Small, low overhead, structured logging library intended for logging formware events.[Apache2.0]"
+  },
+  {
+    "name": "libelf",
+    "url": "https://github.com/WolfgangSt/libelf",
+    "description": "ELF object file access library in C. [GNU GPL2.1 only]"
   },
   {
     "name": "Expat",
