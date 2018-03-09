@@ -245,6 +245,11 @@
     "description": "Yet another library for parsing command-line options and arguments"
   },
   {
+    "name": "OptionParser",
+    "url": "https://crystal-lang.org/api/OptionParser.html",
+    "description": "command-line options processing (Crystal stdlib)"
+  },
+  {
     "name": "dl",
     "url": "https://github.com/creadone/dl",
     "description": "Simple utility for download files by URLs from list"
@@ -280,29 +285,19 @@
     "description": "Todo list working in command line"
   },
   {
+    "name": "ameba",
+    "url": "https://github.com/veelenga/ameba",
+    "description": "A static code analysis tool"
+  },
+  {
     "name": "cr-dotenv",
     "url": "https://github.com/gdotdesign/cr-dotenv",
     "description": "Loads .env file"
   },
   {
-    "name": "crystal-toml",
-    "url": "https://github.com/manastech/crystal-toml",
-    "description": "TOML parser"
-  },
-  {
-    "name": "dockerfile.cr",
-    "url": "https://github.com/keplersj/dockerfile.cr",
-    "description": "Dockerfile Parsing Library"
-  },
-  {
     "name": "habitat",
     "url": "https://github.com/luckyframework/habitat",
     "description": "Type safe configuration for your classes and modules"
-  },
-  {
-    "name": "zq",
-    "url": "https://github.com/colstrom/zq",
-    "description": "Command-line ZPL processor"
   },
   {
     "name": "human_file_size.cr",
@@ -338,6 +333,61 @@
     "name": "wkhtmltopdf-crystal",
     "url": "https://github.com/blocknotes/wkhtmltopdf-crystal",
     "description": "Bindings / wrapper for libwkhtmltox (HTML to PDF / image converter)"
+  },
+  {
+    "name": "crystal-toml",
+    "url": "https://github.com/manastech/crystal-toml",
+    "description": "TOML parser"
+  },
+  {
+    "name": "CSV",
+    "url": "https://crystal-lang.org/api/CSV.html",
+    "description": "parsing and generating for comma-separated values (Crystal stdlib)"
+  },
+  {
+    "name": "dockerfile.cr",
+    "url": "https://github.com/keplersj/dockerfile.cr",
+    "description": "Dockerfile Parsing Library"
+  },
+  {
+    "name": "Gzip",
+    "url": "https://crystal-lang.org/api/Gzip.html",
+    "description": "readers and writers of gzip format (Crystal stdlib)"
+  },
+  {
+    "name": "INI",
+    "url": "https://crystal-lang.org/api/INI.html",
+    "description": "INI file parser (Crystal stdlib)"
+  },
+  {
+    "name": "JSON",
+    "url": "https://crystal-lang.org/api/JSON.html",
+    "description": "parsing and generating JSON documents (Crystal stdlib)"
+  },
+  {
+    "name": "XML",
+    "url": "https://crystal-lang.org/api/XML.html",
+    "description": "parsing and generating XML documents (Crystal stdlib)"
+  },
+  {
+    "name": "YAML",
+    "url": "https://crystal-lang.org/api/YAML.html",
+    "description": "parsing and generating YAML documents (Crystal stdlib)"
+  },
+  {
+    "name": "Zip",
+    "url": "https://crystal-lang.org/api/Zip.html",
+    "description": "readers and writers of zip format (Crystal stdlib)"
+  },
+  {
+    "name": "Zlib",
+    "url": "https://crystal-lang.org/api/Zlib.html",
+    "description": "readers and writers of zlib format (Crystal stdlib)"
+  },
+  {
+    "name": "zq",
+    "url": "https://github.com/colstrom/zq",
+    "description": "Command-line ZPL processor"
   },
   {
     "name": "faker",
@@ -795,6 +845,21 @@
     "description": "HTTP/2 Protocol Implementation"
   },
   {
+    "name": "HTTP::Client",
+    "url": "https://crystal-lang.org/api/HTTP/Client.html",
+    "description": "HTTP client (Crystal stdlib)"
+  },
+  {
+    "name": "HTTP::Server",
+    "url": "https://crystal-lang.org/api/HTTP/Server.html",
+    "description": "HTTP server (Crystal stdlib)"
+  },
+  {
+    "name": "HTTP::WebSocket",
+    "url": "https://crystal-lang.org/api/HTTP/WebSocket.html",
+    "description": "HTTP WebSocket client (Crystal stdlib)"
+  },
+  {
     "name": "http_distributor",
     "url": "https://github.com/Nephos/http_distributor",
     "description": "HTTP server which allows sneaky http requests"
@@ -893,6 +958,11 @@
     "name": "katip",
     "url": "https://github.com/guvencenanguvenal/katip",
     "description": "JSONbase logger"
+  },
+  {
+    "name": "Logger",
+    "url": "https://crystal-lang.org/api/Logger.html",
+    "description": "logging utility (Crystal stdlib)"
   },
   {
     "name": "statsd.cr",
@@ -1080,11 +1150,6 @@
     "description": "Fast IRC parser/generator"
   },
   {
-    "name": "ipaddress.cr",
-    "url": "https://github.com/Sija/ipaddress.cr",
-    "description": "Library to handle IPv4 and IPv6 addresses"
-  },
-  {
     "name": "jwt",
     "url": "https://github.com/crystal-community/jwt",
     "description": "Implementation of JWT (JSON Web Token)"
@@ -1095,9 +1160,29 @@
     "description": "MessagePack library"
   },
   {
+    "name": "OAuth",
+    "url": "https://crystal-lang.org/api/OAuth.html",
+    "description": "OAuth consumer (Crystal stdlib)"
+  },
+  {
+    "name": "OAuth2",
+    "url": "https://crystal-lang.org/api/OAuth2.html",
+    "description": "OAuth2 client (Crystal stdlib)"
+  },
+  {
+    "name": "OpenSSL",
+    "url": "https://crystal-lang.org/api/OpenSSL.html",
+    "description": "bindings to libssl (Crystal stdlib)"
+  },
+  {
     "name": "transfer_more",
     "url": "https://github.com/Nephos/transfer_more",
     "description": "Clone of transfer.sh to uploads files"
+  },
+  {
+    "name": "ipaddress.cr",
+    "url": "https://github.com/Sija/ipaddress.cr",
+    "description": "Library to handle IPv4 and IPv6 addresses"
   },
   {
     "name": "active_record.cr",
@@ -1320,6 +1405,11 @@
     "description": "{{Mustache}} for Crystal"
   },
   {
+    "name": "ECR (Embedded Crystal)",
+    "url": "https://crystal-lang.org/api/ECR.html",
+    "description": "compile time template language which uses plain crystal expressions (Crystal stdlib)"
+  },
+  {
     "name": "Kilt",
     "url": "https://github.com/jeromegn/kilt",
     "description": "Abstraction layer for template engines"
@@ -1358,6 +1448,11 @@
     "name": "mocks.cr",
     "url": "https://github.com/waterlink/mocks.cr",
     "description": "Mocking library for Crystal"
+  },
+  {
+    "name": "Spec",
+    "url": "https://crystal-lang.org/api/Spec.html",
+    "description": "spec framework (Crystal stdlib)"
   },
   {
     "name": "spec2-mocks",
