@@ -1188,8 +1188,9 @@
     "url": "https://github.com/sfackler/r2d2"
   },
   {
-    "name": "NoSQL [nosql]\n\nCassandra [cassandra, cql]\n\nAlexPikalov/cdrs [cdrs] — native client written in Rust \nMetaswitch/cassandra-rs —  bindings to the DataStax C/C++ client \n\n\nCouchDB [couchdb]\n\nchill-rs/chill [couchdb] — a Rust client for the CouchDB REST API \n\n\nElasticsearch [elasticsearch]\n\nbenashford/rs-es [rs-es] — a Rust client for the Elastic REST API \nelastic-rs/elastic-reqwest [elastic_reqwest] — a lightweight implementation of the Elasticsearch API based on Reqwest \n\n\netcd\n\njimmycuadra/rust-etcd [etcd] — A client library for CoreOS's etcd. \n\n\nForestDB\n\nvhbit/sherwood — ForestDB bindings \n\n\nInfluxDB\n\npanoptix-za/influxdb-rs — asynchronous interface \n\n\nLevelDB\n\nskade/leveldb — LevelDB bindings \n\n\nLMDB [lmdb]\n\nvhbit/lmdb-rs [lmdb-rs] — LMDB bindings \n\n\nMongoDB [mongodb]\n\nmongodb-labs/mongo-rust-driver-prototype [mongodb] — MongoDB bindings \n\n\nNeo4j [cypher, neo4j]\nRedis [redis]\n\nmitsuhiko/redis-rs — Redis library in Rust \n\n\nRocksDB\n\nspacejam/rust-rocksdb — RocksDB bindings \n\n\nUnQLite\n\nzitsen/unqlite.rs — UnQLite bindings \n\n\nZooKeeper\n\nbonifaido/rust-zookeeper [zookeeper] — A client library for Apache ZooKeeper. \n\n\n\n",
-    "url": "https://crates.io/keywords/nosql"
+    "name": "NoSQL [nosql]\n\nCassandra [cassandra, cql]\n\nAlexPikalov/cdrs [cdrs] — native client written in Rust \nMetaswitch/cassandra-rs —  bindings to the DataStax C/C++ client \n\n\nCouchDB [couchdb]\n\nchill-rs/chill [couchdb] — a Rust client for the CouchDB REST API \n\n\nElasticsearch [elasticsearch]\n\nbenashford/rs-es [rs-es] — a Rust client for the Elastic REST API \nelastic-rs/elastic-reqwest [elastic_reqwest] — a lightweight implementation of the Elasticsearch API based on Reqwest \n\n\netcd\n\njimmycuadra/rust-etcd [etcd] — A client library for CoreOS's etcd. \n\n\nForestDB\n\nvhbit/sherwood — ForestDB bindings \n\n\nInfluxDB\n\npanoptix-za/influxdb-rs — asynchronous interface \ndriftluo/InfluxDBClient-rs",
+    "url": "https://crates.io/keywords/nosql",
+    "description": "Synchronization interface "
   },
   {
     "name": "Cassandra [cassandra, cql]\n\nAlexPikalov/cdrs [cdrs] — native client written in Rust \nMetaswitch/cassandra-rs —  bindings to the DataStax C/C++ client \n\n",
@@ -1232,12 +1233,18 @@
     "url": "https://github.com/vhbit/sherwood"
   },
   {
-    "name": "InfluxDB\n\npanoptix-za/influxdb-rs — asynchronous interface \n\n",
-    "url": "https://www.influxdata.com/"
+    "name": "InfluxDB\n\npanoptix-za/influxdb-rs — asynchronous interface \ndriftluo/InfluxDBClient-rs",
+    "url": "https://www.influxdata.com/",
+    "description": "Synchronization interface "
   },
   {
     "name": "panoptix-za/influxdb-rs — asynchronous interface ",
     "url": "https://github.com/panoptix-za/influxdb-rs"
+  },
+  {
+    "name": "driftluo/InfluxDBClient-rs",
+    "url": "https://github.com/driftluo/InfluxDBClient-rs",
+    "description": "Synchronization interface "
   },
   {
     "name": "skade/leveldb — LevelDB bindings ",
@@ -1636,6 +1643,10 @@
   {
     "name": "jeremyletang/rust-sfml — SFML bindings ",
     "url": "https://github.com/jeremyletang/rust-sfml"
+  },
+  {
+    "name": "tomassedovic/tcod-rs — Libtcod bindings for Rust.",
+    "url": "https://github.com/tomassedovic/tcod-rs"
   },
   {
     "name": "bbodi/rust-voxlap — Voxlap bindings",
@@ -2253,6 +2264,11 @@
     "url": "https://www.youtube.com/watch?v=lO1z-7cuRYI"
   },
   {
+    "name": "Programming Community Curated Resources for Learning Rust",
+    "url": "https://hackr.io/tutorials/learn-rust",
+    "description": "A list of recommended resources voted by the programming community."
+  },
+  {
     "name": "exercism.io — programming exercises that help you learn new concepts in Rust.",
     "url": "http://exercism.io/languages/rust/about"
   },
@@ -2290,7 +2306,7 @@
   },
   {
     "name": "New Rustacean — a podcast about learning Rust",
-    "url": "http://www.newrustacean.com"
+    "url": "https://newrustacean.com"
   },
   {
     "name": "RustCamp 2015 Talks",
