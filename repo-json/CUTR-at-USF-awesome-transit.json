@@ -15,6 +15,11 @@
     "description": "List of GTFS/GTFS-realtime data feeds from around the world. If you're trying to get realtime data for some agency, this is a good place to start."
   },
   {
+    "name": "World Bank",
+    "url": "https://olc.worldbank.org/content/introduction-general-transit-feed-specification-gtfs-and-informal-transit-system-mapping",
+    "description": "\"Intro. to GTFS\" online course - A free, online, self-paced course for learning about GTFS and GTFS-realtime."
+  },
+  {
     "name": "TransitWiki",
     "url": "http://transitwiki.org",
     "description": "A community wiki for transit planners. Like this repo, but better."
@@ -49,6 +54,16 @@
     "description": "Community editable list of many transit agency GTFS datasets. Also provides an API to access the data as JSON/GeoJSON and a playground to try out the data."
   },
   {
+    "name": "TransitFeeds",
+    "url": "http://transitfeeds.com/",
+    "description": "List of GTFS and GTFS-RT feeds. Archives and validates the GTFS feeds and allows you to preview both GTFS and GTFS-RT through the browser."
+  },
+  {
+    "name": "GTFS Data Exchange (Deprecated)",
+    "url": "http://www.gtfs-data-exchange.com/agencies",
+    "description": "Formerly the definitive directory of GTFS feed URLs. Shutdown in 2016. But 93 GB of data from 2008 to 2016 is available upon request."
+  },
+  {
     "name": "CapMetrics",
     "url": "https://github.com/scascketta/CapMetrics",
     "description": "Historical vehicle locations for Austin's transit agency (CapMetro). Data is collected by capmetricsd, a Go daemon."
@@ -59,19 +74,19 @@
     "description": "Information and statistics on the transit systems of the United States, run by the Federal Transit Administration."
   },
   {
-    "name": "TransitFeeds",
-    "url": "http://transitfeeds.com/",
-    "description": "List of GTFS and GTFS-RT feeds. Archives and validates the GTFS feeds and allows you to preview both GTFS and GTFS-RT through the browser."
+    "name": "Transport API",
+    "url": "https://www.transportapi.com/",
+    "description": "REST API for aggregated transit data for the United Kingdom.  Fee-based access."
   },
   {
     "name": "TransLoc OpenAPI",
     "url": "https://market.mashape.com/transloc/openapi-1-2",
-    "description": "Real-time vehicle, route, stop, and arrival data for over 60 transit systems in the United States."
+    "description": "REST API for real-time vehicle, route, stop, and arrival data for over 60 transit systems in the United States that have purchased TransLoc's AVL hardware and software."
   },
   {
-    "name": "GTFS Data Exchange",
-    "url": "http://www.gtfs-data-exchange.com/agencies",
-    "description": "Used to be the definitive list of GTFS links. Shutdown in 2016. But 93G of data from 2008 to 2016 is available upon request."
+    "name": "NextBus API",
+    "url": "http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf",
+    "description": "REST API for real-time vehicle, route, stop, and arrival data for agencies that have puchased NextBus's hardware and/or software."
   },
   {
     "name": "Navitia.io",
@@ -79,24 +94,24 @@
     "description": "REST API for journey planning, stop schedules, isocrhons and lot more on US and EU. Navitia is the opensource engine behind the live API."
   },
   {
+    "name": "CityBikes",
+    "url": "http://api.citybik.es",
+    "description": "REST API for aggregated bikeshare data from around the world. Powered by pyBikes."
+  },
+  {
     "name": "OneBusAway",
     "url": "http://onebusaway.org/",
     "description": "A Java app that consumes GTFS and GTFS-Realtime (along with other formats) and turns them into an easy to use REST API."
   },
   {
-    "name": "TransitClock",
-    "url": "http://thetransitclock.org",
-    "description": "Java application that can consume raw vehicle positions and generate prediction times in formats such as GTFS-realtime.  Formerly known as \"Transitime\"."
-  },
-  {
-    "name": "pyBikes",
-    "url": "https://github.com/eskerda/pybikes",
-    "description": "an API on worldwide bikeshare systems powering CityBikes"
-  },
-  {
     "name": "OpenTripPlanner",
     "url": "http://www.opentripplanner.org/",
     "description": "An open source platform for multi-modal and multi-agency journey planning, as well as returning information about a multi-modal graph (using data sources such as GTFS and OpenStreetMap)."
+  },
+  {
+    "name": "TransitClock",
+    "url": "http://thetransitclock.org",
+    "description": "Java application that can consume raw vehicle positions and generate prediction times in formats such as GTFS-realtime.  Formerly known as \"Transitime\"."
   },
   {
     "name": "Linked Connections",
@@ -112,6 +127,15 @@
     "name": "gtfs-server",
     "url": "https://github.com/denysvitali/gtfs-server",
     "description": "A web server, written in Rust that uses PostGIS as a backend to serve GTFS data via a HTTP endpoint"
+  },
+  {
+    "name": "Navitia is the opensource engine behind the Navitia.io live API.",
+    "url": "https://github.com/CanalTP/navitia"
+  },
+  {
+    "name": "pyBikes",
+    "url": "https://github.com/eskerda/pybikes",
+    "description": "Software powering CityBikes for worldwide bikeshare system info"
   },
   {
     "name": "Remix",
@@ -294,36 +318,6 @@
     "name": "gtfspy-webviz",
     "url": "https://github.com/CxAalto/gtfspy-webviz",
     "description": "Web application for animation and visualization of GTFS data using the gtfspy Python3 library."
-  },
-  {
-    "name": "When(ish) is my bus? User-centered Visualizations of Uncertainty in Everyday, Mobile Predictive Systems ",
-    "url": "http://faculty.washington.edu/jhullman/busUncertaintyVis.pdf",
-    "description": "Paper that does an amazing job answering the question of how do we communicate uncertainty in transit predictions? The paper explains the problem, existing solutions and designs a better interface for letting users know when to arrive at the bus stop."
-  },
-  {
-    "name": "When(ish) is my bus? Data and code",
-    "url": "https://github.com/mjskay/when-ish-is-my-bus",
-    "description": "The data and code (R) behind Whenish is my bus? Data includes three days of historical vehicle positions and the survey results."
-  },
-  {
-    "name": "\"Legacy AVL system? It's okay, join the club.\" by Kurt Raschke",
-    "url": "https://kurtraschke.com/2015/01/legacy-avl-export",
-    "description": "Good discussion of options for transforming legacy AVL system data into the GTFS-realtime format."
-  },
-  {
-    "name": "APTA Policy Development and Research",
-    "url": "http://www.apta.com/resources/reportsandpublications/Documents/APTA-Embracing-Open-Data.pdf",
-    "description": "Public Transportation Embracing Open Data - APTA's discussion of the benefits and challenges of open transit data (a short summary of the below TCRP report)."
-  },
-  {
-    "name": "TCRP Synthesis 115",
-    "url": "http://onlinepubs.trb.org/Onlinepubs/tcrp/tcrp_syn_115.pdf",
-    "description": "Open Data: Challenges and Opportunities for Transit Agencies - A comprehensive report looking at the benefits and challenges of open transit data."
-  },
-  {
-    "name": "\"What's new in GTFS-realtime v2.0\" by Sean Barbeau",
-    "url": "https://medium.com/@sjbarbeau/whats-new-in-gtfs-realtime-v2-0-cd45e6a861e9",
-    "description": "Discuss the shortfalls in GTFS-realtime v1.0 and the improvements in v2.0."
   },
   {
     "name": "GTFS Spec",
@@ -751,5 +745,70 @@
     "name": "SAE Shared and Digital Mobility Committee",
     "url": "http://articles.sae.org/15799/",
     "description": "Appears to be working on a data standard for car share and transportation network companies (TNCs) / rideshare."
+  },
+  {
+    "name": "World Bank",
+    "url": "https://olc.worldbank.org/content/introduction-general-transit-feed-specification-gtfs-and-informal-transit-system-mapping",
+    "description": "\"Intro. to GTFS\" online course - A free, online, self-paced course for learning about GTFS and GTFS-realtime."
+  },
+  {
+    "name": "When(ish) is my bus? Data and code",
+    "url": "https://github.com/mjskay/when-ish-is-my-bus",
+    "description": "The data and code (R) behind Whenish is my bus? Data includes three days of historical vehicle positions and the survey results."
+  },
+  {
+    "name": "\"Legacy AVL system? It's okay, join the club.\" by Kurt Raschke",
+    "url": "https://kurtraschke.com/2015/01/legacy-avl-export",
+    "description": "Discussion of options for transforming legacy AVL system data into the GTFS-realtime format."
+  },
+  {
+    "name": "\"GTFS Best Practices now available!\" by Sean Barbeau",
+    "url": "https://medium.com/@sjbarbeau/gtfs-best-practices-now-available-88ac67194233",
+    "description": "Discusses some of the challenges of an open data format like GTFS and the GTFS Best Practices that were launched in early 2017 to help address data quality."
+  },
+  {
+    "name": "\"What's new in GTFS-realtime v2.0\" by Sean Barbeau",
+    "url": "https://medium.com/@sjbarbeau/whats-new-in-gtfs-realtime-v2-0-cd45e6a861e9",
+    "description": "Discuss the shortfalls in GTFS-realtime v1.0 and the improvements in v2.0."
+  },
+  {
+    "name": "\"AVL, CAD, and Real-Time Passenger Info for Beginners\" by Tony Laidig",
+    "url": "http://transitdata.net/avl-cad-and-real-time-passenger-info-for-beginners/",
+    "description": "Provides a general introduction to technology used to track vehicles."
+  },
+  {
+    "name": "Tang et al.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0968090X12000022",
+    "description": "\"Ridership effects of real-time bus information system: A case study in the City of Chicago\" - Experiment in Chicago, IL showed modest increase in ridership when riders had access to real-time info via text message or email."
+  },
+  {
+    "name": "Kay et al.",
+    "url": "http://faculty.washington.edu/jhullman/busUncertaintyVis.pdf",
+    "description": "\"When(ish) is my bus? User-centered Visualizations of Uncertainty in Everyday, Mobile Predictive Systems\" - Paper attempts to answr the question of \"how do we communicate uncertainty in transit predictions?\" Explains the problem, existing solutions and designs a better interface for letting users know when to arrive at the bus stop."
+  },
+  {
+    "name": "Watkins et al.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0965856411001030",
+    "description": "\"Where Is My Bus? Impact of mobile real-time information on the perceived and actual wait time of transit riders\" - Experiments in Seattl,e WA showed that riders perceived shorter bus wait times when they had access to real-time info via mobile apps."
+  },
+  {
+    "name": "Brakewood et al.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0965856414002146",
+    "description": "“An experiment evaluating the impacts of real-time transit information on bus riders in Tampa, Florida” - Controlled experiment in Tampa, FL showed that riders with access to real-time info via mobile apps perceived nearly 2 minute reduction in wait times compared to riders without real-time info.  Riders with real-time info also had decreases in anxiety and frustration and better reception of agency."
+  },
+  {
+    "name": "Brakewood et al.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0968090X15000297",
+    "description": "\"The impact of real-time information on bus ridership in New York City\" - Experiment in NYC showed that ridership increased on long routes when real-time info was made available to riders."
+  },
+  {
+    "name": "APTA Policy Development and Research",
+    "url": "http://www.apta.com/resources/reportsandpublications/Documents/APTA-Embracing-Open-Data.pdf",
+    "description": "Public Transportation Embracing Open Data - APTA's discussion of the benefits and challenges of open transit data (a short summary of the below TCRP report)."
+  },
+  {
+    "name": "TCRP Synthesis 115",
+    "url": "http://onlinepubs.trb.org/Onlinepubs/tcrp/tcrp_syn_115.pdf",
+    "description": "Open Data: Challenges and Opportunities for Transit Agencies - A comprehensive report looking at the benefits and challenges of open transit data."
   }
 ]
