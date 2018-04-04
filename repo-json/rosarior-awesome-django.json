@@ -6,7 +6,7 @@
   },
   {
     "name": "django-admin-bootstrap",
-    "url": "https://github.com/django-admin-bootstrap/django-admin-bootstrap",
+    "url": "https://github.com/douglasmiranda/django-admin-bootstrap",
     "description": "Responsive Skin for Django Admin"
   },
   {
@@ -124,7 +124,7 @@
   },
   {
     "name": "django-webpack-loader",
-    "url": "https://github.com/ezhome/django-webpack-loader/",
+    "url": "https://github.com/owais/django-webpack-loader",
     "description": "Transparent webpack integration for django."
   },
   {
@@ -171,6 +171,11 @@
     "name": "django-userena",
     "url": "https://github.com/bread-and-pepper/django-userena/",
     "description": "Accounts for Django made beautifully simple"
+  },
+  {
+    "name": "djoser",
+    "url": "https://github.com/sunscrapers/djoser",
+    "description": "REST implementation of Django authentication system."
   },
   {
     "name": "python-social-auth",
@@ -328,7 +333,7 @@
   },
   {
     "name": "django-silk",
-    "url": "https://github.com/jazzband/silk/",
+    "url": "https://github.com/jazzband/django-silk",
     "description": "Silky smooth profiling for Django"
   },
   {
@@ -365,6 +370,11 @@
     "name": "django-email-extras",
     "url": "https://github.com/stephenmcd/django-email-extras",
     "description": "Various email utilities: PGP encryption, multipart templates, web browser test backend."
+  },
+  {
+    "name": "django-email-gateway",
+    "url": "https://github.com/MicroPyramid/django-email-gateway",
+    "description": "A django package which act as a gateway to send emails from SES. Receiving its' corresponding email replys, parsing reply email content with amazon SES."
   },
   {
     "name": "django-mailgun",
@@ -405,11 +415,6 @@
     "name": "djrill",
     "url": "https://github.com/brack3t/Djrill/",
     "description": "Email backend and new message class for Mandrill transactional email service from MailChimp."
-  },
-  {
-    "name": "django-ses-gateway",
-    "url": "https://github.com/MicroPyramid/django-ses-gateway",
-    "description": "A django package which act as a gateway to send emails from SES. Receiving its' corresponding email replys, parsing reply email content with amazon SES."
   },
   {
     "name": "django-audiofield",
@@ -567,8 +572,13 @@
     "description": "Django application to provide schema and data migrations that supports Django up to 1.6.x. (Django 1.7 and up have an integrated migration system, based on but not compatible with South)"
   },
   {
+    "name": "django-migrations-graph",
+    "url": "https://github.com/dizballanze/django-migrations-graph",
+    "description": "Django-admin command to display migrations with dependencies."
+  },
+  {
     "name": "django-push-notifications",
-    "url": "https://github.com/jleclanche/django-push-notifications",
+    "url": "https://github.com/jazzband/django-push-notifications",
     "description": "A minimal Django app that implements Device models that can send messages through APNS and GCM."
   },
   {
@@ -721,6 +731,11 @@
     "description": "Fast multi-model full-text search plugin."
   },
   {
+    "name": "djangoql",
+    "url": "https://github.com/ivelum/djangoql",
+    "description": "Advanced search language for Django"
+  },
+  {
     "name": "djorm-ext-pgfulltext",
     "url": "https://github.com/linuxlewis/djorm-ext-pgfulltext",
     "description": "PostgreSQL full-text search integration with django orm."
@@ -776,6 +791,11 @@
     "description": "Django app for providing MFA (Multi-Factor Authentication)."
   },
   {
+    "name": "django-user-sessions",
+    "url": "https://github.com/Bouke/django-user-sessions",
+    "description": "Extend Django sessions with a foreign key back to the user, allowing enumerating all user's sessions."
+  },
+  {
     "name": "django-meta",
     "url": "https://github.com/nephila/django-meta/",
     "description": "a pluggable app to allow Django developers to quickly add meta tags and OpenGraph, Twitter, and Google Plus properties to their HTML responses."
@@ -827,7 +847,7 @@
   },
   {
     "name": "django-storages",
-    "url": "https://bitbucket.org/david/django-storages/src/",
+    "url": "https://github.com/jschneier/django-storages",
     "description": "django-storages is a collection of custom storage backends for Django."
   },
   {
@@ -862,7 +882,7 @@
   },
   {
     "name": "django-rq",
-    "url": "https://github.com/ui/django-rq",
+    "url": "https://github.com/rq/django-rq",
     "description": "The easiest way to monitor and use RQ in your Django projects."
   },
   {
@@ -936,12 +956,12 @@
     "description": "Terrain file for lettuce in django projects"
   },
   {
-    "name": "[mixer] (https://github.com/klen/mixer)",
+    "name": "mixer",
     "url": "https://github.com/klen/mixer",
     "description": "An application to generate instances of Django or SQLAlchemy models. Fast and convenient test-data generation."
   },
   {
-    "name": "[mock-django] (https://github.com/dcramer/mock-django)",
+    "name": "mock-django",
     "url": "https://github.com/dcramer/mock-django",
     "description": "A simple library for mocking certain Django behavior, such as the ORM."
   },
@@ -959,6 +979,11 @@
     "name": "splinter",
     "url": "https://github.com/cobrateam/splinter/",
     "description": "Test framework for web applications."
+  },
+  {
+    "name": "django-eraserhead",
+    "url": "https://github.com/dizballanze/django-eraserhead",
+    "description": "Django package that provides hints to optimize database usage by deferring unused fields (and more)."
   },
   {
     "name": "django-stdimage",
@@ -1289,6 +1314,11 @@
     "description": "a collection of tools which make your life easier if you are building a web application using Django."
   },
   {
+    "name": "django-admin-env-notice",
+    "url": "https://github.com/dizballanze/django-admin-env-notice",
+    "description": "Visually distinguish environments in Django Admin."
+  },
+  {
     "name": "django-cms",
     "url": "https://github.com/divio/django-cms/",
     "description": "The easy-to-use and developer-friendly CMS."
@@ -1404,7 +1434,7 @@
   },
   {
     "name": "Djen of Django (< 1.7)",
-    "url": "http://agiliq.com/books/djenofdjango/"
+    "url": "https://www.agiliq.com/books/djenofdjango/"
   },
   {
     "name": "Effective Django (1.5)",
@@ -1430,7 +1460,7 @@
   },
   {
     "name": "Test-Driven Web Development with Python (1.7)",
-    "url": "http://chimera.labs.oreilly.com/books/1234000000754/index.html"
+    "url": "https://web.archive.org/web/20170914220113/http://chimera.labs.oreilly.com/books/1234000000754/index.html"
   },
   {
     "name": "Two Scoops of Django: Best Practices for Django 1.11",
