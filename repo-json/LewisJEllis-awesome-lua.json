@@ -5,6 +5,11 @@
     "description": "Lua's original ANSI C interpreter."
   },
   {
+    "name": "Lua Repo",
+    "url": "https://github.com/lua/lua",
+    "description": "The official Lua repo, as seen by the Lua team, mirrored to GitHub."
+  },
+  {
     "name": "LuaJIT",
     "url": "http://luajit.org/luajit.html",
     "description": "High-performance Just-In-Time compiler for Lua."
@@ -26,8 +31,8 @@
   },
   {
     "name": "Fengari",
-    "url": "https://github.com/fengari-lua/fengari",
-    "description": "The Lua VM rewritten in Javascript with seamless JS interoperability."
+    "url": "https://fengari.io/",
+    "description": "The Lua VM rewritten in Javascript with seamless JS and DOM interoperability."
   },
   {
     "name": "MoonSharp",
@@ -55,9 +60,34 @@
     "description": "Lua 5.1 VM and compiler implemented in Go with Go APIs."
   },
   {
+    "name": "LuaBridge",
+    "url": "https://github.com/vinniefalco/LuaBridge",
+    "description": "A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua."
+  },
+  {
     "name": "LuaRocks",
     "url": "https://luarocks.org/",
     "description": "De-facto tool for installing Lua modules as packages called \"rocks\", plus public rock repository and website.  Much like npm or pip."
+  },
+  {
+    "name": "Lake",
+    "url": "https://github.com/stevedonovan/Lake",
+    "description": "A build engine written in Lua, similar to Ruby's rake."
+  },
+  {
+    "name": "Luabuild",
+    "url": "https://github.com/stevedonovan/luabuild",
+    "description": "Highly customizable Lua 5.2 build system."
+  },
+  {
+    "name": "luastatic",
+    "url": "https://github.com/ers35/luastatic",
+    "description": "Simple tool for turning Lua programs into standalone executables."
+  },
+  {
+    "name": "omnia",
+    "url": "https://github.com/tongson/omnia",
+    "description": "A batteries-included creator of standalone executables, built on top of luastatic."
   },
   {
     "name": "ProFi",
@@ -100,9 +130,19 @@
     "description": "Lightweight, customizable, cross-platform Lua-dedicated IDE with code completion and analysis, written in Lua. Has broad debugging support for numerous Lua engines."
   },
   {
-    "name": "Babelua",
-    "url": "http://babelua.codeplex.com/",
-    "description": "Lua editor/debugger, extension for Visual Studio 2012/2013. Has code highlight, auto-completion, syntax checking and formatting, file previewing, debugging capabilities integrated into Visual Studio."
+    "name": "BabeLua",
+    "url": "https://archive.codeplex.com/?p=babelua",
+    "description": "Lua editor/debugger extension for VS2012-13 with highlighting, auto-completion, linting, and formatting capabilities."
+  },
+  {
+    "name": "lua-mode",
+    "url": "https://github.com/immerrr/lua-mode",
+    "description": "Emacs major mode for editing Lua."
+  },
+  {
+    "name": "vscode-lua",
+    "url": "https://github.com/trixnz/vscode-lua",
+    "description": "VSCode intellisense and linting."
   },
   {
     "name": "Lua Fun",
@@ -130,6 +170,16 @@
     "description": "A little library of useful Lua functions; the 'extra light' version of Penlight."
   },
   {
+    "name": "compat53",
+    "url": "https://luarocks.org/modules/siffiejoe/compat53",
+    "description": "Compatibility module providing Lua-5.3-style APIs for Lua 5.2 and 5.1."
+  },
+  {
+    "name": "RxLua",
+    "url": "https://github.com/bjornbytes/RxLua",
+    "description": "Reactive Extensions, Observables, etc."
+  },
+  {
     "name": "LÖVE 2D",
     "url": "http://love2d.org/",
     "description": "Desktop game development platform. Cross-platform, feature-complete, well-adopted."
@@ -155,18 +205,13 @@
     "description": "Open source, audio/visual toolkit suitable for small games and experimentation. It runs on Windows, Mac, Linux, HTML5 and iOS."
   },
   {
-    "name": "gengine",
-    "url": "https://gengine.bitballoon.com/",
-    "description": "A 2d game engine for fast development, using entities and components system, for Linux, Windows and HTML5."
-  },
-  {
     "name": "LÖVR",
-    "url": "http://lovr.org",
+    "url": "https://lovr.org",
     "description": "3D framework for creating virtual reality experiences, inspired by LÖVE 2D."
   },
   {
-    "name": "Coronium.io",
-    "url": "http://www.coronium.io/",
+    "name": "Coronium",
+    "url": "https://develephant.github.io/coronium-core-docs/",
     "description": "Simple cloud platform supporting analytics, data objects, user management, and more."
   },
   {
@@ -245,9 +290,19 @@
     "description": "2D platformer based on Community's Digital Estate Planning episode, made with LÖVE."
   },
   {
-    "name": "log-lua",
+    "name": "lua-log",
     "url": "https://github.com/moteus/lua-log",
-    "description": "Asynchronous logging library with pluggable writers for filesystem, network, ZeroMQ, and more."
+    "description": "Asynchronous logging library with pluggable writers for file system, network, ZeroMQ, and more."
+  },
+  {
+    "name": "LuaLogging",
+    "url": "https://github.com/Neopallium/lualogging",
+    "description": "Log4j-inspired logging library supporting various appenders."
+  },
+  {
+    "name": "luasyslog",
+    "url": "https://luarocks.org/modules/luarocks/luasyslog",
+    "description": "Log to syslog, based on LuaLogging."
   },
   {
     "name": "OpenResty",
@@ -305,8 +360,8 @@
   },
   {
     "name": "Kong",
-    "url": "https://github.com/mashape/kong",
-    "description": "Microservice & API Management Layer"
+    "url": "https://github.com/Kong/kong",
+    "description": "Microservice & API Management Layer."
   },
   {
     "name": "ansicolors",
@@ -339,9 +394,19 @@
     "description": "Implements an Erlang-style message-passing concurrency model."
   },
   {
+    "name": "cqueues",
+    "url": "http://25thandclement.com/%7Ewilliam/projects/cqueues.html",
+    "description": "Library for managing sockets, signals, and threads based on an event loop with coroutines."
+  },
+  {
     "name": "llthreads",
     "url": "https://github.com/Neopallium/lua-llthreads",
     "description": "A simple wrapper for low-level pthreads & WIN32 threads."
+  },
+  {
+    "name": "llthreads2",
+    "url": "https://github.com/moteus/lua-llthreads2",
+    "description": "Newer rewrite of llthreads."
   },
   {
     "name": "lanes",
@@ -396,12 +461,22 @@
   {
     "name": "LuaFileSystem",
     "url": "http://keplerproject.github.io/luafilesystem/",
-    "description": "Extends and complements Lua's built-in set of filesystem functions."
+    "description": "Extends and complements Lua's built-in set of file system functions."
   },
   {
     "name": "luaposix",
     "url": "https://github.com/luaposix/luaposix",
     "description": "Bindings for POSIX APIs, including curses."
+  },
+  {
+    "name": "lunix",
+    "url": "http://25thandclement.com/%7Ewilliam/projects/lunix.html",
+    "description": "Bindings to common Unix system APIs, striving for thread-safety."
+  },
+  {
+    "name": "lua-path",
+    "url": "https://github.com/moteus/lua-path",
+    "description": "File system path manipulation library."
   },
   {
     "name": "LuaDate",
@@ -412,6 +487,11 @@
     "name": "cron.lua",
     "url": "https://github.com/kikito/cron.lua",
     "description": "Time-related functions for Lua, inspired by JavaScript's setTimeout and setInterval."
+  },
+  {
+    "name": "luatx",
+    "url": "https://github.com/daurnimator/luatz",
+    "description": "Time, date, and timezone library."
   },
   {
     "name": "magick",
@@ -464,6 +544,11 @@
     "description": "JSON encoder/decoder implemented in pure Lua."
   },
   {
+    "name": "json.lua",
+    "url": "https://github.com/rxi/json.lua",
+    "description": "A fast and tiny JSON library in pure Lua."
+  },
+  {
     "name": "LuaExpat",
     "url": "https://matthewwild.co.uk/projects/luaexpat/",
     "description": "SAX XML parser via binding to the Expat library."
@@ -474,9 +559,14 @@
     "description": "Pure Lua SAX-like streaming XML parser."
   },
   {
-    "name": "lyaml",
-    "url": "https://github.com/gvvaughan/lyaml",
-    "description": "YAML encoding/decoding via binding to LibYAML."
+    "name": "lua-MessagePack",
+    "url": "https://github.com/fperrad/lua-MessagePack",
+    "description": "Pure Lua implementation of MessagePack."
+  },
+  {
+    "name": "lua-cmsgpack",
+    "url": "https://github.com/antirez/lua-cmsgpack",
+    "description": "A MessagePack C implementation with Lua bindings, as used by Redis.="
   },
   {
     "name": "LPeg",
@@ -484,9 +574,44 @@
     "description": "A pattern-matching library for Lua, based on Parsing Expression Grammars."
   },
   {
+    "name": "lpeg_patterns",
+    "url": "https://github.com/daurnimator/lpeg_patterns",
+    "description": "A collection of LPeg patterns."
+  },
+  {
+    "name": "LuLPeg",
+    "url": "https://github.com/pygy/LuLPeg",
+    "description": "A pure Lua implementation of LPeg v0.12."
+  },
+  {
+    "name": "LPegLJ",
+    "url": "https://github.com/sacek/LPegLJ",
+    "description": "A pure LuaJIT implementation of LPeg v1.0."
+  },
+  {
+    "name": "LPegLabel",
+    "url": "https://github.com/sqmedeiros/lpeglabel",
+    "description": "An extension of LPeg adding support for labeled failures."
+  },
+  {
+    "name": "lyaml",
+    "url": "https://github.com/gvvaughan/lyaml",
+    "description": "YAML encoding/decoding via binding to LibYAML."
+  },
+  {
     "name": "lunamark",
     "url": "https://github.com/jgm/lunamark",
     "description": "Converts Markdown to other textual formats including HTML and LaTeX. Uses LPeg for fast parsing."
+  },
+  {
+    "name": "LXSH",
+    "url": "https://github.com/xolox/lua-lxsh",
+    "description": "A collection of lexers and syntax highlighters written with LPeg."
+  },
+  {
+    "name": "lua-pb",
+    "url": "https://github.com/Neopallium/lua-pb",
+    "description": "Protocol Buffers implementation."
   },
   {
     "name": "i18n.lua",
@@ -507,6 +632,11 @@
     "name": "Ser",
     "url": "https://github.com/gvx/Ser",
     "description": "Dead simple serializer with good performance."
+  },
+  {
+    "name": "say",
+    "url": "https://github.com/Olivine-Labs/say",
+    "description": "Simple string key-value store for i18n."
   },
   {
     "name": "lua-zlib",
@@ -534,6 +664,11 @@
     "description": "Bindings to tweetnacl, modern high-security cryptographic library."
   },
   {
+    "name": "luaossl",
+    "url": "https://github.com/wahern/luaossl",
+    "description": "\"Most comprehensive OpenSSL module in the Lua universe\" - used by lapis, kong, and lua-http."
+  },
+  {
     "name": "LuaSocket",
     "url": "https://github.com/diegonehab/luasocket",
     "description": "Networking extension which provides a socket API for TCP and UDP, and implements HTTP, FTP, and SMTP."
@@ -544,19 +679,24 @@
     "description": "WebSocket client and server modules. Webserver-agnostic, implemented in Lua on top of LuaSocket."
   },
   {
+    "name": "lua-cURLv3",
+    "url": "https://github.com/Lua-cURL/Lua-cURLv3",
+    "description": "Lua binding to libcurl."
+  },
+  {
+    "name": "lua-http",
+    "url": "https://github.com/daurnimator/lua-http",
+    "description": "Asynchronous HTTP and WebSocket library with client and server APIs, TLS, and HTTP/2; based on cqueues."
+  },
+  {
     "name": "LuaSQL",
     "url": "http://keplerproject.github.io/luasql/",
     "description": "Simple interface for connecting to ODBC, ADO, Oracle, MySQL, SQLite and PostgreSQL."
   },
   {
-    "name": "redis-lua",
-    "url": "https://github.com/nrk/redis-lua",
-    "description": "Pure Lua client library for Redis."
-  },
-  {
     "name": "pgmoon",
     "url": "https://github.com/leafo/pgmoon",
-    "description": "Lua PostgreSQL driver for OpenResty and others."
+    "description": "Lua PostgreSQL driver for OpenResty, LuaSocket, and cqueues."
   },
   {
     "name": "lua-resty-mysql",
@@ -564,14 +704,44 @@
     "description": "Lua MySQL driver for OpenResty."
   },
   {
+    "name": "lua-resty-cassandra",
+    "url": "https://github.com/jbochi/lua-resty-cassandra",
+    "description": "Lua Cassandra client driver for OpenResty and others."
+  },
+  {
+    "name": "redis-lua",
+    "url": "https://github.com/nrk/redis-lua",
+    "description": "Pure Lua client library for Redis."
+  },
+  {
     "name": "lua-resty-redis",
     "url": "https://github.com/openresty/lua-resty-redis",
     "description": "Lua Redis client driver for OpenResty."
   },
   {
-    "name": "lua-resty-cassandra",
-    "url": "https://github.com/jbochi/lua-resty-cassandra",
-    "description": "Lua Cassandra client driver for OpenResty and others."
+    "name": "lredis",
+    "url": "https://github.com/daurnimator/lredis",
+    "description": "Asynchronous Redis client with pipelining and Pub/Sub support; based on cqueues."
+  },
+  {
+    "name": "lua-zmq",
+    "url": "https://github.com/Neopallium/lua-zmq",
+    "description": "Lua bindings to ZeroMQ."
+  },
+  {
+    "name": "lzmq",
+    "url": "https://github.com/zeromq/lzmq",
+    "description": "A newer Lua binding to ZeroMQ."
+  },
+  {
+    "name": "lua-resty-kafka",
+    "url": "https://github.com/doujiang24/lua-resty-kafka",
+    "description": "Kafka client driver based on OpenResty cosockets."
+  },
+  {
+    "name": "lua-resty-rabbitmqstomp",
+    "url": "https://github.com/wingify/lua-resty-rabbitmqstomp",
+    "description": "RabbitMQ client library based on OpenResty cosockets."
   },
   {
     "name": "busted",
@@ -614,6 +784,11 @@
     "description": "Simple coverage analyzer, used by busted and telescope for checking test coverage."
   },
   {
+    "name": "luacov-coveralls",
+    "url": "https://github.com/moteus/luacov-coveralls",
+    "description": "LuaCov reporter for coveralls.io."
+  },
+  {
     "name": "luacheck",
     "url": "https://github.com/mpeterv/luacheck",
     "description": "Simple static analyzer which detects accidental globals and undefined or shadowed locals."
@@ -637,6 +812,11 @@
     "name": "Typed Lua",
     "url": "https://github.com/andremm/typedlua",
     "description": "A typed superset of Lua that compiles to plain Lua."
+  },
+  {
+    "name": "lua-parser",
+    "url": "https://github.com/andremm/lua-parser",
+    "description": "A Lua 5.3 parser written using LPegLabel, with improved error messages."
   },
   {
     "name": "punchdrunk.js",
@@ -699,6 +879,41 @@
     "description": "A static site generator which uses MoonScript and supports HTML and Markdown, page grouping, and plugins."
   },
   {
+    "name": "lua-l",
+    "url": "http://www.lua.org/lua-l.html",
+    "description": "The official Lua mailing list, and one of the focal points of the Lua community."
+  },
+  {
+    "name": "Lua.Space",
+    "url": "http://lua.space/",
+    "description": "The Lua community blog."
+  },
+  {
+    "name": "Lua Users Foundation",
+    "url": "https://github.com/lua-users-foundation",
+    "description": "An association of individuals with the mission of supporting and promoting Lua and its community and ecosystems."
+  },
+  {
+    "name": "lua-users.org",
+    "url": "http://lua-users.org/",
+    "description": "A site for and by users of Lua, featuring an IRC channel, a web archive of lua-l, and a large wiki."
+  },
+  {
+    "name": "Lua Workshop",
+    "url": "https://www.lua.org/community.html#workshop",
+    "description": "Annual 2-day meeting of the Lua community, in rotating locations."
+  },
+  {
+    "name": "Lua Conf",
+    "url": "http://luaconf.com/",
+    "description": "Annual 1-day Lua conference in Brazil."
+  },
+  {
+    "name": "FOSDEM",
+    "url": "https://fosdem.org/",
+    "description": "Annual 2-day gathering of F/OSS developers in Brussels which sometimes has a \"Lua devroom\"."
+  },
+  {
     "name": "Reference Manual",
     "url": "http://www.lua.org/manual/5.3/",
     "description": "The official definition of the Lua language."
@@ -712,11 +927,6 @@
     "name": "Lua Unofficial FAQ",
     "url": "http://www.luafaq.org/",
     "description": "Answers all sorts of Lua-related questions, including many of the form 'How to ___?'."
-  },
-  {
-    "name": "lua-l",
-    "url": "http://www.lua.org/lua-l.html",
-    "description": "The official Lua mailing list, and one of the focal points of the Lua community."
   },
   {
     "name": "Lua 5.3 Glossary",
