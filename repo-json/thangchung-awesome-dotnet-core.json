@@ -30,6 +30,11 @@
     "description": "Swagger (OpenAPI) Specification code generator featuring C# and Razor templates. Supports C#, Java, Node.js, TypeScript, Python and Ruby. 4.5.x or above"
   },
   {
+    "name": "aspnet-api-versioning",
+    "url": "https://github.com/Microsoft/aspnet-api-versioning",
+    "description": "set of libraries which add service API versioning to ASP.NET Web API, OData with ASP.NET Web API, and ASP.NET Core."
+  },
+  {
     "name": "AspNetCoreRateLimit",
     "url": "https://github.com/stefanprodan/AspNetCoreRateLimit",
     "description": "ASP.NET Core rate limiting middleware."
@@ -95,6 +100,11 @@
     "description": "Micro RPC/REST Framework built on OWIN http://neuecc.github.io/LightNode."
   },
   {
+    "name": "NetCoreStack.Proxy",
+    "url": "https://github.com/NetCoreStack/Proxy",
+    "description": "The type-safe, distributed REST library for .NET Standard 2.0 (NetCoreStack Flying Proxy)"
+  },
+  {
     "name": "NSwag",
     "url": "https://github.com/NSwag/NSwag",
     "description": "The Swagger API toolchain for .NET, Web API and TypeScript http://NSwag.org."
@@ -126,7 +136,7 @@
   },
   {
     "name": "Swashbuckle",
-    "url": "https://github.com/domaindrivendev/Ahoy",
+    "url": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore",
     "description": "Seamlessly adds a swagger to WebApi projects."
   },
   {
@@ -365,6 +375,11 @@
     "description": "Cross platform build automation system. http://cakebuild.net."
   },
   {
+    "name": "CatLight",
+    "url": "https://catlight.io",
+    "description": "Status notifier for developers that monitors builds and tasks in the project. Built using .Net Core and Electron."
+  },
+  {
     "name": "Colorful.Console",
     "url": "https://github.com/tomakita/Colorful.Console",
     "description": "Style your C# console output! http://colorfulconsole.com."
@@ -375,14 +390,39 @@
     "description": "The base Docker images for working with .NET Core and the .NET Core Tools."
   },
   {
+    "name": "GitInfo",
+    "url": "https://github.com/kzu/GitInfo",
+    "description": "Git and SemVer Info from MSBuild, C# and VB."
+  },
+  {
+    "name": "GitVersioning",
+    "url": "https://github.com/AArnott/Nerdbank.GitVersioning",
+    "description": "Stamp your assemblies and NuGet packages with a version from a single, simple version.txt file and include git commit IDs for non-official builds."
+  },
+  {
     "name": "go-dotnet",
     "url": "https://github.com/matiasinsaurralde/go-dotnet",
     "description": "Go wrapper for the .NET Core Runtime."
   },
   {
+    "name": "Image2Docker",
+    "url": "https://github.com/docker/communitytools-image2docker-win",
+    "description": "PowerShell module which ports existing Windows application workloads to Docker."
+  },
+  {
     "name": "msbuild",
     "url": "https://github.com/Microsoft/msbuild",
     "description": "The Microsoft Build Engine is a platform for building applications."
+  },
+  {
+    "name": "Nuke",
+    "url": "https://github.com/nuke-build/nuke",
+    "description": "Cross-platform build automation system."
+  },
+  {
+    "name": "Opserver",
+    "url": "https://github.com/opserver/Opserver",
+    "description": "Stack Exchange's Monitoring System."
   },
   {
     "name": "vsts-agent",
@@ -473,6 +513,11 @@
     "name": "Weapsy",
     "url": "https://github.com/Weapsy/Weapsy",
     "description": "Open source ASP.NET Core CMS based on DDD and CQRS. It supports MSSQL, MySQL, SQLite and PostgreSQL out of the box."
+  },
+  {
+    "name": "Wyam",
+    "url": "https://github.com/Wyamio/Wyam",
+    "description": "Modular static content and static site generator."
   },
   {
     "name": "awesome-static-analysis",
@@ -733,6 +778,11 @@
     "name": "Ocelot",
     "url": "https://github.com/TomPallister/Ocelot",
     "description": "API Gateway created using .NET Core."
+  },
+  {
+    "name": "OpenTracing",
+    "url": "https://github.com/opentracing/opentracing-csharp",
+    "description": "Vendor-neutral APIs and instrumentation for distributed tracing."
   },
   {
     "name": "Polly",
@@ -1002,6 +1052,11 @@
     "name": "serilog",
     "url": "https://github.com/serilog/serilog",
     "description": "Simple .NET logging with fully-structured events."
+  },
+  {
+    "name": "SEQ",
+    "url": "https://getseq.net",
+    "description": "Seq collects data over HTTP, while your applications use the best available structured logging APIs for your platform."
   },
   {
     "name": "Accord",
@@ -1559,6 +1614,11 @@
     "description": "Middleware for security and authorization of web apps."
   },
   {
+    "name": "SecurityHeaders",
+    "url": "https://github.com/andrewlock/NetEscapades.AspNetCore.SecurityHeaders",
+    "description": "Small package to allow adding security headers to ASP.NET Core websites."
+  },
+  {
     "name": "AutoComplete",
     "url": "https://github.com/omerfarukz/autocomplete",
     "description": "Persistent, simple, powerful and portable autocomplete library."
@@ -1784,11 +1844,6 @@
     "description": "A free, open source, community-focused unit testing tool for the .NET Framework."
   },
   {
-    "name": "CatLight",
-    "url": "https://catlight.io",
-    "description": "Status notifier for developers that monitors builds and tasks in the project. Built using .Net Core and Electron."
-  },
-  {
     "name": "CommandLineUtils",
     "url": "https://github.com/natemcmaster/CommandLineUtils",
     "description": "Command line parsing and utilities for .NET Core and .NET Framework."
@@ -1819,11 +1874,6 @@
     "description": "Create useful .gitignore files for your project https://www.gitignore.io."
   },
   {
-    "name": "GitInfo",
-    "url": "https://github.com/kzu/GitInfo",
-    "description": "Git and SemVer Info from MSBuild, C# and VB."
-  },
-  {
     "name": "ICanHasDotnetCore",
     "url": "https://github.com/OctopusDeploy/ICanHasDotnetCore",
     "description": "Scans uploaded packages.config files or GitHub repository and determines whether the nuget packages target .NET Standard https://icanhasdot.net."
@@ -1852,11 +1902,6 @@
     "name": "OctoLinker",
     "url": "https://github.com/OctoLinker/browser-extension",
     "description": "Navigate through projects.json files efficiently with the OctoLinker browser extension for GitHub."
-  },
-  {
-    "name": "Opserver",
-    "url": "https://github.com/opserver/Opserver",
-    "description": "Stack Exchange's Monitoring System."
   },
   {
     "name": "ShareX",
