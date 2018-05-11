@@ -300,13 +300,13 @@
     "description": "packaged version of Graphite and Grafana, specifically targeted at metrics from Docker."
   },
   {
-    "name": "Dynatrace",
+    "name": "Dynatrace 💲",
     "url": "https://www.dynatrace.com/technologies/cloud-and-microservices/docker-monitoring/",
     "description": "Monitor containerized applications without installing agents or modifying your Run commands"
   },
   {
     "name": "Glances",
-    "url": "https://nicolargo.github.io/glances/",
+    "url": "https://github.com/nicolargo/glances",
     "description": "A cross-platform curses-based system monitoring tool written in Python by @nicolargo"
   },
   {
@@ -350,7 +350,7 @@
   },
   {
     "name": "Calico-Docker",
-    "url": "https://www.projectcalico.org/getting-started/docker/",
+    "url": "https://github.com/projectcalico/calicoctl",
     "description": "Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other."
   },
   {
@@ -439,12 +439,12 @@
   },
   {
     "name": "Marathon",
-    "url": "https://mesosphere.github.io/marathon/docs/",
+    "url": "https://github.com/mesosphere/marathon",
     "description": "Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is \"always on\""
   },
   {
     "name": "Mesos",
-    "url": "https://mesos.apache.org/documentation/latest/docker-containerizer/",
+    "url": "https://github.com/apache/mesos",
     "description": "Resource/Job scheduler for containers, VM's and physical hosts @apache"
   },
   {
@@ -513,7 +513,7 @@
     "description": "A next generation open source platform as a service"
   },
   {
-    "name": "Jelastic",
+    "name": "Jelastic 💲",
     "url": "https://jelastic.com/",
     "description": "An advanced PaaS for developers that simplifies clustering and complex cloud deployments with powerful web UI and usage-only pricing"
   },
@@ -536,6 +536,11 @@
     "name": "Workflow",
     "url": "https://github.com/deis/workflow",
     "description": "The open source PaaS for Kubernetes by Deis. Formerly Deis v1."
+  },
+  {
+    "name": "ZEIT Now",
+    "url": "https://github.com/zeit/now-cli",
+    "description": "A universal serverless single-command deploy for Node.js applications or any application with a Dockerfile."
   },
   {
     "name": "docker-flow-proxy",
@@ -818,6 +823,11 @@
     "name": "ns-enter",
     "url": "https://github.com/jpetazzo/nsenter",
     "description": "no more ssh, enter name spaces of container by @jpetazzo"
+  },
+  {
+    "name": "pocok",
+    "url": "https://github.com/shiwaforce/pocok",
+    "description": "Pocok will help you to organise and manage Docker, Docker-Compose, Kubernetes projects of any complexity using simple YAML config files to shorten the route from finding your project to initialising it in your local environment. by @shiwaforce"
   },
   {
     "name": "Powerline-Docker",
@@ -1153,12 +1163,14 @@
     "description": "A convention and shared namespace for Docker labels defined by OCI Image Spec."
   },
   {
-    "name": "Amazon EC2 Container Registry Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.",
-    "url": "https://aws.amazon.com/ecr/"
+    "name": "Amazon EC2 Container Registry 💲",
+    "url": "https://aws.amazon.com/ecr/",
+    "description": "Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images."
   },
   {
-    "name": "Azure Container Registry Manage a Docker private registry as a first-class Azure resource",
-    "url": "https://azure.microsoft.com/de-de/services/container-registry/"
+    "name": "Azure Container Registry 💲",
+    "url": "https://azure.microsoft.com/de-de/services/container-registry/",
+    "description": "Manage a Docker private registry as a first-class Azure resource"
   },
   {
     "name": "CargoOS",
@@ -1166,12 +1178,14 @@
     "description": "A bare essential OS for running the Docker Engine on bare metal or Cloud. By @RedCoolBeans"
   },
   {
-    "name": "Cycle.io Bare-metal container hosting.",
-    "url": "https://cycle.io/"
+    "name": "Cycle.io 💲",
+    "url": "https://cycle.io/",
+    "description": "Bare-metal container hosting."
   },
   {
-    "name": "cleanreg A small tool to delete image manifests from a Docker Registry implementing the API v2, dereferencing them for the GC by @hcguersoy",
-    "url": "https://github.com/hcguersoy/cleanreg"
+    "name": "cleanreg",
+    "url": "https://github.com/hcguersoy/cleanreg",
+    "description": "A small tool to delete image manifests from a Docker Registry implementing the API v2, dereferencing them for the GC by @hcguersoy"
   },
   {
     "name": "Docker Hub provided by Docker Inc.",
@@ -1193,7 +1207,7 @@
     "description": "Private docker registry with support for image pipelines and webhooks. By @puppetlabs"
   },
   {
-    "name": "GCE Container Registry Fast, private Docker image storage on Google Cloud Platform",
+    "name": "GCE Container Registry 💲 Fast, private Docker image storage on Google Cloud Platform",
     "url": "https://cloud.google.com/container-registry/"
   },
   {
@@ -1202,7 +1216,7 @@
     "description": "Repositories focused on using it images in GitLab CI"
   },
   {
-    "name": "JFrog Artifactory",
+    "name": "JFrog Artifactory 💲",
     "url": "https://jfrog.com/artifactory/",
     "description": "Artifact Repository Manager, can be used as private Docker Registry as well"
   },
@@ -1212,7 +1226,7 @@
     "description": "Dedicated Conainer Registry Service with unlimited private repositories, users, teams, namespaces together with enterprise grade authentication LDAP/AD/OAuth/SAML."
   },
   {
-    "name": "Quay.io (part of CoreOS)",
+    "name": "Quay.io 💲 (part of CoreOS)",
     "url": "https://quay.io/",
     "description": "Secure hosting for private Docker repositories"
   },
@@ -1311,7 +1325,7 @@
     "description": "Create Docker images directly from sbt by @marcuslonnberg"
   },
   {
-    "name": "Buddy",
+    "name": "Buddy 💲",
     "url": "https://buddy.works",
     "description": "The best of Git, build & deployment tools combined into one powerful tool that supercharged our development."
   },
@@ -1355,7 +1369,7 @@
     "description": "Tool to configure CI/CD of your container applications via AWS CodePipeline, CodeBuild and ECS @Stelligent"
   },
   {
-    "name": "Screwdriver",
+    "name": "Screwdriver 💲",
     "url": "http://screwdriver.cd/",
     "description": "Yahoo's OpenSource buildplatform designed for Continous Delivery."
   },
@@ -1601,12 +1615,12 @@
   },
   {
     "name": "subuser",
-    "url": "http://subuser.org",
+    "url": "https://github.com/subuser-security/subuser",
     "description": "Makes it easy to securely and portably run graphical desktop applications in Docker"
   },
   {
     "name": "Turbo",
-    "url": "https://ramitsurana.github.io/turbo/",
+    "url": "https://github.com/ramitsurana/turbo",
     "description": "Simple and Powerful utility for docker. By @ramitsurana"
   },
   {
@@ -1730,7 +1744,7 @@
   },
   {
     "name": "OpenShift Dedicated",
-    "url": "https://www.openshift.com/dedicated/index.html",
+    "url": "https://www.openshift.com/products/dedicated/",
     "description": "A hosted OpenShift cluster for running your Docker containers managed by Red Hat."
   },
   {
