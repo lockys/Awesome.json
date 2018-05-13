@@ -295,34 +295,14 @@
     "description": "Nice recursive models using word-level LSTMs on top of a character-level CNN using an overkill amount of GPU power."
   },
   {
+    "name": "Neural Machine Translation and Sequence-to-sequence Models: A Tutorial",
+    "url": "https://arxiv.org/pdf/1703.01619.pdf",
+    "description": "Interesting overview of the subject of NMT, I mostly read part 8 about RNNs with attention as a refresher."
+  },
+  {
     "name": "Exploring the Depths of Recurrent Neural Networks with Stochastic Residual Learning",
     "url": "https://cs224d.stanford.edu/reports/PradhanLongpre.pdf",
     "description": "Basically, residual connections can be better than stacked RNNs in the presented case of sentiment analysis."
-  },
-  {
-    "name": "Neural Machine Translation by Jointly Learning to Align and Translate",
-    "url": "https://arxiv.org/pdf/1409.0473.pdf",
-    "description": "Attention mechanism for LSTMs! Mostly, figures and formulas and their explanations revealed to be useful to me. I gave a talk on that paper here."
-  },
-  {
-    "name": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
-    "url": "https://arxiv.org/pdf/1502.03044.pdf",
-    "description": "LSTMs' attention mechanisms on CNNs feature maps does wonders."
-  },
-  {
-    "name": "Effective Approaches to Attention-based Neural Machine Translation",
-    "url": "https://arxiv.org/pdf/1508.04025.pdf",
-    "description": "Exploring different approaches to attention mechanisms."
-  },
-  {
-    "name": "Neural Turing Machines",
-    "url": "https://arxiv.org/pdf/1410.5401v2.pdf",
-    "description": "Outstanding for letting a neural network learn an algorithm with seemingly good generalization over long time dependencies. Sequences recall problem."
-  },
-  {
-    "name": "Teaching Machines to Read and Comprehend",
-    "url": "https://arxiv.org/pdf/1506.03340v3.pdf",
-    "description": "A very interesting and creative work about textual question answering, what a breakthrough, there is something to do with that."
   },
   {
     "name": "Pixel Recurrent Neural Networks",
@@ -332,27 +312,7 @@
   {
     "name": "Adaptive Computation Time for Recurrent Neural Networks",
     "url": "https://arxiv.org/pdf/1603.08983v4.pdf",
-    "description": "Let RNNs decide how long do they compute. I would love to see how well would it combines to Neural Turing Machines. Interesting interactive visualizations on the subject can be found here."
-  },
-  {
-    "name": "Hybrid computing using a neural network with dynamic external memory",
-    "url": "http://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz",
-    "description": "Improvements on differentiable memory based on NTMs: now it is the Differentiable Neural Computer (DNC)."
-  },
-  {
-    "name": "Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
-    "url": "https://arxiv.org/pdf/1609.08144.pdf",
-    "description": "In 2016: stacked residual LSTMs with attention mechanisms on encoder/decoder are the best for NMT (Neural Machine Translation)."
-  },
-  {
-    "name": "Neural Machine Translation and Sequence-to-sequence Models: A Tutorial",
-    "url": "https://arxiv.org/pdf/1703.01619.pdf",
-    "description": "Interesting overview of the subject of NMT, I mostly read part 8 about RNNs with attention as a refresher."
-  },
-  {
-    "name": "Massive Exploration of Neural Machine Translation Architectures",
-    "url": "https://arxiv.org/pdf/1703.03906.pdf",
-    "description": "That yields intuition about the boundaries of what works for doing NMT within a framed seq2seq problem formulation."
+    "description": "Let RNNs decide how long they compute. I would love to see how well would it combines to Neural Turing Machines. Interesting interactive visualizations on the subject can be found here."
   },
   {
     "name": "ImageNet Classification with Deep Convolutional Neural Networks",
@@ -428,6 +388,56 @@
     "name": "The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation",
     "url": "https://arxiv.org/pdf/1611.09326.pdf",
     "description": "Merges the ideas of the U-Net and the DenseNet, this new neural network is especially good for huge datasets in image segmentation."
+  },
+  {
+    "name": "Prototypical Networks for Few-shot Learning",
+    "url": "https://arxiv.org/pdf/1703.05175.pdf",
+    "description": "Use a distance metric in the loss to determine to which class does an object belongs to from a few examples."
+  },
+  {
+    "name": "Neural Turing Machines",
+    "url": "https://arxiv.org/pdf/1410.5401v2.pdf",
+    "description": "Outstanding for letting a neural network learn an algorithm with seemingly good generalization over long time dependencies. Sequences recall problem."
+  },
+  {
+    "name": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention",
+    "url": "https://arxiv.org/pdf/1502.03044.pdf",
+    "description": "LSTMs' attention mechanisms on CNNs feature maps does wonders."
+  },
+  {
+    "name": "Teaching Machines to Read and Comprehend",
+    "url": "https://arxiv.org/pdf/1506.03340v3.pdf",
+    "description": "A very interesting and creative work about textual question answering, what a breakthrough, there is something to do with that."
+  },
+  {
+    "name": "Effective Approaches to Attention-based Neural Machine Translation",
+    "url": "https://arxiv.org/pdf/1508.04025.pdf",
+    "description": "Exploring different approaches to attention mechanisms."
+  },
+  {
+    "name": "Matching Networks for One Shot Learning",
+    "url": "https://arxiv.org/pdf/1606.04080.pdf",
+    "description": "Interesting way of doing one-shot learning with low-data by using an attention mechanism and a query to compare an image to other images for classification."
+  },
+  {
+    "name": "Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+    "url": "https://arxiv.org/pdf/1609.08144.pdf",
+    "description": "In 2016: stacked residual LSTMs with attention mechanisms on encoder/decoder are the best for NMT (Neural Machine Translation)."
+  },
+  {
+    "name": "Hybrid computing using a neural network with dynamic external memory",
+    "url": "http://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz",
+    "description": "Improvements on differentiable memory based on NTMs: now it is the Differentiable Neural Computer (DNC)."
+  },
+  {
+    "name": "Massive Exploration of Neural Machine Translation Architectures",
+    "url": "https://arxiv.org/pdf/1703.03906.pdf",
+    "description": "That yields intuition about the boundaries of what works for doing NMT within a framed seq2seq problem formulation."
+  },
+  {
+    "name": "Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram\nPredictions",
+    "url": "https://arxiv.org/pdf/1712.05884.pdf",
+    "description": "A WaveNet used as a vocoder can be conditioned on generated Mel Spectrograms from the Tacotron 2 LSTM neural network with attention to generate neat audio from text."
   },
   {
     "name": "Tensor Calculus and the Calculus of Moving Surfaces",
