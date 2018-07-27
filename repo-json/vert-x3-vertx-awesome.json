@@ -76,24 +76,9 @@
     "description": "Realtime Client Server Framework for the JVM, supporting WebSockets and Server Sent Events with Cross-Browser Fallbacks."
   },
   {
-    "name": "Vert.x Auth JDBC  ",
-    "url": "https://github.com/vert-x3/vertx-auth/tree/master/vertx-auth-jdbc",
-    "description": "Vert.x authentication/authorisation JDBC based."
-  },
-  {
-    "name": "Vert.x Auth JWT  ",
-    "url": "https://github.com/vert-x3/vertx-auth/tree/master/vertx-auth-jwt",
-    "description": "Vert.x Authorisation based on JSON Web Tokens."
-  },
-  {
-    "name": "Vert.x Auth Shiro  ",
-    "url": "https://github.com/vert-x3/vertx-auth/tree/master/vertx-auth-shiro",
-    "description": "Vert.x AuthN/AuthZ based on Apache Shiro."
-  },
-  {
-    "name": "Vert.x-Pac4j",
-    "url": "https://github.com/pac4j/vertx-pac4j",
-    "description": "Vert.x authentication/authorisation implemented using pac4j."
+    "name": "Vert.x Vaadin",
+    "url": "https://github.com/mcollovati/vertx-vaadin",
+    "description": "Run Vaadin applications on Vert.x."
   },
   {
     "name": "JDBC ",
@@ -101,14 +86,9 @@
     "description": "Asynchronous interface around a JDBC datasource."
   },
   {
-    "name": "MySQL",
+    "name": "MySQL / PostgreSQL ",
     "url": "https://github.com/vert-x3/vertx-mysql-postgresql-client",
-    "description": "Asynchronous client for MySQL."
-  },
-  {
-    "name": "PostgreSQL",
-    "url": "https://github.com/vert-x3/vertx-mysql-postgresql-client",
-    "description": "Asynchronous client for PostgreSQL."
+    "description": "Asynchronous Client for mysql/postgreSQL"
   },
   {
     "name": "PostgreSQL",
@@ -201,6 +181,11 @@
     "description": "A RabbitMQ client (AMQP 0.9.1)."
   },
   {
+    "name": "Kafka Client ",
+    "url": "https://github.com/vert-x3/vertx-kafka-client",
+    "description": "A Kafka client."
+  },
+  {
     "name": "kafka",
     "url": "https://github.com/cyngn/vertx-kafka",
     "description": "Kafka client for consuming and producing messages."
@@ -214,6 +199,11 @@
     "name": "SaltStack",
     "url": "https://github.com/cinterloper/vertx-salt",
     "description": "A bi-directional bridge between the SaltStack event system and the Vert.x event bus."
+  },
+  {
+    "name": "STOMP ",
+    "url": "https://github.com/vert-x3/vertx-stomp",
+    "description": "A Kafka client and server."
   },
   {
     "name": "ZeroMQ",
@@ -266,6 +256,11 @@
     "description": "Metrics implementation using DropWizard metrics."
   },
   {
+    "name": "Micrometer metrics ",
+    "url": "https://github.com/vert-x3/vertx-micrometer-metrics",
+    "description": "Metrics implementation using Micrometer metrics."
+  },
+  {
     "name": "OpenTsDb Metrics",
     "url": "https://github.com/cyngn/vertx-opentsdb",
     "description": "OpenTsDb metrics client for Vert.x."
@@ -303,7 +298,7 @@
   {
     "name": "Gravitee.io",
     "url": "https://gravitee.io",
-    "description": "An OSS API Platform including API Gateway based on Vert.x core and other modules."
+    "description": "An OSS API Platform including an API Gateway and an OAuth2 / OIDC authorization server based on Vert.x Core / Vert.x Web and other modules."
   },
   {
     "name": "Ceylon ",
@@ -361,9 +356,19 @@
     "description": "Vert.x Reactive Streams."
   },
   {
-    "name": "Reactive Extensions ",
+    "name": "Vert.x Rx ",
     "url": "https://github.com/vert-x3/vertx-rx",
     "description": "Vert.x Reactive Extensions."
+  },
+  {
+    "name": "Vert.x Sync ",
+    "url": "https://github.com/vert-x3/vertx-sync",
+    "description": "Vert.x fiber support."
+  },
+  {
+    "name": "Kotlin coroutines ",
+    "url": "https://github.com/vert-x3/vertx-lang-kotlin/tree/master/vertx-lang-kotlin-coroutines",
+    "description": "Vert.x support for kotlin coroutines."
   },
   {
     "name": "vertx-util",
@@ -469,7 +474,7 @@
     "description": "An Atomix based cluster manager implementation for Vert.x 3."
   },
   {
-    "name": "Infinispan Cluster Manager",
+    "name": "Infinispan Cluster Manager ",
     "url": "https://github.com/vert-x3/vertx-infinispan",
     "description": "Infinispan cluster manager."
   },
@@ -627,6 +632,16 @@
     "name": "Vert.x Unit ",
     "url": "https://github.com/vert-x3/vertx-unit",
     "description": "Async polyglot unit testing for Vert.x."
+  },
+  {
+    "name": "Vert.x shell  ",
+    "url": "https://github.com/vert-x3/vertx-shell",
+    "description": "Allows for interaction with Vert.x from the command line."
+  },
+  {
+    "name": "Vert.x health check",
+    "url": "https://github.com/vert-x3/vertx-health-check",
+    "description": "Allows for remote health checking in Vert.x projects."
   },
   {
     "name": "Vert.x Hot",
@@ -839,9 +854,8 @@
     "description": "A group for Vert.x core developers and contributors."
   },
   {
-    "name": "IRC channel",
-    "url": "https://webchat.freenode.net/?channels=#vertx",
-    "description": "This is our day-to-day office: #vertx on freenode.net."
+    "name": "Gitter chat general chat for Vert.x releated chat.",
+    "url": "https://gitter.im/eclipse-vertx/vertx-users"
   },
   {
     "name": "Issues",
