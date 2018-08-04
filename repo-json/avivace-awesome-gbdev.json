@@ -341,7 +341,7 @@
   },
   {
     "name": "Decoding Gameboy Z80 opcodes",
-    "url": "https://avivace.com/apps/gbdev/decoding_gz80.html",
+    "url": "https://gb-archive.github.io/salvage/decoding_gbz80_opcodes/Decoding%20Gamboy%20Z80%20Opcodes.html",
     "description": "How to algorithmically decode gameboy instructions as opposed to writing one huge switch-case statement for over 500 instructions."
   },
   {
@@ -372,6 +372,21 @@
     "description": "Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package."
   },
   {
+    "name": "gbdk-osx",
+    "url": "https://github.com/x43x61x69/gbdk-osx",
+    "description": "Patched GBDK 2.96a for the latest compilers on OS X."
+  },
+  {
+    "name": "gbdk-n",
+    "url": "https://github.com/rotmoset/gbdk-n",
+    "description": "Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms."
+  },
+  {
+    "name": "Wiz",
+    "url": "https://github.com/wiz-lang/wiz",
+    "description": "A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more)."
+  },
+  {
     "name": "gbforth",
     "url": "https://github.com/ams-hackers/gbforth",
     "description": "A Forth-based Game Boy development kit."
@@ -394,22 +409,7 @@
   {
     "name": "llvm-gbz80",
     "url": "https://github.com/Bevinsky/llvm-gbz80",
-    "description": "LLVM port to the GBZ80 CPU (similar project, deprecated)."
-  },
-  {
-    "name": "The Game Boy Developer's Kit (GBDK)",
-    "url": "http://gbdk.sourceforge.net/",
-    "description": "A set of tools that enable to develop programs for the Nintendo Game Boy system in C. Includes a set of libraries for the most common requirements and generates image files for use with a real Game Boy."
-  },
-  {
-    "name": "gbdk-osx",
-    "url": "https://github.com/x43x61x69/gbdk-osx",
-    "description": "Patched GBDK 2.96a for the latest compilers on OS X."
-  },
-  {
-    "name": "clang-gbz80",
-    "url": "https://github.com/Bevinsky/clang-gbz80",
-    "description": "Clang port to the GBZ80 CPU."
+    "description": "LLVM port to the GBZ80 CPU (similar to the deprecated euclio/llvm-gbz80)."
   },
   {
     "name": "BGB",
@@ -607,7 +607,7 @@
   },
   {
     "name": "Assembly tutorial by David Pello",
-    "url": "https://avivace.com/apps/gbdev/salvage/tutorial_de_ensamblador%20%5BLa%20decadence%5D.html",
+    "url": "https://gb-archive.github.io/salvage/tutorial_de_ensamblador/tutorial_de_ensamblador%20%5BLa%20decadence%5D.html",
     "description": "Good document to actually learn to produce working asm code for gb. Brief explanations of many important topics. Many examples with commented source code."
   },
   {
@@ -1089,16 +1089,6 @@
     "name": "Piglet",
     "url": "https://github.com/danShumway/Piglet",
     "description": "A LUA-driven AI that plays classic Game Boy color games using experimentation. In active development."
-  },
-  {
-    "name": "gbdk-n",
-    "url": "https://github.com/rotmoset/gbdk-n",
-    "description": "Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms."
-  },
-  {
-    "name": "Wiz",
-    "url": "https://github.com/wiz-lang/wiz",
-    "description": "A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more)."
   },
   {
     "name": "Gatesboy",
