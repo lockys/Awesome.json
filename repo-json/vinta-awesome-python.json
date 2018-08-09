@@ -55,11 +55,6 @@
     "description": "Fast, pure-Python implementation of SortedList, SortedDict, and SortedSet types."
   },
   {
-    "name": "SCOOP",
-    "url": "https://github.com/soravux/scoop",
-    "description": "Scalable Concurrent Operations in Python."
-  },
-  {
     "name": "django-simple-captcha",
     "url": "https://github.com/mbi/django-simple-captcha",
     "description": "A simple and highly customizable Django app to add captcha images to any Django form."
@@ -400,6 +395,36 @@
     "description": "The easiest and most popular chatbot to implement ChatOps."
   },
   {
+    "name": "PySpark",
+    "url": "https://pypi.python.org/pypi/pyspark/",
+    "description": "Apache Spark Python API."
+  },
+  {
+    "name": "dask",
+    "url": "https://dask.pydata.org/en/latest/",
+    "description": "A flexible parallel computing library for analytic computing."
+  },
+  {
+    "name": "faust",
+    "url": "https://github.com/robinhood/faust",
+    "description": "A stream processing library, porting the ideas from Kafka Streams to Python."
+  },
+  {
+    "name": "luigi",
+    "url": "https://github.com/spotify/luigi",
+    "description": "A module that helps you build complex pipelines of batch jobs."
+  },
+  {
+    "name": "mrjob",
+    "url": "https://github.com/Yelp/mrjob",
+    "description": "Run MapReduce jobs on Hadoop or Amazon Web Services."
+  },
+  {
+    "name": "streamparse",
+    "url": "https://github.com/Parsely/streamparse",
+    "description": "Run Python code against real-time streams of data via Apache Storm."
+  },
+  {
     "name": "flake8",
     "url": "https://pypi.python.org/pypi/flake8",
     "description": "A wrapper around pycodestyle, pyflakes and McCabe."
@@ -610,6 +635,16 @@
     "description": "An open source framework for building computer vision applications."
   },
   {
+    "name": "concurrent.futures",
+    "url": "https://docs.python.org/3/library/multiprocessing.html",
+    "description": "(Python standard library) Process-based \"threading\" interface."
+  },
+  {
+    "name": "multiprocessing",
+    "url": "https://docs.python.org/3/library/multiprocessing.html",
+    "description": "(Python standard library) A high-level interface for asynchronously executing callables."
+  },
+  {
     "name": "eventlet",
     "url": "http://eventlet.net/",
     "description": "Asynchronous framework with WSGI support."
@@ -620,14 +655,9 @@
     "description": "A coroutine-based Python networking library that uses greenlet."
   },
   {
-    "name": "multiprocessing",
-    "url": "https://docs.python.org/3/library/multiprocessing.html",
-    "description": "(Python standard library) Process-based \"threading\" interface."
-  },
-  {
-    "name": "threading",
-    "url": "https://docs.python.org/3/library/threading.html",
-    "description": "(Python standard library) Higher-level threading interface."
+    "name": "SCOOP",
+    "url": "https://github.com/soravux/scoop",
+    "description": "Scalable Concurrent Operations in Python."
   },
   {
     "name": "Tomorrow",
@@ -681,7 +711,7 @@
   },
   {
     "name": "Passlib",
-    "url": "https://pythonhosted.org/passlib/",
+    "url": "https://passlib.readthedocs.io/en/stable/",
     "description": "Secure password storage/hashing library, very high level."
   },
   {
@@ -723,6 +753,15 @@
     "name": "colander",
     "url": "https://docs.pylonsproject.org/projects/colander/en/latest/",
     "description": "Validating and deserializing data obtained via XML, JSON, an HTML form post."
+  },
+  {
+    "name": "Dash",
+    "url": "https://plot.ly/products/dash/",
+    "description": "Built on top of Flask, React and Plotly aimed at analytical web applications."
+  },
+  {
+    "name": "awesome-dash",
+    "url": "https://github.com/Acrotrend/awesome-dash"
   },
   {
     "name": "jsonschema",
@@ -870,9 +909,9 @@
     "description": "A simple database interface to Microsoft SQL Server."
   },
   {
-    "name": "cassandra-python-driver",
+    "name": "cassandra-driver",
     "url": "https://github.com/datastax/python-driver",
-    "description": "Python driver for Cassandra."
+    "description": "The Python Driver for Apache Cassandra."
   },
   {
     "name": "HappyBase",
@@ -880,19 +919,14 @@
     "description": "A developer-friendly library for Apache HBase."
   },
   {
-    "name": "Plyvel",
-    "url": "https://github.com/wbolster/plyvel",
-    "description": "A fast and feature-rich Python interface to LevelDB."
+    "name": "kafka-python",
+    "url": "https://github.com/dpkp/kafka-python",
+    "description": "The Python client for Apache Kafka."
   },
   {
     "name": "py2neo",
     "url": "http://py2neo.org/2.0/",
     "description": "Python wrapper client for Neo4j's restful interface."
-  },
-  {
-    "name": "pycassa",
-    "url": "https://github.com/pycassa/pycassa",
-    "description": "Python Thrift driver for Cassandra."
   },
   {
     "name": "PyMongo",
@@ -902,7 +936,12 @@
   {
     "name": "redis-py",
     "url": "https://github.com/andymccurdy/redis-py",
-    "description": "The Redis Python Client."
+    "description": "The Python client for Redis."
+  },
+  {
+    "name": "Motor",
+    "url": "https://github.com/mongodb/motor",
+    "description": "The async Python driver for MongoDB."
   },
   {
     "name": "telephus",
@@ -2023,31 +2062,6 @@
     "description": "A scalable, portable, and distributed gradient boosting library."
   },
   {
-    "name": "PySpark",
-    "url": "https://pypi.python.org/pypi/pyspark/",
-    "description": "Apache Spark Python API."
-  },
-  {
-    "name": "luigi",
-    "url": "https://github.com/spotify/luigi",
-    "description": "A module that helps you build complex pipelines of batch jobs."
-  },
-  {
-    "name": "mrjob",
-    "url": "https://github.com/Yelp/mrjob",
-    "description": "Run MapReduce jobs on Hadoop or Amazon Web Services."
-  },
-  {
-    "name": "streamparse",
-    "url": "https://github.com/Parsely/streamparse",
-    "description": "Run Python code against real-time streams of data. Integrates with Apache Storm."
-  },
-  {
-    "name": "dask",
-    "url": "https://dask.pydata.org/en/latest/",
-    "description": "A flexible parallel computing library for analytic computing."
-  },
-  {
     "name": "Python(x,y)",
     "url": "http://python-xy.github.io/",
     "description": "Scientific-applications-oriented Python Distribution based on Qt and Spyder."
@@ -2171,6 +2185,10 @@
     "name": "asyncio",
     "url": "https://docs.python.org/3/library/asyncio.html",
     "description": "(Python standard library) Asynchronous I/O, event loop, coroutines and tasks."
+  },
+  {
+    "name": "awesome-asyncio",
+    "url": "https://github.com/timofurrer/awesome-asyncio"
   },
   {
     "name": "diesel",
@@ -3325,20 +3343,6 @@
     "description": "A fast high-level screen scraping and web crawling framework."
   },
   {
-    "name": "Bottle",
-    "url": "http://bottlepy.org/docs/dev/index.html",
-    "description": "A fast, simple and lightweight WSGI micro web-framework."
-  },
-  {
-    "name": "Dash",
-    "url": "https://plot.ly/products/dash/",
-    "description": "Built on top of Flask, React and Plotly aimed at analytical web applications."
-  },
-  {
-    "name": "awesome-dash",
-    "url": "https://github.com/Acrotrend/awesome-dash"
-  },
-  {
     "name": "Django",
     "url": "https://www.djangoproject.com/",
     "description": "The most popular web framework in Python."
@@ -3378,7 +3382,7 @@
   {
     "name": "Vibora",
     "url": "https://vibora.io/",
-    "description": "Fast, efficient and asynchronous Web framework inspired by Flask"
+    "description": "Fast, efficient and asynchronous Web framework inspired by Flask."
   },
   {
     "name": "AutobahnPython",
@@ -3393,7 +3397,7 @@
   {
     "name": "django-channels",
     "url": "https://github.com/django/channels",
-    "description": "Developer-friendly asynchrony for Django"
+    "description": "Developer-friendly asynchrony for Django."
   },
   {
     "name": "django-socketio",
