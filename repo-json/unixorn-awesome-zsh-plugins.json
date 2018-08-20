@@ -248,14 +248,14 @@
     "description": "Show battery state in right-prompt."
   },
   {
-    "name": "bepoptimist",
-    "url": "https://github.com/sheoak/zsh-bepoptimist",
-    "description": "remap zsh vi-mode for French bépo keyboard."
-  },
-  {
     "name": "bd",
     "url": "https://github.com/Tarrasch/zsh-bd",
     "description": "Jump back to a specific directory, without doing cd ../../..."
+  },
+  {
+    "name": "bepoptimist",
+    "url": "https://github.com/sheoak/zsh-bepoptimist",
+    "description": "remap zsh vi-mode for French bépo keyboard."
   },
   {
     "name": "betterbrew",
@@ -395,7 +395,7 @@
   {
     "name": "crypto-prices",
     "url": "https://github.com/vincentdnl/zsh-crypto-prices",
-    "description": "Add powerlevel9k segment with the current bitcoin price."
+    "description": "Add a powerlevel9k segment with the current bitcoin price."
   },
   {
     "name": "crystal",
@@ -761,11 +761,6 @@
     "description": "A plugin that helps to use, create and maintain a list of shell locations."
   },
   {
-    "name": "google-lucky",
-    "url": "https://github.com/miked0004/zsh-google-lucky",
-    "description": "Simple plugin to search for last command in google's \"I feel lucky\""
-  },
-  {
     "name": "gpg-agent",
     "url": "https://github.com/axtl/gpg-agent.zsh",
     "description": "Plugin that tries to do the right thing when it comes to setting up the GPG agent to act as an SSH agent as well on macOS."
@@ -1006,6 +1001,11 @@
     "description": "Generate lorem ipsum text on the command line. Gets data from lipsum.com."
   },
   {
+    "name": "ls",
+    "url": "https://github.com/zpm-zsh/ls",
+    "description": "Colorizes the output of ls."
+  },
+  {
     "name": "lumberjack",
     "url": "https://github.com/molovo/lumberjack",
     "description": "Lumberjack is a logging interface for shell scripts."
@@ -1146,6 +1146,11 @@
     "description": "ZSH plugin for installing, updating and loading nvm."
   },
   {
+    "name": "oh-my-matrix",
+    "url": "https://github.com/amstrad/oh-my-matrix",
+    "description": "Turn your terminal into the matrix."
+  },
+  {
     "name": "open-create-projects",
     "url": "https://github.com/marcossegovia/open-create-projects",
     "description": "Open/Create projects in Jetbrains."
@@ -1266,14 +1271,14 @@
     "description": "Securely keep sensitive variables (api tokens, passwords, etc) as part of your terminal init files. Uses gpg to encrypt/decrypt the file with your secrets."
   },
   {
-    "name": "project",
-    "url": "https://github.com/voronkovich/project.plugin.zsh",
-    "description": "Plugin for managing projects."
-  },
-  {
-    "name": "project",
+    "name": "project (gko)",
     "url": "https://github.com/gko/project",
     "description": "Create node/python/ruby project both locally and on github(private or public repository)."
+  },
+  {
+    "name": "project (voronkovich)",
+    "url": "https://github.com/voronkovich/project.plugin.zsh",
+    "description": "Plugin for managing projects."
   },
   {
     "name": "proxy-plugin",
@@ -1526,11 +1531,6 @@
     "description": "Automatic window and tab titles for tmux and xterm-compatible terminals."
   },
   {
-    "name": "tmuxrepl",
-    "url": "https://github.com/csurfer/tmuxrepl",
-    "description": "Simple ZSH plugin to have a R-EP-L tmux session."
-  },
-  {
     "name": "tmux-fork Standalone fork of the oh-my-zsh tmux plugin",
     "url": "https://github.com/sharktamer/zsh-tmux"
   },
@@ -1553,6 +1553,16 @@
     "name": "tmux-zsh-vim-titles",
     "url": "https://github.com/MikeDacre/tmux-zsh-vim-titles",
     "description": "Create unified terminal titles for tmux, ZSH, and Vim/NVIM, modular."
+  },
+  {
+    "name": "tmux",
+    "url": "https://github.com/zpm-zsh/tmux/blob/master/tmux.plugin.zsh",
+    "description": "Plugin for tmux"
+  },
+  {
+    "name": "tmuxrepl",
+    "url": "https://github.com/csurfer/tmuxrepl",
+    "description": "Simple ZSH plugin to have a R-EP-L tmux session."
   },
   {
     "name": "travis",
@@ -3076,6 +3086,11 @@
     "name": "pad",
     "url": "https://github.com/eproxus/pad.zsh-theme",
     "description": "A concise and colorful oh-my-zsh theme."
+  },
+  {
+    "name": "page",
+    "url": "https://github.com/SLIB53/page-zsh-theme",
+    "description": "A simple theme with VCS support. The prompt shows 1 level of the current working directory, branch, and a color coded curved fat arrow."
   },
   {
     "name": "pastel",
