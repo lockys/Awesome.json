@@ -70,10 +70,6 @@
     "url": "https://github.com/UnixJunkie/minicli"
   },
   {
-    "name": "ctypes – Library for binding to C libraries using pure OCaml.",
-    "url": "https://github.com/ocamllabs/ocaml-ctypes"
-  },
-  {
     "name": "easy-format – Pretty-printing library for OCaml.",
     "url": "https://github.com/mjambon/easy-format"
   },
@@ -152,9 +148,14 @@
     "url": "https://github.com/facebook/pfff"
   },
   {
-    "name": "infer",
+    "name": "Infer",
     "url": "https://github.com/facebook/infer",
-    "description": "infer is a static analyzer for Java, C and Objective-C"
+    "description": "Infer is a static analyzer for Java, C and Objective-C"
+  },
+  {
+    "name": "Frama-C",
+    "url": "http://frama-c.com",
+    "description": "Frama-C is a static analysis and formal proof framework for C and C++"
   },
   {
     "name": "flow",
@@ -185,6 +186,11 @@
     "name": "BAP",
     "url": "https://github.com/BinaryAnalysisPlatform/bap",
     "description": "BAP is a reverse engineering and program analysis platform that targets binary programs."
+  },
+  {
+    "name": "BinCat",
+    "url": "https://github.com/airbus-seclab/bincat",
+    "description": "BinCat is a binary code static analysis toolkit."
   },
   {
     "name": "cDuce",
@@ -368,6 +374,11 @@
     "description": "It is a WIP database server written in OCaml."
   },
   {
+    "name": "Sequoia",
+    "url": "https://github.com/andrenth/sequoia",
+    "description": "Sequoia is a type-safe query builder for MySQL/MariaDB and PostgreSQL"
+  },
+  {
     "name": "Macaque — Macaque is a library for safe and flexible database queries using comprehensions on top of PG'OCaml.",
     "url": "https://github.com/ocsigen/macaque"
   },
@@ -413,12 +424,17 @@
     "url": "https://www.tutorialspoint.com/compile_ocaml_online.php"
   },
   {
-    "name": "iocaml – An OCaml kernel for the IPython notebook.",
-    "url": "https://github.com/andrewray/iocaml"
+    "name": "Jupyter – An OCaml kernel for the Jupyter notebook.",
+    "url": "https://github.com/akabe/ocaml-jupyter"
   },
   {
     "name": "utop – Universal toplevel for OCaml with support of multiline edition, history, real-time and context sensitive completion, colors, and more.",
-    "url": "https://github.com/diml/utop"
+    "url": "https://github.com/ocaml-community/utop"
+  },
+  {
+    "name": "ocamlformat",
+    "url": "https://github.com/ocaml-ppx/ocamlformat",
+    "description": "A command-line tool to format OCaml code."
   },
   {
     "name": "ocamlbrowser – A source and compiled interface browser, written using LablTk. Included in the standard distribution for ocaml <= 4.01 and with labltk for ocaml >= 4.02.",
@@ -433,12 +449,21 @@
     "url": "https://github.com/mabrasil/generator-ocaml"
   },
   {
+    "name": "ctypes – Library for binding to C libraries using pure OCaml.",
+    "url": "https://github.com/ocamllabs/ocaml-ctypes"
+  },
+  {
     "name": "ocaml-main-program-in-c – Example build system for making mixed C/Ocaml binaries where the main program is in C.",
     "url": "https://github.com/johnwhitington/ocaml-main-program-in-c"
   },
   {
     "name": "Modular foreign function bindings",
     "url": "http://openmirage.org/blog/modular-foreign-function-bindings"
+  },
+  {
+    "name": "Py.ml",
+    "url": "https://github.com/thierry-martinez/pyml",
+    "description": "OCaml bindings for Python."
   },
   {
     "name": "merlin – Context sensitive completion for Ocaml in Vim and Emacs.",
@@ -678,16 +703,8 @@
     "description": "Logs provides a logging infrastructure for OCaml."
   },
   {
-    "name": "ocaml-zmq – ZeroMQ bindings for OCaml.",
+    "name": "ocaml-zmq – ZeroMQ bindings for OCaml with Async and Lwt wrappers.",
     "url": "https://github.com/issuu/ocaml-zmq"
-  },
-  {
-    "name": "async-zmq – Async wrapper around ocaml-zmq.",
-    "url": "https://github.com/rgrinberg/async-zmq"
-  },
-  {
-    "name": "lwt-zmq – Lwt-friendly interface to ZeroMQ for OCaml.",
-    "url": "https://github.com/hcarty/lwt-zmq"
   },
   {
     "name": "onanomsg – nanomsg bindings for OCaml.",
@@ -962,7 +979,7 @@
   },
   {
     "name": "owl",
-    "url": "https://github.com/ryanrhymes/owl",
+    "url": "https://github.com/owlbarn/owl",
     "description": "OCaml numerical library: dense and sparse matrix, linear algebra, regressions, maths and stats functions."
   },
   {
