@@ -529,10 +529,6 @@
     "url": "http://platform9.com"
   },
   {
-    "name": "Gravitational",
-    "url": "http://gravitational.com/"
-  },
-  {
     "name": "OpenShift Online",
     "url": "http://www.openshift.com/devpreview/index.html"
   },
@@ -545,16 +541,34 @@
     "url": "http://stackpoint.io/"
   },
   {
-    "name": "Kubermatic",
-    "url": "http://www.loodse.com//"
-  },
-  {
     "name": "Hasura",
     "url": "https://hasura.io/"
   },
   {
+    "name": "Cisco Container Platform",
+    "url": "https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html"
+  },
+  {
+    "name": "Gardener",
+    "url": "https://github.com/gardener/gardener",
+    "description": "AWS, Azure, GCP, and OpenStack cluster manager"
+  },
+  {
+    "name": "Kubermatic",
+    "url": "http://www.loodse.com/"
+  },
+  {
     "name": "Rancher",
     "url": "https://rancher.com/"
+  },
+  {
+    "name": "PKS",
+    "url": "https://pivotal.io/platform/pivotal-container-service",
+    "description": "Cluster manager by Pivotal, VMWare and Google"
+  },
+  {
+    "name": "Telekube",
+    "url": "https://gravitational.com/telekube/"
   },
   {
     "name": "Fabric8",
@@ -580,6 +594,11 @@
     "name": "Draft",
     "url": "https://draft.sh",
     "description": "a tool for developers to create cloud native applications with Kubernetes"
+  },
+  {
+    "name": "Knative",
+    "url": "https://github.com/knative/",
+    "description": "Platform to build, deploy, and manage modern serverless workloads"
   },
   {
     "name": "CoreOS Tectonic",
@@ -1137,8 +1156,12 @@
     "url": "https://github.com/giantswarm/cert-operator"
   },
   {
-    "name": "Cert manager",
+    "name": "Cert manager by @kelseyhightower",
     "url": "https://github.com/kelseyhightower/kube-cert-manager"
+  },
+  {
+    "name": "cert-manager by @jetstack",
+    "url": "https://github.com/jetstack/cert-manager"
   },
   {
     "name": "Operator Kit",
@@ -1196,6 +1219,11 @@
   {
     "name": "Operator SDK",
     "url": "https://github.com/operator-framework/operator-sdk"
+  },
+  {
+    "name": "kooper",
+    "url": "https://github.com/spotahome/kooper",
+    "description": "Simple Go library to create Kubernetes operators and controllers"
   },
   {
     "name": "Scheduler",
@@ -1383,6 +1411,16 @@
     "name": "Network-Controller",
     "url": "https://github.com/linkernetworks/network-controller",
     "description": "Open vSwitch, Multiple network interfaces that associate with Kubernetes pods"
+  },
+  {
+    "name": "AWS VPC CNI",
+    "url": "https://github.com/aws/amazon-vpc-cni-k8s",
+    "description": "Networking plugin using Elastic Network Interfaces"
+  },
+  {
+    "name": "NSX-T",
+    "url": "https://www.vmware.com/products/nsx/cloud-native-apps.html",
+    "description": "CNI plugin supporting load balancing and distributed firewalls."
   },
   {
     "name": "Envoy",
@@ -1652,21 +1690,47 @@
     "url": "https://github.com/errordeveloper/kubegen"
   },
   {
-    "name": "Dex",
-    "url": "https://github.com/coreos/dex",
-    "description": "OpenID and OAuth for Kubernetes"
+    "name": "kustomize",
+    "url": "https://github.com/kubernetes-sigs/kustomize",
+    "description": "Customization using partial specs"
   },
   {
-    "name": "Trireme",
-    "url": "http://github.com/aporeto-inc/trireme-kubernetes"
+    "name": "kapitan",
+    "url": "https://github.com/deepmind/kapitan",
+    "description": "Manage complex deployments using jsonnet and jinja2"
   },
   {
     "name": "Aquasec",
     "url": "http://blog.aquasec.com/topic/kubernetes"
   },
   {
-    "name": "Twistlock",
-    "url": "http://www.twistlock.com/"
+    "name": "Authenticator",
+    "url": "https://github.com/heptio/authenticator",
+    "description": "A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster"
+  },
+  {
+    "name": "Dex",
+    "url": "https://github.com/coreos/dex",
+    "description": "OpenID and OAuth for Kubernetes"
+  },
+  {
+    "name": "Guard",
+    "url": "https://github.com/appscode/guard",
+    "description": "Authenticaton webhook server with support for Github, Gitlab, Google, Azure and LDAP (AD) as identity providers."
+  },
+  {
+    "name": "kiam",
+    "url": "https://github.com/uswitch/kiam",
+    "description": " Allows cluster users to associate AWS IAM roles to Pods."
+  },
+  {
+    "name": "kube2iam",
+    "url": "https://github.com/jtblin/kube2iam",
+    "description": "Provides different AWS IAM roles for pods running on Kubernetes"
+  },
+  {
+    "name": "Kubesec.io",
+    "url": "http://kubesec.io/"
   },
   {
     "name": "Sysdig Falco",
@@ -1677,21 +1741,48 @@
     "url": "http://www.sysdig.com/product/secure"
   },
   {
-    "name": "Kubesec.io",
-    "url": "http://kubesec.io/"
+    "name": "Trireme",
+    "url": "http://github.com/aporeto-inc/trireme-kubernetes"
   },
   {
-    "name": "Authenticator",
-    "url": "https://github.com/heptio/authenticator",
-    "description": "A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster"
+    "name": "Twistlock",
+    "url": "http://www.twistlock.com/"
   },
   {
-    "name": "Nginx Plus",
-    "url": "http://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/"
+    "name": "Avi Networks",
+    "url": "https://avinetworks.com/",
+    "description": "Software Load Balancer | Intelligent WAF | Elastic Service Mesh"
   },
   {
-    "name": "Traefik",
-    "url": "http://traefik.io/"
+    "name": "AWS ALB Ingress Controller",
+    "url": "https://github.com/kubernetes-sigs/aws-alb-ingress-controller"
+  },
+  {
+    "name": "Cloudflare Warp Ingress",
+    "url": "https://github.com/cloudflare/cloudflare-ingress-controller"
+  },
+  {
+    "name": "Contour",
+    "url": "https://github.com/heptio/contour",
+    "description": "Kubernetes ingress controller for Lyft's Envoy proxy"
+  },
+  {
+    "name": "F5 Big IP Controller",
+    "url": "https://github.com/F5Networks/k8s-bigip-ctlr"
+  },
+  {
+    "name": "Gimbal",
+    "url": "https://github.com/heptio/gimbal",
+    "description": "Platform capable of routing traffic to multiple Kubernetes and OpenStack clusters"
+  },
+  {
+    "name": "Gloo",
+    "url": "https://github.com/solo-io/gloo",
+    "description": "Envoy-based API gateway and ingress controller"
+  },
+  {
+    "name": "HAProxy Ingress",
+    "url": "https://github.com/jcmoraisjr/haproxy-ingress"
   },
   {
     "name": "MetalLB",
@@ -1699,34 +1790,26 @@
     "description": "load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols."
   },
   {
-    "name": "AppsCode Voyager",
-    "url": "https://github.com/appscode/voyager",
-    "description": "Secure HAProxy based Ingress Controller"
-  },
-  {
     "name": "NGINX Ingress Controller",
     "url": "https://github.com/kubernetes/ingress-nginx"
   },
   {
-    "name": "F5 Big IP Controller",
-    "url": "https://github.com/F5Networks/k8s-bigip-ctlr"
+    "name": "Nginx Plus",
+    "url": "http://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/"
   },
   {
-    "name": "HAProxy Ingress",
-    "url": "https://github.com/jcmoraisjr/haproxy-ingress"
+    "name": "Skipper",
+    "url": "https://github.com/zalando/skipper",
+    "description": "HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress"
   },
   {
-    "name": "Cloudflare Warp Ingress",
-    "url": "https://github.com/cloudflare/cloudflare-ingress-controller"
+    "name": "Traefik",
+    "url": "http://traefik.io/"
   },
   {
-    "name": "Gloo – Envoy-based API gateway and ingress controller",
-    "url": "https://github.com/solo-io/gloo"
-  },
-  {
-    "name": "Avi Networks",
-    "url": "https://avinetworks.com/",
-    "description": "Software Load Balancer | Intelligent WAF | Elastic Service Mesh"
+    "name": "Voyager",
+    "url": "https://github.com/appscode/voyager",
+    "description": "Secure HAProxy based Ingress Controller"
   },
   {
     "name": "Kube-Yarn",
@@ -1817,6 +1900,11 @@
     "name": "Ark",
     "url": "https://github.com/heptio/ark",
     "description": "Utility for managing backup and restore of Kubernetes clusters."
+  },
+  {
+    "name": "burry.sh",
+    "url": "https://github.com/mhausenblas/burry.sh",
+    "description": "Cloud Native backup and recovery for etcd, zookeeper and consul"
   },
   {
     "name": "kube-backup",
