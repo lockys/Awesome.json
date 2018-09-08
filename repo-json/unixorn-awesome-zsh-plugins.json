@@ -1343,9 +1343,14 @@
     "description": "Lazy load pyenv. The initial eval \"$(pyenv init -)\" is executed the first time pyenv is called."
   },
   {
-    "name": "q",
+    "name": "q (cal2195)",
     "url": "https://github.com/cal2195/q",
     "description": "Vim-like macro registers for your ZSH shell."
+  },
+  {
+    "name": "q (tomsquest)",
+    "url": "https://github.com/tomsquest/q.plugin.zsh",
+    "description": "Tail/remove the temp file for Q."
   },
   {
     "name": "quoter",
@@ -1650,6 +1655,11 @@
     "name": "url-highlighter",
     "url": "https://github.com/ascii-soup/zsh-url-highlighter",
     "description": "A plugin for the zsh syntax highlighter that turns URLs green if they respond with a \"good\" status, and red otherwise. Useful for checking URL typos."
+  },
+  {
+    "name": "uvenv",
+    "url": "https://github.com/vincentto13/uvenv.plugin.zsh",
+    "description": "Extends the functionality of the original oh-my-zsh venv module"
   },
   {
     "name": "vanilli.sh",
@@ -2036,6 +2046,11 @@
     "description": "Completions for haxelib."
   },
   {
+    "name": "joe-completion",
+    "url": "https://github.com/corvofeng/joe-completion",
+    "description": "Adds completions for joe gitignore editor."
+  },
+  {
     "name": "jtool-completion",
     "url": "https://github.com/beaugalbraith/jtool-completion",
     "description": "ZSH completions for jtool."
@@ -2223,17 +2238,17 @@
   {
     "name": "adlee",
     "url": "https://github.com/adlee-was-taken/oh-my-zsh-osx/blob/master/adlee.zsh-theme",
-    "description": "macOS theme, requires Powerline font."
+    "description": "macOS theme, requires a Powerline-compatible font."
   },
   {
     "name": "af-magic-mod",
     "url": "https://raw.githubusercontent.com/desyncr/zshrc/master/themes/af-magic-mod.zsh-theme",
-    "description": "af-magic-mod theme. Install with antigen theme desyncr/zshrc themes/af-magic-mod."
+    "description": "af-magic-mod theme."
   },
   {
     "name": "aflah-bhari",
     "url": "https://github.com/AflahB/aflah-bhari-zsh-theme",
-    "description": "Modified version of the robbyrussel theme in oh-my-zsh."
+    "description": "Modified version of the robbyrussell theme in oh-my-zsh."
   },
   {
     "name": "agkozak",
@@ -2288,7 +2303,7 @@
   {
     "name": "angry fly",
     "url": "https://github.com/russjohnson/angry-fly-zsh",
-    "description": "Shows git information in right hand prompt."
+    "description": "Shows git information in the right hand prompt."
   },
   {
     "name": "aphrodite",
@@ -2298,7 +2313,7 @@
   {
     "name": "aplos",
     "url": "https://github.com/nostophilia/aplos",
-    "description": "Minimal ZSH prompt with working directory, Git local info, Git remote info, time and exit code."
+    "description": "Minimal ZSH prompt with working directory, git local info, git remote info, time and exit code."
   },
   {
     "name": "asciigit",
@@ -2328,7 +2343,7 @@
   {
     "name": "avit-d2k",
     "url": "https://github.com/fdaciuk/avit-da2k",
-    "description": "Based on Avit, with small changes."
+    "description": "Based on the oh-my-zsh avit theme, with small changes."
   },
   {
     "name": "avit-mod",
@@ -2745,9 +2760,19 @@
     "description": "Simple git status + timestamp in prompt."
   },
   {
+    "name": "hcompact",
+    "url": "https://github.com/fusion809/zsh-theme",
+    "description": "Displays time, OS (including distro if on Linux), directory and whether running as root."
+  },
+  {
     "name": "heart",
     "url": "https://github.com/gko/heart-theme",
     "description": "Heart themed prompt for light backgrounds."
+  },
+  {
+    "name": "hfulldate",
+    "url": "https://github.com/fusion809/zsh-theme",
+    "description": "Displays time, date, OS (including distro if on Linux), directory and whether running as root."
   },
   {
     "name": "hedgehog",
@@ -2783,6 +2808,11 @@
     "name": "horizontal",
     "url": "https://github.com/nuimk/horizontal",
     "description": "Two line prompt with a horizontal separator."
+  },
+  {
+    "name": "hornix",
+    "url": "https://github.com/fusion809/zsh-theme",
+    "description": "Displays time & date, OS (including distro if on Linux), directory and whether running as root."
   },
   {
     "name": "horse-sh",
@@ -3107,6 +3137,11 @@
     "name": "noon",
     "url": "https://github.com/silky/noon.zsh-theme",
     "description": "Has light and dark variants, shows git information."
+  },
+  {
+    "name": "nops",
+    "url": "https://github.com/aprilnops/zsh-theme",
+    "description": "Variant of ys without hostname or time."
   },
   {
     "name": "nothing",
@@ -3596,7 +3631,7 @@
   {
     "name": "wynwyn",
     "url": "https://github.com/thaffenden/wynwyn.zsh-theme",
-    "description": "A theme that aims to show you the information you need when you need it. wynwyn takes inspiration from the deault theme avit and the excellent Spaceship prompt."
+    "description": "A theme that aims to show you the information you need when you need it. wynwyn takes inspiration from the default theme avit and the excellent Spaceship prompt."
   },
   {
     "name": "xremix",
@@ -3606,7 +3641,7 @@
   {
     "name": "xxf",
     "url": "https://gist.github.com/xfanwu/18fd7c24360c68bab884",
-    "description": "Shows Current commit shorten hash and message."
+    "description": "Shows the current git commit's shortened hash and message."
   },
   {
     "name": "yairshefi",
@@ -3616,7 +3651,7 @@
   {
     "name": "ykmam",
     "url": "https://github.com/julienvanderkluft/ykmam-zsh-theme/blob/master/ykmam.zsh-theme",
-    "description": "Modified from ys theme. Optimized for a dark background."
+    "description": "Modified from ys theme and optimized for a dark background."
   },
   {
     "name": "ys-cluster",
@@ -3656,7 +3691,7 @@
   {
     "name": "zeta",
     "url": "https://github.com/skylerlee/zeta-zsh-theme",
-    "description": "Shows username, git information, machine name, current working directory."
+    "description": "Shows username, git information, machine name and current working directory."
   },
   {
     "name": "zqt",
@@ -3666,7 +3701,7 @@
   {
     "name": "zsh2000",
     "url": "https://github.com/maverick2000/zsh2000",
-    "description": "Powerline looking ZSH theme with rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, root and background job status."
+    "description": "Powerline looking ZSH theme which includes the rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, whether running as root and background job status."
   },
   {
     "name": "zshcomrade",
