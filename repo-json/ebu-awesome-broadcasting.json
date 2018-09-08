@@ -1,45 +1,5 @@
 [
   {
-    "name": "butt",
-    "url": "https://danielnoethen.de/",
-    "description": "broadcast using this tool (butt) is an easy to use, multi OS streaming tool. It supports SHOUTcast and Icecast."
-  },
-  {
-    "name": "Cool Mic",
-    "url": "https://coolmic.net/",
-    "description": "Android audio livestreaming Icecast source client app."
-  },
-  {
-    "name": "DarkIce",
-    "url": "http://www.darkice.org/",
-    "description": "A live audio streamer that records audio from an audio interface (e.g. sound card), encodes it and sends it to a streaming server."
-  },
-  {
-    "name": "Icecast",
-    "url": "http://icecast.org/",
-    "description": "A streaming media (audio/video) server which supports Ogg (Vorbis and Theora), Opus, WebM and MP3 streams."
-  },
-  {
-    "name": "Kamailio",
-    "url": "http://www.kamailio.org/",
-    "description": "Open SIP server, commonly used for Audio contribution over IP using SIP (EBU ACIP)."
-  },
-  {
-    "name": "OpenOB",
-    "url": "https://jamesharrison.github.io/openob/",
-    "description": "Open Outside Broadcast project for radio contribution links and studio-transmitter links based on Opus."
-  },
-  {
-    "name": "PJSIP",
-    "url": "http://www.pjsip.org/",
-    "description": "Open Source multimedia library implementing SIP, SDP, RTP, STUN, TURN, and ICE. Used in some contribution equipment (dual licensing)."
-  },
-  {
-    "name": "trx",
-    "url": "http://www.pogo.org.uk/%7Emark/trx/",
-    "description": "A simple toolset for broadcasting live audio from Linux."
-  },
-  {
     "name": "FLAC",
     "url": "https://www.xiph.org/flac/",
     "description": "Free Lossless Audio Coding, used by some broadcasters for audio exchange, storage."
@@ -210,6 +170,46 @@
     "description": "RadioVIS STOMP server written in node.js."
   },
   {
+    "name": "butt",
+    "url": "https://danielnoethen.de/",
+    "description": "broadcast using this tool (butt) is an easy to use, multi OS streaming tool. It supports SHOUTcast and Icecast."
+  },
+  {
+    "name": "Cool Mic",
+    "url": "https://coolmic.net/",
+    "description": "Android audio livestreaming Icecast source client app."
+  },
+  {
+    "name": "DarkIce",
+    "url": "http://www.darkice.org/",
+    "description": "A live audio streamer that records audio from an audio interface (e.g. sound card), encodes it and sends it to a streaming server."
+  },
+  {
+    "name": "Icecast",
+    "url": "http://icecast.org/",
+    "description": "A streaming media (audio/video) server which supports Ogg (Vorbis and Theora), Opus, WebM and MP3 streams."
+  },
+  {
+    "name": "Kamailio",
+    "url": "http://www.kamailio.org/",
+    "description": "Open SIP server, commonly used for Audio contribution over IP using SIP (EBU ACIP)."
+  },
+  {
+    "name": "OpenOB",
+    "url": "https://jamesharrison.github.io/openob/",
+    "description": "Open Outside Broadcast project for radio contribution links and studio-transmitter links based on Opus."
+  },
+  {
+    "name": "PJSIP",
+    "url": "http://www.pjsip.org/",
+    "description": "Open Source multimedia library implementing SIP, SDP, RTP, STUN, TURN, and ICE. Used in some contribution equipment (dual licensing)."
+  },
+  {
+    "name": "trx",
+    "url": "http://www.pogo.org.uk/%7Emark/trx/",
+    "description": "A simple toolset for broadcasting live audio from Linux."
+  },
+  {
     "name": "Dash.js",
     "url": "https://github.com/ebu/dash.js",
     "description": "A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers."
@@ -275,9 +275,9 @@
     "description": "The Github for maintenance of the EBUCore schema."
   },
   {
-    "name": "IS-04",
-    "url": "https://github.com/bbc/nmos-discovery-registration-ri",
-    "description": "Python implementation of the NMOS IS-04 Registration and Discovery Specification."
+    "name": "AMWA IS-04 and IS-05",
+    "url": "https://github.com/bbc/nmos-joint-ri",
+    "description": "Python implementation of the AMWA IS-04 NMOS Registration and Discovery Specification and AMWA IS-05 NMOS Device Connection Management Specification."
   },
   {
     "name": "jebu-core",
@@ -416,7 +416,7 @@
   {
     "name": "FFmpeg",
     "url": "http://ffmpeg.org",
-    "description": "A complete, cross-platform solution to record, convert and stream audio and video."
+    "description": "A complete, cross-platform solution to record, convert and stream audio and video. Now including support for SMPTE ST 2110."
   },
   {
     "name": "Flowblade",
@@ -656,6 +656,31 @@
     "name": "Timed Text Toolkit (ttt)",
     "url": "https://github.com/skynav/ttt",
     "description": "A collection of related tools that provide support for or make use of the W3C Timed Text Markup Language (TTML)."
+  },
+  {
+    "name": "MOS-connection",
+    "url": "https://github.com/nrkno/tv-automation-mos-connection",
+    "description": "A JavaScript library for connection and MOS messaging either as MOS device or NRCS."
+  },
+  {
+    "name": "Open Lighting Architecture (OLA)",
+    "url": "https://www.openlighting.org/ola/",
+    "description": "OLA is a framework for lighting control information, the travel adaptor for the lighting industry, for converting between Digital Multiplex (DMX-512) and IP variants and interfacing with USB adaptors."
+  },
+  {
+    "name": "PiClock",
+    "url": "https://github.com/simonhyde/PiClock",
+    "description": "Customisable network based displays of clocks, on-air, mic live and other studio indicators."
+  },
+  {
+    "name": "Q Light Controller+ (QLC+)",
+    "url": "https://www.qlcplus.org/",
+    "description": "QLC+ is cross-platform software to control DMX or analog lighting systems like moving heads, dimmers, scanners etc."
+  },
+  {
+    "name": "Teleprompter",
+    "url": "https://github.com/ImaginarySense/Teleprompter-Core",
+    "description": "Web browser and standalone Electron app prompter."
   },
   {
     "name": "BBC News Labs",

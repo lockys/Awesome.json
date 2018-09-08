@@ -8,6 +8,10 @@
     "url": "https://www.terraform.io/docs/"
   },
   {
+    "name": "Hashicorp Terraform Blog",
+    "url": "https://www.hashicorp.com/blog/category/terraform"
+  },
+  {
     "name": "Terraform Google Group",
     "url": "https://groups.google.com/forum/#!forum/terraform-tool"
   },
@@ -48,6 +52,45 @@
     "url": "http://shop.oreilly.com/product/0636920039297.do"
   },
   {
+    "name": "A Comprehensive Guide to Terraform",
+    "url": "https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca#.w9x897ywp",
+    "description": "Series of blog posts from the author of \"Terraform: Up & Running\" that guide the reader from beginning with Terraform to using it in the real world."
+  },
+  {
+    "name": "Bootstrapping Docker Infrastructure With Terraform",
+    "url": "http://vilkeliskis.com/blog/2016/02/10/bootstrapping-docker-with-terraform.html",
+    "description": "Walkthrough of deploying a dockerized app on ECS using Terraform."
+  },
+  {
+    "name": "Deploying Discourse with Terraform",
+    "url": "https://www.hashicorp.com/blog/terraform-discourse.html",
+    "description": "Shows how Terraform can create a running instance of Discourse on DigitalOcean in one command."
+  },
+  {
+    "name": "Easily Deploy A Seneca Microservice to ECS with Wercker and Terraform: Part I, II & III",
+    "url": "http://chiefy.github.io/easily-deploy-a-seneca-microservice-to-ecs-with-wercker-and-terraform-part-i/",
+    "description": "Illustrates how Terraform can be incorporated into a microservice deployment pipeline."
+  },
+  {
+    "name": "Getting Started with Kitchen-Terraform",
+    "url": "https://newcontext-oss.github.io/kitchen-terraform/getting_started.html"
+  },
+  {
+    "name": "Sharing data between Terraform configurations",
+    "url": "https://jamesmckay.net/2016/09/sharing-data-between-terraform-configurations/",
+    "description": "Illustrates how to use remote state to share data between Terraform configurations."
+  },
+  {
+    "name": "Terraform, VPC, and why you want a tfstate file per env",
+    "url": "https://charity.wtf/2016/03/30/terraform-vpc-and-why-you-want-a-tfstate-file-per-env/",
+    "description": "Some gotchas surrounding using Terraform in large projects with multiple environments and how to avoid them."
+  },
+  {
+    "name": "Terraform: Beyond the Basics with AWS",
+    "url": "https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/",
+    "description": "Explanation of a demo using Terraform to provision a sample AWS architecture."
+  },
+  {
     "name": "Terraforming 1Password",
     "url": "https://blog.agilebits.com/2018/01/25/terraforming-1password/",
     "description": "How 1Password migrated from CloudFormation to Terraform."
@@ -58,14 +101,8 @@
     "description": "Shows the behind the scenes of the infrastructure powered by Terraform that solved The Million Dollar Engineering Problem at Segment."
   },
   {
-    "name": "A Comprehensive Guide to Terraform",
-    "url": "https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca#.w9x897ywp",
-    "description": "Series of blog posts from the author of \"Terraform: Up & Running\" that guide the reader from beginning with Terraform to using it in the real world."
-  },
-  {
-    "name": "Easily Deploy A Seneca Microservice to ECS with Wercker and Terraform: Part I, II & III",
-    "url": "http://chiefy.github.io/easily-deploy-a-seneca-microservice-to-ecs-with-wercker-and-terraform-part-i/",
-    "description": "Illustrates how Terraform can be incorporated into a microservice deployment pipeline."
+    "name": "Top 3 Terraform Testing Strategies for Ultra-Reliable Infrastructure-as-Code",
+    "url": "https://www.contino.io/insights/top-3-terraform-testing-strategies-for-ultra-reliable-infrastructure-as-code"
   },
   {
     "name": "Tutorial: How to Use Terraform to Deploy OpenStack Workloads",
@@ -73,39 +110,9 @@
     "description": "Illustrates how easy it is to use the OpenStack Terraform provider to deploy a web server."
   },
   {
-    "name": "Terraform: Beyond the Basics with AWS",
-    "url": "https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/",
-    "description": "Explanation of a demo using Terraform to provision a sample AWS architecture."
-  },
-  {
-    "name": "Deploying Discourse with Terraform",
-    "url": "https://www.hashicorp.com/blog/terraform-discourse.html",
-    "description": "Shows how Terraform can create a running instance of Discourse on DigitalOcean in one command."
-  },
-  {
-    "name": "Bootstrapping Docker Infrastructure With Terraform",
-    "url": "http://vilkeliskis.com/blog/2016/02/10/bootstrapping-docker-with-terraform.html",
-    "description": "Walkthrough of deploying a dockerized app on ECS using Terraform."
-  },
-  {
     "name": "Two Weeks with Terraform",
     "url": "https://charity.wtf/2016/02/23/two-weeks-with-terraform/",
     "description": "Some hard-earned experience from using Terraform in the wild, and some operational wisdom."
-  },
-  {
-    "name": "Using Terraform for Cloud Deployments",
-    "url": "https://dev.to/koenighotze/using-terraform-for-cloud-deployments---part-1",
-    "description": "Part 1 - Beginner tutorial with a focus on using Terraform to provision an EC2 instance."
-  },
-  {
-    "name": "Terraform, VPC, and why you want a tfstate file per env",
-    "url": "https://charity.wtf/2016/03/30/terraform-vpc-and-why-you-want-a-tfstate-file-per-env/",
-    "description": "Some gotchas surrounding using Terraform in large projects with multiple environments and how to avoid them."
-  },
-  {
-    "name": "Sharing data between Terraform configurations",
-    "url": "https://jamesmckay.net/2016/09/sharing-data-between-terraform-configurations/",
-    "description": "Illustrates how to use remote state to share data between Terraform configurations."
   },
   {
     "name": "Using Pipelines to Manage Environments with Infrastructure as Code",
@@ -113,84 +120,19 @@
     "description": "Explains different approaches for building a pipeline to handle infrastructure changes moving from one environment to the next."
   },
   {
-    "name": "segmentio/stack",
-    "url": "https://github.com/segmentio/stack",
-    "description": "Configures production infrastructure with AWS, Docker, and ECS."
-  },
-  {
-    "name": "terraform-ecs-jenkins",
-    "url": "https://github.com/shuaibiyy/terraform-ecs-jenkins",
-    "description": "Provisions Jenkins on AWS ECS using Terraform."
-  },
-  {
-    "name": "tf_aws_bastion_s3_keys",
-    "url": "https://github.com/terraform-community-modules/tf_aws_bastion_s3_keys",
-    "description": "Creates bastion hosts on AWS EC2."
-  },
-  {
-    "name": "terraform-static-website-s3-cloudfront",
-    "url": "https://github.com/sjevs/terraform-static-website-s3-cloudfront",
-    "description": "Creates static websites on AWS S3 & Cloudfront based on variables."
-  },
-  {
-    "name": "tf_aws_vpc_only",
-    "url": "https://github.com/terraform-community-modules/tf_aws_vpc_only",
-    "description": "Provides only VPC (without subnets) in AWS."
-  },
-  {
-    "name": "tf_aws_asg_elb",
-    "url": "https://github.com/terraform-community-modules/tf_aws_asg_elb",
-    "description": "Creates Auto-Scaling Groups and Launch Configurations for use with an Elastic Load Balancer."
-  },
-  {
-    "name": "tf_aws_availability_zones_cfn",
-    "url": "https://github.com/terraform-community-modules/tf_aws_availability_zones_cfn",
-    "description": "Gets availability zones for your AWS region/account from Cloudformation."
-  },
-  {
-    "name": "tf_aws_ubuntu_ami",
-    "url": "https://github.com/terraform-community-modules/tf_aws_ubuntu_ami",
-    "description": "Easy way to lookup Ubuntu AMIs with Terraform."
-  },
-  {
-    "name": "tf_aws_sg",
-    "url": "https://github.com/terraform-community-modules/tf_aws_sg",
-    "description": "Collection of common security group settings."
-  },
-  {
-    "name": "tf_aws_coreos_ami",
-    "url": "https://github.com/terraform-community-modules/tf_aws_coreos_ami",
-    "description": "Easy way to lookup CoreOS AMIs with terraform."
-  },
-  {
-    "name": "tf_aws_private_subnet_nat_gateway",
-    "url": "https://github.com/terraform-community-modules/tf_aws_private_subnet_nat_gateway",
-    "description": "Creates private subnets with NAT Gateway in AWS."
-  },
-  {
-    "name": "tf_aws_rds",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-rds",
-    "description": "Creates RDS resources on AWS."
-  },
-  {
-    "name": "terraform-aws-postgresql-rds",
-    "url": "https://github.com/azavea/terraform-aws-postgresql-rds",
-    "description": "Creates PostgreSQL on RDS."
-  },
-  {
-    "name": "tf_aws_vpc",
-    "url": "https://github.com/terraform-community-modules/tf_aws_vpc",
-    "description": "Provides VPCs in AWS."
-  },
-  {
-    "name": "tf_aws_nat",
-    "url": "https://github.com/terraform-community-modules/tf_aws_nat",
-    "description": "NAT instances for AWS."
+    "name": "Using Terraform for Cloud Deployments",
+    "url": "https://dev.to/koenighotze/using-terraform-for-cloud-deployments---part-1",
+    "description": "Part 1 - Beginner tutorial with a focus on using Terraform to provision an EC2 instance."
   },
   {
     "name": "rancher-terraform-digitalocean",
     "url": "https://github.com/lunagt/rancher-terraform-digitalocean",
     "description": "Rancher server on digitalocean."
+  },
+  {
+    "name": "segmentio/stack",
+    "url": "https://github.com/segmentio/stack",
+    "description": "Configures production infrastructure with AWS, Docker, and ECS."
   },
   {
     "name": "terraform-aws-ecr",
@@ -203,44 +145,114 @@
     "description": "Defines an EFS Filesystem."
   },
   {
-    "name": "terraform-aws-key-pair",
-    "url": "https://github.com/cloudposse/terraform-aws-key-pair",
-    "description": "Automatically Generate SSH Key Pairs (Public/Private Keys)."
-  },
-  {
     "name": "terraform-aws-jenkins",
     "url": "https://github.com/cloudposse/terraform-aws-jenkins",
     "description": "Build a Docker image with Jenkins, saves it to an ECR repo, and deploys it to Elastic Beanstalk running a Docker stack."
   },
   {
-    "name": "Atlantis",
-    "url": "https://github.com/hootsuite/atlantis",
-    "description": "Unified workflow for collaborating on Terraform through GitHub."
+    "name": "terraform-aws-key-pair",
+    "url": "https://github.com/cloudposse/terraform-aws-key-pair",
+    "description": "Automatically Generate SSH Key Pairs (Public/Private Keys)."
   },
   {
-    "name": "terraform_validate",
-    "url": "https://github.com/elmundio87/terraform_validate",
-    "description": "Assists in the enforcement of user-defined standards in Terraform."
+    "name": "terraform-aws-postgresql-rds",
+    "url": "https://github.com/azavea/terraform-aws-postgresql-rds",
+    "description": "Creates PostgreSQL on RDS."
   },
   {
-    "name": "terraform-docs",
-    "url": "https://github.com/segmentio/terraform-docs",
-    "description": "Quick utility to generate docs from terraform modules."
+    "name": "terraform-aws-ssh-bastion-service",
+    "url": "https://github.com/joshuamkite/terraform-aws-ssh-bastion-service",
+    "description": "Terraform plan to deploy ssh bastion as a stateless service on AWS"
   },
   {
-    "name": "terraform.py",
-    "url": "https://github.com/ciscocloud/terraform.py",
-    "description": "Ansible dynamic inventory script for parsing Terraform state files."
+    "name": "terraform-ecs-jenkins",
+    "url": "https://github.com/shuaibiyy/terraform-ecs-jenkins",
+    "description": "Provisions Jenkins on AWS ECS using Terraform."
   },
   {
-    "name": "terraform-provisioner",
-    "url": "https://github.com/shuaibiyy/terraform-provisioner",
-    "description": "Tool for managing multiple provisions of the same Terraform scripts."
+    "name": "terraform-google-project-factory",
+    "url": "https://github.com/terraform-google-modules/terraform-google-project-factory",
+    "description": "Opinionated Google Cloud Platform project creation and configuration with Shared VPC, IAM, APIs, etc."
   },
   {
-    "name": "terraboot",
-    "url": "https://github.com/MastodonC/terraboot",
-    "description": "DSL to generate a terraform configuration and run it."
+    "name": "terraform-static-website-s3-cloudfront",
+    "url": "https://github.com/sjevs/terraform-static-website-s3-cloudfront",
+    "description": "Creates static websites on AWS S3 & Cloudfront based on variables."
+  },
+  {
+    "name": "tf_aws_asg_elb",
+    "url": "https://github.com/terraform-community-modules/tf_aws_asg_elb",
+    "description": "Creates Auto-Scaling Groups and Launch Configurations for use with an Elastic Load Balancer."
+  },
+  {
+    "name": "tf_aws_availability_zones_cfn",
+    "url": "https://github.com/terraform-community-modules/tf_aws_availability_zones_cfn",
+    "description": "Gets availability zones for your AWS region/account from Cloudformation."
+  },
+  {
+    "name": "tf_aws_bastion_s3_keys",
+    "url": "https://github.com/terraform-community-modules/tf_aws_bastion_s3_keys",
+    "description": "Creates bastion hosts on AWS EC2."
+  },
+  {
+    "name": "tf_aws_coreos_ami",
+    "url": "https://github.com/terraform-community-modules/tf_aws_coreos_ami",
+    "description": "Easy way to lookup CoreOS AMIs with terraform."
+  },
+  {
+    "name": "tf_aws_nat",
+    "url": "https://github.com/terraform-community-modules/tf_aws_nat",
+    "description": "NAT instances for AWS."
+  },
+  {
+    "name": "tf_aws_private_subnet_nat_gateway",
+    "url": "https://github.com/terraform-community-modules/tf_aws_private_subnet_nat_gateway",
+    "description": "Creates private subnets with NAT Gateway in AWS."
+  },
+  {
+    "name": "tf_aws_rds",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-rds",
+    "description": "Creates RDS resources on AWS."
+  },
+  {
+    "name": "tf_aws_sg",
+    "url": "https://github.com/terraform-community-modules/tf_aws_sg",
+    "description": "Collection of common security group settings."
+  },
+  {
+    "name": "tf_aws_ubuntu_ami",
+    "url": "https://github.com/terraform-community-modules/tf_aws_ubuntu_ami",
+    "description": "Easy way to lookup Ubuntu AMIs with Terraform."
+  },
+  {
+    "name": "tf_aws_vpc",
+    "url": "https://github.com/terraform-community-modules/tf_aws_vpc",
+    "description": "Provides VPCs in AWS."
+  },
+  {
+    "name": "tf_aws_vpc_only",
+    "url": "https://github.com/terraform-community-modules/tf_aws_vpc_only",
+    "description": "Provides only VPC (without subnets) in AWS."
+  },
+  {
+    "name": "anthology",
+    "url": "https://github.com/erikvanbrakel/anthology",
+    "description": "A private Terraform registry implementation as an alternative to the official registry."
+  },
+  {
+    "name": "citizen",
+    "url": "https://github.com/outsideris/citizen",
+    "description": "A Private Terraform Module Registry"
+  },
+  {
+    "name": "terraform-simple-registry",
+    "url": "https://github.com/apparentlymart/terraform-simple-registry",
+    "description": "A simple implementation of the Terraform registry protocols."
+  },
+  {
+    "name": "terraform-prodiver-linode",
+    "url": "https://github.com/btobolaski/terraform-provider-linode",
+    "description": "A terraform plugin for linode"
   },
   {
     "name": "terraform-provider-pingdom",
@@ -248,14 +260,59 @@
     "description": "Terraform provider to manage pingdom resources."
   },
   {
-    "name": "terragrunt",
-    "url": "https://github.com/gruntwork-io/terragrunt",
-    "description": "Terragrunt is a thin wrapper for Terraform that supports locking for Terraform state and enforces best practices."
+    "name": "kitchen-terraform",
+    "url": "https://github.com/newcontext-oss/kitchen-terraform",
+    "description": "Provides a set of Test Kitchen plugins which enable a system to use Test Kitchen to converge a Terraform configuration and verify the resulting Terraform state with InSpec controls."
   },
   {
-    "name": "tfenv",
-    "url": "https://github.com/kamatama41/tfenv",
-    "description": "Terraform version manager inspired by rbenv."
+    "name": "rspec-terraform",
+    "url": "https://github.com/bsnape/rspec-terraform",
+    "description": "RSpec tests for your Terraform modules"
+  },
+  {
+    "name": "terraform-compliance",
+    "url": "https://github.com/eerkunt/terraform-compliance",
+    "description": "BDD Testing for Terraform Files."
+  },
+  {
+    "name": "terraform_validate",
+    "url": "https://github.com/elmundio87/terraform_validate",
+    "description": "Assists in the enforcement of user-defined standards in Terraform."
+  },
+  {
+    "name": "terratest",
+    "url": "https://github.com/gruntwork-io/terratest",
+    "description": "Terratest is a Go library that makes it easier to write automated tests for your infrastructure code"
+  },
+  {
+    "name": "atlantis",
+    "url": "https://github.com/runatlantis/atlantis",
+    "description": "Unified workflow for collaborating on Terraform through GitHub."
+  },
+  {
+    "name": "blast radius",
+    "url": "https://github.com/28mm/blast-radius",
+    "description": "Interactive visualizations of Terraform dependency graphs."
+  },
+  {
+    "name": "ruby-terraform",
+    "url": "https://github.com/infrablocks/ruby_terraform",
+    "description": "A simple Ruby wrapper for invoking terraform commands."
+  },
+  {
+    "name": "terraboard",
+    "url": "https://github.com/camptocamp/terraboard",
+    "description": "A web dashboard to inspect Terraform States"
+  },
+  {
+    "name": "terraboot",
+    "url": "https://github.com/MastodonC/terraboot",
+    "description": "DSL to generate a terraform configuration and run it."
+  },
+  {
+    "name": "terraform-docs",
+    "url": "https://github.com/segmentio/terraform-docs",
+    "description": "Quick utility to generate docs from terraform modules."
   },
   {
     "name": "terraform-landscape",
@@ -263,9 +320,38 @@
     "description": "Improve Terraform's plan output to be easier to read and understand."
   },
   {
-    "name": "Blast Radius",
-    "url": "https://github.com/28mm/blast-radius",
-    "description": "Interactive visualizations of Terraform dependency graphs."
+    "name": "terraform-provisioner",
+    "url": "https://github.com/shuaibiyy/terraform-provisioner",
+    "description": "Tool for managing multiple provisions of the same Terraform scripts."
+  },
+  {
+    "name": "terraform-rake-tasks",
+    "url": "https://github.com/gina-alaska/terraform-rake-tasks"
+  },
+  {
+    "name": "terraform.py",
+    "url": "https://github.com/ciscocloud/terraform.py",
+    "description": "Ansible dynamic inventory script for parsing Terraform state files."
+  },
+  {
+    "name": "terragrunt",
+    "url": "https://github.com/gruntwork-io/terragrunt",
+    "description": "Terragrunt is a thin wrapper for Terraform that supports locking for Terraform state and enforces best practices."
+  },
+  {
+    "name": "terrascan",
+    "url": "https://github.com/cesar-rodriguez/terrascan",
+    "description": "Collection of security and best practice test for static code analysis of terraform templates"
+  },
+  {
+    "name": "tfenv",
+    "url": "https://github.com/Zordrak/tfenv",
+    "description": "Terraform version manager inspired by rbenv."
+  },
+  {
+    "name": "tfjson",
+    "url": "https://github.com/palantir/tfjson",
+    "description": "A utility to read in a Terraform plan file and dump it out in JSON"
   },
   {
     "name": "tflint",
@@ -273,19 +359,49 @@
     "description": "Terraform linter for detecting errors that can not be detected by terraform plan"
   },
   {
-    "name": "tgf",
-    "url": "https://github.com/coveo/tgf",
-    "description": "Terragrunt frontend for executing Terragrunt/Terraform through Docker."
-  },
-  {
     "name": "tfschema",
     "url": "https://github.com/minamijoyo/tfschema",
     "description": "A schema inspector for Terraform providers."
   },
   {
-    "name": "terraform-compliance",
-    "url": "https://github.com/eerkunt/terraform-compliance",
-    "description": "BDD Testing for Terraform Files."
+    "name": "tfwrapper",
+    "url": "https://github.com/manheim/tfwrapper",
+    "description": "Rubygem providing rake tasks for running Hashicorp Terraform sanely"
+  },
+  {
+    "name": "tgf",
+    "url": "https://github.com/coveo/tgf",
+    "description": "Terragrunt frontend for executing Terragrunt/Terraform through Docker."
+  },
+  {
+    "name": "pyhcl",
+    "url": "https://github.com/virtuald/pyhcl",
+    "description": "HCL parser in Python"
+  },
+  {
+    "name": "rhcl",
+    "url": "https://github.com/winebarrel/rhcl",
+    "description": "Pure Ruby HCL parser"
+  },
+  {
+    "name": "terraform-enterprise-cli",
+    "url": "https://github.com/skierkowski/terraform-enterprise-cli",
+    "description": "Terraform Enterprise Command Line Interface"
+  },
+  {
+    "name": "terraform-enterprise-client",
+    "url": "https://github.com/skierkowski/terraform-enterprise-client",
+    "description": "Terraform Enterprise API Ruby Client and Command Line tool"
+  },
+  {
+    "name": "terraform-enterprise-migrator",
+    "url": "https://github.com/silinternational/terraform-enterprise-migrator",
+    "description": "Script for migrating Terraform Enterprise environments from Legacy to new version of Terraform Enterprise"
+  },
+  {
+    "name": "tfe-state-explorer",
+    "url": "https://github.com/segmentio/tfe-state-explorer",
+    "description": "Simple shell for exploring remote terraform enterprise state, with autocomplete."
   },
   {
     "name": "Orchestrating Containers with Terraform and Consul",
