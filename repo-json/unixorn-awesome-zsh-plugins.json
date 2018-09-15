@@ -237,7 +237,7 @@
   {
     "name": "autopair",
     "url": "https://github.com/hlissner/zsh-autopair",
-    "description": "A ZSH plugin for auto-closing, deleting and skipping over matching delimiters."
+    "description": "A ZSH plugin for auto-closing, deleting and skipping over matching delimiters. Only tested on ZSH 5.0.2 or later."
   },
   {
     "name": "autosuggestions",
@@ -268,6 +268,11 @@
     "name": "aws-vault",
     "url": "https://github.com/blimmer/zsh-aws-vault",
     "description": "Plugin for aws-vault."
+  },
+  {
+    "name": "base16",
+    "url": "https://github.com/chriskempson/base16-shell",
+    "description": "Adds script to allow you to change your shell's default ANSI colors but most importantly, colors 17 to 21 of your shell's 256 colorspace (if supported by your terminal). This script makes it possible to honor the original bright colors of your shell (e.g. bright green is still green and so on) while providing additional base16 colors to applications such as Vim."
   },
   {
     "name": "basex",
@@ -821,6 +826,11 @@
     "name": "gtm-terminal-plugin",
     "url": "https://github.com/git-time-metric/gtm-terminal-plugin",
     "description": "terminal plugin for git time metrics."
+  },
+  {
+    "name": "gvm (dgnest)",
+    "url": "https://github.com/dgnest/zsh-gvm-plugin",
+    "description": "gvm (Go version manager) plugin for ZSH."
   },
   {
     "name": "gvm (yerinle)",
@@ -1861,6 +1871,11 @@
     "description": "Load local .zshrc files from your project scopes."
   },
   {
+    "name": "zsnapac",
+    "url": "https://github.com/johnramsden/zsh-zsnapac",
+    "description": "Plugin for taking ZFS pre/post upgrade snapshots on Arch Linux."
+  },
+  {
     "name": "zsnapshot",
     "url": "https://github.com/psprint/zsnapshot",
     "description": "Adds command to dump the current ZSH state into a file, for later restoration by sourcing the snapshot file."
@@ -1944,6 +1959,11 @@
     "name": "codemachine",
     "url": "https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine",
     "description": "Displays git info, whether you're logged in via ssh, return code of last command."
+  },
+  {
+    "name": "ctop",
+    "url": "https://github.com/gantsign/zsh-plugins/tree/master/ctop",
+    "description": "Tab completions for ctop"
   },
   {
     "name": "dbic",
@@ -2056,14 +2076,29 @@
     "description": "ZSH completions for jtool."
   },
   {
-    "name": "jumpstorm-zsh-plugin",
+    "name": "jumpstorm-completion",
     "url": "https://github.com/netresearch/jumpstorm-zsh-plugin",
     "description": "Adds autocompletion for jumpstorm"
+  },
+  {
+    "name": "kafka",
+    "url": "https://github.com/Dabz/kafka-zsh-completions",
+    "description": "Completions for Apache kafka"
   },
   {
     "name": "keybase",
     "url": "https://github.com/rbirnie/oh-my-zsh-keybase",
     "description": "Completions for keybase."
+  },
+  {
+    "name": "kompose",
+    "url": "https://github.com/gantsign/zsh-plugins/tree/master/kompose",
+    "description": "Add tab completions for Kompose"
+  },
+  {
+    "name": "kubeadm",
+    "url": "https://github.com/gantsign/zsh-plugins/tree/master/kubeadm",
+    "description": "Add tab completions for kubeadm"
   },
   {
     "name": "mx-honey",
@@ -3246,7 +3281,7 @@
   {
     "name": "powerlevel9k",
     "url": "https://github.com/bhilburn/powerlevel9k",
-    "description": "A very flexible theme based on the well-known agnoster-theme with support for various VCS, AWS, rbenv, virtualenv, etc. Works with vanilla ZSH as well as the various ZSH frameworks."
+    "description": "Powerlevel9k is a theme for ZSH which uses Powerline Fonts. It can be used with vanilla ZSH or ZSH frameworks such as Oh-My-Zsh, Prezto, Antigen, and many others."
   },
   {
     "name": "powerline-cute",
@@ -3342,6 +3377,11 @@
     "name": "purity",
     "url": "https://github.com/pmbenjamin/purity",
     "description": "Inspired by robbyrussell theme + pure prompt."
+  },
+  {
+    "name": "qoomon",
+    "url": "https://github.com/qoomon/zsh-theme-qoomon",
+    "description": "Optimized for dark backgrounds, includes git information. Theme repo includes iTerm 2 and Terminal color settings."
   },
   {
     "name": "racotecnic",
