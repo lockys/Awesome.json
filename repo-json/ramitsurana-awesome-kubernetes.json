@@ -68,6 +68,23 @@
     "url": "https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16"
   },
   {
+    "name": "An Introduction to Kubernetes by Justin Ellingwood",
+    "url": "http://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes"
+  },
+  {
+    "name": "Kubernetes and everything else",
+    "url": "https://rinormaloku.com/introduction-application-architecture/",
+    "description": "Introduction to Kubernetes and it's context by Rinor Maloku"
+  },
+  {
+    "name": "Installation on Centos 7",
+    "url": "http://severalnines.com/blog/installing-kubernetes-cluster-minions-centos7-manage-pods-services"
+  },
+  {
+    "name": "Setting Up a Kubernetes Cluster on Ubuntu 18.04",
+    "url": "https://mherman.org/blog/2018/08/20/setting-up-a-kubernetes-cluster-on-ubuntu/"
+  },
+  {
     "name": "Minikube",
     "url": "https://github.com/kubernetes/minikube",
     "description": "Run Kubernetes locally"
@@ -199,6 +216,10 @@
     "url": "https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/"
   },
   {
+    "name": "Kubernetes-1.12",
+    "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.12.md"
+  },
+  {
     "name": "Kubernetes-1.11",
     "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.11.md"
   },
@@ -239,16 +260,139 @@
     "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.2.md"
   },
   {
-    "name": "Installation on Centos 7",
-    "url": "http://severalnines.com/blog/installing-kubernetes-cluster-minions-centos7-manage-pods-services"
+    "name": "Kubernetes on AWS by CoreOS",
+    "url": "http://coreos.com/kubernetes/docs/latest/kubernetes-on-aws.html"
+  },
+  {
+    "name": "AWS Advent 2014",
+    "url": "http://awsadvent.tumblr.com/post/104260597799/aws-advent-2014-coreos-and-kubernetes-on-aws",
+    "description": "CoreOS and Kubernetes on AWS by Tim Dsyinger"
+  },
+  {
+    "name": "Kubernetes and AWS VPC Peering by Ben Straub",
+    "url": "http://ben.straub.cc/2015/08/19/kubernetes-aws-vpc-peering/"
+  },
+  {
+    "name": "Testing Kubernetes on AWS by Alan Will",
+    "url": "http://alanwill.me/Testing-Kubernetes-on-AWS/"
+  },
+  {
+    "name": "Kubernetes: First steps on Amazon AWS by Remco",
+    "url": "http://blog.dutchcoders.io/kubernetes-first-steps-on-amazon-aws/"
+  },
+  {
+    "name": "Logging in Kubernetes with Fluentd and Elasticsearch by Jon Langemak",
+    "url": "http://www.dasblinkenlichten.com/logging-in-kubernetes-with-fluentd-and-elasticsearch/"
+  },
+  {
+    "name": "Manage Kubernetes Clusters on AWS Using Kops",
+    "url": "https://aws.amazon.com/blogs/compute/kubernetes-clusters-aws-kops/"
+  },
+  {
+    "name": "Corekube: Running Kubernetes on CoreOS via OpenStack by Mike Metral",
+    "url": "http://developer.rackspace.com/blog/running-coreos-and-kubernetes/"
+  },
+  {
+    "name": "Production grade Kubernetes on AWS: Primer (Part 1) by Guy Maliar",
+    "url": "https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-primer-5b83e71c024"
+  },
+  {
+    "name": "Production grade Kubernetes on AWS: 4 tools that made our lives easier (Part 2) by Guy Maliar",
+    "url": "https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-4-tools-that-made-our-lives-easier-29438e8b58ca"
+  },
+  {
+    "name": "Production grade Kubernetes on AWS: 3 tips for networking, ingress and microservices (Part 3) by Guy Maliar",
+    "url": "https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-tips-for-networking-ingress-and-microservices-8d28c355a6e0"
+  },
+  {
+    "name": "Production grade Kubernetes on AWS: 3 lessons learned scaling a cluster (Part 4) by Guy Maliar",
+    "url": "https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-lessons-learned-scaling-a-cluster-a421dfe786dd"
+  },
+  {
+    "name": "Continuous Deployment with Google Container Engine and Kubernetes",
+    "url": "http://semaphoreci.com/community/tutorials/continuous-deployment-with-google-container-engine-and-kubernetes"
+  },
+  {
+    "name": "Creating a Kubernetes Cluster on DigitalOcean with Python and Fabric",
+    "url": "https://testdriven.io/creating-a-kubernetes-cluster-on-digitalocean"
+  },
+  {
+    "name": "Deploy a Kubernetes development cluster with Juju! by Matt Bruzek",
+    "url": "http://insights.ubuntu.com/2015/07/23/deploy-a-kubernetes-development-cluster-with-juju-2/"
+  },
+  {
+    "name": "Containers at Scale with Kubernetes on OpenStack by Keith Tenzer",
+    "url": "http://keithtenzer.com/2015/04/15/containers-at-scale-with-kubernetes-on-openstack/"
+  },
+  {
+    "name": "Logging",
+    "url": "http://www.devoperandi.com/logging-kafka-topic-by-kubernetes-namespace/",
+    "description": "Kafka topic by namespace by Michael Ward"
+  },
+  {
+    "name": "Kubernetes Monitoring Guide by JM Saponaro",
+    "url": "http://www.datadoghq.com/blog/monitoring-kubernetes-era/"
+  },
+  {
+    "name": "Installing cAdvisor and Heapster on bare metal Kubernetes by Jon Langemak",
+    "url": "http://www.dasblinkenlichten.com/installing-cadvisor-and-heapster-on-bare-metal-kubernetes/"
+  },
+  {
+    "name": "How to Monitor Kubernetes: A 4-Part Series",
+    "url": "http://sysdig.com/blog/monitoring-kubernetes-with-sysdig-cloud/"
+  },
+  {
+    "name": "Microservice Monitoring in Kubernetes with Netsil by Matt Baldwin",
+    "url": "http://netsil.com/microservices-monitoring-kubernetes/"
+  },
+  {
+    "name": "Kubernetes Security Guide",
+    "url": "https://sysdig.com/blog/kubernetes-security-guide/",
+    "description": "RBAC, TLS, Security policy, Network policy, etc."
+  },
+  {
+    "name": "Handling Sensitive Data In A Docker Application with Kubernetes Secrets by John Kariuki ",
+    "url": "http://scotch.io/tutorials/google-cloud-platform-iii-handling-sensitive-data-in-a-docker-application-with-kubernetes-secrets"
+  },
+  {
+    "name": "How to Create and Use Kubernetes Secrets by Mohamed Ez Ez",
+    "url": "http://linoxide.com/containers/create-use-kubernetes-secrets/"
+  },
+  {
+    "name": "Choosing a CNI Provider for Kubernetes by Chris Love",
+    "url": "http://chrislovecnm.com/kuberentes/cni/choosing-a-cni-provider/?1234"
+  },
+  {
+    "name": "Enable IPv6 on Kubernetes with Project Calico by Valentin Ouvrard",
+    "url": "https://www.projectcalico.org/enable-ipv6-on-kubernetes-with-project-calico/"
+  },
+  {
+    "name": "Kubernetes in IPV6-only by Valentin Ouvrard",
+    "url": "http://opsnotice.xyz/kubernetes-ipv6-only/"
+  },
+  {
+    "name": "Kubernetes 101 – Networking by Jon Langemak",
+    "url": "http://www.dasblinkenlichten.com/kubernetes-101-networking/"
+  },
+  {
+    "name": "Kubernetes with OpenStack Cloud Provider: Current state and upcoming changes (part 1 of 2)",
+    "url": "http://medium.com/@arthur.souzamiranda/kubernetes-with-openstack-cloud-provider-current-state-and-upcoming-changes-part-1-of-2-48b161ea449a"
+  },
+  {
+    "name": "GitOps: High-Velocity CI/CD for Kubernetes",
+    "url": "http://dzone.com/articles/gitops-high-velocity-cicd-for-kubernetes"
+  },
+  {
+    "name": "Achieving CI/CD with Kubernetes by Ramit Surana",
+    "url": "http://ramitsurana.github.io/myblog/achieving-ci-cd-with-kubernetes"
+  },
+  {
+    "name": "Jenkins declarative pipelines with Kubernetes",
+    "url": "http://radu-matei.com/blog/kubernetes-jenkins-azure/"
   },
   {
     "name": "Packaging Multiple Resources together",
     "url": "http://blog.arungupta.me/kubernetes-application-package-multiple-resources-together/"
-  },
-  {
-    "name": "An Introduction to Kubernetes by Justin Ellingwood",
-    "url": "http://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes"
   },
   {
     "name": "Scaling Docker with Kubernetes by Carlos Sanchez",
@@ -287,24 +431,12 @@
     "url": "http://kamalmarhubi.com/blog/2015/09/06/kubernetes-from-the-ground-up-the-api-server/"
   },
   {
-    "name": "Kubernetes 101 – Networking by Jon Langemak",
-    "url": "http://www.dasblinkenlichten.com/kubernetes-101-networking/"
-  },
-  {
     "name": "Dynamic Kubernetes installation/configuration with SaltStack by Jon Langemak",
     "url": "http://www.dasblinkenlichten.com/dynamic-kubernetes-installationconfiguration-with-saltstack/"
   },
   {
     "name": "Deploying Kubernetes with SaltStack by Jon Langemak",
     "url": "http://www.dasblinkenlichten.com/deploying-kubernetes-with-saltstack/"
-  },
-  {
-    "name": "Logging in Kubernetes with Fluentd and Elasticsearch by Jon Langemak",
-    "url": "http://www.dasblinkenlichten.com/logging-in-kubernetes-with-fluentd-and-elasticsearch/"
-  },
-  {
-    "name": "Corekube: Running Kubernetes on CoreOS via OpenStack by Mike Metral",
-    "url": "http://developer.rackspace.com/blog/running-coreos-and-kubernetes/"
   },
   {
     "name": "CoreOS + Kubernetes Step By Step by Coreos",
@@ -323,19 +455,6 @@
     "url": "http://blog.jameskyle.org/2014/08/deploying-baremetal-kubernetes-cluster/"
   },
   {
-    "name": "AWS Advent 2014",
-    "url": "http://awsadvent.tumblr.com/post/104260597799/aws-advent-2014-coreos-and-kubernetes-on-aws",
-    "description": "CoreOS and Kubernetes on AWS by Tim Dsyinger"
-  },
-  {
-    "name": "Kubernetes and AWS VPC Peering by Ben Straub",
-    "url": "http://ben.straub.cc/2015/08/19/kubernetes-aws-vpc-peering/"
-  },
-  {
-    "name": "Deploy a Kubernetes development cluster with Juju! by Matt Bruzek",
-    "url": "http://insights.ubuntu.com/2015/07/23/deploy-a-kubernetes-development-cluster-with-juju-2/"
-  },
-  {
     "name": "Try Kubernetes with Vagrant by Christoph Hartmann",
     "url": "http://lollyrock.com/articles/kubernetes-vagrant/"
   },
@@ -352,28 +471,8 @@
     "url": "http://blog.michaelhamrah.com/2015/06/fleet-unit-files-for-kubernetes-on-coreos/"
   },
   {
-    "name": "Kubernetes on AWS by CoreOS",
-    "url": "http://coreos.com/kubernetes/docs/latest/kubernetes-on-aws.html"
-  },
-  {
-    "name": "Testing Kubernetes on AWS by Alan Will",
-    "url": "http://alanwill.me/Testing-Kubernetes-on-AWS/"
-  },
-  {
-    "name": "Kubernetes: First steps on Amazon AWS by Remco",
-    "url": "http://blog.dutchcoders.io/kubernetes-first-steps-on-amazon-aws/"
-  },
-  {
     "name": "Kubernetes Container Orchestration through Java APIs by Keith Tenzer",
     "url": "http://keithtenzer.com/2015/05/04/kubernetes-container-orchestration-through-java-apis/"
-  },
-  {
-    "name": "Containers at Scale with Kubernetes on OpenStack by Keith Tenzer",
-    "url": "http://keithtenzer.com/2015/04/15/containers-at-scale-with-kubernetes-on-openstack/"
-  },
-  {
-    "name": "Installing cAdvisor and Heapster on bare metal Kubernetes by Jon Langemak",
-    "url": "http://www.dasblinkenlichten.com/installing-cadvisor-and-heapster-on-bare-metal-kubernetes/"
   },
   {
     "name": "Docker Clustering Tools Compared: Kubernetes vs Docker Swarm",
@@ -401,23 +500,6 @@
     "description": "OpenID Connect by Michael Ward"
   },
   {
-    "name": "How to Monitor Kubernetes: A 4-Part Series",
-    "url": "http://sysdig.com/blog/monitoring-kubernetes-with-sysdig-cloud/"
-  },
-  {
-    "name": "Logging",
-    "url": "http://www.devoperandi.com/logging-kafka-topic-by-kubernetes-namespace/",
-    "description": "Kafka topic by namespace by Michael Ward"
-  },
-  {
-    "name": "Achieving CI/CD with Kubernetes by Ramit Surana",
-    "url": "http://ramitsurana.github.io/myblog/achieving-ci-cd-with-kubernetes"
-  },
-  {
-    "name": "Kubernetes Monitoring Guide by JM Saponaro",
-    "url": "http://www.datadoghq.com/blog/monitoring-kubernetes-era/"
-  },
-  {
     "name": "Deploying Kubernetes with Ansible and Terraform",
     "url": "http://solinea.com/blog/deploying-kubernetes-ansible-terraform"
   },
@@ -426,32 +508,12 @@
     "url": "http://www.devoperandi.com/cluster-consul-using-kubernetes-api/"
   },
   {
-    "name": "Continuous Deployment with Google Container Engine and Kubernetes",
-    "url": "http://semaphoreci.com/community/tutorials/continuous-deployment-with-google-container-engine-and-kubernetes"
-  },
-  {
-    "name": "Handling Sensitive Data In A Docker Application with Kubernetes Secrets by John Kariuki ",
-    "url": "http://scotch.io/tutorials/google-cloud-platform-iii-handling-sensitive-data-in-a-docker-application-with-kubernetes-secrets"
-  },
-  {
-    "name": "How to Create and Use Kubernetes Secrets by Mohamed Ez Ez",
-    "url": "http://linoxide.com/containers/create-use-kubernetes-secrets/"
-  },
-  {
-    "name": "Microservice Monitoring in Kubernetes with Netsil by Matt Baldwin",
-    "url": "http://netsil.com/microservices-monitoring-kubernetes/"
-  },
-  {
     "name": "Automate deep learning training with Kubernetes GPU-cluster",
     "url": "https://github.com/Langhalsdino/Kubernetes-GPU-Guide"
   },
   {
     "name": "Kubernetes Production Patterns (and Anti-Patterns)",
     "url": "https://github.com/gravitational/workshop/blob/master/k8sprod.md"
-  },
-  {
-    "name": "Manage Kubernetes Clusters on AWS Using Kops",
-    "url": "https://aws.amazon.com/blogs/compute/kubernetes-clusters-aws-kops/"
   },
   {
     "name": "Kubernetes with SaltStack revisited",
@@ -470,67 +532,8 @@
     "url": "http://opsnotice.xyz/kubernetes-tips-tricks/"
   },
   {
-    "name": "Jenkins declarative pipelines with Kubernetes",
-    "url": "http://radu-matei.com/blog/kubernetes-jenkins-azure/"
-  },
-  {
-    "name": "Kubernetes with OpenStack Cloud Provider: Current state and upcoming changes (part 1 of 2)",
-    "url": "http://medium.com/@arthur.souzamiranda/kubernetes-with-openstack-cloud-provider-current-state-and-upcoming-changes-part-1-of-2-48b161ea449a"
-  },
-  {
-    "name": "Choosing a CNI Provider for Kubernetes by Chris Love",
-    "url": "http://chrislovecnm.com/kuberentes/cni/choosing-a-cni-provider/?1234"
-  },
-  {
-    "name": "Enable IPv6 on Kubernetes with Project Calico by Valentin Ouvrard",
-    "url": "https://www.projectcalico.org/enable-ipv6-on-kubernetes-with-project-calico/"
-  },
-  {
-    "name": "Kubernetes in IPV6-only by Valentin Ouvrard",
-    "url": "http://opsnotice.xyz/kubernetes-ipv6-only/"
-  },
-  {
-    "name": "Kubernetes and everything else",
-    "url": "https://rinormaloku.com/introduction-application-architecture/",
-    "description": "Introduction to Kubernetes and it's context by Rinor Maloku"
-  },
-  {
-    "name": "GitOps: High-Velocity CI/CD for Kubernetes",
-    "url": "http://dzone.com/articles/gitops-high-velocity-cicd-for-kubernetes"
-  },
-  {
-    "name": "Production grade Kubernetes on AWS: Primer (Part 1) by Guy Maliar",
-    "url": "https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-primer-5b83e71c024"
-  },
-  {
-    "name": "Production grade Kubernetes on AWS: 4 tools that made our lives easier (Part 2) by Guy Maliar",
-    "url": "https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-4-tools-that-made-our-lives-easier-29438e8b58ca"
-  },
-  {
-    "name": "Production grade Kubernetes on AWS: 3 tips for networking, ingress and microservices (Part 3) by Guy Maliar",
-    "url": "https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-tips-for-networking-ingress-and-microservices-8d28c355a6e0"
-  },
-  {
-    "name": "Production grade Kubernetes on AWS: 3 lessons learned scaling a cluster (Part 4) by Guy Maliar",
-    "url": "https://medium.com/tailor-tech/production-grade-kubernetes-on-aws-3-lessons-learned-scaling-a-cluster-a421dfe786dd"
-  },
-  {
-    "name": "Kubernetes Security Guide",
-    "url": "https://sysdig.com/blog/kubernetes-security-guide/",
-    "description": "RBAC, TLS, Security policy, Network policy, etc."
-  },
-  {
-    "name": "Setting Up a Kubernetes Cluster on Ubuntu 18.04",
-    "url": "https://mherman.org/blog/2018/08/20/setting-up-a-kubernetes-cluster-on-ubuntu/",
-    "description": "this tutorial details how to spin up a Kubernetes cluster on Ubuntu 18.04 using kubeadm, kubelet, and kubectl."
-  },
-  {
     "name": "Running Flask on Kubernetes",
     "url": "https://testdriven.io/running-flask-on-kubernetes"
-  },
-  {
-    "name": "Creating a Kubernetes Cluster on DigitalOcean with Python and Fabric",
-    "url": "https://testdriven.io/creating-a-kubernetes-cluster-on-digitalocean"
   },
   {
     "name": "Platform9",
@@ -996,6 +999,11 @@
     "name": "Ingress Monitor Controller",
     "url": "https://github.com/stakater/IngressMonitorController",
     "description": "A Kubernetes Controller to watch your ingresses and create liveness alerts for your endpoints"
+  },
+  {
+    "name": "Kubespy",
+    "url": "https://github.com/pulumi/kubespy",
+    "description": "Tools for observing Kubernetes resources in real time, powered by Pulumi."
   },
   {
     "name": "kube-monkey",

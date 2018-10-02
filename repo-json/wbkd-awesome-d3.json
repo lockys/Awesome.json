@@ -20,11 +20,6 @@
     "description": "Time series visualization"
   },
   {
-    "name": "WebCola",
-    "url": "https://github.com/tgdwyer/WebCola",
-    "description": "Layout for graph visualization and exploration"
-  },
-  {
     "name": "c3",
     "url": "https://github.com/c3js/c3",
     "description": "Reusable chart library [line, spline, step, area, stacked, bar, pie, donut]"
@@ -92,7 +87,17 @@
   {
     "name": "d3-ez",
     "url": "https://github.com/jamesleesaunders/d3-ez",
-    "description": "Easy Reusable D3 Charts & Components"
+    "description": "Easy Reusable D3 Charts & Components [bar, donut, pie, bubble, rose, heatmap]"
+  },
+  {
+    "name": "d3-flame-graph",
+    "url": "https://github.com/spiermar/d3-flame-graph",
+    "description": "Flame graphs from hierarchical data"
+  },
+  {
+    "name": "d3-funnel",
+    "url": "https://github.com/jakezatecky/d3-funnel",
+    "description": "A funnel and pyramid chart library"
   },
   {
     "name": "d3-gridding",
@@ -105,19 +110,14 @@
     "description": "Heatmap"
   },
   {
-    "name": "d3-line",
-    "url": "https://github.com/tj/d3-line",
-    "description": "Line chart"
-  },
-  {
-    "name": "d3-flame-graph",
-    "url": "https://github.com/spiermar/d3-flame-graph",
-    "description": "Flame graphs from hierarchical data"
-  },
-  {
     "name": "d3-horizon-chart",
     "url": "https://github.com/kmandov/d3-horizon-chart",
     "description": "Horizon charts module"
+  },
+  {
+    "name": "d3-line",
+    "url": "https://github.com/tj/d3-line",
+    "description": "Line chart"
   },
   {
     "name": "d3-message-sequence",
@@ -125,14 +125,19 @@
     "description": "A dynamic/static message sequence chart"
   },
   {
-    "name": "d3plus",
-    "url": "https://github.com/alexandersimoes/d3plus",
-    "description": "Extension library for easy creation of visualizations [scatter, stacked, line, bar, pie, network, bubble, box, map]"
-  },
-  {
     "name": "d3-timeline",
     "url": "https://github.com/commodityvectors/d3-timeline",
     "description": "responsive timeline charts"
+  },
+  {
+    "name": "d3-timeseries",
+    "url": "https://github.com/mcaule/d3-timeseries",
+    "description": "Time series charting library"
+  },
+  {
+    "name": "d3-x3d",
+    "url": "https://github.com/jamesleesaunders/d3-x3d",
+    "description": "Reusable X3DOM charts and data viz components [bubble, bar, surfacearea, scatterplot]"
   },
   {
     "name": "d3fc",
@@ -140,9 +145,9 @@
     "description": "A collection of interactive chart components [line, bar, stacked, scatter, candlestick, ohlc]"
   },
   {
-    "name": "d3-funnel",
-    "url": "https://github.com/jakezatecky/d3-funnel",
-    "description": "A funnel and pyramid chart library"
+    "name": "d3plus",
+    "url": "https://github.com/alexandersimoes/d3plus",
+    "description": "Extension library for easy creation of visualizations [scatter, stacked, line, bar, pie, network, bubble, box, map]"
   },
   {
     "name": "d3panels",
@@ -158,11 +163,6 @@
     "name": "D3xter",
     "url": "https://github.com/NathanEpstein/D3xter",
     "description": "Straight forward plotting [plot, timeline, bar, histogram, pie]"
-  },
-  {
-    "name": "d3-timeseries",
-    "url": "https://github.com/mcaule/d3-timeseries",
-    "description": "Time series charting library"
   },
   {
     "name": "D4",
@@ -308,6 +308,11 @@
     "name": "vizabi",
     "url": "https://github.com/vizabi/vizabi",
     "description": "A framework for building visual data exploration tools [bubble, map, line, bar, sankey, donut]"
+  },
+  {
+    "name": "WebCola",
+    "url": "https://github.com/tgdwyer/WebCola",
+    "description": "Layout for graph visualization and exploration"
   },
   {
     "name": "xkcdgraphs",
@@ -570,9 +575,9 @@
     "description": "A plug-in for aligning elements in grids"
   },
   {
-    "name": "d3kit",
-    "url": "https://github.com/twitter/d3kit",
-    "description": "A set of tools to speed D3 related project development"
+    "name": "d3-jetpack",
+    "url": "https://github.com/gka/d3-jetpack",
+    "description": "Nifty convenience wrappers that speed up your daily work"
   },
   {
     "name": "d3-Labeler",
@@ -620,6 +625,11 @@
     "description": "Utility for accessing data from SPARQL Endpoints"
   },
   {
+    "name": "d3-slider",
+    "url": "https://github.com/MasterMaps/d3-slider",
+    "description": "jQuery UI inspired slider"
+  },
+  {
     "name": "d3-starterkit",
     "url": "https://github.com/1wheel/d3-starterkit",
     "description": "Helper functions simplifying common and verbose d3 patterns"
@@ -660,11 +670,6 @@
     "description": "Bookmarklet that logs results of the data joins as you mouse over"
   },
   {
-    "name": "d3-slider",
-    "url": "https://github.com/MasterMaps/d3-slider",
-    "description": "jQuery UI inspired slider"
-  },
-  {
     "name": "d3.svg.circularbrush",
     "url": "https://github.com/emeeks/d3.svg.circularbrush",
     "description": "A brush for selecting cyclical data"
@@ -675,14 +680,14 @@
     "description": "An area interpolator"
   },
   {
+    "name": "d3kit",
+    "url": "https://github.com/twitter/d3kit",
+    "description": "A set of tools to speed D3 related project development"
+  },
+  {
     "name": "iopctrl",
     "url": "https://github.com/metormote/iopctrl",
     "description": "Lib for making simple user interface controls"
-  },
-  {
-    "name": "d3-jetpack",
-    "url": "https://github.com/gka/d3-jetpack",
-    "description": "Nifty convenience wrappers that speed up your daily work"
   },
   {
     "name": "kodama",
