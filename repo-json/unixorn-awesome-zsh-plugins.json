@@ -53,7 +53,7 @@
   {
     "name": "The Text Triumvirate",
     "url": "http://www.drbunsen.org/the-text-triumvirate/",
-    "description": "Seth Brown's tutorial on combining zsh, tmux and vim."
+    "description": "Seth Brown's tutorial on combining ZSH, tmux and vim."
   },
   {
     "name": "Why ZSH is Cooler than your Shell",
@@ -107,7 +107,7 @@
   {
     "name": "zsh-quickstart-kit",
     "url": "https://github.com/unixorn/zsh-quickstart-kit",
-    "description": "A simple quickstart for using zsh with zgen. This includes a curated collection of plugins, and will automatically configure zsh to use zgen to load them, configures zgen to periodically automatically update itself, the plugins, and the quickstart kit itself."
+    "description": "A simple quickstart for using ZSH with zgen. This includes a curated collection of plugins, and will automatically configure ZSH to use zgen to load them, configures zgen to periodically automatically update itself, the plugins, and the quickstart kit itself."
   },
   {
     "name": "256color",
@@ -137,7 +137,7 @@
   {
     "name": "allergen",
     "url": "https://github.com/stanislas/allergen",
-    "description": "A collection of custom zsh plugins to use with antigen."
+    "description": "A collection of custom ZSH plugins to use with antigen."
   },
   {
     "name": "almostontop",
@@ -192,7 +192,7 @@
   {
     "name": "async",
     "url": "https://github.com/mafredri/zsh-async",
-    "description": "Library for running asynchronous tasks in zsh without requiring any external tools."
+    "description": "Library for running asynchronous tasks in ZSH without requiring any external tools. Allows you to run multiple asynchronous jobs, enforce unique jobs (multiple instances of the same job will not run), flush all currently running jobs and create multiple workers (each with their own jobs)."
   },
   {
     "name": "atom-plugin",
@@ -297,7 +297,7 @@
   {
     "name": "bepoptimist",
     "url": "https://github.com/sheoak/zsh-bepoptimist",
-    "description": "remap zsh vi-mode for French bépo keyboard."
+    "description": "Remap ZSH vi-mode for French bépo keyboard."
   },
   {
     "name": "betterbrew",
@@ -347,12 +347,12 @@
   {
     "name": "cd-gitroot",
     "url": "https://github.com/mollifier/cd-gitroot",
-    "description": "A zsh plugin to cd to the git repository root directory."
+    "description": "A ZSH plugin to cd to the git repository root directory."
   },
   {
     "name": "cd-reporoot",
     "url": "https://github.com/P4Cu/cd-reporoot",
-    "description": "A zsh plugin to cd to the google-repo repository root directory."
+    "description": "A ZSH plugin to cd to the google-repo repository root directory."
   },
   {
     "name": "cd-ssh",
@@ -643,6 +643,11 @@
     "description": "ZSH plugin for fuzzy searching files and instantly opening a matched file on matched line."
   },
   {
+    "name": "fz",
+    "url": "https://github.com/changyuheng/fz",
+    "description": "Seamlessly adds fuzzy search to z's tab completion and lets you easily jump around among your historical directories."
+  },
+  {
     "name": "fzf-finder",
     "url": "https://github.com/leophys/zsh-plugin-fzf-finder",
     "description": "Plugin to have a cool search keybinding with fzf and (optionally) bat."
@@ -655,7 +660,7 @@
   {
     "name": "fzf-mpd",
     "url": "https://github.com/anders-dc/fzf-mpd/",
-    "description": "A zsh plugin that allows you to control mpd using fzf."
+    "description": "A ZSH plugin that allows you to control mpd using fzf."
   },
   {
     "name": "fzf-widgets",
@@ -686,6 +691,16 @@
     "name": "geometry-hydrate",
     "url": "https://github.com/jedahan/geometry-hydrate",
     "description": "Geometry plugin to remind you to hydrate."
+  },
+  {
+    "name": "geometry-npm-package-version",
+    "url": "https://github.com/drager/geometry-npm-package-version",
+    "description": "Geometry plugin to display the current folder's npm package version."
+  },
+  {
+    "name": "geometry-rust-version",
+    "url": "https://github.com/drager/geometry-rust-version",
+    "description": "Geometry plugin to display the current folder's Rust version when either a .rs or Cargo.toml is present."
   },
   {
     "name": "get-jquery",
@@ -785,12 +800,12 @@
   {
     "name": "gitio-zsh",
     "url": "https://github.com/denysdovhan/gitio-zsh",
-    "description": "A zsh plugin for generating a GitHub short URL using git.io."
+    "description": "A ZSH plugin for generating a GitHub short URL using git.io."
   },
   {
     "name": "gitsync",
     "url": "https://github.com/washtubs/gitsync",
-    "description": "zsh plugin to improve workflows for one person developing on the same repository on multiple machines."
+    "description": "ZSH plugin to improve workflows for one person developing on the same repository on multiple machines."
   },
   {
     "name": "goenv",
@@ -850,7 +865,7 @@
   {
     "name": "hanami-zsh",
     "url": "http://github.com/davydovanton/hanami-zsh",
-    "description": "zsh plugin for hanami projects."
+    "description": "ZSH plugin for hanami projects."
   },
   {
     "name": "hints",
@@ -980,12 +995,12 @@
   {
     "name": "k",
     "url": "https://github.com/rimraf/k",
-    "description": "Directory listings for zsh with git features."
+    "description": "Directory listings for ZSH with git features."
   },
   {
     "name": "kill-node",
     "url": "https://github.com/vmattos/kill-node",
-    "description": "zsh plugin for murdering node process families."
+    "description": "ZSH plugin for murdering node process families."
   },
   {
     "name": "kitsunebook",
@@ -1111,6 +1126,11 @@
     "name": "mfunc",
     "url": "https://github.com/hlohm/mfunc",
     "description": "Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them."
+  },
+  {
+    "name": "mode-switch.CLI",
+    "url": "https://github.com/Gyumeijie/mode-switch.CLI",
+    "description": "A ZSH plugin for switching command line between normal mode and vi mode."
   },
   {
     "name": "monorepo-plugin",
@@ -1240,7 +1260,7 @@
   {
     "name": "opp.zsh",
     "url": "https://github.com/hchbaw/opp.zsh",
-    "description": "Vim's text-objects-ish for zsh."
+    "description": "Vim's text-objects-ish for ZSH."
   },
   {
     "name": "opt-path",
@@ -1445,7 +1465,7 @@
   {
     "name": "saneopt",
     "url": "https://github.com/willghatch/zsh-saneopt",
-    "description": "Sane defaults for zsh options, in the spirit of vim-sensible."
+    "description": "Sane defaults for ZSH options, in the spirit of vim-sensible."
   },
   {
     "name": "schroot",
@@ -1560,7 +1580,7 @@
   {
     "name": "sys-diver-zsh",
     "url": "https://github.com/ToruIwashita/sys-diver-zsh",
-    "description": "A zsh plugin for directory change or editor startup with only key operations using widgits without typing command."
+    "description": "A ZSH plugin for directory change or editor startup with only key operations using widgits without typing command."
   },
   {
     "name": "sysadmin-util",
@@ -1591,6 +1611,11 @@
     "name": "terminal-workload-report",
     "url": "https://github.com/LockonS/terminal-workload-report",
     "description": "A plugin that calculates and displays how many commands have been run via terminal."
+  },
+  {
+    "name": "terraform",
+    "url": "https://github.com/pbar1/zsh-terraform",
+    "description": "Terraform convenience functions and aliases for ZSH."
   },
   {
     "name": "timewarrior",
@@ -1669,7 +1694,7 @@
   {
     "name": "url-highlighter",
     "url": "https://github.com/ascii-soup/zsh-url-highlighter",
-    "description": "A plugin for the zsh syntax highlighter that turns URLs green if they respond with a \"good\" status, and red otherwise. Useful for checking URL typos."
+    "description": "A plugin for the ZSH syntax highlighter that turns URLs green if they respond with a \"good\" status, and red otherwise. Useful for checking URL typos."
   },
   {
     "name": "uvenv",
@@ -1714,7 +1739,7 @@
   {
     "name": "vimto",
     "url": "https://github.com/laurenkt/zsh-vimto",
-    "description": "Improved zsh vim mode (bindkey -v) plugin."
+    "description": "Improved ZSH vim mode (bindkey -v) plugin."
   },
   {
     "name": "virtualenv-mod",
@@ -1829,7 +1854,7 @@
   {
     "name": "zed",
     "url": "https://github.com/eendroroy/zed-zsh",
-    "description": "A simple wrapper for z to install as zsh plugin."
+    "description": "A simple wrapper for z to install as ZSH plugin."
   },
   {
     "name": "zero",
@@ -1899,7 +1924,7 @@
   {
     "name": "_url-httplink",
     "url": "https://github.com/Valodim/zsh-_url-httplink",
-    "description": "Extends zsh's _urls completion, allowing it to complete urls from html pages."
+    "description": "Extends ZSH's _urls completion, allowing it to complete urls from html pages."
   },
   {
     "name": "ansible-server",
@@ -2594,7 +2619,7 @@
   {
     "name": "cordial",
     "url": "https://github.com/stevelacy/cordial-zsh-theme",
-    "description": "Clean and effective zsh theme with git and npm support."
+    "description": "Clean and effective ZSH theme with git and npm support."
   },
   {
     "name": "cramin",
@@ -3118,7 +3143,7 @@
   {
     "name": "minimal2",
     "url": "https://github.com/PatTheMav/minimal2",
-    "description": "A minimal and extensible zsh theme. Forked from subnixr's original and adapted for Zimfw."
+    "description": "A minimal and extensible ZSH theme. Forked from subnixr's original and adapted for Zimfw."
   },
   {
     "name": "minimal",
@@ -3438,7 +3463,7 @@
   {
     "name": "rafiki",
     "url": "https://github.com/akabiru/rafiki-zsh",
-    "description": "Adds emojis to your zsh terminal."
+    "description": "Adds emojis to your ZSH terminal."
   },
   {
     "name": "raincoat",
