@@ -420,6 +420,11 @@
     "description": "Business Process Engine in Erlang."
   },
   {
+    "name": "CaptainFact",
+    "url": "https://github.com/CaptainFact/captain-fact-api",
+    "description": "A collaborative, real-time video fact-checking platform."
+  },
+  {
     "name": "Consolex",
     "url": "https://github.com/sivsushruth/consolex",
     "description": "Consolex is a tool that allows you to attach a web based console to any mix project."
@@ -768,6 +773,11 @@
     "name": "canary",
     "url": "https://github.com/cpjk/canary",
     "description": "An authorization library for Elixir applications that restricts what resources the current user is allowed to access."
+  },
+  {
+    "name": "speakeasy",
+    "url": "https://github.com/coryodaniel/speakeasy",
+    "description": "Middleware based authentication and authorization for Absinthe GraphQL powered by Bodyguard."
   },
   {
     "name": "connection",
@@ -1645,6 +1655,21 @@
     "description": "Fully featured GraphQL library."
   },
   {
+    "name": "JSON-LD.ex",
+    "url": "https://github.com/marcelotto/jsonld-ex",
+    "description": "An implementation of the JSON-LD standard for RDF.ex."
+  },
+  {
+    "name": "RDF.ex",
+    "url": "https://github.com/marcelotto/rdf-ex",
+    "description": "An implementation of the RDF data model in Elixir."
+  },
+  {
+    "name": "SPARQL.ex",
+    "url": "https://github.com/marcelotto/sparql-ex",
+    "description": "An implementation of the SPARQL standards in Elixir."
+  },
+  {
     "name": "estree",
     "url": "https://github.com/bryanjos/elixir-estree",
     "description": "A implementation of the SpiderMonkey Parser API in Elixir."
@@ -1902,7 +1927,7 @@
   {
     "name": "fun_with_flags",
     "url": "https://github.com/tompave/fun_with_flags",
-    "description": "A feature toggle library using Redis or Ecto for persistance, an ETS cache for speed and PubSub for distributed cache busting. Comes with a management web UI for Phoenix and Plug."
+    "description": "A feature toggle library using Redis or Ecto for persistence, an ETS cache for speed and PubSub for distributed cache busting. Comes with a management web UI for Phoenix and Plug."
   },
   {
     "name": "molasses",
@@ -2073,6 +2098,11 @@
     "name": "dayron",
     "url": "https://github.com/inaka/Dayron",
     "description": "A repository similar to Ecto.Repo that works with REST API requests instead of a database."
+  },
+  {
+    "name": "ecto_job",
+    "url": "https://github.com/mbuhot/ecto_job",
+    "description": "A transactional job queue build with Ecto, PostgreSQL and GenStage."
   },
   {
     "name": "ex_admin",
@@ -2700,6 +2730,11 @@
     "description": "Scrape any website, article or RSS/Atom Feed with ease."
   },
   {
+    "name": "sparql_client",
+    "url": "https://github.com/marcelotto/sparql_client",
+    "description": "A SPARQL protocol client for Elixir."
+  },
+  {
     "name": "spell",
     "url": "https://github.com/MyMedsAndMe/spell",
     "description": "Spell is a Web Application Messaging Protocol (WAMP) client implementation in Elixir."
@@ -2898,6 +2933,11 @@
     "name": "prometheus_process_collector",
     "url": "https://github.com/deadtrickster/prometheus_process_collector",
     "description": "Prometheus collector which exports the current state of process metrics including cpu, memory, file descriptor usage and native threads count as well as the process start and up times."
+  },
+  {
+    "name": "spandex",
+    "url": "https://github.com/spandex-project/spandex",
+    "description": "Platform agnostic tracing library originally developed for Datadog APM."
   },
   {
     "name": "exjson",
@@ -3470,6 +3510,11 @@
     "description": "Elixir to HTML/JavaScript based presentation framework."
   },
   {
+    "name": "ratekeeper",
+    "url": "https://github.com/whitered/ratekeeper",
+    "description": "Rate limiter and rate-limited actions scheduler."
+  },
+  {
     "name": "ratx",
     "url": "https://github.com/liveforeverx/ratx",
     "description": "Rate limiter and overload protection for erlang application."
@@ -3660,11 +3705,6 @@
     "description": "Transforms notifications from the Postgres LISTEN/NOTIFY mechanism into callback execution."
   },
   {
-    "name": "cassandra_ecto",
-    "url": "https://github.com/vintikzzz/cassandra_ecto",
-    "description": "Ecto adapter for Apache Cassandra."
-  },
-  {
     "name": "caylir",
     "url": "https://github.com/mneudert/caylir",
     "description": "Cayley driver for Elixir."
@@ -3728,6 +3768,11 @@
     "name": "ecto",
     "url": "https://github.com/elixir-ecto/ecto",
     "description": "A database wrapper and language integrated query for Elixir."
+  },
+  {
+    "name": "ecto_cassandra",
+    "url": "https://github.com/cafebazaar/ecto-cassandra",
+    "description": "Cassandra DB Adapter for Ecto."
   },
   {
     "name": "ecto_enum",
@@ -3872,7 +3917,7 @@
   {
     "name": "extreme",
     "url": "https://github.com/exponentially/extreme",
-    "description": "An Elixir library using Eventstore for persistance of events generated by aggregates (CQRS)."
+    "description": "An Elixir library using Eventstore for persistence of events generated by aggregates (CQRS)."
   },
   {
     "name": "exts",
@@ -4055,9 +4100,19 @@
     "description": "Database multitenancy with postgres schemas for Elixir applications!"
   },
   {
+    "name": "triton",
+    "url": "https://github.com/blitzstudios/triton",
+    "description": "Pure Elixir Cassandra ORM built on top of Xandra."
+  },
+  {
     "name": "udpflux",
     "url": "https://github.com/timbuchwaldt/udpflux",
     "description": "An opinionated InfluxDB UDP only client."
+  },
+  {
+    "name": "xandra",
+    "url": "https://github.com/lexhide/xandra",
+    "description": "Cassandra driver built natively in Elixir and focused on speed, simplicity, and robustness."
   },
   {
     "name": "yar",
@@ -4398,6 +4453,11 @@
     "name": "versionary",
     "url": "https://github.com/sticksnleaves/versionary",
     "description": "API versioning for Elixir Plug and Phoenix."
+  },
+  {
+    "name": "elasticsearch",
+    "url": "https://github.com/infinitered/elasticsearch-elixir",
+    "description": "A simple, no-nonsense Elasticsearch library for Elixir."
   },
   {
     "name": "giza_sphinxsearch",
@@ -4825,11 +4885,6 @@
     "description": "Cirru Parser in Elixir."
   },
   {
-    "name": "cldr",
-    "url": "https://github.com/magicienap/cldr",
-    "description": "cldr is a library to use information from CLDR data."
-  },
-  {
     "name": "colorful",
     "url": "https://github.com/Joe-noh/colorful",
     "description": "Elixir macros to decorate characters on CUI."
@@ -4898,6 +4953,11 @@
     "name": "ex_brace_expansion",
     "url": "https://github.com/gniquil/ex_brace_expansion",
     "description": "Brace expansion, as known from sh/bash, in Elixir."
+  },
+  {
+    "name": "ex_cldr",
+    "url": "https://github.com/kipcole9/cldr",
+    "description": "Cldr is an Elixir library for the Unicode Consortium's Common Locale Data Repository (CLDR)."
   },
   {
     "name": "ex_rfc3966",
@@ -5102,7 +5162,7 @@
   {
     "name": "unit_fun",
     "url": "https://github.com/meadsteve/unit_fun",
-    "description": "Attempt to add units to numbers in elixir to give some added type saftey when dealing with numeric quantities."
+    "description": "Attempt to add units to numbers in elixir to give some added type safety when dealing with numeric quantities."
   },
   {
     "name": "uuid",
@@ -5428,6 +5488,11 @@
     "name": "gcmex",
     "url": "https://github.com/dukex/gcmex",
     "description": "Google Cloud Messaging client library for elixir."
+  },
+  {
+    "name": "google-cloud",
+    "url": "https://github.com/GoogleCloudPlatform/elixir-google-api",
+    "description": "This repository contains all the client libraries to interact with Google APIs."
   },
   {
     "name": "google_sheets",

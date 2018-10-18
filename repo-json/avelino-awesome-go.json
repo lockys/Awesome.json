@@ -320,6 +320,11 @@
     "description": "Go library for building command line applications."
   },
   {
+    "name": "hiboot cli",
+    "url": "https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli",
+    "description": "cli application framework with auto configuration and dependency injection."
+  },
+  {
     "name": "kingpin",
     "url": "https://github.com/alecthomas/kingpin",
     "description": "Command line and flag parser supporting sub commands."
@@ -483,11 +488,6 @@
     "name": "termui",
     "url": "https://github.com/gizak/termui",
     "description": "Go terminal dashboard based on termbox-go and inspired by blessed-contrib."
-  },
-  {
-    "name": "tui-go",
-    "url": "https://github.com/marcusolsson/tui-go",
-    "description": "Go UI library for building rich terminal applications."
   },
   {
     "name": "uilive",
@@ -1522,7 +1522,7 @@
   {
     "name": "flowgraph",
     "url": "https://github.com/vectaport/flowgraph",
-    "description": "MPI-style ready-send coordination layer."
+    "description": "flow-based programming package."
   },
   {
     "name": "gleam",
@@ -2261,7 +2261,7 @@
   },
   {
     "name": "cameron",
-    "url": "https://github.com/sheng/cameron",
+    "url": "https://github.com/aofei/cameron",
     "description": "An avatar generator for Go."
   },
   {
@@ -2780,6 +2780,11 @@
     "description": "Golang Neural Network."
   },
   {
+    "name": "APNs2",
+    "url": "https://github.com/sideshow/apns2",
+    "description": "HTTP/2 Apple Push Notification provider for Go — Send push notifications to iOS, tvOS, Safari and OSX apps."
+  },
+  {
     "name": "Benthos",
     "url": "https://github.com/Jeffail/benthos",
     "description": "A message streaming bridge between a range of protocols."
@@ -2893,6 +2898,11 @@
     "name": "melody",
     "url": "https://github.com/olahol/melody",
     "description": "Minimalist framework for dealing with websocket sessions, includes broadcasting and automatic ping/pong handling."
+  },
+  {
+    "name": "Mercure",
+    "url": "https://github.com/dunglas/mercure",
+    "description": "Server and library to dispatch server-sent updates using the Mercure protocol (built on top of Server-Sent Events)."
   },
   {
     "name": "messagebus",
@@ -3166,7 +3176,7 @@
   },
   {
     "name": "sandid",
-    "url": "https://github.com/sheng/sandid",
+    "url": "https://github.com/aofei/sandid",
     "description": "Every grain of sand on earth has its own ID."
   },
   {
@@ -3222,7 +3232,7 @@
   {
     "name": "VarHandler",
     "url": "https://github.com/azr/generators/tree/master/varhandler",
-    "description": "Generate boilerplate http input and ouput handling."
+    "description": "Generate boilerplate http input and output handling."
   },
   {
     "name": "werr",
@@ -3298,6 +3308,11 @@
     "name": "golibstemmer",
     "url": "https://github.com/rjohnsondev/golibstemmer",
     "description": "Go bindings for the snowball libstemmer library including porter 2."
+  },
+  {
+    "name": "gotokenizer",
+    "url": "https://github.com/xujiajun/gotokenizer",
+    "description": "A tokenizer based on the dictionary and Bigram language models for Golang. (Now only support chinese segmentation)"
   },
   {
     "name": "gounidecode",
@@ -4075,11 +4090,6 @@
     "description": "2D triangulation library. Allows translating lines and polygons (both based on points) to the language of GPUs."
   },
   {
-    "name": "vectormath",
-    "url": "https://github.com/spate/vectormath",
-    "description": "Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code (currently inactive)."
-  },
-  {
     "name": "acmetool",
     "url": "https://github.com/hlandau/acme",
     "description": "ACME (Let's Encrypt) client tool with automatic renewal."
@@ -4553,6 +4563,11 @@
     "name": "Testify",
     "url": "https://github.com/stretchr/testify",
     "description": "Sacred extension to the standard go testing package."
+  },
+  {
+    "name": "testsql",
+    "url": "https://github.com/zhulongcheng/testsql",
+    "description": "Generate test data from SQL files before testing and clear it after finished."
   },
   {
     "name": "Tt",
@@ -5121,7 +5136,7 @@
   },
   {
     "name": "paypal",
-    "url": "https://github.com/logpacker/paypalsdk",
+    "url": "https://github.com/logpacker/PayPal-Go-SDK",
     "description": "Wrapper for PayPal payment API."
   },
   {
@@ -5218,6 +5233,11 @@
     "name": "webhooks",
     "url": "https://github.com/go-playground/webhooks",
     "description": "Webhook receiver for GitHub and Bitbucket."
+  },
+  {
+    "name": "wit-go",
+    "url": "https://github.com/wit-ai/wit-go",
+    "description": "Go client for wit.ai HTTP API."
   },
   {
     "name": "ynab",
@@ -5956,8 +5976,8 @@
   },
   {
     "name": "Air",
-    "url": "https://github.com/sheng/air",
-    "description": "Ideal RESTful web framework for Go."
+    "url": "https://github.com/aofei/air",
+    "description": "An ideally refined web framework for Go."
   },
   {
     "name": "Banjo",
@@ -6043,6 +6063,11 @@
     "name": "gongular",
     "url": "https://github.com/mustafaakin/gongular",
     "description": "Fast Go web framework with input mapping/validation and (DI) Dependency Injection."
+  },
+  {
+    "name": "hiboot",
+    "url": "https://github.com/hidevopsio/hiboot",
+    "description": "hiboot is a high performance web application framework with auto configuration and dependency injection support."
   },
   {
     "name": "Macaron",
@@ -6882,7 +6907,7 @@
   {
     "name": "sg",
     "url": "https://github.com/ChristopherRabotin/sg",
-    "description": "Benchmarks a set of HTTP endpoints (like ab), with possibility to use the reponse code and data between each call for specific server stress based on its previous response."
+    "description": "Benchmarks a set of HTTP endpoints (like ab), with possibility to use the response code and data between each call for specific server stress based on its previous response."
   },
   {
     "name": "skm",
@@ -6992,7 +7017,7 @@
   {
     "name": "GoDocTooltip",
     "url": "https://github.com/diankong/GoDocTooltip",
-    "description": "Chrome extension for Go Doc sites, which shows function description as tooltip at funciton list."
+    "description": "Chrome extension for Go Doc sites, which shows function description as tooltip at function list."
   },
   {
     "name": "GoLand",
@@ -7714,6 +7739,11 @@
     "description": "Good place to find new Go libraries."
   },
   {
+    "name": "TutorialEdge",
+    "url": "https://tutorialedge.net/course/golang/",
+    "description": "Golang"
+  },
+  {
     "name": "50 Shades of Go",
     "url": "http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/",
     "description": "Traps, Gotchas, and Common Mistakes for New Golang Devs."
@@ -7754,6 +7784,11 @@
     "description": "Introduction to database/sql."
   },
   {
+    "name": "Go WebAssembly Tutorial",
+    "url": "https://tutorialedge.net/golang/go-webassembly-tutorial/",
+    "description": "Building a Simple Calculator"
+  },
+  {
     "name": "Golangbot",
     "url": "https://golangbot.com/learn-golang-series/",
     "description": "Tutorials to get started with programming in Go."
@@ -7772,6 +7807,11 @@
     "name": "Learn Go with TDD",
     "url": "https://github.com/quii/learn-go-with-tests",
     "description": "Learn Go with test-driven development."
+  },
+  {
+    "name": "package main",
+    "url": "https://www.youtube.com/packagemain",
+    "description": "YouTube channel about Programming in Go."
   },
   {
     "name": "Working with Go",
