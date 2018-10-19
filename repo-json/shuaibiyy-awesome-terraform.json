@@ -220,9 +220,9 @@
     "description": "Creates RDS resources on AWS."
   },
   {
-    "name": "tf_aws_sg",
-    "url": "https://github.com/terraform-community-modules/tf_aws_sg",
-    "description": "Collection of common security group settings."
+    "name": "terraform-aws-security-group",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-security-group",
+    "description": "Creates EC2-VPC security groups on AWS."
   },
   {
     "name": "tf_aws_ubuntu_ami",
@@ -230,9 +230,9 @@
     "description": "Easy way to lookup Ubuntu AMIs with Terraform."
   },
   {
-    "name": "tf_aws_vpc",
-    "url": "https://github.com/terraform-community-modules/tf_aws_vpc",
-    "description": "Provides VPCs in AWS."
+    "name": "terraform-aws-vpc",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc",
+    "description": "Creates VPC resources on AWS."
   },
   {
     "name": "tf_aws_vpc_only",
@@ -288,6 +288,11 @@
     "name": "terratest",
     "url": "https://github.com/gruntwork-io/terratest",
     "description": "Terratest is a Go library that makes it easier to write automated tests for your infrastructure code"
+  },
+  {
+    "name": "astro",
+    "url": "https://github.com/uber/astro/",
+    "description": "Astro is a tool for managing multiple Terraform executions as a single command."
   },
   {
     "name": "atlantis",
