@@ -257,6 +257,11 @@
     "description": "A virtual “trip aggregator” that assembles information on a wide variety of available modes: public transit, private, rail, rideshare, carpool, volunteer, paratransit, and walking and biking. Open-source on Github."
   },
   {
+    "name": "Bustime",
+    "url": "https://www.bustime.ru",
+    "description": "Public transport real-time monitoring with WebSocket updates."
+  },
+  {
     "name": "OneBusAway Apps",
     "url": "https://play.google.com/store/apps/details?id=com.joulespersecond.seattlebusbot",
     "description": "Android (source code), Fire Phone (source code), iOS  (source code), Windows Phone (source code), Windows 8 (source code), Google Glass GDK (source code)"
@@ -367,7 +372,7 @@
   {
     "name": "fastest-bus-analysis-in-the-west",
     "url": "https://github.com/vta/fastest-bus-analysis-in-the-west",
-    "description": "A python Pandas script that combines Ridership/APC, Swiftly speed and dwell data, and bus stop inventory, GTFS, and geospatial creating a stop by stop time filterable dataset.  The dataset is then visualized in Tableau for the purpose of helping to find places to make VTA's bus and rail network faster and more reliable."
+    "description": "A python Pandas script that combines Ridership/APC, Swiftly speed and dwell data, bus stop inventory, GTFS, and geospatial shapes to create a stop by stop, route by route, time grouping filterable dataset for cross-analyses.  The dataset is then visualized in Tableau to help VTA Planners find places to make bus and rail network faster and more reliable through speedups methods like stop consolidation and dedicated lanes."
   },
   {
     "name": "GTFS Spec",
@@ -573,13 +578,24 @@
     "description": "An entirely browser-based tool to view GTFS feeds. Use it to view routes, stops, timetables, etc."
   },
   {
-    "name": "Peartree A Python library for converting transit data into a directed graph for network analysis.",
-    "url": "https://github.com/kuanb/peartree"
+    "name": "Peartree",
+    "url": "https://github.com/kuanb/peartree",
+    "description": "A Python library for converting transit data into a directed graph for network analysis."
   },
   {
-    "name": "bustt",
-    "url": "https://github.com/r-gtfs/bustt",
-    "description": "Bus and transit time and headways for GTFS in R."
+    "name": "gtfsr",
+    "url": "https://github.com/ropensci/gtfsr",
+    "description": "An R package for easily importing, validating, and mapping transit data that follows the General Transit Feed Specification (GTFS) format."
+  },
+  {
+    "name": "tidytransit (formerly bustt)",
+    "url": "https://github.com/r-transit/tidytransit",
+    "description": "Reads GTFS data into tidyverse and simple features dataframes to map transit stops and routes, calculate transit frequencies, and validate transit feeds.  tidytransit is a fork of gtfsr, published to CRAN, with frequency/headway calculation functions."
+  },
+  {
+    "name": "transitr",
+    "url": "https://github.com/tmelliott/transitr",
+    "description": "An R package for constructing and modelling a transit network in real time to obtain vehicle ETAs"
   },
   {
     "name": "GTFS to HTML",
@@ -823,6 +839,11 @@
     "name": "General Bikeshare Feed Specification (GBFS)",
     "url": "https://github.com/NABSA/gbfs",
     "description": "Open data standard for real-time bikeshare information developed by members of the North American Bikeshare Association (NABSA)."
+  },
+  {
+    "name": "gbfs-validator",
+    "url": "https://github.com/PierrickP/gbfs-validator",
+    "description": "3rd party tool to validate GBFS feeds."
   },
   {
     "name": "GTFS-ride",
