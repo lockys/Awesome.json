@@ -80,6 +80,11 @@
     "description": "Tries to simplify bytecode editing."
   },
   {
+    "name": "Mixin",
+    "url": "https://github.com/SpongePowered/Mixin",
+    "description": "Manipulate bytecode at runtime using real Java code."
+  },
+  {
     "name": "Caffeine",
     "url": "https://github.com/ben-manes/caffeine",
     "description": "High-performance, near-optimal caching library."
@@ -93,6 +98,61 @@
     "name": "Infinispan",
     "url": "http://infinispan.org",
     "description": "Highly concurrent key/value datastore used for caching."
+  },
+  {
+    "name": "ASCII Table",
+    "url": "https://github.com/vdmeer/asciitable",
+    "description": "Library to draw tables in ASCII."
+  },
+  {
+    "name": "Airline",
+    "url": "https://github.com/airlift/airline",
+    "description": "Annotation-based framework for parsing Git-like command-line arguments."
+  },
+  {
+    "name": "args4j",
+    "url": "http://args4j.kohsuke.org",
+    "description": "Small library to parse command-line arguments."
+  },
+  {
+    "name": "Jansi",
+    "url": "https://github.com/fusesource/jansi",
+    "description": "ANSI escape codes to format console output."
+  },
+  {
+    "name": "Java ASCII Render",
+    "url": "https://github.com/indvd00m/java-ascii-render",
+    "description": "Graphical primitives for the console."
+  },
+  {
+    "name": "JCommander",
+    "url": "http://jcommander.org",
+    "description": "Command-line argument-parsing framework with custom types and validation via implementing interfaces."
+  },
+  {
+    "name": "JLine",
+    "url": "https://github.com/jline/jline3",
+    "description": "Includes features from modern shells like completion or history."
+  },
+  {
+    "name": "JOpt Simple",
+    "url": "https://pholser.github.io/jopt-simple",
+    "description": "Fluent parser that uses the POSIX#getopt and GNU#getopt_long syntaxes."
+  },
+  {
+    "name": "picocli",
+    "url": "http://picocli.info",
+    "description": "ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args."
+  },
+  {
+    "name": "Text-IO",
+    "url": "https://github.com/beryx/text-io",
+    "description": "Aids the creation of full console-based applications."
+  },
+  {
+    "name": "Lanterna",
+    "url": "https://github.com/mabe02/lanterna",
+    "description": "Easy console text-GUI library, similar to curses."
   },
   {
     "name": "Apache Aurora",
@@ -213,31 +273,6 @@
     "name": "Lombok",
     "url": "https://projectlombok.org",
     "description": "Code generator that aims to reduce verbosity."
-  },
-  {
-    "name": "Airline",
-    "url": "https://github.com/airlift/airline",
-    "description": "Annotation-based framework for parsing Git-like command-line arguments."
-  },
-  {
-    "name": "args4j",
-    "url": "http://args4j.kohsuke.org",
-    "description": "Small library to parse command-line arguments."
-  },
-  {
-    "name": "JCommander",
-    "url": "http://jcommander.org",
-    "description": "Command-line argument-parsing framework with custom types and validation via implementing interfaces."
-  },
-  {
-    "name": "JOpt Simple",
-    "url": "https://pholser.github.io/jopt-simple",
-    "description": "Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations."
-  },
-  {
-    "name": "picocli",
-    "url": "http://picocli.info",
-    "description": "ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation-based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args."
   },
   {
     "name": "ANTLR",
@@ -1150,14 +1185,9 @@
     "description": "VM with non-blocking, concurrent GC for iOS."
   },
   {
-    "name": "Zulu OpenJDK 9",
-    "url": "https://zulu.org/zulu-9-pre-release-downloads",
-    "description": "Early-access OpenJDK 9 builds for Windows, Linux, and Mac OS X."
-  },
-  {
-    "name": "Zulu OpenJDK",
+    "name": "Zulu",
     "url": "https://www.azul.com/downloads/zulu",
-    "description": "OpenJDK builds for Windows, Linux, and Mac OS X through Java 8."
+    "description": "OpenJDK builds for Windows, Linux, and Mac OS X."
   },
   {
     "name": "Apache Log4j 2",
@@ -1378,11 +1408,6 @@
     "name": "JPad",
     "url": "http://jpad.io",
     "description": "Snippet runner."
-  },
-  {
-    "name": "Lanterna",
-    "url": "https://github.com/mabe02/lanterna",
-    "description": "Easy console text-GUI library, similar to curses."
   },
   {
     "name": "LightAdmin",
@@ -1912,7 +1937,7 @@
   {
     "name": "CLI",
     "url": "http://commons.apache.org/proper/commons-cli",
-    "description": "Command Line arguments parser."
+    "description": "Command-line arguments parser."
   },
   {
     "name": "Validator",
@@ -2342,6 +2367,11 @@
     "description": "Umbrella project for security and identity management."
   },
   {
+    "name": "SecurityBuilder",
+    "url": "https://github.com/tersesystems/securitybuilder",
+    "description": "Fluent Builder API for JCA and JSSE classes and especially X.509 certificates."
+  },
+  {
     "name": "Themis",
     "url": "https://github.com/cossacklabs/themis",
     "description": "Multi-platform high-level cryptographic library provides easy-to-use encryption for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications."
@@ -2510,6 +2540,11 @@
     "name": "Randomized Testing",
     "url": "https://github.com/randomizedtesting/randomizedtesting",
     "description": "JUnit test runner and plugins for running JUnit tests with pseudo-randomness."
+  },
+  {
+    "name": "Java Faker",
+    "url": "https://github.com/DiUS/java-faker",
+    "description": "A port of Ruby's fake data generator."
   },
   {
     "name": "ArchUnit",
