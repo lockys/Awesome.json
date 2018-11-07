@@ -90,6 +90,11 @@
     "description": "Manipulating and printing UTF-8 text that fixes multiple bugs in R's UTF-8 handling."
   },
   {
+    "name": "Patchwork",
+    "url": "https://github.com/thomasp85/patchwork",
+    "description": "Combine separate ggplots into the same graphic."
+  },
+  {
     "name": "RStudio ",
     "url": "http://www.rstudio.org/",
     "description": "A powerful and productive user interface for R. Works great on Windows, Mac, and Linux."
@@ -170,6 +175,11 @@
     "description": "A modern R console with syntax highlighting."
   },
   {
+    "name": "RKWard",
+    "url": "https://rkward.kde.org/",
+    "description": "An extensible IDE/GUI for R."
+  },
+  {
     "name": "magrittr ",
     "url": "https://github.com/smbache/magrittr",
     "description": "Let's pipe it."
@@ -241,12 +251,12 @@
   },
   {
     "name": "lubridate",
-    "url": "http://cran.r-project.org/web/packages/lubridate/index.html",
+    "url": "https://github.com/tidyverse/lubridate",
     "description": "A set of functions to work with dates and times."
   },
   {
     "name": "stringi ",
-    "url": "http://www.gagolewski.com/software/stringi/",
+    "url": "https://github.com/gagolews/stringi",
     "description": "ICU based string processing package."
   },
   {
@@ -256,7 +266,7 @@
   },
   {
     "name": "bigmemory",
-    "url": "http://cran.r-project.org/web/packages/bigmemory/index.html",
+    "url": "https://github.com/kaneplusplus/bigmemory",
     "description": "Shared memory and memory-mapped matrices. The big* packages provide additional tools including linear models (biglm) and Random Forests (bigrf)."
   },
   {
@@ -306,7 +316,7 @@
   },
   {
     "name": "lattice",
-    "url": "http://lattice.r-forge.r-project.org/",
+    "url": "https://github.com/deepayan/lattice",
     "description": "A powerful and elegant high-level data visualization system."
   },
   {
@@ -336,7 +346,7 @@
   },
   {
     "name": "animation",
-    "url": "http://yihui.name/animation/",
+    "url": "https://github.com/yihui/animation",
     "description": "A simple way to produce animated graphics in R, using ImageMagick."
   },
   {
@@ -367,7 +377,12 @@
   {
     "name": "waffle",
     "url": "https://github.com/hrbrmstr/waffle",
-    "description": " 🍁 Make waffle (square pie) charts in R"
+    "description": " 🍁 Make waffle (square pie) charts in R."
+  },
+  {
+    "name": "dendextend",
+    "url": "https://github.com/talgalili/dendextend",
+    "description": " visualizing, adjusting and comparing trees of hierarchical clustering."
   },
   {
     "name": "r2d3",
@@ -375,9 +390,19 @@
     "description": "R Interface to D3 Visualizations"
   },
   {
+    "name": "Patchwork",
+    "url": "https://github.com/thomasp85/patchwork",
+    "description": "Combine separate ggplots into the same graphic."
+  },
+  {
+    "name": "heatmaply",
+    "url": "https://github.com/talgalili/heatmaply",
+    "description": "Interactive heatmaps with D3."
+  },
+  {
     "name": "d3heatmap",
     "url": "https://github.com/rstudio/d3heatmap",
-    "description": "Interactive heatmaps with D3."
+    "description": "Interactive heatmaps with D3 (no longer maintained)."
   },
   {
     "name": "DataTables",
@@ -395,8 +420,8 @@
     "description": "Charting time-series data in R."
   },
   {
-    "name": "formattable",
-    "url": "http://renkun.me/formattable/",
+    "name": "formattable ",
+    "url": "https://github.com/renkun-ken/formattable",
     "description": "Formattable Data Structures."
   },
   {
@@ -466,12 +491,12 @@
   },
   {
     "name": "knitr ",
-    "url": "http://yihui.name/knitr/",
+    "url": "https://github.com/yihui/knitr",
     "description": "Easy dynamic report generation in R."
   },
   {
     "name": "tinytex",
-    "url": "https://yihui.name/tinytex/",
+    "url": "https://github.com/yihui/tinytex",
     "description": "A lightweight and easy-to-maintain LaTeX distribution"
   },
   {
@@ -555,6 +580,11 @@
     "description": "General network (HTTP/FTP/...) client interface for R."
   },
   {
+    "name": "curl",
+    "url": "https://github.com/jeroen/curl",
+    "description": "A Modern and Flexible Web Client for R."
+  },
+  {
     "name": "httr ",
     "url": "https://github.com/hadley/httr",
     "description": "User-friendly RCurl wrapper."
@@ -610,7 +640,7 @@
     "description": "Executing the loop in parallel."
   },
   {
-    "name": "future",
+    "name": "future ",
     "url": "https://cran.r-project.org/package=future",
     "description": "A minimal, efficient, cross-platform unified Future API for parallel and distributed processing in R; designed for beginners as well as advanced developers."
   },
@@ -743,6 +773,11 @@
     "name": "mongolite",
     "url": "https://github.com/jeroenooms/mongolite",
     "description": "Streaming Mongo Client for R"
+  },
+  {
+    "name": "odbc",
+    "url": "https://github.com/r-dbi/odbc",
+    "description": "Connect to ODBC databases (using the DBI interface)"
   },
   {
     "name": "RMariaDB",
@@ -1116,6 +1151,11 @@
     "name": "randomForestSRC",
     "url": "http://cran.r-project.org/web/packages/randomForestSRC/index.html",
     "description": "randomForestSRC: Random Forests for Survival, Regression and Classification (RF-SRC)."
+  },
+  {
+    "name": "ranger",
+    "url": "https://github.com/imbs-hl/ranger",
+    "description": "A Fast Implementation of Random Forests."
   },
   {
     "name": "rattle",
@@ -1670,6 +1710,11 @@
     "name": "staticdocs",
     "url": "https://github.com/hadley/staticdocs",
     "description": "Generate static html documentation for an R package."
+  },
+  {
+    "name": "sinew",
+    "url": "https://github.com/metrumresearchgroup/sinew",
+    "description": "Generate roxygen2 skeletons populated with information scraped from the function script."
   },
   {
     "name": "futile.logger",
