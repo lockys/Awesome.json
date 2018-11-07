@@ -101,6 +101,11 @@
     "description": "Jerome Dalbert's blog post on migrating to Prezto."
   },
   {
+    "name": "rad-shell",
+    "url": "https://github.com/brandon-fryslie/rad-shell",
+    "description": "A fantastically feature rich, lightning-fast shell, using ZSH, Prezto, and Zgen."
+  },
+  {
     "name": "zsh-quickstart-kit",
     "url": "https://github.com/unixorn/zsh-quickstart-kit",
     "description": "A simple quickstart for using ZSH with zgen. This includes a curated collection of plugins, and will automatically configure ZSH to use zgen to load them, configures zgen to periodically automatically update itself, the plugins, and the quickstart kit itself."
@@ -186,9 +191,19 @@
     "description": "Adds start, stop, up and down commands when it detects a docker-compose or Vagrant file in the current directory (e.g. your application). Just run up and get coding!"
   },
   {
+    "name": "artisan",
+    "url": "https://github.com/jessarcher/zsh-artisan",
+    "description": "Laravel artisan plugin for ZSH to help you to run artisan from anywhere in the project tree, with tab completion!"
+  },
+  {
     "name": "asciidoctor",
     "url": "https://github.com/sparsick/asciidoctor-zsh",
     "description": "A plugin for AsciiDoctor."
+  },
+  {
+    "name": "asdf",
+    "url": "https://github.com/kiurchv/asdf.plugin.zsh",
+    "description": "Integration and completions for asdf, the extendable version manager, with support for Ruby, Node.js, Elixir, Erlang and more."
   },
   {
     "name": "async",
@@ -274,6 +289,11 @@
     "name": "base16",
     "url": "https://github.com/chriskempson/base16-shell",
     "description": "Adds script to allow you to change your shell's default ANSI colors but most importantly, colors 17 to 21 of your shell's 256 colorspace (if supported by your terminal). This script makes it possible to honor the original bright colors of your shell (e.g. bright green is still green and so on) while providing additional base16 colors to applications such as Vim."
+  },
+  {
+    "name": "baseballfunfacts",
+    "url": "https://github.com/richardmoyer/baseballfunfacts",
+    "description": "Print random baseball related \"fun facts\" in your shell. Depends on fortune and cowsay being installed."
   },
   {
     "name": "basex",
@@ -411,6 +431,11 @@
     "description": "mirror of the oh-my-zsh command-not-found plugin so you don't have to include all of omz."
   },
   {
+    "name": "command-note",
+    "url": "https://github.com/KKRainbow/zsh-command-note.plugin",
+    "description": "Record complex commands and comment on them."
+  },
+  {
     "name": "command-time",
     "url": "https://github.com/popstas/zsh-command-time",
     "description": "Show execution time for long commands in ZSH and powerlevel9k."
@@ -449,6 +474,11 @@
     "name": "czhttpd",
     "url": "https://github.com/jsks/czhttpd",
     "description": "A simple http server written in 99.9% pure ZSH."
+  },
+  {
+    "name": "deepjira",
+    "url": "https://github.com/korniux/zsh.deepjira.plugin",
+    "description": "Fetch and print a JIRA issue summary."
   },
   {
     "name": "deer",
@@ -969,14 +999,14 @@
     "description": "Adds shell integration code and completions for the jabba Java version manager."
   },
   {
-    "name": "javaVersions",
-    "url": "https://github.com/miguefl/javaVersions",
-    "description": "Change between different java versions with a single command."
-  },
-  {
     "name": "java-zsh-plugin",
     "url": "https://github.com/Xetius/java-zsh-plugin",
     "description": "Adds a setjdk command so you can switch easily between different versions of the jdk."
+  },
+  {
+    "name": "javaVersions",
+    "url": "https://github.com/miguefl/javaVersions",
+    "description": "Change between different java versions with a single command."
   },
   {
     "name": "jdk-switch",
@@ -1316,7 +1346,7 @@
   {
     "name": "percol",
     "url": "https://github.com/robturtle/percol.plugin.zsh",
-    "description": "Interactively and incrementally search history/resume background jobs."
+    "description": "Interactively and incrementally search history/resume background jobs using percol."
   },
   {
     "name": "pg",
@@ -2728,6 +2758,11 @@
     "description": "Minimalistic, includes git status information."
   },
   {
+    "name": "droolscar",
+    "url": "https://github.com/isuke/droolscar",
+    "description": "Powerline variant."
+  },
+  {
     "name": "dustmod",
     "url": "https://github.com/bmihaila/dustmod",
     "description": "Derived from the dst theme in oh-my-zsh."
@@ -3507,6 +3542,11 @@
     "description": "A fairly heavyweight ZSH prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background."
   },
   {
+    "name": "prompt_j2",
+    "url": "https://github.com/malinoskj2/prompt_j2",
+    "description": "Has a dynamic exit status indicator, can change to two lines dynamically to display context."
+  },
+  {
     "name": "punctual",
     "url": "https://github.com/dannynimmo/punctual-zsh-theme",
     "description": "Easily customizable, influenced by spaceship."
@@ -3612,6 +3652,11 @@
     "description": "Includes git status, works well on a dark terminal background."
   },
   {
+    "name": "schminitz-v2",
+    "url": "https://github.com/mashdots/schminitz-v2",
+    "description": "Shows git status, user@host information, exit status of last command, and whether running as root."
+  },
+  {
     "name": "schminitz",
     "url": "https://gist.github.com/schminitz/9931af23bbb59e772eec",
     "description": "Shows if Vim is running in the background when using :sh command."
@@ -3657,14 +3702,14 @@
     "description": "Minimal theme with git branch display. Requires a powerline font."
   },
   {
-    "name": "simplezsh",
-    "url": "https://github.com/fr0zn/simplezsh",
-    "description": "Minimal theme with git info display."
-  },
-  {
     "name": "shrug",
     "url": "https://github.com/tmjoseantonio/shrug-zsh-theme",
     "description": "Simple theme which displays current directory and git information."
+  },
+  {
+    "name": "simplezsh",
+    "url": "https://github.com/fr0zn/simplezsh",
+    "description": "Minimal theme with git info display."
   },
   {
     "name": "sinon",
@@ -3772,9 +3817,9 @@
     "description": "Colorful theme with git status."
   },
   {
-    "name": "theraveler",
-    "url": "https://github.com/azah/the-raveler",
-    "description": "Based on theunraveler."
+    "name": "thetraveler",
+    "url": "https://github.com/bassopenguin/thetraveler",
+    "description": "Inspired by theunraveler, uses symbols to display git status."
   },
   {
     "name": "topan",
