@@ -158,12 +158,12 @@
   {
     "name": "antigen-git-rebase",
     "url": "https://github.com/smallhadroncollider/antigen-git-rebase",
-    "description": "Antigen/zsh script to aid with Git rebasing."
+    "description": "Antigen/ZSH script to aid with Git rebasing."
   },
   {
     "name": "antigen-git-store",
     "url": "https://github.com/smallhadroncollider-deprecated/antigen-git-store",
-    "description": "Antigen/zsh script to store Git's current working directory. For working with Git between two computers without forcing arbitrary commits."
+    "description": "Antigen/ZSH script to store git's current working directory. For working with git between two computers without forcing arbitrary commits."
   },
   {
     "name": "anyframe",
@@ -176,11 +176,6 @@
     "description": "Adds aliases and functions for managing Apache2."
   },
   {
-    "name": "app-up",
-    "url": "https://github.com/Cloudstek/zsh-plugin-appup",
-    "description": "Adds start, stop, up and down commands when it detects a docker-compose or Vagrant file in the current directory (e.g. your application). Just run up and get coding!"
-  },
-  {
     "name": "apple-touchbar",
     "url": "https://github.com/zsh-users/zsh-apple-touchbar",
     "description": "Adds MacBook Pro's touchbar support in iTerm 2."
@@ -188,7 +183,7 @@
   {
     "name": "appup",
     "url": "https://github.com/Cloudstek/zsh-plugin-appup",
-    "description": "Adds start, stop, up and down commands when it detects a docker-compose or Vagrant file in the current directory (e.g. your application). Just run up and get coding!"
+    "description": "Adds start, stop, up and down commands when it detects a docker-compose.yml or Vagrantfile in the current directory (e.g. your application). Just run up and get coding!"
   },
   {
     "name": "artisan",
@@ -266,7 +261,7 @@
     "description": "ZSH plugin to automatically switch python virtualenvs when traversing directories."
   },
   {
-    "name": "autoupdate-antigen.zshplugin",
+    "name": "autoupdate-antigen",
     "url": "https://github.com/unixorn/autoupdate-antigen.zshplugin",
     "description": "Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration."
   },
@@ -276,7 +271,7 @@
     "description": "oh-my-zsh doesn't autoupdate non-core plugins, this adds plugin autoupdating to omz."
   },
   {
-    "name": "aws-upload-zsh",
+    "name": "aws-upload",
     "url": "https://github.com/borracciaBlu/aws-upload-zsh",
     "description": "Boost your productivity with aws-upload."
   },
@@ -303,7 +298,7 @@
   {
     "name": "bash",
     "url": "https://github.com/chrissicool/zsh-bash",
-    "description": "Makes ZSH more Bash compatible. It redefines the source command to act more like Bash does. It also enables Bash completions."
+    "description": "Makes ZSH more Bash compatible. It redefines the source command to act more like bash does. It also enables bash completions."
   },
   {
     "name": "battery_state",
@@ -369,6 +364,11 @@
     "name": "cd-gitroot",
     "url": "https://github.com/mollifier/cd-gitroot",
     "description": "A ZSH plugin to cd to the git repository root directory."
+  },
+  {
+    "name": "cd-reminder",
+    "url": "https://github.com/bartboy011/cd-reminder",
+    "description": "Display reminders when cd-ing into specified directories."
   },
   {
     "name": "cd-reporoot",
@@ -686,7 +686,7 @@
   {
     "name": "fzf-marks",
     "url": "https://github.com/urbainvaes/fzf-marks",
-    "description": "Little script to create, navigate and delete bookmarks in Bash and Zsh, using the fuzzy finder fzf."
+    "description": "Little script to create, navigate and delete bookmarks in bash and zsh, using the fuzzy finder fzf."
   },
   {
     "name": "fzf-mpd",
@@ -926,7 +926,7 @@
   {
     "name": "history-sync",
     "url": "https://github.com/wulfgarpro/history-sync",
-    "description": "An Oh My Zsh plugin for GPG encrypted, Internet synchronized ZSH history using Git."
+    "description": "An Oh My Zsh plugin for GPG encrypted, Internet synchronized ZSH history using git."
   },
   {
     "name": "history",
@@ -971,7 +971,7 @@
   {
     "name": "iterm-tab-color",
     "url": "https://github.com/bernardop/iterm-tab-color-oh-my-zsh",
-    "description": "Adds function to set the tab color in iTerm2"
+    "description": "Adds function to set the tab color in iTerm2."
   },
   {
     "name": "iterm-tab-colors",
@@ -1101,7 +1101,7 @@
   {
     "name": "linuxbrew",
     "url": "https://github.com/zpm-zsh/linuxbrew",
-    "description": "Zsh plugin for linuxbrew."
+    "description": "ZSH plugin for linuxbrew."
   },
   {
     "name": "listbox",
@@ -1296,7 +1296,7 @@
   {
     "name": "opera-git-plugin",
     "url": "https://github.com/aswitalski/oh-my-zsh-opera-git-plugin",
-    "description": "Git aliases."
+    "description": "git aliases."
   },
   {
     "name": "operator",
@@ -1631,7 +1631,7 @@
   {
     "name": "sys-diver-zsh",
     "url": "https://github.com/ToruIwashita/sys-diver-zsh",
-    "description": "A ZSH plugin for directory change or editor startup with only key operations using widgits without typing command."
+    "description": "A ZSH plugin for directory change or editor startup with only key operations using widgits without typing commands."
   },
   {
     "name": "sysadmin-util",
@@ -1676,7 +1676,7 @@
   {
     "name": "tipz",
     "url": "https://github.com/molovo/tipz",
-    "description": "Displays your alias if you have an alias for the command you just ran (Similar to alias-tips)."
+    "description": "Displays your alias if you have an alias for the command you just ran, similarly to alias-tips."
   },
   {
     "name": "titles",
@@ -1700,7 +1700,7 @@
   {
     "name": "tmux-vim-integration",
     "url": "https://github.com/jsahlen/tmux-vim-integration.plugin.zsh",
-    "description": "Open files in a running Vim (or NeoVim) session, from an adjacent Tmux pane"
+    "description": "Open files in a running vim (or NeoVim) session, from an adjacent tmux pane."
   },
   {
     "name": "tmux-zsh-vim-titles",
@@ -1710,7 +1710,7 @@
   {
     "name": "tmux",
     "url": "https://github.com/zpm-zsh/tmux/blob/master/tmux.plugin.zsh",
-    "description": "Plugin for tmux"
+    "description": "Plugin for tmux."
   },
   {
     "name": "tmuxrepl",
@@ -1768,6 +1768,11 @@
     "description": "A super-lightweight sort-of-clone of virtualenvwrapper; it pretty much expects you to be using pyenv (though you don't have to), and because it's based on the venv module, (creation) only works for python >= 3.3."
   },
   {
+    "name": "vi-mode",
+    "url": "https://github.com/sinetoami/vi-mode",
+    "description": "Add more vi-like functionality to ZSH."
+  },
+  {
     "name": "viexchange",
     "url": "https://github.com/okapia/zsh-viexchange",
     "description": "Vi mode plugin for easily swapping text between two places in the buffer, like vim-exchange."
@@ -1805,7 +1810,7 @@
   {
     "name": "virtualz",
     "url": "https://github.com/aperezdc/virtualz",
-    "description": "Python virtualenv manager inspired by Virtualfish, replaces virtualenvwrapper."
+    "description": "Python virtualenv manager inspired by Adam Brenecki's Virtualfish for the Fish shell, replaces virtualenvwrapper."
   },
   {
     "name": "virtuozzo-plugin",
@@ -1900,12 +1905,12 @@
   {
     "name": "zconvey",
     "url": "https://github.com/zdharma/zconvey",
-    "description": "Adds ability to send commands to other Zsh sessions, you can use this to cd $PWD on all active Zshells, for example."
+    "description": "Adds ability to send commands to other ZSH sessions, you can use this to cd $PWD on all active Z shell sessions, for example."
   },
   {
     "name": "zed",
     "url": "https://github.com/eendroroy/zed-zsh",
-    "description": "A simple wrapper for z to install as ZSH plugin."
+    "description": "A simple wrapper for z to install it via a ZSH plugin."
   },
   {
     "name": "zeit",
@@ -1988,6 +1993,11 @@
     "description": "Completions for viasite-ansible/ansible-server."
   },
   {
+    "name": "antibody-completion",
+    "url": "https://github.com/sinetoami/antibody-completion",
+    "description": "This plugin provides completion for Antibody plugin manager."
+  },
+  {
     "name": "autopkg-zsh-completion",
     "url": "https://github.com/fuzzylogiq/autopkg-zsh-completion",
     "description": "Completions for autopkg."
@@ -2048,9 +2058,14 @@
     "description": "Displays git info, whether you're logged in via ssh, return code of last command."
   },
   {
+    "name": "completions",
+    "url": "https://github.com/zsh-users/zsh-completions",
+    "description": "A collection of extra completions for ZSH."
+  },
+  {
     "name": "ctop",
     "url": "https://github.com/gantsign/zsh-plugins/tree/master/ctop",
-    "description": "Tab completions for ctop"
+    "description": "Tab completions for ctop."
   },
   {
     "name": "dbic",
@@ -2153,6 +2168,11 @@
     "description": "Completions for haxelib."
   },
   {
+    "name": "ipfs",
+    "url": "https://github.com/aramboi/zsh-ipfs",
+    "description": "Completions for the Interplanetary File System."
+  },
+  {
     "name": "joe-completion",
     "url": "https://github.com/corvofeng/joe-completion",
     "description": "Adds completions for joe gitignore editor."
@@ -2170,7 +2190,7 @@
   {
     "name": "kafka",
     "url": "https://github.com/Dabz/kafka-zsh-completions",
-    "description": "Completions for Apache kafka"
+    "description": "Completions for Apache kafka."
   },
   {
     "name": "keybase",
@@ -2180,12 +2200,12 @@
   {
     "name": "kompose",
     "url": "https://github.com/gantsign/zsh-plugins/tree/master/kompose",
-    "description": "Add tab completions for Kompose"
+    "description": "Add tab completions for Kompose."
   },
   {
     "name": "kubeadm",
     "url": "https://github.com/gantsign/zsh-plugins/tree/master/kubeadm",
-    "description": "Add tab completions for kubeadm"
+    "description": "Add tab completions for kubeadm."
   },
   {
     "name": "mx-honey",
@@ -2333,16 +2353,6 @@
     "description": "Yarn autocompletions."
   },
   {
-    "name": "zsh-completions",
-    "url": "https://github.com/zsh-users/zsh-completions",
-    "description": "A collection of extra completions for ZSH."
-  },
-  {
-    "name": "zsh-ipfs",
-    "url": "https://github.com/aramboi/zsh-ipfs",
-    "description": "Completions for the Interplanetary File System."
-  },
-  {
     "name": "aaron",
     "url": "https://github.com/aaronjamesyoung/aaron-zsh-theme",
     "description": "Based on the Sorin theme."
@@ -2431,6 +2441,11 @@
     "name": "alpharized",
     "url": "https://github.com/NicoSantangelo/Alpharized",
     "description": "Optimized to work with solarized dark terminals. It's a modified version of the avit theme."
+  },
+  {
+    "name": "amoyly",
+    "url": "https://github.com/Br1an6/amoyly.zsh-theme",
+    "description": "An elegant and comfortable-reading theme based on Agnoster."
   },
   {
     "name": "angry fly",
@@ -2695,7 +2710,7 @@
   {
     "name": "cute-theme",
     "url": "https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme",
-    "description": "An macOS oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin."
+    "description": "A macOS oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin."
   },
   {
     "name": "czsh",
@@ -2820,7 +2835,7 @@
   {
     "name": "fishy",
     "url": "https://github.com/akinjide/fishy2",
-    "description": "ZSH theme inspired by original fishy"
+    "description": "ZSH theme inspired by original fishy."
   },
   {
     "name": "fortuity",
@@ -2884,7 +2899,7 @@
   {
     "name": "git-prompt",
     "url": "https://github.com/olivierverdier/zsh-git-prompt",
-    "description": "Displays information about the current git repository. In particular the branch name, difference with remote branch, number of files staged, changed, etc."
+    "description": "Displays information about the current git repository. In particular the branch name, difference with remote branch, number of files staged or changed, etc."
   },
   {
     "name": "gitsome",
@@ -2914,7 +2929,7 @@
   {
     "name": "hanpen",
     "url": "https://github.com/kojole/hanpen.zsh-theme",
-    "description": "Shows git branch and status, last command exit code, last command execution time if more than ZSH_THEME_HANPEN_CMD_MAX_EXEC_TIME"
+    "description": "Shows git branch and status, last command exit code, last command execution time if more than ZSH_THEME_HANPEN_CMD_MAX_EXEC_TIME."
   },
   {
     "name": "haribo",
@@ -3094,7 +3109,7 @@
   {
     "name": "kinda-fishy",
     "url": "https://github.com/folixg/kinda-fishy-theme",
-    "description": "Based on Fishy theme, but shows full paths instead of abbreviated directories and only shows user@machine in ssh sessions and docker containers"
+    "description": "Based on Fishy theme, but shows full paths instead of abbreviated directories and only shows user@machine in ssh sessions and docker containers."
   },
   {
     "name": "kketcham",
@@ -3279,7 +3294,7 @@
   {
     "name": "multiline",
     "url": "https://github.com/jan-auer/zsh-multiline",
-    "description": "Powerline-esque theme based on agnoster"
+    "description": "Powerline-esque theme based on agnoster."
   },
   {
     "name": "muslim",
@@ -3290,11 +3305,6 @@
     "name": "nanofish",
     "url": "https://github.com/tweekmonster/nanofish",
     "description": "Adds fish-style directory prompt to nanotech theme."
-  },
-  {
-    "name": "neat",
-    "url": "https://github.com/andrepolischuk/neat",
-    "description": "Minimalistic prompt inspired by odin and pure."
   },
   {
     "name": "nerdish",
@@ -3319,7 +3329,7 @@
   {
     "name": "nknu",
     "url": "https://github.com/aanc/oh-my-zsh-nknu-theme",
-    "description": "A simple OMZ theme."
+    "description": "A simple oh-my-zsh theme."
   },
   {
     "name": "nmaxcom",
@@ -3519,7 +3529,7 @@
   {
     "name": "predawn-shell",
     "url": "https://github.com/jamiewilson/predawn-shell",
-    "description": "Theme for dark terminal themes."
+    "description": "Theme optimized for dark terminal themes."
   },
   {
     "name": "prezto-cloud-prompt",
@@ -3589,7 +3599,7 @@
   {
     "name": "random-emoji-robbyrussell",
     "url": "https://github.com/parwat08/random-emoji-robbyrussell",
-    "description": "Based on random-emoji and robbyrussell theme themes."
+    "description": "Based on random-emoji and robbyrussell themes."
   },
   {
     "name": "random-emoji",
@@ -3677,6 +3687,11 @@
     "description": "Clean prompt theme for Devops. Includes git information, kubernetes context, AWS profile, GCP project and Azure active cloud."
   },
   {
+    "name": "seppuku",
+    "url": "https://github.com/Helianthella/seppuku",
+    "description": "Clean and minimal theme inspired by cloud."
+  },
+  {
     "name": "sepshell",
     "url": "https://github.com/sepehr/sepshell",
     "description": "Clean and minimal ZSH theme based on the old lost taybalt theme, with git bisecting/merging/rebasing modes and configurable prompt symbols."
@@ -3744,7 +3759,7 @@
   {
     "name": "sobole",
     "url": "https://github.com/sobolevn/sobole-zsh-theme",
-    "description": "A minimalistic ZSH theme inspired by the old-fashioned hobbies. No verbose gimmicks, no emoji, no fidget spinners, and no other visual noise."
+    "description": "A minimalistic ZSH theme inspired by the old-fashioned hobbies. No verbose gimmicks, no emoji, no fidget spinners, and no other visual noise. Has both light and dark modes."
   },
   {
     "name": "solarized-powerline",
@@ -3914,7 +3929,7 @@
   {
     "name": "yairshefi",
     "url": "https://github.com/yaireclipse/yairshefi-ohmyzsh-theme",
-    "description": "Minimal theme with line separated prompts. Based on Robby Russell's theme"
+    "description": "Minimal theme with line separated prompts. Based on Robby Russell's theme."
   },
   {
     "name": "ykmam",
@@ -3999,7 +4014,7 @@
   {
     "name": "Fantasque-sans",
     "url": "https://github.com/belluzj/fantasque-sans",
-    "description": "Another powerline font."
+    "description": "Another Powerline-compatible font."
   },
   {
     "name": "Hack",
