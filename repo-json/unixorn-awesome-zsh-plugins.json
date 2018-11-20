@@ -126,9 +126,14 @@
     "description": "Provides functionality similar to Vim's abbreviation expansion."
   },
   {
-    "name": "accurev-zsh",
+    "name": "accurev",
     "url": "https://github.com/dalefukami/accurev-zsh",
     "description": "ZSH plugin for accurev."
+  },
+  {
+    "name": "actiona",
+    "url": "https://github.com/matthieusb/act",
+    "description": "Make it easier to call actiona scripts from your command line. Includes tab completions."
   },
   {
     "name": "alias-tips",
@@ -456,7 +461,7 @@
     "description": "Adds proper error handling, exceptions and try/catch for ZSH."
   },
   {
-    "name": "crayon-syntax-zsh",
+    "name": "crayon-syntax",
     "url": "https://github.com/gsemet/crayon-syntax-zsh",
     "description": "ZSH syntax highlighting for the Crayon Plugin for Wordpress."
   },
@@ -584,7 +589,7 @@
     "description": "Adds sane, complex command line editing (e.g. incremental history word completion)."
   },
   {
-    "name": "elixir-oh-my-zsh",
+    "name": "elixir",
     "url": "https://github.com/gusaiani/elixir-oh-my-zsh",
     "description": "Adds shortcuts for Elixir, IEX, Mix, Kiex and Phoenix."
   },
@@ -644,7 +649,7 @@
     "description": "Fast jumps to your favorite directories."
   },
   {
-    "name": "firebase-zsh",
+    "name": "firebase",
     "url": "https://github.com/rmrs/firebase-zsh",
     "description": "Add an indicator in the prompt that you're in a directory with a firebase.json file (aka \"firebase project\")."
   },
@@ -829,7 +834,7 @@
     "description": "Plugin for creating .gitignore files."
   },
   {
-    "name": "gitio-zsh",
+    "name": "gitio",
     "url": "https://github.com/denysdovhan/gitio-zsh",
     "description": "A ZSH plugin for generating a GitHub short URL using git.io."
   },
@@ -894,7 +899,7 @@
     "description": "Adds some convenience aliases for hadoop functions."
   },
   {
-    "name": "hanami-zsh",
+    "name": "hanami",
     "url": "https://github.com/davydovanton/hanami-zsh",
     "description": "ZSH plugin for hanami projects."
   },
@@ -971,7 +976,7 @@
   {
     "name": "iterm-tab-color",
     "url": "https://github.com/bernardop/iterm-tab-color-oh-my-zsh",
-    "description": "Adds function to set the tab color in iTerm2."
+    "description": "Adds function to set the tab color in iTerm2 and can automatically change color based on cwd or command being executed."
   },
   {
     "name": "iterm-tab-colors",
@@ -1014,7 +1019,7 @@
     "description": "macOS-only plugin for switching between jdk versions."
   },
   {
-    "name": "jenkins-zsh",
+    "name": "jenkins",
     "url": "https://github.com/tomplex/jenkins-zsh",
     "description": "A jenkins plugin for ZSH, heavily inspired by the excellent jira plugin."
   },
@@ -1142,6 +1147,11 @@
     "name": "mage2docker",
     "url": "https://github.com/lukaszolszewski/mage2docker",
     "description": "Makes it easy to work with Docker and Magento 2. Speeds up and simplifies common commands like clean cache, setup upgrade, compile di and much more in Magento 2 on containers."
+  },
+  {
+    "name": "magento-2",
+    "url": "https://github.com/dambrogia/oh-my-zsh-plugin-magento-2",
+    "description": "Adds m2 function to run magento binary, adds tab completions."
   },
   {
     "name": "manydots-magic",
@@ -1389,7 +1399,7 @@
     "description": "Creates custom oh-my-zsh plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks."
   },
   {
-    "name": "pretty-time-zsh",
+    "name": "pretty-time",
     "url": "https://github.com/sindresorhus/pretty-time-zsh",
     "description": "Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s."
   },
@@ -1504,7 +1514,7 @@
     "description": "Switch ruby versions and manage the PATH variable at the same time."
   },
   {
-    "name": "rvm-zsh",
+    "name": "rvm",
     "url": "https://github.com/johnhamelink/rvm-zsh",
     "description": "Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH."
   },
@@ -1629,7 +1639,7 @@
     "description": "Add syntax highlighting to your ZSH. Make sure you load this before zsh-users/zsh-history-substring-search or they will both break."
   },
   {
-    "name": "sys-diver-zsh",
+    "name": "sys-diver",
     "url": "https://github.com/ToruIwashita/sys-diver-zsh",
     "description": "A ZSH plugin for directory change or editor startup with only key operations using widgits without typing commands."
   },
@@ -2098,7 +2108,7 @@
     "description": "A ZSH plugin for duell."
   },
   {
-    "name": "etcdctl-zsh",
+    "name": "etcdctl",
     "url": "https://github.com/sheax0r/etcdctl-zsh",
     "description": "Adds etcdctl tab completions."
   },
@@ -2148,7 +2158,7 @@
     "description": "Grid 5000 plugin - adds theme, autocompletions."
   },
   {
-    "name": "gulp-autocompletion-zsh",
+    "name": "gulp-autocompletion",
     "url": "https://github.com/srijanshetty/gulp-autocompletion-zsh",
     "description": "Autocompletion for gulp."
   },
@@ -2206,6 +2216,11 @@
     "name": "kubeadm",
     "url": "https://github.com/gantsign/zsh-plugins/tree/master/kubeadm",
     "description": "Add tab completions for kubeadm."
+  },
+  {
+    "name": "MooseX-App",
+    "url": "https://github.com/perlpunk/MooseX-App-Plugin-ZshCompletion",
+    "description": "completion generator for Perl module MooseX::App."
   },
   {
     "name": "mx-honey",
@@ -2977,7 +2992,7 @@
     "description": "A variant of powerlevel9k."
   },
   {
-    "name": "honukai-iterm-zsh",
+    "name": "honukai-iterm",
     "url": "https://github.com/oskarkrawczyk/honukai-iterm-zsh",
     "description": "Honukai theme and colors for oh-my-zsh and iTerm 2."
   },
@@ -3277,7 +3292,7 @@
     "description": "Optimized for dark backgrounds."
   },
   {
-    "name": "molokai-powerline-zsh",
+    "name": "molokai-powerline",
     "url": "https://github.com/prikhi/molokai-powerline-zsh",
     "description": "Based on agnoster."
   },
@@ -3417,11 +3432,6 @@
     "description": "A clean and simple theme for ZSH inspired and forked from Lambda (Mod) ZSH Theme."
   },
   {
-    "name": "pieni",
-    "url": "https://github.com/zaari/pieni",
-    "description": "Minimalist single line ZSH prompt theme."
-  },
-  {
     "name": "plain",
     "url": "https://github.com/jimeh/plain.zsh-theme",
     "description": "A plain and simple theme for ZSH which shows basic git information."
@@ -3435,6 +3445,11 @@
     "name": "platypus",
     "url": "https://github.com/fdv/platypus",
     "description": "Platypus is a simple and convenient theme for oh-my-zsh used by Frédéric de Villamil."
+  },
+  {
+    "name": "pointer",
+    "url": "https://github.com/gpinkard/pointer-zsh-theme",
+    "description": "Shows working directory, the return status of the last command, and git current branch."
   },
   {
     "name": "poncho",
@@ -3512,7 +3527,7 @@
     "description": "A powerline variant."
   },
   {
-    "name": "powerline-zsh",
+    "name": "powerline",
     "url": "https://github.com/carlcarl/powerline-zsh",
     "description": "A Powerline-like prompt, based on powerline-bash. Displays virtualenv, git status information and the exit code of the last command run."
   },
@@ -3722,6 +3737,11 @@
     "description": "Simple theme which displays current directory and git information."
   },
   {
+    "name": "simpalt",
+    "url": "https://github.com/m-lima/simpalt",
+    "description": "An information-rich small-footprint theme for ZSH."
+  },
+  {
     "name": "simplezsh",
     "url": "https://github.com/fr0zn/simplezsh",
     "description": "Minimal theme with git info display."
@@ -3892,7 +3912,7 @@
     "description": "Mashup of the popular ZSH themes Agnoster and Fishy, with some visual tweaks."
   },
   {
-    "name": "wang-iterm-zsh",
+    "name": "wang-iterm",
     "url": "https://github.com/0532/wang-iterm-zsh",
     "description": "Based on the 0532 theme."
   },
