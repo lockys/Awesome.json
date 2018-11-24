@@ -355,6 +355,11 @@
     "description": "Pure golang implementation that provides most features in GNU-Readline under MIT license."
   },
   {
+    "name": "sand",
+    "url": "https://github.com/Zaba505/sand",
+    "description": "Simple API for creating interpreters and so much more."
+  },
+  {
     "name": "sflags",
     "url": "https://github.com/octago/sflags",
     "description": "Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries."
@@ -1553,11 +1558,6 @@
     "name": "grpc-go",
     "url": "https://github.com/grpc/grpc-go",
     "description": "The Go language implementation of gRPC. HTTP/2 based RPC."
-  },
-  {
-    "name": "heimdall",
-    "url": "https://github.com/gojektech/heimdall",
-    "description": "An enchanced http client with retry and hystrix capabilities."
   },
   {
     "name": "hprose",
@@ -3080,6 +3080,11 @@
     "description": "Package that provides simple error handling primitives."
   },
   {
+    "name": "errorx",
+    "url": "https://github.com/joomcode/errorx",
+    "description": "A feature rich error package with stack traces, composition of errors and more."
+  },
+  {
     "name": "ffmt",
     "url": "https://github.com/go-ffmt/ffmt",
     "description": "Beautify data display for Humans."
@@ -3713,6 +3718,41 @@
     "name": "xtcp",
     "url": "https://github.com/xfxdev/xtcp",
     "description": "TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol."
+  },
+  {
+    "name": "gentleman",
+    "url": "https://github.com/h2non/gentleman",
+    "description": "Full-featured plugin-driven HTTP client library."
+  },
+  {
+    "name": "goreq",
+    "url": "https://github.com/smallnest/goreq",
+    "description": "Enhanced simplified HTTP client based on gorequest."
+  },
+  {
+    "name": "grequests",
+    "url": "https://github.com/levigross/grequests",
+    "description": "A Go \"clone\" of the great and famous Requests library"
+  },
+  {
+    "name": "heimdall",
+    "url": "https://github.com/gojektech/heimdall",
+    "description": "An enchanced http client with retry and hystrix capabilities."
+  },
+  {
+    "name": "pester",
+    "url": "https://github.com/sethgrid/pester",
+    "description": "Go HTTP client calls with retries, backoff, and concurrency."
+  },
+  {
+    "name": "rq",
+    "url": "https://github.com/ddo/rq",
+    "description": "A nicer interface for golang stdlib HTTP client."
+  },
+  {
+    "name": "sling",
+    "url": "https://github.com/dghubble/sling",
+    "description": "Sling is a Go HTTP client library for creating and sending API requests."
   },
   {
     "name": "gl",
@@ -4650,6 +4690,11 @@
     "description": "HTTP mock for Golang: record and replay HTTP interactions for offline testing."
   },
   {
+    "name": "hoverfly",
+    "url": "https://github.com/SpectoLabs/hoverfly",
+    "description": "HTTP(S) proxy for recording and simulating REST/SOAP APIs with extensible middleware and easy-to-use CLI."
+  },
+  {
     "name": "minimock",
     "url": "https://github.com/gojuno/minimock",
     "description": "Mock generator for Go interfaces."
@@ -4733,6 +4778,11 @@
     "name": "dataflowkit",
     "url": "https://github.com/slotix/dataflowkit",
     "description": "Web scraping Framework to turn websites into structured data."
+  },
+  {
+    "name": "did",
+    "url": "https://github.com/ockam-network/did",
+    "description": "DID (Decentralized Identifiers) Parser and Stringer in Go."
   },
   {
     "name": "doi",
@@ -5435,11 +5485,6 @@
     "description": "runs go generate recursively on a specified path or environment variable and can filter by regex."
   },
   {
-    "name": "gentleman",
-    "url": "https://github.com/h2non/gentleman",
-    "description": "Full-featured plugin-driven HTTP client library."
-  },
-  {
     "name": "git-time-metric",
     "url": "https://github.com/git-time-metric/gtm",
     "description": "Simple, seamless, lightweight time tracking for Git."
@@ -5580,16 +5625,6 @@
     "description": "Minimal and simple request library for Go language."
   },
   {
-    "name": "goreq",
-    "url": "https://github.com/smallnest/goreq",
-    "description": "Enhanced simplified HTTP client based on gorequest."
-  },
-  {
-    "name": "gorequest",
-    "url": "https://github.com/parnurzeal/gorequest",
-    "description": "Simplified HTTP client with rich features for Go."
-  },
-  {
     "name": "goseaweedfs",
     "url": "https://github.com/linxGnu/goseaweedfs",
     "description": "SeaweedFS client library with almost full features."
@@ -5608,11 +5643,6 @@
     "name": "gpath",
     "url": "https://github.com/tenntenn/gpath",
     "description": "Library to simplify access struct fields with Go's expression in reflection."
-  },
-  {
-    "name": "grequests",
-    "url": "https://github.com/levigross/grequests",
-    "description": "Elegant and simple net/http wrapper that follows Python's requests library."
   },
   {
     "name": "gron",
@@ -5780,11 +5810,6 @@
     "description": "Simplistic interactive filtering tool."
   },
   {
-    "name": "pester",
-    "url": "https://github.com/sethgrid/pester",
-    "description": "Go HTTP client calls with retries, backoff, and concurrency."
-  },
-  {
     "name": "pm",
     "url": "https://github.com/VividCortex/pm",
     "description": "Process (i.e. goroutine) manager with an HTTP API."
@@ -5860,19 +5885,9 @@
     "description": "Runs functions resiliently, catching and restarting panics."
   },
   {
-    "name": "rq",
-    "url": "https://github.com/ddo/rq",
-    "description": "A nicer interface for golang stdlib HTTP client."
-  },
-  {
     "name": "scheduler",
     "url": "https://github.com/carlescere/scheduler",
     "description": "Cronjobs scheduling made easy."
-  },
-  {
-    "name": "sling",
-    "url": "https://github.com/dghubble/sling",
-    "description": "Go HTTP requests builder for API clients."
   },
   {
     "name": "spinner",
@@ -6083,11 +6098,6 @@
     "name": "Fireball",
     "url": "https://github.com/zpatrick/fireball",
     "description": "More \"natural\" feeling web framework."
-  },
-  {
-    "name": "Florest",
-    "url": "https://github.com/jabong/florest-core",
-    "description": "High-performance workflow based REST API framework."
   },
   {
     "name": "Gem",

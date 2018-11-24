@@ -213,12 +213,17 @@
   {
     "name": "NodeJS-Installer",
     "url": "https://github.com/thecodingmachine/nodejs-installer",
-    "description": "downloads and installs NodeJS and npm as composer package"
+    "description": "Downloads and installs NodeJS and npm as composer package."
   },
   {
     "name": "Imposter-Plugin",
     "url": "https://github.com/typisttech/imposter-plugin",
     "description": "Wrapping all composer vendor packages inside your own namespace. Intended for WordPress plugins."
+  },
+  {
+    "name": "Composer Preload",
+    "url": "https://github.com/Ayesh/Composer-Preload",
+    "description": "The plugin generates a vendor/preload.php file to warm up the Opcache."
   },
   {
     "name": "Composer SemVer Checker",
@@ -244,6 +249,11 @@
     "name": "ComposerRequireChecker",
     "url": "https://github.com/maglnet/ComposerRequireChecker",
     "description": "A CLI tool to analyze dependencies and verify that no unknown imported symbols are used in the sources of a package."
+  },
+  {
+    "name": "composer-normalize",
+    "url": "https://github.com/localheinz/composer-normalize",
+    "description": "The plugin helps to keep your composer.json file(s) consistent by restructuring and sorting entries (normalizing)."
   },
   {
     "name": "Composer-Travis-Lint",
@@ -298,6 +308,11 @@
     "name": "Satis Server",
     "url": "https://github.com/lukaszlach/satis-server",
     "description": "This docker container provides a Satis Server and enables you to run a private, self-hosted Composer repository with support for Git, Mercurial, and Subversion, HTTP API, HTTPs support, webhook handler and scheduled builds."
+  },
+  {
+    "name": "Cloudsmith",
+    "url": "https://cloudsmith.io",
+    "description": "A fully managed package management SaaS with PHP/Composer support (and many others)."
   },
   {
     "name": "Composercat",
@@ -500,5 +515,10 @@
     "name": "ToranProxy (deprecated)",
     "url": "https://toranproxy.com/",
     "description": "In addition to providing a composer repository ToranProxy acts as a proxy server for Packagist and GitHub."
+  },
+  {
+    "name": "Release Belt",
+    "url": "https://github.com/Rarst/release-belt",
+    "description": "Self–hosted Composer repository implementation to quickly integrate ZIP files of third party non–Composer releases."
   }
 ]
