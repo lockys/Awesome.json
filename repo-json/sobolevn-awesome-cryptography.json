@@ -20,6 +20,11 @@
     "description": "One of the first practical public-key cryptosystems and is widely used for secure data transmission. In RSA, this asymmetry is based on the practical difficulty of factoring the product of two large prime numbers, the factoring problem."
   },
   {
+    "name": "Transform Encryption (aka Proxy Re-Encryption)",
+    "url": "https://docs.ironcorelabs.com/concepts/transform-encryption",
+    "description": "Transform encryption uses three  mathematically related keys: one to encrypt plaintext to a recipient, a second to decrypt the ciphertext, and a third to transform ciphertext encrypted to one recipient so it can be decrypted by a different recipient."
+  },
+  {
     "name": "MD5",
     "url": "https://en.wikipedia.org/wiki/MD5",
     "description": "Widely used hash function producing a 128-bit hash value. MD5 was initially designed to be used as a cryptographic hash function, but it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption."
@@ -540,6 +545,16 @@
     "description": "Native implementation of TLS in Javascript and tools to write crypto-based and network-heavy webapps."
   },
   {
+    "name": "IronNode",
+    "url": "https://docs.ironcorelabs.com/ironnode-sdk/overview",
+    "description": "Transform encryption library, a variant of proxy re-encryption, for encrypting to users or groups, and easily adding strong data controls to NodeJS apps."
+  },
+  {
+    "name": "IronWeb",
+    "url": "https://docs.ironcorelabs.com/ironweb-sdk/overview",
+    "description": "Transform encryption library, a variant of proxy re-encryption, for easily managing end-to-end encryption securely in the browser."
+  },
+  {
     "name": "javascript-crypto-library",
     "url": "https://github.com/clipperz/javascript-crypto-library",
     "description": "JavaScript Crypto Library provides web developers with an extensive and efficient set of cryptographic functions."
@@ -810,6 +825,11 @@
     "description": "Ruby wrapper on Themis. High level crypto library for storing data (AES), secure messaging (ECC + ECDSA / RSA + PSS + PKCS#7) and session-oriented, forward secrecy data exchange (ECDH key agreement, ECC & AES encryption)."
   },
   {
+    "name": "dalek cryptography",
+    "url": "https://github.com/dalek-cryptography/",
+    "description": "Fast yet safe mid-level API for ECC, Bulletproofs, and more."
+  },
+  {
     "name": "octavo",
     "url": "https://github.com/libOctavo/octavo",
     "description": "Highly modular & configurable hash & crypto library."
@@ -818,6 +838,11 @@
     "name": "proteus",
     "url": "https://github.com/wireapp/proteus",
     "description": "Axolotl protocol implementation, without header keys, in Rust."
+  },
+  {
+    "name": "recrypt",
+    "url": "https://github.com/IronCoreLabs/recrypt-rs",
+    "description": "A pure-Rust library that implements cryptographic primitives for building a multi-hop Proxy Re-encryption scheme, known as Transform Encryption."
   },
   {
     "name": "ring",
@@ -853,6 +878,11 @@
     "name": "webpki",
     "url": "https://github.com/briansmith/webpki",
     "description": "Web PKI TLS X.509 certificate validation in Rust."
+  },
+  {
+    "name": "recrypt",
+    "url": "https://github.com/IronCoreLabs/recrypt",
+    "description": "Transform encryption library for Scala."
   },
   {
     "name": "scrypto",
@@ -918,6 +948,11 @@
     "name": "Root Labs rdist",
     "url": "https://rdist.root.org/",
     "description": "Nate Lawson and his co-authors write on a variety of topics including hardware implementation, cryptographic timing attacks, DRM, and the Commodore 64."
+  },
+  {
+    "name": "Salty Hash",
+    "url": "https://blog.ironcorelabs.com",
+    "description": "Covers topics on encryption, data control, privacy, and security."
   },
   {
     "name": "Schneier on security",

@@ -81,6 +81,11 @@
     "description": "Illustrates how to use remote state to share data between Terraform configurations."
   },
   {
+    "name": "Terraform Design Patterns: the Terrafile",
+    "url": "http://bensnape.com/2016/01/14/terraform-design-patterns-the-terrafile/",
+    "description": "Managing Terraform modules and their versions within Terraform projects with Terrafile"
+  },
+  {
     "name": "Terraform, VPC, and why you want a tfstate file per env",
     "url": "https://charity.wtf/2016/03/30/terraform-vpc-and-why-you-want-a-tfstate-file-per-env/",
     "description": "Some gotchas surrounding using Terraform in large projects with multiple environments and how to avoid them."
@@ -255,7 +260,7 @@
     "description": "A simple implementation of the Terraform registry protocols."
   },
   {
-    "name": "terraform-prodiver-linode",
+    "name": "terraform-provider-linode",
     "url": "https://github.com/btobolaski/terraform-provider-linode",
     "description": "A terraform plugin for linode"
   },
@@ -305,19 +310,39 @@
     "description": "Interactive visualizations of Terraform dependency graphs."
   },
   {
+    "name": "geopoiesis",
+    "url": "https://docs.geopoiesis.io/manual/",
+    "description": "Specialized continuous integration and deployment tool for modern declarative infrastructure provisioning and management."
+  },
+  {
+    "name": "python-terrafile",
+    "url": "https://github.com/claranet/python-terrafile",
+    "description": "Systematically manage external modules from Github for use in Terraform."
+  },
+  {
     "name": "ruby-terraform",
     "url": "https://github.com/infrablocks/ruby_terraform",
-    "description": "A simple Ruby wrapper for invoking terraform commands."
+    "description": "Simple Ruby wrapper for invoking terraform commands."
   },
   {
     "name": "terraboard",
     "url": "https://github.com/camptocamp/terraboard",
-    "description": "A web dashboard to inspect Terraform States"
+    "description": "Web dashboard to inspect Terraform States."
   },
   {
     "name": "terraboot",
     "url": "https://github.com/MastodonC/terraboot",
     "description": "DSL to generate a terraform configuration and run it."
+  },
+  {
+    "name": "terrafile",
+    "url": "https://github.com/coretech/terrafile",
+    "description": "Systematically manage external modules from Github for use in Terraform (written in Go)."
+  },
+  {
+    "name": "terrafile",
+    "url": "https://github.com/dxw/terrafile",
+    "description": "Systematically manage external modules from Github for use in Terraform (written in Ruby)."
   },
   {
     "name": "terraform-docs",
@@ -341,7 +366,8 @@
   },
   {
     "name": "terraform-rake-tasks",
-    "url": "https://github.com/gina-alaska/terraform-rake-tasks"
+    "url": "https://github.com/gina-alaska/terraform-rake-tasks",
+    "description": "Shared Rake tasks for managing terraform plans."
   },
   {
     "name": "terraform.py",
@@ -360,13 +386,13 @@
   },
   {
     "name": "tfenv",
-    "url": "https://github.com/Zordrak/tfenv",
+    "url": "https://github.com/tfutils/tfenv",
     "description": "Terraform version manager inspired by rbenv."
   },
   {
     "name": "tfjson",
     "url": "https://github.com/palantir/tfjson",
-    "description": "A utility to read in a Terraform plan file and dump it out in JSON"
+    "description": "Utility to read in a Terraform plan file and dump it out in JSON"
   },
   {
     "name": "tflint",
@@ -374,9 +400,14 @@
     "description": "Terraform linter for detecting errors that can not be detected by terraform plan"
   },
   {
+    "name": "tfscaffold",
+    "url": "https://github.com/tfutils/tfscaffold",
+    "description": "A framework for controlling multi-environment multi-component terraform-managed AWS infrastructure"
+  },
+  {
     "name": "tfschema",
     "url": "https://github.com/minamijoyo/tfschema",
-    "description": "A schema inspector for Terraform providers."
+    "description": "Schema inspector for Terraform providers."
   },
   {
     "name": "tfwrapper",
