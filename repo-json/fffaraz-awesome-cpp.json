@@ -1100,6 +1100,11 @@
     "description": "A cross-platform library mainly aimed for video games and multimedia programming. [zlib]"
   },
   {
+    "name": "Atomic Game Engine",
+    "url": "https://github.com/AtomicGameEngine/AtomicGameEngine",
+    "description": "A multi-platform 2D and 3D engine with a consistent API in C++, C#, JavaScript, and TypeScript. [Commercial]"
+  },
+  {
     "name": "Banshee 3D",
     "url": "https://github.com/BearishSun/BansheeEngine",
     "description": "Modern C++14 game engine with Vulkan support, fully featured editor and C# scripting. [LGPL3/Commercial]"
@@ -1390,6 +1395,11 @@
     "description": "Cross-platform rendering and game engine. [Many different, mostly MIT]"
   },
   {
+    "name": "Yocto/GL",
+    "url": "https://github.com/xelatihy/yocto-gl",
+    "description": "Tiny C++ Libraries for Data-Driven Physically-based Graphics. [MIT]"
+  },
+  {
     "name": "Boost.GIL",
     "url": "http://www.boost.org/doc/libs/1_56_0/libs/gil/doc/index.html",
     "description": "Generic Image Library."
@@ -1458,6 +1468,11 @@
     "name": "OpenImageIO",
     "url": "https://github.com/OpenImageIO/oiio",
     "description": "Powerful image and texture wrangling library with support for a wide number of common lossy and RAW formats. [Modified BSD]"
+  },
+  {
+    "name": "stb-image",
+    "url": "https://github.com/nothings/stb/blob/master/stb_image.h",
+    "description": "STB single-header image loading library. [Public Domain]"
   },
   {
     "name": "tesseract-ocr",
@@ -1727,7 +1742,7 @@
   {
     "name": "plog",
     "url": "https://github.com/SergiusTheBest/plog",
-    "description": "Portable and simple C++ logging library. [MPL2]"
+    "description": "Portable and simple log for C++ in less than 1000 lines of code. [MPL2]"
   },
   {
     "name": "reckless",
@@ -2240,6 +2255,16 @@
     "description": "openFrameworks wrapper for Box2D. [BSD-like]"
   },
   {
+    "name": "PhysX",
+    "url": "https://github.com/NVIDIAGameWorks/PhysX-3.4",
+    "description": "An open-source realtime physics engine middleware SDK developed by Nvidia as a part of Nvidia GameWorks software suite. [BSD-3-Clause]"
+  },
+  {
+    "name": "Project Chrono",
+    "url": "https://github.com/projectchrono/chrono",
+    "description": "An open source multi-physics simulation engine. [BSD-3-Clause] website"
+  },
+  {
     "name": "Simbody",
     "url": "https://github.com/simbody/simbody",
     "description": "High-performance C++ multibody dynamics/physics library for simulating articulated biomechanical and mechanical systems like vehicles, robots, and the human skeleton. [Apache2]"
@@ -2484,6 +2509,11 @@
     "description": "Very fast Yet Another Serialization library supports the binary/text/json formats. [Boost]"
   },
   {
+    "name": "pdqsort",
+    "url": "https://github.com/orlp/pdqsort",
+    "description": "Pattern-defeating quicksort. [zlib]"
+  },
+  {
     "name": "Timsort",
     "url": "https://github.com/gfx/cpp-TimSort",
     "description": "A templated stable sorting function which outperforms quicksort-based algorithms including std::sort, for reversed or semi-sorted data. [MIT]"
@@ -2502,6 +2532,11 @@
     "name": "libde265",
     "url": "https://github.com/strukturag/libde265",
     "description": "Open h.265 video codec implementation. [LGPL] website"
+  },
+  {
+    "name": "x265",
+    "url": "https://bitbucket.org/multicoreware/x265/wiki/Home",
+    "description": "Open h.265 video codec implementation. [GPL2] website"
   },
   {
     "name": "OpenH264",
@@ -2572,6 +2607,11 @@
     "name": "lwan",
     "url": "https://github.com/lpereira/lwan",
     "description": "Experimental, scalable, high performance HTTP server. [GPL2]"
+  },
+  {
+    "name": "oat++",
+    "url": "https://github.com/oatpp/oatpp",
+    "description": "Light, zero-dependency framework to create high-performance web-services. [Apache-2.0] website"
   },
   {
     "name": "Pistache",
@@ -2674,6 +2714,11 @@
     "description": "An implementation of a managed signals and slots system. [Boost]"
   },
   {
+    "name": "DynaMix",
+    "url": "https://github.com/iboB/dynamix",
+    "description": "A library which allows you to compose and modify objects at run time. [MIT]"
+  },
+  {
     "name": "{fmt} ⚡️",
     "url": "https://github.com/fmtlib/fmt",
     "description": "Small, safe and fast formatting library for C++. [Simplified BSD]"
@@ -2754,9 +2799,9 @@
     "description": "Header-only, non-intrusive and macro-free runtime reflection system in C++. [MIT]"
   },
   {
-    "name": "pdqsort",
-    "url": "https://github.com/orlp/pdqsort",
-    "description": "Pattern-defeating quicksort. [zlib]"
+    "name": "PEGTL",
+    "url": "https://github.com/ColinH/PEGTL",
+    "description": "The Parsing Expression Grammar Template Library, a C++11 parser library. [MIT]"
   },
   {
     "name": "PHP-CPP",
@@ -3097,11 +3142,6 @@
     "description": "A tool to generate compilation database for clang tooling. [GPLv3]"
   },
   {
-    "name": "cget",
-    "url": "https://github.com/pfultz2/cget",
-    "description": "Cmake package retrieval used to download and install cmake packages. [Boost]"
-  },
-  {
     "name": "clib",
     "url": "https://github.com/clibs/clib",
     "description": "Package manager for the C programming language. [MIT]"
@@ -3115,6 +3155,11 @@
     "name": "C++ Archive Network",
     "url": "https://cppan.org/",
     "description": "Cross-platform C++ Dependency Manager with a lot of packages available."
+  },
+  {
+    "name": "Cget",
+    "url": "https://github.com/pfultz2/cget",
+    "description": "Cmake package retrieval. [Boost] website"
   },
   {
     "name": "Conan",
