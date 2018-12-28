@@ -210,6 +210,16 @@
     "description": "Simple neural network library in C. [zlib]"
   },
   {
+    "name": "MXNet",
+    "url": "https://github.com/apache/incubator-mxnet",
+    "description": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more website"
+  },
+  {
+    "name": "PyTorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration. website"
+  },
+  {
     "name": "Recast/Detour",
     "url": "https://github.com/recastnavigation/recastnavigation",
     "description": "(3D) Navigation mesh generator and pathfinder, mostly for games. [zlib]"
@@ -333,6 +343,11 @@
     "name": "minimp3",
     "url": "https://github.com/lieff/minimp3",
     "description": "Public domain, header-only MP3 decoder with clean-room implementation. [CC0]"
+  },
+  {
+    "name": "Wav2Letter++",
+    "url": "https://github.com/facebookresearch/wav2letter/",
+    "description": "Public domain, a fast open source speech processing toolkit written entirely in C++ and uses the ArrayFire tensor library and the flashlight machine learning library for maximum efficiency [BSD]"
   },
   {
     "name": "BioC++",
@@ -920,6 +935,11 @@
     "description": "High performance, shared memory, lock free, cross platform, single file, minimal dependencies, C++11 key-value store [Apache2]"
   },
   {
+    "name": "SOCI",
+    "url": "https://github.com/SOCI/soci",
+    "description": "A database abstraction layer for C++. [BSL-1.0]"
+  },
+  {
     "name": "SQLite",
     "url": "http://www.sqlite.org/",
     "description": "A completely embedded, full-featured relational database in a few 100k that you can include right into your project. [PublicDomain]"
@@ -1411,7 +1431,7 @@
   },
   {
     "name": "CxImage",
-    "url": "http://www.xdp.it/cximage.htm",
+    "url": "https://www.codeproject.com/Articles/1300/CxImage",
     "description": "An image processing and conversion library to load, save, display, transform BMP, JPEG, GIF, PNG, TIFF, MNG, ICO, PCX, TGA, WMF, WBMP, JBG, J2K images. [zlib]"
   },
   {
@@ -1468,6 +1488,11 @@
     "name": "OpenImageIO",
     "url": "https://github.com/OpenImageIO/oiio",
     "description": "Powerful image and texture wrangling library with support for a wide number of common lossy and RAW formats. [Modified BSD]"
+  },
+  {
+    "name": "Simd",
+    "url": "https://github.com/ermig1979/Simd",
+    "description": "C++ image processing library with using of SIMD: SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX-512, VMX(Altivec) and VSX(Power7), NEON for ARM. [MIT]"
   },
   {
     "name": "stb-image",
@@ -1603,6 +1628,11 @@
     "name": "JeayeSON",
     "url": "https://github.com/jeaye/jeayeson",
     "description": "A very sane (header only) C++ JSON library. [BSD]"
+  },
+  {
+    "name": "Jsmn",
+    "url": "https://github.com/zserge/jsmn",
+    "description": "A minimalistic JSON parser in C. [MIT]"
   },
   {
     "name": "json ⚡️",
@@ -1768,11 +1798,6 @@
     "name": "Caffe",
     "url": "https://github.com/BVLC/caffe",
     "description": "A fast framework for neural networks. [BSD]"
-  },
-  {
-    "name": "Caffe2",
-    "url": "https://github.com/caffe2/caffe2",
-    "description": "A lightweight, modular, and scalable deep learning framework. [Apache2] website"
   },
   {
     "name": "CCV",
@@ -2045,6 +2070,11 @@
     "description": "C++11 Asynchronous RESTful framework. [AGPL]"
   },
   {
+    "name": "c-ares",
+    "url": "https://github.com/c-ares/c-ares",
+    "description": "A C library for asynchronous DNS requests. [MIT]"
+  },
+  {
     "name": "cpp-netlib",
     "url": "http://cpp-netlib.org/",
     "description": "A collection of open-source libraries for high level network programming. [Boost]"
@@ -2138,6 +2168,11 @@
     "name": "Onion",
     "url": "https://github.com/davidmoreno/onion",
     "description": "HTTP server library in C designed to be lightweight and easy to use. [Apache2/GPL2]"
+  },
+  {
+    "name": "PicoHTTPParser",
+    "url": "https://github.com/h2o/picohttpparser",
+    "description": "A tiny, primitive, fast HTTP request/response parser. [MIT]"
   },
   {
     "name": "POCO ⚡️",
@@ -2293,6 +2328,11 @@
     "name": "SLRE",
     "url": "https://github.com/cesanta/slre",
     "description": "Super Light Regexp engine for C/C++. [GPLv2/Commercial]"
+  },
+  {
+    "name": "sregex",
+    "url": "https://github.com/openresty/sregex",
+    "description": "A non-backtracking NFA/DFA-based Perl-compatible regex engine library for matching on large data streams. [BSD]"
   },
   {
     "name": "MOOS-IvP",

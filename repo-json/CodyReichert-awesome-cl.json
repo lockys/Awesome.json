@@ -422,21 +422,6 @@
     "description": "A library for defining algebraic data types in a similar spirit to Haskell or ML. 3-clause BSD."
   },
   {
-    "name": "iterate",
-    "url": "https://common-lisp.net/project/iterate/",
-    "description": "An iteration construct for Common Lisp which is extensible and Lispier. No license specified."
-  },
-  {
-    "name": "for",
-    "url": "https://shinmera.github.io/for/",
-    "description": "A concise, lispy and extensible"
-  },
-  {
-    "name": "series",
-    "url": "https://github.com/tokenrove/series/wiki",
-    "description": "Functional style without any runtime penalty at all. MIT."
-  },
-  {
     "name": "str",
     "url": "https://github.com/vindarel/cl-str",
     "description": "a modern, simple and consistent string manipulation library. MIT."
@@ -490,6 +475,31 @@
     "name": "defclass-std",
     "url": "https://github.com/EuAndreh/defclass-std",
     "description": "a shortcut macro to write DEFCLASS forms quickly. LLGPL."
+  },
+  {
+    "name": "for",
+    "url": "https://shinmera.github.io/for/",
+    "description": "A concise, lispy and extensible"
+  },
+  {
+    "name": "series",
+    "url": "https://github.com/tokenrove/series/wiki",
+    "description": "Functional style without any runtime penalty at all. MIT."
+  },
+  {
+    "name": "fn",
+    "url": "https://github.com/cbaggers/fn",
+    "description": "a couple of lambda shorthand macros. (fn* (+ _ _))  -->  (lambda (_) (+ _ _)). Public domain."
+  },
+  {
+    "name": "f-underscore",
+    "url": "http://quickdocs.org/f-underscore/api",
+    "description": "a tiny library of functional programming utils. (f_ (+ _ _)) -> (lambda (_) (+ _ _)). Public domain."
+  },
+  {
+    "name": "cl-chump",
+    "url": "https://github.com/windymelt/cl-punch/",
+    "description": "Scala-like anonymous lambda literals. (mapcar ^(* 2 _) '(1 2 3 4 5)). MIT."
   },
   {
     "name": "cl-prolog2",
@@ -758,6 +768,21 @@
     "description": "A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism Apache2.0."
   },
   {
+    "name": "sparser",
+    "url": "https://github.com/ddmcdonald/sparser",
+    "description": "A natural"
+  },
+  {
+    "name": "Carrier",
+    "url": "https://github.com/orthecreedence/carrier",
+    "description": "A lightweight, async HTTP client built on top of cl-async and fast-http. MIT."
+  },
+  {
+    "name": "fast-http",
+    "url": "https://github.com/fukamachi/fast-http",
+    "description": "A fast HTTP"
+  },
+  {
     "name": "aserve",
     "url": "https://github.com/franzinc/aserve",
     "description": "AllegroServe; a web server. LLGPL."
@@ -838,14 +863,14 @@
     "description": "a library for writing REST web APIs. Features validation with schemas, annotations for logging, caching, permissions or authentication, documentation via Swagger, etc. MIT."
   },
   {
+    "name": "Weblocks",
+    "url": "https://github.com/40ants/weblocks",
+    "description": "A widgets-based framework with a built-in ajax update mechanism that \"solves the JavaScript problem\". LLGPL."
+  },
+  {
     "name": "Rock",
     "url": "https://github.com/eudoxia0/rock",
     "description": "an asset manager for"
-  },
-  {
-    "name": "http-parse",
-    "url": "https://github.com/orthecreedence/http-parse",
-    "description": "An HTTP parser in Common Lisp. Expat."
   },
   {
     "name": "flute",
@@ -1067,6 +1092,11 @@
     "description": "A library implementing"
   },
   {
+    "name": "Xecto",
+    "url": "https://github.com/pkhuong/Xecto",
+    "description": "A library for regular array parallelism. 3-clause BSD."
+  },
+  {
     "name": "lfarm",
     "url": "https://github.com/lmj/lfarm",
     "description": "distributing work across machines (on top of lparallel and usocket). BSD_3Clause"
@@ -1087,16 +1117,6 @@
     "description": "Distributed, asynchronous message passing system for Clozure Common Lisp. GNU GPL3. See also the Actors package for LispWorks (discussion) MIT."
   },
   {
-    "name": "lesque",
-    "url": "https://github.com/fukamachi/lesque",
-    "description": "A clone of Resque. Not available on Quicklisp. Expat."
-  },
-  {
-    "name": "Xecto",
-    "url": "https://github.com/pkhuong/Xecto",
-    "description": "A library for regular array parallelism. 3-clause BSD."
-  },
-  {
     "name": "Moira",
     "url": "https://github.com/TBRSS/moira",
     "description": " Monitor and restart background threads. In-lisp process supervisor. No license specified."
@@ -1115,6 +1135,11 @@
     "name": "cl-flow",
     "url": "https://github.com/borodust/cl-flow/",
     "description": " Data-flowish computation tree library for non-blocking concurrent Common Lisp. MIT."
+  },
+  {
+    "name": "event-glue",
+    "url": "https://github.com/orthecreedence/event-glue",
+    "description": "simple eventing abstraction. No dependencies. It can be used anywhere you need a generic event handling system. MIT."
   },
   {
     "name": "psychiq",
@@ -1185,6 +1210,21 @@
     "name": "Vlime",
     "url": "https://github.com/l04m33/vlime",
     "description": "VLIME: Vim plus Lisp Is Mostly Evil. A Common Lisp dev environment for Vim (and Neovim). MIT."
+  },
+  {
+    "name": "quicklisp.nvim",
+    "url": "https://gitlab.com/HiPhish/quicklisp.nvim",
+    "description": "A Quicklisp frontend for Neovim."
+  },
+  {
+    "name": "Slimv_box",
+    "url": "https://github.com/justin2004/slimv_box",
+    "description": "slimv in a Docker container."
+  },
+  {
+    "name": "Dandelion",
+    "url": "https://github.com/Ragnaroek/dandelion",
+    "description": "a Common Lisp plugin for the Eclipse IDE."
   },
   {
     "name": "Lem",
