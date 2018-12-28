@@ -43,7 +43,7 @@
   {
     "name": "Pan Docs",
     "url": "http://gbdev.gg8.se/wiki/articles/Pan_Docs",
-    "description": "Historical comprehensive technical reference, wikified, corrected and updated. Original version."
+    "description": "Historical comprehensive technical reference, wikified, corrected and updated."
   },
   {
     "name": "The Cycle-Accurate Game Boy Docs",
@@ -71,17 +71,17 @@
   },
   {
     "name": "GB Instructions Game Boy Assembly commands.",
-    "url": "http://www.chrisantonellis.com/files/gameboy/gb-instructions.txt"
+    "url": "https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-instructions.txt"
   },
   {
     "name": "GB ASM Tips",
-    "url": "http://www.chrisantonellis.com/files/gameboy/gb-asm-tips.txt",
+    "url": "https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-asm-tips.txt",
     "description": "Some tips for coding in Assembly by Jeff Frohwein."
   },
   {
-    "name": "ASMotor Manual",
-    "url": "http://www.chrisantonellis.com/files/gameboy/asmotor-v0.1.0-manual.pdf",
-    "description": "A reference for RGBDS."
+    "name": "ASMotor documentation",
+    "url": "https://github.com/csoren/asmotor/blob/develop/doc/documentation.pdf",
+    "description": "A portable and generic assembler engine and development system described as the 'spiritual successor to RGBDS'."
   },
   {
     "name": "ASMotor v1.10 documentation",
@@ -138,6 +138,26 @@
     "description": "Cheatsheet for the available Instruction Set."
   },
   {
+    "name": "Game Boy Color Bootstrap ROM",
+    "url": "https://tcrf.net/Game_Boy_Color_Bootstrap_ROM"
+  },
+  {
+    "name": "Unused Palettes",
+    "url": "https://tcrf.net/Notes:Game_Boy_Color_Bootstrap_ROM"
+  },
+  {
+    "name": "GBC colorization palettes in the BIOS",
+    "url": "https://forums.nesdev.com/viewtopic.php?p=114388&sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388"
+  },
+  {
+    "name": "High resolution GBC schematics",
+    "url": "https://drive.google.com/file/d/1a0HTmBiRxoZw4XgLEDzwGCugfTfdIQwT/view?usp=sharing"
+  },
+  {
+    "name": "GameBoy Color Boot ROM Disassembly",
+    "url": "https://gist.github.com/drhelius/6063265"
+  },
+  {
     "name": "DMG Schematics",
     "url": "http://gbdev.gg8.se/wiki/articles/DMG_Schematics",
     "description": "Hardware schematics."
@@ -173,24 +193,57 @@
     "description": "Data and photos of various types of Game Boy consoles."
   },
   {
-    "name": "Game Boy Color Bootstrap ROM",
-    "url": "https://tcrf.net/Game_Boy_Color_Bootstrap_ROM"
+    "name": "Dan Docs",
+    "url": "https://shonumi.github.io/dandocs.html",
+    "description": "Obscure Game Boy hardware documentation."
   },
   {
-    "name": "Unused Palettes",
-    "url": "https://tcrf.net/Notes:Game_Boy_Color_Bootstrap_ROM"
+    "name": "Edge of Emulation, a series of articles about emulating and investigating Game Boy accessories. Also available as technical documents in the GBE+ emulator documentation.\n\nMobile Adapter GB",
+    "url": "https://shonumi.github.io/articles.html",
+    "description": "Internet connectivity and DLC on the Game Boy Color."
   },
   {
-    "name": "GBC colorization palettes in the BIOS",
-    "url": "https://forums.nesdev.com/viewtopic.php?p=114388&sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388"
+    "name": "Mobile Adapter GB",
+    "url": "https://shonumi.github.io/articles/art14.html",
+    "description": "Internet connectivity and DLC on the Game Boy Color."
   },
   {
-    "name": "High resolution GBC schematics",
-    "url": "https://drive.google.com/file/d/1a0HTmBiRxoZw4XgLEDzwGCugfTfdIQwT/view?usp=sharing"
+    "name": "The Game Boy Printer",
+    "url": "https://shonumi.github.io/articles/art2.html"
   },
   {
-    "name": "GameBoy Color Boot ROM Disassembly",
-    "url": "https://gist.github.com/drhelius/6063265"
+    "name": "Pocket Sonar",
+    "url": "https://shonumi.github.io/articles/art13.html",
+    "description": "A blue cart with built-in sonar hardware."
+  },
+  {
+    "name": "Zok Zok Heroes ",
+    "url": "https://shonumi.github.io/articles/art8.html",
+    "description": "Zok Zok Heroes' Full Changer, a motion-activated accessory."
+  },
+  {
+    "name": "Infrared Madness",
+    "url": "https://shonumi.github.io/articles/art11.html",
+    "description": "Infrared communication on the Game Boy Color."
+  },
+  {
+    "name": "Game Boy 4-Player Adapter",
+    "url": "https://shonumi.github.io/articles/art9.html",
+    "description": "DMG-07."
+  },
+  {
+    "name": "Barcode Boy",
+    "url": "https://shonumi.github.io/articles/art7.html",
+    "description": "The first Game Boy card-scanner."
+  },
+  {
+    "name": "Barcode Taisen Bardigun",
+    "url": "https://shonumi.github.io/articles/art6.html",
+    "description": "A late 90s DMG-GBC barcode reader."
+  },
+  {
+    "name": "DMG-07 Technical Documentation",
+    "url": "https://raw.githubusercontent.com/shonumi/gbe-plus/master/src/docs/technical/DMG_07.txt"
   },
   {
     "name": "Game Boy Camera RE",
@@ -291,6 +344,11 @@
     "name": "Reverse Engineering fine details of Game Boy hardware (errata)",
     "url": "https://www.youtube.com/watch?v=GBYwjch6oEE",
     "description": "43 minutes talk by Gekkio given at Disobey 2018."
+  },
+  {
+    "name": "DMG-01",
+    "url": "http://blog.ryanlevick.com/DMG-01/public/book/",
+    "description": "An educational Gameboy Emulator in Rust and a companion book explaining its development. Oh Boy! Creating a Game Boy Emulator in Rust is a talk given at Rust Fest 18 about this."
   },
   {
     "name": "Building a Game Boy emulator in JavaScript",
@@ -471,7 +529,7 @@
   },
   {
     "name": "Game Boy Tile Data Generator",
-    "url": "http://www.chrisantonellis.com/gameboy/gbtdg/",
+    "url": "https://github.com/chrisantonellis/gbtdg",
     "description": "HTML5 / JS web application that will convert bitmap images to hexadecimal data appropriate for use in tile based graphical applications, specifically GB."
   },
   {
@@ -590,6 +648,11 @@
     "description": "A minimalistic ncurses tile editor."
   },
   {
+    "name": "tpp1",
+    "url": "https://github.com/TwitchPlaysPokemon/tpp1",
+    "description": "Definition and specification of a custom GB/GBC memory/hardware mapper, as a functional superset of MBC."
+  },
+  {
     "name": "gb asm tutorial",
     "url": "https://eldred.fr/gb-asm-tutorial",
     "description": "Step by step tutorial, building several ROMs to accompany its explanations."
@@ -620,20 +683,12 @@
     "description": "Exploring Game Boy programming techniques:"
   },
   {
-    "name": "Making an Empty Game Boy ROM (in RGBDS)",
-    "url": "http://assemblydigest.tumblr.com/post/77198211186/tutorial-making-an-empty-game-boy-rom-in-rgbds"
-  },
-  {
     "name": "Making an Empty Game Boy ROM (in Wiz)",
     "url": "http://assemblydigest.tumblr.com/post/77203696711/tutorial-making-an-empty-game-boy-rom-in-wiz"
   },
   {
     "name": "Making Art for the Game Boy",
     "url": "http://assemblydigest.tumblr.com/post/77404621743/tutorial-making-art-for-the-game-boy"
-  },
-  {
-    "name": "Helpful Libraries",
-    "url": "http://assemblydigest.tumblr.com/post/77432349682/code-helpful-libraries"
   },
   {
     "name": "Beginner's Guide to Reverse Engineering GB",
@@ -745,7 +800,7 @@
   },
   {
     "name": "Game Boy home of Flavor",
-    "url": "http://www.personal.triticom.com/%7Eerm/GameBoy/",
+    "url": "http://www.personal.triticom.com/~erm/GameBoy/",
     "description": "Some full games and sources."
   },
   {
@@ -986,10 +1041,6 @@
     "url": "https://github.com/kanfor/gunsridersgameboy"
   },
   {
-    "name": "Trainin' in a Winter Wonderland (Pokemon Gold (U))",
-    "url": "https://www.pokecommunity.com/showthread.php?t=276298"
-  },
-  {
     "name": "Back to Color",
     "url": "https://github.com/AntonioND/back-to-color"
   },
@@ -1185,7 +1236,7 @@
   },
   {
     "name": "Pokemon Pocket Computer:",
-    "url": "https://tilde.town/%7Eminerobber/techwriteups/pokemonpc.html",
+    "url": "https://tilde.town/~minerobber/techwriteups/pokemonpc.html",
     "description": "What is it and how to use it to make cheat codes."
   },
   {

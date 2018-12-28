@@ -420,6 +420,16 @@
     "description": "Commandline flags module for C++. [BSD]"
   },
   {
+    "name": "linenoise",
+    "url": "https://github.com/antirez/linenoise",
+    "description": "A small self-contained alternative to readline and libedit. [BSD-2-Clause]"
+  },
+  {
+    "name": "linenoise-ng",
+    "url": "https://github.com/arangodb/linenoise-ng",
+    "description": "A small, portable GNU readline replacement for Linux, Windows and MacOS which is capable of handling UTF-8 characters. [BSD]"
+  },
+  {
     "name": "Ncurses",
     "url": "http://invisible-island.net/ncurses/",
     "description": "A terminal user interfaces. [MIT]"
@@ -468,6 +478,11 @@
     "name": "KArchive",
     "url": "https://quickgit.kde.org/?p=karchive.git",
     "description": "A library for creating, reading, writing and manipulating file archives like zip and tar. It also provides transparent compression and decompression of data, using formats like gzip, via a subclass of QIODevice. [LGPL]"
+  },
+  {
+    "name": "libarchive",
+    "url": "https://github.com/libarchive/libarchive",
+    "description": "Multi-format archive and compression library. [New BSD] website"
   },
   {
     "name": "LZ4",
@@ -618,6 +633,11 @@
     "name": "libdill",
     "url": "https://github.com/sustrik/libdill/",
     "description": "Introduces structured concurrency in C. [MIT]"
+  },
+  {
+    "name": "libdispatch",
+    "url": "https://github.com/apple/swift-corelibs-libdispatch",
+    "description": "Grand Central Dispatch (GCD), developed by Apple Inc., is a task parallelism technology based on the thread pool pattern. libdispatch is a library that provides the implementation of GCD's services. [Apache-2.0] website"
   },
   {
     "name": "libmill",
@@ -775,6 +795,11 @@
     "description": "P(ortable|ackageable) NaCl-based crypto library, opinionated and easy to use. [ISC]"
   },
   {
+    "name": "libhydrogen",
+    "url": "https://github.com/jedisct1/libhydrogen",
+    "description": "A lightweight, secure, easy-to-use crypto library suitable for constrained environments. [ISC]"
+  },
+  {
     "name": "LibTomCrypt",
     "url": "https://github.com/libtom/libtomcrypt",
     "description": "A fairly comprehensive, modular and portable cryptographic toolkit. [WTFPL]"
@@ -786,7 +811,7 @@
   },
   {
     "name": "Nettle",
-    "url": "http://www.lysator.liu.se/%7Enisse/nettle/",
+    "url": "http://www.lysator.liu.se/~nisse/nettle/",
     "description": "A low-level cryptographic library. [LGPL]"
   },
   {
@@ -913,6 +938,11 @@
     "name": "sqlite_orm",
     "url": "https://github.com/fnc12/sqlite_orm",
     "description": "SQLite ORM light header only library for modern C++. [BSD-3-Clause]"
+  },
+  {
+    "name": "sqlpp11",
+    "url": "https://github.com/rbock/sqlpp11",
+    "description": "A type safe embedded domain specific language for SQL queries and results in C++. [BSD-2-Clause]"
   },
   {
     "name": "TileDB",
@@ -1070,6 +1100,11 @@
     "description": "A cross-platform library mainly aimed for video games and multimedia programming. [zlib]"
   },
   {
+    "name": "Atomic Game Engine",
+    "url": "https://github.com/AtomicGameEngine/AtomicGameEngine",
+    "description": "A multi-platform 2D and 3D engine with a consistent API in C++, C#, JavaScript, and TypeScript. [Commercial]"
+  },
+  {
     "name": "Banshee 3D",
     "url": "https://github.com/BearishSun/BansheeEngine",
     "description": "Modern C++14 game engine with Vulkan support, fully featured editor and C# scripting. [LGPL3/Commercial]"
@@ -1110,6 +1145,11 @@
     "description": "a cross-platform open source game engine with plugin-based architecture. [GPLv2] website"
   },
   {
+    "name": "OpenXRay",
+    "url": "https://github.com/OpenXRay/xray-16",
+    "description": "a community-modified X-Ray engine used in S.T.A.L.K.E.R. game series. [Modified BSD/non-commercial only]"
+  },
+  {
     "name": "Oxygine",
     "url": "http://oxygine.org/",
     "description": "A cross-platform 2D C++ game engine. [MIT]"
@@ -1118,6 +1158,11 @@
     "name": "Panda3D",
     "url": "https://github.com/panda3d/panda3d",
     "description": "A game engine, a framework for 3D rendering and game development for Python and C++ programs. [Modified BSD] website"
+  },
+  {
+    "name": "PixelGameEngine",
+    "url": "https://github.com/OneLoneCoder/olcPixelGameEngine",
+    "description": "The official distribution of olcPixelGameEngine, a tool used in javidx9's YouTube videos and projects. [OLC3]"
   },
   {
     "name": "Polycode",
@@ -1235,6 +1280,11 @@
     "description": "A library for creating native cross-platform GUI apps. [LGPLv2]"
   },
   {
+    "name": "assimp",
+    "url": "https://github.com/assimp/assimp",
+    "description": "Open Asset Import Library (assimp) is a cross-platform 3D model import library which aims to provide a common API for different 3D asset file formats. [BSD-3-Clause] website"
+  },
+  {
     "name": "bgfx",
     "url": "https://github.com/bkaradzic/bgfx",
     "description": "A cross-platform rendering library. [BSD]"
@@ -1335,9 +1385,19 @@
     "description": "A complete 2D graphic library for drawing Text, Geometries, and Images. [BSD] webpage"
   },
   {
+    "name": "TinySpline",
+    "url": "https://github.com/msteinbeck/tinyspline",
+    "description": "A small, yet powerful ANSI C library for interpolating, transforming, and querying arbitrary NURBS, B-Splines, and Bézier curves. [MIT]"
+  },
+  {
     "name": "urho3d",
     "url": "https://github.com/urho3d/Urho3D",
     "description": "Cross-platform rendering and game engine. [Many different, mostly MIT]"
+  },
+  {
+    "name": "Yocto/GL",
+    "url": "https://github.com/xelatihy/yocto-gl",
+    "description": "Tiny C++ Libraries for Data-Driven Physically-based Graphics. [MIT]"
   },
   {
     "name": "Boost.GIL",
@@ -1410,6 +1470,11 @@
     "description": "Powerful image and texture wrangling library with support for a wide number of common lossy and RAW formats. [Modified BSD]"
   },
   {
+    "name": "stb-image",
+    "url": "https://github.com/nothings/stb/blob/master/stb_image.h",
+    "description": "STB single-header image loading library. [Public Domain]"
+  },
+  {
     "name": "tesseract-ocr",
     "url": "https://github.com/tesseract-ocr",
     "description": "An OCR engine. [Apache2]"
@@ -1437,7 +1502,7 @@
   {
     "name": "gettext",
     "url": "http://www.gnu.org/software/gettext/",
-    "description": "GNU `gettext'. [GPL2]"
+    "description": "GNU 'gettext'. [GPL2]"
   },
   {
     "name": "IBM ICU",
@@ -1470,6 +1535,11 @@
     "description": "A high performance, open source, general-purpose RPC framework. [BSD] website"
   },
   {
+    "name": "Ice",
+    "url": "https://github.com/zeroc-ice/ice",
+    "description": "Comprehensive RPC framework with support for C++, C#, Java, JavaScript, Python and more. [GPLv2]"
+  },
+  {
     "name": "libjson-rpc-cpp",
     "url": "https://github.com/cinemast/libjson-rpc-cpp",
     "description": "JSON-RPC framework for C++ servers and clients. [MIT]"
@@ -1483,6 +1553,11 @@
     "name": "nng",
     "url": "https://github.com/nanomsg/nng",
     "description": "nanomsg-next-generation, a light-weight brokerless messaging library. [MIT] website"
+  },
+  {
+    "name": "rpclib",
+    "url": "https://github.com/rpclib/rpclib",
+    "description": "A modern C++ msgpack-RPC server and client library. [MIT]"
   },
   {
     "name": "simple-rpc-cpp",
@@ -1587,7 +1662,7 @@
   {
     "name": "LIBUCL ⚡️",
     "url": "https://github.com/vstakhov/libucl",
-    "description": "Universal configuration library parser [?]"
+    "description": "Universal configuration library parser [BSD-2-Clause]"
   },
   {
     "name": "PicoJSON",
@@ -1608,6 +1683,11 @@
     "name": "RapidJSON ⚡️",
     "url": "https://github.com/miloyip/rapidjson",
     "description": "A fast JSON parser/generator for C++ with both SAX/DOM style API. [MIT]"
+  },
+  {
+    "name": "sajson",
+    "url": "https://github.com/chadaustin/sajson",
+    "description": "Lightweight, extremely high-performance JSON parser for C++11. [MIT]"
   },
   {
     "name": "ujson",
@@ -1662,7 +1742,7 @@
   {
     "name": "plog",
     "url": "https://github.com/SergiusTheBest/plog",
-    "description": "Portable and simple C++ logging library. [MPL2]"
+    "description": "Portable and simple log for C++ in less than 1000 lines of code. [MPL2]"
   },
   {
     "name": "reckless",
@@ -1880,6 +1960,11 @@
     "description": "A C++ library of efficient, robust and simple to use C++ 2D/3D oriented computational geometry routines. [MIT]"
   },
   {
+    "name": "xtensor",
+    "url": "https://github.com/QuantStack/xtensor",
+    "description": "A C++14 library for numerical analysis with multi-dimensional"
+  },
+  {
     "name": "Hoard",
     "url": "https://github.com/emeryberger/Hoard",
     "description": "Fast, Scalable, and Memory-efficient Malloc for Linux, Windows, and Mac. [GPL, commercial] website"
@@ -1893,6 +1978,11 @@
     "name": "GStreamer",
     "url": "http://gstreamer.freedesktop.org/",
     "description": "A library for constructing graphs of media-handling components. [LGPL]"
+  },
+  {
+    "name": "libav",
+    "url": "https://github.com/libav/libav",
+    "description": "A collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata. [LGPL v2.1+ and others] website"
   },
   {
     "name": "LIVE555 Streaming Media",
@@ -1925,8 +2015,13 @@
     "description": "Simple and Fast Multimedia Library. [zlib] website"
   },
   {
+    "name": "TagLib",
+    "url": "https://github.com/taglib/taglib",
+    "description": "A library for reading and editing the metadata of several popular audio formats. [LGPL/MPL] website"
+  },
+  {
     "name": "ACE",
-    "url": "http://www.dre.vanderbilt.edu/%7Eschmidt/ACE.html",
+    "url": "http://www.dre.vanderbilt.edu/~schmidt/ACE.html",
     "description": "An OO Network Programming Toolkit in C++. [?MIT?]"
   },
   {
@@ -2000,6 +2095,16 @@
     "description": "Google talk voice and P2P interoperability library. [BSD]"
   },
   {
+    "name": "Libmicrohttpd",
+    "url": "http://www.gnu.org/software/libmicrohttpd/",
+    "description": "GNU libmicrohttpd is a small C library that is supposed to make it easy to run an HTTP server as part of another application. [LGPL v2.1+]"
+  },
+  {
+    "name": "libpcap",
+    "url": "https://github.com/the-tcpdump-group/libpcap",
+    "description": "A portable C/C++ library for network traffic capture. [BSD] website"
+  },
+  {
     "name": "libquic",
     "url": "https://github.com/devsisters/libquic",
     "description": "A QUIC protocol library extracted from Chromium's QUIC Implementation. [BSD]"
@@ -2070,6 +2175,11 @@
     "description": "µWS is one of the most lightweight, efficient & scalable WebSocket & HTTP server implementations available. [Zlib]"
   },
   {
+    "name": "Wangle",
+    "url": "https://github.com/facebook/wangle",
+    "description": "A client/server application framework to build asynchronous, event-driven modern C++ services. [Apache-2.0]"
+  },
+  {
     "name": "wdt",
     "url": "https://github.com/facebook/wdt",
     "description": "An embeddedable library (and command line tool) aiming to transfer data between 2 systems as fast as possible over multiple TCP paths. [BSD-3-Clause]"
@@ -2103,6 +2213,11 @@
     "name": "Xpdf",
     "url": "https://www.xpdfreader.com/",
     "description": "Xpdf is a free PDF viewer and toolkit, including a text extractor, image converter, HTML converter, and more. [GPL v2/GPL v3]"
+  },
+  {
+    "name": "DynaPDF",
+    "url": "http://www.dynaforms.com/",
+    "description": "An easy-to-use PDF generation library. [Commercial]"
   },
   {
     "name": "Box2D",
@@ -2140,6 +2255,16 @@
     "description": "openFrameworks wrapper for Box2D. [BSD-like]"
   },
   {
+    "name": "PhysX",
+    "url": "https://github.com/NVIDIAGameWorks/PhysX-3.4",
+    "description": "An open-source realtime physics engine middleware SDK developed by Nvidia as a part of Nvidia GameWorks software suite. [BSD-3-Clause]"
+  },
+  {
+    "name": "Project Chrono",
+    "url": "https://github.com/projectchrono/chrono",
+    "description": "An open source multi-physics simulation engine. [BSD-3-Clause] website"
+  },
+  {
     "name": "Simbody",
     "url": "https://github.com/simbody/simbody",
     "description": "High-performance C++ multibody dynamics/physics library for simulating articulated biomechanical and mechanical systems like vehicles, robots, and the human skeleton. [Apache2]"
@@ -2148,6 +2273,11 @@
     "name": "CppVerbalExpressions",
     "url": "https://github.com/VerbalExpressions/CppVerbalExpressions",
     "description": "C++ regular expressions made easy. [MIT]"
+  },
+  {
+    "name": "CTRE",
+    "url": "https://github.com/hanickadot/compile-time-regular-expressions",
+    "description": "A Compile time PCRE (almost) compatible regular expression matcher. [MIT]"
   },
   {
     "name": "PCRE",
@@ -2193,6 +2323,11 @@
     "name": "ROS",
     "url": "http://wiki.ros.org/",
     "description": "Robot Operating System provides libraries and tools to help software developers create robot applications. [BSD]"
+  },
+  {
+    "name": "AMGCL",
+    "url": "https://github.com/ddemidov/amgcl",
+    "description": "a header-only C++ library for solving large sparse linear systems with algebraic multigrid. [MIT]"
   },
   {
     "name": "FFTW",
@@ -2275,6 +2410,11 @@
     "description": "A minimal and fast scripting engine for configuration files and basic application scripting. [MIT]"
   },
   {
+    "name": "LuaBridge",
+    "url": "https://github.com/vinniefalco/LuaBridge",
+    "description": "A lightweight, dependency-free library for binding Lua to C++. [MIT]"
+  },
+  {
     "name": "luacxx",
     "url": "https://github.com/dafrito/luacxx",
     "description": "C++11 API for creating Lua bindings. [MIT]"
@@ -2295,6 +2435,11 @@
     "description": "C or C++ Bindings Generator for Python v2 and v3. [GPL]"
   },
   {
+    "name": "sol2",
+    "url": "https://github.com/ThePhD/sol2",
+    "description": "A C++ <-> Lua API wrapper with advanced features and top notch performance. [MIT]"
+  },
+  {
     "name": "SWIG",
     "url": "https://github.com/swig/swig",
     "description": "A wrapper/interface Generator that let you link your c++ code to Javascript, Perl, PHP, Python, Tcl and Ruby. [GPL/Output not licensed] website"
@@ -2312,6 +2457,11 @@
   {
     "name": "ChakraCore -A JavaScript engine by Microsoft that can be embedded into nodejs. [MIT]",
     "url": "https://github.com/Microsoft/ChakraCore"
+  },
+  {
+    "name": "Bond",
+    "url": "https://github.com/Microsoft/bond",
+    "description": "An open source, cross-platform framework for working with schematized data. [MIT]"
   },
   {
     "name": "cereal",
@@ -2349,6 +2499,21 @@
     "description": "encoding and decoding application messages in binary format for low-latency applications. [Apache2]"
   },
   {
+    "name": "upb",
+    "url": "https://github.com/google/upb",
+    "description": "A small protobuf implementation in C. [BSD]"
+  },
+  {
+    "name": "YAS",
+    "url": "https://github.com/niXman/yas",
+    "description": "Very fast Yet Another Serialization library supports the binary/text/json formats. [Boost]"
+  },
+  {
+    "name": "pdqsort",
+    "url": "https://github.com/orlp/pdqsort",
+    "description": "Pattern-defeating quicksort. [zlib]"
+  },
+  {
     "name": "Timsort",
     "url": "https://github.com/gfx/cpp-TimSort",
     "description": "A templated stable sorting function which outperforms quicksort-based algorithms including std::sort, for reversed or semi-sorted data. [MIT]"
@@ -2367,6 +2532,11 @@
     "name": "libde265",
     "url": "https://github.com/strukturag/libde265",
     "description": "Open h.265 video codec implementation. [LGPL] website"
+  },
+  {
+    "name": "x265",
+    "url": "https://bitbucket.org/multicoreware/x265/wiki/Home",
+    "description": "Open h.265 video codec implementation. [GPL2] website"
   },
   {
     "name": "OpenH264",
@@ -2419,6 +2589,11 @@
     "description": "A C++ Web Framework built on top of Qt, using the simple approach of Catalyst (Perl) framework. [LGPLv2.1+] website"
   },
   {
+    "name": "facil.io",
+    "url": "https://github.com/boazsegev/facil.io",
+    "description": "Evented, high performance C web framework supporting HTTP, WebSockets, SSE and more. [MIT] website"
+  },
+  {
     "name": "Kore",
     "url": "https://kore.io/",
     "description": "ultra fast and flexible web server / framework for web applications developed in C. [ISC]"
@@ -2432,6 +2607,11 @@
     "name": "lwan",
     "url": "https://github.com/lpereira/lwan",
     "description": "Experimental, scalable, high performance HTTP server. [GPL2]"
+  },
+  {
+    "name": "oat++",
+    "url": "https://github.com/oatpp/oatpp",
+    "description": "Light, zero-dependency framework to create high-performance web-services. [Apache-2.0] website"
   },
   {
     "name": "Pistache",
@@ -2472,6 +2652,11 @@
     "name": "libxml++",
     "url": "http://libxmlplusplus.sourceforge.net/",
     "description": "An XML Parser for C++. [LGPL2]"
+  },
+  {
+    "name": "Mini-XML",
+    "url": "https://github.com/michaelrsweet/mxml",
+    "description": "A small XML parsing library written in ANSI C. [LGPL2 with exceptions]"
   },
   {
     "name": "PugiXML",
@@ -2529,6 +2714,11 @@
     "description": "An implementation of a managed signals and slots system. [Boost]"
   },
   {
+    "name": "DynaMix",
+    "url": "https://github.com/iboB/dynamix",
+    "description": "A library which allows you to compose and modify objects at run time. [MIT]"
+  },
+  {
     "name": "{fmt} ⚡️",
     "url": "https://github.com/fmtlib/fmt",
     "description": "Small, safe and fast formatting library for C++. [Simplified BSD]"
@@ -2557,11 +2747,6 @@
     "name": "cxx-prettyprint",
     "url": "https://github.com/louisdx/cxx-prettyprint",
     "description": "A pretty printing library for C++ containers. [Boost]"
-  },
-  {
-    "name": "DynaPDF",
-    "url": "http://www.dynaforms.com/",
-    "description": "An easy-to-use PDF generation library. [Commercial]"
   },
   {
     "name": "gcc-poison",
@@ -2609,9 +2794,14 @@
     "description": "A Pattern-matching library for C++. [BSD]"
   },
   {
-    "name": "pdqsort",
-    "url": "https://github.com/orlp/pdqsort",
-    "description": "Pattern-defeating quicksort. [zlib]"
+    "name": "meta",
+    "url": "https://github.com/skypjack/meta",
+    "description": "Header-only, non-intrusive and macro-free runtime reflection system in C++. [MIT]"
+  },
+  {
+    "name": "PEGTL",
+    "url": "https://github.com/ColinH/PEGTL",
+    "description": "The Parsing Expression Grammar Template Library, a C++11 parser library. [MIT]"
   },
   {
     "name": "PHP-CPP",
@@ -2952,11 +3142,6 @@
     "description": "A tool to generate compilation database for clang tooling. [GPLv3]"
   },
   {
-    "name": "cget",
-    "url": "https://github.com/pfultz2/cget",
-    "description": "Cmake package retrieval used to download and install cmake packages. [Boost]"
-  },
-  {
     "name": "clib",
     "url": "https://github.com/clibs/clib",
     "description": "Package manager for the C programming language. [MIT]"
@@ -2970,6 +3155,11 @@
     "name": "C++ Archive Network",
     "url": "https://cppan.org/",
     "description": "Cross-platform C++ Dependency Manager with a lot of packages available."
+  },
+  {
+    "name": "Cget",
+    "url": "https://github.com/pfultz2/cget",
+    "description": "Cmake package retrieval. [Boost] website"
   },
   {
     "name": "Conan",
@@ -3014,7 +3204,7 @@
   {
     "name": "Spack",
     "url": "https://spack.io/",
-    "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers. [LGPLv2.1]"
+    "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers. [Apache-2.0/MIT]"
   },
   {
     "name": "tundra",
@@ -3042,6 +3232,11 @@
     "description": "Python-based framework for configuring, compiling and installing applications. [BSD] website"
   },
   {
+    "name": "XMake",
+    "url": "https://xmake.io/",
+    "description": "A C/C++ cross-platform build utility based on Lua. [Apache]"
+  },
+  {
     "name": "Cppcheck",
     "url": "http://cppcheck.sourceforge.net/",
     "description": "A tool for static C/C++ code analysis. - source"
@@ -3050,6 +3245,11 @@
     "name": "CppDepend",
     "url": "https://www.cppdepend.com/",
     "description": "Simplifies managing a complex C/C++ code base by analyzing and visualizing code dependencies, by defining design rules, by doing impact analysis, and comparing different versions of the code."
+  },
+  {
+    "name": "cpplint",
+    "url": "https://github.com/cpplint/cpplint",
+    "description": "A C++ style checker following Google's C++ style guide."
   },
   {
     "name": "PVS-Studio",
@@ -3090,6 +3290,11 @@
     "name": "List of tools for static code analysis",
     "url": "http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis#C.2FC.2B.2B",
     "description": "A list of tools for static code analysis from Wikipedia."
+  },
+  {
+    "name": "Artistic Style",
+    "url": "http://astyle.sourceforge.net/",
+    "description": "A tool to format C/C++/C#/Obj-C/Java code. Also known as astyle."
   },
   {
     "name": "ClangFormat",

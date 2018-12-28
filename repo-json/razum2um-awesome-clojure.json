@@ -84,8 +84,48 @@
     "url": "https://github.com/benzap/eden"
   },
   {
+    "name": "Persistent AVL trees: persistent sorted maps and sets with log-time rank queries",
+    "url": "https://github.com/clojure/data.avl"
+  },
+  {
+    "name": "Finger Tree: double-list, counted-double-list, counted-sorted-set",
+    "url": "https://github.com/clojure/data.finger-tree"
+  },
+  {
+    "name": "Hitchhiker Tree: create fast, snapshottable, massively scalable databases",
+    "url": "https://github.com/datacrypt-project/hitchhiker-tree"
+  },
+  {
+    "name": "Hierarchical set",
+    "url": "https://github.com/llasram/hier-set"
+  },
+  {
+    "name": "Ordered: ordered sets and maps",
+    "url": "https://github.com/amalloy/ordered"
+  },
+  {
+    "name": "Lazy Map: whose values are only calculated when accessed",
+    "url": "https://github.com/Malabarba/lazy-map-clojure"
+  },
+  {
+    "name": "Duratom, enduro, perdure: atoms persisted on disk",
+    "url": "https://github.com/jimpil/duratom"
+  },
+  {
+    "name": "Durable Queue: queue persisted on disk",
+    "url": "https://github.com/Factual/durable-queue"
+  },
+  {
+    "name": "bifurcan: linear map/set/list (stores entries contiguously in memory), ;writtern in java, but test suite (read: usage examples) in clojure",
+    "url": "https://github.com/lacuna/bifurcan"
+  },
+  {
     "name": "Compojure",
     "url": "https://github.com/weavejester/compojure"
+  },
+  {
+    "name": "Compojure-api",
+    "url": "https://github.com/metosin/compojure-api"
   },
   {
     "name": "Web Non-Framework",
@@ -130,6 +170,10 @@
   {
     "name": "Coast",
     "url": "http://coastonclojure.com/"
+  },
+  {
+    "name": "Reitit",
+    "url": "https://github.com/metosin/reitit"
   },
   {
     "name": "Component",
@@ -202,6 +246,10 @@
   {
     "name": "kvlt",
     "url": "https://github.com/nervous-systems/kvlt"
+  },
+  {
+    "name": "aleph",
+    "url": "https://github.com/ztellman/aleph"
   },
   {
     "name": "Datomic",
@@ -292,6 +340,10 @@
     "url": "https://github.com/dakrone/cheshire"
   },
   {
+    "name": "jsonista",
+    "url": "https://github.com/metosin/jsonista"
+  },
+  {
     "name": "Walkable",
     "url": "https://github.com/walkable-server/walkable"
   },
@@ -340,7 +392,7 @@
     "url": "http://clojure-liberator.github.io/liberator/"
   },
   {
-    "name": "compojure-api",
+    "name": "Compojure-api",
     "url": "https://github.com/metosin/compojure-api"
   },
   {
@@ -354,6 +406,14 @@
   {
     "name": "router",
     "url": "https://github.com/darkleaf/router"
+  },
+  {
+    "name": "reitit",
+    "url": "https://github.com/metosin/reitit"
+  },
+  {
+    "name": "Lacinia",
+    "url": "https://lacinia.readthedocs.io/en/latest/"
   },
   {
     "name": "postal",
@@ -432,12 +492,8 @@
     "url": "https://github.com/puniverse/pulsar"
   },
   {
-    "name": "lamina",
-    "url": "https://github.com/ztellman/lamina"
-  },
-  {
-    "name": "aleph",
-    "url": "https://github.com/ztellman/aleph"
+    "name": "manifold",
+    "url": "https://github.com/ztellman/manifold"
   },
   {
     "name": "cats",
@@ -448,12 +504,20 @@
     "url": "https://github.com/clojure/algo.monads"
   },
   {
+    "name": "Fluokitten",
+    "url": "https://github.com/uncomplicate/fluokitten"
+  },
+  {
     "name": "Chord",
     "url": "https://github.com/jarohen/chord"
   },
   {
     "name": "Sente",
     "url": "https://github.com/ptaoussanis/sente"
+  },
+  {
+    "name": "aleph",
+    "url": "https://github.com/ztellman/aleph"
   },
   {
     "name": "Expectations",
@@ -546,6 +610,30 @@
   {
     "name": "Gorilla REPL",
     "url": "http://gorilla-repl.org/"
+  },
+  {
+    "name": "Bayadera",
+    "url": "https://github.com/uncomplicate/bayadera",
+    "description": "Bayesian Data Analysis on the GPU"
+  },
+  {
+    "name": "ClojureCUDA",
+    "url": "https://github.com/uncomplicate/clojurecuda"
+  },
+  {
+    "name": "Neanderthal",
+    "url": "https://github.com/uncomplicate/neanderthal",
+    "description": "fast matrix and linear algebra"
+  },
+  {
+    "name": "ClojureCL",
+    "url": "https://github.com/uncomplicate/clojurecl",
+    "description": "parallel computations with OpenCL"
+  },
+  {
+    "name": "Loom",
+    "url": "https://github.com/aysylu/loom",
+    "description": "graph library for Clojure"
   },
   {
     "name": "clj-ml",
@@ -656,6 +744,10 @@
     "url": "http://docs.caudate.me/lucidity/lucid-query.html"
   },
   {
+    "name": "Calva (VSCode)",
+    "url": "https://github.com/BetterThanTomorrow/calva"
+  },
+  {
     "name": "CIDER (Emacs)",
     "url": "https://github.com/clojure-emacs/cider"
   },
@@ -688,12 +780,20 @@
     "url": "https://github.com/junegunn/rainbow_parentheses.vim"
   },
   {
+    "name": "vim-iced (Vim)",
+    "url": "https://github.com/liquidz/vim-iced"
+  },
+  {
     "name": "Cursive (IntelliJ)",
     "url": "https://cursive-ide.com/"
   },
   {
     "name": "Parinfer (multiple editors)",
     "url": "http://shaunlebron.github.io/parinfer/"
+  },
+  {
+    "name": "Bracket Pair Colorizer (VSCode)",
+    "url": "https://github.com/kristoft/awesome-clojure.git"
   },
   {
     "name": "lucid.publish",

@@ -27,7 +27,7 @@
   {
     "name": "dry-rb",
     "url": "https://github.com/dry-rb",
-    "description": " dry-rb is a collection of next-generation Ruby libraries, each intended to encapsulate a common task."
+    "description": "dry-rb is a collection of next-generation Ruby libraries, each intended to encapsulate a common task."
   },
   {
     "name": "Interactor",
@@ -45,9 +45,14 @@
     "description": "Compose your business logic into commands that sanitize and validate input."
   },
   {
+    "name": "Rails Event Store (RES)",
+    "url": "https://github.com/RailsEventStore/rails_event_store",
+    "description": "A library for publishing, consuming, storing and retrieving events. It's your best companion for going with an event-driven architecture for your Rails application."
+  },
+  {
     "name": "Responders",
     "url": "https://github.com/plataformatec/responders",
-    "description": " A set of Rails responders to dry up your application."
+    "description": "A set of Rails responders to dry up your application."
   },
   {
     "name": "Surrounded",
@@ -77,7 +82,7 @@
   {
     "name": "ActiveScaffold",
     "url": "https://github.com/activescaffold/active_scaffold",
-    "description": "ActiveScaffold provides quick and powerful user interfaces for CRUD (create, read, update, delete) operations for Rails applications. It's excellent for generating admin interfaces, managing Data-Heavy Applications, creating Widgets or for quick prototyping. ActiveScaffold is completly customizable and offers a bunch of additonal features including searching, pagination, layout control and overrides of fields, forms and templates."
+    "description": "ActiveScaffold provides quick and powerful user interfaces for CRUD (create, read, update, delete) operations for Rails applications. It's excellent for generating admin interfaces, managing Data-Heavy Applications, creating Widgets or for quick prototyping. ActiveScaffold is completly customizable and offers a bunch of additional features including searching, pagination, layout control and overrides of fields, forms and templates."
   },
   {
     "name": "Administrate",
@@ -280,7 +285,7 @@
   },
   {
     "name": "Sprockets",
-    "url": "https://github.com/sstephenson/sprockets",
+    "url": "https://github.com/rails/sprockets",
     "description": "Rack-based asset packaging system."
   },
   {
@@ -301,7 +306,7 @@
   {
     "name": "Clearance",
     "url": "https://github.com/thoughtbot/clearance",
-    "description": "Small and simple email & password based authenticaton for Rails."
+    "description": "Small and simple email & password based authentication for Rails."
   },
   {
     "name": "Devise",
@@ -484,6 +489,11 @@
     "description": "Git-Like Interface Command Line Parser."
   },
   {
+    "name": "Hanami CLI",
+    "url": "https://github.com/hanami/cli",
+    "description": "General purpose Command Line Interface (CLI) framework for Ruby."
+  },
+  {
     "name": "Main",
     "url": "https://github.com/ahoward/main",
     "description": "A class factory and DSL for generating command line programs real quick."
@@ -527,6 +537,11 @@
     "name": "Betty",
     "url": "https://github.com/pickhardt/betty",
     "description": "Friendly English-like interface for your command line. Don't remember a command? Ask Betty."
+  },
+  {
+    "name": "colorize",
+    "url": "https://github.com/fazibear/colorize",
+    "description": "Extends String class or add a ColorizedString with methods to set text color, background color and text effects."
   },
   {
     "name": "colorls",
@@ -680,7 +695,7 @@
   },
   {
     "name": "fukuzatsu",
-    "url": "https://gitlab.com/coraline/fukuzatsu/tree/master",
+    "url": "https://gitlab.com/coraline/fukuzatsu#fukuzatsu",
     "description": "Complexity analysis tool with a rich web front-end."
   },
   {
@@ -919,11 +934,6 @@
     "description": "All sorts of useful information about every country packaged as pretty little country objects."
   },
   {
-    "name": "GlobalPhone",
-    "url": "https://github.com/sstephenson/global_phone",
-    "description": "Parse, validate, and format phone numbers in Ruby using Google's libphonenumber database."
-  },
-  {
     "name": "i18n_data",
     "url": "https://github.com/grosser/i18n_data",
     "description": "country/language names and 2-letter-code pairs, in 85 languages, for country/language i18n."
@@ -932,6 +942,21 @@
     "name": "normalize_country",
     "url": "https://github.com/sshaw/normalize_country",
     "description": "Convert country names and codes to a standard, includes a conversion program for XMLs, CSVs and DBs."
+  },
+  {
+    "name": "Phonelib",
+    "url": "https://github.com/daddyz/phonelib",
+    "description": "Ruby gem for phone validation and formatting using Google libphonenumber library data."
+  },
+  {
+    "name": "Phony",
+    "url": "https://github.com/floere/phony",
+    "description": "Fast international phone number (E164 standard) normalizing, splitting and formatting."
+  },
+  {
+    "name": "validates_zipcode",
+    "url": "https://github.com/dgilperez/validates_zipcode",
+    "description": "Postal code / zipcode validation for Rails, supporting 233 country codes."
   },
   {
     "name": "Fat Free CRM",
@@ -944,9 +969,14 @@
     "description": "Build your own blockchains with crypto hashes; revolutionize the world with blockchains, blockchains, blockchains one block at a time."
   },
   {
-    "name": "Dashing",
-    "url": "http://shopify.github.io/dashing/",
-    "description": "A Sinatra based framework that lets you build beautiful dashboards."
+    "name": "Blazer",
+    "url": "https://github.com/ankane/blazer",
+    "description": "Simple data viewer using only SQL. Output to table, chart, and maps."
+  },
+  {
+    "name": "Smashing",
+    "url": "https://smashing.github.io/",
+    "description": "Smashing is a Sinatra based framework that lets you build beautiful dashboards. This project is the maintained spiritual successor to the Dashing framework."
   },
   {
     "name": "Dashing-Rails",
@@ -1264,6 +1294,11 @@
     "description": "Einhorn will open one or more shared sockets and run multiple copies of your process. You can seamlessly reload your code, dynamically reconfigure Einhorn, and more."
   },
   {
+    "name": "Itamae",
+    "url": "https://github.com/itamae-kitchen/itamae",
+    "description": "Simple and lightweight configuration management tool inspired by Chef."
+  },
+  {
     "name": "Kochiku",
     "url": "https://github.com/square/kochiku",
     "description": "Kochiku is a distributed platform for test automation."
@@ -1540,13 +1575,18 @@
   },
   {
     "name": "MidiSmtpServer",
-    "url": "https://github.com/4commerce-technologies-AG/midi-smtp-server",
-    "description": "A small and highly customizable ruby SMTP-Server class with builtin support for AUTH and SSL/STARTTLS."
+    "url": "https://4commerce-technologies-ag.github.io/midi-smtp-server/",
+    "description": "The highly customizable ruby SMTP-Service library with builtin support for AUTH and SSL/STARTTLS, 8BITMIME and SMTPUTF8, IPv4 and IPv6 and more."
   },
   {
     "name": "Pony",
     "url": "https://github.com/benprew/pony",
     "description": "The express way to send mail from Ruby."
+  },
+  {
+    "name": "Postal",
+    "url": "https://github.com/atech/postal",
+    "description": "A fully featured open source mail delivery platform for incoming & outgoing e-mail."
   },
   {
     "name": "premailer-rails",
@@ -1562,6 +1602,11 @@
     "name": "Sup",
     "url": "https://github.com/sup-heliotrope/sup",
     "description": "A curses threads-with-tags style email client."
+  },
+  {
+    "name": "bcrypt-ruby",
+    "url": "https://github.com/codahale/bcrypt-ruby",
+    "description": "bcrypt-ruby is a Ruby binding for the OpenBSD bcrypt() password hashing algorithm."
   },
   {
     "name": "RbNaCl",
@@ -2033,6 +2078,11 @@
     "description": "An implementation of the Ruby programming language. Rubinius includes a bytecode virtual machine, Ruby syntax parser, bytecode compiler, generational garbage collector, just-in-time (JIT) native machine code compiler, and Ruby Core and Standard libraries."
   },
   {
+    "name": "TruffleRuby",
+    "url": "https://github.com/oracle/truffleruby",
+    "description": "A high performance implementation of the Ruby programming language. Built on the GraalVM by Oracle Labs."
+  },
+  {
     "name": "FastGettext",
     "url": "https://github.com/grosser/fast_gettext",
     "description": "Ruby internationalization tool with less memory, simple, clean namespace and threadsafe."
@@ -2051,6 +2101,11 @@
     "name": "i18n",
     "url": "https://github.com/svenfuchs/i18n",
     "description": "Ruby Internationalization and localization solution."
+  },
+  {
+    "name": "rails-i18n",
+    "url": "https://github.com/svenfuchs/rails-i18n",
+    "description": "Repository for collecting Locale data for Rails I18n as well as other interesting, Rails related I18n stuff."
   },
   {
     "name": "r18n",
@@ -2148,6 +2203,11 @@
     "description": "Scalable, next generation enterprise logging for Ruby."
   },
   {
+    "name": "Syslogger",
+    "url": "https://github.com/crohr/syslogger",
+    "description": "A drop-in replacement for the standard Logger Ruby library, that logs to the syslog instead of a log file."
+  },
+  {
     "name": "Yell",
     "url": "https://github.com/rudionrails/yell",
     "description": "Your Extensible Logging Library."
@@ -2198,6 +2258,16 @@
     "description": "Gem to convert Microsoft Word documents to Markdown."
   },
   {
+    "name": "Measured",
+    "url": "https://github.com/Shopify/measured",
+    "description": "Wrapper objects which encapsulate measurements and their associated units in Ruby."
+  },
+  {
+    "name": "Ruby Units",
+    "url": "https://github.com/olbrich/ruby-units",
+    "description": "Provides classes and methods to perform unit math and conversions."
+  },
+  {
     "name": "dryrun",
     "url": "https://github.com/cesarferreira/dryrun",
     "description": "Try any Android library on your smartphone directly from the command line."
@@ -2245,7 +2315,7 @@
   {
     "name": "Coltrane",
     "url": "https://github.com/pedrozath/coltrane",
-    "description": " A music theory library with a command-line interface."
+    "description": "A music theory library with a command-line interface."
   },
   {
     "name": "Sonic Pi",
@@ -2333,6 +2403,21 @@
     "description": "A high-performance DNS server which can be easily integrated into other projects or used as a stand-alone daemon."
   },
   {
+    "name": "bootsnap",
+    "url": "https://github.com/Shopify/bootsnap",
+    "description": "Boot large Ruby/Rails apps faster."
+  },
+  {
+    "name": "fast_blank",
+    "url": "https://github.com/SamSaffron/fast_blank",
+    "description": "Provides a C-optimized method for determining if a string is blank."
+  },
+  {
+    "name": "yajl-ruby",
+    "url": "https://github.com/brianmario/yajl-ruby",
+    "description": "A streaming JSON parsing and encoding library for Ruby (C bindings to yajl)."
+  },
+  {
     "name": "ActiveRecord",
     "url": "https://github.com/rails/rails/tree/master/activerecord",
     "description": "Object-relational mapping in Rails."
@@ -2341,11 +2426,6 @@
     "name": "DataMapper",
     "url": "https://github.com/datamapper/dm-core",
     "description": "ORM which works well with legacy databases. Last release (1.2.0) was on 13 October 2011."
-  },
-  {
-    "name": "Guacamole",
-    "url": "https://github.com/triAGENS/guacamole",
-    "description": " An ODM for ArangoDB."
   },
   {
     "name": "Hanami::Model",
@@ -2365,7 +2445,7 @@
   {
     "name": "MongoModel",
     "url": "https://github.com/spohlenz/mongomodel",
-    "description": " Ruby ODM for interfacing with MongoDB databases."
+    "description": "Ruby ODM for interfacing with MongoDB databases."
   },
   {
     "name": "Neo4j.rb",
@@ -2481,6 +2561,11 @@
     "name": "ActiveValidators",
     "url": "https://github.com/franckverrot/activevalidators",
     "description": "An exhaustive collection of off-the-shelf and tested ActiveModel/ActiveRecord validations."
+  },
+  {
+    "name": "DeepPluck",
+    "url": "https://github.com/khiav223577/deep_pluck",
+    "description": "Allow you to pluck attributes from nested associations without loading a bunch of records."
   },
   {
     "name": "Enumerize",
@@ -2733,6 +2818,11 @@
     "description": "Find and fix Ruby errors with New Relic application monitoring and troubleshooting."
   },
   {
+    "name": "Scout",
+    "url": "https://github.com/scoutapp/scout_apm_ruby",
+    "description": "Scout Ruby Application Monitoring Agent."
+  },
+  {
     "name": "Skylight",
     "url": "https://github.com/skylightio/skylight-ruby",
     "description": "A smart profiler for your Rails apps that visualizes request performance."
@@ -2740,7 +2830,7 @@
   {
     "name": "TraceView",
     "url": "https://github.com/appneta/ruby-traceview",
-    "description": " Full-stack application tracing and brilliant data visualization to build faster, more reliable web apps."
+    "description": "Full-stack application tracing and brilliant data visualization to build faster, more reliable web apps."
   },
   {
     "name": "Slide Show (S9)",
@@ -3569,7 +3659,7 @@
   {
     "name": "gitarro",
     "url": "https://github.com/openSUSE/gitarro",
-    "description": "Run, retrigger, handle all type and OS-indipendent tests against your GitHub Pull Requests."
+    "description": "Run, retrigger, handle all type and OS-independent tests against your GitHub Pull Requests."
   },
   {
     "name": "Knapsack",
@@ -3618,8 +3708,8 @@
   },
   {
     "name": "Dropbox",
-    "url": "https://github.com/futuresimple/dropbox-api",
-    "description": "Dropbox API Ruby Client."
+    "url": "https://github.com/Jesus/dropbox_api",
+    "description": "Ruby client for Dropbox API v2."
   },
   {
     "name": "facy",
@@ -3832,9 +3922,9 @@
     "description": "It aims to bring back Object Oriented Programming to web development, leveraging on a stable API, a minimal DSL, and plain objects."
   },
   {
-    "name": "Hyperloop",
-    "url": "http://ruby-hyperloop.org/",
-    "description": "A Complete Isomorphic Ruby Framework using React, Rails and Opal"
+    "name": "Hyperstack",
+    "url": "https://hyperstack.org/",
+    "description": "A Complete Isomorphic Ruby Framework using React and Opal."
   },
   {
     "name": "Padrino",
@@ -3976,6 +4066,11 @@
     "description": "Quality & security analysis for Ruby on Rails and Javascript."
   },
   {
+    "name": "Dependabot",
+    "url": "https://dependabot.com",
+    "description": "Automated dependency update pull requests."
+  },
+  {
     "name": "deppbot",
     "url": "https://www.deppbot.com",
     "description": "Automated Security and Dependency Updates."
@@ -3998,7 +4093,7 @@
   {
     "name": "GitLab",
     "url": "https://about.gitlab.com",
-    "description": " Open source software to collaborate on code."
+    "description": "Open source software to collaborate on code."
   },
   {
     "name": "Hakiri",

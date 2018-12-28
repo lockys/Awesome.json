@@ -160,6 +160,11 @@
     "description": "Fast compression library. GNU GPL2.1"
   },
   {
+    "name": "pixz",
+    "url": "https://github.com/vasi/pixz",
+    "description": "Pixz (pronounced pixie) is a parallel, indexing version of xz. 2-clause BSD"
+  },
+  {
     "name": "GnuTLS",
     "url": "https://www.gnutls.org/",
     "description": "Secure communication library, implementing SSL, TLS and DTLS. GNU LGPL2.1 or later"
@@ -196,7 +201,7 @@
   },
   {
     "name": "BerkeleyDB",
-    "url": "https://www.oracle.com/database/berkeley-db/index.html",
+    "url": "https://www.oracle.com/database/berkeley-db/",
     "description": "Library for a high-performance embedded database for key-value data. GNU AGPLv3"
   },
   {
@@ -266,7 +271,7 @@
   },
   {
     "name": "Doxygen",
-    "url": "http://www.stack.nl/%7Edimitri/doxygen/index.html",
+    "url": "http://www.stack.nl/~dimitri/doxygen/index.html",
     "description": "The de-facto standard tool for generating C documentation from annotated sources. Can generate a large range of formats. GNU GPL2.1"
   },
   {
@@ -691,15 +696,15 @@
   },
   {
     "name": "Draft ANSI C Rationale",
-    "url": "http://port70.net/%7Ensz/c/c89/rationale/"
+    "url": "http://port70.net/~nsz/c/c89/rationale/"
   },
   {
     "name": "Draft C99 Rationale",
-    "url": "http://port70.net/%7Ensz/c/c99/C99RationaleV5.10.pdf"
+    "url": "http://port70.net/~nsz/c/c99/C99RationaleV5.10.pdf"
   },
   {
     "name": "Draft ANSI C (C89) standard",
-    "url": "http://port70.net/%7Ensz/c/c89/c89-draft.txt"
+    "url": "http://port70.net/~nsz/c/c89/c89-draft.txt"
   },
   {
     "name": "Draft C99 standard",
@@ -711,7 +716,7 @@
   },
   {
     "name": "Tutorial on pointers",
-    "url": "http://home.netcom.com/%7Etjensen/ptr/pointers.htm"
+    "url": "http://home.netcom.com/~tjensen/ptr/pointers.htm"
   },
   {
     "name": "Building C Projects",
@@ -795,7 +800,7 @@
   },
   {
     "name": "Bit twiddling hacks",
-    "url": "https://graphics.stanford.edu/%7Eseander/bithacks.html"
+    "url": "https://graphics.stanford.edu/~seander/bithacks.html"
   },
   {
     "name": "I do not know C",
@@ -811,7 +816,7 @@
   },
   {
     "name": "Metaprogramming custom control structures in C",
-    "url": "https://www.chiark.greenend.org.uk/%7Esgtatham/mp/"
+    "url": "https://www.chiark.greenend.org.uk/~sgtatham/mp/"
   },
   {
     "name": "Some dark corners of C",
@@ -1045,6 +1050,11 @@
     "description": "Embedded web server for C. GNU GPL2.1"
   },
   {
+    "name": "MQTT-C",
+    "url": "https://github.com/LiamBindle/MQTT-C",
+    "description": "Portable MQTT C client for embedded systems and PCs alike. MIT"
+  },
+  {
     "name": "nanomsg",
     "url": "https://github.com/nanomsg/nanomsg",
     "description": "C-based implementation of ZeroMQ. Expat"
@@ -1140,6 +1150,11 @@
     "description": "Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. BLAS license"
   },
   {
+    "name": "CDFLIB",
+    "url": "https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html",
+    "description": "Library with routines to evaluate cumulative density functions fo a variety of standard probability distributions.  Also can compute one parameter of the CDF given the others.  (No license given)"
+  },
+  {
     "name": "cmathl",
     "url": "https://scientificc.github.io/cmathl/",
     "description": "Pure-C Math library with a great variety of mathematical functions and CMake build support. Seeks to be close to C89/C90 compliant for portability. MIT"
@@ -1190,6 +1205,11 @@
     "description": "The GNU Scientific Library; a sophisticated numerical library. GNU GPL3"
   },
   {
+    "name": "igraph",
+    "url": "https://igraph.org/",
+    "description": "Library for creating and manipulating large graphs. GNU GPL2"
+  },
+  {
     "name": "KISS FFT",
     "url": "https://sourceforge.net/projects/kissfft/",
     "description": "Very simple fast Fourier transform library. 3-clause BSD"
@@ -1208,6 +1228,11 @@
     "name": "PETSc",
     "url": "https://www.mcs.anl.gov/petsc/",
     "description": "Suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. FreeBSD"
+  },
+  {
+    "name": "PROB",
+    "url": "https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html",
+    "description": "Library that handles various discrete and continuous probability density functions.  GNU LGPL3"
   },
   {
     "name": "Yeppp!",
@@ -1278,6 +1303,11 @@
     "name": "iniparser",
     "url": "https://github.com/ndevilla/iniparser",
     "description": "Parser for .ini files. Expat"
+  },
+  {
+    "name": "libconfini",
+    "url": "https://github.com/madmurphy/libconfini",
+    "description": "Yet another INI parser. GNU GPL3 or later"
   },
   {
     "name": "libYAML",
@@ -1435,13 +1465,18 @@
     "description": "Single header utf8 string functions. Unlicense"
   },
   {
+    "name": "utf8proc",
+    "url": "https://github.com/JuliaStrings/utf8proc",
+    "description": "Small, clean library for processing UTF-8 Unicode data. License"
+  },
+  {
     "name": "CHEAT",
-    "url": "http://users.jyu.fi/%7Esapekiis/cheat/",
+    "url": "http://users.jyu.fi/~sapekiis/cheat/",
     "description": "Very simple unit testing framework. FreeBSD"
   },
   {
     "name": "Check",
-    "url": "http://check.sourceforge.net/",
+    "url": "https://libcheck.github.io/check/",
     "description": "Unit testing framework for C. GNU LGPL2.1"
   },
   {

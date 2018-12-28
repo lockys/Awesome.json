@@ -171,7 +171,7 @@
   {
     "name": "Kubernetes-Saltstack",
     "url": "https://github.com/valentin2105/Kubernetes-Saltstack",
-    "description": "systemD OS - Cloud Agnostique"
+    "description": "systemd OS - Cloud Agnostique"
   },
   {
     "name": "matchbox",
@@ -214,6 +214,10 @@
   {
     "name": "Kubernetes Troubleshooting",
     "url": "https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/"
+  },
+  {
+    "name": "Kubernetes-1.13",
+    "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.13.md"
   },
   {
     "name": "Kubernetes-1.12",
@@ -342,10 +346,6 @@
     "url": "http://sysdig.com/blog/monitoring-kubernetes-with-sysdig-cloud/"
   },
   {
-    "name": "Microservice Monitoring in Kubernetes with Netsil by Matt Baldwin",
-    "url": "http://netsil.com/microservices-monitoring-kubernetes/"
-  },
-  {
     "name": "Kubernetes Security Guide",
     "url": "https://sysdig.com/blog/kubernetes-security-guide/",
     "description": "RBAC, TLS, Security policy, Network policy, etc."
@@ -359,8 +359,21 @@
     "url": "http://linoxide.com/containers/create-use-kubernetes-secrets/"
   },
   {
-    "name": "Choosing a CNI Provider for Kubernetes by Chris Love",
-    "url": "http://chrislovecnm.com/kuberentes/cni/choosing-a-cni-provider/?1234"
+    "name": "Kubernetes Security Best Practices by Peter Benjamin",
+    "url": "https://dev.to/petermbenjamin/kubernetes-security-best-practices-hlk"
+  },
+  {
+    "name": "Running Vault and Consul on Kubernetes by Michael Herman",
+    "url": "https://testdriven.io/running-vault-and-consul-on-kubernetes"
+  },
+  {
+    "name": "Kubernetes Authentication plugins and kubeconfig by Jon Langemak",
+    "url": "http://www.dasblinkenlichten.com/kubernetes-authentication-plugins-and-kubeconfig/"
+  },
+  {
+    "name": "Kubernetes Authentication",
+    "url": "http://www.devoperandi.com/kubernetes-authentication-openid-connect/",
+    "description": "OpenID Connect by Michael Ward"
   },
   {
     "name": "Enable IPv6 on Kubernetes with Project Calico by Valentin Ouvrard",
@@ -379,6 +392,10 @@
     "url": "http://medium.com/@arthur.souzamiranda/kubernetes-with-openstack-cloud-provider-current-state-and-upcoming-changes-part-1-of-2-48b161ea449a"
   },
   {
+    "name": "Comparison of Networking Solutions for Kubernetes",
+    "url": "http://machinezone.github.io/research/networking-solutions-for-kubernetes/"
+  },
+  {
     "name": "GitOps: High-Velocity CI/CD for Kubernetes",
     "url": "http://dzone.com/articles/gitops-high-velocity-cicd-for-kubernetes"
   },
@@ -389,6 +406,10 @@
   {
     "name": "Jenkins declarative pipelines with Kubernetes",
     "url": "http://radu-matei.com/blog/kubernetes-jenkins-azure/"
+  },
+  {
+    "name": "Automate deep learning training with Kubernetes GPU-cluster",
+    "url": "https://github.com/Langhalsdino/Kubernetes-GPU-Guide"
   },
   {
     "name": "Packaging Multiple Resources together",
@@ -479,25 +500,12 @@
     "url": "http://technologyconversations.com/2015/11/04/docker-clustering-tools-compared-kubernetes-vs-docker-swarm/"
   },
   {
-    "name": "Comparison of Networking Solutions for Kubernetes",
-    "url": "http://machinezone.github.io/research/networking-solutions-for-kubernetes/"
-  },
-  {
     "name": "Why Docker and Google Kubernetes Are Like PaaS Done Right",
     "url": "http://www.sdxcentral.com/articles/news/why-docker-and-google-kubernetes-are-like-paas-done-right/2015/08/"
   },
   {
-    "name": "Kubernetes Authentication plugins and kubeconfig by Jon Langemak",
-    "url": "http://www.dasblinkenlichten.com/kubernetes-authentication-plugins-and-kubeconfig/"
-  },
-  {
     "name": "Kubernetes with SaltStack revisited by Jon Langemak",
     "url": "http://www.dasblinkenlichten.com/kubernetes-with-saltstack-revisited/"
-  },
-  {
-    "name": "Kubernetes Authentication",
-    "url": "http://www.devoperandi.com/kubernetes-authentication-openid-connect/",
-    "description": "OpenID Connect by Michael Ward"
   },
   {
     "name": "Deploying Kubernetes with Ansible and Terraform",
@@ -506,10 +514,6 @@
   {
     "name": "Cluster Consul using Kubernetes API",
     "url": "http://www.devoperandi.com/cluster-consul-using-kubernetes-api/"
-  },
-  {
-    "name": "Automate deep learning training with Kubernetes GPU-cluster",
-    "url": "https://github.com/Langhalsdino/Kubernetes-GPU-Guide"
   },
   {
     "name": "Kubernetes Production Patterns (and Anti-Patterns)",
@@ -687,6 +691,16 @@
     "description": "Docker Enterprise Edition 2.0"
   },
   {
+    "name": "DigitalOcean",
+    "url": "https://www.digitalocean.com/products/kubernetes/",
+    "description": "DigitalOcean Kubernetes"
+  },
+  {
+    "name": "OKE",
+    "url": "https://cloud.oracle.com/containers/kubernetes-engine",
+    "description": "Oracle Kubernetes Engine"
+  },
+  {
     "name": "Kel",
     "url": "http://www.kelproject.com"
   },
@@ -725,7 +739,7 @@
   },
   {
     "name": "Containerum",
-    "url": "https://containerum.io"
+    "url": "https://containerum.com"
   },
   {
     "name": "Katacoda",
@@ -852,8 +866,9 @@
     "url": "https://github.com/lachie83/croc-hunter/blob/master/Jenkinsfile"
   },
   {
-    "name": "Argo The Workflow Engine for Kubernetes",
-    "url": "https://github.com/argoproj/argo"
+    "name": "Argo",
+    "url": "https://github.com/argoproj/argo",
+    "description": "The Workflow Engine for Kubernetes"
   },
   {
     "name": "Hypernetes",
@@ -870,6 +885,11 @@
   {
     "name": "Kubefuse",
     "url": "http://opencredo.com/introducing-kubefuse-file-system-kubernetes/"
+  },
+  {
+    "name": "Kubefwd",
+    "url": "https://github.com/txn2/kubefwd",
+    "description": "Bulk port forwarding Kubernetes services for local development."
   },
   {
     "name": "KubeSpray",
@@ -1132,17 +1152,17 @@
     "description": "Kubernetes CI/CD platform (with private Docker and Helm Chart repositories)"
   },
   {
+    "name": "k8s-deploy-helper",
+    "url": "https://github.com/lifechurch/k8s-deploy-helper",
+    "description": "Framework to easily deploy Kubernetes applications via GitLab."
+  },
+  {
     "name": "Funktion",
     "url": "https://github.com/fabric8io/funktion"
   },
   {
     "name": "Fission",
     "url": "https://github.com/platform9/fission"
-  },
-  {
-    "name": "Kubeapps",
-    "url": "https://github.com/kubeapps/kubeapps",
-    "description": "set of tools (application dashboard, Serverless framework, and Secret generator) to build FaaS apps on top of Kubernetes"
   },
   {
     "name": "Kubeless",
@@ -1532,6 +1552,11 @@
     "url": "https://github.com/smpio/kubernator"
   },
   {
+    "name": "Kubeapps",
+    "url": "https://github.com/kubeapps/kubeapps",
+    "description": "A web-based UI for deploying and managing applications in Kubernetes clusters"
+  },
+  {
     "name": "Kubernetic",
     "url": "https://kubernetic.com/"
   },
@@ -1743,6 +1768,11 @@
     "description": "Manage complex deployments using jsonnet and jinja2"
   },
   {
+    "name": "kubecfg",
+    "url": "https://github.com/ksonnet/kubecfg",
+    "description": "Combines jsonnet and kubectl to let you declare systems in an easy to override way"
+  },
+  {
     "name": "Aquasec",
     "url": "http://blog.aquasec.com/topic/kubernetes"
   },
@@ -1935,8 +1965,8 @@
     "url": "https://github.com/linuxkit/kubernetes"
   },
   {
-    "name": "Kube.libsonnet",
-    "url": "https://github.com/heptio/kube.libsonnet"
+    "name": "ksonnet-lib",
+    "url": "https://github.com/ksonnet/ksonnet-lib"
   },
   {
     "name": "kompose",
@@ -1990,6 +2020,10 @@
     "url": "http://shop.oreilly.com/product/0636920043874.do"
   },
   {
+    "name": "Cloud Native DevOps with Kubernetes by John Arundel, Justin Domingus (blog)",
+    "url": "http://shop.oreilly.com/product/0636920175131.do"
+  },
+  {
     "name": "Docker and Kubernetes Under the Hood (Chinese) by Harry Zhang, Jianbo Sun and ZJU SEL lab",
     "url": "http://item.jd.com/11757034.html"
   },
@@ -2041,6 +2075,10 @@
   {
     "name": "Docker in Action, Second Edition by Jeff Nickoloff and Stephen Kuenzli",
     "url": "https://www.manning.com/books/docker-in-action-second-edition"
+  },
+  {
+    "name": "Kubernetes Design Patterns and Extensions by Onur Yilmaz",
+    "url": "https://www.amazon.com/dp/B07HSZHRHZ"
   },
   {
     "name": "Architecture Overview by enakai00",
@@ -2149,6 +2187,10 @@
   {
     "name": "Testing Distributed Software on Kubernetes with PowerfulSeal at Kubecon 2017 Austin by Mikolaj Pawlikowski",
     "url": "https://youtu.be/00BMn0UjsG4"
+  },
+  {
+    "name": "Shanghai '18: KubeCon + CloudNativeCon",
+    "url": "https://www.youtube.com/playlist?list=PLj6h78yzYM2OK087kzLgc4jTPVbZjuNfs"
   },
   {
     "name": "Kubernetes",

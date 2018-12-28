@@ -70,8 +70,13 @@
     "description": "Written by @cure53."
   },
   {
+    "name": "AwesomeXSS",
+    "url": "https://github.com/s0md3v/AwesomeXSS",
+    "description": "Written by @s0md3v."
+  },
+  {
     "name": "XSS.png",
-    "url": "https://github.com/jackmasa/XSS.png",
+    "url": "https://github.com/LucaBongiorni/XSS.png",
     "description": "Written by @jackmasa."
   },
   {
@@ -165,9 +170,19 @@
     "description": "Written by Wallarm."
   },
   {
+    "name": "Practical Web Cache Poisoning",
+    "url": "https://portswigger.net/blog/practical-web-cache-poisoning",
+    "description": "Written by @albinowax."
+  },
+  {
     "name": "Open Redirect Vulnerability",
     "url": "https://s0cket7.com/open-redirect-vulnerability/",
     "description": "Written by s0cket7."
+  },
+  {
+    "name": "File Upload Restrictions Bypass",
+    "url": "https://www.exploit-db.com/docs/english/45074-file-upload-restrictions-bypass.pdf",
+    "description": "Written by Haboob Team."
   },
   {
     "name": "Rails Security",
@@ -211,13 +226,13 @@
   },
   {
     "name": "AWS PENETRATION TESTING PART 1. S3 BUCKETS",
-    "url": "https://www.virtuesecurity.com/blog/aws-penetration-testing-s3-buckets/",
-    "description": "Written by @VirtueSecurity."
+    "url": "https://www.virtuesecurity.com/aws-penetration-testing-part-1-s3-buckets/",
+    "description": "Written by VirtueSecurity."
   },
   {
     "name": "AWS PENETRATION TESTING PART 2. S3, IAM, EC2",
-    "url": "https://www.virtuesecurity.com/blog/aws-penetration-testing-part-2-s3-iam-ec2/",
-    "description": "Written by @VirtueSecurity."
+    "url": "https://www.virtuesecurity.com/aws-penetration-testing-part-2-s3-iam-ec2/",
+    "description": "Written by VirtueSecurity."
   },
   {
     "name": "A penetration tester’s guide to sub-domain enumeration",
@@ -258,6 +273,11 @@
     "name": "102 Deep Dive in the Dark Web OSINT Style Kirby Plessas",
     "url": "https://www.youtube.com/watch?v=fzd3zkAI_o4",
     "description": "Presented by @kirbstr."
+  },
+  {
+    "name": "The most complete guide to finding anyone’s email",
+    "url": "https://www.blurbiz.io/blog/the-most-complete-guide-to-finding-anyones-email",
+    "description": "Written by Timur Daudpota."
   },
   {
     "name": "XSS Cheat Sheet",
@@ -325,11 +345,6 @@
     "description": "Session Generation Authentication Bypass (CVE-2016-8584) - Written by @malerisch and @steventseeley."
   },
   {
-    "name": "Yahoo Bug Bounty: Chaining 3 Minor Issues To Takeover Flickr Accounts",
-    "url": "http://blog.mish.re/index.php/2017/04/29/yahoo-bug-bounty-chaining-3-minor-issues-to-takeover-flickr-accounts/",
-    "description": "Written by Mishre."
-  },
-  {
     "name": "Neat tricks to bypass CSRF-protection",
     "url": "https://zhuanlan.zhihu.com/p/32716181",
     "description": "Written by Twosecurity."
@@ -365,14 +380,14 @@
     "description": "Written by @iblue."
   },
   {
+    "name": "Evil Teacher: Code Injection in Moodle",
+    "url": "https://blog.ripstech.com/2018/moodle-remote-code-execution/",
+    "description": "Written by RIPS Technologies."
+  },
+  {
     "name": "How I Chained 4 vulnerabilities on GitHub Enterprise, From SSRF Execution Chain to RCE!",
     "url": "http://blog.orange.tw/2017/07/how-i-chained-4-vulnerabilities-on.html",
     "description": "Written by Orange."
-  },
-  {
-    "name": "How i Hacked into a PayPal's Server",
-    "url": "http://blog.pentestbegins.com/2017/07/21/hacking-into-paypal-server-remote-code-execution-2017/",
-    "description": "Unrestricted File Upload to Remote Code Execution - Written by Vikas Anil Sharma."
   },
   {
     "name": "$36k Google App Engine RCE",
@@ -416,7 +431,7 @@
   },
   {
     "name": "DOM XSS – auth.uber.com",
-    "url": "http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth_14.html",
+    "url": "http://stamone-bug-bounty.blogspot.tw/2017/10/dom-xss-auth14.html",
     "description": "Written by StamOne_."
   },
   {
@@ -425,8 +440,23 @@
     "description": "Written by Enguerran Gillier."
   },
   {
-    "name": "MySQL Error Based SQL Injection Using EXP",
-    "url": "https://www.exploit-db.com/docs/37953.pdf",
+    "name": "XSS in Google Colaboratory + CSP bypass",
+    "url": "https://blog.bentkowski.info/2018/06/xss-in-google-colaboratory-csp-bypass.html",
+    "description": "Written by Michał Bentkowski."
+  },
+  {
+    "name": "Another XSS in Google Colaboratory",
+    "url": "https://blog.bentkowski.info/2018/09/another-xss-in-google-colaboratory.html",
+    "description": "Written by Michał Bentkowski."
+  },
+  {
+    "name": "</script> is filtered ?",
+    "url": "https://twitter.com/strukt93/status/931586377665331200",
+    "description": "Written by @strukt93."
+  },
+  {
+    "name": "MySQL Error Based SQL  Injection Using  EXP",
+    "url": "https://www.exploit-db.com/docs/english/37953-mysql-error-based-sql-injection-using-exp.pdf",
     "description": "Written by @osandamalith."
   },
   {
@@ -438,6 +468,11 @@
     "name": "GitHub Enterprise SQL Injection",
     "url": "http://blog.orange.tw/2017/01/bug-bounty-github-enterprise-sql-injection.html",
     "description": "Written by Orange."
+  },
+  {
+    "name": "Making a Blind SQL Injection a little less blind",
+    "url": "https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8",
+    "description": "Written by TomNomNom."
   },
   {
     "name": "GraphQL NoSQL Injection Through JSON Types",
@@ -465,6 +500,11 @@
     "description": "Written by [Rose Jackcode](1024rosecode at gamil dot com)."
   },
   {
+    "name": "AWS takeover through SSRF in JavaScript",
+    "url": "http://10degres.net/aws-takeover-ssrf-javascript/",
+    "description": "Written by Gwen."
+  },
+  {
     "name": "SSRF in Exchange leads to ROOT access in all instances",
     "url": "https://hackerone.com/reports/341876",
     "description": "Written by @0xacb."
@@ -485,6 +525,11 @@
     "description": "Written by aesteral."
   },
   {
+    "name": "All you need to know about SSRF and how we may write tools to auto-detect",
+    "url": "https://medium.com/bugbountywriteup/the-design-and-implementation-of-ssrf-attack-framework-550e9fda16ea",
+    "description": "Written by @realAuxy233."
+  },
+  {
     "name": "A New Era of SSRF",
     "url": "https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf",
     "description": "Exploiting URL Parser in Trending Programming Languages! - Written by Orange."
@@ -498,6 +543,21 @@
     "name": "Into the Borg – SSRF inside Google production network",
     "url": "https://opnsec.com/2018/07/into-the-borg-ssrf-inside-google-production-network/",
     "description": "Written by opnsec."
+  },
+  {
+    "name": "Piercing the Veil: Server Side Request Forgery to NIPRNet access",
+    "url": "https://medium.com/bugbountywriteup/piercing-the-veil-server-side-request-forgery-to-niprnet-access-c358fd5e249a",
+    "description": "Written by Alyssa Herrera."
+  },
+  {
+    "name": "Bypassing Web Cache Poisoning Countermeasures",
+    "url": "https://portswigger.net/blog/bypassing-web-cache-poisoning-countermeasures",
+    "description": "Written by @albinowax."
+  },
+  {
+    "name": "Cache poisoning and other dirty tricks",
+    "url": "https://lab.wallarm.com/cache-poisoning-and-other-dirty-tricks-120468f1053f",
+    "description": "Written by Wallarm."
   },
   {
     "name": "Java/Python FTP Injections Allow for Firewall Bypass",
@@ -535,11 +595,6 @@
     "description": "Written by PHITHON."
   },
   {
-    "name": "Uber Bug Bounty: Gaining Access To An Internal Chat System",
-    "url": "http://blog.mish.re/index.php/2017/09/06/uber-bug-bounty-gaining-access-to-an-internal-chat-system/",
-    "description": "Written by MISHRE."
-  },
-  {
     "name": "Inducing DNS Leaks in Onion Web Services",
     "url": "https://github.com/epidemics-scepticism/writing/blob/master/onion-dns-leaks.md",
     "description": "Written by @epidemics-scepticism."
@@ -573,6 +628,16 @@
     "name": "How do we Stop Spilling the Beans Across Origins?",
     "url": "https://docs.google.com/document/d/1cbL-X0kV_tQ5rL8XJ3lXkV-j0pt_CfTu5ZSzYrncPDc/",
     "description": "Written by aaj at google.com and mkwst at google.com."
+  },
+  {
+    "name": "Setting arbitrary request headers in Chromium via CRLF injection",
+    "url": "https://blog.bentkowski.info/2018/06/setting-arbitrary-request-headers-in.html",
+    "description": "Written by Michał Bentkowski."
+  },
+  {
+    "name": "I’m harvesting credit card numbers and passwords from your site. Here’s how.",
+    "url": "https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5",
+    "description": "Written by David Gilbertson."
   },
   {
     "name": "Attacking JavaScript Engines",
@@ -615,6 +680,11 @@
     "description": "Written by RET2 SYSTEMS, INC."
   },
   {
+    "name": "CVE-2017-2446 or JSC::JSGlobalObject::isHavingABadTime.",
+    "url": "https://doar-e.github.io/blog/2018/07/14/cve-2017-2446-or-jscjsglobalobjectishavingabadtime/",
+    "description": "Written by Diary of a reverse-engineer."
+  },
+  {
     "name": "js-vuln-db",
     "url": "https://github.com/tunz/js-vuln-db",
     "description": "Collection of JavaScript engine CVEs with PoCs by @tunz."
@@ -655,11 +725,6 @@
     "description": "Auto Scanning to SSL Vulnerability by @hahwul."
   },
   {
-    "name": "dirhunt",
-    "url": "https://github.com/Nekmo/dirhunt",
-    "description": "Web crawler optimized for searching and analyzing the directory structure of a site by @nekmo."
-  },
-  {
     "name": "commix",
     "url": "https://github.com/commixproject/commix",
     "description": "Automated All-in-One OS command injection and exploitation tool by @commixproject."
@@ -695,6 +760,11 @@
     "description": "THREAT INTELLIGENCE PORTAL by NSFOCUS GLOBAL."
   },
   {
+    "name": "Photon",
+    "url": "https://github.com/s0md3v/Photon",
+    "description": "Incredibly fast crawler designed for OSINT by @s0md3v."
+  },
+  {
     "name": "FOCA",
     "url": "https://github.com/ElevenPaths/FOCA",
     "description": "FOCA (Fingerprinting Organizations with Collected Archives) is a tool used mainly to find metadata and hidden information in the documents its scans by ElevenPaths."
@@ -726,8 +796,8 @@
   },
   {
     "name": "ReconDog",
-    "url": "https://github.com/UltimateHackers/ReconDog",
-    "description": "Recon Dog is an all in one tool for all your basic information gathering needs by @UltimateHackers."
+    "url": "https://github.com/s0md3v/ReconDog",
+    "description": "Reconnaissance Swiss Army Knife by @s0md3v."
   },
   {
     "name": "Databases",
@@ -745,14 +815,19 @@
     "description": "The most complete open-source tool for Twitter intelligence analysis by @vaguileradiaz."
   },
   {
-    "name": "OSINT TOOLKIT",
-    "url": "https://osinttoolkit.github.io/index.html",
-    "description": "OSINT TOOLKIT by the OSINT Toolkit Admin Team."
-  },
-  {
     "name": "Raccoon",
     "url": "https://github.com/evyatarmeged/Raccoon",
-    "description": "A high performance offensive security tool for reconnaissance and vulnerability scanning"
+    "description": "High performance offensive security tool for reconnaissance and vulnerability scanning by @evyatarmeged."
+  },
+  {
+    "name": "Social Mapper",
+    "url": "https://github.com/SpiderLabs/social_mapper",
+    "description": "Social Media Enumeration & Correlation Tool by Jacob Wilkin(Greenwolf) by @SpiderLabs."
+  },
+  {
+    "name": "espi0n/Dockerfiles",
+    "url": "https://github.com/espi0n/Dockerfiles",
+    "description": "Dockerfiles for various OSINT tools by @espi0n."
   },
   {
     "name": "Sublist3r",
@@ -820,6 +895,26 @@
     "description": "Simple tool to convert the IP to a DWORD IP by @OsandaMalith."
   },
   {
+    "name": "domato",
+    "url": "https://github.com/google/domato",
+    "description": "DOM fuzzer by @google."
+  },
+  {
+    "name": "FuzzDB",
+    "url": "https://github.com/fuzzdb-project/fuzzdb",
+    "description": "Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery."
+  },
+  {
+    "name": "dirhunt",
+    "url": "https://github.com/Nekmo/dirhunt",
+    "description": "Web crawler optimized for searching and analyzing the directory structure of a site by @nekmo."
+  },
+  {
+    "name": "ssltest",
+    "url": "https://www.ssllabs.com/ssltest/",
+    "description": "Online service that performs a deep analysis of the configuration of any SSL web server on the public internet. Provided by Qualys SSL Labs."
+  },
+  {
     "name": "wpscan",
     "url": "https://github.com/wpscanteam/wpscan",
     "description": "WPScan is a black box WordPress vulnerability scanner by @wpscanteam."
@@ -830,14 +925,9 @@
     "description": "Free software to find the components installed in Joomla CMS, built out of the ashes of Joomscan by @drego85."
   },
   {
-    "name": "domato",
-    "url": "https://github.com/google/domato",
-    "description": "DOM fuzzer by @google."
-  },
-  {
-    "name": "FuzzDB",
-    "url": "https://github.com/fuzzdb-project/fuzzdb",
-    "description": "Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery."
+    "name": "WAScan",
+    "url": "https://github.com/m4ll0k/WAScan",
+    "description": "Is an open source web application security scanner that uses \"black-box\" method, created by @m4ll0k."
   },
   {
     "name": "Burp Suite",
@@ -863,6 +953,16 @@
     "name": "grayhatwarfare",
     "url": "https://buckets.grayhatwarfare.com/",
     "description": "Public buckets by grayhatwarfare."
+  },
+  {
+    "name": "beef",
+    "url": "https://github.com/beefproject/beef",
+    "description": "The Browser Exploitation Framework Project by beefproject."
+  },
+  {
+    "name": "JShell",
+    "url": "https://github.com/s0md3v/JShell",
+    "description": "Get a JavaScript shell with XSS by @s0md3v."
   },
   {
     "name": "XSStrike",
@@ -983,6 +1083,11 @@
     "name": "mitmproxy",
     "url": "https://github.com/mitmproxy/mitmproxy",
     "description": "Interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers by @mitmproxy."
+  },
+  {
+    "name": "nano",
+    "url": "https://github.com/s0md3v/nano",
+    "description": "Family of code golfed PHP shells by @s0md3v."
   },
   {
     "name": "webshell",
@@ -1120,6 +1225,11 @@
     "description": "Awesome bug-bounty and challenges writeups."
   },
   {
+    "name": "Blog of Osanda",
+    "url": "https://osandamalith.com/",
+    "description": "Security Researching and Reverse Engineering."
+  },
+  {
     "name": "@HackwithGitHub",
     "url": "https://twitter.com/HackwithGithub",
     "description": "Initiative to showcase open source hacking tools for hackers and pentesters"
@@ -1180,6 +1290,11 @@
     "description": "Amazon AWS CTF challenge - Written by @0xdabbad00."
   },
   {
+    "name": "CloudGoat",
+    "url": "https://github.com/RhinoSecurityLabs/cloudgoat",
+    "description": "Rhino Security Labs' \"Vulnerable by Design\" AWS infrastructure setup tool  - Written by @RhinoSecurityLabs."
+  },
+  {
     "name": "XSS Thousand Knocks",
     "url": "https://knock.xss.moe/index",
     "description": "XSS Thousand Knocks - Written by @yagihashoo."
@@ -1236,11 +1351,6 @@
     "name": "Brute Forcing Your Facebook Email and Phone Number",
     "url": "http://pwndizzle.blogspot.jp/2014/02/brute-forcing-your-facebook-email-and.html",
     "description": "Written by PwnDizzle."
-  },
-  {
-    "name": "GITLEAKS",
-    "url": "https://gitleaks.com/",
-    "description": "Search engine for exposed secrets on lots of places."
   },
   {
     "name": "Pentest + Exploit dev Cheatsheet wallpaper",
@@ -1326,5 +1436,25 @@
     "name": "CSS Is So Overpowered It Can Deanonymize Facebook Users",
     "url": "https://www.evonide.com/side-channel-attacking-browsers-through-css3-features/",
     "description": "Written by Ruslan Habalov."
+  },
+  {
+    "name": "Introduction to Web Application Security",
+    "url": "https://www.slideshare.net/nragupathy/introduction-to-web-application-security-blackhoodie-us-2018",
+    "description": "Written by @itsC0rg1, @jmkeads and @matir."
+  },
+  {
+    "name": "Finding The Real Origin IPs Hiding Behind CloudFlare or TOR",
+    "url": "https://www.secjuice.com/finding-real-ips-of-origin-servers-behind-cloudflare-or-tor/",
+    "description": "Written by Paul Dannewitz."
+  },
+  {
+    "name": "Why Facebook's api starts with a for loop",
+    "url": "https://dev.to/antogarand/why-facebooks-api-starts-with-a-for-loop-1eob?fbclid=IwAR0BQ7RmYGzQzsL33IJ2LM7lmlH0OSuIuxKLebUUBi1D51R-9UOnHrW0DQg",
+    "description": "Written by @AntoGarand."
+  },
+  {
+    "name": "How I could have stolen your photos from Google",
+    "url": "https://blog.avatao.com/How-I-could-steal-your-photos-from-Google/",
+    "description": "my first 3 bug bounty writeups - Written by @gergoturcsanyi."
   }
 ]

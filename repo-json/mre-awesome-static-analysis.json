@@ -1,5 +1,10 @@
 [
   {
+    "name": "abapOpenChecks",
+    "url": "https://github.com/larshp/abapOpenChecks",
+    "description": "Enhances the SAP Code Inspector with new and customizable checks."
+  },
+  {
     "name": "Codepeer",
     "url": "http://www.adacore.com/codepeer",
     "description": "detects run-time and logic errors"
@@ -182,7 +187,7 @@
   {
     "name": "Roslyn Security Guard",
     "url": "https://dotnet-security-guard.github.io/",
-    "description": "Project that focus on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more."
+    "description": "Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more."
   },
   {
     "name": "Roslynator",
@@ -202,7 +207,7 @@
   {
     "name": "VSDiagnostics",
     "url": "https://github.com/Vannevelj/VSDiagnostics",
-    "description": "A collection of static analyzers based on Roslyn that integrate with VS."
+    "description": "A collection of static analyzers based on Roslyn that integrates with VS."
   },
   {
     "name": "Wintellect.Analyzers",
@@ -295,6 +300,11 @@
     "description": "Examines Go source code and reports suspicious."
   },
   {
+    "name": "go-consistent",
+    "url": "https://github.com/Quasilyte/go-consistent",
+    "description": "Analyzer that helps you to make your Go programs more consistent."
+  },
+  {
     "name": "go-critic",
     "url": "https://github.com/go-critic/go-critic",
     "description": "Go source code linter that maintains checks which are currently not implemented in other linters."
@@ -328,6 +338,11 @@
     "name": "goimports",
     "url": "https://godoc.org/golang.org/x/tools/cmd/goimports",
     "description": "Checks missing or unreferenced package imports."
+  },
+  {
+    "name": "GolangCI-Lint",
+    "url": "https://github.com/golangci/golangci-lint",
+    "description": "Alternative to Go Meta Linter: GolangCI-Lint is a linters aggregator."
   },
   {
     "name": "golint",
@@ -635,6 +650,11 @@
     "description": "An npm module that checks for Javascript Styleguide issues"
   },
   {
+    "name": "tern",
+    "url": "https://github.com/ternjs/tern",
+    "description": "A JavaScript code analyzer for deep, cross-editor language support"
+  },
+  {
     "name": "XO",
     "url": "https://github.com/sindresorhus/xo",
     "description": "Enforce strict code style. Never discuss code style on a pull request again!"
@@ -666,7 +686,7 @@
   },
   {
     "name": "Perl::Critic",
-    "url": "http://search.cpan.org/%7Ethaljef/Perl-Critic-1.126/lib/Perl/Critic.pm",
+    "url": "http://search.cpan.org/~thaljef/Perl-Critic-1.126/lib/Perl/Critic.pm",
     "description": "Critique Perl source code for best-practices."
   },
   {
@@ -900,6 +920,11 @@
     "description": "The uncompromising Python code formatter"
   },
   {
+    "name": "cohesion",
+    "url": "https://github.com/mschwager/cohesion",
+    "description": "a tool for measuring Python class cohesion"
+  },
+  {
     "name": "jedi",
     "url": "https://github.com/davidhalter/jedi",
     "description": "autocompletion/static analysis library for Python"
@@ -983,6 +1008,11 @@
     "name": "flake8",
     "url": "https://github.com/PyCQA/flake8",
     "description": "a wrapper around pyflakes, pycodestyle and mccabe"
+  },
+  {
+    "name": "multilint",
+    "url": "https://github.com/adamchainz/multilint",
+    "description": "a wrapper around flake8, isort and modernize"
   },
   {
     "name": "prospector",
@@ -1075,9 +1105,14 @@
     "description": "Static analysis tool for checking Ruby code for Sandi Metz' rules."
   },
   {
+    "name": "cargo-inspect",
+    "url": "https://github.com/mre/cargo-inspect",
+    "description": "Inspect Rust code without syntactic sugar to see what the compiler does behind the curtains."
+  },
+  {
     "name": "clippy",
     "url": "https://github.com/Manishearth/rust-clippy",
-    "description": "a code linter to catch common mistakes and improve your Rust code"
+    "description": "A code linter to catch common mistakes and improve your Rust code"
   },
   {
     "name": "electrolysis",
@@ -1133,6 +1168,11 @@
     "name": "shellcheck",
     "url": "https://github.com/koalaman/shellcheck",
     "description": "ShellCheck, a static analysis tool that gives warnings and suggestions for bash/sh shell scripts"
+  },
+  {
+    "name": "slither",
+    "url": "https://github.com/trailofbits/slither",
+    "description": "Static analysis framework that runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses"
   },
   {
     "name": "solium",
@@ -1197,7 +1237,7 @@
   {
     "name": "Test Design Studio ©️",
     "url": "http://patterson-consulting.net/tds",
-    "description": "A full IDE with static code analysis for Micro Focus Unified Funtional Testing VBScript-based automated tests."
+    "description": "A full IDE with static code analysis for Micro Focus Unified Functional Testing VBScript-based automated tests."
   },
   {
     "name": "AppChecker ©️",
@@ -1255,6 +1295,11 @@
     "description": "CodeIt.Right™ provides a fast, automated way to ensure that your source code adheres to (your) predefined design and style guidelines as well as best coding practices. Supported languages: C#, VB.NET."
   },
   {
+    "name": "CodeScene ©️",
+    "url": "https://empear.com/",
+    "description": "CodeScene prioritizes technical debt, finds social patterns and identifies hidden risks in your code."
+  },
+  {
     "name": "cqc",
     "url": "https://github.com/xcatliu/cqc",
     "description": "Check your code quality for js, jsx, vue, css, less, scss, sass and styl files."
@@ -1301,7 +1346,7 @@
   {
     "name": "Kiuwan ©️",
     "url": "https://www.kiuwan.com/code-security-sast/",
-    "description": "Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamlessly integration in your SDLC. Python, C\\C++, Java, C#, PHP and more"
+    "description": "Identify and remediate cyber threats in a blazingly fast, collaborative environment, with seamless integration in your SDLC. Python, C\\C++, Java, C#, PHP and more"
   },
   {
     "name": "oclint",
@@ -1336,7 +1381,12 @@
   {
     "name": "PVS-Studio ©️",
     "url": "https://www.viva64.com/en/pvs-studio/",
-    "description": "a (conditionaly free for FOSS) static analysis of C/C++ and C# code. For advertising purposes you can propose a large FOSS project for analysis by PVS employees."
+    "description": "a (conditionally free for FOSS) static analysis of C/C++ and C# code. For advertising purposes you can propose a large FOSS project for analysis by PVS employees."
+  },
+  {
+    "name": "Reviewdog",
+    "url": "https://github.com/haya14busa/reviewdog",
+    "description": "A tool for posting review comments from any linter in any code hosting service."
   },
   {
     "name": "Security Code Scan",
@@ -1456,7 +1506,12 @@
   {
     "name": "Haskell Dockerfile Linter",
     "url": "https://github.com/lukasmartinelli/hadolint",
-    "description": "A smarter Dockerfile linter that helps you build best practice Docker images"
+    "description": "A smarter Dockerfile linter that helpsyou build best practice Docker images"
+  },
+  {
+    "name": "kube-score",
+    "url": "https://github.com/zegl/kube-score",
+    "description": "Static code analysis of your Kubernetes object definitions."
   },
   {
     "name": "gixy",
@@ -1474,6 +1529,11 @@
     "description": "A linter for AWS CloudFormation templates."
   },
   {
+    "name": "cookstyle",
+    "url": "https://docs.chef.io/cookstyle.html",
+    "description": "Cookstyle is a linting tool based on the RuboCop Ruby linting tool for Chef cookbooks"
+  },
+  {
     "name": "foodcritic",
     "url": "http://www.foodcritic.io/",
     "description": "A lint tool that checks Chef cookbooks for common problems."
@@ -1482,6 +1542,11 @@
     "name": "Puppet Lint",
     "url": "https://github.com/rodjek/puppet-lint",
     "description": "Check that your Puppet manifests conform to the style guide."
+  },
+  {
+    "name": "tflint",
+    "url": "https://github.com/wata727/tflint",
+    "description": "A Terraform linter for detecting errors that can not be detected by terraform plan."
   },
   {
     "name": "CSS Stats",
@@ -1502,6 +1567,11 @@
     "name": "Parker",
     "url": "https://github.com/katiefenn/parker",
     "description": "Stylesheet analysis tool"
+  },
+  {
+    "name": "Project Wallace CSS Analyzer",
+    "url": "https://github.com/projectwallace/css-analyzer",
+    "description": "Analytics for CSS, part of Project Wallace"
   },
   {
     "name": "sass-lint",
@@ -1634,6 +1704,11 @@
     "description": "A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers."
   },
   {
+    "name": "Violations Lib",
+    "url": "https://github.com/tomasbjerre/violations-lib",
+    "description": "Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins."
+  },
+  {
     "name": "ember-template-lint",
     "url": "https://github.com/rwjblue/ember-template-lint",
     "description": "Linter for Ember or Handlebars templates."
@@ -1657,6 +1732,11 @@
     "name": "dennis",
     "url": "https://github.com/willkg/dennis/",
     "description": "A set of utilities for working with PO files to ease development and improve quality."
+  },
+  {
+    "name": "languagetool",
+    "url": "https://github.com/languagetool-org/languagetool",
+    "description": "Style and grammar checker for 25+ languages. It finds many errors that a simple spell checker cannot detect."
   },
   {
     "name": "misspell-fixer",
@@ -1729,14 +1809,24 @@
     "description": "Automated PHP code review"
   },
   {
+    "name": "PullRequest ©️",
+    "url": "https://www.pullrequest.com",
+    "description": "Code review as a service with built-in static analysis"
+  },
+  {
     "name": "QuantifiedCode",
     "url": "https://www.quantifiedcode.com/",
     "description": "Automated code review & repair"
   },
   {
+    "name": "Reshift ©️",
+    "url": "https://softwaresecured.com/reshift/",
+    "description": "A source code analysis tool for detecting and managing Java security vulnerabilities."
+  },
+  {
     "name": "Scrutinizer ©️",
     "url": "https://scrutinizer-ci.com/",
-    "description": "A proprietery code quality checker that can be integrated with GitHub"
+    "description": "A proprietary code quality checker that can be integrated with GitHub"
   },
   {
     "name": "SensioLabs Insight ©️",

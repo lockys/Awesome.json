@@ -40,12 +40,22 @@
     "description": "Software for Open Networking in the Cloud"
   },
   {
+    "name": "Stratum",
+    "url": "https://stratumproject.org/",
+    "description": "An open source, silicon-independent switch operating system for software-defined networks"
+  },
+  {
+    "name": "OpenWrt",
+    "url": "https://openwrt.org/",
+    "description": " Is a Linux Operating System targeting embedded devices."
+  },
+  {
     "name": "ONIE",
     "url": "http://onie.org/",
     "description": "ONIE enables a bare metal network switch ecosystem where end users have a choice among different network operating systems."
   },
   {
-    "name": "OpenvSwtich",
+    "name": "Open vSwitch",
     "url": "http://openvswitch.org/",
     "description": "Open vSwitch is a production quality, multilayer virtual switch."
   },
@@ -94,6 +104,10 @@
     "description": "Relentlessly focused on data IO speed and efficiency for more flexible and scalable networks and storage"
   },
   {
+    "name": "bmv2-  A P4 software switch which is usually used as a tool to verify the funtions the developers describe in P4 language.",
+    "url": "https://github.com/p4lang/behavioral-model"
+  },
+  {
     "name": "FlowVisor",
     "url": "https://github.com/opennetworkinglab/flowvisor",
     "description": "An OpenFlow controller that acts as a hypervisor/proxy between a switch and multiple controllers. Can slice multiple switches in parallel, effectively slicing a network."
@@ -110,7 +124,7 @@
   },
   {
     "name": "OF-Config",
-    "url": "https://www.opennetworking.org/technical-communities/areas/specification/1928-of-config",
+    "url": "https://www.opennetworking.org/technical-communities/areas/specification/of-config/",
     "description": "OpenFlow Management and Configuration Protocol"
   },
   {
@@ -133,6 +147,10 @@
   {
     "name": "Extensible Messaging and Presence Protocol, XMPP",
     "url": "https://en.wikipedia.org/wiki/XMPP"
+  },
+  {
+    "name": "P4 Runtime",
+    "url": "https://p4.org/api/p4-runtime-putting-the-control-plane-in-charge-of-the-forwarding-plane.html"
   },
   {
     "name": "NOX",
@@ -218,6 +236,11 @@
     "name": "Netrack",
     "url": "https://github.com/netrack/openflow",
     "description": "An OpenFlow controller framework in Go."
+  },
+  {
+    "name": "OVN",
+    "url": "http://www.openvswitch.org//support/slides/OVN-Vancouver.pdf",
+    "description": "OVN: Open Virtual Network for Open vSwitch"
   },
   {
     "name": "Mininet",
@@ -340,13 +363,18 @@
     "description": "Benchmarking tool for controllers"
   },
   {
+    "name": "ptf",
+    "url": "https://github.com/p4lang/ptf",
+    "description": "A python based dataplane test framework based on unittest."
+  },
+  {
     "name": "OPNFV",
     "url": "https://www.opnfv.org",
     "description": "Accelerating NFV's evolution through an integrated, open platform."
   },
   {
     "name": "VXLAN",
-    "url": "https://docs.ustack.com/unp/src/architecture/vxlan.html",
+    "url": "https://en.wikipedia.org/wiki/Virtual_Extensible_LAN",
     "description": "Virtual Extensible LAN"
   },
   {
@@ -355,17 +383,24 @@
     "description": "NVGRE-Network-Virtualization-using-Generic-Routing-Encapsulation"
   },
   {
+    "name": "GENEVE",
+    "url": "https://www.redhat.com/en/blog/what-geneve",
+    "description": "What is GENEVE?"
+  },
+  {
     "name": "FreeRouter",
     "url": "http://freerouter.nop.hu/",
     "description": "Java-based vRouter"
   },
   {
     "name": "Bird",
-    "url": "http://bird.network.cz/"
+    "url": "http://bird.network.cz/",
+    "description": "The BIRD project aims to develop a fully functional dynamic IP routing daemon primarily targeted on (but not limited to) Linux, FreeBSD and other UNIX-like systems and distributed under the GNU General Public License."
   },
   {
     "name": "Quagga",
-    "url": "http://www.quagga.net/"
+    "url": "http://www.quagga.net/",
+    "description": "Quagga is a routing software suite, providing implementations of OSPFv2, OSPFv3, RIP v1 and v2, RIPng and BGP-4 for Unix platforms, particularly FreeBSD, Linux, Solaris and NetBSD. Quagga is a fork of GNU Zebra which was developed by Kunihiro Ishiguro."
   },
   {
     "name": "FRRouting",
@@ -378,15 +413,18 @@
   },
   {
     "name": "bgp4r",
-    "url": "https://github.com/jesnault/bgp4r"
+    "url": "https://github.com/jesnault/bgp4r",
+    "description": "BGP4R is a ruby library which enables the creation and manipulation of BGP messages. In BGP4R, all well-known BGP constructs are defined in classes."
   },
   {
     "name": "gobgp",
-    "url": "https://github.com/osrg/gobgp"
+    "url": "https://github.com/osrg/gobgp",
+    "description": "GoBGP is an open source BGP implementation designed from scratch for modern environment and implemented in a modern programming language, the Go Programming Language."
   },
   {
     "name": "yabgp",
-    "url": "https://github.com/smartbgp/yabgp"
+    "url": "https://github.com/smartbgp/yabgp",
+    "description": "YABGP is a yet another Python implementation for BGP Protocol. It can be used to establish BGP connections with all kinds of routers (include real Cisco/HuaWei/Juniper routers and some router simulators like GNS3) and receive/parse BGP messages for future analysis."
   },
   {
     "name": "Central Office Re-architected as a Datacenter, CORD",
@@ -457,9 +495,9 @@
     "description": "F-Stack is an user space network development kit with high performance based on DPDK, FreeBSD TCP/IP stack and coroutine API."
   },
   {
-    "name": "yanff",
-    "url": "https://github.com/intel-go/yanff",
-    "description": "YANFF is a set of libraries for creating and deploying cloud-native Network Functions (NFs). It simplifies the creation of network functions without sacrificing performance."
+    "name": "nff-go",
+    "url": "https://github.com/intel-go/nff-go",
+    "description": "NFF-Go becomes part of DPDK project umbrella under Linux Foundation! Mirror repo can be found here: http://dpdk.org/browse/apps/nff-go/. We will accept patches through DPDK mail-list and standard DPDK contribution process too."
   },
   {
     "name": "PNDA",
@@ -517,6 +555,10 @@
     "url": "https://www.packtpub.com/networking-and-servers/devops-networking"
   },
   {
+    "name": "Software Defined Networking with OpenFlow",
+    "url": "https://www.packtpub.com/networking-and-servers/software-defined-networking-openflow"
+  },
+  {
     "name": "SDN A Comprehensive Survey",
     "url": "https://pdfs.semanticscholar.org/d8bd/4c1e92420200bd29cb1a233bd81eb3c28bba.pdf"
   },
@@ -533,12 +575,11 @@
     "url": "http://dl.acm.org/citation.cfm?id=3098825"
   },
   {
-    "name": "VXLAN L3应用EVPN，呈现完整overlay网络",
-    "url": "https://www.sdnlab.com/19879.html"
+    "name": "A Survey on the Security of Stateful SDN Data Planes",
+    "url": "https://ieeexplore.ieee.org/document/7890396"
   },
   {
-    "name": "Open Source Networking & ONAP",
-    "url": "https://actionweek.tmforum.org/wp-content/uploads/2017/09/TMF-Keynote-LF-Networking-ONAP-Sept-2017-vfinal.pdf",
-    "description": "The Linux Foundation"
+    "name": "VXLAN L3应用EVPN，呈现完整overlay网络",
+    "url": "https://www.sdnlab.com/19879.html"
   }
 ]

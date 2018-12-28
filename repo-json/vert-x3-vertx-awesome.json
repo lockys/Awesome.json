@@ -8,6 +8,10 @@
     "url": "https://developers.redhat.com/promotions/building-reactive-microservices-in-java/"
   },
   {
+    "name": "Vert.x in Action by Julien Ponge",
+    "url": "https://www.manning.com/books/vertx-in-action"
+  },
+  {
     "name": "Vert.x Maven plugin",
     "url": "https://github.com/fabric8io/vertx-maven-plugin"
   },
@@ -116,6 +120,11 @@
     "description": "Asynchronous API to interact with Redis."
   },
   {
+    "name": "Cassandra ",
+    "url": "https://github.com/vert-x3/vertx-cassandra-client",
+    "description": "A Vert.x client allowing applications to interact with a Cassandra service."
+  },
+  {
     "name": "Cassandra",
     "url": "https://github.com/englishtown/vertx-cassandra",
     "description": "Asynchronous API to interact with Cassandra and Cassandra Mapping."
@@ -156,9 +165,9 @@
     "description": "SMTP server bridging to EventBus."
   },
   {
-    "name": "Vertx REST Client",
+    "name": "Vert.x REST Client",
     "url": "https://github.com/hubrick/vertx-rest-client",
-    "description": "A REST client for vertx with support for RxJava and request caching."
+    "description": "A REST client for Vert.x with support for RxJava and request caching."
   },
   {
     "name": "Retrofit adapter for Vert.x",
@@ -226,7 +235,7 @@
     "description": "Kafka bridge - Bridge for sending/receiving messages to/from Apache Kafka using the AMQP 1.0 protocol."
   },
   {
-    "name": "Vertx Kafka Client ",
+    "name": "Vert.x Kafka Client ",
     "url": "https://github.com/vert-x3/vertx-kafka-client",
     "description": "Apache Kafka client for reading and sending messages from/to an Apache Kafka cluster."
   },
@@ -273,7 +282,7 @@
   {
     "name": "Hystrix Metrics Stream",
     "url": "https://github.com/kennedyoliveira/hystrix-vertx-metrics-stream.git",
-    "description": "Emits metrics for Hystrix Dashboard from a Vertx application with Hystrix."
+    "description": "Emits metrics for Hystrix Dashboard from a Vert.x application with Hystrix."
   },
   {
     "name": "Vert.x Dart SockJS",
@@ -283,7 +292,12 @@
   {
     "name": "Onesignal",
     "url": "https://github.com/jklingsporn/vertx-push-onesignal",
-    "description": "Send push notifications to (mobile/web) apps from your Vertx application with OneSignal."
+    "description": "Send push notifications to (mobile/web) apps from your Vert.x application with OneSignal."
+  },
+  {
+    "name": "CloudEvents.io Java SDK",
+    "url": "https://github.com/cloudevents/sdk-java",
+    "description": "Send and receive CloudEvents using the Vert.x HTTP Transport for CloudEvents."
   },
   {
     "name": "Apache Camel",
@@ -337,13 +351,18 @@
   },
   {
     "name": "Kotlin",
-    "url": "https://github.com/vert-x3/vertx3-lang-kotlin",
+    "url": "https://github.com/vert-x3/vertx-lang-kotlin",
     "description": " - Kotlin support."
   },
   {
     "name": "TypeScript",
     "url": "https://github.com/michel-kraemer/vertx-lang-typescript",
     "description": "TypeScript support."
+  },
+  {
+    "name": "EcmaScript",
+    "url": "https://github.com/reactiverse/es4x",
+    "description": "EcmaScript >=6 (JavaScript) support."
   },
   {
     "name": "Grooveex",
@@ -484,6 +503,11 @@
     "description": "Infinispan cluster manager."
   },
   {
+    "name": "Consul Cluster Manager",
+    "url": "https://github.com/romalev/vertx-consul-cluster-manager",
+    "description": "Consul cluster manager."
+  },
+  {
     "name": "OpenShift DIY cartridge ",
     "url": "https://github.com/vert-x3/vertx-openshift-diy-quickstart",
     "description": "OpenShift DIY Cartridge using Vert.x."
@@ -589,7 +613,7 @@
     "description": "Vert.x integration with Eclipse SISU DI container offering alternatives for vertx-service-factory and vertx-maven-service-factory."
   },
   {
-    "name": "Vertx Config AWS SSM Store",
+    "name": "Vert.x Config AWS SSM Store",
     "url": "https://github.com/Finovertech/vertx-config-aws-ssm",
     "description": "A config store implementation for retrieving configuration values from the AWS EC2 SSM Parameter Store."
   },
@@ -621,7 +645,7 @@
   {
     "name": "QBit",
     "url": "https://github.com/advantageous/qbit",
-    "description": "QBit works with Spring DI and Spring Boot (and of course Vertx). Allows you to use QBit, Vertx, Spring DI and Spring Boot in the same application."
+    "description": "QBit works with Spring DI and Spring Boot (and of course Vert.x). Allows you to use QBit, Vert.x, Spring DI and Spring Boot in the same application."
   },
   {
     "name": "Vert.x Eclipse SISU",
@@ -792,6 +816,11 @@
     "name": "Cloud Foundry",
     "url": "https://github.com/amdelamar/vertx-cloudfoundry",
     "description": "An example Vert.x for deploying to a Cloud Foundry service provider."
+  },
+  {
+    "name": "Knative",
+    "url": "https://github.com/knative/docs/tree/master/serving/samples/helloworld-vertx",
+    "description": "An example application on how to use Reactive Extensions Vert.x with Knative."
   },
   {
     "name": "Vert.x Deploy Application",

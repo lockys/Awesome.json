@@ -80,6 +80,11 @@
     "description": "Tries to simplify bytecode editing."
   },
   {
+    "name": "Mixin",
+    "url": "https://github.com/SpongePowered/Mixin",
+    "description": "Manipulate bytecode at runtime using real Java code."
+  },
+  {
     "name": "Caffeine",
     "url": "https://github.com/ben-manes/caffeine",
     "description": "High-performance, near-optimal caching library."
@@ -93,6 +98,66 @@
     "name": "Infinispan",
     "url": "http://infinispan.org",
     "description": "Highly concurrent key/value datastore used for caching."
+  },
+  {
+    "name": "ASCII Table",
+    "url": "https://github.com/vdmeer/asciitable",
+    "description": "Library to draw tables in ASCII."
+  },
+  {
+    "name": "Airline",
+    "url": "https://github.com/airlift/airline",
+    "description": "Annotation-based framework for parsing Git-like command-line arguments."
+  },
+  {
+    "name": "args4j",
+    "url": "http://args4j.kohsuke.org",
+    "description": "Small library to parse command-line arguments."
+  },
+  {
+    "name": "Jansi",
+    "url": "https://github.com/fusesource/jansi",
+    "description": "ANSI escape codes to format console output."
+  },
+  {
+    "name": "Java ASCII Render",
+    "url": "https://github.com/indvd00m/java-ascii-render",
+    "description": "Graphical primitives for the console."
+  },
+  {
+    "name": "JCommander",
+    "url": "http://jcommander.org",
+    "description": "Command-line argument-parsing framework with custom types and validation via implementing interfaces."
+  },
+  {
+    "name": "jbock",
+    "url": "https://github.com/h908714124/jbock",
+    "description": "Typesafe, reflection-free, annotation based command-line parser"
+  },
+  {
+    "name": "JLine",
+    "url": "https://github.com/jline/jline3",
+    "description": "Includes features from modern shells like completion or history."
+  },
+  {
+    "name": "JOpt Simple",
+    "url": "https://pholser.github.io/jopt-simple",
+    "description": "Fluent parser that uses the POSIX#getopt and GNU#getopt_long syntaxes."
+  },
+  {
+    "name": "picocli",
+    "url": "http://picocli.info",
+    "description": "ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args."
+  },
+  {
+    "name": "Text-IO",
+    "url": "https://github.com/beryx/text-io",
+    "description": "Aids the creation of full console-based applications."
+  },
+  {
+    "name": "Lanterna",
+    "url": "https://github.com/mabe02/lanterna",
+    "description": "Easy console text-GUI library, similar to curses."
   },
   {
     "name": "Apache Aurora",
@@ -213,31 +278,6 @@
     "name": "Lombok",
     "url": "https://projectlombok.org",
     "description": "Code generator that aims to reduce verbosity."
-  },
-  {
-    "name": "Airline",
-    "url": "https://github.com/airlift/airline",
-    "description": "Annotation-based framework for parsing Git-like command-line arguments."
-  },
-  {
-    "name": "args4j",
-    "url": "http://args4j.kohsuke.org",
-    "description": "Small library to parse command-line arguments."
-  },
-  {
-    "name": "JCommander",
-    "url": "http://jcommander.org",
-    "description": "Command-line argument-parsing framework with custom types and validation via implementing interfaces."
-  },
-  {
-    "name": "JOpt Simple",
-    "url": "https://pholser.github.io/jopt-simple",
-    "description": "Simple parser that uses the POSIX getopt() and GNU getopt_long() syntaxes. Uses a fluent API instead of annotations."
-  },
-  {
-    "name": "picocli",
-    "url": "http://picocli.info",
-    "description": "ANSI colors and styles in usage help. Can be included as source to avoid dependency. Annotation-based, POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args."
   },
   {
     "name": "ANTLR",
@@ -363,6 +403,11 @@
     "name": "HikariCP",
     "url": "https://github.com/brettwooldridge/HikariCP",
     "description": "High-performance JDBC connection pool."
+  },
+  {
+    "name": "jasync-sql",
+    "url": "https://github.com/jasync-sql/jasync-sql",
+    "description": "Async DB driver for MySQL and PostgreSQL."
   },
   {
     "name": "JDBI",
@@ -710,6 +755,11 @@
     "description": "Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven, and available in all other build tools."
   },
   {
+    "name": "Cloudsmith ",
+    "url": "https://cloudsmith.io",
+    "description": "Fully managed package management SaaS with support for Maven/Gradle/SBT."
+  },
+  {
     "name": "IzPack",
     "url": "http://izpack.org",
     "description": "Setup authoring tool for cross-platform deployments."
@@ -736,7 +786,7 @@
   },
   {
     "name": "Apache POI",
-    "url": "https://poi.apache.org",
+    "url": "https://poi.apache.org/",
     "description": "Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT)."
   },
   {
@@ -748,6 +798,11 @@
     "name": "docx4j",
     "url": "https://www.docx4java.org/trac/docx4j",
     "description": "Create and manipulate Microsoft Open XML files."
+  },
+  {
+    "name": "zerocell",
+    "url": "https://github.com/creditdatamw/zerocell",
+    "description": "Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead."
   },
   {
     "name": "CATG",
@@ -1115,24 +1170,34 @@
     "description": "Streaming JsonPath processor dedicated to processing big and complicated JSON data."
   },
   {
+    "name": "Adopt Open JDK",
+    "url": "https://adoptopenjdk.net",
+    "description": "OpenJDK builds which allows to choose between HotSpot and OpenJ9."
+  },
+  {
     "name": "Avian",
     "url": "https://github.com/ReadyTalk/avian",
-    "description": "JVM with both JIT and AOT modes. Includes an iOS port."
+    "description": "JVM with JIT, AOT modes and iOS port."
+  },
+  {
+    "name": "Corretto",
+    "url": "https://aws.amazon.com/corretto",
+    "description": "No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon."
   },
   {
     "name": "Graal",
     "url": "https://github.com/oracle/graal",
-    "description": "Polyglot virtual machine which can be embedded."
+    "description": "Polyglot embeddable JVM."
   },
   {
     "name": "OpenJ9",
     "url": "https://github.com/eclipse/openj9",
-    "description": "High performance, enterprise calibre, flexibly licensed, openly governed cross platform Java Virtual Machine extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project."
+    "description": "High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project."
   },
   {
-    "name": "OpenJDK",
-    "url": "http://openjdk.java.net",
-    "description": "Open-source implementation for Linux."
+    "name": "Open JDK",
+    "url": "https://openjdk.java.net",
+    "description": "Open JDK distributed by Oracle."
   },
   {
     "name": "ParparVM",
@@ -1140,14 +1205,14 @@
     "description": "VM with non-blocking, concurrent GC for iOS."
   },
   {
-    "name": "Zulu OpenJDK 9",
-    "url": "https://zulu.org/zulu-9-pre-release-downloads",
-    "description": "Early-access OpenJDK 9 builds for Windows, Linux, and Mac OS X."
+    "name": "RedHat Open JDK",
+    "url": "https://developers.redhat.com/products/openjdk/overview",
+    "description": "RedHat's OpenJDK distribution."
   },
   {
-    "name": "Zulu OpenJDK",
+    "name": "Zulu",
     "url": "https://www.azul.com/downloads/zulu",
-    "description": "OpenJDK builds for Windows, Linux, and Mac OS X through Java 8."
+    "description": "OpenJDK builds for Windows, Linux, and Mac OS X."
   },
   {
     "name": "Apache Log4j 2",
@@ -1370,11 +1435,6 @@
     "description": "Snippet runner."
   },
   {
-    "name": "Lanterna",
-    "url": "https://github.com/mabe02/lanterna",
-    "description": "Easy console text-GUI library, similar to curses."
-  },
-  {
     "name": "LightAdmin",
     "url": "http://lightadmin.org",
     "description": "Pluggable CRUD UI library for rapid application development."
@@ -1460,6 +1520,11 @@
     "description": "REST-based service registry for resilient load balancing and failover."
   },
   {
+    "name": "Helidon",
+    "url": "https://helidon.io",
+    "description": "Two-style approach for writing microservices: Functional-reactive and as an implementation of MicroProfile."
+  },
+  {
     "name": "Lagom",
     "url": "https://www.lightbend.com/lagom",
     "description": "Framework for creating microservice-based systems."
@@ -1538,6 +1603,11 @@
     "name": "New Relic ",
     "url": "https://newrelic.com",
     "description": "Performance monitor."
+  },
+  {
+    "name": "DataDog ",
+    "url": "https://docs.datadoghq.com/tracing/setup/java/",
+    "description": "Modern monitoring & analytics."
   },
   {
     "name": "nudge4j",
@@ -1663,6 +1733,11 @@
     "name": "sshj",
     "url": "https://github.com/hierynomus/sshj",
     "description": "Programatically use SSH, SCP or SFTP."
+  },
+  {
+    "name": "TLS Channel",
+    "url": "https://github.com/marianobarrios/tls-channel",
+    "description": "Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS."
   },
   {
     "name": "Undertow",
@@ -1820,109 +1895,9 @@
     "description": "Profiler for any application running on the JVM."
   },
   {
-    "name": "Pool",
-    "url": "http://commons.apache.org/proper/commons-pool",
-    "description": "Generic object pooling component."
-  },
-  {
     "name": "BCEL",
     "url": "http://commons.apache.org/proper/commons-bcel",
     "description": "Byte Code Engineering Library - analyze, create, and manipulate Java class files."
-  },
-  {
-    "name": "Codec",
-    "url": "http://commons.apache.org/proper/commons-codec",
-    "description": "General encoding/decoding algorithms (for example phonetic, base64, URL)."
-  },
-  {
-    "name": "Compress",
-    "url": "http://commons.apache.org/proper/commons-compress",
-    "description": "Defines an API for working with tar, zip and bzip2 files."
-  },
-  {
-    "name": "IO",
-    "url": "http://commons.apache.org/proper/commons-io",
-    "description": "Collection of I/O utilities."
-  },
-  {
-    "name": "Configuration",
-    "url": "http://commons.apache.org/proper/commons-configuration",
-    "description": "Reading of configuration/preferences files in various formats."
-  },
-  {
-    "name": "VFS",
-    "url": "http://commons.apache.org/proper/commons-vfs",
-    "description": "Virtual File System component for treating files, FTP, SMB, ZIP and such like as a single logical file system."
-  },
-  {
-    "name": "Jelly",
-    "url": "http://commons.apache.org/proper/commons-jelly",
-    "description": "XML based scripting and processing engine."
-  },
-  {
-    "name": "CSV",
-    "url": "http://commons.apache.org/proper/commons-csv",
-    "description": "Component for reading and writing comma separated value files."
-  },
-  {
-    "name": "JCS",
-    "url": "http://commons.apache.org/proper/commons-jcs",
-    "description": "Java Caching System."
-  },
-  {
-    "name": "Email",
-    "url": "http://commons.apache.org/proper/commons-email",
-    "description": "Library for sending e-mail from Java."
-  },
-  {
-    "name": "DbUtils",
-    "url": "http://commons.apache.org/proper/commons-dbutils",
-    "description": "JDBC helper library."
-  },
-  {
-    "name": "FileUpload",
-    "url": "http://commons.apache.org/proper/commons-fileupload",
-    "description": "File upload capability for your servlets and web applications."
-  },
-  {
-    "name": "Lang",
-    "url": "http://commons.apache.org/proper/commons-lang",
-    "description": "Provides extra functionality for classes in java.lang."
-  },
-  {
-    "name": "Jexl",
-    "url": "http://commons.apache.org/proper/commons-jexl",
-    "description": "Expression language which extends the Expression Language of the JSTL."
-  },
-  {
-    "name": "CLI",
-    "url": "http://commons.apache.org/proper/commons-cli",
-    "description": "Command Line arguments parser."
-  },
-  {
-    "name": "Validator",
-    "url": "http://commons.apache.org/proper/commons-validator",
-    "description": "Framework to define validators and validation rules in an xml file."
-  },
-  {
-    "name": "Net",
-    "url": "http://commons.apache.org/proper/commons-net",
-    "description": "Collection of network utilities and protocol implementations."
-  },
-  {
-    "name": "RNG",
-    "url": "https://commons.apache.org/proper/commons-rng",
-    "description": "Commons Rng provides implementations of pseudo-random numbers generators."
-  },
-  {
-    "name": "RDF",
-    "url": "https://commons.apache.org/proper/commons-rdf",
-    "description": "Common implementation of RDF 1.1 that could be implemented by systems on the JVM."
-  },
-  {
-    "name": "Weaver",
-    "url": "http://commons.apache.org/proper/commons-weaver",
-    "description": "Provides an easy way to enhance (weave) compiled bytecode."
   },
   {
     "name": "BeanUtils",
@@ -1930,53 +1905,9 @@
     "description": "Easy-to-use wrappers around the Java reflection and introspection APIs."
   },
   {
-    "name": "Collections",
-    "url": "http://commons.apache.org/proper/commons-collections",
-    "description": "Extends or augments the Java Collections Framework."
-  },
-  {
-    "name": "DBCP",
-    "url": "http://commons.apache.org/proper/commons-dbcp",
-    "description": "Database connection pooling services."
-  },
-  {
-    "name": "Math",
-    "url": "http://commons.apache.org/proper/commons-math",
-    "description": "Lightweight, self-contained mathematics and statistics components."
-  },
-  {
-    "name": "Exec",
-    "url": "http://commons.apache.org/proper/commons-exec",
-    "description": "API for dealing with external process execution and environment management in Java."
-  },
-  {
-    "name": "Logging Wrapper around a variety of logging API implementations.",
-    "url": "https://en.wikipedia.org/wiki/Apache_Commons_Logging"
-  },
-  {
-    "name": "OGNL",
-    "url": "http://commons.apache.org/proper/commons-ognl",
-    "description": "An Object-Graph Navigation Language."
-  },
-  {
-    "name": "JCI",
-    "url": "http://commons.apache.org/proper/commons-jci",
-    "description": "Java Compiler Interface."
-  },
-  {
-    "name": "Daemon",
-    "url": "http://commons.apache.org/proper/commons-daemon",
-    "description": "Alternative invocation mechanism for unix-daemon-like java code."
-  },
-  {
-    "name": "Functor",
-    "url": "http://commons.apache.org/proper/commons-functor",
-    "description": "A functor is a function that can be manipulated as an object, or an object representing a single, generic function."
-  },
-  {
-    "name": "Digester",
-    "url": "http://commons.apache.org/proper/commons-digester",
-    "description": "XML-to-Java-object mapping utility."
+    "name": "BeanUtils2",
+    "url": "http://commons.apache.org/sandbox/commons-beanutils2",
+    "description": "Redesign of Commons BeanUtils."
   },
   {
     "name": "BSF",
@@ -1984,34 +1915,9 @@
     "description": "Bean Scripting Framework - interface to scripting languages, including JSR-223."
   },
   {
-    "name": "Imaging",
-    "url": "http://commons.apache.org/proper/commons-imaging",
-    "description": "A pure-Java image library."
-  },
-  {
-    "name": "SCXML",
-    "url": "http://commons.apache.org/proper/commons-scxml",
-    "description": "An implementation of the State Chart XML specification aimed at creating and maintaining a Java SCXML engine."
-  },
-  {
-    "name": "JXPath",
-    "url": "http://commons.apache.org/proper/commons-jxpath",
-    "description": "Utilities for manipulating Java Beans using the XPath syntax."
-  },
-  {
     "name": "Chain",
     "url": "http://commons.apache.org/proper/commons-chain",
     "description": "Chain of Responsibility pattern implementation."
-  },
-  {
-    "name": "Proxy",
-    "url": "http://commons.apache.org/proper/commons-proxy",
-    "description": "Library for creating dynamic proxies."
-  },
-  {
-    "name": "BeanUtils2",
-    "url": "http://commons.apache.org/sandbox/commons-beanutils2",
-    "description": "Redesign of Commons BeanUtils."
   },
   {
     "name": "ClassScan",
@@ -2019,13 +1925,78 @@
     "description": "Find Class interfaces, methods, fields, and annotations without loading."
   },
   {
+    "name": "CLI",
+    "url": "http://commons.apache.org/proper/commons-cli",
+    "description": "Command-line arguments parser."
+  },
+  {
     "name": "CLI2 Redesign of Commons CLI.",
     "url": "http://commons.apache.org/sandbox/commons-cli2"
+  },
+  {
+    "name": "Codec",
+    "url": "http://commons.apache.org/proper/commons-codec",
+    "description": "General encoding/decoding algorithms (for example phonetic, base64, URL)."
+  },
+  {
+    "name": "Collections",
+    "url": "http://commons.apache.org/proper/commons-collections",
+    "description": "Extends or augments the Java Collections Framework."
+  },
+  {
+    "name": "Compress",
+    "url": "http://commons.apache.org/proper/commons-compress",
+    "description": "Defines an API for working with tar, zip and bzip2 files."
+  },
+  {
+    "name": "Configuration",
+    "url": "http://commons.apache.org/proper/commons-configuration",
+    "description": "Reading of configuration/preferences files in various formats."
   },
   {
     "name": "Convert",
     "url": "http://commons.apache.org/sandbox/commons-convert",
     "description": "Commons-Convert aims to provide a single library dedicated to the task of converting an object of one type to another."
+  },
+  {
+    "name": "CSV",
+    "url": "http://commons.apache.org/proper/commons-csv",
+    "description": "Component for reading and writing comma separated value files."
+  },
+  {
+    "name": "Daemon",
+    "url": "http://commons.apache.org/proper/commons-daemon",
+    "description": "Alternative invocation mechanism for unix-daemon-like java code."
+  },
+  {
+    "name": "DBCP",
+    "url": "http://commons.apache.org/proper/commons-dbcp",
+    "description": "Database connection pooling services."
+  },
+  {
+    "name": "DbUtils",
+    "url": "http://commons.apache.org/proper/commons-dbutils",
+    "description": "JDBC helper library."
+  },
+  {
+    "name": "Digester",
+    "url": "http://commons.apache.org/proper/commons-digester",
+    "description": "XML-to-Java-object mapping utility."
+  },
+  {
+    "name": "Email",
+    "url": "http://commons.apache.org/proper/commons-email",
+    "description": "Library for sending e-mail from Java."
+  },
+  {
+    "name": "Exec",
+    "url": "http://commons.apache.org/proper/commons-exec",
+    "description": "API for dealing with external process execution and environment management in Java."
+  },
+  {
+    "name": "FileUpload",
+    "url": "http://commons.apache.org/proper/commons-fileupload",
+    "description": "File upload capability for your servlets and web applications."
   },
   {
     "name": "Finder",
@@ -2036,6 +2007,11 @@
     "name": "Flatfile",
     "url": "http://commons.apache.org/sandbox/commons-flatfile",
     "description": "Java library for working with flat data structures."
+  },
+  {
+    "name": "Functor",
+    "url": "http://commons.apache.org/proper/commons-functor",
+    "description": "A functor is a function that can be manipulated as an object, or an object representing a single, generic function."
   },
   {
     "name": "Graph",
@@ -2053,14 +2029,63 @@
     "description": "Id is a component used to generate identifiers."
   },
   {
+    "name": "Imaging",
+    "url": "http://commons.apache.org/proper/commons-imaging",
+    "description": "A pure-Java image library."
+  },
+  {
+    "name": "IO",
+    "url": "http://commons.apache.org/proper/commons-io",
+    "description": "Collection of I/O utilities."
+  },
+  {
     "name": "Javaflow",
     "url": "http://commons.apache.org/sandbox/commons-javaflow",
     "description": "Continuation implementation to capture the state of the application."
   },
   {
+    "name": "JCI",
+    "url": "http://commons.apache.org/proper/commons-jci",
+    "description": "Java Compiler Interface."
+  },
+  {
+    "name": "JCS",
+    "url": "http://commons.apache.org/proper/commons-jcs",
+    "description": "Java Caching System."
+  },
+  {
+    "name": "Jelly",
+    "url": "http://commons.apache.org/proper/commons-jelly",
+    "description": "XML based scripting and processing engine."
+  },
+  {
+    "name": "Jexl",
+    "url": "http://commons.apache.org/proper/commons-jexl",
+    "description": "Expression language which extends the Expression Language of the JSTL."
+  },
+  {
     "name": "JNet",
     "url": "http://commons.apache.org/sandbox/commons-jnet",
     "description": "JNet allows to use dynamically register url stream handlers through the java.net API."
+  },
+  {
+    "name": "JXPath",
+    "url": "http://commons.apache.org/proper/commons-jxpath",
+    "description": "Utilities for manipulating Java Beans using the XPath syntax."
+  },
+  {
+    "name": "Lang",
+    "url": "http://commons.apache.org/proper/commons-lang",
+    "description": "Provides extra functionality for classes in java.lang."
+  },
+  {
+    "name": "Logging Wrapper around a variety of logging API implementations.",
+    "url": "https://en.wikipedia.org/wiki/Apache_Commons_Logging"
+  },
+  {
+    "name": "Math",
+    "url": "http://commons.apache.org/proper/commons-math",
+    "description": "Lightweight, self-contained mathematics and statistics components."
   },
   {
     "name": "Monitoring",
@@ -2071,6 +2096,16 @@
     "name": "Nabla",
     "url": "http://commons.apache.org/sandbox/commons-nabla",
     "description": "Nabla provides automatic differentiation classes that can generate derivative of any function implemented in the Java language."
+  },
+  {
+    "name": "Net",
+    "url": "http://commons.apache.org/proper/commons-net",
+    "description": "Collection of network utilities and protocol implementations."
+  },
+  {
+    "name": "OGNL",
+    "url": "http://commons.apache.org/proper/commons-ognl",
+    "description": "An Object-Graph Navigation Language."
   },
   {
     "name": "OpenPGP",
@@ -2086,6 +2121,46 @@
     "name": "Pipeline",
     "url": "http://commons.apache.org/sandbox/commons-pipeline",
     "description": "Provides a set of pipeline utilities designed around work queues that run in parallel to sequentially process data objects."
+  },
+  {
+    "name": "Pool",
+    "url": "http://commons.apache.org/proper/commons-pool",
+    "description": "Generic object pooling component."
+  },
+  {
+    "name": "Proxy",
+    "url": "http://commons.apache.org/proper/commons-proxy",
+    "description": "Library for creating dynamic proxies."
+  },
+  {
+    "name": "RDF",
+    "url": "https://commons.apache.org/proper/commons-rdf",
+    "description": "Common implementation of RDF 1.1 that could be implemented by systems on the JVM."
+  },
+  {
+    "name": "RNG",
+    "url": "https://commons.apache.org/proper/commons-rng",
+    "description": "Commons Rng provides implementations of pseudo-random numbers generators."
+  },
+  {
+    "name": "SCXML",
+    "url": "http://commons.apache.org/proper/commons-scxml",
+    "description": "An implementation of the State Chart XML specification aimed at creating and maintaining a Java SCXML engine."
+  },
+  {
+    "name": "Validator",
+    "url": "http://commons.apache.org/proper/commons-validator",
+    "description": "Framework to define validators and validation rules in an xml file."
+  },
+  {
+    "name": "VFS",
+    "url": "http://commons.apache.org/proper/commons-vfs",
+    "description": "Virtual File System component for treating files, FTP, SMB, ZIP and such like as a single logical file system."
+  },
+  {
+    "name": "Weaver",
+    "url": "http://commons.apache.org/proper/commons-weaver",
+    "description": "Provides an easy way to enhance (weave) compiled bytecode."
   },
   {
     "name": "CUBA Platform",
@@ -2153,6 +2228,11 @@
     "description": "Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics."
   },
   {
+    "name": "Elide",
+    "url": "http://elide.io/",
+    "description": "Opinionated framework for JSON- or GraphQL-APIs based on a JPA data model."
+  },
+  {
     "name": "Jersey",
     "url": "https://jersey.github.io",
     "description": "JAX-RS reference implementation."
@@ -2215,6 +2295,11 @@
     "name": "GraphStream",
     "url": "http://graphstream-project.org",
     "description": "Library for modeling and analyzing dynamic graphs."
+  },
+  {
+    "name": "JFreeChart",
+    "url": "http://www.jfree.org/jfreechart",
+    "description": "2D chart library for Swing, JavaFX and server-side applications."
   },
   {
     "name": "JGraphT",
@@ -2320,6 +2405,11 @@
     "name": "PicketLink",
     "url": "http://picketlink.org",
     "description": "Umbrella project for security and identity management."
+  },
+  {
+    "name": "SecurityBuilder",
+    "url": "https://github.com/tersesystems/securitybuilder",
+    "description": "Fluent Builder API for JCA and JSSE classes and especially X.509 certificates."
   },
   {
     "name": "Themis",
@@ -2492,6 +2582,11 @@
     "description": "JUnit test runner and plugins for running JUnit tests with pseudo-randomness."
   },
   {
+    "name": "Java Faker",
+    "url": "https://github.com/DiUS/java-faker",
+    "description": "A port of Ruby's fake data generator."
+  },
+  {
     "name": "ArchUnit",
     "url": "https://github.com/TNG/ArchUnit",
     "description": "Test library for specifying and asserting architecture rules."
@@ -2610,6 +2705,11 @@
     "name": "JUnitParams",
     "url": "https://pragmatists.github.io/JUnitParams",
     "description": "Creates readable and maintainable parametrised tests."
+  },
+  {
+    "name": "bucket4j",
+    "url": "https://github.com/vladimir-bukhtoyarov/bucket4j",
+    "description": "Rate limiting library based on token-bucket algorithm."
   },
   {
     "name": "cactoos",
@@ -2868,7 +2968,7 @@
   },
   {
     "name": "The Java Council",
-    "url": "https://virtualjug.com/podcast"
+    "url": "https://virtualjug.com/#podcast"
   },
   {
     "name": "The Java Posse",
