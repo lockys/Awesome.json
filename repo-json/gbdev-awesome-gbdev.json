@@ -13,11 +13,6 @@
     "description": "Overview of the Game Boy hardware with the perspective of building an emulator."
   },
   {
-    "name": "To C Or Not To C",
-    "url": "https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d615409fd",
-    "description": "Overview of the Game Boy's capabilities, discussing the pros and cons of the available development tools, and providing tips to write more efficient code."
-  },
-  {
     "name": "gbdev Discord Server",
     "url": "https://discord.gg/gpBxq85"
   },
@@ -34,11 +29,6 @@
     "name": "devrs.com/gb",
     "url": "http://devrs.com/gb",
     "description": "Old home of the scene: examples, sources, complete documentation, guides, tutorials and various tools."
-  },
-  {
-    "name": "Game Boy Programming Manual",
-    "url": "https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf",
-    "description": "Official Game Boy programming and hardware manual by Nintendo."
   },
   {
     "name": "Pan Docs",
@@ -77,15 +67,6 @@
     "name": "GB ASM Tips",
     "url": "https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-asm-tips.txt",
     "description": "Some tips for coding in Assembly by Jeff Frohwein."
-  },
-  {
-    "name": "ASMotor documentation",
-    "url": "https://github.com/csoren/asmotor/blob/develop/doc/documentation.pdf",
-    "description": "A portable and generic assembler engine and development system described as the 'spiritual successor to RGBDS'."
-  },
-  {
-    "name": "ASMotor v1.10 documentation",
-    "url": "http://otakunozoku.com/RGBDSdocs/"
   },
   {
     "name": "gbdev FAQs",
@@ -324,7 +305,7 @@
   {
     "name": "GB Rom List",
     "url": "CartridgeList.csv",
-    "description": "Navigable table of every GB game released with details on their cartridges."
+    "description": "Navigable table of every game released with details on their cartridges."
   },
   {
     "name": "Game Boy cartridge PCB photos",
@@ -339,6 +320,16 @@
     "name": "Wolf",
     "url": "http://www.happydaze.se/wolf/",
     "description": "Game Boy cartridge with co-processor."
+  },
+  {
+    "name": "Homebrew-Gameboy-Cartridge",
+    "url": "https://github.com/dwaq/Homebrew-Gameboy-Cartridge",
+    "description": "Eagle library, schematic, and board files for a cartridge PCB that using an Atmel AT49F040 as ROM."
+  },
+  {
+    "name": "Homebrew Gameboy Color Cartridge",
+    "url": "https://github.com/Xyl2k/Gameboy-Color-Cartridge",
+    "description": "Board layout for an EEPROM powered cartridge."
   },
   {
     "name": "Reverse Engineering fine details of Game Boy hardware (errata)",
@@ -431,6 +422,11 @@
     "name": "RGBDS",
     "url": "https://github.com/rednex/rgbds",
     "description": "Assembler and linker package. Documentation."
+  },
+  {
+    "name": "ASMotor",
+    "url": "https://github.com/csoren/asmotor",
+    "description": "Assembler engine and development system targeting Game Boy, among other CPUs. Written by the original RGBDS author. Documentation."
   },
   {
     "name": "wla-dx",
@@ -653,9 +649,9 @@
     "description": "Definition and specification of a custom GB/GBC memory/hardware mapper, as a functional superset of MBC."
   },
   {
-    "name": "gb asm tutorial",
-    "url": "https://eldred.fr/gb-asm-tutorial",
-    "description": "Step by step tutorial, building several ROMs to accompany its explanations."
+    "name": "libstdgb",
+    "url": "https://github.com/delwink/libstdgb",
+    "description": "A C library of useful Game Boy operations (SDCC)."
   },
   {
     "name": "ASMSchool",
@@ -666,11 +662,6 @@
     "name": "hardware.inc",
     "url": "https://github.com/tobiasvl/hardware.inc",
     "description": "Standard include file containing Game Boy hardware definitions for use in RGBDS projects."
-  },
-  {
-    "name": "dev'rs ASM section",
-    "url": "http://www.devrs.com/gb/asmcode.php",
-    "description": "A lot of working demos and sources."
   },
   {
     "name": "Assembly tutorial by David Pello",
@@ -708,6 +699,21 @@
     "name": "GameBoy programming tutorial: Hello World!",
     "url": "http://peterwynroberts.com/?p=10",
     "description": "Step by step tutorial."
+  },
+  {
+    "name": "DMGreport",
+    "url": "https://github.com/lancekindle/DMGreport",
+    "description": "Game programming tutorials in assembly."
+  },
+  {
+    "name": "dev'rs ASM section",
+    "url": "http://www.devrs.com/gb/asmcode.php",
+    "description": "A lot of working demos and sources."
+  },
+  {
+    "name": "EmmaEwert's experiments",
+    "url": "https://github.com/EmmaEwert/gameboy",
+    "description": "A collection of prototype programs, mostly just toying around. Among others, a daylight effect, transparency and a weather effect."
   },
   {
     "name": "Game Boy DMA transfer routines",
@@ -758,6 +764,45 @@
     "name": "Gameboy Boilerplate",
     "url": "https://github.com/junebug12851/GameboyBoilerplateProj",
     "description": "Boilerplate project to move quicker into the actual assembly code for your game."
+  },
+  {
+    "name": "Atom language package for RGBASM",
+    "url": "https://atom.io/packages/language-rgbasm",
+    "description": "Atom syntax highlighting for RGBDS assembly."
+  },
+  {
+    "name": "gbz80-highlight",
+    "url": "https://github.com/ISSOtm/gbz80-highlight",
+    "description": "Notepad++ and gedit syntax highlighting files for RGBDS assembly."
+  },
+  {
+    "name": "Vim syntax file for the Game Boy assembler RGBASM",
+    "url": "http://www.vim.org/scripts/script.php?script_id=819",
+    "description": "Vim syntax highlighting for RGBDS assembly."
+  },
+  {
+    "name": "Vim syntax file for RGBDS",
+    "url": "https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim",
+    "description": "Another Vim syntax highlighting file for RGBDS assembly."
+  },
+  {
+    "name": "rgbds_textmate",
+    "url": "https://github.com/Bananattack/rgbds_textmate",
+    "description": "Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3. The syntax is particularly designed for RGBDS and Game Boy-specific Z80 instructions."
+  },
+  {
+    "name": "Z80 Assembly support for Visual Studio Code",
+    "url": "https://github.com/Imanolea/z80asm-vscode"
+  },
+  {
+    "name": "rgbds-vscode",
+    "url": "https://github.com/DonaldHays/rgbds-vscode",
+    "description": "Visual Studio Code language extension for RGBDS GBZ80 Assembly"
+  },
+  {
+    "name": "rgbds-mode",
+    "url": "https://github.com/japanoise/rgbds-mode",
+    "description": "Emacs major mode for RGBDS assembly."
   },
   {
     "name": "8-Bit Wonderland",
@@ -811,40 +856,6 @@
   {
     "name": "Simplified GBDK examples",
     "url": "https://github.com/mrombout/gbdk_playground"
-  },
-  {
-    "name": "Atom language package for RGBASM",
-    "url": "https://atom.io/packages/language-rgbasm",
-    "description": "Atom syntax highlighting for RGBDS assembly."
-  },
-  {
-    "name": "gbz80-highlight",
-    "url": "https://github.com/ISSOtm/gbz80-highlight",
-    "description": "Notepad++ and gedit syntax highlighting files for RGBDS assembly."
-  },
-  {
-    "name": "Vim syntax file for the Game Boy assembler RGBASM",
-    "url": "http://www.vim.org/scripts/script.php?script_id=819",
-    "description": "Vim syntax highlighting for RGBDS assembly."
-  },
-  {
-    "name": "Vim syntax file for RGBDS",
-    "url": "https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim",
-    "description": "Another Vim syntax highlighting file for RGBDS assembly."
-  },
-  {
-    "name": "rgbds_textmate",
-    "url": "https://github.com/Bananattack/rgbds_textmate",
-    "description": "Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3. The syntax is particularly designed for RGBDS and Game Boy-specific Z80 instructions."
-  },
-  {
-    "name": "Z80 Assembly support for Visual Studio Code",
-    "url": "https://github.com/Imanolea/z80asm-vscode"
-  },
-  {
-    "name": "rgbds-vscode",
-    "url": "https://github.com/DonaldHays/rgbds-vscode",
-    "description": "Visual Studio Code language extension for RGBDS GBZ80 Assembly"
   },
   {
     "name": "Homebrew Hub",
@@ -952,6 +963,14 @@
   {
     "name": "superhappyfunbubbletime",
     "url": "https://github.com/l0k1/superhappyfunbubbletime"
+  },
+  {
+    "name": "minesweepGB",
+    "url": "https://github.com/lancekindle/minesweepGB"
+  },
+  {
+    "name": "Libbet and the Magic Floor",
+    "url": "https://github.com/pinobatch/libbet"
   },
   {
     "name": "FlappyBoy",
@@ -1066,6 +1085,44 @@
     "description": "A Matrix digital rain effect in assembler."
   },
   {
+    "name": "GBVideoPlayer",
+    "url": "https://github.com/LIJI32/GBVideoPlayer",
+    "description": "A technical demo demonstrating how the Game Boy LCD controller can be hacked to make a Game Boy Color play a full motion video in color, together with music."
+  },
+  {
+    "name": "GBVideoPlayer2",
+    "url": "https://github.com/LIJI32/GBVideoPlayer2",
+    "description": "The second iteration of the above demo, which increases the resolution, adds stereo PCM audio, and introduces video compression."
+  },
+  {
+    "name": "Reverse engineering Kirby's Dreamland 2",
+    "url": "http://ecc-comp.blogspot.it/2016/03/reverse-engineering-kirbys-dreamland-2.html"
+  },
+  {
+    "name": "pokemontools",
+    "url": "https://github.com/pret/pokemon-reverse-engineering-tools",
+    "description": "a python module that provides various reverse engineering components for various Pokémon games."
+  },
+  {
+    "name": "Reverse Engineering a Gameboy ROM with radare2",
+    "url": "https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2",
+    "description": "A walkthrough to reverse engineer a Game Boy ROM challenge using radare2."
+  },
+  {
+    "name": "Disassembling Link's Awakening",
+    "url": "http://kemenaran.winosx.com/posts/category-disassembling-links-awakening/",
+    "description": "A series of blog posts about disassembling Link's Awakening DX."
+  },
+  {
+    "name": "Reverse Engineering the GameBoy Tetris",
+    "url": "https://github.com/h3nnn4n/Reverse-Engineering-the-GameBoy-Tetris"
+  },
+  {
+    "name": "DMA hijacking",
+    "url": "https://github.com/avivace/awesome-gbdev/blob/master/articles/dma_hijacking.md",
+    "description": "A simple technique that allows you to run custom code in most GB/SGB/CGB games, provided you have an ACE exploit."
+  },
+  {
     "name": "Pokémon Red/Blue",
     "url": "https://github.com/pret/pokered"
   },
@@ -1121,34 +1178,6 @@
     "description": "An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features."
   },
   {
-    "name": "Reverse engineering Kirby's Dreamland 2",
-    "url": "http://ecc-comp.blogspot.it/2016/03/reverse-engineering-kirbys-dreamland-2.html"
-  },
-  {
-    "name": "pokemontools",
-    "url": "https://github.com/pret/pokemon-reverse-engineering-tools",
-    "description": "a python module that provides various reverse engineering components for various Pokémon games."
-  },
-  {
-    "name": "Reverse Engineering a Gameboy ROM with radare2",
-    "url": "https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2",
-    "description": "A walkthrough to reverse engineer a Game Boy ROM challenge using radare2."
-  },
-  {
-    "name": "Disassembling Link's Awakening",
-    "url": "http://kemenaran.winosx.com/posts/category-disassembling-links-awakening/",
-    "description": "A series of blog posts about disassembling Link's Awakening DX."
-  },
-  {
-    "name": "Reverse Engineering the GameBoy Tetris",
-    "url": "https://github.com/h3nnn4n/Reverse-Engineering-the-GameBoy-Tetris"
-  },
-  {
-    "name": "DMA hijacking",
-    "url": "https://github.com/avivace/awesome-gbdev/blob/master/articles/dma_hijacking.md",
-    "description": "A simple technique that allows you to run custom code in most GB/SGB/CGB games, provided you have an ACE exploit."
-  },
-  {
     "name": "ArduinoBoy",
     "url": "https://github.com/trash80/Arduinoboy",
     "description": "Serial communication (MIDI) from an Arduino to the Game Boy for music applications such as LittleSoundDJ, Nanoloop, and mGB."
@@ -1187,11 +1216,6 @@
     "name": "GBVisualizer",
     "url": "https://github.com/LIJI32/GBVisualizer",
     "description": "Demonstrating the use of two undocumented Game Boy Color registers, nicknamed PCM12 (FF76) and PCM34 (FF77), which can be used to read the current PCM amplitude of the 4 APU channels."
-  },
-  {
-    "name": "GBVideoPlayer",
-    "url": "https://github.com/LIJI32/GBVideoPlayer",
-    "description": "A technical demo demonstrating how the Game Boy LCD controller can be hacked to make a Game Boy Color play a full motion video in color, together with music."
   },
   {
     "name": "ArduinoGameBoy",
@@ -1267,6 +1291,11 @@
     "name": "Game Boy video effects",
     "url": "https://github.com/ChaosCabbage/crazy-gameboy-video-experiments",
     "description": "Some little experiments using the STAT interrupt to do funny video manipulations."
+  },
+  {
+    "name": "gbos",
+    "url": "https://github.com/ekimekim/gbos",
+    "description": "A basic operating system for the Game Boy."
   },
   {
     "name": "Archive of related files",

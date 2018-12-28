@@ -1,10 +1,5 @@
 [
   {
-    "name": "#graphql on Freenode",
-    "url": "https://webchat.freenode.net/?channels=#graphql",
-    "description": "The official IRC channel for GraphQL"
-  },
-  {
     "name": "Facebook",
     "url": "https://www.facebook.com/groups/795330550572866/",
     "description": "Group for discussions, articles and knowledge sharing"
@@ -70,6 +65,10 @@
     "url": "https://www.meetup.com/GraphQL-SF/"
   },
   {
+    "name": "Seattle",
+    "url": "https://www.meetup.com/Seattle-GraphQL/"
+  },
+  {
     "name": "Sydney",
     "url": "https://www.meetup.com/GraphQL-Sydney/"
   },
@@ -88,7 +87,7 @@
   },
   {
     "name": "aws-amplify",
-    "url": "https://github.com/aws/aws-amplify",
+    "url": "https://github.com/aws-amplify/amplify-js",
     "description": "A client library developed by Amazon for caching, analytics and more that includes a way to fetch GraphQL queries."
   },
   {
@@ -142,6 +141,11 @@
     "description": "Create a GraphQL HTTP server with Hapi."
   },
   {
+    "name": "hapi-plugin-graphiql",
+    "url": "https://github.com/rse/hapi-plugin-graphiql",
+    "description": "HAPI plugin for GraphiQL integration."
+  },
+  {
     "name": "codemirror-graphql",
     "url": "https://github.com/graphql/codemirror-graphql",
     "description": "GraphQL mode and helpers for CodeMirror."
@@ -157,19 +161,14 @@
     "description": "Sequelize helpers for GraphQL."
   },
   {
-    "name": "graphql-sequelize-crud",
-    "url": "https://github.com/Glavin001/graphql-sequelize-crud",
-    "description": "Automatically generate queries and mutations from Sequelize models."
+    "name": "graphql-tools-sequelize",
+    "url": "https://github.com/rse/graphql-tools-sequelize",
+    "description": "OO-style schema definition functions and schema resolver functions for GraphQL-Tools using Sequelize ORM"
   },
   {
-    "name": "graffiti",
-    "url": "https://github.com/RisingStack/graffiti",
-    "description": "Node.js GraphQL ORM."
-  },
-  {
-    "name": "graffiti-mongoose",
-    "url": "https://github.com/RisingStack/graffiti-mongoose",
-    "description": "Mongoose (MongoDB) adapter for graffiti (Node.js GraphQL ORM)."
+    "name": "graphql-tools-types",
+    "url": "https://github.com/rse/graphql-tools-types",
+    "description": "Custom GraphQL types for use with GraphQL-Tools (Void, Int, Float, String, Date, UUID, JSON)"
   },
   {
     "name": "babel-plugin-graphql",
@@ -185,11 +184,6 @@
     "name": "graphql-bookshelf",
     "url": "https://github.com/brysgo/graphql-bookshelf",
     "description": "Some help defining GraphQL schema around BookshelfJS models."
-  },
-  {
-    "name": "graphql-bookshelfjs",
-    "url": "https://github.com/weyoss/graphql-bookshelfjs",
-    "description": "A simple bridge between your graphql queries and your bookshelf models, perform batched and optimised queries."
   },
   {
     "name": "graph.ql",
@@ -217,18 +211,23 @@
     "description": "Proof of Concept for annotations in GraphQL (i.e.: transform an existing REST api into a GraphQL endpoint)."
   },
   {
+    "name": "Apollo Client",
+    "url": "https://github.com/apollographql/apollo-client",
+    "description": "A well-documented GraphQL client that integrates with Redux. Has React and Angular bindings."
+  },
+  {
     "name": "graphql-tools",
-    "url": "https://github.com/apollographql/graphql-tools",
+    "url": "https://github.com/apollostack/graphql-tools",
     "description": "Tool library for building and maintaining GraphQL-JS servers."
   },
   {
     "name": "graphql-anywhere",
-    "url": "https://github.com/apollographql/graphql-anywhere",
+    "url": "https://github.com/apollostack/graphql-anywhere",
     "description": "Run a GraphQL query anywhere, against any data, with no schema."
   },
   {
     "name": "graphql-tag",
-    "url": "https://github.com/apollographql/graphql-tag",
+    "url": "https://github.com/apollostack/graphql-tag",
     "description": "A JavaScript template literal tag that parses GraphQL queries."
   },
   {
@@ -273,18 +272,8 @@
   },
   {
     "name": "Join Monster",
-    "url": "https://github.com/stems/join-monster",
+    "url": "https://github.com/acarl005/join-monster",
     "description": "A GraphQL-to-SQL query execution layer for batch data fetching."
-  },
-  {
-    "name": "Create-GraphQL",
-    "url": "https://github.com/graphql-community/create-graphql",
-    "description": "Command-line utility to build production-ready servers with GraphQL."
-  },
-  {
-    "name": "GraphQL-Pokémon",
-    "url": "https://github.com/lucasbento/graphql-pokemon",
-    "description": "Get information of a Pokémon with GraphQL!"
   },
   {
     "name": "graphql-factory",
@@ -292,109 +281,9 @@
     "description": "Create GraphQL types from JSON definitions"
   },
   {
-    "name": "ChromeiQL",
-    "url": "https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij",
-    "description": "Chrome extension to use GraphiQL anywhere"
-  },
-  {
-    "name": "graphql-auto-mutation",
-    "url": "https://github.com/ejoebstl/graphql-auto-mutation",
-    "description": "Automatically generates functions for mutations specified in a GraphQL schema."
-  },
-  {
-    "name": "GraphiteJS",
-    "url": "https://github.com/graphitejs/graphitejs",
-    "description": "Full stack GraphQL framework."
-  },
-  {
-    "name": "loopback-graphql",
-    "url": "https://github.com/tallyb/loopback-graphql",
-    "description": "GraphQL Server for Loopback."
-  },
-  {
-    "name": "parasprite",
-    "url": "https://github.com/octet-stream/parasprite",
-    "description": "Describe your GraphQL schema using chainable interface."
-  },
-  {
-    "name": "GraphQL.js",
-    "url": "https://github.com/f/graphql.js",
-    "description": "JavaScript GraphQL Client for Browser and Node.js Usage"
-  },
-  {
-    "name": "graphql-sync",
-    "url": "https://github.com/arangodb/graphql-sync",
-    "description": "Promise-free wrapper to GraphQL.js for synchronous environments"
-  },
-  {
-    "name": "Spikenail",
-    "url": "https://github.com/spikenail/spikenail",
-    "description": "Node.js framework for building GraphQL API almost without coding."
-  },
-  {
-    "name": "graphql-weaver",
-    "url": "https://github.com/AEB-labs/graphql-weaver",
-    "description": "A tool to combine, link and transform GraphQL schemas; combine multiple GraphQL servers into one API."
-  },
-  {
-    "name": "graphql-lodash",
-    "url": "https://github.com/APIs-guru/graphql-lodash",
-    "description": "Data manipulation for GraphQL queries with lodash syntax."
-  },
-  {
-    "name": "apollo-angular",
-    "url": "https://github.com/apollographql/apollo-angular",
-    "description": "Angular integration for Apollo."
-  },
-  {
-    "name": "graphql-resolvers",
-    "url": "https://github.com/lucasconstantino/graphql-resolvers",
-    "description": "Resolver composition library for GraphQL."
-  },
-  {
-    "name": "apollo-resolvers",
-    "url": "https://github.com/thebigredgeek/apollo-resolvers",
-    "description": "Expressive and composable resolvers for Apollo Server and graphql-tools."
-  },
-  {
-    "name": "apollo-errors",
-    "url": "https://github.com/thebigredgeek/apollo-errors",
-    "description": "Machine-readable custom errors for Apollo Server."
-  },
-  {
-    "name": "graphql-disable-introspection",
-    "url": "https://github.com/helfer/graphql-disable-introspection",
-    "description": "Graphql Disable Introspection"
-  },
-  {
-    "name": "mongo-graphql-starter",
-    "url": "https://github.com/arackaf/mongo-graphql-starter",
-    "description": "Flexible and robust Mongo based resolvers for Node."
-  },
-  {
-    "name": "altair-express-middleware",
-    "url": "https://github.com/imolorhe/altair",
-    "description": "An express middleware for mounting an instance of Altair GraphQL client."
-  },
-  {
-    "name": "graphql-cost-analysis",
-    "url": "https://github.com/pa-bru/graphql-cost-analysis",
-    "description": "A Graphql query cost analyzer."
-  },
-  {
-    "name": "gql",
-    "url": "https://github.com/Mayank1791989/gql",
-    "description": "Graphql service which watches project files and provides validation, auto-completion, get defintion, etc. for GraphQL schema and queries. Works with Relay classic, Relay modern and Apollo, as well as embedded GraphQL queries within any other language such as JS, Golang, Ruby, Cucumber test files, etc."
-  },
-  {
-    "name": "gql-language-server",
-    "url": "https://github.com/Mayank1791989/gql-language-server",
-    "description": "A language-server implementation on top of the gql library."
-  },
-  {
-    "name": "relay",
-    "url": "https://github.com/facebook/relay",
-    "description": "Relay is a JavaScript framework for building data-driven React applications."
+    "name": "type-o-rama",
+    "url": "https://github.com/stereobooster/type-o-rama",
+    "description": "JS type systems interportability."
   },
   {
     "name": "graphql-relay-js",
@@ -408,7 +297,7 @@
   },
   {
     "name": "babel-plugin-react-relay",
-    "url": "https://github.com/graphcool/babel-plugin-react-relay",
+    "url": "https://github.com/prisma/babel-plugin-react-relay",
     "description": "Babel Plugin for Relay with support for JSON & graphql-js schemas and URL endpoints."
   },
   {
@@ -442,18 +331,13 @@
     "description": "A GraysQL extension to create a Relay compatible Schema."
   },
   {
-    "name": "Apollo Client",
-    "url": "https://github.com/apollographql/apollo-client",
-    "description": "A simple alternative to Relay, comes with React and Angular bindings."
-  },
-  {
     "name": "react-relay-network-layer",
-    "url": "https://github.com/nodkz/react-relay-network-layer",
+    "url": "https://github.com/relay-tools/react-relay-network-layer",
     "description": "A network layer for Relay with query batching and middleware support (urlThunk, retryThunk, auth, defer and other)."
   },
   {
     "name": "relay-subscriptions",
-    "url": "https://github.com/edvinerikson/relay-subscriptions",
+    "url": "https://github.com/relay-tools/relay-subscriptions",
     "description": "Subscription support for Relay."
   },
   {
@@ -462,49 +346,9 @@
     "description": "An example website that fetches data from various apis and uses Relay and GraphQL to feed the data to React components!"
   },
   {
-    "name": "Relay Pokédex",
-    "url": "https://github.com/lucasbento/react-relay-pokemon",
-    "description": "Project using GraphQL Pokémon to show how powerful Relay is."
-  },
-  {
-    "name": "vue-relay",
-    "url": "https://github.com/ntkme/vue-relay",
-    "description": "A framework for building GraphQL-driven Vue.js applications."
-  },
-  {
-    "name": "Vesper",
-    "url": "http://vesper-framework.com",
-    "description": "NodeJS framework that helps you to create scalable, maintainable, extensible, declarative and fast GraphQL-based server applications."
-  },
-  {
-    "name": "graphql-strong",
-    "url": "https://github.com/calebmer/graphql-strong",
-    "description": "Define your GraphQL schemas with confidence that your values are correct."
-  },
-  {
-    "name": "graphql-to-typescript",
-    "url": "https://github.com/3VLINC/graphql-to-typescript",
-    "description": "Compiles GraphQL files into an importable typescript module with type definitions"
-  },
-  {
-    "name": "graphql-decorator",
-    "url": "https://github.com/Quramy/graphql-decorator",
-    "description": "Helps to build GraphQL schema with TypeScript."
-  },
-  {
-    "name": "graphql-schema-decorator",
-    "url": "https://github.com/indigotech/graphql-schema-decorator",
-    "description": "This package makes possible the use of decorators to define a GraphQL schema."
-  },
-  {
-    "name": "graphql-typescript",
-    "url": "https://github.com/vichyssoise/graphql-typescript",
-    "description": "Define and build GraphQL Schemas using typed classes"
-  },
-  {
-    "name": "typegql",
-    "url": "https://github.com/prismake/typegql",
-    "description": "Create GraphQL schema with type-safe class decorators."
+    "name": "graphql-relay-ruby",
+    "url": "https://github.com/rmosolgo/graphql-relay-ruby",
+    "description": "Relay helpers for GraphQL & Ruby."
   },
   {
     "name": "graphql-parser",
@@ -522,28 +366,9 @@
     "description": "A query batching executor for the graphql gem."
   },
   {
-    "name": "batch-loader – A powerful tool to avoid N+1 queries without extra dependencies or primitives.",
-    "url": "https://github.com/exaspark/batch-loader"
-  },
-  {
-    "name": "graphql-guard",
-    "url": "https://github.com/exAspArk/graphql-guard",
-    "description": "A simple field-level authorization for the graphql gem."
-  },
-  {
-    "name": "graphql-cache",
-    "url": "https://github.com/stackshareio/graphql-cache",
-    "description": "A dead simple caching plugin for graphql-ruby."
-  },
-  {
     "name": "graphql-relay-php",
     "url": "https://github.com/ivome/graphql-relay-php",
     "description": "Relay helpers for GraphQL & PHP."
-  },
-  {
-    "name": "API Platform",
-    "url": "https://github.com/api-platform/api-platform",
-    "description": "API framework compatible with Symfony having native GraphQL support."
   },
   {
     "name": "laravel-graphql",
@@ -562,7 +387,7 @@
   },
   {
     "name": "graphql-bundle",
-    "url": "https://github.com/suribit/GraphQLBundle",
+    "url": "https://github.com/hoticeking/GraphQLBundle",
     "description": "GraphQL Bundle for Symfony 2."
   },
   {
@@ -572,16 +397,11 @@
   },
   {
     "name": "GraphQL – Well documented PHP implementation with no dependencies.",
-    "url": "https://github.com/Youshido/GraphQL"
+    "url": "https://github.com/youshido-php/GraphQL"
   },
   {
     "name": "GraphQL Symfony Bundle – GraphQL Bundle for the Symfony 3 (supports 2.6+).",
-    "url": "https://github.com/Youshido/GraphQLBundle"
-  },
-  {
-    "name": "WPGraphQL",
-    "url": "https://github.com/wp-graphql/wp-graphql",
-    "description": "WordPress plugin that exposes a Relay compliant GraphQL endpoint"
+    "url": "https://github.com/youshido-php/GraphQLBundle"
   },
   {
     "name": "graphql-wp – a WordPress plugin that exposes a GraphQL endpoint.",
@@ -601,11 +421,6 @@
     "name": "Zend Expressive GraphiQL Extension",
     "url": "https://github.com/stefanorg/zend-expressive-graphiql",
     "description": "GraphiQL extension for zend expressive"
-  },
-  {
-    "name": "GraphQL for PHP7",
-    "url": "https://github.com/digiaonline/graphql-php",
-    "description": "A batteries-included, standard-compliant and easy to work with implementation of the GraphQL specification in PHP7 (based on the reference implementation)."
   },
   {
     "name": "graphql-core",
@@ -633,6 +448,11 @@
     "description": "Adds GraphQL support to Google AppEngine (GAE)."
   },
   {
+    "name": "django-graphiql",
+    "url": "https://github.com/graphql-python/django-graphiql",
+    "description": "Integrate GraphiQL easily into your Django project."
+  },
+  {
     "name": "flask-graphql",
     "url": "https://github.com/graphql-python/flask-graphql",
     "description": "Adds GraphQL support to your Flask application."
@@ -658,7 +478,7 @@
     "description": "An authentication library for Flask inspired from flask-jwt-extended."
   },
   {
-    "name": "graphql-java-type-generator",
+    "name": "gaphql-java-type-generator",
     "url": "https://github.com/graphql-java/graphql-java-type-generator",
     "description": "Auto-generates types for use with GraphQL Java"
   },
@@ -673,19 +493,24 @@
     "description": "Provides annotations-based syntax for schema definition with GraphQL Java."
   },
   {
+    "name": "graphql-java-tools",
+    "url": "https://github.com/Cox-Automotive/graphql-java-tools",
+    "description": "Schema-first graphql-java convenience library that makes it easy to bring your own implementations as data resolvers.  Inspired by graphql-tools for JS."
+  },
+  {
+    "name": "graphql-java-servlet",
+    "url": "https://github.com/graphql-java/graphql-java-servlet",
+    "description": "A framework-agnostic java servlet for exposing graphql-java query endpoints with GET, POST, and multipart uploads."
+  },
+  {
     "name": "spring-graphql-common",
     "url": "https://github.com/oembedler/spring-graphql-common",
     "description": "Spring Framework GraphQL Library."
   },
   {
     "name": "graphql-spring-boot",
-    "url": "https://github.com/graphql-java/graphql-spring-boot",
+    "url": "https://github.com/oembedler/graphql-spring-boot",
     "description": "GraphQL and GraphiQL Spring Framework Boot Starters."
-  },
-  {
-    "name": "neo4j-graphql",
-    "url": "https://github.com/neo4j-graphql/neo4j-graphql",
-    "description": "GraphQL bindings for Neo4j, generates and runs Cypher."
   },
   {
     "name": "vertx-graphql-service-discovery",
@@ -698,24 +523,18 @@
     "description": "Port of Facebook DataLoader for efficient, asynchronous batching and caching in clustered GraphQL environments"
   },
   {
-    "name": "LiveGQL",
-    "url": "https://github.com/Billy-Bichon/LiveGQL",
-    "description": "GraphQL subscription client in Java."
+    "name": "Light Java GraphQL: A lightweight, fast microservices framework with all cross-cutting concerns addressed and ready to plug in GraphQL schema.",
+    "url": "https://github.com/networknt/light-java-graphql"
   },
   {
-    "name": "rdbms-to-graphql",
-    "url": "https://github.com/ebridges/rdbms-to-graphql",
-    "description": "A Java CLI program that generates a GraphQL schema from a JDBC data source."
+    "name": "graphql-go",
+    "url": "https://github.com/graph-gophers/graphql-go",
+    "description": "GraphQL server with a focus on ease of use (was https://github.com/neelance/graphql-go)."
   },
   {
-    "name": "Rejoiner",
-    "url": "https://github.com/google/rejoiner",
-    "description": "Generates a GraphQL schema based on one or more gRPC microservices, or any other Protobuf source."
-  },
-  {
-    "name": "graphql-spqr",
-    "url": "https://github.com/leangen/graphql-spqr",
-    "description": "GraphQL SPQR aims to make it dead simple to add a GraphQL API to any Java project. It works by dynamically generating a GraphQL schema from Java code."
+    "name": "GQLGen",
+    "url": "https://github.com/99designs/gqlgen",
+    "description": "Go generate based graphql server library."
   },
   {
     "name": "machinebox/graphql",
@@ -728,9 +547,9 @@
     "description": "A Go/Golang library to help construct a server supporting react-relay."
   },
   {
-    "name": "graphql-go",
-    "url": "https://github.com/neelance/graphql-go",
-    "description": "GraphQL server with a focus on ease of use."
+    "name": "graphql",
+    "url": "https://github.com/tmc/graphql",
+    "description": "GraphQL parser and server for Go."
   },
   {
     "name": "c-graphqlparser",
@@ -748,11 +567,6 @@
     "description": "A powerful GraphQL server implementation for Golang"
   },
   {
-    "name": "dataloader",
-    "url": "https://github.com/nicksrandall/dataloader",
-    "description": "Implementation of Facebook's DataLoader in Golang"
-  },
-  {
     "name": "sangria-relay",
     "url": "https://github.com/sangria-graphql/sangria-relay",
     "description": "Sangria Relay Support."
@@ -763,34 +577,9 @@
     "description": "An attempt to get GraphQL going with Scala."
   },
   {
-    "name": "graphql-perl",
-    "url": "https://github.com/graphql-perl/graphql-perl",
-    "description": "GraphQL for Perl5."
-  },
-  {
-    "name": "Conventions",
-    "url": "https://github.com/graphql-dotnet/conventions",
-    "description": "Reflection-based schema generation for .NET."
-  },
-  {
     "name": "graphql-net",
     "url": "https://github.com/ckimes89/graphql-net",
     "description": "GraphQL to IQueryable for .NET"
-  },
-  {
-    "name": "FSharp.Data.GraphQL",
-    "url": "https://github.com/fsprojects/FSharp.Data.GraphQL",
-    "description": "FSharp GraphQL."
-  },
-  {
-    "name": "GraphQL.Client",
-    "url": "https://github.com/graphql-dotnet/graphql-client",
-    "description": "GraphQL Client for .NET."
-  },
-  {
-    "name": "Hot Chocolate",
-    "url": "https://github.com/ChilliCream/hotchocolate",
-    "description": "GraphQL Server for .net core and .net classic."
   },
   {
     "name": "graphql-elixir",
@@ -828,99 +617,9 @@
     "description": "Generate a GraphQL API based on your SQL database structure."
   },
   {
-    "name": "PostGraphile",
-    "url": "https://github.com/graphile/postgraphile",
-    "description": "A GraphQL API created by reflection over a PostgreSQL schema."
-  },
-  {
-    "name": "rdbms-to-graphql",
-    "url": "https://github.com/ebridges/rdbms-to-graphql",
-    "description": "A Java CLI program that generates a GraphQL schema from a JDBC data source."
-  },
-  {
-    "name": "Prisma",
-    "url": "https://github.com/graphcool/prisma",
-    "description": "Turn your database into a GraphQL API. Prisma lets you design your data model and have a production ready GraphQL API online in minutes."
-  },
-  {
-    "name": "tuql",
-    "url": "https://github.com/bradleyboy/tuql",
-    "description": "Automatically create a GraphQL server from any sqlite database."
-  },
-  {
-    "name": "Hasura",
-    "url": "https://github.com/hasura/graphql-engine",
-    "description": "Instant realtime GraphQL APIs on Postgres with access control. Works with existing database."
-  },
-  {
-    "name": "ghivert/elm-graphql",
-    "url": "https://github.com/ghivert/elm-graphql",
-    "description": "Client library that lets you build GraphQL queries in Elm with your own decoders."
-  },
-  {
-    "name": "jahewson/elm-graphql",
-    "url": "https://github.com/jahewson/elm-graphql",
-    "description": "Command-line tool that generates Elm code from queries in .graphql files."
-  },
-  {
-    "name": "lacinia",
-    "url": "https://github.com/walmartlabs/lacinia",
-    "description": "GraphQL implementation in pure Clojure."
-  },
-  {
-    "name": "alumbra",
-    "url": "https://github.com/alumbra/alumbra",
-    "description": "Simple & Elegant GraphQL for Clojure!"
-  },
-  {
-    "name": "venia",
-    "url": "https://github.com/Vincit/venia",
-    "description": "A Clojure(Script) GraphQL query generation"
-  },
-  {
-    "name": "Graphiti",
-    "url": "https://github.com/GraphQLSwift/Graphiti",
-    "description": "Build Swiftier GraphQL APIs with Swift."
-  },
-  {
-    "name": "Gryphin",
-    "url": "https://github.com/dbart01/Gryphin",
-    "description": "Type-safe GraphQL client for iOS and MacOS written in Swift."
-  },
-  {
-    "name": "Apollo-iOS",
-    "url": "https://github.com/apollographql/apollo-ios",
-    "description": "Strongly typed, code-generating, caching GraphQL client for Swift."
-  },
-  {
-    "name": "LiveGQL",
-    "url": "https://github.com/florianmari/LiveGQL",
-    "description": "GraphQL Subscription client in Swift."
-  },
-  {
-    "name": "graphql-client",
-    "url": "https://github.com/tomhoule/graphql-client",
-    "description": "GraphQL client library for Rust with WebAssembly (wasm) support."
-  },
-  {
-    "name": "graphql-parser",
-    "url": "https://github.com/graphql-rust/graphql-parser",
-    "description": "A parser, formatter and AST for the GraphQL query and schema definition language for Rust."
-  },
-  {
-    "name": "gqlr",
-    "url": "https://github.com/schloerke/gqlr",
-    "description": "GraphQL server package for R."
-  },
-  {
-    "name": "ghql",
-    "url": "https://github.com/ropensci/ghql",
-    "description": "GraphQL client package for R."
-  },
-  {
-    "name": "GraphQL Playground",
-    "url": "https://github.com/graphcool/graphql-playground",
-    "description": "GraphQL IDE that supports multi-column schema docs, tabs, query history, configuration of HTTP headers and GraphQL Subscriptions."
+    "name": "PostGraphQL",
+    "url": "https://github.com/calebmer/postgraphql",
+    "description": "A GraphQL schema created by reflection over a PostgreSQL schema."
   },
   {
     "name": "GraphiQL.app",
@@ -936,15 +635,6 @@
     "name": "graphqlviz",
     "url": "https://github.com/sheerun/graphqlviz",
     "description": "GraphQL API visualizer in Node.js"
-  },
-  {
-    "name": "Graphql for VSCode",
-    "url": "https://github.com/kumarharsh/graphql-for-vscode",
-    "description": "VSCode extension for GraphQL schema authoring & consumption. Uses the language server protocol to provide first-class editing capabilities for graphql devs."
-  },
-  {
-    "name": "Relay Playground",
-    "url": "http://facebook.github.io/relay/prototyping/playground.html"
   },
   {
     "name": "GraphQL AST Explorer",
@@ -983,7 +673,7 @@
   },
   {
     "name": "eslint-plugin-graphql",
-    "url": "https://github.com/apollographql/eslint-plugin-graphql",
+    "url": "https://github.com/apollostack/eslint-plugin-graphql",
     "description": "An ESLint plugin that checks your GraphQL strings against a schema."
   },
   {
@@ -1010,6 +700,11 @@
     "name": "graphql-autocomplete",
     "url": "https://github.com/orionsoft/atom-graphql-autocomplete",
     "description": "Autocomplete and lint from a GraphQL endpoint in Atom."
+  },
+  {
+    "name": "GraphQL Code Generator",
+    "url": "https://github.com/dotansimha/graphql-code-generator",
+    "description": "GraphQL code generator based on schema and documents."
   },
   {
     "name": "GraphQL IDE",
@@ -1081,14 +776,29 @@
     "url": "https://insomnia.rest/"
   },
   {
+    "name": "Prisma",
+    "url": "https://github.com/graphcool/prisma",
+    "description": "Turn your database into a GraphQL API. Prisma lets you design your data model and have a production ready GraphQL API online in minutes."
+  },
+  {
+    "name": "tuql",
+    "url": "https://github.com/bradleyboy/tuql",
+    "description": "Automatically create a GraphQL server from any sqlite database."
+  },
+  {
+    "name": "Bit",
+    "url": "https://github.com/teambit/bit",
+    "description": "Organize GraphQL API as components to be consumed with NPM or modified from any project (example)."
+  },
+  {
     "name": "RAN Toolkit",
     "url": "https://github.com/sly777/ran",
     "description": "Production-ready toolkit/boilerplate with support for GraphQL, SSR, Hot-reload, CSS-in-JS, caching, and more."
   },
   {
-    "name": "Dgraph",
-    "url": "https://dgraph.io/",
-    "description": "Scalable, distributed, low latency, high throughput Graph database with a GraphQL like language (called GraphQL+) as the query language. Dgrapqh can be queried with graphql by using dgraphql"
+    "name": "Apollo GraphQL VSCode Extension",
+    "url": "https://marketplace.visualstudio.com/items?itemName=apollographql.vscode-apollo",
+    "description": "Rich editor support for GraphQL client and server development that seamlessly integrates with the Apollo platform"
   },
   {
     "name": "Graphcool",
@@ -1096,44 +806,19 @@
     "description": "Your own GraphQL backend in under 5 minutes. Works with every GraphQL client such as Relay and Apollo."
   },
   {
-    "name": "Hasura",
-    "url": "https://hasura.io/",
-    "description": "Create tables and get a GraphQL backend in under 60s. Works on top of Postgres that you can directly access. No initial knowledge of graphql required."
-  },
-  {
     "name": "Reindex",
     "url": "https://www.reindex.io/",
     "description": "Instant GraphQL Backend for Your React Apps."
   },
   {
-    "name": "Scaphold",
-    "url": "https://scaphold.io/",
-    "description": "GraphQL as a service that includes API integrations such as Stripe and Mailgun."
-  },
-  {
-    "name": "Tipe",
-    "url": "https://tipe.io/",
-    "description": "Next Generation API-first CMS with a GraphQL or REST API. Stop letting your CMS decide how you build your apps."
-  },
-  {
-    "name": "AWS AppSync",
-    "url": "https://aws.amazon.com/appsync/",
-    "description": "Serverless GraphQL"
-  },
-  {
-    "name": "react-starter-kit",
-    "url": "https://github.com/kriasoft/react-starter-kit",
-    "description": "Isomorphic web app boilerplate (Node.js/Express, GraphQL, React)"
-  },
-  {
-    "name": "nodejs-api-starter",
-    "url": "https://github.com/kriasoft/nodejs-api-starter",
-    "description": "Boilerplate and tooling for authoring data API backends with Node.js and GraphQL"
+    "name": "graphql-starter-kit",
+    "url": "https://github.com/kriasoft/graphql-starter-kit",
+    "description": "Project template for building a GraphQL server with Node.js v7+ and JavaScript"
   },
   {
     "name": "swapi-graphql",
     "url": "https://github.com/graphql/swapi-graphql",
-    "description": "A GraphQL schema and server wrapping swapi."
+    "description": "A GraphQL schema and server wrapping swapi.co."
   },
   {
     "name": "graphql-server",
@@ -1143,7 +828,7 @@
   {
     "name": "graphql-intro",
     "url": "https://github.com/clayallsopp/graphql-intro",
-    "description": "https://medium.com/the-graphqlhub/your-first-graphql-server-3c766ab4f0a2"
+    "description": "https://medium.com/@clayallsopp/your-first-graphql-server-3c766ab4f0a2"
   },
   {
     "name": "graphql-aws",
@@ -1153,7 +838,7 @@
   {
     "name": "graffiti-todo",
     "url": "https://github.com/RisingStack/graffiti-todo",
-    "description": "Example Relay TodoMVC application using graffiti-mongoose."
+    "description": "Example Relay TodoMVC application using graffiti-mongoose.  WARNING Graffiti is no longer actively maintained.  For hobbyist only."
   },
   {
     "name": "devknoll/gist:8b274f1c5d05230bfade",
@@ -1161,7 +846,7 @@
   },
   {
     "name": "UniversalRelayBoilerplate\nBoilerplate + examples for React Native (iOS, Android), React (isomorphic, Material-UI), Relay, GraphQL, JWT, Node.js, Apache Cassandra.",
-    "url": "https://github.com/codefoundries/UniversalRelayBoilerplate"
+    "url": "https://github.com/MachineAcuity/rebar"
   },
   {
     "name": "vslinko/ripster",
@@ -1220,22 +905,17 @@
   {
     "name": "swapi-graphql-lambda",
     "url": "https://github.com/alvinthen/swapi-graphql-lambda",
-    "description": "A GraphQL schema hosted in AWS Lambda wrapping http://swapi.co/"
+    "description": "A GraphQL schema hosted in AWS Lambda wrapping swapi.co"
   },
   {
     "name": "Apollo Client documentation",
-    "url": "http://dev.apollodata.com/react/",
+    "url": "http://www.apollographql.com/react/",
     "description": "Documentation and example for building GraphQL apps using apollo client"
   },
   {
-    "name": "Apollo Server tools, products, and libraries documentation",
-    "url": "https://www.apollographql.com/docs/",
+    "name": "Apollo Server tools documentation",
+    "url": "https://www.apollographql.com/docs/apollo-server/",
     "description": "Documentation, tutorial and examples for building GraphQL server and connecting to SQL, MongoDB and REST endpoints."
-  },
-  {
-    "name": "Apollo Link",
-    "url": "https://www.apollographql.com/docs/link/",
-    "description": "The official guide for getting started with Apollo Link - a standard interface for modifying control flow of GraphQL requests and fetching GraphQL results."
   },
   {
     "name": "f8-apollo",
@@ -1245,7 +925,7 @@
   {
     "name": "f8app",
     "url": "https://github.com/fbsamples/f8app",
-    "description": "Source code of the official F8 app of 2016, powered by React Native and other Facebook open source projects. http://makeitopen.com"
+    "description": "Source code of the official F8 app of 2016, powered by React Native and other Facebook open source projects. makeitopen.com"
   },
   {
     "name": "Reindex Examples",
@@ -1254,7 +934,7 @@
   },
   {
     "name": "Modelizr Documentation",
-    "url": "https://julienvincent.github.io/modelizr/",
+    "url": "https://julienvincent.io/modelizr/",
     "description": "Documentation and Usage Examples for modelizr"
   },
   {
@@ -1269,7 +949,7 @@
   },
   {
     "name": "GraphQL-DataLoader-Boilerplate",
-    "url": "https://github.com/entria/graphql-dataloader-boilerplate",
+    "url": "https://github.com/sibelius/graphql-dataloader-boilerplate",
     "description": "Boilerplate to start your GraphQL with DataLoader server"
   },
   {
@@ -1285,36 +965,12 @@
   {
     "name": "Intuitive GraphQL Resolver Example",
     "url": "https://github.com/xpepermint/graphql-example",
-    "description": "GraphQL application example using RawModel.js."
+    "description": "GraphQL application example using contextable.js."
   },
   {
-    "name": "ReactQL starter kit",
-    "url": "https://reactql.org",
-    "description": "Universal React + Apollo + Redux + React Router 4, with SSR-enabled GraphQL, store (de/re)hydration and production code bundling."
-  },
-  {
-    "name": "microhn",
-    "url": "https://github.com/stubailo/microhn",
-    "description": "Simple Hacker News client built on top of GraphQLHub"
-  },
-  {
-    "name": "Apollo Web&Mobile Universal Starter Kit with Hot Code Reload",
-    "url": "https://github.com/sysgears/apollo-universal-starter-kit",
-    "description": " Apollo, GraphQL, React, React Native, Expo, Redux, Express, SQL and Twitter Bootstrap. Hot Code Reload of back end & front end using Webpack and Hot Module Replacement."
-  },
-  {
-    "name": "Building Decoupled Sites and Apps with GraphQL and Next.js",
-    "url": "https://malloc.fi/building-decoupled-sites-and-apps-with-graphql-and-next-js"
-  },
-  {
-    "name": "Apollo Graphql Express Server",
-    "url": "https://github.com/FinalDes/apollo-express-ts-server-boilerplate",
-    "description": "Minimal Apollo Graphql Express Server"
-  },
-  {
-    "name": "Prisma/Apollo/React Full-stack Example",
-    "url": "https://github.com/KATT/shop",
-    "description": "An e-commerce example project with Prisma, GraphQL API Gateway, React, Apollo, Next.js, SSR, CI, and E2E testing. All TypeScript."
+    "name": "GraphQL Tutorial",
+    "url": "https://github.com/rse/graphql-tutorial",
+    "description": "A didactic 12-step introduction to GraphQL, starting from a simple Hello World to a network-based GraphQL server with a built-in GraphQL UI"
   },
   {
     "name": "github-graphql-rails-example",
@@ -1332,7 +988,7 @@
     "description": "A graphql, relay and standard rails application powered demo weblog."
   },
   {
-    "name": "to_eat_app",
+    "name": "[to_eat_app] (https://github.com/jcdavison/to_eat_app)",
     "url": "https://github.com/jcdavison/to_eat_app",
     "description": "A sample graphql/rails/relay application with a related 3-part article series."
   },
@@ -1352,32 +1008,9 @@
     "description": "An example of GraphQL server written with Play and sangria."
   },
   {
-    "name": "Flask-GraphQL-Large-Application-Example",
-    "url": "https://github.com/devArtoria/Flask-GraphQL-Large-Application-Example",
-    "description": "A large application example using flask-graphql"
-  },
-  {
     "name": "hello_graphql_phoenix",
     "url": "https://github.com/graphql-elixir/hello_graphql_phoenix",
     "description": "Examples of GraphQL Elixir Plug endpoints mounted in Phoenix - View demo online."
-  },
-  {
-    "name": "Laravel GraphQL",
-    "url": "https://github.com/ardani/laravel-graphql",
-    "description": "A sample integrating GraphQL with Laravel"
-  },
-  {
-    "name": "Adding a GraphQL API to your Symfony Flex application",
-    "url": "https://symfony.fi/entry/adding-a-graphql-api-to-your-symfony-flex-app"
-  },
-  {
-    "name": "Todo list example",
-    "url": "https://github.com/Gregoirevda/reason-ml-graphql-todo-list",
-    "description": "A todo list integrating GraphQL."
-  },
-  {
-    "name": "Zero to GraphQL in 30 Minutes",
-    "url": "https://www.youtube.com/embed/UBGzsb2UkeY"
   },
   {
     "name": "Data fetching for React applications at Facebook",
@@ -1449,7 +1082,7 @@
   },
   {
     "name": "Building Apollo",
-    "url": "https://dev-blog.apollodata.com/"
+    "url": "https://medium.com/apollo-stack"
   },
   {
     "name": "Introducing Relay and GraphQL",
@@ -1474,7 +1107,7 @@
   },
   {
     "name": "4 Reasons you should try out GraphQL",
-    "url": "https://medium.freecodecamp.com/introduction-to-graphql-1d8011b80159"
+    "url": "https://medium.com/@guidsen/introduction-to-graphql-1d8011b80159"
   },
   {
     "name": "Moving from REST to GraphQL",
@@ -1485,16 +1118,12 @@
     "url": "http://davidandsuzi.com/writing-a-basic-api-with-graphql/"
   },
   {
-    "name": "Start using GraphQL with Graffiti",
-    "url": "https://blog.risingstack.com/start-using-graphql-with-graffiti/?utm_source=nodeweekly&utm_medium=email"
-  },
-  {
     "name": "Building a GraphQL Server with Node.js and SQL",
     "url": "https://www.reindex.io/blog/building-a-graphql-server-with-node-js-and-sql/"
   },
   {
     "name": "GraphQL at The Financial Times",
-    "url": "https://www.slideshare.net/LondonReact/graph-ql"
+    "url": "http://www.slideshare.net/LondonReact/graph-ql"
   },
   {
     "name": "Relay for visual learners",
@@ -1514,7 +1143,7 @@
   },
   {
     "name": "From REST to GraphQL",
-    "url": "https://0x2a.sh/from-rest-to-graphql-b4e95e94c26b"
+    "url": "https://blog.jacobwgillespie.com/from-rest-to-graphql-b4e95e94c26b"
   },
   {
     "name": "GraphQL: A data query language",
@@ -1534,7 +1163,7 @@
   },
   {
     "name": "The GitHub GraphQL API",
-    "url": "https://githubengineering.com/the-github-graphql-api/"
+    "url": "http://githubengineering.com/the-github-graphql-api/"
   },
   {
     "name": "Github GraphQL API React Example",
@@ -1542,43 +1171,16 @@
   },
   {
     "name": "Testing a GraphQL Server using Jest",
-    "url": "https://medium.com/entria/testing-a-graphql-server-using-jest-4e00d0e4980e"
+    "url": "https://medium.com/@sibelius/testing-a-graphql-server-using-jest-4e00d0e4980e"
   },
   {
     "name": "How to implement viewerCanSee in  GraphQL",
-    "url": "https://medium.com/entria/how-to-implement-viewercansee-in-graphql-78cc48de7464"
+    "url": "https://medium.com/@sibelius/how-to-implement-viewercansee-in-graphql-78cc48de7464#.d9vpk6fvx"
   },
   {
-    "name": "Introducing Yelp's Local Graph",
-    "url": "https://engineeringblog.yelp.com/2017/05/introducing-yelps-local-graph.html"
-  },
-  {
-    "name": "Sharing data in a Microservices Architecture using GraphQL",
-    "url": "https://labs.getninjas.com.br/sharing-data-in-a-microservices-architecture-using-graphql-97db59357602"
-  },
-  {
-    "name": "Let's build a node.js GraphQL server for fetching Spotify REST API, in German |  in English",
-    "url": "https://blog.codecentric.de/2017/09/graphql-mit-spotify-teil-1-server/"
-  },
-  {
-    "name": "“Client-side only” realtime web applications with Firebase, GraphQL and apollo-client 2.0",
-    "url": "https://medium.com/@pierrecriulanscy/client-side-only-realtime-web-applications-with-firebase-graphql-and-apollo-client-2-0-9606160f7cf8"
-  },
-  {
-    "name": "Learning GraphQL by Eve Porcello and Alex Banks",
-    "url": "https://www.amazon.com/Learning-GraphQL-Declarative-Fetching-Modern/dp/1492030716/"
-  },
-  {
-    "name": "Fullstack GraphQL by Julian Mayorga",
-    "url": "https://www.graphql.college/fullstack-graphql"
-  },
-  {
-    "name": "Craft GraphQL APIs in Elixir with Absinthe by Bruce Williams and Ben Wilson",
-    "url": "https://pragprog.com/book/wwgraphql/craft-graphql-apis-in-elixir-with-absinthe"
-  },
-  {
-    "name": "Learning GraphQL and Relay by Samer Buna",
-    "url": "https://www.packtpub.com/web-development/learning-graphql-and-relay"
+    "name": "How to GraphQL",
+    "url": "https://www.howtographql.com",
+    "description": "Fullstack Tutorial Website with Tracks for all Major Frameworks & Languages including React, Apollo, Relay, JavaScript, Ruby, Java, Elixir and many more"
   },
   {
     "name": "learning-graphql",
@@ -1586,13 +1188,8 @@
     "description": "An attempt to learn GraphQL."
   },
   {
-    "name": "Learn Relay",
-    "url": "https://www.learnrelay.org/",
-    "description": "A comprehensive introduction to Relay"
-  },
-  {
-    "name": "Learn Apollo",
-    "url": "https://www.learnapollo.com/",
-    "description": "A hands-on tutorial for Apollo GraphQL Client"
+    "name": "Let's Learn GraphQL",
+    "url": "https://learngraphql.com",
+    "description": "Lessons/walkthrough of GraphQL concepts."
   }
 ]
