@@ -115,6 +115,31 @@
     "description": "Clever trick to estimate an optimal learning rate prior any single full training."
   },
   {
+    "name": "The Annotated Transformer",
+    "url": "http://nlp.seas.harvard.edu/2018/04/03/attention.html",
+    "description": "Good for understanding the \"Attention Is All You Need\" (AIAYN) paper."
+  },
+  {
+    "name": "The Illustrated Transformer",
+    "url": "http://jalammar.github.io/illustrated-transformer/",
+    "description": "Also good for understanding the \"Attention Is All You Need\" (AIAYN) paper."
+  },
+  {
+    "name": "Improving Language Understanding with Unsupervised Learning",
+    "url": "https://blog.openai.com/language-unsupervised/",
+    "description": "SOTA across many NLP tasks from unsupervised pretraining on huge corpus."
+  },
+  {
+    "name": "NLP's ImageNet moment has arrived",
+    "url": "https://thegradient.pub/nlp-imagenet/",
+    "description": "All hail NLP's ImageNet moment."
+  },
+  {
+    "name": "The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)",
+    "url": "https://jalammar.github.io/illustrated-bert/",
+    "description": "Understand the different approaches used for NLP's ImageNet moment."
+  },
+  {
     "name": "skflow",
     "url": "https://github.com/tensorflow/skflow",
     "description": "TensorFlow wrapper à la scikit-learn."
@@ -170,6 +195,11 @@
     "description": "Smooth patch merger for semantic segmentation with a U-Net."
   },
   {
+    "name": "Self Governing Neural Networks (SGNN): the Projection Layer",
+    "url": "https://github.com/guillaume-chevalier/SGNN-Self-Governing-Neural-Networks-Projection-Layer",
+    "description": "With this, you can use words in your deep learning models without training nor loading embeddings."
+  },
+  {
     "name": "Cornell Movie--Dialogs Corpus",
     "url": "http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html",
     "description": "This could be used for a chatbot."
@@ -188,6 +218,16 @@
     "name": "Awesome Public Datasets",
     "url": "https://github.com/caesar0301/awesome-public-datasets",
     "description": "An awesome list of public datasets."
+  },
+  {
+    "name": "SentEval: An Evaluation Toolkit for Universal Sentence Representations",
+    "url": "https://arxiv.org/abs/1803.05449",
+    "description": "A Python framework to benchmark your sentence representations on many datasets (NLP tasks)."
+  },
+  {
+    "name": "ParlAI: A Dialog Research Software Platform",
+    "url": "https://arxiv.org/abs/1705.06476",
+    "description": "Another Python framework to benchmark your sentence representations on many datasets (NLP tasks)."
   },
   {
     "name": "Neural Networks and Deep Learning, ch.4",
@@ -443,6 +483,21 @@
     "name": "Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram\nPredictions",
     "url": "https://arxiv.org/pdf/1712.05884.pdf",
     "description": "A WaveNet used as a vocoder can be conditioned on generated Mel Spectrograms from the Tacotron 2 LSTM neural network with attention to generate neat audio from text."
+  },
+  {
+    "name": "Attention Is All You Need (AIAYN)",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "description": "Introducing multi-head self-attention neural networks with positional encoding to do sentence-level NLP without any RNN nor CNN - this paper is a must-read (also see this explanation and this visualization of the paper)."
+  },
+  {
+    "name": "Self-Governing Neural Networks for On-Device Short Text Classification",
+    "url": "http://aclweb.org/anthology/D18-1105",
+    "description": "This paper is the sequel to the ProjectionNet just above. The SGNN is elaborated on the ProjectionNet, and the optimizations are detailed more in-depth (also see my attempt to reproduce the paper in code and watch the talks' recording)."
+  },
+  {
+    "name": "Matching Networks for One Shot Learning",
+    "url": "https://arxiv.org/abs/1606.04080",
+    "description": "Classify a new example from a list of other examples (without definitive categories) and with low-data per classification task, but lots of data for lots of similar classification tasks - it seems better than siamese networks. To sum up: with Matching Networks, you can optimize directly for a cosine similarity between examples (like a self-attention product would match) which is passed to the softmax directly. I guess that Matching Networks could probably be used as with negative-sampling softmax training in word2vec's CBOW or Skip-gram without having to do any context embedding lookups."
   },
   {
     "name": "Tensor Calculus and the Calculus of Moving Surfaces",
