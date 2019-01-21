@@ -925,11 +925,6 @@
     "description": "fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead."
   },
   {
-    "name": "forestdb",
-    "url": "https://github.com/couchbase/goforestdb",
-    "description": "Go bindings for ForestDB."
-  },
-  {
     "name": "GCache",
     "url": "https://github.com/bluele/gcache",
     "description": "Cache library with support for expirable Cache, LFU, LRU and ARC."
@@ -983,6 +978,11 @@
     "name": "prometheus",
     "url": "https://github.com/prometheus/prometheus",
     "description": "Monitoring system and time series database."
+  },
+  {
+    "name": "pudge",
+    "url": "https://github.com/recoilme/pudge",
+    "description": "Fast and simple  key/value store written using Go's standard library."
   },
   {
     "name": "rqlite",
@@ -1270,24 +1270,14 @@
     "description": "Datastore Connectivity for Aerospike for go."
   },
   {
-    "name": "cachego",
-    "url": "https://github.com/fabiorphp/cachego",
-    "description": "Golang Cache component for multiple drivers."
-  },
-  {
-    "name": "cayley",
-    "url": "https://github.com/google/cayley",
-    "description": "Graph database with support for multiple backends."
-  },
-  {
-    "name": "dsc",
-    "url": "https://github.com/viant/dsc",
-    "description": "Datastore connectivity for SQL, NoSQL, structured files."
-  },
-  {
     "name": "dynago",
     "url": "https://github.com/underarmour/dynago",
     "description": "Dynago is a principle of least surprise client for DynamoDB."
+  },
+  {
+    "name": "forestdb",
+    "url": "https://github.com/couchbase/goforestdb",
+    "description": "Go bindings for ForestDB."
   },
   {
     "name": "go-couchbase",
@@ -1413,6 +1403,21 @@
     "name": "skizze",
     "url": "https://github.com/seiflotfy/skizze",
     "description": "probabilistic data-structures service and storage."
+  },
+  {
+    "name": "cachego",
+    "url": "https://github.com/fabiorphp/cachego",
+    "description": "Golang Cache component for multiple drivers."
+  },
+  {
+    "name": "cayley",
+    "url": "https://github.com/google/cayley",
+    "description": "Graph database with support for multiple backends."
+  },
+  {
+    "name": "dsc",
+    "url": "https://github.com/viant/dsc",
+    "description": "Datastore connectivity for SQL, NoSQL, structured files."
   },
   {
     "name": "carbon",
@@ -1783,6 +1788,11 @@
     "name": "purl",
     "url": "https://github.com/ian-kent/purl",
     "description": "Perl 5.18.2 embedded in Go."
+  },
+  {
+    "name": "tengo",
+    "url": "https://github.com/d5/tengo",
+    "description": "Bytecode compiled script language for Go."
   },
   {
     "name": "afero",
@@ -2175,9 +2185,19 @@
     "description": "goworker is a Go-based background worker."
   },
   {
+    "name": "gpool",
+    "url": "https://github.com/Sherifabdlnaby/gpool",
+    "description": "manages a resizeable pool of context-aware goroutines to bound concurrency."
+  },
+  {
     "name": "grpool",
     "url": "https://github.com/ivpusic/grpool",
     "description": "Lightweight Goroutine pool."
+  },
+  {
+    "name": "oversight",
+    "url": "https://cirello.io/oversight",
+    "description": "Oversight is a complete implementation of the Erlang supervision trees."
   },
   {
     "name": "parallel-fn",
@@ -2443,6 +2463,11 @@
     "name": "steganography",
     "url": "https://github.com/auyer/steganography",
     "description": "Pure Go Library for LSB steganography."
+  },
+  {
+    "name": "stegify",
+    "url": "https://github.com/DimitarPetrov/stegify",
+    "description": "Go tool for LSB steganography, capable of hiding any file within an image."
   },
   {
     "name": "svgo",
@@ -3308,6 +3333,11 @@
     "name": "werr",
     "url": "https://github.com/txgruppi/werr",
     "description": "Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called."
+  },
+  {
+    "name": "wire",
+    "url": "https://github.com/Fs02/wire",
+    "description": "Strict Runtime Dependency Injection for Golang."
   },
   {
     "name": "wuid",
@@ -5431,6 +5461,11 @@
   },
   {
     "name": "clockwork",
+    "url": "https://github.com/jonboulle/clockwork",
+    "description": "A simple fake clock for golang."
+  },
+  {
+    "name": "clockwork",
     "url": "https://github.com/whiteShtef/clockwork",
     "description": "Simple and intuitive job scheduling library in Go."
   },
@@ -5943,6 +5978,16 @@
     "name": "scheduler",
     "url": "https://github.com/carlescere/scheduler",
     "description": "Cronjobs scheduling made easy."
+  },
+  {
+    "name": "serve",
+    "url": "https://github.com/syntaqx/serve",
+    "description": "A static http server anywhere you need."
+  },
+  {
+    "name": "slicer",
+    "url": "https://github.com/leaanthony/slicer",
+    "description": "Makes working with slices easier."
   },
   {
     "name": "spinner",
@@ -7273,6 +7318,11 @@
     "name": "rkt",
     "url": "https://github.com/coreos/rkt",
     "description": "App Container runtime that integrates with init systems, is compatible with other container formats like Docker, and supports alternative execution engines like KVM."
+  },
+  {
+    "name": "scc",
+    "url": "https://github.com/boyter/scc",
+    "description": "Sloc Cloc and Code, a very fast accurate code counter with complexity calculations and COCOMO estimates."
   },
   {
     "name": "Seaweed File System",

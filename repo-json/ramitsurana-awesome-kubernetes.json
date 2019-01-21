@@ -60,7 +60,7 @@
     "url": "https://hackr.io/tutorials/learn-kubernetes"
   },
   {
-    "name": "Kubernetes Comic by Google Cloud Plaatform",
+    "name": "Kubernetes Comic by Google Cloud Platform",
     "url": "https://cloud.google.com/kubernetes-engine/kubernetes-comic/"
   },
   {
@@ -83,6 +83,10 @@
   {
     "name": "Setting Up a Kubernetes Cluster on Ubuntu 18.04",
     "url": "https://mherman.org/blog/2018/08/20/setting-up-a-kubernetes-cluster-on-ubuntu/"
+  },
+  {
+    "name": "Cloud Native Landscape",
+    "url": "https://landscape.cncf.io/"
   },
   {
     "name": "Minikube",
@@ -137,6 +141,11 @@
     "name": "Supergiant",
     "url": "http://supergiant.io/",
     "description": "CoreOS - Cloud Agnostique"
+  },
+  {
+    "name": "sealos",
+    "url": "https://github.com/fanux/sealos",
+    "description": "Simple kubernetes HA installer"
   },
   {
     "name": "Archon",
@@ -591,7 +600,18 @@
   },
   {
     "name": "Fabric8",
-    "url": "http://fabric8.io"
+    "url": "http://fabric8.io",
+    "description": "integrated development platform with CD features"
+  },
+  {
+    "name": "Eclipse Che",
+    "url": "https://github.com/eclipse/che",
+    "description": "cloud development workspaces with SSH and multi-user support"
+  },
+  {
+    "name": "OpenShift.io",
+    "url": "https://openshift.io",
+    "description": "hosted Fabric8 with Che and Jenkins CI integration"
   },
   {
     "name": "Spring Cloud integration",
@@ -858,6 +878,122 @@
     "url": "http://storageos.com"
   },
   {
+    "name": "NetApp Trident",
+    "url": "https://github.com/NetApp/trident"
+  },
+  {
+    "name": "HPE",
+    "url": "https://github.com/hpe-storage/dory"
+  },
+  {
+    "name": "Hitachi",
+    "url": "https://knowledge.hitachivantara.com/Documents/Adapters_and_Drivers/Storage_Adapters_and_Drivers/Containers/1.0/Storage_Plug-in_for_Containers_Quick_Reference_Guide_v1.0.0"
+  },
+  {
+    "name": "Pure Storage",
+    "url": "https://hub.docker.com/r/purestorage/k8s/"
+  },
+  {
+    "name": "Microsoft",
+    "url": "https://github.com/Microsoft/K8s-Storage-Plugins"
+  },
+  {
+    "name": "AWS EBS",
+    "url": "https://github.com/kubernetes-sigs/aws-ebs-csi-driver"
+  },
+  {
+    "name": "Ceph",
+    "url": "https://github.com/ceph/ceph-csi"
+  },
+  {
+    "name": "Cloudscale",
+    "url": "https://github.com/cloudscale-ch/csi-cloudscale"
+  },
+  {
+    "name": "DigitalOcean",
+    "url": "https://github.com/digitalocean/csi-digitalocean"
+  },
+  {
+    "name": "DriveScale",
+    "url": "https://github.com/DriveScale/k8s-plugins"
+  },
+  {
+    "name": "Ember",
+    "url": "https://ember-csi.io"
+  },
+  {
+    "name": "Gluster",
+    "url": "https://github.com/gluster/gluster-csi-driver"
+  },
+  {
+    "name": "Google Compute Engine Persistent Disk",
+    "url": "https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver"
+  },
+  {
+    "name": "Hostpath",
+    "url": "https://github.com/kubernetes-csi/drivers/tree/master/pkg/hostpath"
+  },
+  {
+    "name": "Inmemory",
+    "url": "https://github.com/kubernetes-csi/csi-test/tree/master/mock/service"
+  },
+  {
+    "name": "Intel PMEM-CSI",
+    "url": "https://github.com/intel/pmem-CSI"
+  },
+  {
+    "name": "MooseFs",
+    "url": "https://github.com/moosefs/moosefs-csi"
+  },
+  {
+    "name": "Mesos",
+    "url": "http://mesos.apache.org/documentation/latest/csi"
+  },
+  {
+    "name": "NetApp Trident",
+    "url": "https://github.com/NetApp/trident"
+  },
+  {
+    "name": "Nexenta",
+    "url": "https://nexentaedge.io/docs/kubernetes-csi.html"
+  },
+  {
+    "name": "NFS",
+    "url": "https://github.com/kubernetes-csi/drivers/tree/master/pkg/nfs"
+  },
+  {
+    "name": "Nutanix",
+    "url": "https://portal.nutanix.com/#/page/docs/details?targetId=CSI-Volume-Driver:CSI-Volume-Driver"
+  },
+  {
+    "name": "OpenSDS",
+    "url": "https://github.com/opensds/nbp/tree/master/csi"
+  },
+  {
+    "name": "OpenStack Cinder",
+    "url": "https://github.com/kubernetes/cloud-provider-openstack/tree/master/pkg/csi/cinder"
+  },
+  {
+    "name": "Portworx",
+    "url": "https://github.com/libopenstorage/openstorage/tree/master/csi"
+  },
+  {
+    "name": "Quobyte",
+    "url": "https://github.com/quobyte/quobyte-csi"
+  },
+  {
+    "name": "ScaleIO",
+    "url": "https://github.com/thecodeteam/csi-scaleio"
+  },
+  {
+    "name": "Virtual Filesystem",
+    "url": "https://github.com/rexray/csi-vfs"
+  },
+  {
+    "name": "VMware vSphere",
+    "url": "https://github.com/thecodeteam/csi-vsphere"
+  },
+  {
     "name": "Pykube",
     "url": "https://github.com/kelproject/pykube"
   },
@@ -881,6 +1017,11 @@
   {
     "name": "kmachine",
     "url": "https://github.com/skippbox/kmachine"
+  },
+  {
+    "name": "kube-fledged",
+    "url": "https://github.com/senthilrch/kube-fledged",
+    "description": "A K8S add-on for creating and managing a cache of container images directly on cluster worker nodes"
   },
   {
     "name": "Kubefuse",
@@ -913,7 +1054,7 @@
   },
   {
     "name": "Client Libraries",
-    "url": "https://github.com/kubernetes/community/blob/master/contributors/devel/client-libraries.md"
+    "url": "https://github.com/kubernetes/website/blob/master/content/en/docs/reference/using-api/client-libraries.md"
   },
   {
     "name": "Kubic-Project",
@@ -933,6 +1074,11 @@
     "name": "Ambassador",
     "url": "http://www.getambassador.io",
     "description": "API Gateway built on the Envoy Proxy"
+  },
+  {
+    "name": "Bitnami Kubernetes Production Runtime",
+    "url": "https://kubeprod.io",
+    "description": "Installer of a curated collection of popular services to enable logging, monitoring, certificate management, automatic discovery of Kubernetes resources via public DNS servers and other common infrastructure needs."
   },
   {
     "name": "Helm",
@@ -1024,6 +1170,10 @@
     "name": "Kubespy",
     "url": "https://github.com/pulumi/kubespy",
     "description": "Tools for observing Kubernetes resources in real time, powered by Pulumi."
+  },
+  {
+    "name": "Goldpinger display, monitor and alert on inter-cluster connectivity",
+    "url": "https://github.com/bloomberg/goldpinger"
   },
   {
     "name": "kube-monkey",
@@ -1481,6 +1631,10 @@
     "description": "CNI plugin supporting load balancing and distributed firewalls."
   },
   {
+    "name": "Goldpinger display, monitor and alert on inter-cluster connectivity",
+    "url": "https://github.com/bloomberg/goldpinger"
+  },
+  {
     "name": "Envoy",
     "url": "http://lyft.github.io/envoy/"
   },
@@ -1546,6 +1700,11 @@
   {
     "name": "Secure GitOps Using Weave Cloud Deploy And Bitnami's Sealed Secrets",
     "url": "https://engineering.bitnami.com/articles/secure-gitops.html"
+  },
+  {
+    "name": "Kamus",
+    "url": "https://github.com/Soluto/kamus",
+    "description": "A GitOps, zero-trust solution for secrets encryption/decryption solution."
   },
   {
     "name": "Kubernator",
@@ -1656,6 +1815,11 @@
     "name": "kubectl-plugins",
     "url": "https://github.com/jordanwilson230/kubectl-plugins",
     "description": "A collection of kubectl plugins handling everything from easy context switches to connecting to a container as any user (root included) via exec. Slightly tailored towards GKE users."
+  },
+  {
+    "name": "kubectl-trace",
+    "url": "https://github.com/iovisor/kubectl-trace",
+    "description": "Schedule bpftrace programs on your kubernetes cluster using this kubectl plugin"
   },
   {
     "name": "ElasticKube",
@@ -1969,6 +2133,11 @@
     "url": "https://github.com/ksonnet/ksonnet-lib"
   },
   {
+    "name": "kube-libsonnet",
+    "url": "https://github.com/bitnami-labs/kube-libsonnet/blob/master/kube.libsonnet",
+    "description": "Generic library of Kubernetes objects for Jsonnet/Kubecfg with object to array mapping for painless overrides."
+  },
+  {
     "name": "kompose",
     "url": "https://github.com/kubernetes/kompose"
   },
@@ -2079,6 +2248,10 @@
   {
     "name": "Kubernetes Design Patterns and Extensions by Onur Yilmaz",
     "url": "https://www.amazon.com/dp/B07HSZHRHZ"
+  },
+  {
+    "name": "Playing with Java Microservices on Kubernetes and OpenShift by Nebrass Lamouchi",
+    "url": "https://leanpub.com/playing-with-java-microservices-on-k8s-and-ocp"
   },
   {
     "name": "Architecture Overview by enakai00",
