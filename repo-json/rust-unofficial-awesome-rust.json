@@ -760,6 +760,11 @@
     "url": "https://github.com/Ralvke/rust-loader"
   },
   {
+    "name": "dtolnay/cargo-expand",
+    "url": "https://github.com/dtolnay/cargo-expand",
+    "description": "Expand macros in your source code"
+  },
+  {
     "name": "rust-gdb",
     "url": "https://github.com/rust-lang/rust/blob/master/src/etc/rust-gdb"
   },
@@ -1150,6 +1155,16 @@
   {
     "name": "jameysharp/corrode — A C to Rust translator written in Haskell.",
     "url": "https://github.com/jameysharp/corrode"
+  },
+  {
+    "name": "deps.rs",
+    "url": "https://deps.rs",
+    "description": "Detect outdated or insecure dependencies"
+  },
+  {
+    "name": "docs.rs",
+    "url": "https://docs.rs",
+    "description": "Automatic documentation generation of crates"
   },
   {
     "name": "Martin1887/oxigen — Fast, parallel, extensible and adaptable genetic algorithm library. A example using this library solves the N Queens problem for N = 255 in only few seconds and using less than 1 MB of RAM.",
@@ -2009,7 +2024,7 @@
     "url": "https://github.com/mrhooray/crc-rs"
   },
   {
-    "name": "BurntSushi/rust-csv — ",
+    "name": "BurntSushi/rust-csv — a fast and flexible CSV reader and writer, with support for Serde ",
     "url": "https://github.com/BurntSushi/rust-csv"
   },
   {
@@ -2281,28 +2296,12 @@
     "url": "https://github.com/kud1ing/tinkerpop-rs"
   },
   {
-    "name": "autopilot-rs/autopilot-rs — A simple, cross-platform GUI automation library for Rust.",
-    "url": "https://github.com/autopilot-rs/autopilot-rs"
-  },
-  {
-    "name": "maps4print/azul — A free, functional, IMGUI-oriented GUI framework for rapid development of desktop applications written in Rust, supported by the Mozilla WebRender rendering engine. ",
-    "url": "https://github.com/maps4print/azul"
-  },
-  {
-    "name": "PistonDevelopers/conrod — An easy-to-use, immediate-mode, 2D GUI library written entirely in Rust ",
-    "url": "https://github.com/PistonDevelopers/conrod/"
-  },
-  {
     "name": "kylewlacy/sorbet-cocoa — ",
     "url": "https://github.com/kylewlacy/sorbet-cocoa"
   },
   {
     "name": "servo/core-foundation-rs — ",
     "url": "https://github.com/servo/core-foundation-rs"
-  },
-  {
-    "name": "GTK+ [gtk]\n\ngtk-rs/gtk — GTK+ bindings \nrelm — Asynchronous, GTK+-based, GUI library, inspired by Elm \n\n",
-    "url": "https://www.gtk.org/"
   },
   {
     "name": "gtk-rs/gtk — GTK+ bindings ",
@@ -2313,16 +2312,8 @@
     "url": "https://github.com/antoyo/relm"
   },
   {
-    "name": "ImGui\n\nimgui-rs — Rust bindings for ImGui \n\n",
-    "url": "https://github.com/ocornut/imgui"
-  },
-  {
     "name": "imgui-rs — Rust bindings for ImGui ",
     "url": "https://github.com/Gekkio/imgui-rs"
-  },
-  {
-    "name": "IUP\n\nclear-coat — Clear Coat is a Rust wrapper for the IUP GUI library\ndcampbell24/iup-rust — IUP bindings \nKiss-ui — a simple UI framework built on IUP \n\n",
-    "url": "http://webserver2.tecgraf.puc-rio.br/iup/"
   },
   {
     "name": "clear-coat — Clear Coat is a Rust wrapper for the IUP GUI library",
@@ -2337,24 +2328,12 @@
     "url": "https://github.com/KISS-UI/kiss-ui"
   },
   {
-    "name": "libui\n\npcwalton/libui-rs — libui bindings . Abandoned project. The most updated fork is LeoTindall/libui-rs.\n\n",
-    "url": "https://github.com/andlabs/libui"
-  },
-  {
     "name": "pcwalton/libui-rs — libui bindings . Abandoned project. The most updated fork is LeoTindall/libui-rs.",
     "url": "https://github.com/pcwalton/libui-rs"
   },
   {
-    "name": "Nuklear\n\nnuklear-rust — Rust bindings for Nuklear \n\n",
-    "url": "https://github.com/vurtun/nuklear"
-  },
-  {
     "name": "nuklear-rust — Rust bindings for Nuklear ",
     "url": "https://github.com/snuk182/nuklear-rust"
-  },
-  {
-    "name": "Qt\n\ncyndis/qmlrs — QtQuick bindings \nkitech/qt.rs — Qt5 bindings \nRust Qt Binding Generator — Binding generator hosted by KDE.\nrust-qt —\nWhite-Oak/qml-rust — QML bindings. \n\n",
-    "url": "http://doc.qt.io"
   },
   {
     "name": "cyndis/qmlrs — QtQuick bindings ",
@@ -2377,21 +2356,8 @@
     "url": "https://github.com/White-Oak/qml-rust"
   },
   {
-    "name": "saurvs/nfd-rs — nativefiledialog bindings",
-    "url": "https://github.com/saurvs/nfd-rs"
-  },
-  {
-    "name": "Sciter\n\nsciter-sdk/rust-sciter — Sciter bindings \n\n",
-    "url": "https://sciter.com/"
-  },
-  {
     "name": "sciter-sdk/rust-sciter — Sciter bindings ",
     "url": "https://github.com/sciter-sdk/rust-sciter"
-  },
-  {
-    "name": "flutter-rs",
-    "url": "https://github.com/gliheng/flutter-rs",
-    "description": "Build flutter desktop app in dart & rust."
   },
   {
     "name": "abonander/img_hash — Perceptual image hashing and comparison for equality and similarity.",
@@ -2608,6 +2574,16 @@
   {
     "name": "retep998/winapi-rs — Windows API bindings ",
     "url": "https://github.com/retep998/winapi-rs"
+  },
+  {
+    "name": "fubarnetes/libjail-rs",
+    "url": "https://github.com/fubarnetes/libjail-rs/",
+    "description": "Rust implementation of a FreeBSD jail library"
+  },
+  {
+    "name": "dlrobertson/capsicum-rs",
+    "url": "https://github.com/dlrobertson/capsicum-rs",
+    "description": "Rust bindings for the FreeBSD capsicum framework"
   },
   {
     "name": "PistonDevelopers/dyon — A rusty dynamically typed scripting language",
@@ -2952,6 +2928,11 @@
   {
     "name": "New Rustacean — a podcast about learning Rust",
     "url": "https://newrustacean.com"
+  },
+  {
+    "name": "Rusty Spike",
+    "url": "https://rusty-spike.blubrry.net",
+    "description": "news on all things Rust"
   },
   {
     "name": "RustCamp 2015 Talks",

@@ -5,6 +5,11 @@
     "description": "Apache Hadoop"
   },
   {
+    "name": "Apache Hadoop Ozone",
+    "url": "http://hadoop.apache.org/ozone/",
+    "description": "An Object Store for Apache Hadoop"
+  },
+  {
     "name": "Apache Tez",
     "url": "http://tez.apache.org/",
     "description": "A Framework for YARN-based, Data Processing Applications In Hadoop"
@@ -311,11 +316,6 @@
     "description": "A web-based notebook that enables interactive data analytics"
   },
   {
-    "name": "Jumbune",
-    "url": "https://github.com/impetus-opensource/jumbune",
-    "description": "Jumbune is an open-source product built for analyzing Hadoop cluster and MapReduce jobs."
-  },
-  {
     "name": "Apache Thrift",
     "url": "http://thrift.apache.org/"
   },
@@ -342,11 +342,6 @@
     "name": "Oozie Eclipse Plugin",
     "url": "https://marketplace.eclipse.org/content/oozie-eclipse-plugin",
     "description": "A graphical editor for editing Apache Oozie workflows inside Eclipse."
-  },
-  {
-    "name": "Hydrosphere Mist",
-    "url": "https://github.com/Hydrospheredata/mist",
-    "description": "a service for exposing Apache Spark analytics jobs and machine learning models as realtime, batch or reactive web services."
   },
   {
     "name": "snakebite",
@@ -391,9 +386,9 @@
     "description": "Apache Pulsar (incubating) is a highly scalable, low latency messaging platform running on commodity hardware. It provides simple pub-sub semantics over topics, guaranteed at-least-once delivery of messages, automatic cursor management for subscribers, and cross-datacenter replication."
   },
   {
-    "name": "Druid",
-    "url": "http://druid.io/",
-    "description": "Column oriented distributed data store ideal for powering interactive applications"
+    "name": "Apache Druid (incubating)",
+    "url": "http://druid.incubator.apache.org/",
+    "description": "A high-performance, column-oriented, distributed data store."
   },
   {
     "name": "Apache Spark",
@@ -463,21 +458,6 @@
     "description": "ZooKeeper client wrapper and rich ZooKeeper framework"
   },
   {
-    "name": "Buildoop",
-    "url": "https://github.com/keedio/buildoop",
-    "description": "Hadoop Ecosystem Builder"
-  },
-  {
-    "name": "Deploop",
-    "url": "http://deploop.github.io/",
-    "description": "The Hadoop Deploy System"
-  },
-  {
-    "name": "Jumbune",
-    "url": "http://www.jumbune.org/",
-    "description": "An open source MapReduce profiling, MapReduce flow debugging, HDFS data quality validation and Hadoop cluster monitoring tool."
-  },
-  {
     "name": "inviso",
     "url": "https://github.com/Netflix/inviso",
     "description": "Inviso is a lightweight tool that provides the ability to search for Hadoop jobs, visualize the performance, and view cluster utilization."
@@ -490,11 +470,6 @@
     "name": "Apache Solr",
     "url": "http://lucene.apache.org/solr/",
     "description": "Apache Solr is an open source search platform built upon a Java library called Lucene."
-  },
-  {
-    "name": "SenseiDB",
-    "url": "http://www.senseidb.com/",
-    "description": "Open-source, distributed, realtime, semi-structured database"
   },
   {
     "name": "Banana",
@@ -539,15 +514,6 @@
     "url": "https://github.com/intel-hadoop/Big-Data-Benchmark-for-Big-Bench"
   },
   {
-    "name": "hive-benchmarks",
-    "url": "https://github.com/yhuai/hive-benchmarks"
-  },
-  {
-    "name": "hive-testbench",
-    "url": "https://github.com/cartershanklin/hive-testbench",
-    "description": "Testbench for experimenting with Apache Hive at any data scale."
-  },
-  {
     "name": "YCSB",
     "url": "https://github.com/brianfrankcooper/YCSB",
     "description": "The Yahoo! Cloud Serving Benchmark (YCSB) is an open-source specification and program suite for evaluating retrieval and maintenance capabilities of computer programs. It is often used to compare relative performance of NoSQL database management systems."
@@ -576,10 +542,6 @@
     "url": "https://github.com/RevolutionAnalytics/RHadoop/wiki"
   },
   {
-    "name": "RHive RHive, for launching Hive queries from R",
-    "url": "https://github.com/nexr/RHive"
-  },
-  {
     "name": "Apache Lens",
     "url": "http://lens.apache.org/"
   },
@@ -594,8 +556,9 @@
     "description": "BigDL is a distributed deep learning library for Apache Spark; with BigDL, users can write their deep learning applications as standard Spark programs, which can directly run on top of existing Spark or Hadoop clusters."
   },
   {
-    "name": "http://nexr.github.io/hive-udf/",
-    "url": "http://nexr.github.io/hive-udf/"
+    "name": "Apache Hivemall (incubating)",
+    "url": "http://hivemall.incubator.apache.org/",
+    "description": "Apache Hivemall is a scalable machine learning library that runs on Apache Hive, Spark and Pig."
   },
   {
     "name": "https://github.com/edwardcapriolo/hive_cassandra_udfs",
@@ -610,10 +573,6 @@
     "url": "https://github.com/ThinkBigAnalytics/Hive-Extensions-from-Think-Big-Analytics"
   },
   {
-    "name": "https://github.com/karthkk/udfs",
-    "url": "https://github.com/karthkk/udfs"
-  },
-  {
     "name": "https://github.com/twitter/elephant-bird",
     "url": "https://github.com/twitter/elephant-bird",
     "description": "Twitter"
@@ -623,32 +582,8 @@
     "url": "https://github.com/lovelysystems/ls-hive"
   },
   {
-    "name": "https://github.com/stewi2/hive-udfs",
-    "url": "https://github.com/stewi2/hive-udfs"
-  },
-  {
     "name": "https://github.com/klout/brickhouse",
     "url": "https://github.com/klout/brickhouse"
-  },
-  {
-    "name": "https://github.com/markgrover/hive-translate (PostgreSQL translate())",
-    "url": "https://github.com/markgrover/hive-translate"
-  },
-  {
-    "name": "https://github.com/deanwampler/HiveUDFs",
-    "url": "https://github.com/deanwampler/HiveUDFs"
-  },
-  {
-    "name": "https://github.com/myui/hivemall (Machine Learning UDF/UDAF/UDTF)",
-    "url": "https://github.com/myui/hivemall"
-  },
-  {
-    "name": "https://github.com/edwardcapriolo/hive-geoip (GeoIP UDF)",
-    "url": "https://github.com/edwardcapriolo/hive-geoip"
-  },
-  {
-    "name": "https://github.com/Netflix/Surus",
-    "url": "https://github.com/Netflix/Surus"
   },
   {
     "name": "https://github.com/dvasilen/Hive-Cassandra",
@@ -667,32 +602,12 @@
     "url": "https://bitbucket.org/rodrigopr/redisstoragehandler"
   },
   {
-    "name": "https://github.com/zhuguangbin/HiveJDBCStorageHanlder",
-    "url": "https://github.com/zhuguangbin/HiveJDBCStorageHanlder"
-  },
-  {
     "name": "https://github.com/chimpler/hive-solr",
     "url": "https://github.com/chimpler/hive-solr"
   },
   {
     "name": "https://github.com/bfemiano/accumulo-hive-storage-manager",
     "url": "https://github.com/bfemiano/accumulo-hive-storage-manager"
-  },
-  {
-    "name": "https://github.com/rcongiu/Hive-JSON-Serde",
-    "url": "https://github.com/rcongiu/Hive-JSON-Serde"
-  },
-  {
-    "name": "https://github.com/mochi/hive-json-serde",
-    "url": "https://github.com/mochi/hive-json-serde"
-  },
-  {
-    "name": "https://github.com/ogrodnek/csv-serde",
-    "url": "https://github.com/ogrodnek/csv-serde"
-  },
-  {
-    "name": "https://github.com/parag/HiveJsonSerde",
-    "url": "https://github.com/parag/HiveJsonSerde"
   },
   {
     "name": "https://github.com/forward3d/rbhive",
@@ -718,11 +633,6 @@
     "name": "shib",
     "url": "https://github.com/tagomoris/shib",
     "description": "WebUI for query engines: Hive and Presto"
-  },
-  {
-    "name": "clive",
-    "url": "https://github.com/bmuller/clive",
-    "description": "Clojure library for interacting with Hive via Thrift"
   },
   {
     "name": "https://github.com/dmorel/Thrift-API-HiveClient2 (Perl",
@@ -761,33 +671,12 @@
     "url": "https://github.com/leonlee/flume-ng-mongodb-sink"
   },
   {
-    "name": "Flume HornetQ Channel",
-    "url": "https://github.com/btoddb/flume-ng-hornetq-channel"
-  },
-  {
-    "name": "Flume MessagePack Source",
-    "url": "https://github.com/leonlee/flume-ng-msgpack-source"
-  },
-  {
     "name": "Flume RabbitMQ source and sink",
     "url": "https://github.com/jcustenborder/flume-ng-rabbitmq"
   },
   {
     "name": "Flume UDP Source",
     "url": "https://github.com/whitepages/flume-udp-source"
-  },
-  {
-    "name": "Stratio Ingestion",
-    "url": "https://github.com/Stratio/Ingestion",
-    "description": "Custom sinks: Cassandra, MongoDB, Stratio Streaming and JDBC"
-  },
-  {
-    "name": "Flume Custom Serializers",
-    "url": "https://github.com/relistan/flume-serializers"
-  },
-  {
-    "name": "Real-time analytics in Apache Flume",
-    "url": "https://github.com/jrkinley/flume-interceptor-analytics"
   },
   {
     "name": ".Net FlumeNG Clients",
@@ -802,86 +691,13 @@
     "url": "http://hadoopecosystemtable.github.io/"
   },
   {
-    "name": "Hadoop 1.x vs 2",
-    "url": "http://www.slideshare.net/RommelGarcia2/hadoop-1x-vs-2"
-  },
-  {
     "name": "Apache Hadoop YARN: Yet Another Resource Negotiator",
     "url": "http://www.socc2013.org/home/program/a5-vavilapalli.pdf"
-  },
-  {
-    "name": "Introducing Apache Hadoop YARN",
-    "url": "http://hortonworks.com/blog/introducing-apache-hadoop-yarn/"
-  },
-  {
-    "name": "Programming Community Curated Resources for Learning Hadoop",
-    "url": "https://hackr.io/tutorials/learn-hadoop-big-data"
-  },
-  {
-    "name": "Apache Hadoop YARN",
-    "url": "http://hortonworks.com/blog/apache-hadoop-yarn-background-and-an-overview/",
-    "description": "Background and an Overview"
-  },
-  {
-    "name": "Apache Hadoop YARN",
-    "url": "http://hortonworks.com/blog/apache-hadoop-yarn-concepts-and-applications/",
-    "description": "Concepts and Applications"
-  },
-  {
-    "name": "Apache Hadoop YARN",
-    "url": "http://hortonworks.com/blog/apache-hadoop-yarn-resourcemanager/",
-    "description": "ResourceManager"
-  },
-  {
-    "name": "Apache Hadoop YARN",
-    "url": "http://hortonworks.com/blog/apache-hadoop-yarn-nodemanager/",
-    "description": "NodeManager"
-  },
-  {
-    "name": "Migrating to MapReduce 2 on YARN (For Users)",
-    "url": "http://blog.cloudera.com/blog/2013/11/migrating-to-mapreduce-2-on-yarn-for-users/"
-  },
-  {
-    "name": "Migrating to MapReduce 2 on YARN (For Operators)",
-    "url": "http://blog.cloudera.com/blog/2013/11/migrating-to-mapreduce-2-on-yarn-for-operators/"
-  },
-  {
-    "name": "Hadoop and Big Data: Use Cases at Salesforce.com",
-    "url": "https://developer.salesforce.com/blogs/engineering/2013/03/hadoop-use-cases-at-salesforce-com.html"
-  },
-  {
-    "name": "All you wanted to know about Hadoop, but were too afraid to ask: genealogy of elephants.",
-    "url": "https://blogs.apache.org/bigtop/entry/all_you_wanted_to_know"
-  },
-  {
-    "name": "What is Bigtop, and Why Should You Care?",
-    "url": "https://blogs.apache.org/bigtop/entry/bigtop_and_why_should_you"
-  },
-  {
-    "name": "Hadoop",
-    "url": "http://wiki.apache.org/hadoop/Distributions%20and%20Commercial%20Support",
-    "description": "Distributions and Commercial Support"
-  },
-  {
-    "name": "Ganglia configuration for a small Hadoop cluster and some troubleshooting",
-    "url": "http://hakunamapdata.com/ganglia-configuration-for-a-small-hadoop-cluster-and-some-troubleshooting/"
   },
   {
     "name": "Hadoop illuminated",
     "url": "http://hadoopilluminated.com/",
     "description": "Open Source Hadoop Book"
-  },
-  {
-    "name": "NoSQL Database",
-    "url": "http://nosql-database.org/"
-  },
-  {
-    "name": "10 Best Practices for Apache Hive",
-    "url": "https://www.qubole.com/blog/big-data/hive-best-practices/"
-  },
-  {
-    "name": "Hadoop Operations at Scale",
-    "url": "http://hortonworks.com/blog/apache-hadoop-operations-scale/"
   },
   {
     "name": "AWS BigData Blog",
@@ -894,19 +710,6 @@
   {
     "name": "How to monitor Hadoop metrics",
     "url": "https://www.datadoghq.com/blog/monitor-hadoop-metrics/"
-  },
-  {
-    "name": "Hadoop Summit Presentations",
-    "url": "http://www.slideshare.net/Hadoop_Summit",
-    "description": "Slide decks from Hadoop Summit"
-  },
-  {
-    "name": "Hadoop 24/7",
-    "url": "http://www.slideshare.net/allenwittenauer/aw-apachecon2009-15342917"
-  },
-  {
-    "name": "An example Apache Hadoop Yarn upgrade",
-    "url": "http://www.slideshare.net/mikejf12/an-example-apache-hadoop-yarn-upgrade"
   },
   {
     "name": "Apache Hadoop In Theory And Practice",

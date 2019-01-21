@@ -32,14 +32,14 @@
     "url": "https://knolleary.net/"
   },
   {
-    "name": "Einführung in MQTT",
-    "url": "https://www.youtube.com/watch?v=INYG4-xsa9c",
-    "description": "Dominik Obermaier & Jens Deters, Building IoT conference 2016 (German)."
-  },
-  {
     "name": "An Introduction to MQTT: Why HTTP isn't the King of the Internet of Things",
     "url": "https://www.youtube.com/watch?v=LKz1jYngpcU",
     "description": "Shinji Kim, Robert Bird - Akamai, Samsung Developer Conference 2017."
+  },
+  {
+    "name": "Einführung in MQTT",
+    "url": "https://www.youtube.com/watch?v=INYG4-xsa9c",
+    "description": "Dominik Obermaier & Jens Deters, Building IoT conference 2016 (German)."
   },
   {
     "name": "ActiveMQ",
@@ -67,19 +67,24 @@
     "description": "A basic MQTT Broker on the ESP8266."
   },
   {
+    "name": "flespi",
+    "url": "https://flespi.com/mqtt-broker",
+    "description": "Free cloud MQTT broker with private namespaces, MQTT 5.0 support and gorgeous limits."
+  },
+  {
     "name": "hbmqtt",
     "url": "https://github.com/beerfactory/hbmqtt",
     "description": "Python MQTT broker using asyncio."
   },
   {
-    "name": "hrotti",
-    "url": "https://github.com/alsm/hrotti",
-    "description": "A MQTT broker written in Go."
-  },
-  {
     "name": "HiveMQ",
     "url": "https://www.hivemq.com/",
     "description": "Java based commercial MQTT Broker."
+  },
+  {
+    "name": "hrotti",
+    "url": "https://github.com/alsm/hrotti",
+    "description": "A MQTT broker written in Go."
   },
   {
     "name": "Moquette",
@@ -127,9 +132,19 @@
     "description": "Interactive MQTT packet manipulation shell based on IPython."
   },
   {
+    "name": "IoT-Testware",
+    "url": "https://projects.eclipse.org/projects/technology.iottestware",
+    "description": "The Eclipse IoT-Testware is a collection of conformance test suites for IoT protocols enriched with additional tools for fuzzing and performance testing."
+  },
+  {
     "name": "moxy",
     "url": "https://github.com/jvermillard/moxy",
     "description": "A Golang MQTT proxy providing useful output traces to monitor and troubleshoot your MQTT communications."
+  },
+  {
+    "name": "MQTT Board",
+    "url": "https://github.com/flespi-software/MQTT-Board",
+    "description": "Open-source diagnostic-oriented MQTT client tool."
   },
   {
     "name": "mqtt-admin",
@@ -140,11 +155,6 @@
     "name": "mqtt-benchmark",
     "url": "https://github.com/chirino/mqtt-benchmark",
     "description": "A benchmarking tool for MQTT Servers."
-  },
-  {
-    "name": "mqttcli",
-    "url": "https://github.com/shirou/mqttcli",
-    "description": "MQTT Client for shell scripting."
   },
   {
     "name": "mqtt-client",
@@ -160,21 +170,6 @@
     "name": "mqtt-fuzz",
     "url": "https://github.com/F-Secure/mqtt_fuzz",
     "description": "A simple fuzzer for the MQTT protocol."
-  },
-  {
-    "name": "MQTT.fx",
-    "url": "http://mqttfx.jfx4ee.org/",
-    "description": "MQTT.fx is a MQTT Client written in Java based on Eclipse Paho. Supports scripting."
-  },
-  {
-    "name": "MQTTInspector",
-    "url": "https://github.com/ckrey/MQTTInspector",
-    "description": "A general MQTT testing app for iOS (iPhone and iPad)."
-  },
-  {
-    "name": "MQTTLens",
-    "url": "https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm",
-    "description": "A Google Chrome application, which connects to a MQTT broker and is able to subscribe and publish to MQTT topics."
   },
   {
     "name": "mqtt-malaria",
@@ -212,6 +207,26 @@
     "description": "Node.js Module to match a MQTT Topic against wildcards."
   },
   {
+    "name": "MQTT.fx",
+    "url": "http://mqttfx.jfx4ee.org/",
+    "description": "MQTT.fx is a MQTT Client written in Java based on Eclipse Paho. Supports scripting."
+  },
+  {
+    "name": "mqttcli",
+    "url": "https://github.com/shirou/mqttcli",
+    "description": "MQTT Client for shell scripting."
+  },
+  {
+    "name": "MQTTInspector",
+    "url": "https://github.com/ckrey/MQTTInspector",
+    "description": "A general MQTT testing app for iOS (iPhone and iPad)."
+  },
+  {
+    "name": "MQTTLens",
+    "url": "https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm",
+    "description": "A Google Chrome application, which connects to a MQTT broker and is able to subscribe and publish to MQTT topics."
+  },
+  {
     "name": "Python MQTT Client Shell",
     "url": "https://github.com/bapowell/python-mqtt-client-shell",
     "description": "a text console-based, interactive shell for exercising various tasks associated with MQTT client communications."
@@ -232,9 +247,9 @@
     "description": "Asynchronous Erlang MQTT Client."
   },
   {
-    "name": "Moscapsule",
-    "url": "https://github.com/flightonary/Moscapsule",
-    "description": "MQTT Client for iOS written in Swift."
+    "name": "gmqtt",
+    "url": "https://github.com/wialon/gmqtt",
+    "description": "Python MQTT v5.0 client (asyncio-based)"
   },
   {
     "name": "hbmqtt",
@@ -252,14 +267,14 @@
     "description": "Pure-lua MQTT client"
   },
   {
-    "name": "Machine Head",
-    "url": "https://github.com/clojurewerkz/machine_head",
-    "description": "A Clojure MQTT Client."
-  },
-  {
     "name": "M2Mqtt",
     "url": "https://m2mqtt.wordpress.com/",
     "description": "A MQTT client available for all .Net platforms (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platforms (Windows 8.1, Windows Phone 8.1 and Windows 10)."
+  },
+  {
+    "name": "Machine Head",
+    "url": "https://github.com/clojurewerkz/machine_head",
+    "description": "A Clojure MQTT Client."
   },
   {
     "name": "MIMIC MQTT Simulator",
@@ -267,49 +282,14 @@
     "description": "Simulate up to 100,000 MQTT clients per server for development/testing/deployment of IoT applications"
   },
   {
+    "name": "Moscapsule",
+    "url": "https://github.com/flightonary/Moscapsule",
+    "description": "MQTT Client for iOS written in Swift."
+  },
+  {
     "name": "Mosquitto-PHP",
     "url": "https://github.com/mgdm/Mosquitto-PHP",
     "description": "A wrapper for the Mosquitto MQTT client library for PHP."
-  },
-  {
-    "name": "mqtt",
-    "url": "https://github.com/jeffallen/mqtt",
-    "description": "MQTT Clients, Servers and Load Testers in Go."
-  },
-  {
-    "name": "MQTT-C",
-    "url": "https://github.com/LiamBindle/MQTT-C",
-    "description": "A portable MQTT C client for embedded systems and PCs alike."
-  },
-  {
-    "name": "mqtt-client",
-    "url": "https://github.com/centamiv/mqtt-client",
-    "description": "A Polymer Web Component that implements a MQTT client (uses Paho mqttws31.js)."
-  },
-  {
-    "name": "MQTT-Client-Framework",
-    "url": "https://github.com/novastone-media/MQTT-Client-Framework",
-    "description": "iOS, OSX, tvOS native ObjectiveC MQTT Client Framework."
-  },
-  {
-    "name": "mqtt.dart",
-    "url": "https://github.com/jnguillerme/mqtt.dart",
-    "description": "Dart mqtt client."
-  },
-  {
-    "name": "mqtt-elements",
-    "url": "https://github.com/mqttjs/mqtt-elements",
-    "description": "Polymer elements for MQTT."
-  },
-  {
-    "name": "mqttex",
-    "url": "https://github.com/alfert/mqttex",
-    "description": "MQTT implementation in Elixir."
-  },
-  {
-    "name": "MQTTKit",
-    "url": "https://github.com/mobile-web-messaging/MQTTKit",
-    "description": "MQTT Objective-C client for iOS."
   },
   {
     "name": "mqtt_cpp",
@@ -322,9 +302,24 @@
     "description": "MQTT Client library for the Lua language."
   },
   {
-    "name": "MQTT.js",
-    "url": "https://github.com/mqttjs",
-    "description": "MQTT client for Node.js."
+    "name": "MQTT-C",
+    "url": "https://github.com/LiamBindle/MQTT-C",
+    "description": "A portable MQTT C client for embedded systems and PCs alike."
+  },
+  {
+    "name": "MQTT-Client-Framework",
+    "url": "https://github.com/novastone-media/MQTT-Client-Framework",
+    "description": "iOS, OSX, tvOS native ObjectiveC MQTT Client Framework."
+  },
+  {
+    "name": "mqtt-client",
+    "url": "https://github.com/centamiv/mqtt-client",
+    "description": "A Polymer Web Component that implements a MQTT client (uses Paho mqttws31.js)."
+  },
+  {
+    "name": "mqtt-elements",
+    "url": "https://github.com/mqttjs/mqtt-elements",
+    "description": "Polymer elements for MQTT."
   },
   {
     "name": "mqtt-rs",
@@ -337,6 +332,31 @@
     "description": "Polymer Element that wraps other Elements and links them to MQTT topics."
   },
   {
+    "name": "mqtt.dart",
+    "url": "https://github.com/jnguillerme/mqtt.dart",
+    "description": "Dart mqtt client."
+  },
+  {
+    "name": "MQTT.js",
+    "url": "https://github.com/mqttjs",
+    "description": "MQTT client for Node.js."
+  },
+  {
+    "name": "mqtt",
+    "url": "https://github.com/jeffallen/mqtt",
+    "description": "MQTT Clients, Servers and Load Testers in Go."
+  },
+  {
+    "name": "mqttex",
+    "url": "https://github.com/alfert/mqttex",
+    "description": "MQTT implementation in Elixir."
+  },
+  {
+    "name": "MQTTKit",
+    "url": "https://github.com/mobile-web-messaging/MQTTKit",
+    "description": "MQTT Objective-C client for iOS."
+  },
+  {
     "name": "Paho",
     "url": "http://www.eclipse.org/paho/",
     "description": "Open source client implementations (C/C++, Java, Python, Javascript, Go, C#)."
@@ -347,14 +367,14 @@
     "description": "A client library for the Arduino Ethernet Shield that provides support for MQTT."
   },
   {
-    "name": "rumqtt",
-    "url": "https://github.com/AtherEnergy/rumqtt",
-    "description": "A fast, lock free pure rust MQTT client."
-  },
-  {
     "name": "ruby-mqtt",
     "url": "https://github.com/njh/ruby-mqtt",
     "description": "Pure Ruby gem that implements the MQTT protocol."
+  },
+  {
+    "name": "rumqtt",
+    "url": "https://github.com/AtherEnergy/rumqtt",
+    "description": "A fast, lock free pure rust MQTT client."
   },
   {
     "name": "tcl-mqtt",
@@ -412,6 +432,11 @@
     "description": "ESP8266 based bidirectional gateway between MQTT and IR. Use with PlatformIO."
   },
   {
+    "name": "mqtt-with-micropython",
+    "url": "https://docs.pycom.io/chapter/tutorials/all/mqtt.html",
+    "description": "Connect to MQTT with micropython and wipy/others (ESP32 inside)"
+  },
+  {
     "name": "MySensors",
     "url": "https://www.mysensors.org/",
     "description": "Arduino NRF24L01 based sensor network with support for an MQTT gateway"
@@ -435,11 +460,6 @@
     "name": "rpi2mqtt",
     "url": "https://github.com/hobbyquaker/rpi2mqtt",
     "description": "Connect a RaspberryPis GPIOs and 1-Wire Temperature Sensors to MQTT."
-  },
-  {
-    "name": "mqtt-with-micropython",
-    "url": "https://docs.pycom.io/chapter/tutorials/all/mqtt.html",
-    "description": "Connect to MQTT with micropython and wipy/others (ESP32 inside)"
   },
   {
     "name": "xbee2mqtt",
@@ -477,14 +497,14 @@
     "description": "A SIP monitoring script that publishes incoming calls with CallerID to MQTT."
   },
   {
-    "name": "mqttlauncher",
-    "url": "https://github.com/jpmens/mqtt-launcher",
-    "description": "Execute shell commands triggered by published MQTT messages."
-  },
-  {
     "name": "mqtt-os-status",
     "url": "https://github.com/oskarhagberg/mqtt-os-status",
     "description": "Operating-system related data, published to an MQTT broker at fixed intervals."
+  },
+  {
+    "name": "mqttlauncher",
+    "url": "https://github.com/jpmens/mqtt-launcher",
+    "description": "Execute shell commands triggered by published MQTT messages."
   },
   {
     "name": "mqttpc",
@@ -527,19 +547,9 @@
     "description": "Location tracking and geofencing for MQTT."
   },
   {
-    "name": "mqttcollect",
-    "url": "https://github.com/jpmens/mqttcollect",
-    "description": "A collectd \"Exec\" plugin for MQTT."
-  },
-  {
     "name": "graylog-plugin-mqtt",
     "url": "https://github.com/graylog-labs/graylog-plugin-mqtt",
     "description": "MQTT Input Plugin for Graylog."
-  },
-  {
-    "name": "mqtt2graphite",
-    "url": "https://github.com/jpmens/mqtt2graphite",
-    "description": "Subscribe to MQTT topics and push to Graphite's Carbon server."
   },
   {
     "name": "influx4mqtt",
@@ -552,19 +562,29 @@
     "description": "Send MQTT messages to Elasticsearch."
   },
   {
+    "name": "mqtt2graphite",
+    "url": "https://github.com/jpmens/mqtt2graphite",
+    "description": "Subscribe to MQTT topics and push to Graphite's Carbon server."
+  },
+  {
+    "name": "mqttcollect",
+    "url": "https://github.com/jpmens/mqttcollect",
+    "description": "A collectd \"Exec\" plugin for MQTT."
+  },
+  {
     "name": "mqtthandler",
     "url": "https://github.com/changyuheng/MQTTHandler",
     "description": "A Python logging handler module for MQTT."
   },
   {
-    "name": "aqara2mqtt",
-    "url": "https://github.com/hobbyquaker/aqara2mqtt",
-    "description": "Attach Aqara Smart Hubs to MQTT."
-  },
-  {
     "name": "aqara-mqtt",
     "url": "https://github.com/monster1025/aqara-mqtt",
     "description": "Aqara (Xiaomi) Gateway to MQTT bridge."
+  },
+  {
+    "name": "aqara2mqtt",
+    "url": "https://github.com/hobbyquaker/aqara2mqtt",
+    "description": "Attach Aqara Smart Hubs to MQTT."
   },
   {
     "name": "cul2mqtt",
@@ -627,14 +647,14 @@
     "description": "Plug-in for HS3 (HomeSeer)."
   },
   {
-    "name": "mqtt2homekit",
-    "url": "https://github.com/forty2/mqtt2homekit",
-    "description": "Roughly the opposite of homekit2mqtt: Control your HomeKit-enabled devices with MQTT and without Siri or iPhone."
-  },
-  {
     "name": "mqtt-dss-bridge",
     "url": "https://github.com/cgHome/mqtt-dss-bridge",
     "description": "MQTT digitalSTROM-Server Bridge."
+  },
+  {
+    "name": "mqtt2homekit",
+    "url": "https://github.com/forty2/mqtt2homekit",
+    "description": "Roughly the opposite of homekit2mqtt: Control your HomeKit-enabled devices with MQTT and without Siri or iPhone."
   },
   {
     "name": "node-lox-mqtt-gateway",
@@ -680,6 +700,10 @@
     "url": "https://www.home-assistant.io/"
   },
   {
+    "name": "Home.Pi is based on MQTT.",
+    "url": "https://github.com/denschu/home.pi"
+  },
+  {
     "name": "Homegear has build in MQTT support.",
     "url": "https://www.homegear.eu/index.php/Main_Page"
   },
@@ -687,10 +711,6 @@
     "name": "homekit2mqtt",
     "url": "https://github.com/hobbyquaker/homekit2mqtt",
     "description": "Interface between HAP-NodeJS and MQTT. Control MQTT connected devices with Siri or HomeKit Apps."
-  },
-  {
-    "name": "Home.Pi is based on MQTT.",
-    "url": "https://github.com/denschu/home.pi"
   },
   {
     "name": "ioBroker has a MQTT adapter.",
@@ -775,11 +795,6 @@
     "description": "Control your Google Chromecast devices using MQTT."
   },
   {
-    "name": "kodi2mqtt",
-    "url": "https://github.com/owagner/kodi2mqtt",
-    "description": "Interface between a Kodi media center instance and MQTT."
-  },
-  {
     "name": "harmony-api",
     "url": "https://github.com/maddox/harmony-api",
     "description": "A simple server allowing you to query/control multiple local Harmony Home Hubs over HTTP or MQTT."
@@ -788,6 +803,11 @@
     "name": "htd2mqtt",
     "url": "https://github.com/TheOriginalAndrobot/htd2mqtt",
     "description": "Bridge between an HTD Lync audio system and MQTT."
+  },
+  {
+    "name": "kodi2mqtt",
+    "url": "https://github.com/owagner/kodi2mqtt",
+    "description": "Interface between a Kodi media center instance and MQTT."
   },
   {
     "name": "lgtv2mqtt",
@@ -805,6 +825,11 @@
     "description": "MQTT features for Mopidy."
   },
   {
+    "name": "MQTT-DashCast-Docker",
+    "url": "https://github.com/mukowman/MQTT-DashCast-Docker",
+    "description": "MQTT Docker to launch DashCast session on Chromecast."
+  },
+  {
     "name": "mqtt2atlonamatrix",
     "url": "https://github.com/forty2/mqtt2atlonamatrix",
     "description": "Control Atlona HDMI matrix switches with MQTT."
@@ -813,11 +838,6 @@
     "name": "mqtt2tivoremote",
     "url": "https://github.com/forty2/mqtt2tivoremote",
     "description": "Make TiVo DVR remote control available through an MQTT smarthome style interface."
-  },
-  {
-    "name": "MQTT-DashCast-Docker",
-    "url": "https://github.com/mukowman/MQTT-DashCast-Docker",
-    "description": "MQTT Docker to launch DashCast session on Chromecast."
   },
   {
     "name": "onkyo2mqtt",
@@ -868,6 +888,11 @@
     "name": "AlexaMqttBridge",
     "url": "https://github.com/mhdawson/AlexaMqttBridge",
     "description": "Bridge between Amazon Alexa and Mqtt."
+  },
+  {
+    "name": "bt-mqtt-gateway",
+    "url": "https://github.com/zewelor/bt-mqtt-gateway",
+    "description": "Easily extensible Bluetooth to MQTT gateway, currently supports: EQ3 smart thermostat, Xiaomi Mi Scale, Linak Desk, MySensors and Xiaomi Mi Flora plant sensor."
   },
   {
     "name": "buderus2mqtt",
@@ -940,10 +965,6 @@
     "description": "Sample code which uses MQTT to control a Parrot AR Drone."
   },
   {
-    "name": "Tasker (Automation for Android) MQTT Publisher Plugin.",
-    "url": "https://play.google.com/store/apps/details?id=net.nosybore.mqttpublishplugin"
-  },
-  {
     "name": "snowboy2mqtt",
     "url": "https://github.com/hobbyquaker/snowboy2mqtt",
     "description": "Publish MQTT Messages on Snowboy Hotword Detection."
@@ -964,9 +985,8 @@
     "description": "Addon for a popular DIY barbecue thermometer."
   },
   {
-    "name": "bt-mqtt-gateway",
-    "url": "https://github.com/zewelor/bt-mqtt-gateway",
-    "description": "Easily extensible Bluetooth to MQTT gateway, currently supports: EQ3 smart thermostat, Xiaomi Mi Scale, Linak Desk, MySensors and Xiaomi Mi Flora plant sensor."
+    "name": "Tasker (Automation for Android) MQTT Publisher Plugin.",
+    "url": "https://play.google.com/store/apps/details?id=net.nosybore.mqttpublishplugin"
   },
   {
     "name": "Crouton",
@@ -994,19 +1014,9 @@
     "description": "Easy, customizable control panel - MQTT-client."
   },
   {
-    "name": "node-red-dashboard",
-    "url": "https://github.com/node-red/node-red-dashboard",
-    "description": "A dashboard UI for Node-RED."
-  },
-  {
     "name": "MMM-mqtt",
     "url": "https://github.com/javiergayala/MMM-mqtt",
     "description": "This is an extension for the MagicMirror². It provides the ability to subscribe to MQTT topics and display them."
-  },
-  {
-    "name": "mqtt2highcharts",
-    "url": "https://github.com/matbor/mqtt2highcharts",
-    "description": "Plotting live numbered data from a subscribed mqtt topic using Highcharts."
   },
   {
     "name": "MQTT Dash",
@@ -1022,6 +1032,16 @@
     "name": "mqtt-svg-dash",
     "url": "https://github.com/jpmens/mqtt-svg-dash",
     "description": "Subscribe to MQTT, extract JSON from a message and make lights blink on an SVG page."
+  },
+  {
+    "name": "mqtt2highcharts",
+    "url": "https://github.com/matbor/mqtt2highcharts",
+    "description": "Plotting live numbered data from a subscribed mqtt topic using Highcharts."
+  },
+  {
+    "name": "node-red-dashboard",
+    "url": "https://github.com/node-red/node-red-dashboard",
+    "description": "A dashboard UI for Node-RED."
   },
   {
     "name": "thingsboard",
