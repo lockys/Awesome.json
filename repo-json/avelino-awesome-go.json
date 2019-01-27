@@ -215,6 +215,71 @@
     "description": "Signed and timestamped strings compatible with Tornado's create_signed_value, decode_signed_value, and therefore set_secure_cookie and get_secure_cookie."
   },
   {
+    "name": "go-chat-bot",
+    "url": "https://github.com/go-chat-bot/bot",
+    "description": "IRC, Slack & Telegram bot written in Go."
+  },
+  {
+    "name": "go-sarah",
+    "url": "https://github.com/oklahomer/go-sarah",
+    "description": "Framework to build bot for desired chat services including LINE, Slack, Gitter and more."
+  },
+  {
+    "name": "go-tgbot",
+    "url": "https://github.com/olebedev/go-tgbot",
+    "description": "Pure Golang Telegram Bot API wrapper, generated from swagger file, session-based router and middleware."
+  },
+  {
+    "name": "Golang CryptoTrading Bot",
+    "url": "https://github.com/saniales/golang-crypto-trading-bot",
+    "description": "A golang implementation of a console-based trading bot for cryptocurrency exchanges."
+  },
+  {
+    "name": "govkbot",
+    "url": "https://github.com/nikepan/govkbot",
+    "description": "Simple Go VK bot library."
+  },
+  {
+    "name": "hanu",
+    "url": "https://github.com/sbstjn/hanu",
+    "description": "Framework for writing Slack bots."
+  },
+  {
+    "name": "margelet",
+    "url": "https://github.com/zhulik/margelet",
+    "description": "Framework for building Telegram bots."
+  },
+  {
+    "name": "micha",
+    "url": "https://github.com/onrik/micha",
+    "description": "Go Library for Telegram bot api."
+  },
+  {
+    "name": "slacker",
+    "url": "https://github.com/shomali11/slacker",
+    "description": "Easy to use framework to create Slack bots."
+  },
+  {
+    "name": "tbot",
+    "url": "https://github.com/yanzay/tbot",
+    "description": "Telegram bot server with API similar to net/http."
+  },
+  {
+    "name": "telebot",
+    "url": "https://github.com/tucnak/telebot",
+    "description": "Telegram bot framework written in Go."
+  },
+  {
+    "name": "telegram-bot-api",
+    "url": "https://github.com/Syfaro/telegram-bot-api",
+    "description": "Simple and clean Telegram bot client."
+  },
+  {
+    "name": "Tenyks",
+    "url": "https://github.com/kyleterry/tenyks",
+    "description": "Service oriented IRC bot using Redis and JSON for messaging."
+  },
+  {
     "name": "argparse",
     "url": "https://github.com/akamensky/argparse",
     "description": "Command line argument parser inspired by Python's argparse module."
@@ -468,6 +533,11 @@
     "name": "termbox-go",
     "url": "https://github.com/nsf/termbox-go",
     "description": "Termbox is a library for creating cross-platform text-based interfaces."
+  },
+  {
+    "name": "termdash",
+    "url": "https://github.com/mum4k/termdash",
+    "description": "Go terminal dashboard based on termbox-go and inspired by termui."
   },
   {
     "name": "termtables",
@@ -758,6 +828,11 @@
     "name": "go-rquad",
     "url": "https://github.com/aurelien-rainone/go-rquad",
     "description": "Region quadtrees with efficient point location and neighbour finding."
+  },
+  {
+    "name": "goconcurrentqueue",
+    "url": "https://github.com/enriquebris/goconcurrentqueue",
+    "description": "Concurrent FIFO queue."
   },
   {
     "name": "gods",
@@ -1775,6 +1850,11 @@
     "description": "Lua 5.1 VM and compiler written in Go."
   },
   {
+    "name": "gval",
+    "url": "https://github.com/PaesslerAG/gval",
+    "description": "A highly customizable expression language written in Go."
+  },
+  {
     "name": "ngaro",
     "url": "https://github.com/db47h/ngaro",
     "description": "Embeddable Ngaro VM implementation enabling scripting in Retro."
@@ -1793,6 +1873,26 @@
     "name": "tengo",
     "url": "https://github.com/d5/tengo",
     "description": "Bytecode compiled script language for Go."
+  },
+  {
+    "name": "errors",
+    "url": "https://github.com/pkg/errors",
+    "description": "Package that provides simple error handling primitives."
+  },
+  {
+    "name": "errorx",
+    "url": "https://github.com/joomcode/errorx",
+    "description": "A feature rich error package with stack traces, composition of errors and more."
+  },
+  {
+    "name": "go-multierror",
+    "url": "https://github.com/hashicorp/go-multierror",
+    "description": "Go (golang) package for representing a list of errors as a single error."
+  },
+  {
+    "name": "werr",
+    "url": "https://github.com/txgruppi/werr",
+    "description": "Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called."
   },
   {
     "name": "afero",
@@ -2535,6 +2635,106 @@
     "description": "Lightweight stream processing engine for IoT."
   },
   {
+    "name": "clockwerk",
+    "url": "http://github.com/onatm/clockwerk",
+    "description": "Go package to schedule periodic jobs using a simple, fluent syntax."
+  },
+  {
+    "name": "clockwork",
+    "url": "https://github.com/whiteShtef/clockwork",
+    "description": "Simple and intuitive job scheduling library in Go."
+  },
+  {
+    "name": "go-cron",
+    "url": "https://github.com/rk/go-cron",
+    "description": "Simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons."
+  },
+  {
+    "name": "gron",
+    "url": "https://github.com/roylee0704/gron",
+    "description": "Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly."
+  },
+  {
+    "name": "JobRunner",
+    "url": "https://github.com/bamzi/jobrunner",
+    "description": "Smart and featureful cron job scheduler with job queuing and live monitoring built in."
+  },
+  {
+    "name": "jobs",
+    "url": "https://github.com/albrow/jobs",
+    "description": "Persistent and flexible background jobs library."
+  },
+  {
+    "name": "leprechaun",
+    "url": "https://github.com/kilgaloon/leprechaun",
+    "description": "Job scheduler that supports webhooks, crons and classic scheduling."
+  },
+  {
+    "name": "scheduler",
+    "url": "https://github.com/carlescere/scheduler",
+    "description": "Cronjobs scheduling made easy."
+  },
+  {
+    "name": "GJSON",
+    "url": "https://github.com/tidwall/gjson",
+    "description": "Get a JSON value with one line of code."
+  },
+  {
+    "name": "go-respond",
+    "url": "https://github.com/nicklaw5/go-respond",
+    "description": "Go package for handling common HTTP JSON responses."
+  },
+  {
+    "name": "gojq",
+    "url": "https://github.com/elgs/gojq",
+    "description": "JSON query in Golang."
+  },
+  {
+    "name": "gojson",
+    "url": "https://github.com/ChimeraCoder/gojson",
+    "description": "Automatically generate Go (golang) struct definitions from example JSON."
+  },
+  {
+    "name": "JayDiff",
+    "url": "https://github.com/yazgazan/jaydiff",
+    "description": "JSON diff utility written in Go."
+  },
+  {
+    "name": "JSON-to-Go",
+    "url": "https://mholt.github.io/json-to-go/",
+    "description": "Convert JSON to Go struct."
+  },
+  {
+    "name": "jsonapi-errors",
+    "url": "https://github.com/AmuzaTkts/jsonapi-errors",
+    "description": "Go bindings based on the JSON API errors reference."
+  },
+  {
+    "name": "jsonf",
+    "url": "https://github.com/miolini/jsonf",
+    "description": "Console tool for highlighted formatting and struct query fetching JSON."
+  },
+  {
+    "name": "jsongo",
+    "url": "https://github.com/ricardolonga/jsongo",
+    "description": "Fluent API to make it easier to create Json objects."
+  },
+  {
+    "name": "jsonhal",
+    "url": "https://github.com/RichardKnop/jsonhal",
+    "description": "Simple Go package to make custom structs marshal into HAL compatible JSON responses."
+  },
+  {
+    "name": "kazaam",
+    "url": "https://github.com/Qntfy/kazaam",
+    "description": "API for arbitrary transformation of JSON documents."
+  },
+  {
+    "name": "mp",
+    "url": "https://github.com/sanbornm/mp",
+    "description": "Simple cli email parser. It currently takes stdin and outputs JSON."
+  },
+  {
     "name": "distillog",
     "url": "https://github.com/amoghe/distillog",
     "description": "distilled levelled logging (think of it as stdlib + log levels)."
@@ -2543,6 +2743,11 @@
     "name": "glg",
     "url": "https://github.com/kpango/glg",
     "description": "glg is simple and fast leveled logging library for Go."
+  },
+  {
+    "name": "glo",
+    "url": "https://github.com/lajosbencz/glo",
+    "description": "PHP Monolog inspired logging facility with identical severity levels."
   },
   {
     "name": "glog",
@@ -3055,9 +3260,49 @@
     "description": "Go interface to ZeroMQ version 4. Also available for version 3 and version 2."
   },
   {
+    "name": "excelize",
+    "url": "https://github.com/360EntSecGroup-Skylar/excelize",
+    "description": "Golang library for reading and writing Microsoft Excel™ (XLSX) files."
+  },
+  {
+    "name": "go-excel",
+    "url": "https://github.com/szyhf/go-excel",
+    "description": "A simple and light reader to read a relate-db-like excel as a table."
+  },
+  {
+    "name": "goxlsxwriter",
+    "url": "https://github.com/fterrag/goxlsxwriter",
+    "description": "Golang bindings for libxlsxwriter for writing XLSX (Microsoft Excel) files."
+  },
+  {
+    "name": "xlsx",
+    "url": "https://github.com/tealeg/xlsx",
+    "description": "Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs."
+  },
+  {
+    "name": "xlsx",
+    "url": "https://github.com/plandem/xlsx",
+    "description": "Fast and safe way to read/update your existing Microsoft Excel files in Go programs."
+  },
+  {
     "name": "alice",
     "url": "https://github.com/magic003/alice",
     "description": "Additive dependency injection container for Golang."
+  },
+  {
+    "name": "wire",
+    "url": "https://github.com/Fs02/wire",
+    "description": "Strict Runtime Dependency Injection for Golang."
+  },
+  {
+    "name": "strutil",
+    "url": "https://github.com/ozgio/strutil",
+    "description": "String utilities."
+  },
+  {
+    "name": "xstrings",
+    "url": "https://github.com/huandu/xstrings",
+    "description": "Collection of useful string functions ported from other languages."
   },
   {
     "name": "anagent",
@@ -3125,16 +3370,6 @@
     "description": "Go counters for readers/writer/http.ResponseWriter."
   },
   {
-    "name": "errors",
-    "url": "https://github.com/pkg/errors",
-    "description": "Package that provides simple error handling primitives."
-  },
-  {
-    "name": "errorx",
-    "url": "https://github.com/joomcode/errorx",
-    "description": "A feature rich error package with stack traces, composition of errors and more."
-  },
-  {
     "name": "ffmt",
     "url": "https://github.com/go-ffmt/ffmt",
     "description": "Beautify data display for Humans."
@@ -3145,19 +3380,9 @@
     "description": "Clone all repos from a GitHub org into a single directory."
   },
   {
-    "name": "go-chat-bot",
-    "url": "https://github.com/go-chat-bot/bot",
-    "description": "IRC, Slack & Telegram bot written in Go."
-  },
-  {
     "name": "go-commons-pool",
     "url": "https://github.com/jolestar/go-commons-pool",
     "description": "Generic object pool for Golang."
-  },
-  {
-    "name": "go-multierror",
-    "url": "https://github.com/hashicorp/go-multierror",
-    "description": "Go (golang) package for representing a list of errors as a single error."
   },
   {
     "name": "go-openapi",
@@ -3170,11 +3395,6 @@
     "description": "Resiliency patterns for golang."
   },
   {
-    "name": "go-sarah",
-    "url": "https://github.com/oklahomer/go-sarah",
-    "description": "Framework to build bot for desired chat services including LINE, Slack, Gitter and more."
-  },
-  {
     "name": "go-unarr",
     "url": "https://github.com/gen2brain/go-unarr",
     "description": "Decompression library for RAR, TAR, ZIP and 7z archives."
@@ -3183,11 +3403,6 @@
     "name": "gofakeit",
     "url": "https://github.com/brianvoe/gofakeit",
     "description": "Random data generator written in go."
-  },
-  {
-    "name": "goid",
-    "url": "https://github.com/jakehl/goid",
-    "description": "Generate and Parse RFC4122 compliant V4 UUIDs."
   },
   {
     "name": "gommit",
@@ -3215,11 +3430,6 @@
     "description": "Package that exposes country and subdivision data."
   },
   {
-    "name": "hanu",
-    "url": "https://github.com/sbstjn/hanu",
-    "description": "Framework for writing Slack bots."
-  },
-  {
     "name": "health",
     "url": "https://github.com/dimiro1/health",
     "description": "Easy to use, extensible health check library."
@@ -3240,11 +3450,6 @@
     "description": "Distributed unique ID generator of using Sonyflake and encoded by Base58."
   },
   {
-    "name": "jobs",
-    "url": "https://github.com/albrow/jobs",
-    "description": "Persistent and flexible background jobs library."
-  },
-  {
     "name": "lk",
     "url": "https://github.com/hyperboloide/lk",
     "description": "A simple licensing library for golang."
@@ -3253,11 +3458,6 @@
     "name": "llvm",
     "url": "https://github.com/llir/llvm",
     "description": "Library for interacting with LLVM IR in pure Go."
-  },
-  {
-    "name": "margelet",
-    "url": "https://github.com/zhulik/margelet",
-    "description": "Framework for building Telegram bots."
   },
   {
     "name": "morse",
@@ -3290,19 +3490,9 @@
     "description": "Distributed generation of super short, unique, non-sequential, URL friendly IDs."
   },
   {
-    "name": "slacker",
-    "url": "https://github.com/shomali11/slacker",
-    "description": "Easy to use framework to create Slack bots."
-  },
-  {
     "name": "stats",
     "url": "https://github.com/go-playground/stats",
     "description": "Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc..."
-  },
-  {
-    "name": "strutil",
-    "url": "https://github.com/ozgio/strutil",
-    "description": "String utilities."
   },
   {
     "name": "turtle",
@@ -3315,34 +3505,9 @@
     "description": "A modern, powerful, and robust URL shortener microservice with mysql support."
   },
   {
-    "name": "uuid",
-    "url": "https://github.com/agext/uuid",
-    "description": "Generate, encode, and decode UUIDs v1 with fast or cryptographic-quality random node identifier."
-  },
-  {
-    "name": "uuid",
-    "url": "https://github.com/gofrs/uuid",
-    "description": "Implementation of Universally Unique Identifier (UUID). Supports both creation and parsing of UUIDs. Actively maintained fork of satori uuid."
-  },
-  {
     "name": "VarHandler",
     "url": "https://github.com/azr/generators/tree/master/varhandler",
     "description": "Generate boilerplate http input and output handling."
-  },
-  {
-    "name": "werr",
-    "url": "https://github.com/txgruppi/werr",
-    "description": "Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called."
-  },
-  {
-    "name": "wire",
-    "url": "https://github.com/Fs02/wire",
-    "description": "Strict Runtime Dependency Injection for Golang."
-  },
-  {
-    "name": "wuid",
-    "url": "https://github.com/edwingeng/wuid",
-    "description": "An extremely fast unique number generator, 10-135 times faster than UUID."
   },
   {
     "name": "xdg",
@@ -3353,11 +3518,6 @@
     "name": "xkg",
     "url": "https://github.com/go-xkg/xkg",
     "description": "X Keyboard Grabber."
-  },
-  {
-    "name": "xstrings",
-    "url": "https://github.com/huandu/xstrings",
-    "description": "Collection of useful string functions ported from other languages."
   },
   {
     "name": "getlang",
@@ -5185,11 +5345,6 @@
     "description": "Telegraph publishing platform API client."
   },
   {
-    "name": "go-tgbot",
-    "url": "https://github.com/olebedev/go-tgbot",
-    "description": "Pure Golang Telegram Bot API wrapper, generated from swagger file, session-based router and middleware."
-  },
-  {
     "name": "go-trending",
     "url": "https://github.com/andygrunwald/go-trending",
     "description": "Go library for accessing trending repositories and developers at Github."
@@ -5250,11 +5405,6 @@
     "description": "GoStorm is a Go library that implements the communications protocol required to write Storm spouts and Bolts in Go that communicate with the Storm shells."
   },
   {
-    "name": "govkbot",
-    "url": "https://github.com/nikepan/govkbot",
-    "description": "Simple Go VK bot library."
-  },
-  {
     "name": "hipchat",
     "url": "https://github.com/andybons/hipchat",
     "description": "This project implements a golang client library for the Hipchat API."
@@ -5278,11 +5428,6 @@
     "name": "megos",
     "url": "https://github.com/andygrunwald/megos",
     "description": "Client library for accessing an Apache Mesos cluster."
-  },
-  {
-    "name": "micha",
-    "url": "https://github.com/onrik/micha",
-    "description": "Go Library for Telegram bot api."
   },
   {
     "name": "minio-go",
@@ -5353,21 +5498,6 @@
     "name": "stripe",
     "url": "https://github.com/stripe/stripe-go",
     "description": "Go client for the Stripe API."
-  },
-  {
-    "name": "tbot",
-    "url": "https://github.com/yanzay/tbot",
-    "description": "Telegram bot server with API similar to net/http."
-  },
-  {
-    "name": "telebot",
-    "url": "https://github.com/tucnak/telebot",
-    "description": "Telegram bot framework written in Go."
-  },
-  {
-    "name": "telegram-bot-api",
-    "url": "https://github.com/Syfaro/telegram-bot-api",
-    "description": "Simple and clean Telegram bot client."
   },
   {
     "name": "textbelt",
@@ -5455,19 +5585,9 @@
     "description": "Circuit Breakers in Go."
   },
   {
-    "name": "clockwerk",
-    "url": "http://github.com/onatm/clockwerk",
-    "description": "Go package to schedule periodic jobs using a simple, fluent syntax."
-  },
-  {
     "name": "clockwork",
     "url": "https://github.com/jonboulle/clockwork",
     "description": "A simple fake clock for golang."
-  },
-  {
-    "name": "clockwork",
-    "url": "https://github.com/whiteShtef/clockwork",
-    "description": "Simple and intuitive job scheduling library in Go."
   },
   {
     "name": "command",
@@ -5520,11 +5640,6 @@
     "description": "Evaluate an expression dynamicly based on s-expression. It's simple and easy to extend."
   },
   {
-    "name": "excelize",
-    "url": "https://github.com/360EntSecGroup-Skylar/excelize",
-    "description": "Golang library for reading and writing Microsoft Excel™ (XLSX) files."
-  },
-  {
     "name": "fastlz",
     "url": "https://github.com/digitalcrab/fastlz",
     "description": "Wrap over FastLz (free, open-source, portable real-time compression library) for GoLang."
@@ -5565,11 +5680,6 @@
     "description": "Simple, seamless, lightweight time tracking for Git."
   },
   {
-    "name": "GJSON",
-    "url": "https://github.com/tidwall/gjson",
-    "description": "Get a JSON value with one line of code."
-  },
-  {
     "name": "go-astitodo",
     "url": "https://github.com/asticode/go-astitodo",
     "description": "Parse TODOs in your GO code."
@@ -5580,19 +5690,9 @@
     "description": "go:generate tool for wrapping symbols exported by golang plugins (1.8 only)."
   },
   {
-    "name": "go-cron",
-    "url": "https://github.com/rk/go-cron",
-    "description": "Simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons."
-  },
-  {
     "name": "go-dry",
     "url": "https://github.com/ungerik/go-dry",
     "description": "DRY (don't repeat yourself) package for Go."
-  },
-  {
-    "name": "go-excel",
-    "url": "https://github.com/szyhf/go-excel",
-    "description": "A simple and light reader to read a relate-db-like excel as a table."
   },
   {
     "name": "go-funk",
@@ -5613,11 +5713,6 @@
     "name": "go-rate",
     "url": "https://github.com/beefsack/go-rate",
     "description": "Timed rate limiter for Go."
-  },
-  {
-    "name": "go-respond",
-    "url": "https://github.com/nicklaw5/go-respond",
-    "description": "Go package for handling common HTTP JSON responses."
   },
   {
     "name": "go-sitemap-generator",
@@ -5653,16 +5748,6 @@
     "name": "gohper",
     "url": "https://github.com/cosiner/gohper",
     "description": "Various tools/modules help for development."
-  },
-  {
-    "name": "gojq",
-    "url": "https://github.com/elgs/gojq",
-    "description": "JSON query in Golang."
-  },
-  {
-    "name": "gojson",
-    "url": "https://github.com/ChimeraCoder/gojson",
-    "description": "Automatically generate Go (golang) struct definitions from example JSON."
   },
   {
     "name": "golarm",
@@ -5710,19 +5795,9 @@
     "description": "Load environment variables from .env or any io.Reader in Go."
   },
   {
-    "name": "goxlsxwriter",
-    "url": "https://github.com/fterrag/goxlsxwriter",
-    "description": "Golang bindings for libxlsxwriter for writing XLSX (Microsoft Excel) files."
-  },
-  {
     "name": "gpath",
     "url": "https://github.com/tenntenn/gpath",
     "description": "Library to simplify access struct fields with Go's expression in reflection."
-  },
-  {
-    "name": "gron",
-    "url": "https://github.com/roylee0704/gron",
-    "description": "Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly."
   },
   {
     "name": "gubrak",
@@ -5755,44 +5830,9 @@
     "description": "Use x86 SIMD without writing any assembly code."
   },
   {
-    "name": "JobRunner",
-    "url": "https://github.com/bamzi/jobrunner",
-    "description": "Smart and featureful cron job scheduler with job queuing and live monitoring built in."
-  },
-  {
-    "name": "jsonapi-errors",
-    "url": "https://github.com/AmuzaTkts/jsonapi-errors",
-    "description": "Go bindings based on the JSON API errors reference."
-  },
-  {
-    "name": "jsonf",
-    "url": "https://github.com/miolini/jsonf",
-    "description": "Console tool for highlighted formatting and struct query fetching JSON."
-  },
-  {
-    "name": "jsongo",
-    "url": "https://github.com/ricardolonga/jsongo",
-    "description": "Fluent API to make it easier to create Json objects."
-  },
-  {
-    "name": "jsonhal",
-    "url": "https://github.com/RichardKnop/jsonhal",
-    "description": "Simple Go package to make custom structs marshal into HAL compatible JSON responses."
-  },
-  {
-    "name": "kazaam",
-    "url": "https://github.com/Qntfy/kazaam",
-    "description": "API for arbitrary transformation of JSON documents."
-  },
-  {
     "name": "koazee",
     "url": "https://github.com/wesovilabs/koazee",
     "description": "Library inspired in Lazy evaluation and functional programming that takes the hassle out of working with arrays."
-  },
-  {
-    "name": "leprechaun",
-    "url": "https://github.com/kilgaloon/leprechaun",
-    "description": "Job scheduler that supports webhooks, crons and classic scheduling."
   },
   {
     "name": "lrserver",
@@ -5848,11 +5888,6 @@
     "name": "mole",
     "url": "https://github.com/davrodpin/mole",
     "description": "cli app to easily create ssh tunnels."
-  },
-  {
-    "name": "mp",
-    "url": "https://github.com/sanbornm/mp",
-    "description": "Simple cli email parser. It currently takes stdin and outputs JSON."
   },
   {
     "name": "mssqlx",
@@ -5975,11 +6010,6 @@
     "description": "Runs functions resiliently, catching and restarting panics."
   },
   {
-    "name": "scheduler",
-    "url": "https://github.com/carlescere/scheduler",
-    "description": "Cronjobs scheduling made easy."
-  },
-  {
     "name": "serve",
     "url": "https://github.com/syntaqx/serve",
     "description": "A static http server anywhere you need."
@@ -6055,14 +6085,24 @@
     "description": "Xferspdy provides binary diff and patch library in golang."
   },
   {
-    "name": "xlsx",
-    "url": "https://github.com/tealeg/xlsx",
-    "description": "Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs."
+    "name": "goid",
+    "url": "https://github.com/jakehl/goid",
+    "description": "Generate and Parse RFC4122 compliant V4 UUIDs."
   },
   {
-    "name": "xlsx",
-    "url": "https://github.com/plandem/xlsx",
-    "description": "Fast and safe way to read/update your existing Microsoft Excel files in Go programs."
+    "name": "uuid",
+    "url": "https://github.com/agext/uuid",
+    "description": "Generate, encode, and decode UUIDs v1 with fast or cryptographic-quality random node identifier."
+  },
+  {
+    "name": "uuid",
+    "url": "https://github.com/gofrs/uuid",
+    "description": "Implementation of Universally Unique Identifier (UUID). Supports both creation and parsing of UUIDs. Actively maintained fork of satori uuid."
+  },
+  {
+    "name": "wuid",
+    "url": "https://github.com/edwingeng/wuid",
+    "description": "An extremely fast unique number generator, 10-135 times faster than UUID."
   },
   {
     "name": "govalidator",
@@ -6850,11 +6890,6 @@
     "description": "Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API."
   },
   {
-    "name": "JSON-to-Go",
-    "url": "https://mholt.github.io/json-to-go/",
-    "description": "Convert JSON to Go struct."
-  },
-  {
     "name": "OctoLinker",
     "url": "https://github.com/OctoLinker/browser-extension",
     "description": "Navigate through go files efficiently with the OctoLinker browser extension for GitHub."
@@ -7210,11 +7245,6 @@
     "description": "Full featured cross-platform Go IDE."
   },
   {
-    "name": "Golang CryptoTrading Bot",
-    "url": "https://github.com/saniales/golang-crypto-trading-bot",
-    "description": "A golang implementation of a console-based trading bot for cryptocurrency exchanges."
-  },
-  {
     "name": "Gor",
     "url": "https://github.com/buger/gor",
     "description": "Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time."
@@ -7233,11 +7263,6 @@
     "name": "ipe",
     "url": "https://github.com/dimiro1/ipe",
     "description": "Open source Pusher server implementation compatible with Pusher client libraries written in GO."
-  },
-  {
-    "name": "JayDiff",
-    "url": "https://github.com/yazgazan/jaydiff",
-    "description": "JSON diff utility written in Go."
   },
   {
     "name": "joincap",
@@ -7353,11 +7378,6 @@
     "name": "syncthing",
     "url": "https://syncthing.net/",
     "description": "Open, decentralized file synchronization tool and protocol."
-  },
-  {
-    "name": "Tenyks",
-    "url": "https://github.com/kyleterry/tenyks",
-    "description": "Service oriented IRC bot using Redis and JSON for messaging."
   },
   {
     "name": "term-quiz",
@@ -7958,6 +7978,11 @@
     "description": "How to cancel MySQL queries."
   },
   {
+    "name": "Ethereum Development with Go",
+    "url": "https://github.com/miguelmota/ethereum-development-with-go-book",
+    "description": "A little e-book on Ethereum Development with Go."
+  },
+  {
     "name": "Games With Go",
     "url": "http://gameswithgo.org/",
     "description": "A video series teaching programming and game development."
@@ -7986,6 +8011,11 @@
     "name": "Go WebAssembly Tutorial",
     "url": "https://tutorialedge.net/golang/go-webassembly-tutorial/",
     "description": "Building a Simple Calculator"
+  },
+  {
+    "name": "Golang for Node.js Developers",
+    "url": "https://github.com/miguelmota/golang-for-nodejs-developers",
+    "description": "Examples of Golang compared to Node.js for learning."
   },
   {
     "name": "Golangbot",
