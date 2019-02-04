@@ -18,6 +18,11 @@
     "description": "high-performance MPP data warehouse platform."
   },
   {
+    "name": "Bistro",
+    "url": "https://github.com/asavinov/bistro",
+    "description": "general-purpose data processing engine for both batch and stream analytics. It is based on a novel data model, which represents data via functions and processes data via column operations as opposed to having only set operations in conventional approaches like MapReduce or SQL."
+  },
+  {
     "name": "IBM Streams",
     "url": "https://www.ibm.com/analytics/us/en/technology/stream-computing/",
     "description": "platform for distributed processing and real-time analytics.  Integrates with many of the popular technologies in the Big Data ecosystem (Kafka, HDFS, Spark, etc.)"
@@ -36,6 +41,11 @@
     "name": "Pachyderm",
     "url": "http://pachyderm.io/",
     "description": "Pachyderm is a data storage platform built on Docker and Kubernetes to provide reproducible data processing and analysis."
+  },
+  {
+    "name": "Polyaxon",
+    "url": "https://github.com/polyaxon/polyaxon",
+    "description": "A platform for reproducible and scalable machine learning and deep learning."
   },
   {
     "name": "AddThis Hydra",
@@ -702,9 +712,19 @@
     "description": "tools to construct large-scale graphs on top of Hadoop."
   },
   {
+    "name": "JanusGraph",
+    "url": "http://janusgraph.org",
+    "description": "open-source, distributed graph database"
+  },
+  {
     "name": "MapGraph",
     "url": "https://www.blazegraph.com/mapgraph-technology/",
     "description": "Massively Parallel Graph processing on GPUs."
+  },
+  {
+    "name": "Microsoft Graph Engine",
+    "url": "https://github.com/Microsoft/GraphEngine",
+    "description": "a distributed in-memory data processing engine, underpinned by a strongly-typed in-memory key-value store and a general distributed computation engine."
   },
   {
     "name": "Neo4j",
@@ -972,6 +992,11 @@
     "description": "similar to OpenTSDB but allows for Cassandra."
   },
   {
+    "name": "M3DB",
+    "url": "http://m3db.github.io/m3/m3db/",
+    "description": "a distributed time series database that can be used for storing realtime metrics at long retention."
+  },
+  {
     "name": "Newts",
     "url": "https://opennms.github.io/newts/",
     "description": "a time series database based on Apache Cassandra."
@@ -1144,6 +1169,11 @@
     "description": "real-time processing of streaming data at massive scale."
   },
   {
+    "name": "Amazon Web Services Glue",
+    "url": "https://aws.amazon.com/glue/",
+    "description": " serverless fully managed extract, transform, and load (ETL) service"
+  },
+  {
     "name": "Apache Chukwa",
     "url": "http://chukwa.apache.org/",
     "description": "data collection system."
@@ -1309,6 +1339,11 @@
     "description": "cluster manager."
   },
   {
+    "name": "Mara",
+    "url": "https://github.com/mara/data-integration",
+    "description": "A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow"
+  },
+  {
     "name": "OpenMPI",
     "url": "https://www.open-mpi.org/",
     "description": "message passing framework."
@@ -1452,6 +1487,10 @@
     "name": "Keras",
     "url": "https://github.com/fchollet/keras",
     "description": "An intuitive neural net API inspired by Torch that runs atop Theano and Tensorflow."
+  },
+  {
+    "name": "Lambdo is a workflow engine which significantly simplifies data processing and analysis by combining in one analysis pipeline (i) feature engineering and machine learning (ii) model training and prediction (iii) table population and column evaluation via user-defined (Python) functions.",
+    "url": "https://github.com/asavinov/lambdo"
   },
   {
     "name": "Mahout",
@@ -2127,6 +2166,11 @@
     "description": "software platforms for business intelligence, mobile intelligence, and network applications."
   },
   {
+    "name": "Numeracy",
+    "url": "https://numeracy.co/",
+    "description": "Fast, clean SQL client and business intelligence."
+  },
+  {
     "name": "Pentaho",
     "url": "http://www.pentaho.com/",
     "description": "business intelligence platform."
@@ -2272,6 +2316,11 @@
     "description": "write SQL queries that return SVG charts rather than tables"
   },
   {
+    "name": "Frappe Charts",
+    "url": "https://frappe.io/charts",
+    "description": "GitHub-inspired simple and modern SVG charts for the web with zero dependencies."
+  },
+  {
     "name": "Freeboard",
     "url": "https://github.com/Freeboard/freeboard",
     "description": "pen source real-time dashboard builder for IOT and other web mashups."
@@ -2377,7 +2426,7 @@
   },
   {
     "name": "Vega",
-    "url": "https://github.com/trifacta/vega",
+    "url": "https://github.com/vega/vega",
     "description": "a visualization grammar."
   },
   {
@@ -2453,6 +2502,11 @@
     "name": "Monitoring Hadoop performance",
     "url": "https://www.datadoghq.com/blog/monitor-hadoop-metrics?ref=awesome",
     "description": "Guide to monitoring Hadoop, with an overview of Hadoop architecture, and native methods for metrics collection."
+  },
+  {
+    "name": "Monitoring Cassandra performance",
+    "url": "https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/?ref=awesome",
+    "description": "Guide to monitoring Cassandra, including native methods for metrics collection."
   },
   {
     "name": "2015",
@@ -2660,6 +2714,11 @@
     "description": "Spark in Motion teaches you how to use Spark for batch and streaming data analytics."
   },
   {
+    "name": "Data Science at Scale with Python and Dask",
+    "url": "https://www.manning.com/books/data-science-at-scale-with-python-and-dask",
+    "description": "Data Science at Scale with Python and Dask teaches you how to build distributed data projects that can handle huge amounts of data."
+  },
+  {
     "name": "Streaming Data",
     "url": "https://www.manning.com/books/streaming-data",
     "description": "Streaming Data introduces the concepts and requirements of streaming and real-time data systems."
@@ -2705,6 +2764,11 @@
     "description": "Kafka in Action is a fast-paced introduction to every aspect of working with Kafka you need to really reap its benefits."
   },
   {
+    "name": "Fusion in Action",
+    "url": "https://www.manning.com/books/fusion-in-action",
+    "description": "Fusion in Action teaches you to build a full-featured data analytics pipeline, including document and data search and distributed data clustering."
+  },
+  {
     "name": "Reactive Data Handling",
     "url": "https://www.manning.com/books/reactive-data-handling",
     "description": "Reactive Data Handling is a collection of five hand-picked chapters, selected by Manuel Bernhardt, that introduce you to building reactive applications capable of handling real-time processing with large data loads--free eBook!"
@@ -2712,6 +2776,11 @@
   {
     "name": "Distributed Systems for fun and profit – Theory of distributed systems. Include parts about time and ordering, replication and impossibility results.",
     "url": "http://book.mixu.net/distsys/"
+  },
+  {
+    "name": "Graph-Powered Machine Learning",
+    "url": "https://www.manning.com/books/graph-powered-machine-learning",
+    "description": "Alessandro Negro. Combine graph theory and models to improve machine learning projects"
   },
   {
     "name": "The beauty of data visualization",
@@ -2752,5 +2821,17 @@
   {
     "name": "Public Datasets awesome-public-datasets.",
     "url": "https://github.com/awesomedata/awesome-public-datasets"
+  },
+  {
+    "name": "Graph Embedding awesome-graph-embedding.",
+    "url": "https://github.com/benedekrozemberczki/awesome-graph-embedding"
+  },
+  {
+    "name": "Network Embedding awesome-network-embedding.",
+    "url": "https://github.com/chihming/awesome-network-embedding"
+  },
+  {
+    "name": "Community Detection awesome-community-detection.",
+    "url": "https://github.com/benedekrozemberczki/awesome-community-detection"
   }
 ]

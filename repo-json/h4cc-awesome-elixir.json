@@ -120,6 +120,11 @@
     "description": "A collection of protocols, implementations and wrappers to work with data structures."
   },
   {
+    "name": "def_memo",
+    "url": "https://github.com/os6sense/DefMemo",
+    "description": "A memoization macro (defmemo) for elixir using a genserver backing store."
+  },
+  {
     "name": "dlist",
     "url": "https://github.com/stocks29/dlist",
     "description": "Deque implementations in Elixir."
@@ -143,6 +148,11 @@
     "name": "elistrix",
     "url": "https://github.com/tobz/elistrix",
     "description": "A latency / fault tolerance library to help isolate your applications from an uncertain world of slow or failed services."
+  },
+  {
+    "name": "emel",
+    "url": "https://github.com/mrdimosthenis/emel",
+    "description": "A simple and functional machine learning library written in elixir."
   },
   {
     "name": "erlang-algorithms",
@@ -206,7 +216,7 @@
   },
   {
     "name": "hypex",
-    "url": "https://github.com/zackehh/hypex",
+    "url": "https://github.com/whitfin/hypex",
     "description": "Fast Elixir implementation of HyperLogLog."
   },
   {
@@ -255,14 +265,14 @@
     "description": "A state machine library for structs in general, it integrates with Phoenix out of the box."
   },
   {
+    "name": "mason",
+    "url": "https://github.com/spacepilots/mason",
+    "description": "Coerce maps into structs. This is helpful e.g. when you interface a REST API and want to create a struct from the response."
+  },
+  {
     "name": "matrex",
     "url": "https://github.com/versilov/matrex",
     "description": "A blazing fast matrix library for Elixir/Erlang with C implementation using CBLAS."
-  },
-  {
-    "name": "memoize",
-    "url": "https://github.com/os6sense/DefMemo",
-    "description": "A memoization macro (defmemo) for elixir using a genserver backing store."
   },
   {
     "name": "merkle_tree",
@@ -358,6 +368,11 @@
     "name": "simhash",
     "url": "https://github.com/UniversalAvenue/simhash-ex",
     "description": "Simhash implementation using Siphash and N-grams."
+  },
+  {
+    "name": "sleeplocks",
+    "url": "https://github.com/whitfin/sleeplocks",
+    "description": "BEAM friendly spinlocks for Elixir/Erlang."
   },
   {
     "name": "sorted_set",
@@ -515,6 +530,11 @@
     "description": "Online estimation tool for Agile teams, written using Elixir Lang, Phoenix Framework and React."
   },
   {
+    "name": "Stabby Flies",
+    "url": "https://meaty-spiffy-hermitcrab.gigalixirapp.com",
+    "description": "A multiplayer fighting game built with Elixir, Phoenix and Pixi."
+  },
+  {
     "name": "Startup Job",
     "url": "https://github.com/tsurupin/job_search",
     "description": "An umbrella project to search startup jobs scraped from websites written in Elixir/Phoenix and React/Redux."
@@ -550,6 +570,11 @@
     "description": "Erlang PortAudio bindings."
   },
   {
+    "name": "firmata",
+    "url": "https://github.com/entone/firmata",
+    "description": "This package implements the Firmata protocol."
+  },
+  {
     "name": "synthex",
     "url": "https://github.com/bitgamma/synthex",
     "description": "A signal synthesis library."
@@ -573,11 +598,6 @@
     "name": "basic_auth",
     "url": "https://github.com/CultivateHQ/basic_auth",
     "description": "Elixir Plug to easily add HTTP basic authentication to an app."
-  },
-  {
-    "name": "blackbook",
-    "url": "https://github.com/bigmachine-io/blackbook",
-    "description": "All-in-one membership/authentication system for Elixir."
   },
   {
     "name": "coherence",
@@ -685,11 +705,6 @@
     "description": "An Elixir Authentication System for Plug-based Web Applications."
   },
   {
-    "name": "ueberauth_active_directory",
-    "url": "https://github.com/torrick/ueberauth_active_directory",
-    "description": "Uberauth strategy for Active Directory authentication."
-  },
-  {
     "name": "ueberauth_auth0",
     "url": "https://hex.pm/packages/ueberauth_auth0",
     "description": "An Ueberauth strategy for using Auth0 to authenticate your users."
@@ -780,6 +795,11 @@
     "description": "Middleware based authentication and authorization for Absinthe GraphQL powered by Bodyguard."
   },
   {
+    "name": "terminator",
+    "url": "https://github.com/MilosMosovsky/terminator",
+    "description": "Database based authorization (ACL), with custom DSL rules for requiring needed permissions."
+  },
+  {
     "name": "connection",
     "url": "https://github.com/fishcakez/connection",
     "description": "Connection behaviour for connection processes. The API is superset of the GenServer API."
@@ -828,6 +848,11 @@
     "name": "BSONMap",
     "url": "https://github.com/Nebo15/bsoneach",
     "description": "Elixir package that applies a function to each document in a BSON file and has a low memory consumption."
+  },
+  {
+    "name": "cyanide",
+    "url": "https://github.com/ispirata/cyanide",
+    "description": "An Elixir BSON encoding/decoding library."
   },
   {
     "name": "active",
@@ -961,7 +986,7 @@
   },
   {
     "name": "cachex",
-    "url": "https://github.com/zackehh/cachex",
+    "url": "https://github.com/whitfin/cachex",
     "description": "A powerful caching library for Elixir with a wide featureset."
   },
   {
@@ -973,6 +998,11 @@
     "name": "elixir_locker",
     "url": "https://github.com/tsharju/elixir_locker",
     "description": "Locker is an Elixir wrapper for the locker Erlang library that provides some useful libraries that should make using locker a bit easier."
+  },
+  {
+    "name": "gen_spoxy",
+    "url": "https://github.com/SpotIM/gen_spoxy",
+    "description": "Caching made fun."
   },
   {
     "name": "jc",
@@ -990,13 +1020,18 @@
     "description": "Simple LRU Cache, implemented with ets."
   },
   {
+    "name": "memoize",
+    "url": "https://github.com/melpon/memoize",
+    "description": "A memoization macro that easily cache function."
+  },
+  {
     "name": "nebulex",
     "url": "https://github.com/cabol/nebulex",
     "description": "A fast, flexible and extensible distributed and local caching library for Elixir."
   },
   {
     "name": "stash",
-    "url": "https://github.com/zackehh/stash",
+    "url": "https://github.com/whitfin/stash",
     "description": "A straightforward, fast, and user-friendly key/value store."
   },
   {
@@ -1058,6 +1093,11 @@
     "name": "aws",
     "url": "https://github.com/jkakar/aws-elixir",
     "description": "AWS clients for Elixir."
+  },
+  {
+    "name": "Bonny",
+    "url": "https://github.com/coryodaniel/bonny",
+    "description": "Kubernetes Operator Development Framework."
   },
   {
     "name": "Cloudi",
@@ -1185,6 +1225,11 @@
     "description": "Command-Line application framework for Elixir."
   },
   {
+    "name": "ex_cli",
+    "url": "https://github.com/tuvistavie/ex_cli",
+    "description": "User friendly CLI apps for Elixir."
+  },
+  {
     "name": "ex_prompt",
     "url": "https://github.com/behind-design/ex_prompt",
     "description": "Helper package to add interactivity to your command line applications as easy as possible."
@@ -1223,6 +1268,11 @@
     "name": "progress_bar",
     "url": "https://github.com/henrik/progress_bar",
     "description": "Command-line progress bars and spinners."
+  },
+  {
+    "name": "ratatouille",
+    "url": "https://github.com/ndreynolds/ratatouille",
+    "description": "A TUI (terminal UI) kit for Elixir."
   },
   {
     "name": "scribe",
@@ -1356,7 +1406,7 @@
   },
   {
     "name": "siphash-elixir",
-    "url": "https://github.com/zackehh/siphash-elixir",
+    "url": "https://github.com/whitfin/siphash-elixir",
     "description": "Elixir implementation of the SipHash hash family."
   },
   {
@@ -1460,6 +1510,11 @@
     "description": "Natural language parsing for repeating dates."
   },
   {
+    "name": "tiktak",
+    "url": "https://github.com/ConduitMobileRND/tiktak",
+    "description": "Fast and lightweight web scheduler written in Elixir."
+  },
+  {
     "name": "timelier",
     "url": "https://github.com/ausimian/timelier",
     "description": "A cron-style scheduler for Elixir."
@@ -1523,6 +1578,11 @@
     "name": "exrun",
     "url": "https://github.com/liveforeverx/exrun",
     "description": "Distributed tracing for Elixir with rate limiting and simple macro-based interface."
+  },
+  {
+    "name": "git_hooks",
+    "url": "https://github.com/qgadrian/elixir_git_hooks",
+    "description": "Add git hooks to Elixir projects."
   },
   {
     "name": "observer_cli",
@@ -1760,11 +1820,6 @@
     "description": "Compose, deliver and test your Emails easily in Elixir with adapters for SMTP, Sendgrid, Mandrill, Mailgun, Postmark and Phoenix integration with mailbox preview."
   },
   {
-    "name": "bake",
-    "url": "https://github.com/bakeware/bake",
-    "description": "Configure, compile and share systems, toolchains and linux firmware."
-  },
-  {
     "name": "nerves",
     "url": "http://nerves-project.org",
     "description": "A framework for writing embedded software in Elixir."
@@ -1795,14 +1850,14 @@
     "description": "Elegant error handling with result monads, featuring a simple & powerful with construct and a happy path pipe operator."
   },
   {
-    "name": "ok_jose",
-    "url": "https://github.com/vic/ok_jose",
-    "description": "Pipe elixir functions that match {:ok,_}, {:error,_} tuples or custom patterns."
-  },
-  {
     "name": "sentry-elixir",
     "url": "https://github.com/getsentry/sentry-elixir",
     "description": "The Official Elixir client for Sentry."
+  },
+  {
+    "name": "cizen",
+    "url": "https://gitlab.com/cizen/cizen",
+    "description": "Build highly concurrent, monitorable, and extensible applications with a collection of sagas."
   },
   {
     "name": "event_bus",
@@ -1820,6 +1875,11 @@
     "description": "Reaxive is a reactive event handling library, inspired by Elm and Reactive Extensions."
   },
   {
+    "name": "wait_for_it",
+    "url": "https://github.com/jvoegele/wait_for_it",
+    "description": "Provides convenient and easy-to-use facilities for synchronizing concurrent activities."
+  },
+  {
     "name": "butler_cage",
     "url": "https://github.com/keathley/butler_cage",
     "description": "A Butler plugin for showing silly photos of Nick Cage."
@@ -1828,6 +1888,11 @@
     "name": "butler_tableflip",
     "url": "https://github.com/keathley/butler_tableflip",
     "description": "Flipping tables with butler."
+  },
+  {
+    "name": "changelog.com",
+    "url": "https://github.com/thechangelog/changelog.com",
+    "description": "CMS that runs changelog.com built with Phoenix 1.4."
   },
   {
     "name": "dice",
@@ -1863,6 +1928,11 @@
     "name": "hello_phoenix",
     "url": "https://github.com/bigardone/phoenix-react-redux-template",
     "description": "Application template for SPAs with Phoenix, React and Redux."
+  },
+  {
+    "name": "hexpm",
+    "url": "https://github.com/hexpm/hexpm",
+    "description": "Source code for the hex package manager site built with Phoenix 1.3."
   },
   {
     "name": "kaisuu",
@@ -1918,6 +1988,11 @@
     "name": "stranger",
     "url": "https://github.com/cazrin/stranger",
     "description": "Elixir Phoenix app to chat anonymously with a randomly chosen stranger."
+  },
+  {
+    "name": "tilex",
+    "url": "https://github.com/hashrocket/tilex",
+    "description": "Source code for Hashrocket's TIL website built with Phoenix 1.3."
   },
   {
     "name": "weather",
@@ -2010,6 +2085,11 @@
     "description": "Configurable mix task to watch file changes and run the corresponding command."
   },
   {
+    "name": "format_parser.ex",
+    "url": "https://github.com/ahtung/format_parser.ex",
+    "description": "Elixir library to figure out the type and the format of a file."
+  },
+  {
     "name": "fs",
     "url": "https://github.com/synrc/fs",
     "description": "Erlang FileSystem Listener."
@@ -2031,7 +2111,7 @@
   },
   {
     "name": "sentix",
-    "url": "https://github.com/zackehh/sentix",
+    "url": "https://github.com/whitfin/sentix",
     "description": "A cross-platform file watcher for Elixir based on fswatch."
   },
   {
@@ -2103,11 +2183,6 @@
     "name": "dayron",
     "url": "https://github.com/inaka/Dayron",
     "description": "A repository similar to Ecto.Repo that works with REST API requests instead of a database."
-  },
-  {
-    "name": "ecto_job",
-    "url": "https://github.com/mbuhot/ecto_job",
-    "description": "A transactional job queue build with Ecto, PostgreSQL and GenStage."
   },
   {
     "name": "ex_admin",
@@ -2405,6 +2480,11 @@
     "description": "An authentication framework for Phoenix extending guardian with routing and other basic functionality."
   },
   {
+    "name": "torch",
+    "url": "https://github.com/infinitered/torch",
+    "description": "Torch is a rapid admin generator for Phoenix apps. It uses generators rather than DSLs to ensure that the code remains maintainable."
+  },
+  {
     "name": "trailing_format_plug",
     "url": "https://github.com/mschae/trailing_format_plug",
     "description": "An Elixir plug to support legacy APIs that use a rails-like trailing format."
@@ -2550,6 +2630,11 @@
     "description": "A Geometry library for Elixir that calculates spatial relationships between two geometries."
   },
   {
+    "name": "scenic",
+    "url": "https://github.com/boydm/scenic",
+    "description": "Portable 2D UI framework."
+  },
+  {
     "name": "elixir_ale",
     "url": "https://github.com/fhunleth/elixir_ale",
     "description": "Elixir access to hardware I/O interfaces such as GPIO, I2C, and SPI."
@@ -2575,11 +2660,6 @@
     "description": "HTML sanitizer for Elixir."
   },
   {
-    "name": "meeseeks",
-    "url": "https://github.com/mischov/meeseeks",
-    "description": "A library for parsing and extracting data from HTML and XML with CSS or XPath selectors."
-  },
-  {
     "name": "modest_ex",
     "url": "https://github.com/f34nk/modest_ex",
     "description": "A library to do pipeable transformations on html strings with CSS selectors, e.g. find(), prepend(), append(), replace() etc."
@@ -2590,24 +2670,14 @@
     "description": "Elixir/Erlang bindings for lexborisov's myhtml."
   },
   {
-    "name": "phoenix_html",
-    "url": "https://github.com/phoenixframework/phoenix_html",
-    "description": "Phoenix.HTML functions for working with HTML strings and templates."
-  },
-  {
-    "name": "phoenix_html_sanitizer",
-    "url": "https://github.com/elixirstatus/phoenix_html_sanitizer",
-    "description": "HTML Sanitizer integration for Phoenix."
-  },
-  {
-    "name": "phoenix_html_simplified_helpers",
-    "url": "https://github.com/ikeikeikeike/phoenix_html_simplified_helpers",
-    "description": "Some helpers for phoenix html (truncate, time_ago_in_words, number_with_delimiter)."
-  },
-  {
     "name": "readability",
     "url": "https://github.com/keepcosmos/readability",
     "description": "Readability is for extracting and curating articles."
+  },
+  {
+    "name": "texas",
+    "url": "https://gitlab.com/dgmcguire/texas",
+    "description": "Texas is a powerful abstraction over updating your clients using server-side rendering and server-side Virtual DOM diff/patching."
   },
   {
     "name": "tidy_ex",
@@ -2638,6 +2708,11 @@
     "name": "elli",
     "url": "https://github.com/knutin/elli",
     "description": "Elli is a webserver you can run inside your Erlang application to expose an HTTP API."
+  },
+  {
+    "name": "etag_plug",
+    "url": "https://github.com/Zeeker/etag_plug",
+    "description": "A simple to use shallow ETag plug."
   },
   {
     "name": "explode",
@@ -2945,14 +3020,14 @@
     "description": "Platform agnostic tracing library originally developed for Datadog APM."
   },
   {
+    "name": "telemetry",
+    "url": "https://github.com/beam-telemetry/telemetry",
+    "description": "Dynamic dispatching library for metrics and instrumentations."
+  },
+  {
     "name": "exjson",
     "url": "https://github.com/guedes/exjson",
     "description": "JSON parser and generator in Elixir."
-  },
-  {
-    "name": "exjsx",
-    "url": "https://github.com/talentdeficit/exjsx",
-    "description": "JSON for Elixir, based on jsx."
   },
   {
     "name": "ja_serializer",
@@ -2988,6 +3063,11 @@
     "name": "json_pointer",
     "url": "https://github.com/xavier/json_pointer",
     "description": "Implementation of RFC 6901 which defines a string syntax for identifying a specific value within a JSON document."
+  },
+  {
+    "name": "json_stream_encoder",
+    "url": "https://github.com/TreyE/json_stream_encoder",
+    "description": "JsonStreamEncoder is a streaming encoder for streaming JSON to an IOish thing in Elixir."
   },
   {
     "name": "json_web_token_ex",
@@ -3026,7 +3106,7 @@
   },
   {
     "name": "tiny",
-    "url": "https://github.com/zackehh/tiny",
+    "url": "https://github.com/whitfin/tiny",
     "description": "Tiny, fast and fully compliant JSON parser for Elixir."
   },
   {
@@ -3135,11 +3215,6 @@
     "description": "A simple plug to suppress health check logging (e.g.: when using Kubernetes)."
   },
   {
-    "name": "raven",
-    "url": "https://github.com/vishnevskiy/raven-elixir",
-    "description": "Elixir client for Sentry."
-  },
-  {
     "name": "rogger",
     "url": "https://github.com/duartejc/rogger",
     "description": "Elixir logger to publish log messages in RabbitMQ."
@@ -3190,11 +3265,6 @@
     "description": "Build functional, event-sourced domain models."
   },
   {
-    "name": "exceptional",
-    "url": "https://github.com/expede/exceptional",
-    "description": "Helpers for happy-path programming & exception handling."
-  },
-  {
     "name": "expat",
     "url": "https://github.com/vic/expat",
     "description": "Reusable, composable patterns across Elixir libraries."
@@ -3203,11 +3273,6 @@
     "name": "guardsafe",
     "url": "https://github.com/DevL/guardsafe",
     "description": "Macros expanding into code that can be safely used in guard clauses."
-  },
-  {
-    "name": "happy",
-    "url": "https://github.com/vic/happy",
-    "description": "Happy path programming, alternative to elixir with form."
   },
   {
     "name": "kwfuns",
@@ -3230,14 +3295,14 @@
     "description": "Allows named arg style arguments in Elixir."
   },
   {
-    "name": "OK",
-    "url": "https://github.com/CrowdHailer/OK",
-    "description": "Macros for elegant happy path coding, maximizing power and readability."
-  },
-  {
     "name": "ok_jose",
     "url": "https://github.com/vic/ok_jose",
     "description": "Pipe elixir functions that match {:ok,_}, {:error,_} tuples or custom patterns."
+  },
+  {
+    "name": "opus",
+    "url": "https://github.com/zorbash/opus",
+    "description": "A framework for pluggable business logic components."
   },
   {
     "name": "pattern_tap",
@@ -3318,6 +3383,11 @@
     "name": "Apex",
     "url": "https://github.com/bjro/apex",
     "description": "Awesome Print for Elixir."
+  },
+  {
+    "name": "AtomVM",
+    "url": "https://github.com/bettio/AtomVM",
+    "description": "AtomVM allows to run Elixir/Erlang code on embedded devices such as ESP32 and STM32 microcontrollers."
   },
   {
     "name": "bupe",
@@ -3406,7 +3476,7 @@
   },
   {
     "name": "expool",
-    "url": "https://github.com/zackehh/expool",
+    "url": "https://github.com/whitfin/expool",
     "description": "A small process pooling library for parallel tasks in Elixir."
   },
   {
@@ -3443,6 +3513,11 @@
     "name": "growl",
     "url": "https://github.com/zachallett/growl",
     "description": "Simple wrapper for growl, the notification system for OSX."
+  },
+  {
+    "name": "hammer",
+    "url": "https://github.com/ExHammer/hammer",
+    "description": "A rate-limiter with pluggable storage backends, including Redis."
   },
   {
     "name": "html_entities",
@@ -3551,7 +3626,7 @@
   },
   {
     "name": "vessel",
-    "url": "https://github.com/zackehh/vessel",
+    "url": "https://github.com/whitfin/vessel",
     "description": "Elixir MapReduce interfaces with Hadoop Streaming integration."
   },
   {
@@ -3615,6 +3690,11 @@
     "description": "PCAP parser written in Elixir."
   },
   {
+    "name": "FlyingDdns",
+    "url": "https://gitlab.com/timopallach/FlyingDdns",
+    "description": "A dyndns server written in elixir."
+  },
+  {
     "name": "mac",
     "url": "https://github.com/ephe-meral/mac",
     "description": "Can be used to find a vendor of a MAC given in hexadecimal string (according to IEEE)."
@@ -3643,6 +3723,11 @@
     "name": "sshex",
     "url": "https://github.com/rubencaro/sshex",
     "description": "Simple SSH helpers for Elixir."
+  },
+  {
+    "name": "sshkit",
+    "url": "https://github.com/bitcrowd/sshkit.ex",
+    "description": "An Elixir toolkit for performing tasks on one or more servers, built on top of Erlang’s SSH application."
   },
   {
     "name": "torex",
@@ -3871,7 +3956,7 @@
   },
   {
     "name": "eternal",
-    "url": "https://github.com/zackehh/eternal",
+    "url": "https://github.com/whitfin/eternal",
     "description": "Keep your ETS tables alive forever, safely and easily."
   },
   {
@@ -3935,6 +4020,11 @@
     "description": "Ecto adapter for GitHub API."
   },
   {
+    "name": "gremlex",
+    "url": "https://github.com/Revmaker/gremlex",
+    "description": "Apache Tinkerpop Gremlin Elixir Client."
+  },
+  {
     "name": "hstore",
     "url": "https://github.com/senecasystems/hstore",
     "description": "Hstore support for Postgrex."
@@ -3968,6 +4058,11 @@
     "name": "mariaex",
     "url": "https://github.com/xerions/mariaex",
     "description": "MariaDB/MySQL driver for Elixir."
+  },
+  {
+    "name": "memento",
+    "url": "https://github.com/sheharyarn/memento",
+    "description": "Simple Mnesia Interface in Elixir."
   },
   {
     "name": "moebius",
@@ -4250,6 +4345,11 @@
     "description": "A dumb message bus for sharing data between microservices decoupled using Redis."
   },
   {
+    "name": "ecto_job",
+    "url": "https://github.com/mbuhot/ecto_job",
+    "description": "A transactional job queue built with Ecto, PostgreSQL and GenStage."
+  },
+  {
     "name": "elixir_nsq",
     "url": "https://github.com/wistia/elixir_nsq",
     "description": "NSQ client library for Elixir."
@@ -4338,6 +4438,11 @@
     "name": "RBMQ",
     "url": "https://github.com/Nebo15/rbmq",
     "description": "Simple API for spawning RabbitMQ Producers and Consumers."
+  },
+  {
+    "name": "Rihanna",
+    "url": "https://github.com/samphilipd/rihanna",
+    "description": "High performance postgres-backed job queue for Elixir."
   },
   {
     "name": "stream_weaver",
@@ -4480,9 +4585,19 @@
     "description": "Security oriented helper functions for Elixir."
   },
   {
+    "name": "sobelow",
+    "url": "https://github.com/nccgroup/sobelow",
+    "description": "Security-focused static analysis for the Phoenix Framework."
+  },
+  {
     "name": "ssl_verify_fun",
     "url": "https://github.com/deadtrickster/ssl_verify_fun.erl",
     "description": "Collection of ssl verification functions for Erlang."
+  },
+  {
+    "name": "exsms",
+    "url": "https://hex.pm/packages/exsms",
+    "description": "A Elixir library for sending transactional SMS - supoprts Sendinblue, mailjet ,msg91 and textlocal."
   },
   {
     "name": "blogit",
@@ -4535,11 +4650,6 @@
     "description": "Some basic statistical functions for Elixir."
   },
   {
-    "name": "wizard",
-    "url": "https://github.com/raywan/wizard",
-    "description": "Math and statistics functions for Elixir."
-  },
-  {
     "name": "bbmustache",
     "url": "https://github.com/soranoba/bbmustache",
     "description": "Binary pattern match Based Mustache template engine for Erlang/OTP."
@@ -4578,6 +4688,11 @@
     "name": "slime",
     "url": "https://github.com/slime-lang/slime",
     "description": "An Elixir library for rendering slim-like templates."
+  },
+  {
+    "name": "taggart",
+    "url": "https://github.com/ijcd/taggart",
+    "description": "HTML as code in Elixir."
   },
   {
     "name": "templates",
@@ -4638,6 +4753,11 @@
     "name": "efrisby",
     "url": "https://github.com/FabioBatSilva/efrisby",
     "description": "A REST API testing framework for erlang."
+  },
+  {
+    "name": "elixir-auto-test",
+    "url": "https://github.com/joaothallis/elixir-auto-test",
+    "description": "Run test when file is saved using inotify-tools."
   },
   {
     "name": "espec",
@@ -4738,6 +4858,11 @@
     "name": "meck",
     "url": "https://github.com/eproxus/meck",
     "description": "A mocking library for Erlang."
+  },
+  {
+    "name": "mecks_unit",
+    "url": "https://github.com/archan937/mecks_unit",
+    "description": "A package to elegantly mock module functions within (asynchronous) ExUnit tests using meck."
   },
   {
     "name": "mix_erlang_tasks",
@@ -5015,11 +5140,6 @@
     "description": "Simple module for Hex encoding / decoding in Elixir."
   },
   {
-    "name": "html_sanitize_ex",
-    "url": "https://github.com/rrrene/html_sanitize_ex",
-    "description": "HTML sanitizer for Elixir."
-  },
-  {
     "name": "inet_cidr",
     "url": "https://github.com/cobenian/inet_cidr",
     "description": "Classless Inter-Domain Routing (CIDR) for Elixir that is compatible with :inet and supports both IPv4 and IPv6."
@@ -5110,6 +5230,11 @@
     "description": "Quick Random Number Generation."
   },
   {
+    "name": "RandomStringGenerator",
+    "url": "https://github.com/caioceccon/random_string_generator",
+    "description": "A module to generate a random string based on a given string pattern."
+  },
+  {
     "name": "ref_inspector",
     "url": "https://github.com/elixytics/ref_inspector",
     "description": "Referer parser library in Elixir. Fetching info from URLs."
@@ -5128,6 +5253,11 @@
     "name": "sentient",
     "url": "https://github.com/dantame/sentient",
     "description": "Simple sentiment analysis based on the AFINN-111 wordlist."
+  },
+  {
+    "name": "shortuuid",
+    "url": "https://github.com/gpedic/ex_shortuuid",
+    "description": "Generate concise, unambiguous, URL-safe UUIDs."
   },
   {
     "name": "simetric",
@@ -5205,19 +5335,9 @@
     "description": "Amazon Product Advertising API client for Elixir."
   },
   {
-    "name": "anilixir",
-    "url": "https://github.com/sotojuan/anilixir",
-    "description": "Elixir client for the Anilist API."
-  },
-  {
     "name": "apns",
     "url": "https://github.com/chvanikoff/apns4ex",
     "description": "Apple Push Notifications Service client library for elixir."
-  },
-  {
-    "name": "apostle",
-    "url": "https://github.com/jamesotron/apostle-elixir",
-    "description": "Elixir client for Apostle.io."
   },
   {
     "name": "asanaficator",
@@ -5278,6 +5398,11 @@
     "name": "commerce_billing",
     "url": "https://github.com/joshnuss/commerce_billing",
     "description": "A payment-processing library for Elixir that supports multiple gateways (e.g. Bogus & Stripe)."
+  },
+  {
+    "name": "correios_cep",
+    "url": "https://github.com/prodis/correios-cep-elixir",
+    "description": "Find Brazilian addresses by zip code, directly from Correios database. No HTML parsers."
   },
   {
     "name": "currently",
@@ -5630,6 +5755,11 @@
     "description": "An Elixir Lib to deal with Paypal and other payment solutions."
   },
   {
+    "name": "pay_pal",
+    "url": "https://github.com/zensavona/paypal",
+    "description": "Elixir library for working with the PayPal REST API."
+  },
+  {
     "name": "peatio_client",
     "url": "https://github.com/peatio/peatio-client-elixir",
     "description": "Peatio exchange project compatible API for Elixir."
@@ -5693,6 +5823,11 @@
     "name": "riemann",
     "url": "https://github.com/koudelka/elixir-riemann",
     "description": "A Riemann client for Elixir."
+  },
+  {
+    "name": "rs_twitter",
+    "url": "https://github.com/radzserg/rstwitter",
+    "description": "Low Level Twitter Client for Elixir."
   },
   {
     "name": "semver",
@@ -5856,12 +5991,12 @@
   },
   {
     "name": "deppie",
-    "url": "https://github.com/zackehh/deppie",
+    "url": "https://github.com/whitfin/deppie",
     "description": "Elixir's coolest deprecation logger."
   },
   {
     "name": "dot-notes",
-    "url": "https://github.com/zackehh/dot-notes-elixir",
+    "url": "https://github.com/whitfin/dot-notes-elixir",
     "description": "Simple dot/bracket notation parsing/conversion for Maps/Lists."
   },
   {
@@ -5965,6 +6100,11 @@
     "description": "A light and easy schema validator."
   },
   {
+    "name": "optimal",
+    "url": "https://github.com/albert-io/optimal",
+    "description": "A schema based keyword list option validator."
+  },
+  {
     "name": "shape",
     "url": "https://github.com/prio/shape",
     "description": "A data validation library for Elixir based on Prismatic Scheme."
@@ -6023,6 +6163,11 @@
     "name": "exoml",
     "url": "https://github.com/Overbryd/exoml",
     "description": "A module to decode/encode xml into a tree structure."
+  },
+  {
+    "name": "fast_xml",
+    "url": "https://github.com/processone/fast_xml",
+    "description": "Fast Expat based Erlang XML parsing library."
   },
   {
     "name": "meeseeks",
@@ -6175,6 +6320,11 @@
     "description": "A collection of exercises to program in Elixir by J. David Eisenberg (2013) (Github Repo)."
   },
   {
+    "name": "benjamintanweihao/elixir-cheatsheets",
+    "url": "https://github.com/benjamintanweihao/elixir-cheatsheets/",
+    "description": "GenServer and Supervisor cheatsheets."
+  },
+  {
     "name": "#elixir-lang",
     "url": "http://webchat.freenode.net/?channels=elixir-lang",
     "description": "The IRC Channel #elixir-lang on Freenode."
@@ -6230,6 +6380,11 @@
     "description": "Run an IEx session in Atom."
   },
   {
+    "name": "elixir-ls",
+    "url": "https://github.com/JakeBecker/elixir-ls",
+    "description": "A frontend-independent IDE \"smartness\" server for Elixir. Implements the JSON-based \"Language Server Protocol\" standard and provides debugger support via VS Code's debugger protocol."
+  },
+  {
     "name": "elixir-tmbundle",
     "url": "https://github.com/elixir-lang/elixir-tmbundle",
     "description": "A TextMate and SublimeText bundle for Elixir."
@@ -6275,11 +6430,6 @@
     "description": "Phoenix Snippets for Atom."
   },
   {
-    "name": "TextMate",
-    "url": "https://github.com/elixir-lang/elixir-tmbundle",
-    "description": "Elixir syntax highlighting for TextMate."
-  },
-  {
     "name": "vim-elixir",
     "url": "https://github.com/elixir-lang/vim-elixir",
     "description": "Vim configuration files for Elixir."
@@ -6300,6 +6450,11 @@
     "description": "Elixir Support for Visual Studio Code."
   },
   {
+    "name": "vscode-elixir-ls",
+    "url": "https://github.com/JakeBecker/vscode-elixir-ls",
+    "description": "Elixir language support and debugger for VS Code, powered by ElixirLS."
+  },
+  {
     "name": "Elixir Digest",
     "url": "http://elixirdigest.net",
     "description": "A weekly newsletter with the latest articles on Elixir and Phoenix."
@@ -6315,6 +6470,11 @@
     "description": "The Elixir community newsletter, covering stuff you easily miss, shared on ElixirStatus and the web."
   },
   {
+    "name": "Awesome Elixir and CQRS",
+    "url": "https://github.com/slashdotdash/awesome-elixir-cqrs",
+    "description": "A curated list of awesome Elixir and Command Query Responsibility Segregation (CQRS) and event sourcing resources."
+  },
+  {
     "name": "Awesome Elixir by LibHunt",
     "url": "https://elixir.libhunt.com",
     "description": "A curated list of awesome Elixir and Erlang packages and resources."
@@ -6323,6 +6483,11 @@
     "name": "Awesome Erlang",
     "url": "https://github.com/drobakowski/awesome-erlang",
     "description": "A curated list of awesome Erlang libraries, resources and shiny things."
+  },
+  {
+    "name": "Curated Elixir Resources",
+    "url": "https://hackr.io/tutorials/learn-elixir",
+    "description": "A collection of top recommended Elixir resources."
   },
   {
     "name": "Erlang Bookmarks",
@@ -6348,6 +6513,11 @@
     "name": "Elixir School",
     "url": "https://elixirschool.com/",
     "description": "Lessons about the Elixir programming language."
+  },
+  {
+    "name": "Elixir Tab",
+    "url": "https://github.com/efexen/elixir-tab",
+    "description": "Chrome Extension which helps you learn the Elixir core lib."
   },
   {
     "name": "The Little Schemer in Elixir",
@@ -6420,11 +6590,6 @@
     "description": "A walk through the Elixir language in 30 exercises."
   },
   {
-    "name": "Awesome Elixir @LibHunt",
-    "url": "https://elixir.libhunt.com",
-    "description": "Your go-to Elixir Toolbox."
-  },
-  {
     "name": "BEAM Community",
     "url": "http://beamcommunity.github.io/",
     "description": "From distributed systems, to robust servers and language design on the Erlang VM."
@@ -6433,6 +6598,11 @@
     "name": "Benjamin Tan",
     "url": "http://benjamintan.io/blog/tags/elixir/",
     "description": "Learnings & Writings - A blog consisting of mostly Elixir posts."
+  },
+  {
+    "name": "Elixir Career",
+    "url": "https://elixir.career/",
+    "description": "A job board for Elixir, and community of Elixir developers."
   },
   {
     "name": "Elixir China",
@@ -6465,16 +6635,6 @@
     "description": "The project's wiki, containing much useful information."
   },
   {
-    "name": "Elixir Job Board",
-    "url": "http://jobs.elixirdose.com",
-    "description": "A job board for Elixir, and community of Elixir developers, written using Phoenix."
-  },
-  {
-    "name": "Elixir Playground",
-    "url": "http://play.elixirbyexample.com/",
-    "description": "Try Elixir code in your browser."
-  },
-  {
     "name": "Elixir Quiz",
     "url": "http://elixirquiz.github.io/",
     "description": "Weekly programming problems to help you learn Elixir."
@@ -6483,16 +6643,6 @@
     "name": "Elixir Recipes",
     "url": "http://elixir-recipes.github.io/",
     "description": "Collection of patterns & solutions to common problems in Elixir."
-  },
-  {
-    "name": "Elixre",
-    "url": "http://www.elixre.uk/",
-    "description": "An Elixir regular expression editor & tester."
-  },
-  {
-    "name": "Erlang Patterns",
-    "url": "http://www.erlangpatterns.org/",
-    "description": "Unlike traditional software design pattern efforts, which tend to emphasize the importance of code reuse, this project emphasizes patterns that feel good to humans."
   },
   {
     "name": "Hashrocket Today I Learned",
