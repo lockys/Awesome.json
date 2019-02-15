@@ -48,6 +48,10 @@
     "url": "https://github.com/mapbox/geojson-rewind"
   },
   {
+    "name": "rfc7946-to-d3: Converts polygon winding order between rfc7946 and d3 compatible conventions.",
+    "url": "https://github.com/tyrasd/rfc7946-to-d3"
+  },
+  {
     "name": "geojson-summary: get a plain-english summary of what's in a geojson file",
     "url": "https://github.com/mapbox/geojson-summary"
   },
@@ -82,6 +86,10 @@
   {
     "name": "geojson-polygon-labels: generate point labels from GeoJSON polygons",
     "url": "https://github.com/andrewharvey/geojson-polygon-labels"
+  },
+  {
+    "name": "geojsontools: Python tools for manipulating GeoJSON files",
+    "url": "https://github.com/micolous/geojsontools"
   },
   {
     "name": "geojson.io: web-based editor, supports many filetype imports & exports, operations, sharing via GitHub",
@@ -124,6 +132,10 @@
     "url": "https://github.com/mapbox/geojsonhint"
   },
   {
+    "name": "[geojson-validation(https://www.npmjs.com/package/geojson-validation): many validation functions, plus simple gjv command line tool",
+    "url": "https://www.npmjs.com/package/geojson-validation"
+  },
+  {
     "name": "geojsonio-cli: send geojson features to geojson.io from your command line",
     "url": "https://github.com/mapbox/geojsonio-cli"
   },
@@ -152,84 +164,12 @@
     "url": "https://github.com/mapbox/csv2geojson"
   },
   {
-    "name": "geojson-mapnikify: Transform GeoJSON objects into Mapnik XML stylesheets with embedded GeoJSON data and simplestyle-spec-derived styles.",
-    "url": "https://github.com/mapbox/geojson-mapnikify"
-  },
-  {
-    "name": "geojson-vt: Slice GeoJSON into vector tiles on the fly in the browser",
-    "url": "https://github.com/mapbox/geojson-vt"
-  },
-  {
-    "name": "geojson2dsv: convert geojson to csv and tsv",
+    "name": "geojson2dsv: convert geojson to CSV and TSV",
     "url": "https://github.com/tmcw/geojson2dsv"
-  },
-  {
-    "name": "geojson2rtree: generate a static rtree (using terraformer) from a set of geojson features",
-    "url": "https://github.com/maxogden/geojson2rtree"
-  },
-  {
-    "name": "ogr2ogr: convert anything to anything\n\nfiona: nice python interface on top of ogr\n\n",
-    "url": "http://www.gdal.org/ogr2ogr.html"
   },
   {
     "name": "fiona: nice python interface on top of ogr",
     "url": "https://github.com/toblerity/fiona"
-  },
-  {
-    "name": "minjur: converts OpenStreetMap data to GeoJSON faster than anything else",
-    "url": "https://github.com/mapbox/minjur"
-  },
-  {
-    "name": "shp2json: convert shapefile zip archives to streaming GeoJSON",
-    "url": "https://github.com/substack/shp2json"
-  },
-  {
-    "name": "togeojson: convert gpx & kml to geojson",
-    "url": "https://github.com/mapbox/togeojson"
-  },
-  {
-    "name": "tokml: convert geojson to KML",
-    "url": "https://github.com/mapbox/tokml"
-  },
-  {
-    "name": "topojson: convert GeoJSON to & from TopoJSON, join data from CSV",
-    "url": "https://github.com/topojson/topojson"
-  },
-  {
-    "name": "vt-geojson: Extract GeoJSON from Mapbox vector tiles",
-    "url": "https://github.com/developmentseed/vt-geojson"
-  },
-  {
-    "name": "wellknown: convert wkt to geojson",
-    "url": "https://github.com/mapbox/wellknown"
-  },
-  {
-    "name": "osmtogeojson: convert OpenStreetMap data to GeoJSON",
-    "url": "https://github.com/tyrasd/osmtogeojson"
-  },
-  {
-    "name": "osm2geojson: converts OSM XML to GeoJSON",
-    "url": "https://github.com/rclark/osm2geojson"
-  },
-  {
-    "name": "esri2open converts proprietary Esri formats to GeoJSON",
-    "url": "https://github.com/project-open-data/esri2open"
-  },
-  {
-    "name": "gtfs2geojson: convert GTFS transit data to GeoJSON",
-    "url": "https://github.com/tmcw/gtfs2geojson"
-  },
-  {
-    "name": "geoxform: convert any size stream of geojson into a streaming csv, shapefile or kml, etc.",
-    "url": "https://github.com/koopjs/geoxform"
-  },
-  {
-    "name": "supercluster: A fast GeoJSON clustering library for browsers and Node.",
-    "url": "https://github.com/mapbox/supercluster"
-  },
-  {
-    "name": "rfc7946-to-d3: Converts polygon winding order between rfc7946 and d3 compatible conventions.",
-    "url": "https://github.com/tyrasd/rfc7946-to-d3"
   },
   {
     "name": "geojson-svgify: Convert GeoJSON geometry paths to SVG polyline elements.",
@@ -244,8 +184,16 @@
     "url": "https://github.com/mapbox/svg-to-geojson"
   },
   {
-    "name": "geojsontools: Python tools for manipulating GeoJSON files",
-    "url": "https://github.com/micolous/geojsontools"
+    "name": "osmtogeojson: convert OpenStreetMap data to GeoJSON",
+    "url": "https://github.com/tyrasd/osmtogeojson"
+  },
+  {
+    "name": "osm2geojson: converts OSM XML to GeoJSON",
+    "url": "https://github.com/rclark/osm2geojson"
+  },
+  {
+    "name": "minjur: converts OpenStreetMap data to GeoJSON faster than anything else",
+    "url": "https://github.com/mapbox/minjur"
   },
   {
     "name": "geojsontoosm: convert GeoJSON to OSM XML",
@@ -342,6 +290,10 @@
   {
     "name": "RFC 7946 – The GeoJSON Format: the current GeoJSON standard by IETF",
     "url": "https://tools.ietf.org/html/rfc7946"
+  },
+  {
+    "name": "[geojson.win](http://geojson.win]: More readable version of the spec.",
+    "url": "http://geojson.win%5D"
   },
   {
     "name": "GeoJSON.org: the first specification, defining all the rules for GeoJSON structures",

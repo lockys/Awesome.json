@@ -80,6 +80,11 @@
     "description": "an implementation of the Open Sound Protocol. LGPL2.1."
   },
   {
+    "name": "Harmony",
+    "url": "https://shirakumo.github.io/harmony",
+    "description": "A real-time sound processing and playback system. Artistic License 2.0."
+  },
+  {
     "name": "asdf-linguist",
     "url": "https://github.com/eudoxia0/asdf-linguist",
     "description": "Extensions for ASDF. Expat."
@@ -287,6 +292,11 @@
     "url": "https://borodust.org/projects/trivial-gamekit/getting-started/"
   },
   {
+    "name": "cl-gamepad",
+    "url": "https://shirakumo.github.io/cl-gamepad",
+    "description": "Access to gamepads and joysticks on Windows, Mac OS, and Linux. Artistic License 2.0."
+  },
+  {
     "name": "common-cv",
     "url": "https://github.com/byulparan/common-cv",
     "description": "the OpenCV (Open Source Computer Vision Library) binding library for CommonLisp. No license specified."
@@ -372,6 +382,16 @@
     "description": "A library for creating PNG files. FreeBSD."
   },
   {
+    "name": "ltk",
+    "url": "http://www.peter-herth.de/ltk/",
+    "description": "A binding for the Tk toolkit. LLGPL or GNU LGPL2.1."
+  },
+  {
+    "name": "nodgui",
+    "url": "https://notabug.org/cage/nodgui",
+    "description": "Bindings for the Tk toolkit, based on Ltk, with syntax sugar and additional widgets. LLGPL."
+  },
+  {
     "name": "cl-cffi-gtk",
     "url": "http://www.crategus.com/books/cl-cffi-gtk/",
     "description": "Binding for GTK+3. GNU LGPL2.1."
@@ -380,16 +400,6 @@
     "name": "cl-gtk2",
     "url": "https://github.com/dmitryvk/cl-gtk2",
     "description": "A binding for GTK+2. LLGPL."
-  },
-  {
-    "name": "cl-xul",
-    "url": "https://github.com/mmontone/cl-xul",
-    "description": "Mozilla XUL bindings. Expat."
-  },
-  {
-    "name": "ltk",
-    "url": "http://www.peter-herth.de/ltk/",
-    "description": "A binding for the Tk toolkit. LLGPL or GNU LGPL2.1."
   },
   {
     "name": "ceramic",
@@ -415,6 +425,11 @@
     "name": "ftw",
     "url": "https://github.com/fjames86/ftw",
     "description": "A Win32 GUI library. MIT."
+  },
+  {
+    "name": "cl-xul",
+    "url": "https://github.com/mmontone/cl-xul",
+    "description": "Mozilla XUL bindings. Expat."
   },
   {
     "name": "ECL",
@@ -560,6 +575,11 @@
     "name": "modf",
     "url": "https://github.com/smithzvk/modf",
     "description": "a setf-like macro for functional programming."
+  },
+  {
+    "name": "generic-cl",
+    "url": "https://github.com/alex-gutev/generic-cl/",
+    "description": "generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). MIT."
   },
   {
     "name": "defclass-std",
@@ -935,7 +955,7 @@
   {
     "name": "radiance",
     "url": "https://github.com/Shirakumo/radiance",
-    "description": "An extensible framework library and multi-application CMS. Artistic License 2.0."
+    "description": "A web application environment and framework . Artistic License 2.0."
   },
   {
     "name": "Lucerne",
@@ -983,6 +1003,11 @@
     "description": "Implementation of Google's Closure templates. LLGPL."
   },
   {
+    "name": "clip",
+    "url": "https://shinmera.github.io/clip",
+    "description": "An HTML template processor where the templates are written in HTML. Artistic License 2.0."
+  },
+  {
     "name": "quri",
     "url": "https://github.com/fukamachi/quri",
     "description": "Another URI library for"
@@ -1027,6 +1052,21 @@
     "url": "https://github.com/michaeljforster/panic"
   },
   {
+    "name": "trivial-imap",
+    "url": "https://github.com/40ants/trivial-imap",
+    "description": "tries to make easy some common cases of working with IMAP servers, like reading emails from the server. A thin wrapper over post-office library (which is a fork of Franz's cl-imap). BSD."
+  },
+  {
+    "name": "mailgun",
+    "url": "https://github.com/40ants/mailgun",
+    "description": "A thin wrapper to post HTML emails through mailgun.com. No license specified."
+  },
+  {
+    "name": "mito-email-auth",
+    "url": "https://github.com/40ants/mito-email-auth",
+    "description": "Helper to authenticate a website's users by sending them unique code by email."
+  },
+  {
     "name": "websocket-driver",
     "url": "https://github.com/fukamachi/websocket-driver",
     "description": "a WebSocket server/client implementation, backend agnostic (Clack). 3-clause BSD."
@@ -1055,6 +1095,11 @@
     "name": "s2i-lisp",
     "url": "https://github.com/container-lisp/s2i-lisp",
     "description": "Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. AGPL"
+  },
+  {
+    "name": "deploy",
+    "url": "https://shinmera.github.io/deploy",
+    "description": "A toolkit for binary deployment of Lisp applications, with extra support for foreign shared libraries. Artistic License 2.0."
   },
   {
     "name": "prometheus.cl",
@@ -1122,9 +1167,9 @@
     "description": "A Tumblr API interface. Artistic License 2.0."
   },
   {
-    "name": "colleen",
-    "url": "https://github.com/Shinmera/colleen",
-    "description": "IRC bot with a modular framework. Artistic License 2.0."
+    "name": "maiden",
+    "url": "https://shirakumo.github.io/maiden",
+    "description": "A bot and chat system framework with support for IRC and more. Artistic License 2.0."
   },
   {
     "name": "css-lite",
@@ -1272,11 +1317,6 @@
     "description": "an"
   },
   {
-    "name": "Deploy",
-    "url": "https://github.com/Shinmera/deploy",
-    "description": "a system to help you"
-  },
-  {
     "name": "shcl",
     "url": "https://github.com/bradleyjensen/shcl",
     "description": "a POSIX-like shell in Common Lisp. Apache2.0."
@@ -1295,6 +1335,11 @@
     "name": "replic",
     "url": "https://github.com/vindarel/replic/",
     "description": "helpers to turn existing code into a readline application, with a focus on defining the completion of the commands' arguments. Also comes as a ready to use executable, that transforms a user's lispy init file into readline commands. MIT."
+  },
+  {
+    "name": "cl-all",
+    "url": "https://github.com/shinmera/cl-all",
+    "description": "A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. Artistic License 2.0."
   },
   {
     "name": "Parinfer",
@@ -1555,9 +1600,29 @@
     "description": "A  client library for the Oxford dictionary API. ArtisticLicense2.0."
   },
   {
+    "name": "language-codes",
+    "url": "https://shinmera.github.io/language-codes",
+    "description": "A database library for ISO language codes. Artistic License 2.0"
+  },
+  {
+    "name": "system-locale",
+    "url": "https://shinmera.github.io/system-locale",
+    "description": "A library to retrieve the user's preferred language, so that your application may choose a sensible default. Artistic License 2.0."
+  },
+  {
+    "name": "multilang-documentation",
+    "url": "https://shinmera.github.io/multilang-documentation",
+    "description": "Allows writing docstrings in multiple languages, for truly internationally documented libraries. Artistic License 2.0."
+  },
+  {
     "name": "sblint",
     "url": "https://github.com/fukamachi/sblint",
     "description": "a linter for Common"
+  },
+  {
+    "name": "verbose",
+    "url": "https://shinmera.github.io/verbose",
+    "description": "A fast and highly configurable logging framework. Artistic License 2.0."
   },
   {
     "name": "cl-fluent-logger",
