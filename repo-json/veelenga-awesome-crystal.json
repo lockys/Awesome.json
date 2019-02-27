@@ -186,7 +186,7 @@
   },
   {
     "name": "ssh2.cr",
-    "url": "https://github.com/datanoise/ssh2.cr",
+    "url": "https://github.com/spider-gazelle/ssh2.cr",
     "description": "Bindings for libssh2 library"
   },
   {
@@ -403,6 +403,11 @@
     "name": "JSON",
     "url": "https://crystal-lang.org/api/JSON.html",
     "description": "parsing and generating JSON documents (Crystal stdlib)"
+  },
+  {
+    "name": "JSON tools",
+    "url": "https://github.com/impatienttraveller/json-tools",
+    "description": "An implementation of JSON Patch and Pointer RFC's"
   },
   {
     "name": "maxminddb.cr",
@@ -925,6 +930,11 @@
     "description": "Mounting multiple servers via routes (a.k.a. URL mapping)"
   },
   {
+    "name": "http-params-serializable",
+    "url": "https://github.com/vladfaust/http-params-serializable",
+    "description": "HTTP params (de)serialization, applicable to URL queries and URL-encoded forms"
+  },
+  {
     "name": "http-protection",
     "url": "https://github.com/rogeriozambon/http-protection",
     "description": "Protection against typical web attacks"
@@ -1300,11 +1310,6 @@
     "description": "ORM specialized to PostgreSQL only but with advanced features"
   },
   {
-    "name": "core",
-    "url": "https://github.com/vladfaust/core",
-    "description": "Pure, transparent and efficient ORM"
-  },
-  {
     "name": "crecto",
     "url": "https://github.com/Crecto/crecto",
     "description": "Database wrapper, based on Ecto"
@@ -1323,6 +1328,11 @@
     "name": "ohm-crystal",
     "url": "https://github.com/soveran/ohm-crystal",
     "description": "Object-hash mapping library for Redis"
+  },
+  {
+    "name": "onyx-sql",
+    "url": "https://github.com/onyxframework/sql",
+    "description": "DB-agnostic SQL ORM with beautiful DSL and type-safe Query builder"
   },
   {
     "name": "record",
@@ -1629,6 +1639,11 @@
     "description": "Library for mocking with Time.now. Inspired by the timecop ruby gem"
   },
   {
+    "name": "webdriver_pump",
+    "url": "https://github.com/bwilczek/webdriver_pump",
+    "description": "Page Object library. Inspired by Ruby's WatirPump"
+  },
+  {
     "name": "webmock.cr",
     "url": "https://github.com/manastech/webmock.cr",
     "description": "Library for stubbing HTTP::Client requests"
@@ -1784,9 +1799,9 @@
     "description": "Catch bugs early, forget about most performance issues, and spend more time on code instead of debugging and writing tests"
   },
   {
-    "name": "prism",
-    "url": "https://github.com/vladfaust/prism",
-    "description": "Lightspeed web framework with typed params"
+    "name": "onyx-rest",
+    "url": "https://github.com/onyxframework/rest",
+    "description": "REST API framework with type-safe params and separate business and rendering layers, based on onyx-http"
   },
   {
     "name": "raze",

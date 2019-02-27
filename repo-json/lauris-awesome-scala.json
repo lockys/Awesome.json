@@ -60,6 +60,11 @@
     "description": "Neo4j Scala client using Akka HTTP with compile-time query interpolation, case class support, true non-blocking IO, and much more."
   },
   {
+    "name": "neotypes ★ 22 ⧗ 2",
+    "url": "https://github.com/neotypes/neotypes",
+    "description": "Pure functional driver for neo4j."
+  },
+  {
     "name": "Pulsar4s ★ 15",
     "url": "https://github.com/sksamuel/pulsar4s",
     "description": "Scala client for Apache Pulsar."
@@ -125,11 +130,6 @@
     "description": "A Scala DSL for talking with databases with minimum verbosity and maximum type safety."
   },
   {
-    "name": "Tepkin ★ 86 ⧗ 251",
-    "url": "https://github.com/fehmicansaglam/tepkin",
-    "description": "Reactive MongoDB Driver for Scala built on top of Akka IO and Akka Streams."
-  },
-  {
     "name": "Sangria",
     "url": "https://sangria-graphql.org/",
     "description": "Scala GraphQL Implementation"
@@ -140,9 +140,9 @@
     "description": "Scruid (Scala+Druid) is an open source library that allows you to compose Druid queries easily in Scala."
   },
   {
-    "name": "neotypes ★ 22 ⧗ 2",
-    "url": "https://github.com/neotypes/neotypes",
-    "description": "Pure functional driver for neo4j."
+    "name": "Tepkin ★ 86 ⧗ 251",
+    "url": "https://github.com/fehmicansaglam/tepkin",
+    "description": "Reactive MongoDB Driver for Scala built on top of Akka IO and Akka Streams."
   },
   {
     "name": "Op-Rabbit ★ 153 ⧗ 2",
@@ -205,14 +205,14 @@
     "description": "a web framework based on Scala.js with support for property bindings, frontend routing, i18n and much more. It also provides strongly typed client<->server RPC system based on WebSockets."
   },
   {
-    "name": "Widok",
-    "url": "https://widok.github.io/",
-    "description": "Reactive web framework for the JVM and Scala.js"
-  },
-  {
     "name": "Vert.x Web",
     "url": "http://vertx.io/docs/vertx-web/scala/",
     "description": "Toolkit to build Reactive web applications.."
+  },
+  {
+    "name": "Widok",
+    "url": "https://widok.github.io/",
+    "description": "Reactive web framework for the JVM and Scala.js"
   },
   {
     "name": "Accord ★ 379 ⧗ 0",
@@ -305,6 +305,11 @@
     "description": "A testing framework with a focus on simplicity."
   },
   {
+    "name": "Mockito Scala ★ 99",
+    "url": "https://github.com/mockito/mockito-scala",
+    "description": "Mockito for Scala, with improved syntax and many extra features on top of the Java version"
+  },
+  {
     "name": "ScalaMeter",
     "url": "https://scalameter.github.io/",
     "description": "Performance &  memory footprint measuring, regression testing."
@@ -325,6 +330,11 @@
     "description": "Connect a Scala REPL to running JVM processes without any prior setup; this library is used for inspecting systems in production mode."
   },
   {
+    "name": "Stryker4s ★ 21",
+    "url": "https://github.com/stryker-mutator/stryker4s",
+    "description": "Test your tests with mutation testing."
+  },
+  {
     "name": "µTest ★ 197 ⧗ 0",
     "url": "https://github.com/lihaoyi/utest",
     "description": "A tiny, portable testing library for Scala."
@@ -333,16 +343,6 @@
     "name": "testcontainers-scala ★ 52 ⧗ 2",
     "url": "https://github.com/testcontainers/testcontainers-scala",
     "description": "Docker containers for testing in Scala."
-  },
-  {
-    "name": "Stryker4s ★ 21",
-    "url": "https://github.com/stryker-mutator/stryker4s",
-    "description": "Test your tests with mutation testing."
-  },
-  {
-    "name": "uJson",
-    "url": "http://www.lihaoyi.com/upickle/#uJson",
-    "description": "fast, flexible and intuitive JSON for Scala"
   },
   {
     "name": "argonaut",
@@ -410,9 +410,19 @@
     "description": "sbt plugin that generates Scala case classes for easy, statically typed and implicit access of JSON documents"
   },
   {
+    "name": "uJson",
+    "url": "http://www.lihaoyi.com/upickle/#uJson",
+    "description": "fast, flexible and intuitive JSON for Scala"
+  },
+  {
     "name": "MoultingYAML ★ 43 ⧗ 2",
     "url": "https://github.com/jcazevedo/moultingyaml",
     "description": "Type-class based YAML serialization and deserialization on top of SnakeYAML."
+  },
+  {
+    "name": "fm-flatfile ★ 1 ⧗ 1",
+    "url": "https://github.com/frugalmechanic/fm-flatfile",
+    "description": "Very flexible, Flat File (CSV, TSV, Excel, etc) Reader for Scala."
   },
   {
     "name": "kantan.csv ★ 143 ⧗ 24",
@@ -423,11 +433,6 @@
     "name": "Scala-CSV ★ 365 ⧗ 1",
     "url": "https://github.com/tototoshi/scala-csv",
     "description": "CSV Reader/Writer for Scala."
-  },
-  {
-    "name": "fm-flatfile ★ 1 ⧗ 1",
-    "url": "https://github.com/frugalmechanic/fm-flatfile",
-    "description": "Very flexible, Flat File (CSV, TSV, Excel, etc) Reader for Scala."
   },
   {
     "name": "avro-codegen ★ 24 ⧗ 23",
@@ -443,6 +448,11 @@
     "name": "msgpack ★ 75 ⧗ 57",
     "url": "https://github.com/msgpack/msgpack-scala",
     "description": "A efficient binary serialization library."
+  },
+  {
+    "name": "µPickle",
+    "url": "http://lihaoyi.github.io/upickle/",
+    "description": "A lightweight serialization library for Scala that works in ScalaJS, allowing transfer of structured data between the JVM and JavaScript."
   },
   {
     "name": "ScalaBuff ★ 218 ⧗ 1",
@@ -465,11 +475,6 @@
     "description": "Advanced validation & serialization for JSON, HTML form data, etc, with no reflection at runtime."
   },
   {
-    "name": "µPickle",
-    "url": "http://lihaoyi.github.io/upickle/",
-    "description": "A lightweight serialization library for Scala that works in ScalaJS, allowing transfer of structured data between the JVM and JavaScript."
-  },
-  {
     "name": "Axle ★ 51 ⧗ 9",
     "url": "https://github.com/axlelang/axle",
     "description": "A Spire-based DSL for scientific cloud computing."
@@ -478,6 +483,15 @@
     "name": "Chalk ★ 231 ⧗ 6",
     "url": "https://github.com/scalanlp/chalk",
     "description": "Chalk is a natural language processing library."
+  },
+  {
+    "name": "Clustering4Ever ★ 50 Scala and Spark API to benchmark and analyse clustering algorithms on any vectorization you can generate",
+    "url": "https://github.com/Clustering4Ever/Clustering4Ever"
+  },
+  {
+    "name": "doddle-model",
+    "url": "https://github.com/picnicml/doddle-model",
+    "description": "An in-memory machine learning library built on top of Breeze. It provides immutable objects and exposes its functionality through a scikit-learn-like API."
   },
   {
     "name": "FACTORIE ★ 486 ⧗ 7",
@@ -493,6 +507,11 @@
     "name": "Libra ★ 142",
     "url": "https://github.com/to-ithaca/libra",
     "description": "Libra is a dimensional analysis library based on shapeless, spire and singleton-ops. It contains out of the box support for SI units for all numeric types."
+  },
+  {
+    "name": "LoMRF ★ 55",
+    "url": "https://github.com/anskarl/LoMRF",
+    "description": "An open-source implementation of Markov Logic Networks in Scala"
   },
   {
     "name": "MGO ★ 37 ⧗ 55",
@@ -520,6 +539,10 @@
     "description": "OpenMOLE (Open MOdeL Experiment) is a workflow engine designed to leverage the computing power of distributed execution environments for naturally parallel processes."
   },
   {
+    "name": "Optimus * 96 Optimus is a library for Linear and Quadratic mathematical optimization written in Scala programming language.",
+    "url": "https://github.com/vagmcs/Optimus"
+  },
+  {
     "name": "OscaR",
     "url": "https://bitbucket.org/oscarlib/oscar/wiki/Home",
     "description": "a Scala toolkit for solving Operations Research problems"
@@ -543,11 +566,6 @@
     "name": "Smile",
     "url": "http://haifengl.github.io/smile/",
     "description": "Statistical Machine Intelligence and Learning Engine. Smile is a fast and comprehensive machine learning system."
-  },
-  {
-    "name": "doddle-model",
-    "url": "https://github.com/picnicml/doddle-model",
-    "description": "An in-memory machine learning library built on top of Breeze. It provides immutable objects and exposes its functionality through a scikit-learn-like API."
   },
   {
     "name": "Squants ★ 388 ⧗ 1",
@@ -620,14 +638,14 @@
     "description": "The missing MatPlotLib for Scala + Spark"
   },
   {
+    "name": "scala-phash ★ 11 ⧗ 2",
+    "url": "https://github.com/poslegm/scala-phash",
+    "description": "Image comparison by hash codes"
+  },
+  {
     "name": "scalismo ★ 45 ⧗ 9",
     "url": "https://github.com/unibas-gravis/scalismo",
     "description": "Shape modelling and  model-based image analysis."
-  },
-  {
-    "name": "scrimage ★ 476 ⧗ 0",
-    "url": "https://github.com/sksamuel/scrimage",
-    "description": "Image io, resize, manipulation and thumbnails."
   },
   {
     "name": "ScalaCollider ★ 121 ⧗ 5",
@@ -635,24 +653,14 @@
     "description": "Sound synthesis and signal processing client for SuperCollider."
   },
   {
+    "name": "Iteratee ★ 158",
+    "url": "https://github.com/travisbrown/iteratee",
+    "description": "Iteratees for cats"
+  },
+  {
     "name": "Reactive Collections ★ 2 ⧗ 165",
     "url": "https://github.com/storm-enroute/reactors",
     "description": "A library that incorporates event streams and signals with specialized collections called reactive containers, and expresses concurrency using isolates and channels."
-  },
-  {
-    "name": "scala.frp ★ 21 ⧗ 101",
-    "url": "https://github.com/dylemma/scala.frp",
-    "description": "Functional Reactive Programming for Scala (event streams)."
-  },
-  {
-    "name": "SynapseGrid ★ 109 ⧗ 1",
-    "url": "https://github.com/Primetalk/SynapseGrid",
-    "description": "an FRP framework for constructing reactive real-time immutable data flow systems. It implements an original way of running and organizing event-driven systems based on Petri nets. The topology can be viewed as a .dot graph. The library is compatible with Akka and can seamlessly communicate with other actors."
-  },
-  {
-    "name": "Vert.x",
-    "url": "http://vertx.io/",
-    "description": "A polyglot reactive application platform for the JVM which aims to be an alternative to node.js. Its concurrency model resembles actors. It supports Scala, Clojure, Java, Javascript, Ruby, Groovy and Python."
   },
   {
     "name": "REScala",
@@ -663,6 +671,26 @@
     "name": "Reactor-Scala-Extensions",
     "url": "https://github.com/reactor/reactor-scala-extensions",
     "description": "Scala extensions for Project Reactor"
+  },
+  {
+    "name": "scala.frp ★ 22 ⧗ 101",
+    "url": "https://github.com/dylemma/scala.frp",
+    "description": "Functional Reactive Programming for Scala (event streams)."
+  },
+  {
+    "name": "Scalaz ZIO ★ 529",
+    "url": "https://github.com/scalaz/scalaz-zio",
+    "description": "A type-safe, composable library for asynchronous and concurrent programming in Scala"
+  },
+  {
+    "name": "SynapseGrid ★ 109 ⧗ 1",
+    "url": "https://github.com/Primetalk/SynapseGrid",
+    "description": "an FRP framework for constructing reactive real-time immutable data flow systems. It implements an original way of running and organizing event-driven systems based on Petri nets. The topology can be viewed as a .dot graph. The library is compatible with Akka and can seamlessly communicate with other actors."
+  },
+  {
+    "name": "Vert.x",
+    "url": "http://vertx.io/",
+    "description": "A polyglot reactive application platform for the JVM which aims to be an alternative to node.js. Its concurrency model resembles actors. It supports Scala, Clojure, Java, Javascript, Ruby, Groovy and Python."
   },
   {
     "name": "Airframe ★ 25 ⧗ 13",
@@ -750,11 +778,6 @@
     "description": "Foundational framework for distributed computing that fuses functional reactive programming and traditional actors."
   },
   {
-    "name": "Squid ★ 88 ⧗ 9",
-    "url": "https://github.com/epfldata/squid",
-    "description": "Type-safe metaprogramming framework with typed, hygienic quasiquotes."
-  },
-  {
     "name": "Ammonite-Ops",
     "url": "http://lihaoyi.github.io/Ammonite/#Ammonite-Ops",
     "description": "Safe, easy, filesystem operations in Scala as convenient as in the Bash shell."
@@ -763,6 +786,16 @@
     "name": "Chimney ★ 92 ⧗ 5",
     "url": "https://github.com/scalalandio/chimney",
     "description": "Scala library for boilerplate-free data transformations."
+  },
+  {
+    "name": "chronoscala ★ 38 ⧗ 0",
+    "url": "https://github.com/opt-tech/chronoscala",
+    "description": "Scala wrapper for Java Date/Time API."
+  },
+  {
+    "name": "Dsl.scala",
+    "url": "https://github.com/ThoughtWorksInc/Dsl.scala/",
+    "description": "A framework to create embedded Domain-Specific Languages in Scala, along with some built-in DSLs, including async/await, generators, delimited continuations, asynchronous collection comprehension, RAII, monadic !-notation for cats and scala, etc."
   },
   {
     "name": "Each ★ 146 ⧗ 0",
@@ -830,11 +863,6 @@
     "description": "Zero-cost structural logger for Scala with [SLF4J] integration."
   },
   {
-    "name": "chronoscala ★ 38 ⧗ 0",
-    "url": "https://github.com/opt-tech/chronoscala",
-    "description": "Scala wrapper for Java Date/Time API."
-  },
-  {
     "name": "Persist-Logging ★ 33 ⧗ 48",
     "url": "https://github.com/nestorpersist/logging",
     "description": "Comprehensive logging library for Scala."
@@ -863,6 +891,11 @@
     "name": "Resolvable ★ 0 ⧗ 94",
     "url": "https://github.com/stanch/resolvable",
     "description": "A library to optimize fetching immutable data structures from several endpoints in several formats."
+  },
+  {
+    "name": "Squid ★ 88 ⧗ 9",
+    "url": "https://github.com/epfldata/squid",
+    "description": "Type-safe metaprogramming framework with typed, hygienic quasiquotes."
   },
   {
     "name": "Scala Graph",
@@ -930,6 +963,11 @@
     "description": "A simple scala library offering control of Google Drive, Calendar, and the Admin SDK."
   },
   {
+    "name": "Google4s ★ 7 ⧗ 3",
+    "url": "https://github.com/toknapp/google4s/",
+    "description": "Lean, functional library for Google Cloud Services in Scala (KMS, Cloud Storage, PubSub)"
+  },
+  {
     "name": "mailgun4s ★ 7 ⧗ 4",
     "url": "https://github.com/outr/mailgun4s",
     "description": "Scala wrapper around the Mailgun API"
@@ -973,11 +1011,6 @@
     "name": "pprint",
     "url": "https://github.com/lihaoyi/pprint",
     "description": "Pretty-printer for Scala values and types for easier reading and debugging"
-  },
-  {
-    "name": "PureConfig ★ 337 ⧗ 2",
-    "url": "https://github.com/melrief/pureconfig",
-    "description": "A boilerplate-free Scala library for loading configuration files."
   },
   {
     "name": "REPLesent ★ 319 ⧗ 5",
@@ -1134,6 +1167,11 @@
     "description": "Scala Standard Parser Combinator Library."
   },
   {
+    "name": "better-monadic-for ★ 371 ⧗ 8",
+    "url": "https://github.com/oleg-py/better-monadic-for",
+    "description": "A Scala compiler plugin to give patterns and for-comprehensions the love they deserve"
+  },
+  {
     "name": "sbt-api-mappings ★ 38 ⧗ 67",
     "url": "https://github.com/ThoughtWorksInc/sbt-api-mappings",
     "description": "A Sbt plugin that resolves external API links to common Scala libraries."
@@ -1234,16 +1272,6 @@
     "description": "Scala playground & Documentation tool."
   },
   {
-    "name": "tut ★ 364 ⧗ 2",
-    "url": "https://github.com/tpolecat/tut",
-    "description": "Tool for writing documentation with typechecked examples."
-  },
-  {
-    "name": "xsbt-web-plugin ★ 334 ⧗ 1",
-    "url": "https://github.com/earldouglas/xsbt-web-plugin",
-    "description": "Build enterprise J2EE Web applications in Scala."
-  },
-  {
     "name": "sbt-hepek ★ 5 ⧗ 0",
     "url": "https://github.com/sake92/sbt-hepek",
     "description": "Make static websites in Scala code (render object to file!)."
@@ -1252,6 +1280,16 @@
     "name": "splain ★ 234 ⧗ 0",
     "url": "https://github.com/tek/splain",
     "description": "Better implicit errors for Scala."
+  },
+  {
+    "name": "tut ★ 364 ⧗ 2",
+    "url": "https://github.com/tpolecat/tut",
+    "description": "Tool for writing documentation with typechecked examples."
+  },
+  {
+    "name": "xsbt-web-plugin ★ 334 ⧗ 1",
+    "url": "https://github.com/earldouglas/xsbt-web-plugin",
+    "description": "Build enterprise J2EE Web applications in Scala."
   },
   {
     "name": "scala-scraper ★ 316 ⧗ 1",
@@ -1269,100 +1307,100 @@
     "description": "Text Markup Transformer for sbt and Scala applications, transforming Markdown and reStructuredText to HTML and PDF."
   },
   {
-    "name": "http://degoes.net/articles/",
-    "url": "http://degoes.net/articles/"
-  },
-  {
-    "name": "https://github.com/lemastero/scala_typeclassopedia",
-    "url": "https://github.com/lemastero/scala_typeclassopedia"
-  },
-  {
-    "name": "http://blog.higher-order.com/",
-    "url": "http://blog.higher-order.com/"
-  },
-  {
-    "name": "https://pchiusano.github.io/",
-    "url": "https://pchiusano.github.io/"
-  },
-  {
-    "name": "http://www.warski.org/blog/",
-    "url": "http://www.warski.org/blog/"
-  },
-  {
-    "name": "http://www.lihaoyi.com/",
-    "url": "http://www.lihaoyi.com/"
-  },
-  {
-    "name": "https://blog.bruchez.name/search/label/scala",
-    "url": "https://blog.bruchez.name/search/label/scala"
-  },
-  {
-    "name": "http://eed3si9n.com/category/tags/scala",
-    "url": "http://eed3si9n.com/category/tags/scala"
-  },
-  {
-    "name": "http://danielwestheide.com/scala/neophytes.html",
-    "url": "http://danielwestheide.com/scala/neophytes.html"
-  },
-  {
-    "name": "http://ktoso.github.io/scala-types-of-types/",
-    "url": "http://ktoso.github.io/scala-types-of-types/"
-  },
-  {
-    "name": "https://kubuszok.com/tags/#scala",
-    "url": "https://kubuszok.com/tags/#scala"
+    "name": "http://aperiodic.net/phil/scala/s-99/",
+    "url": "http://aperiodic.net/phil/scala/s-99/"
   },
   {
     "name": "http://appliedscala.com/",
     "url": "http://appliedscala.com/"
   },
   {
-    "name": "http://debasishg.blogspot.com/",
-    "url": "http://debasishg.blogspot.com/"
+    "name": "http://blog.higher-order.com/",
+    "url": "http://blog.higher-order.com/"
   },
   {
     "name": "http://blog.tmorris.net/tags/Scala/index.html",
     "url": "http://blog.tmorris.net/tags/Scala/index.html"
   },
   {
-    "name": "https://www.beyondthelines.net/",
-    "url": "https://www.beyondthelines.net/"
+    "name": "http://danielwestheide.com/scala/neophytes.html",
+    "url": "http://danielwestheide.com/scala/neophytes.html"
   },
   {
-    "name": "https://alvinalexander.com/fpbook",
-    "url": "https://alvinalexander.com/fpbook"
+    "name": "http://debasishg.blogspot.com/",
+    "url": "http://debasishg.blogspot.com/"
   },
   {
-    "name": "https://naildrivin5.com/scalatour/",
-    "url": "https://naildrivin5.com/scalatour/"
+    "name": "http://degoes.net/articles/",
+    "url": "http://degoes.net/articles/"
   },
   {
-    "name": "https://manuel.bernhardt.io/blog/",
-    "url": "https://manuel.bernhardt.io/blog/"
+    "name": "http://eed3si9n.com/category/tags/scala",
+    "url": "http://eed3si9n.com/category/tags/scala"
   },
   {
-    "name": "https://janzhou.org/scala/",
-    "url": "https://janzhou.org/scala/"
+    "name": "http://ktoso.github.io/scala-types-of-types/",
+    "url": "http://ktoso.github.io/scala-types-of-types/"
   },
   {
-    "name": "http://torre.me.uk/docs/scala/",
-    "url": "http://torre.me.uk/docs/scala/"
-  },
-  {
-    "name": "http://www.rabbitonweb.com/",
-    "url": "http://www.rabbitonweb.com/"
+    "name": "http://scalacookbook.com/",
+    "url": "http://scalacookbook.com/"
   },
   {
     "name": "http://scalaprof.blogspot.com/",
     "url": "http://scalaprof.blogspot.com/"
   },
   {
-    "name": "http://aperiodic.net/phil/scala/s-99/",
-    "url": "http://aperiodic.net/phil/scala/s-99/"
+    "name": "http://torre.me.uk/docs/scala/",
+    "url": "http://torre.me.uk/docs/scala/"
   },
   {
-    "name": "http://scalacookbook.com/",
-    "url": "http://scalacookbook.com/"
+    "name": "http://www.lihaoyi.com/",
+    "url": "http://www.lihaoyi.com/"
+  },
+  {
+    "name": "http://www.rabbitonweb.com/",
+    "url": "http://www.rabbitonweb.com/"
+  },
+  {
+    "name": "http://www.warski.org/blog/",
+    "url": "http://www.warski.org/blog/"
+  },
+  {
+    "name": "https://alvinalexander.com/fpbook",
+    "url": "https://alvinalexander.com/fpbook"
+  },
+  {
+    "name": "https://blog.bruchez.name/search/label/scala",
+    "url": "https://blog.bruchez.name/search/label/scala"
+  },
+  {
+    "name": "https://github.com/lemastero/scala_typeclassopedia",
+    "url": "https://github.com/lemastero/scala_typeclassopedia"
+  },
+  {
+    "name": "https://janzhou.org/scala/",
+    "url": "https://janzhou.org/scala/"
+  },
+  {
+    "name": "https://kubuszok.com/tags/#scala",
+    "url": "https://kubuszok.com/tags/#scala"
+  },
+  {
+    "name": "https://manuel.bernhardt.io/blog/",
+    "url": "https://manuel.bernhardt.io/blog/"
+  },
+  {
+    "name": "https://naildrivin5.com/scalatour/",
+    "url": "https://naildrivin5.com/scalatour/"
+  },
+  {
+    "name": "https://pchiusano.github.io/",
+    "url": "https://pchiusano.github.io/"
+  },
+  {
+    "name": "https://www.beyondthelines.net/",
+    "url": "https://www.beyondthelines.net/"
   },
   {
     "name": "Functional Works / Learn",
@@ -1370,32 +1408,32 @@
     "description": "Quality resources maintained by functional works"
   },
   {
-    "name": "https://blog.softwaremill.com/tagged/scala",
-    "url": "https://blog.softwaremill.com/tagged/scala"
-  },
-  {
     "name": "http://allaboutscala.com/",
     "url": "http://allaboutscala.com/"
-  },
-  {
-    "name": "https://www.codacy.com/blog/",
-    "url": "https://www.codacy.com/blog/"
-  },
-  {
-    "name": "https://medium.com/disney-streaming/tagged/thisweekinscala",
-    "url": "https://medium.com/disney-streaming/tagged/thisweekinscala"
-  },
-  {
-    "name": "https://blog.knoldus.com/tag/scala/",
-    "url": "https://blog.knoldus.com/tag/scala/"
   },
   {
     "name": "http://enear.github.io/",
     "url": "http://enear.github.io/"
   },
   {
+    "name": "https://blog.knoldus.com/tag/scala/",
+    "url": "https://blog.knoldus.com/tag/scala/"
+  },
+  {
     "name": "https://blog.scalac.io/tags/Scala/",
     "url": "https://blog.scalac.io/tags/Scala/"
+  },
+  {
+    "name": "https://blog.softwaremill.com/tagged/scala",
+    "url": "https://blog.softwaremill.com/tagged/scala"
+  },
+  {
+    "name": "https://medium.com/disney-streaming/tagged/thisweekinscala",
+    "url": "https://medium.com/disney-streaming/tagged/thisweekinscala"
+  },
+  {
+    "name": "https://www.codacy.com/blog/",
+    "url": "https://www.codacy.com/blog/"
   },
   {
     "name": "Scala Times",
@@ -1408,18 +1446,57 @@
     "description": "Bite-sized introductions to some of the core language concepts."
   },
   {
+    "name": "CA Art",
+    "url": "https://github.com/makingthematrix/ca_art",
+    "description": "A small project aimed at learning Scala on intermediate level by experimenting with Cellular Automata"
+  },
+  {
     "name": "Deploying Scala libraries to Sonatype for dummies ★ 23 ⧗ 25",
     "url": "https://github.com/larroy/deployingScalaLibrariesToSonatype",
     "description": "None"
   },
   {
-    "name": "Programming Community Curated Resources for Learning Scala",
-    "url": "https://hackr.io/tutorials/learn-scala"
+    "name": "Resources by Dr. Mark Lewis >> Website | Youtube Playlists",
+    "url": "http://www.cs.trinity.edu/~mlewis/"
+  },
+  {
+    "name": "Exercism",
+    "url": "http://exercism.io/languages/scala/exercises",
+    "description": "Scala Exercises - Community-driven Scala exercises."
+  },
+  {
+    "name": "Essential Scala",
+    "url": "https://underscore.io/books/essential-scala/",
+    "description": "None"
   },
   {
     "name": "Functional Programming in Scala",
     "url": "https://www.coursera.org/specializations/scala",
     "description": "Coursera Specialization (5 courses) created by  Martin Odersky et al. at the EPFL (Ecole polytechnique fédérale de Lausanne)."
+  },
+  {
+    "name": "Functional Programming for Mortals",
+    "url": "https://leanpub.com/fpmortals/read",
+    "description": "None"
+  },
+  {
+    "name": "Get Programming with Scala",
+    "url": "https://www.manning.com/books/get-programming-with-scala",
+    "description": "Tutorial-driven introduction to Scala"
+  },
+  {
+    "name": "Introduction to programming with dependent types in Scala",
+    "url": "https://stepik.org/course/2294/",
+    "description": "Video Course by Dmytro Mitin"
+  },
+  {
+    "name": "Learn-by-doing functional programming course on Scala",
+    "url": "https://github.com/dehun/learn-fp/",
+    "description": "Covers type classes, functors, applicatives, monads, monad transformers, free monad"
+  },
+  {
+    "name": "Programming Community Curated Resources for Learning Scala",
+    "url": "https://hackr.io/tutorials/learn-scala"
   },
   {
     "name": "Reactive Programming with Scala and Akka",
@@ -1437,11 +1514,6 @@
     "description": "Brings the popular Scala Koans to the web. Offering hundreds of solvable exercises organized into 42 categories covering the basics of the Scala language."
   },
   {
-    "name": "Exercism",
-    "url": "http://exercism.io/languages/scala/exercises",
-    "description": "Scala Exercises - Community-driven Scala exercises."
-  },
-  {
     "name": "Scala With Cats",
     "url": "https://underscore.io/books/scala-with-cats/",
     "description": "Learn system architecture and design using the techniques of modern functional programming with Cats"
@@ -1457,43 +1529,9 @@
     "description": "Scala school started as a series of lectures at Twitter to prepare experienced engineers to be productive Scala programmers."
   },
   {
-    "name": "Essential Scala",
-    "url": "https://underscore.io/books/essential-scala/",
-    "description": "None"
-  },
-  {
     "name": "Scalera Blog",
     "url": "http://www.scalera.es",
     "description": "Blog about Scala language and its environment (howto's, good practices, tips,...). Weekly posts written in both spanish and english"
-  },
-  {
-    "name": "Resources by Dr. Mark Lewis >> Website | Youtube Playlists",
-    "url": "http://www.cs.trinity.edu/~mlewis/"
-  },
-  {
-    "name": "Functional Programming for Mortals",
-    "url": "https://leanpub.com/fpmortals/read",
-    "description": "None"
-  },
-  {
-    "name": "The Type Astronaut's Guide to Shapeless",
-    "url": "https://underscore.io/books/shapeless-guide/",
-    "description": "None"
-  },
-  {
-    "name": "Learn-by-doing functional programming course on Scala",
-    "url": "https://github.com/dehun/learn-fp/",
-    "description": "Covers type classes, functors, applicatives, monads, monad transformers, free monad"
-  },
-  {
-    "name": "Get Programming with Scala",
-    "url": "https://www.manning.com/books/get-programming-with-scala",
-    "description": "Tutorial-driven introduction to Scala"
-  },
-  {
-    "name": "Introduction to programming with dependent types in Scala",
-    "url": "https://stepik.org/course/2294/",
-    "description": "Video Course by Dmytro Mitin"
   },
   {
     "name": "Scala for the Impatient 2nd Edition",
@@ -1501,9 +1539,9 @@
     "description": "Covers most Scala features with short and easy to understand explainations."
   },
   {
-    "name": "CA Art",
-    "url": "https://github.com/makingthematrix/ca_art",
-    "description": "A small project aimed at learning Scala on intermediate level by experimenting with Cellular Automata"
+    "name": "The Type Astronaut's Guide to Shapeless",
+    "url": "https://underscore.io/books/shapeless-guide/",
+    "description": "None"
   },
   {
     "name": "scala-js-fiddle (repo)",
@@ -1541,16 +1579,6 @@
     "description": "The Play Scala Template Compiler"
   },
   {
-    "name": "Mill",
-    "url": "http://www.lihaoyi.com/mill/",
-    "description": "A better Scala build tool"
-  },
-  {
-    "name": "Scalafix",
-    "url": "https://github.com/scalacenter/scalafix",
-    "description": "Refactoring and linting tool"
-  },
-  {
     "name": "Codacy",
     "url": "https://www.codacy.com/",
     "description": "Automated Code Reviews for Scala"
@@ -1566,6 +1594,25 @@
     "description": "Scala macro that generates ultra-fast string interpolators"
   },
   {
+    "name": "Giter8 command line tool to generate files and directories from templates published on Github",
+    "url": "http://www.foundweekends.org/giter8/"
+  },
+  {
+    "name": "Mill",
+    "url": "http://www.lihaoyi.com/mill/",
+    "description": "A better Scala build tool"
+  },
+  {
+    "name": "pos ★ 13",
+    "url": "https://github.com/JohnReedLOL/pos",
+    "description": "Print debug tool, successor of scala-trace-debug"
+  },
+  {
+    "name": "Scalafix",
+    "url": "https://github.com/scalacenter/scalafix",
+    "description": "Refactoring and linting tool"
+  },
+  {
     "name": "sbt (repo)",
     "url": "http://www.scala-sbt.org/",
     "description": "The interactive build tool for Scala"
@@ -1576,7 +1623,7 @@
     "description": "The go-to Scala Toolbox."
   },
   {
-    "name": "scala-trace-debug ★ 80 ⧗ 14",
+    "name": "scala-trace-debug ★ 111  ⧗ 14",
     "url": "https://github.com/JohnReedLOL/scala-trace-debug",
     "description": "Multithreaded print debug tool"
   },
@@ -1609,10 +1656,6 @@
     "name": "Scoverage",
     "url": "https://github.com/scoverage",
     "description": "Scala Code Coverage tool"
-  },
-  {
-    "name": "Giter8 command line tool to generate files and directories from templates published on Github",
-    "url": "http://www.foundweekends.org/giter8/"
   },
   {
     "name": "osm4scala ★ 8 ⧗ 40",

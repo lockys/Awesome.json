@@ -365,6 +365,11 @@
     "description": "go command line option parser."
   },
   {
+    "name": "go-getoptions",
+    "url": "https://github.com/DavidGamba/go-getoptions",
+    "description": "Go option parser inspired on the flexibility of Perl’s GetOpt::Long."
+  },
+  {
     "name": "gocmd",
     "url": "https://github.com/devfacet/gocmd",
     "description": "Go library for building command line applications."
@@ -438,6 +443,11 @@
     "name": "wmenu",
     "url": "https://github.com/dixonwille/wmenu",
     "description": "Easy to use menu structure for cli applications that prompts users to make choices."
+  },
+  {
+    "name": "asciigraph",
+    "url": "https://github.com/guptarohit/asciigraph",
+    "description": "Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies."
   },
   {
     "name": "aurora",
@@ -865,6 +875,11 @@
     "description": "Implementation of dataframes, series, and data wrangling methods for Go."
   },
   {
+    "name": "hide",
+    "url": "https://github.com/emvi/hide",
+    "description": "ID type with marshalling to/from hash to prevent sending IDs to clients."
+  },
+  {
     "name": "hilbert",
     "url": "https://github.com/google/hilbert",
     "description": "Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves."
@@ -900,6 +915,11 @@
     "description": "Multi-String Pattern Matching Algorithm for information retrieval."
   },
   {
+    "name": "null",
+    "url": "https://github.com/emvi/null",
+    "description": "Nullable Go types that can be marshalled/unmarshalled to/from JSON."
+  },
+  {
     "name": "pipeline",
     "url": "https://github.com/hyfather/pipeline",
     "description": "An implementation of pipelines with fan-in and fan-out."
@@ -928,6 +948,11 @@
     "name": "skiplist",
     "url": "https://github.com/gansidui/skiplist",
     "description": "Skiplist implementation in Go."
+  },
+  {
+    "name": "timedmap",
+    "url": "https://github.com/zekroTJA/timedmap",
+    "description": "Map with expiring key-value pairs."
   },
   {
     "name": "trie",
@@ -1120,11 +1145,6 @@
     "description": "A Go package to help write migrations with go-pg/pg."
   },
   {
-    "name": "gondolier",
-    "url": "https://github.com/emvicom/gondolier",
-    "description": "Gondolier is a library to auto migrate database schemas using structs."
-  },
-  {
     "name": "goose",
     "url": "https://github.com/steinbacher/goose",
     "description": "Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts."
@@ -1270,6 +1290,11 @@
     "description": "SQL query builder, fork of Squirrel with improved performance."
   },
   {
+    "name": "Squalus",
+    "url": "https://gitlab.com/qosenergy/squalus",
+    "description": "Thin layer over the Go SQL package that makes it easier to perform queries."
+  },
+  {
     "name": "Squirrel",
     "url": "https://github.com/Masterminds/squirrel",
     "description": "Go library that helps you build SQL queries."
@@ -1373,6 +1398,11 @@
     "name": "go-couchdb",
     "url": "https://github.com/fjl/go-couchdb",
     "description": "Yet another CouchDB HTTP API wrapper for Go."
+  },
+  {
+    "name": "go-pilosa",
+    "url": "https://github.com/pilosa/go-pilosa",
+    "description": "Go client library for Pilosa."
   },
   {
     "name": "go-rejson",
@@ -1555,8 +1585,8 @@
     "description": "Efficiently parse ISO8601 date-times without regex."
   },
   {
-    "name": "Kair",
-    "url": "https://github.com/GuilhermeCaruso/Kair",
+    "name": "kair",
+    "url": "https://github.com/GuilhermeCaruso/kair",
     "description": "Date and Time - Golang Formatting Library."
   },
   {
@@ -1618,6 +1648,11 @@
     "name": "dynamolock",
     "url": "https://cirello.io/dynamolock",
     "description": "DynamoDB-backed distributed locking implementation."
+  },
+  {
+    "name": "dynatomic",
+    "url": "https://github.com/tylfin/dynatomic",
+    "description": "A library for using DynamoDB as an atomic counter."
   },
   {
     "name": "emitter-io",
@@ -1698,6 +1733,11 @@
     "name": "NATS",
     "url": "https://github.com/nats-io/gnatsd",
     "description": "Lightweight, high performance messaging system for microservices, IoT, and cloud native systems."
+  },
+  {
+    "name": "outboxer",
+    "url": "https://github.com/italolelis/outboxer",
+    "description": "Outboxer is a go library that implements the outbox pattern."
   },
   {
     "name": "pglock",
@@ -1910,6 +1950,11 @@
     "description": "Go (golang) package for representing a list of errors as a single error."
   },
   {
+    "name": "tracerr",
+    "url": "https://github.com/ztrue/tracerr",
+    "description": "Golang errors with stack trace and source fragments."
+  },
+  {
     "name": "werr",
     "url": "https://github.com/txgruppi/werr",
     "description": "Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called."
@@ -1938,6 +1983,11 @@
     "name": "notify",
     "url": "https://github.com/rjeczalik/notify",
     "description": "File system event notification library with simple API, similar to os/signal."
+  },
+  {
+    "name": "opc",
+    "url": "https://github.com/qmuntal/opc",
+    "description": "Load Open Packaging Conventions (OPC) files for Go."
   },
   {
     "name": "pdfcpu",
@@ -1983,6 +2033,11 @@
     "name": "ofxgo",
     "url": "https://github.com/aclindsa/ofxgo",
     "description": "Query OFX servers and/or parse the responses (with example command-line client)."
+  },
+  {
+    "name": "orderbook",
+    "url": "https://github.com/i25959341/orderbook",
+    "description": "Matching Engine for Limit Order Book in Golang."
   },
   {
     "name": "techan",
@@ -2273,6 +2328,11 @@
     "name": "async",
     "url": "https://github.com/studiosol/async",
     "description": "A safe way to execute functions asynchronously, recovering them in case of panic."
+  },
+  {
+    "name": "breaker",
+    "url": "https://github.com/kamilsk/breaker",
+    "description": "🚧 Flexible mechanism to make your code breakable."
   },
   {
     "name": "cyclicbarrier",
@@ -3318,6 +3378,11 @@
     "name": "alice",
     "url": "https://github.com/magic003/alice",
     "description": "Additive dependency injection container for Golang."
+  },
+  {
+    "name": "dig",
+    "url": "https://github.com/uber-go/dig",
+    "description": "A reflection based dependency injection toolkit for Go."
   },
   {
     "name": "wire",
@@ -4518,6 +4583,11 @@
     "name": "bambam",
     "url": "https://github.com/glycerine/bambam",
     "description": "generator for Cap'n Proto schemas from go."
+  },
+  {
+    "name": "bel",
+    "url": "https://github.com/32leaves/bel",
+    "description": "Generate TypeScript interfaces from Go structs/interfaces. Useful for JSON RPC."
   },
   {
     "name": "colfer",
@@ -5855,6 +5925,11 @@
     "description": "Golang utility library with syntactic sugar. It's like lodash, but for golang."
   },
   {
+    "name": "handy",
+    "url": "https://github.com/miguelpragier/handy",
+    "description": "Many utilities and helpers like string handlers/formatters and validators."
+  },
+  {
     "name": "htcat",
     "url": "https://github.com/htcat/htcat",
     "description": "Parallel and Pipelined HTTP GET Utility."
@@ -5988,6 +6063,11 @@
     "name": "peco",
     "url": "https://github.com/peco/peco",
     "description": "Simplistic interactive filtering tool."
+  },
+  {
+    "name": "pgo",
+    "url": "https://github.com/arthurkushman/pgo",
+    "description": "Convenient functions for PHP community."
   },
   {
     "name": "pm",
@@ -6950,6 +7030,11 @@
     "description": "Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API."
   },
   {
+    "name": "godbg",
+    "url": "https://github.com/tylerwince/godbg",
+    "description": "Implementation of Rusts dbg! macro for quick and easy debugging during development."
+  },
+  {
     "name": "OctoLinker",
     "url": "https://github.com/OctoLinker/browser-extension",
     "description": "Navigate through go files efficiently with the OctoLinker browser extension for GitHub."
@@ -7163,6 +7248,11 @@
     "name": "Pewpew",
     "url": "https://github.com/bengadbois/pewpew",
     "description": "Flexible HTTP command line stress tester."
+  },
+  {
+    "name": "Pomerium",
+    "url": "https://github.com/pomerium/pomerium",
+    "description": "Pomerium is an identity-aware access proxy."
   },
   {
     "name": "Rodent",
@@ -7842,6 +7932,10 @@
   {
     "name": "Golang Vancouver, BC",
     "url": "https://www.meetup.com/golangvan/"
+  },
+  {
+    "name": "Golang Казань",
+    "url": "https://www.meetup.com/GolangKazan/"
   },
   {
     "name": "Golang Москва",

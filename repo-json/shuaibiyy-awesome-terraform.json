@@ -12,6 +12,10 @@
     "url": "https://www.hashicorp.com/blog/category/terraform"
   },
   {
+    "name": "Terraform learn",
+    "url": "https://learn.hashicorp.com/terraform/"
+  },
+  {
     "name": "Terraform Google Group",
     "url": "https://groups.google.com/forum/#!forum/terraform-tool"
   },
@@ -62,6 +66,26 @@
     "description": "Walkthrough of deploying a dockerized app on ECS using Terraform."
   },
   {
+    "name": "Using Terraform for Cloud Deployments",
+    "url": "https://dev.to/koenighotze/using-terraform-for-cloud-deployments---part-1",
+    "description": "Part 1 - Provisioning an EC2 instance."
+  },
+  {
+    "name": "Creating custom terraform providers",
+    "url": "https://medium.com/@jozmo/creating-custom-terraform-providers-341311823fa2",
+    "description": "Guide for creating custom providers."
+  },
+  {
+    "name": "Writing Custom Providers",
+    "url": "https://www.terraform.io/docs/extend/writing-custom-providers.html",
+    "description": "Official documentation for creating custom providers."
+  },
+  {
+    "name": "Writing a Terraform provider",
+    "url": "http://blog.jfabre.net/2017/01/22/writing-terraform-provider/",
+    "description": "Guide for creating custom  providers."
+  },
+  {
     "name": "Deploying Discourse with Terraform",
     "url": "https://www.hashicorp.com/blog/terraform-discourse.html",
     "description": "Shows how Terraform can create a running instance of Discourse on DigitalOcean in one command."
@@ -72,13 +96,19 @@
     "description": "Illustrates how Terraform can be incorporated into a microservice deployment pipeline."
   },
   {
-    "name": "Getting Started with Kitchen-Terraform",
-    "url": "https://newcontext-oss.github.io/kitchen-terraform/getting_started.html"
+    "name": "Terraforming 1Password",
+    "url": "https://blog.agilebits.com/2018/01/25/terraforming-1password/",
+    "description": "How 1Password migrated from CloudFormation to Terraform."
   },
   {
-    "name": "Sharing data between Terraform configurations",
-    "url": "https://jamesmckay.net/2016/09/sharing-data-between-terraform-configurations/",
-    "description": "Illustrates how to use remote state to share data between Terraform configurations."
+    "name": "Tutorial: How to Use Terraform to Deploy OpenStack Workloads",
+    "url": "http://www.stratoscale.com/blog/openstack/tutorial-how-to-use-terraform-to-deploy-openstack-workloads/",
+    "description": "Illustrates how easy it is to use the OpenStack Terraform provider to deploy a web server."
+  },
+  {
+    "name": "Zero Downtime Updates with HashiCorp Terraform",
+    "url": "https://www.hashicorp.com/blog/zero-downtime-updates-with-terraform",
+    "description": "Ensuring zero downtime of your infrastructure."
   },
   {
     "name": "Terraform Design Patterns: the Terrafile",
@@ -91,14 +121,29 @@
     "description": "Some gotchas surrounding using Terraform in large projects with multiple environments and how to avoid them."
   },
   {
-    "name": "Terraform: Beyond the Basics with AWS",
-    "url": "https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/",
-    "description": "Explanation of a demo using Terraform to provision a sample AWS architecture."
+    "name": "Using Pipelines to Manage Environments with Infrastructure as Code",
+    "url": "https://medium.com/@kief/https-medium-com-kief-using-pipelines-to-manage-environments-with-infrastructure-as-code-b37285a1cbf5",
+    "description": "Explains different approaches for building a pipeline to handle infrastructure changes moving from one environment to the next."
   },
   {
-    "name": "Terraforming 1Password",
-    "url": "https://blog.agilebits.com/2018/01/25/terraforming-1password/",
-    "description": "How 1Password migrated from CloudFormation to Terraform."
+    "name": "Learning HashiCorp Terraform",
+    "url": "https://www.g10s.io/hashicorp-terraform/",
+    "description": "Guide for Azure."
+  },
+  {
+    "name": "New Terraform Azure Automation Resources",
+    "url": "https://bgelens.nl/terraform-automation-resources/",
+    "description": "Azure Automation."
+  },
+  {
+    "name": "Terraforming Azure PaaS",
+    "url": "https://devkimchi.com/2019/01/21/terraforming-azure-paas/",
+    "description": "Deploy PaaS Resources on Azure."
+  },
+  {
+    "name": "Sharing data between Terraform configurations",
+    "url": "https://jamesmckay.net/2016/09/sharing-data-between-terraform-configurations/",
+    "description": "Illustrates how to use remote state to share data between Terraform configurations."
   },
   {
     "name": "The Segment AWS Stack",
@@ -110,24 +155,14 @@
     "url": "https://www.contino.io/insights/top-3-terraform-testing-strategies-for-ultra-reliable-infrastructure-as-code"
   },
   {
-    "name": "Tutorial: How to Use Terraform to Deploy OpenStack Workloads",
-    "url": "http://www.stratoscale.com/blog/openstack/tutorial-how-to-use-terraform-to-deploy-openstack-workloads/",
-    "description": "Illustrates how easy it is to use the OpenStack Terraform provider to deploy a web server."
-  },
-  {
     "name": "Two Weeks with Terraform",
     "url": "https://charity.wtf/2016/02/23/two-weeks-with-terraform/",
     "description": "Some hard-earned experience from using Terraform in the wild, and some operational wisdom."
   },
   {
-    "name": "Using Pipelines to Manage Environments with Infrastructure as Code",
-    "url": "https://medium.com/@kief/https-medium-com-kief-using-pipelines-to-manage-environments-with-infrastructure-as-code-b37285a1cbf5",
-    "description": "Explains different approaches for building a pipeline to handle infrastructure changes moving from one environment to the next."
-  },
-  {
-    "name": "Using Terraform for Cloud Deployments",
-    "url": "https://dev.to/koenighotze/using-terraform-for-cloud-deployments---part-1",
-    "description": "Part 1 - Beginner tutorial with a focus on using Terraform to provision an EC2 instance."
+    "name": "Terraform: Beyond the Basics with AWS",
+    "url": "https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/",
+    "description": "Explanation of a demo using Terraform to provision a sample AWS architecture."
   },
   {
     "name": "rancher-terraform-digitalocean",
@@ -245,29 +280,69 @@
     "description": "Provides only VPC (without subnets) in AWS."
   },
   {
+    "name": "terraform-azurerm-aks",
+    "url": "https://github.com/kjanshair/terraform-azurerm-aks",
+    "description": "Create AKS resoutces on Azure."
+  },
+  {
+    "name": "terraform-azurerm-redis",
+    "url": "https://github.com/rahulkhengare/terraform-azurerm-redis",
+    "description": "Create Redis on Azure."
+  },
+  {
+    "name": "terraform-azurerm-mysql",
+    "url": "https://github.com/foreverXZC/terraform-azurerm-mysql",
+    "description": "Create MySql Database on Azure."
+  },
+  {
+    "name": "terraform-azurerm-sqlserver",
+    "url": "https://github.com/metadevpro/terraform-azurerm-sqlserver-seed",
+    "description": "Create SQl Server Database on Azure."
+  },
+  {
+    "name": "terraform-azurerm-iis",
+    "url": "https://github.com/ghostinthewires/terraform-azurerm-iis-install",
+    "description": "Install IIS Server on Azure VM instance."
+  },
+  {
     "name": "anthology",
     "url": "https://github.com/erikvanbrakel/anthology",
-    "description": "A private Terraform registry implementation as an alternative to the official registry."
+    "description": "Private Terraform registry implementation as an alternative to the official registry."
   },
   {
     "name": "citizen",
     "url": "https://github.com/outsideris/citizen",
-    "description": "A Private Terraform Module Registry"
+    "description": "Private Terraform Module Registry"
   },
   {
     "name": "terraform-simple-registry",
     "url": "https://github.com/apparentlymart/terraform-simple-registry",
-    "description": "A simple implementation of the Terraform registry protocols."
+    "description": "Simple implementation of the Terraform registry protocols."
+  },
+  {
+    "name": "terraform-provider-azurerm",
+    "url": "https://github.com/terraform-providers/terraform-provider-azurerm",
+    "description": "Terraform provider for Azure cloud."
   },
   {
     "name": "terraform-provider-hcloud",
     "url": "https://github.com/terraform-providers/terraform-provider-hcloud",
-    "description": "A Terraform plugin for Hetzner Cloud"
+    "description": "Terraform plugin for Hetzner Cloud."
+  },
+  {
+    "name": "terraform-provider-healthchecksio",
+    "url": "https://github.com/kristofferahl/terraform-provider-healthchecksio",
+    "description": "Terraform provider to manage healthchecks.io resources."
+  },
+  {
+    "name": "terraform-provider-keycloak",
+    "url": "https://github.com/mrparkers/terraform-provider-keycloak",
+    "description": "Terraform provider to manage the settings of your Keycloak identity provider server."
   },
   {
     "name": "terraform-provider-linode",
     "url": "https://github.com/btobolaski/terraform-provider-linode",
-    "description": "A Terraform plugin for linode"
+    "description": "Terraform plugin for linode"
   },
   {
     "name": "terraform-provider-pingdom",
@@ -275,14 +350,14 @@
     "description": "Terraform provider to manage pingdom resources."
   },
   {
+    "name": "terraform-provider-spotinst",
+    "url": "https://github.com/terraform-providers/terraform-provider-spotinst",
+    "description": "Devops automation platform for AWS, Azure, GCP."
+  },
+  {
     "name": "terraform-provider-uptimerobot",
     "url": "https://github.com/louy/terraform-provider-uptimerobot",
     "description": "Terraform provider to manage uptimerobot resources."
-  },
-  {
-    "name": "terraform-provider-healthchecksio",
-    "url": "https://github.com/kristofferahl/terraform-provider-healthchecksio",
-    "description": "Terraform provider to manage healthchecks.io resources."
   },
   {
     "name": "kitchen-terraform",
@@ -527,6 +602,36 @@
     "name": "How to Build Reusable, Composable, Battle tested Terraform Modules",
     "url": "https://www.youtube.com/watch?v=LVgP63BkhKQ",
     "description": "Yevgeniy Brikman talks about how to write Terraform code so that it is reusable, composable and testable. The presentation focuses on Terraform modules, but also provides a brief and clear explanation of what problem Terraform was created to solve and a short demo of Terraform basics (~39 min, October 2017)"
+  },
+  {
+    "name": "Creating a Google Compute Instance with Terraform",
+    "url": "https://www.youtube.com/watch?v=fo3VX33Zx0c",
+    "description": "Example of creating a Google Compute Instance with Terraform code."
+  },
+  {
+    "name": "Test and verify a Google Compute Instance with Kitchen-Terraform",
+    "url": "https://www.youtube.com/watch?v=kiH3-LEveek",
+    "description": "Example of using Kitchen-Terraform to test our Terraform code that created a Google Compute."
+  },
+  {
+    "name": "Setup Continuous Integration for a Terraform module",
+    "url": "https://www.youtube.com/watch?v=vuJ6bjYKUcA",
+    "description": "Example of using CI with Kitchen-Terraform to test, tag and publish our Terraform module which creates a Google Compute Instance."
+  },
+  {
+    "name": "Creating a Terraform Provider for Just About Anything",
+    "url": "https://www.hashicorp.com/resources/creating-terraform-provider-for-anything",
+    "description": "Learn how to contribute to a Terraform provider or create your own from this walkthrough."
+  },
+  {
+    "name": "How to Extend the Terraform Provider List",
+    "url": "https://www.youtube.com/watch?v=2BvpqmFpchI",
+    "description": "In this talk, Paul will walk through the creation of a terraform provider."
+  },
+  {
+    "name": "Using Terraform for blue-green deployments on Triton",
+    "url": "https://www.joyent.com/blog/video-blue-green-deploys-terraform",
+    "description": "Video of demo on using Blue green with Terraform."
   },
   {
     "name": "Vim-Terraform",
