@@ -150,6 +150,11 @@
     "description": "native multi-backend ORM with Django-like API and easy relations management."
   },
   {
+    "name": "Databases",
+    "url": "https://github.com/encode/databases",
+    "description": "Async database access for SQLAlchemy core, with support for PostgreSQL, MySQL, and SQLite."
+  },
+  {
     "name": "AsyncSSH",
     "url": "https://github.com/ronf/asyncssh",
     "description": "Provides an asynchronous client and server implementation of the SSHv2 protocol."
@@ -188,11 +193,6 @@
     "name": "uvloop",
     "url": "https://github.com/MagicStack/uvloop",
     "description": "Ultra fast implementation of asyncio event loop on top of libuv."
-  },
-  {
-    "name": "curio",
-    "url": "https://github.com/dabeaz/curio",
-    "description": "The coroutine concurrency library."
   },
   {
     "name": "aiofiles",
@@ -250,6 +250,11 @@
     "description": "Making 1 million requests with python-aiohttp."
   },
   {
+    "name": "ASGI (Asynchronous Server Gateway Interface)",
+    "url": "https://asgi.readthedocs.io/en/latest/",
+    "description": "A spiritual successor to WSGI, intended to provide a standard interface between async-capable Python web servers, frameworks, and applications."
+  },
+  {
     "name": "Topics of Interest (Python Asyncio) | screencast | slides",
     "url": "https://youtu.be/ZzfHjytDceU",
     "description": "PyCon Brasil 2015 keynote (David Beazley)."
@@ -258,5 +263,40 @@
     "name": "Python Asynchronous I/O Walkthrough | blog post",
     "url": "https://www.youtube.com/playlist?list=PLpEcQSRWP2IjVRlTUptdD05kG-UkJynQT",
     "description": "8-part code walkthrough (Philip Guo)."
+  },
+  {
+    "name": "Async/await in Python 3.5 and why it is awesome",
+    "url": "https://www.youtube.com/watch?v=m28fiN9y_r8&t=132s",
+    "description": "EuroPython 2016 (Yury Selivanov)."
+  },
+  {
+    "name": "Fear and Awaiting in Async: A Savage Journey to the Heart of the Coroutine Dream | screencast",
+    "url": "https://www.youtube.com/watch?v=E-1Y4kSsAFc",
+    "description": "PyOhio 2016 keynote (David Beazley)."
+  },
+  {
+    "name": "Asynchronous Python for the Complete Beginner | slides",
+    "url": "https://www.youtube.com/watch?v=iG6fr81xHKA",
+    "description": "PyCon 2017 (Miguel Grinberg)."
+  },
+  {
+    "name": "curio",
+    "url": "https://github.com/dabeaz/curio",
+    "description": "The coroutine concurrency library."
+  },
+  {
+    "name": "Curio-Asyncio Bridge",
+    "url": "https://github.com/dabeaz/curio/issues/190",
+    "description": "basic curio -> asyncio coroutine bridge"
+  },
+  {
+    "name": "trio",
+    "url": "https://github.com/python-trio/trio",
+    "description": "Pythonic async I/O for humans and snake people."
+  },
+  {
+    "name": "trio-asyncio",
+    "url": "https://github.com/python-trio/trio-asyncio",
+    "description": "re-implementation of the asyncio mainloop on top of Trio"
   }
 ]
