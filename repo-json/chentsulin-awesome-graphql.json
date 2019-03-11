@@ -77,9 +77,13 @@
     "url": "https://www.meetup.com/GraphQL-Toronto/"
   },
   {
+    "name": "Amsterdam",
+    "url": "https://www.meetup.com/Amsterdam-GraphQL-Meetup/"
+  },
+  {
     "name": "Apollo Client",
     "url": "https://github.com/apollographql/apollo-client",
-    "description": "A well-documented GraphQL client. Has React and Angular bindings."
+    "description": "A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server."
   },
   {
     "name": "aws-amplify",
@@ -122,19 +126,9 @@
     "description": "A tiny yet fully fledged cache based GraphQL client"
   },
   {
-    "name": "GraphQL.js",
-    "url": "https://github.com/graphql/graphql-js",
-    "description": "A reference implementation of GraphQL for JavaScript."
-  },
-  {
     "name": "express-graphql",
     "url": "https://github.com/graphql/express-graphql",
     "description": "GraphQL Express Middleware."
-  },
-  {
-    "name": "koa-graphql",
-    "url": "https://github.com/chentsulin/koa-graphql",
-    "description": "GraphQL Koa Middleware."
   },
   {
     "name": "hapi-graphql",
@@ -147,6 +141,46 @@
     "description": "HAPI plugin for GraphiQL integration."
   },
   {
+    "name": "koa-graphql",
+    "url": "https://github.com/chentsulin/koa-graphql",
+    "description": "GraphQL Koa Middleware."
+  },
+  {
+    "name": "graphql-bookshelf",
+    "url": "https://github.com/brysgo/graphql-bookshelf",
+    "description": "Some help defining GraphQL schema around BookshelfJS models."
+  },
+  {
+    "name": "graphql-sequelize",
+    "url": "https://github.com/mickhansen/graphql-sequelize",
+    "description": "Sequelize helpers for GraphQL."
+  },
+  {
+    "name": "graphql-thinky",
+    "url": "https://github.com/fenos/graphql-thinky",
+    "description": "Build an optimized GraphQL schema from Thinky RethinkDB models."
+  },
+  {
+    "name": "graphql-tools-sequelize",
+    "url": "https://github.com/rse/graphql-tools-sequelize",
+    "description": "OO-style schema definition functions and schema resolver functions for GraphQL-Tools using Sequelize ORM"
+  },
+  {
+    "name": "graysql-orm-loader",
+    "url": "https://github.com/larsbs/graysql-orm-loader",
+    "description": "A GraysQL extension to load a GraphQL schema from an ORM."
+  },
+  {
+    "name": "GRelDAL",
+    "url": "https://gql-dal.github.io/greldal/",
+    "description": "A simple micro-framework for bidirectional mapping between relational datastores and GraphQL APIs."
+  },
+  {
+    "name": "GraphQL.js",
+    "url": "https://github.com/graphql/graphql-js",
+    "description": "A reference implementation of GraphQL for JavaScript."
+  },
+  {
     "name": "codemirror-graphql",
     "url": "https://github.com/graphql/codemirror-graphql",
     "description": "GraphQL mode and helpers for CodeMirror."
@@ -155,16 +189,6 @@
     "name": "graphql-schema",
     "url": "https://github.com/devknoll/graphql-schema",
     "description": "Create GraphQL schemas with a fluent/chainable interface."
-  },
-  {
-    "name": "graphql-sequelize",
-    "url": "https://github.com/mickhansen/graphql-sequelize",
-    "description": "Sequelize helpers for GraphQL."
-  },
-  {
-    "name": "graphql-tools-sequelize",
-    "url": "https://github.com/rse/graphql-tools-sequelize",
-    "description": "OO-style schema definition functions and schema resolver functions for GraphQL-Tools using Sequelize ORM"
   },
   {
     "name": "graphql-tools-types",
@@ -187,11 +211,6 @@
     "description": "React bindings for Redux with Relay in mind."
   },
   {
-    "name": "graphql-bookshelf",
-    "url": "https://github.com/brysgo/graphql-bookshelf",
-    "description": "Some help defining GraphQL schema around BookshelfJS models."
-  },
-  {
     "name": "graph.ql",
     "url": "https://github.com/matthewmueller/graph.ql",
     "description": "Faster and simpler technique for creating and querying GraphQL schemas."
@@ -207,19 +226,9 @@
     "description": "A GraphQL manager and loader."
   },
   {
-    "name": "graysql-orm-loader",
-    "url": "https://github.com/larsbs/graysql-orm-loader",
-    "description": "A GraysQL extension to load a GraphQL schema from an ORM."
-  },
-  {
     "name": "Annotated GraphQL",
     "url": "https://github.com/almilo/annotated-graphql",
     "description": "Proof of Concept for annotations in GraphQL (i.e.: transform an existing REST api into a GraphQL endpoint)."
-  },
-  {
-    "name": "Apollo Client",
-    "url": "https://github.com/apollographql/apollo-client",
-    "description": "A well-documented GraphQL client that integrates with Redux. Has React and Angular bindings."
   },
   {
     "name": "graphql-tools",
@@ -245,11 +254,6 @@
     "name": "vue-apollo",
     "url": "https://github.com/Akryum/vue-apollo",
     "description": "Vue integration for apollo."
-  },
-  {
-    "name": "graphql-thinky",
-    "url": "https://github.com/fenos/graphql-thinky",
-    "description": "Build an optimized GraphQL schema from Thinky RethinkDB models."
   },
   {
     "name": "graphql-pouch",
@@ -292,11 +296,6 @@
     "description": "JS type systems interportability."
   },
   {
-    "name": "GRelDAL",
-    "url": "https://gql-dal.github.io/greldal/",
-    "description": "A simple micro-framework for bidirectional mapping between relational datastores and GraphQL APIs."
-  },
-  {
     "name": "graphql-relay-js",
     "url": "https://github.com/graphql/graphql-relay-js",
     "description": "A library to help construct a graphql-js server supporting react-relay."
@@ -305,11 +304,6 @@
     "name": "sequelize-relay",
     "url": "https://github.com/MattMcFarland/sequelize-relay",
     "description": "Serverside library that connects sequelize and graphql-relay-js together."
-  },
-  {
-    "name": "babel-plugin-react-relay",
-    "url": "https://github.com/prisma/babel-plugin-react-relay",
-    "description": "Babel Plugin for Relay with support for JSON & graphql-js schemas and URL endpoints."
   },
   {
     "name": "babel-relay-plugin",
@@ -638,6 +632,21 @@
     "description": "Hasura gives Instant Realtime GraphQL APIs over PostgreSQL. Works with an existing database too."
   },
   {
+    "name": "Lacinia",
+    "url": "https://github.com/walmartlabs/lacinia",
+    "description": "GraphQL implementation in pure Clojure."
+  },
+  {
+    "name": "graphql-query",
+    "url": "https://github.com/district0x/graphql-query",
+    "description": "Clojure(Script) GraphQL query generation."
+  },
+  {
+    "name": "graphql-query",
+    "url": "https://github.com/district0x/graphql-query",
+    "description": "Clojure(Script) GraphQL query generation."
+  },
+  {
     "name": "GraphiQL.app",
     "url": "https://github.com/skevy/graphiql-app",
     "description": "A light, Electron-based wrapper around GraphiQL."
@@ -830,11 +839,6 @@
     "name": "Graphcool",
     "url": "https://www.graph.cool/",
     "description": "Your own GraphQL backend in under 5 minutes. Works with every GraphQL client such as Relay and Apollo."
-  },
-  {
-    "name": "Reindex",
-    "url": "https://www.reindex.io/",
-    "description": "Instant GraphQL Backend for Your React Apps."
   },
   {
     "name": "graphql-starter-kit",
