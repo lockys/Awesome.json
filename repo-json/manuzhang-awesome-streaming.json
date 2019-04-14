@@ -35,6 +35,20 @@
     "description": "distributed real-time computation system. Storm is to stream processing what Hadoop is to batch processing."
   },
   {
+    "name": "Azure Stream Analytics [.NET] a massively scalable, fully managed, real-time, data stream engine provided by Microsoft Azure",
+    "url": "https://azure.microsoft.com/en-us/services/stream-analytics/"
+  },
+  {
+    "name": "AthenaX [Java]",
+    "url": "https://github.com/uber/AthenaX",
+    "description": "Uber's Stream Analytics Framework used in production"
+  },
+  {
+    "name": "concord [C++]",
+    "url": "https://www.slideshare.net/concord-io/may-2016-data-by-the-bay-concord-simple-flexible-stream-processing-on-apache-mesos",
+    "description": "a distributed stream processing framework built in C++ on top of Apache"
+  },
+  {
     "name": "Faust [Python]",
     "url": "https://github.com/robinhood/faust",
     "description": "stream processing library, porting the ideas from Kafka Streams to Python"
@@ -43,6 +57,11 @@
     "name": "Hazelcast Jet [Java]",
     "url": "https://github.com/hazelcast/hazelcast-jet",
     "description": "A general purpose distributed data processing engine, built on top of Hazelcast."
+  },
+  {
+    "name": "hailstorm [Haskell]",
+    "url": "https://github.com/hailstorm-hs/hailstorm",
+    "description": "distributed stream processing with exactly-once semantics based on Storm."
   },
   {
     "name": "heron",
@@ -65,9 +84,19 @@
     "description": "mapReduce-style framework for processing fast/streaming data."
   },
   {
+    "name": "Onyx [Clojure]",
+    "url": "https://github.com/onyx-platform/onyx",
+    "description": "Distributed, masterless, high performance, fault tolerant data processing."
+  },
+  {
     "name": "s4 [Java]",
     "url": "https://github.com/apache/incubator-s4",
     "description": "general-purpose, distributed, scalable, fault-tolerant, pluggable platform that allows programmers to easily develop applications for processing continuous unbounded streams of data."
+  },
+  {
+    "name": "SABER [Java/C]",
+    "url": "https://github.com/lsds/Saber",
+    "description": "Window-Based Hybrid CPU/GPU Stream Processing Engine."
   },
   {
     "name": "SPQR [Java]",
@@ -80,44 +109,18 @@
     "description": "high throughput real-time streaming processing framework built on Hadoop and HBase."
   },
   {
-    "name": "hailstorm [Haskell]",
-    "url": "https://github.com/hailstorm-hs/hailstorm",
-    "description": "distributed stream processing with exactly-once semantics based on Storm."
-  },
-  {
     "name": "Teknek [Java]",
     "url": "https://github.com/edwardcapriolo/teknek-core",
     "description": "Simple elegant stream processing with interactive prototying shell SOL (Stream Operator Language)"
   },
   {
-    "name": "concord [C++]",
-    "url": "https://www.slideshare.net/concord-io/may-2016-data-by-the-bay-concord-simple-flexible-stream-processing-on-apache-mesos",
-    "description": "a distributed stream processing framework built in C++ on top of Apache Mesos, designed for high performance data processing jobs that require flexibility & control."
+    "name": "Trill [.NET/C#] Trill is a high-performance one-pass in-memory streaming analytics engine from Microsoft Research.",
+    "url": "https://github.com/Microsoft/trill"
   },
   {
     "name": "Wallaroo [Python]",
     "url": "https://github.com/WallarooLabs/wallaroo",
     "description": "The ultrafast and elastic data processing engine. Big or fast data - no fuss, no Java needed."
-  },
-  {
-    "name": "SABER [Java/C]",
-    "url": "https://github.com/lsds/Saber",
-    "description": "Window-Based Hybrid CPU/GPU Stream Processing Engine."
-  },
-  {
-    "name": "Onyx [Clojure]",
-    "url": "https://github.com/onyx-platform/onyx",
-    "description": "Distributed, masterless, high performance, fault tolerant data processing."
-  },
-  {
-    "name": "AthenaX [Java]",
-    "url": "https://github.com/uber/AthenaX",
-    "description": "Uber's Stream Analytics Framework used in production"
-  },
-  {
-    "name": "IBM Streams [Python/Java/Scala]",
-    "url": "https://www.ibm.com/analytics/us/en/technology/stream-computing/",
-    "description": "platform for distributed processing and real-time analytics. Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box."
   },
   {
     "name": "Apache Kafka Streams [Java]",
@@ -130,9 +133,9 @@
     "description": "stream processing library on Akka Actors."
   },
   {
-    "name": "Swave [Scala]",
-    "url": "https://github.com/sirthias/swave",
-    "description": "A lightweight Reactive Streams Infrastructure Toolkit for Scala."
+    "name": "Benthos [Go]",
+    "url": "https://github.com/Jeffail/benthos",
+    "description": "Benthos is a high performance and resilient message streaming service, able to connect various sources and sinks and perform arbitrary actions, transformations and filters on payloads"
   },
   {
     "name": "FS2(prev. 'Scalaz-Stream') [Scala]",
@@ -140,19 +143,14 @@
     "description": "Compositional, streaming I/O library for Scala."
   },
   {
+    "name": "IBM Streams [Python/Java/Scala]",
+    "url": "https://www.ibm.com/analytics/us/en/technology/stream-computing/",
+    "description": "platform for distributed processing and real-time analytics. Provides toolkits for advanced analytics like geospatial, time series, etc. out of the box."
+  },
+  {
     "name": "monix [Scala]",
     "url": "https://github.com/monix/monix",
     "description": "high-performance Scala / Scala.js library for composing asynchronous and event-based programs."
-  },
-  {
-    "name": "Benthos [Go]",
-    "url": "https://github.com/Jeffail/benthos",
-    "description": "Benthos is a high performance and resilient message streaming service, able to connect various sources and sinks and perform arbitrary actions, transformations and filters on payloads"
-  },
-  {
-    "name": "Bistro Streams [Java]",
-    "url": "https://github.com/asavinov/bistro",
-    "description": "a light-weight stream processing library which does for stream analytics what column stores did for databases by radically changing the way (stream) data is processed."
   },
   {
     "name": "Streamline [Java]",
@@ -163,6 +161,11 @@
     "name": "StreamAlert [Python]",
     "url": "https://github.com/airbnb/streamalert",
     "description": "Airbnb's Real-time Data Analysis and Alerting."
+  },
+  {
+    "name": "Swave [Scala]",
+    "url": "https://github.com/sirthias/swave",
+    "description": "A lightweight Reactive Streams Infrastructure Toolkit for Scala."
   },
   {
     "name": "straw [Python/Java]",
@@ -185,19 +188,14 @@
     "description": "a programming model and runtime that enables continuous streaming analytics on gateways and edge devices which can work with centralized systems to provide efficient and timely analytics across the whole IoT ecosystem: from the center to the edge, opens sourced by IBM."
   },
   {
-    "name": "summingbird [Scala]",
-    "url": "https://github.com/twitter/summingbird",
-    "description": "library that lets you write MapReduce programs that look like native Scala or Java collection transformations and execute them on a number of well-known distributed MapReduce platforms, including Storm and Scalding."
+    "name": "Apache Beam [Java]",
+    "url": "https://github.com/apache/beam",
+    "description": "unified model and set of language-specific SDKs for defining and executing data processing workflows, and also data ingestion and integration flows, supporting Enterprise Integration Patterns (EIPs) and Domain Specific Languages (DSLs), open sourced by Google."
   },
   {
     "name": "coast [Scala]",
     "url": "https://github.com/bkirwi/coast",
     "description": "a DSL that builds DAGs on top of Samza and provides exactly-once semantics."
-  },
-  {
-    "name": "Apache Beam [Java]",
-    "url": "https://github.com/apache/beam",
-    "description": "unified model and set of language-specific SDKs for defining and executing data processing workflows, and also data ingestion and integration flows, supporting Enterprise Integration Patterns (EIPs) and Domain Specific Languages (DSLs), open sourced by Google."
   },
   {
     "name": "Esper [Java]",
@@ -210,6 +208,11 @@
     "description": "lets you run Python code against real-time streams of data via Apache Storm."
   },
   {
+    "name": "summingbird [Scala]",
+    "url": "https://github.com/twitter/summingbird",
+    "description": "library that lets you write MapReduce programs that look like native Scala or Java collection transformations and execute them on a number of well-known distributed MapReduce platforms, including Storm and Scalding."
+  },
+  {
     "name": "Apache Kafka [Scala/Java]",
     "url": "https://github.com/apache/kafka",
     "description": "distributed, partitioned, replicated commit log service, which provides the functionality of a messaging system, but with a unique design."
@@ -218,21 +221,6 @@
     "name": "Apache Pulsar [Java]",
     "url": "https://github.com/apache/incubator-pulsar",
     "description": "distributed pub-sub messaging platform with a very flexible messaging model and an intuitive client API."
-  },
-  {
-    "name": "metaq [Java]",
-    "url": "https://github.com/killme2008/Metamorphosis",
-    "description": "Taobao's high available, high performance distributed messaging system"
-  },
-  {
-    "name": "nsq [Go]",
-    "url": "https://github.com/nsqio/nsq",
-    "description": "realtime distributed messaging platform designed to operate at scale, handling billions of messages per day."
-  },
-  {
-    "name": "NATS streaming [Go]",
-    "url": "https://github.com/nats-io/nats-streaming-server",
-    "description": "fast disk-backed messaging solution"
   },
   {
     "name": "camus [Java]",
@@ -245,9 +233,29 @@
     "description": "Linkedin's source-agnostic distributed change data capture system."
   },
   {
+    "name": "LogDevice [C++]",
+    "url": "https://logdevice.io/",
+    "description": "a high-performant distributed system by Facebook for streaming and storing sequential data, using a log structure"
+  },
+  {
     "name": "flume [Java]",
     "url": "https://github.com/apache/flume",
     "description": "distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data."
+  },
+  {
+    "name": "metaq [Java]",
+    "url": "https://github.com/killme2008/Metamorphosis",
+    "description": "Taobao's high available, high performance distributed messaging system"
+  },
+  {
+    "name": "NATS streaming [Go]",
+    "url": "https://github.com/nats-io/nats-streaming-server",
+    "description": "fast disk-backed messaging solution"
+  },
+  {
+    "name": "nsq [Go]",
+    "url": "https://github.com/nsqio/nsq",
+    "description": "realtime distributed messaging platform designed to operate at scale, handling billions of messages per day."
   },
   {
     "name": "Redis Streams",
@@ -263,11 +271,6 @@
     "name": "StreamSets Data Collector [Java]",
     "url": "https://github.com/streamsets/datacollector",
     "description": "continuous big data ingestion infrastructure that reads from and writes to a large number of end-points, including S3, JDBC, Hadoop, Kafka, Cassandra and many others."
-  },
-  {
-    "name": "LogDevice [C++]",
-    "url": "https://logdevice.io/",
-    "description": "a high-performant distributed system by Facebook for streaming and storing sequential data, using a log structure"
   },
   {
     "name": "streamDM [Scala]",
@@ -323,6 +326,10 @@
     "name": "KSQL [Java]",
     "url": "https://github.com/confluentinc/ksql",
     "description": "a Streaming SQL Engine for Apache Kafka."
+  },
+  {
+    "name": "Azure Stream Analytics [.NET] a massively scalable SQL engine for processing streaming data",
+    "url": "https://azure.microsoft.com/en-us/services/stream-analytics/"
   },
   {
     "name": "storm-benchmark [Java]",
