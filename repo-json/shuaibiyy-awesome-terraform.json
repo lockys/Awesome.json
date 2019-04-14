@@ -40,6 +40,15 @@
     "url": "https://github.com/dohsimpson/terraform-doc-pdf"
   },
   {
+    "name": "Complete Terraform documentation as PDF files (Updated nightly)",
+    "url": "https://github.com/antonbabenko/terraform-docs-as-pdf"
+  },
+  {
+    "name": "Terraform Best Practices",
+    "url": "https://www.terraform-best-practices.com/",
+    "description": "open-source ebook"
+  },
+  {
     "name": "Terraform: Up & Running",
     "url": "http://www.terraformupandrunning.com/?ref=gruntwork-blog-comprehensive-terraform"
   },
@@ -59,11 +68,6 @@
     "name": "A Comprehensive Guide to Terraform",
     "url": "https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca#.w9x897ywp",
     "description": "Series of blog posts from the author of \"Terraform: Up & Running\" that guide the reader from beginning with Terraform to using it in the real world."
-  },
-  {
-    "name": "Bootstrapping Docker Infrastructure With Terraform",
-    "url": "http://vilkeliskis.com/aws-docker-terraform",
-    "description": "Walkthrough of deploying a dockerized app on ECS using Terraform."
   },
   {
     "name": "Using Terraform for Cloud Deployments",
@@ -165,6 +169,11 @@
     "description": "Explanation of a demo using Terraform to provision a sample AWS architecture."
   },
   {
+    "name": "terraform-aws-modules",
+    "url": "https://github.com/terraform-aws-modules",
+    "description": "Collection of Terraform AWS modules supported by the community (includes official AWS modules)"
+  },
+  {
     "name": "rancher-terraform-digitalocean",
     "url": "https://github.com/lunagt/rancher-terraform-digitalocean",
     "description": "Rancher server on digitalocean."
@@ -225,11 +234,6 @@
     "description": "Creates static websites on AWS S3 & Cloudfront based on variables."
   },
   {
-    "name": "tf_aws_asg_elb",
-    "url": "https://github.com/terraform-community-modules/tf_aws_asg_elb",
-    "description": "Creates Auto-Scaling Groups and Launch Configurations for use with an Elastic Load Balancer."
-  },
-  {
     "name": "tf_aws_availability_zones_cfn",
     "url": "https://github.com/terraform-community-modules/tf_aws_availability_zones_cfn",
     "description": "Gets availability zones for your AWS region/account from Cloudformation."
@@ -250,34 +254,44 @@
     "description": "NAT instances for AWS."
   },
   {
-    "name": "tf_aws_private_subnet_nat_gateway",
-    "url": "https://github.com/terraform-community-modules/tf_aws_private_subnet_nat_gateway",
-    "description": "Creates private subnets with NAT Gateway in AWS."
-  },
-  {
-    "name": "tf_aws_rds",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-rds",
-    "description": "Creates RDS resources on AWS."
-  },
-  {
-    "name": "terraform-aws-security-group",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-security-group",
-    "description": "Creates EC2-VPC security groups on AWS."
-  },
-  {
-    "name": "tf_aws_ubuntu_ami",
-    "url": "https://github.com/terraform-community-modules/tf_aws_ubuntu_ami",
-    "description": "Easy way to lookup Ubuntu AMIs with Terraform."
+    "name": "terraform-aws-atlantis",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-atlantis",
+    "description": "Creates Terraform configurations for running Atlantis on AWS Fargate. Github, Gitlab and BitBucket are supported."
   },
   {
     "name": "terraform-aws-vpc",
     "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc",
-    "description": "Creates VPC resources on AWS."
+    "description": "Creates VPC resources on AWS (verified and very popular module)."
   },
   {
-    "name": "tf_aws_vpc_only",
-    "url": "https://github.com/terraform-community-modules/tf_aws_vpc_only",
-    "description": "Provides only VPC (without subnets) in AWS."
+    "name": "terraform-aws-autoscaling",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-autoscaling",
+    "description": "Creates Auto-Scaling Groups and Launch Configurations (verified module)."
+  },
+  {
+    "name": "terraform-aws-alb",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-alb",
+    "description": "Created Application load-balancer on AWS (verified module)."
+  },
+  {
+    "name": "terraform-aws-elb",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-elb",
+    "description": "Created Elastic load-balancer on AWS (verified module)."
+  },
+  {
+    "name": "terraform-aws-eks",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
+    "description": "Creates Elastic Kubernetes Service on AWS (very popular module)."
+  },
+  {
+    "name": "terraform-aws-rds",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-rds",
+    "description": "Creates RDS resources on AWS (verified module)."
+  },
+  {
+    "name": "terraform-aws-security-group",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-security-group",
+    "description": "Creates EC2-VPC security groups on AWS (verified module)."
   },
   {
     "name": "terraform-azurerm-aks",
@@ -325,34 +339,59 @@
     "description": "Simple implementation of the Terraform registry protocols."
   },
   {
+    "name": "terraform-provider-alicloud",
+    "url": "https://github.com/terraform-providers/terraform-provider-alicloud",
+    "description": " Plugin for Alibaba Cloud."
+  },
+  {
+    "name": "terraform-provider-aws",
+    "url": "https://github.com/terraform-providers/terraform-provider-aws",
+    "description": "Plugin for Amazon Web Services."
+  },
+  {
     "name": "terraform-provider-azurerm",
     "url": "https://github.com/terraform-providers/terraform-provider-azurerm",
-    "description": "Terraform provider for Azure cloud."
+    "description": "Plugin for Microsoft Azure."
+  },
+  {
+    "name": "terraform-provider-google",
+    "url": "https://github.com/terraform-providers/terraform-provider-google",
+    "description": "Plugin for Google Cloud Platform."
   },
   {
     "name": "terraform-provider-hcloud",
     "url": "https://github.com/terraform-providers/terraform-provider-hcloud",
-    "description": "Terraform plugin for Hetzner Cloud."
+    "description": "Plugin for Hetzner Cloud."
   },
   {
     "name": "terraform-provider-healthchecksio",
     "url": "https://github.com/kristofferahl/terraform-provider-healthchecksio",
-    "description": "Terraform provider to manage healthchecks.io resources."
+    "description": "Provider to manage healthchecks.io resources."
+  },
+  {
+    "name": "terraform-provider-helm",
+    "url": "https://github.com/terraform-providers/terraform-provider-helm",
+    "description": "Plugin for Helm"
   },
   {
     "name": "terraform-provider-keycloak",
     "url": "https://github.com/mrparkers/terraform-provider-keycloak",
-    "description": "Terraform provider to manage the settings of your Keycloak identity provider server."
+    "description": " Provider to manage the settings of your Keycloak identity provider server."
+  },
+  {
+    "name": "terraform-provider-kubernetes",
+    "url": "https://github.com/terraform-providers/terraform-provider-kubernetes",
+    "description": "Plugin for Kubernetes."
   },
   {
     "name": "terraform-provider-linode",
-    "url": "https://github.com/terraform-providers/terraform-provider-linode",
-    "description": "Terraform provider for Linode"
+    "url": "https://github.com/btobolaski/terraform-provider-linode",
+    "description": "Plugin for linode"
   },
   {
     "name": "terraform-provider-pingdom",
     "url": "https://github.com/russellcardullo/terraform-provider-pingdom",
-    "description": "Terraform provider to manage pingdom resources."
+    "description": "Provider to manage pingdom resources."
   },
   {
     "name": "terraform-provider-spinnaker",
@@ -365,9 +404,29 @@
     "description": "Devops automation platform for AWS, Azure, GCP."
   },
   {
+    "name": "terraform-provider-stripe",
+    "url": "https://github.com/franckverrot/terraform-provider-stripe",
+    "description": "Provider for Stripe."
+  },
+  {
     "name": "terraform-provider-uptimerobot",
     "url": "https://github.com/louy/terraform-provider-uptimerobot",
-    "description": "Terraform provider to manage uptimerobot resources."
+    "description": "Provider to manage uptimerobot resources."
+  },
+  {
+    "name": "terraform-provider-vaulted",
+    "url": "https://github.com/sumup-oss/terraform-provider-vaulted",
+    "description": "Encrypted HashiCorp Vault secrets via Terraform that can be stored in SCM such as Git."
+  },
+  {
+    "name": "terraform-provider-vsphere",
+    "url": "https://github.com/terraform-providers/terraform-provider-vsphere",
+    "description": "Plugin for VMware vSphere."
+  },
+  {
+    "name": "terraform-provider-dominos",
+    "url": "https://github.com/ndmckinley/terraform-provider-dominos",
+    "description": "Provider for Dominos Pizza."
   },
   {
     "name": "kitchen-terraform",
@@ -425,6 +484,16 @@
     "description": "Convert JSON to HCL and vice versa."
   },
   {
+    "name": "modules.tf",
+    "url": "https://modules.tf/",
+    "description": "Infrastructure as code generator - from visual diagrams created with Cloudcraft.co to Terraform. Source code."
+  },
+  {
+    "name": "pre-commit-terraform",
+    "url": "https://github.com/antonbabenko/pre-commit-terraform",
+    "description": "pre-commit git hooks to take care of Terraform configurations (auto-format, validate, update docs)."
+  },
+  {
     "name": "python-terrafile",
     "url": "https://github.com/claranet/python-terrafile",
     "description": "Systematically manage external modules from Github for use in Terraform."
@@ -458,6 +527,11 @@
     "name": "terrafile",
     "url": "https://github.com/dxw/terrafile",
     "description": "Systematically manage external modules from Github for use in Terraform (written in Ruby)."
+  },
+  {
+    "name": "terraform-bundle",
+    "url": "https://github.com/hashicorp/terraform/tree/master/tools/terraform-bundle",
+    "description": "Easily builds bundles containing a Terraform binary as well as provider binaries. Useful for CI and air-gapped Terraform Enterprise."
   },
   {
     "name": "terraform-docs",
@@ -497,7 +571,7 @@
   {
     "name": "terrahelp",
     "url": "https://github.com/opencredo/terrahelp",
-    "description": "a command line utility aimed at providing supplementary functionality which can sometimes prove useful when working with Terraform."
+    "description": "Command line utility aimed at providing supplementary functionality which can sometimes prove useful when working with Terraform."
   },
   {
     "name": "terrascan",
@@ -527,7 +601,7 @@
   {
     "name": "tfscaffold",
     "url": "https://github.com/tfutils/tfscaffold",
-    "description": "A framework for controlling multi-environment multi-component terraform-managed AWS infrastructure"
+    "description": "Framework for controlling multi-environment multi-component terraform-managed AWS infrastructure."
   },
   {
     "name": "tfschema",
