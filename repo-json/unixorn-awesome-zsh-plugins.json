@@ -136,6 +136,11 @@
     "description": "Make it easier to call actiona scripts from your command line. Includes tab completions."
   },
   {
+    "name": "alehouse",
+    "url": "https://github.com/sticklerm3/alehouse",
+    "description": "Contains short aliases for brew commands, inspired by betterbrew."
+  },
+  {
     "name": "alias-tips",
     "url": "https://github.com/djui/alias-tips",
     "description": "An oh-my-zsh plugin to help remembering those aliases you defined once."
@@ -239,6 +244,11 @@
     "name": "auto-ls",
     "url": "https://github.com/desyncr/auto-ls",
     "description": "Automatically ls when cding to a new directory."
+  },
+  {
+    "name": "autodotenv",
+    "url": "https://github.com/nocttuam/autodotenv",
+    "description": "Will prompt you to load variables when you cd into a directory containing a .env file."
   },
   {
     "name": "autoenv-extended",
@@ -424,6 +434,11 @@
     "name": "change-case",
     "url": "https://github.com/mtxr/zsh-change-case",
     "description": "Plugin for fast swap between upper and lower case in your command line. 😎"
+  },
+  {
+    "name": "check-deps",
+    "url": "https://github.com/zpm-zsh/check-deps",
+    "description": "Helper for ZSH plugins that allows them to show how to install any missing dependencies. Works on Debian (and derivatives like Ubuntu), Arch and its derivatives, Nodejs and ZSH plugins if you are using the zpm framework."
   },
   {
     "name": "clean-project",
@@ -647,6 +662,16 @@
     "name": "escape-backtick",
     "url": "https://github.com/bezhermoso/zsh-escape-backtick",
     "description": "Quickly insert escaped backticks when double-tapping \"`\"."
+  },
+  {
+    "name": "evalcache",
+    "url": "https://github.com/mroth/evalcache",
+    "description": "Cache the output of a binary initialization command, to help lower shell startup time."
+  },
+  {
+    "name": "exa",
+    "url": "https://github.com/DarrinTisdale/zsh-aliases-exa",
+    "description": "Enables a number of aliases extending exa, the modern replacement for ls."
   },
   {
     "name": "exercism",
@@ -1499,6 +1524,26 @@
     "description": "Creates custom oh-my-zsh plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks."
   },
   {
+    "name": "pr-exec-time",
+    "url": "https://github.com/zpm-zsh/pr-exec-time",
+    "description": "Adds a variable you can use to display the execution time of the last command run."
+  },
+  {
+    "name": "pr-git",
+    "url": "https://github.com/zpm-zsh/pr-git",
+    "description": "Creates a global variable with git status information that can be displayed in prompts."
+  },
+  {
+    "name": "pr-is-root",
+    "url": "https://github.com/zpm-zsh/pr-is-root",
+    "description": "Sets an environment variable you can use in a custom prompt when running as root."
+  },
+  {
+    "name": "pr-node",
+    "url": "https://github.com/zpm-zsh/pr-node",
+    "description": "Sets an environment variable which can be used to display nodeJS information in a custom prompt."
+  },
+  {
     "name": "pretty-time",
     "url": "https://github.com/sindresorhus/pretty-time-zsh",
     "description": "Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s."
@@ -2172,6 +2217,11 @@
     "description": "Add completions for the aws_manager CLI."
   },
   {
+    "name": "bazel",
+    "url": "https://github.com/jackwish/bazel",
+    "description": "A copy of the zsh completion script from the official bazel repo."
+  },
+  {
     "name": "berkshelf-zsh-plugin",
     "url": "https://github.com/berkshelf/berkshelf-zsh-plugin",
     "description": "Adds tab completion for berkshelf."
@@ -2669,7 +2719,7 @@
   {
     "name": "aphrodite",
     "url": "https://github.com/win0err/aphrodite-terminal-theme",
-    "description": "Minimalistic theme without visual noise. Displays only the necessary information: current user, hostname, working directory, git branch if exists. Looks great both with dark and white terminals."
+    "description": "Minimalistic theme without visual noise. Displays only the necessary information: current user, hostname, working directory, git branch if one exists. Looks great both with dark and white terminals."
   },
   {
     "name": "aplos",
@@ -3110,6 +3160,11 @@
     "name": "fishy",
     "url": "https://github.com/akinjide/fishy2",
     "description": "ZSH theme inspired by original fishy."
+  },
+  {
+    "name": "fluent-git",
+    "url": "https://github.com/RobertKozak/fluent-git",
+    "description": "Displays time of last command execution, error code, hostname, username, git status, kubernetes cluster and namespace, path and ssh connection status."
   },
   {
     "name": "fortuity",
@@ -3806,6 +3861,11 @@
     "description": "A ZSH theme inspired by sugar-free. Includes git decorations."
   },
   {
+    "name": "phalanx",
+    "url": "https://github.com/d-danilov/phalanx-zsh-theme",
+    "description": "Minimal theme in spirit of robbyrussell and Pure Shell themes."
+  },
+  {
     "name": "phi φ",
     "url": "https://github.com/LasaleFamine/phi-zsh-theme",
     "description": "A clean and simple theme for ZSH inspired and forked from Lambda (Mod) ZSH Theme."
@@ -4231,6 +4291,11 @@
     "description": "Minimal, fast and elegant ZSH prompt. Displays the right information at the right time."
   },
   {
+    "name": "small-terminal-diy",
+    "url": "https://github.com/Sokkam/small-terminal-diy-theme",
+    "description": "Variant of the ys theme in oh-my-zsh."
+  },
+  {
     "name": "smiley",
     "url": "https://github.com/gsamokovarov/smiley.zsh-theme",
     "description": "A prompt with happy and sad faces."
@@ -4401,6 +4466,11 @@
     "description": "Includes git status, node and yarn versions in prompt."
   },
   {
+    "name": "whale",
+    "url": "https://github.com/whalesea520/whale-zsh-theme",
+    "description": "Fast reimplementation of the whale theme."
+  },
+  {
     "name": "wild-cherry",
     "url": "https://github.com/mashaal/wild-cherry",
     "description": "A fairy-tale inspired theme for ZSH, iTerm 2, Sublime, Atom, & Mou."
@@ -4434,6 +4504,11 @@
     "name": "yairshefi",
     "url": "https://github.com/yaireclipse/yairshefi-ohmyzsh-theme",
     "description": "Minimal theme with line separated prompts. Based on Robby Russell's theme."
+  },
+  {
+    "name": "yechen",
+    "url": "https://github.com/liyechen/yechen.zsh-theme",
+    "description": "Minimalist theme with git status decorations."
   },
   {
     "name": "ykmam",
