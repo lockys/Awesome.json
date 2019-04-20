@@ -37,7 +37,7 @@
   {
     "name": "dvbcss-synckit-ios",
     "url": "https://github.com/bbc/dvbcss-synckit-ios",
-    "description": "A collection of iOS dynamic libraries for building media-based companion screen applications that are synchronised frame-accurately to a TV."
+    "description": "iOS libraries for companion screen applications that are synchronised frame-accurately to a TV."
   },
   {
     "name": "dvbcss-synctiming",
@@ -47,7 +47,7 @@
   {
     "name": "pydvbcss",
     "url": "https://github.com/BBC/pydvbcss",
-    "description": "A library implementing the DVB Companion Screens and Streams protocols for accurately synchronising media playback between TVs and companions."
+    "description": "Implementation of the DVB Companion Screens and Streams protocols for synchronised media playback."
   },
   {
     "name": "Cross-Platform Authentication",
@@ -57,7 +57,7 @@
   {
     "name": "HbbPlayer",
     "url": "https://github.com/Samsung/HbbPlayer",
-    "description": "An HbbTV application which can playback media from a URL. Conforms to HbbTV and W3C specifications."
+    "description": "An HbbTV and W3C specifications compliant application that can playback media from a URL."
   },
   {
     "name": "TAL",
@@ -68,6 +68,11 @@
     "name": "StormCV",
     "url": "https://github.com/sensorstorm/StormCV",
     "description": "Apache Storm + OpenCV = large scale distributed image and video analysis."
+  },
+  {
+    "name": "Kronekeeper",
+    "url": "https://github.com/nick-prater/kronekeeper",
+    "description": "A web based application for recording and managing Krone frame records."
   },
   {
     "name": "DTT 2 IP",
@@ -122,7 +127,7 @@
   {
     "name": "Blender",
     "url": "https://developer.blender.org/diffusion/",
-    "description": "3D creation suite supporting 3D pipeline—modelling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation."
+    "description": "3D creation suite supporting 3D modelling, animation, motion tracking, video editing, and more."
   },
   {
     "name": "CasparCG",
@@ -137,7 +142,7 @@
   {
     "name": "Macadam",
     "url": "https://github.com/Streampunk/macadam",
-    "description": "Node.js bindings for Blackmagic devices, with support for key and fill graphics created with HTML/CSS (via Electron) and with SVG (via Sevruga)."
+    "description": "Blackmagic Node.js bindings that support HTML/CSS (via Electron) and SVG (via Sevruga) graphics."
   },
   {
     "name": "Open Playout Automation",
@@ -157,7 +162,7 @@
   {
     "name": "RadioDNS Manager",
     "url": "https://github.com/ebu/radiodns-plugit",
-    "description": "A platform to manage Hybrid Radio static services such as RadioVIS, RadioEPG and Service Following."
+    "description": "Platform to manage Hybrid Radio services, e.g. RadioVIS, RadioEPG and Service Following."
   },
   {
     "name": "RadioTag.js",
@@ -192,12 +197,12 @@
   {
     "name": "DarkIce",
     "url": "http://www.darkice.org/",
-    "description": "A live audio streamer that records audio from an audio interface (e.g. sound card), encodes it and sends it to a streaming server."
+    "description": "Live audio streamer that records and encodes from an audio interface and sends to a streaming server."
   },
   {
     "name": "Icecast",
     "url": "http://icecast.org/",
-    "description": "A streaming media (audio/video) server which supports Ogg (Vorbis and Theora), Opus, WebM and MP3 streams."
+    "description": "Streaming media (audio/video) server which supports Ogg (Vorbis and Theora), Opus, WebM and MP3."
   },
   {
     "name": "Kamailio",
@@ -212,7 +217,7 @@
   {
     "name": "PJSIP",
     "url": "http://www.pjsip.org/",
-    "description": "Open Source multimedia library implementing SIP, SDP, RTP, STUN, TURN, and ICE. Used in some contribution equipment (dual licensing)."
+    "description": "Open Source multimedia library implementing SIP, SDP, RTP, STUN, TURN, and ICE."
   },
   {
     "name": "trx",
@@ -267,7 +272,7 @@
   {
     "name": "rx-player",
     "url": "https://github.com/canalplus/rx-player",
-    "description": "HTML5/Javascript video player with some reactive programming inside, supporting MPEG-DASH and SmoothStreaming transports."
+    "description": "HTML5/Javascript video player that supports MPEG-DASH and SmoothStreaming."
   },
   {
     "name": "VLC",
@@ -287,12 +292,12 @@
   {
     "name": "AMWA IS-04 and IS-05",
     "url": "https://github.com/bbc/nmos-joint-ri",
-    "description": "Python implementation of the AMWA IS-04 NMOS Registration and Discovery Specification and AMWA IS-05 NMOS Device Connection Management Specification."
+    "description": "NMOS Registration & Discovery and Device Connection Management in Python."
   },
   {
     "name": "jebu-core",
     "url": "https://github.com/mikrosimage/jebu-core",
-    "description": "EBUCore XML Schema Java port. Java port of TECH 3293 EBU CORE METADATA SET (EBUCore) SPECIFICATION v. 1.5, including new Audio Definition Model."
+    "description": "Java port of EBU Tech 3293 EBU Core metadata, including the Audio Definition Model."
   },
   {
     "name": "libadm",
@@ -325,11 +330,6 @@
     "description": "A framework to create browser based listening tests for subjective audio quality assessment."
   },
   {
-    "name": "Ebumeter",
-    "url": "http://kokkinizita.linuxaudio.org/linuxaudio/downloads/index.html",
-    "description": "Level metering for JACK, according to the EBU R 128 Loudness recommendation - documentation."
-  },
-  {
     "name": "Jack Meter",
     "url": "https://github.com/njh/jackmeter",
     "description": "Text console based DPM (Digital Peak Meter) for JACK."
@@ -341,13 +341,13 @@
   },
   {
     "name": "Jmeters",
-    "url": "http://kokkinizita.linuxaudio.org/linuxaudio/downloads/index.html",
-    "description": "A collection of graphical Audio meters for JACK with the correct ballistics for both the VU and the PPMs (compared to Meterbridge)."
+    "url": "http://kokkinizita.linuxaudio.org/linuxaudio/index.html",
+    "description": "A collection of graphical audio meters for JACK, including VU, PPM and EBU R 128 Loudness meters."
   },
   {
     "name": "LTC-tools",
     "url": "https://github.com/x42/ltc-tools",
-    "description": "A collection of tools to read, generate and trigger against Linear Timecode (LTC) and convert to MIDI Timecode (MTC) with JACK and to/from standalone files."
+    "description": "A collection of tools to handle Linear Timecode (LTC) and convert to MIDI Timecode (MTC)."
   },
   {
     "name": "MediaConch",
@@ -412,7 +412,7 @@
   {
     "name": "AvTranscoder",
     "url": "https://github.com/avTranscoder/avTranscoder",
-    "description": "Based on FFmpeg/LibAV libraries to support various video and audio formats, avTranscoder provides the high level API to re-wrap or transcode media easily. It also provide bindings for any usage in Java or Python."
+    "description": "FFmpeg/LibAV-based high-level API to re-wrap or transcode media, with bindings for Java and Python."
   },
   {
     "name": "Beam Coder",
@@ -446,7 +446,7 @@
   {
     "name": "FFmpeg",
     "url": "http://ffmpeg.org",
-    "description": "A complete, cross-platform solution to record, convert and stream audio and video. Now including support for SMPTE ST 2110."
+    "description": "A cross-platform solution to record, convert and stream audio and video. Supports SMPTE ST 2110."
   },
   {
     "name": "Flowblade",
@@ -545,17 +545,17 @@
   {
     "name": "VideoContext",
     "url": "https://github.com/bbc/videocontext",
-    "description": "Experimental HTML5/WebGL media processing and sequencing library for creating interactive and responsive videos on the web."
+    "description": "Experimental HTML5/WebGL library for creating interactive and responsive web videos."
   },
   {
     "name": "Voctomix",
     "url": "https://github.com/voc/voctomix",
-    "description": "Customizable conference recording and mixing software based on Python and GStreamer with streaming capabilities and Core/GUI separation."
+    "description": "Customizable conference recording/mixing/streaming software based on Python and GStreamer."
   },
   {
     "name": "BBC Media Storage Meter",
     "url": "http://sourceforge.net/projects/msmeter/",
-    "description": "An application for the testing of network attached storage, originally assumed to be used for the streaming of professional media."
+    "description": "An application for the testing of network attached  (professional media) storage."
   },
   {
     "name": "Fio",
@@ -570,7 +570,7 @@
   {
     "name": "SMPTE 2110-20 Analyzer",
     "url": "https://github.com/ebu/smpte2110-analyzer",
-    "description": "An analyzer to inspect network packets generated in accordance with the SMPTE ST 2110 specification."
+    "description": "Analyzer to inspect network packets generated in accordance with SMPTE ST 2110."
   },
   {
     "name": "Airtime",
@@ -629,7 +629,7 @@
   {
     "name": "ODR-mmbTools",
     "url": "https://www.opendigitalradio.org",
-    "description": "Fork, continuation of CRC-mmbTools. Adding new features for 24/24 365/365 live operation, DAB+, associated data (slideshow, text), distributed infrastructure, SFN."
+    "description": "Fork of CRC-mmbTools. Adds live, DAB+, associated data, distributed infrastructure, SFN."
   },
   {
     "name": "rtl-sdr",
@@ -649,7 +649,7 @@
   {
     "name": "EBU-TT-D Subtitling within dash.js",
     "url": "https://github.com/ebu/dash.js/tree/ebu-subtitling-dev",
-    "description": "The original fork of dash.js to experiment with XML based subtitles like EBU-TT-D within dash.js. Uses an HTML/CSS overlay. Has since been integrated into dash.js."
+    "description": "dash.js fork with EBU-TT-D subtitles in HTML/CSS overlay. Later added to dash.js."
   },
   {
     "name": "EBU-TT-D W3C XML Schema",
@@ -659,12 +659,12 @@
   {
     "name": "EBU-TT Live Interoperability Toolkit",
     "url": "https://github.com/ebu/ebu-tt-live-toolkit",
-    "description": "A set of components for generating, testing and distributing subtitle documents in the EBU-TT Live format."
+    "description": "Components for generating, testing and distributing EBU-TT Live subtitles."
   },
   {
     "name": "GStreamer TTML subtitling package",
     "url": "https://github.com/bbc/gst-ttml-subtitles",
-    "description": "A means for GStreamer pipelines to parse and render  EBU-TT-D (TTML) subtitles."
+    "description": "A means for GStreamer pipelines to parse and render EBU-TT-D (TTML) subtitles."
   },
   {
     "name": "imscJS",
@@ -674,7 +674,7 @@
   {
     "name": "IRT EBU-TT-D Application Samples",
     "url": "https://github.com/IRT-Open-Source/irt-ebu-tt-d-application-samples",
-    "description": "EBU-TT-D sample files, related PNG images and mp4 videos showing how they should be rendered."
+    "description": "EBU-TT-D sample files, PNG images and mp4 videos as rendering references."
   },
   {
     "name": "Subtitle Edit",
@@ -684,12 +684,12 @@
   {
     "name": "Subtitling Conversion Framework (SCF)",
     "url": "https://github.com/Irt-Open-Source/scf",
-    "description": "A set of modules for converting subtitle formats. Main target is the conversion of EBU STL and EBU-TT subtitle files. Alpha release."
+    "description": "Modules for converting subtitle formats, incl. EBU STL and EBU-TT files."
   },
   {
     "name": "Timed Text Toolkit (ttt)",
     "url": "https://github.com/skynav/ttt",
-    "description": "A collection of related tools that provide support for or make use of the W3C Timed Text Markup Language (TTML)."
+    "description": "Tools that support/use the W3C Timed Text Markup Language (TTML)."
   },
   {
     "name": "MIDIMonster",
@@ -704,7 +704,7 @@
   {
     "name": "Open Lighting Architecture (OLA)",
     "url": "https://www.openlighting.org/ola/",
-    "description": "OLA is a framework for lighting control information, the travel adaptor for the lighting industry, for converting between Digital Multiplex (DMX-512) and IP variants and interfacing with USB adaptors."
+    "description": "Travel adaptor for the lighting industry, for interconnecting DMX-512, IP and USB."
   },
   {
     "name": "PiClock",
@@ -714,7 +714,7 @@
   {
     "name": "Q Light Controller+ (QLC+)",
     "url": "https://www.qlcplus.org/",
-    "description": "QLC+ is cross-platform software to control DMX or analog lighting systems like moving heads, dimmers, scanners etc."
+    "description": "Cross-platform control of DMX or analogue lighting systems (heads, dimmers, etc.)."
   },
   {
     "name": "Teleprompter",
@@ -755,10 +755,5 @@
     "name": "Youtube Engineering and Developers Blog",
     "url": "http://youtube-eng.blogspot.com",
     "description": "What's happening with engineering and developers at YouTube."
-  },
-  {
-    "name": "EBU.io",
-    "url": "http://www.ebu.io",
-    "description": "A platform for agile collaboration."
   }
 ]
