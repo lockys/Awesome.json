@@ -121,7 +121,7 @@
   {
     "name": "Terraform Design Patterns: the Terrafile",
     "url": "http://bensnape.com/2016/01/14/terraform-design-patterns-the-terrafile/",
-    "description": "Managing Terraform modules and their versions within Terraform projects with Terrafile"
+    "description": "Managing Terraform modules and their versions within Terraform projects with Terrafile."
   },
   {
     "name": "Terraform, VPC, and why you want a tfstate file per env",
@@ -175,7 +175,7 @@
   {
     "name": "terraform-aws-modules",
     "url": "https://github.com/terraform-aws-modules",
-    "description": "Collection of Terraform AWS modules supported by the community (includes official AWS modules)"
+    "description": "Collection of Terraform AWS modules supported by the community (includes official AWS modules)."
   },
   {
     "name": "rancher-terraform-digitalocean",
@@ -220,7 +220,7 @@
   {
     "name": "terraform-aws-ssh-bastion-service",
     "url": "https://github.com/joshuamkite/terraform-aws-ssh-bastion-service",
-    "description": "Terraform plan to deploy ssh bastion as a stateless service on AWS"
+    "description": "Terraform plan to deploy ssh bastion as a stateless service on AWS."
   },
   {
     "name": "terraform-ecs-jenkins",
@@ -323,9 +323,14 @@
     "description": "Install IIS Server on Azure VM instance."
   },
   {
+    "name": "terraform-digitalocean-droplet",
+    "url": "https://registry.terraform.io/modules/terraform-digitalocean-modules/droplet/digitalocean",
+    "description": "Terraform module for managing DigitalOcean Droplets and related resources."
+  },
+  {
     "name": "terraform-linode-k8s",
     "url": "https://registry.terraform.io/modules/linode/k8s/linode/",
-    "description": "Installs Kubernetes on Linode Instances"
+    "description": "Installs Kubernetes on Linode Instances."
   },
   {
     "name": "anthology",
@@ -358,6 +363,31 @@
     "description": "Plugin for Microsoft Azure."
   },
   {
+    "name": "terraform-provider-datadog",
+    "url": "https://github.com/terraform-providers/terraform-provider-datadog",
+    "description": "Plugin for Datadog."
+  },
+  {
+    "name": "terraform-provider-digitalocean",
+    "url": "https://github.com/terraform-providers/terraform-provider-digitalocean",
+    "description": "Plugin for DigitalOcean."
+  },
+  {
+    "name": "terraform-provider-docker",
+    "url": "https://github.com/terraform-providers/terraform-provider-docker",
+    "description": "Plugin for Docker."
+  },
+  {
+    "name": "terraform-provider-github",
+    "url": "https://github.com/terraform-providers/terraform-provider-github",
+    "description": "Plugin for GitHub."
+  },
+  {
+    "name": "terraform-provider-gitlab",
+    "url": "https://github.com/terraform-providers/terraform-provider-gitlab",
+    "description": "Plugin for GitLab."
+  },
+  {
     "name": "terraform-provider-google",
     "url": "https://github.com/terraform-providers/terraform-provider-google",
     "description": "Plugin for Google Cloud Platform."
@@ -375,7 +405,7 @@
   {
     "name": "terraform-provider-helm",
     "url": "https://github.com/terraform-providers/terraform-provider-helm",
-    "description": "Plugin for Helm"
+    "description": "Plugin for Helm."
   },
   {
     "name": "terraform-provider-keycloak",
@@ -390,12 +420,17 @@
   {
     "name": "terraform-provider-linode",
     "url": "https://github.com/btobolaski/terraform-provider-linode",
-    "description": "Plugin for linode"
+    "description": "Plugin for Linode."
+  },
+  {
+    "name": "terraform-provider-openstack",
+    "url": "https://github.com/terraform-providers/terraform-provider-openstack",
+    "description": "Plugin for OpenStack."
   },
   {
     "name": "terraform-provider-pingdom",
     "url": "https://github.com/russellcardullo/terraform-provider-pingdom",
-    "description": "Provider to manage pingdom resources."
+    "description": "Provider to manage Pingdom resources."
   },
   {
     "name": "terraform-provider-spinnaker",
@@ -440,7 +475,7 @@
   {
     "name": "rspec-terraform",
     "url": "https://github.com/bsnape/rspec-terraform",
-    "description": "RSpec tests for your Terraform modules"
+    "description": "RSpec tests for your Terraform modules."
   },
   {
     "name": "terraform-compliance",
@@ -455,7 +490,7 @@
   {
     "name": "terratest",
     "url": "https://github.com/gruntwork-io/terratest",
-    "description": "Terratest is a Go library that makes it easier to write automated tests for your infrastructure code"
+    "description": "Terratest is a Go library that makes it easier to write automated tests for your infrastructure code."
   },
   {
     "name": "astro",
@@ -510,7 +545,12 @@
   {
     "name": "scenery",
     "url": "https://github.com/dmlittle/scenery",
-    "description": "Another Terraform plan output prettifier"
+    "description": "Another Terraform plan output prettifier."
+  },
+  {
+    "name": "scratchrelaxtv",
+    "url": "https://github.com/YakDriver/scratchrelaxtv",
+    "description": "Simple Python tool to help with module development - extract vars from main.tf to generate variables.tf and make module usage stub from variables.tf."
   },
   {
     "name": "terraboard",
@@ -578,6 +618,11 @@
     "description": "Command line utility aimed at providing supplementary functionality which can sometimes prove useful when working with Terraform."
   },
   {
+    "name": "terrahub",
+    "url": "https://github.com/TerraHubCorp/terrahub",
+    "description": "TerraHub is terraform automation and orchestration tool. Seamlessly integrated into console.terrahub.io, enterprise friendly GUI to show realtime terraform executions, as well as auditing and reporting capabilities for historical terraform runs."
+  },
+  {
     "name": "terrascan",
     "url": "https://github.com/cesar-rodriguez/terrascan",
     "description": "Collection of security and best practice test for static code analysis of terraform templates"
@@ -590,7 +635,7 @@
   {
     "name": "tfjson",
     "url": "https://github.com/palantir/tfjson",
-    "description": "Utility to read in a Terraform plan file and dump it out in JSON"
+    "description": "Utility to read in a Terraform plan file and dump it out in JSON."
   },
   {
     "name": "tflint",
@@ -615,12 +660,16 @@
   {
     "name": "tfwrapper",
     "url": "https://github.com/manheim/tfwrapper",
-    "description": "Rubygem providing rake tasks for running Hashicorp Terraform sanely"
+    "description": "Rubygem providing rake tasks for running Hashicorp Terraform sanely."
   },
   {
     "name": "tgf",
     "url": "https://github.com/coveo/tgf",
     "description": "Terragrunt frontend for executing Terragrunt/Terraform through Docker."
+  },
+  {
+    "name": "xterrafile Systematically manage external modules from the module registry, git or local directories for use in Terraform (written in Go).",
+    "url": "https://github.com/devopsmakers/xterrafile"
   },
   {
     "name": "pyhcl",
@@ -635,17 +684,17 @@
   {
     "name": "terraform-enterprise-cli",
     "url": "https://github.com/skierkowski/terraform-enterprise-cli",
-    "description": "Terraform Enterprise Command Line Interface"
+    "description": "Terraform Enterprise Command Line Interface."
   },
   {
     "name": "terraform-enterprise-client",
     "url": "https://github.com/skierkowski/terraform-enterprise-client",
-    "description": "Terraform Enterprise API Ruby Client and Command Line tool"
+    "description": "Terraform Enterprise API Ruby Client and Command Line tool."
   },
   {
     "name": "terraform-enterprise-migrator",
     "url": "https://github.com/silinternational/terraform-enterprise-migrator",
-    "description": "Script for migrating Terraform Enterprise environments from Legacy to new version of Terraform Enterprise"
+    "description": "Script for migrating Terraform Enterprise environments from Legacy to new version of Terraform Enterprise."
   },
   {
     "name": "tfe-state-explorer",
@@ -714,7 +763,7 @@
   {
     "name": "How to Build Reusable, Composable, Battle tested Terraform Modules",
     "url": "https://www.youtube.com/watch?v=LVgP63BkhKQ",
-    "description": "Yevgeniy Brikman talks about how to write Terraform code so that it is reusable, composable and testable. The presentation focuses on Terraform modules, but also provides a brief and clear explanation of what problem Terraform was created to solve and a short demo of Terraform basics (~39 min, October 2017)"
+    "description": "Yevgeniy Brikman talks about how to write Terraform code so that it is reusable, composable and testable. The presentation focuses on Terraform modules, but also provides a brief and clear explanation of what problem Terraform was created to solve and a short demo of Terraform basics (~39 min, October 2017)."
   },
   {
     "name": "Creating a Google Compute Instance with Terraform",

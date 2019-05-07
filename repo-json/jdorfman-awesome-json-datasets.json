@@ -44,12 +44,16 @@
     "url": "https://data.police.uk/api/forces"
   },
   {
-    "name": "DATA.GOV\n\nChicago (historical data since 2001)\n\n",
+    "name": "DATA.GOV\n\nChicago (historical data since 2001)\nLos Angeles (historical data since 2010)\n\n",
     "url": "https://www.data.gov/local/"
   },
   {
     "name": "Chicago (historical data since 2001)",
     "url": "https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.json?accessType=DOWNLOAD"
+  },
+  {
+    "name": "Los Angeles (historical data since 2010)",
+    "url": "https://data.lacity.org/api/views/y8tr-7khq/rows.json?accessType=DOWNLOAD"
   },
   {
     "name": "Foreign Exchange Rates\n\nUSD\nEUR\n\n",
@@ -128,12 +132,8 @@
     "url": "https://api.github.com/meta"
   },
   {
-    "name": "Trade.gov\n\nMarket Research Library\nBusiness Service Providers\nConsumer Complaint Database\n\n",
+    "name": "Trade.gov\n\nBusiness Service Providers\nConsumer Complaint Database\n\n",
     "url": "http://developer.trade.gov/api/trade-apis.json"
-  },
-  {
-    "name": "Market Research Library",
-    "url": "http://developer.trade.gov/api/market-research-library.json"
   },
   {
     "name": "Business Service Providers",
@@ -706,58 +706,6 @@
   {
     "name": "Movie Theaters in Thailand",
     "url": "http://showtimes.everyday.in.th/api/v2/theater/"
-  },
-  {
-    "name": "Los Angeles",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Los%20Angeles%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Chicago",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Chicago%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "New York",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22New%20York%2C%20NY%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Miami",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Miami%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "London",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22London%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Paris",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Paris%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Berlin",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Berlin%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Rome",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Rome%2C%20it%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys%29"
-  },
-  {
-    "name": "Moscow",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Moscow%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Jerusalem",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Jerusalem%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Tokyo",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Tokyo%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Sydney",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Sydney%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
-  },
-  {
-    "name": "Buenos Aires",
-    "url": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20%28select%20woeid%20from%20geo.places%281%29%20where%20text%3D%22Buenos%20Aires%2C%20CA%22%29&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
   },
   {
     "name": "Awesome (The OG List)",
