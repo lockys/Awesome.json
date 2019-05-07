@@ -1,19 +1,19 @@
 [
   {
+    "name": "alacritty — A cross-platform, GPU enhanced terminal emulator",
+    "url": "https://github.com/jwilm/alacritty"
+  },
+  {
+    "name": "asm-cli-rust — interative assembly shell written in rust.",
+    "url": "https://github.com/cch123/asm-cli-rust"
+  },
+  {
     "name": "AnderEnder/s3find-rs — A command line utility to walk an Amazon S3 hierarchy, an analog of find for Amazon S3 ",
     "url": "https://github.com/AnderEnder/s3find-rs"
   },
   {
     "name": "andschwa/rust-genetic-algorithm — A genetic algorithm for academic benchmark problems ",
     "url": "https://github.com/andschwa/rust-genetic-algorithm"
-  },
-  {
-    "name": "azerupi/mdBook — A command line utility to create books from markdown files ",
-    "url": "https://github.com/rust-lang-nursery/mdBook"
-  },
-  {
-    "name": "bluejekyll/trust-dns — A DNS-server ",
-    "url": "https://github.com/bluejekyll/trust-dns"
   },
   {
     "name": "cloudflare/boringtun — A Userspace WireGuard VPN Implementation ",
@@ -52,7 +52,7 @@
     "url": "https://www.habitat.sh"
   },
   {
-    "name": "imjacobclark/Herd — an experimental HTTP load testing application",
+    "name": "Herd — an experimental HTTP load testing application",
     "url": "https://github.com/imjacobclark/Herd"
   },
   {
@@ -64,16 +64,20 @@
     "url": "https://github.com/jedisct1/flowgger"
   },
   {
-    "name": "jwilm/alacritty — A cross-platform, GPU enhanced terminal emulator",
-    "url": "https://github.com/jwilm/alacritty"
-  },
-  {
     "name": "kbknapp/docli — A command line utility for managing DigitalOcean infrastructure ",
     "url": "https://github.com/kbknapp/docli-rs"
   },
   {
+    "name": "limonite — static blog/website generator ",
+    "url": "https://crates.io/crates/limonite"
+  },
+  {
     "name": "MaidSafe — A decentralized platform.",
     "url": "https://maidsafe.net"
+  },
+  {
+    "name": "mdBook — A command line utility to create books from markdown files ",
+    "url": "https://crates.io/crates/mdbook"
   },
   {
     "name": "nicohman/eidolon — A steam and drm-free game registry and launcher for linux and macosx ",
@@ -88,10 +92,6 @@
     "url": "https://pijul.org"
   },
   {
-    "name": "qmx/limonite — static blog/website generator ",
-    "url": "https://github.com/qmx/limonite"
-  },
-  {
     "name": "rsign — A simple command-line tool used to generate/sign/verify digital signatures designed to be compatible with Minisign  ",
     "url": "https://crates.io/crates/rsign"
   },
@@ -104,12 +104,12 @@
     "url": "https://github.com/servo/servo"
   },
   {
-    "name": "Weld — Full fake REST API generator ",
-    "url": "https://github.com/serayuzgur/weld"
+    "name": "trust-dns — A DNS-server ",
+    "url": "https://crates.io/crates/trust-dns"
   },
   {
-    "name": "asm-cli-rust — interative assembly shell written in rust.",
-    "url": "https://github.com/cch123/asm-cli-rust"
+    "name": "Weld — Full fake REST API generator ",
+    "url": "https://github.com/serayuzgur/weld"
   },
   {
     "name": "indiscipline/zrtstr — A command line utility for checking if stereo wav files are faux-stereo (i.e. have identical channels) and converting such files to mono. ",
@@ -305,7 +305,7 @@
   },
   {
     "name": "Veloren — An open-world, open-source multiplayer voxel RPG.",
-    "url": "https://gitlab.com/veloren/game"
+    "url": "https://gitlab.com/veloren/veloren"
   },
   {
     "name": "Limeth/euclider — A real-time 4D CPU ray tracer ",
@@ -356,8 +356,8 @@
     "url": "https://github.com/nebulet/nebulet"
   },
   {
-    "name": "simeg/eureka [eureka] — A CLI tool to input and store your ideas without leaving the terminal",
-    "url": "https://github.com/simeg/eureka"
+    "name": "eureka — A CLI tool to input and store your ideas without leaving the terminal",
+    "url": "https://crates.io/crates/eureka"
   },
   {
     "name": "arvancloud/libinjection-rs — Rust bindings for libinjection ",
@@ -400,8 +400,8 @@
     "url": "https://github.com/darakian/ddh"
   },
   {
-    "name": "jhspetersson/fselect [fselect] — Find files with SQL-like queries ",
-    "url": "https://github.com/jhspetersson/fselect"
+    "name": "fselect — Find files with SQL-like queries ",
+    "url": "https://crates.io/crates/fselect"
   },
   {
     "name": "k0pernicus/zou — A download accelerator ",
@@ -516,19 +516,15 @@
     "url": "https://github.com/atom/xray"
   },
   {
-    "name": "BurntSushi/ripgrep — combines the usability of The Silver Searcher with the raw speed of grep ",
-    "url": "https://github.com/BurntSushi/ripgrep"
-  },
-  {
-    "name": "BurntSushi/xsv — A fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) ",
-    "url": "https://github.com/BurntSushi/xsv"
-  },
-  {
     "name": "TankerHQ/ruplacer — Find and replace text in source files ",
     "url": "https://github.com/TankerHQ/ruplacer"
   },
   {
-    "name": "sd -Intuitive find & replace CLI ",
+    "name": "ripgrep — combines the usability of The Silver Searcher with the raw speed of grep ",
+    "url": "https://crates.io/crates/ripgrep"
+  },
+  {
+    "name": "sd — Intuitive find & replace CLI ",
     "url": "https://crates.io/crates/sd"
   },
   {
@@ -548,12 +544,21 @@
     "url": "https://github.com/vishaltelangre/ff"
   },
   {
+    "name": "xsv — A fast CSV command line tool (slicing, indexing, selecting, searching, sampling, etc.) ",
+    "url": "https://crates.io/crates/xsv"
+  },
+  {
     "name": "brycx/checkpwn — A Have I Been Pwned (HIBP) command-line utility tool that lets you easily check for compromised accounts and passwords.",
     "url": "https://github.com/brycx/checkpwn"
   },
   {
     "name": "evansmurithi/cloak — A Command Line OTP (One Time Password) Authenticator application.  ",
     "url": "https://github.com/evansmurithi/cloak"
+  },
+  {
+    "name": "arthrp/consoletimer",
+    "url": "https://github.com/arthrp/consoleTimer",
+    "description": "Simple timer for your terminal. "
   },
   {
     "name": "myfreeweb/freepass — The free password manager for power users. ",
@@ -1308,8 +1313,8 @@
     "url": "https://github.com/rust-lang-nursery/futures-rs"
   },
   {
-    "name": "carllerche/mio — MIO is a lightweight IO library for Rust with a focus on adding as little overhead as possible over the OS abstractions ",
-    "url": "https://github.com/carllerche/mio"
+    "name": "mio — MIO is a lightweight IO library for Rust with a focus on adding as little overhead as possible over the OS abstractions ",
+    "url": "https://github.com/tokio-rs/mio"
   },
   {
     "name": "Xudong-Huang/may — rust stackful coroutine library ",
@@ -1442,10 +1447,6 @@
   {
     "name": "rusoto/rusoto — ",
     "url": "https://github.com/rusoto/rusoto"
-  },
-  {
-    "name": "kbknapp/doapi — DigitalOcean v2 API bindings ",
-    "url": "https://github.com/kbknapp/doapi-rs"
   },
   {
     "name": "clap-rs [clap] — A simple to use, full featured command-line argument parser ",
@@ -1710,6 +1711,10 @@
   {
     "name": "brycx/orion — This library aims to provide easy and usable crypto. 'Usable' meaning exposing high-level API's that are easy to use and hard to misuse. ",
     "url": "https://github.com/brycx/orion"
+  },
+  {
+    "name": "sequoia-pgp/sequoia — An OpenPGP implementation in Rust",
+    "url": "https://gitlab.com/sequoia-pgp/sequoia"
   },
   {
     "name": "ctz/rustls — A Rust implementation of TLS",
@@ -2096,8 +2101,8 @@
     "url": "https://github.com/capnproto/capnproto-rust"
   },
   {
-    "name": "BurntSushi/rust-cbor — Supports JSON conversion and type-based encoding/decoding ",
-    "url": "https://github.com/BurntSushi/rust-cbor"
+    "name": "serde_cbor — CBOR support for serde ",
+    "url": "https://crates.io/crates/serde_cbor"
   },
   {
     "name": "hsivonen/encoding_rs [encoding_rs] — A Gecko-oriented implementation of the Encoding Standard in Rust ",
@@ -2273,7 +2278,7 @@
   },
   {
     "name": "Amethyst — Data-oriented game engine ",
-    "url": "https://www.amethyst.rs"
+    "url": "https://amethyst.rs"
   },
   {
     "name": "Piston — ",
@@ -2348,7 +2353,7 @@
     "url": "https://github.com/redox-os/rusttype"
   },
   {
-    "name": "OpenGL [opengl]\n\nbrendanzab/gl-rs — \nglium/glium — safe OpenGL wrapper for the Rust language. \nKiss3d — draw simple geometric figures and play with them with one-liners \nPistonDevelopers/glfw-rs — \ntomaka/glutin — Rust alternative to GLFW \n\n",
+    "name": "OpenGL [opengl]\n\nbrendanzab/gl-rs — \nglium/glium — safe OpenGL wrapper for the Rust language. \nKiss3d — draw simple geometric figures and play with them with one-liners \nPistonDevelopers/glfw-rs — \nglutin — Rust alternative to GLFW \n\n",
     "url": "https://crates.io/keywords/opengl"
   },
   {
@@ -2368,8 +2373,8 @@
     "url": "https://github.com/PistonDevelopers/glfw-rs"
   },
   {
-    "name": "tomaka/glutin — Rust alternative to GLFW ",
-    "url": "https://github.com/tomaka/glutin"
+    "name": "glutin — Rust alternative to GLFW ",
+    "url": "https://crates.io/crates/glutin"
   },
   {
     "name": "kaj/rust-pdf — ",
@@ -2472,8 +2477,8 @@
     "url": "https://github.com/image-rs/image"
   },
   {
-    "name": "PistonDevelopers/imageproc — An image processing library, based on the image library. ",
-    "url": "https://github.com/PistonDevelopers/imageproc"
+    "name": "image-rs/imageproc — An image processing library, based on the image library. ",
+    "url": "https://github.com/image-rs/imageproc"
   },
   {
     "name": "twistedfall/opencv-rust — Rust bindings for OpenCV ",
@@ -2512,8 +2517,8 @@
     "url": "https://github.com/raphlinus/pulldown-cmark"
   },
   {
-    "name": "tomaka/android-rs-glue — glue between Rust and Android ",
-    "url": "https://github.com/tomaka/android-rs-glue"
+    "name": "rust-windowing/android-rs-glue — glue between Rust and Android ",
+    "url": "https://github.com/rust-windowing/android-rs-glue"
   },
   {
     "name": "TimNN/cargo-lipo — A cargo lipo subcommand which automatically creates a universal library for use with your iOS application. ",
@@ -2552,6 +2557,14 @@
     "url": "https://github.com/canndrew/netsim"
   },
   {
+    "name": "vlopes11/futures-jsonrpc [futures-jsonrpc] — Futures implementation for JSON-RPC ",
+    "url": "https://github.com/vlopes11/futures-jsonrpc"
+  },
+  {
+    "name": "Gymmasssorla/sendmmsg — Transmit multiple messages using one system call in Rust ",
+    "url": "https://github.com/Gymmasssorla/sendmmsg"
+  },
+  {
     "name": "libpnet/libpnet — A cross-platform, low level networking ",
     "url": "https://github.com/libpnet/libpnet"
   },
@@ -2570,6 +2583,10 @@
   {
     "name": "thehydroimpulse/nanomsg.rs — nanomsg bindings ",
     "url": "https://github.com/thehydroimpulse/nanomsg.rs"
+  },
+  {
+    "name": "neachdainn/nng-rs [Nng] — Nng (nanomsg v2) bindings ",
+    "url": "https://gitlab.com/neachdainn/nng-rs"
   },
   {
     "name": "mattnenterprise/rust-nntp — an NNTP client for Rust ",
@@ -2892,8 +2909,8 @@
     "url": "https://github.com/richerarc/saphir"
   },
   {
-    "name": "sappworks/sapper — A lightweight web framework built on async hyper, implemented in Rust language. ",
-    "url": "https://github.com/sappworks/sapper"
+    "name": "rustforce/sapper — A lightweight web framework built on async hyper, implemented in Rust language. ",
+    "url": "https://github.com/rustforce/sapper"
   },
   {
     "name": "tiny-http — Low level HTTP server library ",
@@ -2974,6 +2991,16 @@
   {
     "name": "leven-the-blog/leven [leven] — A simple, parallelized blog generator. ",
     "url": "https://github.com/leven-the-blog/leven"
+  },
+  {
+    "name": "Crates",
+    "url": "https://crates.io",
+    "description": "The official public registry for Rust/Cargo."
+  },
+  {
+    "name": "Cloudsmith 💲",
+    "url": "https://cloudsmith.io/l/cargo-registry/",
+    "description": "A fully managed package management SaaS, with first-class support for public and private Cargo/Rust registries (plus many others). Has a generous free-tier and is also completely free for open-source."
   },
   {
     "name": "TeXitoi/benchmarksgame-rs — Rust implementations for the The Computer Language Benchmarks Game ",
