@@ -390,6 +390,11 @@
     "description": "cli application framework with auto configuration and dependency injection."
   },
   {
+    "name": "job",
+    "url": "https://github.com/liujianping/job",
+    "description": "JOB, make your short-term command as a long-term job."
+  },
+  {
     "name": "kingpin",
     "url": "https://github.com/alecthomas/kingpin",
     "description": "Command line and flag parser supporting sub commands."
@@ -950,6 +955,11 @@
     "description": "Nullable Go types that can be marshalled/unmarshalled to/from JSON."
   },
   {
+    "name": "parsefields",
+    "url": "https://github.com/MonaxGT/parsefields",
+    "description": "Tools for parse JSON-like logs for collecting unique fields and events."
+  },
+  {
     "name": "pipeline",
     "url": "https://github.com/hyfather/pipeline",
     "description": "An implementation of pipelines with fan-in and fan-out."
@@ -1033,6 +1043,11 @@
     "name": "buntdb",
     "url": "https://github.com/tidwall/buntdb",
     "description": "Fast, embeddable, in-memory key/value database for Go with custom indexing and spatial support."
+  },
+  {
+    "name": "cache",
+    "url": "https://github.com/akyoto/cache",
+    "description": "In-memory key:value store with expiration time, 0 dependencies, <100 LoC, 100% coverage."
   },
   {
     "name": "cache2go",
@@ -1180,6 +1195,11 @@
     "description": "A distributed high-performance key-value store. On Disk. Eventual consistent. HA. Able to grow or shrink without service interruption."
   },
   {
+    "name": "VictoriaMetrics",
+    "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+    "description": "fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL."
+  },
+  {
     "name": "avro",
     "url": "https://github.com/khezen/avro",
     "description": "Discover SQL schemas and convert them to AVRO schemas. Query SQL records into AVRO bytes."
@@ -1220,6 +1240,11 @@
     "description": "Database migrations. CLI and Golang library."
   },
   {
+    "name": "migrator",
+    "url": "https://github.com/lopezator/migrator",
+    "description": "Dead simple Go database migration library."
+  },
+  {
     "name": "pravasan",
     "url": "https://github.com/pravasan/pravasan",
     "description": "Simple Migration tool - currently for MySQL but planning to soon support Postgres, SQLite, MongoDB, etc."
@@ -1243,6 +1268,11 @@
     "name": "clickhouse-bulk",
     "url": "https://github.com/nikepan/clickhouse-bulk",
     "description": "Collects small insterts and sends big requests to ClickHouse servers."
+  },
+  {
+    "name": "datagen",
+    "url": "https://github.com/codingconcepts/datagen",
+    "description": "A fast data generator that's multi-table aware and supports multi-row DML."
   },
   {
     "name": "dbbench",
@@ -1502,7 +1532,7 @@
   {
     "name": "mgo",
     "url": "https://github.com/globalsign/mgo",
-    "description": "MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms."
+    "description": "(unmaintained) MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms."
   },
   {
     "name": "mongo-go-driver",
@@ -2050,6 +2080,11 @@
     "description": "FileSystem Abstraction System for Go."
   },
   {
+    "name": "checksum",
+    "url": "https://github.com/codingsince1985/checksum",
+    "description": "Compute message digest, like MD5 and SHA256, for large files."
+  },
+  {
     "name": "flop",
     "url": "https://github.com/homedepot/flop",
     "description": "File operations library which aims to mirror feature parity with GNU cp."
@@ -2108,6 +2143,11 @@
     "name": "accounting",
     "url": "https://github.com/leekchan/accounting",
     "description": "money and currency formatting for golang."
+  },
+  {
+    "name": "currency",
+    "url": "https://github.com/bnkamalesh/currency",
+    "description": "High performant & accurate currency computation package."
   },
   {
     "name": "decimal",
@@ -2315,6 +2355,11 @@
     "description": "Code generation tool for ‘generics’-like functionality."
   },
   {
+    "name": "generis",
+    "url": "https://github.com/senselogic/GENERIS",
+    "description": "Code generation tool providing generics, free-form macros, conditional compilation and HTML templating."
+  },
+  {
     "name": "go-enum",
     "url": "https://github.com/abice/go-enum",
     "description": "Code generation for enums from code comments."
@@ -2460,6 +2505,11 @@
     "description": "TryLock support on read-write lock for Golang."
   },
   {
+    "name": "gollback",
+    "url": "https://github.com/vardius/gollback",
+    "description": "asynchronous simple function utilities, for managing execution of closures and callbacks."
+  },
+  {
     "name": "GoSlaves",
     "url": "https://github.com/themester/GoSlaves",
     "description": "Simple and Asynchronous Goroutine pool library."
@@ -2493,6 +2543,16 @@
     "name": "pool",
     "url": "https://github.com/go-playground/pool",
     "description": "Limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation."
+  },
+  {
+    "name": "queue",
+    "url": "https://github.com/AnikHasibul/queue",
+    "description": "Gives you a sync.WaitGroup like queue group accessibility. Helps you to throttle and limit goroutines, wait for the end of the all goroutines and much more."
+  },
+  {
+    "name": "routine",
+    "url": "https://github.com/x-mod/routine",
+    "description": "go routine control with context, support: Main, Go, Pool and some useful Executors."
   },
   {
     "name": "semaphore",
@@ -2588,6 +2648,11 @@
     "name": "webview",
     "url": "https://github.com/zserge/webview",
     "description": "Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux)."
+  },
+  {
+    "name": "go-appindicator",
+    "url": "https://github.com/dawidd6/go-appindicator",
+    "description": "Go bindings for libappindicator3 C library."
   },
   {
     "name": "gosx-notifier",
@@ -3001,6 +3066,11 @@
   },
   {
     "name": "log",
+    "url": "https://github.com/aerogo/log",
+    "description": "An O(1) logging system that allows you to connect one log to multiple writers (e.g. stdout, a file and a TCP connection)."
+  },
+  {
+    "name": "log",
     "url": "https://github.com/apex/log",
     "description": "Structured logging package for Go."
   },
@@ -3268,6 +3338,11 @@
     "name": "ocrserver",
     "url": "https://github.com/otiai10/ocrserver",
     "description": "A simple OCR API server, seriously easy to be deployed by Docker and Heroku."
+  },
+  {
+    "name": "onnx-go",
+    "url": "https://github.com/owulveryck/onnx-go",
+    "description": "Go Interface to Open Neural Network Exchange (ONNX)."
   },
   {
     "name": "probab",
@@ -3730,6 +3805,11 @@
     "description": "Library to convert to and from morse code."
   },
   {
+    "name": "numa",
+    "url": "https://github.com/lrita/numa",
+    "description": "NUMA is a utility library, which is written in go. It help us to write some NUMA-AWARED code."
+  },
+  {
     "name": "pdfgen",
     "url": "https://github.com/hyperboloide/pdfgen",
     "description": "HTTP service to generate PDF from Json requests."
@@ -4078,6 +4158,11 @@
     "name": "HTTPLab",
     "url": "https://github.com/gchaincl/httplab",
     "description": "HTTPLabs let you inspect HTTP requests and forge responses."
+  },
+  {
+    "name": "iplib",
+    "url": "https://github.com/c-robinson/iplib",
+    "description": "Library for working with IP addresses (net.IP, net.IPNet), inspired by python ipaddress and ruby ipaddr"
   },
   {
     "name": "jazigo",
@@ -4905,6 +4990,11 @@
     "description": "A realtime distributed messaging platform."
   },
   {
+    "name": "psql-streamer",
+    "url": "https://github.com/blind-oracle/psql-streamer",
+    "description": "Stream database events from PostgreSQL to Kafka."
+  },
+  {
     "name": "riemann-relay",
     "url": "https://github.com/blind-oracle/riemann-relay",
     "description": "Relay to load-balance Riemann events and/or convert them to Carbon."
@@ -5190,6 +5280,11 @@
     "description": "Go micro framework to help writing RESTful API integration test."
   },
   {
+    "name": "testcase",
+    "url": "https://github.com/adamluzsi/testcase",
+    "description": "Idiomatic testing framework for Behavior Driven Development."
+  },
+  {
     "name": "testfixtures",
     "url": "https://github.com/go-testfixtures/testfixtures",
     "description": "A helper for Rails' like test fixtures to test database applications."
@@ -5335,6 +5430,11 @@
     "description": "HTML Sanitizer."
   },
   {
+    "name": "codetree",
+    "url": "https://github.com/aerogo/codetree",
+    "description": "Parses indented code (python, pixy, scarlet, etc.) and returns a tree structure."
+  },
+  {
     "name": "colly",
     "url": "https://github.com/asciimoo/colly",
     "description": "Fast and Elegant Scraping Framework for Gophers."
@@ -5478,6 +5578,11 @@
     "name": "inject",
     "url": "https://github.com/facebookgo/inject",
     "description": "Package inject provides a reflect based injector."
+  },
+  {
+    "name": "ltsv",
+    "url": "https://github.com/Wing924/ltsv",
+    "description": "High performance LTSV (Labeled Tab Separeted Value) reader for Go."
   },
   {
     "name": "mxj",
@@ -6088,6 +6193,11 @@
     "name": "go-httpheader",
     "url": "https://github.com/mozillazg/go-httpheader",
     "description": "Go library for encoding structs into Header fields."
+  },
+  {
+    "name": "go-problemdetails",
+    "url": "https://github.com/mvmaasakkers/go-problemdetails",
+    "description": "Go package for working with Problem Details."
   },
   {
     "name": "go-rate",
@@ -6705,9 +6815,9 @@
     "description": "Small and evil REST framework for Go."
   },
   {
-    "name": "goa",
-    "url": "https://github.com/raphael/goa",
-    "description": "Framework for developing microservices based on the design of Ruby's Praxis."
+    "name": "Goa",
+    "url": "https://github.com/goadesign/goa",
+    "description": "Goa provides a holistic approach for developing remote APIs and microservices in Go."
   },
   {
     "name": "Golax",
@@ -7390,11 +7500,6 @@
     "description": "Small binary that loads Amazon (AWS) environment variables for a profile."
   },
   {
-    "name": "Banshee",
-    "url": "https://github.com/eleme/banshee",
-    "description": "Anomalies detection system for periodic metrics."
-  },
-  {
     "name": "Blast",
     "url": "https://github.com/dave/blast",
     "description": "A simple tool for API load testing and batch jobs."
@@ -7593,6 +7698,11 @@
     "name": "Scaleway-cli",
     "url": "https://github.com/scaleway/scaleway-cli",
     "description": "Manage BareMetal Servers from Command Line (as easily as with Docker)."
+  },
+  {
+    "name": "script",
+    "url": "https://github.com/bitfield/script",
+    "description": "Making it easy to write shell-like scripts in Go for DevOps and system administration tasks."
   },
   {
     "name": "sg",
@@ -8236,6 +8346,10 @@
     "name": "Golang Joinville",
     "url": "https://www.meetup.com/Joinville-Go-Meetup/",
     "description": "Brazil"
+  },
+  {
+    "name": "Golang Korea",
+    "url": "https://www.meetup.com/GDG-Golang-Korea/"
   },
   {
     "name": "Golang Lima",
