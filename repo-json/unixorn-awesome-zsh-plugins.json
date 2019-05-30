@@ -1,5 +1,13 @@
 [
   {
+    "name": "Highly configurable install methods using handlebars templating.",
+    "url": "http://handlebarsjs.com/"
+  },
+  {
+    "name": "Configuration file using TOML syntax.",
+    "url": "https://github.com/toml-lang/toml"
+  },
+  {
     "name": "Zsh plugins/UNIX commands on GitHub and Bitbucket",
     "url": "https://github.com"
   },
@@ -453,7 +461,7 @@
   {
     "name": "clipboard",
     "url": "https://github.com/zpm-zsh/clipboard",
-    "description": "Adds a cross-platform helper function to access the system clipboard."
+    "description": "Adds a cross-platform helper function to access the system clipboard. Works on macOS, X11 (and Wayland) and Cygwin."
   },
   {
     "name": "cmd-architect",
@@ -1077,6 +1085,11 @@
     "name": "iosctl",
     "url": "https://github.com/obayer/iosctl",
     "description": "Quickly access App, Data, and Log of the running simulator."
+  },
+  {
+    "name": "ipip",
+    "url": "https://github.com/SukkaW/zsh-ipip",
+    "description": "plugin for IPIP."
   },
   {
     "name": "iterm-tab-color",
@@ -1864,6 +1877,21 @@
     "description": "Terraform convenience functions and aliases for ZSH."
   },
   {
+    "name": "terragrunt",
+    "url": "https://github.com/hanjunlee/terragrunt-oh-my-zsh-plugin",
+    "description": "Plugin for Terragrunt, a thin wrapper for Terraform that provides extra tools."
+  },
+  {
+    "name": "thefuck",
+    "url": "https://github.com/laggardkernel/thefuck",
+    "description": "Loads thefuck (a tool which corrects your previous command) with cache support, which reduces the loading time dramatically."
+  },
+  {
+    "name": "theia-dev-tools",
+    "url": "https://github.com/taPublic/zsh-theia-dev-tools",
+    "description": "Convenience functions for working with theia-ide."
+  },
+  {
     "name": "timewarrior",
     "url": "https://github.com/svenXY/timewarrior",
     "description": "Plugin for timewarrior a timetracking application."
@@ -1941,6 +1969,11 @@
     "name": "ubuntualiases",
     "url": "https://github.com/GuilleDF/zsh-ubuntualiases",
     "description": "Ubuntu 16 aliases."
+  },
+  {
+    "name": "undollar",
+    "url": "https://github.com/zpm-zsh/undollar",
+    "description": "ZStrips the dollar sign from the beginning of the terminal prompt."
   },
   {
     "name": "up.zsh",
@@ -2235,6 +2268,11 @@
     "name": "antibody-completion",
     "url": "https://github.com/sinetoami/antibody-completion",
     "description": "This plugin provides completion for Antibody plugin manager."
+  },
+  {
+    "name": "appspec",
+    "url": "https://github.com/perlpunk/App-AppSpec-p5",
+    "description": "Generating completions for Bash and ZSH from YAML specs"
   },
   {
     "name": "autopkg-zsh-completion",
@@ -2762,6 +2800,11 @@
     "description": "Arch Linux inspired Zsh theme. Based on norm"
   },
   {
+    "name": "arity",
+    "url": "https://github.com/hybras/Arity-Zsh-Theme",
+    "description": "Arity is a simple theme designed for readability and to give an overview at a glance. Includes path and git decorations."
+  },
+  {
     "name": "aronhoyer",
     "url": "https://github.com/aronhoyer/zsh-theme",
     "description": "Minimalist theme with right-side git status decorations."
@@ -2900,6 +2943,11 @@
     "name": "brunty",
     "url": "https://github.com/Brunty/omz-brunty",
     "description": "Brunty theme."
+  },
+  {
+    "name": "bryce-robbyrussell",
+    "url": "https://github.com/Bryan-Cee/bryce-robbyrussell",
+    "description": "Inspired by the powerline and robbyrussell themes."
   },
   {
     "name": "bttf-color",
@@ -3257,6 +3305,11 @@
     "description": "Fork of the Cloud oh-my-zsh theme. with different colors and emojis."
   },
   {
+    "name": "furry-umbrella",
+    "url": "https://github.com/kb10uy/zsh-theme-furry-umbrella",
+    "description": "Colorful theme, works better on a dark background."
+  },
+  {
     "name": "garrett",
     "url": "https://github.com/chauncey-garrett/zsh-prompt-garrett",
     "description": "Prezto prompt with the information you need the moment you need it."
@@ -3281,6 +3334,11 @@
     "url": "https://github.com/Fuzen-py/GeometryHostInfo"
   },
   {
+    "name": "gideon",
+    "url": "https://github.com/userhiren/oh-my-zsh-gideon-theme",
+    "description": "Inspired by avit, includes git decorations, IP address, host and path."
+  },
+  {
     "name": "gimbo",
     "url": "https://github.com/gimbo/gimbo.zsh-theme",
     "description": "A variant of purepower with more features, a little eye candy and a context-sensitive extra line. Includes git status decorations."
@@ -3294,11 +3352,6 @@
     "name": "git-prompt",
     "url": "https://github.com/olivierverdier/zsh-git-prompt",
     "description": "Displays information about the current git repository. In particular the branch name, difference with remote branch, number of files staged or changed, etc."
-  },
-  {
-    "name": "gideon",
-    "url": "https://github.com/userhiren/oh-my-zsh-gideon-theme",
-    "description": "Inspired by avit, includes git decorations, IP address, host and path."
   },
   {
     "name": "gitsome",
@@ -3323,7 +3376,7 @@
   {
     "name": "grayt",
     "url": "https://github.com/evanthegrayt/grayt-zsh-theme",
-    "description": "Simple yet informative theme that includes git decorations."
+    "description": "Simple yet informative theme that includes git decorations and the return status of the last command."
   },
   {
     "name": "gruvbox",
@@ -3662,7 +3715,7 @@
   },
   {
     "name": "logico",
-    "url": "https://github.com/logico-dev/logico-zsh-theme",
+    "url": "https://github.com/logico-software/logico-zsh-theme",
     "description": "Has git decorations. Shows remote status and indicator for vi-mode."
   },
   {
@@ -3709,6 +3762,11 @@
     "name": "megaprompt",
     "url": "https://github.com/willghatch/zsh-megaprompt",
     "description": "A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character. Requires the hooks plugin."
+  },
+  {
+    "name": "midin",
+    "url": "https://github.com/xlshiz/midin",
+    "description": "Works well on dark terminal background, includes git status decorations."
   },
   {
     "name": "milight",
@@ -3921,6 +3979,11 @@
     "description": "A simple theme with VCS support. The prompt shows 1 level of the current working directory, branch, and a color coded curved fat arrow."
   },
   {
+    "name": "palenight",
+    "url": "https://github.com/jenssegers/palenight.zsh-theme",
+    "description": "Allows display of host information, includes git branch decoration."
+  },
+  {
     "name": "papercolor",
     "url": "https://github.com/erikschreier/PaperColor-themes",
     "description": "Color scheme for ZSH, vim and tmux. Includes git status decorations."
@@ -3934,6 +3997,11 @@
     "name": "phalanx",
     "url": "https://github.com/d-danilov/phalanx-zsh-theme",
     "description": "Minimal theme in spirit of robbyrussell and Pure Shell themes."
+  },
+  {
+    "name": "phantomk",
+    "url": "https://github.com/phantomk/phantomk.zsh-theme",
+    "description": "Colorful theme, includes go version, node version and git status."
   },
   {
     "name": "phi φ",
@@ -4361,6 +4429,10 @@
     "description": "Minimal, fast and elegant ZSH prompt. Displays the right information at the right time."
   },
   {
+    "name": "sm A Simplist & Minimalist theme for your favorite terminal.",
+    "url": "https://github.com/blyndusk/sm-theme"
+  },
+  {
     "name": "small-terminal-diy",
     "url": "https://github.com/Sokkam/small-terminal-diy-theme",
     "description": "Variant of the ys theme in oh-my-zsh."
@@ -4464,6 +4536,11 @@
     "name": "termuxer",
     "url": "https://github.com/patrick330602/termuxer",
     "description": "Theme inspired by agnoster and linuxer."
+  },
+  {
+    "name": "that-human-jason",
+    "url": "https://github.com/thatHumanJason/that-human-jason-zsh-theme",
+    "description": "Based heavily on the bira theme included with oh-my-zsh."
   },
   {
     "name": "the-time-lord",

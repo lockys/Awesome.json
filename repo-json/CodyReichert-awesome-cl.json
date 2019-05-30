@@ -15,7 +15,7 @@
     "description": " Music/DSP programming environment for Common Lisp. Useful to design software synthesizers or sound plugins from scratch. It is also a compositional tool that allows to produce high quality sounds controllable at the sample level, defining and redefining the digital signal processors and the musical structures on-the-fly."
   },
   {
-    "name": "cl-supercollider",
+    "name": "cl-collider",
     "url": "https://github.com/byulparan/cl-collider",
     "description": "A"
   },
@@ -32,7 +32,7 @@
   {
     "name": "cl-patterns",
     "url": "https://github.com/defaultxr/cl-patterns",
-    "description": "a system for composing music via Lisp code, heavily inspired by SuperCollider’s patterns system, with aims to implement much of it, but in a more robust, expressive, consistent, reflective, and lispy way."
+    "description": "a system for composing music via Lisp code, heavily inspired by SuperCollider’s patterns system, with aims to implement much of it, but in a more robust, expressive, consistent, reflective, and lispy way. Audio output through SuperCollider, with preliminary support for Incudine, and MIDI through ALSA."
   },
   {
     "name": "cl-openal",
@@ -108,6 +108,11 @@
     "name": "lispc",
     "url": "https://github.com/eratosthenesia/lispc",
     "description": "a powerful \"lispsy\" macrolanguage for C. MIT."
+  },
+  {
+    "name": "ecrepl",
+    "url": "https://gitlab.common-lisp.net/ecl/ecrepl",
+    "description": "an interactive REPL for the C language. No license specified."
   },
   {
     "name": "crypto-shortcuts",
@@ -276,7 +281,22 @@
   {
     "name": "burgled-batteries",
     "url": "https://github.com/pinterface/burgled-batteries",
-    "description": "A bridge between Python and Common Lisp. Not available on Quicklisp. No license specified."
+    "description": "A bridge between Python and Common Lisp. The goal is that Lisp programs can use Python libraries. Not available on Quicklisp. No license specified."
+  },
+  {
+    "name": "cl4py",
+    "url": "https://github.com/marcoheisig/cl4py",
+    "description": "The library cl4py (pronounce as clappy) allows Python programs to call Common Lisp libraries. MIT."
+  },
+  {
+    "name": "py4cl",
+    "url": "https://github.com/bendudson/py4cl",
+    "description": "A library that allows Common Lisp code to access Python libraries. It is basically the inverse of cl4py. MIT."
+  },
+  {
+    "name": "cl-python",
+    "url": "https://github.com/metawilm/cl-python",
+    "description": "an implementation of Python in Common Lisp. LLGPL."
   },
   {
     "name": "Xelf",
@@ -435,6 +455,11 @@
     "name": "eql, eql5, eql5-android",
     "url": "https://gitlab.com/eql",
     "description": "Embedded Qt4 and Qt5 Lisp, embedded in ECL, embeddable in Qt. Port of EQL5 to the Android platform. MIT."
+  },
+  {
+    "name": "bodge-nuklear",
+    "url": "https://github.com/borodust/bodge-nuklear",
+    "description": "Wrapper over the Nuklear immediate mode GUI library. MIT."
   },
   {
     "name": "ECL",
@@ -1227,6 +1252,11 @@
     "description": "a binding library to Selenium 2.0."
   },
   {
+    "name": "numcl",
+    "url": "https://github.com/numcl/numcl",
+    "description": "Numpy clone in Common Lisp. LGPL3."
+  },
+  {
     "name": "magicl",
     "url": "https://github.com/rigetticomputing/magicl",
     "description": "Matrix Algebra proGrams In Common Lisp based on BLAS/LAPACK and Expokit, by Rigetti Computing. BSD_3Clause."
@@ -1272,6 +1302,16 @@
     "description": "an attempt to"
   },
   {
+    "name": "cmu-infix",
+    "url": "https://github.com/rigetti/cmu-infix",
+    "description": "A library for writing infix mathematical notation in Common Lisp."
+  },
+  {
+    "name": "cl-ana",
+    "url": "https://github.com/ghollisjr/cl-ana",
+    "description": "Common Lisp data analysis library with emphasis on modularity and conceptual clarity. It aims to be a general purpose framework for analyzing small and large scale datasets, including binned data analysis and visualization. GNU GPL3."
+  },
+  {
     "name": "lfarm",
     "url": "https://github.com/lmj/lfarm",
     "description": "distributing work across machines (on top of lparallel and usocket). BSD_3Clause"
@@ -1300,6 +1340,11 @@
     "name": "trivial-monitored-thread",
     "url": "https://gitlab.com/ediethelm/trivial-monitored-thread",
     "description": "a Common Lisp library offering a way of spawning threads and being"
+  },
+  {
+    "name": "cl-gearman",
+    "url": "https://github.com/taksatou/cl-gearman",
+    "description": "a library for the Gearman distributed job system. LLGPL."
   },
   {
     "name": "simple-tasks",
@@ -1430,6 +1475,10 @@
     "url": "http://www.sublimetext.com/3"
   },
   {
+    "name": "VSCode-lisp extension to support Lisp syntax. It is on the GitHub.",
+    "url": "https://marketplace.visualstudio.com/items?itemName=mattn.Lisp"
+  },
+  {
     "name": "cl-jupyter",
     "url": "https://github.com/fredokun/cl-jupyter",
     "description": "A Common Lisp kernel for Jupyter notebooks custom licence."
@@ -1538,11 +1587,6 @@
     "name": "envy",
     "url": "https://github.com/fukamachi/envy",
     "description": "Configuration switcher. FreeBSD."
-  },
-  {
-    "name": "cl-csv",
-    "url": "https://github.com/AccelerationNet/cl-csv",
-    "description": "A library for parsing CSV files. 3-clause BSD."
   },
   {
     "name": "cl-decimals",

@@ -100,6 +100,11 @@
     "description": "A simple-minded way of managing window configs in emacs."
   },
   {
+    "name": "Helpful",
+    "url": "https://github.com/Wilfred/helpful",
+    "description": "An enchancement of the Emacs built-in help system"
+  },
+  {
     "name": "Evil",
     "url": "https://github.com/emacs-evil/evil",
     "description": "An e xtensible vi l ayer: manipulate Emacs with Vi key binding."
@@ -595,11 +600,6 @@
     "description": "Intelligently call whitespace-cleanup on save."
   },
   {
-    "name": "realgud",
-    "url": "https://github.com/realgud",
-    "description": "A modular front-end for interacting with external debuggers."
-  },
-  {
     "name": "ggtags",
     "url": "https://github.com/leoliu/ggtags",
     "description": "Emacs frontend to GNU Global source code tagging system."
@@ -608,6 +608,11 @@
     "name": "lsp-mode",
     "url": "https://github.com/emacs-lsp/lsp-mode",
     "description": "Emacs client for the Language Server Protocol"
+  },
+  {
+    "name": "lsp-ui",
+    "url": "https://github.com/emacs-lsp/lsp-ui",
+    "description": "An extension which adds code lenses and documentation pop-up for lsp-mode"
   },
   {
     "name": "eglot",
@@ -653,6 +658,16 @@
     "name": "emacs-ycmd",
     "url": "https://github.com/abingham/emacs-ycmd",
     "description": "Emacs client for YCM."
+  },
+  {
+    "name": "realgud",
+    "url": "https://github.com/realgud",
+    "description": "A modular front-end for interacting with external debuggers."
+  },
+  {
+    "name": "dap-mode",
+    "url": "https://github.com/emacs-lsp/dap-mode",
+    "description": "An implementation of the debug adapter protocol used in VSCode and other editors"
   },
   {
     "name": "Helm-dash",
@@ -1095,6 +1110,11 @@
     "description": "Cargo support for Emacs."
   },
   {
+    "name": "rustic",
+    "url": "https://github.com/brotzeit/rustic",
+    "description": "A fork of rust mode with improvements and configurations for things such as flycheck and lsp-mode"
+  },
+  {
     "name": "erlang",
     "url": "http://erlang.org/doc/apps/tools/erlang_mode_chapter.html",
     "description": "The official Erlang mode for Emacs."
@@ -1294,14 +1314,14 @@
     "description": "Emacs major mode for LAMMPS Molecular Dynamics Simulator scripts with proper font-locking."
   },
   {
-    "name": "discover.el",
-    "url": "https://github.com/mickeynp/discover.el",
-    "description": "Discover more of emacs with well-categorized context menus."
+    "name": "which-key",
+    "url": "https://github.com/justbur/emacs-which-key",
+    "description": "Display available key bindings in popup. Rewrite of guide-key with added features to improve display."
   },
   {
-    "name": "discover-my-major",
-    "url": "https://framagit.org/steckerhalter/discover-my-major",
-    "description": "Discover key bindings and their meaning for the current Emacs major mode."
+    "name": "helm-descbinds",
+    "url": "https://github.com/emacs-helm/helm-descbinds",
+    "description": "Helm interface for Emacs’ describe-bindings."
   },
   {
     "name": "guide-key",
@@ -1314,19 +1334,19 @@
     "description": "Tooltip version of guide-key."
   },
   {
-    "name": "which-key",
-    "url": "https://github.com/justbur/emacs-which-key",
-    "description": "Display available key bindings in popup. Rewrite of guide-key with added features to improve display."
+    "name": "discover-my-major",
+    "url": "https://framagit.org/steckerhalter/discover-my-major",
+    "description": "Discover key bindings and their meaning for the current Emacs major mode."
+  },
+  {
+    "name": "discover.el",
+    "url": "https://github.com/mickeynp/discover.el",
+    "description": "Discover more of emacs with well-categorized context menus."
   },
   {
     "name": "cheatsheet",
     "url": "https://github.com/darksmile/cheatsheet",
     "description": "Create your own customized cheatsheet."
-  },
-  {
-    "name": "helm-descbinds",
-    "url": "https://github.com/emacs-helm/helm-descbinds",
-    "description": "Helm interface for Emacs’ describe-bindings."
   },
   {
     "name": "Emacs Muse",
@@ -1391,12 +1411,27 @@
   {
     "name": "org-download",
     "url": "https://github.com/abo-abo/org-download",
-    "description": "Drag and drop images to Emacs org-mode"
+    "description": "Drag and drop images to Emacs org-mode."
   },
   {
     "name": "org-html-themes",
     "url": "https://github.com/fniessen/org-html-themes",
     "description": "Export Org mode files into awesome HTML in 2 minutes."
+  },
+  {
+    "name": "org-super-agenda",
+    "url": "https://github.com/alphapapa/org-super-agenda",
+    "description": "Help organize your agenda items into tidy groups."
+  },
+  {
+    "name": "org-noter",
+    "url": "https://github.com/weirdNox/org-noter",
+    "description": "Annotate documents with a synchronized org-mode buffer alongside them."
+  },
+  {
+    "name": "org-sort-tasks",
+    "url": "https://github.com/felipelalli/org-sort-tasks",
+    "description": "Functions to keep TODO tasks in orgmode sorted and organized."
   },
   {
     "name": "toc-org",
@@ -1412,6 +1447,11 @@
     "name": "magithub",
     "url": "https://github.com/vermiculus/magithub",
     "description": "Magit interfaces for GitHub."
+  },
+  {
+    "name": "magit-todo",
+    "url": "https://github.com/alphapapa/magit-todos",
+    "description": "Show TODO’s and FIXME’s within a magit status buffer"
   },
   {
     "name": "VC",
@@ -1547,6 +1587,11 @@
     "name": "restart-emacs",
     "url": "https://github.com/iqbalansari/restart-emacs",
     "description": "A simple emacs package to restart emacs from within emacs"
+  },
+  {
+    "name": "theme-magic",
+    "url": "https://github.com/jcaw/theme-magic",
+    "description": "Apply your Emacs theme to the rest of Linux."
   },
   {
     "name": "wgrep",
@@ -1797,9 +1842,19 @@
     "description": "Sina weibo client in Emacs."
   },
   {
+    "name": "Mastodon.el",
+    "url": "https://github.com/jdenen/mastodon.el",
+    "description": "An Emacs client for Mastodon"
+  },
+  {
     "name": "Elfeed",
     "url": "https://github.com/skeeto/elfeed",
     "description": "RSS/Atom Reader for Emacs."
+  },
+  {
+    "name": "elfeed-org",
+    "url": "https://github.com/remyhonig/elfeed-org",
+    "description": "An extension for Elfeed which lets you define all feeds in an Org file"
   },
   {
     "name": "Newsticker",
@@ -2067,6 +2122,16 @@
     "description": "Diminished modes are minor modes with no modeline display."
   },
   {
+    "name": "doom-modeline",
+    "url": "https://github.com/seagle0128/doom-modeline",
+    "description": "A mode-line package included in Doom and Centaur emacs"
+  },
+  {
+    "name": "all-the-icons",
+    "url": "https://github.com/domtronn/all-the-icons.el",
+    "description": "A package used to include fancy icons within emacs"
+  },
+  {
     "name": "Zenburn",
     "url": "https://github.com/bbatsov/zenburn-emacs",
     "description": "(dark) Vim’s “Zenburn theme” ported to Emacs."
@@ -2197,7 +2262,7 @@
   },
   {
     "name": "speed-type",
-    "url": "https://github.com/hagleitn/speed-type",
+    "url": "https://github.com/parkouss/speed-type",
     "description": "Practice speed/touch typing in Emacs."
   },
   {
@@ -2429,6 +2494,11 @@
     "name": "Emacs from scratch",
     "url": "https://blog.jft.rocks/emacs/emacs-from-scratch.html",
     "description": "A guide to configure Emacs from scratch."
+  },
+  {
+    "name": "Emacs In a Box",
+    "url": "https://caiorss.github.io/Emacs-Elisp-Programming/",
+    "description": "A tutorial for emacs lisp and emacs customization"
   },
   {
     "name": "Planet Emacsen",

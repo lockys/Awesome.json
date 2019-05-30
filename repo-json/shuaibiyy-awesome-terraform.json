@@ -468,6 +468,11 @@
     "description": "Provider for Dominos Pizza."
   },
   {
+    "name": "terraform-provider-azuredevops",
+    "url": "https://github.com/mikaelkrief/terraform-provider-azuredevops",
+    "description": "Provider for Azure DevOps (VSTS)."
+  },
+  {
     "name": "kitchen-terraform",
     "url": "https://github.com/newcontext-oss/kitchen-terraform",
     "description": "Provides a set of Test Kitchen plugins which enable a system to use Test Kitchen to converge a Terraform configuration and verify the resulting Terraform state with InSpec controls."
@@ -511,6 +516,11 @@
     "name": "geopoiesis",
     "url": "https://docs.geopoiesis.io/manual/",
     "description": "Specialized continuous integration and deployment tool for modern declarative infrastructure provisioning and management."
+  },
+  {
+    "name": "iam-policy-json-to-terraform",
+    "url": "https://github.com/flosell/iam-policy-json-to-terraform",
+    "description": "Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document"
   },
   {
     "name": "k2tf",
@@ -608,6 +618,11 @@
     "description": "Ansible dynamic inventory script for parsing Terraform state files."
   },
   {
+    "name": "terraformer",
+    "url": "https://github.com/GoogleCloudPlatform/terraformer",
+    "description": "CLI tool to generate terraform files from existing infrastructure. Infrastructure to Code. Supported few providers."
+  },
+  {
     "name": "terragrunt",
     "url": "https://github.com/gruntwork-io/terragrunt",
     "description": "Terragrunt is a thin wrapper for Terraform that supports locking for Terraform state and enforces best practices."
@@ -702,68 +717,9 @@
     "description": "Simple shell for exploring remote terraform enterprise state, with autocomplete."
   },
   {
-    "name": "Orchestrating Containers with Terraform and Consul",
-    "url": "https://www.infoq.com/presentations/terraform-consul",
-    "description": "Mitchell Hashimoto shows how Terraform can be used to deploy and scale containerized workloads."
-  },
-  {
     "name": "Building Scalable, Repeatable Infrastructure in the Cloud with Terraform",
     "url": "https://www.youtube.com/watch?v=cG7pcksTAnY",
     "description": "Demonstrates how Terraform enables the practice of Infrastructure as Code by deploying TeamCity in AWS using a hosted PostgreSQL."
-  },
-  {
-    "name": "Evolving Your Infrastructure with Terraform",
-    "url": "https://www.youtube.com/watch?v=wgzgVm7Sqlk",
-    "description": "CTO of OpenCredo provides an extensive look at using Terraform in the real-world with the help of some interesting use-cases."
-  },
-  {
-    "name": "Going Multi-Cloud with Terraform and Nomad",
-    "url": "https://www.youtube.com/watch?v=e42A4aBZUkQ"
-  },
-  {
-    "name": "Running a Terraform Environment at Scale",
-    "url": "https://www.youtube.com/watch?v=3JVGSq7QIS0",
-    "description": "Running Terraform at scale with hundreds of AWS accounts."
-  },
-  {
-    "name": "Terraforming the Composable World",
-    "url": "https://www.youtube.com/watch?v=cHrOXPatFeg",
-    "description": "Integrating Terraform with an on-premise bare metal provisioning."
-  },
-  {
-    "name": "State of Terraform Providerland",
-    "url": "https://www.youtube.com/watch?v=ar1PF5iDtbg",
-    "description": "How Terraform providers work and how to write one."
-  },
-  {
-    "name": "Untangling Terraform Through Refactoring",
-    "url": "https://www.youtube.com/watch?v=OH6iDKaXpZs",
-    "description": "How to refactor your Terraform code in a careful way with minimum risk."
-  },
-  {
-    "name": "Terraform At Scale",
-    "url": "https://www.youtube.com/watch?v=RldRDryLiXs",
-    "description": "How Segment uses Terraform."
-  },
-  {
-    "name": "Production ChaosMonkey with Terraform",
-    "url": "https://www.youtube.com/watch?v=CPI6W3LK0-g",
-    "description": "How DigitalOcean uses Terraform to run production integration tests."
-  },
-  {
-    "name": "Terraform w/ Lee Trout",
-    "url": "https://www.youtube.com/watch?v=p2ESyuqPw1A",
-    "description": "Focuses on development patterns and how to effectively structure Terraform code."
-  },
-  {
-    "name": "Webinar: Multi-Cloud, One Command with Terraform",
-    "url": "https://www.youtube.com/watch?v=adzqsywrJKk",
-    "description": "Provisioning hybrid cloud infrastructure using Terraform."
-  },
-  {
-    "name": "How to Build Reusable, Composable, Battle tested Terraform Modules",
-    "url": "https://www.youtube.com/watch?v=LVgP63BkhKQ",
-    "description": "Yevgeniy Brikman talks about how to write Terraform code so that it is reusable, composable and testable. The presentation focuses on Terraform modules, but also provides a brief and clear explanation of what problem Terraform was created to solve and a short demo of Terraform basics (~39 min, October 2017)."
   },
   {
     "name": "Creating a Google Compute Instance with Terraform",
@@ -771,19 +727,23 @@
     "description": "Example of creating a Google Compute Instance with Terraform code."
   },
   {
-    "name": "Test and verify a Google Compute Instance with Kitchen-Terraform",
-    "url": "https://www.youtube.com/watch?v=kiH3-LEveek",
-    "description": "Example of using Kitchen-Terraform to test our Terraform code that created a Google Compute."
-  },
-  {
-    "name": "Setup Continuous Integration for a Terraform module",
-    "url": "https://www.youtube.com/watch?v=vuJ6bjYKUcA",
-    "description": "Example of using CI with Kitchen-Terraform to test, tag and publish our Terraform module which creates a Google Compute Instance."
-  },
-  {
     "name": "Creating a Terraform Provider for Just About Anything",
     "url": "https://www.hashicorp.com/resources/creating-terraform-provider-for-anything",
     "description": "Learn how to contribute to a Terraform provider or create your own from this walkthrough."
+  },
+  {
+    "name": "Evolving Your Infrastructure with Terraform",
+    "url": "https://www.youtube.com/watch?v=wgzgVm7Sqlk",
+    "description": "CTO of OpenCredo provides an extensive look at using Terraform in the real-world with the help of some interesting use-cases."
+  },
+  {
+    "name": "Going Multi-Cloud with Terraform and Nomad.",
+    "url": "https://www.youtube.com/watch?v=e42A4aBZUkQ"
+  },
+  {
+    "name": "How to Build Reusable, Composable, Battle tested Terraform Modules",
+    "url": "https://www.youtube.com/watch?v=LVgP63BkhKQ",
+    "description": "Yevgeniy Brikman talks about how to write Terraform code so that it is reusable, composable and testable. The presentation focuses on Terraform modules, but also provides a brief and clear explanation of what problem Terraform was created to solve and a short demo of Terraform basics (~39 min, October 2017)."
   },
   {
     "name": "How to Extend the Terraform Provider List",
@@ -791,9 +751,76 @@
     "description": "In this talk, Paul will walk through the creation of a terraform provider."
   },
   {
+    "name": "Orchestrating Containers with Terraform and Consul",
+    "url": "https://www.infoq.com/presentations/terraform-consul",
+    "description": "Mitchell Hashimoto shows how Terraform can be used to deploy and scale containerized workloads."
+  },
+  {
+    "name": "Production ChaosMonkey with Terraform",
+    "url": "https://www.youtube.com/watch?v=CPI6W3LK0-g",
+    "description": "How DigitalOcean uses Terraform to run production integration tests."
+  },
+  {
+    "name": "Running a Terraform Environment at Scale",
+    "url": "https://www.youtube.com/watch?v=3JVGSq7QIS0",
+    "description": "Running Terraform at scale with hundreds of AWS accounts."
+  },
+  {
+    "name": "Setup Continuous Integration for a Terraform module",
+    "url": "https://www.youtube.com/watch?v=vuJ6bjYKUcA",
+    "description": "Example of using CI with Kitchen-Terraform to test, tag and publish our Terraform module which creates a Google Compute Instance."
+  },
+  {
+    "name": "State of Terraform Providerland",
+    "url": "https://www.youtube.com/watch?v=ar1PF5iDtbg",
+    "description": "How Terraform providers work and how to write one."
+  },
+  {
+    "name": "Terraform At Scale",
+    "url": "https://www.youtube.com/watch?v=RldRDryLiXs",
+    "description": "How Segment uses Terraform."
+  },
+  {
+    "name": "Terraform w/ Lee Trout",
+    "url": "https://www.youtube.com/watch?v=p2ESyuqPw1A",
+    "description": "Focuses on development patterns and how to effectively structure Terraform code."
+  },
+  {
+    "name": "Terraforming the Composable World",
+    "url": "https://www.youtube.com/watch?v=cHrOXPatFeg",
+    "description": "Integrating Terraform with an on-premise bare metal provisioning."
+  },
+  {
+    "name": "Test and verify a Google Compute Instance with Kitchen-Terraform",
+    "url": "https://www.youtube.com/watch?v=kiH3-LEveek",
+    "description": "Example of using Kitchen-Terraform to test our Terraform code that created a Google Compute."
+  },
+  {
+    "name": "Untangling Terraform Through Refactoring",
+    "url": "https://www.youtube.com/watch?v=OH6iDKaXpZs",
+    "description": "How to refactor your Terraform code in a careful way with minimum risk."
+  },
+  {
     "name": "Using Terraform for blue-green deployments on Triton",
     "url": "https://www.joyent.com/blog/video-blue-green-deploys-terraform",
     "description": "Video of demo on using Blue green with Terraform."
+  },
+  {
+    "name": "Webinar: Multi-Cloud, One Command with Terraform",
+    "url": "https://www.youtube.com/watch?v=adzqsywrJKk",
+    "description": "Provisioning hybrid cloud infrastructure using Terraform."
+  },
+  {
+    "name": "Atom terraform-lookup",
+    "url": "https://atom.io/packages/terraform-lookup"
+  },
+  {
+    "name": "Emacs terraform-mode",
+    "url": "https://github.com/syohex/emacs-terraform-mode"
+  },
+  {
+    "name": "Intellij",
+    "url": "https://plugins.jetbrains.com/plugin/7808-hashicorp-terraform--hcl-language-support"
   },
   {
     "name": "Vim-Terraform",
@@ -802,14 +829,6 @@
   {
     "name": "Vim-Terraform-Completion",
     "url": "https://github.com/juliosueiras/vim-terraform-completion"
-  },
-  {
-    "name": "Intellij",
-    "url": "https://plugins.jetbrains.com/plugin/7808-hashicorp-terraform--hcl-language-support"
-  },
-  {
-    "name": "Emacs terraform-mode",
-    "url": "https://github.com/syohex/emacs-terraform-mode"
   },
   {
     "name": "VS Code",
