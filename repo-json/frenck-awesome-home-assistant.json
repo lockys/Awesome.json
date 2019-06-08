@@ -54,6 +54,11 @@
     "description": "Get support on the Community Hassio Add-ons."
   },
   {
+    "name": "ESPHome Discord",
+    "url": "https://discord.gg/KhAMKrd",
+    "description": "Get support for your DIY ESPHome project."
+  },
+  {
     "name": "Carlo Costanzo",
     "url": "https://github.com/CCOSTAN/Home-AssistantConfig#logo",
     "description": "Probably the most documented configuration out there."
@@ -135,7 +140,7 @@
   },
   {
     "name": "HASS Configurator",
-    "url": "https://www.home-assistant.io/addons/configurator/",
+    "url": "https://github.com/home-assistant/hassio-addons/tree/master/configurator",
     "description": "Browser-based configuration file editor."
   },
   {
@@ -157,6 +162,16 @@
     "name": "NGINX SSL proxy",
     "url": "https://www.home-assistant.io/addons/nginx_proxy/",
     "description": "Reverse proxy with SSL termination."
+  },
+  {
+    "name": "deCONZ",
+    "url": "https://github.com/home-assistant/hassio-addons/tree/master/deconz",
+    "description": "Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik."
+  },
+  {
+    "name": "TellStick",
+    "url": "https://github.com/home-assistant/hassio-addons/tree/master/tellstick",
+    "description": "Run a TellStick and TellStick Duo service."
   },
   {
     "name": "SSH & Web Terminal",
@@ -229,11 +244,6 @@
     "description": "Centrally manage all your Sonoff-Tasmota devices."
   },
   {
-    "name": "Octobox",
-    "url": "https://github.com/hassio-addons/addon-octobox",
-    "description": "Take back control of your GitHub notifications."
-  },
-  {
     "name": "Aircast",
     "url": "https://github.com/hassio-addons/addon-aircast",
     "description": "AirPlay capabilities for your Chromecast players."
@@ -304,14 +314,39 @@
     "description": "A touch-compatible web frontend for controlling the home."
   },
   {
-    "name": "HA Floorplan",
-    "url": "https://github.com/pkozul/ha-floorplan",
-    "description": "Interaction with your entities from a Floorplan."
+    "name": "Hass.io Google Drive Backup",
+    "url": "https://github.com/sabeechen/hassio-google-drive-backup",
+    "description": "A complete and easy to configure solution for backing up your snapshots to Google Drive."
   },
   {
-    "name": "Custom UI elements",
-    "url": "https://github.com/andrey-git/home-assistant-custom-ui",
-    "description": "For use with a (non-Lovelace) frontend."
+    "name": "Grocy",
+    "url": "https://github.com/hassio-addons/addon-grocy",
+    "description": "ERP beyond your fridge! A groceries & household management solution for your home."
+  },
+  {
+    "name": "Lovelace UI Documentation",
+    "url": "https://www.home-assistant.io/lovelace",
+    "description": "The official documentation."
+  },
+  {
+    "name": "Getting started with Lovelace UI",
+    "url": "https://www.youtube.com/watch?v=ObfRzMIEJPgx",
+    "description": "📺 Great introduction to Lovelace UI by DrZzs."
+  },
+  {
+    "name": "Plan Coordinates",
+    "url": "https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates",
+    "description": "Helps to find left and top values for picture-elements cards."
+  },
+  {
+    "name": "Share the Love",
+    "url": "https://sharethelove.io",
+    "description": "Custom card demos and configuration examples for Lovelace."
+  },
+  {
+    "name": "How to set up Lovelace",
+    "url": "https://www.youtube.com/watch?v=n5xMtONydEo",
+    "description": "📺 Excellent step by step video for beginners by JuanMTech."
   },
   {
     "name": "Font Awesome Icons",
@@ -372,41 +407,6 @@
     "name": "Many Themes, One Repo",
     "url": "https://github.com/maartenpaauw/home-assistant-community-themes/",
     "description": "13 Themes in a convenient ZIP file."
-  },
-  {
-    "name": "Home Assistant Control Panel",
-    "url": "https://reformedreality.com/home-assistant-control-panel",
-    "description": "Simple to use, easy to install."
-  },
-  {
-    "name": "TileBoard",
-    "url": "https://github.com/resoai/TileBoard",
-    "description": "A simple yet highly configurable Dashboard."
-  },
-  {
-    "name": "Lovelace UI Documentation",
-    "url": "https://www.home-assistant.io/lovelace",
-    "description": "The official documentation."
-  },
-  {
-    "name": "Getting started with Lovelace UI",
-    "url": "https://www.youtube.com/watch?v=ObfRzMIEJPgx",
-    "description": "📺 Great introduction to Lovelace UI by DrZzs."
-  },
-  {
-    "name": "Plan Coordinates",
-    "url": "https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates",
-    "description": "Helps to find left and top values for picture-elements cards."
-  },
-  {
-    "name": "Share the Love",
-    "url": "https://sharethelove.io",
-    "description": "Custom card demos and configuration examples for Lovelace."
-  },
-  {
-    "name": "How to set up Lovelace",
-    "url": "https://www.youtube.com/watch?v=n5xMtONydEo",
-    "description": "📺 Excellent step by step video for beginners by JuanMTech."
   },
   {
     "name": "Monster Card",
@@ -514,6 +514,26 @@
     "description": "Calendar card with advanced settings."
   },
   {
+    "name": "Xiaomi Vacuum Card",
+    "url": "https://github.com/benct/lovelace-xiaomi-vacuum-card",
+    "description": "Detailed card for Xiaomi (and other) vacuum cleaners."
+  },
+  {
+    "name": "Simple Weather Card",
+    "url": "https://github.com/kalkih/simple-weather-card",
+    "description": "A minimalistic weather card, inspired by Google Material Design."
+  },
+  {
+    "name": "Lovelace Floorplan",
+    "url": "https://github.com/pkozul/lovelace-floorplan",
+    "description": "Interaction with your entities from a Floorplan."
+  },
+  {
+    "name": "TileBoard",
+    "url": "https://github.com/resoai/TileBoard",
+    "description": "A simple yet highly configurable Dashboard."
+  },
+  {
     "name": "Hue Sensors",
     "url": "https://github.com/robmarkcole/Hue-sensors-HASS",
     "description": "Enables the use of Hue sensors."
@@ -527,11 +547,6 @@
     "name": "Lutron Caseta Pro",
     "url": "https://github.com/upsert/lutron-caseta-pro",
     "description": "Integrates Lutron Caseta Smart Bridge PRO / RA2 Select."
-  },
-  {
-    "name": "ToonHA",
-    "url": "https://github.com/krocat/ToonHA",
-    "description": "Integrates Toon by Eneco using the official API."
   },
   {
     "name": "SmartIR",
@@ -562,6 +577,26 @@
     "name": "Sonoff/eWeLink",
     "url": "https://github.com/peterbuga/HASS-sonoff-ewelink",
     "description": "Control Sonoff/eWeLink smart devices using the stock firmware."
+  },
+  {
+    "name": "Alexa Media Player",
+    "url": "https://github.com/keatontaylor/alexa_media_player",
+    "description": "Allow control of Amazon Alexa devices."
+  },
+  {
+    "name": "iCloud3",
+    "url": "https://github.com/gcobb321/icloud3",
+    "description": "Improved version of the iCloud device tracker component with a lot of capabilities."
+  },
+  {
+    "name": "HACS",
+    "url": "https://custom-components.github.io/hacs/",
+    "description": "This is a manager for your custom integration (components) and plugin (lovelace elements) needs."
+  },
+  {
+    "name": "breaking_changes",
+    "url": "https://github.com/custom-components/breaking_changes",
+    "description": "Component to show potential breaking_changes in the current published version based on your loaded components."
   },
   {
     "name": "ESPHome",
@@ -639,6 +674,11 @@
     "description": "Build an NFC tag/card scanner with an ESP8266, PN532 and MQTT."
   },
   {
+    "name": "ESP32-Cam Facebox",
+    "url": "https://www.dopebuild.com/i-am-sorry-dave-i-am-unable-to-do-that/",
+    "description": "Tie a ESP32-CAM, HA, and Facebox together for a cheap Facial Recog / Home monitoring solution."
+  },
+  {
     "name": "DIY Futurism",
     "url": "https://diyfuturism.com/",
     "description": "Brad posts articles with great instructions for new users."
@@ -707,6 +747,11 @@
     "name": "digiblurDIY",
     "url": "https://www.youtube.com/channel/UC5ZdPKE2ckcBhljTc2R_qNA",
     "description": "Tutorials on hardware projects and Tasmota automations."
+  },
+  {
+    "name": "Sognare",
+    "url": "https://www.youtube.com/channel/UC3sknm_GUCDESM7EmVvkgzg",
+    "description": "Lives on a boat! Tutorials, discussions and interviews."
   },
   {
     "name": "Home Assistant Podcast",
@@ -830,7 +875,7 @@
   },
   {
     "name": "Jinja Scripts for Curious Minds",
-    "url": "https://github.com/skalavala/smarthome/tree/master/jinja_helpers",
+    "url": "https://github.com/skalavala/mysmarthome/tree/master/jinja_helpers",
     "description": "Bunch of Jinja2 scripts helping you to understand it better."
   },
   {
