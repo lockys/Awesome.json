@@ -75,7 +75,7 @@
   },
   {
     "name": "@home",
-    "url": "http://www.athomeapp.de/",
+    "url": "https://www.athomeapp.de/",
     "description": "iOS - (💵 inApp-Purchase um Werbung zu entfernen)"
   },
   {
@@ -99,11 +99,6 @@
     "description": "💵 Android (ehemals: HomeDroid)"
   },
   {
-    "name": "HomeNOW",
-    "url": "http://homenow.at",
-    "description": "💵 Android"
-  },
-  {
     "name": "Pocket Control",
     "url": "https://www.penzler.de",
     "description": "💵 iOS"
@@ -115,7 +110,7 @@
   },
   {
     "name": "Homegear",
-    "url": "https://www.homegear.eu/index.php/Main_Page",
+    "url": "https://homegear.eu/index.php/Main_Page",
     "description": "Free and open source program to interface your smart home devices with your home automation software or your own scripts."
   },
   {
@@ -160,7 +155,7 @@
   },
   {
     "name": "CUxD",
-    "url": "https://www.homematic-inside.de/addons",
+    "url": "https://www.homematic-inside.de/software/tag/Zusatzsoftware",
     "description": "Der \"Leatherman\" für die CCU. Verbindet FS20, ... (💵 EnOcean, ...), stellt virtuelle Geräte und hilfreiche Tools zur Verfügung."
   },
   {
@@ -174,17 +169,17 @@
     "description": "HomeMatic CCU Addon für den Email Versand."
   },
   {
-    "name": "Hm-print",
+    "name": "hm-print",
     "url": "https://github.com/litti/hm-print",
     "description": "CCU Programme drucken."
   },
   {
-    "name": "Hm-tools",
+    "name": "hm-tools",
     "url": "https://github.com/fhetty/hm-tools",
     "description": "Sammlung von Tools für RaspberryMatic."
   },
   {
-    "name": "Hm_pdetect",
+    "name": "hm_pdetect",
     "url": "https://github.com/jens-maus/hm_pdetect",
     "description": "Anwesenheitserkennung über die FRITZ!-Box"
   },
@@ -225,7 +220,7 @@
   },
   {
     "name": "RedMatic",
-    "url": "https://github.com/HM-RedMatic/RedMatic",
+    "url": "https://github.com/rdmtc/RedMatic",
     "description": "Node-RED als Addon für die Homematic CCU3 und RaspberryMatic. Liefert u.A. komfortable HomeKit-Integration und spezielle Nodes zur Anbindung der CCU an MQTT mit."
   },
   {
@@ -239,37 +234,22 @@
     "description": "Vereinfachter CCU Zugriff via HTTP/XML."
   },
   {
-    "name": "Homebridge-homematic",
-    "url": "https://github.com/thkl/homebridge-homematic",
-    "description": "Supports the Homematic System on HomeBridge Platform."
-  },
-  {
-    "name": "Homematic-Virtual-Interface",
-    "url": "https://github.com/thkl/Homematic-Virtual-Interface",
-    "description": "Virtual Interface for Homematic CCU with plugins to connect other devices to your CCU (e.g. Philips Hue)."
-  },
-  {
-    "name": "Hm2mqtt.js",
-    "url": "https://github.com/hobbyquaker/hm2mqtt.js",
-    "description": "Interface between Homematic and MQTT."
-  },
-  {
-    "name": "Node-red-contrib-ccu",
-    "url": "https://github.com/HM-RedMatic/node-red-contrib-ccu",
+    "name": "node-red-contrib-ccu",
+    "url": "https://github.com/rdmtc/node-red-contrib-ccu",
     "description": "Node-RED Nodes for the Homematic CCU."
   },
   {
-    "name": "Check_homematic",
+    "name": "check_homematic",
     "url": "https://github.com/hobbyquaker/check_homematic",
     "description": "Nagios/Icinga Plugin for checking Homematic CCU."
   },
   {
-    "name": "Hm-simulator",
+    "name": "hm-simulator",
     "url": "https://github.com/hobbyquaker/hm-simulator",
     "description": "Simulates (partly) a Homematic CCU."
   },
   {
-    "name": "Hmcfgusb",
+    "name": "hmcfgusb",
     "url": "https://git.zerfleddert.de/cgi-bin/gitweb.cgi/hmcfgusb",
     "description": "Utilities to use the HM-CFG-USB(2) on Linux/Unix."
   },
@@ -279,12 +259,12 @@
     "description": "Converter between BINRPC and XMLRPC."
   },
   {
-    "name": "Homematic-manager",
+    "name": "homematic-manager",
     "url": "https://github.com/hobbyquaker/homematic-manager",
     "description": "Manage homematic interface processes (rfd/hs485d/homegear)."
   },
   {
-    "name": "Language-homematic",
+    "name": "language-homematic",
     "url": "https://github.com/Ayngush/language-homematic",
     "description": "Adds syntax highlighting and snippets to HomeMatic Script files in Atom."
   },
@@ -294,32 +274,37 @@
     "description": "Automated System Tests of ReGaHss - the HomeMatic (O)CCU \"Logic Layer\"."
   },
   {
-    "name": "Binrpc",
+    "name": "binrpc",
     "url": "https://github.com/hobbyquaker/binrpc",
     "description": "Xmlrpc_bin protocol client and server Node.js module."
   },
   {
-    "name": "Homematic-rega",
+    "name": "hm-discover",
+    "url": "https://github.com/hobbyquaker/hm-discover",
+    "description": "Node.js module to discover Homematic CCUs and interfaces."
+  },
+  {
+    "name": "homematic-rega",
     "url": "https://github.com/hobbyquaker/homematic-rega",
     "description": "Node.js Homematic CCU ReGaHSS Remote Script Interface."
   },
   {
-    "name": "Homematicip-rest-api",
+    "name": "homematicip-rest-api",
     "url": "https://github.com/coreGreenberet/homematicip-rest-api",
     "description": "Python wrapper for the homematicIP REST API (Cloud / Access Point Based)."
   },
   {
-    "name": "Homematic-xmlrpc",
+    "name": "homematic-xmlrpc",
     "url": "https://github.com/hobbyquaker/homematic-xmlrpc",
     "description": "Xmlrpc client and server Node.js module."
   },
   {
-    "name": "Pmatic",
+    "name": "pmatic",
     "url": "https://github.com/LarsMichelsen/pmatic",
     "description": "Python API for Homematic. Easy to use."
   },
   {
-    "name": "Pyhomematic",
+    "name": "pyhomematic",
     "url": "https://github.com/danielperna84/pyhomematic",
     "description": "Python 3 Interface to interact with Homematic devices."
   },
@@ -338,7 +323,7 @@
   },
   {
     "name": "ioBroker",
-    "url": "http://www.iobroker.net/?lang=de"
+    "url": "https://www.iobroker.net/?lang=de"
   },
   {
     "name": "IP-Symcon",
@@ -362,5 +347,15 @@
     "name": "Tablet Wallmount",
     "url": "https://homematic-forum.de/forum/viewtopic.php?f=18&t=49421",
     "description": "Rahmen für Unterputzmontage von Tablets."
+  },
+  {
+    "name": "Ersatzteil für Heizkörperthermostat",
+    "url": "https://www.thingiverse.com/thing:3522194",
+    "description": "stl Datei für 3D Druck"
+  },
+  {
+    "name": "Gehäuse für RaspberryPi mit RFI-RF-MOD",
+    "url": "https://www.thingiverse.com/thing:3117290",
+    "description": "stl Datei für 3D Druck"
   }
 ]
