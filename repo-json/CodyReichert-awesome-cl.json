@@ -269,11 +269,6 @@
     "description": "A JNI-based interface to a JVM via CFFI. Not available on Quicklisp. Does not reliably work with all implementations. Expat."
   },
   {
-    "name": "Foil",
-    "url": "http://foil.sourceforge.net/",
-    "description": "A foreign object interface; works with the JVM and CLI. Not available on Quicklisp. CPL 1.0."
-  },
-  {
     "name": "objc-lisp-bridge",
     "url": "https://github.com/fiddlerwoaroof/objc-lisp-bridge",
     "description": " A portable reader and bridge for interacting with Objective-C and Cocoa. MIT."
@@ -297,6 +292,16 @@
     "name": "cl-python",
     "url": "https://github.com/metawilm/cl-python",
     "description": "an implementation of Python in Common Lisp. LLGPL."
+  },
+  {
+    "name": "Bike",
+    "url": "https://github.com/Lovesan/bike",
+    "description": "a cross-platform .Net Core interface. MIT."
+  },
+  {
+    "name": "Foil",
+    "url": "http://foil.sourceforge.net/",
+    "description": "A foreign object interface; works with the JVM and CLI. Not available on Quicklisp. CPL 1.0."
   },
   {
     "name": "Xelf",
@@ -557,11 +562,6 @@
     "description": "a modern, simple and consistent string manipulation library. MIT."
   },
   {
-    "name": "trivial-types",
-    "url": "https://github.com/m2ym/trivial-types",
-    "description": "Trivial type definitions. LLGPL."
-  },
-  {
     "name": "interface",
     "url": "https://bitbucket.org/tarballs_are_good/interface",
     "description": "A protocol library. 3-clause BSD."
@@ -609,7 +609,7 @@
   {
     "name": "generic-cl",
     "url": "https://github.com/alex-gutev/generic-cl/",
-    "description": "Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). MIT."
+    "description": "Generic function interface to standard Common Lisp functions (equality, comparison, arithmetic, objects, iterator, sequences,…). MIT. See also the more lightweight generic-comparability. LLGPL."
   },
   {
     "name": "pythonic-string-reader",
@@ -684,7 +684,7 @@
   {
     "name": "Practical Common Lisp",
     "url": "http://www.gigamonkeys.com/book/",
-    "description": "A good introductory text to Common Lisp, with practical examples. (better read with a Firefox add-on)"
+    "description": "A good introductory text to Common Lisp, with practical examples."
   },
   {
     "name": "Common LISP: A Gentle Introduction to Symbolic Computation",
@@ -919,7 +919,7 @@
   },
   {
     "name": "babel2",
-    "url": "http://emergent-languages.org/Babel2/",
+    "url": "https://github.com/lucas8/Babel2/",
     "description": "A Fluid Construction Grammar implementation, computational framework, and unification-based grammar formalism Apache2.0."
   },
   {
@@ -1634,6 +1634,11 @@
     "description": "General purpose validation library for Common Lisp. MIT."
   },
   {
+    "name": "repl-utilities",
+    "url": "https://github.com/m-n/repl-utilities",
+    "description": "Ease"
+  },
+  {
     "name": "sphinxcontrib-cldomain",
     "url": "https://github.com/russell/sphinxcontrib-cldomain",
     "description": "Extending Sphinx to cover Common Lisp. To build documentation with"
@@ -1652,6 +1657,11 @@
     "name": "cl-bibtex",
     "url": "https://github.com/mkoeppe/cl-bibtex",
     "description": "A compatible re-implementation of the BibTeX program in Common Lisp, with a BST-to-CL compiler. GNU LGPL2.1."
+  },
+  {
+    "name": "mgl-pax",
+    "url": "https://github.com/melisgl/mgl-pax",
+    "description": "Exploratory"
   },
   {
     "name": "osicat",
