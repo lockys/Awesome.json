@@ -280,6 +280,11 @@
     "description": "Cross-platform asynchronous I/O. [BSD]"
   },
   {
+    "name": "promise-cpp",
+    "url": "https://github.com/xhawk18/promise-cpp",
+    "description": "Header only library that implements Promise/A+ standard. [Anti-996]"
+  },
+  {
     "name": "uvw",
     "url": "https://github.com/skypjack/uvw",
     "description": "C++ wrapper for libuv. [MIT]"
@@ -298,6 +303,11 @@
     "name": "libsndfile",
     "url": "https://github.com/erikd/libsndfile/",
     "description": "C library with C++ wrapper for reading and writing files containing sampled sound through one standard library interface. [LGPL-2.1] website"
+  },
+  {
+    "name": "libsoundio",
+    "url": "https://github.com/andrewrk/libsoundio",
+    "description": "C library for cross-platform real-time audio input and output. [MIT] website"
   },
   {
     "name": "Maximilian",
@@ -353,6 +363,11 @@
     "name": "minimp3",
     "url": "https://github.com/lieff/minimp3",
     "description": "Public domain, header-only MP3 decoder with clean-room implementation. [CC0]"
+  },
+  {
+    "name": "Verovio",
+    "url": "https://github.com/rism-ch/verovio",
+    "description": "Verovio is a fast and lightweight music notation engraving library. [LGPL] website"
   },
   {
     "name": "Wav2Letter++",
@@ -488,6 +503,11 @@
     "name": "termbox",
     "url": "https://github.com/nsf/termbox",
     "description": "A C library for writing text-based user interfaces. [MIT]"
+  },
+  {
+    "name": "bit7z",
+    "url": "https://github.com/rikyoz/bit7z",
+    "description": "A C++ static library offering a clean and simple interface to the 7-zip DLLs. [GPLv2]"
   },
   {
     "name": "Brotli",
@@ -745,6 +765,36 @@
     "description": "A powerful C++ coroutine dispatcher framework built on top of boost::coroutines2."
   },
   {
+    "name": "inih",
+    "url": "https://github.com/benhoyt/inih",
+    "description": "Simple .INI file parser in C, good for embedded systems. [BSD-3-Clause]"
+  },
+  {
+    "name": "inih",
+    "url": "https://github.com/jtilly/inih",
+    "description": "Single header only C++ version of inih. [BSD-3-Clause]"
+  },
+  {
+    "name": "iniparser",
+    "url": "https://github.com/ndevilla/iniparser",
+    "description": "INI file parser. [MIT]"
+  },
+  {
+    "name": "libconfig",
+    "url": "https://github.com/hyperrealm/libconfig",
+    "description": "C, C++ library for processing structured configuration files. [LGPL-2.1] website"
+  },
+  {
+    "name": "libconfuse",
+    "url": "https://github.com/martinh/libconfuse",
+    "description": "Small configuration file parser library for C. [ISC]"
+  },
+  {
+    "name": "simpleini",
+    "url": "https://github.com/brofield/simpleini",
+    "description": "Cross-platform C++ library providing a simple API to read and write INI-style configuration files. [MIT]"
+  },
+  {
     "name": "C++ B-tree",
     "url": "https://code.google.com/p/cpp-btree/",
     "description": "A template library that implements ordered in-memory containers based on a B-tree data structure. [Apache2]"
@@ -848,11 +898,6 @@
     "name": "Libgcrypt",
     "url": "http://www.gnu.org/software/libgcrypt/",
     "description": "A general purpose cryptographic library originally based on code from GnuPG. [LGPLv2.1+]"
-  },
-  {
-    "name": "libhydrogen",
-    "url": "https://github.com/jedisct1/libhydrogen",
-    "description": "A lightweight, secure, easy-to-use crypto library for constrained environments. [ISC]"
   },
   {
     "name": "LibreSSL",
@@ -1110,6 +1155,11 @@
     "description": "The CMake test driver program. [BSD]"
   },
   {
+    "name": "dbg-macro",
+    "url": "https://github.com/sharkdp/dbg-macro",
+    "description": "A dbg(…) macro for C++. [MIT]"
+  },
+  {
     "name": "Deleaker",
     "url": "http://www.deleaker.com",
     "description": "A tool for resource leak detection, including memory, GDI and handle leaks."
@@ -1195,6 +1245,21 @@
     "description": "Visual Leak Detector. A free, robust, open-source memory leak detection system for Visual C++."
   },
   {
+    "name": "Fontconfig",
+    "url": "https://gitlab.freedesktop.org/fontconfig/fontconfig",
+    "description": "Font configuration and customization library. [MIT] website"
+  },
+  {
+    "name": "FreeType",
+    "url": "https://www.freetype.org/",
+    "description": "FreeType is a freely available software library to render fonts. [FTL & GPLv2]"
+  },
+  {
+    "name": "otfcc",
+    "url": "https://github.com/caryll/otfcc",
+    "description": "A C library and utility used for parsing and writing OpenType font files. [Apache-2.0]"
+  },
+  {
     "name": "Acid",
     "url": "https://github.com/Equilibrium-Games/Acid",
     "description": "A high speed C++17 Vulkan game engine. [MIT]"
@@ -1218,6 +1283,11 @@
     "name": "Cocos2d-x",
     "url": "http://www.cocos2d-x.org/",
     "description": "A multi-platform framework for building 2d games, interactive books, demos and other graphical applications. [MIT]"
+  },
+  {
+    "name": "Corange",
+    "url": "https://github.com/orangeduck/Corange",
+    "description": "A game engine written in pure C, SDL and OpenGL. [BSD]"
   },
   {
     "name": "delta3d",
@@ -1301,13 +1371,18 @@
   },
   {
     "name": "toy engine",
-    "url": "https://toyengine.io/",
+    "url": "https://github.com/hugoam/toy",
     "description": "toy is a thin and modular c++ game engine and offers simple expressive c++ idioms to design full featured 2D or 3D games in fast iterations."
   },
   {
     "name": "Urho3D",
     "url": "https://urho3d.github.io/",
     "description": "A free lightweight, cross-platform 2D and 3D game engine implemented in C++. Greatly inspired by OGRE and Horde3D. [MIT]"
+  },
+  {
+    "name": "Boden",
+    "url": "https://github.com/AshampooSystems/boden",
+    "description": "Native, mobile, cross-platform GUI Framework. [GPL/LGPL/Commercial] website"
   },
   {
     "name": "CEGUI",
@@ -1470,6 +1545,11 @@
     "description": "Simple C++ geometry processing library. [MPL2]"
   },
   {
+    "name": "LLGL",
+    "url": "https://github.com/LukasBanana/LLGL",
+    "description": "Low Level Graphics Library (LLGL) is a thin abstraction layer for the modern graphics APIs. [BSD-3-Clause]"
+  },
+  {
     "name": "magnum",
     "url": "https://github.com/mosra/magnum",
     "description": "Lightweight and modular C++11/C++14 graphics middleware for games and data visualization. [MIT] website"
@@ -1573,6 +1653,11 @@
     "name": "ITK",
     "url": "http://www.itk.org/",
     "description": "An open-source, cross-platform system for image analysis. [Apache2 from ITK 4.0]"
+  },
+  {
+    "name": "Leptonica",
+    "url": "https://github.com/DanBloomberg/leptonica",
+    "description": "Leptonica is an open source library containing software that is broadly useful for image processing and image analysis applications. [BSD-2-Clause] website"
   },
   {
     "name": "libfacedetection",
@@ -1681,8 +1766,8 @@
   },
   {
     "name": "Cap'n Proto",
-    "url": "http://kentonv.github.io/capnproto/",
-    "description": "Fast data interchange format and capability-based RPC system. [MIT]"
+    "url": "https://github.com/capnproto/capnproto",
+    "description": "Fast data interchange format and capability-based RPC system. [MIT] website"
   },
   {
     "name": "gRPC",
@@ -1733,6 +1818,11 @@
     "name": "Boost.PropertyTree",
     "url": "http://www.boost.org/doc/libs/1_55_0/doc/html/property_tree.html",
     "description": "A property tree parser/generator that can be used to parse XML/JSON/INI/Info files. [Boost]"
+  },
+  {
+    "name": "cJSON",
+    "url": "https://github.com/DaveGamble/cJSON",
+    "description": "Ultralightweight JSON parser in ANSI C. [MIT]"
   },
   {
     "name": "frozen",
@@ -1820,6 +1910,11 @@
     "description": "Universal configuration library parser [BSD-2-Clause]"
   },
   {
+    "name": "parson",
+    "url": "https://github.com/kgabis/parson",
+    "description": "Parson is a lighweight json library written in C. [MIT]"
+  },
+  {
     "name": "PicoJSON",
     "url": "https://github.com/kazuho/picojson",
     "description": "A header-file-only, JSON parser serializer in C++. [BSD]"
@@ -1843,6 +1938,11 @@
     "name": "sajson",
     "url": "https://github.com/chadaustin/sajson",
     "description": "Lightweight, extremely high-performance JSON parser for C++11. [MIT]"
+  },
+  {
+    "name": "simdjson",
+    "url": "https://github.com/lemire/simdjson",
+    "description": "Extremely fast JSON library that can parse gigabytes of JSON per second. [Apache-2.0]"
   },
   {
     "name": "taoJSON",
@@ -1872,7 +1972,7 @@
   {
     "name": "Easylogging++",
     "url": "https://github.com/easylogging/easyloggingpp",
-    "description": "Single header only, extremely light-weight high performance logging library for C++11 (or higher) applications. [MIT] website"
+    "description": "Extremely light-weight high performance logging library for C++11 (or higher) applications. [MIT] website"
   },
   {
     "name": "G3log",
@@ -1935,6 +2035,11 @@
     "description": "C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library. [BSD]"
   },
   {
+    "name": "darknet",
+    "url": "https://github.com/pjreddie/darknet",
+    "description": "Open source neural network framework written in C and CUDA. [PublicDomain] website"
+  },
+  {
     "name": "Dlib ⚡️",
     "url": "https://github.com/davisking/dlib",
     "description": "A modern C++11 machine learning, computer vision, numerical optimization, and deep learning toolkit. [Boost] website"
@@ -1948,6 +2053,11 @@
     "name": "flashlight",
     "url": "https://github.com/facebookresearch/flashlight",
     "description": "A fast, flexible machine learning library from Facebook AI Research written entirely in C++ and based on the ArrayFire tensor library. [BSD-3-Clause] website"
+  },
+  {
+    "name": "libsvm",
+    "url": "https://github.com/cjlin1/libsvm",
+    "description": "A simple, easy-to-use, efficient library for Support Vector Machines. [BSD-3-Clause] website"
   },
   {
     "name": "MeTA",
@@ -2085,11 +2195,6 @@
     "description": "muParser is an extensible high performance math expression parser library written in C++. [MIT]"
   },
   {
-    "name": "NT2",
-    "url": "https://github.com/Mathieu-/nt2",
-    "description": "A SIMD-optimized numerical template library that provides an interface with MATLAB-like syntax. [Boost]"
-  },
-  {
     "name": "LibTomMath",
     "url": "https://github.com/libtom/libtommath",
     "description": "A free open source portable number theoretic multiple-precision integer library written entirely in C. [PublicDomain & WTFPL] website"
@@ -2188,6 +2293,11 @@
     "name": "mimalloc",
     "url": "https://github.com/microsoft/mimalloc",
     "description": "A compact general purpose allocator with excellent performance. [MIT]"
+  },
+  {
+    "name": "tgc",
+    "url": "https://github.com/orangeduck/tgc",
+    "description": "A tiny garbage collector for C written in ~500 LOC. [BSD]"
   },
   {
     "name": "GStreamer",
@@ -2305,6 +2415,11 @@
     "description": "An object oriented C++ wrapper for CURL(libcurl). [MIT]"
   },
   {
+    "name": "DPDK",
+    "url": "https://github.com/DPDK/dpdk",
+    "description": "Data Plane Development Kit, libraries and drivers for fast packet processing. [BSD-3-Clause & GPL-2.0] website"
+  },
+  {
     "name": "Dyad.c",
     "url": "https://github.com/rxi/dyad",
     "description": "Asynchronous networking for C. [MIT]"
@@ -2330,6 +2445,11 @@
     "description": "A http request/response parser for C. [MIT]"
   },
   {
+    "name": "KCP",
+    "url": "https://github.com/skywind3000/kcp/blob/master/README.en.md",
+    "description": "A fast and reliable ARQ protocol that helps applications to reduce network latency. [MIT]"
+  },
+  {
     "name": "libcurl",
     "url": "http://curl.haxx.se/libcurl/",
     "description": "Multiprotocol file transfer library. [MIT/X derivate license]"
@@ -2338,11 +2458,6 @@
     "name": "libhttpserver",
     "url": "https://github.com/etr/libhttpserver",
     "description": "C++ library for creating an embedded Rest HTTP server (and more). [LGPL2.1]"
-  },
-  {
-    "name": "libjingle",
-    "url": "https://code.google.com/p/libjingle/",
-    "description": "Google talk voice and P2P interoperability library. [BSD]"
   },
   {
     "name": "Libmicrohttpd",
@@ -2403,6 +2518,11 @@
     "name": "Onion",
     "url": "https://github.com/davidmoreno/onion",
     "description": "HTTP server library in C designed to be lightweight and easy to use. [Apache2/GPL2]"
+  },
+  {
+    "name": "PF_RING™",
+    "url": "https://github.com/ntop/PF_RING",
+    "description": "High-speed packet processing framework. [LGPL-2.1] website"
   },
   {
     "name": "PicoHTTPParser",
@@ -2595,6 +2715,11 @@
     "description": "Header-only C++17 library provides static reflection for enums (to string, from string, iteration), work with any enum type without any macro or boilerplate code. [MIT]"
   },
   {
+    "name": "magic_get",
+    "url": "https://github.com/apolukhin/magic_get",
+    "description": "std::tuple like methods for user defined types without any macro or boilerplate code. [Boost]"
+  },
+  {
     "name": "meta",
     "url": "https://github.com/skypjack/meta",
     "description": "Header-only, non-intrusive and macro-free runtime reflection system in C++. [MIT]"
@@ -2686,8 +2811,8 @@
   },
   {
     "name": "RobWork",
-    "url": "http://www.robwork.dk/apidoc/nightly/rw/index.html",
-    "description": "A collection of C++ libraries for simulation and control of robot systems. [Apache2]"
+    "url": "https://gitlab.com/sdurobotics/RobWork",
+    "description": "A collection of C++ libraries for simulation and control of robot systems. [Apache2] website"
   },
   {
     "name": "ROS",
@@ -2839,9 +2964,19 @@
     "url": "https://github.com/Microsoft/ChakraCore"
   },
   {
+    "name": "Bitsery",
+    "url": "https://github.com/fraillt/bitsery",
+    "description": "Header only C++ binary serialization library. [MIT]"
+  },
+  {
     "name": "Bond",
     "url": "https://github.com/Microsoft/bond",
     "description": "An open source, cross-platform framework for working with schematized data. [MIT]"
+  },
+  {
+    "name": "Cap'n Proto",
+    "url": "https://github.com/capnproto/capnproto",
+    "description": "Fast data interchange format and capability-based RPC system. [MIT] website"
   },
   {
     "name": "cereal",
@@ -3318,7 +3453,7 @@
   },
   {
     "name": "Open WatCom",
-    "url": "http://www.openwatcom.org/index.php/Main_Page",
+    "url": "https://github.com/open-watcom",
     "description": "Watcom C, C++, and Fortran cross compilers and tools. [Sybase Open Watcom Public License]"
   },
   {
@@ -3365,11 +3500,6 @@
     "name": "Rextester",
     "url": "http://rextester.com/runcode",
     "description": "Online compiler which provides several compilers(Clang, GCC, MSVC) and several editors."
-  },
-  {
-    "name": "Rise4Fun",
-    "url": "http://webcompiler.cloudapp.net/",
-    "description": "Online Visual C++ compiler."
   },
   {
     "name": "Try It Online",
@@ -3473,7 +3603,7 @@
   },
   {
     "name": "juCi++",
-    "url": "https://github.com/cppit/jucipp",
+    "url": "https://gitlab.com/cppit/jucipp",
     "description": "Cross-platform, lightweight C++ IDE with libclang integration. [MIT]"
   },
   {
@@ -3508,7 +3638,7 @@
   },
   {
     "name": "YouCompleteMe",
-    "url": "https://valloric.github.io/YouCompleteMe/",
+    "url": "https://github.com/ycm-core/YouCompleteMe",
     "description": "YouCompleteMe is a fast, as-you-type, fuzzy-search code completion engine for Vim."
   },
   {
@@ -3697,8 +3827,13 @@
     "description": "Clang-based C++ linter tool."
   },
   {
+    "name": "EditorConfig",
+    "url": "https://editorconfig.org/",
+    "description": "EditorConfig helps maintain consistent coding styles across different editors and IDEs."
+  },
+  {
     "name": "Uncrustify",
-    "url": "https://github.com/bengardner/uncrustify",
+    "url": "https://github.com/uncrustify/uncrustify",
     "description": "Code beautifier."
   },
   {
@@ -3733,6 +3868,11 @@
     "name": "CppCon 2014 Presentation Materials",
     "url": "https://github.com/CppCon/CppCon2014",
     "description": "CppCon 2014 Presentation Materials."
+  },
+  {
+    "name": "C++Now 2019 Presentations",
+    "url": "https://github.com/boostcon/cppnow_presentations_2019",
+    "description": "Presentation materials presented at C++Now 2019."
   },
   {
     "name": "C++Now 2018 Presentations",

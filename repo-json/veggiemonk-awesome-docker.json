@@ -302,11 +302,6 @@
     "description": "Reconfigures Prometheus when a new service is updated or deployed automatically by @vfarcic"
   },
   {
-    "name": "Docker-Fluentd",
-    "url": "https://github.com/kiyoto/docker-fluentd",
-    "description": "Docker container to Log Other Containers' Logs. One can aggregate the logs of Docker containers running on the same host using Fluentd by @kiyoto"
-  },
-  {
     "name": "Dockerana 💀",
     "url": "https://github.com/dockerana/dockerana",
     "description": "packaged version of Graphite and Grafana, specifically targeted at metrics from Docker."
@@ -333,7 +328,7 @@
   },
   {
     "name": "Grafana Docker Dashboard Template",
-    "url": "https://grafana.com/dashboards/179",
+    "url": "https://grafana.com/grafana/dashboards/179",
     "description": "A template for your Docker, Grafana and Prometheus stack @vegasbrianc"
   },
   {
@@ -350,6 +345,11 @@
     "name": "Logspout",
     "url": "https://github.com/gliderlabs/logspout",
     "description": "Log routing for Docker container logs by @gliderlabs"
+  },
+  {
+    "name": "monit-docker",
+    "url": "https://github.com/decryptus/monit-docker",
+    "description": "Monitor docker containers resources usage or status and execute docker commands or inside containers. [@decryptus][decryptus]"
   },
   {
     "name": "NexClipper",
@@ -389,7 +389,7 @@
   {
     "name": "Freeflow",
     "url": "https://github.com/Microsoft/Freeflow",
-    "description": "High performance container overlay networks on Linux. Enabling RDMA (on both InfiniBand and RoCE) and accelerating TCP to bare metal performance. [@microsoft][https://github.com/Microsoft/]"
+    "description": "High performance container overlay networks on Linux. Enabling RDMA (on both InfiniBand and RoCE) and accelerating TCP to bare metal performance. By @Microsoft"
   },
   {
     "name": "netshoot",
@@ -572,7 +572,7 @@
   },
   {
     "name": "ZEIT Now 💲",
-    "url": "https://github.com/zeit/now-cli",
+    "url": "https://github.com/zeit/now",
     "description": "A universal serverless single-command deploy for Node.js applications or any application with a Dockerfile."
   },
   {
@@ -867,6 +867,11 @@
     "description": "Get inside a running docker container easily. by @iamsoorena"
   },
   {
+    "name": "lazydocker",
+    "url": "https://github.com/jesseduffield/lazydocker",
+    "description": "The lazier way to manage everything docker. A simple terminal UI for both docker and docker-compose, written in Go with the gocui library. By @jesseduffield"
+  },
+  {
     "name": "MultiDocker",
     "url": "https://github.com/marty90/multidocker",
     "description": "Create a secure multi-user Docker machine, where each user is segregated into an indepentent container."
@@ -875,6 +880,11 @@
     "name": "ns-enter",
     "url": "https://github.com/jpetazzo/nsenter",
     "description": "no more ssh, enter name spaces of container by @jpetazzo"
+  },
+  {
+    "name": "Pdocker",
+    "url": "https://github.com/g31s/Pdocker",
+    "description": "A simple tool to manage and maintain Docker for personal projects by @g31s"
   },
   {
     "name": "Powerline-Docker",
@@ -903,7 +913,7 @@
   },
   {
     "name": "supdock",
-    "url": "https://github.com/segersniels/supdock-ts",
+    "url": "https://github.com/segersniels/supdock",
     "description": "Allows for slightly more visual usage of Docker with an interactive prompt. By @segersniels"
   },
   {
@@ -998,7 +1008,7 @@
   },
   {
     "name": "Theia",
-    "url": "https://github.com/theia-ide/theia",
+    "url": "https://github.com/eclipse-theia/theia",
     "description": "Extensible platform to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies."
   },
   {
@@ -1146,6 +1156,11 @@
     "description": "Proof of Concept: A Client Driven Docker Image Builder by @jlhawn"
   },
   {
+    "name": "essex",
+    "url": "https://github.com/utensils/essex",
+    "description": "Boilerplate for Docker Based Projects: Essex is a CLI utility written in bash to quickly setup clean and consistent Docker projects with Makefile driven workflows. @jamesbrink"
+  },
+  {
     "name": "HPC Container Maker",
     "url": "https://github.com/NVIDIA/hpc-container-maker",
     "description": "Generates Dockerfiles from a high level Python recipe, including building blocks for High-Performance Computing components by @NVIDIA"
@@ -1181,6 +1196,11 @@
     "description": "Apache Mesos framework for building Docker images by @duedil-ltd"
   },
   {
+    "name": "Production-Ready Python Containers 💲",
+    "url": "https://pythonspeed.com/products/pythoncontainer/",
+    "description": "A template for creating production-ready Docker images for Python applications."
+  },
+  {
     "name": "runlike",
     "url": "https://github.com/lavie/runlike",
     "description": "Generate docker runcommand and options from running containers by @lavie"
@@ -1214,6 +1234,10 @@
     "name": "chaperone-docker",
     "url": "https://github.com/garywiz/chaperone-docker",
     "description": "A set of images using the Chaperone process manager, including a lean Alpine image, LAMP, LEMP, and bare-bones base kits."
+  },
+  {
+    "name": "Dockerfile Generator dfg is both a Go library and an executable that produces valid Dockerfiles using various input channels.",
+    "url": "https://github.com/ozankasikci/dockerfile-generator"
   },
   {
     "name": "Dockerfile Generator",
@@ -1733,7 +1757,7 @@
   },
   {
     "name": "Apache OpenWhisk",
-    "url": "https://github.com/apache/incubator-openwhisk",
+    "url": "https://github.com/apache/openwhisk",
     "description": "a serverless, open source cloud platform that executes functions in response to events at any scale. By @apache"
   },
   {
@@ -1812,9 +1836,9 @@
     "description": "Command line interface written in Go for running code with Docker Exec images."
   },
   {
-    "name": "docker-do",
-    "url": "https://github.com/benzaita/docker-do",
-    "description": "hassle-free docker run, like env but for docker by @benzaita"
+    "name": "dockerized",
+    "url": "https://github.com/benzaita/dockerized-cli",
+    "description": "Seamlessly execute commands in a container."
   },
   {
     "name": "Dray",
@@ -1942,7 +1966,7 @@
   },
   {
     "name": "Mesosphere DC/OS 💲",
-    "url": "https://mesosphere.com/product/",
+    "url": "https://d2iq.com/solutions/mesosphere",
     "description": "Integrated platform for data and containers built on Apache Mesos by @mesosphere"
   },
   {
@@ -2034,6 +2058,11 @@
     "description": "use the tag docker"
   },
   {
+    "name": "Docker packaging guide for Python",
+    "url": "https://pythonspeed.com/docker/",
+    "description": "a series of detailed articles on the specifics of Docker packaging for Python."
+  },
+  {
     "name": "Awesome CI/CD",
     "url": "https://github.com/ciandcd/awesome-ciandcd",
     "description": "Not specific to docker but relevant."
@@ -2073,7 +2102,7 @@
   },
   {
     "name": "Docker vs. VMs? Combining Both for Cloud Portability Nirvana",
-    "url": "https://blogs.flexera.com/cloud/cloud-management-best-practices/docker-vs-vms-combining-both-for-cloud-portability-nirvana/"
+    "url": "https://www.flexera.com/blog/cloud/2014/09/docker-vs-vms-combining-both-for-cloud-portability-nirvana/"
   },
   {
     "name": "Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files by @King Chung Huang",

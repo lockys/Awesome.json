@@ -45,6 +45,11 @@
     "description": "The Model layer for Meteor"
   },
   {
+    "name": "cultofcoders:grapher",
+    "url": "https://github.com/cult-of-coders/grapher",
+    "description": "Grapher: Meteor Collection Joins + Reactive GraphQL like queries"
+  },
+  {
     "name": "simple:rest",
     "url": "https://github.com/stubailo/meteor-rest",
     "description": "automatically make your Meteor app accessible over HTTP and DDP alike."
@@ -125,22 +130,83 @@
     "description": "payment gateway for Instamojo"
   },
   {
-    "name": "When a Meteor finally hits production",
-    "url": "https://medium.com/@davidyahalomi/when-a-meteor-finally-hits-production-6c37b81f795b",
-    "description": "Blog post about deploying Meteor apps"
+    "name": "Meteor Candy",
+    "url": "https://www.meteorcandy.com/",
+    "description": "Fastest and easier way to add an admin panel to your app"
   },
   {
-    "name": "BulletProof Meteor",
-    "url": "https://bulletproofmeteor.com/"
+    "name": "yogiben:admin",
+    "url": "https://github.com/yogiben/meteor-admin",
+    "description": "A complete admin dashboard solution"
+  },
+  {
+    "name": "houston:admin",
+    "url": "https://github.com/gterrono/houston",
+    "description": "A zero-config, Django Admin-like admin for Meteor"
+  },
+  {
+    "name": "kschingiz:meteor-elastic-apm",
+    "url": "https://github.com/kschingiz/meteor-elastic-apm",
+    "description": "Perfomance Monitoring for Meteor based on Elastic APM"
+  },
+  {
+    "name": "monti-apm-agent",
+    "url": "https://github.com/monti-apm/monti-apm-agent",
+    "description": "Performance Monitoring for Meteor"
   },
   {
     "name": "meteorhacks:kadira",
     "url": "https://github.com/meteorhacks/kadira",
-    "description": "Performance Monitoring for Meteor."
+    "description": "Performance Monitoring for Meteor"
+  },
+  {
+    "name": "cultofcoders:redis-oplog",
+    "url": "https://github.com/cult-of-coders/redis-oplog",
+    "description": "Redis Oplog implementation to fully replace MongoDB Oplog in Meteor"
+  },
+  {
+    "name": "staringatlights:fast-render",
+    "url": "https://github.com/abecks/meteor-fast-render",
+    "description": "An active fork of fast-render"
+  },
+  {
+    "name": "meteorhacks:fast-render",
+    "url": "https://github.com/kadirahq/fast-render",
+    "description": "Render you app even before the DDP connection is live"
+  },
+  {
+    "name": "epotek:method-cache",
+    "url": "https://github.com/e-Potek/method-cache",
+    "description": "Meteor method caching using DataLoader"
   },
   {
     "name": "meteor-up – Meteor Deployments.",
     "url": "https://github.com/arunoda/meteor-up"
+  },
+  {
+    "name": "meteor-google-cloud",
+    "url": "https://github.com/EducationLink/meteor-google-cloud",
+    "description": "Automate Meteor deployments on Google Cloud App Engine Flexible"
+  },
+  {
+    "name": "mup-aws-beanstalk",
+    "url": "https://github.com/zodern/mup-aws-beanstalk",
+    "description": "Deploy Meteor apps to AWS Elastic Beanstalk using Meteor Up"
+  },
+  {
+    "name": "meteor-azure",
+    "url": "https://github.com/fractal-code/meteor-azure",
+    "description": "Automate Meteor deployments on Azure App Service"
+  },
+  {
+    "name": "pm2-meteor",
+    "url": "https://github.com/andruschka/pm2-meteor",
+    "description": "Simplest way to deploy, scale and run Meteor Apps with PM2."
+  },
+  {
+    "name": "meteorhacks:cluster",
+    "url": "https://github.com/meteorhacks/cluster",
+    "description": "Clustering solution for Meteor with load balancing and service discovery"
   },
   {
     "name": "davidyaha:collection2-migrations",
@@ -153,44 +219,14 @@
     "description": "Simple migration system for Meteor"
   },
   {
-    "name": "meteorhacks:fast-render",
-    "url": "https://github.com/kadirahq/fast-render",
-    "description": "Render you app even before the DDP connection is live"
-  },
-  {
-    "name": "staringatlights:fast-render",
-    "url": "https://github.com/abecks/meteor-fast-render",
-    "description": "An active fork of fast-render"
-  },
-  {
-    "name": "meteorhacks:cluster",
-    "url": "https://github.com/meteorhacks/cluster",
-    "description": "Clustering solution for Meteor with load balancing and service discovery"
-  },
-  {
-    "name": "yogiben:admin",
-    "url": "https://github.com/yogiben/meteor-admin",
-    "description": "A complete admin dashboard solution"
-  },
-  {
     "name": "demeteorizer",
     "url": "https://github.com/onmodulus/demeteorizer",
     "description": "Converts a Meteor app into a \"standard\" Node.js application"
   },
   {
-    "name": "houston:admin",
-    "url": "https://github.com/gterrono/houston",
-    "description": "A zero-config, Django Admin-like admin for Meteor"
-  },
-  {
-    "name": "pm2-meteor",
-    "url": "https://github.com/andruschka/pm2-meteor",
-    "description": "Simplest way to deploy, scale and run Meteor Apps with PM2."
-  },
-  {
-    "name": "kschingiz:meteor-elastic-apm",
-    "url": "https://github.com/kschingiz/meteor-elastic-apm",
-    "description": "Perfomance Monitoring for Meteor based on Elastic APM"
+    "name": "When a Meteor finally hits production",
+    "url": "https://medium.com/@davidyahalomi/when-a-meteor-finally-hits-production-6c37b81f795b",
+    "description": "Blog post about deploying Meteor apps"
   },
   {
     "name": "iron:router",
@@ -223,12 +259,22 @@
     "description": "GroundDB is a thin layer providing Meteor offline database and methods."
   },
   {
+    "name": "npdev:collections",
+    "url": "https://github.com/CaptainN/npdev-collections",
+    "description": "An easy way to create offline collections with SSR for Meteor"
+  },
+  {
     "name": "Meteor Testing Manual",
     "url": "http://www.meteortesting.com/"
   },
   {
     "name": "mike:mocha – Run mocha tests within the Meteor framework.",
     "url": "https://github.com/mad-eye/meteor-mocha-web/"
+  },
+  {
+    "name": "hubroedu:mocha",
+    "url": "https://github.com/hubroedu/meteor-mocha/",
+    "description": "Decaffed cultofcoders:mocha fork."
   },
   {
     "name": "xolvio:chimp",
@@ -249,11 +295,6 @@
     "name": "ostrio:spiderable-middleware",
     "url": "https://github.com/VeliovGroup/spiderable-middleware/",
     "description": "Prerendering (a.k.a. Spiderable) with support of ES6 (ECMAScript2015) - Meteor app crawled perfectly by search engines."
-  },
-  {
-    "name": "Meteor-CollectionFS",
-    "url": "https://github.com/CollectionFS/Meteor-CollectionFS",
-    "description": "Meteor webbased filesystem handling up and downloads."
   },
   {
     "name": "ostrio:files",
@@ -358,6 +399,11 @@
     "name": "okgrow:analytics",
     "url": "https://github.com/okgrow/analytics/",
     "description": "Google Analytics, Mixpanel, KISSmetrics (and more) integration for meteor."
+  },
+  {
+    "name": "msavin:sjobs",
+    "url": "https://github.com/msavin/stevejobs/",
+    "description": "A Meteor-first jobs queue / task scheduler"
   },
   {
     "name": "percolate:synced-cron",
@@ -485,6 +531,51 @@
     "url": "https://rocket.chat/"
   },
   {
+    "name": "React",
+    "url": "http://react-in-meteor.readthedocs.org/en/latest/",
+    "description": "Working with React and Meteor"
+  },
+  {
+    "name": "Vue",
+    "url": "https://github.com/Akryum/meteor-vue-component",
+    "description": "Working with Vue and Meteor (plus single-file components & apollo support)"
+  },
+  {
+    "name": "Svelte",
+    "url": "https://github.com/meteor-svelte/meteor-svelte",
+    "description": "Build cybernetically enhanced web apps with Meteor and Svelte"
+  },
+  {
+    "name": "Angular 2",
+    "url": "https://github.com/Urigo/angular2-meteor",
+    "description": "Working with Angular 2 and Meteor"
+  },
+  {
+    "name": "Angular",
+    "url": "https://github.com/Urigo/angular-meteor",
+    "description": "Working with Angular and Meteor"
+  },
+  {
+    "name": "Famo.us",
+    "url": "https://github.com/gadicc/meteor-famous-views/",
+    "description": "Famo.us and Meteor"
+  },
+  {
+    "name": "frozeman:build-client",
+    "url": "https://github.com/frozeman/meteor-build-client",
+    "description": "A tool to bundle the client part of a Meteor app."
+  },
+  {
+    "name": "Asteroid",
+    "url": "https://github.com/mondora/asteroid",
+    "description": "An alternative client for a Meteor backend"
+  },
+  {
+    "name": "ddp.js",
+    "url": "https://github.com/mondora/ddp.js",
+    "description": "Isomorphic JavaScript DDP client"
+  },
+  {
     "name": "meteor-pg",
     "url": "https://github.com/Richie765/meteor-pg",
     "description": "New and improved PostgreSQL support for Meteor"
@@ -522,6 +613,10 @@
     "url": "https://github.com/awatson1978/meteor-cookbook"
   },
   {
+    "name": "Secure Meteor",
+    "url": "https://www.securemeteor.com/"
+  },
+  {
     "name": "EventedMind",
     "url": "https://www.eventedmind.com/"
   },
@@ -545,7 +640,7 @@
   },
   {
     "name": "MeteorTuts",
-    "url": "http://meteortuts.com/"
+    "url": "http://meteor-tuts.com/"
   },
   {
     "name": "Building a CMS-powered blog in Meteor",
@@ -670,5 +765,15 @@
   {
     "name": "We Work Meteor",
     "url": "https://www.weworkmeteor.com/"
+  },
+  {
+    "name": "Qualia",
+    "url": "https://www.qualia.com/",
+    "description": "Real Estate Startup"
+  },
+  {
+    "name": "Code Signal",
+    "url": "https://codesignal.com/",
+    "description": "Skills-based assessment platform"
   }
 ]

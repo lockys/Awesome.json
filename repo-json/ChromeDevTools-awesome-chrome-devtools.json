@@ -5,19 +5,14 @@
     "description": "Large collection of tips as animated gifs."
   },
   {
-    "name": "Chrome DevTools App",
-    "url": "https://github.com/auchenberg/chrome-devtools-app",
-    "description": "Standalone app which can inspect various targets."
+    "name": "DevTools Snippets",
+    "url": "https://github.com/bahmutov/code-snippets",
+    "description": "Collection of snippets."
   },
   {
     "name": "DevTools Remote",
     "url": "https://github.com/auchenberg/devtools-remote",
     "description": "Remotely debug someone else's browser."
-  },
-  {
-    "name": "DevTools Snippets",
-    "url": "https://github.com/bahmutov/code-snippets",
-    "description": "Collection of snippets."
   },
   {
     "name": "immutable-devtools",
@@ -28,6 +23,11 @@
     "name": "betwixt",
     "url": "https://github.com/kdzwinel/betwixt",
     "description": "System level network proxy, providing inspection via Network panel."
+  },
+  {
+    "name": "Weer",
+    "url": "https://weerdbg.com/",
+    "description": "A HTTP protocol debugger (closed source)"
   },
   {
     "name": "call-trace",
@@ -57,17 +57,32 @@
   {
     "name": "VS Code",
     "url": "https://github.com/Microsoft/vscode-chrome-debug/",
-    "description": "Debugger for Chrome - Chrome Debugger for Visual Studio Code."
+    "description": "Debugger for Chrome - Breakpoint debugging in VS Code."
+  },
+  {
+    "name": "VS Code",
+    "url": "https://github.com/microsoft/vscode-edge-devtools",
+    "description": "Elements for Microsoft Edge - Elements panel inside VS Code."
+  },
+  {
+    "name": "ChromeREPL",
+    "url": "https://github.com/acarabott/ChromeREPL",
+    "description": "Within Sublime Text, use the Chrome console."
   },
   {
     "name": "Sublime Web Inspector",
     "url": "http://sokolovstas.github.io/SublimeWebInspector/",
-    "description": "Debug JavaScript right in the Sublime Text editor."
+    "description": "JavaScript Breakpoint debugging right in Sublime Text."
   },
   {
-    "name": "WebStorm & JetBrains Chrome Extension",
+    "name": "WebStorm/JetBrains Chrome Extension",
     "url": "https://www.jetbrains.com/help/webstorm/2017.1/configuring-javascript-debugger-and-jetbrains-chrome-extension.html",
     "description": "The WebStorm IDE can debug JavaScript, view the DOM tree, and edit HTML, CSS and JS live."
+  },
+  {
+    "name": "ChromeDevTools/devtools-protocol",
+    "url": "https://github.com/chromedevtools/devtools-protocol",
+    "description": "Canonical location of the protocol JSON. Issue tracker for protocol bugs. TypeScript types."
   },
   {
     "name": "DevTools Protocol API Docs",
@@ -75,9 +90,14 @@
     "description": "Easy browsable UI for exploring the protocol's domains, methods and events."
   },
   {
-    "name": "ChromeDevTools/devtools-protocol",
-    "url": "https://github.com/chromedevtools/devtools-protocol",
-    "description": "Issue tracker for protocol bugs."
+    "name": "chrome-remote-interface Wiki",
+    "url": "https://github.com/cyrus-and/chrome-remote-interface/wiki",
+    "description": "Many useful recipes."
+  },
+  {
+    "name": "Chrome Protocol Proxy",
+    "url": "https://github.com/wendigo/chrome-protocol-proxy",
+    "description": "Tool for debugging clients using devtools protocol."
   },
   {
     "name": "Remote Debug Gateway",
@@ -100,14 +120,31 @@
     "description": "The official Selenium/WebDriver implementation for Chrome is implemented on top of the DevTools Protocol."
   },
   {
-    "name": "Chrome Protocol Proxy",
-    "url": "https://github.com/wendigo/chrome-protocol-proxy",
-    "description": "Tool for debugging clients using devtools protocol."
-  },
-  {
     "name": "Puppeteer",
     "url": "https://github.com/GoogleChrome/puppeteer/",
     "description": "Node.js offering a high-level API to control headless Chrome over the DevTools Protocol."
+  },
+  {
+    "name": "Python port: pyppeteer",
+    "url": "https://github.com/miyakogi/pyppeteer"
+  },
+  {
+    "name": "Rust port: Rust Headless Chrome",
+    "url": "https://github.com/atroche/rust-headless-chrome/"
+  },
+  {
+    "name": ".NET port: Puppeteer Sharp",
+    "url": "https://github.com/kblok/puppeteer-sharp"
+  },
+  {
+    "name": "headless-devtools",
+    "url": "https://github.com/cowchimp/headless-devtools",
+    "description": "Puppeteer plugin to get CSS Coverage or JS Heap snapshot."
+  },
+  {
+    "name": "Taiko",
+    "url": "https://github.com/getgauge/taiko/",
+    "description": "A Node.js module to automate the chrome/chromium using DevTools protocol."
   },
   {
     "name": "JavaScript/Node.js: chrome-remote-interface",
@@ -116,58 +153,53 @@
   },
   {
     "name": "TypeScript/Node.js: chrome-debugging-client",
-    "url": "https://github.com/krisselden/chrome-debugging-client",
-    "description": "A TypeScript async/await-friendly debugging client"
+    "url": "https://github.com/krisselden/chrome-debugging-client"
   },
   {
-    "name": "Java: cdp4j",
-    "url": "https://github.com/webfolderio/cdp4j",
-    "description": "Java library for CDP"
+    "name": "Java: chrome-devtools-java-client",
+    "url": "https://github.com/kklisura/chrome-devtools-java-client"
   },
   {
     "name": "Java: karate",
     "url": "https://intuit.github.io/karate/karate-core/",
-    "description": "Web-service testing framework with a Java API to automate Chrome with the CDP protocol"
+    "description": "Web-service testing framework with a Java API to automate Chrome"
   },
   {
-    "name": "Python: PyChromeDevTools",
-    "url": "https://github.com/marty90/PyChromeDevTools",
-    "description": "Python wrapper for Google Chrome Dev Protocol"
+    "name": "Python: PyCDP",
+    "url": "https://github.com/hyperiongray/python-chrome-devtools-protocol",
+    "description": "Pure-Python, sans-IO wrappers. See also the Trio CDP driver"
   },
   {
     "name": "Python: chromewhip",
     "url": "https://github.com/chuckus/chromewhip",
-    "description": "Python 3 asyncio driver to manage concurrent requests to Google Chrome Devtools endpoints"
+    "description": "drop-in replacement for the splash service"
   },
   {
     "name": "Python: pychrome",
     "url": "https://github.com/fate0/pychrome",
-    "description": "A Python Package for the Google Chrome Dev Protocol"
+    "description": "low level CDP transport handler"
   },
   {
-    "name": "Rust: Rust Headless Chrome",
-    "url": "https://github.com/atroche/rust-headless-chrome/",
-    "description": "An implementation of Puppeteer in Rust"
+    "name": "Python: ChromeController",
+    "url": "https://github.com/fake-name/ChromeController",
+    "description": "high-level browser mgmt"
   },
   {
     "name": "Go: chromedp",
     "url": "https://github.com/chromedp/chromedp",
-    "description": "High-level actions and tasks for driving browsers using the Chrome DevTools Protocol in Go"
+    "description": "High-level actions and tasks for driving browsers"
   },
   {
     "name": "Go: cdp",
-    "url": "https://github.com/mafredri/cdp",
-    "description": "A Golang library for the protocol"
+    "url": "https://github.com/mafredri/cdp"
   },
   {
     "name": "Go: gcd",
-    "url": "https://github.com/wirepair/gcd",
-    "description": "A different client library in Go"
+    "url": "https://github.com/wirepair/gcd"
   },
   {
     "name": "Go: godet",
-    "url": "https://github.com/raff/godet",
-    "description": "Also different, also Go."
+    "url": "https://github.com/raff/godet"
   },
   {
     "name": "C#/dotnet: chrome-dev-tools",
@@ -175,9 +207,13 @@
     "description": "Protocol wrapper generator that can be customized by editing handlebars templates. Includes .Net Core template."
   },
   {
+    "name": "Ruby: Cuprite",
+    "url": "https://github.com/machinio/cuprite",
+    "description": "Capybara driver"
+  },
+  {
     "name": "Ruby: ChromeRemote",
-    "url": "https://github.com/cavalle/chrome_remote/",
-    "description": "A client implementation of the Chrome DevTools Protocol in Ruby"
+    "url": "https://github.com/cavalle/chrome_remote/"
   },
   {
     "name": "Kotlin: chrome-reactive-kotlin",
@@ -187,56 +223,12 @@
   {
     "name": "Clojure: clj-chrome-devtools",
     "url": "https://github.com/tatut/clj-chrome-devtools",
-    "description": "A Clojure library for the protocol. The CDP wrapper API is autogenerated and will be updated when CDP protocol changes."
+    "description": "The CDP wrapper API is autogenerated and will be updated when CDP protocol changes."
   },
   {
     "name": "PHP: chrome-devtools-protocol",
     "url": "https://github.com/jakubkulhan/chrome-devtools-protocol",
     "description": "A PHP client library for the protocol."
-  },
-  {
-    "name": "chrome-remote-interface Wiki",
-    "url": "https://github.com/cyrus-and/chrome-remote-interface/wiki",
-    "description": "Many useful recipes."
-  },
-  {
-    "name": "Getting Started with Headless Chrome",
-    "url": "https://developers.google.com/web/updates/2017/04/headless-chrome"
-  },
-  {
-    "name": "crmux",
-    "url": "https://github.com/sidorares/crmux",
-    "description": "Multiplexes protocol connections."
-  },
-  {
-    "name": "automated-chrome-profiling",
-    "url": "https://github.com/paulirish/automated-chrome-profiling#readme",
-    "description": "Node.js recipes for automating JavaScript profiling in Chrome."
-  },
-  {
-    "name": "chrome-devtools-frontend",
-    "url": "https://www.npmjs.com/package/chrome-devtools-frontend",
-    "description": "Mirror of the frontend that ships in Chrome."
-  },
-  {
-    "name": "chrome-timeline-model",
-    "url": "https://www.npmjs.com/package/devtools-timeline-model",
-    "description": "Uses frontend as lib to process profiling data."
-  },
-  {
-    "name": "headless-devtools",
-    "url": "https://github.com/cowchimp/headless-devtools",
-    "description": "Perform various DevTools actions from code (e.g. get CSS Coverage, JS Heap snapshot). Uses Puppeteer + frontend as lib."
-  },
-  {
-    "name": "crconsole",
-    "url": "https://github.com/sidorares/crconsole",
-    "description": "Terminal based chrome console and debugger."
-  },
-  {
-    "name": "sloth",
-    "url": "https://github.com/denar90/sloth",
-    "description": "Chrome extension allows to enable and save CPU and network throttling for selected tabs."
   },
   {
     "name": "Remote Debug Firefox adapter",
@@ -256,17 +248,17 @@
   {
     "name": "IE Diagnostics Adapter",
     "url": "https://github.com/Microsoft/IEDiagnosticsAdapter",
-    "description": "Protocol adaptor for Microsoft IE 10/11 to CDP."
-  },
-  {
-    "name": "Edge Diagnostics Adaptor",
-    "url": "https://github.com/Microsoft/edge-diagnostics-adaptor",
-    "description": "Protocol adaptor that enables tools to debug Edge using the CDP."
+    "description": "Protocol adaptor for Microsoft IE 11 to CDP."
   },
   {
     "name": "Facebook Stetho",
     "url": "https://github.com/facebook/stetho",
     "description": "Native Android debugging with Chrome DevTools."
+  },
+  {
+    "name": "j2v8-debugger",
+    "url": "https://github.com/AlexTrotsenko/j2v8-debugger",
+    "description": "Debugging JavaScript running in J2V8 with Chrome DevTools."
   },
   {
     "name": "Dirac",
@@ -288,19 +280,24 @@
     "url": "https://github.com/allada/go-debugger-devtools"
   },
   {
+    "name": "ndb",
+    "url": "https://github.com/GoogleChromeLabs/ndb",
+    "description": "An improved Node.js debugging experience with the DevTools Frontend."
+  },
+  {
     "name": "Debugging Node.js with Chrome DevTools",
     "url": "https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27",
     "description": "Guide on using the full debugging and profiling support in Node v6.3+."
   },
   {
-    "name": "devtool",
-    "url": "https://github.com/Jam3/devtool",
-    "description": "Debug & profile Node.js apps with Chrome DevTools (using Electron)."
+    "name": "thetool",
+    "url": "https://github.com/sfninja/thetool",
+    "description": "CPU, memory, coverage, type profiling with Node."
   },
   {
-    "name": "buggerJS",
-    "url": "https://github.com/buggerjs/bugger",
-    "description": "Provides Chrome DevTools bindings for node."
+    "name": "chrome-devtools-frontend",
+    "url": "https://www.npmjs.com/package/chrome-devtools-frontend",
+    "description": "Mirror of the frontend that ships in Chrome."
   },
   {
     "name": "Chromelens",
@@ -401,5 +398,10 @@
     "name": "Chrome React Perf",
     "url": "https://chrome.google.com/webstore/detail/react-perf/hacmcodfllhbnekmghgdlplbdnahmhmm",
     "description": "An Operation Interface for react-addons-perf Package."
+  },
+  {
+    "name": "sloth",
+    "url": "https://github.com/denar90/sloth",
+    "description": "Chrome extension allows to enable and save CPU and network throttling for selected tabs."
   }
 ]
