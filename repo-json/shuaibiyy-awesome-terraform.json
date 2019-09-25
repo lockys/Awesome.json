@@ -69,6 +69,10 @@
     "url": "http://shop.oreilly.com/product/0636920039297.do"
   },
   {
+    "name": "Terraform in Action",
+    "url": "https://www.manning.com/books/terraform-in-action"
+  },
+  {
     "name": "A Comprehensive Guide to Terraform",
     "url": "https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca#.w9x897ywp",
     "description": "Series of blog posts from the author of \"Terraform: Up & Running\" that guide the reader from beginning with Terraform to using it in the real world."
@@ -173,11 +177,6 @@
     "description": "Explanation of a demo using Terraform to provision a sample AWS architecture."
   },
   {
-    "name": "terraform-aws-modules",
-    "url": "https://github.com/terraform-aws-modules",
-    "description": "Collection of Terraform AWS modules supported by the community (includes official AWS modules)."
-  },
-  {
     "name": "rancher-terraform-digitalocean",
     "url": "https://github.com/lunagt/rancher-terraform-digitalocean",
     "description": "Rancher server on digitalocean."
@@ -186,6 +185,21 @@
     "name": "segmentio/stack",
     "url": "https://github.com/segmentio/stack",
     "description": "Configures production infrastructure with AWS, Docker, and ECS."
+  },
+  {
+    "name": "terraform-aws-alb",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-alb",
+    "description": "Created Application load-balancer on AWS (verified module)."
+  },
+  {
+    "name": "terraform-aws-atlantis",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-atlantis",
+    "description": "Creates Terraform configurations for running Atlantis on AWS Fargate. Github, Gitlab and BitBucket are supported."
+  },
+  {
+    "name": "terraform-aws-autoscaling",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-autoscaling",
+    "description": "Creates Auto-Scaling Groups and Launch Configurations (verified module)."
   },
   {
     "name": "terraform-aws-ecr",
@@ -198,6 +212,16 @@
     "description": "Defines an EFS Filesystem."
   },
   {
+    "name": "terraform-aws-eks",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
+    "description": "Creates Elastic Kubernetes Service on AWS (very popular module)."
+  },
+  {
+    "name": "terraform-aws-elb",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-elb",
+    "description": "Created Elastic load-balancer on AWS (verified module)."
+  },
+  {
     "name": "terraform-aws-jenkins",
     "url": "https://github.com/cloudposse/terraform-aws-jenkins",
     "description": "Build a Docker image with Jenkins, saves it to an ECR repo, and deploys it to Elastic Beanstalk running a Docker stack."
@@ -208,9 +232,19 @@
     "description": "Automatically Generate SSH Key Pairs (Public/Private Keys)."
   },
   {
+    "name": "terraform-aws-modules",
+    "url": "https://github.com/terraform-aws-modules",
+    "description": "Collection of Terraform AWS modules supported by the community (includes official AWS modules)."
+  },
+  {
     "name": "terraform-aws-postgresql-rds",
     "url": "https://github.com/azavea/terraform-aws-postgresql-rds",
     "description": "Creates PostgreSQL on RDS."
+  },
+  {
+    "name": "terraform-aws-rds",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-rds",
+    "description": "Creates RDS resources on AWS (verified module)."
   },
   {
     "name": "terraform-aws-secure-baseline",
@@ -218,9 +252,49 @@
     "description": "Set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations."
   },
   {
+    "name": "terraform-aws-security-group",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-security-group",
+    "description": "Creates EC2-VPC security groups on AWS (verified module)."
+  },
+  {
     "name": "terraform-aws-ssh-bastion-service",
     "url": "https://github.com/joshuamkite/terraform-aws-ssh-bastion-service",
     "description": "Terraform plan to deploy ssh bastion as a stateless service on AWS."
+  },
+  {
+    "name": "terraform-aws-vpc",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc",
+    "description": "Creates VPC resources on AWS (verified and very popular module)."
+  },
+  {
+    "name": "terraform-azurerm-aks",
+    "url": "https://github.com/kjanshair/terraform-azurerm-aks",
+    "description": "Create AKS resoutces on Azure."
+  },
+  {
+    "name": "terraform-azurerm-iis",
+    "url": "https://github.com/ghostinthewires/terraform-azurerm-iis-install",
+    "description": "Install IIS Server on Azure VM instance."
+  },
+  {
+    "name": "terraform-azurerm-mysql",
+    "url": "https://github.com/foreverXZC/terraform-azurerm-mysql",
+    "description": "Create MySql Database on Azure."
+  },
+  {
+    "name": "terraform-azurerm-redis",
+    "url": "https://github.com/rahulkhengare/terraform-azurerm-redis",
+    "description": "Create Redis on Azure."
+  },
+  {
+    "name": "terraform-azurerm-sqlserver",
+    "url": "https://github.com/metadevpro/terraform-azurerm-sqlserver-seed",
+    "description": "Create SQl Server Database on Azure."
+  },
+  {
+    "name": "terraform-digitalocean-droplet",
+    "url": "https://registry.terraform.io/modules/terraform-digitalocean-modules/droplet/digitalocean",
+    "description": "Terraform module for managing DigitalOcean Droplets and related resources."
   },
   {
     "name": "terraform-ecs-jenkins",
@@ -231,6 +305,11 @@
     "name": "terraform-google-project-factory",
     "url": "https://github.com/terraform-google-modules/terraform-google-project-factory",
     "description": "Opinionated Google Cloud Platform project creation and configuration with Shared VPC, IAM, APIs, etc."
+  },
+  {
+    "name": "terraform-linode-k8s",
+    "url": "https://registry.terraform.io/modules/linode/k8s/linode/",
+    "description": "Installs Kubernetes on Linode Instances."
   },
   {
     "name": "terraform-static-website-s3-cloudfront",
@@ -256,81 +335,6 @@
     "name": "tf_aws_nat",
     "url": "https://github.com/terraform-community-modules/tf_aws_nat",
     "description": "NAT instances for AWS."
-  },
-  {
-    "name": "terraform-aws-atlantis",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-atlantis",
-    "description": "Creates Terraform configurations for running Atlantis on AWS Fargate. Github, Gitlab and BitBucket are supported."
-  },
-  {
-    "name": "terraform-aws-vpc",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc",
-    "description": "Creates VPC resources on AWS (verified and very popular module)."
-  },
-  {
-    "name": "terraform-aws-autoscaling",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-autoscaling",
-    "description": "Creates Auto-Scaling Groups and Launch Configurations (verified module)."
-  },
-  {
-    "name": "terraform-aws-alb",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-alb",
-    "description": "Created Application load-balancer on AWS (verified module)."
-  },
-  {
-    "name": "terraform-aws-elb",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-elb",
-    "description": "Created Elastic load-balancer on AWS (verified module)."
-  },
-  {
-    "name": "terraform-aws-eks",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-eks",
-    "description": "Creates Elastic Kubernetes Service on AWS (very popular module)."
-  },
-  {
-    "name": "terraform-aws-rds",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-rds",
-    "description": "Creates RDS resources on AWS (verified module)."
-  },
-  {
-    "name": "terraform-aws-security-group",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-security-group",
-    "description": "Creates EC2-VPC security groups on AWS (verified module)."
-  },
-  {
-    "name": "terraform-azurerm-aks",
-    "url": "https://github.com/kjanshair/terraform-azurerm-aks",
-    "description": "Create AKS resoutces on Azure."
-  },
-  {
-    "name": "terraform-azurerm-redis",
-    "url": "https://github.com/rahulkhengare/terraform-azurerm-redis",
-    "description": "Create Redis on Azure."
-  },
-  {
-    "name": "terraform-azurerm-mysql",
-    "url": "https://github.com/foreverXZC/terraform-azurerm-mysql",
-    "description": "Create MySql Database on Azure."
-  },
-  {
-    "name": "terraform-azurerm-sqlserver",
-    "url": "https://github.com/metadevpro/terraform-azurerm-sqlserver-seed",
-    "description": "Create SQl Server Database on Azure."
-  },
-  {
-    "name": "terraform-azurerm-iis",
-    "url": "https://github.com/ghostinthewires/terraform-azurerm-iis-install",
-    "description": "Install IIS Server on Azure VM instance."
-  },
-  {
-    "name": "terraform-digitalocean-droplet",
-    "url": "https://registry.terraform.io/modules/terraform-digitalocean-modules/droplet/digitalocean",
-    "description": "Terraform module for managing DigitalOcean Droplets and related resources."
-  },
-  {
-    "name": "terraform-linode-k8s",
-    "url": "https://registry.terraform.io/modules/linode/k8s/linode/",
-    "description": "Installs Kubernetes on Linode Instances."
   },
   {
     "name": "anthology",
@@ -473,6 +477,11 @@
     "description": "Provider for Azure DevOps (VSTS)."
   },
   {
+    "name": "terraform-provider-snowfake",
+    "url": "https://github.com/chanzuckerberg/terraform-provider-snowflake",
+    "description": "Provider for Snowflake data warehouse"
+  },
+  {
     "name": "kitchen-terraform",
     "url": "https://github.com/newcontext-oss/kitchen-terraform",
     "description": "Provides a set of Test Kitchen plugins which enable a system to use Test Kitchen to converge a Terraform configuration and verify the resulting Terraform state with InSpec controls."
@@ -513,6 +522,11 @@
     "description": "Interactive visualizations of Terraform dependency graphs."
   },
   {
+    "name": "fogg",
+    "url": "https://github.com/chanzuckerberg/fogg",
+    "description": "A tool for eliminating toil in managing terraform repositories."
+  },
+  {
     "name": "geopoiesis",
     "url": "https://docs.geopoiesis.io/manual/",
     "description": "Specialized continuous integration and deployment tool for modern declarative infrastructure provisioning and management."
@@ -551,6 +565,11 @@
     "name": "python-terrafile",
     "url": "https://github.com/claranet/python-terrafile",
     "description": "Systematically manage external modules from Github for use in Terraform."
+  },
+  {
+    "name": "prettyplan",
+    "url": "https://github.com/chrislewisdev/prettyplan",
+    "description": "Prettyplan (available online here) is a small tool to help you view large Terraform plans with ease."
   },
   {
     "name": "ruby-terraform",
@@ -826,6 +845,10 @@
   {
     "name": "Intellij",
     "url": "https://plugins.jetbrains.com/plugin/7808-hashicorp-terraform--hcl-language-support"
+  },
+  {
+    "name": "Terraform-lsp (Language Server Protocol for Terraform)",
+    "url": "https://github.com/juliosueiras/terraform-lsp"
   },
   {
     "name": "Vim-Terraform",

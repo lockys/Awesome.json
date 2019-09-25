@@ -85,9 +85,9 @@
     "description": "A rapid application development framework (CP)."
   },
   {
-    "name": "Laravel 5",
+    "name": "Laravel 6",
     "url": "https://laravel.com/",
-    "description": "Another PHP framework (L5)."
+    "description": "Another PHP framework (L6)."
   },
   {
     "name": "Nette",
@@ -115,9 +115,9 @@
     "description": "Another PHP framework."
   },
   {
-    "name": "Zend Framework 2",
-    "url": "https://framework.zend.com",
-    "description": "Another framework comprised of individual components (ZF2)."
+    "name": "Zend Framework 3",
+    "url": "https://framework.zend.com/learn",
+    "description": "A framework comprised of individual components (ZF3)."
   },
   {
     "name": "Ice",
@@ -194,7 +194,7 @@
     "description": "The components that make Symfony."
   },
   {
-    "name": "Zend Framework 2 Components",
+    "name": "Zend Framework Components",
     "url": "https://docs.zendframework.com/",
     "description": "The components that make Zend Framework."
   },
@@ -217,6 +217,11 @@
     "name": "Slim",
     "url": "https://www.slimframework.com/",
     "description": "Another simple micro framework."
+  },
+  {
+    "name": "Expressive",
+    "url": "https://getexpressive.org/",
+    "description": "A micro-framework by Zend."
   },
   {
     "name": "Silex Skeleton",
@@ -339,11 +344,6 @@
     "description": "A comprehensive HTTP client."
   },
   {
-    "name": "HTTPFul",
-    "url": "https://github.com/nategood/httpful",
-    "description": "A chainable HTTP client."
-  },
-  {
     "name": "HTTPlug",
     "url": "http://httplug.io",
     "description": "An HTTP client abstraction without binding to a specific implementation."
@@ -364,6 +364,11 @@
     "description": "A library to ease creation of REST API clients."
   },
   {
+    "name": "Symfony HTTP Client",
+    "url": "https://github.com/symfony/http-client",
+    "description": "A component to fetch HTTP resources synchronously or asynchronously."
+  },
+  {
     "name": "zend-diactoros",
     "url": "https://github.com/zendframework/zend-diactoros",
     "description": "PSR-7 HTTP Message implementation."
@@ -377,6 +382,11 @@
     "name": "Goutte",
     "url": "https://github.com/FriendsOfPHP/Goutte",
     "description": "A simple web scraper."
+  },
+  {
+    "name": "Symfony Panther",
+    "url": "https://github.com/symfony/panther",
+    "description": "A browser testing and web crawling library for PHP and Symfony."
   },
   {
     "name": "PHP Spider",
@@ -604,11 +614,6 @@
     "description": "A full stack testing framework."
   },
   {
-    "name": "DBUnit",
-    "url": "https://github.com/sebastianbergmann/dbunit",
-    "description": "A database testing library for PHPUnit."
-  },
-  {
     "name": "Faker",
     "url": "https://github.com/fzaninotto/Faker",
     "description": "A fake data generator library."
@@ -721,11 +726,6 @@
   {
     "name": "Travis CI",
     "url": "https://travis-ci.org/",
-    "description": "A continuous integration platform."
-  },
-  {
-    "name": "Wercker",
-    "url": "https://devcenter.wercker.com/",
     "description": "A continuous integration platform."
   },
   {
@@ -1044,9 +1044,14 @@
     "description": "A benchmarking Framework."
   },
   {
+    "name": "PHPSpy",
+    "url": "https://github.com/adsr/phpspy",
+    "description": "A low-overhead sampling profiler."
+  },
+  {
     "name": "Tideways.io",
     "url": "https://tideways.com/",
-    "description": "Monitoring and profiling tool"
+    "description": "Monitoring and profiling tool."
   },
   {
     "name": "Tracy",
@@ -1070,7 +1075,7 @@
   },
   {
     "name": "Box",
-    "url": "https://github.com/box-project/box2",
+    "url": "https://github.com/humbug/box",
     "description": "A utility to build PHAR files."
   },
   {
@@ -1234,6 +1239,11 @@
     "description": "A reactive extension library."
   },
   {
+    "name": "Swoole",
+    "url": "https://github.com/swoole/swoole-src",
+    "description": "An event-driven asynchronous and concurrent networking communication framework with high performance for PHP written in C."
+  },
+  {
     "name": "Workerman",
     "url": "https://github.com/walkor/Workerman",
     "description": "An event driven non-blocking I/O library."
@@ -1306,7 +1316,12 @@
   {
     "name": "PHPSpreadsheet",
     "url": "https://github.com/PHPOffice/PhpSpreadsheet",
-    "description": "A pure PHP library for reading and writing spreadsheet files (successor of PHPExcel)"
+    "description": "A pure PHP library for reading and writing spreadsheet files (successor of PHPExcel)."
+  },
+  {
+    "name": "Spout",
+    "url": "https://github.com/box/spout",
+    "description": "Read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way ."
   },
   {
     "name": "Atlas.Orm",
@@ -1346,22 +1361,12 @@
   {
     "name": "Eloquent",
     "url": "https://github.com/illuminate/database",
-    "description": "A simple ORM (L5)."
-  },
-  {
-    "name": "LazyRecord",
-    "url": "https://github.com/corneltek/LazyRecord",
-    "description": "A fast ORM designed for simplicity, extendability and performance."
+    "description": "A simple ORM (L6)."
   },
   {
     "name": "Pomm",
     "url": "https://github.com/chanmix51/Pomm",
     "description": "An Object Model Manager for PostgreSQL."
-  },
-  {
-    "name": "Propel",
-    "url": "http://propelorm.org/",
-    "description": "A fast ORM, migration library and query builder."
   },
   {
     "name": "ProxyManager",
@@ -1864,11 +1869,6 @@
     "description": "A simple collections library (CP)."
   },
   {
-    "name": "Collections",
-    "url": "https://github.com/italolelis/collections",
-    "description": "Collections Abstraction library for PHP."
-  },
-  {
     "name": "Fractal",
     "url": "https://github.com/thephpleague/fractal",
     "description": "A library for converting complex data structures to JSON output."
@@ -1967,6 +1967,30 @@
     "name": "Cake I18n",
     "url": "https://github.com/cakephp/i18n",
     "description": "Message translation and localization for dates and numbers (CP)"
+  },
+  {
+    "name": "Bref",
+    "url": "https://bref.sh/",
+    "description": "Serverless PHP on AWS Lambda."
+  },
+  {
+    "name": "OpenWhisk",
+    "url": "http://openwhisk.apache.org/",
+    "description": "An open source serverless cloud platform."
+  },
+  {
+    "name": "Serverless Framework",
+    "url": "https://serverless.com/framework/",
+    "description": "An open source framework for building serverless applications."
+  },
+  {
+    "name": "PHP Dotenv",
+    "url": "https://github.com/vlucas/phpdotenv",
+    "description": "Parse and load environment variables from .env files."
+  },
+  {
+    "name": "Symfony Dotenv- Parse and load environment variables from .env files.",
+    "url": "https://github.com/symfony/dotenv"
   },
   {
     "name": "Amazon Web Service SDK",
@@ -2154,7 +2178,7 @@
   },
   {
     "name": "Symfony VarDumper",
-    "url": "https://symfony.com/doc/current/components/var_dumper.html",
+    "url": "https://github.com/symfony/var-dumper",
     "description": "A variable dumper component (SF)."
   },
   {
@@ -2235,7 +2259,7 @@
   {
     "name": "Hack",
     "url": "https://hacklang.org/",
-    "description": "A programming language for HHVM that interoperates seamlessly with PHP."
+    "description": "A programming language for HHVM."
   },
   {
     "name": "HHVM",
@@ -2554,7 +2578,7 @@
   },
   {
     "name": "Taking PHP Seriously",
-    "url": "https://www.infoq.com/presentations/php-history",
+    "url": "https://www.infoq.com/presentations/php-history/",
     "description": "A talk outlining PHP's strengths by Keith Adams of Facebook."
   },
   {

@@ -60,8 +60,8 @@
     "description": "Dockerfiles for building ros2_java with OpenJDK and Android. "
   },
   {
-    "name": "microROS/docker",
-    "url": "https://github.com/microROS/docker",
+    "name": "micro-ROS/docker",
+    "url": "https://github.com/micro-ROS/docker",
     "description": "Docker-related material to setup, configure and develop with micro-ROS hardware."
   },
   {
@@ -131,7 +131,7 @@
   },
   {
     "name": "vision_opencv",
-    "url": "https://github.com/ros2/vision_opencv",
+    "url": "https://github.com/ros-perception/vision_opencv/tree/ros2",
     "description": "Packages for interfacing ROS2 with OpenCV. "
   },
   {
@@ -195,8 +195,8 @@
     "description": "Probably a grasp library :). "
   },
   {
-    "name": "apriltag2_node",
-    "url": "https://github.com/christianrauch/apriltag2_node",
+    "name": "apriltag_ros",
+    "url": "https://github.com/christianrauch/apriltag_ros",
     "description": "ROS2 node for AprilTag detection. "
   },
   {
@@ -213,6 +213,11 @@
     "name": "ros2-tensorflow",
     "url": "https://github.com/alsora/ros2-tensorflow",
     "description": "ROS2 nodes for computer vision tasks in Tensorflow. "
+  },
+  {
+    "name": "ros2_pytorch",
+    "url": "https://github.com/klintan/ros2_pytorch",
+    "description": "ROS2 nodes for computer vision tasks in PyTorch ."
   },
   {
     "name": "pid",
@@ -265,8 +270,8 @@
     "description": "Autoware.IO provides a heterogeneous hardware reference platform and enables the integration of member company's solutions onto platforms which support the Autoware.Auto and Autoware.AI software stack."
   },
   {
-    "name": "ros2_xmlrpc",
-    "url": "https://github.com/aarushsesto/ros2_xmlrpc",
+    "name": "ros2_xmlrpc_interface",
+    "url": "https://github.com/aarushsesto/ros2_xmlrpc_interface",
     "description": "ros2 interface package with xmlrpc, to communicate with a Sesto server using Sesto API. "
   },
   {
@@ -335,8 +340,13 @@
     "description": "ROS2 node for camera module of Raspberry Pi. "
   },
   {
+    "name": "ros2_track_imu",
+    "url": "https://github.com/klintan/ros2_track_imu",
+    "description": "ROS2 node for TrackIMU IMU sensor."
+  },
+  {
     "name": "HRIM",
-    "url": "https://github.com/erlerobot/HRIM",
+    "url": "https://github.com/AcutronicRobotics/HRIM",
     "description": "A standard interface for robot modules."
   },
   {
@@ -541,7 +551,7 @@
   },
   {
     "name": "Connext DDS",
-    "url": "https://www.rti.com/products/dds",
+    "url": "https://www.rti.com/products/connext-dds-professional",
     "description": "Connectivity Software for Developing and Integrating IIoT Systems. 💲"
   },
   {
@@ -601,7 +611,7 @@
   },
   {
     "name": "NuttX",
-    "url": "https://github.com/microROS/NuttX",
+    "url": "https://github.com/micro-ROS/NuttX",
     "description": "NuttX fork of the official one for use with micro-ROS."
   },
   {
@@ -684,6 +694,11 @@
     "name": "ROS2 Buildfarm",
     "url": "http://build.ros2.org",
     "description": "Build information (Jenkins build farm)."
+  },
+  {
+    "name": "ROS2 CLI cheats sheet",
+    "url": "https://github.com/artivis/ros2_cheats_sheet/blob/master/cli/cli_cheats_sheet.pdf",
+    "description": "A cheats sheet for ROS 2 Command Line Interface."
   },
   {
     "name": "ROS Discourse",
@@ -837,12 +852,62 @@
   },
   {
     "name": "rctf-list",
-    "url": "https://github.com/aliasrobotics/rctf-list",
+    "url": "https://github.com/aliasrobotics/RCTF",
     "description": "A list of Robotics CTF (RCTF) scenarios."
   },
   {
     "name": "Robot Bug Bounty Programs (RBBP)",
     "url": "https://www.aliasrobotics.com/bounties.htm",
     "description": "Report bugs or vulnerabilities and get paid by top robotics companies."
+  },
+  {
+    "name": "Acutronic Robotics",
+    "url": "https://github.com/AcutronicRobotics",
+    "description": "Not existing anymore. Initiators of the Hardware Robot Information Model (HRIM), Hardware Robot Operating System (H-ROS) and creators of the world's first modular industrial robot arm MARA."
+  },
+  {
+    "name": "ADLINK",
+    "url": "https://www.adlinktech.com/en/index.aspx",
+    "description": "\"Leading EDGE COMPUTING\"."
+  },
+  {
+    "name": "Alias Robotics",
+    "url": "https://aliasrobotics.com/",
+    "description": "Products and services in the context of robot cybersecurity."
+  },
+  {
+    "name": "Amazon",
+    "url": "https://github.com/aws-robotics",
+    "description": "Robotics Team of Amazon Amazon Web Services (AWS)."
+  },
+  {
+    "name": "Apex.AI",
+    "url": "https://www.apex.ai/",
+    "description": "\"Safe and certified software for autonomous mobility\"."
+  },
+  {
+    "name": "AutonomouStuff",
+    "url": "https://autonomoustuff.com",
+    "description": "\"The world leader in autonomy systems and solutions\"."
+  },
+  {
+    "name": "Bosch",
+    "url": "https://github.com/boschresearch",
+    "description": "Robotics Team of Bosch Research."
+  },
+  {
+    "name": "Canonical",
+    "url": "https://canonical.com/",
+    "description": "The company behind Ubuntu."
+  },
+  {
+    "name": "Eprosima",
+    "url": "https://www.eprosima.com/",
+    "description": "\"The middleware experts\"."
+  },
+  {
+    "name": "MathWorks",
+    "url": "https://de.mathworks.com/help/ros/index.html",
+    "description": "ROS Toolbox."
   }
 ]

@@ -1,5 +1,30 @@
 [
   {
+    "name": "evm",
+    "url": "https://github.com/rejeep/evm",
+    "description": "Emacs Version Manager."
+  },
+  {
+    "name": "flycheck/emacs-travis",
+    "url": "https://github.com/flycheck/emacs-travis",
+    "description": "Install emacs on Travis CI."
+  },
+  {
+    "name": "npostavs/emacs-travis",
+    "url": "https://github.com/npostavs/emacs-travis",
+    "description": "Pre-built emacs binaries for Travis CI (fork of flycheck/emacs-travis, significant though in that it is used for CI in projects such as Magit)."
+  },
+  {
+    "name": "Silex/docker-emacs",
+    "url": "https://github.com/Silex/docker-emacs",
+    "description": "Run emacs in docker containers (multiple image variants, with options for Ubuntu or Alpine Linux based images)."
+  },
+  {
+    "name": "JAremko/docker-emacs",
+    "url": "https://github.com/JAremko/docker-emacs",
+    "description": "Dockerized emacs with GUI (Mac, Windows, GNU/Linux and your browser)."
+  },
+  {
     "name": "IDO",
     "url": "https://www.emacswiki.org/emacs/InteractivelyDoThings",
     "description": "[built-in] Interactively do things with buffers and files."
@@ -42,7 +67,12 @@
   {
     "name": "awesome-tab",
     "url": "https://github.com/manateelazycat/awesome-tab",
-    "description": "Out of box extension to use tab in Emacs, build-in projectile support and many awesome features."
+    "description": "Out of box extension to use tab in Emacs. grouping buffers by projects and many awesome features."
+  },
+  {
+    "name": "centaur-tabs",
+    "url": "https://github.com/ema2159/centaur-tabs",
+    "description": "Aesthetic, functional tabs plugin with icons and styles, Helm, Ivy and Projectile integration, supported by many popular themes."
   },
   {
     "name": "winner",
@@ -162,7 +192,7 @@
   {
     "name": "general",
     "url": "https://github.com/noctuid/general.el",
-    "description": "A convient, unified interface for key definitions - like use-package but for key-bindings."
+    "description": "A convenient, unified interface for key definitions - like use-package but for key-bindings."
   },
   {
     "name": "Dired",
@@ -216,7 +246,7 @@
   },
   {
     "name": "Sunrise Commander",
-    "url": "https://github.com/escherdragon/sunrise-commander",
+    "url": "https://github.com/sunrise-commander/sunrise-commander",
     "description": "Twin-pane file manager for Emacs based on Dired and inspired by Midnight Commander."
   },
   {
@@ -261,7 +291,7 @@
   },
   {
     "name": "Helm-swoop",
-    "url": "https://github.com/ShingoFukuyama/helm-swoop",
+    "url": "https://github.com/emacsorphanage/helm-swoop",
     "description": "Efficiently jump between matched string/lines."
   },
   {
@@ -781,7 +811,7 @@
   },
   {
     "name": "renpy-mode",
-    "url": "https://github.com/billywade/renpy-mode",
+    "url": "https://github.com/treymerkley/renpy-mode",
     "description": "Emacs major mode for working with the Ren’Py visual novel engine."
   },
   {
@@ -1155,6 +1185,11 @@
     "description": "Major mode for Haskell."
   },
   {
+    "name": "intero",
+    "url": "https://github.com/chrisdone/intero",
+    "description": "Complete interactive development program for Haskell."
+  },
+  {
     "name": "structured-haskell-mode",
     "url": "https://github.com/projectional-haskell/structured-haskell-mode",
     "description": "Minor mode for structured editing of Haskell."
@@ -1170,11 +1205,6 @@
     "description": "Backend to provide e.g. type information with an emacs frontend."
   },
   {
-    "name": "intero",
-    "url": "https://github.com/chrisdone/intero",
-    "description": "Complete interactive development program for Haskell."
-  },
-  {
     "name": "Using Emacs for Haskell development",
     "url": "https://github.com/serras/emacs-haskell-tutorial/blob/master/tutorial.md"
   },
@@ -1182,6 +1212,11 @@
     "name": "swift-mode",
     "url": "https://github.com/swift-emacs/swift-mode",
     "description": "Emacs support for Apple’s Swift programming language."
+  },
+  {
+    "name": "swift-playground-mode",
+    "url": "https://gitlab.com/michael.sanders/swift-playground-mode",
+    "description": "Emacs support for Swift playgrounds."
   },
   {
     "name": "company-sourcekit",
@@ -1202,6 +1237,11 @@
     "name": "sbt-mode",
     "url": "https://github.com/hvesalai/sbt-mode",
     "description": "An emacs mode for interacting with scala sbt and projects."
+  },
+  {
+    "name": "Metals",
+    "url": "https://scalameta.org/metals/docs/editors/emacs.html",
+    "description": "Scala language server with rich IDE features"
   },
   {
     "name": "lua-mode",
@@ -1369,6 +1409,11 @@
     "description": "Robust automatic language detection (e.g. Arabic, Czech, Danish, etc)."
   },
   {
+    "name": "emacs-powerthesaurus",
+    "url": "https://github.com/SavchenkoValeriy/emacs-powerthesaurus",
+    "description": "Powerthesaurus integration for Emacs."
+  },
+  {
     "name": "Org",
     "url": "https://orgmode.org/",
     "description": "[built-in] Write notes, GTD, authoring, publish and wash dishes."
@@ -1410,7 +1455,7 @@
   },
   {
     "name": "helm-org-rifle",
-    "url": "https://github.com/alphapapa/helm-org-rifle",
+    "url": "https://github.com/alphapapa/org-rifle",
     "description": "Rifle through your Org buffers and acquire your target."
   },
   {
@@ -1437,6 +1482,11 @@
     "name": "org-sort-tasks",
     "url": "https://github.com/felipelalli/org-sort-tasks",
     "description": "Functions to keep TODO tasks in orgmode sorted and organized."
+  },
+  {
+    "name": "org-web",
+    "url": "https://github.com/DanielDe/org-web",
+    "description": "Web app for viewing and editing org files online, optimized for mobile use."
   },
   {
     "name": "toc-org",
@@ -1481,7 +1531,12 @@
   {
     "name": "git-gutter",
     "url": "https://github.com/syohex/emacs-git-gutter",
-    "description": "Indicator the modified lines via git diff."
+    "description": "Indicates modified lines via git diff. [Unmaintained, consider using diff-hl instead.]"
+  },
+  {
+    "name": "diff-hl",
+    "url": "https://github.com/dgutov/diff-hl",
+    "description": "Highlights uncommitted changes. Works with several different VC systems. An actively-maintained alternative to git-gutter."
   },
   {
     "name": "git-messenger",
@@ -2023,7 +2078,7 @@
   },
   {
     "name": "ov.el",
-    "url": "https://github.com/ShingoFukuyama/ov.el",
+    "url": "https://github.com/emacsorphanage/ov",
     "description": "Overlay library for Emacs Lisp."
   },
   {
@@ -2075,6 +2130,11 @@
     "name": "pos-tip",
     "url": "https://github.com/tjarvstrand/pos-tip",
     "description": "Show tooltip at point."
+  },
+  {
+    "name": "jeison",
+    "url": "https://github.com/SavchenkoValeriy/jeison",
+    "description": "A library for declarative JSON parsing."
   },
   {
     "name": "powerline",
@@ -2149,7 +2209,7 @@
   {
     "name": "Doom-themes",
     "url": "https://github.com/hlissner/emacs-doom-themes",
-    "description": "(dark) Inspired by the One Dark/Light UI and syntax themes in Atom."
+    "description": "(theme pack) UI plugin and pack of themes extracted from Doom Emacs."
   },
   {
     "name": "Sanityinc-tomorrow",
@@ -2189,6 +2249,21 @@
     "name": "Poet",
     "url": "https://github.com/kunalb/poet",
     "description": "(light/dark) A lightweight theme that plays well with prose and org-mode."
+  },
+  {
+    "name": "Kaolin-themes",
+    "url": "https://github.com/ogdenwebb/emacs-kaolin-themes",
+    "description": "(theme package) Set of eye pleasing themes for GNU Emacs. Supports both GUI and terminal."
+  },
+  {
+    "name": "Wilmersdorf-theme",
+    "url": "https://github.com/ianpan870102/wilmersdorf-emacs-theme",
+    "description": "(dark) Emacs theme with dark subtle syntax highlighting."
+  },
+  {
+    "name": "Tron-Legacy-Theme",
+    "url": "https://github.com/ianpan870102/tron-legacy-emacs-theme",
+    "description": "(dark) Custom theme inspired by Tron: Legacy."
   },
   {
     "name": "mpc",
@@ -2321,14 +2396,9 @@
     "description": "emacs mode for alda, a music programming language for musicians written in java and clojure."
   },
   {
-    "name": "Prelude",
-    "url": "https://github.com/bbatsov/prelude",
-    "description": "Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful."
-  },
-  {
-    "name": "Emacs-live",
-    "url": "https://github.com/overtone/emacs-live",
-    "description": "M-x start-hacking http://overtone.github.io/emacs-live/."
+    "name": "Spacemacs",
+    "url": "https://github.com/syl20bnr/spacemacs",
+    "description": "A slick Evil focused starter kit: do not fear RSI anymore."
   },
   {
     "name": "Purcell’s .emacs.d",
@@ -2336,9 +2406,64 @@
     "description": "An Emacs configuration bundle with batteries included."
   },
   {
+    "name": "Prelude",
+    "url": "https://github.com/bbatsov/prelude",
+    "description": "Prelude is an enhanced Emacs 24 distribution that should make your experience with Emacs both more pleasant and more powerful."
+  },
+  {
+    "name": "Doom",
+    "url": "https://github.com/hlissner/doom-emacs",
+    "description": "Henrik Lissner’s (@hlissner) Emacs configuration for the stubborn martian vimmer."
+  },
+  {
+    "name": "Centaur Emacs",
+    "url": "https://github.com/seagle0128/.emacs.d",
+    "description": "A Fancy and Fast Emacs Configuration."
+  },
+  {
+    "name": "Frontmacs",
+    "url": "https://github.com/thefrontside/frontmacs",
+    "description": "A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution."
+  },
+  {
+    "name": "Scimax",
+    "url": "https://github.com/jkitchin/scimax",
+    "description": "An Emacs starter kit for scientists and engineers with a focus on Org-Mode."
+  },
+  {
+    "name": "Emacs-Live",
+    "url": "https://github.com/overtone/emacs-live",
+    "description": "M-x start-hacking http://overtone.github.io/emacs-live/."
+  },
+  {
+    "name": "Ohai Emacs",
+    "url": "https://github.com/bodil/ohai-emacs",
+    "description": "The finest hand crafted artisanal emacs.d for your editing pleasure."
+  },
+  {
+    "name": "Graphene",
+    "url": "https://github.com/rdallasgray/graphene",
+    "description": "A set of defaults for Emacs, for refugees from GUI text editors."
+  },
+  {
+    "name": "Emacs Bootstrap",
+    "url": "https://github.com/rakanalh/emacs-bootstrap",
+    "description": "Your on-the-fly Emacs development environment!"
+  },
+  {
+    "name": "Ian’s Yay-Evil Distro",
+    "url": "https://github.com/ianpan870102/.emacs.d",
+    "description": "A lightweight literate Emacs config with even better “better defaults”: shipped with a custom theme!"
+  },
+  {
     "name": "Emacs24 Starter Kit",
     "url": "https://github.com/eschulte/emacs24-starter-kit",
     "description": "A cleaner version of the literate starter kit based on Emacs24 http://eschulte.github.io/emacs24-starter-kit/."
+  },
+  {
+    "name": "better-defaults",
+    "url": "https://github.com/technomancy/better-defaults",
+    "description": "A small number of better defaults for Emacs."
   },
   {
     "name": "Oh-My-Emacs",
@@ -2351,129 +2476,12 @@
     "description": "Get the maximum out of emacs http://senny.github.io/cabbage/."
   },
   {
-    "name": "Spacemacs",
-    "url": "https://github.com/syl20bnr/spacemacs",
-    "description": "A slick Evil focused starter kit: do not fear RSI anymore."
+    "name": "In addition, for an excellent selection of personal .emacs.d configurations, take a look at https://github.com/caisah/emacs.dz.",
+    "url": "https://github.com/caisah/emacs.dz"
   },
   {
-    "name": "Graphene",
-    "url": "https://github.com/rdallasgray/graphene",
-    "description": "A set of defaults for Emacs, for refugees from GUI text editors."
-  },
-  {
-    "name": "Ohai Emacs",
-    "url": "https://github.com/bodil/ohai-emacs",
-    "description": "The finest hand crafted artisanal emacs.d for your editing pleasure."
-  },
-  {
-    "name": "Emacs-Bootstrap",
-    "url": "https://github.com/rakanalh/emacs-bootstrap",
-    "description": "Your on-the-fly Emacs development environment!"
-  },
-  {
-    "name": "Scimax",
-    "url": "https://github.com/jkitchin/scimax",
-    "description": "An Emacs starter kit for scientists and engineers with a focus on Org-Mode."
-  },
-  {
-    "name": "Frontmacs",
-    "url": "https://github.com/thefrontside/frontmacs",
-    "description": "A package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution."
-  },
-  {
-    "name": "better-defaults",
-    "url": "https://github.com/technomancy/better-defaults",
-    "description": "A small number of better defaults for Emacs."
-  },
-  {
-    "name": "Centaur Emacs",
-    "url": "https://github.com/seagle0128/.emacs.d",
-    "description": "A Fancy and Fast Emacs Configuration."
-  },
-  {
-    "name": "dot-emacs",
-    "url": "https://github.com/jwiegley/dot-emacs",
-    "description": "John Wiegley (@jwiegley): Lead maintainer of Emacs, use-package."
-  },
-  {
-    "name": "emacs.org",
-    "url": "https://github.com/howardabrams/dot-files/blob/master/emacs.org",
-    "description": "Howard Abrams (@howardabrams)."
-  },
-  {
-    "name": ".emacs.d",
-    "url": "https://github.com/magnars/.emacs.d",
-    "description": "Magnar Sveen (@magnars) : multiple-cursors, dash, expand-region."
-  },
-  {
-    "name": "Sacha.org",
-    "url": "https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org",
-    "description": "Sacha Chua (@sachac)."
-  },
-  {
-    "name": "emacs",
-    "url": "https://github.com/rejeep/emacs/",
-    "description": "Johan Andersson (@rejeep)."
-  },
-  {
-    "name": "doom",
-    "url": "https://github.com/hlissner/doom-emacs",
-    "description": "Henrik Lissner’s (@hlissner) Emacs configuration for the stubborn martian vimmer."
-  },
-  {
-    "name": "emacs.d",
-    "url": "https://github.com/redguardtoo/emacs.d",
-    "description": "Chen Bin (@redguardtoo)."
-  },
-  {
-    "name": "emacs",
-    "url": "https://github.com/defunkt/emacs",
-    "description": "Chris Wanstrath (@defunkt)."
-  },
-  {
-    "name": ".emacs.d",
-    "url": "https://github.com/lunaryorn/old-emacs-configuration",
-    "description": "Sebastian Wiesner (@lunaryorn): Flycheck."
-  },
-  {
-    "name": "home",
-    "url": "https://github.com/grettke/home",
-    "description": "Grant Rhettke (@grettke)."
-  },
-  {
-    "name": "oremacs",
-    "url": "https://github.com/abo-abo/oremacs",
-    "description": "Oleh Krehel (@abo-abo) : Swiper, Ivy, Hydra, Avy."
-  },
-  {
-    "name": ".emacs.d",
-    "url": "https://github.com/kaushalmodi/.emacs.d",
-    "description": "Kaushal Modi (@kaushalmodi)."
-  },
-  {
-    "name": "DotEmacs",
-    "url": "https://github.com/ejmr/DotEmacs",
-    "description": "Eric James Michael Ritz (@ejmr)."
-  },
-  {
-    "name": "emacs-tv-config",
-    "url": "https://github.com/thierryvolpiatto/emacs-tv-config",
-    "description": "Thierry Volpiatto (@thierryvolpiatto) : Helm Maintainer."
-  },
-  {
-    "name": "emacs.el",
-    "url": "https://github.com/jorgenschaefer/Config/blob/master/emacs.el",
-    "description": "Jorgen Schäfer (@jorgenschaefer) : Elpy, Circe."
-  },
-  {
-    "name": "emacs",
-    "url": "https://github.com/joedicastro/dotfiles/tree/master/emacs",
-    "description": "Joe di Castro @joedicastro."
-  },
-  {
-    "name": "emacs.d",
-    "url": "https://github.com/julienfantin/.emacs.d",
-    "description": "Julien Fantin : use-package, good config organisation system."
+    "name": "Furthermore, to ease testing of different emacs setups, try out Chemacs, an Emacs profile switcher which assists in running multiple Emacs configurations side by side.",
+    "url": "https://github.com/plexus/chemacs"
   },
   {
     "name": "A Guided Tour of Emacs",
@@ -2506,14 +2514,34 @@
     "description": "A tutorial for emacs lisp and emacs customization."
   },
   {
-    "name": "Planet Emacsen",
-    "url": "https://planet.emacslife.com/",
-    "description": "A community driven mashup of Emacs articles."
+    "name": "Emacs Doom Screencast",
+    "url": "https://www.youtube.com/watch?v=rCMh7srOqvw&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj",
+    "description": "A video tutorial for emacs doom made by @zaiste."
+  },
+  {
+    "name": "elisp-koans",
+    "url": "https://github.com/jtmoulia/elisp-koans",
+    "description": "A tour of emacs lisp via test-driven development."
+  },
+  {
+    "name": "EmacsWiki",
+    "url": "https://www.emacswiki.org/",
+    "description": "The EmacsWiki is dedicated to documenting and discussing Emacs and EmacsLisp."
   },
   {
     "name": "Emacs subreddit",
     "url": "https://www.reddit.com/r/emacs/",
     "description": "The reddit Emacs channel."
+  },
+  {
+    "name": "Planet Emacsen",
+    "url": "https://planet.emacslife.com/",
+    "description": "A community driven mashup of Emacs articles."
+  },
+  {
+    "name": "Living an Awesome Life",
+    "url": "https://sachachua.com/blog/emacs/",
+    "description": "Emacs - Sacha Chua’s (@sachac) extensive blog posts featuring Emacs."
   },
   {
     "name": "(or emacs",

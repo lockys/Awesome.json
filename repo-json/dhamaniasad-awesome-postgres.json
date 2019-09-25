@@ -185,7 +185,7 @@
   },
   {
     "name": "TablePlus",
-    "url": "https://tableplus.io/",
+    "url": "https://tableplus.com/",
     "description": "Native App which let you edit database and structure. High-end security ensured (Commercial Software)."
   },
   {
@@ -227,6 +227,11 @@
     "name": "psql2csv",
     "url": "https://github.com/fphilipe/psql2csv",
     "description": "Run a query in psql and output the result as CSV"
+  },
+  {
+    "name": "nancy",
+    "url": "https://gitlab.com/postgres-ai/nancy",
+    "description": "The Nancy CLI is a unified way to manage automated database experiments either in clouds or on-premise"
   },
   {
     "name": "Postgres-XL",
@@ -364,7 +369,7 @@
     "description": "Provides an audit trail for your data inside a PostgreSQL database using triggers and server-side functions written in PL/pgSQL."
   },
   {
-    "name": "Timescale",
+    "name": "TimescaleDB",
     "url": "https://www.timescale.com/",
     "description": "Open-source time-series database fully compatible with Postgres, distributed as extension"
   },
@@ -387,6 +392,11 @@
     "name": "PgHero",
     "url": "https://github.com/ankane/pghero",
     "description": "PostgreSQL insights made easy."
+  },
+  {
+    "name": "pgMustard",
+    "url": "https://www.pgmustard.com/",
+    "description": "A modern user interface"
   },
   {
     "name": "pgtune",
@@ -489,14 +499,14 @@
     "description": "CLI tool to easily dig deep inside your PostgreSQL database."
   },
   {
+    "name": "pg_insights",
+    "url": "https://github.com/lob/pg_insights",
+    "description": "Convenient SQL for monitoring Postgres database health."
+  },
+  {
     "name": "pgloader",
     "url": "https://github.com/dimitri/pgloader",
     "description": "Loads data into PostgreSQL using the COPY streaming protocol, and does so with separate threads for reading and writing data."
-  },
-  {
-    "name": "pgMustard",
-    "url": "https://www.pgmustard.com/",
-    "description": "A modern user interface"
   },
   {
     "name": "pgpool-II",
@@ -580,8 +590,13 @@
   },
   {
     "name": "sqlcheck",
-    "url": "https://github.com/jarulraj/sqlcheck",
+    "url": "https://github.com/jarulraj/sqlcheck-old",
     "description": "Automatically detects common SQL anti-patterns. Such anti-patterns often slow down queries. Addressing them will, therefore, help accelerate queries."
+  },
+  {
+    "name": "postgres-checkup",
+    "url": "https://gitlab.com/postgres-ai/postgres-checkup",
+    "description": "a new-generation diagnostics tool that allows users to collect deep analysis of the health of a Postgres database."
   },
   {
     "name": "Common Lisp: Postmodern",
@@ -612,7 +627,7 @@
     "url": "https://github.com/npgsql/npgsql"
   },
   {
-    "name": "Node: node-postgres, pg-promise, pogi",
+    "name": "Node: node-postgres, pg-promise, pogi, slonik",
     "url": "https://github.com/brianc/node-postgres"
   },
   {
@@ -822,6 +837,11 @@
     "description": "Conference videos"
   },
   {
+    "name": "Scaling Postgres",
+    "url": "https://www.scalingpostgres.com/",
+    "description": "Postgres video blog series by Creston Jamison"
+  },
+  {
     "name": "Mailing lists",
     "url": "https://www.postgresql.org/list/",
     "description": "Official mailing lists for Postgres for support, outreach, and more. One of the primary channels of communication in the Postgres community."
@@ -830,11 +850,6 @@
     "name": "Slack",
     "url": "https://postgres-slack.herokuapp.com/",
     "description": "Slack channel for Postgres with close to 5000 users"
-  },
-  {
-    "name": "#postgresql on Freenode",
-    "url": "https://webchat.freenode.net/?channels=postgresql",
-    "description": "The most popular IRC channel about Postgres on Freenode with close to 1000 users"
   },
   {
     "name": "Reddit",

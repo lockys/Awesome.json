@@ -251,6 +251,16 @@
     "description": "Prevents development packages from being added into require and getting into production environment."
   },
   {
+    "name": "Composer Exclusive Install",
+    "url": "https://github.com/erickskrauch/composer-exclusive-install",
+    "description": "Prevents more than one install or update operation at a time."
+  },
+  {
+    "name": "Composer-Downloads-Plugin",
+    "url": "https://github.com/civicrm/composer-downloads-plugin",
+    "description": "Lightweight mechanism to download external resources (ZIP/TAR files) with only a url and path."
+  },
+  {
     "name": "Composer SemVer Checker",
     "url": "https://semver.mwl.be",
     "description": "Enables you identify constraint to version resolution issues, by doing a semantic version check for Packagist hosted packages."
@@ -291,9 +301,14 @@
     "description": "Strictly compare the specified minimum versions of your composer.json with the ones actually used by the prefer-lowest composer update command option."
   },
   {
-    "name": "bramus/composer-autocomplete",
+    "name": "Bramus/Composer-Autocomplete",
     "url": "https://github.com/bramus/composer-autocomplete",
     "description": "A Bash/Shell autocompletion script for Composer."
+  },
+  {
+    "name": "Composer/Xdebug-Handler",
+    "url": "https://github.com/composer/xdebug-handler",
+    "description": "Helps you to restart a CLI process without loading the xdebug extension."
   },
   {
     "name": "ParameterHandler",
@@ -499,9 +514,9 @@
     "url": "http://slides.seld.be/?file=2016-07-22+Composer+in+2016.html"
   },
   {
-    "name": "Packagist Mirror from Brazil",
+    "name": "Packagist Mirror",
     "url": "https://github.com/Webysther/packagist-mirror",
-    "description": "This is a maintained stable version of packagist crawler."
+    "description": "This script helps to setup a packagist mirror. It is the maintained and stable version of Packagist Crawler."
   },
   {
     "name": "Docker Image",
@@ -531,7 +546,12 @@
   {
     "name": "China",
     "url": "https://php.cnpkg.org",
-    "description": "php.cnpkg.org, https://pkg.phpcomposer.com/"
+    "description": "php.cnpkg.org, https://pkg.phpcomposer.com/, https://mirrors.aliyun.com/composer/"
+  },
+  {
+    "name": "India",
+    "url": "https://packagist.in/",
+    "description": "https://packagist.in/"
   },
   {
     "name": "Indonesia",
@@ -570,7 +590,7 @@
   },
   {
     "name": "Firegento",
-    "url": "http://packages.firegento.com/",
+    "url": "https://packages.firegento.com/",
     "description": "A Composer Repository providing Magento Modules."
   },
   {

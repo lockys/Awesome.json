@@ -279,7 +279,7 @@
   {
     "name": "OneBusAway Apps",
     "url": "https://play.google.com/store/apps/details?id=com.joulespersecond.seattlebusbot",
-    "description": "Android (source code), Fire Phone (source code), iOS  (source code), Windows Phone (source code), Windows 8 (source code), Google Glass GDK (source code)"
+    "description": "Android (source code), Fire Phone (source code), iOS  (source code), Windows Phone (source code), Windows 8 (source code), Google Glass GDK (source code), Alexa skill (source code)"
   },
   {
     "name": "OpenTripPlanner Android",
@@ -525,6 +525,11 @@
     "description": "Tools for working with public transit data in ArcGIS (license for ArcGIS required)."
   },
   {
+    "name": "CGTFS",
+    "url": "https://github.com/rakhack/cgtfs",
+    "description": "C library for reading static GTFS feeds. Supports reading unpacked feeds into application memory or into SQLite databases."
+  },
+  {
     "name": "Transmodel and IFF to GTFS",
     "url": "https://github.com/bliksemlabs/bliksemintegration",
     "description": "Imports and syncs (Transmodel) BISON Koppelvlak1, IFF (a format written by HP/EDS, somewhat similiar to ATCO CIF) to import timetables of the railway networks. The internal pseudo-NETeX datastructure allows to export to GTFS and there are proof-of-concepts to export to other formats such as NETeX, GTFS and IFF."
@@ -712,11 +717,6 @@
     "description": "A GTFS-realtime validation tool developed by the Center for Urban Transportation Research at the University of South Florida.  Also includes an integrated version of the gtfs-validator tool."
   },
   {
-    "name": "Web gtfs-realtime-validator (hosted by TransitScreen)",
-    "url": "http://gtfsrealtimevalidator.transitscreen.com/",
-    "description": "A hosted version of the gtfs-realtime-validator."
-  },
-  {
     "name": "GTFS-realtime to SQL",
     "url": "https://github.com/TransitFeeds/GtfsRealTimeToSql",
     "description": "Parses a GTFS-RealTime feed into an SQL database (used in TransitFeeds.com)"
@@ -797,6 +797,11 @@
     "description": "Java application that can consume raw vehicle positions and generate prediction times in formats such as GTFS-realtime.  Formerly known as \"Transitime\"."
   },
   {
+    "name": "gtfs-realtime-translators",
+    "url": "https://github.com/Intersection/gtfs-realtime-translators",
+    "description": "A Python-based tool to translate custom arrival API formats to GTFS-realtime.  As of July 2019 it supports LA Metro and SEPTA."
+  },
+  {
     "name": "gtfs-rt-dump",
     "url": "https://github.com/kurtraschke/gtfs-rt-dump",
     "description": "Converts protocol buffer format to plain text for easy viewing of a GTFS-realtime feed in plain text (for debugging purposes)"
@@ -861,6 +866,11 @@
     "description": "Simple validator for SIRI 2.0 written in Python 3."
   },
   {
+    "name": "Edwig",
+    "url": "https://github.com/af83/edwig",
+    "description": "A golang server for real-time public transport data exchange, using the SIRI protocol."
+  },
+  {
     "name": "GTFS-flex",
     "url": "https://github.com/MobilityData/gtfs-flex",
     "description": "A data format that models flexible public transportation services as an extension to GTFS."
@@ -879,6 +889,11 @@
     "name": "gbfs-validator",
     "url": "https://github.com/PierrickP/gbfs-validator",
     "description": "3rd party tool to validate GBFS feeds."
+  },
+  {
+    "name": "gbfs R package",
+    "url": "https://github.com/ds-civic-data/gbfs",
+    "description": "Functions to interface with GBFS feeds in R, allowing users to save and accumulate tidy .rds datasets for specified cities/bikeshare programs."
   },
   {
     "name": "GTFS-ride",
