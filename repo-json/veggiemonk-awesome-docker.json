@@ -8,8 +8,16 @@
     "url": "https://github.com/prakhar1989/docker-curriculum"
   },
   {
-    "name": "Docker Documentation: the official documentation",
+    "name": "Docker Documentation: the official documentation.",
     "url": "https://docs.docker.com/"
+  },
+  {
+    "name": "Docker for beginners: A tutorial for beginners who need to learn the basics of Docker—from \"Hello world!\" to basic interactions with containers, with simple explanations of the underlying concepts.",
+    "url": "https://github.com/groda/big_data/blob/master/docker_for_beginners.md"
+  },
+  {
+    "name": "Docker for novices An introduction to Docker for developers and testers who have never used it. (Video 1h40, recorded linux.conf.au 2019 — Christchurch, New Zealand) by Alex Clews.",
+    "url": "https://www.youtube.com/watch?v=xsjSadjKXns"
   },
   {
     "name": "Docker Training 💲",
@@ -61,7 +69,7 @@
   },
   {
     "name": "Build And Run Your First Docker Windows Server Container Walkthrough installing Docker on Windows 10, building a Docker image and running a Windows container",
-    "url": "https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/"
+    "url": "https://www.docker.com/blog/build-your-first-docker-windows-server-container/"
   },
   {
     "name": "Docker on Windows behind a firewall by @kaitoedter",
@@ -299,7 +307,7 @@
   {
     "name": "Docker-Flow-Monitor",
     "url": "https://github.com/docker-flow/docker-flow-monitor",
-    "description": "Reconfigures Prometheus when a new service is updated or deployed automatically by @vfarcic"
+    "description": "Reconfigures Prometheus when a new service is updated or deployed automatically by @docker-flow"
   },
   {
     "name": "Dockerana 💀",
@@ -427,8 +435,9 @@
     "description": "Docker container orchestration to enable the testing of long-running cluster deployments"
   },
   {
-    "name": "ContainerShip A simple container management platform",
-    "url": "https://github.com/containership/containership"
+    "name": "ContainerShip 💀",
+    "url": "https://github.com/containership/containership",
+    "description": "A simple container management platform"
   },
   {
     "name": "Crane",
@@ -437,8 +446,8 @@
   },
   {
     "name": "Docker Flow Swarm Listener",
-    "url": "https://github.com/vfarcic/docker-flow-swarm-listener",
-    "description": "Docker Flow Swarm Listener project is to listen to Docker Swarm events and send requests when a change occurs. By @vfarcic"
+    "url": "https://github.com/docker-flow/docker-flow-swarm-listener",
+    "description": "Docker Flow Swarm Listener project is to listen to Docker Swarm events and send requests when a change occurs. By @docker-flow"
   },
   {
     "name": "gantryd 💀",
@@ -551,6 +560,11 @@
     "description": "A next generation open source platform as a service"
   },
   {
+    "name": "Hephy Workflow",
+    "url": "https://github.com/teamhephy/workflow",
+    "description": "Open source PaaS for Kubernetes that adds a developer-friendly layer to any Kubernetes cluster, making it easy to deploy and manage applications. Fork of Deis Workflow"
+  },
+  {
     "name": "Nanobox 💲",
     "url": "https://github.com/nanobox-io/nanobox",
     "description": "An application development platform that creates local environments that can then be deployed and scaled in the cloud."
@@ -566,19 +580,9 @@
     "description": "Tsuru is an extensible and open source Platform as a Service software"
   },
   {
-    "name": "Workflow",
-    "url": "https://github.com/deis/workflow",
-    "description": "The open source PaaS for Kubernetes by Deis. Formerly Deis v1."
-  },
-  {
-    "name": "ZEIT Now 💲",
-    "url": "https://github.com/zeit/now",
-    "description": "A universal serverless single-command deploy for Node.js applications or any application with a Dockerfile."
-  },
-  {
     "name": "docker-flow-proxy",
-    "url": "https://github.com/vfarcic/docker-flow-proxy",
-    "description": "Reconfigures proxy every time a new service is deployed, or when a service is scaled. By @vfarcic"
+    "url": "https://github.com/docker-flow/docker-flow-proxy",
+    "description": "Reconfigures proxy every time a new service is deployed, or when a service is scaled. By @docker-flow"
   },
   {
     "name": "docker-proxy 💀",
@@ -601,7 +605,7 @@
     "description": "A lightweight companion container for the nginx-proxy. It allow the creation/renewal of Let's Encrypt certificates automatically. By @JrCs"
   },
   {
-    "name": "muguet",
+    "name": "muguet 💀",
     "url": "https://github.com/mattallty/muguet",
     "description": "DNS Server & Reverse proxy for Docker environments. By @mattallty"
   },
@@ -616,7 +620,7 @@
     "description": "A beautiful web interface for proxying web based services with SSL. By @jc21"
   },
   {
-    "name": "Swarm Ingress Router",
+    "name": "Swarm Ingress Router 💀",
     "url": "https://github.com/tpbowden/swarm-ingress-router",
     "description": "Route DNS names to Swarm services based on labels. By @tpbowden"
   },
@@ -652,7 +656,7 @@
   },
   {
     "name": "Clair",
-    "url": "https://github.com/coreos/clair",
+    "url": "https://github.com/quay/clair",
     "description": "Clair is an open source project for the static analysis of vulnerabilities in appc and docker containers. By @coreos"
   },
   {
@@ -681,13 +685,18 @@
     "description": "OpenSCAP provides oscap-docker tool which is used to scan Docker containers and images. By OpenSCAP"
   },
   {
+    "name": "Phonito Security 💲",
+    "url": "https://phonito.io/?b=b",
+    "description": "a Docker vulnerability scanner with constant Kubernetes monitoring and pipeline integration."
+  },
+  {
     "name": "Sysdig Falco",
     "url": "https://github.com/falcosecurity/falco",
     "description": "Sysdig Falco is an open source container security monitor. It can monitor application, container, host, and network activity and alert on unauthorized activity."
   },
   {
     "name": "Sysdig Secure 💲",
-    "url": "https://sysdig.com/products/secure/",
+    "url": "https://sysdig.com/products/kubernetes-security/runtime-security/",
     "description": "Sysdig Secure addresses run-time security through behavioral monitoring and defense, and provides deep forensics based on open source Sysdig for incident response."
   },
   {
@@ -1305,14 +1314,14 @@
     "description": "A rule-based 'linter' for Dockerfiles by @projectatomic"
   },
   {
-    "name": "Dockerfilelint",
-    "url": "https://github.com/replicatedhq/dockerfilelint",
-    "description": "A node module that analyzes a Dockerfile and looks for common traps, mistakes and helps enforce best practices by @replicatedhq"
-  },
-  {
     "name": "dockfmt 🚧",
     "url": "https://github.com/jessfraz/dockfmt",
     "description": "Dockerfile formatter and parser by @jessfraz"
+  },
+  {
+    "name": "FROM:latest",
+    "url": "https://github.com/replicatedhq/dockerfilelint",
+    "description": "An opinionated Dockerfile linter by @replicatedhq"
   },
   {
     "name": "Hadolint",
@@ -1336,7 +1345,7 @@
   },
   {
     "name": "Azure Container Registry 💲",
-    "url": "https://azure.microsoft.com/de-de/services/container-registry/",
+    "url": "https://azure.microsoft.com/en-us/services/container-registry/",
     "description": "Manage a Docker private registry as a first-class Azure resource"
   },
   {
@@ -1562,8 +1571,9 @@
     "description": "GitLab has integrated CI to test, build and deploy your code with the use of GitLab runners."
   },
   {
-    "name": "GOCD-DockerGo Server and Agent in docker containers to provision.",
-    "url": "https://github.com/gocd/gocd-docker"
+    "name": "GOCD-Docker 💀",
+    "url": "https://github.com/gocd/gocd-docker",
+    "description": "Go Server and Agent in docker containers to provision."
   },
   {
     "name": "Microservices Continuous Deployment",
@@ -1574,6 +1584,11 @@
     "name": "mu",
     "url": "https://github.com/stelligent/mu",
     "description": "Tool to configure CI/CD of your container applications via AWS CodePipeline, CodeBuild and ECS @Stelligent"
+  },
+  {
+    "name": "Ouroboros",
+    "url": "https://github.com/pyouroboros/ouroboros",
+    "description": "Automatically update running Docker containers with notifications"
   },
   {
     "name": "Screwdriver 💲",
@@ -1641,7 +1656,7 @@
     "description": "CLI utility for straightforward provisioning and interacting with an application configured by docker-compose. By @bibendi"
   },
   {
-    "name": "DLite",
+    "name": "DLite 💀",
     "url": "https://github.com/nlf/dlite",
     "description": "Simplest way to use Docker on OSX, no VM needed. By @nlf"
   },
@@ -1661,7 +1676,7 @@
     "description": "A set of bash commands to shortcut typical docker dev-ops. An alternative to creating typical helper scripts like \"build.sh\" and \"deploy.sh\" inside code repositories. By @NandoQuintana."
   },
   {
-    "name": "Docker osx dev",
+    "name": "Docker osx dev 💀",
     "url": "https://github.com/brikis98/docker-osx-dev",
     "description": "A productive development environment with Docker on OS X by @brikis98"
   },
@@ -1726,7 +1741,7 @@
     "description": "A script that cleans Docker containers, images and volumes by @zzrotdesign"
   },
   {
-    "name": "Docker-cleanup",
+    "name": "Docker-cleanup 💀",
     "url": "https://github.com/meltwater/docker-cleanup",
     "description": "Automatic Docker image, container and volume cleanup by @meltwater"
   },
@@ -1741,7 +1756,7 @@
     "description": "Docker garbage collection script by @konstruktoid."
   },
   {
-    "name": "docker-gc",
+    "name": "docker-gc 💀",
     "url": "https://github.com/spotify/docker-gc",
     "description": "A cron job that will delete old stopped containers and unused images by @spotify"
   },
@@ -1846,7 +1861,7 @@
     "description": "An engine for managing the execution of container-based workflows by @CenturyLinkLabs"
   },
   {
-    "name": "FuGu",
+    "name": "FuGu 💀",
     "url": "https://github.com/mattes/fugu",
     "description": "Docker run wrapper without orchestration by @mattes"
   },
@@ -1859,6 +1874,11 @@
     "name": "subuser",
     "url": "https://github.com/subuser-security/subuser",
     "description": "Makes it easy to securely and portably run graphical desktop applications in Docker"
+  },
+  {
+    "name": "T.A.D.S. boilerplate",
+    "url": "https://github.com/Thomvaill/tads-boilerplate",
+    "description": "The power of Ansible and Terraform + the simplicity of Docker Swarm = Infrastructure as Code and DevOps best practices. By @Thomvaill"
   },
   {
     "name": "Turbo",
@@ -1935,23 +1955,13 @@
     "description": "One-click Docker environments and cloud workspace for development teams"
   },
   {
-    "name": "ContainerShip Cloud 💲",
-    "url": "https://containership.io",
-    "description": "Multi-Cloud Container Hosting Automation Platform."
-  },
-  {
-    "name": "Docker Cloud 💲",
-    "url": "https://cloud.docker.com/",
-    "description": "Former Tutum"
-  },
-  {
     "name": "Dockhero 💲",
     "url": "https://dockhero.io/",
     "description": "Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta."
   },
   {
     "name": "Giant Swarm 💲",
-    "url": "https://giantswarm.io/",
+    "url": "https://www.giantswarm.io/",
     "description": "Simple microservice infrastructure. Deploy your containers in seconds."
   },
   {
@@ -1995,13 +2005,13 @@
     "description": "Long-term retention of container statistics and built-in dashboards for Docker. Collected with native Google cAdvisor storage driver."
   },
   {
-    "name": "CA Technologies Docker Monitoring 💲",
-    "url": "https://www.ca.com/us/products/docker-monitoring.html",
-    "description": "Agile Operations solutions from CA deliver the modern Docker monitoring businesses need to accelerate and optimize the performance of microservices and the dynamic Docker environments running them. Monitor both the Docker environment and apps that run inside them."
+    "name": "Broadcom Docker Monitoring 💲",
+    "url": "https://www.broadcom.com/info/aiops/docker-monitoring",
+    "description": "Agile Operations solutions from Broadcom deliver the modern Docker monitoring businesses need to accelerate and optimize the performance of microservices and the dynamic Docker environments running them. Monitor both the Docker environment and apps that run inside them. (former CA Technologies)"
   },
   {
     "name": "Collecting docker logs and stats with Splunk",
-    "url": "https://www.splunk.com/blog/2015/08/24/collecting-docker-logs-and-stats-with-splunk.html"
+    "url": "https://www.splunk.com/en_us/blog/cloud/collecting-docker-logs-and-stats-with-splunk.html"
   },
   {
     "name": "Datadog 💲",
@@ -2034,7 +2044,7 @@
   },
   {
     "name": "Docker Weekly Huge resource",
-    "url": "https://blog.docker.com/docker-weekly-archives/"
+    "url": "https://www.docker.com/blog/docker-weekly-archives/"
   },
   {
     "name": "Programming Community Curated Resources for learning Docker",
@@ -2063,6 +2073,10 @@
     "description": "a series of detailed articles on the specifics of Docker packaging for Python."
   },
   {
+    "name": "Learn Docker in a Month of Lunches",
+    "url": "https://www.manning.com/books/learn-docker-in-a-month-of-lunches"
+  },
+  {
     "name": "Awesome CI/CD",
     "url": "https://github.com/ciandcd/awesome-ciandcd",
     "description": "Not specific to docker but relevant."
@@ -2077,7 +2091,7 @@
   },
   {
     "name": "Awesome Selfhosted list of Free Software network services and web applications which can be hosted locally by running in a classical way (setup local web server and run applications from there) or in a Docker container. By @Kickball",
-    "url": "https://github.com/Kickball/awesome-selfhosted"
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
   },
   {
     "name": "Awesome Sysadmin by @n1trux",
@@ -2086,6 +2100,10 @@
   {
     "name": "ToolsOfTheTrade a list of SaaS and On premise applications by @cjbarber",
     "url": "https://github.com/cjbarber/ToolsOfTheTrade"
+  },
+  {
+    "name": "Webstack-micro Demo web app showing how Docker Compose might be used to set up an API Gateway, centralized authentication, background workers, and WebSockets as containerized services.",
+    "url": "https://github.com/ferbs/webstack-micro"
   },
   {
     "name": "Dealing with linked containers dependency in docker-compose by @rochacbruno",
@@ -2142,7 +2160,7 @@
   },
   {
     "name": "Docker Secure Deployment Guidelines",
-    "url": "https://github.com/GDSSecurity/Docker-Secure-Deployment-Guidelines"
+    "url": "https://github.com/AonCyberLabs/Docker-Secure-Deployment-Guidelines"
   },
   {
     "name": "Docker Security",
@@ -2184,10 +2202,6 @@
   {
     "name": "Tuning Docker with the newest security enhancements",
     "url": "https://opensource.com/business/15/3/docker-security-tuning"
-  },
-  {
-    "name": "Understanding Docker security and best practices (written 5 MAY 2015)",
-    "url": "https://blog.docker.com/2015/05/understanding-docker-security-and-best-practices/"
   },
   {
     "name": "Contributing to Docker by Andrew \"Tianon\" Page (InfoSiftr) (34:31)",

@@ -4,6 +4,10 @@
     "url": "https://cloud.google.com/community/"
   },
   {
+    "name": "https://www.freecodecamp.org/news/a-friendly-introduction-to-kubernetes-670c50ce4542/",
+    "url": "https://www.freecodecamp.org/news/a-friendly-introduction-to-kubernetes-670c50ce4542/"
+  },
+  {
     "name": "Kubernetes Community Overview and Contributions Guide by Ihor Dvoretskyi",
     "url": "https://docs.google.com/presentation/d/1JqcALpsg07eH665ZXQrIvOcin6SzzsIUjMRRVivrZMg/edit?usp=sharing"
   },
@@ -18,10 +22,6 @@
   {
     "name": "An Intro to Google’s Kubernetes and How to Use It by Laura Frank",
     "url": "http://www.ctl.io/developers/blog/post/what-is-kubernetes-and-how-to-use-it/"
-  },
-  {
-    "name": "Getting Started on Kubernetes by Rajdeep Dua",
-    "url": "http://containertutorials.com/get_started_kubernetes/index.html"
   },
   {
     "name": "Kubernetes: The Future of Cloud Hosting by Meteorhacks",
@@ -95,17 +95,17 @@
   {
     "name": "Bootkube",
     "url": "https://github.com/kubernetes-incubator/bootkube",
-    "description": "CoreOS - Cloud Agnostique"
+    "description": "CoreOS - Cloud Agnostic"
   },
   {
     "name": "Breeze",
     "url": "https://github.com/wise2c-devops/breeze",
-    "description": "CentOS - Cloud Agnostique"
+    "description": "CentOS - Cloud Agnostic"
   },
   {
     "name": "Conjure-up",
     "url": "https://github.com/conjure-up/conjure-up",
-    "description": "Ubuntu - Cloud Agnostique"
+    "description": "Ubuntu - Cloud Agnostic"
   },
   {
     "name": "Docker for MAC",
@@ -118,14 +118,29 @@
     "description": "Run Kubernetes and Docker locally on your Windows PC (Edge Channel)"
   },
   {
+    "name": "eksctl",
+    "url": "https://eksctl.io/",
+    "description": "The official CLI for Amazon EKS"
+  },
+  {
     "name": "Juju",
     "url": "https://jujucharms.com/canonical-kubernetes",
-    "description": "Ubuntu - Cloud Agnostique"
+    "description": "Ubuntu - Cloud Agnostic"
+  },
+  {
+    "name": "KubeSphere",
+    "url": "https://github.com/kubesphere/kubesphere",
+    "description": "Install Kubernetes and KubeSphere in multiple instances in an easy way, including full-stack cloud-native softwares, e.g. istio, ES, Prometheus, Fluent Bit, SonarQube, Jenkins."
   },
   {
     "name": "k3s",
     "url": "https://github.com/rancher/k3s",
     "description": "Lightweight Kubernetes. Easy to install, half the memory, all in a binary less than 40mb"
+  },
+  {
+    "name": "k3d",
+    "url": "https://github.com/rancher/k3d",
+    "description": "A tool for running k3s clusters in container nodes"
   },
   {
     "name": "kind",
@@ -135,12 +150,12 @@
   {
     "name": "Kops",
     "url": "https://github.com/kubernetes/kops",
-    "description": "OS Agnostique - AWS"
+    "description": "OS Agnostic - AWS"
   },
   {
     "name": "Kube-ansible",
     "url": "https://github.com/kairen/kube-ansible",
-    "description": "OS Agnostique - Cloud Agnostique"
+    "description": "OS Agnostic - Cloud Agnostic"
   },
   {
     "name": "Kube-aws",
@@ -154,32 +169,32 @@
   {
     "name": "Kubeadm",
     "url": "http://kubernetes.io/docs/admin/kubeadm/",
-    "description": "OS Agnostique - Cloud Agnostique"
+    "description": "OS Agnostic - Cloud Agnostic"
   },
   {
     "name": "KubeNow",
     "url": "https://github.com/kubenow/KubeNow",
-    "description": "Ubuntu - Cloud Agnostique"
+    "description": "Ubuntu - Cloud Agnostic"
   },
   {
     "name": "Kubernetes-Saltstack",
     "url": "https://github.com/valentin2105/Kubernetes-Saltstack",
-    "description": "systemd OS - Cloud Agnostique"
+    "description": "systemd OS - Cloud Agnostic"
   },
   {
     "name": "Kubespray",
     "url": "https://github.com/kubernetes-incubator/kubespray",
-    "description": "OS Agnostique - Cloud Agnostique"
+    "description": "OS Agnostic - Cloud Agnostic"
   },
   {
     "name": "Kubicorn",
     "url": "https://github.com/kubicorn/kubicorn",
-    "description": "OS Agnostique - Cloud Agnostique"
+    "description": "OS Agnostic - Cloud Agnostic"
   },
   {
     "name": "Kublr",
     "url": "https://docs.kublr.com/quickstart/",
-    "description": "OS Agnostique - On-Prem - Cloud Agnostique"
+    "description": "OS Agnostic - On-Prem - Cloud Agnostic"
   },
   {
     "name": "Linode",
@@ -194,7 +209,7 @@
   {
     "name": "MetalK8s",
     "url": "https://github.com/scality/metalk8s",
-    "description": "CentOS - On-Prem - Cloud Agnostique - Apache-2.0"
+    "description": "CentOS - On-Prem - Cloud Agnostic - Apache-2.0"
   },
   {
     "name": "MicroK8s",
@@ -209,7 +224,7 @@
   {
     "name": "RKE",
     "url": "https://github.com/rancher/rke",
-    "description": "OS Agnostique - Cloud Agnostique"
+    "description": "OS Agnostic - Cloud Agnostic"
   },
   {
     "name": "sealos",
@@ -219,12 +234,12 @@
   {
     "name": "Simplekube",
     "url": "https://github.com/valentin2105/Simplekube",
-    "description": "systemd OS - Cloud Agnostique"
+    "description": "systemd OS - Cloud Agnostic"
   },
   {
     "name": "Supergiant",
     "url": "http://supergiant.io/",
-    "description": "CoreOS - Cloud Agnostique"
+    "description": "CoreOS - Cloud Agnostic"
   },
   {
     "name": "Terraform",
@@ -234,7 +249,7 @@
   {
     "name": "Typhoon",
     "url": "https://typhoon.psdn.io/",
-    "description": "Container Linux - Cloud Agnostique"
+    "description": "Container Linux - Cloud Agnostic"
   },
   {
     "name": "aks-engine",
@@ -252,6 +267,10 @@
   {
     "name": "Kubernetes Troubleshooting",
     "url": "https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/"
+  },
+  {
+    "name": "Kubernetes-1.17",
+    "url": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.17.md"
   },
   {
     "name": "Kubernetes-1.16",
@@ -409,7 +428,7 @@
     "url": "http://linoxide.com/containers/create-use-kubernetes-secrets/"
   },
   {
-    "name": "Kubernetes Security Best Practices by Peter Benjamin",
+    "name": "Kubernetes Security Best Practices",
     "url": "https://dev.to/petermbenjamin/kubernetes-security-best-practices-hlk"
   },
   {
@@ -455,7 +474,7 @@
   },
   {
     "name": "Achieving CI/CD with Kubernetes by Ramit Surana",
-    "url": "http://ramitsurana.github.io/myblog/achieving-ci-cd-with-kubernetes"
+    "url": "https://ramitsurana.github.io/myblog/2016/08/01/achieving-ci/cd-with-kubernetes/"
   },
   {
     "name": "Jenkins declarative pipelines with Kubernetes",
@@ -486,16 +505,16 @@
     "url": "http://www.alexecollins.com/continuous-delivery-with-kubernetes-and-circleci/"
   },
   {
+    "name": "Kubernetes Deployments: The Ultimate Guide by Jérôme Petazzoni",
+    "url": "https://semaphoreci.com/blog/kubernetes-deployment"
+  },
+  {
     "name": "Automate deep learning training with Kubernetes GPU-cluster",
     "url": "https://github.com/Langhalsdino/Kubernetes-GPU-Guide"
   },
   {
     "name": "How to pass the Certified Kubernetes Administrator (CKA) exam on the first attempt",
     "url": "https://medium.com/devopslinks/how-to-pass-certified-kubernetes-administrator-cka-exam-on-first-attempt-36c0ceb4c9e"
-  },
-  {
-    "name": "Deploying Kubernetes with Ansible and Terraform",
-    "url": "http://solinea.com/blog/deploying-kubernetes-ansible-terraform"
   },
   {
     "name": "Kubernetes with SaltStack revisited by Jon Langemak",
@@ -544,10 +563,6 @@
   {
     "name": "1 command to Kubernetes with Docker compose by Sebastien Goasguen",
     "url": "http://sebgoa.blogspot.in/2015/04/1-command-to-kubernetes-with-docker.html"
-  },
-  {
-    "name": "Nginx Server Deployment using Kubernetes by Rajdeep Dua",
-    "url": "http://containertutorials.com/get_started_kubernetes/k8s_example.html"
   },
   {
     "name": "What even is a kubelet? by Kamal Marhubi",
@@ -614,6 +629,10 @@
     "url": "https://kubesail.com/blog/deploying-node-apps-the-right-way"
   },
   {
+    "name": "Simplify your research experiments with Kubernetes by Parmentier Laurent",
+    "url": "https://www.ovh.com/blog/simplify-your-research-experiments-with-kubernetes/"
+  },
+  {
     "name": "Platform9",
     "url": "http://platform9.com"
   },
@@ -664,8 +683,9 @@
     "url": "http://www.loodse.com/"
   },
   {
-    "name": "Kubesphere",
-    "url": "https://kubesphere.io/en"
+    "name": "KubeSphere",
+    "url": "https://github.com/kubesphere/kubesphere",
+    "description": "Full-stack and easy-to-use container platform, with awesome user experience and wizard UI, supports installing on Linux and Kubernetes."
   },
   {
     "name": "Kublr",
@@ -688,7 +708,7 @@
   },
   {
     "name": "Draft",
-    "url": "https://draft.sh",
+    "url": "http://draft.sh",
     "description": "a tool for developers to create cloud native applications with Kubernetes"
   },
   {
@@ -844,7 +864,13 @@
   },
   {
     "name": "KubeSphere",
-    "url": "https://kubesphere.io/en"
+    "url": "https://github.com/kubesphere/kubesphere",
+    "description": "Full-stack and easy-to-use container platform, with awesome user experience and wizard UI."
+  },
+  {
+    "name": "Kyma",
+    "url": "https://kyma-project.io/",
+    "description": "A platform for extending apps with serverless functions. It provides a selection of cloud-native projects glued together to simplify the creation and management of services."
   },
   {
     "name": "OpenShift Online/Dedicated/Container Platform",
@@ -1164,6 +1190,11 @@
     "url": "https://github.com/kubernetes/website/blob/master/content/en/docs/reference/using-api/client-libraries.md"
   },
   {
+    "name": "Escalator",
+    "url": "https://github.com/atlassian/escalator",
+    "description": "A batch or job optimized horizontal autoscaler for Kubernetes"
+  },
+  {
     "name": "Fission Workflows",
     "url": "https://github.com/fission/fission-workflows",
     "description": "Workflow-based serverless function composition"
@@ -1241,8 +1272,8 @@
     "description": "Locally develop/debug services against a remote Kubernetes cluster"
   },
   {
-    "name": "kubernetes-deploy",
-    "url": "https://github.com/Shopify/kubernetes-deploy",
+    "name": "krane",
+    "url": "https://github.com/Shopify/krane",
     "description": "A command-line tool that helps you ship changes to a Kubernetes namespace and understand the result"
   },
   {
@@ -1417,6 +1448,11 @@
     "description": "A single node cluster to run your CI tests against thats ready in 30 seconds"
   },
   {
+    "name": "k3d",
+    "url": "https://github.com/rancher/k3d",
+    "description": "Quickly create single- or multi-node k3s clusters in containerized nodes"
+  },
+  {
     "name": "kube-monkey",
     "url": "https://github.com/asobti/kube-monkey",
     "description": "Chaos Monkey for Kubernetes clusters"
@@ -1449,6 +1485,11 @@
     "name": "KubeInvaders",
     "url": "https://github.com/lucky-sideburn/KubeInvaders",
     "description": "Gamified Chaos engineering tool for Kubernetes Clusters. It is like Space Invaders but alien ships are pods."
+  },
+  {
+    "name": "predator",
+    "url": "https://github.com/Zooz/predator",
+    "description": "Distributed performance testing platform for Kubernetes"
   },
   {
     "name": "Jenkins\n\nJenkins-Kubernetes Plugin by Carlos Sanchez\nAutomated Image Builds with Jenkins, Packer, and Kubernetes\nOn-demand Jenkins slaves with Kubernetes and the Google Container Engine\nJenkins setups for Kubernetes and Docker Workflow\nLab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes\nJenkins Operator",
@@ -1537,7 +1578,7 @@
   },
   {
     "name": "KubeCI",
-    "url": "https://www.kubeci.io/"
+    "url": "https://github.com/kubeciio"
   },
   {
     "name": "Razee",
@@ -1570,8 +1611,8 @@
   },
   {
     "name": "Werf",
-    "url": "https://github.com/flant/werf",
-    "description": "Werf simplifies development of build scripts, reduces commit build time and automates deployment."
+    "url": "https://werf.io",
+    "description": "GitOps tool with advanced features to build images and deploy them to Kubernetes. Integrates with any existing CI system."
   },
   {
     "name": "FaaS-netes",
@@ -1884,12 +1925,20 @@
     "url": "https://github.com/bloomberg/goldpinger"
   },
   {
+    "name": "illuminatio is a tool for automatically testing kubernetes network policies",
+    "url": "https://github.com/inovex/illuminatio"
+  },
+  {
     "name": "Infoblox",
     "url": "https://github.com/infobloxopen/cni-infoblox"
   },
   {
     "name": "Kube-router",
     "url": "http://github.com/cloudnativelabs/kube-router"
+  },
+  {
+    "name": "KubeIP Set static ip for nodes on GKE (useful for whitelisting ips)",
+    "url": "http://github.com/doitintl/kubeip"
   },
   {
     "name": "kubernetes-network-policy-recipes",
@@ -1939,6 +1988,11 @@
     "url": "http://www.weave.works/docs/net/latest/kubernetes/kube-addon/"
   },
   {
+    "name": "Submariner: Cross-Cluster Network Connectivity for Kubernetes",
+    "url": "https://submariner.io",
+    "description": "Submariner enables direct networking between pods in different Kubernetes clusters on prem or in the cloud."
+  },
+  {
     "name": "Consul",
     "url": "https://www.consul.io/docs/platform/k8s/index.html"
   },
@@ -1957,6 +2011,16 @@
   {
     "name": "Weave Mesh",
     "url": "https://github.com/weaveworks/mesh"
+  },
+  {
+    "name": "Maesh: Simpler Service Mesh",
+    "url": "https://github.com/containous/maesh",
+    "description": "Maesh is a straight-forward, easy to configure, and non-invasive service mesh that allows visibility and management of the traffic flows inside any Kubernetes cluster."
+  },
+  {
+    "name": "Kuma: The Universal Service Mesh",
+    "url": "https://github.com/kong/kuma",
+    "description": "Build, Secure and Observe your modern Service Mesh."
   },
   {
     "name": "gRPC",
@@ -2032,6 +2096,11 @@
     "name": "Octant",
     "url": "https://github.com/vmware/octant",
     "description": "A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters."
+  },
+  {
+    "name": "Kontena Lens",
+    "url": "https://github.com/kontena/lens",
+    "description": "The Ultimate Dashboard For Kubernetes."
   },
   {
     "name": "Kubernetic",
@@ -2150,6 +2219,11 @@
     "description": "Kubernetes CLI on steroids with pattern matching"
   },
   {
+    "name": "webkubectl",
+    "url": "https://github.com/webkubectl/webkubectl",
+    "description": "A web based tool helps you to manage kubernetes credentials and run kubectl command in web browser."
+  },
+  {
     "name": "AppController",
     "url": "https://github.com/Mirantis/k8s-AppController"
   },
@@ -2196,6 +2270,11 @@
     "name": "kubedog",
     "url": "https://github.com/flant/kubedog",
     "description": "Kubedog is a library and cli utility that allows watching and following kubernetes resources in CI/CD deploy pipelines."
+  },
+  {
+    "name": "kapp",
+    "url": "https://github.com/k14s/kapp",
+    "description": "simple deployment tool focused on the concept of \"Kubernetes application\" — a set of resources with the same label"
   },
   {
     "name": "Ansible",
@@ -2270,11 +2349,6 @@
     "url": "http://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.k8s.html"
   },
   {
-    "name": "thesus",
-    "url": "https://github.com/heptiolabs/theseus",
-    "description": "A command-line utility and importable package for comparing sets of Kubernetes objects"
-  },
-  {
     "name": "Cue",
     "url": "https://cue.googlesource.com/cue/+/HEAD/doc/tutorial/kubernetes/README.md",
     "description": "A data constraint language which aims to simplify tasks involving defining and using data. Cue is a superset of JSON"
@@ -2332,6 +2406,11 @@
     "name": "kube2iam",
     "url": "https://github.com/jtblin/kube2iam",
     "description": "Provides different AWS IAM roles for pods running on Kubernetes"
+  },
+  {
+    "name": "kubeaudit",
+    "url": "https://github.com/Shopify/kubeaudit",
+    "description": "Helps you audit your Kubernetes clusters against common security controls"
   },
   {
     "name": "Kubesec.io",
@@ -2415,6 +2494,11 @@
     "name": "MetalLB",
     "url": "https://metallb.universe.tf/",
     "description": "load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols."
+  },
+  {
+    "name": "Porter",
+    "url": "https://github.com/kubesphere/porter",
+    "description": "a load balancer which is designed for a bare metal Kubernetes cluster. It's implemented by physical switch, and uses BGP and ECMP to achieve optimal performance and HA."
   },
   {
     "name": "NGINX Ingress Controller",
@@ -2513,6 +2597,11 @@
     "url": "https://github.com/talos-systems/talos"
   },
   {
+    "name": "RancherOS",
+    "url": "https://rancher.com/rancher-os",
+    "description": "A lightweight, secure Linux distribution, built from containers to run containers well."
+  },
+  {
     "name": "kompose",
     "url": "https://github.com/kubernetes/kompose"
   },
@@ -2606,6 +2695,10 @@
     "url": "https://www.hanselman.com/blog/HowToBuildAKubernetesClusterWithARMRaspberryPiThenRunNETCoreOnOpenFaas.aspx"
   },
   {
+    "name": "Building a microcloud with a few Raspberry Pis and Kubernetes by Preetam D'Souza",
+    "url": "https://mirailabs.io/blog/building-a-microcloud/"
+  },
+  {
     "name": "Cloud Native DevOps with Kubernetes by John Arundel, Justin Domingus (blog)",
     "url": "http://shop.oreilly.com/product/0636920175131.do"
   },
@@ -2664,7 +2757,7 @@
   },
   {
     "name": "Kubernetes: Up and Running by Kelsey Hightower",
-    "url": "http://shop.oreilly.com/product/0636920043874.do"
+    "url": "http://shop.oreilly.com/product/0636920223788.do"
   },
   {
     "name": "Mastering Kubernetes by Gigi Sayfan",
@@ -2683,8 +2776,20 @@
     "url": "https://leanpub.com/the-devops-2-3-toolkit"
   },
   {
+    "name": "Learn Azure in a Month of Lunches, Second Edition by Iain Foulds",
+    "url": "https://www.manning.com/books/learn-azure-in-a-month-of-lunches-second-edition"
+  },
+  {
+    "name": "Learn Docker in a Month of Lunches by Elton Stoneman",
+    "url": "https://www.manning.com/books/learn-docker-in-a-month-of-lunches"
+  },
+  {
     "name": "Certified Kubernetes Administrator (CKA)",
     "url": "https://www.cncf.io/certification/cka/"
+  },
+  {
+    "name": "Certified Kubernetes Application Developer (CKAD)",
+    "url": "https://www.cncf.io/certification/ckad/"
   },
   {
     "name": "A brief study on Kubernetes and its components by Ramit Surana",
@@ -2828,7 +2933,7 @@
   },
   {
     "name": "Kube Con",
-    "url": "https://twitter.com/kubeconio"
+    "url": "https://twitter.com/kubecon_"
   },
   {
     "name": "KubeFacts",
@@ -2978,6 +3083,10 @@
     "url": "https://twitter.com/kubernetesnyc"
   },
   {
+    "name": "Nuremberg",
+    "url": "https://www.meetup.com/Kubernetes-Nurnberg/"
+  },
+  {
     "name": "Paris",
     "url": "https://twitter.com/kubernetesparis"
   },
@@ -3024,10 +3133,6 @@
   {
     "name": "Freenode",
     "url": "http://webchat.freenode.net/?channels=google-containers"
-  },
-  {
-    "name": "Google +",
-    "url": "https://plus.google.com/u/0/b/116512812300813784482/116512812300813784482"
   },
   {
     "name": "Mailing List (developer/contributor discussion)",

@@ -441,7 +441,7 @@
   },
   {
     "name": "goto-line-preview",
-    "url": "https://github.com/elpa-host/goto-line-preview",
+    "url": "https://github.com/jcs-elpa/goto-line-preview",
     "description": "Preview line when executing `goto-line` command."
   },
   {
@@ -760,6 +760,11 @@
     "description": "A C/C++ client/server indexer with for integration with emacs based on clang."
   },
   {
+    "name": "emacs-ccls",
+    "url": "https://github.com/MaskRay/emacs-ccls",
+    "description": "Emacs client of ccls, a C/C++/Objective-C language server powered by clang."
+  },
+  {
     "name": "emacs-cquery",
     "url": "https://github.com/cquery-project/emacs-cquery",
     "description": "Emacs client of cquery, a C/C++/Objective-C language server powered by clang."
@@ -796,7 +801,7 @@
   },
   {
     "name": "anaconda-mode",
-    "url": "https://github.com/proofit404/anaconda-mode",
+    "url": "https://github.com/pythonic-emacs/anaconda-mode",
     "description": "Code navigation, documentation lookup and completion for Python."
   },
   {
@@ -953,6 +958,16 @@
     "name": "suggest.el",
     "url": "https://github.com/Wilfred/suggest.el",
     "description": "Discover elisp functions that do what you want."
+  },
+  {
+    "name": "easy-escape",
+    "url": "https://github.com/cpitclaudel/easy-escape",
+    "description": "Improve readability of escape characters in ELisp regular expressions."
+  },
+  {
+    "name": "eros",
+    "url": "https://github.com/xiongtx/eros",
+    "description": "Evaluation Result OverlayS for Emacs Lisp."
   },
   {
     "name": "web-mode",
@@ -1205,6 +1220,11 @@
     "description": "Backend to provide e.g. type information with an emacs frontend."
   },
   {
+    "name": "https://github.com/matthewbauer/nix-haskell-mode",
+    "url": "https://github.com/matthewbauer/nix-haskell-mode",
+    "description": "Nix integration for Haskell development."
+  },
+  {
     "name": "Using Emacs for Haskell development",
     "url": "https://github.com/serras/emacs-haskell-tutorial/blob/master/tutorial.md"
   },
@@ -1224,18 +1244,13 @@
     "description": "Completion for Swift projects via SourceKit with the help of SourceKitten."
   },
   {
-    "name": "scala-mode",
-    "url": "http://ensime.github.io//editors/emacs/scala-mode/",
-    "description": "The definitive scala-mode for emacs."
-  },
-  {
     "name": "Ensime",
-    "url": "http://ensime.github.io/",
+    "url": "https://ensime.github.io/",
     "description": "ENhanced Scala Interaction Mode for Emacs."
   },
   {
     "name": "sbt-mode",
-    "url": "https://github.com/hvesalai/sbt-mode",
+    "url": "https://github.com/hvesalai/emacs-sbt-mode_old",
     "description": "An emacs mode for interacting with scala sbt and projects."
   },
   {
@@ -1499,6 +1514,11 @@
     "description": "Interacting with git."
   },
   {
+    "name": "forge",
+    "url": "https://github.com/magit/forge",
+    "description": " Work with Git forges, such as Github and Gitlab, from the comfort of Magit."
+  },
+  {
     "name": "magithub",
     "url": "https://github.com/vermiculus/magithub",
     "description": "Magit interfaces for GitHub."
@@ -1507,6 +1527,16 @@
     "name": "magit-todo",
     "url": "https://github.com/alphapapa/magit-todos",
     "description": "Show TODO’s and FIXME’s within a magit status buffer."
+  },
+  {
+    "name": "magit-svn",
+    "url": "https://github.com/emacsorphanage/magit-svn",
+    "description": "git svn integration for magit"
+  },
+  {
+    "name": "magit-lfs",
+    "url": "https://github.com/Ailrun/magit-lfs",
+    "description": "git lfs integration for magit"
   },
   {
     "name": "VC",
@@ -1694,6 +1724,11 @@
     "description": "Deadgrep is the fast, beautiful text search that your Emacs deserves."
   },
   {
+    "name": "rg.el",
+    "url": "https://github.com/dajva/rg.el",
+    "description": "Emacs search tool based on ripgrep."
+  },
+  {
     "name": "ripgrep.el",
     "url": "https://github.com/nlamirault/ripgrep.el",
     "description": "Emacs front-end for ripgrep, a command line search tool."
@@ -1812,6 +1847,11 @@
     "description": "major mode for rendering PDF files, much better than DocView, and has much richer set of features."
   },
   {
+    "name": "[[https://github.com/007kevin/pdf-view-restore[pdf-view-restore]]",
+    "url": "https://github.com/007kevin/pdf-view-restore[pdf-view-restore]",
+    "description": "addition to PDF Tools which saves the current position in a PDF to resume reading at that place even after the buffer has been closed or emacs restarted."
+  },
+  {
     "name": "EWW",
     "url": "https://www.gnu.org/software/emacs/manual/html_mono/eww.html",
     "description": "[built-in] EWW, the Emacs Web Wowser, is a web browser for Emacs."
@@ -1835,6 +1875,16 @@
     "name": "mu4e",
     "url": "http://www.djcbsoftware.nl/code/mu/mu4e.html",
     "description": "An e-mail client for Emacs."
+  },
+  {
+    "name": "mu4e-alert",
+    "url": "https://github.com/iqbalansari/mu4e-alert/",
+    "description": "Desktop notifications and modeline display for mu4e."
+  },
+  {
+    "name": "mu4e-conversation",
+    "url": "https://gitlab.com/ambrevar/mu4e-conversation/",
+    "description": "Alternative view for displaying emails in mu4e."
   },
   {
     "name": "notmuch",
@@ -2396,6 +2446,11 @@
     "description": "emacs mode for alda, a music programming language for musicians written in java and clojure."
   },
   {
+    "name": "Scel",
+    "url": "https://github.com/supercollider/scel",
+    "description": "SuperCollider/Emacs interface"
+  },
+  {
     "name": "Spacemacs",
     "url": "https://github.com/syl20bnr/spacemacs",
     "description": "A slick Evil focused starter kit: do not fear RSI anymore."
@@ -2447,7 +2502,7 @@
   },
   {
     "name": "Emacs Bootstrap",
-    "url": "https://github.com/rakanalh/emacs-bootstrap",
+    "url": "https://github.com/editor-bootstrap/emacs-bootstrap",
     "description": "Your on-the-fly Emacs development environment!"
   },
   {

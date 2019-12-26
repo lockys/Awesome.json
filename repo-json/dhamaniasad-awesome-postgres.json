@@ -76,7 +76,7 @@
   {
     "name": "wal-g",
     "url": "https://github.com/wal-g/wal-g",
-    "description": "The successor of WAL-E rewritten in Go. Currently supports S3 only."
+    "description": "The successor of WAL-E rewritten in Go. Currently supports cloud object storage services by AWS (S3), Google Cloud (GCS), Azure, as well as OpenStack Swift, MinIO, and file system storages. Supports block-level incremental backups, offloading backup tasks to a standby server, provides parallelization and throttling options. In addition to Postgres, WAL-G can be used for MySQL and MongoDB databases."
   },
   {
     "name": "pitrery",
@@ -432,6 +432,11 @@
     "name": "ERAlchemy",
     "url": "https://github.com/Alexis-benoist/eralchemy",
     "description": "ERAlchemy generates Entity Relation (ER) diagram from databases."
+  },
+  {
+    "name": "Hasura",
+    "url": "https://hasura.io",
+    "description": "Instant realtime GraphQL APIs on any Postgres application, existing or new."
   },
   {
     "name": "ldap2pg",

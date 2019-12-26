@@ -1,5 +1,10 @@
 [
   {
+    "name": "Ackee",
+    "url": "https://ackee.electerious.com",
+    "description": "Self-hosted analytics tool for those who care about privacy. (Demo, Source Code) MIT Nodejs"
+  },
+  {
     "name": "AWStats",
     "url": "http://www.awstats.org/",
     "description": "Generates web, streaming, ftp or mail server statistics graphically. (Source Code) GPL-3.0 Perl"
@@ -16,13 +21,23 @@
   },
   {
     "name": "Fathom Analytics",
-    "url": "https://usefathom.com",
-    "description": "Simple & trustworthy website analytics. (Source Code) MIT Go"
+    "url": "https://github.com/usefathom/fathom",
+    "description": "Simple & trustworthy website analytics. MIT Go"
+  },
+  {
+    "name": "Freshlytics",
+    "url": "https://github.com/sheshbabu/freshlytics",
+    "description": "Privacy respecting, cookie free and low resource usage analytics platform. MIT Docker/Nodejs"
   },
   {
     "name": "GoAccess",
     "url": "http://goaccess.io/",
     "description": "Real-time web log analyzer and interactive viewer that runs in a terminal. (Source Code) GPL-2.0 C"
+  },
+  {
+    "name": "GoatCounter",
+    "url": "https://www.goatcounter.com",
+    "description": "Simple web statistics. No tracking of personal data. (Source Code) AGPL-3.0 Go"
   },
   {
     "name": "Hastic",
@@ -35,6 +50,11 @@
     "description": "Very minimalistic (KISS) website statistics tool. (Source Code) MIT Go"
   },
   {
+    "name": "Koko Analytics",
+    "url": "https://www.kokoanalytics.com/",
+    "description": "Privacy-friendly and open source analytics plugin for WordPress. (Source Code) GPL-3.0 PHP"
+  },
+  {
     "name": "Matomo",
     "url": "https://matomo.org/",
     "description": "Leading open-source analytics platform that gives you more than just powerful analytics, formerly known as Piwik. (Source Code) GPL-3.0 PHP"
@@ -42,12 +62,17 @@
   {
     "name": "Open Web Analytics",
     "url": "http://www.openwebanalytics.com/",
-    "description": "Google Analytics and Piwik alternative. (Source Code) GPL-2.0 PHP"
+    "description": "Google Analytics and Matomo alternative. (Source Code) GPL-2.0 PHP"
   },
   {
     "name": "Rakam",
     "url": "https://rakam.io/",
     "description": "Custom analytics platform that allows you to create your own analytics services. Integrate with any data source (web, mobile, IoT etc.), analyze data with SQL and create dashboards. (Source Code) Apache-2.0 Java"
+  },
+  {
+    "name": "Rudder",
+    "url": "https://rudderlabs.com/",
+    "description": "Customer Data Infrastructure software for collecting, storing, processing and routing event data from apps and websites to dozens of marketing tools & analytics platforms (open-source alternative to Segment et al.). (Source Code) SSPL-1.0 Go"
   },
   {
     "name": "Serposcope",
@@ -58,11 +83,6 @@
     "name": "Snowplow",
     "url": "http://snowplowanalytics.com/",
     "description": "Have every single event, from your websites, mobile apps, desktop applications and server-side systems, stored in your own data warehouse and available to action in real-time. (Source Code) Apache-2.0 Scala"
-  },
-  {
-    "name": "Suet ⚠",
-    "url": "https://suet.co/",
-    "description": "Detailed analytics and reporting for your Mailgun transactional emails. (Source Code) GPL-3.0 Nodejs"
   },
   {
     "name": "Metabase",
@@ -102,7 +122,7 @@
   {
     "name": "ArchiveBox",
     "url": "https://archivebox.io/",
-    "description": "Self-hosted \"wayback machine\" that creates HTML & screenshot archives of sites from your bookmarks, browsing history, RSS feeds, or other sources. (Demo, Source Code) MIT Python"
+    "description": "Self-hosted \"wayback machine\" that creates HTML & screenshot archives of sites from your bookmarks, browsing history, RSS feeds, or other sources. (Source Code) MIT Python"
   },
   {
     "name": "ArchivesSpace",
@@ -113,6 +133,21 @@
     "name": "Collective Access: Providence",
     "url": "http://collectiveaccess.org/",
     "description": "Highly configurable Web-based framework for management, description, and discovery of digital and physical collections supporting a variety of metadata standards, data types, and media formats. (Source Code) GPL-3.0-only PHP"
+  },
+  {
+    "name": "CKAN",
+    "url": "https://ckan.org",
+    "description": "CKAN is a tool for making open data websites. (Source Code) AGPL-3.0 Python"
+  },
+  {
+    "name": "Accelerated Text",
+    "url": "https://github.com/tokenmill/accelerated-text",
+    "description": "Automatically generate multiple natural language descriptions of your data varying in wording and structure. Apache-2.0 Clojure"
+  },
+  {
+    "name": "ActiveWorkflow",
+    "url": "https://github.com/automaticmode/active_workflow",
+    "description": "An intelligent process and workflow automation platform based on software agents. MIT Ruby"
   },
   {
     "name": "Alltube",
@@ -150,19 +185,9 @@
     "description": "FeedMixer is a WSGI (Python3) micro web service which takes a list of feed URLs and returns a new feed consisting of the most recent n entries from each given feed(Returns Atom, RSS, or JSON). (Demo) WTFPL Python"
   },
   {
-    "name": "FHEM",
-    "url": "https://fhem.de/fhem.html",
-    "description": "FHEM is used to automate common tasks in the household like switching lamps and heating. It can also be used to log events like temperature or power consumption. You can control it via web or smartphone frontends, telnet or TCP/IP directly. (Source Code) GPL-3.0 Perl"
-  },
-  {
     "name": "Gekko",
     "url": "https://gekko.wizb.it/",
     "description": "Gekko is a Bitcoin TA trading and backtesting bot which support multiple exchanges and cryptocurrencies. (Source Code) MIT Nodejs"
-  },
-  {
-    "name": "Gladys",
-    "url": "https://gladysproject.com",
-    "description": "Gladys is an open-source home assistant which runs on your Raspberry Pi. (Source Code) MIT Nodejs"
   },
   {
     "name": "Headphones",
@@ -175,19 +200,14 @@
     "description": "Django app which listens for pings and sends alerts when pings are late. (Source Code) BSD-3-Clause Python"
   },
   {
-    "name": "Home Assistant",
-    "url": "https://home-assistant.io/",
-    "description": "Open-source home automation platform. (Demo, Source Code) MIT Python"
-  },
-  {
     "name": "homebank-converter",
     "url": "https://github.com/Binnette/homebank-converter",
     "description": "Web app to convert an export bank file to compatible Homebank csv. (Demo) AGPL-3.0 HTML5"
   },
   {
     "name": "HRConvert2",
-    "url": "https://www.honestrepair.net/index.php/hrconvert2/",
-    "description": "Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability. (Demo, Source Code) GPL-3.0 PHP"
+    "url": "https://github.com/zelon88/HRConvert2",
+    "description": "Drag-and-drop file conversion server with session based authentication, automatic temporary file maintenance, and logging capability. GPL-3.0 PHP"
   },
   {
     "name": "Huginn",
@@ -225,14 +245,14 @@
     "description": "Automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic. GPL-3.0 Python"
   },
   {
-    "name": "Node RED",
-    "url": "http://nodered.org/",
-    "description": "Browser-based flow editor that helps you wiring hardware devices, APIs and online services to create IoT solutions. (Source Code) Apache-2.0 Nodejs"
+    "name": "n8n",
+    "url": "https://n8n.io/",
+    "description": "Free node based Workflow Automation Tool. Easily automate tasks across different services. (Source Code) Apache-2.0 Nodejs"
   },
   {
-    "name": "openHAB",
-    "url": "http://www.openhab.org",
-    "description": "Vendor and technology agnostic open source software for home automation. (Source Code) EPL-1.0 Java"
+    "name": "nefarious",
+    "url": "https://github.com/lardbit/nefarious",
+    "description": "Web application that automates downloading Movies and TV Shows. GPL-3.0 Python"
   },
   {
     "name": "Poffer ⚠",
@@ -270,11 +290,6 @@
     "description": "Interface to interact with the aria2 downloader. Very simple to use, just download and open index.html in any web browser. (Demo) MIT HTML5"
   },
   {
-    "name": "WTFDYUM ⚠",
-    "url": "https://www.wtfdyu.me/",
-    "description": "Why The Fuck Did You Unfollow Me - Find out who stops following you on Twitter. (Source Code) Apache-2.0 Java"
-  },
-  {
     "name": "Zenbot 3",
     "url": "https://github.com/carlos8f/zenbot",
     "description": "Zenbot is a lightweight, extendable, artificially intelligent trading bot for Bitcoin, Ether, Litecoin, and more. MIT Node.js"
@@ -303,6 +318,11 @@
     "name": "Cadmus",
     "url": "https://github.com/liamdemafelix/cadmus",
     "description": "Cadmus is an extremely lightweight, flat-file blogging platform powered by Markdown. MIT PHP"
+  },
+  {
+    "name": "Canvas",
+    "url": "https://cnvs.io",
+    "description": "A Laravel publishing platform. (Source Code) MIT PHP"
   },
   {
     "name": "Chyrp Lite",
@@ -357,7 +377,7 @@
   {
     "name": "Plume",
     "url": "https://joinplu.me/",
-    "description": "Federated blogging engine, based on ActivityPub. (Source Code) AGPL-3.0 Ruby"
+    "description": "Federated blogging engine, based on ActivityPub. (Source Code) AGPL-3.0 Rust"
   },
   {
     "name": "PluXml",
@@ -368,11 +388,6 @@
     "name": "Postleaf",
     "url": "https://www.postleaf.org/",
     "description": "Open source blogging platform with inline editing, handlebar templates, and a beautiful user interface. (Source Code) MIT Nodejs"
-  },
-  {
-    "name": "Solo",
-    "url": "http://b3log.org/",
-    "description": "Blogging system written in Java, feel free to create your or your team own blog. (Demo, Source Code) Apache-2.0 Java"
   },
   {
     "name": "dyu/bookmarks",
@@ -391,8 +406,8 @@
   },
   {
     "name": "Firefox Content Server",
-    "url": "https://docs.services.mozilla.com/howtos/run-fxa.html",
-    "description": "Static server that hosts Firefox Account sign up, sign in, email verification, etc. flows. (Source Code) MPL-2.0 Java"
+    "url": "https://github.com/mozilla/fxa-content-server",
+    "description": "Static server that hosts Firefox Account sign up, sign in, email verification, etc. flows. MPL-2.0 Java"
   },
   {
     "name": "Firefox Sync Server",
@@ -468,6 +483,11 @@
     "name": "DAViCal",
     "url": "https://www.davical.org/",
     "description": "Server for calendar sharing (CalDAV) that uses a PostgreSQL database as a data store. (Source Code) GPL-2.0 PHP"
+  },
+  {
+    "name": "Davis",
+    "url": "https://github.com/tchapi/davis/",
+    "description": "A simple, dockerizable and fully translatable admin interface for sabre/dav based on Symfony 5 and Bootstrap 4, largely inspired by Baïkal. MIT PHP"
   },
   {
     "name": "DecSync CC",
@@ -548,11 +568,6 @@
     "name": "Hawkpost",
     "url": "https://hawkpost.co",
     "description": "HawkPost is a web app that lets you create unique links that you can share with a person that desires to send you important information but doesn't know how to encrypt it. The message is encrypted in their browser and sent to your email address. (Source Code) MIT Python"
-  },
-  {
-    "name": "Hubl.in",
-    "url": "https://hubl.in/",
-    "description": "WebRTC powered video conference, chat and collaborative editor. (Source Code) AGPL-3.0 Nodejs"
   },
   {
     "name": "Jitsi Meet",
@@ -745,6 +760,11 @@
     "description": "Complete mailserver solution leveraging the Nix Ecosystem. GPL-3.0 Nix"
   },
   {
+    "name": "wildduck",
+    "url": "https://wildduck.email/",
+    "description": "Scalable no-SPOF IMAP/POP3 mail server. (Source Code) EUPL-1.2 Node.js"
+  },
+  {
     "name": "chasquid",
     "url": "https://blitiri.com.ar/p/chasquid/",
     "description": "SMTP (email) server with a focus on simplicity, security, and ease of operation. (Source Code) Apache-2.0 Go"
@@ -885,11 +905,6 @@
     "description": "Feed reader for your email accounts. (Source Code) GPL-2.0 PHP"
   },
   {
-    "name": "Disposable Mailbox",
-    "url": "https://github.com/synox/disposable-mailbox",
-    "description": "Simple disposable mailbox web-app based on a catch-all IMAP mailbox. (Demo) GPL-3.0 PHP"
-  },
-  {
     "name": "IMP",
     "url": "https://www.horde.org/apps/imp/",
     "description": "HORDE application that provides webmail access to IMAP and POP3 accounts. (Demo, Source Code) GPL-2.0 PHP"
@@ -940,6 +955,11 @@
     "description": "Responsive web IRC client with theming support. (Demo), (Source Code) Apache-2.0 Nodejs"
   },
   {
+    "name": "ngircd",
+    "url": "https://ngircd.barton.de/",
+    "description": "Free, portable and lightweight Internet Relay Chat server for small or private networks. (Source Code) GPL-2.0 C"
+  },
+  {
     "name": "The Lounge",
     "url": "https://thelounge.github.io/",
     "description": "Self-hosted web IRC client. (Demo, Source Code) MIT Nodejs"
@@ -953,6 +973,11 @@
     "name": "Robust IRC",
     "url": "https://robustirc.net/",
     "description": "RobustIRC is IRC without netsplits. Distributed IRC server, based on RobustSession protocol. (Source Code) BSD-3-Clause Go"
+  },
+  {
+    "name": "Tiny Tiny IRC",
+    "url": "https://tt-rss.org/tt-irc/",
+    "description": "An open source AJAX-powered chat platform with support for IRC (Source Code). GPL-3.0 PHP/Java"
   },
   {
     "name": "Weechat",
@@ -1015,14 +1040,19 @@
     "description": "Secure SIP telephony setup with ZRTP encryption. GPL-3.0 Ruby"
   },
   {
+    "name": "SipXcom",
+    "url": "http://sipxcom.org/",
+    "description": "Open source unified communications system. (Source Code) AGPL-3.0 Java"
+  },
+  {
     "name": "Tapir",
     "url": "http://www.sip3.io/",
     "description": "Troubleshooting and real-time monitoring of VoIP-based systems. (Source Code) Apache-2.0 Java/Kotlin"
   },
   {
     "name": "Wazo",
-    "url": "http://wazo.community/",
-    "description": "Full-featured IPBX solution built atop Asterisk with integrated Web administration interface and REST-ful API. (Source Code) GPL-3.0 Python/PHP"
+    "url": "http://wazo-platform.org/",
+    "description": "Full-featured IPBX solution built atop Asterisk with integrated Web administration interface and REST-ful API. (Source Code) GPL-3.0 Python"
   },
   {
     "name": "Abilian SBE",
@@ -1061,8 +1091,13 @@
   },
   {
     "name": "Commento",
-    "url": "https://gitlab.com/commento/commento-ce",
+    "url": "https://gitlab.com/commento/commento",
     "description": "Commento is a discussion platform that you can embed on your blog, news articles, and any place where you want your readers to add comments. MIT GO"
+  },
+  {
+    "name": "Coral",
+    "url": "https://coralproject.net/",
+    "description": "A better commenting experience from Vox Media. (Source Code) Apache-2.0 Nodejs"
   },
   {
     "name": "diaspora*",
@@ -1138,6 +1173,11 @@
     "name": "Mastodon",
     "url": "https://joinmastodon.org/",
     "description": "Federated microblogging server, an alternative to GNU social. (Source Code) AGPL-3.0 Ruby"
+  },
+  {
+    "name": "Misago",
+    "url": "https://misago-project.org/",
+    "description": "Misago is fully featured modern forum application that is fast, scalable and responsive. (Source Code) GPL-2.0 Python"
   },
   {
     "name": "Movim",
@@ -1223,11 +1263,6 @@
     "name": "Socialhome",
     "url": "https://socialhome.network",
     "description": "Federated and decentralized profile builder and social network engine. (Demo, Source Code) AGPL-3.0 Python"
-  },
-  {
-    "name": "Symphony",
-    "url": "https://hacpai.com/",
-    "description": "Modern community (forum/SNS/blog) platform written in Java. (Source Code) GPL-3.0 Java"
   },
   {
     "name": "Talkyard",
@@ -1471,8 +1506,8 @@
   },
   {
     "name": "Noosfero",
-    "url": "http://noosfero.org/",
-    "description": "Noosfero is a web platform for social and solidarity economy networks with blog, e-Portfolios, CMS, RSS, thematic discussion, events agenda and collective intelligence for solidarity economy in the same system. (Source Code) AGPL-3.0 Ruby"
+    "url": "https://gitlab.com/noosfero/noosfero",
+    "description": "Noosfero is a web platform for social and solidarity economy networks with blog, e-Portfolios, CMS, RSS, thematic discussion, events agenda and collective intelligence for solidarity economy in the same system. AGPL-3.0 Ruby"
   },
   {
     "name": "october",
@@ -1590,6 +1625,11 @@
     "description": "World's most-used blogging and CMS engine. (Source Code) GPL-2.0 PHP"
   },
   {
+    "name": "WriteFreely",
+    "url": "https://writefreely.org",
+    "description": "Writing software for starting a minimalist, federated blog — or an entire community. (Source Code) AGPL 3.0 Go"
+  },
+  {
     "name": "OpenEats",
     "url": "https://github.com/open-eats/OpenEats",
     "description": "Recipe management site that allows users to create, store, share and rate recipes, create grocery lists, and more. (Demo) MIT Python"
@@ -1645,11 +1685,6 @@
     "description": "Open Source Point of Sale is a web based point of sale system. (Source Code) MIT PHP"
   },
   {
-    "name": "Osclass",
-    "url": "https://osclass.org/",
-    "description": "One-stop shop to building your own classifieds marketplace. (Source Code) Apache-2.0 PHP"
-  },
-  {
     "name": "OXID eShop",
     "url": "http://oxidforge.org",
     "description": "OXID eShop is a flexible open source e-commerce software with a wide range of functionalities. (Demo, Source Code) GPL-3.0 PHP"
@@ -1695,6 +1730,11 @@
     "description": "PHP based open source e-commerce software made in Germany. (Demo, Source Code) AGPL-3.0 PHP"
   },
   {
+    "name": "Spree Commerce",
+    "url": "https://spreecommerce.org",
+    "description": "Spree is a complete, modular & API-driven open source e-commerce solution for Ruby on Rails. (Demo, Source Code) BSD-3-Clause Ruby"
+  },
+  {
     "name": "Sylius",
     "url": "http://sylius.org/",
     "description": "Symfony2 powered open source full-stack platform for eCommerce. (Demo, Source Code) MIT PHP"
@@ -1730,9 +1770,19 @@
     "description": "Manage all your organization's information in one system. (Source Code) AGPL-3.0 PHP/Java"
   },
   {
+    "name": "DOCAT",
+    "url": "https://github.com/randombenj/docat",
+    "description": "Host your docs. Simple. Versioned. Fancy. MIT Python/docker"
+  },
+  {
     "name": "EdPaper",
     "url": "https://github.com/Edraens/EdPaper",
     "description": "PDF organizer with users management. MIT PHP"
+  },
+  {
+    "name": "EveryDocs",
+    "url": "https://github.com/jonashellmann/everydocs-core/",
+    "description": "A simple Document Management System for private use with basic functionality to organize your documents digitally. GPL-3.0 Ruby"
   },
   {
     "name": "Mayan EDMS",
@@ -1768,6 +1818,11 @@
     "name": "COPS",
     "url": "https://blog.slucas.fr/en/oss/calibre-opds-php-server",
     "description": "Lightweight e-book server alternative to Calibre content server or Calibre2OPDS. (Demo, Source Code) GPL-2.0 PHP"
+  },
+  {
+    "name": "The Epube",
+    "url": "https://tt-rss.org/the-epube",
+    "description": "Self-hosted web EPUB reader using EPUB.js, Bootstrap, and Calibre. (Source Code) GPL-3.0 PHP"
   },
   {
     "name": "Polar Bookshelf",
@@ -1871,8 +1926,8 @@
   },
   {
     "name": "Newspipe",
-    "url": "http://newspipe.io/",
-    "description": "Newspipe is a web news aggregator and reader. (Demo, Source Code) AGPL-3.0 Python"
+    "url": "https://gitlab.com/newspipe/newspipe",
+    "description": "Newspipe is a web news aggregator and reader. (Demo) AGPL-3.0 Python"
   },
   {
     "name": "Nunux Reader",
@@ -1933,6 +1988,11 @@
     "name": "Winds ⚠",
     "url": "https://getstream.io/winds/",
     "description": "Open source and beautiful RSS reader built using React/Redux/Sails/Node and Stream. It showcases personalized feeds powered by the Stream API. (Demo, Source Code) BSD-3-Clause Nodejs"
+  },
+  {
+    "name": "Full-Text RSS",
+    "url": "https://fivefilters.org/content-only",
+    "description": "Extract article content from news sites and blogs and convert RSS feeds that contain only extracts of stories to full-text feeds. Developed by FiveFilters.org. (Source Code) GPL-3.0 PHP"
   },
   {
     "name": "PolitePol",
@@ -2002,7 +2062,7 @@
   {
     "name": "Seafile",
     "url": "https://www.seafile.com/en/home/",
-    "description": "File hosting and sharing solution primary for teams and organizations. (Demo, Source Code) GPL-2.0 C"
+    "description": "File hosting and sharing solution primary for teams and organizations. (Source Code) GPL-2.0 C"
   },
   {
     "name": "SparkleShare",
@@ -2088,6 +2148,11 @@
     "name": "rartracker",
     "url": "https://github.com/swetorrentking/rartracker",
     "description": "Complete private bittorrent tracker. WTFPL PHP"
+  },
+  {
+    "name": "Torrents.csv",
+    "url": "https://gitlab.com/dessalines/torrents.csv",
+    "description": "A self-hostable torrent search engine. GPL-3.0 Rust"
   },
   {
     "name": "Transmission",
@@ -2227,7 +2292,7 @@
   {
     "name": "XBackBone",
     "url": "https://github.com/SergiX44/XBackBone",
-    "description": "A simple, fast, lightweight and powerful ShareX (a free and open-source screenshot utility for Windows) PHP backend. AGPL-3.0 PHP"
+    "description": "A simple, fast and lightweight file manager with instant sharing tools integration, like ShareX (a free and open-source screenshot utility for Windows). AGPL-3.0 PHP"
   },
   {
     "name": "YouTransfer",
@@ -2332,7 +2397,7 @@
   {
     "name": "battlecraft",
     "url": "https://github.com/jbreindel/battlecraft",
-    "description": "Fully distributed multiplayer browser game. (Demo) Apache-2.0 Erlang"
+    "description": "Fully distributed multiplayer browser game. Apache-2.0 Erlang"
   },
   {
     "name": "Clumsy Bird",
@@ -2350,14 +2415,29 @@
     "description": "Fast paced HTML5 puzzle game inspired by Tetris. (Demo) GPL-3.0 HTML5"
   },
   {
+    "name": "Legend of the Green Dragon",
+    "url": "https://github.com/lotgd/core",
+    "description": "Legend of the Green Dragon is a text-based RPG originally developed by Eric Stevens and JT Traub as a remake of and homage to the classic BBS Door game, Legend of the Red Dragon, by Seth Able Robinson. (Demo) AGPL-3.0 PHP"
+  },
+  {
     "name": "Lila",
     "url": "https://lichess.org/",
     "description": "The forever free, adless and open source chess server powering lichess.org, with official iOS and Android client apps. (Source Code) AGPL-3.0 Scala"
   },
   {
+    "name": "Minetest",
+    "url": "https://www.minetest.net/",
+    "description": "An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server. (Source Code) LGPL-2.1/CC-BY-SA-3.0/Other C++"
+  },
+  {
     "name": "Posio",
     "url": "https://github.com/abrenaut/posio",
     "description": "Geography multiplayer game. MIT Python"
+  },
+  {
+    "name": "piqueserver",
+    "url": "https://github.com/piqueserver/piqueserver",
+    "description": "Server for openspades, the first-person shooter in a destructible voxel world. (Clients) GPL-3.0 Python/C++"
   },
   {
     "name": "RconCli",
@@ -2370,19 +2450,14 @@
     "description": "Admin, ban, and communication management system for games running on the Source engine. (Source Code) CC-BY-SA-4.0 PHP"
   },
   {
-    "name": "Spyfall",
-    "url": "https://github.com/mpcovcd/spyfall",
-    "description": "Fan made web version of the Spyfall party game. (Demo) MIT HTML/Javascript"
-  },
-  {
     "name": "Teeworlds",
     "url": "https://www.teeworlds.com",
     "description": "Open source 2D retro multiplayer shooter. (Source Code) BSD-3-Clause/Other C++"
   },
   {
     "name": "TournamentMango",
-    "url": "http://tournamentmango.com/",
-    "description": "TournamentMango is an open source tournament bracket and user management system. You can build an archive of players and keep track of all their scores over time as well as their regular characters, games, and aliases. (Source Code) MIT Javascript"
+    "url": "https://github.com/seiyria/tournamentmango",
+    "description": "TournamentMango is an open source tournament bracket and user management system. You can build an archive of players and keep track of all their scores over time as well as their regular characters, games, and aliases. MIT Javascript"
   },
   {
     "name": "asciinema",
@@ -2393,11 +2468,6 @@
     "name": "GateOne",
     "url": "http://liftoffsoftware.com/Products/GateOne",
     "description": "Gate One is an HTML5 web-based terminal emulator and SSH client. (Source Code) AGPL-3.0 Python"
-  },
-  {
-    "name": "GoTTY",
-    "url": "https://github.com/yudai/gotty",
-    "description": "Simple command line tool that turns your CLI tools into web applications. MIT Go"
   },
   {
     "name": "Guacamole",
@@ -2446,8 +2516,8 @@
   },
   {
     "name": "HRCloud2",
-    "url": "https://www.honestrepair.net/index.php/hrcloud2/",
-    "description": "Full-featured home hosted Cloud Drive, Personal Assistant, App Launcher, File Converter, Streamer, Share Tool and more. (Source Code) GPL-3.0 PHP"
+    "url": "https://github.com/zelon88/HRCloud2",
+    "description": "Full-featured home hosted Cloud Drive, Personal Assistant, App Launcher, File Converter, Streamer, Share Tool and more. GPL-3.0 PHP"
   },
   {
     "name": "Kolab",
@@ -2518,6 +2588,31 @@
     "name": "Domoticz",
     "url": "https://www.domoticz.com/",
     "description": "Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. (Source Code, Clients) GPL-3.0 C/C++"
+  },
+  {
+    "name": "FHEM",
+    "url": "https://fhem.de/fhem.html",
+    "description": "FHEM is used to automate common tasks in the household like switching lamps and heating. It can also be used to log events like temperature or power consumption. You can control it via web or smartphone frontends, telnet or TCP/IP directly. (Source Code) GPL-3.0 Perl"
+  },
+  {
+    "name": "Gladys",
+    "url": "https://gladysproject.com",
+    "description": "Gladys is an open-source home assistant which runs on your Raspberry Pi. (Source Code) MIT Nodejs"
+  },
+  {
+    "name": "Home Assistant",
+    "url": "https://home-assistant.io/",
+    "description": "Open-source home automation platform. (Demo, Source Code) MIT Python"
+  },
+  {
+    "name": "Node RED",
+    "url": "http://nodered.org/",
+    "description": "Browser-based flow editor that helps you wiring hardware devices, APIs and online services to create IoT solutions. (Source Code) Apache-2.0 Nodejs"
+  },
+  {
+    "name": "openHAB",
+    "url": "http://www.openhab.org",
+    "description": "Vendor and technology agnostic open source software for home automation. (Source Code) EPL-1.0 Java"
   },
   {
     "name": "Thingsboard",
@@ -2605,14 +2700,14 @@
     "description": "The Sakai project provides a flexible and feature-rich environment for teaching, learning, research and other collaboration. (Demo, Source Code) ECL-2.0 Java"
   },
   {
-    "name": "SchoolTool",
-    "url": "http://schooltool.org/",
-    "description": "SchoolTool is free administrative software for schools. It includes demographics, gradebook, attendance, calendaring, reporting and more for primary and secondary schools. (Source Code) GPL-2.0 Python"
-  },
-  {
     "name": "GraphHopper",
     "url": "https://graphhopper.com/",
     "description": "Fast routing library and server using OpenStreetMap. (Source Code) Apache-2.0 Java"
+  },
+  {
+    "name": "Hauk",
+    "url": "https://github.com/bilde2910/Hauk",
+    "description": "Easy to setup location sharing platform that lets you temporarily share your location with anyone in real-time. (Demo) Apache-2.0 PHP"
   },
   {
     "name": "MapBBCodeShare",
@@ -2705,6 +2800,11 @@
     "description": "Streaming audio/video server with a slick UI and robust transcoding capabilities (fork of Emby). (Source Code) GPL-2.0 C#"
   },
   {
+    "name": "Karaoke Forever",
+    "url": "https://www.karaoke-forever.com",
+    "description": "Host awesome karaoke parties where everyone can easily find and queue songs from their phone's web browser. The player is also browser-based with support for MP3+G, MP4 and WebGL visualizations. (Source Code) ISC Nodejs"
+  },
+  {
     "name": "MistServer",
     "url": "http://mistserver.org/",
     "description": "Streaming media server that works well in any streaming environment. (Source Code) AGPL-3.0 C++"
@@ -2747,12 +2847,7 @@
   {
     "name": "Black Candy",
     "url": "https://github.com/aidewoode/black_candy",
-    "description": "Music streaming server built with Rails and Stimulus. (Demo) MIT Ruby"
-  },
-  {
-    "name": "CherryMusic",
-    "url": "http://www.fomori.org/cherrymusic/",
-    "description": "Minimalistic Web-Mediaplayer. (Source Code) GPL-3.0 Python"
+    "description": "Music streaming server built with Rails and Stimulus. MIT Ruby"
   },
   {
     "name": "cloudtunes ⚠",
@@ -2778,6 +2873,11 @@
     "name": "GNU FM",
     "url": "https://gnu.io/fm/",
     "description": "Running music community websites, alternative to last.fm. (Source Code) AGPL-3.0 PHP"
+  },
+  {
+    "name": "gonic",
+    "url": "https://github.com/sentriz/gonic",
+    "description": "Lightweight music streaming server. Subsonic compatible. GPL-3.0 Go"
   },
   {
     "name": "Groove Basin",
@@ -2860,6 +2960,11 @@
     "description": "A free and open source linux distribution, designed and fine-tuned exclusively for music playback. (Source Code) GPLv3 NodeJS"
   },
   {
+    "name": "Bluecherry",
+    "url": "https://www.bluecherrydvr.com/",
+    "description": "Closed-circuit television (CCTV) software application which supports IP and Analog cameras. (Source Code) GPL-2.0 PHP"
+  },
+  {
     "name": "crtmpserver",
     "url": "https://packages.debian.org/stable/crtmpserver",
     "description": "High performance RTMP/RTSP streaming server. GPL-3.0 C++"
@@ -2880,14 +2985,14 @@
     "description": "Self-hosted, super lightweight Netflix alternative. MIT Shell"
   },
   {
-    "name": "Odd Networks",
-    "url": "http://oddnetworks.com",
-    "description": "Open source video management system (VMS) and API for collections and videos with supporting SDKs for Roku, Apple iOS/tvOS, Google Android, and Amazon FireTV. (Source Code) MIT Nodejs"
+    "name": "Oddworks",
+    "url": "https://gitlab.com/oddnetworks/oddworks/core",
+    "description": "Oddworks is an open source video distribution platform built to destroy the barriers to streaming television with SDKs for Roku, Apple iOS/tvOS, Google Android, and Amazon FireTV. MIT Nodejs"
   },
   {
     "name": "Open Streaming Platform",
-    "url": "https://gitlab.com/Deamos/flask-nginx-rtmp-manager",
-    "description": "Self-Hosted alternative to Twitch and Youtube Live for live and on-demand video streaming. (Demo) MIT Python"
+    "url": "https://openstreamingplatform.com",
+    "description": "Self-Hosted alternative to Twitch and Youtube Live for live and on-demand video streaming. (Source Code) MIT Python"
   },
   {
     "name": "PeerTube",
@@ -2926,8 +3031,8 @@
   },
   {
     "name": "411",
-    "url": "https://demo.fouroneone.io/",
-    "description": "Alert Management Web Application. (Source Code) MIT PHP"
+    "url": "https://github.com/etsy/411",
+    "description": "Alert Management Web Application. MIT PHP"
   },
   {
     "name": "AlertHub ⚠",
@@ -2955,6 +3060,11 @@
     "description": "Platform with iOS and Android apps to control Arduino, ESP8266, Raspberry Pi and similar microcontroller boards over the Internet. (Source Code) AGPL-3.0 Java"
   },
   {
+    "name": "Cachet",
+    "url": "https://cachethq.io/",
+    "description": "An open source status page system for everyone. (Demo, Source Code) BSD-3-Clause PHP"
+  },
+  {
     "name": "CUPS",
     "url": "https://www.cups.org/",
     "description": "The Common Unix Print System uses Internet Printing Protocol (IPP) to support printing to local and network printers. (Source Code) GPL-2.0 C"
@@ -2968,11 +3078,6 @@
     "name": "DomainMOD",
     "url": "https://domainmod.org",
     "description": "Application to manage your domains and other internet assets in a central location. DomainMOD includes a Data Warehouse framework that allows you to import your WHM/cPanel web server data so that you can view, export, and report on your data. (Demo, Source Code) GPL-3.0 PHP"
-  },
-  {
-    "name": "EasyBook Project",
-    "url": "http://easybook-project.org/",
-    "description": "Book publishing as easy as it should be. (Source Code) MIT PHP"
   },
   {
     "name": "Flox ⚠",
@@ -3003,6 +3108,11 @@
     "name": "ytdl-webserver",
     "url": "https://github.com/Algram/ytdl-webserver",
     "description": "Docker-ready webserver for downloading youtube videos. MIT Nodejs"
+  },
+  {
+    "name": "Journal",
+    "url": "https://github.com/inoda/journal",
+    "description": "Simple journaling with encrypted entries and sharing capabilities. MIT Ruby"
   },
   {
     "name": "Kimai",
@@ -3075,6 +3185,11 @@
     "description": "Allow remote clients to access image acquisition devices (scanners) available on the local host. (Source Code) GPL-2.0 C"
   },
   {
+    "name": "TeslaMate",
+    "url": "https://github.com/adriankumpf/teslamate",
+    "description": "A powerful data logger for Tesla vehicles. MIT Elixir"
+  },
+  {
     "name": "Trello Burndown ⚠",
     "url": "https://github.com/swordbeta/trello-burndown",
     "description": "Easy to use SCRUM burndown chart for Trello boards. MIT Go/Docker"
@@ -3088,11 +3203,6 @@
     "name": "ViMbAdmin",
     "url": "http://www.vimbadmin.net/",
     "description": "Provides a web based virtual mailbox administration system to allow mail administrators to easily manage domains, mailboxes and aliases. (Demo, Source Code) GPL-3.0 PHP"
-  },
-  {
-    "name": "visualCaptcha",
-    "url": "http://visualcaptcha.net/",
-    "description": "Configurable captcha solution, focusing on accessibility and simplicity whilst maintaining security. (Demo, Source Code) MIT PHP/Nodejs/Ruby/Python"
   },
   {
     "name": "Web fonts repository",
@@ -3115,7 +3225,7 @@
     "description": "A self-hosted Bitcoin and other cryptocurrencies payment processor. (Demo, Source Code) MIT C#"
   },
   {
-    "name": "Benedetto",
+    "name": "Bennedetto",
     "url": "https://github.com/arecker/bennedetto",
     "description": "Bennedetto is a simple, turn-based budget management app. GPL-3.0 Python"
   },
@@ -3147,7 +3257,7 @@
   {
     "name": "Firefly III",
     "url": "https://firefly-iii.org/",
-    "description": "Firefly III is a modern financial manager. It helps you to keep track of your money and make budget forecasts. It supports credit cards, has an advanced rule engine and can import data from many banks. It's powered by Laravel and requires PHP7.2. (Demo, Source Code) GPL-3.0 PHP"
+    "description": "Firefly III is a modern financial manager. It helps you to keep track of your money and make budget forecasts. It supports credit cards, has an advanced rule engine and can import data from many banks. It's powered by Laravel and requires PHP7.3. (Demo, Source Code) AGPL-3.0 PHP"
   },
   {
     "name": "Fava",
@@ -3181,8 +3291,8 @@
   },
   {
     "name": "InvoicePlane",
-    "url": "https://invoiceplane.com/",
-    "description": "Manage quotes, invoices, payments and customers for your small business. (Demo, Source Code) MIT PHP"
+    "url": "https://github.com/InvoicePlane/InvoicePlane",
+    "description": "Manage quotes, invoices, payments and customers for your small business. MIT PHP"
   },
   {
     "name": "IHateMoney",
@@ -3193,6 +3303,11 @@
     "name": "Kresus",
     "url": "https://kresus.org/",
     "description": "Open source personal finance manager. (Demo, Source Code) MIT Nodejs"
+  },
+  {
+    "name": "OnTrack",
+    "url": "https://github.com/inoda/ontrack",
+    "description": "A simple app to track spend and set goals. MIT Ruby/React"
   },
   {
     "name": "PartKeepr",
@@ -3281,7 +3396,7 @@
   },
   {
     "name": "Paperwork",
-    "url": "http://paperwork.rocks",
+    "url": "https://paperwork.cloud",
     "description": "OpenSource note-taking and archiving alternative to Evernote, Microsoft OneNote and Google Keep. (Source Code) MIT PHP"
   },
   {
@@ -3313,6 +3428,11 @@
     "name": "Turtl",
     "url": "https://turtl.it/",
     "description": "Totally private personal database and note taking app. (Source Code) GPL-3.0 CommonLisp"
+  },
+  {
+    "name": "Writing",
+    "url": "https://josephernest.github.io/writing/",
+    "description": "Lightweight distraction-free text editor, in the browser (Markdown and LaTeX supported). No lag when writing. (Source Code) MIT Javascript"
   },
   {
     "name": " Collabora Online Development Edition",
@@ -3360,14 +3480,24 @@
     "description": "Tools and libraries to view and edit Open Document Format (ODF) files. (Source Code) AGPL-3.0 HTML5"
   },
   {
-    "name": "Bitwarden",
+    "name": "Bitwarden ⚠",
     "url": "https://bitwarden.com/",
     "description": "Password manager with webapp, browser extension, and mobile app. (Source Code) AGPL-3.0 C#"
+  },
+  {
+    "name": "bitwarden_rs",
+    "url": "https://github.com/dani-garcia/bitwarden_rs",
+    "description": "Lightweight Bitwarden server API implementation written in Rust. GPL-3.0 Rust"
   },
   {
     "name": "keeweb",
     "url": "https://keeweb.info/",
     "description": "This webapp is a browser and desktop password manager compatible with KeePass databases. (Source Code) MIT HTML5"
+  },
+  {
+    "name": "Shaark",
+    "url": "https://github.com/MarceauKa/shaark",
+    "description": "All in one platform for your links, stories, passwords and albums. Built with Laravel and Vue.js. MIT PHP"
   },
   {
     "name": "Passbolt",
@@ -3407,12 +3537,7 @@
   {
     "name": "bin",
     "url": "https://github.com/w4/bin",
-    "description": "a paste bin. (Demo) WTFPL/0BSD Rust"
-  },
-  {
-    "name": "CoderVault",
-    "url": "https://github.com/codervault",
-    "description": "Open source, self-hosted, snippet manager. (Source Code) MIT Ruby"
+    "description": "a paste bin. WTFPL/0BSD Rust"
   },
   {
     "name": "cryptonote",
@@ -3422,7 +3547,7 @@
   {
     "name": "EdPaste",
     "url": "https://github.com/Edraens/EdPaste",
-    "description": "Self-hosted pastebin written in Laravel (PHP Framework). (Demo) MIT PHP"
+    "description": "Self-hosted pastebin written in Laravel (PHP Framework). MIT PHP"
   },
   {
     "name": "fiche",
@@ -3445,11 +3570,6 @@
     "description": "Open source pastebin written in node.js. (Demo, Source Code) MIT Nodejs"
   },
   {
-    "name": "Modern Paste",
-    "url": "https://github.com/LINKIWI/modern-paste",
-    "description": "Modern pastebin with a contemporary, minimalistic user interface backed by a robust feature set. MIT Python"
-  },
-  {
     "name": "mojopaste",
     "url": "http://search.cpan.org/dist/App-mojopaste/",
     "description": "Perl based pastebin. (Demo, Source Code) Artistic-2.0 Perl"
@@ -3470,11 +3590,6 @@
     "description": "Simple pastebin service with convenient api and CLI. (Demo) MIT Go"
   },
   {
-    "name": "Pastebin",
-    "url": "https://github.com/ewhal/Pastebin",
-    "description": "Modern self-hosted pastebin service with a restful API. MIT Go"
-  },
-  {
     "name": "pb",
     "url": "https://github.com/ptpb/pb",
     "description": "Lightweight pastebin (and url shortener) built using flask. GPL-3.0 Python"
@@ -3492,7 +3607,7 @@
   {
     "name": "SharpPaste",
     "url": "https://github.com/phonicmouse/SharpPaste",
-    "description": "Cross-platform C# pastebin with client-side AES-256 encryption that just works. (Demo) MIT C#/NancyFX"
+    "description": "Cross-platform C# pastebin with client-side AES-256 encryption that just works. MIT C#/NancyFX"
   },
   {
     "name": "Snibox",
@@ -3501,8 +3616,8 @@
   },
   {
     "name": "snipt",
-    "url": "https://snipt.net/",
-    "description": "Long-term memory for coders. Share and store code snippets. (Source Code) MIT Python"
+    "url": "https://github.com/nicksergeant/snipt",
+    "description": "Long-term memory for coders. Share and store code snippets. MIT Python"
   },
   {
     "name": "Stikked",
@@ -3513,11 +3628,6 @@
     "name": "Sup3rS3cretMes5age",
     "url": "https://github.com/algolia/sup3rS3cretMes5age",
     "description": "Very simple (to deploy and to use) secret message service using Hashicorp Vault as a secrets storage. MIT Go"
-  },
-  {
-    "name": "tastebin",
-    "url": "https://github.com/andreineculau/tastebin",
-    "description": "Updated version of hastebin plus additional features. Apache-2.0 Nodejs"
   },
   {
     "name": "Baby Buddy",
@@ -3545,6 +3655,11 @@
     "description": "Simple, standalone, self-hosted PHP page that is your window to your server and the web. MIT PHP"
   },
   {
+    "name": "Homer",
+    "url": "https://github.com/bastienwirtz/homer",
+    "description": "A dead simple static homepage to expose your server services, with an easy yaml configuration and connectivity check. Apache-2.0 HTML5"
+  },
+  {
     "name": "iDashboard-PHP",
     "url": "https://github.com/causefx/iDashboard-PHP",
     "description": "HTPC Dashboard to load website services. MIT PHP"
@@ -3556,7 +3671,7 @@
   },
   {
     "name": "simple-dash",
-    "url": "https://github.com/Swagielka/simple-dash",
+    "url": "https://github.com/kutyla-philipp/simple-dash",
     "description": "A simple, fully responsive Dashboard to forward to the services of your choice. (Demo) MIT Javascript"
   },
   {
@@ -3641,8 +3756,8 @@
   },
   {
     "name": "Photoshow",
-    "url": "http://www.photoshow-gallery.com/",
-    "description": "Responsive Web Gallery. (Source Code) GPL-3.0 PHP"
+    "url": "https://github.com/thibaud-rohmer/PhotoShow",
+    "description": "Responsive Web Gallery. GPL-3.0 PHP"
   },
   {
     "name": "Piwigo",
@@ -3705,6 +3820,16 @@
     "description": "Online service for planning an appointment or make a decision quickly and easily: Make a poll, Define dates or subjects to choose, Send the poll link to your friends or colleagues, Discuss and make a decision. (Demo, Source Code) CECILL-B PHP"
   },
   {
+    "name": "hitobito",
+    "url": "https://hitobito.com/en",
+    "description": "A web application to manage complex group hierarchies with members, events and a lot more. (Demo, Source Code) AGPL-3.0 Ruby"
+  },
+  {
+    "name": "JD Esurvey",
+    "url": "https://www.jdsoft.com/jd-esurvey.html",
+    "description": "Open source enterprise survey web application. (Source Code) AGPL-3.0 Java"
+  },
+  {
     "name": "Kyélà",
     "url": "http://kyela.net/",
     "description": "Participation polls for group events. (Demo, Source Code) AGPL-3.0 PHP"
@@ -3715,14 +3840,9 @@
     "description": "Feature-rich Open Source web based polling software. Supports extensive survey logic. (Demo, Source code) GPL-2.0 PHP"
   },
   {
-    "name": "Nuages",
-    "url": "https://nuages.domainepublic.net/",
-    "description": "Collaborative meeting poll system, similar to doodle or rdvz. (Source Code) GPL-3.0 Python"
-  },
-  {
     "name": "Open Event Server",
     "url": "https://github.com/fossasia/open-event-server",
-    "description": "Enables organizers to manage events from concerts to conferences and meet-ups. (Demo) GPL-3.0 Python"
+    "description": "Enables organizers to manage events from concerts to conferences and meet-ups. GPL-3.0 Python"
   },
   {
     "name": "PHPBack",
@@ -3753,6 +3873,11 @@
     "name": "imgproxy",
     "url": "https://github.com/DarthSim/imgproxy",
     "description": "Fast and secure standalone server for resizing and converting remote images. It works great when you need to resize multiple images on the fly without preparing a ton of cached resized images or re-doing it every time the design changes. MIT Go/Docker"
+  },
+  {
+    "name": "inlets",
+    "url": "https://inlets.dev/",
+    "description": "Expose your local endpoints to the Internet - with a Kubernetes integration, Docker image and CLI available. MIT Go/Docker"
   },
   {
     "name": "iodine",
@@ -3850,9 +3975,9 @@
     "description": "Web-based farm record keeping application. (Source Code) GPL-2.0 PHP"
   },
   {
-    "name": "Grocy",
+    "name": "grocy",
     "url": "https://grocy.info/",
-    "description": "grocy is a web-based selfhosted groceries management solution for your home, available in English, German, Italian and Norwegian. (Demo, Source Code) MIT PHP"
+    "description": "ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home. (Demo, Source Code) MIT PHP"
   },
   {
     "name": "Tania",
@@ -3888,6 +4013,11 @@
     "name": "Gigablast",
     "url": "http://www.gigablast.com/",
     "description": "open source search engine. (Source Code) Apache-2.0 C++"
+  },
+  {
+    "name": "MeiliSearch",
+    "url": "https://meilisearch.com",
+    "description": "Ultra relevant, instant and typo-tolerant full-text search API. (Source Code) MIT Rust"
   },
   {
     "name": "Searx",
@@ -3975,6 +4105,11 @@
     "description": "Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use. (Source Code) GPL-3.0 Java"
   },
   {
+    "name": "Leantime",
+    "url": "https://leantime.io",
+    "description": "Leantime is a lean project management system for small teams and startups helping to manage projects from ideation through delivery. (Source Code) GPL-2.0 PHP"
+  },
+  {
     "name": "Octobox ⚠",
     "url": "https://octobox.io/",
     "description": "Take back control of your GitHub Notifications. (Source Code) AGPL-3.0 Ruby"
@@ -4000,6 +4135,11 @@
     "description": "A complete, mature, multi-user project management system with extensive functionality for all phases of a project. (Demo, Source Code) AGPL-3.0 PHP"
   },
   {
+    "name": "Re:Backlogs",
+    "url": "https://github.com/kaishuu0123/rebacklogs",
+    "description": "Project management and collaboration tool powered by Ruby on Rails & VueJS. (Demo) MIT Ruby"
+  },
+  {
     "name": "Redmine",
     "url": "http://www.redmine.org/",
     "description": "Redmine is a flexible project management web application. (Demo, Source Code) GPL-2.0 Ruby"
@@ -4020,6 +4160,11 @@
     "description": "Agile Project Management Tool based on the Kanban and Scrum methods. (Source Code) AGPL-3.0 Python"
   },
   {
+    "name": "Titra",
+    "url": "https://titra.io/en/free-time-tracking-online/",
+    "description": "Time-tracking solution for freelancers and small teams. (Demo, Source Code) GPL-3.0 JavaScript"
+  },
+  {
     "name": "Trac",
     "url": "http://trac.edgewall.org/",
     "description": "Trac is an enhanced wiki and issue tracking system for software development projects. BSD-3-Clause Python"
@@ -4028,6 +4173,16 @@
     "name": "Tuleap",
     "url": "https://www.tuleap.org/",
     "description": "Tuleap is a libre suite to plan, track, code and collaborate on software projects. (Source Code) GPL-2.0 PHP"
+  },
+  {
+    "name": "UVDesk",
+    "url": "https://www.uvdesk.com/",
+    "description": "UVDesk community is a service oriented, event driven extensible opensource helpdesk system that can be used by your organization to provide efficient support to your clients effortlessly whichever way you imagine. (Demo, Source Code) MIT PHP"
+  },
+  {
+    "name": "ZenTao",
+    "url": "http://www.zentao.pm/",
+    "description": "An agile(scrum) project management system/tool. (Demo, Source Code) ZPL-1.2 PHP"
   },
   {
     "name": "Babelfish",
@@ -4065,9 +4220,9 @@
     "description": "The simplest way to manage your entire Dev Infrastructure. (Source Code) Apache-2.0 Nodejs"
   },
   {
-    "name": "Microglark",
-    "url": "http://micro.glark.io",
-    "description": "Hacky minimalistic remote pair programming editor. (Source Code) AGPL-3.0 Nodejs"
+    "name": "ML Workspace",
+    "url": "https://github.com/ml-tooling/ml-workspace",
+    "description": "All-in-one web-based IDE for machine learning and data science. Apache-2.0 Docker"
   },
   {
     "name": "Regexr",
@@ -4088,11 +4243,6 @@
     "name": "sourcegraph",
     "url": "https://sourcegraph.com",
     "description": "Sourcegraph is a fast, open-source, fully-featured code search and navigation engine written in Go. (Source Code) Apache-2.0 Go"
-  },
-  {
-    "name": "Wide",
-    "url": "https://github.com/b3log/wide",
-    "description": "Web-based IDE for Teams using Go programming language/Golang. (Demo) Apache-2.0 Go"
   },
   {
     "name": "Uier",
@@ -4153,6 +4303,11 @@
     "name": "Kong",
     "url": "https://konghq.com/kong/",
     "description": "The World’s Most Popular Open Source Microservice API Gateway and Platform. (Source Code) Apache-2.0 Lua"
+  },
+  {
+    "name": "KrakenD",
+    "url": "https://www.krakend.io/",
+    "description": "Open source High-Performance API Gateway. (Source Code) Apache-2.0 Go"
   },
   {
     "name": "Para",
@@ -4220,6 +4375,11 @@
     "description": "Simple way to manage your todo list in AJAX style. Uses PHP, jQuery, SQLite/MySQL. GTD compliant. (Demo, Source Code) GPL-2.0 PHP"
   },
   {
+    "name": "Nullboard",
+    "url": "https://github.com/apankrat/nullboard",
+    "description": "Single-page minimalist kanban board; compact, highly readable and quick to use. (Demo) BSD-2-Clause Javascript"
+  },
+  {
     "name": "PHP Task/Todo list",
     "url": "https://github.com/lgg/tasks.php",
     "description": "Simple task/todo list that uses a JSON text file for the tasks. MIT PHP"
@@ -4228,11 +4388,6 @@
     "name": "Restyaboard",
     "url": "http://restya.com/board/",
     "description": "Open source Trello-like kanban board. (Demo, Source Code) OSL-3.0 PHP"
-  },
-  {
-    "name": "scrumblr",
-    "url": "http://scrumblr.ca/",
-    "description": "Collaborative Online Scrum Tool Using Websockets, Node.js, jQuery, and CSS3. (Demo, Source Code) GPL-3.0 Nodejs"
   },
   {
     "name": "TaskBoard",
@@ -4395,6 +4550,11 @@
     "description": "A simple and privacy-friendly URL shortener for web developers, admins and all professionals. (Demo) MIT PHP"
   },
   {
+    "name": "gShort",
+    "url": "https://github.com/someone-stole-my-name/gShort",
+    "description": "Privacy-friendly self-hosted URL shortener. (Demo) GPL-3.0 Go"
+  },
+  {
     "name": "Kutt",
     "url": "https://kutt.it",
     "description": "A modern URL shortener with support for custom domains. (Source Code) MIT Nodejs"
@@ -4438,6 +4598,11 @@
     "name": "schort",
     "url": "https://github.com/sqozz/schort",
     "description": "No login, no javascript, just short links. (Demo) CC0-1.0 Python"
+  },
+  {
+    "name": "Shlink",
+    "url": "https://shlink.io",
+    "description": "URL shortener with REST API and command line interface. Includes official progressive web application and docker images. (Source Code, Clients)) MIT PHP"
   },
   {
     "name": "shorturl",
@@ -4507,12 +4672,12 @@
   {
     "name": "jingo",
     "url": "https://github.com/claudioc/jingo",
-    "description": "Git based wiki engine written for node.js, with a decent design, a search capability and good typography. (Demo) MIT Nodejs"
+    "description": "Git based wiki engine written for node.js, with a decent design, a search capability and good typography. MIT Nodejs"
   },
   {
     "name": "Mediawiki",
     "url": "https://www.mediawiki.org/wiki/MediaWiki",
-    "description": "MediaWiki is a free and open-source wiki software package written in PHP. It serves as the platform for Wikipedia and the other Wikimedia projects, used by hundreds of millions of people each month. (Source Code) GPL-2.0 PHP"
+    "description": "MediaWiki is a free and open-source wiki software package written in PHP. It serves as the platform for Wikipedia and the other Wikimedia projects, used by hundreds of millions of people each month. (Demo, (Source Code) GPL-2.0 PHP"
   },
   {
     "name": "MoinMoin",
@@ -4548,11 +4713,6 @@
     "name": "Raneto",
     "url": "http://raneto.com/",
     "description": "Raneto is an open source Knowledgebase platform that uses static Markdown files to power your Knowledgebase. MIT Nodejs"
-  },
-  {
-    "name": "Realms",
-    "url": "http://realms.io/",
-    "description": "Git-backed wiki inspired by Gollum. (Source Code) GPL-2.0 Python"
   },
   {
     "name": "TiddlyWiki",
@@ -4598,6 +4758,16 @@
     "name": "Ansible-NAS",
     "url": "https://github.com/DaveStephens/ansible-nas",
     "description": "Build a full-featured home server with this playbook and an Ubuntu box. MIT YAML/Docker"
+  },
+  {
+    "name": "CharjaBox",
+    "url": "https://github.com/CherryKitten/CharjaBox",
+    "description": "Highly configurable Ansible based Homeserver setup using Docker. GPL-3.0 YAML/Ansible/Docker"
+  },
+  {
+    "name": "Cloud Computer",
+    "url": "https://cloud-computer.dev",
+    "description": "A computer in the cloud that deploys with one click and makes applications accessible through a web browser. (Source Code) MIT Docker"
   },
   {
     "name": "DietPi",
@@ -4671,8 +4841,8 @@
   },
   {
     "name": "WikiSuite",
-    "url": "http://WikiSuite.org",
-    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed. (Source Code) Multiple ClearOS"
+    "url": "https://wikisuite.org",
+    "description": "The most comprehensive and integrated Free / Libre / Open Source enterprise software suite. (Source Code) Multiple ClearOS"
   },
   {
     "name": "YunoHost",
@@ -4708,6 +4878,6 @@
   },
   {
     "name": "Mirrors: GitHub.com, Gitlab.com",
-    "url": "https://github.com/Kickball/awesome-selfhosted"
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
   }
 ]

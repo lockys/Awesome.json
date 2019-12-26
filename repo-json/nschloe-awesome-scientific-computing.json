@@ -17,7 +17,7 @@
   {
     "name": "LAPACK",
     "url": "https://www.netlib.org/lapack/",
-    "description": "Routines for solving systems of linear equations, least-squares solutions of linear systems, eigenvalue problems, and singular value problems."
+    "description": "Routines for solving systems of linear equations, linear least-squares, eigenvalue problems, etc."
   },
   {
     "name": "Eigen",
@@ -32,7 +32,7 @@
   {
     "name": "PETSc",
     "url": "https://www.mcs.anl.gov/petsc/",
-    "description": "Data structures and routines for the parallel solution of scientific applications modeled by PDEs."
+    "description": "Parallel solution of scientific applications modeled by PDEs."
   },
   {
     "name": "DUNE Numerics",
@@ -42,7 +42,7 @@
   {
     "name": "SciPy",
     "url": "https://www.scipy.org",
-    "description": "Python modules for statistics, optimization, integration, linear algebra, Fourier transforms, signal and image processing, ODE solvers, and more."
+    "description": "Python modules for statistics, optimization, integration, linear algebra, etc."
   },
   {
     "name": "NumPy",
@@ -52,12 +52,12 @@
   {
     "name": "FEniCS",
     "url": "https://fenicsproject.org",
-    "description": "Open-source computing platform for solving PDEs in Python and C++."
+    "description": "Computing platform for solving PDEs in Python and C++."
   },
   {
     "name": "libMesh",
     "url": "https://libmesh.github.io",
-    "description": "Framework for the numerical simulation of PDEs using arbitrary unstructured discretizations."
+    "description": "Framework for the numerical simulation of PDEs using unstructured discretizations."
   },
   {
     "name": "deal.II",
@@ -92,7 +92,7 @@
   {
     "name": "FreeFEM",
     "url": "https://freefem.org",
-    "description": "High level multiphysics-multimesh finite element language. (C++, LGPL, GitHub)"
+    "description": "High level multiphysics-multimesh finite element language."
   },
   {
     "name": "Gmsh",
@@ -137,7 +137,7 @@
   {
     "name": "NetCDF",
     "url": "https://www.unidata.ucar.edu/software/netcdf/",
-    "description": "Software libraries and data formats for the creation, access, and sharing of array-oriented scientific data."
+    "description": "Software libraries and data formats for array-oriented scientific data."
   },
   {
     "name": "HDF5",
@@ -147,7 +147,7 @@
   {
     "name": "XDMF",
     "url": "http://www.xdmf.org/index.php/Main_Page",
-    "description": "eXtensible Data Model and Format to exchange scientific data between High Performance Computing codes and tools."
+    "description": "eXtensible Data Model and Format for data from High Performance Computing codes."
   },
   {
     "name": "TetGen",
@@ -186,7 +186,7 @@
   },
   {
     "name": "pmp-library",
-    "url": "http://www.pmp-library.org/",
+    "url": "https://www.pmp-library.org/",
     "description": "Polygon mesh processing library. (C++, MIT with Employer Disclaimer, GitHub)"
   },
   {
@@ -195,8 +195,23 @@
     "description": "Robust, open-source & multidisciplinary software for remeshing. (C, LGPL 3, GitHub)"
   },
   {
+    "name": "meshplex",
+    "url": "https://github.com/nschloe/meshplex",
+    "description": "Fast tools for simplex meshes. (Python, MIT, GitHub)"
+  },
+  {
+    "name": "TetWild",
+    "url": "https://cs.nyu.edu/~yixinhu/tetwild.pdf",
+    "description": "Robust Tetrahedral Meshing in the Wild."
+  },
+  {
+    "name": "TriWild",
+    "url": "https://cs.nyu.edu/~yixinhu/triwild.pdf",
+    "description": " Robust Triangulation with Curve Constraints."
+  },
+  {
     "name": "SuperLU",
-    "url": "https://crd-legacy.lbl.gov/~xiaoye/SuperLU/",
+    "url": "https://portal.nersc.gov/project/sparse/superlu/",
     "description": "Direct solution of large, sparse, nonsymmetric systems of linear equations."
   },
   {
@@ -215,29 +230,49 @@
     "description": "Library of high-performance preconditioners and solvers."
   },
   {
+    "name": "ParaView",
+    "url": "https://www.paraview.org",
+    "description": "Multi-platform data analysis and visualization application based on VTK."
+  },
+  {
+    "name": "VTK",
+    "url": "https://vtk.org/",
+    "description": "Process images and create 3D computer graphics."
+  },
+  {
+    "name": "Mayavi",
+    "url": "https://docs.enthought.com/mayavi/mayavi/",
+    "description": "3D scientific data visualization and plotting in Python."
+  },
+  {
+    "name": "Polyscope",
+    "url": "https://polyscope.run/",
+    "description": "Viewer and user interface for 3D geometry processing."
+  },
+  {
+    "name": "PyVista",
+    "url": "https://docs.pyvista.org/",
+    "description": "3D plotting and mesh analysis through a streamlined interface for VTK."
+  },
+  {
     "name": "FFTW",
     "url": "http://www.fftw.org",
-    "description": "Discrete Fourier transforms in one or more dimensions, of arbitrary input size, and of both real and complex data."
+    "description": "Discrete Fourier transforms in one or more dimensions, of arbitrary input size, real and complex."
   },
   {
     "name": "Qhull",
     "url": "http://www.qhull.org",
-    "description": "Convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furthest-site Delaunay triangulation, and furthest-site Voronoi diagram."
+    "description": "Convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, etc."
   },
   {
     "name": "GSL",
     "url": "https://www.gnu.org/software/gsl/",
-    "description": "Wide range of mathematical routines such as random number generators, special functions, and least-squares fitting."
+    "description": "Random number generators, special functions, and least-squares fitting etc."
   },
   {
     "name": "OpenFOAM",
     "url": "https://www.openfoam.com",
     "description": "Free, open source CFD (computational fluid dynamics) software."
-  },
-  {
-    "name": "ParaView",
-    "url": "https://www.paraview.org",
-    "description": "Multi-platform data analysis and visualization application based on VTK."
   },
   {
     "name": "quadpy",
@@ -275,6 +310,16 @@
     "description": "Modeling language for convex optimization problems."
   },
   {
+    "name": "PyWavelets",
+    "url": "https://pywavelets.readthedocs.io/en/latest/",
+    "description": "Wavelet transforms in Python."
+  },
+  {
+    "name": "NFFT",
+    "url": "https://www-user.tu-chemnitz.de/~potts/nfft/",
+    "description": "Nonequispaced fast Fourier transform."
+  },
+  {
     "name": "SciComp StackExchange",
     "url": "https://scicomp.stackexchange.com/",
     "description": "Computational Science on the StackExchange network."
@@ -286,7 +331,7 @@
   },
   {
     "name": "Nick Higham's blog",
-    "url": "https://nickhigham.wordpress.com/",
+    "url": "https://nhigham.com/",
     "description": "Mostly on MATLAB, general computing advice."
   },
   {
@@ -306,7 +351,12 @@
   },
   {
     "name": "NA Digest",
-    "url": "http://www.netlib.org/na-digest-html/",
+    "url": "https://www.netlib.org/na-digest-html/",
     "description": "Collection of articles on topics related to numerical analysis and those who practice it."
+  },
+  {
+    "name": "Gabriel Peyré on Twitter",
+    "url": "https://twitter.com/gabrielpeyre",
+    "description": "One tweet a day on computational mathematics."
   }
 ]

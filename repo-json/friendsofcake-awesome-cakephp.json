@@ -25,6 +25,11 @@
     "description": "A complete asset manager for CakePHP."
   },
   {
+    "name": "AssetMix plugin",
+    "url": "https://github.com/ishanvyas22/asset-mix",
+    "description": "Provides integration with Laravel Mix asset compilation."
+  },
+  {
     "name": "Assets plugin",
     "url": "https://github.com/mirko-pagliai/cakephp-assets",
     "description": "Dynamic and \"on the fly\" asset files."
@@ -232,11 +237,6 @@
     "description": "Email transport plugin for sending email via SendGrid API."
   },
   {
-    "name": "SparkPost plugin",
-    "url": "https://github.com/syntaxera/cakephp-sparkpost-plugin",
-    "description": "Email transport plugin for sending email via the SparkPost API."
-  },
-  {
     "name": "Environments plugin",
     "url": "https://github.com/josegonzalez/cakephp-environments",
     "description": "Plugin to handle environments."
@@ -398,7 +398,7 @@
   },
   {
     "name": "Jenkins",
-    "url": "http://jenkins-ci.org/",
+    "url": "https://jenkins.io/",
     "description": "The free alternative for private (GitHub) repos."
   },
   {
@@ -443,7 +443,7 @@
   },
   {
     "name": "Upgrade/Migration Guide",
-    "url": "http://book.cakephp.org/3.0/en/appendices.html",
+    "url": "https://book.cakephp.org/3.0/en/appendices.html",
     "description": "Official migration guide."
   },
   {
@@ -612,9 +612,19 @@
     "description": "Behavior for maintaining ordered list of records."
   },
   {
+    "name": "CakeDecimal plugin",
+    "url": "https://github.com/dereuromark/cakephp-decimal",
+    "description": "A value object approach on handling decimals."
+  },
+  {
     "name": "Duplicatable plugin",
     "url": "https://github.com/riesenia/cakephp-duplicatable",
     "description": "Behavior for duplicating entities including related data."
+  },
+  {
+    "name": "Fetchable plugin",
+    "url": "https://github.com/riesenia/cakephp-fetchable",
+    "description": "Behavior for fetching entities from cache / memory."
   },
   {
     "name": "JeremyHarris/LazyLoad plugin",
@@ -737,11 +747,6 @@
     "description": "A plugin which allows using Fractal transformers for your API output."
   },
   {
-    "name": "RestApi plugin",
-    "url": "https://github.com/multidots/cakephp-rest-api",
-    "description": "Provides basic support for building REST API services."
-  },
-  {
     "name": "ElasticSearch plugin",
     "url": "https://github.com/cakephp/elastic-search",
     "description": "Alternative ORM using Elastic Search as its backend."
@@ -765,6 +770,11 @@
     "name": "Tags plugin",
     "url": "https://github.com/dereuromark/cakephp-tags",
     "description": "For tagging and finding tagged records."
+  },
+  {
+    "name": "BryanCrowe/EncryptedType",
+    "url": "https://github.com/bcrowe/cakephp-encrypted-type",
+    "description": "Simple solution that enables Encrypted data types to be stored in the database."
   },
   {
     "name": "Captcha plugin",
@@ -987,6 +997,11 @@
     "description": "Allows access to the GitHub REST APIs using the Webservice ORM."
   },
   {
+    "name": "Jira plugin",
+    "url": "https://github.com/fr3nch13/cakephp-jira",
+    "description": "Provides a helper to allow access to Jira's REST API using lesstif/php-jira-rest-client as the Vendor. Currently read-only access."
+  },
+  {
     "name": "Ratchet plugin",
     "url": "https://github.com/WyriHaximus/Ratchet",
     "description": "Brings the Ratchet websocket package to CakePHP."
@@ -1057,11 +1072,6 @@
     "description": "A portable development environment utility."
   },
   {
-    "name": "Vagrant CakePHP",
-    "url": "https://github.com/salines/vagrant-cakephp",
-    "description": "Vagrant LEMP environment incl. latest CakePHP."
-  },
-  {
     "name": "CakeBlog",
     "url": "https://github.com/gwhitcher/CakeBlog",
     "description": "Open source blog software."
@@ -1102,7 +1112,7 @@
   },
   {
     "name": "Sandbox",
-    "url": "http://sandbox.dereuromark.de",
+    "url": "https://sandbox.dereuromark.de",
     "description": "A sandbox CakePHP application with lots of demos and plugin showcasings."
   },
   {
@@ -1120,11 +1130,6 @@
     "description": "A CakePHP + VueJS single page application skeleton."
   },
   {
-    "name": "cakephpbrasil.com.br",
-    "url": "http://cakephpbrasil.com.br/",
-    "description": "The brazilian community website."
-  },
-  {
     "name": "CakePHP-FR.org",
     "url": "http://cakephp-fr.org",
     "description": "The french community website."
@@ -1136,17 +1141,17 @@
   },
   {
     "name": "Official CakePHP Forum",
-    "url": "http://discourse.cakephp.org/",
+    "url": "https://discourse.cakephp.org/",
     "description": "This is for generic questions and alike."
   },
   {
     "name": "IRC Channel",
-    "url": "http://www.dereuromark.de/2013/01/27/irc-cakephp-channel/",
+    "url": "https://www.dereuromark.de/2013/01/27/irc-cakephp-channel/",
     "description": "Live chat/discussion with other devs and core devs."
   },
   {
     "name": "stackoverflow.com/questions/tagged/cakephp",
-    "url": "http://stackoverflow.com/questions/tagged/cakephp",
+    "url": "https://stackoverflow.com/questions/tagged/cakephp",
     "description": "This is for specific questions, ideally along with some example code."
   },
   {
@@ -1161,7 +1166,7 @@
   },
   {
     "name": "dereuromark.de",
-    "url": "http://www.dereuromark.de",
+    "url": "https://www.dereuromark.de",
     "description": "An extensive CakePHP core dev blog."
   },
   {
@@ -1196,17 +1201,17 @@
   },
   {
     "name": "Official Blog tutorial",
-    "url": "http://book.cakephp.org/3.0/en/tutorials-and-examples/blog/blog.html"
+    "url": "https://book.cakephp.org/3.0/en/tutorials-and-examples/blog/blog.html"
   },
   {
     "name": "CakePHP Cookbook(!)",
-    "url": "http://book.cakephp.org/",
+    "url": "https://book.cakephp.org/",
     "description": "The official CakePHP documentation."
   },
   {
     "name": "CakePHP Reporter",
-    "url": "http://www.scoop.it/t/cakephp-reporter",
-    "description": "a newspaper and collection of material about CakePHP."
+    "url": "https://www.scoop.it/topic/cakephp-reporter",
+    "description": "A newspaper and collection of material about CakePHP."
   },
   {
     "name": "Core Google Group",
@@ -1220,22 +1225,22 @@
   },
   {
     "name": "cakefest.org",
-    "url": "http://cakefest.org/",
+    "url": "https://cakefest.org/",
     "description": "Annual CakePHP Conference."
   },
   {
     "name": "CakePHP-DE",
-    "url": "http://www.meetup.com/CakePHP-DE",
+    "url": "https://www.meetup.com/CakePHP-DE",
     "description": "MeetUps in Germany."
   },
   {
     "name": "CakePHP-France",
-    "url": "http://www.meetup.com/CakePHP-France",
+    "url": "https://www.meetup.com/CakePHP-France",
     "description": "MeetUps in France."
   },
   {
     "name": "CakePHP-NL",
-    "url": "http://www.meetup.com/CakePHP-NL",
+    "url": "https://www.meetup.com/CakePHP-NL",
     "description": "MeetUps in Netherlands."
   }
 ]

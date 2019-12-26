@@ -5,6 +5,11 @@
     "description": "Curated collection of information security themed Ansible roles that are both vetted and actively maintained."
   },
   {
+    "name": "Dev-Sec.io",
+    "url": "https://dev-sec.io/",
+    "description": "Server hardening framework providing Ansible, Chef, and Puppet implementations of various baseline security configurations."
+  },
+  {
     "name": "DShell",
     "url": "https://github.com/USArmyResearchLab/Dshell",
     "description": "Extensible network forensic analysis framework written in Python that enables rapid development of plugins to support the dissection of network packet captures."
@@ -30,6 +35,11 @@
     "description": "High level C++ network packet sniffing and crafting library."
   },
   {
+    "name": "peepdf",
+    "url": "https://eternal-todo.com/tools/peepdf-pdf-analysis-tool",
+    "description": "Scriptable PDF file analyzer."
+  },
+  {
     "name": "python-dshield",
     "url": "https://github.com/rshipp/python-dshield",
     "description": "Pythonic interface to the Internet Storm Center/DShield API."
@@ -43,6 +53,16 @@
     "name": "python-stix2",
     "url": "https://github.com/oasis-open/cti-python-stix2",
     "description": "Python APIs for serializing and de-serializing Structured Threat Information eXpression (STIX) JSON content, plus higher-level APIs for common tasks."
+  },
+  {
+    "name": "Prowler",
+    "url": "https://github.com/toniblyx/prowler",
+    "description": "Tool based on AWS-CLI commands for Amazon Web Services account security assessment and hardening."
+  },
+  {
+    "name": "Scout Suite",
+    "url": "https://github.com/nccgroup/ScoutSuite",
+    "description": "Open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments."
   },
   {
     "name": "GPG Sync",
@@ -75,11 +95,6 @@
     "description": "Prevents you from committing passwords and other sensitive information to a git repository."
   },
   {
-    "name": "Prowler",
-    "url": "https://github.com/toniblyx/prowler",
-    "description": "Tool based on AWS-CLI commands for Amazon Web Services account security assessment and hardening."
-  },
-  {
     "name": "Vault",
     "url": "https://www.vaultproject.io/",
     "description": "Tool for securely accessing secrets such as API keys, passwords, or certificates through a unified interface."
@@ -98,6 +113,11 @@
     "name": "CanaryTokens",
     "url": "https://github.com/thinkst/canarytokens",
     "description": "Self-hostable honeytoken generator and reporting dashboard; demo version available at CanaryTokens.org."
+  },
+  {
+    "name": "Kushtaka",
+    "url": "https://kushtaka.org",
+    "description": "Sustainable all-in-one honeypot and honeytoken orchestrator for under-resourced blue teams."
   },
   {
     "name": "Endlessh",
@@ -123,6 +143,11 @@
     "name": "Fail2ban",
     "url": "https://www.fail2ban.org/",
     "description": "Intrusion prevention software framework that protects computer servers from brute-force attacks."
+  },
+  {
+    "name": "OpenSCAP Base",
+    "url": "https://www.open-scap.org/tools/openscap-base/",
+    "description": "Both a library and a command line tool (oscap) used to evaluate a system against SCAP baseline profiles to report on the security posture of the scanned system(s)."
   },
   {
     "name": "Open Source HIDS SECurity (OSSEC)",
@@ -215,9 +240,9 @@
     "description": "All-in-one Free Software threat hunting stack based on Elasticsearch, Logstash, Kafka, and Kibana with various built-in integrations for analytics including Jupyter Notebook."
   },
   {
-    "name": "Mozilla InvestiGator (MIG)",
-    "url": "https://mig.mozilla.org/",
-    "description": "Platform to perform investigative surgery on remote endpoints."
+    "name": "MozDef",
+    "url": "https://github.com/mozilla/MozDef",
+    "description": "Automate the security incident handling process and facilitate the real-time activities of incident handlers."
   },
   {
     "name": "PSHunt",
@@ -245,11 +270,6 @@
     "description": "Freeware endpoint auditing and analysis tool that provides host-based investigative capabilities, offered by FireEye, Inc."
   },
   {
-    "name": "Scout2",
-    "url": "https://github.com/nccgroup/Scout2",
-    "description": "Security tool that lets Amazon Web Services administrators assess their environment's security posture."
-  },
-  {
     "name": "Bro",
     "url": "https://www.bro.org/",
     "description": "Powerful network analysis framework focused on security monitoring."
@@ -268,11 +288,6 @@
     "name": "Respounder",
     "url": "https://github.com/codeexpress/respounder",
     "description": "Detects the presence of the Responder LLMNR/NBT-NS/MDNS poisoner on a network."
-  },
-  {
-    "name": "Security Monkey",
-    "url": "https://github.com/Netflix/security_monkey",
-    "description": "Monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."
   },
   {
     "name": "Snort",
@@ -330,6 +345,11 @@
     "description": "Free and open source GNU/Linux distribution for intrusion detection, enterprise security monitoring, and log management."
   },
   {
+    "name": "CertSpotter",
+    "url": "https://github.com/SSLMate/certspotter",
+    "description": "Certificate Transparency log monitor from SSLMate that alerts you when a SSL/TLS certificate is issued for one of your domains."
+  },
+  {
     "name": "Gophish",
     "url": "https://getgophish.com/",
     "description": "Powerful, open-source phishing framework that makes it easy to test your organization's exposure to phishing."
@@ -353,6 +373,16 @@
     "name": "Swordphish",
     "url": "https://github.com/certsocietegenerale/swordphish-awareness",
     "description": "Platform allowing to create and manage (fake) phishing campaigns intended to train people in identifying suspicious mails."
+  },
+  {
+    "name": "mailspoof",
+    "url": "https://github.com/serain/mailspoof",
+    "description": "Scans SPF and DMARC records for issues that could allow email spoofing."
+  },
+  {
+    "name": "phishing_catcher",
+    "url": "https://github.com/x0rz/phishing_catcher",
+    "description": "Configurable script to watch for issuances of suspicious TLS certificates by domain name in the Certificate Transparency Log (CTL) using the CertStream service."
   },
   {
     "name": "APTSimulator",

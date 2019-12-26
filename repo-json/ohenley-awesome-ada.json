@@ -90,14 +90,34 @@
     "description": "Ada at Stack Overflow."
   },
   {
+    "name": "subreddit-ada",
+    "url": "https://www.reddit.com/r/ada/",
+    "description": "Ada at Reddit."
+  },
+  {
+    "name": "subreddit-spark",
+    "url": "https://www.reddit.com/r/spark/",
+    "description": "Spark at Reddit."
+  },
+  {
+    "name": "gitter-ada",
+    "url": "https://gitter.im/ada-lang/Lobby",
+    "description": "Ada channel at Gitter."
+  },
+  {
+    "name": "telegram-ada",
+    "url": "https://t.me/ada_lang",
+    "description": "Ada group at Telegram."
+  },
+  {
+    "name": "irc-ada",
+    "url": "http://webchat.freenode.net/?channels=%23ada",
+    "description": "Ada channel at IRC."
+  },
+  {
     "name": "adacore-blog",
     "url": "https://blog.adacore.com/",
     "description": "An insight into the AdaCore ecosystem."
-  },
-  {
-    "name": "ada-programming",
-    "url": "https://plus.google.com/u/0/communities/102688015980369378804",
-    "description": "Ada Google Plus Community."
   },
   {
     "name": "ada-europe",
@@ -118,6 +138,11 @@
     "name": "ada-information-clearinghouse",
     "url": "http://www.adaic.org/",
     "description": "News and resources for the Ada programming language."
+  },
+  {
+    "name": "ada-planet",
+    "url": "https://www.laeran.pl/adaplanet/p/i/",
+    "description": "News Aggregator from the Ada programming language world."
   },
   {
     "name": "gnat-ce",
@@ -151,13 +176,18 @@
   },
   {
     "name": "hac",
-    "url": "https://sourceforge.net/projects/hacadacompiler/",
+    "url": "https://github.com/zertovitch/hac",
     "description": "Experimental Ada compiler fully in Ada."
   },
   {
     "name": "byron",
     "url": "https://github.com/OneWingedShark/Byron",
     "description": "The Byron project is a community-driven Ada compiler, toolchain, and IDE-system."
+  },
+  {
+    "name": "xgc",
+    "url": "http://www.xgc.com/",
+    "description": "XGC provide GCC-based bare-metal toolchains with Ada95 support for aerospace-specific targets such as MIL1750, ERC32 and LEON. As well as a legacy M68000 toolchain."
   },
   {
     "name": "tutorials-point-ada-compiler",
@@ -175,13 +205,8 @@
     "description": "Ada language integration for Visual Studio 2017."
   },
   {
-    "name": "ada-vscode",
-    "url": "https://marketplace.visualstudio.com/items?itemName=Entomy.ada",
-    "description": "VisualStudio Code support for Ada."
-  },
-  {
     "name": "lea",
-    "url": "https://sourceforge.net/projects/l-e-a/",
+    "url": "https://github.com/zertovitch/lea",
     "description": "LEA, a Lightweight Editor for Ada, aims to provide an easy, script-world-like, \"look & feel\" for developing Ada projects of any size and level, while enabling access to full-scale development tools like GNAT"
   },
   {
@@ -198,6 +223,30 @@
     "name": "ada-tmbundle",
     "url": "https://github.com/textmate/ada.tmbundle",
     "description": "TextMate support for Ada."
+  },
+  {
+    "name": "bbedit-ada-module",
+    "url": "https://www.barebones.com/support/bbedit/plugin_library.html",
+    "description": "BBEdit support for Ada."
+  },
+  {
+    "name": "ada-language-server",
+    "url": "https://github.com/AdaCore/ada_language_server",
+    "description": "Adacore server implemention of the the Microsoft Language Protocol for Ada and SPARK."
+  },
+  {
+    "name": "entomy-ada-vscode",
+    "url": "https://github.com/Entomy/Ada-vscode",
+    "description": "Ada language support for VS Code."
+  },
+  {
+    "name": "lucretia-ada-vscode",
+    "url": "https://github.com/Lucretia/ada-vscode",
+    "description": "Basic syntax highlighting for Ada and GPR."
+  },
+  {
+    "name": "ada-utilities- VSCode extension Ada programmers which provides a few utility functions.",
+    "url": "https://github.com/Lucretia/ada-utilities"
   },
   {
     "name": "alire",
@@ -240,6 +289,11 @@
     "description": "A downsized Ada runtime which can be adapted to different platforms."
   },
   {
+    "name": "cortex-gnat-rts",
+    "url": "https://github.com/simonjwright/cortex-gnat-rts",
+    "description": "This package includes GNAT Ada Run Time Systems (RTSs) based on FreeRTOS and targeted at boards with Cortex-M0, M3, -M4, -M4F MCUs."
+  },
+  {
     "name": "marte-os",
     "url": "https://marte.unican.es/",
     "description": "MaRTE OS is a Hard Real-Time Operating System for embedded applications that follows the Minimal Real-Time POSIX.13 subset. It provides an easy to use and controlled environment to develop Multi-Thread Real-Time applications."
@@ -258,6 +312,21 @@
     "name": "bare-bones",
     "url": "https://github.com/Lucretia/bare_bones",
     "description": "An Ada port of the osdev.org minimal 32-bit x86 kernel."
+  },
+  {
+    "name": "lovelace-os",
+    "url": "https://sourceforge.net/projects/lovelaceos/",
+    "description": "Lovelace is an effort to write a Unix like operating system using the Ada 2012 language."
+  },
+  {
+    "name": "ada-kalinda-os",
+    "url": "https://sourceforge.net/projects/sx-ada-kalinda/",
+    "description": "Ada_KALINDA is a sort of Mac Plus like OS written in Ada95."
+  },
+  {
+    "name": "cxos",
+    "url": "https://github.com/ajxs/cxos",
+    "description": "Ada Operating System development example."
   },
   {
     "name": "steamsky",
@@ -355,9 +424,9 @@
     "description": "This is a set of helpers for writing JSON-intefaces it contains JSON parses for most of the Ada runtime components."
   },
   {
-    "name": "ada-interface",
-    "url": "https://github.com/Componolit/ada-interface",
-    "description": "This is an interface collection to be used with applications for component based systems. It aims to be easily portable/platform independent and is compatible with the ada-runtime."
+    "name": "gneiss",
+    "url": "https://github.com/Componolit/gneiss",
+    "description": "Gneiss is an interface collection to be used with applications for component based systems. It aims to be easily portable/platform independent and is compatible with the ada-runtime."
   },
   {
     "name": "poly-orb",
@@ -370,8 +439,8 @@
     "description": "The GNU Omnificent GUI for Ada."
   },
   {
-    "name": "gnavi",
-    "url": "https://sourceforge.net/projects/gnavi/",
+    "name": "gwindows",
+    "url": "https://github.com/zertovitch/gwindows",
     "description": "GNU Ada Visual Interface."
   },
   {
@@ -396,7 +465,7 @@
   },
   {
     "name": "globe-3d",
-    "url": "https://globe3d.sourceforge.io/",
+    "url": "https://github.com/zertovitch/globe-3d",
     "description": "GL Object Based Engine for 3D."
   },
   {
@@ -495,6 +564,11 @@
     "description": "Behavior Driven Development in Ada."
   },
   {
+    "name": "scripted-testing",
+    "url": "https://github.com/simonjwright/scripted_testing",
+    "description": "Supports functional testing using Tcl scripts."
+  },
+  {
     "name": "alog",
     "url": "https://www.codelabs.ch/alog/",
     "description": "Alog is a stackable logging framework for Ada."
@@ -518,6 +592,16 @@
     "name": "spark-2014",
     "url": "https://github.com/AdaCore/spark2014/",
     "description": "SPARK formal verification toolset."
+  },
+  {
+    "name": "acats",
+    "url": "https://github.com/simonjwright/ACATS",
+    "description": "The Ada Conformity Assessment Test Suite, customised for GCC."
+  },
+  {
+    "name": "acats-grading",
+    "url": "https://github.com/simonjwright/ACATS-grading",
+    "description": "Tools for grading ACATS results, modified for Unix-like systems."
   },
   {
     "name": "asn1scc",
@@ -550,13 +634,18 @@
     "description": "Ada-tailored UML Modeling Language."
   },
   {
+    "name": "coldframe",
+    "url": "https://github.com/simonjwright/coldframe",
+    "description": "ColdFrame generates Ada framework code and documentation from UML models."
+  },
+  {
     "name": "math-packages",
     "url": "https://github.com/jscparker/math_packages",
     "description": "Collection of basic math routines in Ada."
   },
   {
     "name": "mathpaqs",
-    "url": "http://mathpaqs.sourceforge.net/",
+    "url": "https://github.com/zertovitch/mathpaqs",
     "description": "Mathpaqs is a collection of mathematical, 100% portable, packages in the Ada programming language."
   },
   {
@@ -575,7 +664,7 @@
     "description": "A set of Ada packages to compute with dimensioned items in full generality."
   },
   {
-    "name": "mandelbrot_ascii",
+    "name": "mandelbrot-ascii",
     "url": "https://github.com/mosteo/mandelbrot_ascii",
     "description": "Mandelbrot renderer in \"ASCII\" (unicode actually, but text nonetheless)."
   },
@@ -840,8 +929,13 @@
     "description": "Tools for writing lexers / parsers in Ada."
   },
   {
-    "name": "ini-file-manager",
-    "url": "https://sourceforge.net/projects/ini-files",
+    "name": "xia",
+    "url": "https://github.com/simonjwright/xia",
+    "description": "An Ada implementation of XPath 1.0."
+  },
+  {
+    "name": "ini-files",
+    "url": "https://github.com/zertovitch/ini-files",
     "description": "The Ini file manager consists of a package, Config, which can read and modify informations from various configuration files known as \"ini\" files."
   },
   {
@@ -876,22 +970,22 @@
   },
   {
     "name": "excel-writer",
-    "url": "http://excel-writer.sourceforge.net",
+    "url": "https://github.com/zertovitch/excel-writer",
     "description": "Create Excel files with basic formats."
   },
   {
     "name": "generic-image-decoder",
-    "url": "http://gen-img-dec.sourceforge.net/",
+    "url": "https://github.com/zertovitch/gid",
     "description": "Multi-format image decoder library for Ada."
   },
   {
     "name": "zip-ada",
-    "url": "http://unzip-ada.sourceforge.net/",
+    "url": "https://github.com/zertovitch/zip-ada",
     "description": "Zip-Ada is a programming library for dealing with the Zip compressed archive file format."
   },
   {
-    "name": "apdf",
-    "url": "https://apdf.sourceforge.io/",
+    "name": "ada-pdf-writer",
+    "url": "https://github.com/zertovitch/ada-pdf-writer",
     "description": "Ada package for producing easily and automatically PDF files, from an Ada program, with text, vector graphics, images (JPEG)."
   },
   {
@@ -901,7 +995,7 @@
   },
   {
     "name": "ada-bar-codes",
-    "url": "https://sourceforge.net/projects/ada-bar-codes",
+    "url": "https://github.com/zertovitch/ada-bar-codes",
     "description": "Ada Bar Codes provides a package for generating various types of bar codes (1D, or 2D like QR codes) on different output formats, such as PDF or SVG."
   },
   {
@@ -941,13 +1035,18 @@
   },
   {
     "name": "engine-3d",
-    "url": "https://sourceforge.net/projects/engine-3d",
+    "url": "https://github.com/zertovitch/engine-3d",
     "description": "A 3D engine for DOS-talgics."
   },
   {
     "name": "ada-synth-lib",
     "url": "https://github.com/raph-amiard/ada-synth-lib",
     "description": "Simple audio synthesis library."
+  },
+  {
+    "name": "scala",
+    "url": "http://www.huygens-fokker.org/scala",
+    "description": "Scala is a powerful software tool for experimentation with musical tunings, such as just intonation scales, equal and historical temperaments, microtonal and macrotonal scales, and non-Western scales."
   },
   {
     "name": "translator",
@@ -1025,6 +1124,11 @@
     "description": "Library and tool for transparently handling data and configuration file access in an Ada application. Supports MacOSX, Linux and Windows."
   },
   {
+    "name": "macos-sdks-vs-gcc",
+    "url": "https://github.com/simonjwright/macos-sdks-vs-gcc",
+    "description": "Provides GCC 'specs' files to cope with SDK policy changes."
+  },
+  {
     "name": "robotics-with-ada",
     "url": "https://github.com/AdaCore/Robotics_with_Ada",
     "description": "Robotics with Ada, ARM, and Lego."
@@ -1053,6 +1157,11 @@
     "name": "evb1000",
     "url": "https://github.com/damaki/EVB1000",
     "description": "Ada/SPARK drivers to control the on-board peripherals of the DecaWave EVB1000 evaluation board."
+  },
+  {
+    "name": "multiplexed-io",
+    "url": "https://github.com/simonjwright/multiplexed-io",
+    "description": "This contains explorations, for AdaPilot, of implementing drivers for the AdaRacer MCU, using the Ravenscar profile of Ada 2012 from AdaCore and device bindings generated using SVD2Ada."
   },
   {
     "name": "solenoid-engine-controller",
@@ -1146,17 +1255,17 @@
   },
   {
     "name": "azip",
-    "url": "https://azip.sourceforge.io",
+    "url": "https://github.com/zertovitch/azip",
     "description": "A free, portable Zip Archive Manager."
   },
   {
     "name": "texcad",
-    "url": "https://texcad.sourceforge.io",
+    "url": "https://github.com/zertovitch/texcad",
     "description": "TeXCAD is a program for drawing or retouching {picture}s in LaTeX."
   },
   {
     "name": "cbsg",
-    "url": "http://cbsg.sf.net",
+    "url": "https://github.com/zertovitch/cbsg",
     "description": "The Corporate Bullshit Generator."
   },
   {
@@ -1173,6 +1282,11 @@
     "name": "ironsides",
     "url": "http://ironsides.martincarlisle.com",
     "description": "Authoritative DNS server verified by SPARK/Ada."
+  },
+  {
+    "name": "wasabee",
+    "url": "https://github.com/zertovitch/wasabee",
+    "description": "A Web browser with safety focus."
   },
   {
     "name": "yass",
@@ -1205,13 +1319,8 @@
     "description": "HTML generator for Ada95 library unit specs."
   },
   {
-    "name": "coldframe",
-    "url": "https://github.com/simonjwright/coldframe",
-    "description": "ColdFrame generates Ada framework code and documentation from UML models."
-  },
-  {
-    "name": "p2ada",
-    "url": "http://p2ada.sourceforge.net/",
+    "name": "pascal-to-ada",
+    "url": "https://github.com/zertovitch/pascal-to-ada",
     "description": "A Pascal to Ada translator."
   },
   {
@@ -1242,7 +1351,12 @@
   {
     "name": "cappulada",
     "url": "https://github.com/Componolit/Cappulada",
-    "description": "Ada binding generator for C++"
+    "description": "Ada binding generator for C++."
+  },
+  {
+    "name": "asis2xml",
+    "url": "https://github.com/simonjwright/asis2xml",
+    "description": "Converts Ada sources’ ASIS representation to XML, so as to make it easier to develop reporting and transformational tools using (for example) XSLT."
   },
   {
     "name": "sparforte",
@@ -1260,6 +1374,11 @@
     "description": "GNATCOLL.Scripts.Shell is a simple embeddable scripting language, part of GNATCOLL Core."
   },
   {
+    "name": "analytical-engine",
+    "url": "https://github.com/simonjwright/analytical-engine",
+    "description": "An Ada 2012 emulation of Charles Babbage’s Analytical Engine."
+  },
+  {
     "name": "gnat-spitbol",
     "url": "https://www2.adacore.com/gap-static/GNAT_Book/html/rts/g-spipat__ads.htm",
     "description": "GNAT.SPITBOL is an implementation of SNOBOL text-oriented programming language, now part of GNAT library."
@@ -1268,6 +1387,11 @@
     "name": "para-sail",
     "url": "http://parasail-lang.org/",
     "description": "ParaSail is a highly parallel experimental language, similar to Go and Erlang. Originaly owned by SofCheck (now AdaCore), it is a test project to try new ideas. Expandable pointers is a sample feature that is about to be introduced to SPARK and Ada. There are in fact 4 experimental languages: ParaSail, Sparkel, Javallel, Parython, all sharing bytecode interpreter and LLVM engine."
+  },
+  {
+    "name": "dhondt",
+    "url": "https://github.com/simonjwright/dhondt",
+    "description": "Ada implementation of D’Hondt electoral result calculator."
   },
   {
     "name": "libsodium-ada",

@@ -25,6 +25,11 @@
     "description": "Drop-in replacement of Django admin comes with lots of goodies."
   },
   {
+    "name": "jet-bridge",
+    "url": "https://github.com/jet-admin/jet-bridge",
+    "description": "Admin panel framework for any application with nice UI (ex Jet Django)"
+  },
+  {
     "name": "flask-admin",
     "url": "https://github.com/flask-admin/flask-admin",
     "description": "Simple and extensible administrative interface framework for Flask."
@@ -58,6 +63,30 @@
     "name": "sortedcontainers",
     "url": "https://github.com/grantjenks/python-sortedcontainers",
     "description": "Fast, pure-Python implementation of SortedList, SortedDict, and SortedSet types."
+  },
+  {
+    "name": "uvicorn",
+    "url": "https://github.com/encode/uvicorn",
+    "description": "Uvicorn is a lightning-fast ASGI server implementation, using uvloop and httptools."
+  },
+  {
+    "name": "asyncio",
+    "url": "https://docs.python.org/3/library/asyncio.html",
+    "description": "(Python standard library) Asynchronous I/O, event loop, coroutines and tasks."
+  },
+  {
+    "name": "awesome-asyncio",
+    "url": "https://github.com/timofurrer/awesome-asyncio"
+  },
+  {
+    "name": "uvloop",
+    "url": "https://github.com/MagicStack/uvloop",
+    "description": "Ultra fast asyncio event loop."
+  },
+  {
+    "name": "Twisted",
+    "url": "https://twistedmatrix.com/trac/",
+    "description": "An event-driven networking engine."
   },
   {
     "name": "audioread",
@@ -300,6 +329,11 @@
     "description": "A library that visualises the flow (call graph) of your Python application."
   },
   {
+    "name": "vulture",
+    "url": "https://github.com/jendrikseipp/vulture",
+    "description": "A tool for finding and analysing dead Python code."
+  },
+  {
     "name": "flake8",
     "url": "https://pypi.org/project/flake8/",
     "description": "A wrapper around pycodestyle, pyflakes and McCabe."
@@ -317,6 +351,11 @@
     "name": "pylama",
     "url": "https://github.com/klen/pylama",
     "description": "A code audit tool for Python and JavaScript."
+  },
+  {
+    "name": "wemake-python-styleguide",
+    "url": "https://github.com/wemake-services/wemake-python-styleguide",
+    "description": "The strictest and most opinionated python linter ever."
   },
   {
     "name": "black",
@@ -482,6 +521,11 @@
     "name": "six",
     "url": "https://pypi.org/project/six/",
     "description": "Python 2 and 3 compatibility utilities."
+  },
+  {
+    "name": "Kornia",
+    "url": "https://github.com/kornia/kornia/",
+    "description": "Open Source Differentiable Computer Vision Library for PyTorch."
   },
   {
     "name": "OpenCV",
@@ -738,6 +782,11 @@
     "description": "A simple database interface to Microsoft SQL Server."
   },
   {
+    "name": "SuperSQLite",
+    "url": "https://github.com/plasticityai/supersqlite",
+    "description": "A supercharged SQLite library built on top of apsw."
+  },
+  {
     "name": "cassandra-driver",
     "url": "https://github.com/datastax/python-driver",
     "description": "The Python Driver for Apache Cassandra."
@@ -755,7 +804,7 @@
   {
     "name": "py2neo",
     "url": "https://py2neo.org/",
-    "description": "Python wrapper client for Neo4j's restful interface."
+    "description": "A client library and toolkit for working with Neo4j."
   },
   {
     "name": "pymongo",
@@ -771,21 +820,6 @@
     "name": "motor",
     "url": "https://github.com/mongodb/motor",
     "description": "The async Python driver for MongoDB."
-  },
-  {
-    "name": "Telephus",
-    "url": "https://github.com/driftx/Telephus",
-    "description": "Twisted based client for Cassandra."
-  },
-  {
-    "name": "txpostgres",
-    "url": "https://github.com/wulczer/txpostgres",
-    "description": "Twisted based asynchronous driver for PostgreSQL."
-  },
-  {
-    "name": "txRedis",
-    "url": "https://github.com/deldotdr/txRedis",
-    "description": "Twisted based client for Redis."
   },
   {
     "name": "Chronyk",
@@ -1277,16 +1311,6 @@
     "description": "Simple Python version management."
   },
   {
-    "name": "pipenv",
-    "url": "https://github.com/pypa/pipenv",
-    "description": "Python Development Workflow for Humans."
-  },
-  {
-    "name": "poetry",
-    "url": "https://github.com/sdispater/poetry",
-    "description": "Python dependency management and packaging made easy."
-  },
-  {
     "name": "virtualenv",
     "url": "https://github.com/pypa/virtualenv",
     "description": "A tool to create isolated Python environments."
@@ -1414,7 +1438,7 @@
   {
     "name": "enaml",
     "url": "https://github.com/nucleic/enaml",
-    "description": "Creating beautiful user-interfaces with Declaratic Syntax like QML."
+    "description": "Creating beautiful user-interfaces with Declarative Syntax like QML."
   },
   {
     "name": "Flexx",
@@ -1475,6 +1499,21 @@
     "name": "wxPython",
     "url": "https://wxpython.org/",
     "description": "A blending of the wxWidgets C++ class library with the Python."
+  },
+  {
+    "name": "tartiflette",
+    "url": "https://tartiflette.io",
+    "description": "SDL-first GraphQL engine implementation for Python 3.6+ and asyncio."
+  },
+  {
+    "name": "tartiflette-aiohttp",
+    "url": "https://github.com/tartiflette/tartiflette-aiohttp/",
+    "description": "An aiohttp-based wrapper for Tartiflette to expose GraphQL APIs over HTTP."
+  },
+  {
+    "name": "tartiflette-asgi",
+    "url": "https://github.com/tartiflette/tartiflette-asgi/",
+    "description": "ASGI support for the Tartiflette GraphQL engine."
   },
   {
     "name": "Cocos2d",
@@ -1613,8 +1652,8 @@
   },
   {
     "name": "requests",
-    "url": "http://docs.python-requests.org/en/latest/",
-    "description": "HTTP Requests for Humans™."
+    "url": "https://requests.kennethreitz.org/en/master/",
+    "description": "HTTP Requests for Humans."
   },
   {
     "name": "treq",
@@ -1937,7 +1976,7 @@
   },
   {
     "name": "PyWin32",
-    "url": "https://sourceforge.net/projects/pywin32/",
+    "url": "https://github.com/mhammond/pywin32",
     "description": "Python Extensions for Windows."
   },
   {
@@ -1973,7 +2012,7 @@
   {
     "name": "gensim",
     "url": "https://github.com/RaRe-Technologies/gensim",
-    "description": "Topic Modelling for Humans."
+    "description": "Topic Modeling for Humans."
   },
   {
     "name": "langid.py",
@@ -2041,38 +2080,14 @@
     "description": "A popular network emulator and API written in Python."
   },
   {
-    "name": "pox",
-    "url": "https://github.com/noxrepo/pox",
-    "description": "A Python-based SDN control applications, such as OpenFlow SDN controllers."
-  },
-  {
-    "name": "asyncio",
-    "url": "https://docs.python.org/3/library/asyncio.html",
-    "description": "(Python standard library) Asynchronous I/O, event loop, coroutines and tasks."
-  },
-  {
-    "name": "awesome-asyncio",
-    "url": "https://github.com/timofurrer/awesome-asyncio"
-  },
-  {
-    "name": "pulsar",
-    "url": "https://github.com/quantmind/pulsar",
-    "description": "Event-driven concurrent framework for Python."
-  },
-  {
-    "name": "pyzmq",
-    "url": "https://github.com/zeromq/pyzmq",
-    "description": "A Python wrapper for the ZeroMQ message library."
-  },
-  {
-    "name": "Twisted",
-    "url": "https://twistedmatrix.com/trac/",
-    "description": "An event-driven networking engine."
-  },
-  {
     "name": "napalm",
     "url": "https://github.com/napalm-automation/napalm",
     "description": "Cross-vendor API to manipulate network devices."
+  },
+  {
+    "name": "pox",
+    "url": "https://github.com/noxrepo/pox",
+    "description": "A Python-based SDN control applications, such as OpenFlow SDN controllers."
   },
   {
     "name": "django-activity-stream",
@@ -2082,12 +2097,12 @@
   {
     "name": "Stream Framework",
     "url": "https://github.com/tschellenbach/Stream-Framework",
-    "description": "Building newsfeed and notification systems using Cassandra and Redis."
+    "description": "Building news feed and notification systems using Cassandra and Redis."
   },
   {
     "name": "Django Models",
     "url": "https://docs.djangoproject.com/en/dev/topics/db/models/",
-    "description": "A part of Django."
+    "description": "The Django ORM."
   },
   {
     "name": "SQLAlchemy",
@@ -2107,6 +2122,11 @@
     "name": "orator",
     "url": "https://github.com/sdispater/orator",
     "description": " The Orator ORM provides a simple yet beautiful ActiveRecord implementation."
+  },
+  {
+    "name": "orm",
+    "url": "https://github.com/encode/orm",
+    "description": "An async ORM."
   },
   {
     "name": "peewee",
@@ -2146,7 +2166,7 @@
   {
     "name": "pip",
     "url": "https://pip.pypa.io/en/stable/",
-    "description": "The Python package and dependency manager."
+    "description": "The package installer for Python."
   },
   {
     "name": "PyPI",
@@ -2156,6 +2176,11 @@
     "name": "pip-tools",
     "url": "https://github.com/jazzband/pip-tools",
     "description": "A set of tools to keep your pinned Python dependencies fresh."
+  },
+  {
+    "name": "poetry",
+    "url": "https://github.com/sdispater/poetry",
+    "description": "Python dependency management and packaging made easy."
   },
   {
     "name": "conda",
@@ -2194,8 +2219,8 @@
   },
   {
     "name": "delegator.py",
-    "url": "https://github.com/kennethreitz/delegator.py",
-    "description": "Subprocesses for Humans™ 2.0."
+    "url": "https://github.com/amitt001/delegator.py",
+    "description": "Subprocesses for Humans 2.0."
   },
   {
     "name": "sarge",
@@ -2206,26 +2231,6 @@
     "name": "sh",
     "url": "https://github.com/amoffat/sh",
     "description": "A full-fledged subprocess replacement for Python."
-  },
-  {
-    "name": "celery",
-    "url": "http://www.celeryproject.org/",
-    "description": "An asynchronous task queue/job queue based on distributed message passing."
-  },
-  {
-    "name": "huey",
-    "url": "https://github.com/coleifer/huey",
-    "description": "Little multi-threaded task queue."
-  },
-  {
-    "name": "mrq",
-    "url": "https://github.com/pricingassistant/mrq",
-    "description": "Mr. Queue - A distributed worker task queue in Python using Redis & gevent."
-  },
-  {
-    "name": "rq",
-    "url": "https://github.com/rq/rq",
-    "description": "Simple job queues for Python."
   },
   {
     "name": "annoy",
@@ -2268,6 +2273,21 @@
     "description": "A Recommendation Engine Framework in TensorFlow."
   },
   {
+    "name": "Bicycle Repair Man",
+    "url": "http://bicyclerepair.sourceforge.net/",
+    "description": "Bicycle Repair Man, a refactoring tool for Python."
+  },
+  {
+    "name": "Bowler",
+    "url": "https://pybowler.io/",
+    "description": "Safe code refactoring for modern Python."
+  },
+  {
+    "name": "Rope",
+    "url": "https://github.com/python-rope/rope",
+    "description": " Rope is a python refactoring library."
+  },
+  {
     "name": "django-rest-framework",
     "url": "http://www.django-rest-framework.org/",
     "description": "A powerful and flexible toolkit to build web APIs."
@@ -2283,24 +2303,14 @@
     "description": "REST API framework powered by Flask, MongoDB and good intentions."
   },
   {
-    "name": "flask-api-utils",
-    "url": "https://github.com/marselester/flask-api-utils",
-    "description": "Taking care of API representation and authentication for Flask."
-  },
-  {
     "name": "flask-api",
-    "url": "http://www.flaskapi.org/",
+    "url": "https://github.com/flask-api/flask-api",
     "description": "Browsable Web APIs for Flask."
   },
   {
     "name": "flask-restful",
     "url": "https://github.com/flask-restful/flask-restful",
     "description": "Quickly building REST APIs for Flask."
-  },
-  {
-    "name": "flask-restless",
-    "url": "https://github.com/jfinkels/flask-restless",
-    "description": "Generating RESTful APIs for database models defined with SQLAlchemy."
   },
   {
     "name": "cornice",
@@ -2314,28 +2324,33 @@
   },
   {
     "name": "falcon",
-    "url": "http://falconframework.org/",
+    "url": "https://github.com/falconry/falcon",
     "description": "A high-performance framework for building cloud APIs and web app backends."
   },
   {
+    "name": "fastapi",
+    "url": "https://github.com/tiangolo/fastapi",
+    "description": "A modern, fast, web framework for building APIs with Python 3.6+ based on standard Python type hints."
+  },
+  {
     "name": "hug",
-    "url": "https://github.com/timothycrosley/hug",
+    "url": "https://github.com/hugapi/hug",
     "description": "A Python 3 framework for cleanly exposing APIs."
   },
   {
-    "name": "restless",
-    "url": "https://github.com/toastdriven/restless",
-    "description": "Framework agnostic REST framework based on lessons learned from Tastypie."
-  },
-  {
-    "name": "ripozo",
-    "url": "https://github.com/vertical-knowledge/ripozo",
-    "description": "Quickly creating REST/HATEOAS/Hypermedia APIs."
-  },
-  {
-    "name": "sandman",
-    "url": "https://github.com/jeffknupp/sandman",
+    "name": "sandman2",
+    "url": "https://github.com/jeffknupp/sandman2",
     "description": "Automated REST APIs for existing database-driven systems."
+  },
+  {
+    "name": "sanic",
+    "url": "https://github.com/huge-success/sanic",
+    "description": "A Python 3.6+ web server and web framework that's written to go fast."
+  },
+  {
+    "name": "vibora",
+    "url": "https://vibora.io/",
+    "description": "Fast, efficient and asynchronous Web framework inspired by Flask."
   },
   {
     "name": "PythonRobotics",
@@ -2346,16 +2361,6 @@
     "name": "rospy",
     "url": "http://wiki.ros.org/rospy",
     "description": "This is a library for ROS (Robot Operating System)."
-  },
-  {
-    "name": "SimpleJSONRPCServer",
-    "url": "https://github.com/joshmarshall/jsonrpclib/",
-    "description": "This library is an implementation of the JSON-RPC specification."
-  },
-  {
-    "name": "SimpleXMLRPCServer",
-    "url": "https://docs.python.org/3/library/xmlrpc.server.html",
-    "description": "(Python standard library) Simple XML-RPC server implementation, single-threaded."
   },
   {
     "name": "zeroRPC",
@@ -2503,6 +2508,11 @@
     "description": "A Python wrapper around RapidJSON."
   },
   {
+    "name": "ultrajson",
+    "url": "https://github.com/esnme/ultrajson",
+    "description": "A fast JSON decoder and encoder written in C with Python bindings."
+  },
+  {
     "name": "python-lambda",
     "url": "https://github.com/nficano/python-lambda",
     "description": "A toolkit for developing and deploying Python code in AWS Lambda."
@@ -2621,6 +2631,26 @@
     "name": "django-taggit",
     "url": "https://github.com/jazzband/django-taggit",
     "description": "Simple tagging for Django."
+  },
+  {
+    "name": "celery",
+    "url": "http://www.celeryproject.org/",
+    "description": "An asynchronous task queue/job queue based on distributed message passing."
+  },
+  {
+    "name": "huey",
+    "url": "https://github.com/coleifer/huey",
+    "description": "Little multi-threaded task queue."
+  },
+  {
+    "name": "mrq",
+    "url": "https://github.com/pricingassistant/mrq",
+    "description": "A distributed worker task queue in Python using Redis & gevent."
+  },
+  {
+    "name": "rq",
+    "url": "https://github.com/rq/rq",
+    "description": "Simple job queues for Python."
   },
   {
     "name": "Jinja2",
@@ -2958,31 +2988,6 @@
     "description": "Video processing routines for SciPy."
   },
   {
-    "name": "bjoern",
-    "url": "https://github.com/jonashaag/bjoern",
-    "description": "Asynchronous, very fast and written in C."
-  },
-  {
-    "name": "gunicorn",
-    "url": "https://github.com/benoitc/gunicorn",
-    "description": "Pre-forked, partly written in C."
-  },
-  {
-    "name": "uWSGI",
-    "url": "https://uwsgi-docs.readthedocs.io/en/latest/",
-    "description": "A project aims at developing a full stack for building hosting services, written in C."
-  },
-  {
-    "name": "waitress",
-    "url": "https://github.com/Pylons/waitress",
-    "description": "Multi-threaded, powers Pyramid."
-  },
-  {
-    "name": "werkzeug",
-    "url": "https://github.com/pallets/werkzeug",
-    "description": "A WSGI utility library for Python that powers Flask and can easily be embedded into your own projects."
-  },
-  {
     "name": "django-compressor",
     "url": "https://github.com/django-compressor/django-compressor",
     "description": "Compresses linked and inline JavaScript or CSS into a single cached file."
@@ -3121,11 +3126,6 @@
     "url": "https://github.com/humiaozuzu/awesome-flask"
   },
   {
-    "name": "Masonite",
-    "url": "https://github.com/MasoniteFramework/masonite",
-    "description": "The modern and developer centric Python web framework."
-  },
-  {
     "name": "Pyramid",
     "url": "https://pylonsproject.org/",
     "description": "A small, fast, down-to-earth, open source Python web framework."
@@ -3135,19 +3135,14 @@
     "url": "https://github.com/uralbash/awesome-pyramid"
   },
   {
-    "name": "Sanic",
-    "url": "https://github.com/channelcat/sanic",
-    "description": "Web server that's written to go fast."
-  },
-  {
-    "name": "Vibora",
-    "url": "https://vibora.io/",
-    "description": "Fast, efficient and asynchronous Web framework inspired by Flask."
+    "name": "Masonite",
+    "url": "https://github.com/MasoniteFramework/masonite",
+    "description": "The modern and developer centric Python web framework."
   },
   {
     "name": "Tornado",
     "url": "http://www.tornadoweb.org/en/latest/",
-    "description": "A Web framework and asynchronous networking library."
+    "description": "A web framework and asynchronous networking library."
   },
   {
     "name": "autobahn-python",
@@ -3155,69 +3150,39 @@
     "description": "WebSocket & WAMP for Python on Twisted and asyncio."
   },
   {
-    "name": "crossbar",
-    "url": "https://github.com/crossbario/crossbar/",
-    "description": "Open-source Unified Application Router (Websocket & WAMP for Python on Autobahn)."
-  },
-  {
-    "name": "django-channels",
+    "name": "channels",
     "url": "https://github.com/django/channels",
     "description": "Developer-friendly asynchrony for Django."
   },
   {
-    "name": "django-socketio",
-    "url": "https://github.com/stephenmcd/django-socketio",
-    "description": "WebSockets for Django."
+    "name": "websockets",
+    "url": "https://github.com/aaugustin/websockets",
+    "description": "A library for building WebSocket servers and clients with a focus on correctness and simplicity."
   },
   {
-    "name": "WebSocket-for-Python",
-    "url": "https://github.com/Lawouach/WebSocket-for-Python",
-    "description": "WebSocket client and server library for Python 2 and 3 as well as PyPy."
+    "name": "bjoern",
+    "url": "https://github.com/jonashaag/bjoern",
+    "description": "Asynchronous, very fast and written in C."
   },
   {
-    "name": "CircleCI",
-    "url": "https://circleci.com/",
-    "description": "A CI service that can run very fast parallel testing."
+    "name": "gunicorn",
+    "url": "https://github.com/benoitc/gunicorn",
+    "description": "Pre-forked, partly written in C."
   },
   {
-    "name": "Travis CI",
-    "url": "https://travis-ci.org",
-    "description": "A popular CI service for your open source and private projects. (GitHub only)"
+    "name": "uWSGI",
+    "url": "https://uwsgi-docs.readthedocs.io/en/latest/",
+    "description": "A project aims at developing a full stack for building hosting services, written in C."
   },
   {
-    "name": "Vexor CI",
-    "url": "https://vexor.io",
-    "description": "A continuous integration tool for private apps with pay-per-minute billing model."
+    "name": "waitress",
+    "url": "https://github.com/Pylons/waitress",
+    "description": "Multi-threaded, powers Pyramid."
   },
   {
-    "name": "Wercker",
-    "url": "http://www.wercker.com/",
-    "description": "A Docker-based platform for building and deploying applications and microservices."
-  },
-  {
-    "name": "Codacy",
-    "url": "https://www.codacy.com/",
-    "description": "Automated Code Review to ship better code, faster."
-  },
-  {
-    "name": "Codecov",
-    "url": "https://codecov.io/",
-    "description": "Code coverage dashboard."
-  },
-  {
-    "name": "CodeFactor",
-    "url": "https://www.codefactor.io/",
-    "description": "Automated Code Review for Git."
-  },
-  {
-    "name": "Landscape",
-    "url": "https://landscape.io/",
-    "description": "Hosted continuous Python code metrics."
-  },
-  {
-    "name": "PEP 8 Speaks",
-    "url": "https://pep8speaks.com/",
-    "description": "GitHub integration to review code style."
+    "name": "werkzeug",
+    "url": "https://github.com/pallets/werkzeug",
+    "description": "A WSGI utility library for Python that powers Flask and can easily be embedded into your own projects."
   },
   {
     "name": "From Python Import Podcast",
@@ -3310,10 +3275,6 @@
   {
     "name": "Python Cheatsheet",
     "url": "https://www.pythoncheatsheet.org/"
-  },
-  {
-    "name": "Python Hackers",
-    "url": "http://www.oss.io/open-source/"
   },
   {
     "name": "Python ZEEF",

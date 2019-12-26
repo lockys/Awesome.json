@@ -10,6 +10,11 @@
     "description": "system for high-throughput, low-latency data stream processing that supports stateful computation, data-driven windowing semantics and iterative stream processing."
   },
   {
+    "name": "Apache Heron (incubating) [Java]",
+    "url": "https://github.com/apache/incubator-heron",
+    "description": "a realtime, distributed, fault-tolerant stream processing engine from Twitter."
+  },
+  {
     "name": "Apache Samza [Scala/Java]",
     "url": "https://github.com/apache/samza",
     "description": "distributed stream processing framework that build on Kafka(messaging, storage) and YARN(fault tolerance, processor isolation, security and resource management)."
@@ -50,9 +55,9 @@
     "description": "distributed stream processing with exactly-once semantics based on Storm."
   },
   {
-    "name": "heron",
-    "url": "https://github.com/apache/incubator-heron",
-    "description": "Twitter's real-time analytics platform that is fully API-compatible with Storm. Storm has been replaced by Heron at Twitter."
+    "name": "mantis [Java]",
+    "url": "https://github.com/Netflix/mantis",
+    "description": "Netflix's platform to build an ecosystem of realtime stream processing applications"
   },
   {
     "name": "mupd8(muppet) [Scala/Java]",
@@ -170,7 +175,12 @@
     "description": "a programming model and runtime that enables continuous streaming analytics on gateways and edge devices which can work with centralized systems to provide efficient and timely analytics across the whole IoT ecosystem: from the center to the edge, opens sourced by IBM."
   },
   {
-    "name": "Apache Beam [Java]",
+    "name": "StreamPipes [Java]",
+    "url": "https://github.com/streampipes/streampipes",
+    "description": "a complete toolbox to easily analyze IoT (big) data streams without programming skills."
+  },
+  {
+    "name": "Apache Beam [Java, Python, SQL, Scala, Go]",
     "url": "https://github.com/apache/beam",
     "description": "unified model and set of language-specific SDKs for defining and executing data processing workflows, and also data ingestion and integration flows, supporting Enterprise Integration Patterns (EIPs) and Domain Specific Languages (DSLs), open sourced by Google."
   },
@@ -223,6 +233,11 @@
     "name": "flume [Java]",
     "url": "https://github.com/apache/flume",
     "description": "distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data."
+  },
+  {
+    "name": "LogDevice [C++]",
+    "url": "https://logdevice.io/",
+    "description": "a high-performant distributed system by Facebook for streaming and storing sequential data, using a log structure."
   },
   {
     "name": "metaq [Java]",
@@ -364,6 +379,11 @@
     "url": "https://azure.microsoft.com/en-us/services/stream-analytics/"
   },
   {
+    "name": "Cloud Dataflow[Java, Python, SQL, Scala]",
+    "url": "https://cloud.google.com/dataflow/",
+    "description": "Google's managed stream and batch data processing engine. Supports running Beam pipelines."
+  },
+  {
     "name": "concord [C++]",
     "url": "https://www.slideshare.net/concord-io/may-2016-data-by-the-bay-concord-simple-flexible-stream-processing-on-apache-mesos",
     "description": "a distributed stream processing framework built in C++ on top of Apache."
@@ -377,16 +397,6 @@
     "name": "jubatus [C++]",
     "url": "http://jubat.us/en/",
     "description": "distributed processing framework and streaming machine learning library."
-  },
-  {
-    "name": "LogDevice [C++]",
-    "url": "https://logdevice.io/",
-    "description": "a high-performant distributed system by Facebook for streaming and storing sequential data, using a log structure."
-  },
-  {
-    "name": "mantis, tech-blog",
-    "url": "http://www.slideshare.net/g9yuayon/qcon-talk-on-netflix-mantis-a-stream-processing-system",
-    "description": "Netflix's event stream processing system."
   },
   {
     "name": "millwheel",
