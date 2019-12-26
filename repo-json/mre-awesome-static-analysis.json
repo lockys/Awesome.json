@@ -75,7 +75,7 @@
     "description": "static analysis of C/C++ code"
   },
   {
-    "name": "CppDepend ©️",
+    "name": "CppDepend ⚠️ ©️",
     "url": "https://www.cppdepend.com",
     "description": "Measure, query and visualize your code and avoid unexpected issues, technical debt and complexity."
   },
@@ -101,7 +101,7 @@
   },
   {
     "name": "flint++",
-    "url": "http://l2program.co.uk/category/flint",
+    "url": "https://github.com/JossWhittle/FlintPlusPlus",
     "description": "cross-platform, zero-dependency port of flint, a lint program for C++ developed and used at Facebook."
   },
   {
@@ -122,7 +122,7 @@
   {
     "name": "include-gardener",
     "url": "https://github.com/feddischson/include_gardener",
-    "description": "a static analyzer for C/C++/Obj-C to create a graph (in dot or graphml format) which shows all #include relations of a given set of files."
+    "description": "a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all #include relations of a given set of files."
   },
   {
     "name": "LDRA ©️",
@@ -133,6 +133,11 @@
     "name": "oclint",
     "url": "http://oclint.org/",
     "description": "static analysis of C/C++ code"
+  },
+  {
+    "name": "Phasar",
+    "url": "https://github.com/secure-software-engineering/phasar",
+    "description": "A LLVM-based static analysis framework which comes with a taint and type state analysis."
   },
   {
     "name": "Polyspace Bug Finder ©️",
@@ -220,6 +225,11 @@
     "description": "Extends Visual Studio with on-the-fly code inspections for C#, VB.NET, ASP.NET, JavaScript, TypeScript and other technologies."
   },
   {
+    "name": "Roslyn Analyzers",
+    "url": "https://github.com/dotnet/roslyn-analyzers",
+    "description": "Roslyn-based implementation of FxCop analyzers."
+  },
+  {
     "name": "Roslyn Security Guard",
     "url": "https://dotnet-security-guard.github.io/",
     "description": "Project that focuses on the identification of potential vulnerabilities such as SQL injection, cross-site scripting (XSS), CSRF, cryptography weaknesses, hardcoded passwords and many more."
@@ -260,6 +270,21 @@
     "description": "The Crystal compiler has built-in linting functionality."
   },
   {
+    "name": "Fix Insight ©️",
+    "url": "https://www.tmssoftware.com/site/fixinsight.asp",
+    "description": "A free IDE Plugin for static code analysis. A Pro edition includes a command line tool for automation purposes."
+  },
+  {
+    "name": "Pascal Analyzer ©️",
+    "url": "https://peganza.com/products_pal.html",
+    "description": "A static code analysis tool with numerous reports. A free Lite version is available with limited reporting."
+  },
+  {
+    "name": "Pascal Expert ©️",
+    "url": "https://peganza.com/products_pex.html",
+    "description": "IDE plugin for code analysis.  Includes a subset of Pascal Analyzer reporting capabilities and is available for Delphi versions 2007 and later."
+  },
+  {
     "name": "D-scanner",
     "url": "https://github.com/dlang-community/D-Scanner",
     "description": "D-Scanner is a tool for analyzing D source code"
@@ -295,6 +320,16 @@
     "description": "An open source static code analysis tool for Fortran 77, Fortran 90 and Shell."
   },
   {
+    "name": "aligncheck",
+    "url": "https://gitlab.com/opennota/check",
+    "description": "Find inefficiently packed structs."
+  },
+  {
+    "name": "bodyclose",
+    "url": "https://github.com/timakin/bodyclose",
+    "description": "Checks whether HTTP response body is closed."
+  },
+  {
     "name": "deadcode",
     "url": "https://github.com/tsenart/deadcode",
     "description": "Finds unused code."
@@ -303,6 +338,11 @@
     "name": "dingo-hunter",
     "url": "https://github.com/nickng/dingo-hunter",
     "description": "Static analyser for finding deadlocks in Go."
+  },
+  {
+    "name": "dogsled",
+    "url": "https://github.com/alexkohler/dogsled",
+    "description": "Finds assignments/declarations with too many blank identifiers."
   },
   {
     "name": "dupl",
@@ -325,9 +365,9 @@
     "description": "Inspects source code for security problems by scanning the Go AST."
   },
   {
-    "name": "Go Meta Linter",
+    "name": "Go Meta Linter ⚠️",
     "url": "https://github.com/alecthomas/gometalinter",
-    "description": "Concurrently run Go lint tools and normalise their output."
+    "description": "Concurrently run Go lint tools and normalise their output. Use golangci-lint for new projects."
   },
   {
     "name": "go tool vet --shadow",
@@ -350,14 +390,14 @@
     "description": "Go source code linter that maintains checks which are currently not implemented in other linters."
   },
   {
-    "name": "go-staticcheck",
-    "url": "https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck",
-    "description": "go vet on steroids, similar to ReSharper for C#."
-  },
-  {
     "name": "go/ast",
     "url": "https://golang.org/pkg/go/ast/",
     "description": "Package ast declares the types used to represent syntax trees for Go packages."
+  },
+  {
+    "name": "gochecknoglobals",
+    "url": "https://github.com/leighmcculloch/gochecknoglobals",
+    "description": "Checks that no globals are present."
   },
   {
     "name": "goconst",
@@ -391,7 +431,7 @@
   },
   {
     "name": "goreporter",
-    "url": "https://github.com/wgliang/goreporter",
+    "url": "https://github.com/360EntSecGroup-Skylar/goreporter",
     "description": "concurrently runs many linters and normalises their output to a report."
   },
   {
@@ -400,9 +440,14 @@
     "description": "An interactive tool to analyze Golang goroutine dump."
   },
   {
+    "name": "gosec (gas)",
+    "url": "https://github.com/GoASTScanner/gas",
+    "description": "Inspects source code for security problems by scanning the Go AST."
+  },
+  {
     "name": "gosimple",
-    "url": "https://github.com/dominikh/go-tools/tree/master/cmd/gosimple",
-    "description": "Report simplifications in code."
+    "url": "https://godoc.org/github.com/surullabs/lint/gosimple",
+    "description": "Simplifies code."
   },
   {
     "name": "gotype",
@@ -428,11 +473,6 @@
     "name": "maligned",
     "url": "https://github.com/mdempsky/maligned",
     "description": " Detect structs that would take less memory if their fields were sorted."
-  },
-  {
-    "name": "megacheck",
-    "url": "https://github.com/dominikh/go-tools/tree/master/cmd/megacheck",
-    "description": "Run staticcheck, gosimple and unused, sharing work."
   },
   {
     "name": "misspell",
@@ -465,19 +505,19 @@
     "description": "Static analysis tool for Golang that protects against SQL injections."
   },
   {
+    "name": "staticcheck",
+    "url": "https://staticcheck.io/",
+    "description": "A suite of static analysis tools for Go, similar to ReSharper for C#. It specialises on bug finding, code simplicity, performance and editor integration."
+  },
+  {
     "name": "structcheck",
-    "url": "https://github.com/opennota/check",
+    "url": "https://gitlab.com/opennota/check",
     "description": "Find unused struct fields."
   },
   {
     "name": "test",
     "url": "http://golang.org/pkg/testing/",
     "description": "Show location of test failures from the stdlib testing module."
-  },
-  {
-    "name": "testify",
-    "url": "https://github.com/stretchr/testify",
-    "description": "Show location of failed testify assertions."
   },
   {
     "name": "unconvert",
@@ -501,8 +541,13 @@
   },
   {
     "name": "varcheck",
-    "url": "https://github.com/opennota/check",
+    "url": "https://gitlab.com/opennota/check",
     "description": "Find unused global variables and constants."
+  },
+  {
+    "name": "wsl",
+    "url": "https://github.com/bombsimon/wsl",
+    "description": "Enforces empty lines at the right places."
   },
   {
     "name": "CodeNarc",
@@ -525,11 +570,6 @@
     "description": "A static analysis tool to help developers write Haxe code that adheres to a coding standard."
   },
   {
-    "name": "ArchUnit",
-    "url": "https://www.archunit.org/",
-    "description": "Unit test your Java architecture"
-  },
-  {
     "name": "Checker Framework",
     "url": "https://github.com/typetools/checker-framework/",
     "description": "Pluggable type-checking for Java http://checkerframework.org/"
@@ -548,11 +588,6 @@
     "name": "ckjm",
     "url": "http://www.spinellis.gr/sw/ckjm/",
     "description": "calculates Chidamber and Kemerer object-oriented metrics by processing the bytecode of compiled Java files"
-  },
-  {
-    "name": "ClassGraph",
-    "url": "https://github.com/classgraph/classgraph",
-    "description": "a classpath and module path scanner for querying or visualizing class metadata or class relatedness"
   },
   {
     "name": "CogniCrypt",
@@ -635,12 +670,22 @@
     "description": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
   },
   {
+    "name": "Xanitizer",
+    "url": "https://xanitizer.com/",
+    "description": "Xanitizer finds security vulnerabilities in Java/Scala web applications."
+  },
+  {
     "name": "aether",
     "url": "https://github.com/codecombat/aether",
     "description": "Lint, analyze, normalize, transform, sandbox, run, step through, and visualize user JavaScript, in node or the browser."
   },
   {
-    "name": "ClosureLinter",
+    "name": "Closure Compiler",
+    "url": "https://github.com/google/closure-compiler",
+    "description": "A compiler tool to increase efficiency, reduce size, and provide code warnings in JavaScript files."
+  },
+  {
+    "name": "ClosureLinter ⚠️",
     "url": "https://github.com/google/closure-linter",
     "description": "ensures that all of your project's JavaScript code follows the guidelines in the Google JavaScript Style Guide. It can also automatically fix many common errors"
   },
@@ -650,7 +695,7 @@
     "description": "A style checker that helps keep CoffeeScript code clean and consistent."
   },
   {
-    "name": "complexity-report",
+    "name": "complexity-report ⚠️",
     "url": "https://github.com/jared-stilwell/complexity-report",
     "description": "Software complexity analysis for JavaScript projects"
   },
@@ -735,7 +780,7 @@
     "description": "Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code."
   },
   {
-    "name": "yardstick",
+    "name": "yardstick ⚠️",
     "url": "https://github.com/calmh/yardstick",
     "description": "Javascript code metrics"
   },
@@ -761,7 +806,7 @@
   },
   {
     "name": "Perl::Critic",
-    "url": "http://search.cpan.org/~thaljef/Perl-Critic-1.126/lib/Perl/Critic.pm",
+    "url": "https://metacpan.org/pod/Perl::Critic",
     "description": "Critique Perl source code for best-practices."
   },
   {
@@ -1010,6 +1055,11 @@
     "description": "a tool for ensuring Python code is secure"
   },
   {
+    "name": "include-gardener",
+    "url": "https://github.com/feddischson/include_gardener",
+    "description": "a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all #include relations of a given set of files."
+  },
+  {
     "name": "jedi",
     "url": "https://github.com/davidhalter/jedi",
     "description": "autocompletion/static analysis library for Python"
@@ -1175,6 +1225,11 @@
     "description": "Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in."
   },
   {
+    "name": "include-gardener",
+    "url": "https://github.com/feddischson/include_gardener",
+    "description": "a multi-language static analyzer for C/C++/Obj-C/Python/Ruby to create a graph (in dot or graphml format) which shows all #include relations of a given set of files."
+  },
+  {
     "name": "laser",
     "url": "https://github.com/michaeledgar/laser",
     "description": "Static analysis and style linter for Ruby code."
@@ -1295,6 +1350,11 @@
     "description": "a flexible Scala code linting tool."
   },
   {
+    "name": "Xanitizer",
+    "url": "https://xanitizer.com/",
+    "description": "Xanitizer finds security vulnerabilities in Java/Scala web applications."
+  },
+  {
     "name": "i-Code CNES for Shell",
     "url": "https://github.com/lequal/i-CodeCNES",
     "description": "An open source static code analysis tool for Shell and Fortran (77 and 90)."
@@ -1316,7 +1376,7 @@
   },
   {
     "name": "sqlcheck",
-    "url": "https://github.com/jarulraj/sqlcheck",
+    "url": "https://github.com/jarulraj/sqlcheck-old",
     "description": "Automatically identify anti-patterns in SQL queries"
   },
   {
@@ -1370,8 +1430,8 @@
     "description": "A set of tslint rules for static code analysis of Angular 2 TypeScript projects."
   },
   {
-    "name": "TSLint",
-    "url": "https://github.com/palantir/tslint",
+    "name": "ESLint",
+    "url": "https://github.com/typescript-eslint/typescript-eslint",
     "description": "An extensible linter for the TypeScript language."
   },
   {
@@ -1410,14 +1470,29 @@
     "description": "Static code analysis for binary and source code - Java/Scala, PHP, Javascript, C#, PL/SQL, Python, T-SQL, C/C++, ObjectiveC/Swift, Visual Basic 6.0, Ruby, Delphi, ABAP, HTML5 and Solidity"
   },
   {
+    "name": "ArchUnit",
+    "url": "https://www.archunit.org/",
+    "description": "Unit test your Java or Kotlin architecture"
+  },
+  {
     "name": "Axivion Bauhaus Suite ©️",
     "url": "https://www.axivion.com/en/products-services-9#products_bauhaussuite",
     "description": "Tracks down error-prone code locations, style violations, cloned or dead code, cyclic dependencies and more for C/C++, C#/.NET, Java and Ada 83/Ada 95"
   },
   {
+    "name": "CAST Highlight ©️",
+    "url": "https://www.castsoftware.com/products/highlight",
+    "description": "Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation. Supports: Java, JavaScript, Python, JSP, COBOL, SAP/Abap, C/C++, C#, PHP, Visual Basic, T-SQL, PL/SQL."
+  },
+  {
     "name": "Checkmarx CxSAST ©️",
     "url": "https://www.checkmarx.com/products/static-application-security-testing/",
     "description": "Commercial Static Code Analysis which doesn't require pre-compilation. Supports: Android (Java), Apex and VisualForce, ASP, C#, C/C++, Go, Groovy, HTML5, Java, JavaScript, Node.js, Objective C, Perl, PhoneGap, PHP, Python, Ruby, Scala, Swift, VB.NET, VB6, VBScript"
+  },
+  {
+    "name": "ClassGraph",
+    "url": "https://github.com/classgraph/classgraph",
+    "description": "a classpath and module path scanner for querying or visualizing class metadata or class relatedness. Supports JVM languages."
   },
   {
     "name": "coala",
@@ -1577,6 +1652,11 @@
     "name": "STOKE",
     "url": "https://github.com/StanfordPL/stoke",
     "description": "a programming-language agnostic stochastic optimizer for the x86_64 instruction set. It uses random search to explore the extremely high-dimensional space of all possible program transformations"
+  },
+  {
+    "name": "SmartDec Scanner ©️",
+    "url": "https://smartdecscanner.com/",
+    "description": "SAST tool which is capable of identifying vulnerabilities and undocumented features. The analyzer scans the source code and executables without debug info (i.e. binaries). Supports: Java/Scala/Kotlin, PHP, C#, JavaScript, TypeScript, VBScript, HTML5, Python, Perl, C/C++, Objective-C/Swift, PL/SQL, T-SQL, ABAP, 1C, Apex, Go, Ruby, Groovy, Delphi, VBA, Visual Basic 6, Solidity, Vyper, COBOL."
   },
   {
     "name": "Synopsys ©️",
@@ -1869,6 +1949,11 @@
     "description": "A tool to check Markdown files and flag style issues."
   },
   {
+    "name": "Android Lint",
+    "url": "http://tools.android.com/tips/lint",
+    "description": "Run static analysis on Android projects."
+  },
+  {
     "name": "android-lint-summary",
     "url": "https://github.com/passy/android-lint-summary",
     "description": "Combines lint errors of multiple projects into one output, check lint results of multiple sub-projects at once."
@@ -1897,6 +1982,11 @@
     "name": "rpmlint",
     "url": "https://github.com/rpm-software-management/rpmlint",
     "description": "Tool for checking common errors in rpm packages"
+  },
+  {
+    "name": "protolint",
+    "url": "https://github.com/yoheimuta/protolint",
+    "description": "Pluggable linter and fixer to enforce Protocol Buffer style and conventions."
   },
   {
     "name": "LibVCS4j",
@@ -2002,6 +2092,11 @@
     "name": "CodeFlow ©️",
     "url": "https://www.getcodeflow.com",
     "description": "Automated code analysis tool to deal with technical depth. Integrates with Bitbucket and Gitlab. (free for Open Source Projects)"
+  },
+  {
+    "name": "CodePatrol ©️",
+    "url": "https://cyber-security.claranet.fr/en/codepatrol",
+    "description": "Automated SAST code reviews driven by security, supports 15+ languages and includes security training."
   },
   {
     "name": "Embold ©️",

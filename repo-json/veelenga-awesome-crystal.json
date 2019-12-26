@@ -1,10 +1,5 @@
 [
   {
-    "name": "aho_corasick",
-    "url": "https://github.com/chenkovsky/aho_corasick",
-    "description": "AhoCorasick algorithm"
-  },
-  {
     "name": "bisect",
     "url": "https://github.com/spider-gazelle/bisect",
     "description": "Inserting values into a sorted array"
@@ -13,6 +8,11 @@
     "name": "bitfields",
     "url": "https://github.com/elorest/bitfields",
     "description": "Pure Crystal implementation of BitFields. Handles encoding/decoding of bytes."
+  },
+  {
+    "name": "crie",
+    "url": "https://github.com/c910335/crie",
+    "description": "Compile-time Trie"
   },
   {
     "name": "CrOTP",
@@ -131,7 +131,7 @@
   },
   {
     "name": "clang.cr",
-    "url": "https://github.com/ysbaddaden/clang.cr",
+    "url": "https://github.com/crystal-lang/clang.cr",
     "description": "Libclang bindings"
   },
   {
@@ -225,11 +225,6 @@
     "description": "Bindings for libxdo (xdotool)"
   },
   {
-    "name": "zstd.cr",
-    "url": "https://github.com/didactic-drunk/zstd.cr",
-    "description": "Bindings for Zstandard compression library"
-  },
-  {
     "name": "bloom_filter",
     "url": "https://github.com/crystal-community/bloom_filter",
     "description": "Implementation of Bloom filter"
@@ -295,14 +290,29 @@
     "description": "command-line options processing (Crystal stdlib)"
   },
   {
+    "name": "Phreak",
+    "url": "https://github.com/shinzlet/phreak",
+    "description": "A highly flexible Crystal CLI builder in the style of OptionParser"
+  },
+  {
     "name": "cride",
     "url": "https://github.com/j8r/cride",
     "description": "A light CLI text editor/IDE"
   },
   {
+    "name": "oq",
+    "url": "https://github.com/Blacksmoke16/oq",
+    "description": "A performant, and portable jq wrapper to facilitate the consumption and output of formats other than JSON; using jq filters to transform the data."
+  },
+  {
     "name": "progress_bar.cr",
     "url": "https://github.com/TPei/progress_bar.cr",
     "description": "A simple and customizable progress bar"
+  },
+  {
+    "name": "tablo",
+    "url": "https://github.com/hutou/tablo",
+    "description": "A flexible terminal table generator"
   },
   {
     "name": "tallboy",
@@ -330,9 +340,44 @@
     "description": "A static code analysis tool"
   },
   {
-    "name": "trashman",
-    "url": "https://github.com/Groogy/trashman",
-    "description": "A simple memory profiler for Crystal applications"
+    "name": "brotli.cr",
+    "url": "https://github.com/naqvis/brotli.cr",
+    "description": "Bindings to the Google brotli compression library"
+  },
+  {
+    "name": "Crystar",
+    "url": "https://github.com/naqvis/crystar",
+    "description": "Readers and writers of Tar archive format"
+  },
+  {
+    "name": "Gzip",
+    "url": "https://crystal-lang.org/api/Gzip.html",
+    "description": "readers and writers of gzip format (Crystal stdlib)"
+  },
+  {
+    "name": "snappy",
+    "url": "https://github.com/naqvis/snappy",
+    "description": " Snappy compression format reader/writer for Crystal"
+  },
+  {
+    "name": "xz",
+    "url": "https://github.com/naqvis/xz.cr",
+    "description": "Bindings to the xz (lzma) compression library"
+  },
+  {
+    "name": "Zip",
+    "url": "https://crystal-lang.org/api/Zip.html",
+    "description": "readers and writers of zip format (Crystal stdlib)"
+  },
+  {
+    "name": "Zlib",
+    "url": "https://crystal-lang.org/api/Zlib.html",
+    "description": "readers and writers of zlib format (Crystal stdlib)"
+  },
+  {
+    "name": "zstd.cr",
+    "url": "https://github.com/didactic-drunk/zstd.cr",
+    "description": "Bindings for Zstandard compression library"
   },
   {
     "name": "cr-dotenv",
@@ -363,11 +408,6 @@
     "name": "money",
     "url": "https://github.com/crystal-money/money",
     "description": "Handling money and currency conversion with ease (almost complete port of RubyMoney)"
-  },
-  {
-    "name": "moola",
-    "url": "https://github.com/dorkrawk/moola",
-    "description": "Library for dealing with money and conversion (inspired by RubyMoney)"
   },
   {
     "name": "ms",
@@ -420,11 +460,6 @@
     "description": "Class based json renderer"
   },
   {
-    "name": "Crystar",
-    "url": "https://github.com/naqvis/crystar",
-    "description": "Readers and writers of Tar archive format"
-  },
-  {
     "name": "CSV",
     "url": "https://crystal-lang.org/api/CSV.html",
     "description": "parsing and generating for comma-separated values (Crystal stdlib)"
@@ -440,9 +475,9 @@
     "description": "GeoIP2 reader"
   },
   {
-    "name": "Gzip",
-    "url": "https://crystal-lang.org/api/Gzip.html",
-    "description": "readers and writers of gzip format (Crystal stdlib)"
+    "name": "HAR",
+    "url": "https://github.com/NeuraLegion/har",
+    "description": "HAR (HTTP Archive) parser"
   },
   {
     "name": "INI",
@@ -478,16 +513,6 @@
     "name": "YAML",
     "url": "https://crystal-lang.org/api/YAML.html",
     "description": "parsing and generating YAML documents (Crystal stdlib)"
-  },
-  {
-    "name": "Zip",
-    "url": "https://crystal-lang.org/api/Zip.html",
-    "description": "readers and writers of zip format (Crystal stdlib)"
-  },
-  {
-    "name": "Zlib",
-    "url": "https://crystal-lang.org/api/Zlib.html",
-    "description": "readers and writers of zlib format (Crystal stdlib)"
   },
   {
     "name": "zq",
@@ -565,16 +590,6 @@
     "description": "RocksDB client"
   },
   {
-    "name": "tarantool-crystal",
-    "url": "https://github.com/vladfaust/tarantool-crystal",
-    "description": "Tarantool driver"
-  },
-  {
-    "name": "micrate",
-    "url": "https://github.com/juanedi/micrate",
-    "description": "Database migration tool"
-  },
-  {
     "name": "migrate",
     "url": "https://github.com/vladfaust/migrate.cr",
     "description": "A simpler database migration tool with transactions"
@@ -590,14 +605,14 @@
     "description": "debug!(…) macro for pp-style debugging"
   },
   {
+    "name": "Crystal-DI",
+    "url": "https://github.com/funk-yourself/crystal-di",
+    "description": "Lightweight DI Container"
+  },
+  {
     "name": "syringe",
     "url": "https://github.com/Bonemind/syringe",
     "description": "A simple and basic dependency injection shard for crystal"
-  },
-  {
-    "name": "docker-crystal",
-    "url": "https://github.com/aca-labs/docker-crystal",
-    "description": "Docker wrapper for the Crystal CLI"
   },
   {
     "name": "guardian",
@@ -645,11 +660,6 @@
     "description": "A RFC compliant Email validator"
   },
   {
-    "name": "devmail",
-    "url": "https://github.com/tijn/devmail",
-    "description": "A combined SMTP/POP3-server with volatile mail storage"
-  },
-  {
     "name": "sendgrid.cr",
     "url": "https://github.com/dlanileonardo/sendgrid.cr",
     "description": "Simple Sendgrid Client"
@@ -670,19 +680,9 @@
     "description": "Redis Cluster Manager"
   },
   {
-    "name": "battlesnake_crystal",
-    "url": "https://github.com/nbw/battlesnake_crystal",
-    "description": "Tron snake for battlesnake competition"
-  },
-  {
     "name": "blackjack-cr",
     "url": "https://github.com/gdonald/blackjack-cr",
     "description": "Console Blackjack"
-  },
-  {
-    "name": "breakout.cr",
-    "url": "https://github.com/petoem/breakout.cr",
-    "description": "Breakout game written using crsfml"
   },
   {
     "name": "chuck-norris-holy-quotes",
@@ -708,11 +708,6 @@
     "name": "crystal-by-example",
     "url": "https://github.com/askn/crystal-by-example",
     "description": "Crystal By Example"
-  },
-  {
-    "name": "Crystal-Maze",
-    "url": "https://github.com/Demonstrandum/Crystal-Maze",
-    "description": "A* Path finding for PNG mazes"
   },
   {
     "name": "crystal-mysql-crud-example",
@@ -780,24 +775,9 @@
     "description": "A demo web app for (WebSocket-based) lattice-core"
   },
   {
-    "name": "medley",
-    "url": "https://github.com/jwoertink/medley",
-    "description": "A mixture of music related methods"
-  },
-  {
-    "name": "os-crystal",
-    "url": "https://github.com/lbguilherme/os-crystal",
-    "description": "x86 Kernel implemented in Crystal"
-  },
-  {
     "name": "realtime-todo-app",
     "url": "https://github.com/Angarsk8/realtime-todo-app",
     "description": "Realtime Todo application developed with Kemal, Websockets, React, ES2015 and PostgreSQL"
-  },
-  {
-    "name": "rocky",
-    "url": "https://github.com/codingphasedotcom/rocky",
-    "description": "React Over Crystal Kemal and Yarn"
   },
   {
     "name": "try.cr",
@@ -818,11 +798,6 @@
     "name": "cr-melon",
     "url": "https://github.com/gdotdesign/cr-melon",
     "description": "Class based Http APIs"
-  },
-  {
-    "name": "Crystal-DI",
-    "url": "https://github.com/funk-yourself/crystal-di",
-    "description": "Lightweight DI Container"
   },
   {
     "name": "crystal-mime",
@@ -865,11 +840,6 @@
     "description": "Session handler for Kemal"
   },
   {
-    "name": "mime-types.cr",
-    "url": "https://github.com/jwaldrip/mime-types.cr",
-    "description": "A port of the Ruby MIME-types library"
-  },
-  {
     "name": "multi-auth",
     "url": "https://github.com/msa7/multi_auth",
     "description": "Standardized multi-provider OAuth2 authentication (inspired by omniauth)"
@@ -888,6 +858,11 @@
     "name": "response_time",
     "url": "https://github.com/SuperPaintman/response-time",
     "description": "Response time for Crystal servers (pure http server, kemal, etc.)"
+  },
+  {
+    "name": "shrine.cr",
+    "url": "https://github.com/jetrockets/shrine.cr",
+    "description": "File Attachment toolkit for Crystal applications. Heavily inspired by Shrine for Ruby"
   },
   {
     "name": "spec-kemal",
@@ -920,11 +895,6 @@
     "description": "A library for gaming development"
   },
   {
-    "name": "inari",
-    "url": "https://github.com/ddfreyne/inari",
-    "description": "A collection of games using Glove as the game engine"
-  },
-  {
     "name": "mos_game",
     "url": "https://github.com/bararchy/mos_game",
     "description": "Mini Offline Singleplayer game"
@@ -955,11 +925,6 @@
     "description": "DSL for creating HTML"
   },
   {
-    "name": "crystagiri",
-    "url": "https://github.com/madeindjs/Crystagiri",
-    "description": "An Html Reader / parser like Nokogiri Ruby gem"
-  },
-  {
     "name": "gumbo-crystal",
     "url": "https://github.com/blocknotes/gumbo-crystal",
     "description": "Bindings for Gumbo, an HTML5 parsing library made by Google"
@@ -973,11 +938,6 @@
     "name": "myhtml",
     "url": "https://github.com/kostya/myhtml",
     "description": "Fast HTML5 Parser that includes CSS selectors"
-  },
-  {
-    "name": "arachnid",
-    "url": "https://github.com/watzon/arachnid",
-    "description": "Powerful web scraping framework"
   },
   {
     "name": "Cable",
@@ -1055,14 +1015,9 @@
     "description": "Adds HTTP GET/POST parameter parsing as a Hash-like object"
   },
   {
-    "name": "ngrok.cr",
-    "url": "https://github.com/watzon/ngrok.cr",
-    "description": "Ngrok wrapper"
-  },
-  {
-    "name": "params",
-    "url": "https://github.com/vladfaust/params.cr",
-    "description": "The strongly-typed HTTP params parsing module"
+    "name": "proxy-fetcher.cr",
+    "url": "https://github.com/nbulaj/proxy-fetcher.cr",
+    "description": "Proxy lists fetching & validating library"
   },
   {
     "name": "resp-crystal",
@@ -1073,6 +1028,10 @@
     "name": "sse.cr",
     "url": "https://github.com/y2k2mt/sse.cr",
     "description": "Server-Sent Events client"
+  },
+  {
+    "name": "libpixel.cr",
+    "url": "https://github.com/libpixel/libpixel.cr"
   },
   {
     "name": "magickwand-crystal",
@@ -1093,11 +1052,6 @@
     "name": "charly",
     "url": "https://github.com/charly-lang",
     "description": "Charly Programming Language"
-  },
-  {
-    "name": "cibyl",
-    "url": "https://github.com/senselogic/CIBYL",
-    "description": "Lightweight curly-bracket language which compiles to Ruby and Crystal"
   },
   {
     "name": "cltk",
@@ -1135,11 +1089,6 @@
     "description": "A practical, dynamic language designed to be written and understood as easily and efficiently as possible"
   },
   {
-    "name": "NuummiteOS",
-    "url": "https://github.com/TheKernelCorp/NuummiteOS",
-    "description": "An OS written in Crystal as a Proof of Concept"
-  },
-  {
     "name": "runic-lang",
     "url": "https://github.com/runic-lang",
     "description": "In-design toy language"
@@ -1155,6 +1104,11 @@
     "description": "A Prometheus client library"
   },
   {
+    "name": "crylog",
+    "url": "https://github.com/blacksmoke16/crylog",
+    "description": "Flexible logging framework based on Monolog"
+  },
+  {
     "name": "crystal-logreader",
     "url": "https://github.com/arcage/crystal-logreader",
     "description": "Tailing log file"
@@ -1168,11 +1122,6 @@
     "name": "instana",
     "url": "https://github.com/instana/crystal-sensor",
     "description": "A metrics and distributed trace collector for Instana"
-  },
-  {
-    "name": "katip",
-    "url": "https://github.com/guvencenanguvenal/katip",
-    "description": "JSONbase logger"
   },
   {
     "name": "Logger",
@@ -1203,11 +1152,6 @@
     "name": "crystal-fann",
     "url": "https://github.com/NeuraLegion/crystal-fann",
     "description": "FANN (Fast Artifical Neural Network) binding"
-  },
-  {
-    "name": "crystal-learn",
-    "url": "https://github.com/pbrusco/crystal-learn",
-    "description": "Sklearn-like machine-learning library"
   },
   {
     "name": "shainet",
@@ -1263,6 +1207,16 @@
     "name": "compiled_license",
     "url": "https://github.com/elorest/compiled_license",
     "description": "Compiles licenses into binary for complience with MIT when copying binary to system or container without the code"
+  },
+  {
+    "name": "containerregistry.cr",
+    "url": "https://github.com/naqvis/containerregistry.cr",
+    "description": "Library for working with container registries"
+  },
+  {
+    "name": "CrSerializer",
+    "url": "https://github.com/blacksmoke16/CrSerializer",
+    "description": "Extensible annotation based serialization/deserialization library"
   },
   {
     "name": "crystal-binary_parser",
@@ -1365,9 +1319,24 @@
     "description": "Universally Unique Lexicographically Sortable Identifier (ULID)"
   },
   {
+    "name": "zaru_crystal",
+    "url": "https://github.com/szTheory/zaru_crystal",
+    "description": "Filename sanitization"
+  },
+  {
     "name": "bson.cr",
     "url": "https://github.com/jeromegn/bson.cr",
     "description": "Native BSON implementation"
+  },
+  {
+    "name": "connect-proxy",
+    "url": "https://github.com/spider-gazelle/connect-proxy",
+    "description": "Connect method style of HTTP tunnelling / HTTP proxy"
+  },
+  {
+    "name": "cr-xmpp",
+    "url": "https://github.com/naqvis/cr-xmpp",
+    "description": "XMPP/Jabber Library"
   },
   {
     "name": "Crirc",
@@ -1420,9 +1389,9 @@
     "description": "bindings to libssl (Crystal stdlib)"
   },
   {
-    "name": "Socks",
-    "url": "https://github.com/wontruefree/socks",
-    "description": "SOCKS proxy"
+    "name": "telnet.cr",
+    "url": "https://github.com/spider-gazelle/telnet.cr",
+    "description": "Telnet protocol"
   },
   {
     "name": "transfer_more",
@@ -1435,9 +1404,19 @@
     "description": "Library to handle IPv4 and IPv6 addresses"
   },
   {
+    "name": "avram",
+    "url": "https://github.com/luckyframework/avram",
+    "description": "A database wrapper for reading, writing, and migrating Postgres databases."
+  },
+  {
     "name": "clear",
     "url": "https://github.com/anykeyh/clear",
     "description": "ORM specialized to PostgreSQL only but with advanced features"
+  },
+  {
+    "name": "crecto",
+    "url": "https://github.com/Crecto/crecto",
+    "description": "Database wrapper, based on Ecto"
   },
   {
     "name": "granite",
@@ -1458,11 +1437,6 @@
     "name": "onyx-sql",
     "url": "https://github.com/onyxframework/sql",
     "description": "DB-agnostic SQL ORM with beautiful DSL and type-safe Query builder"
-  },
-  {
-    "name": "record",
-    "url": "https://github.com/luckyframework/record",
-    "description": "Type safe querying, saving and updating"
   },
   {
     "name": "redis-tsv.cr",
@@ -1545,11 +1519,6 @@
     "description": "Static Site Generator"
   },
   {
-    "name": "amqp.cr",
-    "url": "https://github.com/datanoise/amqp.cr",
-    "description": "AMQP 0.9.1 client with RabbitMQ extensions"
-  },
-  {
     "name": "dispatch",
     "url": "https://github.com/bmulvihill/dispatch",
     "description": "In memory asynchronous job processing"
@@ -1568,11 +1537,6 @@
     "name": "sidekiq.cr",
     "url": "https://github.com/mperham/sidekiq.cr",
     "description": "Simple, efficient job processing"
-  },
-  {
-    "name": "crouter",
-    "url": "https://github.com/jreinert/crouter",
-    "description": "A standalone router"
   },
   {
     "name": "orion",
@@ -1613,6 +1577,11 @@
     "name": "linalg",
     "url": "https://github.com/konovod/linalg",
     "description": "Linear algebra library inspired by MATLAB and SciPy.linalg"
+  },
+  {
+    "name": "num.cr",
+    "url": "https://github.com/crystal-data/num.cr",
+    "description": "Numerical computing library supporting N-Dimensional data"
   },
   {
     "name": "predict.cr",
@@ -1670,11 +1639,6 @@
     "description": "Get CPU, Memory and Network informations of the running OS and its processes"
   },
   {
-    "name": "rcpu",
-    "url": "https://github.com/ddfreyne/rcpu",
-    "description": "A virtual machine emulator and assembler"
-  },
-  {
     "name": "cake",
     "url": "https://github.com/axvm/cake",
     "description": "Production-ready Make-like utility tool"
@@ -1698,6 +1662,11 @@
     "name": "ECR (Embedded Crystal)",
     "url": "https://crystal-lang.org/api/ECR.html",
     "description": "compile time template language which uses plain crystal expressions (Crystal stdlib)"
+  },
+  {
+    "name": "Jbuilder",
+    "url": "https://github.com/shootingfly/jbuilder",
+    "description": "Generate JSON objects with a Builder-style DSL, inspired by jbuilder"
   },
   {
     "name": "Kilt",
@@ -1727,11 +1696,6 @@
     "name": "crotest",
     "url": "https://github.com/emancu/crotest",
     "description": "A tiny and simple test framework"
-  },
-  {
-    "name": "crystal-clear",
-    "url": "https://github.com/Groogy/crystal-clear",
-    "description": "Design by Contract Library"
   },
   {
     "name": "crytic",
@@ -1869,11 +1833,6 @@
     "description": "Google Maps API"
   },
   {
-    "name": "hncr",
-    "url": "https://github.com/Gangwolf/hncr",
-    "description": "A Hacker News API wrapper"
-  },
-  {
     "name": "kube-client.cr",
     "url": "https://github.com/spoved/kube-client.cr",
     "description": "Kubernetes API Client"
@@ -1909,11 +1868,6 @@
     "description": "A Slack Real Time Messaging API WebSocket client library"
   },
   {
-    "name": "telegram_bot",
-    "url": "https://github.com/hangyas/telegram_bot",
-    "description": "A wrapper for the Telegram Bot API"
-  },
-  {
     "name": "twitter-crystal",
     "url": "https://github.com/sferik/twitter-crystal",
     "description": "A library to access the Twitter API"
@@ -1929,9 +1883,9 @@
     "description": "Shareable validation library for Crystal Objects"
   },
   {
-    "name": "CrSerializer",
-    "url": "https://github.com/blacksmoke16/CrSerializer",
-    "description": "Extensible annotation based serialization/deserialization/validation library"
+    "name": "assert",
+    "url": "https://github.com/blacksmoke16/assert",
+    "description": "Extensible annotation based object validation library"
   },
   {
     "name": "denetmen",
@@ -1969,16 +1923,6 @@
     "description": "Catch bugs early, forget about most performance issues, and spend more time on code instead of debugging and writing tests"
   },
   {
-    "name": "onyx-rest",
-    "url": "https://github.com/onyxframework/rest",
-    "description": "REST API framework with type-safe params and separate business and rendering layers, based on onyx-http"
-  },
-  {
-    "name": "raze",
-    "url": "https://github.com/samueleaton/raze",
-    "description": "Modular, light web framework"
-  },
-  {
     "name": "spider-gazelle",
     "url": "https://github.com/spider-gazelle/spider-gazelle",
     "description": "A Rails esque web framework with a focus on speed and extensibility"
@@ -1992,11 +1936,6 @@
     "name": "prax.cr",
     "url": "https://github.com/ysbaddaden/prax.cr",
     "description": "Rack proxy server for development"
-  },
-  {
-    "name": "salt",
-    "url": "https://github.com/icyleaf/salt",
-    "description": "A Human Friendly Interface for HTTP server"
   },
   {
     "name": "serve",
@@ -2040,7 +1979,7 @@
   },
   {
     "name": "Crystal Programming Discord Server",
-    "url": "https://discord.gg/YPGkQ5A",
+    "url": "https://discord.gg/YS7YvQy",
     "description": "Unofficial Discord server dedicated to the Crystal Programming Language"
   },
   {
@@ -2257,11 +2196,6 @@
     "name": "Crystal.tmbundle",
     "url": "https://github.com/crystal-lang-tools/Crystal.tmbundle",
     "description": "Crystal syntax highlighting, compile, format command, snippets"
-  },
-  {
-    "name": "carcin.vim",
-    "url": "https://github.com/MakeNowJust/carcin.vim",
-    "description": "Vim plugin to provide utility functions for carc.in"
   },
   {
     "name": "vim-crystal",

@@ -35,6 +35,11 @@
     "description": "PostgreSQL protocol support for Finagle"
   },
   {
+    "name": "laserdisc ★ 37",
+    "url": "https://github.com/laserdisc-io/laserdisc",
+    "description": "A Future-free, fs2 native pure FP Redis client"
+  },
+  {
     "name": "longevity ★ 78 ⧗ 21",
     "url": "https://github.com/longevityframework/longevity",
     "description": "A Persistence Framework for Scala and NoSQL with a Domain Driven Design Orientation"
@@ -983,11 +988,6 @@
     "description": "Simple project to quickly start developing a web application using AngularJS and Akka HTTP, without the need to write login, user registration etc."
   },
   {
-    "name": "Eclair ★ 469",
-    "url": "https://github.com/ACINQ/eclair",
-    "description": "ACINQ's Lightning Network implementation written in Scala.  Lightning Network is a second layer protocol built on top of bitcoin to address scalability, privacy, confirmation time and many other issues."
-  },
-  {
     "name": "Fansi ★ 96 ⧗ 15",
     "url": "https://github.com/lihaoyi/fansi",
     "description": "Scala/Scala.js library for manipulating Fancy Ansi colored strings"
@@ -1212,14 +1212,14 @@
     "description": "A Scala compiler plugin to give patterns and for-comprehensions the love they deserve"
   },
   {
+    "name": "mdoc ★ 94 ⧗ 0",
+    "url": "https://github.com/scalameta/mdoc",
+    "description": "Typechecked markdown documentation for Scala https://scalameta.org/mdoc/"
+  },
+  {
     "name": "sbt-api-mappings ★ 38 ⧗ 67",
     "url": "https://github.com/ThoughtWorksInc/sbt-api-mappings",
     "description": "A Sbt plugin that resolves external API links to common Scala libraries."
-  },
-  {
-    "name": "sbt-assembly ★ 1522",
-    "url": "https://github.com/sbt/sbt-assembly",
-    "description": "Deploy fat JARs. Restart processes."
   },
   {
     "name": "sbt-buildinfo ★ 274 ⧗ 1",
@@ -1230,6 +1230,11 @@
     "name": "sbt-classfinder ★ 3 ⧗ 39",
     "url": "https://github.com/ruippeixotog/sbt-classfinder",
     "description": "Retrieves runtime information about the classes and traits in a project."
+  },
+  {
+    "name": "sbt-ci-release ★ 102 ⧗ 0",
+    "url": "https://github.com/olafurpg/sbt-ci-release",
+    "description": "sbt plugin to automate Sonatype releases from Travis CI"
   },
   {
     "name": "sbt-dependency-check ★ 108 ⧗ 0",
@@ -1252,6 +1257,11 @@
     "description": "Generates .ensime config files for SBT projects http://ensime.org/build_tools/sbt"
   },
   {
+    "name": "sbt-ghpages ★ 87 ⧗ 118",
+    "url": "https://github.com/sbt/sbt-ghpages",
+    "description": "git, site and ghpages support for sbt projects."
+  },
+  {
     "name": "sbt-groll ★ 87 ⧗ 10",
     "url": "https://github.com/sbt/sbt-groll",
     "description": "sbt plugin to roll the Git history."
@@ -1262,9 +1272,24 @@
     "description": "A Sbt plugin to compile Haxe sources."
   },
   {
+    "name": "sbt-header ★ 157 ⧗ 67",
+    "url": "https://github.com/sbt/sbt-header",
+    "description": "an sbt plugin for creating file headers, e.g. copyright headers"
+  },
+  {
     "name": "sbt-ide-settings ★ 32 ⧗ 27",
     "url": "https://github.com/Jetbrains/sbt-ide-settings",
     "description": "SBT plugin for tweaking various IDE settings"
+  },
+  {
+    "name": "sbt-microsites ★ 245 ⧗ 0",
+    "url": "https://github.com/47deg/sbt-microsites",
+    "description": "An sbt plugin to create awesome microsites for your project https://47deg.github.io/sbt-microsites/"
+  },
+  {
+    "name": "sbt-mima-plugin ★ 247 ⧗ 0",
+    "url": "https://github.com/lightbend/mima",
+    "description": "A tool for catching binary incompatibility in Scala"
   },
   {
     "name": "sbt-pack ★ 284 ⧗ 7",
@@ -1277,9 +1302,19 @@
     "description": "SBT plugin to generate release notes from the pull requests and git commits in GitHub."
   },
   {
+    "name": "sbt-pgp ★ 101 ⧗ 4",
+    "url": "https://github.com/sbt/sbt-pgp",
+    "description": "PGP plugin for sbt"
+  },
+  {
     "name": "sbt-robovm ★ 107 ⧗ 17",
     "url": "https://github.com/roboscala/sbt-robovm",
     "description": "An sbt plugin for iOS development in Scala"
+  },
+  {
+    "name": "sbt-scalafmt ★ 37 ⧗ 6",
+    "url": "https://github.com/scalameta/sbt-scalafmt",
+    "description": "sbt plugin for Scalafmt https://scalameta.org/scalafmt/"
   },
   {
     "name": "sbt-scala-js-map ★ 12 ⧗ 2",
@@ -1287,9 +1322,29 @@
     "description": "A sbt plugin that configures source mapping for Scala.js projects hosted on Github"
   },
   {
+    "name": "sbt-scoverage ★ 470 ⧗ 68",
+    "url": "https://github.com/scoverage/sbt-scoverage",
+    "description": "A plugin for SBT that integrates the scoverage code coverage library."
+  },
+  {
+    "name": "sbt-site ★ 159 ⧗ 122",
+    "url": "https://github.com/sbt/sbt-site",
+    "description": "Site generation for sbt https://www.scala-sbt.org/sbt-site/"
+  },
+  {
+    "name": "sbt-sonatype ★ 221 ⧗ 4",
+    "url": "https://github.com/xerial/sbt-sonatype",
+    "description": "A sbt plugin for publishing Scala/Java projects to the Maven central."
+  },
+  {
     "name": "sbt-sublime ★ 145 ⧗ 38",
     "url": "https://github.com/orrsella/sbt-sublime",
     "description": "Create Sublime Text projects with library dependencies sources"
+  },
+  {
+    "name": "sbt-unidoc ★ 104 ⧗ 94",
+    "url": "https://github.com/sbt/sbt-unidoc",
+    "description": "sbt plugin to create a unified API document across projects"
   },
   {
     "name": "sbt-updates ★ 316 ⧗ 3",
@@ -1646,6 +1701,11 @@
   {
     "name": "Giter8 command line tool to generate files and directories from templates published on Github",
     "url": "http://www.foundweekends.org/giter8/"
+  },
+  {
+    "name": "Metals ★ 953 ⧗ 206",
+    "url": "https://github.com/scalameta/metals",
+    "description": "Scala language server with rich IDE features"
   },
   {
     "name": "Mill",

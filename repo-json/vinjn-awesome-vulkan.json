@@ -49,8 +49,8 @@
     "url": "https://developer.qualcomm.com/software/adreno-gpu-sdk/gpu"
   },
   {
-    "name": "ARM",
-    "url": "http://malideveloper.arm.com/resources/sdks/mali-vulkan-sdk/"
+    "name": "Mali GPU Best Practices",
+    "url": "https://developer.arm.com/solutions/graphics/developer-guides/mali-gpu-best-practices"
   },
   {
     "name": "For Windows & Linux",
@@ -157,24 +157,32 @@
     "description": "Vulkan on NVIDIA GPUs"
   },
   {
+    "name": "Arm\n\nVulkan Best Practice for Mobile Developers Tutorials\nVulkan's Key Features on Arm Architecture\nPorting a Graphics Engine to the Vulkan API\nGet Your Engine Ready for Vulkan on Mobile\nMulti-Threading in Vulkan\nMali Vulkan SDK Tutorials and Slides\n\n",
+    "url": "https://developer.arm.com/solutions/graphics/apis/vulkan"
+  },
+  {
+    "name": "Vulkan Best Practice for Mobile Developers Tutorials",
+    "url": "https://github.com/ARM-software/vulkan_best_practice_for_mobile_developers"
+  },
+  {
+    "name": "Vulkan's Key Features on Arm Architecture",
+    "url": "https://developer.arm.com/-/media/Files/pdf/graphics-and-multimedia/Vulkan%20API%20key%20features%20on%20ARM%20architecture.pdf"
+  },
+  {
     "name": "Porting a Graphics Engine to the Vulkan API",
     "url": "https://community.arm.com/groups/arm-mali-graphics/blog/2016/02/16/porting-a-graphics-engine-to-the-vulkan-api"
-  },
-  {
-    "name": "Multi-Threading in Vulkan",
-    "url": "https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/19/massively-multi-thread-for-vulkan"
-  },
-  {
-    "name": "Vulkan's Key Features on ARM Architecture",
-    "url": "https://developer.arm.com/-/media/Files/pdf/graphics-and-multimedia/Vulkan%20API%20key%20features%20on%20ARM%20architecture.pdf"
   },
   {
     "name": "Get Your Engine Ready for Vulkan on Mobile",
     "url": "https://developer.arm.com/-/media/Files/pdf/graphics-and-multimedia/Get%20Your%20Engine%20Ready%20for%20Vulkan%20on%20Mobile.pdf"
   },
   {
-    "name": "Mali Vulkan Tutorials and Slides Vulkan tutorials from the Mali Vulkan SDK",
-    "url": "https://arm-software.github.io/vulkan-sdk/tutorials.html"
+    "name": "Multi-Threading in Vulkan",
+    "url": "https://community.arm.com/groups/arm-mali-graphics/blog/2016/04/19/massively-multi-thread-for-vulkan"
+  },
+  {
+    "name": "Mali Vulkan SDK Tutorials and Slides",
+    "url": "https://developer.arm.com/products/software/mali-sdks/vulkan"
   },
   {
     "name": "API without Secrets: Introduction to Vulkan [LICENSE]\n\nPart 1: The Beginning\nPart 2: Swap Chain\nPart 3: First Triangle\nPart 4: Vertex Attributes\n\n",
@@ -349,8 +357,8 @@
     "description": "physical based rendering with Vulkan using glTF 2.0 models. [MIT]"
   },
   {
-    "name": "Khronos Samples",
-    "url": "https://github.com/KhronosGroup/Vulkan-Samples"
+    "name": "Vulkan Best Practice for Mobile Developers Samples",
+    "url": "https://github.com/ARM-software/vulkan_best_practice_for_mobile_developers"
   },
   {
     "name": "Android port of LunarG samples.",
@@ -692,7 +700,7 @@
   {
     "name": "Zink",
     "url": "https://gitlab.freedesktop.org/kusma/mesa/tree/zink",
-    "description": "OpenGL implementation on top of Vulkan, part of Mesa project. [No license]"
+    "description": "OpenGL implementation on top of Vulkan, part of Mesa project. [MIT]"
   },
   {
     "name": "ncnn",
@@ -712,6 +720,10 @@
   {
     "name": "VK², Kotlin Wrapper for Vulkan: code expressiveness and safety meet graphic power [Apache License 2.0]",
     "url": "https://github.com/kotlin-graphics/vkk"
+  },
+  {
+    "name": "small3d, Tiny Vulkan based C++ cross-platform game development framework [BSD 3-clause]",
+    "url": "https://www.gamedev.net/projects/515-small3d/"
   },
   {
     "name": "libvulkan.lua",
@@ -742,6 +754,11 @@
     "name": "nvk",
     "url": "https://github.com/maierfelix/nvk",
     "description": "JavaScript bindings for Vulkan. [MIT]"
+  },
+  {
+    "name": "racket-vulkan",
+    "url": "https://github.com/zyrolasting/racket-vulkan",
+    "description": "Racket bindings for Vulkan with detailed implementation notes. [MIT]"
   },
   {
     "name": "Vulkan-hpp Open-Source Vulkan C++ API originated from NVIDIA and the blog about it.",
@@ -792,6 +809,11 @@
     "description": "by baldurk, a stand-alone graphics debugging tool. [MIT]"
   },
   {
+    "name": "RDCtoVkCpp",
+    "url": "https://github.com/azhirnov/RDCtoVkCpp",
+    "description": "converts RenderDoc Vulkan capture to compilable and executable C++ code. [MIT]"
+  },
+  {
     "name": "VulkanTools",
     "url": "https://github.com/LunarG/VulkanTools",
     "description": "LunarG's tools including layers, vktrace and vkreplay. [Apache Licence 2.0]"
@@ -806,8 +828,9 @@
     "url": "https://developer.qualcomm.com/software/adreno-gpu-sdk/tools"
   },
   {
-    "name": "Mali Graphics Debugger.",
-    "url": "http://malideveloper.arm.com/resources/tools/mali-graphics-debugger/"
+    "name": "Arm Mobile Studio",
+    "url": "https://www.arm.com/products/development-tools/graphics/arm-mobile-studio",
+    "description": "includes the Arm Graphics Analyzer to trace graphics performance issues easily, and Arm Streamline performance analyzer, for a whole-system view of performance to determine bottlenecks quickly across both the CPU and GPU."
   },
   {
     "name": "Open Capture and Analytics Tool (OCAT)",
@@ -820,7 +843,7 @@
     "description": "Graphics API Debugger, can trace and replay Android OpenGL ES and Vulkan applications. [Apache License 2.0]"
   },
   {
-    "name": "ARM",
+    "name": "Arm",
     "url": "https://github.com/ARM-software/perfdoc",
     "description": "PerfDoc - a validation layer against the Mali Application Developer Best Practices document. [MIT]"
   },

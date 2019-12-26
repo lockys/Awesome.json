@@ -35,6 +35,11 @@
     "description": "Official demo website."
   },
   {
+    "name": "eShopOnBlazor",
+    "url": "https://github.com/dotnet-architecture/eShopOnBlazor",
+    "description": "Migration of a traditional ASP.NET Web Forms app to Blazor, sample by Microsoft Architecture."
+  },
+  {
     "name": "FAQ",
     "url": "https://github.com/aspnet/Blazor/wiki/FAQ",
     "description": "FAQ."
@@ -65,54 +70,89 @@
     "description": " Build a complete Blazor app and learn about the various Blazor framework features along the way."
   },
   {
+    "name": "BlazorBoilerplate",
+    "url": "https://github.com/enkodellc/blazorboilerplate",
+    "description": "  Real World Admin Dashboard / Starter kit with IdentityServer4 Material Design. Demo."
+  },
+  {
     "name": "BlazorWithIdentity",
     "url": "https://github.com/stavroskasidis/BlazorWithIdentity",
-    "description": " A sample project showcasing a Blazor app using EF Core with Identity authentication."
+    "description": "  A sample project showcasing a Blazor app using EF Core with Identity authentication."
   },
   {
     "name": "Blazor.JWTTest",
     "url": "https://github.com/shawty/blazor.jwttest",
-    "description": " JWT authentication for a Blazor hosted (Client/Server-side) app with API and Authentication."
+    "description": "  JWT authentication for a Blazor hosted (Client/Server-side) app with API and Authentication."
   },
   {
     "name": "BlazorAuthenticationSample",
     "url": "https://github.com/christiansparre/BlazorAuthenticationSample",
-    "description": "A sample showing some of the ASP.NET Core Blazor authentication features (also some testing...)."
+    "description": "  A sample showing some of the ASP.NET Core Blazor authentication features (also some testing...)."
+  },
+  {
+    "name": "Blazor.OpenId",
+    "url": "https://github.com/jbomhold3/Blazor.Openid",
+    "description": "Easy authentication and client refresh using OpenId."
+  },
+  {
+    "name": "Blazor.Msal",
+    "url": "https://github.com/cradle77/Blazor.Msal",
+    "description": "Sample implementation for MSAL in Blazor, it shows how to integrate a Single Page Web Application made in Blazor WebAssembly with Azure Active Directory. It allows to authenticate the user and then acquire an access token to make a secure call to an external API. The code internally uses MSAL.js to implement the OpenID Connect and OAuth2 flows."
+  },
+  {
+    "name": "BlazorAzure.WebApp",
+    "url": "https://github.com/gpeipman/BlazorDemo/tree/master/BlazorAzure.WebApp",
+    "description": "Blazor Azure web app."
+  },
+  {
+    "name": "BlazorAzure.Functions",
+    "url": "https://github.com/gpeipman/BlazorDemo/tree/master/BlazorAzure.Functions",
+    "description": "Azure function with Blazor."
+  },
+  {
+    "name": "BlazorFile2Azure",
+    "url": "https://github.com/daltskin/BlazorFile2Azure",
+    "description": "Upload a file from Blazor WebAssembly to Azure Blob Storage."
   },
   {
     "name": "BlogCore",
     "url": "https://github.com/thangchung/blog-core",
-    "description": " Modern CMS on Domain-driven Design and Clean Architecture patterns."
+    "description": "  Modern CMS on Domain-driven Design and Clean Architecture patterns."
   },
   {
     "name": "WordDaze",
     "url": "https://github.com/chrissainty/worddaze",
-    "description": " Blogging application written using Blazor with a WebAPI backend."
+    "description": "  Blogging application written using Blazor with a WebAPI backend."
   },
   {
     "name": "RapidCMS",
     "url": "https://github.com/ThomasBleijendaal/RapidCMS",
-    "description": "A code-first, extensible Blazor app that generates a CMS for your own database."
+    "description": "  A code-first, extensible Blazor app that generates a CMS for your own database."
   },
   {
     "name": "AsteroidsWasm",
     "url": "https://github.com/aesalazar/AsteroidsWasm",
-    "description": " A mixed bag of C# projects to see if a single .NET Standard base can run across all common platforms include WebAssembly. Demo."
+    "description": "  A mixed bag of C# projects to see if a single .NET Standard base can run across all common platforms include WebAssembly. Demo."
   },
   {
     "name": "BlazorQuiz",
     "url": "https://github.com/Amine-Smahi/BlazorQuiz",
-    "description": " Simple quiz using Blazor.NET and WebAssembly."
+    "description": "  Simple quiz using Blazor.NET and WebAssembly."
   },
   {
     "name": "Blagario",
     "url": "https://github.com/ctrl-alt-d/Blagario",
-    "description": " Experimental lab to test Blazor server side as multiplayer game engine."
+    "description": "  Experimental lab to test Blazor server side as multiplayer game engine."
   },
   {
     "name": "BlazorChess",
     "url": "https://github.com/Lupusa87/BlazorChess",
-    "description": "Chess engine implemented with Blazor. Demo."
+    "description": "  Chess engine implemented with Blazor. Demo."
+  },
+  {
+    "name": "Flappy Blazor Bird",
+    "url": "https://github.com/ctrl-alt-d/FlappyBlazorBird",
+    "description": "  Blazor Flappy Bird's port. [Wasm Demo] | [Multiplayer Demo]."
   },
   {
     "name": "Tzaar",
@@ -145,19 +185,39 @@
     "description": "Pong in Blazor server side using SignalR Core. Demo."
   },
   {
+    "name": "BlazorTictactoe",
+    "url": "https://github.com/kodebot/BlazorTicTacToe",
+    "description": "Tic-tac-toe in Blazor WebAssembly. Demo."
+  },
+  {
+    "name": "DiabloBlazor",
+    "url": "https://github.com/n-stefan/diabloblazor",
+    "description": "Blazor port of DiabloWeb, making it a double WebAssembly app: a WebAssembly (C#) PWA hosting a WebAssembly (C++) game. Demo."
+  },
+  {
+    "name": "BlazorConnectFour",
+    "url": "https://github.com/exceptionnotfound/BlazorConnectFour",
+    "description": "Classic childhood game ConnectFour in Blazor."
+  },
+  {
     "name": "Scalable sentiment analysis",
     "url": "https://github.com/dotnet/machinelearning-samples/tree/master/samples/csharp/end-to-end-apps/ScalableSentimentAnalysisBlazorWebApp",
-    "description": " A sample ables to make sentiment analysis prediction/detection of what the user is writing in a very UI interactive app (Blazor based) in the client side and running an ML.NET model (Sentiment analysis based on binary-classification) in the server side."
+    "description": "  A sample ables to make sentiment analysis prediction/detection of what the user is writing in a very UI interactive app (Blazor based) in the client side and running an ML.NET model (Sentiment analysis based on binary-classification) in the server side."
+  },
+  {
+    "name": "PropertyPrices",
+    "url": "https://github.com/jameschch/PropertyPrices",
+    "description": "A blazor front-end site that provides analysis and ensemble learning predictions (through SharpLearning) of property prices in the UK."
   },
   {
     "name": "BlazorTasks",
     "url": "https://github.com/BorowskiKamil/blazor-tasks",
-    "description": " To-Do App."
+    "description": "  To-Do App."
   },
   {
     "name": "Bolero.TodoMVC",
     "url": "https://github.com/fsbolero/TodoMVC",
-    "description": " A TodoMVC clone using Bolero."
+    "description": "  A TodoMVC clone using Bolero."
   },
   {
     "name": "BlazorAdvancedTodo",
@@ -167,122 +227,147 @@
   {
     "name": "Flight Finder",
     "url": "https://github.com/aspnet/samples/tree/master/samples/aspnetcore/blazor",
-    "description": " Flight Finder."
+    "description": "  Flight Finder."
   },
   {
     "name": "Oqtane Framework",
     "url": "https://github.com/oqtane/oqtane.framework",
-    "description": " Modular Application Framework for Blazor."
+    "description": "  Modular Application Framework for Blazor."
   },
   {
     "name": "BlazorElectronExperiment",
     "url": "https://github.com/SteveSandersonMS/BlazorElectronExperiment.Sample",
-    "description": "  Exploring how a Blazor could be used to build a cross-platform desktop application using Electron."
-  },
-  {
-    "name": "Toss.Blazor",
-    "url": "https://github.com/RemiBou/Toss.Blazor",
-    "description": " Twitter-like web application using Blazor."
+    "description": "   Exploring how a Blazor could be used to build a cross-platform desktop application using Electron."
   },
   {
     "name": "BlazorFileReader",
     "url": "https://github.com/Tewr/BlazorFileReader",
-    "description": " Read-only File streams in Blazor. Demo."
+    "description": "  Read-only File streams in Blazor. Demo."
   },
   {
-    "name": "BlazorBoilerplate",
-    "url": "https://github.com/enkodellc/blazorboilerplate",
-    "description": " Admin Dashboard / Starter Template with IdentityServer4, MatBlazer for Material Design."
+    "name": "BlazorDesktop",
+    "url": "https://github.com/steveSandersonMS/BlazorDesktop",
+    "description": "  Native desktop Blazor app which not using Electron, by Steve Sanderson."
+  },
+  {
+    "name": "Toss.Blazor",
+    "url": "https://github.com/RemiBou/Toss.Blazor",
+    "description": "  Twitter-like web application using Blazor."
   },
   {
     "name": "BlazeDown",
     "url": "https://github.com/EdCharbeneau/BlazeDown",
-    "description": " BlazeDown, online Markdown editor. Demo."
-  },
-  {
-    "name": "Tour of Heroes",
-    "url": "https://github.com/lohithgn/blazor-tour-of-heroes",
-    "description": " Blazor implementation of Angular Tour of Heroes."
-  },
-  {
-    "name": "BlazorChatSample",
-    "url": "https://github.com/conficient/blazorchatsample",
-    "description": " Blazor chat demo using SignalR JS client with interop."
+    "description": "  BlazeDown, online Markdown editor. Demo."
   },
   {
     "name": "Blazor.Toaster",
     "url": "https://github.com/sotsera/sotsera.blazor.toaster",
-    "description": " A Blazor port of Toastr.js."
+    "description": "  A Blazor port of Toastr.js."
+  },
+  {
+    "name": "BlazorChatSample",
+    "url": "https://github.com/conficient/blazorchatsample",
+    "description": "  Blazor chat demo using SignalR JS client with interop."
   },
   {
     "name": "Money",
     "url": "https://github.com/maraf/Money",
-    "description": " A money manager implemented using CQRS+ES. Demo."
+    "description": "  A money manager implemented using CQRS+ES. Demo."
+  },
+  {
+    "name": "Tour of Heroes",
+    "url": "https://github.com/lohithgn/blazor-tour-of-heroes",
+    "description": "  Blazor implementation of Angular Tour of Heroes."
   },
   {
     "name": "Runny",
     "url": "https://github.com/Suchiman/Runny",
-    "description": " Prototype of running roslyn in the browser via Blazor. Demo."
+    "description": "  Prototype of running roslyn in the browser via Blazor. Demo."
+  },
+  {
+    "name": "Blazor Weather",
+    "url": "https://github.com/danroth27/BlazorWeather",
+    "description": "  A Blazor Weather sample app that shows the current weather for your current location and a collection of pinned locations. Demonstrated at .NET Conf 2019 by Daniel Roth. Demo."
   },
   {
     "name": "Gitter",
     "url": "https://github.com/Blazored/Gitter",
-    "description": " A Blazor Gitter client."
+    "description": "  A Blazor Gitter client."
   },
   {
     "name": "NethereumBlazor",
     "url": "https://github.com/Nethereum/NethereumBlazor",
-    "description": " Ethereum blockchain explorer and simple wallet."
+    "description": "  Ethereum blockchain explorer and simple wallet."
   },
   {
-    "name": "Try F# on WebAssembly",
-    "url": "https://github.com/fsbolero/TryFSharpOnWasm",
-    "description": " The F# compiler running in WebAssembly with Bolero."
+    "name": "BlazorGrpc",
+    "url": "https://github.com/razfriman/BlazorGrpc",
+    "description": "  Sample project that demonstrates how you can use the power of Blazor, ASP.NET Core, and gRPC to create a web application which can communicate with a backend that uses gRPC."
+  },
+  {
+    "name": "BlazePort",
+    "url": "https://github.com/EdCharbeneau/BlazePort",
+    "description": "  A futuristic ride share app for space travel written in full stack .NET with Blazor."
   },
   {
     "name": "BlazingPizza (server side)",
     "url": "https://github.com/ADefWebserver/BlazingPizza",
-    "description": " A server side Blazor version of the Blazing Pizza project from the Blazor - app building workshop ."
+    "description": "  A server side Blazor version of the Blazing Pizza project from the Blazor - app building workshop ."
   },
   {
     "name": "BlazorGraphExample",
     "url": "https://github.com/jburman/BlazorGraphExample",
-    "description": " Example application for connecting to Graph API from Blazor."
-  },
-  {
-    "name": "WebSocketPage",
-    "url": "https://github.com/Lupusa87/BlazorWebSocketHelper",
-    "description": " Web Socket in Blazor. demo."
-  },
-  {
-    "name": "StarshipTraveler",
-    "url": "https://github.com/rstropek/StarshipTraveler",
-    "description": " A starship traveler demo app built with Blazor for the DevOne 2019 conference."
-  },
-  {
-    "name": "Blazor Survey",
-    "url": "https://github.com/nutshellit/Blazor-Survey",
-    "description": " A hybrid F#/C# Blazor sample app to kick the tyres of"
+    "description": "  Example application for connecting to Graph API from Blazor."
   },
   {
     "name": "BlazorDynamicList",
     "url": "https://github.com/conficient/BlazorDynamicList",
-    "description": " Dynamic component binding for a generic list. Demo."
+    "description": "  Dynamic component binding for a generic list. Demo."
+  },
+  {
+    "name": "Try F# on WebAssembly",
+    "url": "https://github.com/fsbolero/TryFSharpOnWasm",
+    "description": "  The F# compiler running in WebAssembly with Bolero."
+  },
+  {
+    "name": "StarshipTraveler",
+    "url": "https://github.com/rstropek/StarshipTraveler",
+    "description": "  A starship traveler demo app built with Blazor for the DevOne 2019 conference."
   },
   {
     "name": "Blazor + Sitecore",
     "url": "https://github.com/GoranHalvarsson/SitecoreBlazor",
-    "description": " Example of dynamic pages and routes with SiteCore and Helix."
+    "description": "  Example of dynamic pages and routes with SiteCore and Helix."
   },
   {
     "name": "BlazorServerTree",
     "url": "https://github.com/ctrl-alt-d/BlazorServerTree",
-    "description": " A simple Server-Side Blazor sample app to deal with hierarchical data."
+    "description": "  A simple Server-Side Blazor sample app to deal with hierarchical data."
+  },
+  {
+    "name": "eShopOnBlazor",
+    "url": "https://github.com/dotnet-architecture/eShopOnBlazor",
+    "description": "  Migration of a traditional ASP.NET Web Forms app to Blazor."
   },
   {
     "name": "BlazorBinding",
     "url": "https://github.com/SQL-MisterMagoo/BlazorBinding",
-    "description": " Sample Blazor App demonstrating various data binding scenarios."
+    "description": "  Sample Blazor App demonstrating various data binding scenarios."
+  },
+  {
+    "name": "Blazor FIRE Calculators",
+    "url": "https://github.com/bradwellsb/blazor-fire-calculators",
+    "description": "  Client-side financial calculators built using Blazor WebAssembly. Demonstrates custom number formatting and offline Progressive Web App (PWA) functionality. Demo."
+  },
+  {
+    "name": "WebSocketPage",
+    "url": "https://github.com/Lupusa87/BlazorWebSocketHelper",
+    "description": "  Web Socket in Blazor. demo."
+  },
+  {
+    "name": "Blazor Survey",
+    "url": "https://github.com/nutshellit/Blazor-Survey",
+    "description": "  A hybrid F#/C# Blazor sample app to kick the tyres of"
   },
   {
     "name": "Beam",
@@ -327,11 +412,6 @@
     "name": "BlazorRawHtmlRenderer",
     "url": "https://github.com/Lupusa87/BlazorRawHtmlRenderer",
     "description": "Raw HTML rendering with Blazor. Demo."
-  },
-  {
-    "name": "BlazePort",
-    "url": "https://github.com/EdCharbeneau/BlazePort",
-    "description": "A futuristic ride share app for space travel written in full stack .NET with Blazor."
   },
   {
     "name": "BlazorBeerCalculator",
@@ -472,9 +552,54 @@
     "description": "Sample App to help you get started with hosting Blazor on SharePoint Pages, Completely Client Side."
   },
   {
+    "name": "Return",
+    "url": "https://github.com/Sebazzz/Return",
+    "description": "Realtime retrospective tool built in ASP.NET Core and Blazor."
+  },
+  {
+    "name": "Blazor Tour of Heroes",
+    "url": "https://github.com/georgemathieson/blazor-tour-of-heroes",
+    "description": "Blazor Tour of Heroes, using Blazor-State(State Management architecture utilizing the MediatR pipeline) for the Redux style state."
+  },
+  {
+    "name": "Blazor.Console",
+    "url": "https://github.com/ardacetinkaya/Blazor.Console",
+    "description": " A simple component to mock CLI for ASP.NET Core 3.0 Blazor applications to execute some custom commands for an application."
+  },
+  {
+    "name": "Cognitive Services Explorer",
+    "url": "https://github.com/jernejk/CognitiveServices.Explorer",
+    "description": " PWA enabled app used to showcase what Cognitive Services can do, built-in client-side Blazor. Demo."
+  },
+  {
+    "name": "Blazor Wake-on-LAN",
+    "url": "https://github.com/georg-jung/BlazorWoL",
+    "description": " Wake-on-LAN app for local networks. Blazor Server + EF Core + DI + CI."
+  },
+  {
     "name": "Blazor workshop",
     "url": "https://github.com/dotnet-presentations/blazor-workshop/",
     "description": " Blazor app building workshop by .NET Foundation, Blazzing Pizza."
+  },
+  {
+    "name": "Learning Blazor by Building Connect Four in ASP.NET Core",
+    "url": "https://exceptionnotfound.net/learning-blazor-by-building-connect-four-in-asp-net-core/",
+    "description": "November 5, 2019 - Learning Blazor by Building Connect Four in ASP.NET Core. Source code."
+  },
+  {
+    "name": "Creating A Step-By-Step End-To-End Database Server-Side Blazor Application",
+    "url": "http://blazorhelpwebsite.com/Blog/tabid/61/EntryId/4318/Creating-A-Step-By-Step-End-To-End-Database-Server-Side-Blazor-Application.aspx",
+    "description": "October 06, 2019 - Creating A Step-By-Step End-To-End Database Server-Side Blazor Application. Video here."
+  },
+  {
+    "name": "Blazor Fundamentals Tutorial",
+    "url": "https://www.youtube.com/playlist?list=PLUOequmGnXxPrY79JGnF72e1Pba8z93zo",
+    "description": "October 1, 2019 - Blazor Fundamentals Tutorial."
+  },
+  {
+    "name": "Tour of Heroes",
+    "url": "https://github.com/rstropek/BlazorHeroTutorial",
+    "description": "September, 2019 - Angular's Heroes tutorial implemented using Blazor."
   },
   {
     "name": "ASP.NET Core and Blazor Code Venture: Configuring Azure AD Authentication",
@@ -497,18 +622,9 @@
     "description": "May 31, 2019 - Blazor client-side app with CRUD operations against a Web API endpoint. Source code . Video."
   },
   {
-    "name": "Get .NET Core 3 and Blazor running on a Raspberry PI",
-    "url": "https://gist.github.com/shawty/a55f6d09edc2d381c8bd5bf2f639b2de",
-    "description": "April 24, 2019 - Instructions on how to get the latest .NET Core 3 (as of 24th April 2019) and Blazor running on a Raspberry PI."
-  },
-  {
-    "name": "Blazor TODO list",
-    "url": "https://github.com/exceptionnotfound/BlazorToDoList",
-    "description": " April 22, 2019 - Blazor TODO list."
-  },
-  {
-    "name": "Archives of 2018",
-    "url": "https://github.com/AdrienTorris/awesome-blazor/blob/master/Archives/2018.md#tutorials"
+    "name": "Archives",
+    "url": "https://github.com/AdrienTorris/awesome-blazor/tree/master/Archives",
+    "description": "2019, 2018."
   },
   {
     "name": "MatBlazor",
@@ -516,19 +632,14 @@
     "description": " Material Design components for Blazor. (Demo)."
   },
   {
-    "name": "BlazorStrap",
-    "url": "https://github.com/chanan/BlazorStrap",
-    "description": " Bootstrap 4 components for Blazor (Demo)."
-  },
-  {
     "name": "Blazorise",
     "url": "https://github.com/stsrki/Blazorise",
     "description": " Components for Blazor with support for Bootstrap, Bulma and Material CSS. (Demo)."
   },
   {
-    "name": "BlazorMaterial",
-    "url": "https://github.com/BlazorExtensions/BlazorMaterial",
-    "description": " Blazor components implementing Google's Material components for web."
+    "name": "BlazorStrap",
+    "url": "https://github.com/chanan/BlazorStrap",
+    "description": " Bootstrap 4 components for Blazor (Demo)."
   },
   {
     "name": "Canvas",
@@ -541,84 +652,24 @@
     "description": " A context menu component for Blazor (Demo)."
   },
   {
-    "name": "Blazor.FlexGrid",
-    "url": "https://github.com/Mewriick/Blazor.FlexGrid",
-    "description": " GridView component for Blazor."
-  },
-  {
     "name": "DevExpress Blazor UI Components",
     "url": "https://github.com/DevExpress/RazorComponents",
     "description": " UI components including Data Grid, Pivot Grid, and several data editors."
   },
   {
+    "name": "Blazor.FlexGrid",
+    "url": "https://github.com/Mewriick/Blazor.FlexGrid",
+    "description": " GridView component for Blazor."
+  },
+  {
+    "name": "BlazorMaterial",
+    "url": "https://github.com/BlazorExtensions/BlazorMaterial",
+    "description": " Blazor components implementing Google's Material components for web."
+  },
+  {
     "name": "ChartJs.Blazor",
     "url": "https://github.com/mariusmuntean/ChartJs.Blazor",
-    "description": "  Blazor Component that wraps ChartJS."
-  },
-  {
-    "name": "ChartJSBlazor",
-    "url": "https://github.com/Joelius300/ChartJSBlazor",
-    "description": " Blazor Component that wraps ChartJS. (New fork of ChartJs.Blazor that is maintained)."
-  },
-  {
-    "name": "Blazored.Toast",
-    "url": "https://github.com/Blazored/Toast",
-    "description": " A JavaScript free toast library for Blazor and Razor Component applications."
-  },
-  {
-    "name": "BlazorComponents",
-    "url": "https://github.com/muqeet-khan/BlazorComponents",
-    "description": " Reusable components for Blazor. Starting with ChartJS interop."
-  },
-  {
-    "name": "Blazored.Modal",
-    "url": "https://github.com/Blazored/Modal",
-    "description": " A JavaScript free modal library for Blazor and Razor Components applications."
-  },
-  {
-    "name": "Syncfusion Blazor UI Components",
-    "url": "https://github.com/syncfusion/ej2-aspnet-core-blazor-samples",
-    "description": " Robust UI components including Data Grid, Charts, Scheduler, Inputs and several Editor components."
-  },
-  {
-    "name": "BlazorGrid",
-    "url": "https://github.com/AnkitSharma-007/BlazorGrid",
-    "description": " This is a reusable grid component for Blazor which also supports client side pagination."
-  },
-  {
-    "name": "Sotsera.Blazor.Toaster",
-    "url": "https://github.com/sotsera/sotsera.blazor.toaster",
-    "description": " A Blazor port of Toastr.js. Demo."
-  },
-  {
-    "name": "Blazor LoadingBar",
-    "url": "https://github.com/jsakamoto/Toolbelt.Blazor.LoadingBar",
-    "description": " Loading bar UI for Client-Side Blazor application."
-  },
-  {
-    "name": "Blazor-Charts",
-    "url": "https://github.com/Misfits-Rebels-Outcasts/Blazor-Charts",
-    "description": " SVG charts for Blazor."
-  },
-  {
-    "name": "Grid.Blazor",
-    "url": "https://github.com/gustavnavar/Grid.Blazor",
-    "description": " Grid component for Blazor and ASP.NET MVC, supporting filtering, sorting, searching, paging, subgrids and others (Demo)."
-  },
-  {
-    "name": "Blazored.Menu",
-    "url": "https://github.com/Blazored/Menu",
-    "description": " A JavaScript free menu library for Blazor and Razor Components applications."
-  },
-  {
-    "name": "Blazored.Typeahead",
-    "url": "https://github.com/Blazored/Typeahead",
-    "description": " Auto-complete textbox with local and remote data source, for both Client-side and Server-Side Blazor."
-  },
-  {
-    "name": "NodaTimePicker",
-    "url": "https://github.com/nheath99/NodaTimePicker",
-    "description": " A Date/Time picker component library for Blazor using NodaTime. Demo."
+    "description": " Brings ChartJs charts to Blazor."
   },
   {
     "name": "Radzen.Blazor",
@@ -626,9 +677,79 @@
     "description": " Native UI components for Blazor. DataGrid, DataList, Tabs, Dialog and more. (Demo)."
   },
   {
+    "name": "Blazored.Modal",
+    "url": "https://github.com/Blazored/Modal",
+    "description": " A JavaScript free modal library for Blazor and Razor Components applications."
+  },
+  {
+    "name": "Blazored.Toast",
+    "url": "https://github.com/Blazored/Toast",
+    "description": " A JavaScript free toast library for Blazor and Razor Component applications."
+  },
+  {
+    "name": "Grid.Blazor",
+    "url": "https://github.com/gustavnavar/Grid.Blazor",
+    "description": " Grid component with CRUD forms for Blazor and ASP.NET MVC, supporting filtering, sorting, searching, paging, subgrids and others (Demo)."
+  },
+  {
+    "name": "BlazorInputFile",
+    "url": "https://github.com/SteveSandersonMS/BlazorInputFile",
+    "description": " A file input component for Blazor applications, by Steve Sanderson."
+  },
+  {
+    "name": "Blazored.Typeahead",
+    "url": "https://github.com/Blazored/Typeahead",
+    "description": " Auto-complete textbox with local and remote data source, for both Client-side and Server-Side Blazor."
+  },
+  {
+    "name": "Sotsera.Blazor.Toaster",
+    "url": "https://github.com/sotsera/sotsera.blazor.toaster",
+    "description": " A Blazor port of Toastr.js. Demo."
+  },
+  {
+    "name": "Syncfusion Blazor UI Components",
+    "url": "https://github.com/syncfusion/ej2-aspnet-core-blazor-samples",
+    "description": " Robust UI components including Data Grid, Charts, Scheduler, Inputs and several Editor components."
+  },
+  {
     "name": "BlazorStyled",
     "url": "https://github.com/chanan/BlazorStyled",
     "description": " CSS in Blazor Components (Demo)."
+  },
+  {
+    "name": "BlazorComponents",
+    "url": "https://github.com/muqeet-khan/BlazorComponents",
+    "description": " Reusable components for Blazor. Starting with ChartJS interop."
+  },
+  {
+    "name": "Blazor LoadingBar",
+    "url": "https://github.com/jsakamoto/Toolbelt.Blazor.LoadingBar",
+    "description": " Loading bar UI for Client-Side Blazor application."
+  },
+  {
+    "name": "BlazorGrid",
+    "url": "https://github.com/AnkitSharma-007/BlazorGrid",
+    "description": " This is a reusable grid component for Blazor which also supports client side pagination."
+  },
+  {
+    "name": "Blazored.Menu",
+    "url": "https://github.com/Blazored/Menu",
+    "description": " A JavaScript free menu library for Blazor and Razor Components applications."
+  },
+  {
+    "name": "Blazor Components Testing Library",
+    "url": "https://github.com/egil/razor-components-testing-library",
+    "description": " A testing library for Blazor Components. You can easily define components under test in C# or Razor syntax, it has intelligent HTML diffing/comparison logic. You can easily interact with and inspect components, trigger event handlers, provide cascading values, inject services, mock IJsRuntime, and perform snapshot testing."
+  },
+  {
+    "name": "Blazor-Charts",
+    "url": "https://github.com/Misfits-Rebels-Outcasts/Blazor-Charts",
+    "description": " SVG charts for Blazor."
+  },
+  {
+    "name": "NodaTimePicker",
+    "url": "https://github.com/nheath99/NodaTimePicker",
+    "description": " A Date/Time picker component library for Blazor using NodaTime. Demo."
   },
   {
     "name": "BlazorBits",
@@ -636,14 +757,29 @@
     "description": " Components including Monaco editor ."
   },
   {
+    "name": "BlazorDateRangePicker",
+    "url": "https://github.com/jdtcn/BlazorDateRangePicker",
+    "description": " A date range picker component library for Blazor. Demo."
+  },
+  {
+    "name": "BlazorVirtualScrolling",
+    "url": "https://github.com/SamProf/BlazorVirtualScrolling",
+    "description": " Virtual Scrolling Component for Blazor"
+  },
+  {
+    "name": "BlazorGoogleMaps",
+    "url": "https://github.com/rungwiroon/BlazorGoogleMaps",
+    "description": " Blazor interop for GoogleMap library."
+  },
+  {
     "name": "BlazorVirtualGrid",
     "url": "https://github.com/Lupusa87/BlazorVirtualGrid",
     "description": " Reusable, fully configurable component with rows and columns fast virtualization (Demo)."
   },
   {
-    "name": "BlazorVirtualScrolling",
-    "url": "https://github.com/SamProf/BlazorVirtualScrolling",
-    "description": "Virtual Scrolling Component for Blazor"
+    "name": "BlazorTable",
+    "url": "https://github.com/IvanJosipovic/BlazorTable",
+    "description": " A Table Control for Blazor with sorting, paging, filtering and more (Demo)."
   },
   {
     "name": "BlazorScrollbar",
@@ -691,19 +827,9 @@
     "description": "Simple to use loading indicator helper library."
   },
   {
-    "name": "BlazorDateRangePicker",
-    "url": "https://github.com/jdtcn/BlazorDateRangePicker",
-    "description": "A date range picker component library for Blazor. Demo."
-  },
-  {
     "name": "BlazorTypography",
     "url": "https://github.com/chanan/BlazorTypography",
     "description": "A powerful toolkit for building websites with beautiful design (Demo)."
-  },
-  {
-    "name": "BlazorGoogleMaps",
-    "url": "https://github.com/rungwiroon/BlazorGoogleMaps",
-    "description": "Blazor interop for GoogleMap library."
   },
   {
     "name": "Razor.SweetAlert2",
@@ -711,14 +837,39 @@
     "description": "Blazor component implementing the popular SweetAlert2 JavaScript Library."
   },
   {
+    "name": "Blazor.SpinKit",
+    "url": "https://github.com/faso/Faso.Blazor.SpinKit",
+    "description": "Blazor components for SpinKit spinners."
+  },
+  {
+    "name": "Blorc.PatternFly",
+    "url": "https://github.com/WildGums/Blorc.PatternFly",
+    "description": "Blazor wrappers for PatternFly. To view the latest develop branch in action, visit the demo app."
+  },
+  {
+    "name": "Head Element Helper",
+    "url": "https://github.com/jsakamoto/Toolbelt.Blazor.HeadElement",
+    "description": "<Title> and <Meta> components for changing the document titile and meta elements, with server-side prerendering support for SEO/OGP. (Demo)."
+  },
+  {
+    "name": "Localized Data Annotations Validator",
+    "url": "https://github.com/jsakamoto/Toolbelt.Blazor.LocalizedDataAnnotationsValidator/",
+    "description": "The data annotations validator for Blazor to localize validation error messages. (Demo)."
+  },
+  {
+    "name": "BlazorWebFormsComponents",
+    "url": "https://github.com/FritzAndFriends/BlazorWebFormsComponents",
+    "description": "A collection of Blazor components that emulate the web forms components of the same name."
+  },
+  {
+    "name": "BlazorSize",
+    "url": "https://github.com/EdCharbeneau/BlazorSize",
+    "description": "BlazorSize is a JavaScript interop library for Blazor that is used to detect the Broswer's current size, change in size, and test media queries."
+  },
+  {
     "name": "Blazor-Redux",
     "url": "https://github.com/torhovland/blazor-redux",
     "description": " Connecting a Redux state store with Blazor."
-  },
-  {
-    "name": "SignalR",
-    "url": "https://github.com/BlazorExtensions/SignalR",
-    "description": " SignalR Core implementation for Blazor. It uses the JavaScript client."
   },
   {
     "name": "Blazor-Fluxor",
@@ -726,9 +877,14 @@
     "description": " A low-boilerplate Flux/Redux state library for Blazor."
   },
   {
-    "name": "Logging",
-    "url": "https://github.com/BlazorExtensions/Logging",
-    "description": " Microsoft Extension Logging implementation for Blazor.4"
+    "name": "SignalR",
+    "url": "https://github.com/BlazorExtensions/SignalR",
+    "description": " SignalR Core implementation for Blazor. It uses the JavaScript client."
+  },
+  {
+    "name": "Blazor-State",
+    "url": "https://github.com/TimeWarpEngineering/blazor-state",
+    "description": " Manage client side state in Blazor using MediatR pipeline."
   },
   {
     "name": "Storage",
@@ -736,9 +892,14 @@
     "description": " HTML5 Storage API implementation for Microsoft Blazor."
   },
   {
-    "name": "Blazor-State",
-    "url": "https://github.com/TimeWarpEngineering/blazor-state",
-    "description": " Manage client side state in Blazor using MediatR pipeline."
+    "name": "Logging",
+    "url": "https://github.com/BlazorExtensions/Logging",
+    "description": " Microsoft Extension Logging implementation for Blazor."
+  },
+  {
+    "name": "Blazored.LocalStorage",
+    "url": "https://github.com/Blazored/LocalStorage",
+    "description": " A library to provide access to local storage in Blazor applications."
   },
   {
     "name": "BlazorStorage",
@@ -756,11 +917,6 @@
     "description": " SignalR Core .NET client library for Blazor. It uses the C# client."
   },
   {
-    "name": "Blazored.LocalStorage",
-    "url": "https://github.com/Blazored/LocalStorage",
-    "description": " A library to provide access to local storage in Blazor applications."
-  },
-  {
     "name": "Blazor.Auth0",
     "url": "https://github.com/Pegazux/Blazor.Auth0",
     "description": " The library for using Auth0 in Blazor applications."
@@ -776,14 +932,14 @@
     "description": " Polyfills for Blazor (for Internet Explorer 11 support and some other browsers)."
   },
   {
-    "name": "CssBuilder",
-    "url": "https://github.com/EdCharbeneau/CssBuilder",
-    "description": " CssBuilder is a Builder pattern for CSS classes to be used with Razor Components."
-  },
-  {
     "name": "Blazor I18n/Localization Text",
     "url": "https://github.com/jsakamoto/Toolbelt.Blazor.I18nText",
     "description": " Localizing contents text in Blazor (Demo)."
+  },
+  {
+    "name": "CssBuilder",
+    "url": "https://github.com/EdCharbeneau/CssBuilder",
+    "description": " CssBuilder is a Builder pattern for CSS classes to be used with Razor Components."
   },
   {
     "name": "Blazor.Payments",
@@ -801,14 +957,19 @@
     "description": " Blazor interop for browser Geolocation APIs."
   },
   {
+    "name": "EmbeddedBlazorContent",
+    "url": "https://github.com/SamProf/EmbeddedBlazorContent",
+    "description": " Library to load embedded content files (js and css) from Blazor libraries in server-side Blazor mode."
+  },
+  {
     "name": "Blazor Time Zone Kit",
     "url": "https://github.com/jsakamoto/Toolbelt.Blazor.TimeZoneKit",
     "description": " A library to provide system time zones and local time zone initialization in Blazor apps."
   },
   {
-    "name": "EmbeddedBlazorContent",
-    "url": "https://github.com/SamProf/EmbeddedBlazorContent",
-    "description": " Library to load embedded content files (js and css) from Blazor libraries in server-side Blazor mode."
+    "name": "BlazorGoogleMaps",
+    "url": "https://github.com/rungwiroon/BlazorGoogleMaps",
+    "description": " Blazor interop for GoogleMap library."
   },
   {
     "name": "Blazor SVG Helper",
@@ -816,9 +977,9 @@
     "description": " Create SVG elements with children (circle, rectangle, image, text, and others) and render with RenderTreeBuilder."
   },
   {
-    "name": "Razor components resting library",
+    "name": "Razor components testing library",
     "url": "https://github.com/egil/razor-components-testing-library",
-    "description": "Prototype testing library that renders Razor Components as HTML and compare the result to an expected result, using the XMLDiff library and Shouldly for writing out error messages."
+    "description": "A library for testing Razor Components that renders the components as HTML and compares the result to an expected result, using the XMLDiff library and Shouldly for writing out error messages."
   },
   {
     "name": "Blazor Analytics",
@@ -880,6 +1041,21 @@
     "url": "https://barcoderesource.com/blazorbarcode.shtml"
   },
   {
+    "name": "BlazorState.Redux",
+    "url": "https://github.com/BerserkerDotNet/BlazorState.Redux",
+    "description": "Develop Blazor apps with Redux."
+  },
+  {
+    "name": "BlazorLeaflet",
+    "url": "https://github.com/Mehigh17/BlazorLeaflet",
+    "description": "BlazorLeaflet is a wrapper offering easy-to-use Blazor components that expose the Leaflet API in C#."
+  },
+  {
+    "name": "Simple logging server",
+    "url": "https://github.com/shawty/simpleloggingserver",
+    "description": "An ultra simple remote log message server written in Blazor and .NET Core 3."
+  },
+  {
     "name": "Blazor Extensions Home",
     "url": "https://github.com/BlazorExtensions/Home",
     "description": " Home for Blazor Extensions."
@@ -900,19 +1076,24 @@
     "description": " MobX-like observables and component instrumentation."
   },
   {
-    "name": "Blazor-Dashboard",
-    "url": "https://github.com/Misfits-Rebels-Outcasts/Blazor-Dashboard",
-    "description": " Admin Dashboard Template Theme for Blazor."
-  },
-  {
     "name": "BlazorOfficeUIFabric",
     "url": "https://github.com/BlazorExtensions/BlazorOfficeUIFabric",
     "description": " Microsoft Office Fabric UI port for Blazor."
   },
   {
+    "name": "Blazor-Dashboard",
+    "url": "https://github.com/Misfits-Rebels-Outcasts/Blazor-Dashboard",
+    "description": " Admin Dashboard Template Theme for Blazor."
+  },
+  {
     "name": "BlazorEmbedLibrary",
     "url": "https://github.com/SQL-MisterMagoo/BlazorEmbedLibrary",
     "description": " Provides Blazor-style embedded static content files for Razor Components projects."
+  },
+  {
+    "name": "BlazorFabric",
+    "url": "https://github.com/limefrogyank/BlazorFabric",
+    "description": " Blazor port of Microsoft UI Fabric with fluent design. (Demo)."
   },
   {
     "name": "WebSocketHelper",
@@ -925,14 +1106,9 @@
     "description": "An Ionic CLI clone for Blazor projects."
   },
   {
-    "name": "BlazorFabric",
-    "url": "https://github.com/limefrogyank/BlazorFabric",
-    "description": "Blazor port of Microsoft UI Fabric with fluent design. (Demo)."
-  },
-  {
     "name": "BlazorFileSaver",
     "url": "https://github.com/IvanJosipovic/BlazorFileSaver",
-    "description": "Blazor Component wrapper for FileSaver.js."
+    "description": "Blazor Component wrapper for FileSaver.js (Demo)."
   },
   {
     "name": "Blazor.DynamicJavascriptRuntime.Evaluator",
@@ -940,9 +1116,114 @@
     "description": "Execute dynamic object expressions as Javascript in Blazor client-side apps."
   },
   {
+    "name": "Blazor.AdaptiveCards",
+    "url": "https://github.com/mikoskinen/Blazor.AdaptiveCards",
+    "description": "Adaptive Cards for Blazor. Documentation."
+  },
+  {
+    "name": "Blazor StateHasChanged",
+    "url": "https://www.youtube.com/watch?v=sxJG1J-H8TQ&feature=youtu.be",
+    "description": "December 9, 2019 - Blazor StateHasChanged: Hot take on hot questions from the community."
+  },
+  {
+    "name": "Building Serverless web applications with Blazor and Azure Functions",
+    "url": "https://channel9.msdn.com/Shows/On-NET/Blazor-and-Azure-Functions",
+    "description": "December 5, 2019 - Building Serverless web applications with Blazor and Azure Functions, on Channel 9."
+  },
+  {
+    "name": "Blazor Update with Daniel Roth",
+    "url": "https://www.youtube.com/watch?v=PaemestFrt0&list=PL1rZQsJPBU2St9-Mz1Kaa7rofciyrwWVx&index=0",
+    "description": "December 3, 2019 - ASP.NET Community Standup - Dec 3rd, 2019 - Blazor Update with Daniel Roth."
+  },
+  {
+    "name": "Share Blazor Pages and JavaScript across assemblies",
+    "url": "https://www.youtube.com/watch?v=HGoPwLu4qDI",
+    "description": "November 17, 2019 - Share Blazor Pages and JavaScript across assemblies."
+  },
+  {
+    "name": "Blazor Server : Razor Components | Lifecycle Methods",
+    "url": "https://www.youtube.com/watch?v=VM4i-_YnGMo",
+    "description": "November 11, 2019 - Lifecycle Methods, Going through the life cycle of page/component in Blazor Apps. Source code."
+  },
+  {
+    "name": "SPA Revolution with WebAssembly and ASP.NET Blazor",
+    "url": "https://www.youtube.com/watch?v=kTBW94GcRJY&feature=youtu.be",
+    "description": "October 23, 2019 - Recording of the session by Rainer Stropek at the Tech Days Stockholm 2019, \"SPA Revolution with WebAssembly and ASP.NET Blazor\" (Event). WebAssembly (WASM) is challenging JavaScript’s monopoly in the browser. Many higher-level languages are currently evaluating whether WASM is a way for them to conquer the web client. .NET is spearheading this movement."
+  },
+  {
+    "name": "Blazor and Customizing the OData entity model",
+    "url": "https://channel9.msdn.com/Shows/On-NET/Blazor-and-Customizing-the-OData-entity-model",
+    "description": "October 22, 2019 - Blazor and Customizing the OData entity model, on Channel 9."
+  },
+  {
+    "name": "OceanNumericInput Component",
+    "url": "https://www.youtube.com/watch?v=HHPcjEeSiSc",
+    "description": "October 19, 2019 - Overview about the OceanNumericInput Component usage and why it's needed in Blazor line of business applications. OceanNumericInput Component source code. NuGet package."
+  },
+  {
+    "name": "Blazor in more depth",
+    "url": "https://www.youtube.com/watch?v=dCgqTDki-VM",
+    "description": "October 17, 2019 - \"Blazor in more depth\" session at the NDC Sydney 2019, by Steve Sanderson and Ryan Nowak. In this talk, Blazor's two architects will take you deeper into the framework, showing a range of more advanced features and their internal workings. We'll dig into server-side Blazor and how we built the SignalR-based mechanism for efficiently streaming UI updates, as well as authorization in Blazor WebAssembly, and more."
+  },
+  {
+    "name": "Episode 582: Jeremy Likness on Blazor",
+    "url": "https://www.youtube.com/watch?v=A_zhrjSHSpE",
+    "description": "October 17, 2019 - Technology and Friends, Episode 582: Jeremy Likness on Blazor. Blazor is a framework for building full-stack web apps in the browser using C#. Jeremy Likness describes how it works and how to use it."
+  },
+  {
+    "name": "Blazor, a new framework for browser-based .NET apps",
+    "url": "https://www.youtube.com/watch?v=6BT2AF9PO5g&feature=youtu.be",
+    "description": "October 16, 2019 - Blazor, a new framework for browser-based .NET apps by Steve Sanderson at the NDC Sydney."
+  },
+  {
+    "name": "Blazor StateHasChanged: Responsive and Adaptive web rendering",
+    "url": "https://www.twitch.tv/videos/493138351",
+    "description": "October 11, 2019 - Responsive and Adaptive web rendering."
+  },
+  {
+    "name": "All Linux and .NET development",
+    "url": "https://www.twitch.tv/videos/491014980",
+    "description": "Let's build a Blazor-based Follower Train widget - October 07, 2019 - All Linux and .NET development - Let's build a Blazor-based Follower Train widget."
+  },
+  {
+    "name": "All Linux and .NET development",
+    "url": "https://www.twitch.tv/videos/490078631",
+    "description": "Let's build a Blazor-based Follower Train widget - October 05, 2019 - All Linux and .NET development - Let's build a Blazor-based Follower Train widget."
+  },
+  {
+    "name": "Blazor StateHasChanged: Community round up & BlazePort",
+    "url": "https://www.twitch.tv/videos/490114563",
+    "description": "October 04, 2019 - Blazor StateHasChanged: Community round up & BlazePort. Source Code ."
+  },
+  {
+    "name": "Techorama NL 2019: Web Development Revolution with WebAssembly and ASP.NET Blazor",
+    "url": "https://www.youtube.com/watch?v=Y4Zu6w_4LN4",
+    "description": "October 01, 2019 - Techorama NL 2019: Web Development Revolution with WebAssembly and ASP.NET Blazor."
+  },
+  {
+    "name": "Blazor server-side vs client-side (WebAssembly) | What should you choose?",
+    "url": "https://www.youtube.com/watch?v=HFvPKmS2gig",
+    "description": "September 27, 2019 - Blazor server-side vs client-side (WebAssembly) | What should you choose?"
+  },
+  {
+    "name": "The Future of Blazor on the Client",
+    "url": "https://channel9.msdn.com/Events/dotnetConf/NET-Conf-2019/B202",
+    "description": "September 25, 2019 - The Future of Blazor on the Client, by Daniel Roth on Channel 9."
+  },
+  {
     "name": "Building Full-stack C# Web Apps with Blazor in .NET Core 3.0",
     "url": "https://channel9.msdn.com/Events/dotnetConf/NET-Conf-2019/B106",
     "description": "September 24, 2019 - Session of the .NET Conf 2019, Building Full-stack C# Web Apps with Blazor in .NET Core 3.0, by Daniel Roth."
+  },
+  {
+    "name": "Blazor and Azure Functions for Serverless Websites",
+    "url": "https://www.youtube.com/watch?v=noG3rxt38VI",
+    "description": "September 24, 2019 - Blazor and Azure Functions for Serverless Websites, from the .NET Conf 2019."
+  },
+  {
+    "name": "Blazor, HTML, CSS, JavaScript InterOp, .NET Core 3, Chat and Stuff",
+    "url": "https://www.twitch.tv/videos/483511319",
+    "description": "September 20, 2019 - Blazor, HTML, CSS, JavaScript InterOp, .NET Core 3, Chat and Stuff"
   },
   {
     "name": "Talking about Blazor with ASP.NET Web Forms developers",
@@ -953,6 +1234,11 @@
     "name": "Blazor OwningComponentBase Lifecycle",
     "url": "https://www.youtube.com/watch?v=-zyCAN7jfX0",
     "description": "September 17, 2019 - Short video about the lifecycle of services managed by OwningComponentBase."
+  },
+  {
+    "name": "Integrating JavaScript and C# with Blazor",
+    "url": "https://www.twitch.tv/videos/480856229",
+    "description": "September 13, 2019 - Integrating JavaScript and C# with Blazor."
   },
   {
     "name": "Blazor StateHasChanged Community round up & BlazePort",
@@ -1170,137 +1456,314 @@
     "description": "June 1, 2019 - Blazor client-side app with CRUD operations against a Web API endpoint."
   },
   {
-    "name": "Blazor StateHasChanged: BlazePort part 1",
-    "url": "https://www.twitch.tv/videos/430658092",
-    "description": "May 27, 2019 - First video about creating BlazePort, a futuristic ride share app for space travel written in full stack .NET with Blazor. Source Code ."
+    "name": "Archives",
+    "url": "https://github.com/AdrienTorris/awesome-blazor/tree/master/Archives",
+    "description": "2019, 2018, 2017."
   },
   {
-    "name": "Blazor CRUD app tutorial",
-    "url": "https://www.youtube.com/watch?v=TMiFNM_1oZI",
-    "description": "SPA Framework for .NET developers (Part - 2) - May 22, 2019 - Blazor CRUD app tutorial - SPA Framework for .NET developers (Part - 2)."
+    "name": "Introduction to Blazor Component Testing",
+    "url": "https://chrissainty.com/introduction-to-blazor-component-testing/",
+    "description": "December 17, 2019 - Introduction to Blazor Component Testing."
   },
   {
-    "name": "Blazor application state management basics",
-    "url": "https://www.youtube.com/watch?v=1o-_78ONM1s",
-    "description": "May 14, 2019 - Blazor application state management basics."
+    "name": "Adaptive Cards for Blazor 2.0.0 released with support for .NET Core 3.1",
+    "url": "https://mikaelkoskinen.net/post/adaptive-cards-blazor-new-relase-core-31",
+    "description": "December 17, 2019 - Adaptive Cards for Blazor 2.0.0 released with support for .NET Core 3.1."
   },
   {
-    "name": "Blazor Q/A Live with Daniel Roth from Microsoft Build 2019",
-    "url": "https://www.youtube.com/watch?v=zp9wQt8J6hY",
-    "description": "May 14, 2019 - Blazor Q/A Live with Daniel Roth from Microsoft Build 2019."
+    "name": "Getting Started with Blazor: All There is to Know From the Experts",
+    "url": "https://www.telerik.com/campaigns/blazor-ui/getting-started-with-blazor-all-there-is-to-know-from-the-experts",
+    "description": "December 13, 2019 - A chat with some of the most active members of the Blazor community."
   },
   {
-    "name": "Upgrading to Blazor Preview 4 and Hacking SEO in Client-side Blazor",
-    "url": "https://www.youtube.com/watch?v=i2eVseMWidQ",
-    "description": "May 14, 2019 - Upgrading to Blazor Preview 4 and Hacking SEO in Client-side Blazor."
+    "name": "Blazor Consume IdentityServer4 Protected API",
+    "url": "https://wellsb.com/csharp/aspnet/blazor-consume-identityserver4-protected-api/",
+    "description": "December 12, 2019 - Blazor Consume IdentityServer4 Protected API. Source code."
   },
   {
-    "name": ".NET is now your Browser OS with Blazor",
-    "url": "https://www.recallact.com/presentation/net-now-your-browser-os-blazor",
-    "description": "May 13, 2019 - Talk by Jeremy Likness at the Atlanta DotNetSouth 2019."
+    "name": "Blazor: Chained Binds",
+    "url": "https://rolandguijt.com/blazor-chained-binds/",
+    "description": "December 12, 2019 - Blazor: Chained Binds."
   },
   {
-    "name": "Continuation of the Tulsa .NET User Group website",
-    "url": "https://www.twitch.tv/videos/422982467",
-    "description": "May 10, 2019 - Continuation of the Tulsa .NET User Group website. Source code  here."
+    "name": "Optimising Our Blazor Search App",
+    "url": "https://www.aaron-powell.com/posts/2019-12-11-optimising-our-blazor-search-app/",
+    "description": "December 11, 2019 - Optimising Our Blazor Search App."
   },
   {
-    "name": "Scott Hunter Demos Telerik UI for Blazor",
-    "url": "https://clips.twitch.tv/SpookyProudPineapplePeanutButterJellyTime",
-    "description": "May 10, 2019 - Scott Hunter Demos Telerik UI for Blazor."
+    "name": "MSGraph with Blazor",
+    "url": "https://www.radzen.com/blog/msgraph-with-blazor/",
+    "description": "December 10, 2019 - MSGraph with Blazor."
   },
   {
-    "name": "Blazor: C# running in the browser via WebAssembly",
-    "url": "https://www.youtube.com/watch?v=8De8DlrCzoY",
-    "description": "May 8, 2019 - \"Blazor: C# running in the browser via WebAssembly\" by Scott Sauber at the NDC Conference Minnesota. Slides and source code here."
+    "name": "Creating Bespoke Input Components for Blazor from Scratch",
+    "url": "https://chrissainty.com/creating-bespoke-input-components-for-blazor-from-scratch/",
+    "description": "December 10, 2019 - Creating Bespoke Input Components for Blazor from Scratch."
   },
   {
-    "name": "WebAssembly: Into the WASM'verse",
-    "url": "https://www.youtube.com/watch?v=P8rSdOXiyEc",
-    "description": "May 8, 2019 - WebAssembly: Into the WASM'verse."
+    "name": "Modular Monoliths And Composite UIs With .NET Core Razor Class Libraries",
+    "url": "https://dev.to/jamesmh/modular-monoliths-and-composite-uis-with-net-core-razor-class-libraries-2394",
+    "description": "December 10, 2019 - Modular Monoliths And Composite UIs With .NET Core Razor Class Libraries. Code."
   },
   {
-    "name": "Full stack web development with ASP.NET Core 3.0 and Blazor",
-    "url": "https://mybuild.techcommunity.microsoft.com/sessions/77033",
-    "description": "May 7, 2019 - Microsoft Build 2019: Full stack web development with ASP.NET Core 3.0 and Blazor."
+    "name": "A Blazor image file manager",
+    "url": "http://blazorhelpwebsite.com/Blog/tabid/61/EntryId/4368/A-Blazor-Image-File-Manager.aspx",
+    "description": "December 9, 2019 - A Blazor image file manager."
   },
   {
-    "name": "Serverless web apps with Blazor, Azure Functions, and Azure Storage",
-    "url": "https://mybuild.techcommunity.microsoft.com/sessions/77336",
-    "description": "May 6, 2019 - Microsoft Build 2019: Serverless web apps with Blazor, Azure Functions, and Azure Storage."
+    "name": "Creating a simple wizard component with Blazor",
+    "url": "https://sinclairinat0r.com/2019/12/08/creating-a-simple-wizard-component-in-blazor",
+    "description": "December 8, 2019 - Creating a simple wizard component with Blazor."
   },
   {
-    "name": "SPA revolution with WebAssembly and ASP.NET Blazor",
-    "url": "https://www.youtube.com/watch?v=_gYgkZ1UBQ4",
-    "description": "April 23, 2019 - DevOneConf 2019 - Rainer Stropek - SPA revolution with WebAssembly and ASP.NET Blazor."
+    "name": "Use Blazor in your existing ASP.NET Core 3.x application",
+    "url": "https://jonhilton.net/use-blazor-in-existing-app/",
+    "description": "December 4, 2019 - Use Blazor in your existing ASP.NET Core 3.x application."
   },
   {
-    "name": "ASP.NET Community Standup",
-    "url": "https://www.youtube.com/watch?v=ap60h3eQE5Y",
-    "description": "April 16, 2019 - ASP.NET Community Standup - Blazor Updates with Dan Roth and Steve Sanderson."
+    "name": "ASP.NET Core updates in .NET Core 3.1",
+    "url": "https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-core-3-1/",
+    "description": "December 3, 2019 - ASP.NET Core updates in .NET Core 3.1."
   },
   {
-    "name": "ASP NET Core + Blazor",
-    "url": "https://www.youtube.com/watch?v=AXwD9S4rOFM",
-    "description": "April 12, 2019 - ASP NET Core + Blazor at the philly.NET Code Camp."
+    "name": "Building Custom Input Components for Blazor using InputBase",
+    "url": "https://chrissainty.com/building-custom-input-components-for-blazor-using-inputbase/",
+    "description": "December 3, 2019 - Building Custom Input Components for Blazor using InputBase."
   },
   {
-    "name": "Continuation of the Tulsa .NET User Group website",
-    "url": "https://www.twitch.tv/videos/409976640",
-    "description": "April 12, 2019 - Continuation of the Tulsa .NET User Group website. Source code  here."
+    "name": "Localization in Blazor UI",
+    "url": "https://www.telerik.com/blogs/localization-in-blazor-ui",
+    "description": "December 3, 2019 - Localization in Blazor UI, by Telerik. Code sample ."
   },
   {
-    "name": "Continuation of the Tulsa .NET User Group website",
-    "url": "https://www.twitch.tv/videos/409075153",
-    "description": "April 10, 2019 - Continuation of the Tulsa .NET User Group website. Source code  here."
+    "name": "Blazor, HttpClientFactory, and Web API",
+    "url": "https://wellsb.com/csharp/aspnet/blazor-httpclientfactory-and-web-api",
+    "description": "December 2, 2019 - Create a server-side Blazor application that interacts with an external web API using HttpClientFactory. Source code ."
   },
   {
-    "name": "Blazor tutorial",
-    "url": "https://www.youtube.com/watch?v=hYAOWoL3mmA",
-    "description": "SPA framework for .NET developers (Part - 1) - April 10, 2019 - Blazor tutorial - SPA framework for .NET developers (Part - 1)."
+    "name": "Hosting a Containerized Client Side Blazor Application On Azure",
+    "url": "https://medium.com/@waelkdouh/hosting-containerized-client-side-blazor-applications-on-azure-e090af738619",
+    "description": "December 2, 2019 - Hosting a Containerized Client Side Blazor Application On Azure."
   },
   {
-    "name": "Blazor StateHasChanged: Blazor radio buttons and NuGet packages",
-    "url": "https://www.youtube.com/watch?v=GBUGjmZlr7o",
-    "description": "April 9, 2019 - Blazor radio buttons and NuGet packages."
+    "name": "Implementing Search in Blazor WebAssembly With Lucene.NET",
+    "url": "https://www.aaron-powell.com/posts/2019-11-29-implementing-search-in-blazor-webassembly-with-lucenenet/",
+    "description": "November 29, 2019 - Implementing Search in Blazor WebAssembly With Lucene.NET."
   },
   {
-    "name": "What’s Coming with .NET Core 3.0",
-    "url": "https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2019-Launch-Event/Whats-Coming-with-NET-Core-30",
-    "description": "April 2, 2019 - What’s Coming with .NET Core 3.0."
+    "name": "Where to put your domain logic",
+    "url": "https://jonhilton.net/blazor-architecture/",
+    "description": "November 28, 2019 - Where to put your domain logic?"
   },
   {
-    "name": "Blazor StateHasChanged: Blazor Shell apps",
-    "url": "https://www.youtube.com/watch?v=dNQ7MgPZby4",
-    "description": "March 30, 2019 - Blazor Shell apps."
+    "name": "Deploying your Blazor app using GitHub action",
+    "url": "http://blazorhelpwebsite.com/Blog/tabid/61/EntryId/4367/Deploying-Your-Blazor-App-Using-GitHub-Actions.aspx",
+    "description": "November 28, 2019 - Deploying your Blazor app using GitHub actions."
   },
   {
-    "name": "Build amazing web apps with .NET Core",
-    "url": "https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2019-Launch-Event/VSL107",
-    "description": "March 26, 2019 - Build amazing web apps with .NET Core."
+    "name": "Share data between child and parent components",
+    "url": "https://www.c-sharpcorner.com/article/share-data-between-child-and-parent-components-in-blazor/",
+    "description": "November 27, 2019 - Share data between child and parent components in Blazor."
   },
   {
-    "name": "ASP.NET Community Standup",
-    "url": "https://www.youtube.com/watch?v=WmDXgO0f-MQ",
-    "description": "February 5, 2019 - ASP.NET Community Standup."
+    "name": "Deploying your Blazor app using Azure pipelines",
+    "url": "http://blazorhelpwebsite.com/Blog/tabid/61/EntryId/4366/Deploying-Your-Blazor-App-Using-Azure-Pipelines.aspx",
+    "description": "November 27, 2019 - Deploying your Blazor app using Azure pipelines."
   },
   {
-    "name": "A New Framework for Browser-based .NET Apps (DevReach 2018)",
-    "url": "https://www.youtube.com/watch?v=BnH2h_RJ-d8",
-    "description": "January 14, 2019 - A New Framework for Browser-based .NET Apps (DevReach 2018)."
+    "name": "Shared models, Blazor's (not so) secret super power",
+    "url": "https://jonhilton.net/blazor-shared-models/",
+    "description": "November 26, 2019 - Shared models, Blazor's (not so) secret super power."
   },
   {
-    "name": "Blazor StateHasChanged",
-    "url": "https://www.youtube.com/watch?v=sQJfLfA1TQs",
-    "description": "January 7, 2019 - Blazor StateHasChanged using Fluent Validation."
+    "name": "An introduction to Blazor and Web Assembly",
+    "url": "https://www.grapecity.com/blogs/intro-to-blazor-and-web-assembly",
+    "description": "November 25, 2019 - An introduction to Blazor and Web Assembly."
   },
   {
-    "name": "Archives of 2018",
-    "url": "https://github.com/AdrienTorris/awesome-blazor/blob/master/Archives/2018.md#videos"
+    "name": "Improvements on Error Handling",
+    "url": "https://medium.com/@alexandre.malavasi/improvements-on-error-handling-microsoft-blazor-net-core-3-1-6528efd13a9a",
+    "description": "November 23, 2019 - Improvements on Error Handling."
   },
   {
-    "name": "Archives of 2017",
-    "url": "https://github.com/AdrienTorris/awesome-blazor/blob/master/Archives/2017.md#videos"
+    "name": "Creating a rich text editor in Blazor using Quill",
+    "url": "http://blazorhelpwebsite.com/Blog/tabid/61/EntryId/4364/Creating-A-Rich-Text-Editor-In-Blazor-Using-Quill.aspx",
+    "description": "November 20, 2019 - Creating a rich text editor in Blazor using Quill."
+  },
+  {
+    "name": "Introducing the Ignite UI for Blazor Preview",
+    "url": "https://www.infragistics.com/community/blogs/b/infragistics/posts/introducing-the-ignite-ui-for-blazor-preview",
+    "description": "November 18, 2019 - Introducing the Ignite UI for Blazor Preview."
+  },
+  {
+    "name": "Create a Blazor Server SPA with Dapper",
+    "url": "https://www.c-sharpcorner.com/article/create-a-blazor-server-spa-with-dapper/",
+    "description": "November 17, 2019 - Create a Blazor Server SPA with Dapper, on C# Corner."
+  },
+  {
+    "name": "Using IHttpClientFactory with Blazor WebAssembly",
+    "url": "https://medium.com/@marcodesanctis2/using-ihttpclientfactory-with-blazor-webassembly-7cc702f5e9f8",
+    "description": "November 13, 2019 - Using IHttpClientFactory with Blazor WebAssembly."
+  },
+  {
+    "name": "Blazor Write to LocalStorage",
+    "url": "https://wellsb.com/csharp/aspnet/blazor-write-to-localstorage/",
+    "description": "November 12, 2019 - Blazor Write to LocalStorage."
+  },
+  {
+    "name": "What is Blazor? A Tutorial on Building Web Apps with Authentication",
+    "url": "https://auth0.com/blog/what-is-blazor-tutorial-on-building-webapp-with-authentication",
+    "description": "November 11, 2019 - Learn how to build client-side Web apps using Blazor and how to secure them with Auth0."
+  },
+  {
+    "name": "Make Your Blazor Development Faster",
+    "url": "https://remibou.github.io/Make-your-Blazor-development-faster/",
+    "description": "November 8, 2019 - How to improve your development experience with Blazor."
+  },
+  {
+    "name": "Data annotations object graph validation is coming to Blazor",
+    "url": "https://gunnarpeipman.com/blazor-data-annotations-object-graph-validation/",
+    "description": "November 6, 2019 - Data annotations object graph validation is coming to Blazor."
+  },
+  {
+    "name": "Securing your Blazor App with Auth0 (client side)",
+    "url": "https://dev.to/henalbrod/securing-your-blazor-app-with-auth0-client-side-2c6",
+    "description": "November 6, 2019 - Securing your Blazor App with Auth0 (client side)."
+  },
+  {
+    "name": "Building a Custom Router for Blazor",
+    "url": "https://chrissainty.com/building-a-custom-router-for-blazor/",
+    "description": "November 5, 2019 - Building a Custom Router for Blazor. Source code."
+  },
+  {
+    "name": "ASP.NET Core updates in .NET Core 3.1 Preview 2",
+    "url": "https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-core-3-1-preview-2/",
+    "description": "November 4, 2019 - ASP.NET Core updates in .NET Core 3.1 Preview 2."
+  },
+  {
+    "name": "Visual Studio 2019 for Mac version 8.4 Preview 2",
+    "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-version-8-4-preview-2-now-available/",
+    "description": "November 4, 2019 - Visual Studio 2019 for Mac version 8.4 Preview 2, now available (and supports Blazor)."
+  },
+  {
+    "name": "Introducing Blazor.Animate",
+    "url": "https://mikaelkoskinen.net/post/blazor-animate-animation-component-for-blazor",
+    "description": "November 4, 2019 - Introducing Blazor.Animate – Easily add Animations into your Blazor Applications."
+  },
+  {
+    "name": "Building Blazor “Hello, Blinky” IoT application",
+    "url": "https://gunnarpeipman.com/blazor-hello-blinky-iot/",
+    "description": "November 3, 2019 - Building Blazor “Hello, Blinky” IoT application."
+  },
+  {
+    "name": "Blazor Component Lifecycle Diagram",
+    "url": "https://knowledge-base.havit.eu/2019/11/02/blazor-component-lifecycle-diagram/",
+    "description": "November 2, 2019 - Blazor component lifecycle methods and when they are called."
+  },
+  {
+    "name": "Exploring lighter alternatives to Electron for hosting a Blazor desktop app",
+    "url": "http://blog.stevensanderson.com/2019/11/01/exploring-lighter-alternatives-to-electron-for-hosting-a-blazor-desktop-app/",
+    "description": "November 1, 2019 - Exploring lighter alternatives to Electron for hosting a Blazor desktop app, by Steve Sanderson."
+  },
+  {
+    "name": "A New Era of Productivity with Blazor",
+    "url": "https://www.codemag.com/article/1911052",
+    "description": "November 2019 - A New Era of Productivity with Blazor, by Ed Charbeneau for CODE magazine."
+  },
+  {
+    "name": "One solution (setup) to rule them all",
+    "url": "https://visionsincode.wordpress.com/2019/11/01/one-solution-setup-to-rule-them-all-blazor-webassembly-blazor-server-blazor-electron/",
+    "description": "November 1, 2019 - One solution (setup) to rule them all – Blazor Webassembly, Blazor Server, Blazor Electron."
+  },
+  {
+    "name": "Creating Charts with the Telerik Chart Component for Blazor",
+    "url": "https://www.telerik.com/blogs/creating-charts-with-the-telerik-chart-component-for-blazor",
+    "description": "October 31, 2019 - Creating Charts with the Telerik Chart Component for Blazor, by Telerik."
+  },
+  {
+    "name": "An In-depth Look at Routing in Blazor",
+    "url": "https://chrissainty.com/an-in-depth-look-at-routing-in-blazor/",
+    "description": "October 29, 2019 - An In-depth Look at Routing in Blazor."
+  },
+  {
+    "name": "Introduction to Routing in Blazor",
+    "url": "https://chrissainty.com/introduction-to-routing-in-blazor/",
+    "description": "October 22, 2019 - Introduction to Routing in Blazor."
+  },
+  {
+    "name": "Create PWA using Blazor",
+    "url": "https://wellsb.com/csharp/aspnet/create-pwa-from-blazor-app/",
+    "description": "October 17, 2019 - How to convert a Blazor app into an installable PWA."
+  },
+  {
+    "name": "Uploading files in Blazor",
+    "url": "https://www.mikesdotnetting.com/article/341/uploading-files-in-blazor",
+    "description": "October 17, 2019 - Uploading files in Blazor."
+  },
+  {
+    "name": "Blazor pages get partial class support",
+    "url": "https://gunnarpeipman.com/blazor-partial-page-class/",
+    "description": "October 16, 2019 - Blazor pages get partial class support."
+  },
+  {
+    "name": "Goodbye Javascript! Build an Authenticated Web App in C# with Blazor + ASP.NET Core 3.0 ",
+    "url": "https://developer.okta.com/blog/2019/10/16/csharp-blazor-authentication",
+    "description": "October 16, 2019 - Goodbye Javascript! Build an Authenticated Web App in C# with Blazor + ASP.NET Core 3.0 ."
+  },
+  {
+    "name": "ASP.NET Core updates in .NET Core 3.1 Preview 1",
+    "url": "https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-core-3-1-preview-1/",
+    "description": "October 15, 2019 - ASP.NET Core updates in .NET Core 3.1 Preview 1 by Daniel Roth. Interesting stuff for Blazor developers: partial class support and the ability to pass parameters to top-level components."
+  },
+  {
+    "name": "Blazor Server in .NET Core 3.0 scenarios and performance",
+    "url": "https://devblogs.microsoft.com/aspnet/blazor-server-in-net-core-3-0-scenarios-and-performance/",
+    "description": "October 10, 2019 - Blazor Server in .NET Core 3.0 scenarios and performance, by Daniel Roth."
+  },
+  {
+    "name": "3 Ways to Bind Blazor Data to DOM",
+    "url": "https://wellsb.com/csharp/aspnet/3-ways-to-bind-blazor-variables-to-dom/",
+    "description": "October 07, 2019 - One of the most useful Blazor features is the ability to pass data between your front-end DOM elements and back-end C# code. In this tutorial, you will learn techniques for binding C# variables such that they can be displayed in the browser or modified via user input in the browser."
+  },
+  {
+    "name": "Blazor Security Docs and Blog Posts",
+    "url": "https://oceanware.wordpress.com/2019/10/06/blazor-security-docs-and-blog-posts/",
+    "description": "October 06, 2019 - List of security resources about Blazor."
+  },
+  {
+    "name": "Blazor Roundup From .NET Conf 2019",
+    "url": "https://chrissainty.com/blazor-roundup-from-dot-net-conf-2019/",
+    "description": "October 01, 2019 - Blazor Roundup From .NET Conf 2019."
+  },
+  {
+    "name": "Getting Started with Blazor WebAssembly",
+    "url": "https://wellsb.com/csharp/aspnet/getting-started-blazor-webassembly/",
+    "description": "September 30, 2019 - With the launch of .NET Core 3.0 and Visual Studio 16.3.0, support for creating web apps using the Blazor template is now natively enabled. This makes it easy for you to run your C# libraries directly in the browser."
+  },
+  {
+    "name": "Blazor Simple CQRS with MediatR",
+    "url": "https://oceanware.wordpress.com/2019/09/29/blazor-simple-cqrs-with-mediatr/",
+    "description": "September 29, 2019 - Blazor Simple CQRS with MediatR."
+  },
+  {
+    "name": "Make it all dynamic in Blazor – Routing, Pages and Components",
+    "url": "https://www.linkedin.com/pulse/make-all-dynamic-blazor-routing-pages-components-g%C3%B6ran-halvarsson",
+    "description": "September 27, 2019 - Make it all dynamic in Blazor – Routing, Pages and Components."
+  },
+  {
+    "name": "The Future of Client-Side Blazor: PWAs, Desktop/Mobile, Native (and even Flutter?)",
+    "url": "https://visualstudiomagazine.com/articles/2019/09/26/blazor-future.aspx",
+    "description": "September 26, 2019 - The Future of Client-Side Blazor: PWAs, Desktop/Mobile, Native (and even Flutter?), by Visual Studio Magazine."
+  },
+  {
+    "name": "Migrate Protogen To Blazor",
+    "url": "https://remibou.github.io/Migrate-protogen-to-Blazor/",
+    "description": "September 26, 2019 - Migrate Protogen To Blazor."
+  },
+  {
+    "name": "Telerik UI for Blazor 2.1.0",
+    "url": "https://www.telerik.com/blogs/telerik-ui-for-blazor-2.1.0-asp.net-core-3.0-compatibility-scatter-scatter-line-and-bubble-charts!",
+    "description": "September 25, 2019 - Telerik UI for Blazor 2.1.0 – ASP.NET Core 3.0 Compatibility, Scatter, Scatter Line and Bubble Charts!"
   },
   {
     "name": "What's new in ASP.NET Core 3.0",
@@ -1418,6 +1881,11 @@
     "description": "August 21, 2019 - Blazor is here, Will JavaScript be dead? I would say that the answer is NO at-least for now."
   },
   {
+    "name": "Pros and cons of Blazor for web development",
+    "url": "https://scientificprogrammer.net/2019/08/18/pros-and-cons-of-blazor-for-web-development/",
+    "description": "August 18, 2019 - Pros and cons of Blazor for web development ."
+  },
+  {
     "name": "ASP.NET Core and Blazor updates in .NET Core 3.0 Preview 8",
     "url": "https://devblogs.microsoft.com/aspnet/asp-net-core-and-blazor-updates-in-net-core-3-0-preview-8/",
     "description": "August 13, 2019 - ASP.NET Core and Blazor updates in .NET Core 3.0 Preview 8."
@@ -1436,6 +1904,11 @@
     "name": "Using npm packages with Blazor",
     "url": "https://medium.com/swlh/using-npm-packages-with-blazor-2b0310279320",
     "description": "August 09, 2019 - Using npm packages with Blazor."
+  },
+  {
+    "name": "Build Data-Driven Web Apps Blazing Fast with Blazor and OData",
+    "url": "https://blog.jeremylikness.com/blog/build-data-driven-apps-blazing-fast-with-blazor-and-odata",
+    "description": "August 09, 2019 - Build Data-Driven Web Apps Blazing Fast with Blazor and OData. Step aside GraphQL, this is WCF RIA reborn!"
   },
   {
     "name": "Blazor Binding, Events and Parameters",
@@ -1638,387 +2111,14 @@
     "description": "June 1, 2019 - Building Cross-Platform Desktop Apps using Blazor and Electron.NET."
   },
   {
-    "name": "WebAssembly and Blazor: A Decades Old Problem Solved",
-    "url": "https://www.infoq.com/articles/webassembly-blazor",
-    "description": "May 30, 2019 - WebAssembly and Blazor: A Decades Old Problem Solved."
+    "name": "Archives",
+    "url": "https://github.com/AdrienTorris/awesome-blazor/tree/master/Archives",
+    "description": "2019, 2018, 2017."
   },
   {
-    "name": "How does Blazor works ? Part 1 : building class from .razor",
-    "url": "https://remibou.github.io/Blazor-how-it-works-part-1/",
-    "description": "May 29, 2019 - How does Blazor works ? Part 1 : building class from .razor."
-  },
-  {
-    "name": "Calling gRPC Services With Server-side Blazor",
-    "url": "https://chrissainty.com/calling-grpc-services-with-server-side-blazor",
-    "description": "May 29, 2019 - Calling gRPC Services With Server-side Blazor."
-  },
-  {
-    "name": "Architecting Blazor applications: an Angular approach",
-    "url": "http://danpatrascu.com/architecting-blazor-applications-an-angular-approach/",
-    "description": "May 29, 2019 - Architecting Blazor applications: an Angular approach."
-  },
-  {
-    "name": "Using MediatR with Blazor",
-    "url": "https://talkdotnet.wordpress.com/2019/05/29/using-mediatr-with-blazor/",
-    "description": "May 29, 2019 - Using MediatR with Blazor."
-  },
-  {
-    "name": "Using reference objects in Blazor server-side",
-    "url": "https://www.billbogaiv.com/posts/using-reference-objects-in-blazor-server-side",
-    "description": "May 26, 2019 - Using reference objects in Blazor server-side."
-  },
-  {
-    "name": "Why WebAssembly Matters?",
-    "url": "https://byterot.blogspot.com/2019/05/why-webassembly-matters.html",
-    "description": "May 18, 2019 - Why WebAssembly Matters?"
-  },
-  {
-    "name": "Dynamic components in Blazor",
-    "url": "https://www.oqtane.org/Resources/Blog/PostId/522/dynamic-components-in-blazor",
-    "description": "May 16, 2019 - Dynamic components in Blazor."
-  },
-  {
-    "name": "Custom routing in Blazor",
-    "url": "https://www.oqtane.org/Resources/Blog/PostId/521/custom-routing-in-blazor",
-    "description": "May 16, 2019 - Custom routing in Blazor."
-  },
-  {
-    "name": "A detailed look at data binding in Blazor",
-    "url": "https://chrissainty.com/a-detailed-look-at-data-binding-in-blazor/",
-    "description": "May 15, 2019 - A detailed look at data binding in Blazor."
-  },
-  {
-    "name": "Simple Blazor Game Development Using .NET Core 3.0 Preview, Web API, And Visual Studio 2019",
-    "url": "https://www.c-sharpcorner.com/article/asp-net-core-blazor-simple-game-development-using-net-core-3-0-preview-web-api/",
-    "description": "May 14, 2019 - Simple Blazor Game Development Using .NET Core 3.0 Preview, Web API, And Visual Studio 2019."
-  },
-  {
-    "name": "WebAssembly-ifying .NET with Blazor",
-    "url": "https://www.telerik.com/blogs/webassembly-ifying-net-with-blazor",
-    "description": "May 14, 2019 - WebAssembly-ifying .NET with Blazor."
-  },
-  {
-    "name": "Exploring Blazor by Making An HTML Table Sortable in .NET Core",
-    "url": "https://exceptionnotfound.net/exploring-blazor-by-making-an-html-table-sortable-in-net-core/",
-    "description": "May 13, 2019 - Exploring Blazor by Making An HTML Table Sortable in .NET Core."
-  },
-  {
-    "name": "Data binding in Blazor",
-    "url": "https://coderethinked.com/data-binding-in-blazor/",
-    "description": "May 13, 2019 - Data binding in Blazor."
-  },
-  {
-    "name": "Progressive Web Apps and Blazor is combination you should not miss!",
-    "url": "https://medium.com/@janne_mattila/progressive-web-apps-and-blazor-is-combination-you-should-not-miss-c59d9ae91d42",
-    "description": "May 12, 2019 - Progressive Web Apps and Blazor is combination you should not miss."
-  },
-  {
-    "name": "Separating code and presentation of Blazor pages",
-    "url": "https://gunnarpeipman.com/blazor/blazor-code-behind/",
-    "description": "May 10, 2019 - Separating code and presentation of Blazor pages."
-  },
-  {
-    "name": "Implementing a List/Details Page in Blazor",
-    "url": "https://www.telerik.com/blogs/implementing-a-list-details-page-in-blazor",
-    "description": "May 9, 2019 - Implementing a List/Details Page in Blazor."
-  },
-  {
-    "name": "Blazor Bites Updated and Build 2019 Blazor Roundup",
-    "url": "https://chrissainty.com/blazor-bites-updated-and-build-2019-blazor-roundup/",
-    "description": "May 8, 2019 - Blazor Bites Updated and Build 2019 Blazor Roundup."
-  },
-  {
-    "name": "Creating a Database Driven Module For Blazor Oqtane",
-    "url": "http://lightswitchhelpwebsite.com/Blog/tabid/61/EntryId/4331/Creating-a-Database-Driven-Module-For-Blazor-Oqtane.aspx",
-    "description": "May 8, 2019 - Creating a Database Driven Module For Blazor Oqtane."
-  },
-  {
-    "name": "Creating a Hello World Module For Blazor Oqtane",
-    "url": "http://lightswitchhelpwebsite.com/Blog/tabid/61/EntryId/4330/Creating-a-Hello-World-Module-For-Blazor-Oqtane.aspx",
-    "description": "May 7, 2019 - Creating a Hello World Module For Blazor Oqtane."
-  },
-  {
-    "name": ".NET Core is the Future of .NET",
-    "url": "https://devblogs.microsoft.com/dotnet/net-core-is-the-future-of-net/",
-    "description": "May 6, 2019 - .NET Core is the Future of .NET."
-  },
-  {
-    "name": "Unified .NET 5 Unveiled: 'Just One .NET Going Forward'",
-    "url": "https://visualstudiomagazine.com/articles/2019/05/06/net-5.aspx",
-    "description": "May 6, 2019 - Unified .NET 5 Unveiled: 'Just One .NET Going Forward'."
-  },
-  {
-    "name": "Comparing Native Blazor Components to Wrapped JavaScript Components",
-    "url": "https://www.telerik.com/blogs/comparing-native-blazor-components-to-wrapped-javascript-components",
-    "description": "May 6, 2019 - Comparing Native Blazor Components to Wrapped JavaScript Components."
-  },
-  {
-    "name": "Building a Wizard in Blazor with components and MVVM",
-    "url": "https://itnext.io/building-a-wizard-in-blazor-with-components-and-mvvm-96219a7b221c",
-    "description": "May 5, 2019 - Building a Wizard in Blazor with components and MVVM."
-  },
-  {
-    "name": "Announcing Oqtane a modular application framework for Blazor",
-    "url": "https://www.oqtane.org/Resources/Blog/PostId/520/announcing-oqtane-a-modular-application-framework-for-blazor",
-    "description": "May 5, 2019 - Announcing Oqtane a modular application framework for Blazor."
-  },
-  {
-    "name": "Unable to find debuggable browser tab in Blazor",
-    "url": "https://coderethinked.com/unable-to-find-debuggable-browser-tab-in-blazor/",
-    "description": "May 4, 2019 - Unable to find debuggable browser tab in Blazor."
-  },
-  {
-    "name": "Introducing Telerik UI for Blazor 1.0.0",
-    "url": "https://www.telerik.com/blogs/introducing-telerik-ui-for-blazor-1-0-0",
-    "description": "May 2, 2019 - Introducing Telerik UI for Blazor 1.0.0."
-  },
-  {
-    "name": "Get Some Sass Into Your Blazor App",
-    "url": "https://chrissainty.com/get-some-sass-into-your-blazor-app/",
-    "description": "May 1, 2019 - Get Some Sass Into Your Blazor App."
-  },
-  {
-    "name": "Blazor on the Server: The Good and the Unfortunate",
-    "url": "https://visualstudiomagazine.com/articles/2019/04/01/razor-components.aspx",
-    "description": "April 30, 2019 - Blazor on the Server: The Good and the Unfortunate."
-  },
-  {
-    "name": "Using Blazor to Build a Client-Side Single-Page App with .NET Core",
-    "url": "https://exceptionnotfound.net/using-blazor-to-build-a-client-side-single-page-app-with-net-core",
-    "description": "April 22, 2019 - Using Blazor to Build a Client-Side Single-Page App with .NET Core."
-  },
-  {
-    "name": "Working with the View in Blazor MVVM",
-    "url": "https://itnext.io/working-with-the-view-in-blazor-mvvm-functions-vs-code-behind-vs-viewmodel-ed3508dba86a",
-    "description": "April 20, 2019 - Working with the View in Blazor MVVM : functions{} vs code behind vs ViewModel."
-  },
-  {
-    "name": "Blazor now in official preview!",
-    "url": "https://devblogs.microsoft.com/aspnet/blazor-now-in-official-preview/",
-    "description": "April 18, 2019 - Blazor now in official preview!"
-  },
-  {
-    "name": "ASP.NET Core updates in .NET Core 3.0 Preview 4",
-    "url": "https://devblogs.microsoft.com/aspnet/asp-net-core-updates-in-net-core-3-0-preview-4/",
-    "description": "April 18, 2019 - ASP.NET Core updates in .NET Core 3.0 Preview 4."
-  },
-  {
-    "name": "Updated Razor support in Visual Studio Code, now with Blazor support",
-    "url": "https://devblogs.microsoft.com/aspnet/updated-razor-support-in-visual-studio-code-now-with-blazor-support/",
-    "description": "April 18, 2019 - Updated Razor support in Visual Studio Code, now with Blazor support."
-  },
-  {
-    "name": "Why Blazor Grid Templates will make you question everything",
-    "url": "https://www.telerik.com/blogs/why-blazor-grid-templates-will-make-you-question-everything",
-    "description": "April 18, 2019 - Why Blazor Grid Templates will make you question everything."
-  },
-  {
-    "name": "Blazor Update: 'The End of the Experiment Is in Sight'",
-    "url": "https://visualstudiomagazine.com/articles/2019/04/18/blazor-update.aspx",
-    "description": "April 18, 2019 - Blazor Update: 'The End of the Experiment Is in Sight'."
-  },
-  {
-    "name": "3 Ways to Communicate Between Components in Blazor",
-    "url": "https://chrissainty.com/3-ways-to-communicate-between-components-in-blazor/",
-    "description": "April 17, 2019 - 3 Ways to Communicate Between Components in Blazor."
-  },
-  {
-    "name": "Adding features to a simple Blazor MVVM client with composition",
-    "url": "https://itnext.io/adding-features-to-a-simple-blazor-mvvm-client-with-composition-f31bfb01e20a",
-    "description": "April 12, 2019 - Adding features to a simple Blazor MVVM client with composition."
-  },
-  {
-    "name": "Introducing Syncfusion’s ASP.NET Core Blazor / Razor Components",
-    "url": "https://blog.syncfusion.com/post/introducing-syncfusions-asp-net-core-blazor-razor-components.aspx",
-    "description": "April 10, 2019 - Introducing Syncfusion’s ASP.NET Core Blazor / Razor Components."
-  },
-  {
-    "name": "Getting Started with TypeScript for JSInterop in Blazor",
-    "url": "https://chrissainty.com/getting-started-with-typescript-for-jsinterop-in-blazor/",
-    "description": "April 9, 2019 - Getting Started with TypeScript for JSInterop in Blazor."
-  },
-  {
-    "name": "Using The Blazor Form Validation",
-    "url": "https://remibou.github.io/Using-the-Blazor-form-validation/",
-    "description": "April 9, 2019 - Using The Blazor Form Validation."
-  },
-  {
-    "name": "Pure HTML Validation in Blazor",
-    "url": "https://shawtyds.wordpress.com/2019/04/05/pure-html-validation-in-blazor/",
-    "description": "April 5, 2019 - Pure HTML Validation in Blazor."
-  },
-  {
-    "name": "Building Components Manually via RenderTreeBuilder",
-    "url": "https://chrissainty.com/building-components-via-rendertreebuilder/",
-    "description": "April 3, 2019 - Building Components Manually via RenderTreeBuilder."
-  },
-  {
-    "name": "How to localize texts in your Blazor App?",
-    "url": "https://dev.to/j_sakamoto/how-to-localize-texts-in-your-blazor-app-phn",
-    "description": "April 2, 2019 - Localizing contents text in Blazor."
-  },
-  {
-    "name": "Client-side or Server-side",
-    "url": "https://thefreezeteam.com/blazor/",
-    "description": "March 31, 2019 - Client-side or Server-side."
-  },
-  {
-    "name": "Managing Page Layouts in Blazor",
-    "url": "https://visualstudiomagazine.com/articles/2019/03/01/managing-page-layouts-in-blazor.aspx",
-    "description": "March 29, 2019 - Managing Page Layouts in Blazor."
-  },
-  {
-    "name": "Using FluentValidation for Forms Validation in Razor Components",
-    "url": "https://chrissainty.com/using-fluentvalidation-for-forms-validation-in-razor-components/",
-    "description": "March 26, 2019 - Using FluentValidation for Forms Validation in Razor Components."
-  },
-  {
-    "name": "Implementing Client Side Search As You Type Using bind-value-oninput",
-    "url": "https://scottsauber.com/2019/03/25/blazor-implementing-client-side-search-as-you-type-using-bind-value-oninput/",
-    "description": "March 25, 2019 - Blazor: Implementing Client Side Search As You Type Using bind-value-oninput."
-  },
-  {
-    "name": "What is Blazor and what is Razor Components?",
-    "url": "https://www.hanselman.com/blog/WhatIsBlazorAndWhatIsRazorComponents.aspx",
-    "description": "March 19, 2019 - What is Blazor and what is Razor Components?"
-  },
-  {
-    "name": "Using JavaScript Interop in Razor Components and Blazor",
-    "url": "https://chrissainty.com/using-javascript-interop-in-razor-components-and-blazor/",
-    "description": "March 19, 2019 - Using JavaScript Interop in Razor Components and Blazor."
-  },
-  {
-    "name": "Deploying Blazor Apps Using Azure Pipelines",
-    "url": "https://chrissainty.com/deploying-blazor-apps-using-azure-pipelines/",
-    "description": "March 12, 2019 - Deploying Blazor Apps Using Azure Pipelines."
-  },
-  {
-    "name": "Blazor 0.9.0 experimental release now available",
-    "url": "https://devblogs.microsoft.com/aspnet/blazor-0-9-0-experimental-release-now-available/",
-    "description": "March 7, 2019 - Blazor 0.9.0 experimental release now available."
-  },
-  {
-    "name": "Full Stack C# with Blazor",
-    "url": "https://msdn.microsoft.com/magazine/mt833288",
-    "description": "March 7, 2019, Full Stack C# with Blazor."
-  },
-  {
-    "name": "Understanding cascading values & cascading parameters",
-    "url": "https://chrissainty.com/understanding-cascading-values-and-cascading-parameters/",
-    "description": "February 26, 2019 - Understanding cascading values & cascading parameters."
-  },
-  {
-    "name": "What’s the Difference Between Razor and Blazor?",
-    "url": "https://espressocoder.com/2019/02/21/whats-the-difference-between-razor-and-blazor/",
-    "description": "February 21, 2019 - What’s the Difference Between Razor and Blazor?"
-  },
-  {
-    "name": "No need to duel! Use Blazor Components Dynamic Dual Mode!",
-    "url": "https://thefreezeteam.com/razor-components-dynamic-dual-mode/",
-    "description": "February 20, 2019 - No need to duel! Use Blazor Components Dynamic Dual Mode!"
-  },
-  {
-    "name": "Configuring a Blazor app",
-    "url": "https://remibou.github.io/Configuring-a-Blazor-app/",
-    "description": "February 18, 2019 - Configuring a Blazor app."
-  },
-  {
-    "name": "Microsoft updates Blazor, now built on Razor Components",
-    "url": "https://visualstudiomagazine.com/articles/2019/02/13/blazor-0-8-0.aspx",
-    "description": "February 13, 2019 - Microsoft updates Blazor, now built on Razor Components."
-  },
-  {
-    "name": "Dealing with Forms in Blazor",
-    "url": "https://msdn.microsoft.com/en-us/magazine/mt833274.aspx",
-    "description": "February 8, 2019 - Dealing with Forms in Blazor."
-  },
-  {
-    "name": "Blazor 0.8.0 experimental release now available",
-    "url": "https://blogs.msdn.microsoft.com/webdev/2019/02/05/blazor-0-8-0-experimental-release-now-available/",
-    "description": "February 5, 2019 - Blazor 0.8.0 experimental release now available."
-  },
-  {
-    "name": "Blazored modal released",
-    "url": "https://chrissainty.com/blazored-modal-released/",
-    "description": "February 5, 2019 - Blazored modal released."
-  },
-  {
-    "name": "Event Aggregator for ASP.NET Core 3 Razor Components / Blazor",
-    "url": "https://mikaelkoskinen.net/post/blazor-event-aggregator-razor-components",
-    "description": "February 4, 2019 - Blazor.EventAggregator - Event Aggregator for ASP.NET Core 3 Razor Components / Blazor."
-  },
-  {
-    "name": "ASP.NET Core updates in .NET Core 3.0 Preview 2",
-    "url": "https://blogs.msdn.microsoft.com/webdev/2019/01/29/aspnet-core-3-preview-2/",
-    "description": "January 29, 2019 - ASP.NET Core updates in .NET Core 3.0 Preview 2."
-  },
-  {
-    "name": "Blazor Notes from NDC London",
-    "url": "https://edcharbeneau.com/blazor-ndc-london",
-    "description": "January 29, 2019 - Blazor Notes from NDC London."
-  },
-  {
-    "name": "Creating a Reusable, JavaScript-Free Blazor Modal",
-    "url": "https://www.telerik.com/blogs/creating-a-reusable-javascript-free-blazor-modal",
-    "description": "January 28, 2019 - Creating a Reusable, JavaScript-Free Blazor Modal."
-  },
-  {
-    "name": "Google authentication in Server-Side Blazor",
-    "url": "http://lightswitchhelpwebsite.com/Blog/tabid/61/EntryId/4323/Google-Authentication-in-Server-Side-Blazor-Razor-Components.aspx",
-    "description": "January 21, 2019 - Google authentication in Server-Side Blazor (Razor components)."
-  },
-  {
-    "name": "Announcing Blazored and Blazored Toast",
-    "url": "https://chrissainty.com/announcing-blazored-and-blazored-toast",
-    "description": "January 21, 2019 - Announcing Blazored and Blazored Toast."
-  },
-  {
-    "name": "Blazor Full-Stack Web Dev in ASP .NET Core",
-    "url": "https://wakeupandcode.com/blazor-full-stack-web-dev-in-asp-net-core/",
-    "description": "January 16, 2019 - Blazor Full-Stack Web Dev in ASP .NET Core."
-  },
-  {
-    "name": "Introducing the Telerik UI for Blazor Early Preview",
-    "url": "https://www.telerik.com/blogs/introducing-the-telerik-ui-for-blazor-early-preview",
-    "description": "January 16, 2019 - Introducing the Telerik UI for Blazor Early Preview."
-  },
-  {
-    "name": "Creating a top menu search bar in Blazor",
-    "url": "https://streamwriter.net/creating-a-top-menu-search-bar-in-blazor/",
-    "description": "January 12, 2019 - Creating a top menu search bar in Blazor."
-  },
-  {
-    "name": "Exception Handling In Blazor",
-    "url": "https://remibou.github.io/Exception-handling-in-Blazor/",
-    "description": "January 10, 2019 - Exception Handling In Blazor."
-  },
-  {
-    "name": "Zero to Azure Hero with ASP.NET Core, Blazor, Azure DevOps, Cognitive Services, SonarCloud and App Services",
-    "url": "https://stevenknox.net/zero-to-azure-hero-with-asp-net-core-blazor-azure-devops-cognitive-services-and-app-services/",
-    "description": "January 5, 2019 - Zero to Azure Hero with ASP.NET Core, Blazor, Azure DevOps, Cognitive Services, SonarCloud and App Services."
-  },
-  {
-    "name": "MVVM Support in Blazor",
-    "url": "https://blog.jeremylikness.com/blog/2019-01-04_mvvm-support-in-blazor",
-    "description": "January 4, 2019 - MVVM Support in Blazor."
-  },
-  {
-    "name": "From Angular to Blazor: The Health App",
-    "url": "https://blog.jeremylikness.com/from-angular-to-blazor-the-health-app-2e36077d641c",
-    "description": "January 3, 2019 - From Angular to Blazor: The Health App."
-  },
-  {
-    "name": "An Introduction to Templated Components in Blazor",
-    "url": "https://visualstudiomagazine.com/articles/2018/12/01/blazor-templated-components.aspx",
-    "description": "January 3, 2019 - An Introduction to Templated Components in Blazor."
-  },
-  {
-    "name": "Archives of 2018",
-    "url": "https://github.com/AdrienTorris/awesome-blazor/blob/master/Archives/2018.md#articles"
-  },
-  {
-    "name": "Archives of 2017",
-    "url": "https://github.com/AdrienTorris/awesome-blazor/blob/master/Archives/2017.md#articles"
+    "name": ".NET Core 3 Launch with Scott Hunter",
+    "url": "https://www.dotnetrocks.com/?show=1654",
+    "description": "September 26, 2019 - .NET Rocks Podcast, episode 1654: .NET Core 3 Launch with Scott Hunter."
   },
   {
     "name": "Moving from Web Forms to Blazor with Jeff Fritz",
@@ -2081,12 +2181,9 @@
     "description": "February 14, 2019 - .NET Rocks, Blazor in 2019 with Steve Sanderson and Dan Roth."
   },
   {
-    "name": "Archives of 2018",
-    "url": "https://github.com/AdrienTorris/awesome-blazor/blob/master/Archives/2018.md#podcasts"
-  },
-  {
-    "name": "Archives of 2017",
-    "url": "https://github.com/AdrienTorris/awesome-blazor/blob/master/Archives/2017.md#podcasts"
+    "name": "Archives",
+    "url": "https://github.com/AdrienTorris/awesome-blazor/tree/master/Archives",
+    "description": "2018, 2017."
   },
   {
     "name": "Blazor, a new framework for browser-based .NET apps",
@@ -2114,13 +2211,9 @@
     "description": "April 16, 2019 - Slides: PDF. Demo's source code: GitHub ."
   },
   {
-    "name": "Archives of 2018",
-    "url": "https://github.com/AdrienTorris/awesome-blazor/blob/master/Archives/2018.md#presentations-slides"
-  },
-  {
-    "name": "ASP.NET Core Blazor Language Services",
-    "url": "https://marketplace.visualstudio.com/items?itemName=aspnet.blazor",
-    "description": " Provides Visual Studio support for ASP.NET Core Blazor. Note: this Blazor Visual Studio extension is obsolete and no longer required to use Blazor since Visual Studio 2019 Preview 16.3.0."
+    "name": "Archives",
+    "url": "https://github.com/AdrienTorris/awesome-blazor/tree/master/Archives",
+    "description": "2018."
   },
   {
     "name": "BlazorFiddle",
@@ -2173,14 +2266,44 @@
     "description": "Blazor Quick Start Guide: Build web applications using Blazor, EF Core, and SQL Server (Published October 31, 2018)."
   },
   {
+    "name": "Blazor for ASP.NET Web Forms developers",
+    "url": "https://dotnet.microsoft.com/learn/aspnet/architecture#blazor-for-web-forms-devs-ebook-swim",
+    "description": "Blazor for ASP.NET Web Forms developers, a free e-book from Microsoft."
+  },
+  {
     "name": "An Introduction to Building Applications with Blazor",
     "url": "https://www.amazon.com/Introduction-Building-Applications-Blazor-applications-ebook/dp/B07WPQTT6H",
     "description": "August 24, 2019 - An Introduction to Building Applications with Blazor: How to get started creating applications using this exciting easy to use Microsoft C# framework"
   },
   {
-    "name": "Dockerizing ASP.NET Core and Blazor Applications on Mac",
-    "url": "https://www.c-sharpcorner.com/ebooks/dockerizing-asp-net-core-and-blazor-applications-on-mac",
-    "description": "October 30, 2018 - Dockerizing ASP.NET Core and Blazor Applications on Mac."
+    "name": "Archives",
+    "url": "https://github.com/AdrienTorris/awesome-blazor/tree/master/Archives",
+    "description": "2018."
+  },
+  {
+    "name": "Authentication and Authorization in Blazor Applications",
+    "url": "https://www.pluralsight.com/courses/authentication-authorization-blazor-applications",
+    "description": "December, 2019 - Learn how to secure your Blazor application using a variety of best practice techniques for authentication and authorization. On Pluralsight."
+  },
+  {
+    "name": "Blazor: Getting Started",
+    "url": "https://www.pluralsight.com/courses/getting-started-blazor",
+    "description": "December, 2019 - Learn how to build your first application in a hands-on way using Blazor, Microsoft's solution to use C# to write interactive web UIs without JavaScript. On Pluralsight."
+  },
+  {
+    "name": "Blazor In-Depth Workshop (Blaze Invaders)",
+    "url": "https://www.csharpacademy.com/courseinfo/2ccff0ac-4d3e-4d25-9368-6c1474640de5",
+    "description": "December 2019 - Blazor In-Depth Workshop (Blaze Invaders), on C# Academy. Learn serious Blazor concepts while building a working browser based game."
+  },
+  {
+    "name": "Blazor and Razor Components in a nutshell",
+    "url": "https://www.udemy.com/course/blazor-and-razor-components-in-a-nutshell/",
+    "description": "October 2019 - Learn how to use a framework that allows you to run your compiled code directly in the browser on top of WebAssembly, a course on Udemy."
+  },
+  {
+    "name": "Blazor on ASP.NET Core 3.0",
+    "url": "https://www.skillshare.com/site/join?teacherRef=102575464&t=Blazor-on-ASP.NET-Core-3.0&sku=1662883580",
+    "description": "October 2019 - Blazor on ASP.NET Core 3.0, a course on SkillShare."
   },
   {
     "name": "Blazor First Look on LinkedIn Learning",
@@ -2266,5 +2389,10 @@
     "name": "Playlist",
     "url": "https://www.youtube.com/playlist?list=PL0kIvpOlieSNdIPZbn-mO15YIjRHY2wI9",
     "description": "Programando en Blazor - [Spanish] Series of videos about Blazor."
+  },
+  {
+    "name": "Insights from the oracle",
+    "url": "http://blog.ppedv.de/?tag=Blazor",
+    "description": "[German] Blog about Blazor."
   }
 ]

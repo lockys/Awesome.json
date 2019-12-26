@@ -20,9 +20,19 @@
     "description": "Haskell on Apache Spark."
   },
   {
+    "name": "almond ",
+    "url": "https://almond.sh/",
+    "description": "A scala kernel for Jupyter."
+  },
+  {
     "name": "Apache Zeppelin ",
     "url": "https://zeppelin.incubator.apache.org/",
     "description": "Web-based notebook that enables interactive data analytics with plugable backends, integrated plotting, and extensive Spark support out-of-the-box."
+  },
+  {
+    "name": "Polynote  ",
+    "url": "https://polynote.org/",
+    "description": "Polynote: an IDE-inspired polyglot notebook. It supports mixing multiple languages in one notebook, and sharing data between them seamlessly. It encourages reproducible notebooks with its immutable data model. Orginating from Netflix."
   },
   {
     "name": "Spark Notebook ",
@@ -47,7 +57,7 @@
   {
     "name": "Spark Avro ",
     "url": "https://github.com/databricks/spark-avro",
-    "description": "Apache Avro reader and writer."
+    "description": "Apache Avro reader and writer (obselete since Spark 2.4 [SPARK-24768])."
   },
   {
     "name": "Spark XML ",
@@ -128,6 +138,10 @@
     "name": "SparklingGraph ",
     "url": "http://sparkling.ml",
     "description": "Library extending GraphX features with multiple functionalities useful in graph analytics (measures, generators, link prediction etc.)."
+  },
+  {
+    "name": "Clustering4Ever  Scala and Spark API to benchmark and analyse clustering algorithms on any vectorization you can generate",
+    "url": "https://github.com/Clustering4Ever/Clustering4Ever"
   },
   {
     "name": "dbscan-on-spark ",
@@ -248,6 +262,11 @@
     "name": "Blaze ",
     "url": "https://github.com/blaze/blaze",
     "description": "Interface for querying larger than memory datasets using Pandas-like syntax. It supports both Spark DataFrames and RDDs."
+  },
+  {
+    "name": "deequ ",
+    "url": "https://github.com/awslabs/deequ",
+    "description": "Deequ is a library built on top of Apache Spark for defining \"unit tests for data\", which measure data quality in large datasets."
   },
   {
     "name": "spark-testing-base ",

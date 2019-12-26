@@ -57,9 +57,9 @@
     "description": "A distributed, scalable and fault-tolerant publish-subscribe messaging platform based on MQTT protocol and featuring message storage."
   },
   {
-    "name": "eMQTT",
-    "url": "http://emqtt.io/",
-    "description": "The Massively Scalable MQTT Broker written in Erlang/OTP."
+    "name": "EMQ X",
+    "url": "https://github.com/emqx/emqx",
+    "description": "Scalable and Reliable Real-time MQTT Messaging Engine for IoT in 5G Era."
   },
   {
     "name": "esp_uMQTT_broker",
@@ -79,7 +79,7 @@
   {
     "name": "HiveMQ",
     "url": "https://www.hivemq.com/",
-    "description": "Java based commercial MQTT Broker."
+    "description": "Java MQTT Broker that supports MQTT 3.1, 3.1.1 and 5.0. Commercial and open source editions available."
   },
   {
     "name": "hrotti",
@@ -142,6 +142,11 @@
     "description": "Device management, data collection, processing, event management, and visualization for your IoT projects."
   },
   {
+    "name": "hivemq-mqtt-web-client",
+    "url": "https://github.com/hivemq/hivemq-mqtt-web-client",
+    "description": "Browser-based MQTT client that utilizes MQTT over websockets. Direct Link"
+  },
+  {
     "name": "imqtt",
     "url": "https://github.com/shafreeck/imqtt",
     "description": "Interactive MQTT packet manipulation shell based on IPython."
@@ -170,6 +175,11 @@
     "name": "mqtt-benchmark",
     "url": "https://github.com/chirino/mqtt-benchmark",
     "description": "A benchmarking tool for MQTT Servers."
+  },
+  {
+    "name": "MQTT CLI",
+    "url": "https://github.com/hivemq/mqtt-cli",
+    "description": "A command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1."
   },
   {
     "name": "mqtt-client",
@@ -228,7 +238,7 @@
   },
   {
     "name": "MQTT.fx",
-    "url": "http://mqttfx.jfx4ee.org/",
+    "url": "https://mqttfx.jensd.de/",
     "description": "MQTT.fx is a MQTT Client written in Java based on Eclipse Paho. Supports scripting."
   },
   {
@@ -267,6 +277,16 @@
     "description": "MQTT dissector for Wireshark."
   },
   {
+    "name": "MQTTX",
+    "url": "https://github.com/emqx/MQTTX",
+    "description": "MQTTX is a cross-platform MQTT desktop client open sourced by EMQ, which supports macOS, Linux, and Windows."
+  },
+  {
+    "name": "aiomqtt",
+    "url": "https://github.com/mossblaser/aiomqtt",
+    "description": "Async Python MQTT client based on paho-mqtt."
+  },
+  {
     "name": "CocoaMQTT",
     "url": "https://github.com/emqx/CocoaMQTT",
     "description": "MQTT for iOS and OS X written with Swift."
@@ -287,9 +307,9 @@
     "description": "Python MQTT client using asyncio."
   },
   {
-    "name": "aiomqtt",
-    "url": "https://github.com/mossblaser/aiomqtt",
-    "description": "Async Python MQTT client based on paho-mqtt."
+    "name": "hivemq-mqtt-client",
+    "url": "https://github.com/hivemq/hivemq-mqtt-client",
+    "description": "High-performance Java MQTT client library with different API flavours for MQTT 5.0 and 3.1.1."
   },
   {
     "name": "Hulaaki",
@@ -300,11 +320,6 @@
     "name": "luamqtt",
     "url": "https://github.com/xHasKx/luamqtt/",
     "description": "Pure-lua MQTT v3.1.1 and v5.0 client."
-  },
-  {
-    "name": "M2Mqtt",
-    "url": "https://m2mqtt.wordpress.com/",
-    "description": "A MQTT client available for all .Net platforms (.Net Framework, .Net Compact Framework and .Net Micro Framework) and WinRT platforms (Windows 8.1, Windows Phone 8.1 and Windows 10)."
   },
   {
     "name": "Machine Head",
@@ -457,13 +472,38 @@
     "description": "A visual tool for wiring the Internet of Things."
   },
   {
+    "name": "ESPEasy",
+    "url": "https://www.letscontrolit.com/wiki/index.php?title=ESPEasy",
+    "description": "Turns ESP into a multifunction sensor device for HA solutions with web-based configuration."
+  },
+  {
+    "name": "ESPHome",
+    "url": "https://esphome.io/",
+    "description": "builds ESP8266/ESP32 firmware from concise YAML descriptions, uploads to and manages flashed devices."
+  },
+  {
+    "name": "Espurna",
+    "url": "https://github.com/xoseperez/espurna",
+    "description": "HA firmware for ESP8266-based devices with rich web UI and ≈120 devices supported out of the box"
+  },
+  {
+    "name": "Sonoff-Tasmota",
+    "url": "https://github.com/arendst/Tasmota",
+    "description": "Firmware for ESP8266 devices with web-based configuration. ≈500 devices supported (not only Sonoffs)."
+  },
+  {
+    "name": "WiFi-IoT",
+    "url": "https://wifi-iot.com/p/wiki/",
+    "description": "ESP8266/ESP32 firmware builder. Partly in Russian. Free features are limited."
+  },
+  {
     "name": "arduinoTemps2mqtt",
     "url": "https://github.com/matbor/arduinoTemps2mqtt",
     "description": "Arduino sketch, grab One-wire Temperature's and publish to a MQTT broker."
   },
   {
     "name": "Basecamp",
-    "url": "https://github.com/merlinschumacher/Basecamp",
+    "url": "https://github.com/ct-Open-Source/Basecamp",
     "description": "An Arduino library to ease the use of the ESP32 in IoT projects. See c't Magazin 2'2018 (German)."
   },
   {
@@ -643,7 +683,7 @@
   },
   {
     "name": "mqtt-firebase",
-    "url": "https://github.com/hazim-j/mqtt-firebase",
+    "url": "https://www.npmjs.com/package/mqtt-firebase",
     "description": "A CLI tool for subscribing to MQTT topics and dumping them to a firebase firestore DB."
   },
   {
@@ -737,11 +777,6 @@
     "description": "Bridge between SmartThings and MQTT."
   },
   {
-    "name": "Sonoff-Tasmota",
-    "url": "https://github.com/arendst/Sonoff-Tasmota",
-    "description": "Firmware for Sonoff devices with native MQTT Support."
-  },
-  {
     "name": "xiaomi2mqtt",
     "url": "https://github.com/svrooij/node-xiaomi2mqtt",
     "description": "bridge between the Xiaomi Smart Home Gateway Aquara and a MQTT server."
@@ -758,7 +793,7 @@
   },
   {
     "name": "Domoticz",
-    "url": "http://www.domoticz.com/",
+    "url": "https://www.domoticz.com/",
     "description": "Domoticz beta supports MQTT."
   },
   {
@@ -937,7 +972,7 @@
   {
     "name": "bcontrol2mqtt",
     "url": "https://github.com/hobbyquaker/bcontrol2mqtt",
-    "description": "Publish measurements from TQ Energy Manager to MQTT."
+    "description": "Publish measurements from TQ Energy Manager / Busch-Jäger Energy Monitor to MQTT."
   },
   {
     "name": "mqtt-irc-bot",
@@ -1064,8 +1099,13 @@
     "url": "https://play.google.com/store/apps/details?id=net.nosybore.mqttpublishplugin"
   },
   {
+    "name": "MQTT2ETCD",
+    "url": "https://github.com/David-Lor/MQTT2ETCD",
+    "description": "MQTT-ETCD gateway: PUT keys on ETCD through MQTT, and watch ETCD key changes on MQTT topics"
+  },
+  {
     "name": "Crouton",
-    "url": "http://crouton.mybluemix.net/crouton/gettingStarted",
+    "url": "https://github.com/edfungus/Crouton",
     "description": "A dashboard that taps into your IOT network, using only MQTT and JSON."
   },
   {

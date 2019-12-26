@@ -1,8 +1,18 @@
 [
   {
+    "name": "Adjunct",
+    "url": "https://github.com/davidjbradshaw/eslint-config-adjunct",
+    "description": "A collection of the best lesser known eslint plugins to use alongside your main configuration."
+  },
+  {
     "name": "Airbnb",
     "url": "https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb",
     "description": "Shareable config for Airbnb's style guide."
+  },
+  {
+    "name": "Alloy",
+    "url": "https://github.com/AlloyTeam/eslint-config-alloy",
+    "description": "Progressive ESLint config for your React/Vue/TypeScript projects."
   },
   {
     "name": "Canonical",
@@ -33,6 +43,11 @@
     "name": "Problems",
     "url": "https://github.com/RyanZim/eslint-config-problems",
     "description": "Shareable config that only catches actual problems, and doesn't enforce stylistic preferences."
+  },
+  {
+    "name": "React App",
+    "url": "https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app",
+    "description": "Sharable config for React projects."
   },
   {
     "name": "Shopify",
@@ -70,9 +85,9 @@
     "description": "BrightScript plugin for Roku development. Includes Parser and Rules."
   },
   {
-    "name": "Angular",
+    "name": "AngularJS",
     "url": "https://github.com/Gillespie59/eslint-plugin-angular",
-    "description": "Linting rules to adhere to the John Papa's Angular Styleguide."
+    "description": "Linting rules to adhere to the John Papa's AngularJS Styleguide."
   },
   {
     "name": "Backbone",
@@ -155,6 +170,11 @@
     "description": "Plugin for VueJS."
   },
   {
+    "name": "VueJS Scoped CSS",
+    "url": "https://github.com/future-architect/eslint-plugin-vue-scoped-css",
+    "description": "Plugin for Scoped CSS in VueJS."
+  },
+  {
     "name": "Babel",
     "url": "https://github.com/babel/eslint-plugin-babel",
     "description": "Adds replacements for built-in rules to include Babel features."
@@ -183,6 +203,16 @@
     "name": "disable",
     "url": "https://github.com/mradionov/eslint-plugin-disable",
     "description": "Disable specified plugins using file path patterns and inline comments."
+  },
+  {
+    "name": "ecmascript-compat",
+    "url": "https://github.com/robatwilliams/es-compat",
+    "description": "Disable ECMAScript language features not supported by your browserslist targets."
+  },
+  {
+    "name": "es",
+    "url": "https://github.com/mysticatea/eslint-plugin-es",
+    "description": "Disable specific ECMAScript language versions or individual features."
   },
   {
     "name": "es5",
@@ -227,7 +257,7 @@
   {
     "name": "Node",
     "url": "https://github.com/mysticatea/eslint-plugin-node",
-    "description": "Linting rules for Node.js (checking importing paths, ES syntax, ...)."
+    "description": "Additional ESLint's rules for Node.js."
   },
   {
     "name": "Notice",
@@ -262,82 +292,12 @@
   {
     "name": "ESLint Comments",
     "url": "https://github.com/mysticatea/eslint-plugin-eslint-comments",
-    "description": "Best practices about ESLint directive comments (/*eslint-disable*/, etc...)."
+    "description": "Best practices about ESLint directive comments (/*eslint-disable*/, etc.)."
   },
   {
     "name": "eslint-plugin-eslint-plugin",
     "url": "https://github.com/not-an-aardvark/eslint-plugin-eslint-plugin",
     "description": "An ESLint plugin for linting ESLint plugins."
-  },
-  {
-    "name": "array-func",
-    "url": "https://github.com/freaktechnik/eslint-plugin-array-func",
-    "description": "Avoid redundancy when using es2015 array methods and functions."
-  },
-  {
-    "name": "arrow functions",
-    "url": "https://github.com/getify/eslint-plugin-proper-arrows",
-    "description": "ESLint rules to ensure proper arrow function definitions."
-  },
-  {
-    "name": "fp",
-    "url": "https://github.com/jfmengels/eslint-plugin-fp",
-    "description": "ESLint rules for functional programming."
-  },
-  {
-    "name": "Immutable",
-    "url": "https://github.com/jhusain/eslint-plugin-immutable",
-    "description": "Disable all mutation in JavaScript."
-  },
-  {
-    "name": "JSX a11y",
-    "url": "https://github.com/evcohen/eslint-plugin-jsx-a11y",
-    "description": "Accessibility rules on JSX elements."
-  },
-  {
-    "name": "new-with-error",
-    "url": "https://github.com/Trott/eslint-plugin-new-with-error",
-    "description": "Require errors to be thrown using new."
-  },
-  {
-    "name": "no-inferred-method-name",
-    "url": "https://github.com/johnstonbl01/eslint-no-inferred-method-name",
-    "description": "Custom rule for ESLint that checks for inferred method names within object literals.."
-  },
-  {
-    "name": "no-loops",
-    "url": "https://github.com/buildo/eslint-plugin-no-loops",
-    "description": "It's 2019 and you still use loops?"
-  },
-  {
-    "name": "no-use-extend-native",
-    "url": "https://github.com/dustinspecker/eslint-plugin-no-use-extend-native",
-    "description": "Prevent using extended native objects."
-  },
-  {
-    "name": "Promise",
-    "url": "https://github.com/xjamundx/eslint-plugin-promise",
-    "description": "Best practices when working with promises."
-  },
-  {
-    "name": "Security",
-    "url": "https://github.com/nodesecurity/eslint-plugin-security",
-    "description": "ESLint rules for Node Security."
-  },
-  {
-    "name": "this",
-    "url": "https://github.com/matijs/eslint-plugin-this",
-    "description": "Write pure functions, don't allow this."
-  },
-  {
-    "name": "XSS",
-    "url": "https://github.com/Rantanen/eslint-plugin-xss",
-    "description": "Tries to detect XSS issues in codebase before they end up in production."
-  },
-  {
-    "name": "no-secrets",
-    "url": "https://github.com/nickdeis/eslint-plugin-no-secrets",
-    "description": "An eslint plugin that detects potential secrets/credentials."
   },
   {
     "name": "filenames",
@@ -490,7 +450,7 @@
     "description": "Article walking through the creation of an ESLint rule and plugin."
   },
   {
-    "name": "Lint Like It’s 2015",
+    "name": "Lint Like It's 2015",
     "url": "https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48#.5p3yk0b03",
     "description": "Article walking through the benefits of using ESLint."
   },
