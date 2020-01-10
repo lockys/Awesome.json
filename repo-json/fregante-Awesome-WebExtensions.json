@@ -27,7 +27,7 @@
   {
     "name": "Safari Extensions documentation",
     "url": "https://developer.apple.com/safari/extensions/",
-    "description": "Developer documentation on building Safari extensions."
+    "description": "Developer documentation on building Safari extensions. Technically not WebExtensions, the API is completely different."
   },
   {
     "name": "Opera API support",
@@ -80,19 +80,24 @@
     "description": "Helps you manage and autosave your extension's options."
   },
   {
-    "name": "webext-inject-on-install",
-    "url": "https://github.com/fregante/webext-inject-on-install",
-    "description": "Automatically add content scripts to existing tabs when your extension is installed. Chrome + Firefox."
+    "name": "webext-storage-cache",
+    "url": "https://github.com/fregante/webext-storage-cache",
+    "description": "Map-like promised cache storage with expiration."
   },
   {
-    "name": "redux-webext",
-    "url": "https://github.com/ivantsov/redux-webext",
-    "description": "Uses redux for managing the state of your WebExtension."
+    "name": "webext-dynamic-content-scripts",
+    "url": "https://github.com/fregante/webext-dynamic-content-scripts",
+    "description": "Automatically inject your content_scripts on custom domains."
   },
   {
     "name": "mozilla/webextension-polyfill",
     "url": "https://github.com/mozilla/webextension-polyfill",
     "description": "Polyfill to support the standardized promise based API in the browser namespace."
+  },
+  {
+    "name": "redux-webext",
+    "url": "https://github.com/ivantsov/redux-webext",
+    "description": "Uses redux for managing the state of your WebExtension."
   },
   {
     "name": "Chrome Webstore Upload",
@@ -113,11 +118,6 @@
     "name": "chrome-ext-downloader",
     "url": "https://github.com/jiripospisil/chrome-ext-downloader",
     "description": "Download any extension on Chrome Web Store to see how they do it."
-  },
-  {
-    "name": "unzip-crx",
-    "url": "https://github.com/peerigon/unzip-crx",
-    "description": "Unzips Google Chrome (crx) files."
   },
   {
     "name": "chrome-store-api",
@@ -170,21 +170,12 @@
     "description": "WebExtension generator that creates everything you need to get started with cross-browser web-extension development."
   },
   {
-    "name": "react-chrome-extension-boilerplate",
-    "url": "https://github.com/jhen0409/react-chrome-extension-boilerplate",
-    "description": "React boilerplate with Hot reloading."
-  },
-  {
     "name": "npmhub",
     "url": "https://github.com/npmhub/npmhub"
   },
   {
     "name": "Hide Files on GitHub",
     "url": "https://github.com/sindresorhus/hide-files-on-github"
-  },
-  {
-    "name": "Refined GitHub",
-    "url": "https://github.com/sindresorhus/refined-github"
   },
   {
     "name": "mdn/webextension-examples",

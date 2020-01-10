@@ -558,11 +558,6 @@
     "description": "This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script."
   },
   {
-    "name": "containerized-ansible",
-    "url": "https://github.com/hermitmaster/containerized-ansible",
-    "description": "A plugin that adds containerized Ansible commands to ZSH."
-  },
-  {
     "name": "containerized-gradle",
     "url": "https://github.com/hermitmaster/containerized-gradle",
     "description": "A plugin that adds containerized Gradle commands to ZSH."
@@ -2111,6 +2106,11 @@
     "description": "Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset."
   },
   {
+    "name": "tab-title",
+    "url": "https://github.com/trystan2k/zsh-tab-title",
+    "description": "set the terminal tab title according to current directory or running process. Forked from termsupport.zsh"
+  },
+  {
     "name": "tailf",
     "url": "https://github.com/rummik/zsh-tailf",
     "description": "Adds tailf function with prefixed newlines instead of trailing newlines."
@@ -2669,7 +2669,7 @@
   },
   {
     "name": "cf-zsh-autocomplete",
-    "url": "https://github.com/Dannyzen/cf-zsh-autocomplete-plugin",
+    "url": "https://github.com/norman-abramovitz/cf-zsh-autocomplete-plugin",
     "description": "Adds autocomplete for all Cloud Foundry CLI commands."
   },
   {
@@ -3178,6 +3178,11 @@
     "description": "Minimal ZSH prompt with working directory, git local info, git remote info, time and exit code."
   },
   {
+    "name": "apollo",
+    "url": "https://github.com/mjrafferty/apollo-zsh-theme",
+    "description": "A heavily customizable, compatible and performant ZSH theme that uses modules to enable features."
+  },
+  {
     "name": "archie",
     "url": "https://github.com/dcavalcante/archie",
     "description": "Arch Linux inspired ZSH theme. Based on the norm theme."
@@ -3436,11 +3441,6 @@
     "name": "chi",
     "url": "https://github.com/akinjide/chi",
     "description": "A ZSH theme optimized for iTerm 2 users on macOS."
-  },
-  {
-    "name": "ciacho",
-    "url": "https://github.com/Ciacho/ciacho-ohmyzsh-theme",
-    "description": "Based on Agnoster."
   },
   {
     "name": "cinnabar",
@@ -3851,9 +3851,14 @@
     "description": "Super simple prompt with git info, optimized for the Flat Terminal color scheme."
   },
   {
-    "name": "gitster",
+    "name": "gitster (shashankmehta)",
     "url": "https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme",
     "description": "When in a git repo, it shows the location from the git repository root folder. When not in a git repo, it shows the path relative to home, ~."
+  },
+  {
+    "name": "[gitster (zimfw)](gitster",
+    "url": "https://github.com/zimfw/gitster",
+    "description": "Zim fork of shashankmehta's gitster prompt theme"
   },
   {
     "name": "glimmer",
@@ -4199,6 +4204,11 @@
     "name": "lagune",
     "url": "https://github.com/noplay/lagune",
     "description": "a minimal ZSH theme."
+  },
+  {
+    "name": "lambda (azahi)",
+    "url": "https://github.com/azahi/zsh-lambda",
+    "description": "Minimalist ZSH theme."
   },
   {
     "name": "lambda (cdimascio)",
