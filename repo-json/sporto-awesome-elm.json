@@ -113,6 +113,11 @@
     "description": "A framework for building interactive fiction style stories in Elm. Detailed example elmnarrativeengine.com shows how to build a \"chose your own adventure\" game; perfect for beginners. Elm v.0.19"
   },
   {
+    "name": "Circuit Breaker",
+    "url": "https://martinsstewart.gitlab.io/hackman/",
+    "description": "A WebGL game in Elm - Source"
+  },
+  {
     "name": "Elm Joust — a two-player fighting game written in Elm.",
     "url": "https://github.com/stefankreitmayer/elm-joust"
   },
@@ -474,11 +479,6 @@
     "description": "Egghead's Elm video training, many of which are free."
   },
   {
-    "name": "jadams's training videos",
-    "url": "https://www.dailydrip.com/topics/elm",
-    "description": "A neat series of bite-sized Elm training videos, many of which are free."
-  },
-  {
     "name": "Elm Basics",
     "url": "https://www.youtube.com/watch?v=g48K6ABfRzA",
     "description": "Walk through all the syntax and basic ideas in Elm as a general programming language."
@@ -579,61 +579,6 @@
     "description": "Richard Feldman discusses how Elm compares to React.js"
   },
   {
-    "name": "Elm packages",
-    "url": "https://package.elm-lang.org/",
-    "description": "The official registry"
-  },
-  {
-    "name": "Elm Package Catalog",
-    "url": "https://korban.net/elm/catalog",
-    "description": "Find packages in a catalog organized into categories."
-  },
-  {
-    "name": "Elm finder",
-    "url": "https://www.elmfinder.org/",
-    "description": "A directory of reusable libraries and tools for your Elm projects"
-  },
-  {
-    "name": "Elm Search",
-    "url": "http://klaftertief.github.io/elm-search/",
-    "description": "Search Elm documentation for operators, function signatures, etc."
-  },
-  {
-    "name": "core",
-    "url": "https://github.com/elm/core",
-    "description": "Elm Core Libraries."
-  },
-  {
-    "name": "html",
-    "url": "https://github.com/elm/html",
-    "description": "Use HTML in Elm, based on the idea of a \"virtual DOM\"."
-  },
-  {
-    "name": "elm-test",
-    "url": "https://github.com/elm-explorations/test",
-    "description": "A unit testing framework for Elm."
-  },
-  {
-    "name": "http",
-    "url": "https://github.com/elm/http",
-    "description": "Make HTTP requests in Elm."
-  },
-  {
-    "name": "elm-ui",
-    "url": "https://github.com/mdgriffith/elm-ui",
-    "description": "UI Library in Elm."
-  },
-  {
-    "name": "elm-css",
-    "url": "https://github.com/rtfeldman/elm-css",
-    "description": "CSS in Elm."
-  },
-  {
-    "name": "dillonkearns/elm-graphql",
-    "url": "https://github.com/dillonkearns/elm-graphql",
-    "description": "Generate code to build guaranteed correct, type-safe API requests to your GraphQL API."
-  },
-  {
     "name": "Elm test",
     "url": "https://github.com/elm-explorations/test",
     "description": "Unit and fuzz tests"
@@ -709,9 +654,14 @@
     "description": "Generate OpenApi types for Elm."
   },
   {
-    "name": "Elm Typescript Interop",
+    "name": "Elm TypeScript Interop",
     "url": "https://github.com/dillonkearns/elm-typescript-interop",
-    "description": "Generate Typescript definitions from Elm."
+    "description": "Generate TypeScript definitions from Elm."
+  },
+  {
+    "name": "Elm JSON Interop",
+    "url": "https://github.com/pravdomil/elm-json-interop",
+    "description": "Generate JSON encoders/decoders and TypeScript definitions from Elm files."
   },
   {
     "name": "Quicktype",
@@ -863,9 +813,69 @@
     "description": "Command line tool to share Elm libraries."
   },
   {
+    "name": "Elm packages",
+    "url": "https://package.elm-lang.org/",
+    "description": "The official registry"
+  },
+  {
+    "name": "Elm Package Catalog",
+    "url": "https://korban.net/elm/catalog",
+    "description": "Find packages in a catalog organized into categories."
+  },
+  {
+    "name": "Elm finder",
+    "url": "https://www.elmfinder.org/",
+    "description": "A directory of reusable libraries and tools for your Elm projects"
+  },
+  {
+    "name": "Elm Search",
+    "url": "http://klaftertief.github.io/elm-search/",
+    "description": "Search Elm documentation for operators, function signatures, etc."
+  },
+  {
+    "name": "core",
+    "url": "https://github.com/elm/core",
+    "description": "Elm Core Libraries."
+  },
+  {
+    "name": "html",
+    "url": "https://github.com/elm/html",
+    "description": "Use HTML in Elm, based on the idea of a \"virtual DOM\"."
+  },
+  {
+    "name": "elm-test",
+    "url": "https://github.com/elm-explorations/test",
+    "description": "A unit testing framework for Elm."
+  },
+  {
+    "name": "http",
+    "url": "https://github.com/elm/http",
+    "description": "Make HTTP requests in Elm."
+  },
+  {
+    "name": "elm-ui",
+    "url": "https://github.com/mdgriffith/elm-ui",
+    "description": "UI Library in Elm."
+  },
+  {
+    "name": "elm-css",
+    "url": "https://github.com/rtfeldman/elm-css",
+    "description": "CSS in Elm."
+  },
+  {
+    "name": "dillonkearns/elm-graphql",
+    "url": "https://github.com/dillonkearns/elm-graphql",
+    "description": "Generate code to build guaranteed correct, type-safe API requests to your GraphQL API."
+  },
+  {
     "name": "create-elm-app",
     "url": "https://github.com/halfzebra/create-elm-app",
     "description": "Create Elm apps with no build configuration."
+  },
+  {
+    "name": "elm-boil",
+    "url": "https://github.com/GioPat/elm-boil",
+    "description": "Command Line Utility for creating an Elm boilerplate project easy to run, build and get deployed"
   },
   {
     "name": "elm-live",
@@ -921,6 +931,16 @@
     "name": "elm-webpack-starter-kid",
     "url": "https://github.com/FranzSkuffka/elm-webpack-starter-kid",
     "description": "A very very basic elm + webpack 4 template."
+  },
+  {
+    "name": "elm-spa",
+    "url": "https://www.elm-spa.dev/",
+    "description": "single page apps made easy"
+  },
+  {
+    "name": "Spades",
+    "url": "https://github.com/rogeriochaves/spades",
+    "description": "Start an Elm SPA ready to the real world"
   },
   {
     "name": "Discourse",
