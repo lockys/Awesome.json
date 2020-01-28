@@ -67,11 +67,6 @@
     "description": "A basic MQTT Broker on the ESP8266."
   },
   {
-    "name": "flespi",
-    "url": "https://flespi.com/mqtt-broker",
-    "description": "Free cloud MQTT broker with private namespaces, MQTT 5.0 support and gorgeous limits."
-  },
-  {
     "name": "hbmqtt",
     "url": "https://github.com/beerfactory/hbmqtt",
     "description": "Python MQTT broker using asyncio."
@@ -144,6 +139,21 @@
     "description": "Vert.x component to handle connections, communication and messages exchange with remote MQTT clients."
   },
   {
+    "name": "Alibaba Cloud IoT Platform",
+    "url": "https://www.alibabacloud.com/product/iot",
+    "description": "Provides secure and reliable communication between devices and the IoT Platform which allows you to manage a large number of devices on a single IoT Platform."
+  },
+  {
+    "name": "AWS IoT Core",
+    "url": "https://aws.amazon.com/iot-core/?nc1=h_ls",
+    "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices. AWS IoT Core can support billions of devices and trillions of messages, and can process and route those messages to AWS endpoints and to other devices reliably and securely. With AWS IoT Core, your applications can keep track of and communicate with all your devices, all the time, even when they aren’t connected."
+  },
+  {
+    "name": "Azure IoT Hub",
+    "url": "https://azure.microsoft.com/en-us/services/iot-hub/",
+    "description": "Enable highly secure and reliable communication between your IoT application and the devices it manages. Azure IoT Hub provides a cloud-hosted solution backend to connect virtually any device. Extend your solution from the cloud to the edge with per-device authentication, built-in device management, and scaled provisioning."
+  },
+  {
     "name": "CloudMQTT",
     "url": "https://www.cloudmqtt.com/",
     "description": "Hosted message broker for the Internet of Things. Perfectly configured and optimized message queues for IoT, ready in seconds."
@@ -154,14 +164,9 @@
     "description": "A secure, reliable MQTT cloud service with best pratices from EMQ team."
   },
   {
-    "name": "Azure IoT Hub",
-    "url": "https://azure.microsoft.com/en-us/services/iot-hub/",
-    "description": "Enable highly secure and reliable communication between your IoT application and the devices it manages. Azure IoT Hub provides a cloud-hosted solution backend to connect virtually any device. Extend your solution from the cloud to the edge with per-device authentication, built-in device management, and scaled provisioning."
-  },
-  {
-    "name": "AWS IoT Core",
-    "url": "https://aws.amazon.com/iot-core/?nc1=h_ls",
-    "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices. AWS IoT Core can support billions of devices and trillions of messages, and can process and route those messages to AWS endpoints and to other devices reliably and securely. With AWS IoT Core, your applications can keep track of and communicate with all your devices, all the time, even when they aren’t connected."
+    "name": "flespi",
+    "url": "https://flespi.com/mqtt-broker",
+    "description": "Free and secure cloud MQTT broker with private namespaces, MQTT 3.1.1 and MQTT 5.0 support and gorgeous limits."
   },
   {
     "name": "Google Cloud IoT",
@@ -169,14 +174,9 @@
     "description": "Google Cloud IoT is a complete set of tools to connect, process, store, and analyze data both at the edge and in the cloud. The platform consists of scalable, fully-managed cloud services; an integrated software stack for edge/on-premises computing with machine learning capabilities for all your IoT needs."
   },
   {
-    "name": "IBM WASTON",
+    "name": "IBM WATSON",
     "url": "https://www.ibm.com/watson",
     "description": "With Watson, you can bring AI tools and apps to your data wherever it resides – whether it's on IBM Cloud, AWS, Azure, Google, or your own private cloud platform."
-  },
-  {
-    "name": "Alibaba Cloud IoT Platform",
-    "url": "https://www.alibabacloud.com/product/iot",
-    "description": "Provides secure and reliable communication between devices and the IoT Platform which allows you to manage a large number of devices on a single IoT Platform."
   },
   {
     "name": "mainflux",
@@ -436,7 +436,7 @@
   {
     "name": "mqtt.dart",
     "url": "https://github.com/jnguillerme/mqtt.dart",
-    "description": "Dart mqtt client."
+    "description": "Dart MQTT client."
   },
   {
     "name": "MQTT.js",
@@ -476,7 +476,7 @@
   {
     "name": "rumqtt",
     "url": "https://github.com/AtherEnergy/rumqtt",
-    "description": "A fast, lock free pure rust MQTT client."
+    "description": "A fast, lock free pure Rust MQTT client."
   },
   {
     "name": "tcl-mqtt",
@@ -529,34 +529,9 @@
     "description": "An Arduino library to ease the use of the ESP32 in IoT projects. See c't Magazin 2'2018 (German)."
   },
   {
-    "name": "ESP8266MQTTMesh",
-    "url": "https://github.com/PhracturedBlue/ESP8266MQTTMesh",
-    "description": "MQTT over mesh WiFi integrated library for ESP8266"
-  },
-  {
-    "name": "esp_mqtt",
-    "url": "https://github.com/tuanpmt/esp_mqtt",
-    "description": "MQTT client library for ESP8266."
-  },
-  {
-    "name": "mqtt-ir-transceiver",
-    "url": "https://github.com/enc-X/mqtt-ir-transceiver",
-    "description": "ESP8266 based bidirectional gateway between MQTT and IR. Use with PlatformIO."
-  },
-  {
-    "name": "mqtt-with-micropython",
-    "url": "https://docs.pycom.io/chapter/tutorials/all/mqtt/",
-    "description": "Connect to MQTT with micropython and wipy/others (ESP32 inside)"
-  },
-  {
     "name": "MySensors",
     "url": "https://www.mysensors.org/",
     "description": "Arduino NRF24L01 based sensor network with support for an MQTT gateway"
-  },
-  {
-    "name": "nodemcu-gpiomqtt",
-    "url": "https://github.com/hobbyquaker/nodemcu-gpiomqtt",
-    "description": "Lua script to connect ESP8266 GPIOs to MQTT."
   },
   {
     "name": "pubsubclient",
@@ -577,6 +552,36 @@
     "name": "xbee2mqtt",
     "url": "https://github.com/xoseperez/xbee2mqtt",
     "description": "XBee to MQTT gateway."
+  },
+  {
+    "name": "ESP32-BLE2MQTT",
+    "url": "https://github.com/shmuelzon/esp32-ble2mqtt",
+    "description": "BLE to MQTT bridge, exposes BLE GATT characteristics as MQTT topics for bidirectional communication."
+  },
+  {
+    "name": "ESP8266MQTTMesh",
+    "url": "https://github.com/PhracturedBlue/ESP8266MQTTMesh",
+    "description": "MQTT over mesh WiFi integrated library for ESP8266"
+  },
+  {
+    "name": "esp_mqtt",
+    "url": "https://github.com/tuanpmt/esp_mqtt",
+    "description": "MQTT client library for ESP8266."
+  },
+  {
+    "name": "mqtt-ir-transceiver",
+    "url": "https://github.com/enc-X/mqtt-ir-transceiver",
+    "description": "ESP8266 based bidirectional gateway between MQTT and IR. Use with PlatformIO."
+  },
+  {
+    "name": "mqtt-with-micropython",
+    "url": "https://docs.pycom.io/chapter/tutorials/all/mqtt/",
+    "description": "Connect to MQTT with micropython and wipy/others (ESP32 inside)"
+  },
+  {
+    "name": "nodemcu-gpiomqtt",
+    "url": "https://github.com/hobbyquaker/nodemcu-gpiomqtt",
+    "description": "Lua script to connect ESP8266 GPIOs to MQTT."
   },
   {
     "name": "ESPEasy",
@@ -786,7 +791,7 @@
   {
     "name": "ipcam2mqtt",
     "url": "https://github.com/svrooij/ipcam2mqtt",
-    "description": "A small ftp server to receive movement images from ipcameras and turn them into mqtt alerts."
+    "description": "A small FTP server to receive movement images from ipcameras and turn them into MQTT alerts."
   },
   {
     "name": "knx-mqtt-bridge",
@@ -1039,7 +1044,7 @@
   {
     "name": "AlexaMqttBridge",
     "url": "https://github.com/mhdawson/AlexaMqttBridge",
-    "description": "Bridge between Amazon Alexa and Mqtt."
+    "description": "Bridge between Amazon Alexa and MQTT."
   },
   {
     "name": "bt-mqtt-gateway",
@@ -1049,7 +1054,7 @@
   {
     "name": "buderus2mqtt",
     "url": "https://github.com/krambox/buderus2mqtt",
-    "description": "Bridge between Buderus KM200 internet gateway and Mqtt."
+    "description": "Bridge between Buderus KM200 internet gateway and MQTT."
   },
   {
     "name": "dashbutton2mqtt",
@@ -1079,12 +1084,12 @@
   {
     "name": "kobold2mqtt",
     "url": "https://github.com/krambox/kobold2mqtt",
-    "description": "Bridge between Vorwerk Kobold Vr200 internet gateway and Mqtt."
+    "description": "Bridge between Vorwerk Kobold Vr200 internet gateway and MQTT."
   },
   {
     "name": "leaf-python-mqtt",
     "url": "https://github.com/glynhudson/leaf-python-mqtt",
-    "description": "Extract data from Nissan Leaf API and post to mqtt."
+    "description": "Extract data from Nissan Leaf API and post to MQTT."
   },
   {
     "name": "miflora-mqtt-daemon",
@@ -1191,6 +1196,11 @@
     "description": "Android App: With the app you can create dashboards for your MQTT enabled IoT Smart Home devices and applications."
   },
   {
+    "name": "MQTT-Hyperdash",
+    "url": "https://github.com/kollokollo/MQTT-Hyperdash",
+    "description": "A universal independant MQTT Dashboard for linux/Raspberry Pi."
+  },
+  {
     "name": "mqtt-panel",
     "url": "https://github.com/fabaff/mqtt-panel",
     "description": "A web interface for MQTT."
@@ -1203,7 +1213,7 @@
   {
     "name": "mqtt2highcharts",
     "url": "https://github.com/matbor/mqtt2highcharts",
-    "description": "Plotting live numbered data from a subscribed mqtt topic using Highcharts."
+    "description": "Plotting live numbered data from a subscribed MQTT topic using Highcharts."
   },
   {
     "name": "node-red-dashboard",
@@ -1223,6 +1233,6 @@
   {
     "name": "Teserakt E4",
     "url": "https://teserakt.io/",
-    "description": "End-to-end encryption for MQTT and other M2M protocols - Commercial solution."
+    "description": "End-to-end encryption and key management for MQTT and other M2M protocols – Open-source and paid plans."
   }
 ]

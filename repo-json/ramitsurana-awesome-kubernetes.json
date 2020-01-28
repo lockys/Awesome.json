@@ -633,6 +633,10 @@
     "url": "https://www.ovh.com/blog/simplify-your-research-experiments-with-kubernetes/"
   },
   {
+    "name": "Self-registering compact k3OS clusters to Rancher Server via cloud-init by James D. Bohrman",
+    "url": "https://medium.com/@jamesdavidbohrman/self-registering-compact-k3os-clusters-to-rancher-server-via-cloud-init-d4a89028c1f8"
+  },
+  {
     "name": "Platform9",
     "url": "http://platform9.com"
   },
@@ -1060,6 +1064,10 @@
     "url": "https://github.com/libopenstorage/stork"
   },
   {
+    "name": "Alibaba Cloud",
+    "url": "https://github.com/kubernetes-sigs/alibaba-cloud-csi-driver"
+  },
+  {
     "name": "AWS EBS",
     "url": "https://github.com/kubernetes-sigs/aws-ebs-csi-driver"
   },
@@ -1076,6 +1084,10 @@
     "url": "https://github.com/ceph/ceph-csi"
   },
   {
+    "name": "Cinder",
+    "url": "https://github.com/kubernetes/cloud-provider-openstack/tree/master/pkg/csi/cinder"
+  },
+  {
     "name": "Cloudscale",
     "url": "https://github.com/cloudscale-ch/csi-cloudscale"
   },
@@ -1084,44 +1096,29 @@
     "url": "https://github.com/digitalocean/csi-digitalocean"
   },
   {
-    "name": "DriveScale",
-    "url": "https://github.com/DriveScale/k8s-plugins"
-  },
-  {
     "name": "Ember",
     "url": "https://ember-csi.io"
-  },
-  {
-    "name": "Gluster",
-    "url": "https://github.com/gluster/gluster-csi-driver"
   },
   {
     "name": "Google Compute Engine Persistent Disk",
     "url": "https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver"
   },
   {
-    "name": "Hostpath",
-    "url": "https://github.com/kubernetes-csi/drivers/tree/master/pkg/hostpath"
-  },
-  {
-    "name": "Inmemory",
-    "url": "https://github.com/kubernetes-csi/csi-test/tree/master/mock/service"
-  },
-  {
     "name": "Intel PMEM-CSI",
     "url": "https://github.com/intel/pmem-CSI"
+  },
+  {
+    "name": "KaDalu",
+    "url": "https://github.com/kadalu/kadalu",
+    "description": "Gluster"
   },
   {
     "name": "Linode Block Storage",
     "url": "https://github.com/linode/linode-blockstorage-csi-driver"
   },
   {
-    "name": "Mesos",
-    "url": "http://mesos.apache.org/documentation/latest/csi"
-  },
-  {
-    "name": "MooseFs",
-    "url": "https://github.com/moosefs/moosefs-csi"
+    "name": "Longhorn",
+    "url": "https://github.com/longhorn/longhorn"
   },
   {
     "name": "NetApp Trident",
@@ -1130,14 +1127,6 @@
   {
     "name": "Nexenta",
     "url": "https://nexentaedge.io/docs/kubernetes-csi.html"
-  },
-  {
-    "name": "NFS",
-    "url": "https://github.com/kubernetes-csi/drivers/tree/master/pkg/nfs"
-  },
-  {
-    "name": "Nutanix",
-    "url": "https://portal.nutanix.com/#/page/docs/details?targetId=CSI-Volume-Driver:CSI-Volume-Driver"
   },
   {
     "name": "OpenSDS",
@@ -1156,16 +1145,16 @@
     "url": "https://github.com/quobyte/quobyte-csi"
   },
   {
-    "name": "ScaleIO",
-    "url": "https://github.com/thecodeteam/csi-scaleio"
+    "name": "S3",
+    "url": "https://github.com/ctrox/csi-s3"
   },
   {
-    "name": "Virtual Filesystem",
-    "url": "https://github.com/rexray/csi-vfs"
+    "name": "Vault",
+    "url": "https://github.com/kubevault/csi-driver"
   },
   {
     "name": "VMware vSphere",
-    "url": "https://github.com/thecodeteam/csi-vsphere"
+    "url": "https://github.com/kubernetes-sigs/vsphere-csi-driver"
   },
   {
     "name": "Kubeadm",
@@ -1322,6 +1311,11 @@
     "description": "A command-line tool that establishes a reverse tunnel between Kubernetes and your cluster, use it to locally develop/debug services or integrate with local resources."
   },
   {
+    "name": "k8s-platform-lcm",
+    "url": "https://github.com/arminc/k8s-platform-lcm",
+    "description": "A faster and easier way to manage the lifecycle of applications and tools, running and living around your Kubernetes platform"
+  },
+  {
     "name": "CNAB",
     "url": "https://cnab.io",
     "description": "CNABs facilitate the bundling, installing and managing of container-native apps - and their coupled services."
@@ -1370,10 +1364,6 @@
   {
     "name": "Heapster",
     "url": "https://github.com/kubernetes/heapster"
-  },
-  {
-    "name": "Instana",
-    "url": "https://instana.com"
   },
   {
     "name": "kail",
@@ -1540,6 +1530,16 @@
     "name": "predator",
     "url": "https://github.com/Zooz/predator",
     "description": "Distributed performance testing platform for Kubernetes"
+  },
+  {
+    "name": "Octopus",
+    "url": "https://github.com/kyma-incubator/octopus",
+    "description": "Octopus is a testing framework that allows you to run integration tests defined as Docker images on a Kubernetes cluster."
+  },
+  {
+    "name": "chaos-mesh",
+    "url": "https://github.com/pingcap/chaos-mesh",
+    "description": "A Chaos Engineering Platform for Kubernetes"
   },
   {
     "name": "Jenkins\n\nJenkins-Kubernetes Plugin by Carlos Sanchez\nAutomated Image Builds with Jenkins, Packer, and Kubernetes\nOn-demand Jenkins slaves with Kubernetes and the Google Container Engine\nJenkins setups for Kubernetes and Docker Workflow\nLab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes\nJenkins Operator",
@@ -2414,6 +2414,11 @@
     "description": "YAML templating tool that works on YAML structure allowing you to focus on your data instead of how to properly escape it."
   },
   {
+    "name": "kosko",
+    "url": "https://github.com/tommy351/kosko",
+    "description": "Write Kubernetes manifests in JavaScript and validate against Kubernetes OpenAPI definitions."
+  },
+  {
     "name": "Aquasec",
     "url": "http://blog.aquasec.com/topic/kubernetes"
   },
@@ -2570,7 +2575,7 @@
   },
   {
     "name": "Traefik",
-    "url": "http://traefik.io/"
+    "url": "https://containo.us/traefik/"
   },
   {
     "name": "Voyager",

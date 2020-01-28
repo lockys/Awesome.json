@@ -125,7 +125,7 @@
   {
     "name": "zsh-quickstart-kit",
     "url": "https://github.com/unixorn/zsh-quickstart-kit",
-    "description": "A simple quickstart for using ZSH with zgen. This includes a curated collection of plugins, and will automatically configure ZSH to use zgen to load them, configures zgen to periodically automatically update itself, the plugins, and the quickstart kit itself."
+    "description": "A simple quickstart for using ZSH with zgen. This includes a curated collection of plugins, automatically configures ZSH to use zgen to load them and periodically automatically update itself, the plugins, and the quickstart kit itself."
   },
   {
     "name": "BlaCk-Void-Zsh",
@@ -133,9 +133,9 @@
     "description": "🔮 Awesome, Customable Zsh Starter Kit 🌠🌠"
   },
   {
-    "name": "zplugin-configs",
-    "url": "https://github.com/zdharma/zplugin-configs",
-    "description": "Real-world configuration files (basically zshrc-s) holding Zplugin invocations."
+    "name": "zinit-configs",
+    "url": "https://github.com/zdharma/zinit-configs",
+    "description": "Real-world configuration files (basically a collection of .zshrc files) holding Zplugin invocations."
   },
   {
     "name": "256color",
@@ -341,6 +341,11 @@
     "name": "aws-vault",
     "url": "https://github.com/blimmer/zsh-aws-vault",
     "description": "Plugin for aws-vault."
+  },
+  {
+    "name": "aws2",
+    "url": "https://github.com/drgr33n/oh-my-zsh_aws2-plugin",
+    "description": "Provides completion support for version 2 of the awscli and a few utilities to manage AWS profiles and display them in the prompt."
   },
   {
     "name": "background",
@@ -605,7 +610,7 @@
   {
     "name": "declare-zsh",
     "url": "https://github.com/zdharma/declare-zsh",
-    "description": "A command-line parser for Zplugin commands in zshrc."
+    "description": "A command-line parser for Zinit commands in zshrc."
   },
   {
     "name": "deepx",
@@ -1184,6 +1189,11 @@
     "name": "history",
     "url": "https://github.com/b4b4r07/zsh-history",
     "description": "Extend history so that it can be queried by SQL."
+  },
+  {
+    "name": "homebrew",
+    "url": "https://github.com/digitalraven/omz-homebrew",
+    "description": "Plugin for homebrew."
   },
   {
     "name": "hooks",
@@ -2178,7 +2188,7 @@
   {
     "name": "tig",
     "url": "https://github.com/zdharma/zsh-tig-plugin",
-    "description": "Automatically adds a few advanced bindings and also provides a Zsh-rewritten function and/or script tig-pick."
+    "description": "Automatically adds a few advanced bindings and also provides a ZSH-rewritten function and/or script tig-pick."
   },
   {
     "name": "timewarrior",
@@ -2312,6 +2322,11 @@
     "name": "vi-mode (sinetoami)",
     "url": "https://github.com/sinetoami/vi-mode",
     "description": "Add more vi-like functionality to ZSH."
+  },
+  {
+    "name": "vi-quote",
+    "url": "https://github.com/zsh-vi-more/vi-quote",
+    "description": "Adds an operation which quotes or unquotes a motion."
   },
   {
     "name": "viexchange",
@@ -2460,28 +2475,28 @@
   },
   {
     "name": "z-a-bin-gem-node",
-    "url": "https://github.com/zplugin/z-a-bin-gem-node",
-    "description": "Zplugin extension that a) exposes binaries without altering $PATH, b) installs Ruby gems and Node modules and easily exposes their binaries, c) updates the gems and modules on update of the associated plugin or snippet."
+    "url": "https://github.com/zinit-zsh/z-a-bin-gem-node",
+    "description": "Zinit extension that a) exposes binaries without altering $PATH, b) installs Ruby gems and Node modules and easily exposes their binaries, c) updates the gems and modules on update of the associated plugin or snippet."
   },
   {
     "name": "z-a-man",
-    "url": "https://github.com/zplugin/z-a-man",
-    "description": "Zplugin extension that generates man pages for all plugins and snippets."
+    "url": "https://github.com/zinit-zsh/z-a-man",
+    "description": "zinit extension that generates man pages for all plugins and snippets."
   },
   {
     "name": "z-a-patch-dl",
-    "url": "https://github.com/zplugin/z-a-patch-dl",
-    "description": "Zplugin extension that downloads files and applies patches through the provided dl'' and patch'' ices."
+    "url": "https://github.com/zinit-zsh/z-a-patch-dl",
+    "description": "Zinit extension that downloads files and applies patches through the provided dl'' and patch'' ices."
   },
   {
     "name": "z-a-rust",
-    "url": "https://github.com/zplugin/z-a-rust",
-    "description": "Zplugin extension that that installs rust and cargo packages inside plugin directories."
+    "url": "https://github.com/zinit-zsh/z-a-rust",
+    "description": "Zinit extension that that installs rust and cargo packages inside plugin directories."
   },
   {
     "name": "z-a-test",
-    "url": "https://github.com/zplugin/z-a-test",
-    "description": "Zplugin extension that runs tests (via make test, for example) – if it finds any of them – after installing and updating a plugin or snippet."
+    "url": "https://github.com/zinit-zsh/z-a-test",
+    "description": "Zinit extension that runs tests (via make test, for example) – if it finds any of them – after installing and updating a plugin or snippet."
   },
   {
     "name": "z.lua",
@@ -2549,6 +2564,10 @@
     "description": "Makes more information available to ZSH themes."
   },
   {
+    "name": "zinit-console – a semigraphical (curses) consolette for zinit",
+    "url": "https://github.com/zinit-zsh/zinit-console"
+  },
+  {
     "name": "zjump",
     "url": "https://github.com/qoomon/zjump",
     "description": "Simplify ZSH directory navigation; jump to already visited, parent or sub folders."
@@ -2557,10 +2576,6 @@
     "name": "zlong_alert",
     "url": "https://github.com/kevinywlui/zlong_alert.zsh",
     "description": "Uses notify-send and ring a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed."
-  },
-  {
-    "name": "zplugin-console – a semigraphical (curses) consolette for Zplugin",
-    "url": "https://github.com/zplugin/zplugin-console"
   },
   {
     "name": "zredis",
@@ -3005,7 +3020,7 @@
   {
     "name": "startify",
     "url": "https://github.com/zdharma/zsh-startify",
-    "description": "vim-startify -like plugin for Zshell."
+    "description": "vim-startify -like plugin for ZSH."
   },
   {
     "name": "surf",
@@ -3111,6 +3126,11 @@
     "name": "agnoster-fseguin",
     "url": "https://github.com/fsegouin/oh-my-zsh-agnoster-mod-theme",
     "description": "agnoster variant with a right prompt."
+  },
+  {
+    "name": "agnoster-j",
+    "url": "https://github.com/apjanke/agnosterj-zsh-theme",
+    "description": "Optimized for solarized color scheme, git or other VCS tools, and unicode-compatible fonts. Includes status of last command run, user@hostname, git status decorations, working directory, whether running as root, whether background jobs are running, and other information."
   },
   {
     "name": "agnoster-mod",
@@ -3273,12 +3293,7 @@
     "description": "Another Powerline variant."
   },
   {
-    "name": "bar (anki-code)",
-    "url": "https://github.com/anki-code/zsh-bar-theme",
-    "description": "Colorful theme, includes git decorations and active conda version."
-  },
-  {
-    "name": "bar (xp-bar)",
+    "name": "bar",
     "url": "https://github.com/xp-bar/zsh-bar-theme",
     "description": "Includes username, host, pwd, git status decorations and  3x hour reminders to drink water."
   },
@@ -3726,6 +3741,11 @@
     "name": "excess",
     "url": "https://github.com/davydovanton/excess.zsh-theme",
     "description": "Simple ZSH color theme."
+  },
+  {
+    "name": "ez-pz",
+    "url": "https://github.com/mangosmoothie/ez-pz",
+    "description": "Minimalist theme with git status decorations, inspired by bureau."
   },
   {
     "name": "fall",
@@ -4384,6 +4404,11 @@
     "name": "maxulysse/myzsh",
     "url": "https://github.com/MaxUlysse/myzsh",
     "description": "Maxime Garcia's myzsh theme."
+  },
+  {
+    "name": "mbolis",
+    "url": "https://github.com/mbolis/mbolis-zsh-theme",
+    "description": "Includes git decorations, changes prompt color if root user, active jobs, and jenv integration."
   },
   {
     "name": "mdmini",
@@ -5373,6 +5398,11 @@
     "name": "tvline",
     "url": "https://github.com/thvitt/tvline",
     "description": "Derived from the agnoster theme, adds powerline font enhancements."
+  },
+  {
+    "name": "typewritten",
+    "url": "https://github.com/reobin/typewritten",
+    "description": "Minimal and informative theme that leaves room for what's important."
   },
   {
     "name": "ultimate",

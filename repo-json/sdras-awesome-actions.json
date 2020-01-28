@@ -249,6 +249,10 @@
     "url": "https://github.com/trilom/file-changes-action"
   },
   {
+    "name": "Use private actions in any workflow",
+    "url": "https://github.com/InVisionApp/private-action-loader"
+  },
+  {
     "name": "Many linters and autofixers for various languages",
     "url": "https://github.com/bltavares/actions"
   },
@@ -367,26 +371,6 @@
     "url": "https://github.com/cds-snc/github-actions/tree/master/touched"
   },
   {
-    "name": "Scan for secrets in your source code",
-    "url": "https://github.com/cds-snc/github-actions/tree/master/seekret"
-  },
-  {
-    "name": "Review the licenses of your node dependencies",
-    "url": "https://github.com/cds-snc/github-actions/tree/master/node-license-checker"
-  },
-  {
-    "name": "A GitHub Action to check your project's dependencies",
-    "url": "https://github.com/iheanyi/licensed-action"
-  },
-  {
-    "name": "Check if package.json dependencies have changed",
-    "url": "https://github.com/bencooper222/check-for-node-dep-changes"
-  },
-  {
-    "name": "Update a repository's \"Full description\" on Docker Hub",
-    "url": "https://github.com/mpepping/github-actions/tree/master/docker-hub-metadata"
-  },
-  {
     "name": "GitHub Actions Badges for your README",
     "url": "https://github.com/atrox/github-actions-badge"
   },
@@ -397,10 +381,6 @@
   {
     "name": "GitHub Actions to compile LaTeX documents",
     "url": "https://github.com/xu-cheng/latex-action"
-  },
-  {
-    "name": "Create an envfile",
-    "url": "https://github.com/SpicyPizza/create-envfile"
   },
   {
     "name": "Update Maxmind Databases",
@@ -418,14 +398,6 @@
   {
     "name": "Golang CGO cross compiler",
     "url": "https://github.com/crazy-max/ghaction-xgo"
-  },
-  {
-    "name": "Export global environment variables for succeeding build steps",
-    "url": "https://github.com/zweitag/github-actions"
-  },
-  {
-    "name": "Programmatically set environment variables for use in subsequent steps",
-    "url": "https://github.com/allenevans/set-env"
   },
   {
     "name": "Run your job on another architecture: arm32, aarch64 and others",
@@ -462,11 +434,6 @@
     "description": "Temporarily disable and re-enable \"Include administrators\" option in branch protection."
   },
   {
-    "name": "Next SemVers",
-    "url": "https://github.com/WyriHaximus/github-action-next-semvers",
-    "description": "Output the next version for major, minor, and patch version based on the given semver version."
-  },
-  {
     "name": "Wait for commit statuses",
     "url": "https://github.com/WyriHaximus/github-action-wait-for-status",
     "description": "Wait until all statuses and checks are successful or any of them has failed and set its status output accordingly."
@@ -491,17 +458,8 @@
     "url": "https://github.com/deepakputhraya/action-branch-name"
   },
   {
-    "name": "Install NPM dependencies with caching",
-    "url": "https://github.com/bahmutov/npm-install"
-  },
-  {
     "name": "Expose slug of some GitHub variables",
     "url": "https://github.com/marketplace/actions/github-slug"
-  },
-  {
-    "name": "AWS Secrets Manager Actions",
-    "url": "https://github.com/say8425/aws-secrets-manager-actions",
-    "description": "Define AWS Secrets Manager secrets to environment values."
   },
   {
     "name": "awesome-lint as a GitHub Action",
@@ -521,6 +479,49 @@
     "url": "https://github.com/Decathlon/slate-builder-action"
   },
   {
+    "name": "Read Properties",
+    "url": "https://github.com/christian-draeger/read-properties",
+    "description": "Read values from .properties files."
+  },
+  {
+    "name": "Write Properties",
+    "url": "https://github.com/christian-draeger/write-properties",
+    "description": "Write values to .properties files."
+  },
+  {
+    "name": "Create an envfile",
+    "url": "https://github.com/SpicyPizza/create-envfile"
+  },
+  {
+    "name": "Export global environment variables for succeeding build steps",
+    "url": "https://github.com/zweitag/github-actions"
+  },
+  {
+    "name": "Programmatically set environment variables for use in subsequent steps",
+    "url": "https://github.com/allenevans/set-env"
+  },
+  {
+    "name": "Review the licenses of your node dependencies",
+    "url": "https://github.com/cds-snc/github-actions/tree/master/node-license-checker"
+  },
+  {
+    "name": "A GitHub Action to check your project's dependencies",
+    "url": "https://github.com/iheanyi/licensed-action"
+  },
+  {
+    "name": "Check if package.json dependencies have changed",
+    "url": "https://github.com/bencooper222/check-for-node-dep-changes"
+  },
+  {
+    "name": "Install NPM dependencies with caching",
+    "url": "https://github.com/bahmutov/npm-install"
+  },
+  {
+    "name": "Next SemVers",
+    "url": "https://github.com/WyriHaximus/github-action-next-semvers",
+    "description": "Output the next version for major, minor, and patch version based on the given semver version."
+  },
+  {
     "name": "Get latest SemVer and branch name given a search string",
     "url": "https://github.com/jessicalostinspace/github-action-get-regex-branch"
   },
@@ -530,29 +531,13 @@
     "description": "Cuts a release branch given a branch prefix and optional semantic version."
   },
   {
-    "name": "Generate terraform documentation",
-    "url": "https://github.com/Dirrk/terraform-docs",
-    "description": "Uses terraform-docs to generate docs for terraform modules."
+    "name": "Increment Semantic Version",
+    "url": "https://github.com/christian-draeger/increment-semantic-version",
+    "description": "Bump a given semantic version (SemVer), depending on given release type."
   },
   {
-    "name": "Runs Hadolint against a Dockerfile within a repository",
-    "url": "https://github.com/burdzwastaken/hadolint-action"
-  },
-  {
-    "name": "Test your Actions Locally",
-    "url": "https://github.com/tschoffelen/gha"
-  },
-  {
-    "name": "Lint a Dockerfile (using replicatedhq/dockerfilelint)",
-    "url": "https://github.com/jwr0/dockerfile-linter-action"
-  },
-  {
-    "name": "NPM Audit",
-    "url": "https://github.com/JasonEtco/npm-audit-fix-action"
-  },
-  {
-    "name": "PHP Code fixer Action",
-    "url": "https://github.com/OskarStark/php-cs-fixer-ga"
+    "name": "PHPQA toolsuite Action",
+    "url": "https://github.com/mickaelandrieu/phpqa-ga"
   },
   {
     "name": "PHP Psalm Static code analyzer Action",
@@ -563,28 +548,64 @@
     "url": "https://github.com/OskarStark/phpstan-ga"
   },
   {
-    "name": "PHPQA toolsuite Action",
-    "url": "https://github.com/mickaelandrieu/phpqa-ga"
-  },
-  {
     "name": "GraphQL Inspector Action",
     "url": "https://github.com/kamilkisiela/graphql-inspector"
-  },
-  {
-    "name": "Snyk CLI Test Action",
-    "url": "https://github.com/clarkio/snyk-cli-action"
   },
   {
     "name": "PowerShell static analysis with PSScriptAnalyzer",
     "url": "https://github.com/devblackops/github-action-psscriptanalyzer"
   },
   {
-    "name": "Run web performance audits using Sitespeed.io",
-    "url": "https://github.com/sitespeedio/sitespeed.io/tree/master/docker/github-action"
+    "name": "Run tfsec, with reviewdog output on the PR",
+    "url": "https://github.com/reviewdog/action-tfsec"
+  },
+  {
+    "name": "Test your Actions Locally",
+    "url": "https://github.com/tschoffelen/gha"
+  },
+  {
+    "name": "Snyk CLI Test Action",
+    "url": "https://github.com/clarkio/snyk-cli-action"
   },
   {
     "name": "Run Tests through Puppeteer, the Headless Chrome Node API",
     "url": "https://github.com/ianwalter/puppeteer"
+  },
+  {
+    "name": "xUnit Slack Reporter: Sends summary of tests from xUnit reports to a Slack channel",
+    "url": "https://github.com/ivanklee86/xunit-slack-reporter"
+  },
+  {
+    "name": "Run codeception tests",
+    "url": "https://github.com/joelwmale/codeception-action"
+  },
+  {
+    "name": "Run TestCafe tests",
+    "url": "https://github.com/DevExpress/testcafe-action"
+  },
+  {
+    "name": "Run Unity tests",
+    "url": "https://github.com/webbertakken/unity-test-runner"
+  },
+  {
+    "name": "Run Cypress E2E tests",
+    "url": "https://github.com/cypress-io/github-action"
+  },
+  {
+    "name": "Test Ansible roles with Molecule",
+    "url": "https://github.com/robertdebock/molecule-action"
+  },
+  {
+    "name": "PHP Code fixer Action",
+    "url": "https://github.com/OskarStark/php-cs-fixer-ga"
+  },
+  {
+    "name": "Lint a Dockerfile (using replicatedhq/dockerfilelint)",
+    "url": "https://github.com/jwr0/dockerfile-linter-action"
+  },
+  {
+    "name": "Runs Hadolint against a Dockerfile within a repository",
+    "url": "https://github.com/burdzwastaken/hadolint-action"
   },
   {
     "name": "Run ESLint with status checks and file diff annotations",
@@ -597,10 +618,6 @@
   {
     "name": "JavaScript-based linter for *.workflow files",
     "url": "https://github.com/OmarTawfik/github-actions-js"
-  },
-  {
-    "name": "Send your latest code coverage score to Coveralls.io",
-    "url": "https://github.com/gavinhenderson/coveralls-action"
   },
   {
     "name": "Lint a Dockerfile using Hadolint",
@@ -619,36 +636,8 @@
     "url": "https://github.com/mpepping/github-actions/tree/master/pdk-validate"
   },
   {
-    "name": "Scan git commits for secrets with gitleaks",
-    "url": "https://github.com/eshork/gitleaks-action"
-  },
-  {
-    "name": "Scan code with SonarCloud",
-    "url": "https://github.com/sonarsource/sonarcloud-github-action"
-  },
-  {
-    "name": "Send your code coverage to codecov.io",
-    "url": "https://github.com/codecov/codecov-action"
-  },
-  {
     "name": "autopep8: Automatically formats Python code to conform to the PEP 8 style guide",
     "url": "https://github.com/peter-evans/autopep8"
-  },
-  {
-    "name": "xUnit Slack Reporter: Sends summary of tests from xUnit reports to a Slack channel",
-    "url": "https://github.com/ivanklee86/xunit-slack-reporter"
-  },
-  {
-    "name": "Publishing code coverage to CodeClimate",
-    "url": "https://github.com/paambaati/codeclimate-action"
-  },
-  {
-    "name": "Run codeception tests",
-    "url": "https://github.com/joelwmale/codeception-action"
-  },
-  {
-    "name": "Audit a webpage with Google Chrome's Lighthouse tests",
-    "url": "https://github.com/jakejarvis/lighthouse-action"
   },
   {
     "name": "Run localheinz/composer-normalize to ensure your PHP project has a normalized composer.json",
@@ -662,10 +651,6 @@
     "name": "Node.js",
     "url": "https://github.com/MarvinJWendt/run-node-formatter",
     "description": "Automatically run the format and/or lint script used by the package"
-  },
-  {
-    "name": "Continuous Benchmarking and Benchmark Visualization for Go",
-    "url": "https://github.com/bobheadxi/gobenchdata"
   },
   {
     "name": "Stylelinter",
@@ -711,24 +696,8 @@
     "url": "https://github.com/reviewdog/action-shellcheck"
   },
   {
-    "name": "Build Go applications for multiplatform",
-    "url": "https://github.com/izumin5210/action-go-crossbuild"
-  },
-  {
     "name": "Catch insensitive, inconsiderate writing in your markdown docs",
     "url": "https://github.com/theashraf/alex-action"
-  },
-  {
-    "name": "Run TestCafe tests",
-    "url": "https://github.com/DevExpress/testcafe-action"
-  },
-  {
-    "name": "Run Unity tests",
-    "url": "https://github.com/webbertakken/unity-test-runner"
-  },
-  {
-    "name": "Run Cypress E2E tests",
-    "url": "https://github.com/cypress-io/github-action"
   },
   {
     "name": "Run dotenv-linter",
@@ -744,8 +713,16 @@
     "url": "https://github.com/samuelmeuli/lint-action"
   },
   {
-    "name": "Test Ansible roles with Molecule",
-    "url": "https://github.com/robertdebock/molecule-action"
+    "name": "PHP_CodeSniffer With Annotations",
+    "url": "https://github.com/chekalsky/phpcs-action"
+  },
+  {
+    "name": "Linter for markdown (with presets)",
+    "url": "https://github.com/avto-dev/markdown-lint"
+  },
+  {
+    "name": "NPM Audit",
+    "url": "https://github.com/JasonEtco/npm-audit-fix-action"
   },
   {
     "name": "A vulnerability scanner for your docker images",
@@ -758,6 +735,55 @@
   {
     "name": "Run dlint security linter on your Python code",
     "url": "https://github.com/xen0l/dlint-check"
+  },
+  {
+    "name": "Scan git commits for secrets with gitleaks",
+    "url": "https://github.com/eshork/gitleaks-action"
+  },
+  {
+    "name": "Scan for secrets in your source code",
+    "url": "https://github.com/cds-snc/github-actions/tree/master/seekret"
+  },
+  {
+    "name": "AWS Secrets Manager Actions",
+    "url": "https://github.com/say8425/aws-secrets-manager-actions",
+    "description": "Define AWS Secrets Manager secrets to environment values."
+  },
+  {
+    "name": "Send your latest code coverage score to Coveralls.io",
+    "url": "https://github.com/gavinhenderson/coveralls-action"
+  },
+  {
+    "name": "Scan code with SonarCloud",
+    "url": "https://github.com/sonarsource/sonarcloud-github-action"
+  },
+  {
+    "name": "Send your code coverage to codecov.io",
+    "url": "https://github.com/codecov/codecov-action"
+  },
+  {
+    "name": "Publishing code coverage to CodeClimate",
+    "url": "https://github.com/paambaati/codeclimate-action"
+  },
+  {
+    "name": "Run web performance audits using Sitespeed.io",
+    "url": "https://github.com/sitespeedio/sitespeed.io/tree/master/docker/github-action"
+  },
+  {
+    "name": "Audit a webpage with Google Chrome's Lighthouse tests",
+    "url": "https://github.com/jakejarvis/lighthouse-action"
+  },
+  {
+    "name": "Runs Lighthouse and posts results to PRs and Slack",
+    "url": "https://github.com/foo-software/lighthouse-check-action"
+  },
+  {
+    "name": "Run Lighthouse in CI using GitHub Actions",
+    "url": "https://github.com/treosh/lighthouse-ci-action"
+  },
+  {
+    "name": "Continuous Benchmarking and Benchmark Visualization for Go",
+    "url": "https://github.com/bobheadxi/gobenchdata"
   },
   {
     "name": "Set pull request reviewers based on assignees",
@@ -863,6 +889,10 @@
   {
     "name": "Pull Request Stuck Notifier",
     "url": "https://github.com/loomble/pull-request-stuck-notifier-action"
+  },
+  {
+    "name": "Lint pull request name with commitlint (Awesome if you squash merge !)",
+    "url": "https://github.com/JulienKode/pull-request-name-linter-action"
   },
   {
     "name": "Deploy a Zola site to GitHub Pages",
@@ -1007,18 +1037,6 @@
     "url": "https://github.com/swinton/SpotHub"
   },
   {
-    "name": "Deploy a serverless app to AWS Lambda with Up",
-    "url": "https://github.com/apex/actions/tree/master/up"
-  },
-  {
-    "name": "Deploy serverless infrastructure with AWS SAM",
-    "url": "https://github.com/apex/actions/tree/master/aws/sam"
-  },
-  {
-    "name": "Deploy a Node.js function to AWS Lambda and invoke it using the Serverless framework",
-    "url": "https://github.com/swinton/serverless"
-  },
-  {
     "name": "Deploy VS Code extensions with vsce",
     "url": "https://github.com/lannonbr/vsce-action"
   },
@@ -1031,12 +1049,12 @@
     "url": "https://github.com/maxheld83/ghaction-rsync"
   },
   {
-    "name": "Deploy to any Cloud or Kubernetes Using Pulumi",
-    "url": "https://github.com/pulumi/actions"
-  },
-  {
     "name": "Deploy a Cloudflare worker",
     "url": "https://github.com/cpilsworth/cloudflare-worker-action"
+  },
+  {
+    "name": "Purge Cloudflare cache after updating a website",
+    "url": "https://github.com/jakejarvis/cloudflare-purge-action"
   },
   {
     "name": "Deploy your DNS configuration using DNS Control",
@@ -1083,32 +1101,12 @@
     "url": "https://github.com/izumin5210/action-homebrew-tap"
   },
   {
-    "name": "Deploy Lambda code to an existing function",
-    "url": "https://github.com/appleboy/lambda-action"
-  },
-  {
     "name": "Copy files and artifacts via SSH",
     "url": "https://github.com/appleboy/scp-action"
   },
   {
     "name": "Executing remote ssh commands",
     "url": "https://github.com/appleboy/ssh-action"
-  },
-  {
-    "name": "Deploy to Kubernetes with kubectl",
-    "url": "https://github.com/steebchen/kubectl"
-  },
-  {
-    "name": "Update a Docker Hub repository description from README.md",
-    "url": "https://github.com/peter-evans/dockerhub-description"
-  },
-  {
-    "name": "Purge Cloudflare cache after updating a website",
-    "url": "https://github.com/jakejarvis/cloudflare-purge-action"
-  },
-  {
-    "name": "Sync/upload a directory to an AWS S3 bucket",
-    "url": "https://github.com/jakejarvis/s3-sync-action"
   },
   {
     "name": "Publish a Python distribution package to PyPI",
@@ -1135,14 +1133,6 @@
     "url": "https://github.com/epeli/npm-release/"
   },
   {
-    "name": "Publish Docker Images to the GitHub Package Registry (GPR)",
-    "url": "https://github.com/machine-learning-apps/gpr-docker-publish"
-  },
-  {
-    "name": "Get Kubeconfig File From Google Kubernetes Engine (GKE)",
-    "url": "https://github.com/machine-learning-apps/gke-kubeconfig"
-  },
-  {
     "name": "Deploy a static site to Surge.sh",
     "url": "https://github.com/yavisht/deploy-via-surge.sh-github-action-template"
   },
@@ -1167,10 +1157,6 @@
     "url": "https://github.com/artis3n/ansible_galaxy_collection"
   },
   {
-    "name": "An example of using Terraform to validate and apply GitHub administration",
-    "url": "https://github.com/asgharlabs/github-terraform/tree/master/.github/workflows"
-  },
-  {
     "name": "Publish module to Puppet Forge",
     "url": "https://github.com/barnumbirr/action-forge-publish"
   },
@@ -1189,6 +1175,59 @@
   {
     "name": "Deploy an Ansible role to Ansible Galaxy",
     "url": "https://github.com/robertdebock/galaxy-action"
+  },
+  {
+    "name": "Update a Docker Hub repository description from README.md",
+    "url": "https://github.com/peter-evans/dockerhub-description"
+  },
+  {
+    "name": "Publish Docker Images to the GitHub Package Registry (GPR)",
+    "url": "https://github.com/machine-learning-apps/gpr-docker-publish"
+  },
+  {
+    "name": "Update a repository's \"Full description\" on Docker Hub",
+    "url": "https://github.com/mpepping/github-actions/tree/master/docker-hub-metadata"
+  },
+  {
+    "name": "Deploy to any Cloud or Kubernetes Using Pulumi",
+    "url": "https://github.com/pulumi/actions"
+  },
+  {
+    "name": "Deploy to Kubernetes with kubectl",
+    "url": "https://github.com/steebchen/kubectl"
+  },
+  {
+    "name": "Get Kubeconfig File From Google Kubernetes Engine (GKE)",
+    "url": "https://github.com/machine-learning-apps/gke-kubeconfig"
+  },
+  {
+    "name": "Deploy a serverless app to AWS Lambda with Up",
+    "url": "https://github.com/apex/actions/tree/master/up"
+  },
+  {
+    "name": "Deploy serverless infrastructure with AWS SAM",
+    "url": "https://github.com/apex/actions/tree/master/aws/sam"
+  },
+  {
+    "name": "Deploy a Node.js function to AWS Lambda and invoke it using the Serverless framework",
+    "url": "https://github.com/swinton/serverless"
+  },
+  {
+    "name": "Sync/upload a directory to an AWS S3 bucket",
+    "url": "https://github.com/jakejarvis/s3-sync-action"
+  },
+  {
+    "name": "Deploy Lambda code to an existing function",
+    "url": "https://github.com/appleboy/lambda-action"
+  },
+  {
+    "name": "Generate terraform documentation",
+    "url": "https://github.com/Dirrk/terraform-docs",
+    "description": "Uses terraform-docs to generate docs for terraform modules."
+  },
+  {
+    "name": "An example of using Terraform to validate and apply GitHub administration",
+    "url": "https://github.com/asgharlabs/github-terraform/tree/master/.github/workflows"
   },
   {
     "name": "Use a Jenkinsfile",
@@ -1265,10 +1304,6 @@
     "description": "Generate customisable open graph images from Markdown files."
   },
   {
-    "name": "Runs Lighthouse and posts results to PRs and Slack",
-    "url": "https://github.com/foo-software/lighthouse-check-action"
-  },
-  {
     "name": "GitHub Actions for mdBook",
     "url": "https://github.com/peaceiris/actions-mdbook"
   },
@@ -1293,8 +1328,18 @@
     "url": "https://github.com/yaananth/run-notebook"
   },
   {
-    "name": "Run Lighthouse in CI using GitHub Actions",
-    "url": "https://github.com/treosh/lighthouse-ci-action"
+    "name": "run-cmake",
+    "url": "https://github.com/lukka/run-cmake",
+    "description": "Multi platform action to build C/C++ software with CMake and Ninja."
+  },
+  {
+    "name": "run-vcpkg",
+    "url": "https://github.com/lukka/run-vcpkg",
+    "description": "Multi platform action to build and install C/C++ dependencies with vcpkg."
+  },
+  {
+    "name": "Build Go applications for multiplatform",
+    "url": "https://github.com/izumin5210/action-go-crossbuild"
   },
   {
     "name": "GitHub Actions Branding Cheat Sheet",
