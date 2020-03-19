@@ -115,6 +115,11 @@
     "description": "an interactive REPL for the C language. No license specified."
   },
   {
+    "name": "Software-Evolution-Library",
+    "url": "https://github.com/GrammaTech/sel",
+    "description": "The SEL enables the programmatic modification and evaluation of software (C/C++ support using Clang, compiled assembler, and linked ELF binaries). GPL3."
+  },
+  {
     "name": "crypto-shortcuts",
     "url": "https://github.com/Shinmera/crypto-shortcuts",
     "description": "Collection of common crypto shortcuts. Artistic License 2.0."
@@ -289,6 +294,11 @@
     "description": "an extensive library of data structures and utilities - queues, trees, heaps, doubly-linked lists, sets, bags,... MIT"
   },
   {
+    "name": "cl-competitive",
+    "url": "https://github.com/privet-kitty/cl-competitive",
+    "description": "Common Lisp algorithms collection for competitive programming. Public domain, CCO or MIT."
+  },
+  {
     "name": "modf",
     "url": "https://github.com/smithzvk/modf",
     "description": "a setf-like macro for functional programming."
@@ -309,9 +319,19 @@
     "description": "Docker images for Lisp development. MIT."
   },
   {
+    "name": "cl-bindgen",
+    "url": "https://github.com/sdilts/cl-bindgen",
+    "description": "A command line tool and library for creating Common Lisp language bindings from C header files. MIT."
+  },
+  {
     "name": "cl-gobject-introspection",
     "url": "https://github.com/andy128k/cl-gobject-introspection",
     "description": "Gobject Introspection FFI. Automatic bindings to call into the C library. BSD. Generate a lisp interface with gir2cl. LGPL3."
+  },
+  {
+    "name": "CLERIC",
+    "url": "https://github.com/flambard/CLERIC",
+    "description": "a Common Lisp Erlang Interface. An implementation of the Erlang distribution protocol, comparable with erl_interface and jinterface. MIT."
   },
   {
     "name": "cl+j",
@@ -397,6 +417,11 @@
     "description": "FFI bindings to the Horde3D graphics library. Not available on Quicklisp. EPL 1.0"
   },
   {
+    "name": "cl-jpeg",
+    "url": "https://github.com/sharplispers/cl-jpeg",
+    "description": "Baseline JPEG encoder and decoder library. 3-clause BSD."
+  },
+  {
     "name": "cl-opengl",
     "url": "https://github.com/3b/cl-opengl",
     "description": "CFFI bindings to OpenGL, GLU and GLUT APIs. 3-clause BSD."
@@ -478,7 +503,7 @@
   },
   {
     "name": "cl-cffi-gtk",
-    "url": "http://www.crategus.com/index.php/projekte/",
+    "url": "https://github.com/Ferada/cl-cffi-gtk/",
     "description": "Binding for GTK+3. GNU LGPL2.1."
   },
   {
@@ -732,6 +757,11 @@
     "description": "Functional style without any runtime penalty at all. MIT."
   },
   {
+    "name": "gmap",
+    "url": "https://github.com/slburson/misc-extensions/blob/master/src/gmap.lisp",
+    "description": "A concise and extensible iteration facility that has the advantage of integrating well with FSet (see the Data Structures section), as it was written by the same author. In Quicklisp as part of misc-extensions. Public domain."
+  },
+  {
     "name": "fn",
     "url": "https://github.com/cbaggers/fn",
     "description": "a couple of lambda shorthand macros. (fn* (+ _ _))  -->  (lambda (_) (+ _ _)). Public domain."
@@ -780,6 +810,11 @@
     "name": "cl-algebraic-data-type",
     "url": "https://github.com/stylewarning/cl-algebraic-data-type",
     "description": "A library for defining algebraic data types in a similar spirit to Haskell or ML. 3-clause BSD."
+  },
+  {
+    "name": "defstar",
+    "url": "https://bitbucket.org/eeeickythump/defstar/src/master/",
+    "description": "a collection of macros for easy inclusion of type declarations for arguments in lambda lists. GNU GPL3"
   },
   {
     "name": "Learn X in Y minutes",
@@ -961,6 +996,11 @@
     "name": "Planet Lisp",
     "url": "http://planet.lisp.org/",
     "description": "A meta blog that collects the contents of various Lisp-related blogs."
+  },
+  {
+    "name": "Common Lisp chat",
+    "url": "https://chat.hexstreamsoft.com/",
+    "description": "Keybase team with well-defined rules and retention policies."
   },
   {
     "name": "Ultralisp",
@@ -1294,7 +1334,7 @@
   {
     "name": "s2i-lisp",
     "url": "https://github.com/container-lisp/s2i-lisp",
-    "description": "Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. AGPL"
+    "description": "Source-to-Image builder image based on CentOS or alternatively RHEL7 for building Common LISP images for OpenShift (and also Docker). It features an up-to-date SBCL with Quicklisp installation, SLIME or SLY integration and allows customization via environment variables. Apache2"
   },
   {
     "name": "deploy",
@@ -1318,6 +1358,11 @@
     "name": "prometheus.cl",
     "url": "https://github.com/deadtrickster/prometheus.cl",
     "description": "Prometheus.io client. Grafana dashboard for SBCL and Hunchentoot metrics (memory, threads, requests per second,…). MIT."
+  },
+  {
+    "name": "cl-sentry-client",
+    "url": "https://github.com/mmontone/cl-sentry-client",
+    "description": "a Sentry client for Common Lisp, the cloud-based error monitoring system. MIT."
   },
   {
     "name": "Aws-sign4",
@@ -1484,6 +1529,21 @@
     "description": "Efficient and expressive arrayed vector math library with multi-threading and CUDA support. MIT."
   },
   {
+    "name": "array-operations",
+    "url": "https://github.com/bendudson/array-operations",
+    "description": "a collection of functions and macros for manipulating Common Lisp arrays and performing numerical calculations with them. MIT."
+  },
+  {
+    "name": "cl-geometry",
+    "url": "https://github.com/Ramarren/cl-geometry/",
+    "description": "a system for two dimensional computational geometry for Common Lisp. MIT."
+  },
+  {
+    "name": "clem",
+    "url": "https://github.com/slyrus/clem",
+    "description": "a matrix library. BSD_2Clause."
+  },
+  {
     "name": "lfarm",
     "url": "https://github.com/lmj/lfarm",
     "description": "distributing work across machines (on top of lparallel and usocket). BSD_3Clause"
@@ -1587,6 +1647,11 @@
     "description": "a set of"
   },
   {
+    "name": "Linedit",
+    "url": "https://common-lisp.net/project/linedit",
+    "description": "Readline-style"
+  },
+  {
     "name": "CLON",
     "url": "https://github.com/didierverna/clon",
     "description": "Command Line Options"
@@ -1648,7 +1713,7 @@
   },
   {
     "name": "Vlime",
-    "url": "https://github.com/l04m33/vlime",
+    "url": "https://github.com/vlime/vlime",
     "description": "VLIME: Vim plus Lisp Is Mostly Evil. A Common Lisp dev environment for Vim (and Neovim). MIT."
   },
   {
@@ -1705,8 +1770,18 @@
     "description": "an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. MIT. With colorthemes."
   },
   {
+    "name": "magic-ed",
+    "url": "https://github.com/sanel/magic-ed",
+    "description": "a tiny editing facility, where you can directly load, edit, manipulate and evaluate file or file content from the REPL, when going to a full IDE is too much. MIT."
+  },
+  {
     "name": "Judge0 IDE is an online editor which supports Common Lisp (SBCL). MIT.",
     "url": "https://ide.judge0.com/?lUpj"
+  },
+  {
+    "name": "CodePlayground",
+    "url": "https://codeplayground.app/",
+    "description": "an iPhone and iPad app with Lisp support via CCL."
   },
   {
     "name": "montezuma",
@@ -1747,11 +1822,6 @@
     "name": "quicksearch",
     "url": "https://github.com/tkych/quicksearch",
     "description": "Look up online libraries from the REPL. Expat."
-  },
-  {
-    "name": "SWIG",
-    "url": "http://www.swig.org/",
-    "description": "A tool for generating FFI code from C/C++ header files. GNU GPL3."
   },
   {
     "name": "cl-project",
@@ -1869,9 +1939,34 @@
     "description": "Ease"
   },
   {
-    "name": "Linedit",
-    "url": "https://common-lisp.net/project/linedit",
-    "description": "Readline-style library"
+    "name": "flight-recorder",
+    "url": "https://github.com/vseloved/flight-recorder",
+    "description": "a robust REPL history facility."
+  },
+  {
+    "name": "tracer",
+    "url": "https://github.com/TeMPOraL/tracer",
+    "description": "tracing profiler for Common Lisp, with output suitable for display in Chrome’s/Chromium’s Tracing Viewer. MIT."
+  },
+  {
+    "name": "cl-flamegraph",
+    "url": "https://github.com/40ants/cl-flamegraph",
+    "description": "A wrapper around SBCL's statistical profiler, to generate FlameGraph charts for Common Lisp programs. BSD."
+  },
+  {
+    "name": "cl-debug",
+    "url": "https://github.com/LowH/cl-debug",
+    "description": "a cross-package debug facility. Provides a unified way to enable or disable debug-specific code. Debugging code can be enabled or disabled relative to program features denoted by either a symbol or a keyword. ISC licence."
+  },
+  {
+    "name": "supertrace",
+    "url": "https://github.com/fukamachi/supertrace",
+    "description": "Superior Common Lisp trace functionality for debugging/profiling. Trace many functions at once, use before and after hooks. BSD_2Clause."
+  },
+  {
+    "name": "GTFL",
+    "url": "http://www.martin-loetzsch.de/gtfl/",
+    "description": "A graphical terminal for Lisp, meant for Lisp programmers who want to debug or visualize their own algorithms. A graphical trace in the browser. BSD-style."
   },
   {
     "name": "sphinxcontrib-cldomain",
@@ -2017,6 +2112,11 @@
     "name": "eazy-gnuplot",
     "url": "https://github.com/guicho271828/eazy-gnuplot",
     "description": "a"
+  },
+  {
+    "name": "cl-isolated",
+    "url": "https://github.com/kanru/cl-isolated",
+    "description": "A restricted environment for Common Lisp code evaluation AGPL-3.0."
   },
   {
     "name": "babel",

@@ -79,9 +79,14 @@
     "description": "Historical vehicle locations for Austin's transit agency (CapMetro). Data is collected by capmetricsd, a Go daemon."
   },
   {
-    "name": "National Transit Database",
+    "name": "National Transit Database (USA)",
     "url": "https://www.transit.dot.gov/ntd",
     "description": "Information and statistics on the transit systems of the United States, run by the Federal Transit Administration."
+  },
+  {
+    "name": "Transport (France)",
+    "url": "https://transport.data.gouv.fr/",
+    "description": "GTFS datasets for French transit systems."
   },
   {
     "name": "Transport API",
@@ -219,7 +224,12 @@
   {
     "name": "OpenTripPlanner.js",
     "url": "https://github.com/conveyal/otp.js",
-    "description": "A Javascript-based client for OpenTripPlanner"
+    "description": "A Javascript-based client for OpenTripPlanner (no longer under development)"
+  },
+  {
+    "name": "OTP-UI React Component Library",
+    "url": "https://github.com/opentripplanner/otp-ui",
+    "description": "React Javascript component library, which can be used to build trip planner webapps. See the Storybook for a demo."
   },
   {
     "name": "GTFS-realtime Alerts Producer Web Application",
@@ -387,6 +397,11 @@
   {
     "name": "TransitFlow Animate GTFS data around the world using Processing and Transitland.",
     "url": "https://github.com/transitland/transitland-processing-animation"
+  },
+  {
+    "name": "All Transit",
+    "url": "https://all-transit.com",
+    "description": "Interactive GTFS route and schedule animation (for U.S. cities) using Mapbox GL JS, Deck.gl and Transitland. Github repository here."
   },
   {
     "name": "gtfspy-webviz",
@@ -609,7 +624,7 @@
     "description": "Python script that generates missing shapes.txt for GTFS using routing from Google Maps Directions API or OSRM."
   },
   {
-    "name": "GTFS Editor A (self-hosted) web-based GTFS editing framework. (Note: this project has been deprecated in favor of Conveyal Data Tools.)",
+    "name": "GTFS Editor A (self-hosted) web-based GTFS editing framework. (Note: this project has been deprecated in favor of IBI Data Tools.)",
     "url": "https://github.com/conveyal/gtfs-editor"
   },
   {
@@ -627,8 +642,8 @@
     "description": "An open source web and mobile application for collecting transit data. Use it to create GTFS feeds, capture passenger counts or generate GIS datasets."
   },
   {
-    "name": "Conveyal Data Tools",
-    "url": "https://github.com/conveyal/datatools-ui",
+    "name": "IBI Data Tools",
+    "url": "https://github.com/ibi-group/datatools-ui",
     "description": "A web application that handles GTFS editing, validating, quality checking, and deploying to OpenTripPlanner. (Combines and builds upon the functionality of the deprecated Gtfs Data Manager and GTFS Editor.)"
   },
   {
@@ -1028,6 +1043,11 @@
     "name": "\"AVL, CAD, and Real-Time Passenger Info for Beginners\" by Tony Laidig",
     "url": "http://transitdata.net/avl-cad-and-real-time-passenger-info-for-beginners/",
     "description": "Provides a general introduction to technology used to track vehicles."
+  },
+  {
+    "name": "\"Visualizing Better Transportation: Data & Tools\" by Steve Pepple",
+    "url": "https://medium.com/@stevepepple/visualizing-better-transportation-data-tools-e48b8317a21c",
+    "description": "A collection of transportation-related data and tools for the San Francisco Bay Area and other cities in North America, originally collected and discussed at a 2018 Transit Week Event at ARUP in San Francisco."
   },
   {
     "name": "Tang et al.",

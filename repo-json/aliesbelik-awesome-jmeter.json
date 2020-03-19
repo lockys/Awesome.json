@@ -21,12 +21,12 @@
   },
   {
     "name": "Mailing Lists",
-    "url": "http://jmeter.apache.org//mail2.html",
+    "url": "https://jmeter.apache.org//mail2.html",
     "description": "Apache JMeter mailing lists."
   },
   {
     "name": "Download Apache JMeter",
-    "url": "http://jmeter.apache.org/download_jmeter.cgi",
+    "url": "https://jmeter.apache.org/download_jmeter.cgi",
     "description": "Apache JMeter: Official downloads."
   },
   {
@@ -35,12 +35,17 @@
     "description": "Package for installation JMeter with plugins."
   },
   {
+    "name": "JMeter Bootstrap",
+    "url": "https://github.com/cfpb/jmeter-bootstrap",
+    "description": "Solution to setup JMeter and JMeter plugins, suitable to be used as a submodule."
+  },
+  {
     "name": "Getting Started with Apache JMeter",
     "url": "https://dzone.com/refcardz/getting-started-with-apache-jmeter"
   },
   {
     "name": "A Simple Load Test with JMeter",
-    "url": "https://www.urbaninsight.com/2011/07/18/simple-load-test-with-jmeter"
+    "url": "https://www.urbaninsight.com/article/simple-load-test-with-jmeter"
   },
   {
     "name": "Performance testing with JMeter",
@@ -48,7 +53,7 @@
   },
   {
     "name": "JMeter Tutorials",
-    "url": "https://artoftesting.com/jmeter-tutorial.html"
+    "url": "https://artoftesting.com/jmeter-tutorial"
   },
   {
     "name": "Load Testing your Applications with Apache JMeter",
@@ -108,7 +113,8 @@
   },
   {
     "name": "JMeter Tutorial",
-    "url": "https://www.guru99.com/jmeter-tutorials.html"
+    "url": "https://www.guru99.com/jmeter-tutorials.html",
+    "description": "By Guru99."
   },
   {
     "name": "JMeter Series",
@@ -116,7 +122,7 @@
   },
   {
     "name": "JMeter Official Best Practices",
-    "url": "http://jmeter.apache.org/usermanual/best-practices.html"
+    "url": "https://jmeter.apache.org/usermanual/best-practices.html"
   },
   {
     "name": "JMeter Best Practices",
@@ -149,17 +155,27 @@
   {
     "name": "loadtest",
     "url": "https://github.com/tmobile/loadtest",
-    "description": "An R Package for load testing using JMeter."
+    "description": "An R package for load testing using JMeter."
   },
   {
     "name": "Lightning",
-    "url": "http://automatictester.github.io/lightning/",
+    "url": "https://automatictester.github.io/lightning/",
     "description": "Framework to integrate JMeter non-functional tests with CI/CD server."
   },
   {
     "name": "Taurus",
     "url": "https://gettaurus.org/",
     "description": "Automation-friendly framework for Continuous Testing."
+  },
+  {
+    "name": "JMeter Load Testing Center",
+    "url": "https://github.com/innogames/JMeter-Control-Center",
+    "description": "Online web-application/dashboard to run, monitor and analyze results of load tests using JMeter."
+  },
+  {
+    "name": "Performance testing framework",
+    "url": "https://github.com/serputko/performance-testing-framework",
+    "description": "Framework both for backend load testing with Apache JMeter and frontend load testing with sitespeed.io + webpagetest private instance."
   },
   {
     "name": "JMeter Ant Task",
@@ -173,7 +189,7 @@
   },
   {
     "name": "Jenkins Performance Plugin",
-    "url": "https://wiki.jenkins.io/display/JENKINS/Performance+Plugin",
+    "url": "https://plugins.jenkins.io/performance/",
     "description": "Jenkins plugin to capture reports from JMeter and generate graphic charts with the trend report of performance and robustness."
   },
   {
@@ -183,7 +199,7 @@
   },
   {
     "name": "Bamboo JMeter Aggregator Plugin: documentation, sources",
-    "url": "https://marketplace.atlassian.com/plugins/jmeterAggregator/server/overview",
+    "url": "https://marketplace.atlassian.com/apps/5902/jmeter-aggregator-for-bamboo",
     "description": "Bamboo plugin to collect, assert and graph JMeter test results."
   },
   {
@@ -193,13 +209,13 @@
   },
   {
     "name": "Lightning",
-    "url": "http://automatictester.github.io/lightning/",
+    "url": "https://automatictester.github.io/lightning/",
     "description": "Framework to integrate JMeter non-functional tests with CI/CD server."
   },
   {
     "name": "Taurus",
-    "url": "https://gettaurus.org/",
-    "description": "Automation-friendly framework for Continuous Testing."
+    "url": "https://gettaurus.org/docs/JMeter/",
+    "description": "JMeter Executor in Taurus automation framework."
   },
   {
     "name": "Automated performance testing using JMeter and Maven",
@@ -255,15 +271,15 @@
   },
   {
     "name": "JMeter with Sonar",
-    "url": "http://testersinaction.blogspot.com.by/2013/05/v-behaviorurldefaultvmlo_24.html"
+    "url": "http://testersinaction.blogspot.com/2013/05/v-behaviorurldefaultvmlo_24.html"
   },
   {
     "name": "JMeter Distributed Testing Step-by-step",
-    "url": "http://jmeter.apache.org/usermanual/jmeter_distributed_testing_step_by_step.pdf"
+    "url": "https://jmeter.apache.org/usermanual/jmeter_distributed_testing_step_by_step.pdf"
   },
   {
     "name": "JMeter Remote Testing",
-    "url": "http://jmeter.apache.org/usermanual/remote-test.html"
+    "url": "https://jmeter.apache.org/usermanual/remote-test.html"
   },
   {
     "name": "Setting up a JMeter Cluster for web server load testing",
@@ -287,13 +303,28 @@
     "url": "https://medium.com/@ellenhuang523/a-docker-solution-to-jmeter-influxdb-grafana-performance-testing-568848de7a0f"
   },
   {
+    "name": "AutoMeter",
+    "url": "https://github.com/intuit/autometer",
+    "description": "An automation tool for scaling load tests using distributed slaves, based on JMeter master-slave architecture."
+  },
+  {
     "name": "jmeter-ec2",
-    "url": "http://web.archive.org/web/20120209090437/http://www.http503.com/2012/jmeter-ec2/",
-    "description": "Run JMeter on Amazon's EC2 Cloud."
+    "url": "https://github.com/oliverlloyd/jmeter-ec2/",
+    "description": "Automates running Apache JMeter on Amazon EC2."
+  },
+  {
+    "name": "gee",
+    "url": "https://github.com/kowalcj0/gee",
+    "description": "A modified version of JMeter-EC2 project."
+  },
+  {
+    "name": "os-jmeter-aws",
+    "url": "https://github.com/OrdnanceSurvey/os-jmeter-aws",
+    "description": "Run JMeter on multiple AWS instances, view results in ELK."
   },
   {
     "name": "Load Testing with JMeter and Amazon EC2",
-    "url": "https://medium.com/@alttaf_untangl/load-testing-with-jmeter-and-amazon-ec2-e143a7350596"
+    "url": "https://medium.com/@alttaf/load-testing-with-jmeter-and-amazon-ec2-e143a7350596"
   },
   {
     "name": "Performance Testing in the Cloud with JMeter & AWS",
@@ -301,16 +332,21 @@
   },
   {
     "name": "JMeter distributed testing with Amazon EC2",
-    "url": "https://vedovini.net/2009/08/jmeter-distributed-testing-with-amazon-ec2/"
+    "url": "https://vedovini.net/2009/08/17/jmeter-distributed-testing-with-amazon-ec2/"
   },
   {
     "name": "Lightweight JMeter Cloud",
     "url": "https://docs.google.com/presentation/d/1Yi5C27C3Q0AnT-uw9SRnMeEqXSKLQ8h9O9Jqo1gQiyI/",
-    "description": "Building your own JMeter Cloud using Digital Ocean, JMeter and Docker."
+    "description": "Building your own JMeter Cloud using DigitalOcean, JMeter and Docker."
+  },
+  {
+    "name": "Load Testing Pipeline with JMeter, ACI and Terraform",
+    "url": "https://github.com/Azure-Samples/jmeter-aci-terraform",
+    "description": "Scalable cloud load/stress testing pipeline solution with Apache JMeter and Terraform to dynamically provision and destroy the required infrastructure on Azure."
   },
   {
     "name": "CA BlazeMeter",
-    "url": "http://blazemeter.com/",
+    "url": "https://www.blazemeter.com/",
     "description": "Performance engineering platform with JMeter and Selenium support."
   },
   {
@@ -320,36 +356,37 @@
   },
   {
     "name": "Tricentis Flood",
-    "url": "http://flood.io/",
+    "url": "https://flood.io/",
     "description": "Load testing service with JMeter, Gatling and Selenium scenarios support."
   },
   {
     "name": "RedLine13",
-    "url": "http://redline13.com/",
+    "url": "https://redline13.com/",
     "description": "AWS-based load testing service with JMeter, Gatling and Selenium scenarios support."
   },
   {
-    "name": "HP StormRunner Load",
-    "url": "https://saas.hpe.com/en-us/software/stormrunner-load",
-    "description": "HP cloud-based solution for web and mobile performance testing with JMeter and Gatling support."
+    "name": "LoadRunner Cloud",
+    "url": "https://www.microfocus.com/en-us/products/loadrunner-cloud/overview",
+    "description": "Micro Focus cloud-based solution for web and mobile performance testing with JMeter and Gatling support (formerly HP StormRunner Load)."
   },
   {
     "name": "Loadster",
-    "url": "http://www.loadsterperformance.com/",
+    "url": "https://loadster.app/",
     "description": "Solution for distributes load testing of web applications and services."
   },
   {
     "name": "Loadium",
-    "url": "https://www.loadium.com/",
+    "url": "https://loadium.com/",
     "description": "AWS-based load testing service with JMeter and Selenium support."
   },
   {
     "name": "JMeter Report Dashboard",
-    "url": "http://jmeter.apache.org/usermanual/generating-dashboard.html"
+    "url": "https://jmeter.apache.org/usermanual/generating-dashboard.html",
+    "description": "JMeter supports dashboard report generation to get graphs and statistics from a test plan."
   },
   {
     "name": "JMeter Log Analysis",
-    "url": "http://wiki.apache.org/jmeter/LogAnalysis",
+    "url": "https://cwiki.apache.org/confluence/display/jmeter/LogAnalysis",
     "description": "Suggestions and recipes for JMeter log analysis."
   },
   {
@@ -377,27 +414,22 @@
   },
   {
     "name": "JMeter Results Analyser",
-    "url": "http://sourceforge.net/projects/jmstats/",
+    "url": "https://sourceforge.net/projects/jmstats/",
     "description": "Web-based application for collating, analysing and reporting JMeter test results."
   },
   {
     "name": "JMeter DBCollector Plugin",
-    "url": "http://sourceforge.net/projects/jmeterdbcollect/",
+    "url": "https://sourceforge.net/projects/jmeterdbcollect/",
     "description": "Plugin to enable results logging into a database for more effective reporting."
   },
   {
     "name": "JMeter MySQLCollector Plugin",
-    "url": "http://wiki.apache.org/jmeter/MysqlCollectorPlugin",
+    "url": "https://cwiki.apache.org/confluence/display/jmeter/MysqlCollectorPlugin",
     "description": "Patch to configure listener to log into MySQL database."
   },
   {
-    "name": "JMeter Report Dashboard",
-    "url": "http://jmeter.apache.org/usermanual/generating-dashboard.html",
-    "description": "JMeter supports dashboard report generation to get graphs and statistics from a test plan."
-  },
-  {
     "name": "Using JMeter with InfluxDB & Grafana",
-    "url": "http://www.vinsguru.com/category/influxdb/",
+    "url": "https://www.vinsguru.com/category/influxdb/",
     "description": "Collection of guides to collect and visualize real-time test-results and server monitoring stats using InfluxDB & Grafana."
   },
   {
@@ -406,18 +438,23 @@
   },
   {
     "name": "JMeter Load Test Dashboard",
-    "url": "https://grafana.com/dashboards/1152",
-    "description": "By NovaTec-APM."
+    "url": "https://grafana.com/grafana/dashboards/1152",
+    "description": "Grafana dashboard shows live load test metrics provided by JMeter (by NovaTec-APM)."
   },
   {
     "name": "JMeter Dashboard using Core InfluxdbBackendListenerClient",
     "url": "https://grafana.com/grafana/dashboards/5496",
-    "description": "By Philippe M."
+    "description": "Monitor your Apache JMeter load test in real time with InfluxDB and Grafana (by Philippe M)."
   },
   {
     "name": "JMeter Dashboard (3.2 and up)",
     "url": "https://grafana.com/grafana/dashboards/3351",
-    "description": "By adrianbanu."
+    "description": "Monitor JMeter load test in real time with InfluxDB and Grafana (by adrianbanu)."
+  },
+  {
+    "name": "JMeter (via prometheus exporter)",
+    "url": "https://grafana.com/grafana/dashboards/2492",
+    "description": "A Grafana dashboard to inspect JMeter metrics via Prometheus exporter (by chiabre)."
   },
   {
     "name": "JMeter-InfluxBD-Writer Plugin",
@@ -440,13 +477,38 @@
     "description": "Using the ElasticSearch Backend listener and Grafana/Kibana to monitor results in realtime."
   },
   {
-    "name": "JMeter ElasticSearch Backend Listener",
+    "name": "jmeter-prometheus-plugin",
+    "url": "https://github.com/johrstrom/jmeter-prometheus-plugin",
+    "description": "A Prometheus Listener for Apache JMeter that exposes results in HTTP API."
+  },
+  {
+    "name": "JMeter Results from ClickHouse",
+    "url": "https://grafana.com/grafana/dashboards/9561",
+    "description": "Using the JMeter Listener pack, ClickHouse and Grafana to collect and monitor test results."
+  },
+  {
+    "name": "jmeter-elasticsearch-backend-listener",
     "url": "https://github.com/delirius325/jmeter-elasticsearch-backend-listener",
     "description": "JMeter plugin to send test results to an ElasticSearch engine."
   },
   {
+    "name": "jmeter-backend-azure",
+    "url": "https://github.com/adrianmo/jmeter-backend-azure",
+    "description": "JMeter plugin to send test results to Azure Application Insights."
+  },
+  {
+    "name": "jmeter-backend-listener-kafka",
+    "url": "https://github.com/rahulsinghai/jmeter-backend-listener-kafka",
+    "description": "JMeter plugin to send test results to a Kafka server."
+  },
+  {
+    "name": "jmeter-listener",
+    "url": "https://gitlab.com/testload/jmeter-listener",
+    "description": "JMeter plugin to write load test data on-the-fly to ClickHouse, InfluxDB, ElasticSearch."
+  },
+  {
     "name": "Using Matplotlib & Python",
-    "url": "http://www.metaltoad.com/blog/plotting-your-load-test-jmeter",
+    "url": "https://www.metaltoad.com/blog/plotting-your-load-test-jmeter",
     "description": "Plotting JMeter load test results with Matplotlib plotting tool and Python."
   },
   {
@@ -461,12 +523,12 @@
   },
   {
     "name": "JMeter Dashboard: howto, sources",
-    "url": "http://seangkuan.blogspot.com.by/2015/06/jmeter-dashboard-realtime-monitoring-of.html",
+    "url": "http://seangkuan.blogspot.com/2015/06/jmeter-dashboard-realtime-monitoring-of.html",
     "description": "Realtime monitoring of JMeter load test."
   },
   {
     "name": "Using CMDRunner & Powershell",
-    "url": "http://performancewebautoamtionother.blogspot.com.by/2015/12/jmeter-create-graphs-with-cmdrunner.html",
+    "url": "http://performancewebautoamtionother.blogspot.com/2015/12/jmeter-create-graphs-with-cmdrunner.html",
     "description": "Create JMeter graphs with CMDRunner with powershell parallel execution."
   },
   {
@@ -495,7 +557,7 @@
   },
   {
     "name": "Load testing HLS with Ruby JMeter",
-    "url": "https://flood.io/blog/load-testing-hls-with-ruby-jmeter/"
+    "url": "https://flood.io/blog/load-testing-hls-with-ruby-jmeter"
   },
   {
     "name": "HLS JMeter Plugin: guide v.1, guide v.2, sources",
@@ -506,12 +568,12 @@
     "url": "http://www.testautomationguru.com/jmeter-record-ios-application-http-requests/"
   },
   {
-    "name": "BlazeMeter Mobile Recorder",
-    "url": "https://guide.blazemeter.com/hc/en-us/articles/207420545-BlazeMeter-Recorder-Mobile-Recorder-"
+    "name": "Load Testing Mobile Apps Made Easy",
+    "url": "https://www.blazemeter.com/blog/load-testing-mobile-apps-made-easy/"
   },
   {
     "name": "Performance Testing for Native Mobile Apps",
-    "url": "https://www.blazemeter.com/blog/view-webcast-performance-testing-native-mobile-apps"
+    "url": "https://www.blazemeter.com/blog/view-webcast-performance-testing-native-mobile-apps/"
   },
   {
     "name": "Servers Performance Monitoring Plugin",
@@ -569,7 +631,7 @@
   },
   {
     "name": "How to create a plugin in JMeter",
-    "url": "http://stackoverflow.com/questions/20422640/how-to-create-a-plugin-in-jmeter"
+    "url": "https://stackoverflow.com/questions/20422640/how-to-create-a-plugin-in-jmeter"
   },
   {
     "name": "Custom JMeter Samplers and Config Elements",
@@ -620,12 +682,12 @@
   },
   {
     "name": "JMeter Performance and Tuning Tips",
-    "url": "http://www.ubik-ingenierie.com/blog/jmeter_performance_tuning_tips/",
+    "url": "https://www.ubik-ingenierie.com/blog/jmeter_performance_tuning_tips/",
     "description": "By UBIK Ingenierie."
   },
   {
     "name": "JMeter Performance and Tuning Tips",
-    "url": "https://blazemeter.com/blog/jmeter-performance-and-tuning-tips",
+    "url": "https://www.blazemeter.com/blog/jmeter-performance-and-tuning-tips",
     "description": "By BlazeMeter."
   },
   {
@@ -640,12 +702,12 @@
   },
   {
     "name": "Apache JMeter: A Practical Beginner's Guide to Automated Testing and Performance Measurement for Your Websites",
-    "url": "http://books.google.com/books?id=nX8oKIEvUcYC",
+    "url": "https://books.google.com/books?id=nX8oKIEvUcYC",
     "description": "By Emily H. Halili (Packt Publishing)."
   },
   {
     "name": "Performance Testing with JMeter 2.9",
-    "url": "http://books.google.com/books?id=fpWmv3wPT64C",
+    "url": "https://books.google.com/books?id=fpWmv3wPT64C",
     "description": "By Bayo Erinle (Packt Publishing); guide to test web applications using Apache JMeter with practical, hands-on examples."
   },
   {
@@ -705,7 +767,7 @@
   },
   {
     "name": "JMeter Training Academy",
-    "url": "https://www.blazemeter.com/jmeter-tutorial/",
+    "url": "https://www.blazemeter.com/university/",
     "description": "By BlazeMeter."
   },
   {
@@ -745,7 +807,7 @@
   },
   {
     "name": "Ubik Load Pack Blog",
-    "url": "http://www.ubik-ingenierie.com/blog/category/jmeter/",
+    "url": "https://www.ubik-ingenierie.com/blog/category/jmeter/",
     "description": "Ubik Ingenierie blog."
   },
   {
@@ -760,7 +822,7 @@
   },
   {
     "name": "Flood.io Blog",
-    "url": "https://flood.io/blog/",
+    "url": "https://flood.io/blog",
     "description": "Load testing thoughts, stories and ideas from Flood IO."
   },
   {
@@ -787,6 +849,14 @@
     "name": "JMeter Expert Blog",
     "url": "http://jmeter-expert.blogspot.com/",
     "description": "JMeterExpert blog (no updates more)."
+  },
+  {
+    "name": "JMeter Google Group",
+    "url": "https://groups.google.com/forum/#!forum/ptgram24"
+  },
+  {
+    "name": "JMeterPlugins Google Group",
+    "url": "https://groups.google.com/forum/#!forum/jmeter-plugins"
   },
   {
     "name": "JMeter Nabble Forum",
@@ -833,11 +903,15 @@
   },
   {
     "name": "JMeter @ Stack Overflow",
-    "url": "http://stackoverflow.com/questions/tagged/jmeter"
+    "url": "https://stackoverflow.com/questions/tagged/jmeter"
   },
   {
     "name": "JMeter Slack workspace",
-    "url": "http://jmeterusers.slack.com/"
+    "url": "https://jmeterusers.slack.com/"
+  },
+  {
+    "name": "JMeter Spectrum community",
+    "url": "https://spectrum.chat/jmeter"
   },
   {
     "name": "JMeter @ gitter",
@@ -865,7 +939,7 @@
   },
   {
     "name": "Awesome Web Performance Metrics",
-    "url": "https://github.com/csabapalfi/awesome-web-performance-metrics",
+    "url": "https://github.com/palfi-ltd/awesome-web-performance-metrics",
     "description": "Metrics to help understand page speed and user experience."
   },
   {
@@ -887,5 +961,20 @@
     "name": "Awesome inspectIT",
     "url": "https://github.com/inspectit-labs/awesome-inspectit",
     "description": "Open source Java app performance management tool."
+  },
+  {
+    "name": "Awesome Tsung",
+    "url": "https://github.com/aliesbelik/awesome-tsung",
+    "description": "Open-source multi-protocol distributed load testing tool, developed in Erlang."
+  },
+  {
+    "name": "Awesome Gatling",
+    "url": "https://github.com/aliesbelik/awesome-gatling",
+    "description": "Open-source load and performance testing framework based on Scala, Akka and Netty."
+  },
+  {
+    "name": "Awesome k6",
+    "url": "https://github.com/k6io/awesome-k6",
+    "description": "Open-source, developer-centric performance monitoring and load testing solution."
   }
 ]

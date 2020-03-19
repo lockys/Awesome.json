@@ -197,7 +197,7 @@
   {
     "name": "bitwise",
     "url": "https://github.com/mellowcandle/bitwise",
-    "description": "Base convertion and bit manipulator in ncurses."
+    "description": "Base conversion and bit manipulator in ncurses."
   },
   {
     "name": "foy",
@@ -355,6 +355,11 @@
     "description": " Shell for issuing SQL via JDBC."
   },
   {
+    "name": "iredis",
+    "url": "https://github.com/laixintao/iredis",
+    "description": "Redis client with autocompletion and syntax highlighting."
+  },
+  {
     "name": "htconvert",
     "url": "https://github.com/lukechilds/htconvert",
     "description": "Convert .htaccess redirects to nginx.conf redirects."
@@ -415,6 +420,11 @@
     "description": "Manage AWS EC2 rightsizing."
   },
   {
+    "name": "docker-shell",
+    "url": "https://github.com/Trendyol/docker-shell",
+    "description": "Simple interactive docker interface."
+  },
+  {
     "name": "release-it",
     "url": "https://github.com/webpro/release-it",
     "description": "Automate releases for Git repositories and/or npm packages. Changelog generation, GitHub/GitLab releases, etc."
@@ -463,6 +473,11 @@
     "name": "updates",
     "url": "https://github.com/silverwind/updates",
     "description": "Flexible npm dependency update tool."
+  },
+  {
+    "name": "wipe-modules",
+    "url": "https://github.com/bntzio/wipe-modules",
+    "description": "Remove node_modules of inactive projects."
   },
   {
     "name": "yo",
@@ -555,16 +570,6 @@
     "description": "Google from the terminal."
   },
   {
-    "name": "calcurse",
-    "url": "http://calcurse.org/",
-    "description": "A calendar and scheduling application for the command-line."
-  },
-  {
-    "name": "gcalcli",
-    "url": "https://github.com/insanum/gcalcli",
-    "description": "Access Google calendar from the terminal."
-  },
-  {
     "name": "papis",
     "url": "http://github.com/alejandrogallo/papis",
     "description": "Extensible document and bibliography manager."
@@ -642,7 +647,7 @@
   {
     "name": "dnote",
     "url": "https://github.com/dnote/dnote",
-    "description": "A simple, interactive notebook."
+    "description": "A interactive, multi-device notebook."
   },
   {
     "name": "ledger",
@@ -683,6 +688,26 @@
     "name": "sent",
     "url": "https://tools.suckless.org/sent/",
     "description": "Simple plaintext presentation tool."
+  },
+  {
+    "name": "calcurse",
+    "url": "http://calcurse.org/",
+    "description": "Calendar and scheduling."
+  },
+  {
+    "name": "gcalcli",
+    "url": "https://github.com/insanum/gcalcli",
+    "description": "Google calendar client."
+  },
+  {
+    "name": "khal",
+    "url": "https://github.com/pimutils/khal",
+    "description": "CalDAV ready CLI and TUI calendar."
+  },
+  {
+    "name": "vidirsyncer",
+    "url": "https://github.com/pimutils/vdirsyncer",
+    "description": "CalDAV sync."
   },
   {
     "name": "archive-type-cli",
@@ -877,7 +902,7 @@
   {
     "name": "splash-cli",
     "url": "https://github.com/rawnly/splash-cli",
-    "description": "Beautiful wallpapers from unsplash."
+    "description": "Beautiful wallpapers from Unsplash."
   },
   {
     "name": "wallpaper-cli",
@@ -892,7 +917,7 @@
   {
     "name": "JackPaper",
     "url": "https://github.com/jackel27/jackpaper",
-    "description": "Apply random/queried images from unplash.com as desktop wallpaper."
+    "description": "Set images from Unsplash as wallpaper."
   },
   {
     "name": "pywal",
@@ -1195,17 +1220,22 @@
   {
     "name": "alder",
     "url": "https://github.com/aweary/alder",
-    "description": "A minimal implementation of the UNIX tree command with colors!"
+    "description": "Minimal tree with colors."
   },
   {
     "name": "exa",
     "url": "https://github.com/ogham/exa",
-    "description": "An improved version of ls written in Rust."
+    "description": "Improved version of ls."
   },
   {
     "name": "tre",
     "url": "https://github.com/dduan/tre",
-    "description": "Tree command with git awareness, editor aliasing, and more."
+    "description": "tree with git awareness, editor aliasing, and more."
+  },
+  {
+    "name": "ll",
+    "url": "https://github.com/antonmedv/ll",
+    "description": "ls with git status."
   },
   {
     "name": "autojump",
@@ -1276,6 +1306,11 @@
     "name": "fd",
     "url": "https://github.com/sharkdp/fd",
     "description": "A simple, fast and user-friendly alternative to find."
+  },
+  {
+    "name": "broot",
+    "url": "https://github.com/Canop/broot",
+    "description": "Fuzzy finder similar to fzf, but with space usage visualization."
   },
   {
     "name": "CLI GitHub",
@@ -1395,7 +1430,12 @@
   {
     "name": "korkut",
     "url": "https://github.com/oguzhaninan/korkut",
-    "description": "Quick and simple image processing at the command line."
+    "description": "Quick and simple image processing."
+  },
+  {
+    "name": "imagemagick",
+    "url": "https://imagemagick.org",
+    "description": "Gold standard for anything images."
   },
   {
     "name": "SVGO",
@@ -1471,6 +1511,11 @@
     "name": "text-meme",
     "url": "https://github.com/beatfreaker/text-meme-cli",
     "description": "Generate text memes."
+  },
+  {
+    "name": "dankcli",
+    "url": "https://github.com/sggts04/dankcli",
+    "description": "Add text to meme image templates."
   },
   {
     "name": "birthday",
@@ -1586,6 +1631,11 @@
     "name": "Qalculate",
     "url": "https://github.com/Qalculate/libqalculate",
     "description": "Calculate non-trival math expressions. Unit conversions, symbolic calculations and more."
+  },
+  {
+    "name": "translate-shell",
+    "url": "https://github.com/soimort/translate-shell",
+    "description": "Google Translate interface."
   },
   {
     "name": "emoj",

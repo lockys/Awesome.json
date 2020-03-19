@@ -40,10 +40,6 @@
     "url": "https://training.play-with-docker.com/"
   },
   {
-    "name": "Play With Moby: PWM is a web based Moby playground which allows you to try different components of the platform in seconds. It gives you the experience of having a free Alpine Linux Virtual Machine in the cloud where you can build and run Moby projects and even create clusters to experiment.",
-    "url": "http://play-with-moby.com/"
-  },
-  {
     "name": "Practical Introduction to Container Terminology The landscape for container technologies is larger than just docker. Without a good handle on the terminology, It can be difficult to grasp the key differences between docker and (pick your favorites, CRI-O, rkt, lxc/lxd) or understand what the Open Container Initiative is doing to standardize container technology.",
     "url": "https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/"
   },
@@ -219,6 +215,11 @@
     "name": "Stacker",
     "url": "https://github.com/stacker/stacker-cli",
     "description": "Docker Compose Templates. Stacker provides an abstraction layer over Docker Compose and a better DX (developer experience)."
+  },
+  {
+    "name": "Stitchocker",
+    "url": "https://github.com/alexaandrov/stitchocker",
+    "description": "A lightweight and fast command line utility for conveniently grouping your docker-compose multiple container services. By @alexaandrov"
   },
   {
     "name": "Smalte – Dynamically configure applications that require static configuration in docker container. By @roquie",
@@ -611,7 +612,7 @@
   },
   {
     "name": "Let's Encrypt Nginx-proxy Companion",
-    "url": "https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion",
+    "url": "https://github.com/nginx-proxy/docker-letsencrypt-nginx-proxy-companion",
     "description": "A lightweight companion container for the nginx-proxy. It allow the creation/renewal of Let's Encrypt certificates automatically. By @JrCs"
   },
   {
@@ -621,7 +622,7 @@
   },
   {
     "name": "nginx-proxy",
-    "url": "https://github.com/jwilder/nginx-proxy",
+    "url": "https://github.com/nginx-proxy/nginx-proxy",
     "description": "Automated nginx proxy for Docker containers using docker-gen by @jwilder"
   },
   {
@@ -708,6 +709,11 @@
     "name": "Sysdig Secure 💲",
     "url": "https://sysdig.com/products/kubernetes-security/runtime-security/",
     "description": "Sysdig Secure addresses run-time security through behavioral monitoring and defense, and provides deep forensics based on open source Sysdig for incident response."
+  },
+  {
+    "name": "Trend Micro DeepSecurity 💲",
+    "url": "https://www.trendmicro.com/en_us/business/products/hybrid-cloud/deep-security.html",
+    "description": "Trend Micro DeepSecurity offers runtime protection for container workloads and hosts as well as preruntime scanning of images to identify vulnerabilities, malware and content such as hardcoded secrets."
   },
   {
     "name": "Twistlock 💲",
@@ -1211,7 +1217,7 @@
   },
   {
     "name": "packer",
-    "url": "https://www.packer.io/docs/builders/docker.html",
+    "url": "https://packer.io/docs/builders/docker.html",
     "description": "Hashicorp tool to build machine images including docker image integrated with configuration management tools like chef, puppet, ansible"
   },
   {
@@ -1384,6 +1390,11 @@
     "description": "A small tool to delete image manifests from a Docker Registry implementing the API v2, dereferencing them for the GC by @hcguersoy"
   },
   {
+    "name": "Dist 💲",
+    "url": "https://www.dist.cloud/product/container-registry/",
+    "description": "Private cloud-based Docker container registry"
+  },
+  {
     "name": "Docker Hub provided by Docker Inc.",
     "url": "https://hub.docker.com/"
   },
@@ -1396,11 +1407,6 @@
     "name": "Docket",
     "url": "https://github.com/netvarun/docket",
     "description": "Custom docker registry that allows for lightning fast deploys through bittorrent by @netvarun"
-  },
-  {
-    "name": "Europa 💲",
-    "url": "https://github.com/puppetlabs/europa",
-    "description": "Private docker registry with support for image pipelines and webhooks. By @puppetlabs"
   },
   {
     "name": "GCE Container Registry 💲 Fast, private Docker image storage on Google Cloud Platform",
