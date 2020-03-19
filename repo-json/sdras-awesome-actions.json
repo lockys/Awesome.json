@@ -9,7 +9,7 @@
   },
   {
     "name": "Official Documentation",
-    "url": "https://help.github.com/en/actions/automating-your-workflow-with-github-actions"
+    "url": "https://help.github.com/en/actions"
   },
   {
     "name": "Official Actions organization\n\nactions/virtual-environments",
@@ -96,6 +96,11 @@
     "description": "An action for automatically labelling pull requests."
   },
   {
+    "name": "actions/delete-package-versions",
+    "url": "https://github.com/actions/delete-package-versions",
+    "description": "Delete versions of a package from GitHub Packages."
+  },
+  {
     "name": "actions/setup-node: Node.js",
     "url": "https://github.com/actions/setup-node"
   },
@@ -171,23 +176,6 @@
     "url": "https://github.com/micnncim/action-label-syncer"
   },
   {
-    "name": "Run GitHub Actions Locally",
-    "url": "https://github.com/nektos/act"
-  },
-  {
-    "name": "Alternative (Python-based) for Running GitHub Actions Locally",
-    "url": "https://github.com/systemslab/popper"
-  },
-  {
-    "name": "Manage GitHub Action workflows and actions by cli",
-    "url": "https://github.com/inextensodigital/actions/tree/master/github-workflow",
-    "description": "Allows you to script edition."
-  },
-  {
-    "name": "GitHub Action Builder and Previewer",
-    "url": "https://create-github-action.now.sh/"
-  },
-  {
     "name": "Add releases to GitHub",
     "url": "https://github.com/elgohr/Github-Release-Action"
   },
@@ -209,8 +197,12 @@
     "description": "Automate GitHub Project cards with any webhook event."
   },
   {
-    "name": "Run GitHub Actions Locally with a web interface. Supports new YAML syntax",
+    "name": "Run GitHub Actions Locally with a web interface",
     "url": "https://github.com/phishy/wflow"
+  },
+  {
+    "name": "Run GitHub Actions Locally in Terminal",
+    "url": "https://github.com/nektos/act"
   },
   {
     "name": "Build and Publish Android debug APK",
@@ -257,28 +249,32 @@
     "url": "https://github.com/damccorm/tag-ur-it"
   },
   {
-    "name": "Many linters and autofixers for various languages",
-    "url": "https://github.com/bltavares/actions"
+    "name": "Rollback a GitHub Release",
+    "url": "https://github.com/author/action-rollback"
   },
   {
-    "name": "Node.js Actions Toolkit",
-    "url": "https://github.com/JasonEtco/actions-toolkit"
+    "name": "Lock Closed Issues and Pull Requests after a Period of Inactivity",
+    "url": "https://github.com/dessant/lock-threads"
+  },
+  {
+    "name": "Get Commit Difference Count Between Two Branches",
+    "url": "https://github.com/jessicalostinspace/commit-difference-action"
   },
   {
     "name": "Use HashiCorp's Terraform",
     "url": "https://github.com/hashicorp/terraform-github-actions"
   },
   {
-    "name": "GitHub Actions for Yarn",
+    "name": "GitHub Actions for Yarn 1",
     "url": "https://github.com/Borales/actions-yarn"
+  },
+  {
+    "name": "GitHub Actions for Yarn 2",
+    "url": "https://github.com/sergioramos/yarn-actions"
   },
   {
     "name": "GitHub Actions for Golang",
     "url": "https://github.com/cedrickring/golang-action"
-  },
-  {
-    "name": "Android Build and Emulator Actions",
-    "url": "https://github.com/vgaidarji/android-github-actions"
   },
   {
     "name": "GitHub Actions for R and accompanying #rstats package",
@@ -305,11 +301,6 @@
     "url": "https://github.com/actions-rs"
   },
   {
-    "name": "GitHub Actions for Yarn",
-    "url": "https://github.com/sergioramos/yarn-actions",
-    "description": "new syntax"
-  },
-  {
     "name": "GitHub Actions for Android",
     "url": "https://github.com/Malinskiy/action-android"
   },
@@ -331,48 +322,9 @@
     "description": "GitHub Actions for GitHub REST API"
   },
   {
-    "name": "Sleep",
-    "url": "https://github.com/maddox/actions/tree/master/sleep"
-  },
-  {
-    "name": "Wait for 200",
-    "url": "https://github.com/maddox/actions/tree/master/wait-for-200"
-  },
-  {
-    "name": "Run Cake tasks",
-    "url": "https://github.com/gep13/cake-actions"
-  },
-  {
-    "name": "Run psake tasks",
-    "url": "https://github.com/devblackops/psake-github-actions"
-  },
-  {
-    "name": "SSH",
-    "url": "https://github.com/maddox/actions/tree/master/ssh",
-    "description": "Run SSH commands on a server."
-  },
-  {
     "name": "Setup ssh-agent",
     "url": "https://github.com/webfactory/ssh-agent",
     "description": "Run ssh-agent with additional SSH keys to access private repositories."
-  },
-  {
-    "name": "General purpose HTTP client for Actions, wrapping HTTPie",
-    "url": "https://github.com/swinton/httpie-action"
-  },
-  {
-    "name": "Run pandoc",
-    "url": "https://github.com/maxheld83/pandoc",
-    "description": "The swiss army knife for document conversions."
-  },
-  {
-    "name": "Debug Action",
-    "url": "https://github.com/hmarr/debug-action",
-    "description": "Print environment variables and event to the Actions logs."
-  },
-  {
-    "name": "Gate actions by filtering if files matching a pattern have been touched",
-    "url": "https://github.com/cds-snc/github-actions/tree/master/touched"
   },
   {
     "name": "GitHub Actions Badges for your README",
@@ -470,11 +422,6 @@
     "url": "https://github.com/max/awesome-lint"
   },
   {
-    "name": "Action to lint Awesome lists",
-    "url": "https://github.com/squadcastHQ/awesome-lint-action",
-    "description": "Uses awesome-lint to lint awesome lists as an Action."
-  },
-  {
     "name": "Edit JSON File",
     "url": "https://github.com/deef0000dragon1/json-edit-action"
   },
@@ -493,6 +440,21 @@
     "description": "Write values to .properties files."
   },
   {
+    "name": "Apply templates with Jinja2",
+    "url": "https://github.com/cuchi/jinja2-action",
+    "description": "Use the Jinja2 template engine to generate files from templates."
+  },
+  {
+    "name": "Has Changes",
+    "url": "https://github.com/UnicornGlobal/has-changes-action",
+    "description": "Check if there are code changes from previous steps."
+  },
+  {
+    "name": "Mind Your Language Action",
+    "url": "https://github.com/tailaiw/mind-your-language-action",
+    "description": "Detect offensive comments in issues and pull requests, and warn senders."
+  },
+  {
     "name": "Create an envfile",
     "url": "https://github.com/SpicyPizza/create-envfile"
   },
@@ -505,16 +467,8 @@
     "url": "https://github.com/allenevans/set-env"
   },
   {
-    "name": "Review the licenses of your node dependencies",
-    "url": "https://github.com/cds-snc/github-actions/tree/master/node-license-checker"
-  },
-  {
-    "name": "A GitHub Action to check your project's dependencies",
-    "url": "https://github.com/iheanyi/licensed-action"
-  },
-  {
-    "name": "Check if package.json dependencies have changed",
-    "url": "https://github.com/bencooper222/check-for-node-dep-changes"
+    "name": "Install Conda environments for Python",
+    "url": "https://github.com/goanpeca/setup-miniconda"
   },
   {
     "name": "Install NPM dependencies with caching",
@@ -540,14 +494,6 @@
     "description": "Bump a given semantic version (SemVer), depending on given release type."
   },
   {
-    "name": "PHPQA toolsuite Action",
-    "url": "https://github.com/mickaelandrieu/phpqa-ga"
-  },
-  {
-    "name": "PHP Psalm Static code analyzer Action",
-    "url": "https://github.com/mickaelandrieu/psalm-ga"
-  },
-  {
     "name": "PHPStan Static code analyzer Action",
     "url": "https://github.com/OskarStark/phpstan-ga"
   },
@@ -564,12 +510,8 @@
     "url": "https://github.com/reviewdog/action-tfsec"
   },
   {
-    "name": "Test your Actions Locally",
-    "url": "https://github.com/tschoffelen/gha"
-  },
-  {
-    "name": "Snyk CLI Test Action",
-    "url": "https://github.com/clarkio/snyk-cli-action"
+    "name": "Snyk Test Action",
+    "url": "https://github.com/snyk/actions"
   },
   {
     "name": "Run Tests through Puppeteer, the Headless Chrome Node API",
@@ -600,20 +542,16 @@
     "url": "https://github.com/robertdebock/molecule-action"
   },
   {
+    "name": "Run performance testing with artillery.io",
+    "url": "https://github.com/kenju/github-actions-artillery"
+  },
+  {
     "name": "PHP Code fixer Action",
     "url": "https://github.com/OskarStark/php-cs-fixer-ga"
   },
   {
-    "name": "Lint a Dockerfile (using replicatedhq/dockerfilelint)",
-    "url": "https://github.com/jwr0/dockerfile-linter-action"
-  },
-  {
     "name": "Runs Hadolint against a Dockerfile within a repository",
     "url": "https://github.com/burdzwastaken/hadolint-action"
-  },
-  {
-    "name": "Run ESLint with status checks and file diff annotations",
-    "url": "https://github.com/gimenete/eslint-action"
   },
   {
     "name": "Run ESLint, with reviewdog output on the PR",
@@ -624,20 +562,8 @@
     "url": "https://github.com/OmarTawfik/github-actions-js"
   },
   {
-    "name": "Lint a Dockerfile using Hadolint",
-    "url": "https://github.com/cds-snc/github-actions/tree/master/docker-lint"
-  },
-  {
-    "name": "Lint terraform files using tflint",
-    "url": "https://github.com/cds-snc/github-actions/tree/master/tf-lint"
-  },
-  {
     "name": "Lint terraform files using tflint, with reviewdog output on the PR",
     "url": "https://github.com/reviewdog/action-tflint"
-  },
-  {
-    "name": "Validate Puppet modules using Puppet PDK",
-    "url": "https://github.com/mpepping/github-actions/tree/master/pdk-validate"
   },
   {
     "name": "autopep8: Automatically formats Python code to conform to the PEP 8 style guide",
@@ -725,8 +651,12 @@
     "url": "https://github.com/avto-dev/markdown-lint"
   },
   {
-    "name": "NPM Audit",
-    "url": "https://github.com/JasonEtco/npm-audit-fix-action"
+    "name": "Stylelint problem matcher to create annotations",
+    "url": "https://github.com/xt0rted/stylelint-problem-matcher"
+  },
+  {
+    "name": "Run sqlcheck on the PR to identifies anti-patterns in SQL queries",
+    "url": "https://github.com/yokawasa/action-sqlcheck"
   },
   {
     "name": "A vulnerability scanner for your docker images",
@@ -739,14 +669,6 @@
   {
     "name": "Run dlint security linter on your Python code",
     "url": "https://github.com/xen0l/dlint-check"
-  },
-  {
-    "name": "Scan git commits for secrets with gitleaks",
-    "url": "https://github.com/eshork/gitleaks-action"
-  },
-  {
-    "name": "Scan for secrets in your source code",
-    "url": "https://github.com/cds-snc/github-actions/tree/master/seekret"
   },
   {
     "name": "AWS Secrets Manager Actions",
@@ -763,10 +685,6 @@
     "description": "Not an action per se, but a tool to manage Actions Secrets across a list of repositories."
   },
   {
-    "name": "Send your latest code coverage score to Coveralls.io",
-    "url": "https://github.com/gavinhenderson/coveralls-action"
-  },
-  {
     "name": "Scan code with SonarCloud",
     "url": "https://github.com/sonarsource/sonarcloud-github-action"
   },
@@ -779,8 +697,8 @@
     "url": "https://github.com/paambaati/codeclimate-action"
   },
   {
-    "name": "Run web performance audits using Sitespeed.io",
-    "url": "https://github.com/sitespeedio/sitespeed.io/tree/master/docker/github-action"
+    "name": "Update repository go report card",
+    "url": "https://github.com/creekorful/goreportcard-action"
   },
   {
     "name": "Audit a webpage with Google Chrome's Lighthouse tests",
@@ -807,24 +725,8 @@
     "url": "https://github.com/vsoch/pull-request-action"
   },
   {
-    "name": "Post gif on check fail",
-    "url": "https://github.com/jessfraz/shaking-finger-action"
-  },
-  {
-    "name": "Cleanup branches after merge",
-    "url": "https://github.com/jessfraz/branch-cleanup-action"
-  },
-  {
     "name": "Automatically rebase a PR",
     "url": "https://github.com/cirrus-actions/rebase"
-  },
-  {
-    "name": "Evaluate Clojure in the issue comment",
-    "url": "https://github.com/repetitive/actions/tree/master/clojure"
-  },
-  {
-    "name": "Create Pull Request when branch is pushed",
-    "url": "https://github.com/repetitive/actions/tree/master/auto-pull-request"
   },
   {
     "name": "Label pull request once it has a specified number of approvals",
@@ -840,11 +742,7 @@
   },
   {
     "name": "Automatically add reviewers to pull request based on the configuration file",
-    "url": "https://github.com/kentaro-m/auto-assign"
-  },
-  {
-    "name": "Auto-commit back any changes made by previous actions",
-    "url": "https://github.com/cds-snc/github-actions/tree/master/auto-commit"
+    "url": "https://github.com/kentaro-m/auto-assign-action"
   },
   {
     "name": "Add labels to Pull Request based on branch name patterns",
@@ -908,12 +806,12 @@
     "url": "https://github.com/JulienKode/pull-request-name-linter-action"
   },
   {
-    "name": "Deploy a Zola site to GitHub Pages",
-    "url": "https://github.com/shalzz/zola-deploy-action"
+    "name": "Block PR merges when Checks for target branches are failing",
+    "url": "https://github.com/cirrus-actions/branch-guard"
   },
   {
-    "name": "Visualize your Dockerfile with a Container Tree",
-    "url": "https://www.github.com/vsoch/containertree"
+    "name": "Deploy a Zola site to GitHub Pages",
+    "url": "https://github.com/shalzz/zola-deploy-action"
   },
   {
     "name": "Build Hugo static content site and publish it to gh-pages branch",
@@ -929,11 +827,6 @@
     "description": "And other schema.org extractors to make datasets discoverable from GitHub pages."
   },
   {
-    "name": "Deploy assets to GitHub pages",
-    "url": "https://github.com/maxheld83/ghpages",
-    "description": "No building, just deploying."
-  },
-  {
     "name": "GitHub Actions for deploying to GitHub Pages with Static Site Generators",
     "url": "https://github.com/peaceiris/actions-gh-pages"
   },
@@ -946,44 +839,20 @@
     "url": "https://github.com/cristianpb/analytics-google"
   },
   {
-    "name": "Confucious Wisdom (Pull Request Failure Message)",
-    "url": "https://github.com/vsoch/confucious-actions"
+    "name": "A Jupyter Notebook Blogging Platform Powered by GitHub Actions, Pages and Jekyll",
+    "url": "https://github.com/fastai/fastpages"
   },
   {
     "name": "Send a Discord notification",
     "url": "https://github.com/Ilshidur/action-discord"
   },
   {
-    "name": "Send a Slack message",
-    "url": "https://github.com/apex/actions/tree/master/slack"
-  },
-  {
     "name": "Post a Slack message as a bot",
     "url": "https://github.com/pullreminders/slack-action"
   },
   {
-    "name": "Update Twitter status",
-    "url": "https://github.com/xorilog/twitter-action"
-  },
-  {
-    "name": "Generate Tweet content to share pull request file(s) after merge",
-    "url": "https://github.com/vsoch/twitter-share-action/tree/master/pull_request_share"
-  },
-  {
     "name": "Send an SMS from GitHub Actions using Nexmo",
     "url": "https://github.com/nexmo-community/nexmo-sms-action"
-  },
-  {
-    "name": "Trigger emails with release notes with SendGrid",
-    "url": "https://github.com/bitoiu/release-notify-action"
-  },
-  {
-    "name": "Send email on failed GitHub Checks",
-    "url": "https://github.com/cirrus-actions/email"
-  },
-  {
-    "name": "Report webpack stats to packtracker.io",
-    "url": "https://github.com/packtracker/github-action"
   },
   {
     "name": "Send a Telegram Message",
@@ -996,14 +865,6 @@
   {
     "name": "Collaborate on tweets using pull requests",
     "url": "https://github.com/gr2m/twitter-together"
-  },
-  {
-    "name": "Send a Push Notification via Pushover.net",
-    "url": "https://github.com/maddox/actions/tree/master/pushover"
-  },
-  {
-    "name": "Send a dynamic notification to any service using Apprise",
-    "url": "https://github.com/cstuder/apprise-ga"
   },
   {
     "name": "Send a Push Notification via Push by Techulus",
@@ -1038,6 +899,10 @@
     "url": "https://github.com/anoopt/ms-graph-create-event"
   },
   {
+    "name": "Watch for GitHub Wiki page changes and post to Slack",
+    "url": "https://github.com/benmatselby/gollum-page-watcher-action"
+  },
+  {
     "name": "Deploy to Netlify",
     "url": "https://github.com/netlify/actions"
   },
@@ -1054,36 +919,12 @@
     "url": "https://github.com/lannonbr/vsce-action"
   },
   {
-    "name": "Deploy a Node.js App to Azure",
-    "url": "https://github.com/sdras/example-azure-node"
-  },
-  {
-    "name": "Deploy via rsync over ssh",
-    "url": "https://github.com/maxheld83/ghaction-rsync"
-  },
-  {
-    "name": "Deploy a Cloudflare worker",
-    "url": "https://github.com/cpilsworth/cloudflare-worker-action"
-  },
-  {
     "name": "Purge Cloudflare cache after updating a website",
     "url": "https://github.com/jakejarvis/cloudflare-purge-action"
   },
   {
     "name": "Deploy your DNS configuration using DNS Control",
     "url": "https://github.com/koenrh/dnscontrol-action"
-  },
-  {
-    "name": "Using surge.sh, deploy your branch specific storybook as a pull request deployment",
-    "url": "https://github.com/codeship/storybook-surge-github-action"
-  },
-  {
-    "name": "Create Release Archive",
-    "url": "https://github.com/lubusIN/actions/tree/master/archive"
-  },
-  {
-    "name": "Publish WordPress Plugin",
-    "url": "https://github.com/lubusIN/actions/tree/master/wordpress"
   },
   {
     "name": "Deploy a Theme to Shopify",
@@ -1096,18 +937,6 @@
   {
     "name": "Trigger multiple Jenkins Jobs",
     "url": "https://github.com/appleboy/jenkins-action"
-  },
-  {
-    "name": "GitHub Deployment API",
-    "url": "https://github.com/unacast/actions/tree/master/github-deploy"
-  },
-  {
-    "name": "GitHub Action for zem",
-    "url": "https://github.com/artemnovichkov/action-zem"
-  },
-  {
-    "name": "GitHub Action for Homebrew",
-    "url": "https://github.com/artemnovichkov/action-homebrew"
   },
   {
     "name": "GitHub Action for Homebrew Tap",
@@ -1190,6 +1019,22 @@
     "url": "https://github.com/robertdebock/galaxy-action"
   },
   {
+    "name": "Publish one or more JS modules to a registry",
+    "url": "https://github.com/author/action-publish"
+  },
+  {
+    "name": "Publish a package with 2FA using Slack",
+    "url": "https://github.com/erezrokah/2fa-with-slack-action"
+  },
+  {
+    "name": "Serialize Workflow Runs in Continuous Deployment Pipelines",
+    "url": "https://github.com/softprops/turnstyle"
+  },
+  {
+    "name": "Netlify Deploy GitHub Action for each commit",
+    "url": "https://github.com/nwtgck/actions-netlify"
+  },
+  {
     "name": "Update a Docker Hub repository description from README.md",
     "url": "https://github.com/peter-evans/dockerhub-description"
   },
@@ -1202,6 +1047,10 @@
     "url": "https://github.com/mpepping/github-actions/tree/master/docker-hub-metadata"
   },
   {
+    "name": "Build and publish docker images to any registry using Kaniko",
+    "url": "https://github.com/outillage/kaniko-action"
+  },
+  {
     "name": "Deploy to any Cloud or Kubernetes Using Pulumi",
     "url": "https://github.com/pulumi/actions"
   },
@@ -1212,18 +1061,6 @@
   {
     "name": "Get Kubeconfig File From Google Kubernetes Engine (GKE)",
     "url": "https://github.com/machine-learning-apps/gke-kubeconfig"
-  },
-  {
-    "name": "Deploy a serverless app to AWS Lambda with Up",
-    "url": "https://github.com/apex/actions/tree/master/up"
-  },
-  {
-    "name": "Deploy serverless infrastructure with AWS SAM",
-    "url": "https://github.com/apex/actions/tree/master/aws/sam"
-  },
-  {
-    "name": "Deploy a Node.js function to AWS Lambda and invoke it using the Serverless framework",
-    "url": "https://github.com/swinton/serverless"
   },
   {
     "name": "Sync/upload a directory to an AWS S3 bucket",
@@ -1247,20 +1084,8 @@
     "url": "https://github.com/jonico/jenkinsfile-runner-github-actions"
   },
   {
-    "name": "Configure a DNS Record on Cloudflare",
-    "url": "https://github.com/xorilog/cloudflare-dns-action"
-  },
-  {
-    "name": "Firebase",
-    "url": "https://github.com/natemoo-re/action-firebase"
-  },
-  {
     "name": "GitHub Action for Firebase",
     "url": "https://github.com/w9jds/firebase-action"
-  },
-  {
-    "name": "GitHub Action for JFrog CLI",
-    "url": "https://github.com/retgits/actions/tree/master/jfrog-cli"
   },
   {
     "name": "GitHub Action for Contentful Migration CLI",
@@ -1296,10 +1121,6 @@
     "description": "Run Grunt or Gulp build tasks and commit file changes."
   },
   {
-    "name": "Ember CLI Actions",
-    "url": "https://github.com/NuckChorris/ember-cli-actions"
-  },
-  {
     "name": "GitHub Action for Gatsby CLI",
     "url": "https://github.com/jzweifel/gatsby-cli-github-action"
   },
@@ -1321,10 +1142,6 @@
     "url": "https://github.com/peaceiris/actions-mdbook"
   },
   {
-    "name": "Home Assistant Command",
-    "url": "https://github.com/maddox/actions/tree/master/home-assistant"
-  },
-  {
     "name": "Submitting Argo Workflows (Cloud Agnostic)",
     "url": "https://github.com/machine-learning-apps/actions-argo"
   },
@@ -1341,6 +1158,10 @@
     "url": "https://github.com/yaananth/run-notebook"
   },
   {
+    "name": "Compile, Deploy and Run Kubeflow Pipeline",
+    "url": "https://github.com/NikeNano/kubeflow-github-action"
+  },
+  {
     "name": "run-cmake",
     "url": "https://github.com/lukka/run-cmake",
     "description": "Multi platform action to build C/C++ software with CMake and Ninja."
@@ -1355,28 +1176,17 @@
     "url": "https://github.com/izumin5210/action-go-crossbuild"
   },
   {
+    "name": "Generate ~/.m2/settings.xml for Maven builds",
+    "url": "https://github.com/whelk-io/maven-settings-xml-action"
+  },
+  {
+    "name": "Setup Cassandra Schema",
+    "url": "https://github.com/fabasoad/setup-cassandra-action",
+    "description": "Running scripts from the provided folder on top of Cassandra cluster."
+  },
+  {
     "name": "GitHub Actions Branding Cheat Sheet",
     "url": "https://haya14busa.github.io/github-action-brandings/"
-  },
-  {
-    "name": "Introducing GitHub Actions",
-    "url": "https://css-tricks.com/introducing-github-actions/"
-  },
-  {
-    "name": "Deploying to Firebase Hosting with GitHub Actions",
-    "url": "https://natemoo.re/posts/action-firebase"
-  },
-  {
-    "name": "Building GitHub Actions in Node.js",
-    "url": "https://jasonet.co/posts/building-github-actions-in-node/"
-  },
-  {
-    "name": "GitHub Actions on Android project",
-    "url": "http://vgaidarji.me/blog/2019/01/27/github-actions"
-  },
-  {
-    "name": "GitHub Actions for PHP Developers",
-    "url": "https://stefanzweifel.io/posts/github-actions-for-php-developers/"
   },
   {
     "name": "Continuous deployment of Next.js app with Up",
@@ -1401,5 +1211,9 @@
   {
     "name": "GitHub Actions Advent Calendar",
     "url": "https://www.edwardthomson.com/blog/github_actions_advent_calendar.html"
+  },
+  {
+    "name": "Zero Downtime Laravel Deployments with GitHub Actions",
+    "url": "https://atymic.dev/blog/github-actions-laravel-ci-cd/"
   }
 ]
