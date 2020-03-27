@@ -170,6 +170,11 @@
     "description": "Locally checks for signs of a rootkit on GNU/Linux systems."
   },
   {
+    "name": "Crowd Inspect",
+    "url": "https://www.crowdstrike.com/resources/community-tools/crowdinspect-tool/",
+    "description": "Free tool for Windows systems aimed to alert you to the presence of malware that may be communicating over the network."
+  },
+  {
     "name": "Fail2ban",
     "url": "https://www.fail2ban.org/",
     "description": "Intrusion prevention software framework that protects computer servers from brute-force attacks."
@@ -248,111 +253,6 @@
     "name": "Margarita Shotgun",
     "url": "https://github.com/ThreatResponse/margaritashotgun",
     "description": "Command line utility (that works with or without Amazon EC2 instances) to parallelize remote memory acquisition."
-  },
-  {
-    "name": "CimSweep",
-    "url": "https://github.com/PowerShellMafia/CimSweep",
-    "description": "Suite of CIM/WMI-based tools enabling remote incident response and hunting operations across all versions of Windows."
-  },
-  {
-    "name": "DeepBlueCLI",
-    "url": "https://github.com/sans-blue-team/DeepBlueCLI",
-    "description": "PowerShell module for hunt teaming via Windows Event logs."
-  },
-  {
-    "name": "GRR Rapid Response",
-    "url": "https://github.com/google/grr",
-    "description": "Incident response framework focused on remote live forensics consisting of a Python agent installed on assets and Python-based server infrastructure enabling analysts to quickly triage attacks and perform analysis remotely."
-  },
-  {
-    "name": "Hunting ELK (HELK)",
-    "url": "https://github.com/Cyb3rWard0g/HELK",
-    "description": "All-in-one Free Software threat hunting stack based on Elasticsearch, Logstash, Kafka, and Kibana with various built-in integrations for analytics including Jupyter Notebook."
-  },
-  {
-    "name": "MozDef",
-    "url": "https://github.com/mozilla/MozDef",
-    "description": "Automate the security incident handling process and facilitate the real-time activities of incident handlers."
-  },
-  {
-    "name": "PSHunt",
-    "url": "https://github.com/Infocyte/PSHunt",
-    "description": "PowerShell module designed to scan remote endpoints for indicators of compromise or survey them for more comprehensive information related to state of those systems."
-  },
-  {
-    "name": "PSRecon",
-    "url": "https://github.com/gfoss/PSRecon",
-    "description": "PSHunt-like tool for analyzing remote Windows systems that also produces a self-contained HTML report of its findings."
-  },
-  {
-    "name": "PowerForensics",
-    "url": "https://github.com/Invoke-IR/PowerForensics",
-    "description": "All in one PowerShell-based platform to perform live hard disk forensic analysis."
-  },
-  {
-    "name": "rastrea2r",
-    "url": "https://github.com/rastrea2r/rastrea2r",
-    "description": "Multi-platform tool for triaging suspected IOCs on many endpoints simultaneously and that integrates with antivirus consoles."
-  },
-  {
-    "name": "Redline",
-    "url": "https://www.fireeye.com/services/freeware/redline.html",
-    "description": "Freeware endpoint auditing and analysis tool that provides host-based investigative capabilities, offered by FireEye, Inc."
-  },
-  {
-    "name": "Bro",
-    "url": "https://www.bro.org/",
-    "description": "Powerful network analysis framework focused on security monitoring."
-  },
-  {
-    "name": "ChopShop",
-    "url": "https://github.com/MITRECND/chopshop",
-    "description": "Framework to aid analysts in the creation and execution of pynids-based decoders and detectors of APT tradecraft."
-  },
-  {
-    "name": "Maltrail",
-    "url": "https://github.com/stamparm/maltrail",
-    "description": "Malicious network traffic detection system."
-  },
-  {
-    "name": "Moloch",
-    "url": "https://github.com/aol/moloch",
-    "description": "Augments your current security infrastructure to store and index network traffic in standard PCAP format, providing fast, indexed access."
-  },
-  {
-    "name": "OwlH",
-    "url": "https://www.owlh.net/",
-    "description": "Helps manage network IDS at scale by visualizing Suricata, Zeek, and Moloch life cycles."
-  },
-  {
-    "name": "Respounder",
-    "url": "https://github.com/codeexpress/respounder",
-    "description": "Detects the presence of the Responder LLMNR/NBT-NS/MDNS poisoner on a network."
-  },
-  {
-    "name": "Snort",
-    "url": "https://snort.org/",
-    "description": "Widely-deployed, Free Software IPS capable of real-time packet analysis, traffic logging, and custom rule-based triggers."
-  },
-  {
-    "name": "SpoofSpotter",
-    "url": "https://github.com/NetSPI/SpoofSpotter",
-    "description": "Catch spoofed NetBIOS Name Service (NBNS) responses and alert to an email or log file."
-  },
-  {
-    "name": "Suricata",
-    "url": "https://suricata-ids.org/",
-    "description": "Free, cross-platform, IDS/IPS with on- and off-line analysis modes and deep packet inspection capabilities that is also scriptable with Lua."
-  },
-  {
-    "name": "Wireshark",
-    "url": "https://www.wireshark.org",
-    "description": "Free and open-source packet analyzer useful for network troubleshooting or forensic netflow analysis."
-  },
-  {
-    "name": "netsniff-ng",
-    "url": "http://netsniff-ng.org/",
-    "description": " Free and fast GNU/Linux networking toolkit with numerous utilities such as a connection tracking tool (flowtop), traffic generator (trafgen), and autonomous system (AS) trace route utility (astraceroute)."
   },
   {
     "name": "fwknop",
@@ -455,6 +355,66 @@
     "description": "Ubuntu-based Open Virtual Appliance (.ova) preconfigured with several threat emulation tools as well as a defender's toolkit."
   },
   {
+    "name": "Wazuh",
+    "url": "https://wazuh.com/",
+    "description": "Open source, multiplatform agent-based security monitoring based on a fork of OSSEC HIDS."
+  },
+  {
+    "name": "Bro",
+    "url": "https://www.bro.org/",
+    "description": "Powerful network analysis framework focused on security monitoring."
+  },
+  {
+    "name": "ChopShop",
+    "url": "https://github.com/MITRECND/chopshop",
+    "description": "Framework to aid analysts in the creation and execution of pynids-based decoders and detectors of APT tradecraft."
+  },
+  {
+    "name": "Maltrail",
+    "url": "https://github.com/stamparm/maltrail",
+    "description": "Malicious network traffic detection system."
+  },
+  {
+    "name": "Moloch",
+    "url": "https://github.com/aol/moloch",
+    "description": "Augments your current security infrastructure to store and index network traffic in standard PCAP format, providing fast, indexed access."
+  },
+  {
+    "name": "OwlH",
+    "url": "https://www.owlh.net/",
+    "description": "Helps manage network IDS at scale by visualizing Suricata, Zeek, and Moloch life cycles."
+  },
+  {
+    "name": "Respounder",
+    "url": "https://github.com/codeexpress/respounder",
+    "description": "Detects the presence of the Responder LLMNR/NBT-NS/MDNS poisoner on a network."
+  },
+  {
+    "name": "Snort",
+    "url": "https://snort.org/",
+    "description": "Widely-deployed, Free Software IPS capable of real-time packet analysis, traffic logging, and custom rule-based triggers."
+  },
+  {
+    "name": "SpoofSpotter",
+    "url": "https://github.com/NetSPI/SpoofSpotter",
+    "description": "Catch spoofed NetBIOS Name Service (NBNS) responses and alert to an email or log file."
+  },
+  {
+    "name": "Suricata",
+    "url": "https://suricata-ids.org/",
+    "description": "Free, cross-platform, IDS/IPS with on- and off-line analysis modes and deep packet inspection capabilities that is also scriptable with Lua."
+  },
+  {
+    "name": "Wireshark",
+    "url": "https://www.wireshark.org",
+    "description": "Free and open-source packet analyzer useful for network troubleshooting or forensic netflow analysis."
+  },
+  {
+    "name": "netsniff-ng",
+    "url": "http://netsniff-ng.org/",
+    "description": " Free and fast GNU/Linux networking toolkit with numerous utilities such as a connection tracking tool (flowtop), traffic generator (trafgen), and autonomous system (AS) trace route utility (astraceroute)."
+  },
+  {
     "name": "AlienVault OSSIM",
     "url": "https://www.alienvault.com/open-threat-exchange/projects",
     "description": "Single-server open source SIEM platform featuring asset discovery, asset inventorying, behavioral monitoring, and event correlation, driven by AlienVault Open Threat Exchange (OTX)."
@@ -488,6 +448,56 @@
     "name": "osquery",
     "url": "https://github.com/facebook/osquery",
     "description": "Operating system instrumentation framework for macOS, Windows, and Linux, exposing the OS as a high-performance relational database that can be queried with a SQL-like syntax."
+  },
+  {
+    "name": "CimSweep",
+    "url": "https://github.com/PowerShellMafia/CimSweep",
+    "description": "Suite of CIM/WMI-based tools enabling remote incident response and hunting operations across all versions of Windows."
+  },
+  {
+    "name": "DeepBlueCLI",
+    "url": "https://github.com/sans-blue-team/DeepBlueCLI",
+    "description": "PowerShell module for hunt teaming via Windows Event logs."
+  },
+  {
+    "name": "GRR Rapid Response",
+    "url": "https://github.com/google/grr",
+    "description": "Incident response framework focused on remote live forensics consisting of a Python agent installed on assets and Python-based server infrastructure enabling analysts to quickly triage attacks and perform analysis remotely."
+  },
+  {
+    "name": "Hunting ELK (HELK)",
+    "url": "https://github.com/Cyb3rWard0g/HELK",
+    "description": "All-in-one Free Software threat hunting stack based on Elasticsearch, Logstash, Kafka, and Kibana with various built-in integrations for analytics including Jupyter Notebook."
+  },
+  {
+    "name": "MozDef",
+    "url": "https://github.com/mozilla/MozDef",
+    "description": "Automate the security incident handling process and facilitate the real-time activities of incident handlers."
+  },
+  {
+    "name": "PSHunt",
+    "url": "https://github.com/Infocyte/PSHunt",
+    "description": "PowerShell module designed to scan remote endpoints for indicators of compromise or survey them for more comprehensive information related to state of those systems."
+  },
+  {
+    "name": "PSRecon",
+    "url": "https://github.com/gfoss/PSRecon",
+    "description": "PSHunt-like tool for analyzing remote Windows systems that also produces a self-contained HTML report of its findings."
+  },
+  {
+    "name": "PowerForensics",
+    "url": "https://github.com/Invoke-IR/PowerForensics",
+    "description": "All in one PowerShell-based platform to perform live hard disk forensic analysis."
+  },
+  {
+    "name": "rastrea2r",
+    "url": "https://github.com/rastrea2r/rastrea2r",
+    "description": "Multi-platform tool for triaging suspected IOCs on many endpoints simultaneously and that integrates with antivirus consoles."
+  },
+  {
+    "name": "Redline",
+    "url": "https://www.fireeye.com/services/freeware/redline.html",
+    "description": "Freeware endpoint auditing and analysis tool that provides host-based investigative capabilities, offered by FireEye, Inc."
   },
   {
     "name": "Active Directory Control Paths",
