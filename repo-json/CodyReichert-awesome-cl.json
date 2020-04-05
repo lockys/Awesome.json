@@ -737,6 +737,11 @@
     "description": "allows standard generic function dispatch to be performed statically (at compile time) rather than dynamically (runtime). This is similar to what is known as \"overloading\" in languages such as C++ and Java. MIT."
   },
   {
+    "name": "https://github.com/rpav/dynamic-mixins",
+    "url": "dynamic-mixins",
+    "description": "simple, dynamic class combination. BSD_2Clause."
+  },
+  {
     "name": "cl-hooks",
     "url": "https://github.com/scymtym/architecture.hooks/",
     "description": "Hooks extension point mechanism (as known, e.g., from GNU Emacs). LGPL."
@@ -1607,13 +1612,13 @@
     "description": "a simple and easy to use Actor system. BSD_2Clause."
   },
   {
-    "name": "cl-muproc",
-    "url": "https://common-lisp.net/project/cl-muproc/",
-    "description": "Erlang-inspired multiprocessing. BSD."
-  },
-  {
     "name": "memento-mori-  a library for writing robust, actor-based systems. It draws inspiration from Erlang/OTP, particularly its crash-first approach to high-availability systems, as well as Akka. MIT.",
     "url": "https://github.com/zkat/memento-mori"
+  },
+  {
+    "name": "cl-gserver",
+    "url": "https://github.com/mdbergmann/cl-gserver",
+    "description": "an Erlang inspired GenServer. It is meant to encapsulate state, but also to execute async operations. Also with actors. Functionality regarding state is not unsimilar to Clojure's Agent or cl-actors. MIT."
   },
   {
     "name": "simple-tasks",

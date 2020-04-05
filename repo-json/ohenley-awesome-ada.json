@@ -41,7 +41,7 @@
   },
   {
     "name": "ada-cpp-java",
-    "url": "https://learn.adacore.com/books/Ada_For_The_CPP_Java_Developer/index.html",
+    "url": "https://learn.adacore.com/courses/Ada_For_The_CPP_Java_Developer/index.html",
     "description": "Ada for the C++ or Java Developer."
   },
   {
@@ -238,11 +238,6 @@
     "name": "bbedit-ada-module",
     "url": "https://www.barebones.com/support/bbedit/plugin_library.html",
     "description": "BBEdit support for Ada."
-  },
-  {
-    "name": "ada-language-server",
-    "url": "https://github.com/AdaCore/ada_language_server",
-    "description": "Adacore server implemention of the the Microsoft Language Protocol for Ada and SPARK."
   },
   {
     "name": "entomy-ada-vscode",
@@ -659,6 +654,11 @@
     "description": "ColdFrame generates Ada framework code and documentation from UML models."
   },
   {
+    "name": "ada-keystore",
+    "url": "https://github.com/stcarrez/ada-keystore",
+    "description": "Ada Keystore - protect your sensitive data with secure storage."
+  },
+  {
     "name": "math-packages",
     "url": "https://github.com/jscparker/math_packages",
     "description": "Collection of basic math routines in Ada."
@@ -689,6 +689,21 @@
     "description": "Mandelbrot renderer in \"ASCII\" (unicode actually, but text nonetheless)."
   },
   {
+    "name": "ada-language-server",
+    "url": "https://github.com/AdaCore/ada_language_server",
+    "description": "Adacore server implemention of the the Microsoft Language Protocol for Ada and SPARK."
+  },
+  {
+    "name": "ada-lsp",
+    "url": "https://github.com/reznikmm/ada-lsp",
+    "description": "Language Server Protocol for Ada."
+  },
+  {
+    "name": "ada-lsp-client",
+    "url": "https://github.com/Alex-Gamper/Ada-LanguageServer",
+    "description": "Prototype implementation of LSP client - Visual Studio 2017."
+  },
+  {
     "name": "ada-traits-containers",
     "url": "https://github.com/AdaCore/ada-traits-containers",
     "description": "Generic Ada Library for Algorithms and Containers."
@@ -702,16 +717,6 @@
     "name": "pragmarc",
     "url": "https://github.com/jrcarter/PragmARC",
     "description": "PragmAda Reusable Components (PragmARCs) from PragmAda S/W Engineering."
-  },
-  {
-    "name": "libadacrypt",
-    "url": "https://github.com/cforler/Ada-Crypto-Library",
-    "description": "This is a crypto library for Ada with a nice API and is written for the i386 and x86_64 hardware architecture."
-  },
-  {
-    "name": "libsparkcrypto",
-    "url": "https://github.com/Componolit/libsparkcrypto",
-    "description": "A cryptographic library implemented in SPARK."
   },
   {
     "name": "booch95",
@@ -739,26 +744,6 @@
     "description": "Simple Layer 3 Protocol."
   },
   {
-    "name": "sip-hash",
-    "url": "https://github.com/grim7reaper/SipHash",
-    "description": "A pure Ada implementation of the SipHash PRF."
-  },
-  {
-    "name": "ada-lsp",
-    "url": "https://github.com/reznikmm/ada-lsp",
-    "description": "Language Server Protocol for Ada."
-  },
-  {
-    "name": "ada-lsp-client",
-    "url": "https://github.com/Alex-Gamper/Ada-LanguageServer",
-    "description": "Prototype implementation of LSP client - Visual Studio 2017."
-  },
-  {
-    "name": "ada-language-server",
-    "url": "https://github.com/AdaCore/ada_language_server",
-    "description": "Prototype implementation of the Microsoft Language Server Protocol for Ada/SPARK."
-  },
-  {
     "name": "smart-pointers",
     "url": "http://www.christ-usch-grein.homepage.t-online.de/Ada/Smart_Pointers.html",
     "description": "A package providing a reference-counted access type Smart_Pointer."
@@ -774,39 +759,9 @@
     "description": "Large collection of Ada packages. This is sort of meant to be a \"new standard library\". Who's Anne? Ada's daughter."
   },
   {
-    "name": "libkeccak",
-    "url": "https://github.com/damaki/libkeccak",
-    "description": "A SPARK implementation of the Keccak family of sponge functions and related constructions."
-  },
-  {
-    "name": "ascon-spark",
-    "url": "https://github.com/jhumphry/Ascon_SPARK",
-    "description": "Ada/SPARK implementation of the Ascon Authenticated Encryption with Additional Data Algorithm."
-  },
-  {
-    "name": "spark-sip-hash",
-    "url": "https://github.com/jhumphry/SPARK_SipHash",
-    "description": "Ada/SPARK implementation of the SipHash keyed hash function."
-  },
-  {
-    "name": "spark-norx",
-    "url": "https://github.com/jhumphry/SPARK_NORX",
-    "description": "Ada/SPARK implementation of the NORX Authenticated Encryption with Additional Data Algorithm."
-  },
-  {
     "name": "hungarian-algorithm",
     "url": "https://github.com/fastrgv/HungarianAlgorithm",
     "description": "Hungarian Algorithm implementation in Ada."
-  },
-  {
-    "name": "hungarian",
-    "url": "https://github.com/mosteo/hungarian",
-    "description": "Ada wrapper for the fast Stachniss' Hungarian solver."
-  },
-  {
-    "name": "stotp",
-    "url": "https://github.com/jklmnn/STOTP",
-    "description": "Timed One-Time-Pad (RFC 6238) implementation in SPARK."
   },
   {
     "name": "sal",
@@ -817,16 +772,6 @@
     "name": "nb-ada",
     "url": "https://github.com/andgi/NBAda",
     "description": "NBAda : An Ada library of lock-free data structures and algorithms."
-  },
-  {
-    "name": "xxhash-ada",
-    "url": "https://github.com/lyarbean/xxhash-ada",
-    "description": "Extremely fast non-cryptographic Hash algorithm, xxhash is working at speeds close to RAM limits."
-  },
-  {
-    "name": "base58-ada",
-    "url": "https://github.com/MichaelAllenHardeman/base58_ada",
-    "description": "Base58 encoding and decoding in Ada."
   },
   {
     "name": "paraffin",
@@ -849,11 +794,6 @@
     "description": "Simple blockchain in Ada."
   },
   {
-    "name": "fletcher",
-    "url": "https://github.com/darkestkhan/fletcher",
-    "description": "Trivial implementation of fletcher_16 checksum computation algorithm."
-  },
-  {
     "name": "adagio",
     "url": "https://github.com/mosteo/adagio",
     "description": "Gnutella2 (G2) network server leaf."
@@ -867,6 +807,66 @@
     "name": "increment",
     "url": "https://github.com/reznikmm/increment",
     "description": "This package provides incremental analysis algorithms and related data structures."
+  },
+  {
+    "name": "threefish",
+    "url": "https://github.com/jrcarter/Threefish",
+    "description": "Ada Implementation of the Threefish-256 Encryption Algorithm"
+  },
+  {
+    "name": "fletcher",
+    "url": "https://github.com/darkestkhan/fletcher",
+    "description": "Trivial implementation of fletcher_16 checksum computation algorithm."
+  },
+  {
+    "name": "base58-ada",
+    "url": "https://github.com/MichaelAllenHardeman/base58_ada",
+    "description": "Base58 encoding and decoding in Ada."
+  },
+  {
+    "name": "libadacrypt",
+    "url": "https://github.com/cforler/Ada-Crypto-Library",
+    "description": "This is a crypto library for Ada with a nice API and is written for the i386 and x86_64 hardware architecture."
+  },
+  {
+    "name": "libsparkcrypto",
+    "url": "https://github.com/Componolit/libsparkcrypto",
+    "description": "A cryptographic library implemented in SPARK."
+  },
+  {
+    "name": "sip-hash",
+    "url": "https://github.com/grim7reaper/SipHash",
+    "description": "A pure Ada implementation of the SipHash PRF."
+  },
+  {
+    "name": "libkeccak",
+    "url": "https://github.com/damaki/libkeccak",
+    "description": "A SPARK implementation of the Keccak family of sponge functions and related constructions."
+  },
+  {
+    "name": "ascon-spark",
+    "url": "https://github.com/jhumphry/Ascon_SPARK",
+    "description": "Ada/SPARK implementation of the Ascon Authenticated Encryption with Additional Data Algorithm."
+  },
+  {
+    "name": "spark-sip-hash",
+    "url": "https://github.com/jhumphry/SPARK_SipHash",
+    "description": "Ada/SPARK implementation of the SipHash keyed hash function."
+  },
+  {
+    "name": "spark-norx",
+    "url": "https://github.com/jhumphry/SPARK_NORX",
+    "description": "Ada/SPARK implementation of the NORX Authenticated Encryption with Additional Data Algorithm."
+  },
+  {
+    "name": "stotp",
+    "url": "https://github.com/jklmnn/STOTP",
+    "description": "Timed One-Time-Pad (RFC 6238) implementation in SPARK."
+  },
+  {
+    "name": "xxhash-ada",
+    "url": "https://github.com/lyarbean/xxhash-ada",
+    "description": "Extremely fast non-cryptographic Hash algorithm, xxhash is working at speeds close to RAM limits."
   },
   {
     "name": "ada-promises",
@@ -1329,6 +1329,11 @@
     "description": "A G-code parser and CNC controller (in Ada)."
   },
   {
+    "name": "ghdl",
+    "url": "https://github.com/ghdl/ghdl",
+    "description": "VHDL 2008/93/87 simulator."
+  },
+  {
     "name": "parallel-sim",
     "url": "https://github.com/JulianSchutsch/ParallelSim",
     "description": "Distributed Simulation of Transport Networks."
@@ -1397,11 +1402,6 @@
     "name": "analytical-engine",
     "url": "https://github.com/simonjwright/analytical-engine",
     "description": "An Ada 2012 emulation of Charles Babbage’s Analytical Engine."
-  },
-  {
-    "name": "gnat-spitbol",
-    "url": "https://www2.adacore.com/gap-static/GNAT_Book/html/rts/g-spipat__ads.htm",
-    "description": "GNAT.SPITBOL is an implementation of SNOBOL text-oriented programming language, now part of GNAT library."
   },
   {
     "name": "para-sail",
@@ -1637,5 +1637,15 @@
     "name": "tashy",
     "url": "https://github.com/thindil/tashy",
     "description": "Tashy is short from Tcl Ada SHell Younger. It is derivate of Tash, focused mostly on Tk binding."
+  },
+  {
+    "name": "hungarian",
+    "url": "https://github.com/mosteo/hungarian",
+    "description": "Ada wrapper for the fast Stachniss' Hungarian solver."
+  },
+  {
+    "name": "ada-net-framework",
+    "url": "https://github.com/Alex-Gamper/Ada-NetFramework",
+    "description": "Ada bindings to the Microsoft NetFramework Api."
   }
 ]
