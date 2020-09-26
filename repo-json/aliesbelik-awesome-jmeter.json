@@ -48,8 +48,8 @@
     "url": "https://www.urbaninsight.com/article/simple-load-test-with-jmeter"
   },
   {
-    "name": "Performance testing with JMeter",
-    "url": "https://www.atlassian.com/blog/archives/performance_testing_with_jmete"
+    "name": "The Beginner's Guide to Performance Testing with Apache JMeter",
+    "url": "https://medium.com/better-programming/the-beginners-guide-to-performance-testing-with-apache-jmeter-5cc52c327ff6"
   },
   {
     "name": "JMeter Tutorials",
@@ -101,7 +101,7 @@
   },
   {
     "name": "JMeter: Load Development LifeCycle",
-    "url": "https://gerardnico.com/jmeter/lifecycle"
+    "url": "https://datacadamia.com/jmeter/lifecycle"
   },
   {
     "name": "Load Testing with Apache JMeter",
@@ -158,14 +158,14 @@
     "description": "An R package for load testing using JMeter."
   },
   {
-    "name": "Lightning",
-    "url": "https://automatictester.github.io/lightning/",
-    "description": "Framework to integrate JMeter non-functional tests with CI/CD server."
-  },
-  {
     "name": "Taurus",
     "url": "https://gettaurus.org/",
     "description": "Automation-friendly framework for Continuous Testing."
+  },
+  {
+    "name": "Performance testing framework",
+    "url": "https://github.com/serputko/performance-testing-framework",
+    "description": "Framework both for backend load testing with Apache JMeter and frontend load testing with sitespeed.io + webpagetest private instance."
   },
   {
     "name": "JMeter Load Testing Center",
@@ -173,9 +173,9 @@
     "description": "Online web-application/dashboard to run, monitor and analyze results of load tests using JMeter."
   },
   {
-    "name": "Performance testing framework",
-    "url": "https://github.com/serputko/performance-testing-framework",
-    "description": "Framework both for backend load testing with Apache JMeter and frontend load testing with sitespeed.io + webpagetest private instance."
+    "name": "swaggerjmx",
+    "url": "https://github.com/Pactortester/swaggerjmx",
+    "description": "Tool to convert Swagger UI specification into JMeter test plans."
   },
   {
     "name": "JMeter Ant Task",
@@ -198,7 +198,7 @@
     "description": "TeamCity plugin to organize simplest performance testing in CI (no updates more)."
   },
   {
-    "name": "Bamboo JMeter Aggregator Plugin: documentation, sources",
+    "name": "Bamboo JMeter Aggregator Plugin",
     "url": "https://marketplace.atlassian.com/apps/5902/jmeter-aggregator-for-bamboo",
     "description": "Bamboo plugin to collect, assert and graph JMeter test results."
   },
@@ -213,9 +213,14 @@
     "description": "Framework to integrate JMeter non-functional tests with CI/CD server."
   },
   {
-    "name": "Taurus",
+    "name": "Taurus JMeter Executor",
     "url": "https://gettaurus.org/docs/JMeter/",
     "description": "JMeter Executor in Taurus automation framework."
+  },
+  {
+    "name": "PerfAction for JMeter",
+    "url": "https://github.com/marketplace/actions/perfaction-for-jmeter",
+    "description": "GitHub Action to run performance tests using Apache JMeter and its plugins."
   },
   {
     "name": "Automated performance testing using JMeter and Maven",
@@ -403,6 +408,11 @@
     "description": "Service for storing and analysing performance test results."
   },
   {
+    "name": "JtlReporter",
+    "url": "https://github.com/ludeknovy/jtl-reporter",
+    "description": "Online reporting application to generate reports by uploading JTL file."
+  },
+  {
     "name": "JAnalyser",
     "url": "http://janalyser.com/",
     "description": "Browser-based results analysis tool."
@@ -565,8 +575,24 @@
     "url": "https://www.blazemeter.com/blog/view-webcast-performance-testing-native-mobile-apps/"
   },
   {
-    "name": "Siebel CRM JMeter plugin",
-    "url": "https://github.com/Blazemeter/SiebelPlugin"
+    "name": "JMeter RTE Plugin",
+    "url": "https://github.com/Blazemeter/RTEPlugin",
+    "description": "JMeter RTE (Remote Terminal Emulator protocol) plugin for testing Mainframe applications."
+  },
+  {
+    "name": "Correlation Recorder Plugin",
+    "url": "https://github.com/Blazemeter/CorrelationRecorder",
+    "description": "JMeter plugin that simplifies the process of recording for applications with Dynamic Variables by providing automatic correlations of variables at recording time."
+  },
+  {
+    "name": "Siebel CRM Plugin",
+    "url": "https://github.com/Blazemeter/SiebelPlugin",
+    "description": "JMeter plugin to simplify the scripting of Siebel CRM applications by providing automatic correlations of variables at recording time (deprecated)."
+  },
+  {
+    "name": "ULP Auto-correlator Plugin",
+    "url": "https://www.ubik-ingenierie.com/blog/ubikloadpack-autocorrelator-plugin-help/",
+    "description": "Commercial plugin for Oracle and Vaadin-based applications from Ubik Load Pack."
   },
   {
     "name": "Servers Performance Monitoring Plugin",
@@ -606,7 +632,7 @@
     "description": "Independent set of plugins for Apache JMeter, with plugin manager references many plugins and simplifies installation."
   },
   {
-    "name": "UBIK Load Pack",
+    "name": "Ubik Load Pack",
     "url": "https://ubikloadpack.com/",
     "description": "Productivity extensions for Apache JMeter."
   },
@@ -676,17 +702,12 @@
   {
     "name": "JMeter Performance and Tuning Tips",
     "url": "https://www.ubik-ingenierie.com/blog/jmeter_performance_tuning_tips/",
-    "description": "By UBIK Ingenierie."
+    "description": "By Ubik Ingenierie."
   },
   {
     "name": "JMeter Performance and Tuning Tips",
     "url": "https://www.blazemeter.com/blog/jmeter-performance-and-tuning-tips",
     "description": "By BlazeMeter."
-  },
-  {
-    "name": "Beanshell vs JSR223 vs Java JMeter Scripting",
-    "url": "https://www.blazemeter.com/blog/beanshell-vs-jsr223-vs-java-jmeter-scripting-its-performance/",
-    "description": "Most popular scripting mechanisms performance comparison."
   },
   {
     "name": "JMeter tips",
@@ -754,18 +775,13 @@
     "description": "By NobleProg."
   },
   {
-    "name": "JMeter Training Course",
-    "url": "https://info.blazemeter.com/jmeter-training-course",
-    "description": "By BlazeMeter."
-  },
-  {
-    "name": "JMeter Training Academy",
+    "name": "BlazeMeter University",
     "url": "https://www.blazemeter.com/university/",
     "description": "By BlazeMeter."
   },
   {
     "name": "JMeter Courses collection",
-    "url": "https://www.udemy.com/courses/search/?q=jmeter",
+    "url": "https://www.udemy.com/topic/jmeter/",
     "description": "By Udemy."
   },
   {
@@ -931,8 +947,8 @@
     "description": "A curated list of testing resources."
   },
   {
-    "name": "Awesome Web Performance Metrics",
-    "url": "https://github.com/palfi-ltd/awesome-web-performance-metrics",
+    "name": "Awesome Page Speed Metrics",
+    "url": "https://github.com/csabapalfi/awesome-pagespeed-metrics",
     "description": "Metrics to help understand page speed and user experience."
   },
   {

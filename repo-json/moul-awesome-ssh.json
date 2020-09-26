@@ -55,6 +55,11 @@
     "description": "SSH server to Docker containers."
   },
   {
+    "name": "ssh-proxy ",
+    "url": "https://github.com/ml-tooling/ssh-proxy",
+    "description": "Dockerized SSH bastion to proxy SSH connections to arbitrary containers."
+  },
+  {
     "name": "whosthere ",
     "url": "https://github.com/FiloSottile/whosthere",
     "description": "A SSH server that knows who you are. $ ssh whoami.filippo.io."
@@ -116,7 +121,7 @@
   },
   {
     "name": "sshuttle ",
-    "url": "https://github.com/apenwarr/sshuttle",
+    "url": "https://github.com/sshuttle/sshuttle",
     "description": "Transparent proxy server that works as a poor man's VPN. Forwards over ssh. Doesn't require admin. Works with Linux and MacOS. Supports DNS tunneling."
   },
   {
@@ -235,6 +240,11 @@
     "description": "Kr agent that route access request to the paired mobile phone where Kryptonite is installed."
   },
   {
+    "name": "ServerAuth",
+    "url": "https://serverauth.com",
+    "description": "Automatically sync SSH access across servers"
+  },
+  {
     "name": "ssh-ident ",
     "url": "https://github.com/ccontavalli/ssh-ident",
     "description": "Different agents and different keys for different projects, with ssh."
@@ -250,8 +260,13 @@
     "description": "Automatically create and manage multiple agents for multiple keys."
   },
   {
+    "name": "xxh ",
+    "url": "https://github.com/xxh/xxh",
+    "description": "Bring your favorite shell wherever you go through the ssh."
+  },
+  {
     "name": "sshrc ",
-    "url": "https://github.com/Russell91/sshrc",
+    "url": "https://github.com/danrabinowitz/sshrc",
     "description": "Bring your .bashrc, .vimrc, etc. with you when you ssh."
   },
   {
@@ -295,8 +310,8 @@
     "description": "Dancer's shell / distributed shell - Wrapper for executing multiple remote shell commands from one command line."
   },
   {
-    "name": "parallel-ssh",
-    "url": "https://code.google.com/p/parallel-ssh/",
+    "name": "parallel-ssh ",
+    "url": "https://github.com/ParallelSSH/parallel-ssh",
     "description": "Provides parallel versions of OpenSSH and related tools."
   },
   {
@@ -367,6 +382,11 @@
     "name": "telnet",
     "url": "http://www.telnet.org/htm/faq.htm",
     "description": "An unencrypted network protocol and an application used to connect to remote computers and issue commands."
+  },
+  {
+    "name": "ttyd ",
+    "url": "https://github.com/tsl0922/ttyd",
+    "description": "Share your terminal over the web."
   },
   {
     "name": "rsh",

@@ -21,7 +21,7 @@
   },
   {
     "name": "Docker Training 💲",
-    "url": "https://success.docker.com/training"
+    "url": "https://training.mirantis.com"
   },
   {
     "name": "Docker Tutorial for Beginners (Updated 2019 version) — In this Docker tutorial, you'll learn all the basics and learn how you can containerize Node.js and Go applications. Even if you aren't familiar with these languages it should be easy for you to follow this tutorial and use any other language.",
@@ -40,8 +40,16 @@
     "url": "https://training.play-with-docker.com/"
   },
   {
+    "name": "Practical Guide about Docker Commands in Spanish This spanish guide contains the use of basic docker commands with real life examples.",
+    "url": "https://github.com/brunocascio/docker-espanol"
+  },
+  {
     "name": "Practical Introduction to Container Terminology The landscape for container technologies is larger than just docker. Without a good handle on the terminology, It can be difficult to grasp the key differences between docker and (pick your favorites, CRI-O, rkt, lxc/lxd) or understand what the Open Container Initiative is doing to standardize container technology.",
     "url": "https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/"
+  },
+  {
+    "name": "The Docker Handbook This 10,000+ words article is divided into 38 sections and walks readers through all the fundamentals of Docker with project examples.",
+    "url": "https://www.freecodecamp.org/news/the-docker-handbook/"
   },
   {
     "name": "@eon01",
@@ -72,8 +80,12 @@
     "url": "https://toedter.com/2015/05/11/docker-on-windows-behind-a-firewall/"
   },
   {
+    "name": "Docker Quick Tutorial Introduces you to the official Getting Started Tutorial using Windows 10 and Hyper-V.",
+    "url": "https://vegibit.com/docker-quick-tutorial/"
+  },
+  {
     "name": "Docker Reference Architecture: Modernizing Traditional .NET Framework Applications",
-    "url": "https://success.docker.com/article/modernizing-traditional-dot-net-applications",
+    "url": "https://success.mirantis.com/article/modernizing-traditional-dot-net-applications",
     "description": "You will learn to identify the types of .NET Framework applications that are good candidates for containerization, the \"lift-and-shift\" approach to containerization."
   },
   {
@@ -95,7 +107,7 @@
   },
   {
     "name": "Windows Containers Quick Start Overview of Windows containers, drilling down to Quick Starts for Windows 10 and Windows Server 2016",
-    "url": "https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/index"
+    "url": "https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/"
   },
   {
     "name": "Moby",
@@ -197,6 +209,11 @@
     "description": "Organise your Docker containers with muscle and intelligence by @ashmckenzie"
   },
   {
+    "name": "podman-compose",
+    "url": "https://github.com/containers/podman-compose",
+    "description": "a script to run docker-compose.yml using podman by @containers"
+  },
+  {
     "name": "plash",
     "url": "https://github.com/ihucos/plash",
     "description": "A container run and build engine - runs inside docker."
@@ -289,6 +306,16 @@
     "name": "SwarmManagement",
     "url": "https://github.com/DIPSAS/SwarmManagement",
     "description": "Swarm Management is a python application, installed with pip. The application makes it easy to manage a Docker Swarm by configuring a single yaml file describing which stacks to deploy, and which networks, configs or secrets to create."
+  },
+  {
+    "name": "werf",
+    "url": "https://github.com/werf/werf",
+    "description": "werf is a CI/CD tool for building Docker images efficiently and deploying them to Kubernetes using GitOps by @flant"
+  },
+  {
+    "name": "Autoheal",
+    "url": "https://github.com/willfarrell/docker-autoheal",
+    "description": "Monitor and restart unhealthy docker containers automatically."
   },
   {
     "name": "Axibase Collector",
@@ -646,6 +673,36 @@
     "description": "Automated reverse proxy and load-balancer for Docker, Mesos, Consul, Etcd... By @EmileVauge"
   },
   {
+    "name": "aind",
+    "url": "https://github.com/aind-containers/aind",
+    "description": "AinD launches Android apps in Docker, by nesting Anbox containers inside Docker by @aind-containers"
+  },
+  {
+    "name": "cri-o",
+    "url": "https://github.com/cri-o/cri-o",
+    "description": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface by cri-o"
+  },
+  {
+    "name": "lxc",
+    "url": "https://github.com/lxc/lxc",
+    "description": "LXC - Linux Containers"
+  },
+  {
+    "name": "podman",
+    "url": "https://github.com/containers/libpod",
+    "description": "libpod is a library used to create container pods. Home of Podman by @containers"
+  },
+  {
+    "name": "rlxc",
+    "url": "https://github.com/brauner/rlxc",
+    "description": "LXC binary written in Rust by @brauner"
+  },
+  {
+    "name": "runtime-tools",
+    "url": "https://github.com/opencontainers/runtime-tools",
+    "description": "oci-runtime-tool is a collection of tools for working with the OCI runtime specification by @opencontainers"
+  },
+  {
     "name": "Anchor Engine",
     "url": "https://github.com/anchore/anchore",
     "description": "Analyze images for CVE vulnerabilities and against custom security policies by @Anchor"
@@ -676,6 +733,16 @@
     "description": "Dagda is a tool to perform static analysis of known vulnerabilities, trojans, viruses, malware & other malicious threats in docker images/containers and to monitor the docker daemon and running docker containers for detecting anomalous activities. By @eliasgranderubio"
   },
   {
+    "name": "Deepfence Enterprise 💲",
+    "url": "https://deepfence.io",
+    "description": "Full life cycle Cloud Native Workload Protection platform for kubernetes, virtual machines and serverless. By @deepfence"
+  },
+  {
+    "name": "Deepfence Threat Mapper",
+    "url": "https://github.com/deepfence/ThreatMapper",
+    "description": "Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless. By @deepfence"
+  },
+  {
     "name": "docker-bench-security",
     "url": "https://github.com/docker/docker-bench-security",
     "description": "script that checks for dozens of common best-practices around deploying Docker containers in production. By @docker"
@@ -701,6 +768,11 @@
     "description": "a Docker vulnerability scanner with constant Kubernetes monitoring and pipeline integration."
   },
   {
+    "name": "Prisma Cloud 💲",
+    "url": "https://www.paloaltonetworks.com/prisma/cloud",
+    "description": "(previously Twistlock Security Suite) detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications."
+  },
+  {
     "name": "Sysdig Falco",
     "url": "https://github.com/falcosecurity/falco",
     "description": "Sysdig Falco is an open source container security monitor. It can monitor application, container, host, and network activity and alert on unauthorized activity."
@@ -716,9 +788,9 @@
     "description": "Trend Micro DeepSecurity offers runtime protection for container workloads and hosts as well as preruntime scanning of images to identify vulnerabilities, malware and content such as hardcoded secrets."
   },
   {
-    "name": "Twistlock 💲",
-    "url": "https://www.twistlock.com/",
-    "description": "Twistlock Security Suite detects vulnerabilities, hardens container images, and enforces security policies across the lifecycle of applications."
+    "name": "[Trivy] (https://github.com/aquasecurity/trivy)",
+    "url": "https://github.com/aquasecurity/trivy",
+    "description": "Aqua Security's open source simple and comprehensive vulnerability scanner for containers (suitable for CI)."
   },
   {
     "name": "docker-consul by @progrium",
@@ -799,6 +871,11 @@
     "description": "A project built on Electron + Vue.js for Docker on desktop. @fluency03"
   },
   {
+    "name": "DockerStacks",
+    "url": "http://docker-stacks.com/",
+    "description": "Local LAMP/LEMP Development Studio @sfx101"
+  },
+  {
     "name": "DockStation",
     "url": "https://github.com/DockStation/dockstation",
     "description": "A developer centric UI to configure, monitor, and manage services and containers @dock_station"
@@ -860,6 +937,11 @@
   {
     "name": "dockerfile-mode An emacs mode for handling Dockerfiles by @spotify",
     "url": "https://github.com/spotify/dockerfile-mode"
+  },
+  {
+    "name": "docker pushrm",
+    "url": "https://github.com/christian-korneck/docker-pushrm",
+    "description": "A Docker CLI plugin that that lets you push the README.md file from the current directory to Docker Hub. Also supports Quay and Harbor. By @christian-korneck"
   },
   {
     "name": "dockersql",
@@ -937,6 +1019,11 @@
     "description": "Terminal user interface for docker engine, by @TomasTomecek"
   },
   {
+    "name": "skopeo",
+    "url": "https://github.com/containers/skopeo",
+    "description": "Work with remote images registries - retrieving information, images, signing content by @containers"
+  },
+  {
     "name": "supdock",
     "url": "https://github.com/segersniels/supdock",
     "description": "Allows for slightly more visual usage of Docker with an interactive prompt. By @segersniels"
@@ -1010,11 +1097,6 @@
     "name": "Portainer",
     "url": "https://github.com/portainer/portainer",
     "description": "A lightweight management UI for managing your Docker hosts or Docker Swarm clusters by @portainer"
-  },
-  {
-    "name": "Portus",
-    "url": "https://github.com/SUSE/Portus",
-    "description": "Authorization service and frontend for Docker registry (v2) by @SUSE"
   },
   {
     "name": "Rapid Dashboard",
@@ -1117,6 +1199,11 @@
     "description": "A minimalistic Runtime Configuration system and process manager for containers @vorakl"
   },
   {
+    "name": "ansible-bender",
+    "url": "https://github.com/ansible-community/ansible-bender",
+    "description": "A tool utilising ansible and buildah by @TomasTomecek"
+  },
+  {
     "name": "buildah",
     "url": "https://github.com/containers/buildah",
     "description": "A tool that facilitates building OCI images by @containers"
@@ -1125,6 +1212,11 @@
     "name": "BuildKit",
     "url": "https://github.com/moby/buildkit",
     "description": "Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit by @moby project"
+  },
+  {
+    "name": "cekit",
+    "url": "https://github.com/cekit/cekit",
+    "description": "A tool used by openshift to build base images using different build engines by @cekit."
   },
   {
     "name": "container-diff",
@@ -1217,7 +1309,7 @@
   },
   {
     "name": "packer",
-    "url": "https://packer.io/docs/builders/docker.html",
+    "url": "https://www.packer.io/docs/builders/docker",
     "description": "Hashicorp tool to build machine images including docker image integrated with configuration management tools like chef, puppet, ansible"
   },
   {
@@ -1246,11 +1338,6 @@
     "description": "A Micocontainer Builder and can perform multi-stage builds after the image is built Oracle"
   },
   {
-    "name": "werf",
-    "url": "https://github.com/flant/werf",
-    "description": "Werf (previously known as dapp) helps to implement and support Continuous Integration and Continuous Delivery by @flant"
-  },
-  {
     "name": "Whaler",
     "url": "https://github.com/P3GLEG/Whaler",
     "description": "Program to reverse Docker images into Dockerfiles by @P3GLEG."
@@ -1277,6 +1364,11 @@
     "name": "Dockerfile Project",
     "url": "https://dockerfile.github.io/",
     "description": "Trusted Automated Docker Builds. Dockerfile Project maintains a central repository of Dockerfile for various popular open source software services runnable on a Docker container."
+  },
+  {
+    "name": "Dockershelf",
+    "url": "https://github.com/Dockershelf/dockershelf",
+    "description": "A repository that serves as a collector for docker recipes that are universal, efficient and slim. Images are updated, tested and published daily via a Travis cron job. Maintained by @CollageLabs."
   },
   {
     "name": "dockmoor 🚧",
@@ -1330,11 +1422,6 @@
     "description": "A tool to keep an eye on your docker images size."
   },
   {
-    "name": "dockerfile_lint",
-    "url": "https://github.com/projectatomic/dockerfile_lint",
-    "description": "A rule-based 'linter' for Dockerfiles by @projectatomic"
-  },
-  {
     "name": "Dockerfile Linter action",
     "url": "https://github.com/buddy-works/dockerfile-linter",
     "description": "The linter lets you verify Dockerfile syntax to make sure it follows the best practices for building efficient Docker images."
@@ -1381,7 +1468,7 @@
   },
   {
     "name": "Cloudsmith 💲",
-    "url": "https://cloudsmith.io/l/docker-registry/",
+    "url": "https://cloudsmith.com/docker-registry/",
     "description": "A fully managed package management SaaS, with first-class support for public and private Docker registries (and many others, incl. Helm charts for the Kubernetes ecosystem). Has a generous free-tier and is also completely free for open-source."
   },
   {
@@ -1435,6 +1522,11 @@
     "name": "Kraken",
     "url": "https://github.com/uber/kraken",
     "description": "Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds."
+  },
+  {
+    "name": "Portus",
+    "url": "https://github.com/SUSE/Portus",
+    "description": "Authorization service and frontend for Docker registry (v2) by @SUSE"
   },
   {
     "name": "Private Docker Registry 💲",
@@ -1510,6 +1602,11 @@
     "name": "Docker.DotNet",
     "url": "https://github.com/Microsoft/Docker.DotNet",
     "description": "C#/.NET HTTP client for the Docker remote API by @ahmetalpbalkan"
+  },
+  {
+    "name": "Docker.Registry.DotNet",
+    "url": "https://github.com/ChangemakerStudios/Docker.Registry.DotNet",
+    "description": ".NET (C#) Client Library for interacting with a Docker Registry API (v2) @rquackenbush"
   },
   {
     "name": "dockerfile-maven",
@@ -1612,7 +1709,7 @@
     "description": "Tool to configure CI/CD of your container applications via AWS CodePipeline, CodeBuild and ECS @Stelligent"
   },
   {
-    "name": "Ouroboros",
+    "name": "Ouroboros 💀",
     "url": "https://github.com/pyouroboros/ouroboros",
     "description": "Automatically update running Docker containers with notifications"
   },
@@ -1752,6 +1849,11 @@
     "description": "Utility to auto forward a port from localhost into ports on Docker containers running in a boot2docker VM by @bsideup"
   },
   {
+    "name": "Gebug",
+    "url": "https://github.com/moshebe/gebug",
+    "description": "A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly."
+  },
+  {
     "name": "Lando",
     "url": "https://github.com/lando/lando",
     "description": "Lando is for developers who want to quickly specify and painlessly spin up the services and tools needed to develop their projects. By Tandem"
@@ -1795,6 +1897,11 @@
     "name": "docker-gc 💀",
     "url": "https://github.com/spotify/docker-gc",
     "description": "A cron job that will delete old stopped containers and unused images by @spotify"
+  },
+  {
+    "name": "docker_gc",
+    "url": "https://github.com/pdacity/docker_gc",
+    "description": "Image for automatic removing unused Docker Swarm objects. Also works just as Docker Service by @pdacity"
   },
   {
     "name": "sherdock 💀",
@@ -1860,6 +1967,11 @@
     "name": "InSpec",
     "url": "https://github.com/inspec/inspec",
     "description": "InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements. By @chef"
+  },
+  {
+    "name": "Pull Dog",
+    "url": "https://github.com/apps/pull-dog",
+    "description": "A GitHub app that automatically creates Docker-based test environments for your pull requests, from your docker-compose files. Not open source."
   },
   {
     "name": "Pumba",
@@ -1928,7 +2040,7 @@
   },
   {
     "name": "Vagrant",
-    "url": "https://www.vagrantup.com/docs/docker/basics.html",
+    "url": "https://www.vagrantup.com/docs/providers/docker/basics.html",
     "description": "Docker provider - Good starting point is vagrant-docker-example by @bubenkoff"
   },
   {
@@ -2011,8 +2123,8 @@
     "description": "\"Easy-to-use\" container hosting platfrom with automatic vertical and horizontal scaling. Available over 50+ hosting providers worldwide."
   },
   {
-    "name": "Mesosphere DC/OS 💲",
-    "url": "https://d2iq.com/solutions/mesosphere",
+    "name": "Mesosphere DC/OS Platform 💲",
+    "url": "https://d2iq.com/products/dcos",
     "description": "Integrated platform for data and containers built on Apache Mesos by @mesosphere"
   },
   {
@@ -2114,7 +2226,7 @@
   },
   {
     "name": "Awesome CI/CD",
-    "url": "https://github.com/ciandcd/awesome-ciandcd",
+    "url": "https://github.com/cicdops/awesome-ciandcd",
     "description": "Not specific to docker but relevant."
   },
   {
@@ -2160,7 +2272,7 @@
   },
   {
     "name": "Docker vs. VMs? Combining Both for Cloud Portability Nirvana",
-    "url": "https://www.flexera.com/blog/cloud/2014/09/docker-vs-vms-combining-both-for-cloud-portability-nirvana/"
+    "url": "https://www.flexera.com/blog/cloud/docker-vs-vms-combining-both-for-cloud-portability-nirvana/"
   },
   {
     "name": "Don't Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files by @King Chung Huang",
@@ -2256,12 +2368,28 @@
     "url": "https://www.youtube.com/watch?v=zWGFqMuEHdw"
   },
   {
+    "name": "Docker Course (Spanish) by @pablokbs",
+    "url": "https://www.youtube.com/watch?v=UZpyvK6UGFo"
+  },
+  {
     "name": "Docker for Developers (54:26) by @jpetazzo <== Good introduction, context, demo",
     "url": "https://www.youtube.com/watch?v=FdkNAjjO5yQ"
   },
   {
+    "name": "Docker from scratch (1:22:01) on YouTube by Paris Nakita Kejser",
+    "url": "https://www.youtube.com/playlist?list=PLLhEJK7fQIxD-btrjrqdEfQHbkZnQrmqE"
+  },
+  {
     "name": "Docker in Production by @jpetazzo (36:05)",
     "url": "https://www.youtube.com/watch?v=Glk5d5WP6MI"
+  },
+  {
+    "name": "Docker Swarm from scratch (1:41:28) on YouTube by Paris Nakita Kejser",
+    "url": "https://www.youtube.com/playlist?list=PLLhEJK7fQIxAY4gZd1Wl-GsLvg-e9Ap1e"
+  },
+  {
+    "name": "Docker Registry from scratch (44:40) on YouTube by Paris Nakita Kejser",
+    "url": "https://www.youtube.com/playlist?list=PLLhEJK7fQIxAz3d4Fj3edq7UcxEhdTCBm"
   },
   {
     "name": "Docker: How to Use Your Own Private Registry (15:01)",
@@ -2299,10 +2427,6 @@
   {
     "name": "State of containers: a debate with CoreOS, VMware and Google (27:38)",
     "url": "https://www.youtube.com/watch?v=IiITP3yIRd8"
-  },
-  {
-    "name": "SysAdminCasts: Introduction to Docker (15:49)",
-    "url": "https://sysadmincasts.com/episodes/31-introduction-to-docker"
   },
   {
     "name": "Docker BR on Slack",

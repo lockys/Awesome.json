@@ -90,6 +90,11 @@
     "description": "Library smoothing the transition to Coq for Haskell users."
   },
   {
+    "name": "Coq record update",
+    "url": "https://github.com/tchajed/coq-record-update",
+    "description": "Library which provides a generic way to update Coq record fields."
+  },
+  {
     "name": "Coq-std++",
     "url": "https://gitlab.mpi-sws.org/iris/stdpp",
     "description": "Extended alternative standard library for Coq."
@@ -146,7 +151,7 @@
   },
   {
     "name": "TLC",
-    "url": "http://www.chargueraud.org/softs/tlc/",
+    "url": "https://github.com/charguer/tlc",
     "description": "Non-constructive alternative to Coq's standard library."
   },
   {
@@ -160,6 +165,16 @@
     "description": "OPAM-based collection of Coq packages."
   },
   {
+    "name": "Coq Platform",
+    "url": "https://github.com/MSoegtropIMC/coq-platform",
+    "description": "Experimental curated collection of packages to support Coq use in industry, education, and research."
+  },
+  {
+    "name": "Coq-community Templates",
+    "url": "https://github.com/coq-community/templates",
+    "description": "Templates for generating configuration files for Coq projects."
+  },
+  {
     "name": "Docker-Coq",
     "url": "https://github.com/coq-community/docker-coq",
     "description": "Docker images for many versions of Coq."
@@ -170,8 +185,13 @@
     "description": "Docker images for many combinations of versions of Coq and the Mathematical Components library."
   },
   {
+    "name": "Docker-Coq-action",
+    "url": "https://github.com/marketplace/actions/docker-coq-action",
+    "description": "GitHub container action that can be used with Docker-Coq or Docker-MathComp."
+  },
+  {
     "name": "Dune",
-    "url": "https://github.com/ocaml/dune",
+    "url": "https://dune.build",
     "description": "Composable and opinionated build system for Coq and OCaml (former jbuilder)."
   },
   {
@@ -215,6 +235,11 @@
     "description": "Tactic for discharging goals about floating-point arithmetic and round-off errors."
   },
   {
+    "name": "Hierarchy Builder",
+    "url": "https://github.com/math-comp/hierarchy-builder",
+    "description": "Collection of commands for declaring Coq hierarchies based on packed classes."
+  },
+  {
     "name": "Ltac2",
     "url": "https://coq.inria.fr/refman/proof-engine/ltac2.html",
     "description": "Experimental typed tactic language similar to Coq's classic Ltac language."
@@ -253,6 +278,11 @@
     "name": "CFML",
     "url": "https://gitlab.inria.fr/charguer/cfml2",
     "description": "Tool for proving properties of OCaml programs in separation logic."
+  },
+  {
+    "name": "coq2html",
+    "url": "https://github.com/xavierleroy/coq2html",
+    "description": "Alternative HTML documentation generator for Coq."
   },
   {
     "name": "CoqOfOCaml",
@@ -315,9 +345,24 @@
     "description": "Axiom-free formalization of category theory."
   },
   {
+    "name": "Completeness and Decidability of Modal Logic Calculi",
+    "url": "https://github.com/coq-community/comp-dec-modal",
+    "description": "Soundness, completeness, and decidability for the logics K, K*, CTL, and PDL."
+  },
+  {
+    "name": "CoqPrime",
+    "url": "https://github.com/thery/coqprime",
+    "description": "Library for certifying primality using Pocklington and Elliptic Curve certificates."
+  },
+  {
     "name": "CoRN",
     "url": "https://github.com/coq-community/corn",
     "description": "Library of constructive real analysis and algebra."
+  },
+  {
+    "name": "Coqtail",
+    "url": "https://github.com/coqtail/coqtail",
+    "description": "Library of results ranging from arithmetic to real and complex analysis."
   },
   {
     "name": "Coquelicot",
@@ -325,14 +370,29 @@
     "description": "Formalization of classical real analysis compatible with the standard library and focusing on usability."
   },
   {
+    "name": "Finmap",
+    "url": "https://github.com/math-comp/finmap",
+    "description": "Extension of Mathematical Components with finite maps, sets, and multisets."
+  },
+  {
     "name": "Four Color Theorem",
     "url": "https://github.com/math-comp/fourcolor",
     "description": "Formal proof of the Four Color Theorem, a landmark result of graph theory."
   },
   {
+    "name": "Gaia",
+    "url": "https://github.com/coq-community/gaia",
+    "description": "Implementation of books from Bourbaki's Elements of Mathematics, including set theory and number theory."
+  },
+  {
     "name": "GeoCoq",
     "url": "https://github.com/GeoCoq/GeoCoq",
     "description": "Formalization of geometry based on Tarski's axiom system."
+  },
+  {
+    "name": "Graph Theory",
+    "url": "https://github.com/coq-community/graph-theory",
+    "description": "Formalized graph theory results."
   },
   {
     "name": "Homotopy Type Theory",
@@ -358,6 +418,11 @@
     "name": "Odd Order Theorem",
     "url": "https://github.com/math-comp/odd-order",
     "description": "Formal proof of the Odd Order Theorem, a landmark result of finite group theory."
+  },
+  {
+    "name": "Puiseuxth",
+    "url": "https://github.com/roglo/puiseuxth",
+    "description": "Proof of Puiseux's theorem and computation of roots of polynomials of Puiseux's series."
   },
   {
     "name": "UniMath",
@@ -403,12 +468,16 @@
     "url": "https://coq.inria.fr/refman/"
   },
   {
+    "name": "Official Coq standard library",
+    "url": "https://coq.inria.fr/stdlib/"
+  },
+  {
     "name": "Official Coq Discourse forum",
     "url": "https://coq.discourse.group"
   },
   {
-    "name": "Official Coq Gitter chat",
-    "url": "https://gitter.im/coq/coq"
+    "name": "Official Coq Zulip chat",
+    "url": "https://coq.zulipchat.com"
   },
   {
     "name": "Official Coq-Club mailing list",
@@ -443,6 +512,10 @@
     "url": "https://github.com/math-comp/math-comp/wiki"
   },
   {
+    "name": "Planet Coq link aggregator",
+    "url": "https://coq.pl-a.net"
+  },
+  {
     "name": "Coq Exchange: ideas and experiment reports about Coq",
     "url": "https://project.inria.fr/coqexchange/news/"
   },
@@ -463,12 +536,20 @@
     "url": "http://www.joachim-breitner.de/blog/tag/Coq"
   },
   {
+    "name": "MIT PLV blog posts on Coq",
+    "url": "https://plv.csail.mit.edu/blog/category/coq.html"
+  },
+  {
     "name": "Poleiro: a Coq blog by Arthur Azevedo de Amorim",
     "url": "http://poleiro.info"
   },
   {
     "name": "Ralf Jung's blog posts on Coq",
     "url": "https://www.ralfj.de/blog/categories/coq.html"
+  },
+  {
+    "name": "Thomas Letan’s blog posts on Coq",
+    "url": "https://soap.coffee/~lthms/#coq"
   },
   {
     "name": "Coq'Art",
@@ -487,7 +568,7 @@
   },
   {
     "name": "Program Logics for Certified Compilers",
-    "url": "https://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/program-logics-certified-compilers",
+    "url": "https://www.cs.princeton.edu/~appel/papers/plcc.pdf",
     "description": "Book that explains how to construct program logics using separation logic, accompanied by a formal model in Coq which is applied to the Clight programming language and other examples."
   },
   {
@@ -509,6 +590,16 @@
     "name": "The Mathematical Components book",
     "url": "https://math-comp.github.io/mcb/",
     "description": "Book oriented towards mathematically inclined users, focusing on the Mathematical Components library and the SSReflect proof language."
+  },
+  {
+    "name": "Foundations of Separation Logic",
+    "url": "https://chargueraud.org/teach/verif/",
+    "description": "Introduction to using separation logic to reason about sequential imperative programs in Coq."
+  },
+  {
+    "name": "Introduction to Computational Logic",
+    "url": "https://courses.ps.uni-saarland.de/icl_20/2/Resources",
+    "description": "Introduction to basic logic principles, constructive type theory, and interactive theorem proving with Coq."
   },
   {
     "name": "CodeWars' Coq kata",

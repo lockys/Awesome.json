@@ -31,7 +31,7 @@
   {
     "name": "The security impact of a new cryptographic library",
     "url": "https://cryptojedi.org/papers/coolnacl-20120725.pdf",
-    "description": "Introducory paper on NaCl, discussing important aspects of implementing cryptography and using it as a larger building block in security systems, by Daniel J. Bernstein, Tanja Lange, Peter Schwabe."
+    "description": "Introductory paper on NaCl, discussing important aspects of implementing cryptography and using it as a larger building block in security systems, by Daniel J. Bernstein, Tanja Lange, Peter Schwabe."
   },
   {
     "name": "FIPS 198-1: HMACs",
@@ -113,14 +113,24 @@
     "description": "Overview of ongoing research in secret key crypto and hashes by ECRYPT Network of Excellence in Cryptology."
   },
   {
-    "name": "The Galois/Counter Mode of Operation (GCM)\n",
+    "name": "The Galois/Counter Mode of Operation (GCM)",
     "url": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.695&rep=rep1&type=pdf",
     "description": "Original paper introducing GCM, by by David A. McGrew and John Viega."
   },
   {
-    "name": "The Security and Performance of the\nGalois/Counter Mode (GCM) of Operation",
+    "name": "The Security and Performance of the Galois/Counter Mode (GCM) of Operation",
     "url": "https://eprint.iacr.org/2004/193.pdf",
     "description": "Design, analysis and security of GCM, and, more specifically, AES GCM mode, by David A. McGrew and John Viega."
+  },
+  {
+    "name": "GCM Security Bounds Reconsidered",
+    "url": "https://www.iacr.org/archive/fse2015/85400168/85400168.pdf",
+    "description": "An analysis and algorithm for nonce generation for AES GCM with higher counter-collision probability, by Yuichi Niwa, Keisuke Ohashi, Kazuhiko Minematsu, Tetsu Iwata."
+  },
+  {
+    "name": "Proxy-Mediated Searchable Encryption in SQL Databases Using Blind Indexes",
+    "url": "https://eprint.iacr.org/2019/806.pdf",
+    "description": "An overview of existing searchable encryption schemes, and analysis of scheme built on AES-GCM, blind index and bloom filter by Eugene Pilyankevich, Dmytro Kornieiev, Artem Storozhuk."
   },
   {
     "name": "Differential Cryptanalysis of Salsa20/8",
@@ -146,6 +156,26 @@
     "name": "Cryptoanalysis of block ciphers and protocols",
     "url": "http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2006/PHD/PHD-2006-04",
     "description": "By Elad Pinhas Barkan."
+  },
+  {
+    "name": "Too much crypto",
+    "url": "https://eprint.iacr.org/2019/1492.pdf",
+    "description": "Analysis of number of rounds for symmetric cryptography primitives, and suggestions to do fewer rounds, by Jean-Philippe Aumasson."
+  },
+  {
+    "name": "How to Break MD5 and Other Hash Functions",
+    "url": "https://iacr.org/archive/eurocrypt2005/34940019/34940019.pdf",
+    "description": "A 2005 paper about modular differential collision attack on MD5, MD4 and other hash functions, by Xiaoyun Wang and Hongbo Yu."
+  },
+  {
+    "name": "New attacks on Keccak-224 and Keccak-256",
+    "url": "https://www.iacr.org/archive/fse2012/75490447/75490447.pdf",
+    "description": "A 2012 paper about using the combination of differential and algebraic techniques for collision attacks on SHA-3, by Itai Dinur, Orr Dunkelman, Adi Shamir."
+  },
+  {
+    "name": "A Single-Key Attack on the Full GOST Block Cipher",
+    "url": "https://www.iacr.org/archive/fse2011/67330297/67330297.pdf",
+    "description": "An attack (\"Reflection-Meet-inthe-Middle Attack\") on GOST block cipher that allows to recover key with 2^225 computations and 2^32 known plaintexts, by Takanori Isobe."
   },
   {
     "name": "New Directions in Cryptography",
@@ -297,9 +327,19 @@
     "description": "A good intro into Zero knowledge protocols."
   },
   {
+    "name": "Multi-Theorem Preprocessing NIZKs from Lattices",
+    "url": "https://link.springer.com/chapter/10.1007%2F978-3-319-96881-0_25",
+    "description": "Construction of non-interactive zero-knowledge (NIZK) proofs using lattice-based preprocessing models, by Sam Kim and David J. Wu."
+  },
+  {
     "name": "Recommendation for Key Management – Part 1: General",
     "url": "http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf",
     "description": "Methodologically very relevant document on goals and procedures of key management."
+  },
+  {
+    "name": "Selecting Cryptographic Key Sizes",
+    "url": "https://link.springer.com/content/pdf/10.1007/s00145-001-0009-4.pdf",
+    "description": "Classic paper from 1999 with guidelines for the determination of key sizes for symmetric cryptosystems, RSA, ECC, by Arjen K. Lenstra and Eric R. Verheul."
   },
   {
     "name": "PRIMES is in P",
@@ -380,9 +420,5 @@
     "name": "Cryptography I",
     "url": "https://www.coursera.org/learn/crypto",
     "description": "Stanford University course on Coursera, taught by prof. Dan Boneh. Cryptography II is still in development."
-  },
-  {
-    "name": "Cryptopals crypto challenges.",
-    "url": "https://cryptopals.com/"
   }
 ]

@@ -25,6 +25,11 @@
     "description": "A comprehensive reverse engineering and manipulation framework for gate-level netlists."
   },
   {
+    "name": "HomePWN",
+    "url": "https://github.com/ElevenPaths/HomePWN",
+    "description": "Swiss Army Knife for Pentesting of IoT Devices."
+  },
+  {
     "name": "IoTSecFuzz",
     "url": "https://gitlab.com/invuls/iot-projects/iotsecfuzz",
     "description": "Framework for automatisation of IoT layers security analysis: hardware, software and communication."
@@ -110,6 +115,26 @@
     "description": "Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing."
   },
   {
+    "name": "Cotopaxi",
+    "url": "https://github.com/Samsung/cotopaxi",
+    "description": "Set of tools for security testing of Internet of Things devices using specific network IoT protocols."
+  },
+  {
+    "name": "dumpflash",
+    "url": "https://github.com/ohjeongwook/dumpflash",
+    "description": "Low-level NAND Flash dump and parsing utility."
+  },
+  {
+    "name": "flashrom",
+    "url": "https://github.com/flashrom/flashrom",
+    "description": "Tool for detecting, reading, writing, verifying and erasing flash chips."
+  },
+  {
+    "name": "Samsung Firmware Magic",
+    "url": "https://github.com/chrivers/samsung-firmware-magic",
+    "description": "Decrypt Samsung SSD firmware updates."
+  },
+  {
     "name": "Bus Blaster",
     "url": "http://dangerousprototypes.com/docs/Bus_Blaster",
     "description": "Detects and interacts with hardware debug ports like UART and JTAG."
@@ -118,6 +143,11 @@
     "name": "Bus Pirate",
     "url": "http://dangerousprototypes.com/docs/Bus_Pirate",
     "description": "Detects and interacts with hardware debug ports like UART and JTAG."
+  },
+  {
+    "name": "Shikra",
+    "url": "https://int3.cc/products/the-shikra",
+    "description": "Detects and interacts with hardware debug ports like UART and JTAG. Among other protocols."
   },
   {
     "name": "JTAGULATOR",
@@ -137,7 +167,7 @@
   {
     "name": "HydraBus",
     "url": "https://hydrabus.com/hydrabus-1-0-specifications/",
-    "description": " Open source multi-tool hardware similar to the BusPirate but with NFC capabilities."
+    "description": "Open source multi-tool hardware similar to the BusPirate but with NFC capabilities."
   },
   {
     "name": "ChipWhisperer",
@@ -147,7 +177,7 @@
   {
     "name": "Glasgow",
     "url": "https://github.com/GlasgowEmbedded/Glasgow",
-    "description": " Tool for exploring and debugging different digital interfaces."
+    "description": "Tool for exploring and debugging different digital interfaces."
   },
   {
     "name": "J-Link",
@@ -155,8 +185,77 @@
     "description": "J-Link offers USB powered JTAG debug probes for multiple different CPU cores 💶."
   },
   {
+    "name": "UberTooth One",
+    "url": "https://greatscottgadgets.com/ubertoothone/",
+    "description": "Open source 2.4 GHz wireless development platform suitable for Bluetooth experimentation."
+  },
+  {
+    "name": "Bluefruit LE Sniffer",
+    "url": "https://www.adafruit.com/product/2269",
+    "description": "Easy to use Bluetooth Low Energy sniffer."
+  },
+  {
+    "name": "ApiMote",
+    "url": "http://apimote.com",
+    "description": "ZigBee security research hardware for learning about and evaluating the security of IEEE 802.15.4/ZigBee systems. Killerbee compatible."
+  },
+  {
+    "name": "Freakduino",
+    "url": "https://freaklabsstore.com/index.php?main_page=product_info&cPath=22&products_id=219&zenid=fpmu2kuuk4abjf6aurt3bjnfk4",
+    "description": "Low Cost Battery Operated Wireless Arduino Board that can be turned into a IEEE 802.15.4 protocol sniffer."
+  },
+  {
+    "name": "RTL-SDR",
+    "url": "https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/",
+    "description": "Cheapest SDR for beginners. It is a computer based radio scanner for receiving live radio signals frequencies from 500 kHz up to 1.75 GHz."
+  },
+  {
+    "name": "HackRF One",
+    "url": "https://greatscottgadgets.com/hackrf/",
+    "description": "Software Defined Radio peripheral capable of transmission or reception of radio signals from 1 MHz to 6 GHz (half-duplex)."
+  },
+  {
+    "name": "YardStick One",
+    "url": "https://greatscottgadgets.com/yardstickone/",
+    "description": "Half-duplex sub-1 GHz wireless transceiver."
+  },
+  {
+    "name": "LimeSDR",
+    "url": "https://www.crowdsupply.com/lime-micro/limesdr",
+    "description": "Software Defined Radio peripheral capable of transmission or reception of radio signals from 100 KHz to 3.8 GHz (full-duplex)."
+  },
+  {
+    "name": "BladeRF 2.0",
+    "url": "https://www.nuand.com/bladerf-2-0-micro/",
+    "description": "Software Defined Radio peripheral capable of transmission or reception of radio signals from 47 MHz to 6 GHz (full-duplex)."
+  },
+  {
+    "name": "USRP B Series",
+    "url": "https://www.ettus.com/product-categories/usrp-bus-series/",
+    "description": "Software Defined Radio peripheral capable of transmission or reception of radio signals from 70 MHz to 6 GHz (full-duplex)."
+  },
+  {
+    "name": "Proxmark 3 RDV4",
+    "url": "https://www.proxmark.com/",
+    "description": "Powerful general purpose RFID tool. From Low Frequency (125kHz) to High Frequency (13.56MHz) tags."
+  },
+  {
+    "name": "ChamaleonMini",
+    "url": "http://chameleontiny.com/",
+    "description": "Programmable, portable tool for NFC security analysis."
+  },
+  {
+    "name": "HydraNFC",
+    "url": "https://hydrabus.com/hydranfc-1-0-specifications/",
+    "description": "Powerful 13.56MHz RFID / NFC platform. Read / write / crack / sniff / emulate."
+  },
+  {
+    "name": "2020, Fotios Chantzis, Evangel Deirme, Ioannis Stais, Paulino Calderon, Beau Woods: Practical IoT Hacking",
+    "url": "https://www.amazon.com/Fotios-Chantzis-ebook/dp/B085BVVSN6/"
+  },
+  {
     "name": "2020, Jasper van Woudenberg, Colin O'Flynn: The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks",
-    "url": "https://www.amazon.com/Hardware-Hacking-Handbook-Breaking-Embedded-ebook/dp/B077WZBFYL"
+    "url": "https://nostarch.com/hardwarehacking"
   },
   {
     "name": "2019, Yago Hansen: The Hacker's Hardware Toolkit: The best collection of hardware gadgets for Red Team hackers, Pentesters and security researchers",
@@ -171,6 +270,15 @@
     "url": "https://www.elsevier.com/books/hardware-security/bhunia/978-0-12-812477-2"
   },
   {
+    "name": "2018, Mark Carney: Pentesting Hardware",
+    "url": "https://github.com/unprovable/PentestHardware",
+    "description": "A Practical Handbook (DRAFT)"
+  },
+  {
+    "name": "2018, Qing Yang, Lin Huang Inside Radio: An Attack and Defense Guide",
+    "url": "https://link.springer.com/book/10.1007/978-981-10-8447-8"
+  },
+  {
     "name": "2017, Aditya Gupta, Aaron Guzman: IoT Penetration Testing Cookbook",
     "url": "https://www.packtpub.com/networking-and-servers/iot-penetration-testing-cookbook"
   },
@@ -183,8 +291,16 @@
     "url": "https://nostarch.com/carhacking"
   },
   {
+    "name": "2015, Keng Tiong Ng: The Art of PCB Reverse Engineering",
+    "url": "https://visio-for-engineers.blogspot.com/p/order.html"
+  },
+  {
     "name": "2015, Nitesh Dhanjan: Abusing the Internet of Things: Blackouts, Freakouts, and Stakeouts",
     "url": "https://shop.oreilly.com/product/0636920033547.do"
+  },
+  {
+    "name": "2015, Joshua Wright , Johnny Cache: Hacking Wireless Exposed",
+    "url": "https://www.mhprofessional.com/9780071827638-usa-hacking-exposed-wireless-third-edition-group"
   },
   {
     "name": "2014, Debdeep Mukhopadhyay: Hardware Security: Design, Threats, and Safeguards",
@@ -197,6 +313,10 @@
   {
     "name": "2013, Andrew Huang: Hacking the XBOX",
     "url": "https://nostarch.com/xboxfree"
+  },
+  {
+    "name": "2019, Agarwal et al: Detecting IoT Devices and How They Put Large Heterogeneous Networks at Security Risk",
+    "url": "https://www.mdpi.com/1424-8220/19/19/4107"
   },
   {
     "name": "2019, Almakhdhub et al: BenchIoT: A Security Benchmark for the Internet of Things",
@@ -260,7 +380,7 @@
     "url": "http://ieeexplore.ieee.org/document/6903734/"
   },
   {
-    "name": "2014, Costin et al: A Large-Scale Analysis of the Security of Embedded Firmware\ns",
+    "name": "2014, Costin et al: A Large-Scale Analysis of the Security of Embedded Firmwares",
     "url": "http://www.s3.eurecom.fr/docs/usenixsec14_costin.pdf"
   },
   {
@@ -281,6 +401,10 @@
     "description": "Conference talk presenting several real world examples on real bad implementations 📺."
   },
   {
+    "name": "Dumping firmware from a device's SPI flash with a buspirate",
+    "url": "https://www.iotpentest.com/2019/06/dumping-firmware-from-device-using.html"
+  },
+  {
     "name": "Hacking the DSP-W215, Again",
     "url": "http://www.devttys0.com/2014/05/hacking-the-dspw215-again/"
   },
@@ -288,6 +412,10 @@
     "name": "Hacking the PS4",
     "url": "https://cturt.github.io/ps4.html",
     "description": "Introduction to PS4's security."
+  },
+  {
+    "name": "IoT Security@CERN",
+    "url": "https://doi.org/10.5281/zenodo.1035034"
   },
   {
     "name": "Multiple vulnerabilities found in the D-link DWR-932B",
@@ -351,12 +479,12 @@
   },
   {
     "name": "OWASP Embedded Application Security Project",
-    "url": "https://www.owasp.org/index.php/OWASP_Embedded_Application_Security",
+    "url": "https://owasp.org/www-project-embedded-application-security/",
     "description": "Development best practices and list of hardware and software tools."
   },
   {
     "name": "OWASP Internet of Things Project",
-    "url": "https://www.owasp.org/index.php/OWASP_Internet_of_Things_Project",
+    "url": "https://owasp.org/www-project-internet-of-things/",
     "description": "IoT common vulnerabilities and attack surfaces."
   },
   {
@@ -368,6 +496,10 @@
     "name": "Siliconpr0n",
     "url": "https://siliconpr0n.org/",
     "description": "A Wiki/Archive of all things IC reversing."
+  },
+  {
+    "name": "RTL-SDR",
+    "url": "https://www.rtl-sdr.com/"
   },
   {
     "name": "/dev/ttyS0's Embedded Device Hacking",
@@ -388,6 +520,56 @@
   {
     "name": "Quarkslab",
     "url": "https://blog.quarkslab.com/"
+  },
+  {
+    "name": "wrong baud",
+    "url": "https://wrongbaud.github.io/"
+  },
+  {
+    "name": "Firmware Security",
+    "url": "https://firmwaresecurity.com/"
+  },
+  {
+    "name": "PenTestPartners",
+    "url": "https://www.pentestpartners.com/internet-of-things/"
+  },
+  {
+    "name": "Attify",
+    "url": "https://blog.attify.com/"
+  },
+  {
+    "name": "Patayu",
+    "url": "https://payatu.com/blog"
+  },
+  {
+    "name": "GracefulSecurity",
+    "url": "https://gracefulsecurity.com/category/hardware/",
+    "description": "Hardware tag"
+  },
+  {
+    "name": "Black Hills",
+    "url": "https://www.blackhillsinfosec.com/tag/hardware-hacking/",
+    "description": "Hardware Hacking tag"
+  },
+  {
+    "name": "Azeria Lab",
+    "url": "https://azeria-labs.com/",
+    "description": "Miscellaneous ARM related Tutorials."
+  },
+  {
+    "name": "JTAG Explained",
+    "url": "https://blog.senr.io/blog/jtag-explained#",
+    "description": "A walkthrough covering UART and JTAG bypassing a protected login shell."
+  },
+  {
+    "name": "Reverse Engineering Serial Ports",
+    "url": "http://www.devttys0.com/2012/11/reverse-engineering-serial-ports/",
+    "description": "Detailed tutorial about how to spot debug pads on a PCB."
+  },
+  {
+    "name": "UART explained",
+    "url": "https://www.mikroe.com/blog/uart-serial-communication",
+    "description": "An in depth explanation of the UART protocol."
   },
   {
     "name": "Hardwear.io",

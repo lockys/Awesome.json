@@ -25,6 +25,11 @@
     "description": "Fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified."
   },
   {
+    "name": "pyanalyze",
+    "url": "https://github.com/quora/pyanalyze",
+    "description": "Extensible static analyzer and type checker for Python."
+  },
+  {
     "name": "pytypes",
     "url": "https://github.com/Stewori/pytypes",
     "description": "Provides a rich set of utilities for runtime typechecking."
@@ -110,6 +115,11 @@
     "description": "Typing for WSGI application implementers. These are not stub files, they're interfaces you mark support for to help typecheck WSGI conformance."
   },
   {
+    "name": "data-science-types",
+    "url": "https://github.com/predictive-analytics-lab/data-science-types",
+    "description": "Stubs for NumPy, pandas, and Matplotlib."
+  },
+  {
     "name": "typed-ast",
     "url": "https://github.com/python/typed_ast",
     "description": "Modified fork of CPython's ast module that parses # type: comments."
@@ -151,7 +161,7 @@
   },
   {
     "name": "flake8-annotations",
-    "url": "https://github.com/python-discord/flake8-annotations",
+    "url": "https://github.com/sco1/flake8-annotations",
     "description": "Plugin for flake8 to check for presence of type annotations in function definitions."
   },
   {
@@ -165,6 +175,11 @@
     "description": "Pytest plugin for testing mypy types, stubs, and plugins."
   },
   {
+    "name": "pytest-mypy-testing",
+    "url": "https://github.com/davidfritzsche/pytest-mypy-testing",
+    "description": "Pytest plugin to test mypy static type analysis."
+  },
+  {
     "name": "MonkeyType",
     "url": "https://github.com/instagram/MonkeyType",
     "description": "Collects runtime types of function arguments and return values, and can automatically generate stub files or even add draft type annotations directly to your Python code based on the types collected at runtime."
@@ -173,6 +188,16 @@
     "name": "merge_pyi",
     "url": "https://github.com/google/pytype/tree/master/pytype/tools/merge_pyi",
     "description": "Part of pytype toolchain, applies stub files onto source code."
+  },
+  {
+    "name": "pyannotate",
+    "url": "https://github.com/dropbox/pyannotate",
+    "description": "Insert annotations into your source code based on call arguments and return types observed at runtime."
+  },
+  {
+    "name": "pytest-annotate",
+    "url": "https://github.com/kensho-technologies/pytest-annotate",
+    "description": "Pyannotate plugin for pytest."
   },
   {
     "name": "retype",
@@ -201,7 +226,7 @@
   },
   {
     "name": "pynamodb-mypy",
-    "url": "https://github.com/lyft/pynamodb-mypy",
+    "url": "https://github.com/pynamodb/pynamodb-mypy",
     "description": "Plugin for PynamoDB support."
   },
   {
@@ -213,6 +238,11 @@
     "name": "mypy/plugins",
     "url": "https://github.com/python/mypy/tree/master/mypy/plugins",
     "description": "Plugins already integrated into mypy."
+  },
+  {
+    "name": "loguru-mypy",
+    "url": "https://github.com/kornicameister/loguru-mypy",
+    "description": "Plugin for loguru support."
   },
   {
     "name": "mypy-PyCharm-plugin",
@@ -235,39 +265,94 @@
     "description": "Mypy integration for Emacs."
   },
   {
+    "name": "PEP-3107",
+    "url": "https://www.python.org/dev/peps/pep-3107",
+    "description": "Function Annotations."
+  },
+  {
+    "name": "PEP-482",
+    "url": "https://www.python.org/dev/peps/pep-0482/",
+    "description": "Literature Overview for Type Hints."
+  },
+  {
     "name": "PEP-483",
     "url": "https://www.python.org/dev/peps/pep-0483/",
-    "description": "About type hints theory."
+    "description": "The Theory of Type Hints."
   },
   {
     "name": "PEP-484",
     "url": "https://www.python.org/dev/peps/pep-0484/",
-    "description": "About type annotations."
+    "description": "Type Hints."
+  },
+  {
+    "name": "PEP-526",
+    "url": "https://www.python.org/dev/peps/pep-0526/",
+    "description": "Syntax for Variable Annotations."
   },
   {
     "name": "PEP-544",
     "url": "https://www.python.org/dev/peps/pep-0544/",
-    "description": "About protocols."
+    "description": "Protocols: Structural subtyping (static duck typing)."
+  },
+  {
+    "name": "PEP-557",
+    "url": "https://www.python.org/dev/peps/pep-0557/",
+    "description": "Data Classes."
+  },
+  {
+    "name": "PEP-560",
+    "url": "https://www.python.org/dev/peps/pep-0560/",
+    "description": "Core support for typing module and generic types."
   },
   {
     "name": "PEP-561",
     "url": "https://www.python.org/dev/peps/pep-0561/",
-    "description": "About distributing and packaging type information."
+    "description": "Distributing and Packaging Type Information."
   },
   {
     "name": "PEP-563",
     "url": "https://www.python.org/dev/peps/pep-0563/",
-    "description": "About postponed evaluation of annotations."
+    "description": "Postponed Evaluation of Annotations."
+  },
+  {
+    "name": "PEP-585",
+    "url": "https://www.python.org/dev/peps/pep-0585/",
+    "description": "Type Hinting Generics In Standard Collections."
   },
   {
     "name": "PEP-586",
     "url": "https://www.python.org/dev/peps/pep-0586/",
-    "description": "About literal types."
+    "description": "Literal Types."
   },
   {
-    "name": "PEP-3107",
-    "url": "https://www.python.org/dev/peps/pep-3107/",
-    "description": "About function annotations."
+    "name": "PEP-589",
+    "url": "https://www.python.org/dev/peps/pep-0589/",
+    "description": "TypedDict: Type Hints for Dictionaries with a Fixed Set of Keys."
+  },
+  {
+    "name": "PEP-591",
+    "url": "https://www.python.org/dev/peps/pep-0591/",
+    "description": "Adding a final qualifier to typing."
+  },
+  {
+    "name": "PEP-593",
+    "url": "https://www.python.org/dev/peps/pep-0593/",
+    "description": "Flexible function and variable annotations."
+  },
+  {
+    "name": "PEP-604",
+    "url": "https://www.python.org/dev/peps/pep-0604/",
+    "description": "Complementary syntax for Union[]."
+  },
+  {
+    "name": "PEP-612",
+    "url": "https://www.python.org/dev/peps/pep-0612/",
+    "description": "Parameter Specification Variables."
+  },
+  {
+    "name": "PEP-613",
+    "url": "https://www.python.org/dev/peps/pep-0613/",
+    "description": "Explicit Type Aliases."
   },
   {
     "name": "typing",

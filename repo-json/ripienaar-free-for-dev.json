@@ -1,8 +1,8 @@
 [
   {
     "name": "Full, detailed list",
-    "url": "https://cloud.google.com/free/docs/gcp-free-tier#always-free-usage-limits",
-    "description": "https://cloud.google.com/free/docs/gcp-free-tier#always-free-usage-limits"
+    "url": "https://cloud.google.com/free",
+    "description": "https://cloud.google.com/free"
   },
   {
     "name": "Full, detailed list",
@@ -10,9 +10,102 @@
     "description": "https://aws.amazon.com/free/?awsf.Free%20Tier%20Types=categories%23alwaysfree"
   },
   {
+    "name": "Virtual Machines",
+    "url": "https://azure.microsoft.com/services/virtual-machines/",
+    "description": "1 B1S Linux VM, 1 B1S Windows VM"
+  },
+  {
+    "name": "App Service",
+    "url": "https://azure.microsoft.com/services/app-service/",
+    "description": "10 web, mobile or API apps"
+  },
+  {
+    "name": "Functions",
+    "url": "https://azure.microsoft.com/services/functions/",
+    "description": "1 million requests per month"
+  },
+  {
+    "name": "DevTest Labs",
+    "url": "https://azure.microsoft.com/services/devtest-lab/",
+    "description": "Enable fast, easy, and lean dev-test environments"
+  },
+  {
+    "name": "Active Directory",
+    "url": "https://azure.microsoft.com/services/active-directory/",
+    "description": "500,000 objects"
+  },
+  {
+    "name": "Active Directory B2C",
+    "url": "https://azure.microsoft.com/services/active-directory/external-identities/b2c/",
+    "description": "50,000 monthly stored users"
+  },
+  {
+    "name": "Azure DevOps",
+    "url": "https://azure.microsoft.com/services/devops/",
+    "description": "5 active users, unlimited private Git repos"
+  },
+  {
+    "name": "Azure Pipelines — 10 free parallel jobs with unlimited minutes for open source for Linux, macOS, and Windows",
+    "url": "https://azure.microsoft.com/services/devops/pipelines/"
+  },
+  {
+    "name": "Microsoft IoT Hub",
+    "url": "https://azure.microsoft.com/services/iot-hub/",
+    "description": "8,000 messages per day"
+  },
+  {
+    "name": "Load Balancer",
+    "url": "https://azure.microsoft.com/services/load-balancer/",
+    "description": "1 free public load balanced IP (VIP)"
+  },
+  {
+    "name": "Notification Hubs",
+    "url": "https://azure.microsoft.com/services/notification-hubs/",
+    "description": "1 million push notifications"
+  },
+  {
+    "name": "Bandwidth",
+    "url": "https://azure.microsoft.com/pricing/details/bandwidth/",
+    "description": "5GB egress per month"
+  },
+  {
+    "name": "Cosmos DB",
+    "url": "https://azure.microsoft.com/services/cosmos-db/",
+    "description": "5GB storage and 400 RUs of provisioned throughput"
+  },
+  {
+    "name": "Static Web Apps — Build, deploy and host static apps and serverless functions, with free SSL, Authentication/Authorization and custom domains",
+    "url": "https://azure.microsoft.com/pricing/details/app-service/static/"
+  },
+  {
+    "name": "Storage",
+    "url": "https://azure.microsoft.com/services/storage/",
+    "description": "5GB LRS File or Blob storage"
+  },
+  {
+    "name": "Cognitive Services",
+    "url": "https://azure.microsoft.com/services/cognitive-services/",
+    "description": "AI/ML APIs (Computer Vision, Translator, Face detection, Bots...) with free tier including limited transactions"
+  },
+  {
+    "name": "Cognitive Search",
+    "url": "https://azure.microsoft.com/services/search/#features",
+    "description": "AI-based search and indexation service, free for 10,000 documents"
+  },
+  {
+    "name": "Azure Kubernetes Service",
+    "url": "https://azure.microsoft.com/services/kubernetes-service/",
+    "description": "Managed Kubernetes service, free cluster management"
+  },
+  {
+    "name": "Event Grid",
+    "url": "https://azure.microsoft.com/services/event-grid/",
+    "description": "100K ops/month"
+  },
+  {
     "name": "Full, detailed list",
-    "url": "https://azure.microsoft.com/en-us/free/",
-    "description": "https://azure.microsoft.com/en-us/free/"
+    "url": "https://azure.microsoft.com/free/",
+    "description": "https://azure.microsoft.com/free/"
   },
   {
     "name": "Full, detailed list",
@@ -28,10 +121,6 @@
     "name": "Full, detailed list",
     "url": "https://www.alibabacloud.com/campaign/free-trial",
     "description": "https://www.alibabacloud.com/campaign/free-trial"
-  },
-  {
-    "name": "Azure DevOps — Unlimited private repos (Git and TFS) for up to 5 users/team",
-    "url": "https://azure.microsoft.com/services/devops/"
   },
   {
     "name": "bitbucket.org — Unlimited public and private Git repos for up to 5 users with Pipelines for CI/CD",
@@ -56,7 +145,7 @@
     "description": "Unlimited public and private Git repos"
   },
   {
-    "name": "github.com — Unlimited public repositories and unlimited private repositories (up to 3 collaborators) with Pipelines for CI/CD",
+    "name": "github.com — Unlimited public repositories and unlimited private repositories (with unlimited collaborators) with Pipelines for CI/CD",
     "url": "https://github.com/"
   },
   {
@@ -100,7 +189,11 @@
     "description": "Serves as a collaborative software development management system for free Software projects (for non-GNU projects)"
   },
   {
-    "name": "algorithmia.com — Host algorithms for free. Includes free monthly allowance for running algorithms. Now with CLI support",
+    "name": "Abstract API — API suite for a variety of use cases including IP geolocation, gender detection or even email validation.",
+    "url": "https://www.abstractapi.com"
+  },
+  {
+    "name": "algorithmia.com — Host algorithms for free. Includes free monthly allowance for running algorithms. Now with CLI support.",
     "url": "https://algorithmia.com/"
   },
   {
@@ -108,9 +201,9 @@
     "url": "https://www.apify.com/"
   },
   {
-    "name": "Bearer.sh",
-    "url": "https://www.bearer.sh",
-    "description": "API Integrations built in minutes, monitored in real-time. With a universal API client, call any API in 2 minutes and monitor all your integrations from a simple dashboard."
+    "name": "Atlas toolkit",
+    "url": "https://atlastk.org/",
+    "description": "Lightweight library to develop single-page web applications that are instantly accessible. Available for Java, Node.js, Perl, Python and Ruby."
   },
   {
     "name": "Beeceptor",
@@ -118,7 +211,7 @@
     "description": "Mock a rest API in seconds, fake API response and much more. Free 50 requests per day, public dashboard, open endpoints (anyone having link to the dashboard can view requests and responses)."
   },
   {
-    "name": "bigml.com — Hosted machine learning algorithms. Unlimited free tasks for development, limit of 16 MB data/task",
+    "name": "bigml.com — Hosted machine learning algorithms. Unlimited free tasks for development, limit of 16 MB data/task.",
     "url": "https://bigml.com/"
   },
   {
@@ -140,6 +233,11 @@
     "description": "Realtime currency data API for fintech apps. Free plan includes 5000 calls per month."
   },
   {
+    "name": "Datapane",
+    "url": "https://datapane.com",
+    "description": "API for building interactive reports in Python and deploying Python scripts and Jupyter Notebooks as self-service tools."
+  },
+  {
     "name": "DB Designer — Cloud based Database schema design and modeling tool with a free starter plan of 2 Database models and 10 tables per model.",
     "url": "https://www.dbdesigner.net/"
   },
@@ -148,12 +246,17 @@
     "url": "https://www.diggernaut.com/"
   },
   {
-    "name": "dominodatalab.com — Data science with support for Python, R, Spark, Hadoop, MATLAB and others",
+    "name": "dominodatalab.com — Data science with support for Python, R, Spark, Hadoop, MATLAB and others.",
     "url": "https://www.dominodatalab.com"
   },
   {
     "name": "dreamfactory.com — Open source REST API backend for mobile, web, and IoT applications. Hook up any SQL/NoSQL database, file storage system, or external service and it instantly creates a comprehensive REST API platform with live documentation, user management,...",
     "url": "https://dreamfactory.com/"
+  },
+  {
+    "name": "ETF Data API",
+    "url": "https://etf-data.com/",
+    "description": "Quality European ETF, ETN and ETC data, updated daily. The API offers complete overview including sector, country, factor, dividend yield and valuations. Additionally basic information such as domicile, followed index, asset class, fee, currency, replication method, distribution type and frequency. 50 free API calls per day."
   },
   {
     "name": "ExtendsClass",
@@ -174,6 +277,15 @@
     "url": "https://www.geodatasource.com"
   },
   {
+    "name": "Hoppscotch",
+    "url": "https://hoppscotch.io",
+    "description": "A free, fast, and beautiful API request builder."
+  },
+  {
+    "name": "Invantive Cloud — Access over 70 (cloud)platforms such as Exact Online, Twinfield, ActiveCampaign or Visma using Invantive SQL or OData4 (typically Power BI or Power Query). Includes data replication and exchange. Free plan for developers and implementation consultants. Free for specific platforms with limitations in data volumes.",
+    "url": "https://cloud.invantive.com/"
+  },
+  {
     "name": "IP Geolocation — IP Geolocation API",
     "url": "https://ipgeolocation.io/",
     "description": "Forever free plan for developers with 30k requests per month (1k/day) limit."
@@ -191,11 +303,16 @@
     "url": "https://www.iplist.cc"
   },
   {
+    "name": "BigDataCloud",
+    "url": "https://www.bigdatacloud.com/",
+    "description": "Provides fast, accurate and free (Unlimited or up to 10K-50K/month) APIs for modern web like IP Geolocation, Reverse Geocoding, Networking Insights, Email and Phone Validation, Client Info and more."
+  },
+  {
     "name": "IPTrace — An embarrassingly simple API that provides reliable and useful IP geolocation data for your business.",
     "url": "https://iptrace.io"
   },
   {
-    "name": "konghq.com/ — API Marketplace and powerful tools for private and public APIs. With the free tier, some features are limited such as monitoring, alerting and support",
+    "name": "konghq.com/ — API Marketplace and powerful tools for private and public APIs. With the free tier, some features are limited such as monitoring, alerting and support.",
     "url": "https://konghq.com/"
   },
   {
@@ -203,15 +320,19 @@
     "url": "https://www.mailboxvalidator.com"
   },
   {
-    "name": "microlink.io – It turns any website into data such as metatags normalization, beauty link previews, scraping capabilities or screenshots as a service. 250 reqs/day every day free.",
+    "name": "microlink.io – It turns any website into data such as metatags normalization, beauty link previews, scraping capabilities or screenshots as a service. 100 reqs/day every day free.",
     "url": "https://microlink.io/"
   },
   {
-    "name": "monkeylearn.com — Text analysis with machine learning, free 300 queries/month",
+    "name": "monkeylearn.com — Text analysis with machine learning, free 300 queries/month.",
     "url": "https://monkeylearn.com/"
   },
   {
-    "name": "myfakeapi.com — Free serverless API mocking service for developers",
+    "name": "MockAPI — MockAPI is a simple tool that lets you easily mock up APIs, generate custom data, and preform operations on it using RESTful interface. MockAPI is meant to be used as a prototyping/testing/learning tool. 1 project/50 resources per project for free.",
+    "url": "https://www.mockapi.io/"
+  },
+  {
+    "name": "myfakeapi.com — Free serverless API mocking service for developers.",
     "url": "https://myfakeapi.com"
   },
   {
@@ -223,11 +344,11 @@
     "url": "https://ocr.space/"
   },
   {
-    "name": "OpenAPI3 Designer — Visually create Open API 3 definitions for free",
+    "name": "OpenAPI3 Designer — Visually create Open API 3 definitions for free.",
     "url": "https://interaction-design.co.za/openapidesigner/"
   },
   {
-    "name": "parsehub.com — Extract data from dynamic sites, turn dynamic websites into APIs, 5 projects free",
+    "name": "parsehub.com — Extract data from dynamic sites, turn dynamic websites into APIs, 5 projects free.",
     "url": "https://parsehub.com/"
   },
   {
@@ -245,11 +366,6 @@
     "url": "https://postman.com"
   },
   {
-    "name": "Postwoman",
-    "url": "https://postwoman.io",
-    "description": "API request builder - A free, fast, and beautiful alternative to Postman."
-  },
-  {
     "name": "ProxyCrawl — Crawl and scrape websites without the need of proxies, infrastructure or browsers. We solve captchas for you and prevent you being blocked. The first 1000 calls are free of charge.",
     "url": "https://proxycrawl.com/"
   },
@@ -263,7 +379,7 @@
     "url": "https://requestbin.com"
   },
   {
-    "name": "restlet.com — APISpark enables any API, application or data owner to become an API provider in minutes via an intuitive browser interface",
+    "name": "restlet.com — APISpark enables any API, application or data owner to become an API provider in minutes via an intuitive browser interface.",
     "url": "https://restlet.com/products/apispark/"
   },
   {
@@ -272,11 +388,28 @@
     "description": "Web service to generate unique (cool :) images from any text."
   },
   {
+    "name": "Scraper.AI",
+    "url": "https://scraper.ai",
+    "description": "SaaS that turns any website into a consumable API for you to build on. Free 50 extractions and 10000 API calls / month."
+  },
+  {
     "name": "Scraper API — Cloud based web scraping API handles proxies, browsers, and CAPTCHAs. Scrape any web page with a simple API call. Get started with 1000 free API calls/month.",
     "url": "https://www.scraperapi.com/"
   },
   {
-    "name": "scrapinghub.com — Data scraping with visual interface and plugins. Free plan includes unlimited scraping on a shared server",
+    "name": "ScrapingAnt — Headless Chrome scraping API and free checked proxies service. Javascript rendering, premium rotating proxies, CAPTCHAs avoiding. Free plans available.",
+    "url": "https://scrapingant.com/"
+  },
+  {
+    "name": "ScraperBox — Undetectable web scraping API using real Chrome browsers and proxy rotation. Use a simple API call to scrape any web page. Free plan has 1000 requests per month.",
+    "url": "https://scraperbox.com/"
+  },
+  {
+    "name": "ScrapingDog — Scrapingdog handles millions of proxies, browsers and CAPTCHAs to provide you with HTML of any web page in a single API call. It also provides Web Scraper for Chrome & Firefox and a software for instant scraping demand. Free plans available.",
+    "url": "https://scrapingdog.com/"
+  },
+  {
+    "name": "scrapinghub.com — Data scraping with visual interface and plugins. Free plan includes unlimited scraping on a shared server.",
     "url": "https://scrapinghub.com"
   },
   {
@@ -284,9 +417,19 @@
     "url": "https://www.scrapingninja.co/"
   },
   {
+    "name": "Sheetson",
+    "url": "https://sheetson.com",
+    "description": "Instantly turn any Google Sheets into RESTful API. Free plan available."
+  },
+  {
     "name": "shrtcode API",
     "url": "https://shrtco.de/docs",
-    "description": "Free URL Shortening API without authorisation and no request limits"
+    "description": "Free URL Shortening API without authorisation and no request limits."
+  },
+  {
+    "name": "Sofodata",
+    "url": "https://www.sofodata.com/",
+    "description": "Create secure RESTful APIs from CSV files. Upload a CSV file and instantly access the data via its API allowing faster application development. Free plan includes 2 APIs and 2,500 API calls per month. No credit card required."
   },
   {
     "name": "tamber — Put deep-learning powered recommendations in your app. Free 5k monthly active users.",
@@ -295,7 +438,12 @@
   {
     "name": "Time Door",
     "url": "https://timedoor.io",
-    "description": "A time series analysis API"
+    "description": "A time series analysis API."
+  },
+  {
+    "name": "Vattly",
+    "url": "https://vattly.com/",
+    "description": "Highly available, fast and secure VAT validation API, that provides full European Union coverage. 10 free API calls per day."
   },
   {
     "name": "Webhook.site",
@@ -303,19 +451,19 @@
     "description": "Easily test HTTP webhooks with this handy tool that displays requests instantly."
   },
   {
-    "name": "wit.ai — NLP for developers",
+    "name": "wit.ai — NLP for developers.",
     "url": "https://wit.ai/"
   },
   {
-    "name": "wolfram.com — Built-in knowledge-based algorithms in the cloud",
+    "name": "wolfram.com — Built-in knowledge-based algorithms in the cloud.",
     "url": "http://wolfram.com/language/"
   },
   {
-    "name": "wrapapi.com — Turn any website into a parameterized API. 30k API calls per month",
+    "name": "wrapapi.com — Turn any website into a parameterized API. 30k API calls per month.",
     "url": "https://wrapapi.com/"
   },
   {
-    "name": "Zenscrape — Web scraping API with headless browsers, residentials IPs and simple pricing. 1000 free API calls/month, extra free credits for students and non-profits",
+    "name": "Zenscrape — Web scraping API with headless browsers, residentials IPs and simple pricing. 1000 free API calls/month, extra free credits for students and non-profits.",
     "url": "https://zenscrape.com/web-scraping-api"
   },
   {
@@ -323,13 +471,24 @@
     "url": "https://ip-api.com"
   },
   {
-    "name": "APIFull — Web Scraping API handling headless browsers and rotating proxies for developers.",
-    "url": "https://apifull.com/"
-  },
-  {
     "name": "WebScraping.AI",
     "url": "https://webscraping.ai",
     "description": "Simple Web Scraping API with built-in parsing, Chrome rendering and proxies. 5000 free API calls per month."
+  },
+  {
+    "name": "Zipcodebase",
+    "url": "https://zipcodebase.com",
+    "description": "Free Zip Code API, access to Worldwide Postal Code Data. 10000 free requests/month."
+  },
+  {
+    "name": "EVA",
+    "url": "http://eva.pingutil.com/",
+    "description": "Free email vaidator API, which helps to identify whether an email is dispsoable and having valid MX records."
+  },
+  {
+    "name": "happi.dev",
+    "url": "https://happi.dev",
+    "description": "Freemium api services collection (Music, Exchange Rate, Key value store, Language Detection, Password Generator, QRCode Generator, Lyrics). 8000 free API calls per month."
   },
   {
     "name": "bintray.com — JFrog Bintray hosts Open Source projects for free, and supports Docker, Maven, NuGet, npm, Debian, RPM, Conan, Vagrant, Opkg, yum, and also home to JCenter the most comprehensive collection of Maven artifacts.",
@@ -355,6 +514,10 @@
   {
     "name": "packagecloud.io — Easy to use repository hosting for: Maven, RPM, DEB, PyPi and RubyGem packages (has free tier).",
     "url": "https://packagecloud.io"
+  },
+  {
+    "name": "repsy.io — 1 GB Free private/public Maven Repository.",
+    "url": "https://repsy.io"
   },
   {
     "name": "Bitwarden — The easiest and safest way for individuals, teams, and business organizations to store, share, and sync sensitive data.",
@@ -422,6 +585,10 @@
     "url": "https://keybase.io/"
   },
   {
+    "name": "Google Meet — Use Google Meet for your business's online video meeting needs. Meet provides secure, easy-to-join online meetings.",
+    "url": "https://meet.google.com/"
+  },
+  {
     "name": "meet.jit.si — One click video conversations, screen sharing, for free",
     "url": "https://meet.jit.si/"
   },
@@ -450,8 +617,8 @@
     "description": "Private and secure bookmarking app for macOS, Windows, Android, iOS and Web. Free Unlimited Bookmarks and Collaboration."
   },
   {
-    "name": "riot.im — A decentralized communication tool built on Matrix. Group chats, direct messaging, encrypted file transfers, voice and video chats, and easy integration with other services.",
-    "url": "https://about.riot.im/"
+    "name": "element.io — A decentralized and open source communication tool built on Matrix. Group chats, direct messaging, encrypted file transfers, voice and video chats, and easy integration with other services.",
+    "url": "https://element.io/"
   },
   {
     "name": "Rocket.Chat",
@@ -491,6 +658,10 @@
     "description": "Bookmarking app with a powerful Slack integration. Free for open-source teams."
   },
   {
+    "name": "TeleType — share terminals, voice, code, whiteboard and more. no sign-in required, end-to-end encrypted collaboration for developers.",
+    "url": "https://teletype.oorja.io/"
+  },
+  {
     "name": "twist.com — An asynchronous-friendly team communication app where conversations stay organized and on-topic. Free and Unlimited plans available. Discounts provided for eligible teams.",
     "url": "https://twist.com"
   },
@@ -508,6 +679,11 @@
     "url": "https://whereby.com/"
   },
   {
+    "name": "userforge.com",
+    "url": "https://userforge.com/",
+    "description": "Interconnected online personas, user stories and context mapping.  Helps keep design and dev in sync, free for up to 3 personas and 2 collaborators."
+  },
+  {
     "name": "wistia.com — Video hosting with viewer analytics, HD video delivery and marketing tools to help understand your visitors, 25 videos and Wistia branded player",
     "url": "https://wistia.com/"
   },
@@ -518,6 +694,10 @@
   {
     "name": "zoom.us — Secure Video and Web conferencing, add-ons available. Free limited to 40 minutes",
     "url": "https://zoom.us/"
+  },
+  {
+    "name": "Cosmic — Headless CMS and API toolkit. Free personal plans for developers.",
+    "url": "https://www.cosmicjs.com/"
   },
   {
     "name": "acquia.com — Hosting for Drupal sites. Free tier for developers. Free development tools (such as Acquia Dev Desktop) also available",
@@ -538,7 +718,11 @@
   {
     "name": "kontent.ai",
     "url": "https://www.kontent.ai",
-    "description": "A Content-as-a-Service platform that gives you all the headless CMS benefits while empowering marketers at the same time. Starter plan provides 3 users with unlimited projects, 5000 content items, 2 languages. Larger plans available to meet your needs."
+    "description": "A Content-as-a-Service platform that gives you all the headless CMS benefits while empowering marketers at the same time. Developer plan provides 2 users with unlimited projects with 2 environments for each, 500 content items, 2 languages with Delivery and Management API, and Custom elements support. Larger plans available to meet your needs."
+  },
+  {
+    "name": "Forestry.io/ — Headless CMS. Give your editors the power of Git. Create and edit Markdown-based content with ease. Comes with three free sites that includes 3 editors, Instant Previews. Integrates with blogs hosted on Netlify/GitHubpages/ elsewhere",
+    "url": "https://forestry.io/"
   },
   {
     "name": "beanstalkapp.com — A complete workflow to write, review and deploy code), free account for 1 user and 1 repository with 100 MB of storage",
@@ -580,13 +764,17 @@
     "description": "5 free analysis report for web performance, accessibility, security each month"
   },
   {
+    "name": "deepcode.ai — DeepCode finds bugs, security vulnerabilities, performance and API issues based on AI. DeepCode's speed of analysis allow us to analyse your code in real time and deliver results when you hit the save button in your IDE. Supported languages are Java, C/C++, JavaScript, Python, and TypeScript. Integrations with GitHub, BitBucket and Gitlab. Free for open source and private repos, free up to 30 developers.",
+    "url": "https://www.deepcode.ai"
+  },
+  {
     "name": "deepscan.io — Advanced static analysis for automatically finding runtime errors in JavaScript code, free for Open Source",
     "url": "https://deepscan.io"
   },
   {
     "name": "DeepSource",
     "url": "https://deepsource.io/",
-    "description": "DeepSource continuously analyzes source code changes and finds issues categorized under security, performance, anti-patterns, bug-risks, documentation and style. For Python and Go. Free for open source."
+    "description": "DeepSource continuously analyzes source code changes, finds and fixes issues categorized under security, performance, anti-patterns, bug-risks, documentation and style. Native integration with GitHub, GitLab and Bitbucket."
   },
   {
     "name": "gerrithub.io — Gerrit code review for GitHub repositories for free",
@@ -595,10 +783,6 @@
   {
     "name": "gocover.io — Code coverage for any Go package",
     "url": "https://gocover.io/"
-  },
-  {
-    "name": "golangci.com — Automated Go (golang) code review service for GitHub pull requests.",
-    "url": "https://golangci.com"
   },
   {
     "name": "goreportcard.com — Code Quality for Go projects, free for Open Source",
@@ -620,6 +804,10 @@
   {
     "name": "Imgbot — Imgbot is a friendly robot that optimizes your images and saves you time. Optimized images mean smaller file sizes without sacrificing quality. It's free for open source.",
     "url": "https://github.com/marketplace/imgbot"
+  },
+  {
+    "name": "resmush.it — reSmush.it is a FREE API that provides image optimization. reSmush.it has been implemented on the most common CMS such as Wordpress, Drupal or Magento. reSmush.it is the most used image optimization API with more than 7 billions images already treated, and is still Free of charge.",
+    "url": "https://resmush.it"
   },
   {
     "name": "insight.sensiolabs.com — Code Quality for PHP/Symfony projects, free for Open Source",
@@ -650,12 +838,12 @@
     "url": "https://sonarcloud.io"
   },
   {
-    "name": "tachikoma.io — Dependency Update for Ruby, Node.js, Perl projects, free for Open Source",
-    "url": "https://tachikoma.io/"
+    "name": "SourceLevel — Automated Code Review and Team Analytics. Free for Open Source and organizations up to 5 collaborators.",
+    "url": "https://sourcelevel.io/"
   },
   {
-    "name": "testanywhere.co — Automatic test website or web app continuously and catch bugs in the early stages, free 1,000 tests/month",
-    "url": "https://testanywhere.co/"
+    "name": "tachikoma.io — Dependency Update for Ruby, Node.js, Perl projects, free for Open Source",
+    "url": "https://tachikoma.io/"
   },
   {
     "name": "Typo CI — Typo CI reviews your Pull Requests and commits for spelling mistakes, free for Open Source.",
@@ -694,12 +882,12 @@
     "url": "https://github.com/marketplace/accesslint"
   },
   {
-    "name": "appveyor.com — CD service for Windows, free for Open Source",
-    "url": "https://www.appveyor.com/"
+    "name": "appcircle.io — Automated mobile CI/CD/CT for iOS and Android with online device emulators. 20 minutes build timeout (60 mins for Open Source) with single concurrency for free.",
+    "url": "https://appcircle.io"
   },
   {
-    "name": "Azure Pipelines — 10 free parallel jobs with unlimited minutes for open source for Linux, macOS, and Windows",
-    "url": "https://azure.microsoft.com/services/devops/pipelines/"
+    "name": "appveyor.com — CD service for Windows, free for Open Source",
+    "url": "https://www.appveyor.com/"
   },
   {
     "name": "bitrise.io — A CI/CD for mobile apps, native or hybrid. With 200 free builds/month 10 min build time and two team members. OSS projects get 45 min build time, +1 concurrency and unlimited team size.",
@@ -718,8 +906,18 @@
     "url": "https://circleci.com/"
   },
   {
+    "name": "cirrus-ci.org",
+    "url": "https://cirrus-ci.org",
+    "description": "Free for public GitHub repositories"
+  },
+  {
     "name": "codefresh.io — Free-for-Life plan: 1 build, 1 environment, shared servers, unlimited public repos",
     "url": "https://codefresh.io"
+  },
+  {
+    "name": "codemagic.io",
+    "url": "https://codemagic.io/",
+    "description": "Free 500 build minutes/month"
   },
   {
     "name": "codeship.com — 100 private builds/month, 5 private projects, unlimited for Open Source",
@@ -728,6 +926,11 @@
   {
     "name": "deployhq.com — 1 project with 10 daily deployments (30 build minutes/month)",
     "url": "https://www.deployhq.com/"
+  },
+  {
+    "name": "drone",
+    "url": "https://cloud.drone.io/",
+    "description": "Drone Cloud enables developers to run Continuous Delivery pipelines across multiple architectures - including x86 and Arm (both 32 bit and 64 bit) - all in one place"
   },
   {
     "name": "gitlab.com — Create pipelines directly from Git repositories using GitLab's CI service.  2,000min/mo",
@@ -746,6 +949,10 @@
     "url": "https://app.shippable.com/"
   },
   {
+    "name": "Squash Labs — creates a VM for each branch and makes your app available from a unique URL, Unlimited public & private repos, Up to 2 GB VM Sizes.",
+    "url": "https://www.squash.io/"
+  },
+  {
     "name": "stackahoy.io — 100% free. Unlimited deployments, branches and builds",
     "url": "https://stackahoy.io"
   },
@@ -756,16 +963,6 @@
   {
     "name": "travis-ci.org — Free for public GitHub repositories",
     "url": "https://travis-ci.org/"
-  },
-  {
-    "name": "cirrus-ci.org",
-    "url": "https://cirrus-ci.org",
-    "description": "Free for public GitHub repositories"
-  },
-  {
-    "name": "drone",
-    "url": "https://cloud.drone.io/",
-    "description": "Drone Cloud enables developers to run Continuous Delivery pipelines across multiple architectures - including x86 and Arm (both 32 bit and 64 bit) - all in one place"
   },
   {
     "name": "Applitools.com — smart visual validation for web, native mobile and desktop apps. Integrates with almost all automation solutions (like Selenium and Karma) and remote runners (Sauce Labs, Browser Stack). free for open source. A free tier for a single user with limited checkpoints per week.",
@@ -807,6 +1004,11 @@
     "description": "Add visual testing to any web app, static site, style guide, or component library.  10 team members, Demo app and unlimited projects, 5,000 snapshots / month."
   },
   {
+    "name": "reflect.run",
+    "url": "https://reflect.run",
+    "description": "Codeless automated tests for web apps. Tests can be scheduled in-app or executed from a CI/CD tool. Each test run includes a full video recording along with console and network logs. The free tier includes an unlimited number of saved tests, with 25 test runs per month and up to 3 users."
+  },
+  {
     "name": "saucelabs.com — Cross browser testing, Selenium testing and mobile testing, free for Open Source",
     "url": "https://saucelabs.com/"
   },
@@ -821,6 +1023,11 @@
   {
     "name": "websitepulse.com — Various free network and server tools.",
     "url": "https://www.websitepulse.com/tools/"
+  },
+  {
+    "name": "qase.io",
+    "url": "https://qase.io",
+    "description": "Test management system for Dev and QA teams. Manage test cases, compose test runs, perform test runs, track defects and measure impact. The free tier includes all core features, with 500Mb available for attachments and up to 3 users."
   },
   {
     "name": "alienvault.com — Uncovers compromised systems in your network",
@@ -855,6 +1062,10 @@
     "url": "https://duo.com/"
   },
   {
+    "name": "Firebase Auth — Free end-to-end identity solution, email and password accounts, Google, Twitter, Facebook, GitHub login, phone auth (up to 10k/month), and more.",
+    "url": "https://firebase.google.com/products/auth/"
+  },
+  {
     "name": "foxpass.com — Hosted LDAP and RADIUS. Easy per-user logins to servers, VPNs and wireless networks. Free for 10 users",
     "url": "https://www.foxpass.com/"
   },
@@ -871,6 +1082,10 @@
     "url": "https://internet.nl"
   },
   {
+    "name": "Jumpcloud — Provides directory as a service similar to Azure AD, user management, single sign-on, and RADIUS authentication. Free for up to 10 users.",
+    "url": "https://jumpcloud.com/"
+  },
+  {
     "name": "keychest.net",
     "url": "https://keychest.net",
     "description": "SSL expiry management and cert purchase with an integrated CT database"
@@ -878,6 +1093,10 @@
   {
     "name": "letsencrypt.org — Free SSL Certificate Authority with certs trusted by all major browsers",
     "url": "https://letsencrypt.org/"
+  },
+  {
+    "name": "LoginRadius — Managed User Authentication service for free. Email registartion and 3 social providers.",
+    "url": "https://www.loginradius.com/"
   },
   {
     "name": "logintc.com — Two-factor authentication (2FA) by push notifications, free for 10 users, VPN, Websites and SSH",
@@ -903,10 +1122,6 @@
   {
     "name": "opswat.com — Security Monitoring of computers, devices, applications, configurations,... Free 25 users and 30 days history",
     "url": "https://www.opswat.com/"
-  },
-  {
-    "name": "ponycheckup.com — An automated security checkup tool for Django websites",
-    "url": "https://www.ponycheckup.com/"
   },
   {
     "name": "Protectumus",
@@ -963,6 +1178,10 @@
     "url": "https://virgilsecurity.com/"
   },
   {
+    "name": "Virushee — Privacy-oriented file/data scanning powered by hybrid heuristic and AI-assisted engine. Possible to use internal dynamic sandbox analysis. Limited to 50MB per file upload",
+    "url": "https://virushee.com/"
+  },
+  {
     "name": "bitnami.com — Deploy prepared apps on IaaS. Management of 1 AWS micro instance free",
     "url": "https://bitnami.com/"
   },
@@ -989,8 +1208,17 @@
     "url": "https://pusher.com/"
   },
   {
+    "name": "scaledrone.com — Realtime messaging service. Free for up to 20 simultaneous connections and 100,000 events/day",
+    "url": "https://www.scaledrone.com/"
+  },
+  {
     "name": "synadia.com — NATS.io as a service. Global, AWS, GCP, and Azure. Free forever with 4k msg size, 50 active connections and 5GB of data per month.",
     "url": "https://synadia.com/ngs"
+  },
+  {
+    "name": "cloudkarafka.com",
+    "url": "https://www.cloudkarafka.com/",
+    "description": "Free Shared Kafka cluster, up to 5 topics, 10MB data per topic and 28 days of data retention."
   },
   {
     "name": "bugfender.com — Free up to 100k log lines/day with 24 hours retention",
@@ -1017,10 +1245,6 @@
     "url": "https://papertrailapp.com/"
   },
   {
-    "name": "rollbar.com — Free up to 5000 events/month, 30 days retention",
-    "url": "https://rollbar.com"
-  },
-  {
     "name": "sematext.com — Free up to 500 MB/day, 7 days retention",
     "url": "https://sematext.com/logsene"
   },
@@ -1040,6 +1264,10 @@
   {
     "name": "lingohub.com — Free up to 3 users, always free for Open Source",
     "url": "https://lingohub.com/"
+  },
+  {
+    "name": "localizely.com — Free for Open Source",
+    "url": "https://localizely.com/"
   },
   {
     "name": "Loco — Free up to 2000 translations, Unlimited translators, 10 languages/project, 1000 translatable assets/project",
@@ -1062,6 +1290,10 @@
     "url": "https://webtranslateit.com/"
   },
   {
+    "name": "weblate.org — It's free for libre projects up to 10,000 string source for the free tier, and Unlimited Self-hosted on-premises.",
+    "url": "https://weblate.org/"
+  },
+  {
     "name": "apimetrics.io — Automated API Performance Monitoring, Testing and Analytics. Free Plan, manually make API calls and Run from their West Coast servers",
     "url": "https://apimetrics.io/"
   },
@@ -1078,12 +1310,13 @@
     "url": "https://assertible.com"
   },
   {
-    "name": "blackfire.io — Blackfire is the SaaS-delivered Application Performance Solution. Free Hacker plan (PHP only)",
-    "url": "https://blackfire.io/"
+    "name": "bearer.sh",
+    "url": "https://www.bearer.sh",
+    "description": "Automatically Monitor API Requests, Track Performance, Detect Anomalies and Fix Issues on your critical API Usage. Install the Bearer Agent for Free with 1 line of code."
   },
   {
-    "name": "bmc.com — Free 1 second resolution for up to 10 servers",
-    "url": "https://www.bmc.com/truesightpulse/"
+    "name": "blackfire.io — Blackfire is the SaaS-delivered Application Performance Solution. Free Hacker plan (PHP only)",
+    "url": "https://blackfire.io/"
   },
   {
     "name": "circonus.com — Free for 20 metrics",
@@ -1150,6 +1383,11 @@
     "url": "https://loader.io/"
   },
   {
+    "name": "nixstats.com",
+    "url": "https://nixstats.com",
+    "description": "Free for one server. E-Mail Notifications, public status page, 60 second interval and more."
+  },
+  {
     "name": "nodequery.com — Free basic server monitors up to 10 servers",
     "url": "https://nodequery.com/"
   },
@@ -1195,6 +1433,10 @@
     "url": "https://www.statuscake.com/"
   },
   {
+    "name": "statusgator.com — Status page monitoring, 3 monitors free",
+    "url": "https://statusgator.com/"
+  },
+  {
     "name": "thousandeyes.com — Network and user experience monitoring. 3 locations and 20 data feeds of major web services free",
     "url": "https://www.thousandeyes.com/"
   },
@@ -1203,9 +1445,12 @@
     "url": "https://uptimerobot.com/"
   },
   {
-    "name": "nixstats.com",
-    "url": "https://nixstats.com",
-    "description": "Free for one server. E-Mail Notifications, public status page, 60 second interval and more."
+    "name": "uptimetoolbox.com — Free monitoring for 5 websites, 60 second intervals, public statuspage.",
+    "url": "https://uptimetoolbox.com/"
+  },
+  {
+    "name": "zenduty.com — End-to-end incident management, alerting, on-call management and response orchestration platform for network operations, site reliability engineering and DevOps teams. Free for upto 5 users.",
+    "url": "https://www.zenduty.com/"
   },
   {
     "name": "bugsnag.com — Free for up to 2,000 errors/month after the initial trial",
@@ -1214,7 +1459,7 @@
   {
     "name": "honeybadger.io",
     "url": "https://www.honeybadger.io",
-    "description": "Exception, uptime, and cron monitoring that's so awesome, you'll wish your site had more errors. Honeybadger is free for solo devs and open-source projects (12,000 errors/month)."
+    "description": "Exception, uptime, and cron monitoring. Free for solo devs and open-source projects (12,000 errors/month)."
   },
   {
     "name": "logrocket.io",
@@ -1240,6 +1485,11 @@
   {
     "name": "searchly.com — Free 2 indices and 20 MB storage",
     "url": "http://www.searchly.com/"
+  },
+  {
+    "name": "pagedart.com",
+    "url": "https://pagedart.com/",
+    "description": "AI search as a service the free tier includes 1000 Documents, 50000 searches. Larger free tiers are possible for worthwhile projects."
   },
   {
     "name": "10minutemail",
@@ -1281,6 +1531,10 @@
     "url": "https://elasticemail.com"
   },
   {
+    "name": "forwardemail.net — Free email forwarding for custom domains. Create and forward an unlimited amount of email addresses with your domain name.",
+    "url": "https://forwardemail.net"
+  },
+  {
     "name": "ImprovMX – Free email forwarding",
     "url": "https://improvmx.com"
   },
@@ -1309,7 +1563,7 @@
     "url": "https://mailchimp.com/"
   },
   {
-    "name": "MailerLite.com — 1,000 subscribers/month, unlimited email free",
+    "name": "MailerLite.com — 1,000 subscribers/month, 12,000 emails/month free",
     "url": "https://www.mailerlite.com"
   },
   {
@@ -1317,7 +1571,7 @@
     "url": "https://www.mailinator.com/"
   },
   {
-    "name": "mailjet.com — 6,000 emails/month free",
+    "name": "mailjet.com — 6,000 emails/month free (200 emails daily sending limit)",
     "url": "https://www.mailjet.com/"
   },
   {
@@ -1334,12 +1588,17 @@
     "url": "https://mailtrap.io/"
   },
   {
-    "name": "migadu.com — Email Hosting (Webmail, SMTP, IMAP, ...) — free plan is limited to 10 outgoing mails/day",
-    "url": "https://www.migadu.com/"
+    "name": "mohmal.com — Disposable temporary email",
+    "url": "https://www.mohmal.com/en"
   },
   {
     "name": "moosend.com — Mailing list management service. Free account for 6 months for startups",
     "url": "https://moosend.com/"
+  },
+  {
+    "name": "Outlook.com",
+    "url": "https://outlook.live.com/owa/",
+    "description": "Free personal email and calendar"
   },
   {
     "name": "pepipost.com — 30k emails free for first month, then first 100 emails/day free",
@@ -1403,8 +1662,16 @@
     "description": "Free disposable email addresses with forwarding and automatic address expiration"
   },
   {
+    "name": "Validator.Pizza — Free API to detect disposable emails",
+    "url": "https://www.validator.pizza/"
+  },
+  {
     "name": "Verifalia — Real-time email verification API with mailbox confirmation and disposable email address detector; 25 free email verifications/day.",
     "url": "https://verifalia.com/email-verification-api"
+  },
+  {
+    "name": "verimail.io — Bulk and API email verification service. 100 free verifications/month",
+    "url": "https://verimail.io/"
   },
   {
     "name": "Yandex.Connect — Free email and DNS hosting for up to 1,000 users",
@@ -1438,13 +1705,24 @@
     "description": "Freeware fonts that is licensed for commercial work. Hand-selected these typefaces and presenting them in an easy-to-use format."
   },
   {
+    "name": "Google Fonts",
+    "url": "https://fonts.google.com/",
+    "description": "Lots of free fonts that are easy and quick to install in a website via a download or a link to Google's CDN."
+  },
+  {
+    "name": "FontGet",
+    "url": "https://www.fontget.com/",
+    "description": "Has a variety of fonts available to download and sorted neatly with tags."
+  },
+  {
     "name": "99inbound.com",
     "url": "https://www.99inbound.com/",
     "description": "Build forms and share them online. Get an email or Slack message for each submission. Free plan has 2 forms, 100 entries per month, basic email & Slack."
   },
   {
-    "name": "formaholic.com — Simple form endpoint. Perfect for static sites.",
-    "url": "https://formaholic.com"
+    "name": "Formcake.com",
+    "url": "https://formcake.com",
+    "description": "Form backend for devs, free plan allows unlimited forms, 100 submissions, Zapier integration. No libraries or dependencies required."
   },
   {
     "name": "Formcarry.com",
@@ -1493,6 +1771,21 @@
     "url": "https://www.typeform.com/"
   },
   {
+    "name": "WaiverStevie.com",
+    "url": "https://waiverstevie.com",
+    "description": "Electronic Signature platform with a REST API. Receive notifications with webhooks. Free plan watermarks signed documents, but allows unlimited envelopes + signatures."
+  },
+  {
+    "name": "Wufoo",
+    "url": "https://www.wufoo.com/",
+    "description": "Quick forms to use on websites. Free plan has a limit of 100 submissions each month."
+  },
+  {
+    "name": "Zoho Forms",
+    "url": "https://www.zoho.com/forms/",
+    "description": "with 40+ field types, customizable themes, situation-specific templates, and a simple user interface, helps you create beautiful, functional forms for all your needs"
+  },
+  {
     "name": "bootstrapcdn.com — CDN for bootstrap, bootswatch and fontawesome.io",
     "url": "https://www.bootstrapcdn.com/"
   },
@@ -1501,8 +1794,12 @@
     "url": "https://cdnjs.com/"
   },
   {
-    "name": "cloudflare.com — Basic service is free, good for a blog, it also offers a free SSL certificate service and 5 firewall rules.",
+    "name": "Cloudflare\n\nCDN along with free SSL\nFree DNS for unlimited number of domains\nFirewall rules and pagerules\nAnalytics\nTryCloudflare — Expose local HTTP servers through Argo Tunnel to public.\n\n",
     "url": "https://www.cloudflare.com/"
+  },
+  {
+    "name": "TryCloudflare — Expose local HTTP servers through Argo Tunnel to public.",
+    "url": "https://developers.cloudflare.com/argo-tunnel/trycloudflare"
   },
   {
     "name": "ddos-guard.net — Free CDN, DDoS protection and SSL certificate",
@@ -1529,7 +1826,7 @@
     "url": "https://www.netdepot.com/cdn/"
   },
   {
-    "name": "ovh.ie — Free DDos protection and SSL certificate",
+    "name": "ovh.ie — Free DDoS protection and SSL certificate",
     "url": "https://www.ovh.ie/ssl-gateway/"
   },
   {
@@ -1570,6 +1867,15 @@
     "url": "https://w.tools/"
   },
   {
+    "name": "Namecheap Supersonic — Free DDoS protection",
+    "url": "https://www.namecheap.com/supersonic-cdn/#free-plan"
+  },
+  {
+    "name": "anvil.works",
+    "url": "https://anvil.works",
+    "description": "Web app development with nothing but Python. Free tier with unlimited apps."
+  },
+  {
     "name": "appharbor.com — A .Net PaaS that provides 1 free worker",
     "url": "https://appharbor.com/"
   },
@@ -1582,8 +1888,12 @@
     "url": "https://www.codenameone.com/"
   },
   {
-    "name": "engineyard.com — Engine Yard provides 500 free hours",
-    "url": "https://www.engineyard.com/"
+    "name": "Deta – Deploy unlimited number of Node.js and Python apps for free up to 50k requests/month. Includes free DBs, Auth and email.",
+    "url": "https://www.deta.sh"
+  },
+  {
+    "name": "dronahq.com — No code application development platform for enterprises to visually develop application, integrate with existing systems to Build internal apps, processes and forms, rapidly. Free plan offers 200 Tasks/month, Unlimited Draft Apps and 1 Published Apps",
+    "url": "https://www.dronahq.com/"
   },
   {
     "name": "firebase.google.com — Build real-time apps, the free plan has 100 max connections, 10 GB data transfer, 1 GB data storage, 1 GB hosting storage and 10 GB hosting transfer",
@@ -1607,8 +1917,17 @@
     "url": "https://www.heroku.com/"
   },
   {
+    "name": "dplyr.dev",
+    "url": "https://www.dplyr.dev",
+    "description": "Deploy Web Apps with Databases. Free for deploying on your machines. Maximum 2 deployments"
+  },
+  {
     "name": "KintoHub — KintoHub is an all-in-one platform to combine and deploy your backend services, websites, cron jobs, databases and everything your app needs in one place.",
     "url": "https://www.kintohub.com/"
+  },
+  {
+    "name": "Krucible — Krucible is a platform for creating Kubernetes clusters for testing and development. Free tier accounts come with 25 cluster-hours per month.",
+    "url": "https://usekrucible.com"
   },
   {
     "name": "kubesail.com",
@@ -1632,7 +1951,7 @@
   {
     "name": "Okteto Cloud",
     "url": "https://okteto.com",
-    "description": "Managed Kubernetes service designed for developers. Free developer accounts come with three namespaces, each with 8GB of RAM, 4 CPUs and 150GB Disk space."
+    "description": "Managed Kubernetes service designed for developers. Free developer accounts come with 8GB of RAM, 4 CPUs and 5GB Disk space. The apps sleep after 24 hours of inactivity."
   },
   {
     "name": "outsystems.com — Enterprise web development PaaS for on-premise or cloud, free \"personal environment\" offering allows for unlimited code and up to 1 GB database",
@@ -1656,18 +1975,24 @@
     "url": "https://scn.sap.com/docs/DOC-56411"
   },
   {
+    "name": "staroid.com",
+    "url": "https://staroid.com",
+    "description": "Managed Kubernetes namespace service designed to fund open source developers. Free 8 CPUs and 16GB of RAM namespace to test branches and pull requests of public repository. Free test namespace shutdown every 30 minutes. Maximum 2 concurrent test namespaces."
+  },
+  {
     "name": "workers.dev",
     "url": "https://workers.dev",
     "description": "Deploy serverless code for free on Cloudflare's global network. 100,000 free requests per day with a workers.dev subdomain."
   },
   {
-    "name": "zeit.co/now — Serverless platform with support for multiple languages (including static sites) and single command deployment. Free tier includes SSL, 20GB bandwidth, 100 deployments.",
-    "url": "https://zeit.co/now"
-  },
-  {
     "name": "Platform9",
     "url": "https://platform9.com/",
     "description": "Managed Kubernetes service designed for developers. Free developer accounts come with up to 3 clusters & 20 nodes cluster."
+  },
+  {
+    "name": "fly.io",
+    "url": "https://fly.io/",
+    "description": "Fly is a platform for applications that need to run globally. It runs your code close to users and scales compute in cities where your app is busiest. Write your code, package it into a Docker image, deploy it to Fly's platform and let that do all the work to keep your app snappy. Free for side projects, $10/mo of service credit that automatically applies to any paid service. And if you ran really small virtual machines, credits will go a long way."
   },
   {
     "name": "ably.com",
@@ -1769,16 +2094,29 @@
     "url": "https://leancloud.app/"
   },
   {
+    "name": "Liteflow",
+    "url": "https://liteflow.com/",
+    "description": "Low-code development toolkit built to help you focus on your app’s real value."
+  },
+  {
     "name": "000WebHost — Zero cost website hosting with PHP, MySQL, cPanel & no ads!",
     "url": "https://www.000webhost.com/"
+  },
+  {
+    "name": "Amezmo — PHP hosting with MySQL for developers. Docker container based. Modern PHP 7, Automatic Deployments with Git, free SSL for custom domains.",
+    "url": "https://www.amezmo.com"
+  },
+  {
+    "name": "Alwaysdata — 100 MB free web hosting with support for MySQL, PostgreSQL, CouchDB, MongoDB, PHP, Python, Ruby, Node.js, Elixir, Java, Deno, custom web servers, access via FTP, WebDAV and SSH; mailbox, mailing list and app installer included.",
+    "url": "https://www.alwaysdata.com/"
   },
   {
     "name": "Awardspace.com — Free web hosting + a free short domain, PHP, MySQL, App Installer, Email Sending & No Ads.",
     "url": "https://www.awardspace.com"
   },
   {
-    "name": "bubble.is — Visual programming to build web and mobile apps without code, free 100 visitors/month, 2 apps",
-    "url": "https://bubble.is/"
+    "name": "Bubble — Visual programming to build web and mobile apps without code, free with Bubble branding.",
+    "url": "https://bubble.io/"
   },
   {
     "name": "Byet — Byet provides you with a massive free, and ad-free load balanced free web hosting service including PHP, MySQL, FTP, Vistapanel & more!..",
@@ -1791,6 +2129,10 @@
   {
     "name": "devport.co — Turn GitHub projects, apps and websites into a personal developer portfolio",
     "url": "http://devport.co/"
+  },
+  {
+    "name": "Endless Hosting — 300 MB storage, Free SSL, PHP, MySQL, FTP, free sub-domains, E-Mail, DNS, beatiful panel UI. One of the best!",
+    "url": "https://theendlessweb.com/"
   },
   {
     "name": "Fenix Web Server",
@@ -1814,6 +2156,11 @@
     "url": "https://www.heliohost.org"
   },
   {
+    "name": "InfinityFree",
+    "url": "https://infinityfree.net/",
+    "description": "Free PHP website hosting with MySQL, cPanel, and no ads."
+  },
+  {
     "name": "neocities.org — Static, 1 GB free storage with 200 GB Bandwidth.",
     "url": "https://neocities.org"
   },
@@ -1822,12 +2169,21 @@
     "url": "https://www.netlify.com/"
   },
   {
+    "name": "commons.host",
+    "url": "https://commons.host/",
+    "description": "Static web hosting and CDN.100% free and open source software (FOSS). With a commercially sustainable software as a service (SaaS) to fund R&D."
+  },
+  {
     "name": "pages.github.com — Hosting static site directly from GitHub repository",
     "url": "https://pages.github.com/"
   },
   {
     "name": "pantheon.io — Drupal and WordPress hosting, automated DevOps and scalable infrastructure. Free for developers and agencies",
     "url": "https://pantheon.io/"
+  },
+  {
+    "name": "pony.icu — Free Web Hosting with Unlimited Disk Space, Unlimited Bandwidth and Unlimited Websites from PonyICU. PHP and MySQL included.",
+    "url": "https://pony.icu/"
   },
   {
     "name": "raidboxes.io — Managed WordPress hosting with lots of included features. Free for developers and agencies, comes with custom domain support.",
@@ -1855,12 +2211,20 @@
   },
   {
     "name": "txti.es — Quickly create web pages with markdown.",
-    "url": "http://txti.es/"
+    "url": "https://txti.es/"
+  },
+  {
+    "name": "Vercel — Build, deploy, and host web apps with free SSL, global CDN, and unique Preview URLs each time you git push. Perfect for Next.js and other Static Site Generators.",
+    "url": "https://vercel.com/"
   },
   {
     "name": "Versoly — SaaS focussed website builder",
     "url": "https://versoly.com/",
     "description": "unlimited websites, 70+ blocks, 5 templates, custom CSS, favicon, SEO and forms. No custom domain."
+  },
+  {
+    "name": "HostingTocDo — Free Unlimited Web Hosting Service for PHP, MySQL no ads include.",
+    "url": "https://hostingtocdo.cyou/"
   },
   {
     "name": "1984.is — Free DNS service with API, and lots of other free DNS features included.",
@@ -1869,11 +2233,6 @@
   {
     "name": "biz.mail.ru — Free email and DNS hosting for up to 5,000 users",
     "url": "https://biz.mail.ru"
-  },
-  {
-    "name": "Cloudflare",
-    "url": "https://www.cloudflare.com/",
-    "description": "Free DNS.  Unlimited number of domains."
   },
   {
     "name": "cloudns.net — Free DNS hosting up to 1 domain with 50 records",
@@ -1894,6 +2253,11 @@
   {
     "name": "dynu.com — Free dynamic DNS service",
     "url": "https://www.dynu.com/"
+  },
+  {
+    "name": "fosshost.org",
+    "url": "https://fosshost.org/",
+    "description": "Free open source hosting VPS, web, storage and mirror hosting"
   },
   {
     "name": "freedns.afraid.org — Free DNS hosting",
@@ -1924,7 +2288,7 @@
     "url": "https://pointhq.com/developer"
   },
   {
-    "name": "selectel.com — Free DNS hosting, anycast, 10 geo zones",
+    "name": "selectel.com — Free DNS hosting, anycast",
     "url": "https://selectel.com/services/dns/"
   },
   {
@@ -1937,7 +2301,7 @@
   },
   {
     "name": "zilore.com — Free DNS hosting.",
-    "url": "https://zilore.com/ru/dns"
+    "url": "https://zilore.com/en/dns"
   },
   {
     "name": "zoneedit.com — Free DNS hosting with Dynamic DNS Support.",
@@ -1960,12 +2324,20 @@
     "url": "https://www.scaleway.com/en/object-storage/"
   },
   {
-    "name": "www.terraform.io — Terraform Cloud. Free remote state management and team collaboration for teams up to 5 users.",
+    "name": "terraform.io — Terraform Cloud. Free remote state management and team collaboration for teams up to 5 users.",
     "url": "https://www.terraform.io/"
   },
   {
     "name": "airtable.com — Looks like a spreadsheet, but it's a relational database, unlimited bases, 1,200 rows/base and 1,000 API requests/month",
     "url": "https://airtable.com/"
+  },
+  {
+    "name": "Astra — Cloud Native Cassandra as a Service with 10GB free tier",
+    "url": "https://astra.datastax.com/register"
+  },
+  {
+    "name": "cloudamqp.com — RabbitMQ as a Service, up to 1M messages/month and 20 connections free",
+    "url": "https://www.cloudamqp.com/"
   },
   {
     "name": "elephantsql.com — PostgreSQL as a service, 20 MB free",
@@ -1988,12 +2360,17 @@
     "url": "https://www.mongodb.com/cloud/atlas"
   },
   {
-    "name": "redislabs.com — Redis as a Service, 30 MB and 30 concurrent connections free",
-    "url": "https://redislabs.com/redis-cloud"
+    "name": "redsmin.com — Online real-time monitoring and administration service for Redis, Monitoring for 1 Redis instance free",
+    "url": "https://www.redsmin.com/"
   },
   {
-    "name": "redsmin.com — Online real-time monitoring and administration service for Redis, 1 Redis instance free",
-    "url": "https://www.redsmin.com/"
+    "name": "redislabs",
+    "url": "https://redislabs.com/try-free/",
+    "description": "Free 30Mb redis instance"
+  },
+  {
+    "name": "MemCachier — Managed Memcache service. Free for up to 25MB, 1 Proxy Server and basic analytics",
+    "url": "https://www.memcachier.com/"
   },
   {
     "name": "scalingo.com — Primarily a PaaS but offers a 128MB to 192MB free tier of MySQL, PostgreSQL or MongoDB",
@@ -2039,20 +2416,16 @@
     "description": "Connect multiple computers together via a VPN enabling LAN-like networks. Unlimited peers. (Hamachi alternative)"
   },
   {
+    "name": "localhost.run — Instantly share your localhost environment! No download required. Run your app on port 8080 and then run this command and share the URL.",
+    "url": "https://localhost.run/"
+  },
+  {
     "name": "ngrok.com — Expose locally running servers over a tunnel to a public URL.",
     "url": "https://ngrok.com/"
   },
   {
-    "name": "scaledrone.com — Push messaging service. Free for up to 20 simultaneous connections and 100,000 messages/day",
-    "url": "https://www.scaledrone.com/"
-  },
-  {
     "name": "segment.com — Hub to translate and route events to other third-party services. 100,000 events/month free",
     "url": "https://segment.com/"
-  },
-  {
-    "name": "serveo.net — Quickly expose any local port to the public internet on a servo subdomain using an SSH tunnel, includes SSH GUI to replay requests over HTTP.",
-    "url": "https://serveo.net/"
   },
   {
     "name": "webhookrelay.com — Manage, debug, fan-out and proxy all your webhooks to public or internal (ie: localhost) destinations. Also, expose servers running in a private network over a tunnel by getting a public HTTP endpoint (https://yoursubdomain.webrelay.io <----> http://localhost:8080).",
@@ -2069,10 +2442,6 @@
   {
     "name": "asana.com — Free for private project with collaborators",
     "url": "https://asana.com/"
-  },
-  {
-    "name": "Azure DevOps — Unlimited free private code repositories; Tracks bugs, work items, feedback and more",
-    "url": "https://azure.microsoft.com/services/devops/"
   },
   {
     "name": "Basecamp",
@@ -2101,12 +2470,21 @@
     "description": "Project management platform. Free for up to 10 users forever"
   },
   {
+    "name": "Confluence",
+    "url": "https://www.atlassian.com/software/confluence",
+    "description": "Atlassian's content collaboration tool used to help teams collaborate and share knowledge efficiently. Free plan up to 10 users."
+  },
+  {
     "name": "contriber.com — Customizable project management platform, free starter plan, 5 workspaces",
     "url": "https://www.contriber.com/"
   },
   {
     "name": "draw.io — Online diagrams stored locally, in Google Drive, OneDrive or Dropbox. Free for all features and storage levels",
     "url": "https://www.draw.io/"
+  },
+  {
+    "name": "funretro.io — Free simple and intuitive sprint retrospective tool",
+    "url": "https://www.funretro.io/"
   },
   {
     "name": "github.com — In addition to its Git storage facility, GitHub offers basic issue tracking",
@@ -2116,6 +2494,10 @@
     "name": "Gitlab",
     "url": "https://gitlab.com",
     "description": "Offers basic issue tracking for projects."
+  },
+  {
+    "name": "gleek.io — Free description-to-diagrams tool for developers. Create informal, UML class, object, or entity-relationship diagrams using your keyword.",
+    "url": "https://www.gleek.io"
   },
   {
     "name": "gliffy.com — Online diagrams: flowchart, UML, wireframe,... Also plugins for Jira and Confluence. 5 diagrams and 2 MB free",
@@ -2135,6 +2517,14 @@
     "url": "https://instabug.com"
   },
   {
+    "name": "Ilograph  — interactive diagrams that allow users to see their infrastructure from multiple perspectives and levels of detail. Diagrams can be expressed in code. Free tier has unlimited private diagrams with up to 3 viewers.",
+    "url": "https://www.ilograph.com/"
+  },
+  {
+    "name": "Jira — Advanced software development project management tool used in many corporate environments. Free plan up to 10 users.",
+    "url": "https://www.atlassian.com/software/jira"
+  },
+  {
     "name": "kanbanflow.com — Board-based project management. Free, premium version with more options",
     "url": "https://kanbanflow.com/"
   },
@@ -2145,6 +2535,10 @@
   {
     "name": "kanrails.com — Kanban board-based project management. Free for 3 collaborators, 2 projects and 5 tracks. Paid plans available for unlimited collaborators, projects and tracks.",
     "url": "https://kanrails.com/"
+  },
+  {
+    "name": "Kumu.io  — Relationship maps with animation, decorations, filters, clustering, spreadsheet imports and more. Free tier allows unlimited public projects. Graph size unlimited. Free private projects for students. Sandbox mode is available if you prefer to not leave your file publicly online (upload, edit, download, discard).",
+    "url": "https://kumu.io/"
   },
   {
     "name": "LeanBoard — Collaborative whiteboard with sticky notes for your GitHub issues (Useful for Example Mapping and other techniques)",
@@ -2212,12 +2606,20 @@
     "url": "https://testlio.com/"
   },
   {
+    "name": "terrastruct.com — Online diagram maker specifically for software architecture. Free tier up to 4 layers per diagram.",
+    "url": "https://terrastruct.com/"
+  },
+  {
     "name": "todoist.com — Collaborative and individual task management. Free, Premium and Team plans are available. Discounts provided for eligible users.",
     "url": "https://todoist.com/"
   },
   {
     "name": "trello.com — Board-based project management. Unlimited Personal Boards, 10 Team Boards.",
     "url": "https://trello.com/"
+  },
+  {
+    "name": "Tweek — Simple Weekly To-Do Calendar & Task Management.",
+    "url": "https://tweek.so/"
   },
   {
     "name": "ubertesters.com — Test platform, integration and crowdtesters, 2 projects, 5 members",
@@ -2236,8 +2638,17 @@
     "url": "https://www.zenhub.io/"
   },
   {
+    "name": "zepel.io",
+    "url": "https://zepel.io/",
+    "description": "The project management tool that lets you plan features, collaborate across disciplines, and build software together. Free up to 5 members. No feature restrictions."
+  },
+  {
     "name": "zenkit.com — Project management and collaboration tool. Free for up to 5 members, 5 GB attachments.",
     "url": "https://zenkit.com"
+  },
+  {
+    "name": "sirv.com — Smart Image CDN with on-the-fly image optimization and resizing. Free tier includes 500 MB of storage and 2 GB bandwidth.",
+    "url": "https://sirv.com/"
   },
   {
     "name": "image4.io — Image upload, powerful manipulations, storage and delivery for websites and apps, with SDK's, integrations and migration tools. Free tier includes 25 credits. 1 credit is equal to 1 GB of CDN usage, 1GB of storage or 1000 image transformations.",
@@ -2274,10 +2685,6 @@
   {
     "name": "jsonbin.io — Free JSON data storage service, ideal for small-scale web apps, website, mobile apps.",
     "url": "https://jsonbin.io/"
-  },
-  {
-    "name": "jsonstore.io — One click JSON storage endpoint",
-    "url": "https://www.jsonstore.io/"
   },
   {
     "name": "kraken.io — Image optimization for website performance as a service, free plan up to 1 MB file size",
@@ -2334,6 +2741,10 @@
   {
     "name": "transloadit.com — Handles file uploads and encoding of video, audio, images, documents. Free for Open source, charities, and students via the GitHub Student Developer Pack. Commercial applications get 2 GB free for test driving",
     "url": "https://transloadit.com/"
+  },
+  {
+    "name": "uploadcare.com — Uploadcare provides media pipeline  with ultimate toolkit based on cutting-edge algorithms. All features are available for developers absolutely for free: File Uploading API and UI, Image CDN and Origin Services, Adaptive Delivery and Smart Compression.",
+    "url": "https://uploadcare.com/hub/developers/"
   },
   {
     "name": "Adobe XD",
@@ -2396,6 +2807,10 @@
   {
     "name": "Mindmup.com — Unlimited mind maps for free, and store them in the cloud. Your mind maps are available everywhere, instantly, from any device.",
     "url": "https://www.mindmup.com/"
+  },
+  {
+    "name": "Octopus.do — Visual sitemap builder. Build your website structure in real-time and rapidly share it to collaborate with your team or clients.",
+    "url": "https://octopus.do"
   },
   {
     "name": "Pencil",
@@ -2465,6 +2880,21 @@
     "url": "https://pixelixe.com/"
   },
   {
+    "name": "Responsively App",
+    "url": "https://responsively.app",
+    "description": "A free dev-tool for faster and precise responsive web application development."
+  },
+  {
+    "name": "SceneLab",
+    "url": "https://scenelab.io",
+    "description": "Online mockup graphics editor with an ever-expanding collection of free design templates"
+  },
+  {
+    "name": "xLayers",
+    "url": "https://xlayers.dev",
+    "description": "Preview and convert Sketch design files into Angular, React, Vue, LitElement, Stencil, Xamarin and more (free and open source at https://github.com/xlayers/xlayers)"
+  },
+  {
     "name": "carto.com — Create maps and geospatial APIs from your data and public data.",
     "url": "https://carto.com/"
   },
@@ -2484,6 +2914,10 @@
   {
     "name": "geocod.io — Geocoding via API or CSV Upload. 2,500 free queries/day.",
     "url": "https://www.geocod.io/"
+  },
+  {
+    "name": "geocodify.com — Geocoding and Geoparsing via API or CSV Upload. 10k free queries/month.",
+    "url": "https://geocodify.com/"
   },
   {
     "name": "giscloud.com — Visualize, analyze and share geo data online.",
@@ -2527,6 +2961,11 @@
     "url": "https://stadiamaps.com/"
   },
   {
+    "name": "GeocodeAPI",
+    "url": "https://geocodeapi.io",
+    "description": "Geocode API: Address to Coordinate Conversion & Geoparsing based on Pelias. Batch geocoding via CSV. 350000 free requests/month."
+  },
+  {
     "name": "build.opensuse.org — Package build service for multiple distros (SUSE, EL, Fedora, Debian etc).",
     "url": "https://build.opensuse.org/"
   },
@@ -2552,8 +2991,17 @@
     "description": "Atom is a hackable text editor built on Electron."
   },
   {
+    "name": "Bootify.io",
+    "url": "https://bootify.io/",
+    "description": "Spring Boot app generator with custom database and REST API."
+  },
+  {
     "name": "cacher.io — Code snippet organizer with labels and support for 100+ programming languages.",
     "url": "https://www.cacher.io"
+  },
+  {
+    "name": "codesnip.com.br — Simple code snippets manager with categories, search and tags. free and unlimit.",
+    "url": "https://codesnip.com.br"
   },
   {
     "name": "cocalc.com — (formerly SageMathCloud at cloud.sagemath.com) — Collaborative calculation in the cloud. Browser access to full Ubuntu with built-in collaboration and lots of free software for mathematics, science, data science, preinstalled: Python, LaTeX, Jupyter Notebooks, SageMath, scikitlearn, etc.",
@@ -2616,6 +3064,15 @@
   {
     "name": "mockable.io — Mockable is a simple configurable service to mock out RESTful API or SOAP web-services. This online service allows you to quickly define REST API or SOAP endpoints and have them return JSON or XML data.",
     "url": "https://www.mockable.io/"
+  },
+  {
+    "name": "mockaroo — Mockaroo lets you generate realistic test data in CSV, JSON, SQL, and Excel formats. You can also create mocks for back-end API.",
+    "url": "https://mockaroo.com/"
+  },
+  {
+    "name": "Mocklets",
+    "url": "https://mocklets.com",
+    "description": "a HTTP-based mock API simulator, which helps simulate APIs for faster parallel development and more comprehensive testing, with lifetime free tier."
   },
   {
     "name": "repl.it — A cloud coding environment for various program languages.",
@@ -2709,8 +3166,12 @@
     "url": "https://usabilityhub.com/"
   },
   {
-    "name": "www.heatlyanalytics.com — Free Heatmap tool to understand UI/UX.",
+    "name": "heatlyanalytics.com — Free Heatmap tool to understand UI/UX.",
     "url": "https://www.heatlyanalytics.com"
+  },
+  {
+    "name": "woopra.com — Free user analytics platform for 500K actions, 90 day data retention, 30+ one click integration.",
+    "url": "https://www.woopra.com/"
   },
   {
     "name": "FullStory.com — 1,000 sessions/month with 1 month data retention and 3 user seats. More information here.",
@@ -2755,6 +3216,10 @@
   {
     "name": "veriphone.io — Global phone number verification in a free, fast, reliable JSON API. 1000 requests/month",
     "url": "https://veriphone.io/"
+  },
+  {
+    "name": "currencyapi.net — Live Currency Rates for Physical and Crypto currencies, delivered in JSON and XML. Free tier offers 1,250 API requests/month.",
+    "url": "https://currencyapi.net/"
   },
   {
     "name": "currencylayer.com — Reliable Exchange Rates and Currency Conversion for your Business, 1,000 API requests/month free",
@@ -2830,6 +3295,26 @@
     "url": "https://medium.com/"
   },
   {
+    "name": "Staticman",
+    "url": "https://staticman.net/",
+    "description": "Staticman is a Node.js application that receives user-generated content and uploads it as data files to a GitHub and/or GitLab repository, using Pull Requests."
+  },
+  {
+    "name": "GraphComment",
+    "url": "https://graphcomment.com/",
+    "description": "GraphComment is a comments platform that helps you build an active community from website’s audience."
+  },
+  {
+    "name": "Utterances",
+    "url": "https://utteranc.es/",
+    "description": "A lightweight comments widget built on GitHub issues. Use GitHub issues for blog comments, wiki pages and more!"
+  },
+  {
+    "name": "Disqus",
+    "url": "https://disqus.com/",
+    "description": "Disqus is a networked community platform used by hundreds of thousands of sites all over the web."
+  },
+  {
     "name": "ApiFlash — A screenshot API based on Aws Lambda and Chrome. Handles full page, capture timing, viewport dimensions, ...",
     "url": "https://apiflash.com"
   },
@@ -2851,9 +3336,26 @@
     "url": "https://www.screenshotmachine.com/"
   },
   {
-    "name": "WWW2PNG",
-    "url": "https://www2png.com/",
-    "description": "Capture screenshots of any website with basic customization. Includes automatic blockchain anchoring and full page capture. Completely free service."
+    "name": "JsLinux — a really fast x86 virtual machine capable of running Linux and Windows 2k.",
+    "url": "https://bellard.org/jslinux"
+  },
+  {
+    "name": "Jor1k —  a OpenRISC virtual machine capable of running Linux with network support.",
+    "url": "http://s-macke.github.io/jor1k/demos/main.html"
+  },
+  {
+    "name": "v86 — a x86 virtual machine capable of running Linux and other OS directly into the browser.",
+    "url": "https://copy.sh/v86"
+  },
+  {
+    "name": "Bricks Note Calculator",
+    "url": "https://free.getbricks.app/",
+    "description": "a note-taking app (PWA) with a powerful built-in multiline calculator."
+  },
+  {
+    "name": "Code Time",
+    "url": "https://www.software.com/code-time",
+    "description": "an extension for time-tracking and coding metrics in VS Code, Atom, IntelliJ, Sublime Text, and more."
   },
   {
     "name": "ConfigCat",
@@ -2882,6 +3384,15 @@
     "url": "https://http2.pro"
   },
   {
+    "name": "JWT Decoder — Online free tool for decoding JWT(JSON web token) and verifying it's signature.",
+    "url": "https://jwt.ssotools.com/"
+  },
+  {
+    "name": "newreleases.io",
+    "url": "https://newreleases.io/",
+    "description": "Receive notifications on email, Slack, Telegram, Discord and custom webhooks for new releases from GitHub, GitLab, Bitbucket, Python PyPI, Java Maven, Node.js NPM, Node.js Yarn, Ruby Gems, PHP Packagist, .NET NuGet, Rust Cargo and Docker Hub."
+  },
+  {
     "name": "PDFMonkey — Manage PDF templates in a dashboard, call the API with dynamic data, download your PDF. Offers 1000 free documents per month.",
     "url": "https://www.pdfmonkey.io/"
   },
@@ -2900,6 +3411,15 @@
   {
     "name": "SurveyMonkey.com — Create online surveys. Analyze the results online.  Free plan allows only 10 questions and 100 responses per survey.",
     "url": "https://www.surveymonkey.com"
+  },
+  {
+    "name": "videoinu — Create and edit screen recordings and other videos online.",
+    "url": "https://videoinu.com"
+  },
+  {
+    "name": "RandomKeygen",
+    "url": "https://randomkeygen.com/",
+    "description": "A free mobile-friendly tool offers a variety of randomly generated keys and passwords you can use to secure any application, service or device."
   },
   {
     "name": "education.github.com — Collection of free services for students. Registration required",

@@ -65,6 +65,11 @@
     "description": "Docker-related material to setup, configure and develop with micro-ROS hardware."
   },
   {
+    "name": "Link ROS",
+    "url": "https://www.freedomrobotics.ai/blog/link-ros-cloud-logging-for-ros",
+    "description": "Cloud Logging for ROS 1 and ROS 2."
+  },
+  {
     "name": "rosbag2",
     "url": "https://github.com/ros2/rosbag2",
     "description": "ROS2 native rosbag. "
@@ -98,6 +103,11 @@
     "name": "pydds",
     "url": "https://github.com/atolab/pydds",
     "description": "Simple DDS Python API for Vortex Lite and for OpenSplice. "
+  },
+  {
+    "name": "Webots",
+    "url": "https://cyberbotics.com",
+    "description": "Robot simulator for ROS 2. "
   },
   {
     "name": "aztarna",
@@ -135,9 +145,39 @@
     "description": "A set of ROS packages for keeping track of coordinate transforms. "
   },
   {
+    "name": "ros2-ORB_SLAM2",
+    "url": "https://github.com/alsora/ros2-ORB_SLAM2",
+    "description": "ROS2 node wrapping the ORB_SLAM2 library. "
+  },
+  {
+    "name": "basalt_ros2",
+    "url": "https://github.com/berndpfrommer/basalt_ros2",
+    "description": "ROS2 wrapper for Basalt VIO. "
+  },
+  {
     "name": "cartographer",
     "url": "https://github.com/ros2/cartographer",
     "description": "Real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations. "
+  },
+  {
+    "name": "slam_gmapping",
+    "url": "https://github.com/Project-MANAS/slam_gmapping",
+    "description": "Slam Gmapping for ROS2. "
+  },
+  {
+    "name": "slam_toolbox",
+    "url": "https://github.com/SteveMacenski/slam_toolbox",
+    "description": "Slam Toolbox for lifelong mapping and localization in potentially massive maps with ROS. "
+  },
+  {
+    "name": "lidarslam_ros2",
+    "url": "https://github.com/rsasaki0109/lidarslam_ros2",
+    "description": "ROS2 package of 3D lidar slam using ndt/gicp registration and pose-optimization. "
+  },
+  {
+    "name": "li_slam_ros2",
+    "url": "https://github.com/rsasaki0109/li_slam_ros2",
+    "description": "ROS2 package of tightly-coupled lidar inertial ndt/gicp slam referenced from LIO-SAM. "
   },
   {
     "name": "vision_opencv",
@@ -275,6 +315,16 @@
     "description": "This project enables ROS2 to run on microcontrollers using the RIOT Operating System. "
   },
   {
+    "name": "ROS2-Integration-Service",
+    "url": "https://github.com/eProsima/ROS2-Integration-Service",
+    "description": "ROS2 Integration and Routing which provides a complete tool to integrate other technologies with ROS2 easily and enable ROS2 on WAN/Internet."
+  },
+  {
+    "name": "soss",
+    "url": "https://github.com/osrf/soss",
+    "description": "The System Of Systems Synthesizer is used to integrate ROS2 via ROS2-Integration-Service with other (communication) systems."
+  },
+  {
     "name": "Autoware.IO",
     "url": "https://www.autoware.io/",
     "description": "Autoware.IO provides a heterogeneous hardware reference platform and enables the integration of member company's solutions onto platforms which support the Autoware.Auto and Autoware.AI software stack."
@@ -405,6 +455,11 @@
     "description": "ROS2 driver for the SICK TiM series of laser scanners (TiM551/TiM561/TiM571)."
   },
   {
+    "name": "ros2_ouster_drivers",
+    "url": "https://github.com/SteveMacenski/ros2_ouster_drivers",
+    "description": "ROS2 Drivers for the Ouster OS-1 Lidars. "
+  },
+  {
     "name": "micro-ROS/hardware",
     "url": "https://github.com/micro-ROS/hardware",
     "description": "Information and documentation about the hardware platforms used and supported in the micro-ROS project."
@@ -451,7 +506,7 @@
   },
   {
     "name": "ros2_rust",
-    "url": "https://github.com/esteve/ros2_rust",
+    "url": "https://github.com/ros2-rust/ros2_rust",
     "description": "Rust bindings for ROS2. "
   },
   {
@@ -635,6 +690,25 @@
     "description": "POSIX-compliant real-time OS for many-core processors expected to suppport AUTOSAR in the future."
   },
   {
+    "name": "PYNQ",
+    "url": "http://www.pynq.io/",
+    "description": "Python-based rapid prototyping of high performance ML applications running on XILINX FPGAs."
+  },
+  {
+    "name": "Ubuntu Core",
+    "url": "https://ubuntu.com/core",
+    "description": "Build secure IoT devices with Ubuntu Core."
+  },
+  {
+    "name": "Ubuntu Server",
+    "url": "https://ubuntu.com/server"
+  },
+  {
+    "name": "VxWorks",
+    "url": "https://github.com/Wind-River/vxworks7-ros2-build",
+    "description": "The Secure, Safe, Reliable, and Certifiable real-time OS for Critical Infrastructure"
+  },
+  {
     "name": "Zephyr",
     "url": "https://www.zephyrproject.org/",
     "description": "Linux Foundation Projects RTOS aiming at beeing secure and safe."
@@ -747,6 +821,55 @@
     "name": "ROS 2 Basics in 5 Days (C++)",
     "url": "http://www.theconstructsim.com/construct-learn-develop-robots-using-ros/robotigniteacademy_learnros/ros-courses-library/ros2-basics-course/",
     "description": "Learn how to start working with ROS 2 (The Construct)"
+  },
+  {
+    "name": "Autoware Course Lecture 1: Development Environment",
+    "url": "https://www.youtube.com/watch?v=XTmlhvlmcf8"
+  },
+  {
+    "name": "Autoware Course Lecture 2: ROS2 101",
+    "url": "https://www.youtube.com/watch?v=FTA4Ia2vLS8"
+  },
+  {
+    "name": "Autoware Course Lecture 3: ROS 2 Tooling",
+    "url": "https://www.youtube.com/watch?v=wcibIqiRb04",
+    "description": "Develop Like a Pro"
+  },
+  {
+    "name": "Autoware Course Lecture 4: Platform HW, RTOS and DDS",
+    "url": "https://www.youtube.com/watch?v=IyycN6ldsIs"
+  },
+  {
+    "name": "Autoware Course Lecture 5: Autonomous Driving Stacks",
+    "url": "https://www.youtube.com/watch?v=nTI4fnn2tuU"
+  },
+  {
+    "name": "Autoware Course Lecture 6: Autoware 101",
+    "url": "https://www.youtube.com/watch?v=eSHHmJrqpMU"
+  },
+  {
+    "name": "Autoware Course Lecture 7: Object Perception: LIDAR",
+    "url": "https://www.youtube.com/watch?v=xSGCpb24dhI"
+  },
+  {
+    "name": "Autoware Course Lecture 8: Object Perception: CAMERA",
+    "url": "https://www.youtube.com/watch?v=OtjTa-meJ-E"
+  },
+  {
+    "name": "Autoware Course Lecture 9: Object Perception: Radar",
+    "url": "https://www.youtube.com/watch?v=PcVIO-xoNv8"
+  },
+  {
+    "name": "Autoware Course Lecture 10: State Estimation for Localization",
+    "url": "https://www.youtube.com/watch?v=g2YURb-d9vY"
+  },
+  {
+    "name": "Autoware Course Lecture 11: LGSVL Simulator",
+    "url": "https://www.youtube.com/watch?v=OcB6FUbjZXo"
+  },
+  {
+    "name": "Autoware Course Lecture 12: Motion Control",
+    "url": "https://www.youtube.com/watch?v=fQJpAVRQBrI"
   },
   {
     "name": "Current Status of ROS 2 Hands-on Feature Overview Slides",
@@ -865,19 +988,9 @@
     "url": "http://www.theconstructsim.com/rdp-012-all-about-ros2-with-dirk-thomas/"
   },
   {
-    "name": "RCTF playground",
-    "url": "https://rctf.aliasrobotics.com/",
-    "description": "Online playground to challenge robot security from your browser."
-  },
-  {
     "name": "rctf-list",
     "url": "https://github.com/aliasrobotics/RCTF",
     "description": "A list of Robotics CTF (RCTF) scenarios."
-  },
-  {
-    "name": "Robot Bug Bounty Programs (RBBP)",
-    "url": "https://www.aliasrobotics.com/bounties.htm",
-    "description": "Report bugs or vulnerabilities and get paid by top robotics companies."
   },
   {
     "name": "Acutronic Robotics",
@@ -925,9 +1038,19 @@
     "description": "\"The middleware experts\"."
   },
   {
+    "name": "Ericsson Research",
+    "url": "https://discourse.ros.org/t/transport-priority-qos-policy-to-solve-ip-flow-ambiguity-while-requesting-5g-network-qos/15332",
+    "description": "Connect ROS2 applications to 5G networks for M2M communication."
+  },
+  {
     "name": "Fraunhofer Institute for Manufacturing Engineering and Automation IPA",
     "url": "https://www.ipa.fraunhofer.de/en/expertise/robot-and-assistive-systems.html",
     "description": "Robot and assistive systems."
+  },
+  {
+    "name": "GESTALT ROBOTICS",
+    "url": "https://www.gestalt-robotics.com/en/home",
+    "description": "Service provider for intelligent automation."
   },
   {
     "name": "Klepsydra Technologies.",
@@ -937,6 +1060,11 @@
     "name": "MathWorks",
     "url": "https://de.mathworks.com/help/ros/index.html",
     "description": "ROS Toolbox."
+  },
+  {
+    "name": "Roboception GmbH",
+    "url": "https://roboception.com/en/",
+    "description": "Real-Time Perception for Your Robot."
   },
   {
     "name": "ROBOOX",
@@ -951,6 +1079,11 @@
   {
     "name": "Sony Corporation.",
     "url": "https://www.sony.net/SonyInfo/technology/element/robotics/"
+  },
+  {
+    "name": "synapticon",
+    "url": "https://www.synapticon.com/technology",
+    "description": "ROS compatible motion control and drive products with efforts to support ROS2."
   },
   {
     "name": "Wind River",

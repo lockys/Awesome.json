@@ -347,6 +347,16 @@
     "description": "paper - A BERT model trained on >1M papers from the Semantic Scholar database."
   },
   {
+    "name": "BlueBERT",
+    "url": "https://github.com/ncbi-nlp/bluebert",
+    "description": "paper - A BERT model pre-trained on PubMed text and MIMIC-III notes."
+  },
+  {
+    "name": "PubMedBERT",
+    "url": "https://microsoft.github.io/BLURB/models.html",
+    "description": "paper - A BERT model trained from scratch on PubMed, with versions trained on abstracts+full texts and on abstracts alone."
+  },
+  {
     "name": "OHSUMED",
     "url": "http://davis.wpi.edu/xmdv/datasets/ohsumed.html",
     "description": "paper - 348,566 MEDLINE entries (title and sometimes abstract) from between 1987 and 1991. Includes MeSH labels. Primarily of historical significance."
@@ -412,6 +422,21 @@
     "description": "paper - 203 ambiguous words and 37,888 automatically extracted instances of their use in biomedical research publications. Requires UTS account."
   },
   {
+    "name": "Clinical Questions Collection",
+    "url": "https://www.nlm.nih.gov/databases/download/CQC.html",
+    "description": "also known as CQC or the Iowa collection, these are several thousand questions posed by physicians during office visits along with the associated answers."
+  },
+  {
+    "name": "BioNLP ST 2013 datasets",
+    "url": "http://2013.bionlp-st.org/",
+    "description": "data from six shared tasks, though some may not be easily accessible; try the CG task set (BioNLP2013CG) for extensive entity and event annotations."
+  },
+  {
+    "name": "BioScope",
+    "url": "https://rgai.inf.u-szeged.hu/node/105",
+    "description": "paper - a corpus of sentences from medical and biological documents, annotated for negation, speculation, and linguistic scope."
+  },
+  {
     "name": "AIMed",
     "url": "http://corpora.informatik.hu-berlin.de/corpora/brat2bioc/aimed_bioc.xml.zip",
     "description": "paper - 225 MEDLINE abstracts annotated for PPI."
@@ -465,6 +490,11 @@
     "name": "UMLS Knowledge Sources",
     "url": "https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
     "description": "reference manual - A large and comprehensive collection of biomedical terminology and identifiers, as well as accompanying tools and scripts. Depending on your purposes, the single file MRCONSO.RRF may be sufficient, as this file contains unique identifiers and names for all concepts in the UMLS Metathesaurus. See also the Ontologies and Controlled Vocabularies section below."
+  },
+  {
+    "name": "MIMIC-IV",
+    "url": "https://mimic-iv.mit.edu/",
+    "description": "An update to MIMIC-III's multimodal patient data, now covering more recent years of admissions, plus a new data structure, emergency department records, and links to MIMIC-CXR images."
   },
   {
     "name": "Disease Ontology",
