@@ -92,7 +92,7 @@
   {
     "name": "GRR Rapid Response",
     "url": "https://github.com/google/grr",
-    "description": "Incident response framework focused on remote live forensics. It consists of a python agent (client) that is installed on target systems, and a python server infrastructure that can manage and talk to the agent."
+    "description": "Incident response framework focused on remote live forensics. It consists of a python agent (client) that is installed on target systems, and a python server infrastructure that can manage and talk to the agent. Besides the included Python API client, PowerGRR provides an API client library in PowerShell working on Windows, Linux and macOS for GRR automation and scripting."
   },
   {
     "name": "Kolide Fleet",
@@ -103,11 +103,6 @@
     "name": "Limacharlie",
     "url": "https://github.com/refractionpoint/limacharlie",
     "description": "Endpoint security platform composed of a collection of small projects all working together that gives you a cross-platform (Windows, OSX, Linux, Android and iOS) low-level environment for managing and pushing additional modules into memory to extend its functionality."
-  },
-  {
-    "name": "Mozilla Investigator (MIG)",
-    "url": "http://mig.mozilla.org/",
-    "description": "Platform to perform investigative surgery on remote endpoints. It enables investigators to obtain information from large numbers of systems in parallel, thus accelerating investigation of incidents and day-to-day operations security."
   },
   {
     "name": "MozDef",
@@ -215,6 +210,16 @@
     "description": "Streamlined list of parsers to quickly analyze a forensic image file (dd, E01, .vmdk, etc) and output nine reports."
   },
   {
+    "name": "CyLR",
+    "url": "https://github.com/orlikoski/CyLR",
+    "description": "The CyLR tool collects forensic artifacts from hosts with NTFS file systems quickly, securely and minimizes impact to the host."
+  },
+  {
+    "name": "artifactcollector",
+    "url": "https://github.com/forensicanalysis/artifactcollector",
+    "description": "The artifactcollector project provides a software that collects forensic artifacts on systems."
+  },
+  {
     "name": "ir-rescue",
     "url": "https://github.com/diogo-fernan/ir-rescue",
     "description": "Windows Batch script and a Unix Bash script to comprehensively collect host forensic data during incident response."
@@ -243,6 +248,11 @@
     "name": "Demisto",
     "url": "https://www.demisto.com/product/",
     "description": "Demisto community edition(free) offers full Incident lifecycle management, Incident Closure Reports, team assignments and collaboration, and many integrations to enhance automations (like Active Directory, PagerDuty, Jira and much more)."
+  },
+  {
+    "name": "DFIRTrack",
+    "url": "https://github.com/stuhli/dfirtrack",
+    "description": "Incident Response tracking application handling one major incident with a lot of affected systems as it is often observed in APT cases."
   },
   {
     "name": "Fast Incident Response (FIR)",
@@ -315,6 +325,11 @@
     "description": "FastIR for Linux collects different artefacts on live Linux and records the results in csv files."
   },
   {
+    "name": "AppCompatProcessor",
+    "url": "https://github.com/mbevilacqua/appcompatprocessor",
+    "description": "AppCompatProcessor has been designed to extract additional value from enterprise-wide AppCompat / AmCache data beyond the classic stacking and grepping techniques."
+  },
+  {
     "name": "Kaspersky CyberTrace",
     "url": "https://support.kaspersky.com/13850",
     "description": "Threat intelligence fusion and analysis tool that integrates threat data feeds with SIEM solutions. Users can immediately leverage threat intelligence for security monitoring and incident report (IR) activities in the workflow of their existing security operations."
@@ -328,6 +343,11 @@
     "name": "Logdissect",
     "url": "https://github.com/dogoncouch/logdissect",
     "description": "CLI utility and Python API for analyzing log files and other data."
+  },
+  {
+    "name": "Sigma",
+    "url": "https://github.com/Neo23x0/sigma",
+    "description": "Generic signature format for SIEM systems already containing an extensive ruleset."
   },
   {
     "name": "StreamAlert",
@@ -510,6 +530,16 @@
     "description": "Modular incident response framework in Powershell."
   },
   {
+    "name": "Munin",
+    "url": "https://github.com/Neo23x0/munin",
+    "description": "Online hash checker for Virustotal and other services."
+  },
+  {
+    "name": "PowerSponse",
+    "url": "https://github.com/swisscom/PowerSponse",
+    "description": "PowerSponse is a PowerShell module focused on targeted containment and remediation during security incident response."
+  },
+  {
     "name": "PyaraScanner",
     "url": "https://github.com/nogoodconfig/pyarascanner",
     "description": "Very simple multithreaded many-rules to many-files YARA scanning Python script for malware zoos and IR."
@@ -620,6 +650,11 @@
     "description": "Python library to control a cuckoo-modified sandbox."
   },
   {
+    "name": "Cutter",
+    "url": "https://github.com/radareorg/cutter",
+    "description": "Reverse engineering platform powered by Radare2."
+  },
+  {
     "name": "Hybrid-Analysis",
     "url": "https://www.hybrid-analysis.com/",
     "description": "Free powerful online sandbox by CrowdStrike."
@@ -643,6 +678,11 @@
     "name": "Metadefender Cloud",
     "url": "https://www.metadefender.com",
     "description": "Free threat intelligence platform providing multiscanning, data sanitization and vulnerability assesment of files."
+  },
+  {
+    "name": "Radare2",
+    "url": "https://github.com/radareorg/radare2",
+    "description": "Reverse engineering framework and command-line toolset."
   },
   {
     "name": "Reverse.IT",
@@ -745,9 +785,19 @@
     "description": "All-in-one IR Evidence Collector which captures RAM Image, $MFT, EventLogs, WMI Scripts, Registry Hives, System Restore Points and much more. It is FREE, lightning fast and easy to use."
   },
   {
+    "name": "Invoke-LiveResponse",
+    "url": "https://github.com/mgreen27/Invoke-LiveResponse",
+    "description": " Invoke-LiveResponse is a live response tool for targeted collection."
+  },
+  {
     "name": "IOC Finder",
     "url": "https://www.fireeye.com/services/freeware/ioc-finder.html",
     "description": "Free tool from Mandiant for collecting host system data and reporting the presence of Indicators of Compromise (IOCs). Support for Windows only."
+  },
+  {
+    "name": "IRTriage",
+    "url": "https://github.com/AJMartel/IRTriage",
+    "description": "Incident Response Triage - Windows Evidence Collection for Forensic Analysis."
   },
   {
     "name": "Fidelis ThreatScanner",

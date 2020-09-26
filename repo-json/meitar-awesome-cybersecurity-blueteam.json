@@ -10,14 +10,24 @@
     "description": "Plugable framework for automated decryption, often used as a Tang client."
   },
   {
+    "name": "DShell",
+    "url": "https://github.com/USArmyResearchLab/Dshell",
+    "description": "Extensible network forensic analysis framework written in Python that enables rapid development of plugins to support the dissection of network packet captures."
+  },
+  {
     "name": "Dev-Sec.io",
     "url": "https://dev-sec.io/",
     "description": "Server hardening framework providing Ansible, Chef, and Puppet implementations of various baseline security configurations."
   },
   {
-    "name": "DShell",
-    "url": "https://github.com/USArmyResearchLab/Dshell",
-    "description": "Extensible network forensic analysis framework written in Python that enables rapid development of plugins to support the dissection of network packet captures."
+    "name": "peepdf",
+    "url": "https://eternal-todo.com/tools/peepdf-pdf-analysis-tool",
+    "description": "Scriptable PDF file analyzer."
+  },
+  {
+    "name": "Watchtower",
+    "url": "https://containrrr.dev/watchtower/",
+    "description": "Container-based solution for automating Docker container base image updates, providing an unattended upgrade experience."
   },
   {
     "name": "MultiScanner",
@@ -40,11 +50,6 @@
     "description": "High level C++ network packet sniffing and crafting library."
   },
   {
-    "name": "peepdf",
-    "url": "https://eternal-todo.com/tools/peepdf-pdf-analysis-tool",
-    "description": "Scriptable PDF file analyzer."
-  },
-  {
     "name": "python-dshield",
     "url": "https://github.com/rshipp/python-dshield",
     "description": "Pythonic interface to the Internet Storm Center/DShield API."
@@ -60,9 +65,34 @@
     "description": "Python APIs for serializing and de-serializing Structured Threat Information eXpression (STIX) JSON content, plus higher-level APIs for common tasks."
   },
   {
+    "name": "Shuffle",
+    "url": "https://shuffler.io/",
+    "description": "Graphical generalized workflow (automation) builder for IT professionals and blue teamers."
+  },
+  {
     "name": "Checkov",
     "url": "https://www.checkov.io/",
     "description": "Static analysis for Terraform (infrastructure as code) to help detect CIS policy violations and prevent cloud security misconfiguration."
+  },
+  {
+    "name": "Falco",
+    "url": "https://falco.org/",
+    "description": "Behavioral activity monitor designed to detect anomalous activity in containerized applications, hosts, and network packet flows by auditing the Linux kernel and enriched by runtime data such as Kubernetes metrics."
+  },
+  {
+    "name": "Istio",
+    "url": "https://istio.io/",
+    "description": "Open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data."
+  },
+  {
+    "name": "Kata Containers",
+    "url": "https://katacontainers.io/",
+    "description": "Secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense."
+  },
+  {
+    "name": "Managed Kubernetes Inspection Tool (MKIT)",
+    "url": "https://github.com/darkbitio/mkit",
+    "description": "Query and validate several common security-related configuration settings of managed Kubernetes cluster objects and the workloads/resources running inside the cluster."
   },
   {
     "name": "Prowler",
@@ -75,9 +105,24 @@
     "description": "Open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments."
   },
   {
+    "name": "gVisor",
+    "url": "https://github.com/google/gvisor",
+    "description": "Application kernel, written in Go, that implements a substantial portion of the Linux system surface to provide an isolation boundary between the application and the host kernel."
+  },
+  {
     "name": "GPG Sync",
     "url": "https://github.com/firstlookmedia/gpgsync",
     "description": "Centralize and automate OpenPGP public key distribution, revocation, and updates amongst all members of an organization or team."
+  },
+  {
+    "name": "Geneva (Genetic Evasion)",
+    "url": "https://censorship.ai/",
+    "description": "Novel experimental genetic algorithm that evolves packet-manipulation-based censorship evasion strategies against nation-state level censors to increase availability of otherwise blocked content."
+  },
+  {
+    "name": "Bane",
+    "url": "https://github.com/genuinetools/bane",
+    "description": "Custom and better AppArmor profile generator for Docker containers."
   },
   {
     "name": "BlackBox",
@@ -95,6 +140,16 @@
     "description": "Static analysis tool to probe for vulnerabilities introduced via application container (e.g., Docker) images."
   },
   {
+    "name": "CodeQL",
+    "url": "https://securitylab.github.com/tools/codeql",
+    "description": "Discover vulnerabilities across a codebase by performing queries against code as though it were data."
+  },
+  {
+    "name": "DefectDojo",
+    "url": "https://www.defectdojo.org/",
+    "description": "Application vulnerability management tool built for DevOps and continuous security integration."
+  },
+  {
     "name": "Gauntlt",
     "url": "http://gauntlt.org/",
     "description": "Pentest applications during routine continuous integration build pipelines."
@@ -105,14 +160,9 @@
     "description": "Prevents you from committing passwords and other sensitive information to a git repository."
   },
   {
-    "name": "Vault",
-    "url": "https://www.vaultproject.io/",
-    "description": "Tool for securely accessing secrets such as API keys, passwords, or certificates through a unified interface."
-  },
-  {
-    "name": "git-crypt",
-    "url": "https://www.agwa.name/projects/git-crypt/",
-    "description": "Transparent file encryption in git; files which you choose to protect are encrypted when committed, and decrypted when checked out."
+    "name": "SOPS",
+    "url": "https://github.com/mozilla/sops",
+    "description": "Editor of encrypted files that supports YAML, JSON, ENV, INI and binary formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault, and PGP."
   },
   {
     "name": "Snyk",
@@ -125,9 +175,59 @@
     "description": "Continuous inspection tool that provides detailed reports during automated testing and alerts on newly introduced security vulnerabilities."
   },
   {
+    "name": "Trivy",
+    "url": "https://github.com/aquasecurity/trivy",
+    "description": "Simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for use in continuous integration pipelines."
+  },
+  {
+    "name": "Vault",
+    "url": "https://www.vaultproject.io/",
+    "description": "Tool for securely accessing secrets such as API keys, passwords, or certificates through a unified interface."
+  },
+  {
+    "name": "git-crypt",
+    "url": "https://www.agwa.name/projects/git-crypt/",
+    "description": "Transparent file encryption in git; files which you choose to protect are encrypted when committed, and decrypted when checked out."
+  },
+  {
+    "name": "DynInst",
+    "url": "https://dyninst.org/dyninst",
+    "description": "Tools for binary instrumentation, analysis, and modification, useful for binary patching."
+  },
+  {
+    "name": "DynamoRIO",
+    "url": "https://dynamorio.org/",
+    "description": "Runtime code manipulation system that supports code transformations on any part of a program, while it executes, implemented as a process-level virtual machine."
+  },
+  {
     "name": "Egalito",
     "url": "https://egalito.org/",
     "description": "Binary recompiler and instrumentation framework that can fully disassemble, transform, and regenerate ordinary Linux binaries designed for binary hardening and security research."
+  },
+  {
+    "name": "Valgrind",
+    "url": "https://www.valgrind.org/",
+    "description": "Instrumentation framework for building dynamic analysis tools."
+  },
+  {
+    "name": "Chef InSpec",
+    "url": "https://www.chef.io/products/chef-inspec",
+    "description": "Language for describing security and compliance rules, which become automated tests that can be run against IT infrastructures to discover and report on non-compliance."
+  },
+  {
+    "name": "OpenSCAP Base",
+    "url": "https://www.open-scap.org/tools/openscap-base/",
+    "description": "Both a library and a command line tool (oscap) used to evaluate a system against SCAP baseline profiles to report on the security posture of the scanned system(s)."
+  },
+  {
+    "name": "FuzzBench",
+    "url": "https://google.github.io/fuzzbench/",
+    "description": "Free service that evaluates fuzzers on a wide variety of real-world benchmarks, at Google scale."
+  },
+  {
+    "name": "OneFuzz",
+    "url": "https://github.com/microsoft/onefuzz",
+    "description": "Self-hosted Fuzzing-as-a-Service (FaaS) platform."
   },
   {
     "name": "OpenPolicyAgent",
@@ -180,11 +280,6 @@
     "description": "Intrusion prevention software framework that protects computer servers from brute-force attacks."
   },
   {
-    "name": "OpenSCAP Base",
-    "url": "https://www.open-scap.org/tools/openscap-base/",
-    "description": "Both a library and a command line tool (oscap) used to evaluate a system against SCAP baseline profiles to report on the security posture of the scanned system(s)."
-  },
-  {
     "name": "Open Source HIDS SECurity (OSSEC)",
     "url": "https://www.ossec.net/",
     "description": "Fully open source and free, feature-rich, Host-based Instrusion Detection System (HIDS)."
@@ -198,6 +293,16 @@
     "name": "Firejail",
     "url": "https://firejail.wordpress.com/",
     "description": "SUID program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces and seccomp-bpf."
+  },
+  {
+    "name": "LogonTracer",
+    "url": "https://github.com/JPCERTCC/LogonTracer",
+    "description": "Investigate malicious Windows logon by visualizing and analyzing Windows event log."
+  },
+  {
+    "name": "Volatility",
+    "url": "https://www.volatilityfoundation.org/",
+    "description": "Advanced memory forensics framework."
   },
   {
     "name": "aws_ir",
@@ -253,6 +358,11 @@
     "name": "Margarita Shotgun",
     "url": "https://github.com/ThreatResponse/margaritashotgun",
     "description": "Command line utility (that works with or without Amazon EC2 instances) to parallelize remote memory acquisition."
+  },
+  {
+    "name": "Gatekeeper",
+    "url": "https://github.com/AltraMayor/gatekeeper",
+    "description": "First open source Distributed Denial of Service (DDoS) protection system."
   },
   {
     "name": "fwknop",
@@ -380,6 +490,11 @@
     "description": "Helps manage network IDS at scale by visualizing Suricata, Zeek, and Moloch life cycles."
   },
   {
+    "name": "Real Intelligence Threat Analysis (RITA)",
+    "url": "https://github.com/activecm/rita",
+    "description": "Open source framework for network traffic analysis that ingests Zeek logs and detects beaconing, DNS tunneling, and more."
+  },
+  {
     "name": "Respounder",
     "url": "https://github.com/codeexpress/respounder",
     "description": "Detects the presence of the Responder LLMNR/NBT-NS/MDNS poisoner on a network."
@@ -395,9 +510,19 @@
     "description": "Catch spoofed NetBIOS Name Service (NBNS) responses and alert to an email or log file."
   },
   {
+    "name": "Stenographer",
+    "url": "https://github.com/google/stenographer",
+    "description": "Full-packet-capture utility for buffering packets to disk for intrusion detection and incident response purposes."
+  },
+  {
     "name": "Suricata",
     "url": "https://suricata-ids.org/",
     "description": "Free, cross-platform, IDS/IPS with on- and off-line analysis modes and deep packet inspection capabilities that is also scriptable with Lua."
+  },
+  {
+    "name": "Tsunami",
+    "url": "https://github.com/google/tsunami-security-scanner",
+    "description": "General purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence."
   },
   {
     "name": "VAST",
@@ -455,6 +580,11 @@
     "description": "Operating system instrumentation framework for macOS, Windows, and Linux, exposing the OS as a high-performance relational database that can be queried with a SQL-like syntax."
   },
   {
+    "name": "Zabbix",
+    "url": "https://www.zabbix.com/",
+    "description": "Mature, enterprise-level platform to monitor large-scale IT environments."
+  },
+  {
     "name": "CimSweep",
     "url": "https://github.com/PowerShellMafia/CimSweep",
     "description": "Suite of CIM/WMI-based tools enabling remote incident response and hunting operations across all versions of Windows."
@@ -508,6 +638,11 @@
     "name": "Active Directory Control Paths",
     "url": "https://github.com/ANSSI-FR/AD-control-paths",
     "description": "Visualize and graph Active Directory permission configs (\"control relations\") to audit questions such as \"Who can read the CEO's email?\" and similar."
+  },
+  {
+    "name": "AttackerKB",
+    "url": "https://attackerkb.com/",
+    "description": "Free and public crowdsourced vulnerability assessment platform to help prioritize high-risk patch application and combat vulnerability fatigue."
   },
   {
     "name": "DATA",
@@ -580,9 +715,19 @@
     "description": "Censorship circumvention and anonymizing overlay network providing distributed, cryptographically verified name services (.onion domains) to enhance publisher privacy and service availability."
   },
   {
+    "name": "BlockBlock",
+    "url": "https://objective-see.com/products/blockblock.html",
+    "description": "Monitors common persistence locations and alerts whenever a persistent component is added, which helps to detect and prevent malware installation."
+  },
+  {
     "name": "LuLu",
     "url": "https://objective-see.com/products/lulu.html",
     "description": "Free macOS firewall."
+  },
+  {
+    "name": "Santa",
+    "url": "https://github.com/google/santa",
+    "description": "Binary whitelisting/blacklisting system for macOS."
   },
   {
     "name": "Stronghold",
@@ -603,6 +748,11 @@
     "name": "NotRuler",
     "url": "https://github.com/sensepost/notruler",
     "description": "Detect both client-side rules and VBScript enabled forms used by the Ruler attack tool when attempting to compromise a Microsoft Exchange server."
+  },
+  {
+    "name": "Sandboxie",
+    "url": "https://www.sandboxie.com/",
+    "description": "Free and open source general purpose Windows application sandboxing utility."
   },
   {
     "name": "Sigcheck",

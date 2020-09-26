@@ -81,24 +81,9 @@
     "description": "Layout Manager for Blaze (works well with Meteor FlowRouter)"
   },
   {
-    "name": "dispatch:scrollview",
-    "url": "https://github.com/DispatchMe/meteor-scrollview",
-    "description": "A high performance infinite scrollview for meteor"
-  },
-  {
-    "name": "manuel:viewmodel",
-    "url": "https://github.com/ManuelDeLeon/viewmodel",
-    "description": "MVVM for Meteor"
-  },
-  {
-    "name": "webix:webix",
-    "url": "https://github.com/dandv/meteor-webix",
-    "description": "Meteor.js - Webix UI integration"
-  },
-  {
-    "name": "accounts-base",
-    "url": "https://guide.meteor.com/accounts.html",
-    "description": "Meteor's user account system."
+    "name": "accounts-js",
+    "url": "https://github.com/accounts-js/accounts",
+    "description": "A suite of packages aims to provide all the tools you need to build a flexible authentication and accounts management solution for your application."
   },
   {
     "name": "alanning:roles",
@@ -106,24 +91,9 @@
     "description": "Roles support for the built-in accounts packages."
   },
   {
-    "name": "Stripe",
-    "url": "https://atmospherejs.com/mrgalaxy/stripe",
-    "description": "payment gateway for Stripe"
-  },
-  {
-    "name": "PayPal",
-    "url": "https://atmospherejs.com/mrt/paypal",
-    "description": "payment gateway for PayPal"
-  },
-  {
-    "name": "BrainTree",
-    "url": "https://atmospherejs.com/patrickml/braintree",
-    "description": "payment gateway for BrainTree"
-  },
-  {
-    "name": "Instamojo",
-    "url": "https://atmospherejs.com/instamojo/instamojo",
-    "description": "payment gateway for Instamojo"
+    "name": "meteor-user-status",
+    "url": "https://github.com/Meteor-Community-Packages/meteor-user-status",
+    "description": "Keeps track of users and their meta data."
   },
   {
     "name": "Meteor Candy",
@@ -169,6 +139,16 @@
     "name": "epotek:method-cache",
     "url": "https://github.com/e-Potek/method-cache",
     "description": "Meteor method caching using DataLoader"
+  },
+  {
+    "name": "maestroqadev:pub-sub-lite",
+    "url": "https://github.com/adtribute/pub-sub-lite",
+    "description": "Transform publications to be non-reactive."
+  },
+  {
+    "name": "artillery-engine-meteor",
+    "url": "https://github.com/kschingiz/artillery-engine-meteor",
+    "description": "Artillery load testing for MeteorJS applications."
   },
   {
     "name": "meteor-up – Meteor Deployments.",
@@ -220,6 +200,18 @@
     "description": "Simple migration system for Meteor"
   },
   {
+    "name": "meteor-docker",
+    "url": "https://github.com/zodern/meteor-docker"
+  },
+  {
+    "name": "meteor-base",
+    "url": "https://github.com/disney/meteor-base"
+  },
+  {
+    "name": "docker-meteor",
+    "url": "https://github.com/tozd/docker-meteor"
+  },
+  {
     "name": "ostrio:flow-router-extra",
     "url": "https://github.com/VeliovGroup/flow-router",
     "description": "Carefully extended flow-router package. Up-to-date version with support of latest Meteor's releases."
@@ -245,6 +237,11 @@
     "description": "An easy way to create offline collections with SSR for Meteor"
   },
   {
+    "name": "meteor-service-worker",
+    "url": "https://github.com/NitroBAY/meteor-service-worker",
+    "description": "Meteor specific service worker implementaion."
+  },
+  {
     "name": "meteortesting:mocha",
     "url": "https://github.com/meteortesting/meteor-mocha",
     "description": "Mocha test driver package for Meteor."
@@ -258,11 +255,6 @@
     "name": "hubroedu:mocha",
     "url": "https://github.com/hubroedu/meteor-mocha/",
     "description": "Decaffed cultofcoders:mocha fork."
-  },
-  {
-    "name": "Gagarin",
-    "url": "https://github.com/anticoders/gagarin",
-    "description": "Another testing framework for your meteor apps."
   },
   {
     "name": "ostrio:spiderable-middleware",
@@ -283,6 +275,11 @@
     "name": "percolate:find-from-publication",
     "url": "https://github.com/versolearning/find-from-publication",
     "description": "Enable finding all documents that have been published by a given publication."
+  },
+  {
+    "name": "meteor-publish-join",
+    "url": "https://github.com/nlhuykhang/meteor-publish-join#readme",
+    "description": "A performant NPM package for publishing non-reactive or aggregated values."
   },
   {
     "name": "tmeasday:publish-counts",
@@ -390,6 +387,11 @@
     "description": "Package with similar API to native setTimeout and setInterval methods, but synced between all running Meteor (NodeJS) instances."
   },
   {
+    "name": "meteor-devtools-evolved",
+    "url": "https://github.com/leonardoventurini/meteor-devtools-evolved",
+    "description": "A chrome extension."
+  },
+  {
     "name": "msavin:mongol",
     "url": "https://github.com/msavin/Mongol/",
     "description": "Visual Editing Tool for Meteor for MongoDB Collections."
@@ -403,16 +405,6 @@
     "name": "babrahams:constellation",
     "url": "https://github.com/JackAdams/constellation-distro/",
     "description": "An extensible dev console for Meteor."
-  },
-  {
-    "name": "Meteor DDP Monitor",
-    "url": "https://github.com/thebakeryio/meteor-ddp-monitor",
-    "description": "Chrome Dev tools extension for monitoring Meteor DDP traffic."
-  },
-  {
-    "name": "meteorhacks:kadira-debug",
-    "url": "https://github.com/kadirahq/meteor-debug",
-    "description": "Full Stack Debugging Solution for Meteor."
   },
   {
     "name": "meteor-api",
@@ -463,8 +455,8 @@
     "description": "Open source Trello-like kanban."
   },
   {
-    "name": "Reaction Commerce",
-    "url": "https://github.com/reactioncommerce/reaction",
+    "name": "Unchained Shop",
+    "url": "https://github.com/unchainedshop/unchained",
     "description": "Open source Commerce platform developed with Meteor."
   },
   {
@@ -530,7 +522,7 @@
   {
     "name": "elm",
     "url": "https://github.com/ni-ko-o-kin/meteor-elm-example",
-    "description": " elm as the view layer for a meteor based project."
+    "description": "elm as the view layer for a meteor based project."
   },
   {
     "name": "vlasky:mysql",
@@ -562,43 +554,79 @@
     "url": "https://gumroad.com/l/meteor-explained"
   },
   {
+    "name": "Secure Meteor",
+    "url": "https://www.securemeteor.com/"
+  },
+  {
+    "name": "meteor-tuts",
+    "url": "https://www.meteor-tuts.com/",
+    "description": "Free"
+  },
+  {
     "name": "Meteor Tips",
-    "url": "http://meteortips.com/"
+    "url": "http://meteortips.com/",
+    "description": "Free"
   },
   {
     "name": "Meteor Cookbook",
     "url": "https://github.com/awatson1978/meteor-cookbook"
   },
   {
-    "name": "Secure Meteor",
-    "url": "https://www.securemeteor.com/"
+    "name": "Meteor 1.4 For Everyone",
+    "url": "https://www.leveluptutorials.com/tutorials/meteor-1-4-for-everyone"
+  },
+  {
+    "name": "Intermediate Meteor",
+    "url": "https://www.leveluptutorials.com/tutorials/intermediate-meteor"
+  },
+  {
+    "name": "Meteor For Everyone Tutorials",
+    "url": "https://www.leveluptutorials.com/tutorials/meteor-for-everyone-tutorials"
+  },
+  {
+    "name": "Meteor 1.4 + React For Everyone Tutorials",
+    "url": "https://www.leveluptutorials.com/tutorials/meteor-1-4-react-for-everyone-tutorials"
+  },
+  {
+    "name": "Meteor & React For Everyone",
+    "url": "https://www.leveluptutorials.com/tutorials/meteor-react-for-everyone"
+  },
+  {
+    "name": "Level 2 Meteor + React Tutorials",
+    "url": "https://www.leveluptutorials.com/tutorials/level-2-meteor-react-tutorials"
+  },
+  {
+    "name": "User Accounts in Meteor",
+    "url": "https://www.leveluptutorials.com/tutorials/user-accounts-in-meteor"
+  },
+  {
+    "name": "Full-stack GraphQL with Apollo, Meteor & React",
+    "url": "https://www.leveluptutorials.com/tutorials/full-stack-graphql-with-apollo-meteor-and-react"
+  },
+  {
+    "name": "leveluptutorials",
+    "url": "https://www.leveluptutorials.com/",
+    "description": "Contains some free tutorials."
   },
   {
     "name": "EventedMind",
-    "url": "https://www.eventedmind.com/"
-  },
-  {
-    "name": "MeteorTuts",
-    "url": "http://meteor-tuts.com/"
-  },
-  {
-    "name": "BulletProof Meteor",
-    "url": "https://bulletproofmeteor.com/",
-    "description": "Online course for Meteor performance in production, by Arunoda Susiripala"
-  },
-  {
-    "name": "Udemy — Meteor: Build a real-time web app using only JavaScript",
-    "url": "https://www.udemy.com/meteor-course/"
+    "url": "https://www.eventedmind.com/",
+    "description": "Contains some free tutorials."
   },
   {
     "name": "Udemy",
-    "url": "https://www.udemy.com/meteorjs/",
-    "description": "A Beginner's Guide to the Meteor JavaScript Framework"
+    "url": "https://www.udemy.com/course/meteor-react-tutorial/",
+    "description": "Meteor and React for Realtime Apps"
   },
   {
     "name": "tuts+",
     "url": "http://code.tutsplus.com/courses/single-page-web-apps-with-meteor",
     "description": "Single Page Web Apps with Meteor"
+  },
+  {
+    "name": "BulletProof Meteor",
+    "url": "https://bulletproofmeteor.com/",
+    "description": "Contains some free tutorials."
   },
   {
     "name": "Building a CMS-powered blog in Meteor",
@@ -622,6 +650,10 @@
     "name": "When a Meteor finally hits production",
     "url": "https://medium.com/@davidyahalomi/when-a-meteor-finally-hits-production-6c37b81f795b",
     "description": "Blog post about deploying Meteor apps"
+  },
+  {
+    "name": "Transform any Meteor App into a PWA",
+    "url": "https://dev.to/jankapunkt/transform-any-meteor-app-into-a-pwa-4k44"
   },
   {
     "name": "Official Meteor blog",
@@ -693,8 +725,8 @@
     "url": "https://twitter.com/meteorjs"
   },
   {
-    "name": "We Work Meteor",
-    "url": "https://www.weworkmeteor.com/"
+    "name": "Awesome Meteor Jobs",
+    "url": "https://github.com/harryadel/awesome-meteor-jobs"
   },
   {
     "name": "Awesome Meteor Developers",
@@ -713,5 +745,15 @@
     "name": "Code Signal",
     "url": "https://codesignal.com/",
     "description": "Skills-based assessment platform"
+  },
+  {
+    "name": "Pathable",
+    "url": "Pathable",
+    "description": "Events managment suite"
+  },
+  {
+    "name": "MaestroQA",
+    "url": "https://www.maestroqa.com/",
+    "description": "Quality assurance software"
   }
 ]

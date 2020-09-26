@@ -35,6 +35,11 @@
     "description": "wikipedia biography dataset - This dataset gathers 728,321 biographies from wikipedia. It aims at evaluating text generation algorithms. For each article, we provide the first paragraph and the infobox (both tokenized)."
   },
   {
+    "name": "The Schema-Guided Dialogue Dataset",
+    "url": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
+    "description": "The Schema-Guided Dialogue (SGD) dataset consists of over 20k annotated multi-domain, task-oriented conversations between a human and a virtual assistant."
+  },
+  {
     "name": "The Wikipedia company corpus",
     "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/getalp/wikipediacompanycorpus",
     "description": "Company descriptions collected from Wikipedia. The dataset contains semantic representations, short, and long descriptions for 51K companies in English."
@@ -115,6 +120,11 @@
     "description": "A .NET library that converts cron expressions into human readable descriptions."
   },
   {
+    "name": "Number Words",
+    "url": "https://github.com/tokenmill/numberwords",
+    "description": "Convert a number to an approximated text expression: from '0.23' to 'less than a quarter'."
+  },
+  {
     "name": "Random Story Generator",
     "url": "https://github.com/aherriot/story-generator",
     "description": "Using Natural Language Generation (NLG) to create a random short story."
@@ -123,6 +133,11 @@
     "name": "Tracery",
     "url": "https://github.com/galaxykate/tracery",
     "description": "A story-grammar generation library for JavaScript."
+  },
+  {
+    "name": "aitextgen",
+    "url": "https://github.com/minimaxir/aitextgen",
+    "description": "A robust Python tool for text-based AI training and generation using GPT-2."
   },
   {
     "name": "graph-2-text",
@@ -150,6 +165,11 @@
     "description": "Easily train your own text-generating neural network of any size and complexity on any text dataset with a few lines of code."
   },
   {
+    "name": "This Word Does Not Exist",
+    "url": "https://github.com/turtlesoupy/this-word-does-not-exist",
+    "description": "This is a project allows people to train a variant of GPT-2 that makes up words, definitions and examples from scratch."
+  },
+  {
     "name": "Transformers",
     "url": "https://github.com/huggingface/transformers",
     "description": "State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch."
@@ -160,50 +180,58 @@
     "description": "For converting information present in the form of structured data into natural language text."
   },
   {
-    "name": "A Closer Look at Recent Results of Verb Selection for Data-to-Text NLG",
-    "url": "https://www.inlg2019.com/assets/papers/178_Paper.pdf"
-  },
-  {
-    "name": "A Personalized Data-to-Text Support Tool for Cancer Patients",
-    "url": "https://www.inlg2019.com/assets/papers/28_Paper.pdf"
-  },
-  {
-    "name": "Controlling Contents in Data-to-Document Generation with Human-Designed Topic Labels",
-    "url": "https://www.inlg2019.com/assets/papers/79_Paper.pdf"
-  },
-  {
-    "name": "Hotel Scribe: Generating High Variation Hotel Descriptions",
-    "url": "https://www.inlg2019.com/assets/papers/44_Paper.pdf"
-  },
-  {
-    "name": "How to generate text: using different decoding methods for language generation with Transformers",
+    "name": "2020: How to generate text: using different decoding methods for language generation with Transformers",
     "url": "https://huggingface.co/blog/how-to-generate"
   },
   {
-    "name": "Natural Language Generation enhances human decision-making with uncertain information",
-    "url": "https://arxiv.org/pdf/1606.03254.pdf"
+    "name": "2020: Natural language generation: The commercial state ofthe art in 2020",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BA2417D73AF29F8073FF5B611CDEB97F/S135132492000025Xa.pdf/natural_language_generation_the_commercial_state_of_the_art_in_2020.pdf"
   },
   {
-    "name": "NLP",
-    "url": "https://github.com/zhongpeixiang/AI-NLP-Paper-Readings/blob/master/NLP/NLP_generation.md",
-    "description": "Text Generation Reading List"
+    "name": "2020: Turing-NLG: A 17-billion-parameter language model by Microsoft",
+    "url": "https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/"
   },
   {
-    "name": "Survey of the State of the Art in NaturalLanguage Generation: Core tasks, applicationsand evaluation",
-    "url": "https://arxiv.org/pdf/1703.09902.pdf"
+    "name": "2019: A Closer Look at Recent Results of Verb Selection for Data-to-Text NLG",
+    "url": "https://www.inlg2019.com/assets/papers/178_Paper.pdf"
   },
   {
-    "name": "Revisiting Challenges in Data-to-Text Generation with Fact Grounding",
+    "name": "2019: A Personalized Data-to-Text Support Tool for Cancer Patients",
+    "url": "https://www.inlg2019.com/assets/papers/28_Paper.pdf"
+  },
+  {
+    "name": "2019: Controlling Contents in Data-to-Document Generation with Human-Designed Topic Labels",
+    "url": "https://www.inlg2019.com/assets/papers/79_Paper.pdf"
+  },
+  {
+    "name": "2019: Generated Texts Must Be Accurate!",
+    "url": "https://ehudreiter.com/2019/09/26/generated-texts-must-be-accurate/"
+  },
+  {
+    "name": "2019: Hotel Scribe: Generating High Variation Hotel Descriptions",
+    "url": "https://www.inlg2019.com/assets/papers/44_Paper.pdf"
+  },
+  {
+    "name": "2019: Revisiting Challenges in Data-to-Text Generation with Fact Grounding",
     "url": "https://www.inlg2019.com/assets/papers/32_Paper.pdf"
   },
   {
-    "name": "Turing-NLG: A 17-billion-parameter language model by Microsoft",
-    "url": "https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/"
+    "name": "2017: Survey of the State of the Art in NaturalLanguage Generation: Core tasks, applicationsand evaluation",
+    "url": "https://arxiv.org/pdf/1703.09902.pdf"
+  },
+  {
+    "name": "2016: Natural Language Generation enhances human decision-making with uncertain information",
+    "url": "https://arxiv.org/pdf/1606.03254.pdf"
   },
   {
     "name": "Accelerated Text",
     "url": "https://github.com/tokenmill/accelerated-text",
     "description": "Automatically generate multiple natural language descriptions of your data varying in wording and structure."
+  },
+  {
+    "name": "RosaeNLG",
+    "url": "https://rosaenlg.org",
+    "description": "An open-source library for node.js or client side (browser) execution, based on the Pug template engine, to generate texts in English, French, German and Italian."
   },
   {
     "name": "Twine",

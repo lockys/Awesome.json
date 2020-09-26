@@ -11,48 +11,93 @@
   },
   {
     "name": "Uses of Different Soldering Iron Tips",
-    "url": "http://www.instructables.com/id/Uses-of-Different-Soldering-Iron-Tips/",
+    "url": "https://www.instructables.com/id/Uses-of-Different-Soldering-Iron-Tips/",
     "description": "Covers what all those different soldering iron tips are good for."
   },
   {
-    "name": "All About Circuits",
-    "url": "https://www.allaboutcircuits.com/textbook/",
-    "description": "Online textbook for learning theory with clear diagrams and explanations."
+    "name": "Lessons In Electric Circuits",
+    "url": "https://www.ibiblio.org/kuphaldt/electricCircuits/",
+    "description": "Free high quality textbooks and worksheets with emphasis on theory, simulation, and the socratic method."
   },
   {
-    "name": "Ultimate Electronics",
+    "name": "Ultimate Electronics: Practical Circuit Design and Analysis",
     "url": "https://ultimateelectronicsbook.com/",
-    "description": "(Still unfinished) book that goes through circuit theory with interactive schematics that you can load, simulate and change."
+    "description": "Free online book with interactive schematics & simulations by CircuitLab (under development)."
   },
   {
-    "name": "Electrical Engineering",
+    "name": "Khan Academy",
     "url": "https://www.khanacademy.org/science/electrical-engineering",
-    "description": "Khan Academy - Online learning platform with lots of topics, including a full course on electrical engineering, circuits, semiconductors, signals, robots, and even reverse engineering electronic devices."
+    "description": "Electrical Engineering - Non-profit learning platform with a full course on electrical engineering and related topics."
   },
   {
-    "name": "LTSpice",
-    "url": "http://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html",
-    "description": "The industry standard free SPICE circuit simulator from Linear Technologies."
+    "name": "NEETS (Navy Electricity and Electronics Training Series)",
+    "url": "https://www.fcctests.com/neets/Neets.htm",
+    "description": "U.S. Navy Non-Resident Training Course Material."
   },
   {
-    "name": "Ngspice",
+    "name": "Berkeley EECS",
+    "url": "http://inst.eecs.berkeley.edu/classes-eecs.html",
+    "description": "Comprehensive EE & CS course website archives."
+  },
+  {
+    "name": "Dr. Jacob Baker",
+    "url": "http://cmosedu.com",
+    "description": "Courses and tutorials, professor at The University of Nevada, Las Vegas."
+  },
+  {
+    "name": "Dr. Abraham, Dr. McDermot, and Dr. Valvano",
+    "url": "https://www.cerc.utexas.edu/~jaa/teaching.html",
+    "description": "Courses materials, professors at UT Austin"
+  },
+  {
+    "name": "LTspice",
+    "url": "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html",
+    "description": "The industry standard free SPICE circuit simulator from Linear Technologies. Also see the unofficial LTwiki and Group."
+  },
+  {
+    "name": "ngspice",
     "url": "http://ngspice.sourceforge.net/",
     "description": "Open source SPICE circuit simulator."
   },
   {
-    "name": "Circuit JS",
+    "name": "Circuit JS/Falstad",
     "url": "http://www.falstad.com/circuit/circuitjs.html",
-    "description": "Open source online simulator for simpler circuits with live interactivity and visualization."
+    "description": "Free, open source online simulator with electron flow visualization (rewrite of original Java applet by Paul Falstad)."
   },
   {
-    "name": "Every Circuit",
-    "url": "http://everycircuit.com",
+    "name": "EveryCircuit",
+    "url": "https://everycircuit.com",
     "description": "Free to try online, visual, interactive circuit simulator for simpler circuits."
   },
   {
     "name": "Qucs",
     "url": "http://qucs.sourceforge.net/",
-    "description": "Open source integrated circuit simulator for DC, AC, S-parameter, noise analysis, etc."
+    "description": "Open source, cross-platform, non-SPICE-based circuit simulator, with with S-parameter and Harmonic Balance capability."
+  },
+  {
+    "name": "QucsStudio",
+    "url": "http://dd6um.darc.de/QucsStudio/qucsstudio.html",
+    "description": "Free, closed-source, Windows-only fork of Qucs with a similar interface, new engine, and more features."
+  },
+  {
+    "name": "Open Circuit Design Software",
+    "url": "http://opencircuitdesign.com",
+    "description": "Open Source, full EDA suite chip design suite, focused on keeping up with commercial tools."
+  },
+  {
+    "name": "TINA-TI",
+    "url": "http://www.ti.com/tool/TINA-TI",
+    "description": "Exclusive DesignSoft-TINA build for Texas Instruments, bundled with Texas Instruments Models."
+  },
+  {
+    "name": "CppSim",
+    "url": "https://www.cppsim.com/",
+    "description": "Free, open source circuit simulator that leverages the C++ language to achieve very fast simulation times."
+  },
+  {
+    "name": "Scilab with Xcos",
+    "url": "https://www.scilab.org/",
+    "description": "Free, open source numerical computing alternative to MATLAB. Xcos provides Electrical System modeling capability similar to Simulink."
   },
   {
     "name": "iCircuit",
@@ -65,13 +110,23 @@
     "description": "Professional-grade mixed signal simulator with wide variety of interactive simulation types."
   },
   {
+    "name": "Verilator",
+    "url": "https://www.veripool.org/wiki/verilator",
+    "description": "Free, open source Verilog compiler. Test benches are in C++ or SystemC. Very fast, but limted to 2-state, cycle-based simulation, and synthesizeable code only."
+  },
+  {
+    "name": "Icarus Verilog",
+    "url": "http://iverilog.icarus.com/",
+    "description": "Free, open source verilog interpreter. Test benches are in behavioral verilog. Simulation is 4-state, and event-based."
+  },
+  {
     "name": "Tracespace Viewer",
-    "url": "http://viewer.tracespace.io",
+    "url": "https://tracespace.io/",
     "description": " Gerber viewer that lets you inspect the individual layers as well as the board preview."
   },
   {
     "name": "Gerblook",
-    "url": "http://gerblook.org/",
+    "url": "https://www.gerblook.org/",
     "description": "Online Gerber viewer powered by Gerbv."
   },
   {
@@ -86,7 +141,7 @@
   },
   {
     "name": "Stackrate Viewer",
-    "url": "http://stackrate.de/viewer",
+    "url": "https://stackrate.de/viewer/",
     "description": "Easy to use online gerber viewer with trace hovering and measurement tools."
   },
   {
@@ -95,13 +150,13 @@
     "description": "Excellent Gerber viewer for Linux and BSD."
   },
   {
-    "name": "KiCAD Gerbview",
-    "url": "http://kicad-pcb.org/",
-    "description": "The KiCAD gerber viewer."
+    "name": "KiCad GerbView",
+    "url": "https://kicad-pcb.org/",
+    "description": "The KiCad gerber viewer."
   },
   {
-    "name": "KiCAD",
-    "url": "http://kicad-pcb.org/",
+    "name": "KiCad",
+    "url": "https://kicad-pcb.org/",
     "description": "Open source EDA package with push and shove router, differential pairs and much more."
   },
   {
@@ -110,12 +165,12 @@
     "description": "One of the most popular EDA packages due to it's (board size restricted) free version."
   },
   {
-    "name": "Design Spark PCB",
+    "name": "DesignSpark PCB",
     "url": "https://www.rs-online.com/designspark/pcb-software",
     "description": "Gratis EDA package without restrictions, sponserd by RS Components."
   },
   {
-    "name": "Altium Circuit Maker",
+    "name": "Altium CircuitMaker",
     "url": "https://circuitmaker.com/",
     "description": "Free package from the maker of the go to pro software."
   },
@@ -140,12 +195,7 @@
     "description": "A free and open source EDA tool with the focus on shortcut operation."
   },
   {
-    "name": "Caneda",
-    "url": "http://caneda.org/",
-    "description": "Caneda is an open source EDA software suite focused on ease of use and portability."
-  },
-  {
-    "name": "Xesscorp's list of KiCAD 3rd party tools",
+    "name": "Xesscorp's list of KiCad 3rd party tools",
     "url": "https://github.com/xesscorp/kicad-3rd-party-tools"
   },
   {
@@ -159,7 +209,7 @@
     "description": "A more comprehensive beginner to intermediate video tutorial."
   },
   {
-    "name": "KiCAD.info Forums",
+    "name": "KiCad.info Forums",
     "url": "https://forum.kicad.info",
     "description": "User discussion and help forum."
   },
@@ -170,13 +220,13 @@
   },
   {
     "name": "Cheatsheet (also in landscape)",
-    "url": "https://silica.io/static/downloads/kicad-cheatsheet.pdf",
+    "url": "https://silica.io/wp-content/uploads/2018/06/kicad-cheatsheet.pdf",
     "description": "Short PDF that goes over the menus and keyboard shortcuts for the most common operations."
   },
   {
     "name": "Footprint Collection",
-    "url": "https://github.com/monostable/kicad_footprints",
-    "description": "Collection of all the KiCAD footprints available online and some scripts to manage them."
+    "url": "https://github.com/kitspace/kicad_footprints",
+    "description": "Collection of all the KiCad footprints available online and some scripts to manage them."
   },
   {
     "name": "InteractiveHtmlBom",
@@ -185,7 +235,7 @@
   },
   {
     "name": "List of ULPs everyone should know",
-    "url": "https://www.element14.com/community/community/cadsoft_eagle/blog/2015/01/19/eagle-ulps-every-user-should-know"
+    "url": "https://www.element14.com/community/community/eagle/blog/2015/01/19/eagle-ulps-every-user-should-know"
   },
   {
     "name": "Adafruit Eagle Library",
@@ -201,7 +251,7 @@
     "description": "Syntax highlighting for various PCB formats."
   },
   {
-    "name": "PCB Shopper",
+    "name": "PCBShopper",
     "url": "https://pcbshopper.com/",
     "description": "Comparison service for quite a lot of different PCB batching and assembly services."
   },
@@ -241,7 +291,7 @@
     "description": "Another search engine from Supply Frame geared towards discovering new parts."
   },
   {
-    "name": "Kitspace.org",
+    "name": "Kitspace",
     "url": "https://kitspace.org",
     "description": "Project sharing site that helps you buy parts and re-build projects. Open source and developed by yours truly."
   },
@@ -251,17 +301,32 @@
     "description": "Social site for sharing projects from the popular blog."
   },
   {
+    "name": "Hackster.io",
+    "url": "https://www.hackster.io/",
+    "description": "Another social site for sharing projects. Is well organised by platform, topic and product."
+  },
+  {
+    "name": "InventHub",
+    "url": "https://inventhub.io/",
+    "description": "Git-based project hosting and collaboration platform for hardware development."
+  },
+  {
+    "name": "CADLAB",
+    "url": "https://cadlab.io/",
+    "description": "Another Git-based project hosting and collaboration platform for hardware development."
+  },
+  {
     "name": "1-click BOM",
-    "url": "https://1clickbom.com",
+    "url": "https://kitspace.org/1-click-bom/",
     "description": "Browser extensions that automates purchasing and part searching."
   },
   {
-    "name": "Partsbox.io",
+    "name": "PartsBox",
     "url": "https://partsbox.io",
     "description": "Web service to manage your part inventory with a nice user interface and Octopart integration."
   },
   {
-    "name": "Partkeepr",
+    "name": "PartKeepr",
     "url": "https://partkeepr.org",
     "description": "Open source web service for managing your part inventory with parametric search and automatic datasheet import."
   },
@@ -271,14 +336,14 @@
     "description": "Another open source web service for managing part inventory with a permission system and a good barcode generator."
   },
   {
-    "name": "Eyrie.io",
+    "name": "Eyrie",
     "url": "https://eyrie.io",
-    "description": "For viewing Eagle and KiCAD designs online."
+    "description": "For viewing Eagle and KiCad designs online."
   },
   {
-    "name": "SnapEDA.com",
+    "name": "SnapEDA",
     "url": "https://www.snapeda.com",
-    "description": "Parts library with free symbols & footprints. (Compatible with Eagle, KiCAD, Altium, OrCad, Allegro, etc.)"
+    "description": "Parts library with free symbols & footprints. (Compatible with Eagle, KiCad, Altium, OrCad, Allegro, etc.)"
   },
   {
     "name": "Sparkfun",
@@ -316,6 +381,11 @@
     "description": "More project logs, tutorials and articles about electronics and embedded software, these ones by Dan Hienzsch."
   },
   {
+    "name": "Hackster.io",
+    "url": "https://www.hackster.io/news",
+    "description": "Another blog covering electronics."
+  },
+  {
     "name": "Dangerous Prototypes",
     "url": "http://dangerousprototypes.com/blog/",
     "description": "Blog about open source hardware projects and interesting app notes."
@@ -341,7 +411,7 @@
   },
   {
     "name": "EEVBlog beginners forum",
-    "url": "http://www.eevblog.com/forum/beginners/",
+    "url": "https://www.eevblog.com/forum/beginners/",
     "description": "Good place for beginner questions, other sub-forums on EEVblog should be suitable for questions on more advanced topics."
   },
   {
@@ -350,19 +420,19 @@
     "description": "Off-the-cuff chat about electronics with Chris Gammel and Dave Jones (EEVBlog), often with guests"
   },
   {
-    "name": "Embedded FM",
-    "url": "https://www.embedded.fm/",
+    "name": "Embedded.fm",
+    "url": "https://embedded.fm/",
     "description": "Christopher and Elecia White discuss embedded systems development and much more, often with guests."
   },
   {
-    "name": "Sparkgap Podcast",
+    "name": "The Spark Gap Podcast",
     "url": "http://thesparkgap.net",
     "description": "Covers a specific EE topic each episode, sometimes with guests."
   },
   {
     "name": "MacroFab Engineering Podcast",
     "url": "https://macrofab.com/blog/podcast/",
-    "description": "Weekly podcast where Parker and Stephen from MacroFab discuss EE topics and industry news"
+    "description": "Weekly podcast where Parker and Stephen from MacroFab discuss EE topics and industry news."
   },
   {
     "name": "The Engineering Commons Podcast",
@@ -373,6 +443,11 @@
     "name": "EEVblog",
     "url": "https://www.youtube.com/user/EEVblog",
     "description": "One of the earliest and most successful YouTube channels where Dave Jones does teardowns, tutorials and more."
+  },
+  {
+    "name": "BigClive",
+    "url": "http://bigclive.com",
+    "description": "YouTube channel about teardowns (including dangerous products), circuit reverse-engineering and tutorials."
   },
   {
     "name": "ElectroBOOM",
@@ -425,8 +500,18 @@
     "description": "Series of videos on building an 8-bit computer on breadboards with excellent explanations of all the sub-circuits."
   },
   {
+    "name": "Robert Feranec",
+    "url": "https://www.youtube.com/user/matarofe",
+    "description": "100+ Hardware design tips and tricks. Videos about Schematic design and PCB layout."
+  },
+  {
+    "name": "Strange Parts",
+    "url": "https://strangeparts.com",
+    "description": "YouTube channel about electronics, manufacturing, making, world travel, living in and making things in China."
+  },
+  {
     "name": "Boldport Club",
-    "url": "https://www.boldport.club",
+    "url": "https://boldport.com/",
     "description": "Electronic projects for the curious. As a member of the Boldport Club you’ll receive an electronics project once a month."
   },
   {
@@ -437,41 +522,46 @@
   {
     "name": "GrabCad",
     "url": "https://grabcad.com/library/electronic-components-1",
-    "description": "Community supported database of 3D models with a large number of electronic component models"
+    "description": "Community supported database of 3D models with a large number of electronic component models."
   },
   {
     "name": "3D ContentCentral",
     "url": "https://www.3dcontentcentral.com",
-    "description": "Website dedicated to 3D models of parts (requires login)"
+    "description": "Website dedicated to 3D models of parts (requires login)."
   },
   {
     "name": "PwnKitteh/InsanelyCheapElectronics",
     "url": "https://github.com/PwnKitteh/InsanelyCheapElectronics",
-    "description": "A list of cheap electronics from China, that you can use in your projects"
+    "description": "A list of cheap electronics from China, that you can use in your projects."
   },
   {
     "name": "PCB/EDA software list on the EEVblog forums",
-    "url": "http://www.eevblog.com/forum/eda/pcbeda-software-list/",
+    "url": "https://www.eevblog.com/forum/eda/pcbeda-software-list/",
     "description": "A much more comprehensive list of all the software tools available."
   },
   {
     "name": "intajay/open-electronics",
     "url": "https://github.com/intajay/open-electronics",
-    "description": "Another GitHub list: resources for Electronics Enthusiasts and Hardware Hackers"
+    "description": "Another GitHub list: resources for Electronics Enthusiasts and Hardware Hackers."
   },
   {
     "name": "Vitorian/awesome-fpga",
     "url": "https://github.com/Vitorian/awesome-fpga",
-    "description": "Awesome list of FPGA resources"
+    "description": "Awesome list of FPGA resources."
   },
   {
     "name": "cajt/list_of_robot_electronics",
     "url": "https://github.com/cajt/list_of_robot_electronics",
-    "description": "A GitHub list of resources, projects and products for robot electronics"
+    "description": "A GitHub list of resources, projects and products for robot electronics."
   },
   {
     "name": "embedded-boston/awesome-embedded-systems",
     "url": "https://github.com/embedded-boston/awesome-embedded-systems",
-    "description": "Awesome list of embedded programming resources"
+    "description": "Awesome list of embedded programming resources."
+  },
+  {
+    "name": "TCAD Central",
+    "url": "https://tcad.com/Software.html",
+    "description": "List of Technology CAD (TCAD) software and resources from the maker of DEVSIM."
   }
 ]

@@ -20,6 +20,11 @@
     "description": "Open source provider of microservice and webhook hosting."
   },
   {
+    "name": "Jolie",
+    "url": "https://jolie-lang.org",
+    "description": "Open source microservice-oriented programming language."
+  },
+  {
     "name": "KintoHub ",
     "url": "https://www.kintohub.com",
     "description": "Microservice package manager empowering developers to easily build and share cloud ready features."
@@ -100,6 +105,11 @@
     "description": "Flogo is an open source framework to simplify building efficient & modern serverless functions and edge microservices."
   },
   {
+    "name": "GraalVM",
+    "url": "https://www.graalvm.org/",
+    "description": "High-performance runtime that provides significant improvements in application performance and efficiency which is ideal for microservices."
+  },
+  {
     "name": "GPars",
     "url": "https://github.com/GPars/GPars",
     "description": "Concurrency and parallelism framework for the JVM."
@@ -108,6 +118,11 @@
     "name": "Grenache",
     "url": "https://github.com/bitfinexcom/grenache",
     "description": "A Bittorent-DHT based microservices framework supporting REQ/REP and PUB/SUB patterns over multiple transports."
+  },
+  {
+    "name": "Helidon",
+    "url": "https://helidon.io/",
+    "description": "Collection of Java libraries for writing microservices that run on a fast web core powered by Netty."
   },
   {
     "name": "Ice",
@@ -123,6 +138,11 @@
     "name": "Light-4j",
     "url": "https://github.com/networknt/light-4j",
     "description": "A high throughput, low latency, small memory footprint and more productive microservices platform."
+  },
+  {
+    "name": "Micronaut",
+    "url": "http://micronaut.io/",
+    "description": "A modern, JVM-based, full-stack framework for building modular, easily testable microservice applications."
   },
   {
     "name": "Microserver",
@@ -300,6 +320,11 @@
     "description": "Provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns."
   },
   {
+    "name": "Tye",
+    "url": "https://github.com/dotnet/tye",
+    "description": "Tye is a tool that makes developing, testing, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration."
+  },
+  {
     "name": "Vibe.d",
     "url": "http://vibed.org/",
     "description": "Asynchronous I/O that doesn’t get in your way, written in D."
@@ -365,9 +390,14 @@
     "description": "Distributed programming toolkit for microservices in the modern enterprise."
   },
   {
+    "name": "go-api-boilerplate",
+    "url": "https://github.com/vardius/go-api-boilerplate",
+    "description": "Go Server/API boilerplate using best practices, DDD, CQRS, ES, gRPC"
+  },
+  {
     "name": "Go-micro",
     "url": "https://github.com/micro/go-micro",
-    "description": "A pluggable RPC microservice framework."
+    "description": "A distributed systems development framework."
   },
   {
     "name": "Gopencils",
@@ -407,7 +437,7 @@
   {
     "name": "Micro",
     "url": "https://github.com/micro/micro",
-    "description": "A microservices toolchain in Go."
+    "description": "A distributed systems runtime for the cloud and beyond."
   },
   {
     "name": "Nano",
@@ -490,6 +520,11 @@
     "description": "Common basis for some of Otto.de's Clojure microservices."
   },
   {
+    "name": "ActiveRPC",
+    "url": "https://rpc.activej.io",
+    "description": "Lightweight and fast library for complex high-load distributed applications and Memcached-like solutions."
+  },
+  {
     "name": "Airlift",
     "url": "https://github.com/airlift/airlift",
     "description": "Framework for building REST services in Java."
@@ -511,7 +546,7 @@
   },
   {
     "name": "Dubbo",
-    "url": "http://dubbo.io/",
+    "url": "https://github.com/apache/dubbo",
     "description": "A high-performance, java based RPC framework open-sourced by Alibaba."
   },
   {
@@ -528,11 +563,6 @@
     "name": "Jersey",
     "url": "https://jersey.github.io/",
     "description": "RESTful services in Java. JAX-RS reference implementation."
-  },
-  {
-    "name": "Micronaut",
-    "url": "http://micronaut.io/",
-    "description": "A modern, JVM-based, full-stack framework for building modular, easily testable microservice applications."
   },
   {
     "name": "MSF4J",
@@ -865,6 +895,16 @@
     "description": "Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort."
   },
   {
+    "name": "Are we web yet?",
+    "url": "http://www.arewewebyet.org/",
+    "description": "A summary of the current state of web programming in Rust."
+  },
+  {
+    "name": "Tarpc",
+    "url": "https://github.com/google/tarpc",
+    "description": "RPC framework for Rust with a focus on ease of use."
+  },
+  {
     "name": "Awesome Micro Frontends",
     "url": "https://github.com/ChristianUlbrich/awesome-microfrontends",
     "description": "A curated list of resources about Micro Frontends."
@@ -888,6 +928,11 @@
     "name": "Annon",
     "url": "https://github.com/nebo15/annon.api",
     "description": "Open source API gateway with built-in API management, authentication and status pages written in Elixir."
+  },
+  {
+    "name": "APIcast",
+    "url": "https://github.com/3scale/APIcast",
+    "description": "APIcast is an API gateway built on top of NGINX. It is part of the Red Hat 3scale API Management Platform."
   },
   {
     "name": "Caddy",
@@ -915,8 +960,13 @@
     "description": "A fast, modern, zero-conf load balancing HTTP/S router for deploying microservices managed by Consul."
   },
   {
+    "name": "Gravitee",
+    "url": "https://github.com/gravitee-io/gravitee-gateway",
+    "description": "The gateway is able to apply policies (ie. rules) to both HTTP requests and responses according to your needs, meaning that you can enhance requests and responses processing by adding transformation, security, and many other crazy features!"
+  },
+  {
     "name": "HAProxy",
-    "url": "http://www.haproxy.org/",
+    "url": "https://github.com/haproxy/haproxy",
     "description": "Reliable, high Performance TCP/HTTP load balancer."
   },
   {
@@ -945,6 +995,11 @@
     "description": "Open source ultra performance API Gateway."
   },
   {
+    "name": "Kuma",
+    "url": "https://kuma.io/",
+    "description": "Platform agnostic open source control plane for service mesh and microservices."
+  },
+  {
     "name": "Linkerd",
     "url": "https://linkerd.io/",
     "description": "Resilient service mesh for cloud native apps."
@@ -958,6 +1013,11 @@
     "name": "OpenResty",
     "url": "http://openresty.org/",
     "description": "Fast web application server built on top of Nginx."
+  },
+  {
+    "name": "Open Service Mesh",
+    "url": "https://openservicemesh.io/",
+    "description": "Lightweight and extensible cloud native service mesh."
   },
   {
     "name": "Otoroshi",
@@ -1040,6 +1100,11 @@
     "description": "REST based service that is primarily used in the AWS cloud for locating services for the purpose of load balancing and failover of middle-tier servers."
   },
   {
+    "name": "Microconfig",
+    "url": "https://microconfig.io",
+    "description": "Modern and simple way of microservice configuration management."
+  },
+  {
     "name": "Microphone",
     "url": "https://github.com/rogeralsing/Microphone",
     "description": "Lightweight .NET framework to run self hosting REST services using Web Api or NancyFx on top of a Consul or Etcd cluster."
@@ -1106,13 +1171,8 @@
   },
   {
     "name": "Galaxy",
-    "url": "http://www.paralleluniverse.co/galaxy/",
+    "url": "https://github.com/puniverse/galaxy",
     "description": "Open source high-performance in-memory data-grid."
-  },
-  {
-    "name": "Grape",
-    "url": "http://reverbrain.com/grape/",
-    "description": "Realtime processing pipeline."
   },
   {
     "name": "Hazelcast",
@@ -1128,6 +1188,11 @@
     "name": "Ignite",
     "url": "http://ignite.apache.org/",
     "description": "High-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets in real-time, orders of magnitude faster than possible with traditional disk-based or flash technologies."
+  },
+  {
+    "name": "Libp2p",
+    "url": "https://libp2p.io/",
+    "description": "A framework and suite of protocols for building peer-to-peer network applications."
   },
   {
     "name": "Marathon",
@@ -1166,7 +1231,7 @@
   },
   {
     "name": "Celery",
-    "url": "http://www.celeryproject.org",
+    "url": "https://github.com/celery/celery",
     "description": "Asynchronous task queue/job queue based on distributed message passing. Focused on real-time operation and supports scheduling."
   },
   {
@@ -1261,8 +1326,13 @@
   },
   {
     "name": "Beanstalk",
-    "url": "http://kr.github.io/beanstalkd/",
+    "url": "https://beanstalkd.github.io/",
     "description": "Simple, fast work queue."
+  },
+  {
+    "name": "Bull",
+    "url": "https://github.com/OptimalBits/bull",
+    "description": "Fast and reliable Redis-based queue for Node."
   },
   {
     "name": "Crossbar",
@@ -1308,6 +1378,11 @@
     "name": "Nanomsg",
     "url": "http://nanomsg.org/",
     "description": "Socket library that provides several common communication patterns for building distributed systems."
+  },
+  {
+    "name": "Nanomsg-NG",
+    "url": "https://nng.nanomsg.org/",
+    "description": "Lightweight brokerless messaging."
   },
   {
     "name": "NATS",
@@ -1465,6 +1540,11 @@
     "description": "Powerful future streams & asynchronous data structures for Java 8."
   },
   {
+    "name": "Awesome Chaos Engineering",
+    "url": "https://github.com/dastergon/awesome-chaos-engineering",
+    "description": "A curated list of awesome chaos engineering resources."
+  },
+  {
     "name": "Hystrix",
     "url": "https://github.com/Netflix/Hystrix",
     "description": "Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable."
@@ -1490,29 +1570,9 @@
     "description": "A smart HTTP client with super powers like fault tolerance, dynamic server discovery, auto balancing and reactive recovery, designed for distributed systems."
   },
   {
-    "name": "Saboteur",
-    "url": "https://github.com/tomakehurst/saboteur",
-    "description": "Causing deliberate network mayhem for better resilience."
-  },
-  {
-    "name": "Semian",
-    "url": "https://github.com/Shopify/semian",
-    "description": "Resiliency toolkit for Ruby for failing fast."
-  },
-  {
-    "name": "Simian Army",
-    "url": "https://github.com/Netflix/SimianArmy",
-    "description": "Suite of tools for keeping your cloud operating in top form. Chaos Monkey, the first member, is a resiliency tool that helps ensure that your applications can tolerate random instance failures."
-  },
-  {
-    "name": "Toxiproxy",
-    "url": "https://github.com/shopify/toxiproxy",
-    "description": "TCP proxy to simulate network and system conditions for chaos and resiliency testing."
-  },
-  {
-    "name": "Crtauth",
-    "url": "https://github.com/spotify/crtauth",
-    "description": "A public key backed client/server authentication system."
+    "name": "Databunker",
+    "url": "https://paranoidguy.com/",
+    "description": "Personally identifiable information (PII) storage service built to comply with GDPR."
   },
   {
     "name": "Dex",
@@ -1540,11 +1600,6 @@
     "description": "A fast, lightweight and cloud native OAuth 2.0 authorization microservices based on light-java."
   },
   {
-    "name": "Login With",
-    "url": "https://github.com/lipp/login-with",
-    "description": "Stateless login-with microservice for Google, FB, Github, and more."
-  },
-  {
     "name": "OAuth",
     "url": "http://oauth.net/2/",
     "description": "Provides specific authorization flows for web applications, desktop applications, mobile phones, and living room devices. Many implementations."
@@ -1555,9 +1610,9 @@
     "description": "Libraries, products, and tools implementing current OpenID specifications and related specs."
   },
   {
-    "name": "OSIAM",
-    "url": "https://github.com/osiam/osiam",
-    "description": "Open source identity and access management implementing OAuth 2.0 and SCIMv2."
+    "name": "ORY",
+    "url": "https://www.ory.sh/",
+    "description": "Open source identity infrastructure and services."
   },
   {
     "name": "SCIM",
@@ -1955,6 +2010,16 @@
     "description": "Hypertext Transfer Protocol Version 2."
   },
   {
+    "name": "QUIC-WG",
+    "url": "https://quicwg.org/",
+    "description": "IETF Working Group that is chartered to deliver the next transport protocol for the Internet."
+  },
+  {
+    "name": "QUIC-Transport",
+    "url": "https://tools.ietf.org/html/draft-ietf-quic-transport-27",
+    "description": "A UDP-based multiplexed and secure transport."
+  },
+  {
     "name": "RFC7252",
     "url": "http://coap.technology/spec.html",
     "description": "The Constrained Application Protocol (CoAP) is a specialized web transfer protocol for use with constrained nodes and constrained networks in the Internet of Things."
@@ -1983,6 +2048,16 @@
     "name": "STOMP",
     "url": "https://stomp.github.io/",
     "description": "Simple Text Oriented Messaging Protocol."
+  },
+  {
+    "name": "OIDCONN",
+    "url": "http://openid.net/connect/",
+    "description": "OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the end-user based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the end-user in an interoperable and REST-like manner."
+  },
+  {
+    "name": "PASETO",
+    "url": "https://paseto.io/",
+    "description": "Paseto is everything you love about JOSE (JWT, JWE, JWS) without any of the many design deficits that plague the JOSE standards. DRAFT"
   },
   {
     "name": "RFC5246",
@@ -2028,11 +2103,6 @@
     "name": "RFC7644",
     "url": "https://tools.ietf.org/html/rfc7644",
     "description": "SCIM: Protocol, an application-level, REST protocol for provisioning and managing identity data on the web."
-  },
-  {
-    "name": "OIDCONN",
-    "url": "http://openid.net/connect/",
-    "description": "OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the end-user based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the end-user in an interoperable and REST-like manner."
   },
   {
     "name": "HAL",
@@ -2115,8 +2185,19 @@
     "description": "UTF-8, a transformation format of ISO 10646."
   },
   {
-    "name": "A Journey into Microservices",
-    "url": "https://sudo.hailoapp.com/services/2015/03/09/journey-into-a-microservice-world-part-1/"
+    "name": "How Do Committees Invent? 🔸PDF",
+    "url": "http://www.melconway.com/Home/pdf/committees.pdf",
+    "description": "Melvin E. Conway, Datamation magazine 1968. The original article defining Conway's Law."
+  },
+  {
+    "name": "Service per Team",
+    "url": "https://microservices.io/patterns/decomposition/service-per-team.html",
+    "description": "Each team is responsible for one or more business functions (e.g. business capabilities). A team owns a code base consisting of one or more modules. Its code base is sized so as to not exceed the cognitive capacity of team. The team deploys its code as one or more services. A team should have exactly one service unless there is a proven need to have multiple services."
+  },
+  {
+    "name": "Start with Team Cognitive Load",
+    "url": "https://www.youtube.com/watch?v=haejb5rzKsM",
+    "description": "Team Topologies 🔺YT - DOES19 London. The \"monoliths vs microservices\" debate often focuses on technological aspects, ignoring strategy and team dynamics. Instead of technology, smart-thinking organizations are beginning with team cognitive load as the guiding principle for modern software. In this talk, we explain how and why, illustrated by real case studies."
   },
   {
     "name": "Clean microservice architecture",
@@ -2149,6 +2230,10 @@
   {
     "name": "Scaling microservices at Gilt with Scala, Docker and AWS",
     "url": "http://www.infoq.com/news/2015/04/scaling-microservices-gilt"
+  },
+  {
+    "name": "From a Monolithic Big Data System to a Microservices Event-Driven Architecture: Challenges and Lessons Learned",
+    "url": "https://www.researchgate.net/publication/341822188_From_a_Monolithic_Big_Data_System_to_a_Microservices_Event-Driven_Architecture"
   },
   {
     "name": "Commercetools ",
@@ -2198,7 +2283,7 @@
   {
     "name": "Building Microservices? Here is What You Should Know",
     "url": "https://cloudncode.blog/2016/07/22/msa-getting-started/",
-    "description": "A practical overview, based on real-world experience, of what one would need to know in order to build Microservices."
+    "description": "A practical overview, based on real-world experience, of what one would need to know in order to build microservices."
   },
   {
     "name": "CALM 🔸PDF",
@@ -2216,14 +2301,14 @@
     "description": " States that it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: Consistency, Availability and Partition tolerance."
   },
   {
-    "name": "Cloud Design Patterns",
-    "url": "https://msdn.microsoft.com/en-us/library/dn600223.aspx",
-    "description": "Contains twenty-four design patterns that are useful in cloud-hosted applications. Includes: Circuit Breaker, Competing Consumers, CQRS, Event Sourcing, Gatekeeper, Cache-Aside, etc."
-  },
-  {
     "name": "Formal Foundations of Serverless Computing 🔸PDF",
     "url": "https://arxiv.org/pdf/1902.05870.pdf",
     "description": "The serverless computing abstraction exposes several low-level operational details that make it hard for programmers to write and reason about their code. This paper sheds light on this problem by presenting λ, an operational semantics of the essence of serverless computing."
+  },
+  {
+    "name": "Introducing Domain-Oriented Microservice Architecture",
+    "url": "https://eng.uber.com/microservice-architecture/",
+    "description": "Introduction to Uber Engineering generalized approach to microservice architectures, named “Domain-Oriented Microservice Architecture” (DOMA)."
   },
   {
     "name": "Java Microservices: A Practical Guide",
@@ -2234,11 +2319,6 @@
     "name": "Microservice Architecture",
     "url": "http://martinfowler.com/articles/microservices.html",
     "description": "Particular way of designing software applications as suites of independently deployable services."
-  },
-  {
-    "name": "Microservices and SOA",
-    "url": "http://www.oracle.com/technetwork/issue-archive/2015/15-mar/o25architect-2458702.html",
-    "description": "Similarities, differences, and where we go from here."
   },
   {
     "name": "Microservices – Please, don’t",
@@ -2291,19 +2371,39 @@
     "description": "Describes three abstractions which combine to present a powerful programming model for building safe, modular, and efficient server software: Composable futures, services and filters."
   },
   {
+    "name": "Microservices",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8354433",
+    "description": "The Journey So Far and Challenges Ahead 🔸PDF - Overview of the state of microservices in both industrial and academia."
+  },
+  {
+    "name": "10 Tips For Failing Badly at Microservices 🔺YT",
+    "url": "https://www.youtube.com/watch?v=X0tjziAQfNQ",
+    "description": "A presentation at Voxxed Days by David Schmitz."
+  },
+  {
     "name": "Bla Bla Microservices Bla Bla",
     "url": "http://jonasboner.com/bla-bla-microservices-bla-bla/",
     "description": "A talk at the O’Reilly Software Architecture Conference, April 2016."
   },
   {
-    "name": "Challenges in Implementing MicroServices",
+    "name": "Challenges in Implementing MicroServices 🔺YT",
     "url": "https://www.youtube.com/watch?v=yPf5MfOZPY0",
     "description": "A presentation at GOTO 2015 by Fred George."
   },
   {
-    "name": "Microservices",
+    "name": "Mastering Chaos",
+    "url": "https://www.youtube.com/watch?v=CZ3wIuvmHeM",
+    "description": "A Netflix Guide to Microservices 🔺YT - A presentation at QCon 2016 by Josh Evans."
+  },
+  {
+    "name": "Microservices 🔺YT",
     "url": "https://www.youtube.com/watch?v=wgdBVIX9ifA",
     "description": "A presentation at GOTO Berlin 2014 by Martin Fowler."
+  },
+  {
+    "name": "Principles Of Microservices 🔺YT",
+    "url": "https://www.youtube.com/watch?v=PFQnNFe27kU",
+    "description": "A presentation at Devoxx Belgium by Sam Newman."
   },
   {
     "name": "Developing a RESTful Microservice in Python",
@@ -2314,11 +2414,6 @@
     "name": "Developing and Testing Microservices With Docker",
     "url": "http://mherman.org/blog/2017/04/18/developing-and-testing-microservices-with-docker",
     "description": "An example of the processes involved in creating a simple Docker-packaged Node microservice."
-  },
-  {
-    "name": "Game On!",
-    "url": "https://game-on.org/",
-    "description": "Microservices architecture explained in the context of an old-school text-based adventure game."
   },
   {
     "name": "Microservices without the Servers",
@@ -2438,59 +2533,24 @@
     "description": "Microservice mostly known antipatterns and pitfalls."
   },
   {
-    "name": "BigchainDB",
-    "url": "https://www.bigchaindb.com/",
-    "description": "The scalable blockchain database."
-  },
-  {
-    "name": "Blocknet",
-    "url": "http://blocknet.co/",
-    "description": "The Blocknet makes possible to deliver microservices over a blockchain-based P2P network architecture."
-  },
-  {
-    "name": "Blockstack",
-    "url": "https://blockstack.org/",
-    "description": "A new decentralized internet where users control their data and apps run on their devices."
-  },
-  {
-    "name": "CEPTR",
-    "url": "http://ceptr.org/",
-    "description": "A recomposable medium for distributed social computing, a semantic self-describing protocol stack, and a cretor of fractal coherence contexts for biomimetic computing."
-  },
-  {
-    "name": "Edgware Fabric",
-    "url": "http://edgware-fabric.org/",
-    "description": "Lightweight, agile service bus for systems at the edge of the network, in the physical world."
-  },
-  {
-    "name": "Hyperledger",
-    "url": "https://www.hyperledger.org/",
-    "description": "Open source collaborative effort created to advance cross-industry blockchain technologies. It is a global collaboration, hosted by The Linux Foundation, including leaders in finance, banking, IoT, supply chain, manufacturing and technology."
-  },
-  {
-    "name": "Luna",
-    "url": "http://www.luna-lang.org/",
+    "name": "Enso",
+    "url": "https://enso.org/",
     "description": "Visual and textual functional programming language with a focus on productivity, collaboration and development ergonomics."
   },
   {
-    "name": "MultiChain",
-    "url": "http://www.multichain.com/",
-    "description": "Open platform for building blockchains."
-  },
-  {
-    "name": "Node-RED",
-    "url": "http://nodered.org/",
-    "description": "Visual tool for wiring together hardware devices, APIs and online services in new and interesting ways."
+    "name": "Holochain",
+    "url": "https://holochain.org/",
+    "description": "A framework for distributed applications, allowing you to build apps without any network constraints. This means every user controls their own data, and it can't be sold or exposed to third parties."
   },
   {
     "name": "Ops",
-    "url": "https://ops.city",
+    "url": "https://ops.city/",
     "description": "Free open source tool to build, run and deploy existing linux applications as unikernels."
   },
   {
-    "name": "Pony",
-    "url": "http://www.ponylang.org/",
-    "description": "Open source, object-oriented, actor-model, capabilities-secure, high performance programming language."
+    "name": "SAFE Network",
+    "url": "https://safenetwork.tech/",
+    "description": "Powered by the spare capacity of everyday computers, SAFE replaces the vulnerable structure of the existing Web with a decentralised, autonomous network. One that is secure, and accessible to everyone."
   },
   {
     "name": "Solid",

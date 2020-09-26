@@ -65,6 +65,11 @@
     "description": ".NET core API Gateway"
   },
   {
+    "name": "CommandQuery",
+    "url": "https://github.com/hlaueriksson/CommandQuery",
+    "description": "Command Query Separation for ASP.NET Web API 2, ASP.NET Core, AWS Lambda and Azure Functions."
+  },
+  {
     "name": ".NET Boxed Framework",
     "url": "https://github.com/Dotnet-Boxed/Framework",
     "description": ".NET Core Extensions and Helper NuGet packages"
@@ -88,6 +93,11 @@
     "name": "Orleans",
     "url": "https://github.com/dotnet/orleans",
     "description": "Orleans is a framework that provides a straight-forward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns"
+  },
+  {
+    "name": "Newbe.Claptrap",
+    "url": "https://github.com/newbe36524/Newbe.Claptrap",
+    "description": "This is a set of server-side development frameworks with reactive, event sourcing and Actor pattern as basic theories. On top of this, developers can develop \"distributed\", \"scale out\", and \"easy to test\" application more simply."
   },
   {
     "name": "CoreFX",
@@ -173,6 +183,10 @@
     "name": "Nucleus",
     "url": "https://github.com/alirizaadiyahsi/Nucleus",
     "description": "Vue startup application template that uses ASP.NET Core API layered architecture at the back-end and JWT based authentication"
+  },
+  {
+    "name": "JHipster.NET JHipster blueprint for replace orginal SpringBoot Backend by asp.net core. The main goal generator of jhipster is showcases best practices of modern web development in java. So the goal of the project is to do the same in .net. The Frontend can be generated with angular or react and soon with blazor.",
+    "url": "https://github.com/jhipster/jhipster-dotnetcore"
   },
   {
     "name": "AIMLBot (Program#)",
@@ -291,8 +305,8 @@
   },
   {
     "name": "Microservices in .NET Core",
-    "url": "https://www.manning.com/books/microservices-in-net-core",
-    "description": "shows you how to build maintainable, secure and operations-friendly microservices using Nancy and .NET Core. [$]"
+    "url": "https://www.manning.com/books/microservices-in-net-core-second-edition",
+    "description": "A comprehensive guide to building microservice systems using the .NET stack. [$]"
   },
   {
     "name": "Dependency Injection in .NET 2nd edition",
@@ -331,7 +345,7 @@
   },
   {
     "name": "MSBuild",
-    "url": "https://github.com/Microsoft/msbuild",
+    "url": "https://github.com/dotnet/msbuild",
     "description": "The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio"
   },
   {
@@ -380,11 +394,6 @@
     "description": "A common interface and abstraction layer for caching."
   },
   {
-    "name": "CacheAdapter",
-    "url": "https://bitbucket.org/glav/cacheadapter",
-    "description": "Another common cache abstraction layer for caching with enhanced cache API usage."
-  },
-  {
     "name": "Foundatio",
     "url": "https://github.com/FoundatioFx/Foundatio#caching",
     "description": "A common interface with in memory, Redis and hybrid implementations."
@@ -393,6 +402,10 @@
     "name": "Cashew",
     "url": "https://github.com/joakimskoog/Cashew",
     "description": "a .NET library for caching responses easily with an HttpClient through an API that is simple and elegant yet powerful."
+  },
+  {
+    "name": "iCal.NET iCal.NET is an iCalendar (RFC 5545) class library for .NET aimed at providing RFC 5545 compliance, while providing full compatibility with popular calendaring applications and libraries.",
+    "url": "https://github.com/rianjs/ical.net"
   },
   {
     "name": "Appccelerate",
@@ -600,9 +613,9 @@
     "description": "Create, run and share your executable C# GitHub Gists."
   },
   {
-    "name": "TryRoslyn",
+    "name": "Sharplab",
     "url": "https://sharplab.io/",
-    "description": "Run C# code using different branches and versions of Roslyn."
+    "description": "Run C# code using different branches and versions of Roslyn, see the IL that was produced and examine the JIT's output."
   },
   {
     "name": "Bridge.NET",
@@ -940,9 +953,14 @@
     "description": "Used to build NuGet packages of your application for deployment using tools such as Octopus Deploy"
   },
   {
-    "name": "SharpDX",
-    "url": "https://github.com/sharpdx/SharpDX",
-    "description": "SharpDX is an open-source project delivering the full DirectX API for .NET on all Windows platforms, allowing the development of high performance game, 2D and 3D graphics rendering as well as real-time sound application."
+    "name": "yuniql",
+    "url": "https://github.com/rdagumampan/yuniql",
+    "description": "Free and open source schema versioning and migration tool made with .NET Core. Run migrations with plain SQL, arrange versions in ordinary folders and seed your data from CSV via stand-alone CLI (no CLR needed), Azure Pipelines, Docker or ASP.NET Core code. https://yuniql.io"
+  },
+  {
+    "name": "Vortice.Windows",
+    "url": "https://github.com/amerkoleci/Vortice.Windows",
+    "description": "Cross platform .NET standard libraries for DirectX, WIC, Direct2D1, XInput, XAudio and X3DAudio"
   },
   {
     "name": ".NEXT Raft",
@@ -1011,7 +1029,7 @@
   },
   {
     "name": "Swashbuckle",
-    "url": "https://github.com/domaindrivendev/Swashbuckle",
+    "url": "https://github.com/domaindrivendev/Swashbuckle.WebApi",
     "description": "Seamlessly adds a Swagger to Web API projects."
   },
   {
@@ -1145,6 +1163,16 @@
     "description": "A robust option type for C#"
   },
   {
+    "name": "JFlepp.Maybe",
+    "url": "https://github.com/jflepp/JFlepp.Maybe",
+    "description": "A Maybe type for C#, aimed as an idiomatic port of the option type in F# to C#"
+  },
+  {
+    "name": "Optuple",
+    "url": "https://github.com/atifaziz/Optuple",
+    "description": ".NET Standard Library for giving (bool, T) Option-like semantics in a non-obtrusive way; this is, there is no new option type dependency for a library or its users."
+  },
+  {
     "name": "MonoGame",
     "url": "https://github.com/MonoGame/MonoGame",
     "description": "One framework for creating powerful cross-platform games"
@@ -1160,9 +1188,9 @@
     "description": "Duality is a 2D game development framework. Focused on modularity, comes with a visual editor."
   },
   {
-    "name": "Xenko",
-    "url": "https://xenko.com/",
-    "description": "Xenko is a 2D/3D cross-platform game engine featuring a scene editor, particles, physically based rendering (PBR), scripting, and much more"
+    "name": "Stride Game Engine",
+    "url": "https://stride3d.net/",
+    "description": "Stride Game Engine is a 2D/3D cross-platform game engine featuring a scene editor, particles, physically based rendering (PBR), scripting, and much more"
   },
   {
     "name": "Wave Engine",
@@ -1183,6 +1211,16 @@
     "name": "BEPUphysics",
     "url": "https://github.com/bepu/bepuphysics2",
     "description": "BEPUphysics is a pure C# 3D physics library"
+  },
+  {
+    "name": "Devtodev",
+    "url": "https://github.com/devtodev-analytics/winstore-sdk",
+    "description": "A full-cycle analytics solution for game developers."
+  },
+  {
+    "name": "UnrealCLR",
+    "url": "https://github.com/nxrighthere/UnrealCLR",
+    "description": "Unreal Engine .NET Core integration"
   },
   {
     "name": "NetTopologySuite  A .NET GIS solution that is fast and reliable for the .NET platform",
@@ -1211,6 +1249,11 @@
     "name": "CoordinateSharp",
     "url": "https://github.com/Tronald/CoordinateSharp",
     "description": "Easily parse or convert coordinate formats and calculate location based solar/lunar information."
+  },
+  {
+    "name": "DEM Net Elevation API",
+    "url": "https://github.com/dem-net/dem.net",
+    "description": ".Net library for Digital Elevation Models, allows 3D terrain generation in glTF / STL format."
   },
   {
     "name": "Bonobo Git Server",
@@ -1298,14 +1341,29 @@
     "description": "A cross-platform .NET Standard wrapper for the Open Asset Importer (\"Assimp\"). The library enables importing, processing, and exporting of 3D models for rendering in graphics/game applications. Over 40 formats are supported for importing (e.g. OBJ, FBX, GLTF, 3DS, Collada) and a subset of those formats can be exported to (e.g. OBJ, GLTF, 3DS, Collada). Mesh processing features allow for mesh data to be generated or optimized for real-time rendering."
   },
   {
+    "name": "Silk.NET",
+    "url": "https://github.com/Ultz/Silk.NET",
+    "description": "A cross-platform, high-performance, low-level .NET Standard wrapper for many advanced APIs such as OpenGL, OpenCL, OpenAL, OpenXR, Assimp, GLFW, as well as many others. In addition to wrapping over Native APIs, it also comes with its own Windowing and Input abstraction. This makes game and application development with Silk.NET a breeze, and has pretty much everything a 3D application developer would need."
+  },
+  {
     "name": "Veldrid",
     "url": "https://github.com/mellinoe/veldrid",
     "description": "A low-level, portable graphics and compute library for .NET"
   },
   {
+    "name": "RealTimeGraphX",
+    "url": "https://github.com/royben/RealTimeGraphX",
+    "description": "RealTimeGraphX is a data type agnostic, high performance plotting library for WPF, UWP and soon, Xamarin Forms."
+  },
+  {
     "name": "HandyControl",
     "url": "https://github.com/HandyOrg/HandyControl",
     "description": "Contains some simple and commonly used WPF controls"
+  },
+  {
+    "name": "Lara",
+    "url": "https://github.com/integrativesoft/lara",
+    "description": "Lara Web Engine is a library for developing Web user interfaces in C#"
   },
   {
     "name": "QtSharp",
@@ -1394,7 +1452,7 @@
   },
   {
     "name": "Empty Keys UI",
-    "url": "http://emptykeys.com/ui_library",
+    "url": "https://www.emptykeys.com/ui_library/",
     "description": "Multi-platform and multi-engine XAML based user interface library [Free][Proprietary]"
   },
   {
@@ -1461,11 +1519,6 @@
     "name": "ExCSS",
     "url": "https://github.com/TylerBrinks/ExCSS",
     "description": "CSS3 parser library for C#"
-  },
-  {
-    "name": "FluentBootstrap",
-    "url": "http://fluentbootstrap.com",
-    "description": "Makes the Bootstrap CSS framework easier to use from ASP.NET MVC or WebPages."
   },
   {
     "name": "HtmlAgilityPack",
@@ -1643,8 +1696,13 @@
     "description": "Open source .NET library for working with color spaces."
   },
   {
+    "name": "Imgix-CSharp",
+    "url": "https://docs.imgix.com/libraries/imgix-csharp",
+    "description": "Easily update image urls to be fast and responsive. [$]"
+  },
+  {
     "name": "Wix Toolset",
-    "url": "http://wixtoolset.org/",
+    "url": "https://wixtoolset.org/",
     "description": "The most powerful set of tools available to create your Windows installation experience"
   },
   {
@@ -1679,7 +1737,7 @@
   },
   {
     "name": "ResX Resource Manager",
-    "url": "https://github.com/tom-englert/ResXResourceManager",
+    "url": "https://github.com/dotnet/ResXResourceManager",
     "description": "The most popular free tool to localize all kind of applications with resx-based resources."
   },
   {
@@ -1709,7 +1767,7 @@
   },
   {
     "name": "pinvoke",
-    "url": "https://github.com/AArnott/pinvoke",
+    "url": "https://github.com/dotnet/pinvoke",
     "description": "A library containing P/Invoke code for latest Windows OS."
   },
   {
@@ -1848,6 +1906,11 @@
     "description": "The Apache log4net library is a tool to help the programmer output log statements to a variety of output targets"
   },
   {
+    "name": "Rollbar.NET",
+    "url": "https://github.com/rollbar/Rollbar.NET",
+    "description": "Simplifies real-time remote error monitoring while using Rollbar.com. Open-source Rollbar Notifier SDK for any .NET-based technology stack. The SDK that can be used in any application built on the following .NET versions: .NET Core 2.0+, .NET Standard 2.0+, .NET Full Framework 4.5.1+, Mono, Xamarin, and, in general, any implementation of the .NET Standard 2.0+. It simplifies building data payloads based on exception data, tracing data, informational messages, and telemetry data and sends the payloads to the Rollbar API for remote monitoring and analysis of the hosting application's behavior."
+  },
+  {
     "name": "Sentry",
     "url": "https://github.com/getsentry/sentry-dotnet",
     "description": ".NET SDK for Sentry Open-source error tracking that helps developers monitor and fix crashes in real time.."
@@ -1958,7 +2021,7 @@
   },
   {
     "name": "SciSharp STACK",
-    "url": "https://scisharp.github.io/SciSharp",
+    "url": "https://scisharp.github.io/SciSharp/",
     "description": "A rich machine learning ecosystem for .NET created by porting the most popular Python libraries to C#."
   },
   {
@@ -2047,6 +2110,11 @@
     "description": "Implementation of rational number arithmetic for .NET with arbitrary precision."
   },
   {
+    "name": "MKL.NET",
+    "url": "https://github.com/AnthonyLloyd/MKL.NET",
+    "description": "A simple cross platform .NET API for Intel MKL."
+  },
+  {
     "name": "CSCore",
     "url": "https://github.com/filoe/cscore",
     "description": "An advanced audio library, supporting playback/recording, decoding/encoding and processing of audio data in realtime (effects, visualizations, ...)."
@@ -2108,7 +2176,7 @@
   },
   {
     "name": "CSScript",
-    "url": "http://www.csscript.net/",
+    "url": "https://www.cs-script.net/",
     "description": "CS-Script is a CLR based scripting system which uses C# as a programming language. CS-Script currently targets Microsoft implementation of CLR (.NET 2.0/3.0/3.5/4.0/4.5) with full support on Mono. Comes with many additional features, such as script hosting."
   },
   {
@@ -2137,6 +2205,11 @@
     "description": "A small validation library for .NET that uses a fluent interface and lambda expressions for building validation rules."
   },
   {
+    "name": "FormHelper",
+    "url": "https://github.com/SinanBozkus/FormHelper",
+    "description": "Form & Validation Helper for ASP.NET Core. Form Helper helps you to create ajax forms and validations without writing any javascript code. (Compatible with Fluent Validation)"
+  },
+  {
     "name": "Guard",
     "url": "https://github.com/safakgur/guard",
     "description": "A high-performance, extensible argument validation library."
@@ -2163,8 +2236,8 @@
   },
   {
     "name": "Rant",
-    "url": "https://github.com/TheBerkin/Rant",
-    "description": "The Rant Procedural Text Generation DSL https://berkin.me/rant/"
+    "url": "https://github.com/TheBerkin/rant3",
+    "description": "The Rant Procedural Text Generation DSL"
   },
   {
     "name": "ScriptCS",
@@ -2272,7 +2345,7 @@
   },
   {
     "name": "UpdateControls",
-    "url": "http://updatecontrols.net/cs/",
+    "url": "https://updatecontrols.net/cs/",
     "description": "Update Controls does not require that you implement INotifyPropertyChanged or declare a DependencyProperty. It connects controls directly to CLR properties. This makes it perfect for the Model/View/ViewModel pattern."
   },
   {
@@ -2411,6 +2484,11 @@
     "description": "Object-relational mapper that enables .NET developers to work with relational data using domain-specific objects"
   },
   {
+    "name": "EntityFramework.Exceptions",
+    "url": "https://github.com/Giorgi/EntityFramework.Exceptions",
+    "description": "Use typed Exceptions for Entity Framework Core when your SQL query violates database constraints in SqlServer, MySql, PostgreSQL or SQLite"
+  },
+  {
     "name": "Dapper",
     "url": "https://github.com/StackExchange/Dapper",
     "description": "A simple object mapper for .NET by StackExchange"
@@ -2432,7 +2510,7 @@
   },
   {
     "name": "Fluent NHibernate",
-    "url": "https://github.com/FluentNHibernate/fluent-nhibernate",
+    "url": "https://github.com/nhibernate/fluent-nhibernate",
     "description": "Fluent, XML-less, compile safe, automated, convention-based mappings for NHibernate."
   },
   {
@@ -2496,7 +2574,7 @@
   },
   {
     "name": "SmartSql",
-    "url": "https://github.com/Smart-Kit/SmartSql",
+    "url": "https://github.com/dotnetcore/SmartSql",
     "description": "SmartSql = MyBatis + Cache（Memory | Redis）+ ZooKeeper + R / W Splitting + Dynamic Repository ...."
   },
   {
@@ -2516,7 +2594,7 @@
   },
   {
     "name": "Cloudsmith",
-    "url": "https://cloudsmith.io/l/nuget-feed/",
+    "url": "https://cloudsmith.com/nuget-feed/",
     "description": "A fully managed package management SaaS, with support for NuGet, Npm, Docker and much more. [Free for Public/OSS] [$]"
   },
   {
@@ -2535,9 +2613,19 @@
     "description": "A NuGet v3 static feed generator with support for AWS S3 and Azure Storage"
   },
   {
+    "name": "Cloudmersive PDF",
+    "url": "https://cloudmersive.com/pdf-api",
+    "description": "Cloudmersive PDF is a native .NET Framework and .NET Core NuGet library and API service that can create, modify, encrypt or convert PDF documents at high scale and fidelity; and is free to use with no expiration [Free]"
+  },
+  {
+    "name": "Docotic.Pdf",
+    "url": "https://bitmiracle.com/pdf-library/",
+    "description": "PDF library to create, read, edit, draw, and print PDF documents in .NET and .NET Core applications. 100% managed, without unsafe blocks. [$] [Free for OSS]"
+  },
+  {
     "name": "ITextSharp",
     "url": "https://github.com/itext/itextsharp",
-    "description": "iText is a PDF library that allows you to CREATE, ADAPT, INSPECT and MAINTAIN documents in the Portable Document Format (PDF)[$]****[Free for OSS]"
+    "description": "iText is a PDF library that allows you to CREATE, ADAPT, INSPECT and MAINTAIN documents in the Portable Document Format (PDF)[$] [Free for OSS]"
   },
   {
     "name": "PdfiumViewer",
@@ -2551,7 +2639,7 @@
   },
   {
     "name": "Pdfium.Net SDK",
-    "url": "https://pdfium.patagames.com/c-pdf-library/",
+    "url": "https://pdfium.patagames.com/",
     "description": "Advanced C# PDF library for render, create, edit, merge, split, print, and view PDFs. Open source PDF Viewer is available on GitHub. A NuGet package is also available for easy inclusion into your projects.[$]"
   },
   {
@@ -2588,6 +2676,11 @@
     "name": "DNS",
     "url": "https://github.com/kapetan/dns",
     "description": "A library for parsing and serializing DNS messages. Includes a basic DNS client and server."
+  },
+  {
+    "name": "DnsClient.NET",
+    "url": "https://github.com/MichaCo/DnsClient.NET",
+    "description": "A simple yet very powerful and high performant open source library for the .NET Framework to do DNS lookups."
   },
   {
     "name": "PushSharp",
@@ -2686,8 +2779,13 @@
   },
   {
     "name": "Dynamic Data",
-    "url": "https://github.com/RolandPheasant/DynamicData",
+    "url": "https://github.com/reactivemarbles/DynamicData",
     "description": "Reactive Extensions (Rx) for collections"
+  },
+  {
+    "name": "SIPSorcery",
+    "url": "https://github.com/sipsorcery/sipsorcery",
+    "description": "A cross platform C# .NET library supporting SIP, VoIP and WebRTC."
   },
   {
     "name": "FluentScheduler",
@@ -2787,11 +2885,11 @@
   {
     "name": "Ceras",
     "url": "https://github.com/rikimaru0345/Ceras",
-    "description": "Very fast binary serializer for .NET/Core/Unity; huge set of features, can be used for easy networking, handles circular references, polymorphism, ..."
+    "description": "Ceras is a binary serializer. It converts any object into a byte[] and back. It goes above and beyond in terms of features, speed, and comfort. Supports reference loops, large/complicated inheritance chains, splitting objects into parts and more."
   },
   {
     "name": "Protobuf.NET",
-    "url": "https://github.com/mgravell/protobuf-net",
+    "url": "https://github.com/protobuf-net/protobuf-net",
     "description": "Protocol buffers is the name of the binary serialization format used by Google for much of their data communications"
   },
   {
@@ -2816,7 +2914,7 @@
   },
   {
     "name": "ProtoBuf",
-    "url": "https://github.com/hultqvist/ProtoBuf",
+    "url": "https://github.com/SilentOrbit/protobuf",
     "description": "Generate C# code for protocol buffer serialization from a .proto specification."
   },
   {
@@ -2905,6 +3003,11 @@
     "description": "Automatically add strong names to referenced assemblies which do not already have a strong name. This will allow you to reference and use (NuGet packages with) assemblies which are not strong named from your projects that do use a strong name."
   },
   {
+    "name": ".NET Assembly Strong-Name Signer",
+    "url": "https://github.com/brutaldev/StrongNameSigner",
+    "description": "Utility software to strong-name sign .NET assemblies, including assemblies you do not have the source code for."
+  },
+  {
     "name": "C# Style Guide",
     "url": "https://stackoverflow.com/questions/4678178/style-guide-for-c",
     "description": "StackOverflow Q & A on style guides"
@@ -2948,6 +3051,11 @@
     "name": "Mustache Sharp",
     "url": "https://github.com/jehugaleahsa/mustache-sharp",
     "description": "An extension of the mustache text template engine for .NET."
+  },
+  {
+    "name": "Scriban",
+    "url": "https://github.com/lunet-io/scriban",
+    "description": "A fast, powerful, safe and lightweight text templating language and engine for .NET"
   },
   {
     "name": "AutoFixture",
@@ -3041,7 +3149,7 @@
   },
   {
     "name": "SpecFlow",
-    "url": "https://github.com/techtalk/SpecFlow/",
+    "url": "https://github.com/SpecFlowOSS/SpecFlow",
     "description": "Binding business requirements to .Net code"
   },
   {
@@ -3057,7 +3165,7 @@
   {
     "name": "xUnit.net",
     "url": "https://github.com/xunit/xunit",
-    "description": "A free, open source, community-focused unit testing tool for the .NET Framework. https://xunit.github.io/"
+    "description": "A free, open source, community-focused unit testing tool for the .NET Framework."
   },
   {
     "name": "Canopy",
@@ -3071,7 +3179,7 @@
   },
   {
     "name": "ReportPortal",
-    "url": "http://reportportal.io",
+    "url": "https://reportportal.io",
     "description": "AI-powered Test Automation Dashboard. Acquire, aggregate and analyze test reports to ascertain release health."
   },
   {
@@ -3081,7 +3189,7 @@
   },
   {
     "name": "Verify",
-    "url": "https://github.com/SimonCropp/Verify",
+    "url": "https://github.com/VerifyTests/Verify",
     "description": "Verification tool to enable simple approval of complex models and documents."
   },
   {
@@ -3092,7 +3200,7 @@
   {
     "name": "Open Live Writer",
     "url": "https://github.com/OpenLiveWriter/OpenLiveWriter",
-    "description": "Blog writer which integrated with WordPress, Blogger, et. al. Open Live Writer makes it easy to write, preview, and post to your blog. For more information see http://openlivewriter.org ."
+    "description": "Blog writer which integrated with WordPress, Blogger, et. al. Open Live Writer makes it easy to write, preview, and post to your blog."
   },
   {
     "name": "CodeHub",
@@ -3131,7 +3239,7 @@
   },
   {
     "name": "Papercut",
-    "url": "https://github.com/ChangemakerStudios/Papercut",
+    "url": "https://github.com/ChangemakerStudios/Papercut-SMTP",
     "description": "Papercut is an open source (.NET based) test email viewer that runs locally with a built-in SMTP server designed to receive and notify of test email messages."
   },
   {
@@ -3151,7 +3259,7 @@
   },
   {
     "name": "SmartCode",
-    "url": "https://github.com/Smart-Kit/SmartCode",
+    "url": "https://github.com/dotnetcore/SmartCode",
     "description": "SmartCode = IDataSource -> IBuildTask -> IOutput => Build Everything!!! (Including [Code generator])"
   },
   {
@@ -3163,6 +3271,11 @@
     "name": "AnyStatus",
     "url": "https://www.anystat.us",
     "description": "A desktop notifications app for monitoring CI/CD pipelines, servers, network, health and metrics. AnyStatus supports Azure DevOps, Jenkins, TeamCity, AppVeyor and more."
+  },
+  {
+    "name": "OctoLinker",
+    "url": "https://github.com/OctoLinker/OctoLinker",
+    "description": "Navigate through project.json, packages.config, *.props, *.targets, and C#/F#/VB.NET project files efficiently with the OctoLinker browser extension for GitHub."
   },
   {
     "name": "Lean",
@@ -3186,17 +3299,27 @@
   },
   {
     "name": "FlaUI",
-    "url": "https://github.com/Roemer/FlaUI",
+    "url": "https://github.com/FlaUI/FlaUI",
     "description": "FlaUI is a .NET library which helps with automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps, ...)."
   },
   {
+    "name": "PuppeteerSharp",
+    "url": "https://github.com/hardkoded/puppeteer-sharp",
+    "description": "Puppeteer Sharp is a .NET port of the official Node.JS Puppeteer API."
+  },
+  {
+    "name": "PuppeteerSharp.Contrib",
+    "url": "https://github.com/hlaueriksson/puppeteer-sharp-contrib",
+    "description": "Contributions to Puppeteer Sharp that provides a convenient way to write readable and robust browser tests."
+  },
+  {
     "name": "Web Essentials",
-    "url": "https://github.com/madskristensen/WebEssentials2013",
+    "url": "https://github.com/madskristensen/WebEssentials2019",
     "description": "Web Essentials extends Visual Studio with lots of new features that web developers have been missing for many years"
   },
   {
     "name": "VsVIM",
-    "url": "https://github.com/jaredpar/VsVim",
+    "url": "https://github.com/VsVim/VsVim",
     "description": "VIM in Visual Studio"
   },
   {
@@ -3207,7 +3330,7 @@
   {
     "name": "SideWaffle",
     "url": "https://github.com/ligershark/side-waffle",
-    "description": "A collection of Item Templates for Visual Studio 2012/2013 that makes any web developer's life much easier"
+    "description": "A collection of Item Templates for Visual Studio 2012/2013/2015 that makes any web developer's life much easier"
   },
   {
     "name": "Resharper",
@@ -3240,11 +3363,6 @@
     "description": "Color highlighting for Build, Find and Debug output windows. Custom match patterns and colors can be added."
   },
   {
-    "name": "Developer Assistant",
-    "url": "https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.DeveloperAssistant",
-    "description": "Developer Assistant for Visual Studio enables developers to find and reuse over 21 million code snippets and code sample projects from within the Visual Studio IDE."
-  },
-  {
     "name": "CodeLineage",
     "url": "https://marketplace.visualstudio.com/items?itemName=HippoCampSoftwareLtd.CodeLineage",
     "description": "Easy access to a cumulative diff view between file revisions (supports svn, git, mercurial, perforce)."
@@ -3267,7 +3385,7 @@
   {
     "name": "Unchase.OpenAPI.Connectedservice",
     "url": "https://github.com/unchase/Unchase.OpenAPI.Connectedservice",
-    "description": "A Visual Studio 2017/2019 extension to generate C# (TypeScript) HttpClient (or C# Controllers) code for OpenAPI (formerly Swagger API) web service with NSwag."
+    "description": "A Visual Studio 2017/2019 extension to generate C# (TypeScript) HttpClient (or C# Controllers) code for OpenAPI web service with NSwag."
   },
   {
     "name": "CefSharp",
@@ -3418,6 +3536,11 @@
     "name": "Superpower",
     "url": "https://github.com/datalust/superpower",
     "description": "A C# parser construction toolkit with high-quality error reporting"
+  },
+  {
+    "name": "CSLY",
+    "url": "https://github.com/b3b00/CSLY",
+    "description": "A light embedded C# lexer/parser generator."
   },
   {
     "name": ".NET-libraries-that-make-your-life-easier",

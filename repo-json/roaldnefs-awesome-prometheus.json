@@ -20,6 +20,11 @@
     "description": "Official Prometheus blog."
   },
   {
+    "name": "Official Prometheus demo",
+    "url": "https://demo.do.prometheus.io",
+    "description": "Official Prometheus demo site managed by Cloud Alchemy Ansible roles updating daily using configuration from Prometheus repository."
+  },
+  {
     "name": "How To Install Prometheus using Docker on CentOS 7",
     "url": "https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-using-docker-on-centos-7",
     "description": "Walkthough on how to install Prometheus on CentOS 7."
@@ -78,6 +83,11 @@
     "name": "Prometheus Monitoring Tutorial (10 minutes)",
     "url": "https://pagertree.com/2017/12/01/prometheus-tutorial/",
     "description": "Simple tutorial to create a Prometheus monitoring stack with Grafana, AlertManager, and PagerTree by Austin Miller."
+  },
+  {
+    "name": "Prometheus-Basics",
+    "url": "https://github.com/yolossn/Prometheus-Basics",
+    "description": "Beginner friendly introduction to Prometheus by yolossn."
   },
   {
     "name": "Monitoring with Prometheus",
@@ -295,6 +305,36 @@
     "description": "Prometheus storage: technical terms for humans by Aliaksandr Valialkin."
   },
   {
+    "name": "Alerting issues with Alertmanager",
+    "url": "https://ali.sattari.me/posts/2020/alerting-issues-with-alertmanager/",
+    "description": "Addressing alert flapping and duplicates in Alertmanager by Ali Sattari."
+  },
+  {
+    "name": "Ansitheus",
+    "url": "https://github.com/ntk148v/ansitheus",
+    "description": "Ansible playbook to containerize, configure and deploy Prometheus ecosystem by ntk148v."
+  },
+  {
+    "name": "Cloud Alchemy Ansible roles",
+    "url": "https://github.com/cloudalchemy",
+    "description": "Ansible roles to manage Prometheus, Alertmanager, Grafana, and commond Prometheus exporters."
+  },
+  {
+    "name": "Ansible-prometheus",
+    "url": "https://github.com/ernestas-poskus/ansible-prometheus",
+    "description": "Ansible playbook for installing Prometheus monitoring system, exporters such as: node, snmp, blackbox, thus alert manager and push gateway by Ernestas Poskus."
+  },
+  {
+    "name": "Click-to-deploy Prometheus",
+    "url": "https://github.com/GoogleCloudPlatform/click-to-deploy/tree/master/k8s/prometheus",
+    "description": "Source for Google Click to Deploy Prometheus solutions listed on Google Cloud Marketplace by GoogleCloudPlatform."
+  },
+  {
+    "name": "Prometheus Operator",
+    "url": "https://github.com/coreos/prometheus-operator",
+    "description": "Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes by CoreOS."
+  },
+  {
     "name": "Grafana",
     "url": "https://prometheus.io/docs/visualization/grafana/",
     "description": "Grafana is an open source metric analytics & visualization suite tutorial by Prometheus."
@@ -338,6 +378,16 @@
     "name": "Elasticsearch Exporter",
     "url": "https://github.com/justwatchcom/elasticsearch_exporter",
     "description": "The ElasticSearch exporter periodically scrapes ElasticSearch server stats."
+  },
+  {
+    "name": "MongoDB Exporter",
+    "url": "https://github.com/percona/mongodb_exporter",
+    "description": "The MongoDB exporter periodically scrapes MongoDB server stats."
+  },
+  {
+    "name": "Monitoring mixins",
+    "url": "https://monitoring.mixins.dev",
+    "description": "Community managed bundles of alerts, recording rules, and Grafana dashboards."
   },
   {
     "name": "Awesome Prometheus Alerting Rules",
@@ -388,10 +438,5 @@
     "name": "PromCon",
     "url": "https://promcon.io/",
     "description": "The Prometheus conference."
-  },
-  {
-    "name": "Prometheus demo site",
-    "url": "http://demo.cloudalchemy.org:9090",
-    "description": "Prometheus site managed with ansible running every day using playbook from cloudalchemy repository."
   }
 ]

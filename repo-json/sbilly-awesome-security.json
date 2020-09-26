@@ -60,6 +60,21 @@
     "description": "Fast subdomains enumeration tool for penetration testers"
   },
   {
+    "name": "RustScan",
+    "url": "https://github.com/RustScan/RustScan",
+    "description": "Faster Nmap scanning with Rust. Take a 17 minute Nmap scan down to 19 seconds."
+  },
+  {
+    "name": "Boofuzz",
+    "url": "https://github.com/jtpereyda/boofuzz",
+    "description": "Fuzzing engine and fuzz testing framework."
+  },
+  {
+    "name": "monsoon",
+    "url": "https://github.com/RedTeamPentesting/monsoon",
+    "description": "Very flexible and fast interactive HTTP enumeration/fuzzing."
+  },
+  {
     "name": "justniffer",
     "url": "http://justniffer.sourceforge.net/",
     "description": "Justniffer is a network protocol analyzer that captures network traffic and produces logs in a customized way, can emulate Apache web server log files, track response times and extract all \"intercepted\" files from the HTTP traffic."
@@ -340,6 +355,16 @@
     "description": "Protects ports via Single Packet Authorization in your firewall."
   },
   {
+    "name": "Spam Scanner",
+    "url": "https://github.com/spamscanner",
+    "description": "Anti-Spam Scanning Service and Anti-Spam API by @niftylettuce."
+  },
+  {
+    "name": "rspamd",
+    "url": "https://github.com/rspamd/rspamd",
+    "description": "Fast, free and open-source spam filtering system."
+  },
+  {
     "name": "SpamAssassin",
     "url": "https://spamassassin.apache.org/",
     "description": "A powerful and popular email spam filter employing a variety of detection technique."
@@ -355,6 +380,11 @@
     "description": "Simple Indicators of Compromise and Incident Response Scanner"
   },
   {
+    "name": "rkhunter",
+    "url": "http://rkhunter.sourceforge.net/",
+    "description": "A Rootkit Hunter for Linux"
+  },
+  {
     "name": "DocBleach",
     "url": "https://github.com/docbleach/DocBleach",
     "description": "An open-source Content Disarm & Reconstruct software sanitizing Office, PDF and RTF Documents."
@@ -368,6 +398,11 @@
     "name": "google-authenticator",
     "url": "https://github.com/google/google-authenticator",
     "description": "The Google Authenticator project includes implementations of one-time passcode generators for several mobile platforms, as well as a pluggable authentication module (PAM). One-time passcodes are generated using open standards developed by the Initiative for Open Authentication (OATH) (which is unrelated to OAuth). These implementations support the HMAC-Based One-time Password (HOTP) algorithm specified in RFC 4226 and the Time-based One-time Password (TOTP) algorithm specified in RFC 6238. Tutorials: How to set up two-factor authentication for SSH login on Linux"
+  },
+  {
+    "name": "Stegcloak",
+    "url": "https://github.com/kurolabs/stegcloak",
+    "description": "Securely assign Digital Authenticity to any written text"
   },
   {
     "name": "android-security-awesome",
@@ -425,6 +460,26 @@
     "description": "An Obfuscation-Neglect Android Malware Scoring System."
   },
   {
+    "name": "dotPeek",
+    "url": "https://www.jetbrains.com/decompiler/",
+    "description": "Free-of-charge standalone tool based on ReSharper's bundled decompiler."
+  },
+  {
+    "name": "hardened_malloc",
+    "url": "https://github.com/GrapheneOS/hardened_malloc",
+    "description": "Hardened allocator designed for modern systems. It has integration into Android's Bionic libc and can be used externally with musl and glibc as a dynamic library for use on other Linux-based platforms. It will gain more portability / integration over time."
+  },
+  {
+    "name": "AMExtractor",
+    "url": "https://github.com/ir193/AMExtractor",
+    "description": "AMExtractor can dump out the physical content of your Android device even without kernel source code."
+  },
+  {
+    "name": "frida",
+    "url": "https://github.com/frida/frida",
+    "description": "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers."
+  },
+  {
     "name": "grr",
     "url": "https://github.com/google/grr",
     "description": "GRR Rapid Response is an incident response framework focused on remote live forensics."
@@ -453,6 +508,16 @@
     "name": "Meerkat",
     "url": "https://github.com/TonyPhipps/Meerkat",
     "description": "PowerShell-based Windows artifact collection for threat hunting and incident response."
+  },
+  {
+    "name": "Rekall",
+    "url": "https://github.com/google/rekall",
+    "description": "The Rekall Framework is a completely open collection of tools, implemented in Python under the Apache and GNU General Public License, for the extraction and analysis of digital artifacts computer systems."
+  },
+  {
+    "name": "LiME",
+    "url": "https://github.com/504ensicsLabs/LiME.git",
+    "description": "Linux Memory Extractor"
   },
   {
     "name": "abuse.ch",
@@ -624,6 +689,16 @@
     "description": "padding-oracle-attacker is a CLI tool and library to execute padding oracle attacks (which decrypts data encrypted in CBC mode) easily, with support for concurrent network requests and an elegant UI."
   },
   {
+    "name": "is-website-vulnerable",
+    "url": "https://github.com/lirantal/is-website-vulnerable",
+    "description": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries."
+  },
+  {
+    "name": "PhpSploit",
+    "url": "https://github.com/nil0x42/phpsploit",
+    "description": "Full-featured C2 framework which silently persists on webserver via evil PHP oneliner. Built for stealth persistence, with many privilege-escalation & post-exploitation features."
+  },
+  {
     "name": "Sqreen",
     "url": "https://www.sqreen.io/",
     "description": "Sqreen is a Runtime Application Self-Protection (RASP) solution for software teams. An in-app agent instruments and monitors the app. Suspicious user activities are reported and attacks are blocked at runtime without code modification or traffic redirection."
@@ -642,11 +717,6 @@
     "name": "Secure by Design",
     "url": "https://www.manning.com/books/secure-by-design?a_aid=danbjson&a_bid=0b3fac80",
     "description": "Book that identifies design patterns and coding styles that make lots of security vulnerabilities less likely. (early access, published continuously, final release fall 2017)"
-  },
-  {
-    "name": "Securing DevOps",
-    "url": "https://www.manning.com/books/securing-devops",
-    "description": "Book that explores how the techniques of DevOps and Security should be applied together to make cloud services safer. (early access, published continuously, final release January 2018)"
   },
   {
     "name": "Understanding API Security",
@@ -672,6 +742,16 @@
     "name": "Checkov",
     "url": "https://github.com/bridgecrewio/checkov/",
     "description": "A static analysis tool for infrastucture as code (Terraform)."
+  },
+  {
+    "name": "Insider CLI",
+    "url": "https://github.com/insidersec/insider",
+    "description": "A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js)."
+  },
+  {
+    "name": "Redcloud",
+    "url": "https://github.com/khast3x/Redcloud",
+    "description": "A automated Red Team Infrastructure deployement using Docker."
   },
   {
     "name": "Usable Security Course",
@@ -715,8 +795,23 @@
   },
   {
     "name": "Securing DevOps",
-    "url": "https://manning.com/books/securing-devops?a_aid=securingdevops&a_bid=1353bcd8",
+    "url": "https://manning.com/books/securing-devops",
     "description": "A book on Security techniques for DevOps that reviews state of the art practices used in securing web applications and their infrastructure."
+  },
+  {
+    "name": "ansible-os-hardening",
+    "url": "https://github.com/dev-sec/ansible-os-hardening",
+    "description": "Ansible role for OS hardening"
+  },
+  {
+    "name": "Qubes OS",
+    "url": "https://www.qubes-os.org/",
+    "description": "Qubes OS is a free and open-source security-oriented operating system meant for single-user desktop computing."
+  },
+  {
+    "name": "Whonix",
+    "url": "https://www.whonix.org",
+    "description": "Operating System designed for anonymity."
   },
   {
     "name": "Security related Operating Systems @ Rawsec",
@@ -732,6 +827,16 @@
     "name": "Security @ Distrowatch",
     "url": "http://distrowatch.com/search.php?category=Security",
     "description": "Website dedicated to talking about, reviewing and keeping up to date with open source operating systems"
+  },
+  {
+    "name": "Hardening Windows 10",
+    "url": "https://www.hardenwindows10forsecurity.com/",
+    "description": "Guide for hardening Windows 10"
+  },
+  {
+    "name": "acra",
+    "url": "https://github.com/cossacklabs/acra",
+    "description": "Database security suite: proxy for data protection with transparent \"on the fly\" data encryption, data masking and tokenization, SQL firewall (SQL injections prevention), intrusion detection system."
   },
   {
     "name": "blackbox",
@@ -889,6 +994,16 @@
     "description": "This list is for anyone wishing to learn about web application security but do not have a starting point."
   },
   {
+    "name": "Awesome Hacking",
+    "url": "https://github.com/carpedm20/awesome-hacking",
+    "description": "A curated list of awesome Hacking tutorials, tools and resources"
+  },
+  {
+    "name": "Awesome Electron.js Hacking",
+    "url": "https://github.com/doyensec/awesome-electronjs-hacking",
+    "description": "A curated list of awesome resources about Electron.js (in)security"
+  },
+  {
     "name": "Awesome Threat Intelligence",
     "url": "https://github.com/hslatman/awesome-threat-intelligence",
     "description": "A curated list of threat intelligence resources."
@@ -932,6 +1047,11 @@
     "name": "Awesome Shodan Search Queries",
     "url": "https://github.com/jakejarvis/awesome-shodan-queries",
     "description": "A collection of interesting, funny, and depressing search queries to plug into Shodan.io."
+  },
+  {
+    "name": "Awesome Anti Forensics",
+    "url": "https://github.com/remiflavien1/awesome-anti-forensic",
+    "description": "A collection of awesome tools used to counter forensics activities."
   },
   {
     "name": "Awesome Security Talks & Videos",

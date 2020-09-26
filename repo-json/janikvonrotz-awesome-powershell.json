@@ -7,32 +7,32 @@
   {
     "name": "PSGitHub",
     "url": "https://github.com/pcgeek86/PSGitHub",
-    "description": "This PowerShell module contains commands to manage GitHub through its REST API."
+    "description": "Module contains commands to manage GitHub through its REST API."
   },
   {
-    "name": "Posh-Github",
+    "name": "Posh-GitHub",
     "url": "https://github.com/Iristyle/Posh-GitHub",
-    "description": "Powershell cmdlets that expose the GitHub API."
+    "description": "Cmdlets that expose the GitHub API."
   },
   {
     "name": "Posh-Gist",
     "url": "https://github.com/dfinke/Posh-Gist",
-    "description": "PowerShell cmdlets for interacting with GitHub Gist."
+    "description": "Cmdlets for interacting with GitHub Gist."
   },
   {
     "name": "PSGist",
     "url": "https://github.com/dotps1/PSGist",
-    "description": "A PowerShell module to work with GitHub Gists."
+    "description": "A module to work with GitHub Gists."
   },
   {
     "name": "PSAppVeyor",
     "url": "https://github.com/dotps1/PSAppVeyor",
-    "description": "A PowerShell Module to interact with the AppVeyor REST Api."
+    "description": "A module to interact with the AppVeyor REST API."
   },
   {
     "name": "PSSlack",
     "url": "https://github.com/RamblingCookieMonster/PSSlack",
-    "description": "PowerShell module for simple Slack integration."
+    "description": "Module for simple Slack integration."
   },
   {
     "name": "ConfluencePS",
@@ -47,12 +47,17 @@
   {
     "name": "PSTelegramAPI",
     "url": "https://github.com/mkellerman/PSTelegramAPI",
-    "description": "PowerShell Module for Telegram APIs"
+    "description": "Module for Telegram APIs"
   },
   {
     "name": "PSTeams",
     "url": "https://github.com/EvotecIT/PSTeams",
-    "description": "PowerShell module for sending formatted messages to a Microsoft Teams Channel."
+    "description": "A module for sending formatted messages to a Microsoft Teams Channel."
+  },
+  {
+    "name": "PSURLScanio",
+    "url": "https://github.com/sysgoblin/PSURLScanio",
+    "description": "A module for urlscan.io that is a service to scan and analyze websites."
   },
   {
     "name": "Windows PowerShell Blog",
@@ -60,12 +65,7 @@
     "description": "Official PowerShell Team Blog."
   },
   {
-    "name": "Hey, Scripting Guy! Blog",
-    "url": "http://blogs.technet.com/b/heyscriptingguy/",
-    "description": "Popular Microsoft blog."
-  },
-  {
-    "name": "Learn Powershell | Achieve More",
+    "name": "Learn PowerShell | Achieve More",
     "url": "http://learn-powershell.net/",
     "description": "Personal blog of Boe Prox who moderated for the Scripting Guy."
   },
@@ -93,6 +93,11 @@
     "name": "Adam the Automator",
     "url": "https://adamtheautomator.com/",
     "description": "Engaging, technical content on all things automation, cloud computing and DevOps by Adam Bertram and friends."
+  },
+  {
+    "name": "Clear-Script",
+    "url": "https://vexx32.github.io/",
+    "description": "Personal blog of Joel (Sallow) Francis."
   },
   {
     "name": "Exploring PowerShell Automation",
@@ -131,7 +136,7 @@
   },
   {
     "name": "Windows PowerShell Networking Guide",
-    "url": "https://leanpub.com/s/QRQJjPFKqmeA7Hw5Cgk-KA.pdf",
+    "url": "https://leanpub.com/windowspowershellnetworkingguide/read",
     "description": "Language specific guide to Windows networking."
   },
   {
@@ -160,7 +165,7 @@
     "description": "Compilation of notes and snippets."
   },
   {
-    "name": "Powershell for SysAdmins: Workflow Automation Made Easy",
+    "name": "PowerShell for SysAdmins: Workflow Automation Made Easy",
     "url": "https://nostarch.com/powershellsysadmins",
     "description": "Learn how to manage and automate your desktop and server environments."
   },
@@ -190,6 +195,11 @@
     "description": "Build and deployment framework aimed at .NET projects."
   },
   {
+    "name": "ModuleBuilder",
+    "url": "https://github.com//ModuleBuilder",
+    "description": "Module to help scripters write, version, sign, package, and publish."
+  },
+  {
     "name": "GitHub",
     "url": "https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories",
     "description": "Looking for an Open Source PowerShell project? It's probably here."
@@ -197,12 +207,12 @@
   {
     "name": "PowerShell Gallery",
     "url": "https://www.powershellgallery.com/",
-    "description": "Offical PowerShell package repository, used by PowerShellGet."
+    "description": "Official PowerShell package repository, used by PowerShellGet."
   },
   {
-    "name": "TechNet Gallery",
-    "url": "https://gallery.technet.microsoft.com/",
-    "description": "Wide variety of PowerShell code from snippets to modules."
+    "name": "PowerShell Test Gallery",
+    "url": "https://www.poshtestgallery.com/",
+    "description": "A test version of the PowerShell Gallery. Useful when developing new modules."
   },
   {
     "name": "posh-git",
@@ -222,7 +232,7 @@
   {
     "name": "Jump-Location",
     "url": "https://github.com/tkellogg/Jump-Location",
-    "description": "Powershell cd that reads your mind. Autojump implementation for powershell."
+    "description": "PowerShell cd that reads your mind. Autojump implementation for PowerShell. UNMAINTAINED"
   },
   {
     "name": "Zlocation * z.sh implementation for PowerShell. Similar to Jump-Location.",
@@ -236,7 +246,7 @@
   {
     "name": "pslinq",
     "url": "https://github.com/manojlds/pslinq",
-    "description": "LINQ (LINQ2Objects) for Powershell."
+    "description": "LINQ (LINQ2Objects) for PowerShell."
   },
   {
     "name": "posh-with",
@@ -250,17 +260,27 @@
   {
     "name": "PSDirTag",
     "url": "https://github.com/wtjones/PSDirTag",
-    "description": "DirTags are relative paths that appear as variables in the Powershell prompt that update as you navigate. Saves keystrokes when navigating folder structures."
+    "description": "DirTags are relative paths that appear as variables in the PowerShell prompt that update as you navigate. Saves keystrokes when navigating folder structures."
   },
   {
     "name": "PSUtil",
     "url": "https://github.com/PowershellFrameworkCollective/PSUtil",
-    "description": "Designed to make the user's console life more convenient. It includes shortcuts, aliases, keybindings and convenience functions geared towards greater efficiency and less typing."
+    "description": "Designed to make the user's console life more convenient. It includes shortcuts, aliases, key bindings and convenience functions geared towards greater efficiency and less typing."
   },
   {
-    "name": "PowerShell.com",
-    "url": "http://powershell.com/",
-    "description": "Forums, blog posts, and more."
+    "name": "Microsoft.PowerShell.UnixCompleters",
+    "url": "https://github.com/PowerShell/Modules/tree/master/Modules/Microsoft.PowerShell.UnixCompleters",
+    "description": "Get parameter completion for native Unix utilities. Requires zsh or bash."
+  },
+  {
+    "name": "PSDepend",
+    "url": "https://github.com/RamblingCookieMonster/PSDepend/",
+    "description": "PowerShell Dependency Handler"
+  },
+  {
+    "name": "PSScriptTools",
+    "url": "https://github.com/jdhitsolutions/PSScriptTools",
+    "description": "A set of of PowerShell functions you might use to enhance your own functions and scripts or to facilitate working in the console."
   },
   {
     "name": "PowerShell.org",
@@ -274,13 +294,43 @@
   },
   {
     "name": "Slack PowerShell team",
-    "url": "http://slack.poshcode.org/",
+    "url": "https://poshcode.org/slack",
     "description": "Large chat room dedicated to PowerShell. Bridged with #PowerShell on irc.freenode.net."
   },
   {
     "name": "Twitter #PowerShell",
     "url": "https://twitter.com/search?q=%23PowerShell&src=hash",
     "description": "Vibrant PowerShell community; great way to keep up with news and blog content."
+  },
+  {
+    "name": "hjson-powershell",
+    "url": "https://github.com/TomasBouda/hjson-powershell",
+    "description": "Simple powershell module for conversion between HJSON and JSON."
+  },
+  {
+    "name": "ImportExcel",
+    "url": "https://github.com/dfinke/ImportExcel",
+    "description": "Module to import/export Excel spreadsheets, without Excel."
+  },
+  {
+    "name": "powershell-yaml",
+    "url": "https://github.com/cloudbase/powershell-yaml",
+    "description": "PowerShell CmdLets for YAML format manipulation."
+  },
+  {
+    "name": "PSWriteHTML",
+    "url": "https://github.com/EvotecIT/PSWriteHTML",
+    "description": "PSWriteHTML is a PowerShell module allowing you to create HTML easily."
+  },
+  {
+    "name": "PSWritePDF",
+    "url": "https://github.com/EvotecIT/PSWritePDF",
+    "description": "Module to create, edit, split, merge PDF files on Windows / Linux and MacOS."
+  },
+  {
+    "name": "PSWriteWord",
+    "url": "https://github.com/EvotecIT/PSWriteWord",
+    "description": "Module to create Microsoft Word documents without Microsoft Word installed."
   },
   {
     "name": "platyPS",
@@ -309,12 +359,12 @@
   },
   {
     "name": "PoshTools for Visual Studio",
-    "url": "https://github.com/adamdriscoll/PoshTools",
+    "url": "https://ironmansoftware.com/powershell-tools-for-visual-studio/",
     "description": "Provides IntelliSense, script debugging, and Pester testing support for PowerShell to Visual Studio."
   },
   {
     "name": "PowerShell ISE",
-    "url": "https://msdn.microsoft.com/en-us/powershell/scripting/core-powershell/ise/using-the-windows-powershell-ise",
+    "url": "https://docs.microsoft.com/en-us/powershell/scripting/components/ise/introducing-the-windows-powershell-ise",
     "description": "Official PowerShell development environment included with Microsoft Windows."
   },
   {
@@ -338,16 +388,6 @@
     "description": "PowerShell language support for Atom."
   },
   {
-    "name": "Plaster",
-    "url": "https://github.com/PowerShell/Plaster",
-    "description": "Plaster is a template-based file and project generator written in PowerShell."
-  },
-  {
-    "name": "PSModuleDevelopment",
-    "url": "https://github.com/PowershellFrameworkCollective/PSModuleDevelopment",
-    "description": "Get started using module templates in 2 minutes with this module's low entry barrier and casual convenience."
-  },
-  {
     "name": "Carbon",
     "url": "http://get-carbon.org/",
     "description": "DevOps for automating the configuration of Windows computers."
@@ -355,7 +395,7 @@
   {
     "name": "PowerShell PowerUp",
     "url": "https://github.com/janikvonrotz/PowerShell-PowerUp",
-    "description": "Powerfull server management framework."
+    "description": "Powerful server management framework."
   },
   {
     "name": "PSCX",
@@ -368,14 +408,44 @@
     "description": "Easily add configurations, logging and more to your own PowerShell module."
   },
   {
-    "name": "PowershellGet",
-    "url": "https://github.com/powershell/powershellget",
-    "description": "PowerShellGet is the Package Manager for PowerShell. Packages are available on PowerShellGallery."
+    "name": "Kansa",
+    "url": "https://github.com/davehull/Kansa",
+    "description": "Incident response framework."
   },
   {
-    "name": "PsGet",
-    "url": "http://psget.net/",
-    "description": "Set of commands to install modules from central directory, local file or from the web."
+    "name": "PSKoans",
+    "url": "https://github.com/vexx32/PSKoans",
+    "description": "A simple, fun, and interactive way to learn the PowerShell language through Pester unit testing."
+  },
+  {
+    "name": "Jupyter-PowerShell",
+    "url": "https://github.com/Jaykul/Jupyter-PowerShell",
+    "description": "Jupyter Kernel for PowerShell."
+  },
+  {
+    "name": "PoShLog",
+    "url": "https://github.com/PoShLog/PoShLog",
+    "description": "Cross-platform, extensible logging module built upon Serilog."
+  },
+  {
+    "name": "Plaster",
+    "url": "https://github.com/PowerShell/Plaster",
+    "description": "Plaster is a template-based file and project generator written in PowerShell."
+  },
+  {
+    "name": "PSModuleDevelopment",
+    "url": "https://github.com/PowershellFrameworkCollective/PSModuleDevelopment",
+    "description": "Get started using module templates in 2 minutes with this module's low entry barrier and casual convenience."
+  },
+  {
+    "name": "Catesta",
+    "url": "https://github.com/techthoughts2/Catesta",
+    "description": "Catesta is a PowerShell module project generator. It uses templates to rapidly scaffold test and build integration for a variety of CI/CD platforms."
+  },
+  {
+    "name": "PowerShellGet",
+    "url": "https://github.com/powershell/powershellget",
+    "description": "PowerShellGet is the Package Manager for PowerShell. Packages are available on PowerShellGallery."
   },
   {
     "name": "Chocolatey",
@@ -388,14 +458,29 @@
     "description": "Use a GitLab server as Package Provider."
   },
   {
+    "name": "Scoop",
+    "url": "https://scoop.sh",
+    "description": "A command-line installer for Windows."
+  },
+  {
+    "name": "PowerShell App Deployment Toolkit",
+    "url": "https://psappdeploytoolkit.com/",
+    "description": "Provides a set of functions to perform common application deployment tasks and to interact with the user during a deployment."
+  },
+  {
     "name": "PoshRSJob",
     "url": "https://github.com/proxb/PoshRSJob",
-    "description": "Provides an alternative to PSjobs with greater performance and less overhead to run commands in the background."
+    "description": "Provides an alternative to PSJobs with greater performance and less overhead to run commands in the background."
   },
   {
     "name": "Invoke-Parallel",
     "url": "https://github.com/RamblingCookieMonster/Invoke-Parallel",
     "description": "This function will take in a script or scriptblock, and run it against specified objects(s) in parallel."
+  },
+  {
+    "name": "PSThreadJob",
+    "url": "https://github.com/PaulHigin/PSThreadJob",
+    "description": "Module for running concurrent jobs based on threads rather than processes."
   },
   {
     "name": "PowerScripting",
@@ -453,19 +538,89 @@
     "description": "Enables scripting for red team, penetration testing, and offensive security."
   },
   {
+    "name": "Harness",
+    "url": "https://github.com/Rich5/Harness",
+    "description": "Interactive remote PowerShell Payload."
+  },
+  {
+    "name": "Invoke-Obfuscation",
+    "url": "https://github.com/danielbohannon/Invoke-Obfuscation",
+    "description": "PowerShell Obfuscator."
+  },
+  {
+    "name": "p0wnedShell",
+    "url": "https://github.com/Cn33liz/p0wnedShell",
+    "description": "PowerShell Runspace Post Exploitation Toolkit."
+  },
+  {
+    "name": "PESecurity",
+    "url": "https://github.com/NetSPI/PESecurity",
+    "description": "Module to check if a Windows binary (EXE/DLL) has been compiled with ASLR, DEP, SafeSEH, StrongNaming, and Authenticode."
+  },
+  {
+    "name": "Powershellery",
+    "url": "https://github.com/nullbind/Powershellery",
+    "description": "Powershell scripts used for general hackery."
+  },
+  {
+    "name": "PowerUpSQL",
+    "url": "https://github.com/NetSPI/PowerUpSQL",
+    "description": "Toolkit for Attacking SQL Server."
+  },
+  {
+    "name": "AutoSPInstaller",
+    "url": "https://autospinstaller.com/",
+    "description": "Automated SharePoint 2010-2019 installation script."
+  },
+  {
+    "name": "Client-side SharePoint",
+    "url": "https://sharepointpowershell.codeplex.com/",
+    "description": "API for SharePoint 2010, 2013 and Online."
+  },
+  {
+    "name": "SPReplicator",
+    "url": "https://github.com/potatoqualitee/SPReplicator",
+    "description": "SPReplicator helps replicate SharePoint list data to/from CSV, SQL Server, SharePoint itself and more."
+  },
+  {
+    "name": "dbatools",
+    "url": "https://dbachecks.io",
+    "description": "Helps SQL Server Pros be more productive with instance migrations and much more."
+  },
+  {
+    "name": "SimplySql",
+    "url": "https://github.com/mithrandyr/SimplySql",
+    "description": "SimplySql is a module that provides an intuitive set of cmdlets for talking to databases that abstracts the vendor specifics. The basic pattern is to connect to a database, execute one or more sql."
+  },
+  {
     "name": "Pester",
     "url": "https://github.com/pester/Pester",
-    "description": "Powershell BDD style testing framework."
+    "description": "PowerShell BDD style testing framework."
   },
   {
     "name": "Format-Pester",
     "url": "https://github.com/equelin/format-pester",
-    "description": "Powershell module for documenting Pester's results - exports Pester results to HTML, Word, text files using PScribo."
+    "description": "PowerShell module for documenting Pester's results - exports Pester results to HTML, Word, text files using PScribo."
+  },
+  {
+    "name": "Selenium",
+    "url": "https://github.com/adamdriscoll/selenium-powershell",
+    "description": "PowerShell module to run a Selenium WebDriver."
+  },
+  {
+    "name": "PSScriptAnalyzer",
+    "url": "https://github.com/PowerShell/PSScriptAnalyzer",
+    "description": "PSScriptAnalyzer provides script analysis and checks for potential code defects in the scripts by applying a group of built-in or customized rules on the scripts being analyzed."
   },
   {
     "name": "Oh-My-Posh",
     "url": "https://github.com/JanJoris/oh-my-posh",
     "description": "Tons of beautiful theme that can be enabled by one single command (includes many awesome powerline theme)."
+  },
+  {
+    "name": "PoshColor",
+    "url": "https://github.com/JustABearOz/PoshColor",
+    "description": "Colour output from common commands with support for custom themes."
   },
   {
     "name": "Powerline",
@@ -476,6 +631,46 @@
     "name": "Starship",
     "url": "https://github.com/starship/starship",
     "description": "The minimal, blazing fast, and extremely customizable prompt for any shell."
+  },
+  {
+    "name": "AnyBox",
+    "url": "https://github.com/dm3ll3n/AnyBox",
+    "description": "Designed to facilitate script input/output with an easily customizable WPF window."
+  },
+  {
+    "name": "BurntToast",
+    "url": "https://github.com/Windos/BurntToast",
+    "description": "Module for creating and displaying Toast Notifications on Microsoft Windows 10."
+  },
+  {
+    "name": "Graphical",
+    "url": "https://github.com/PrateekKumarSingh/graphical",
+    "description": "Module to plot colorful console 2D Graphs (Scatter, Bar, Line)."
+  },
+  {
+    "name": "GraphicalTools",
+    "url": "https://github.com/PowerShell/GraphicalTools",
+    "description": "A module that mixes PowerShell and GUIs! - built on Avalonia and gui.cs."
+  },
+  {
+    "name": "PS-Menu",
+    "url": "https://github.com/chrisseroka/ps-menu",
+    "description": "Simple module to render interactive console menu."
+  },
+  {
+    "name": "PSWriteColor",
+    "url": "https://github.com/EvotecIT/PSWriteColor",
+    "description": "Write-Color is a wrapper around Write-Host allowing you to create nice looking scripts, with colorized output."
+  },
+  {
+    "name": "Terminal-Icons",
+    "url": "https://github.com/devblackops/Terminal-Icons",
+    "description": "Module to show file and folder icons in the terminal."
+  },
+  {
+    "name": "psInlineProgress",
+    "url": "https://github.com/gravejester/psInlineProgress",
+    "description": "Write inline progress bars in PowerShell."
   },
   {
     "name": "PowerShell Unplugged with Jeffrey Snover and Don Jones Ignite 2017",
@@ -505,7 +700,7 @@
   {
     "name": "PowerShell on Linux and Open Source",
     "url": "https://channel9.msdn.com/Blogs/hybrid-it-management/PowerShell-on-Linux-and-Open-Source",
-    "description": "Brief introduction to PowerShell open source project and how it runs on linux."
+    "description": "Brief introduction to PowerShell open source project and how it runs on Linux."
   },
   {
     "name": "PowerShell",
@@ -583,24 +778,9 @@
     "description": "Run scripts and view results, in a friendly web GUI or via a web service."
   },
   {
-    "name": "AutoSPInstaller",
-    "url": "https://autospinstaller.com/",
-    "description": "Automated SharePoint 2010-2019 installation script."
-  },
-  {
-    "name": "Client-side SharePoint",
-    "url": "https://sharepointpowershell.codeplex.com/",
-    "description": "API for SharePoint 2010, 2013 and Online."
-  },
-  {
-    "name": "SPReplicator",
-    "url": "https://github.com/potatoqualitee/SPReplicator",
-    "description": "SPReplicator helps replicate SharePoint list data to/from CSV, SQL Server, SharePoint itself and more."
-  },
-  {
-    "name": "dbatools",
-    "url": "https://dbachecks.io",
-    "description": "Helps SQL Server Pros be more productive with instance migrations and much more."
+    "name": "Universal Dashboard",
+    "url": "https://ironmansoftware.com/powershell-universal-dashboard",
+    "description": "Cross-platform module for developing websites and REST APIs."
   },
   {
     "name": "DbgShell",
@@ -610,16 +790,21 @@
   {
     "name": "poke",
     "url": "https://github.com/oising/poke",
-    "description": "Crazy cool reflection module for powershell."
+    "description": "Crazy cool reflection module for PowerShell."
   },
   {
-    "name": "psInlineProgress",
-    "url": "https://github.com/gravejester/psInlineProgress",
-    "description": "Write inline progress bars in PowerShell."
+    "name": "WSLab",
+    "url": "https://github.com/microsoft/WSLab",
+    "description": "Windows Server rapid lab deployment scripts."
   },
   {
-    "name": "Graphical",
-    "url": "https://github.com/PrateekKumarSingh/graphical",
-    "description": "PowerShell Module to plot colorful console 2D Graphs (Scatter, Bar, Line)."
+    "name": "PoshBot",
+    "url": "https://github.com/poshbotio/PoshBot",
+    "description": "Powershell-based bot framework."
+  },
+  {
+    "name": "PoShKeePass",
+    "url": "https://github.com/PSKeePass/PoShKeePass",
+    "description": "Module for working with KeePass databases."
   }
 ]

@@ -26,7 +26,7 @@
   },
   {
     "name": "Slony-I",
-    "url": "http://slony.info",
+    "url": "https://slony.info/",
     "description": "\"Master to multiple slaves\" replication system with cascading and failover."
   },
   {
@@ -189,9 +189,9 @@
     "description": "Native App which let you edit database and structure. High-end security ensured (Commercial Software)."
   },
   {
-    "name": "TeamSQL",
-    "url": "https://teamsql.io/",
-    "description": "Cross-platform SQL Client: Simple, Effortless, Extensible."
+    "name": "DataRow",
+    "url": "https://www.datarow.com/",
+    "description": "Cross-platform SQL Client for Amazon Redshift: Simple, Effortless, Extensible."
   },
   {
     "name": "Valentina Studio",
@@ -219,6 +219,11 @@
     "description": "Postgres CLI with autocompletion and syntax highlighting"
   },
   {
+    "name": "pgsh",
+    "url": "https://github.com/sastraxi/pgsh",
+    "description": "Branch your PostgreSQL Database like Git"
+  },
+  {
     "name": "psql",
     "url": "https://www.postgresql.org/docs/current/static/app-psql.html",
     "description": "The built-in PostgreSQL CLI client"
@@ -232,6 +237,11 @@
     "name": "nancy",
     "url": "https://gitlab.com/postgres-ai/nancy",
     "description": "The Nancy CLI is a unified way to manage automated database experiments either in clouds or on-premise"
+  },
+  {
+    "name": "schemaspy",
+    "url": "https://github.com/schemaspy/schemaspy",
+    "description": "SchemaSpy is a JAVA JDBC-compliant tool for generating your database to HTML documentation, including Entity Relationship diagrams"
   },
   {
     "name": "Postgres-XL",
@@ -269,9 +279,19 @@
     "description": "Comprehensive PostgreSQL monitoring module for Zabbix."
   },
   {
+    "name": "PMM",
+    "url": "https://github.com/percona/pmm",
+    "description": "Percona Monitoring and Management (PMM) is a Free and Open Source platform for monitoring and managing PostgreSQL, MySQL, and MongoDB."
+  },
+  {
     "name": "Pome",
     "url": "https://github.com/rach/pome",
     "description": "Pome stands for PostgreSQL Metrics. Pome is a PostgreSQL Metrics Dashboard to keep track of the health of your database."
+  },
+  {
+    "name": "pgmetrics",
+    "url": "https://pgmetrics.io/",
+    "description": "pgmetrics is an open-source, zero-dependency, single-binary tool that can collect a lot of information and statistics from a running PostgreSQL server and display it in easy-to-read text format or export it as JSON and CSV for scripting."
   },
   {
     "name": "pg_view",
@@ -292,6 +312,11 @@
     "name": "opm.io",
     "url": "http://opm.io",
     "description": " Open PostgreSQL Monitoring is a free software suite designed to help you manage your PostgreSQL servers. It can gather stats, display dashboards and send warnings when something goes wrong."
+  },
+  {
+    "name": "okmeter.io",
+    "url": "https://okmeter.io/pg",
+    "description": "Commercial SaaS agent-based monitoring with a very detailed PostgreSQL plugin. It automatically gathers 100s of stats, displays dashboards on every aspect and sends alerts when something goes wrong (Commercial Software)."
   },
   {
     "name": "Citus",
@@ -340,7 +365,7 @@
   },
   {
     "name": "PipelineDB",
-    "url": "https://www.pipelinedb.com/",
+    "url": "https://www.confluent.io/blog/pipelinedb-team-joins-confluent/",
     "description": "A PostgreSQL extension that runs SQL queries continuously on streams, incrementally storing results in tables."
   },
   {
@@ -389,6 +414,11 @@
     "description": "pgRouting extends the PostGIS/PostgreSQL geospatial database to provide geospatial routing and other network analysis functionality."
   },
   {
+    "name": "pg_flame",
+    "url": "https://github.com/mgartner/pg_flame",
+    "description": "A flamegraph generator for query plans."
+  },
+  {
     "name": "PgHero",
     "url": "https://github.com/ankane/pghero",
     "description": "PostgreSQL insights made easy."
@@ -424,6 +454,11 @@
     "description": "Web UI to view pg_stat_statements."
   },
   {
+    "name": "TimescaleDB Tune",
+    "url": "https://github.com/timescale/timescaledb-tune",
+    "description": "a program for tuning a TimescaleDB database to perform its best based on the host's resources such as memory and number of CPUs."
+  },
+  {
     "name": "apgdiff",
     "url": "https://www.apgdiff.com/",
     "description": "Compares two database dump files and creates output with DDL statements that can be used to update old database schema to new one."
@@ -434,9 +469,9 @@
     "description": "ERAlchemy generates Entity Relation (ER) diagram from databases."
   },
   {
-    "name": "Hasura",
-    "url": "https://hasura.io",
-    "description": "Instant realtime GraphQL APIs on any Postgres application, existing or new."
+    "name": "Hasura GraphQL Engine",
+    "url": "https://github.com/hasura/graphql-engine",
+    "description": "Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events."
   },
   {
     "name": "ldap2pg",
@@ -455,7 +490,7 @@
   },
   {
     "name": "pg_activity",
-    "url": "https://github.com/julmon/pg_activity",
+    "url": "https://github.com/dalibo/pg_activity",
     "description": "top like application for PostgreSQL server activity monitoring."
   },
   {
@@ -475,7 +510,7 @@
   },
   {
     "name": "PgBouncer",
-    "url": "http://pgbouncer.github.io",
+    "url": "http://www.pgbouncer.org/",
     "description": "Lightweight connection pooler for PostgreSQL."
   },
   {
@@ -492,6 +527,11 @@
     "name": "pgclimb",
     "url": "https://github.com/lukasmartinelli/pgclimb",
     "description": "Export data from PostgreSQL into different data formats."
+  },
+  {
+    "name": "pg_docs_bot",
+    "url": "https://github.com/mchristofides/pg_docs_bot/",
+    "description": "Browser extension to redirect PostgreSQL docs links to the current version."
   },
   {
     "name": "pgfutter",
@@ -515,7 +555,7 @@
   },
   {
     "name": "pgpool-II",
-    "url": "http://www.pgpool.net/mediawiki/index.php/Main_Page",
+    "url": "https://www.pgpool.net/mediawiki/index.php/Main_Page",
     "description": "Middleware that provides connection pooling, replication, load balancing and limiting exceeding connections."
   },
   {
@@ -589,19 +629,24 @@
     "description": "Tool to compare database schemas, with capability to accept some persistent differences"
   },
   {
-    "name": "graphql-engine",
-    "url": "https://github.com/hasura/graphql-engine",
-    "description": "Get Instant Realtime GraphQL APIs over PostgreSQL."
+    "name": "pg-differ",
+    "url": "https://github.com/multum/pg-differ",
+    "description": "Tool for easy initialization / updating of the structure of PostgreSQL tables, migration alternative (Node.js)."
   },
   {
     "name": "sqlcheck",
-    "url": "https://github.com/jarulraj/sqlcheck-old",
+    "url": "https://github.com/jarulraj/sqlcheck",
     "description": "Automatically detects common SQL anti-patterns. Such anti-patterns often slow down queries. Addressing them will, therefore, help accelerate queries."
   },
   {
     "name": "postgres-checkup",
     "url": "https://gitlab.com/postgres-ai/postgres-checkup",
     "description": "a new-generation diagnostics tool that allows users to collect deep analysis of the health of a Postgres database."
+  },
+  {
+    "name": "ScaffoldHub.io",
+    "url": "https://scaffoldhub.io",
+    "description": "Generate fullstack PostgreSQL apps with Angular, Vue or React (Commercial Software)."
   },
   {
     "name": "Common Lisp: Postmodern",
@@ -616,8 +661,8 @@
     "url": "https://github.com/elixir-ecto/postgrex"
   },
   {
-    "name": "Go: pgx",
-    "url": "https://github.com/jackc/pgx"
+    "name": "Go: pq, pgx",
+    "url": "https://github.com/lib/pq"
   },
   {
     "name": "Haskell: postgresql-simple",
@@ -632,7 +677,7 @@
     "url": "https://github.com/npgsql/npgsql"
   },
   {
-    "name": "Node: node-postgres, pg-promise, pogi, slonik",
+    "name": "Node: node-postgres, pg-promise, pogi, slonik, postgres",
     "url": "https://github.com/brianc/node-postgres"
   },
   {
@@ -644,12 +689,12 @@
     "url": "http://www.pomm-project.org"
   },
   {
-    "name": "Python: psycopg2",
+    "name": "Python: psycopg2, asyncpg",
     "url": "https://pypi.org/project/psycopg2/"
   },
   {
     "name": "Ruby: pg",
-    "url": "https://bitbucket.org/ged/ruby-pg/wiki/Home"
+    "url": "https://github.com/ged/ruby-pg"
   },
   {
     "name": "Rust: rust-postgresql",
@@ -775,7 +820,7 @@
   },
   {
     "name": "Bruce Momjian's PostgreSQL blog",
-    "url": "http://momjian.us/main/blogs/pgblog.html"
+    "url": "https://momjian.us/main/blogs/pgblog.html"
   },
   {
     "name": "Craig Kerstiens PostgreSQL posts",
@@ -805,6 +850,14 @@
     "url": "https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases/"
   },
   {
+    "name": "What PostgreSQL has over other open source SQL databases: Part II",
+    "url": "https://www.compose.com/articles/what-postgresql-has-over-other-open-source-sql-databases-part-ii/"
+  },
+  {
+    "name": "the ultimate postgres vs mysql blog post",
+    "url": "https://di.nmfay.com/postgres-vs-mysql"
+  },
+  {
     "name": "Debugging PostgreSQL performance, the hard way",
     "url": "https://www.justwatch.com/blog/post/debugging-postgresql-performance-the-hard-way/"
   },
@@ -814,7 +867,7 @@
   },
   {
     "name": "Superfast CSV imports using PostgreSQL's COPY command",
-    "url": "https://infinum.co/the-capsized-eight/superfast-csv-imports-using-postgresqls-copy"
+    "url": "https://infinum.com/the-capsized-eight/superfast-csv-imports-using-postgresqls-copy"
   },
   {
     "name": "Wiki",
@@ -837,8 +890,8 @@
     "description": " EnterpriseDB related videos"
   },
   {
-    "name": "PGConf US Youtube channel",
-    "url": "https://www.youtube.com/pgconfus/",
+    "name": "Postgres Conference Youtube channel",
+    "url": "https://www.youtube.com/channel/UCsJkVvxwoM7R9oRbzvUhbPQ/videos",
     "description": "Conference videos"
   },
   {
@@ -852,13 +905,23 @@
     "description": "Official mailing lists for Postgres for support, outreach, and more. One of the primary channels of communication in the Postgres community."
   },
   {
-    "name": "Slack",
-    "url": "https://postgres-slack.herokuapp.com/",
-    "description": "Slack channel for Postgres with close to 5000 users"
-  },
-  {
     "name": "Reddit",
     "url": "https://www.reddit.com/r/PostgreSQL/",
-    "description": "A reddit community for PostgreSQL users with close to 10000 users"
+    "description": "A reddit community for PostgreSQL users with over 12000 users"
+  },
+  {
+    "name": "Slack",
+    "url": "https://postgres-slack.herokuapp.com/",
+    "description": "Slack channel for Postgres with over 7000 users"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://t.me/pgsql",
+    "description": "Several groups for PostgreSQL in different langauges: Russian >4200 people, Brazilian Portuguese >2300 people, Indonesian ~1000 people, English >750 people"
+  },
+  {
+    "name": "#postgresql on Freenode",
+    "url": "https://webchat.freenode.net/#postgresql",
+    "description": "The most popular IRC channel about Postgres on Freenode with over 1000 users"
   }
 ]
