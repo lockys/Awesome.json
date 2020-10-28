@@ -27,7 +27,7 @@
   {
     "name": "cONNXr",
     "url": "https://github.com/alrevuelta/cONNXr",
-    "description": "An ONNX runtime written in pure C (99) with zero dependancies focused on small embedded devices. Run inference on your machine learning models no matter which framework you train it with. Easy to install and compiles everywhere, even in very old devices."
+    "description": "An ONNX runtime written in pure C (99) with zero dependencies focused on small embedded devices. Run inference on your machine learning models no matter which framework you train it with. Easy to install and compiles everywhere, even in very old devices."
   },
   {
     "name": "CCV",
@@ -37,7 +37,7 @@
   {
     "name": "VLFeat",
     "url": "http://www.vlfeat.org/",
-    "description": "VLFeat is an open and portable library of computer vision algorithms, which has Matlab toolbox."
+    "description": "VLFeat is an open and portable library of computer vision algorithms, which has a Matlab toolbox."
   },
   {
     "name": "DLib",
@@ -57,7 +57,7 @@
   {
     "name": "VIGRA",
     "url": "https://github.com/ukoethe/vigra",
-    "description": "VIGRA is a generic cross-platform C++ computer vision and machine learning library for volumes of arbitrary dimensionality with Python bindings."
+    "description": "VIGRA is a genertic cross-platform C++ computer vision and machine learning library for volumes of arbitrary dimensionality with Python bindings."
   },
   {
     "name": "Openpose",
@@ -232,7 +232,7 @@
   {
     "name": "xLearn",
     "url": "https://github.com/aksnzhy/xlearn",
-    "description": "A high performance, easy-to-use, and scalable machine learning package, which can be used to solve large-scale machine learning problems. xLearn is especially useful for solving machine learning problems on large-scale sparse data, which is very common in Internet services such as online advertisement and recommender systems."
+    "description": "A high performance, easy-to-use, and scalable machine learning package, which can be used to solve large-scale machine learning problems. xLearn is especially useful for solving machine learning problems on large-scale sparse data, which is very common in Internet services such as online advertising and recommender systems."
   },
   {
     "name": "Featuretools",
@@ -242,7 +242,7 @@
   {
     "name": "skynet",
     "url": "https://github.com/Tyill/skynet",
-    "description": "A library for learning neural network, has C-interface, net set in JSON. Written in C++ with bindings in Python, C++ and C#."
+    "description": "A library for learning neural networks, has C-interface, net set in JSON. Written in C++ with bindings in Python, C++ and C#."
   },
   {
     "name": "Feast",
@@ -252,7 +252,7 @@
   {
     "name": "Hopsworks",
     "url": "https://github.com/logicalclocks/hopsworks",
-    "description": "An data-intensive platorm for AI with the industry's first open-source feature store. The Hopsworks Feature Store provides both a feature warehouse for training and batch based on Apache Hive and a feature serving database, based on MySQL Cluster, for online applications."
+    "description": "A data-intensive platform for AI with the industry's first open-source feature store. The Hopsworks Feature Store provides both a feature warehouse for training and batch based on Apache Hive and a feature serving database, based on MySQL Cluster, for online applications."
   },
   {
     "name": "Polyaxon",
@@ -312,7 +312,7 @@
   {
     "name": "ToPS",
     "url": "https://github.com/ayoshiaki/tops",
-    "description": "This is an objected-oriented framework that facilitates the integration of probabilistic models for sequences over a user defined alphabet. [Deprecated]"
+    "description": "This is an object-oriented framework that facilitates the integration of probabilistic models for sequences over a user defined alphabet. [Deprecated]"
   },
   {
     "name": "grt",
@@ -355,9 +355,24 @@
     "description": "Rails-like inflection library for Clojure and ClojureScript."
   },
   {
+    "name": "tech.ml",
+    "url": "https://github.com/techascent/tech.ml",
+    "description": "A machine learning platform based on tech.ml.dataset, supporting not just ml algorithms, but also relevant ETL processing; wraps multiple machine learning libraries"
+  },
+  {
+    "name": "clj-ml",
+    "url": "https://github.com/joshuaeckroth/clj-ml/",
+    "description": "A machine learning library for Clojure built on top of Weka and friends."
+  },
+  {
+    "name": "clj-boost",
+    "url": "https://gitlab.com/alanmarazzi/clj-boost",
+    "description": "Wrapper for XGBoost"
+  },
+  {
     "name": "Touchstone",
     "url": "https://github.com/ptaoussanis/touchstone",
-    "description": "Clojure A/B testing library. [Deprecated]"
+    "description": "Clojure A/B testing library."
   },
   {
     "name": "Clojush",
@@ -365,19 +380,14 @@
     "description": "The Push programming language and the PushGP genetic programming system implemented in Clojure."
   },
   {
+    "name": "lambda-ml",
+    "url": "https://github.com/cloudkj/lambda-ml",
+    "description": "Simple, concise implementations of machine learning techniques and utilities in Clojure."
+  },
+  {
     "name": "Infer",
     "url": "https://github.com/aria42/infer",
     "description": "Inference and machine learning in Clojure. [Deprecated]"
-  },
-  {
-    "name": "Clj-ML",
-    "url": "https://github.com/antoniogarrote/clj-ml",
-    "description": "A machine learning library for Clojure built on top of Weka and friends. [Deprecated]"
-  },
-  {
-    "name": "DL4CLJ",
-    "url": "https://github.com/yetanalytics/dl4clj",
-    "description": "Clojure wrapper for Deeplearning4j."
   },
   {
     "name": "Encog",
@@ -405,14 +415,49 @@
     "description": "Functionally composable Machine Learning library using Numenta’s Cortical Learning Algorithm. [Deprecated]"
   },
   {
+    "name": "MXNet",
+    "url": "https://mxnet.apache.org/versions/1.7.0/api/clojure",
+    "description": "Bindings to Apache MXNet - part of the MXNet project"
+  },
+  {
+    "name": "Deep Diamond",
+    "url": "https://github.com/uncomplicate/deep-diamond",
+    "description": "A fast Clojure Tensor & Deep Learning library"
+  },
+  {
+    "name": "jutsu.ai",
+    "url": "https://github.com/hswick/jutsu.ai",
+    "description": "Clojure wrapper for deeplearning4j with some added syntactic sugar."
+  },
+  {
     "name": "cortex",
     "url": "https://github.com/originrose/cortex",
     "description": "Neural networks, regression and feature learning in Clojure."
   },
   {
-    "name": "lambda-ml",
-    "url": "https://github.com/cloudkj/lambda-ml",
-    "description": "Simple, concise implementations of machine learning techniques and utilities in Clojure."
+    "name": "Flare",
+    "url": "https://github.com/aria42/flare",
+    "description": "Dynamic Tensor Graph library in Clojure (think PyTorch, DynNet, etc.)"
+  },
+  {
+    "name": "dl4clj",
+    "url": "https://github.com/yetanalytics/dl4clj",
+    "description": "Clojure wrapper for Deeplearning4j."
+  },
+  {
+    "name": "tech.ml.dataset",
+    "url": "https://github.com/techascent/tech.ml.dataset",
+    "description": "Clojure dataframe library and pipeline for data processing and machine learning"
+  },
+  {
+    "name": "Tablecloth",
+    "url": "https://github.com/scicloj/tablecloth",
+    "description": "A dataframe grammar wrapping tech.ml.dataset, inspired by several R libraries"
+  },
+  {
+    "name": "Panthera",
+    "url": "https://github.com/alanmarazzi/panthera",
+    "description": "Clojure API wrapping Python's Pandas library"
   },
   {
     "name": "Incanter",
@@ -425,9 +470,93 @@
     "description": "Map-Reduce for Clojure."
   },
   {
+    "name": "Geni",
+    "url": "https://github.com/zero-one-group/geni",
+    "description": "a Clojure dataframe library that runs on Apache Spark"
+  },
+  {
+    "name": "Hanami : Clojure(Script) library and framework for creating interactive visualization applications based in Vega-Lite (VGL) and/or Vega (VG) specifications. Automatic framing and layouts along with a powerful templating system for abstracting visualization specs",
+    "url": "https://github.com/jsa-aerial/hanami"
+  },
+  {
+    "name": "Saite",
+    "url": "https://github.com/jsa-aerial/saite",
+    "description": " Clojure(Script) client/server application for dynamic interactive explorations and the creation of live shareable documents capturing them using Vega/Vega-Lite, CodeMirror, markdown, and LaTeX"
+  },
+  {
+    "name": "Oz",
+    "url": "https://github.com/metasoarous/oz",
+    "description": "Data visualisation using Vega/Vega-Lite and Hiccup, and a live-reload platform for literate-programming"
+  },
+  {
     "name": "Envision",
     "url": "https://github.com/clojurewerkz/envision",
     "description": "Clojure Data Visualisation library, based on Statistiker and D3."
+  },
+  {
+    "name": "Pink Gorilla Notebook",
+    "url": "https://github.com/pink-gorilla/gorilla-notebook",
+    "description": "A Clojure/Clojurescript notebook application/-library based on Gorilla-REPL"
+  },
+  {
+    "name": "clojupyter",
+    "url": "https://github.com/clojupyter/clojupyter",
+    "description": " A Jupyter kernel for Clojure - run Clojure code in Jupyter Lab, Notebook and Console."
+  },
+  {
+    "name": "notespace",
+    "url": "https://github.com/scicloj/notespace",
+    "description": "Notebook experience in your Clojure namespace"
+  },
+  {
+    "name": "Delight",
+    "url": "https://github.com/datamechanics/delight",
+    "description": "A listener that streams your spark events logs to delight, a free and improved spark UI"
+  },
+  {
+    "name": "Java Interop",
+    "url": "https://clojure.org/reference/java_interop",
+    "description": "Clojure has Native Java Interop from which Java's ML ecosystem can be accessed"
+  },
+  {
+    "name": "JavaScript Interop",
+    "url": "https://clojurescript.org/reference/javascript-api",
+    "description": "ClojureScript has Native JavaScript Interop from which JavaScript's ML ecosystem can be accessed"
+  },
+  {
+    "name": "Libpython-clj",
+    "url": "https://github.com/clj-python/libpython-clj",
+    "description": "Interop with Python"
+  },
+  {
+    "name": "ClojisR",
+    "url": "https://github.com/scicloj/clojisr",
+    "description": "Interop with R and Renjin (R on the JVM)"
+  },
+  {
+    "name": "Neanderthal",
+    "url": "https://neanderthal.uncomplicate.org/",
+    "description": "Fast Clojure Matrix Library (native CPU, GPU, OpenCL, CUDA)"
+  },
+  {
+    "name": "kixistats",
+    "url": "https://github.com/MastodonC/kixi.stats",
+    "description": "A library of statistical distribution sampling and transducing functions"
+  },
+  {
+    "name": "fastmath",
+    "url": "https://github.com/generateme/fastmath",
+    "description": "A collection of functions for mathematical and statistical computing, macine learning, etc., wrapping several JVM libraries"
+  },
+  {
+    "name": "matlib",
+    "url": "https://github.com/atisharma/matlib",
+    "description": "a Clojure library of optimisation and control theory tools and convenience functions based on Neanderthal."
+  },
+  {
+    "name": "Scicloj",
+    "url": "https://scicloj.github.io/pages/libraries/",
+    "description": "Curated list of ML related resources for Clojure."
   },
   {
     "name": "machine",
@@ -463,11 +592,6 @@
     "name": "Disco",
     "url": "https://github.com/discoproject/disco/",
     "description": "Map Reduce in Erlang. [Deprecated]"
-  },
-  {
-    "name": "Yanni",
-    "url": "https://bitbucket.org/nato/yanni/overview",
-    "description": "ANN neural networks using Erlangs leightweight processes."
   },
   {
     "name": "neural-fortran",
@@ -532,7 +656,7 @@
   {
     "name": "go-mxnet-predictor",
     "url": "https://github.com/songtianyi/go-mxnet-predictor",
-    "description": "Go binding for MXNet c_predict_api to do inference with pre-trained model."
+    "description": "Go binding for MXNet c_predict_api to do inference with a pre-trained model."
   },
   {
     "name": "go-ml-transpiler",
@@ -784,11 +908,6 @@
     "description": "Learning entities from unlabeled text starting with seed sets using patterns in an iterative fashion."
   },
   {
-    "name": "Stanford Topic Modeling Toolbox",
-    "url": "https://nlp.stanford.edu/software/tmt",
-    "description": "Topic modeling tools to social scientists and others who wish to perform analysis on datasets."
-  },
-  {
     "name": "Twitter Text Java",
     "url": "https://github.com/twitter/twitter-text/tree/master/java",
     "description": "A Java implementation of Twitter's text processing library."
@@ -816,7 +935,7 @@
   {
     "name": "Apache cTAKES",
     "url": "https://ctakes.apache.org/",
-    "description": "Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text."
+    "description": "Apache Clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text."
   },
   {
     "name": "NLP4J",
@@ -928,8 +1047,8 @@
     "description": "A classifier is a machine learning tool that will take data items and place them into one of k classes."
   },
   {
-    "name": "SmileMiner",
-    "url": "https://github.com/haifengl/smile",
+    "name": "Smile",
+    "url": "https://haifengl.github.io/",
     "description": "Statistical Machine Intelligence & Learning Engine."
   },
   {
@@ -1448,7 +1567,7 @@
   {
     "name": "SVM",
     "url": "https://github.com/JuliaStats/SVM.jl",
-    "description": "SVM's for Julia. [Deprecated]"
+    "description": "SVM for Julia. [Deprecated]"
   },
   {
     "name": "Kernel Density",
@@ -1892,7 +2011,7 @@
   {
     "name": "NLP",
     "url": "https://amplab.cs.berkeley.edu/an-nlp-library-for-matlab/",
-    "description": "An NLP library for Matlab."
+    "description": "A NLP library for Matlab."
   },
   {
     "name": "Training a deep autoencoder or a classifier\non MNIST digits",
@@ -2026,7 +2145,7 @@
   {
     "name": "Infer.NET",
     "url": "https://dotnet.github.io/infer/",
-    "description": "Infer.NET is a framework for running Bayesian inference in graphical models. One can use Infer.NET to solve many different kinds of machine learning problems, from standard problems like classification, recommendation or clustering through to customised solutions to domain-specific problems. Infer.NET has been used in a wide variety of domains including information retrieval, bioinformatics, epidemiology, vision, and many others."
+    "description": "Infer.NET is a framework for running Bayesian inference in graphical models. One can use Infer.NET to solve many different kinds of machine learning problems, from standard problems like classification, recommendation or clustering through to customized solutions to domain-specific problems. Infer.NET has been used in a wide variety of domains including information retrieval, bioinformatics, epidemiology, vision, and many others."
   },
   {
     "name": "ML.NET",
@@ -2036,7 +2155,7 @@
   {
     "name": "Neural Network Designer",
     "url": "https://sourceforge.net/projects/nnd/",
-    "description": "DBMS management system and designer for neural networks. The designer application is developed using WPF, and is a user interface which allows you to design your neural network, query the network, create and configure chat bots that are capable of asking questions and learning from your feed back. The chat bots can even scrape the internet for information to return in their output as well as to use for learning."
+    "description": "DBMS management system and designer for neural networks. The designer application is developed using WPF, and is a user interface which allows you to design your neural network, query the network, create and configure chat bots that are capable of asking questions and learning from your feedback. The chat bots can even scrape the internet for information to return in their output as well as to use for learning."
   },
   {
     "name": "Synapses",
@@ -2061,7 +2180,7 @@
   {
     "name": "Math.NET Numerics",
     "url": "https://www.nuget.org/packages/MathNet.Numerics/",
-    "description": "Numerical foundation of the Math.NET project, aiming to provide methods and algorithms for numerical computations in science, engineering and every day use. Supports .Net 4.0, .Net 3.5 and Mono on Windows, Linux and Mac; Silverlight 5, WindowsPhone/SL 8, WindowsPhone 8.1 and Windows 8 with PCL Portable Profiles 47 and 344; Android/iOS with Xamarin."
+    "description": "Numerical foundation of the Math.NET project, aiming to provide methods and algorithms for numerical computations in science, engineering and everyday use. Supports .Net 4.0, .Net 3.5 and Mono on Windows, Linux and Mac; Silverlight 5, WindowsPhone/SL 8, WindowsPhone 8.1 and Windows 8 with PCL Portable Profiles 47 and 344; Android/iOS with Xamarin."
   },
   {
     "name": "Sho",
@@ -2076,7 +2195,7 @@
   {
     "name": "MLPNeuralNet",
     "url": "https://github.com/nikolaypavlov/MLPNeuralNet",
-    "description": "Fast multilayer perceptron neural network library for iOS and Mac OS X. MLPNeuralNet predicts new examples by trained neural network. It is built on top of the Apple's Accelerate Framework, using vectorized operations and hardware acceleration if available. [Deprecated]"
+    "description": "Fast multilayer perceptron neural network library for iOS and Mac OS X. MLPNeuralNet predicts new examples by trained neural networks. It is built on top of the Apple's Accelerate Framework, using vectorized operations and hardware acceleration if available. [Deprecated]"
   },
   {
     "name": "MAChineLearning",
@@ -2086,22 +2205,22 @@
   {
     "name": "BPN-NeuralNetwork",
     "url": "https://github.com/Kalvar/ios-BPN-NeuralNetwork",
-    "description": "It implemented 3 layers neural network ( Input Layer, Hidden Layer and Output Layer ) and it named Back Propagation Neural Network (BPN). This network can be used in products recommendation, user behavior analysis, data mining and data analysis. [Deprecated]"
+    "description": "It implemented 3 layers of neural networks ( Input Layer, Hidden Layer and Output Layer ) and it was named Back Propagation Neural Networks (BPN). This network can be used in products recommendation, user behavior analysis, data mining and data analysis. [Deprecated]"
   },
   {
     "name": "Multi-Perceptron-NeuralNetwork",
     "url": "https://github.com/Kalvar/ios-Multi-Perceptron-NeuralNetwork",
-    "description": "it implemented multi-perceptrons neural network (ニューラルネットワーク) based on Back Propagation Neural Network (BPN) and designed unlimited-hidden-layers."
+    "description": "it implemented multi-perceptrons neural network (ニューラルネットワーク) based on Back Propagation Neural Networks (BPN) and designed unlimited-hidden-layers."
   },
   {
     "name": "KRHebbian-Algorithm",
     "url": "https://github.com/Kalvar/ios-KRHebbian-Algorithm",
-    "description": "It is a non-supervisor and self-learning algorithm (adjust the weights) in neural network of Machine Learning. [Deprecated]"
+    "description": "It is a non-supervisor and self-learning algorithm (adjust the weights) in the neural network of Machine Learning. [Deprecated]"
   },
   {
     "name": "KRKmeans-Algorithm",
     "url": "https://github.com/Kalvar/ios-KRKmeans-Algorithm",
-    "description": "It implemented K-Means the clustering and classification algorithm. It could be used in data mining and image compression. [Deprecated]"
+    "description": "It implemented K-Means  clustering and classification algorithm. It could be used in data mining and image compression. [Deprecated]"
   },
   {
     "name": "KRFuzzyCMeans-Algorithm",
@@ -2218,7 +2337,7 @@
   {
     "name": "face_recognition",
     "url": "https://github.com/ageitgey/face_recognition",
-    "description": "Face recognition library that recognize and manipulate faces from Python or from the command line."
+    "description": "Face recognition library that recognizes and manipulates faces from Python or from the command line."
   },
   {
     "name": "dockerface",
@@ -2243,12 +2362,12 @@
   {
     "name": "pytessarct",
     "url": "https://github.com/madmaze/pytesseract",
-    "description": "Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and \"read\" the text embedded in images.Python-tesseract is a wrapper for Google's Tesseract-OCR Engine>."
+    "description": "Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and \"read\" the text embedded in images. Python-tesseract is a wrapper for Google's Tesseract-OCR Engine."
   },
   {
     "name": "imutils",
     "url": "https://github.com/jrosebr1/imutils",
-    "description": "A library containg Convenience functions to make basic image processing operations such as translation, rotation, resizing, skeletonization, and displaying Matplotlib images easier with OpenCV and Python."
+    "description": "A library containing Convenience functions to make basic image processing operations such as translation, rotation, resizing, skeletonization, and displaying Matplotlib images easier with OpenCV and Python."
   },
   {
     "name": "PyTorchCV",
@@ -2293,6 +2412,11 @@
     "name": "Lucent",
     "url": "https://github.com/greentfrapp/lucent",
     "description": "Tensorflow and OpenAI Clarity's Lucid adapted for PyTorch."
+  },
+  {
+    "name": "lightly",
+    "url": "https://github.com/lightly-ai/lightly",
+    "description": "Lightly is a computer vision framework for self-supervised learning."
   },
   {
     "name": "pkuseg-python",
@@ -2347,7 +2471,7 @@
   {
     "name": "genius",
     "url": "https://github.com/duanhongyi/genius",
-    "description": "A Chinese segment base on Conditional Random Field."
+    "description": "A Chinese segment based on Conditional Random Field."
   },
   {
     "name": "KoNLPy",
@@ -2392,12 +2516,12 @@
   {
     "name": "python-zpar",
     "url": "https://github.com/EducationalTestingService/python-zpar",
-    "description": "Python bindings for ZPar, a statistical part-of-speech-tagger, constiuency parser, and dependency parser for English."
+    "description": "Python bindings for ZPar, a statistical part-of-speech-tagger, constituency parser, and dependency parser for English."
   },
   {
     "name": "colibri-core",
     "url": "https://github.com/proycon/colibri-core",
-    "description": "Python binding to C++ library for extracting and working with with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way."
+    "description": "Python binding to C++ library for extracting and working with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way."
   },
   {
     "name": "spaCy",
@@ -2482,12 +2606,20 @@
   {
     "name": "DeepPavlov",
     "url": "https://github.com/deepmipt/DeepPavlov/",
-    "description": "conversational AI library with many pretrained Russian NLP models."
+    "description": "conversational AI library with many pre-trained Russian NLP models."
   },
   {
     "name": "BigARTM",
     "url": "https://github.com/bigartm/bigartm",
     "description": "topic modelling platform."
+  },
+  {
+    "name": "igel -> A delightful machine learning tool that allows you to train/fit, test and use models without writing code",
+    "url": "https://github.com/nidhaloff/igel"
+  },
+  {
+    "name": "ML Model building -> A Repository Containing Classification, Clustering, Regression, Recommender Notebooks with illustration to make them.",
+    "url": "https://github.com/Shanky-21/Machine_learning"
   },
   {
     "name": "ML/DL project template",
@@ -2514,7 +2646,7 @@
     "url": "https://github.com/yzhao062/pyod"
   },
   {
-    "name": "steppy -> Lightweight, Python library for fast and reproducible machine learning experimentation. Introduces very simple interface that enables clean machine learning pipeline design.",
+    "name": "steppy -> Lightweight, Python library for fast and reproducible machine learning experimentation. Introduces a very simple interface that enables clean machine learning pipeline design.",
     "url": "https://github.com/neptune-ml/steppy"
   },
   {
@@ -2581,7 +2713,7 @@
     "description": "A Python module for metric learning."
   },
   {
-    "name": "SimpleAI Python implementation of many of the artificial intelligence algorithms described on the book \"Artificial Intelligence, a Modern Approach\". It focuses on providing an easy to use, well documented and tested library.",
+    "name": "SimpleAI Python implementation of many of the artificial intelligence algorithms described in the book \"Artificial Intelligence, a Modern Approach\". It focuses on providing an easy to use, well documented and tested library.",
     "url": "https://github.com/simpleai-team/simpleai"
   },
   {
@@ -2716,12 +2848,12 @@
   {
     "name": "neuropredict",
     "url": "https://github.com/raamana/neuropredict",
-    "description": "Aimed at novice machine learners and non-expert programmers, this package offers easy (no coding needed) and comprehensive machine learning (evaluation and full report of predictive performance WITHOUT requiring you to code) in Python for NeuroImaging and any other type of features. This is aimed at absorbing the much of the ML workflow, unlike other packages like nilearn and pymvpa, which require you to learn their API and code to produce anything useful."
+    "description": "Aimed at novice machine learners and non-expert programmers, this package offers easy (no coding needed) and comprehensive machine learning (evaluation and full report of predictive performance WITHOUT requiring you to code) in Python for NeuroImaging and any other type of features. This is aimed at absorbing much of the ML workflow, unlike other packages like nilearn and pymvpa, which require you to learn their API and code to produce anything useful."
   },
   {
     "name": "imbalanced-learn",
-    "url": "https://imbalanced-learn.org/en/stable/index.html",
-    "description": "Python module to perform under sampling and over sampling with various techniques."
+    "url": "https://imbalanced-learn.org/stable/",
+    "description": "Python module to perform under sampling and oversampling with various techniques."
   },
   {
     "name": "Shogun",
@@ -2752,11 +2884,6 @@
     "name": "pyhsmm",
     "url": "https://github.com/mattjj/pyhsmm",
     "description": "library for approximate unsupervised inference in Bayesian Hidden Markov Models (HMMs) and explicit-duration Hidden semi-Markov Models (HSMMs), focusing on the Bayesian Nonparametric extensions, the HDP-HMM and HDP-HSMM, mostly with weak-limit approximations."
-  },
-  {
-    "name": "mrjob",
-    "url": "https://pythonhosted.org/mrjob/",
-    "description": "A library to let Python program run on Hadoop."
   },
   {
     "name": "SKLL",
@@ -2934,7 +3061,7 @@
   {
     "name": "stacked_generalization",
     "url": "https://github.com/fukatani/stacked_generalization",
-    "description": "Implementation of machine learning stacking technic as handy library in Python."
+    "description": "Implementation of machine learning stacking technique as a handy library in Python."
   },
   {
     "name": "modAL",
@@ -3064,6 +3191,21 @@
     "description": "Scalable deep learning training platform, including integrated support for distributed training, hyperparameter tuning, experiment tracking, and model management."
   },
   {
+    "name": "PySyft",
+    "url": "https://github.com/OpenMined/PySyft",
+    "description": "A Python library for secure and private Deep Learning built on PyTorch and TensorFlow."
+  },
+  {
+    "name": "PyGrid",
+    "url": "https://github.com/OpenMined/PyGrid/",
+    "description": "Peer-to-peer network of data owners and data scientists who can collectively train AI models using PySyft"
+  },
+  {
+    "name": "DataVisualization",
+    "url": "https://github.com/Shanky-21/Data_visualization",
+    "description": "A Github Repository Where you can Learn Datavisualizatoin Basics to Intermediate level."
+  },
+  {
     "name": "Cartopy",
     "url": "https://scitools.org.uk/cartopy/docs/latest/",
     "description": "Cartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses."
@@ -3090,7 +3232,7 @@
   {
     "name": "Mars",
     "url": "https://github.com/mars-project/mars",
-    "description": "A tensor-based framework for large-scale data computation which often regarded as a parallel and distributed version of NumPy."
+    "description": "A tensor-based framework for large-scale data computation which is often regarded as a parallel and distributed version of NumPy."
   },
   {
     "name": "NetworkX",
@@ -3548,46 +3690,6 @@
     "description": "Code for hyperparameter tuning/optimization of machine learning and deep learning algorithms."
   },
   {
-    "name": "nn_builder",
-    "url": "https://github.com/p-christ/nn_builder",
-    "description": "nn_builder is a python package that lets you build neural networks in 1 line"
-  },
-  {
-    "name": "NeuralTalk",
-    "url": "https://github.com/karpathy/neuraltalk",
-    "description": "NeuralTalk is a Python+numpy project for learning Multimodal Recurrent Neural Networks that describe images with sentences."
-  },
-  {
-    "name": "Neuron",
-    "url": "https://github.com/molcik/python-neuron",
-    "description": "Neuron is simple class for time series predictions. It's utilize LNU (Linear Neural Unit), QNU (Quadratic Neural Unit), RBF (Radial Basis Function), MLP (Multi Layer Perceptron), MLP-ELM (Multi Layer Perceptron - Extreme Learning Machine) neural networks learned with Gradient descent or LeLevenberg–Marquardt algorithm."
-  },
-  {
-    "name": "NeuralTalk",
-    "url": "https://github.com/karpathy/neuraltalk2",
-    "description": "NeuralTalk is a Python+numpy project for learning Multimodal Recurrent Neural Networks that describe images with sentences. [Deprecated]"
-  },
-  {
-    "name": "Neuron",
-    "url": "https://github.com/molcik/python-neuron",
-    "description": "Neuron is simple class for time series predictions. It's utilize LNU (Linear Neural Unit), QNU (Quadratic Neural Unit), RBF (Radial Basis Function), MLP (Multi Layer Perceptron), MLP-ELM (Multi Layer Perceptron - Extreme Learning Machine) neural networks learned with Gradient descent or LeLevenberg–Marquardt algorithm. [Deprecated]"
-  },
-  {
-    "name": "Data Driven Code",
-    "url": "https://github.com/atmb4u/data-driven-code",
-    "description": "Very simple implementation of neural networks for dummies in python without using any libraries, with detailed comments."
-  },
-  {
-    "name": "Machine Learning, Data Science and Deep Learning with Python",
-    "url": "https://www.manning.com/livevideo/machine-learning-data-science-and-deep-learning-with-python",
-    "description": "LiveVideo course that covers machine learning, Tensorflow, artificial intelligence, and neural networks."
-  },
-  {
-    "name": "TResNet: High Performance GPU-Dedicated Architecture",
-    "url": "https://github.com/mrT23/TResNet",
-    "description": "TResNet models were designed and optimized to give the best speed-accuracy tradeoff out there on GPUs."
-  },
-  {
     "name": "open-solution-home-credit -> source code and experiments results for Home Credit Default Risk.",
     "url": "https://github.com/neptune-ml/open-solution-home-credit"
   },
@@ -3776,7 +3878,7 @@
     "description": "Expose libstemmer_c to Ruby. [Deprecated]"
   },
   {
-    "name": "Raspel",
+    "name": "Raspell",
     "url": "https://sourceforge.net/projects/raspell/",
     "description": "raspell is an interface binding for ruby. [Deprecated]"
   },
@@ -4160,12 +4262,12 @@
   {
     "name": "party",
     "url": "https://cran.r-project.org/web/packages/party/index.html",
-    "description": "party: A Laboratory for Recursive Partytioning."
+    "description": "party: A Laboratory for Recursive Partitioning"
   },
   {
     "name": "partykit",
     "url": "https://cran.r-project.org/web/packages/partykit/index.html",
-    "description": "partykit: A Toolkit for Recursive Partytioning."
+    "description": "partykit: A Toolkit for Recursive Partitioning."
   },
   {
     "name": "penalized",
@@ -4566,7 +4668,7 @@
   },
   {
     "name": "Smile",
-    "url": "https://haifengl.github.io/smile/",
+    "url": "https://haifengl.github.io/",
     "description": "Statistical Machine Intelligence and Learning Engine."
   },
   {
@@ -4692,15 +4794,20 @@
   {
     "name": "Sacred",
     "url": "https://github.com/IDSIA/sacred",
-    "description": "Python tool to help  you configure, organize, log and reproduce experiments. Like a notebook lab in the context of Chemestry/Biology. The community has built multiple add-ons leveraging the proposed standard."
+    "description": "Python tool to help  you configure, organize, log and reproduce experiments. Like a notebook lab in the context of Chemistry/Biology. The community has built multiple add-ons leveraging the proposed standard."
   },
   {
     "name": "MLFlow",
     "url": "https://mlflow.org/",
-    "description": "platform to manage the ML lifecycle, including experimentation, reproducibility and deployment. Framework anf language agnostic, take a look at all the built-in integrations."
+    "description": "platform to manage the ML lifecycle, including experimentation, reproducibility and deployment. Framework and language agnostic, take a look at all the built-in integrations."
   },
   {
-    "name": "More tools to improve the ML lifecycle: Catalyst, PachydermIO. The following are Github-alike and targetting teams Weights & Biases, Neptune.Ml, Comet.ml, Valohai.ai.",
+    "name": "Weights & Biases",
+    "url": "https://www.wandb.com/",
+    "description": "Machine learning experiment tracking, dataset versioning, hyperparameter search, visualization, and collaboration"
+  },
+  {
+    "name": "More tools to improve the ML lifecycle: Catalyst, PachydermIO. The following are Github-alike and targeting teams Weights & Biases, Neptune.Ml, Comet.ml, Valohai.ai, DAGsHub.",
     "url": "https://github.com/catalyst-team/catalyst"
   },
   {

@@ -40,6 +40,16 @@
     "description": "Make ido display vertically."
   },
   {
+    "name": "Icomplete",
+    "url": "https://www.gnu.org/software/emacs/manual/html_node/emacs/Icomplete.html",
+    "description": "[built-in] See the list of candidates while completing for any command. Can be made to behave more like Ido with `M-x fido-mode`."
+  },
+  {
+    "name": "icomplete-vertical",
+    "url": "https://github.com/oantolin/icomplete-vertical",
+    "description": "Make Icomplete display vertically."
+  },
+  {
     "name": "Helm",
     "url": "https://github.com/emacs-helm/helm",
     "description": "(Formerly ‘Anything’) A powerful completion and selection narrowing framework. ( External Guides 1 )"
@@ -58,6 +68,11 @@
     "name": "selectrum",
     "url": "https://github.com/raxod502/selectrum",
     "description": "Clean, stable, and intuitive incremental narrowing framework for Emacs."
+  },
+  {
+    "name": "Orderless",
+    "url": "https://github.com/oantolin/orderless",
+    "description": "Use space-separated search terms in any order when completing with Icomplete or the default interface."
   },
   {
     "name": "Snails",
@@ -380,6 +395,21 @@
     "description": "Jump lines using the home row."
   },
   {
+    "name": "block-nav",
+    "url": "https://github.com/nixin72/block-nav.el",
+    "description": "Navigate by indentation block levels."
+  },
+  {
+    "name": "emacs-spatial-navigate",
+    "url": "https://gitlab.com/ideasman42/emacs-spatial-navigate",
+    "description": "Navigate by indentation and whitespace blocks."
+  },
+  {
+    "name": "mwim",
+    "url": "https://github.com/alezost/mwim.el",
+    "description": "Toggle point between line positions of interest."
+  },
+  {
     "name": "undo-tree",
     "url": "https://www.emacswiki.org/emacs/UndoTree",
     "description": "Visualize the whole undo history in buffer as a tree, and you can access anywhere in it."
@@ -438,6 +468,11 @@
     "name": "focus",
     "url": "https://github.com/larstvei/Focus",
     "description": "Dim the font color of text in surrounding paragraphs."
+  },
+  {
+    "name": "Solaire mode",
+    "url": "https://github.com/hlissner/emacs-solaire-mode",
+    "description": "Visually distinguish file-visiting windows from other types of windows (like popups or sidebars) by giving them a slightly different background."
   },
   {
     "name": "beacon",
@@ -1185,6 +1220,16 @@
     "description": "Launch GO unit tests."
   },
   {
+    "name": "emacs-go-tag",
+    "url": "https://github.com/brantou/emacs-go-tag",
+    "description": "Edit field tags for golang struct fields, based on gomodifytags"
+  },
+  {
+    "name": "flycheck-golangci-lint",
+    "url": "https://github.com/weijiangan/flycheck-golangci-lint",
+    "description": "Flycheck checker for golangci-lint"
+  },
+  {
     "name": "csharp-mode",
     "url": "https://github.com/josteink/csharp-mode",
     "description": "Major mode for C#."
@@ -1569,6 +1614,11 @@
     "description": "Web app for viewing and editing org files online, optimized for mobile use."
   },
   {
+    "name": "org-roam",
+    "url": "https://github.com/org-roam/org-roam",
+    "description": " a Roam replica built on top of the all-powerful Org-mode."
+  },
+  {
     "name": "toc-org",
     "url": "https://github.com/snosov1/toc-org",
     "description": "Generate TOC for Org files."
@@ -1759,6 +1809,11 @@
     "description": "Emacs functions for macOS."
   },
   {
+    "name": "osx-trash",
+    "url": "https://github.com/emacsorphanage/osx-trash/",
+    "description": "Make delete-by-moving-to-trash do what you expect it to do on macOS."
+  },
+  {
     "name": "wgrep",
     "url": "https://github.com/mhayashi1120/Emacs-wgrep",
     "description": " Writable grep/ack/ag/pt buffer and apply the changes to files."
@@ -1901,6 +1956,11 @@
     "name": "markdownfmt",
     "url": "https://github.com/nlamirault/emacs-markdownfmt",
     "description": "Format markdown using markdownfmt."
+  },
+  {
+    "name": "grip-mode",
+    "url": "https://github.com/seagle0128/grip-mode",
+    "description": "Instant Github-flavored Markdown/Org preview using Grip"
   },
   {
     "name": "AUCTeX",
@@ -2142,11 +2202,6 @@
     "description": "A use-package wrapper for package runtime dependencies management."
   },
   {
-    "name": "ESUP",
-    "url": "https://github.com/jschaf/esup",
-    "description": "Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs."
-  },
-  {
     "name": "no-littering",
     "url": "https://github.com/emacscollective/no-littering",
     "description": "Help keeping ~/.emacs.d clean."
@@ -2160,6 +2215,26 @@
     "name": "SPU",
     "url": "https://github.com/mola-T/SPU",
     "description": "Emacs Silent Package Upgrader."
+  },
+  {
+    "name": "ESUP",
+    "url": "https://github.com/jschaf/esup",
+    "description": "Emacs Start Up Profiler.  Benchmark Emacs Startup time without ever leaving your Emacs."
+  },
+  {
+    "name": "Chemacs, Chemacs2",
+    "url": "https://github.com/plexus/chemacs",
+    "description": "Ease testing of different emacs setups, an Emacs profile switcher which assists running multiple Emacs configurations side by side."
+  },
+  {
+    "name": "elisp-bug-hunter",
+    "url": "https://github.com/Malabarba/elisp-bug-hunter",
+    "description": "Debug and bisect your init file for errors or assertions."
+  },
+  {
+    "name": "explain-pause-mode",
+    "url": "https://github.com/lastquestion/explain-pause-mode",
+    "description": "Monitor interactions to discover configurations or packages which slow down Emacs."
   },
   {
     "name": "dash.el",
@@ -2436,6 +2511,11 @@
     "description": "Emacs major mode for coding in Csound."
   },
   {
+    "name": "eradio",
+    "url": "https://github.com/olav35/eradio",
+    "description": "An Internet radio player"
+  },
+  {
     "name": "ledger-mode",
     "url": "https://github.com/ledger/ledger-mode",
     "description": "Plain text double-entry accounting in Emacs with ledger."
@@ -2546,6 +2626,26 @@
     "description": "SuperCollider/Emacs interface"
   },
   {
+    "name": "keycast",
+    "url": "https://github.com/tarsius/keycast",
+    "description": "Show current commands and its key in the mode line."
+  },
+  {
+    "name": "emacs-gif-screencast",
+    "url": "https://gitlab.com/ambrevar/emacs-gif-screencast",
+    "description": "Record Emacs frames to gifs."
+  },
+  {
+    "name": "frameshot",
+    "url": "https://github.com/tarsius/frameshot",
+    "description": "Take screenshots of Emacs frames."
+  },
+  {
+    "name": "script2svg",
+    "url": "https://github.com/ffevotte/script2svg",
+    "description": "Record terminal sessions as svg."
+  },
+  {
     "name": "Spacemacs",
     "url": "https://github.com/syl20bnr/spacemacs",
     "description": "A slick Evil focused starter kit: do not fear RSI anymore."
@@ -2628,10 +2728,6 @@
   {
     "name": "In addition, for an excellent selection of personal .emacs.d configurations, take a look at https://github.com/caisah/emacs.dz.",
     "url": "https://github.com/caisah/emacs.dz"
-  },
-  {
-    "name": "Furthermore, to ease testing of different emacs setups, try out Chemacs, an Emacs profile switcher which assists in running multiple Emacs configurations side by side.",
-    "url": "https://github.com/plexus/chemacs"
   },
   {
     "name": "A Guided Tour of Emacs",

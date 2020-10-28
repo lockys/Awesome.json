@@ -95,6 +95,11 @@
     "description": "A real-time sound processing and playback system. Artistic License 2.0."
   },
   {
+    "name": "mixalot",
+    "url": "https://github.com/ahefner/mixalot",
+    "description": "A loosely-coupled collection of audio libraries. MIT."
+  },
+  {
     "name": "asdf-linguist",
     "url": "https://github.com/eudoxia0/asdf-linguist",
     "description": "Extensions for ASDF. Expat."
@@ -123,6 +128,11 @@
     "name": "lispc",
     "url": "https://github.com/eratosthenesia/lispc",
     "description": "a powerful \"lispsy\" macrolanguage for C. MIT."
+  },
+  {
+    "name": "with-c-syntax",
+    "url": "https://github.com/y2q-actionman/with-c-syntax",
+    "description": "a fun package which introduces the C language syntax into Common Lisp. (Yes, this package is not for practical coding, I think.) WTFPL Licence."
   },
   {
     "name": "ecrepl",
@@ -278,9 +288,9 @@
     "description": "RethinkDB client. Expat."
   },
   {
-    "name": "clouchdb",
-    "url": "https://common-lisp.net/project/clouchdb/",
-    "description": "Library for interacting with CouchDB. FreeBSD."
+    "name": "cl-mango",
+    "url": "https://github.com/cmoore/cl-mango/",
+    "description": " A minimalist CouchDB 2.x database client. BSD_3Clause. See also clouchdb - Library for interacting with CouchDB. FreeBSD."
   },
   {
     "name": "cl-migratum",
@@ -485,6 +495,11 @@
     "description": "Baseline JPEG encoder and decoder library. 3-clause BSD."
   },
   {
+    "name": "cl-liballegro",
+    "url": "https://github.com/resttime/cl-liballegro",
+    "description": "Interface and bindings to the Allegro 5 game programming library. zlib."
+  },
+  {
     "name": "cl-opengl",
     "url": "https://github.com/3b/cl-opengl",
     "description": "CFFI bindings to OpenGL, GLU and GLUT APIs. 3-clause BSD."
@@ -555,6 +570,16 @@
     "description": "A PNG (Portable Network Graphics) image format decoder in portable Common Lisp with an emphasis on speed. MIT."
   },
   {
+    "name": "cl-cuda",
+    "url": "https://github.com/takagi/cl-cuda",
+    "description": "A library to use NVIDIA CUDA in Common Lisp programs. LLGPL."
+  },
+  {
+    "name": "LispWork's CAPI",
+    "url": "http://www.lispworks.com/products/capi.html",
+    "description": "A portable GUI toolkit, with mobile runtime. Proprietary, but comes with a free version."
+  },
+  {
     "name": "IUP",
     "url": "https://github.com/lispnik/iup/",
     "description": "CFFI bindings to the IUP Portable User Interface library (pre-ALPHA). IUP is cross-platform (Windows, macOS, GNU/Linux, with new Android, iOs, Cocoa and Web Assembly drivers), has many widgets, has a small api and is actively developed."
@@ -608,6 +633,10 @@
     "name": "bodge-nuklear",
     "url": "https://github.com/borodust/bodge-nuklear",
     "description": "Wrapper over the Nuklear immediate mode GUI library. MIT."
+  },
+  {
+    "name": "Allegro's Common Graphics- a library of functions for writing windowized GUIs for Windows, Mac and Linux. Proprietary.",
+    "url": "https://franz.com/products/allegro-common-lisp/acl_gui_tools.lhtml"
   },
   {
     "name": "ECL",
@@ -705,11 +734,6 @@
     "description": "A collection of anaphoric macros. Public domain."
   },
   {
-    "name": "interface",
-    "url": "https://bitbucket.org/tarballs_are_good/interface",
-    "description": "A protocol library. 3-clause BSD."
-  },
-  {
     "name": "arrow-macros",
     "url": "https://github.com/hipeta/arrow-macros",
     "description": "Clojure-like threading macros. MIT."
@@ -726,7 +750,7 @@
   },
   {
     "name": "hu.dwim.walker",
-    "url": "http://quickdocs.org/hu.dwim.walker/api",
+    "url": "https://quickref.common-lisp.net/hu.dwim.walker.html",
     "description": "a code walker and unwalker (aka AST parser and unparser). BSD. See also this blog post."
   },
   {
@@ -821,8 +845,8 @@
   },
   {
     "name": "cl-advice",
-    "url": "https://bitbucket.org/budden/budden-tools/src/default/cl-advice/?at=default",
-    "description": "a portability layer advice library for SBCL, CCL, LispWorks and Allegro. Not in Quicklisp."
+    "url": "https://github.com/lisp-mirror/budden-tools/blob/213ab2b52a1b0c0b496efd30c3b5143f5c8e1ff2/cl-advice/README.md",
+    "description": "an attempt of portable layer advice library for SBCL, CCL, LispWorks and Allegro. Not in Quicklisp."
   },
   {
     "name": "for",
@@ -840,6 +864,11 @@
     "description": "A concise and extensible iteration facility that has the advantage of integrating well with FSet (see the Data Structures section), as it was written by the same author. In Quicklisp as part of misc-extensions. Public domain."
   },
   {
+    "name": "trivial-do",
+    "url": "https://github.com/yitzchak/trivial-do/",
+    "description": " Additional dolist style macros for Common Lisp. MIT."
+  },
+  {
     "name": "doplus – another extensible iteration library, similar to :for.",
     "url": "https://bitbucket.org/alessiostalla/doplus/wiki/Home"
   },
@@ -849,13 +878,18 @@
     "description": "Python style generators for Common Lisp. Includes a port of itertools. Apache2."
   },
   {
+    "name": "picl",
+    "url": "https://github.com/anlsh/picl",
+    "description": "An (almost) complete port of Python's itertools package, complete with laziness where applicable, and not relying on cl-cont. MIT."
+  },
+  {
     "name": "fn",
     "url": "https://github.com/cbaggers/fn",
     "description": "a couple of lambda shorthand macros. (fn* (+ _ _))  -->  (lambda (_) (+ _ _)). Public domain."
   },
   {
     "name": "f-underscore",
-    "url": "http://quickdocs.org/f-underscore/api",
+    "url": "https://gitlab.common-lisp.net/bpm/f-underscore",
     "description": "a tiny library of functional programming utils. (f_ (+ _ _)) -> (lambda (_) (+ _ _)). Public domain."
   },
   {
@@ -1018,11 +1052,6 @@
     "description": "The simplified version of CLHS."
   },
   {
-    "name": "Quickdocs",
-    "url": "http://quickdocs.org/",
-    "description": "A reference for the libraries provided by Quicklisp."
-  },
-  {
     "name": "Land of Lisp",
     "url": "http://landoflisp.com/",
     "description": "A fun, game-oriented introduction to Common Lisp."
@@ -1083,11 +1112,6 @@
     "name": "#lisp on Freenode",
     "url": "http://log.irc.tymoon.eu/freenode/lisp",
     "description": "main Common Lisp IRC channel."
-  },
-  {
-    "name": "chat.lisp.cl",
-    "url": "https://chat.lisp.cl/",
-    "description": "a Mattermost chat server, with bridges to IRC and Discord."
   },
   {
     "name": "Planet Lisp",
@@ -1320,11 +1344,6 @@
     "description": "an asset manager for"
   },
   {
-    "name": "flute",
-    "url": "https://github.com/ailisp/flute",
-    "description": "An easily composable HTML5 generation library with the"
-  },
-  {
     "name": "eco",
     "url": "https://github.com/eudoxia0/eco",
     "description": "Fast, flexible, designer-friendly template engine. Expat."
@@ -1335,14 +1354,14 @@
     "description": "the completness of Djula meets the usability of Eco. MIT."
   },
   {
-    "name": "cl-markup",
-    "url": "https://github.com/arielnetworks/cl-markup",
-    "description": "Modern markup generation library. LLGPL."
-  },
-  {
     "name": "cl-closure-template",
     "url": "https://github.com/archimag/cl-closure-template",
     "description": "Implementation of Google's Closure templates. LLGPL."
+  },
+  {
+    "name": "flute",
+    "url": "https://github.com/ailisp/flute",
+    "description": "An easily composable HTML5 generation library with the most simplistic syntax. MIT."
   },
   {
     "name": "clip",
@@ -1350,9 +1369,9 @@
     "description": "An HTML template processor where the templates are written in HTML. Artistic License 2.0."
   },
   {
-    "name": "lsx",
+    "name": "lsx and markup",
     "url": "https://github.com/fukamachi/lsx/",
-    "description": "Embeddable HTML templating engine with JSX-like syntax. BSD_2Clause."
+    "description": "Two JSX-like templating engines, where HTML tags are Common Lisp code. markup comes with an Emacs package."
   },
   {
     "name": "quri",
@@ -1651,6 +1670,11 @@
     "description": "a matrix library. BSD_2Clause."
   },
   {
+    "name": "physical-quantities",
+    "url": "https://github.com/mrossini-ethz/physical-quantities",
+    "description": "a library that provides a numeric type with optional unit and/or uncertainty for computations with automatic error propagation. GPL2"
+  },
+  {
     "name": "lfarm",
     "url": "https://github.com/lmj/lfarm",
     "description": "distributing work across machines (on top of lparallel and usocket). BSD_3Clause"
@@ -1689,6 +1713,11 @@
     "name": "cl-coroutine",
     "url": "https://github.com/takagi/cl-coroutine",
     "description": "a coroutine library. It uses the CL-CONT continuations library in its implementation. MIT."
+  },
+  {
+    "name": "STMX",
+    "url": "https://github.com/cosmos72/stmx",
+    "description": " High performance Transactional Memory for Common Lisp. LLGPL."
   },
   {
     "name": "erlangen",
@@ -1744,7 +1773,7 @@
   },
   {
     "name": "cl-cron",
-    "url": "http://quickdocs.org/cl-cron/api",
+    "url": "https://github.com/ciel-lang/cl-cron",
     "description": "A simple tool that provides cron like facilities. GPL3."
   },
   {
@@ -1910,6 +1939,11 @@
     "description": "an ipython-like REPL. With completion, shell commands, magic commands, debugger, etc. MIT. With colorthemes."
   },
   {
+    "name": "sbcli",
+    "url": "https://github.com/hellerve/sbcli",
+    "description": "a readline REPL for SBCL. With completion, quick commands, optional syntax highlighting (with pygments), and no interactive debugger. GPL3."
+  },
+  {
     "name": "magic-ed",
     "url": "https://github.com/sanel/magic-ed",
     "description": "a tiny editing facility, where you can directly load, edit, manipulate and evaluate file or file content from the REPL, when going to a full IDE is too much. MIT."
@@ -1937,6 +1971,16 @@
     "name": "smug",
     "url": "https://github.com/drewc/smug",
     "description": "parser combinators for Common Lisp. SMUG makes it simple to create quick extensible recursive descent parsers without funky syntax or impenetrable macrology. MIT."
+  },
+  {
+    "name": "parseq",
+    "url": "https://github.com/mrossini-ethz/parseq",
+    "description": "a library for parsing sequences such as strings and lists using parsing expression grammars. Inspired by Esrap. GPL2."
+  },
+  {
+    "name": "texp",
+    "url": "https://github.com/eugeneia/texp/",
+    "description": "A DSL to generate TeX. AGPL-3.0."
   },
   {
     "name": "montezuma",
@@ -2012,6 +2056,21 @@
     "name": "clache",
     "url": "https://github.com/html/clache",
     "description": "General caching facility. LLGPL."
+  },
+  {
+    "name": "chipz",
+    "url": "https://github.com/froydnj/chipz",
+    "description": "A decompression library. 3-clause BSD."
+  },
+  {
+    "name": "Salza2",
+    "url": "http://www.xach.com/lisp/salza2/",
+    "description": "A library for creating compressed data. FreeBSD."
+  },
+  {
+    "name": "zippy",
+    "url": "https://github.com/Shinmera/zippy",
+    "description": " A ZIP archive format library based on 3bz. zlib."
   },
   {
     "name": "envy",
@@ -2127,6 +2186,16 @@
     "name": "trivial-with-current-source-from",
     "url": "https://github.com/scymtym/trivial-with-current-source-form/",
     "description": "Helps macro writers produce better errors for macro users. GPL3."
+  },
+  {
+    "name": "trivial-benchmark",
+    "url": "https://github.com/Shinmera/trivial-benchmark",
+    "description": "Tiny benchmarking library. Artistic Licence 2.0."
+  },
+  {
+    "name": "glyphs",
+    "url": "https://github.com/ahungry/glyphs/",
+    "description": "A library for cutting down the verboseness of Common Lisp in places. GNU GPL3."
   },
   {
     "name": "sphinxcontrib-cldomain",
@@ -2285,7 +2354,7 @@
   },
   {
     "name": "cl-pslib",
-    "url": "http://quickdocs.org/cl-pslib/",
+    "url": "https://notabug.org/cage/cl-pslib",
     "description": "a (thin) wrapper around the pslib library for generating PostScript files. Also cl-pslib-barcode. LLGPL."
   },
   {
@@ -2319,16 +2388,6 @@
     "description": "A charset encoding/decoding library. Expat."
   },
   {
-    "name": "chipz",
-    "url": "https://github.com/froydnj/chipz",
-    "description": "A decompression library. 3-clause BSD."
-  },
-  {
-    "name": "cl-cuda",
-    "url": "https://github.com/takagi/cl-cuda",
-    "description": "A library to use NVIDIA CUDA in Common Lisp programs. LLGPL."
-  },
-  {
     "name": "corona",
     "url": "https://github.com/eudoxia0/corona",
     "description": " Create and manage virtual machines from Common Lisp http://eudoxia.me/corona MIT."
@@ -2339,19 +2398,9 @@
     "description": "Fast octet-vector/stream I/O. 3-clause BSD."
   },
   {
-    "name": "glyphs",
-    "url": "https://github.com/ahungry/glyphs/",
-    "description": "A library for cutting down the verboseness of Common Lisp in places. GNU GPL3."
-  },
-  {
     "name": "iolib",
     "url": "https://github.com/sionescu/iolib",
     "description": "I/O library. Expat."
-  },
-  {
-    "name": "mixalot",
-    "url": "https://github.com/ahefner/mixalot",
-    "description": "A loosely-coupled collection of audio libraries. MIT."
   },
   {
     "name": "named-readtables",
@@ -2359,34 +2408,9 @@
     "description": "Provides a readtable namespace, akin to package namespaces. 3-clause BSD."
   },
   {
-    "name": "nEXT-Browser",
-    "url": "http://github.com/nEXT-Browser/nEXT",
-    "description": "A productivity focused, extensible/programmable web browser. 3-clause BSD."
-  },
-  {
-    "name": "Salza2",
-    "url": "http://www.xach.com/lisp/salza2/",
-    "description": "A library for creating compressed data. FreeBSD."
-  },
-  {
     "name": "simple-currency",
     "url": "https://github.com/a0-prw/simple-currency",
     "description": "A currency conversion library using daily information published by the ECB. FreeBSD."
-  },
-  {
-    "name": "template",
-    "url": "https://bitbucket.org/tarballs_are_good/template",
-    "description": "A library for templates and functions, similar to C++. 3-clause BSD."
-  },
-  {
-    "name": "texp",
-    "url": "https://github.com/eugeneia/texp/",
-    "description": "A DSL to generate TeX. AGPL-3.0."
-  },
-  {
-    "name": "trivial-benchmark",
-    "url": "https://github.com/Shinmera/trivial-benchmark",
-    "description": "Tiny benchmarking library. Artistic Licence 2.0."
   },
   {
     "name": "trivial-garbage",
@@ -2420,7 +2444,7 @@
   },
   {
     "name": "xmls",
-    "url": "http://quickdocs.org/xmls/",
+    "url": "https://github.com/rpgoldman/xmls",
     "description": "A small, simple, non-validating XML parser. 3-clause BSD."
   },
   {

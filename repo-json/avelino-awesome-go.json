@@ -1,10 +1,5 @@
 [
   {
-    "name": "EasyMIDI",
-    "url": "https://github.com/algoGuy/EasyMIDI",
-    "description": "EasyMidi is a simple and reliable library for working with standard midi file (SMF)."
-  },
-  {
     "name": "flac",
     "url": "https://github.com/mewkiz/flac",
     "description": "Native Go FLAC encoder/decoder with support for FLAC streams."
@@ -20,9 +15,9 @@
     "description": "libsox bindings for go."
   },
   {
-    "name": "go_mediainfo",
-    "url": "https://github.com/zhulik/go_mediainfo",
-    "description": "libmediainfo bindings for go."
+    "name": "GoAudio",
+    "url": "https://github.com/DylanMeeus/GoAudio",
+    "description": "Native Go Audio Processing Library."
   },
   {
     "name": "gosamplerate",
@@ -32,7 +27,7 @@
   {
     "name": "id3v2",
     "url": "https://github.com/bogem/id3v2",
-    "description": "Fast and powerful ID3 decoding and encodung library written completely in Go."
+    "description": "ID3 decoding and encoding library for Go."
   },
   {
     "name": "malgo",
@@ -73,11 +68,6 @@
     "name": "portmidi",
     "url": "https://github.com/rakyll/portmidi",
     "description": "Go bindings for PortMidi."
-  },
-  {
-    "name": "taglib",
-    "url": "https://github.com/wtolson/go-taglib",
-    "description": "Go bindings for taglib."
   },
   {
     "name": "vorbis",
@@ -380,11 +370,6 @@
     "description": "Simple and complete API for building command line interfaces in Go."
   },
   {
-    "name": "cli-init",
-    "url": "https://github.com/tcnksm/gcli",
-    "description": "The easy way to start building Golang command line applications."
-  },
-  {
     "name": "climax",
     "url": "http://github.com/tucnak/climax",
     "description": "Alternative CLI with \"human face\", in spirit of Go command."
@@ -423,11 +408,6 @@
     "name": "Dnote",
     "url": "https://github.com/dnote/dnote",
     "description": "A simple command line notebook with multi-device sync."
-  },
-  {
-    "name": "docopt.go",
-    "url": "https://github.com/docopt/docopt.go",
-    "description": "Command-line arguments parser that will make you smile."
   },
   {
     "name": "env",
@@ -513,11 +493,6 @@
     "name": "pflag",
     "url": "https://github.com/spf13/pflag",
     "description": "Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags."
-  },
-  {
-    "name": "readline",
-    "url": "https://github.com/chzyer/readline",
-    "description": "Pure golang implementation that provides most features in GNU-Readline under MIT license."
   },
   {
     "name": "sand",
@@ -1360,11 +1335,6 @@
     "description": "Implementation of the LevelDB key/value database in Go."
   },
   {
-    "name": "gostore",
-    "url": "https://github.com/twharmon/gostore",
-    "description": "Gostore is a simple, durable, embedded key-value storage engine written in Go."
-  },
-  {
     "name": "groupcache",
     "url": "https://github.com/golang/groupcache",
     "description": "Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases."
@@ -1685,6 +1655,11 @@
     "description": "Tool that generates constants from files with raw SQL queries."
   },
   {
+    "name": "sq",
+    "url": "https://github.com/bokwoon95/go-structured-query",
+    "description": "Type-safe SQL builder and struct mapper for Go."
+  },
+  {
     "name": "sqlf",
     "url": "https://github.com/leporo/sqlf",
     "description": "Fast SQL query builder."
@@ -1887,7 +1862,7 @@
   {
     "name": "qmgo",
     "url": "https://github.com/qiniu/qmgo",
-    "description": "The MongoDB dirver for Go. It‘s based on official MongoDB driver but easier to use like Mgo."
+    "description": "The MongoDB driver for Go. It‘s based on official MongoDB driver but easier to use like Mgo."
   },
   {
     "name": "redeo",
@@ -2735,6 +2710,11 @@
     "description": "CSRF protection middleware for Go."
   },
   {
+    "name": "qs",
+    "url": "https://github.com/sonh/qs",
+    "description": "Go module for encoding structs into URL query parameters."
+  },
+  {
     "name": "queryparam",
     "url": "https://github.com/tomwright/queryparam",
     "description": "Decode url.Values into usable struct values of standard or custom types."
@@ -3003,6 +2983,11 @@
     "name": "breaker",
     "url": "https://github.com/kamilsk/breaker",
     "description": "Flexible mechanism to make execution flow interruptible."
+  },
+  {
+    "name": "channelify",
+    "url": "https://github.com/ddelizia/channelify",
+    "description": "Transform your function to return channels for easy and powerful parallel processing."
   },
   {
     "name": "conexec",
@@ -3565,6 +3550,11 @@
     "description": "Write and read JSON from different sources succinctly."
   },
   {
+    "name": "epoch",
+    "url": "https://github.com/vtopc/epoch",
+    "description": "Contains primitives for marshaling/unmarshaling Unix timestamp/epoch to/from build-in time.Time type in JSON."
+  },
+  {
     "name": "gjo",
     "url": "https://github.com/skanehira/gjo",
     "description": "Small utility to create JSON objects."
@@ -3633,6 +3623,11 @@
     "name": "jsonhal",
     "url": "https://github.com/RichardKnop/jsonhal",
     "description": "Simple Go package to make custom structs marshal into HAL compatible JSON responses."
+  },
+  {
+    "name": "jzon",
+    "url": "https://github.com/zerosnake0/jzon",
+    "description": "JSON library with standard compatible API/behavior."
   },
   {
     "name": "kazaam",
@@ -3833,6 +3828,11 @@
     "name": "ozzo-log",
     "url": "https://github.com/go-ozzo/ozzo-log",
     "description": "High performance logging supporting log severity, categorization, and filtering. Can send filtered log messages to various targets (e.g. console, network, mail)."
+  },
+  {
+    "name": "phuslu/log",
+    "url": "https://github.com/phuslu/log",
+    "description": "Structured Logging Made Easy."
   },
   {
     "name": "rollingwriter",
@@ -4405,6 +4405,11 @@
     "description": "Scaffold generates starter Go project layout. Lets you focus on business logic implemeted."
   },
   {
+    "name": "go-formatter",
+    "url": "https://gitlab.com/tymonx/go-formatter",
+    "description": "Implements replacement fields surrounded by curly braces {} format strings."
+  },
+  {
     "name": "gobeam/Stringy",
     "url": "https://github.com/gobeam/Stringy",
     "description": "String manipulation library to convert string to camel case, snake case, kebab case / slugify etc."
@@ -4725,6 +4730,11 @@
     "description": "Go bindings for the snowball libstemmer library including porter 2."
   },
   {
+    "name": "gosentiwordnet",
+    "url": "https://github.com/dinopuguh/gosentiwordnet",
+    "description": "Sentiment analyzer using sentiwordnet lexicon in Go."
+  },
+  {
     "name": "gotokenizer",
     "url": "https://github.com/xujiajun/gotokenizer",
     "description": "A tokenizer based on the dictionary and Bigram language models for Golang. (Now only support chinese segmentation)"
@@ -4733,6 +4743,11 @@
     "name": "gounidecode",
     "url": "https://github.com/fiam/gounidecode",
     "description": "Unicode transliterator (also known as unidecode) for Go."
+  },
+  {
+    "name": "govader",
+    "url": "https://github.com/jonreiter/govader",
+    "description": "Go implementation of VADER Sentiment Analysis."
   },
   {
     "name": "gse",
@@ -5137,7 +5152,7 @@
   {
     "name": "xtcp",
     "url": "https://github.com/xfxdev/xtcp",
-    "description": "TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol."
+    "description": "TCP Server Framework with simultaneous full duplex communication, graceful shutdown, and custom protocol."
   },
   {
     "name": "gentleman",
@@ -5306,8 +5321,8 @@
   },
   {
     "name": "rel",
-    "url": "https://github.com/Fs02/rel",
-    "description": "Golang SQL Repository Layer for Clean (Onion) Architecture."
+    "url": "https://github.com/go-rel/rel",
+    "description": "Modern Database Access Layer for Golang - Testable, Extendable and Crafted Into a Clean and Elegant API."
   },
   {
     "name": "SQLBoiler",
@@ -5993,6 +6008,11 @@
     "name": "nsq",
     "url": "http://nsq.io/",
     "description": "A realtime distributed messaging platform."
+  },
+  {
+    "name": "protoxy",
+    "url": "https://github.com/camgraff/protoxy",
+    "description": "A proxy server that converts JSON request bodies to Protocol Buffers."
   },
   {
     "name": "psql-streamer",
@@ -6740,6 +6760,11 @@
     "description": "fast string sorting algorithm."
   },
   {
+    "name": "regroup",
+    "url": "https://github.com/oriser/regroup",
+    "description": "Match regex expression named groups into go struct using struct tags and automatic parsing."
+  },
+  {
     "name": "Tagify",
     "url": "https://github.com/zoomio/tagify",
     "description": "Produces a set of tags from given source."
@@ -7078,6 +7103,11 @@
     "name": "pushover",
     "url": "https://github.com/gregdel/pushover",
     "description": "Go wrapper for the Pushover API."
+  },
+  {
+    "name": "rawg-sdk-go",
+    "url": "https://github.com/dimuska139/rawg-sdk-go",
+    "description": "Go library for the RAWG Video Games Database API"
   },
   {
     "name": "rrdaclient",
@@ -7540,6 +7570,11 @@
     "description": "Library inspired in Lazy evaluation and functional programming that takes the hassle out of working with arrays."
   },
   {
+    "name": "lets-go",
+    "url": "https://github.com/aplescia-chwy/lets-go",
+    "description": "Go module that provides common utilities for Cloud Native REST API development. Also contains AWS Specific utilities."
+  },
+  {
     "name": "limiters",
     "url": "https://github.com/mennanov/limiters",
     "description": "Rate limiters for distributed applications in Golang with configurable back-ends and distributed locks."
@@ -7805,6 +7840,11 @@
     "description": "provides a set of extensions on top of the excellent built-in database/sql package."
   },
   {
+    "name": "statiks",
+    "url": "https://github.com/janiltonmaciel/statiks",
+    "description": "Fast, zero-configuration, static HTTP filer server."
+  },
+  {
     "name": "Storm",
     "url": "https://github.com/asdine/storm",
     "description": "Simple and powerful toolkit for BoltDB."
@@ -7823,6 +7863,11 @@
     "name": "taskctl",
     "url": "https://github.com/taskctl/taskctl",
     "description": "Concurrent task runner."
+  },
+  {
+    "name": "tik",
+    "url": "https://github.com/andy2046/tik",
+    "description": "Simple and easy timing wheel package for Go."
   },
   {
     "name": "tome",
@@ -7868,6 +7913,11 @@
     "name": "goid",
     "url": "https://github.com/jakehl/goid",
     "description": "Generate and Parse RFC4122 compliant V4 UUIDs."
+  },
+  {
+    "name": "gouid",
+    "url": "https://github.com/twharmon/gouid",
+    "description": "Generate cryptographically secure random string IDs with just one allocation."
   },
   {
     "name": "nanoid",
@@ -8950,6 +9000,11 @@
     "description": "Modern cross-platform HTTP load-testing tool written in Go."
   },
   {
+    "name": "dasel",
+    "url": "https://github.com/tomwright/dasel",
+    "description": "Query and update JSON/YAML files from the command line."
+  },
+  {
     "name": "DepCharge",
     "url": "https://github.com/centerorbit/depcharge",
     "description": "Helps orchestrating the execution of commands across the many dependencies in larger projects."
@@ -9325,6 +9380,11 @@
     "description": "Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time."
   },
   {
+    "name": "Guora",
+    "url": "https://github.com/meloalright/guora",
+    "description": "A self-hosted Quora like web application written in Go."
+  },
+  {
     "name": "hugo",
     "url": "http://gohugo.io/",
     "description": "Fast and Modern Static Website Engine."
@@ -9361,7 +9421,7 @@
   },
   {
     "name": "limetext",
-    "url": "http://limetext.org/",
+    "url": "https://limetext.github.io",
     "description": "Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text."
   },
   {
@@ -9470,6 +9530,11 @@
     "description": "Sass project management tool, extends the language with sprite functions (like Compass)."
   },
   {
+    "name": "woke",
+    "url": "https://github.com/get-woke/woke",
+    "description": "Detect non-inclusive language in your source code."
+  },
+  {
     "name": "autobench",
     "url": "https://github.com/davecheney/autobench",
     "description": "Framework to compare the performance between different Go versions."
@@ -9488,6 +9553,11 @@
     "name": "go-http-routing-benchmark",
     "url": "https://github.com/julienschmidt/go-http-routing-benchmark",
     "description": "Go HTTP request router benchmark and comparison."
+  },
+  {
+    "name": "go-json-benchmark",
+    "url": "https://github.com/zerosnake0/go-json-benchmark",
+    "description": "Go JSON benchmark."
   },
   {
     "name": "go-web-framework-benchmark",
@@ -9634,6 +9704,11 @@
   {
     "name": "Building Web Apps With Go",
     "url": "https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details"
+  },
+  {
+    "name": "For the Love of Go",
+    "url": "https://bitfieldconsulting.com/books",
+    "description": "A series of introductory books for Go beginners."
   },
   {
     "name": "Go 101",
@@ -9926,6 +10001,10 @@
     "url": "https://www.meetup.com/golang-taipei-meetup/"
   },
   {
+    "name": "Golang Turkey",
+    "url": "https://kommunity.com/goturkiye"
+  },
+  {
     "name": "Golang Vancouver, BC",
     "url": "https://www.meetup.com/golangvan/"
   },
@@ -9997,7 +10076,7 @@
   },
   {
     "name": "Thanos",
-    "url": "https://thanos.io/contributing/coding-style-guide.md/"
+    "url": "https://thanos.io/tip/contributing/coding-style-guide.md/"
   },
   {
     "name": "Uber",
@@ -10056,6 +10135,11 @@
     "name": "Go Challenge",
     "url": "http://golang-challenge.org/",
     "description": "Learn Go by solving problems and getting feedback from Go experts."
+  },
+  {
+    "name": "Go Code Club",
+    "url": "https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3",
+    "description": "A group of Gophers read and discuss a different Go project every week."
   },
   {
     "name": "Go Community on Hashnode",
@@ -10153,6 +10237,11 @@
     "description": "Youtube channel dedicated to Go programming language tips and tricks, hosted by  Francesc Campoy @francesc."
   },
   {
+    "name": "Lille Gophers",
+    "url": "https://lille-gophers.loscrackitos.codes/",
+    "description": "Golang talks community in Lille, France (@LilleGophers)."
+  },
+  {
     "name": "Made with Golang",
     "url": "https://madewithgolang.com/?ref=awesome-go"
   },
@@ -10215,6 +10304,11 @@
     "name": "Canceling MySQL",
     "url": "https://medium.com/@rocketlaunchr.cloud/canceling-mysql-in-go-827ed8f83b30",
     "description": "How to cancel MySQL queries."
+  },
+  {
+    "name": "Design Patterns in Go",
+    "url": "https://github.com/shubhamzanwar/design-patterns",
+    "description": "Collection of programming design patterns implemented in Go."
   },
   {
     "name": "Ethereum Development with Go",

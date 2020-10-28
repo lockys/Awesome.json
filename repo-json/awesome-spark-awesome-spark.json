@@ -7,7 +7,12 @@
   {
     "name": "Mobius ",
     "url": "https://github.com/Microsoft/Mobius",
-    "description": "C# bindings."
+    "description": "C# bindings (Deprecated in favor of .NET for Apache Spark)."
+  },
+  {
+    "name": ".NET for Apache Spark ",
+    "url": "https://github.com/dotnet/spark",
+    "description": ".NET bindings."
   },
   {
     "name": "sparklyr ",
@@ -219,6 +224,11 @@
     "description": "IPython protocol based middleware for interactive applications."
   },
   {
+    "name": "Kyuubi ",
+    "url": "https://github.com/yaooqinn/kyuubi",
+    "description": "Improved implementation of Thrift JDBC/ODBC Serve."
+  },
+  {
     "name": "silex ",
     "url": "https://github.com/willb/silex",
     "description": "Collection of tools varying from ML extensions to additional RDD methods."
@@ -231,7 +241,7 @@
   {
     "name": "pyspark-stubs ",
     "url": "https://github.com/zero323/pyspark-stubs",
-    "description": "Static type annotations for PySpark."
+    "description": "Static type annotations for PySpark (obsolete since Spark 3.1. See SPARK-32681)."
   },
   {
     "name": "Flintrock ",
@@ -242,11 +252,6 @@
     "name": "Optimus ",
     "url": "https://github.com/ironmussa/Optimus/",
     "description": "Data Cleansing and Exploration utilities with the goal of simplifying data cleaning."
-  },
-  {
-    "name": "Koalas ",
-    "url": "https://github.com/databricks/koalas",
-    "description": "Pandas DataFrame API on top of Apache Spark."
   },
   {
     "name": "spark-corenlp ",
@@ -272,6 +277,11 @@
     "name": "Blaze ",
     "url": "https://github.com/blaze/blaze",
     "description": "Interface for querying larger than memory datasets using Pandas-like syntax. It supports both Spark DataFrames and RDDs."
+  },
+  {
+    "name": "Koalas ",
+    "url": "https://github.com/databricks/koalas",
+    "description": "Pandas DataFrame API on top of Apache Spark."
   },
   {
     "name": "deequ ",
