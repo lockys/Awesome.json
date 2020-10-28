@@ -152,6 +152,10 @@
     "url": "https://github.com/indiscipline/zrtstr"
   },
   {
+    "name": "Lyriek — A multi-threaded GTK 3 application for fetching the lyrics of the current playing song. ",
+    "url": "https://github.com/bartwillems/lyriek"
+  },
+  {
     "name": "Polaris — A music streaming application.  ",
     "url": "https://github.com/agersant/polaris"
   },
@@ -680,6 +684,10 @@
     "url": "https://github.com/pop-os/popsicle"
   },
   {
+    "name": "pueue — Manage your long running shell commands. ",
+    "url": "https://github.com/nukesor/pueue"
+  },
+  {
     "name": "Luminarys/synapse — Flexible and fast BitTorrent daemon. ",
     "url": "https://github.com/Luminarys/synapse"
   },
@@ -843,7 +851,7 @@
     "url": "https://github.com/brycx/checkpwn"
   },
   {
-    "name": "evansmurithi/cloak — A Command Line OTP (One Time Password) Authenticator application.  ",
+    "name": "evansmurithi/cloak — A Command Line OTP (One Time Password) Authenticator application. ![build badge](https://api.travis-ci.com/evansmurithi/cloak.svg?branch=master\"> <img src=\"https://ci.appveyor.com/api/projects/status/9mlfpfru3ng4c689/branch/master?svg=true)",
     "url": "https://github.com/evansmurithi/cloak"
   },
   {
@@ -967,6 +975,10 @@
     "url": "https://github.com/wyhaya/see"
   },
   {
+    "name": "ronanyeah/rust-hasura — A demonstration of how a Rust GraphQL server can be used as a remote schema with Hasura ",
+    "url": "https://github.com/ronanyeah/rust-hasura"
+  },
+  {
     "name": "clippy — Rust lints ",
     "url": "https://crates.io/crates/clippy"
   },
@@ -1063,8 +1075,9 @@
     "url": "https://github.com/igor-petruk/scriptisto"
   },
   {
-    "name": "Cargo — the Rust package manager\n\ncargo-benchcmp — A utility to compare Rust micro-benchmarks \ncargo-bitbake — A cargo extension that can generate BitBake recipes utilizing the classes from meta-rust \ncargo-cache — inspect/manage/clean your cargo cache (~/.cargo//${CARGO_HOME}), print sizes etc \ncargo-check — A wrapper around cargo rustc -- -Zno-trans which can be helpful for running a faster compile if you only need correctness checks \ncargo-count — lists source code counts and details about cargo projects, including unsafe statistics \ncargo-deb — Generates binary Debian packages \ncargo-deps — build dependency graphs of Rust projects \ncargo-do — run multiple cargo commands in a row \ncargo-ebuild — cargo extension that can generate ebuilds using the in-tree eclasses \ncargo-edit — allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line \ncargo-find deprecated — Find crates from command line \ncargo-generate A generator of a rust project by leveraging a pre-existing git repository as a template \ncargo-graph — updated fork of cargo-dot with additional features. Unmaintained, see cargo-deps \ncargo-info — queries crates.io for crates details from command line \ncargo-license — A cargo subcommand to quickly view the licenses of all dependencies. \ncargo-make — Rust task runner and build tool. \ncargo-modules — A cargo plugin for showing a tree-like overview of a crate's modules. \ncargo-multi — runs specified cargo command on multiple crates \ncargo-outdated — displays when newer versions of Rust dependencies are available, or out of date \ncargo-release — tool for releasing git-managed cargo project, build, tag, publish, doc and push \ncargo-script — lets people quickly and easily run Rust \"scripts\" which can make use of Cargo's package ecosystem \ncargo-testify — watches files changes, runs tests and notifies about the result with friendly OS notification \ncargo-tree – Cargo subcommand that visualizes a crate's dependency graph in a tree-like format \ncargo-update — cargo subcommand for checking and applying updates to installed executables \ncargo-watch — utility for cargo to compile projects when sources change \nliuchong/cargo-x — A very simple third-party cargo subcommand to execute a custom command \ndtolnay/cargo-expand — Expand macros in your source code\n\n",
-    "url": "https://crates.io/"
+    "name": "Cargo — the Rust package manager\n\ncargo-benchcmp — A utility to compare Rust micro-benchmarks \ncargo-bitbake — A cargo extension that can generate BitBake recipes utilizing the classes from meta-rust \ncargo-cache — inspect/manage/clean your cargo cache (~/.cargo//${CARGO_HOME}), print sizes etc \ncargo-check — A wrapper around cargo rustc -- -Zno-trans which can be helpful for running a faster compile if you only need correctness checks \ncargo-count — lists source code counts and details about cargo projects, including unsafe statistics \ncargo-deb — Generates binary Debian packages \ncargo-deps — build dependency graphs of Rust projects \ncargo-do — run multiple cargo commands in a row \ncargo-ebuild — cargo extension that can generate ebuilds using the in-tree eclasses \ncargo-edit — allows you to add and list dependencies by reading/writing to your Cargo.toml file from the command line \ncargo-generate A generator of a rust project by leveraging a pre-existing git repository as a template \ncargo-get",
+    "url": "https://crates.io/",
+    "description": "Cargo plugin to easily query information from Cargo.toml files "
   },
   {
     "name": "cargo-benchcmp — A utility to compare Rust micro-benchmarks ",
@@ -1107,12 +1120,13 @@
     "url": "https://crates.io/crates/cargo-edit"
   },
   {
-    "name": "cargo-find deprecated — Find crates from command line ",
-    "url": "https://crates.io/crates/cargo-find"
-  },
-  {
     "name": "cargo-generate A generator of a rust project by leveraging a pre-existing git repository as a template ",
     "url": "https://github.com/ashleygwilliams/cargo-generate"
+  },
+  {
+    "name": "cargo-get",
+    "url": "https://crates.io/crates/cargo-get",
+    "description": "Cargo plugin to easily query information from Cargo.toml files "
   },
   {
     "name": "cargo-graph — updated fork of cargo-dot with additional features. Unmaintained, see cargo-deps ",
@@ -1532,7 +1546,7 @@
     "url": "https://github.com/ZoeyR/rls-vs2017"
   },
   {
-    "name": "Visual Studio Code\n\nrust-lang/rls-vscode — Rust support for Visual Studio Code\nrust-analyzer — An alternative rust language server to the RLS\nCodeLLDB — A LLDB extension\ncrates — crates is an extension for crates.io dependencies.  \n\n",
+    "name": "Visual Studio Code\n\nrust-lang/rls-vscode — Rust support for Visual Studio Code\nrust-analyzer — An alternative rust language server to the RLS\nCodeLLDB — A LLDB extension\ncrates — crates is an extension for crates.io dependencies. ![build badge](https://img.shields.io/vscode-marketplace/v/serayuzgur.crates.svg\"> <img src=\"https://api.travis-ci.org/serayuzgur/crates.svg?branch=master)\n\n",
     "url": "https://code.visualstudio.com/"
   },
   {
@@ -1548,7 +1562,7 @@
     "url": "https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb"
   },
   {
-    "name": "crates — crates is an extension for crates.io dependencies.  ",
+    "name": "crates — crates is an extension for crates.io dependencies. ![build badge](https://img.shields.io/vscode-marketplace/v/serayuzgur.crates.svg\"> <img src=\"https://api.travis-ci.org/serayuzgur/crates.svg?branch=master)",
     "url": "https://github.com/serayuzgur/crates"
   },
   {
@@ -1585,7 +1599,7 @@
   },
   {
     "name": "deps.rs — Detect outdated or insecure dependencies",
-    "url": "https://github.com/srijs/deps.rs"
+    "url": "https://github.com/deps-rs/deps.rs"
   },
   {
     "name": "docs.rs — Automatic documentation generation of crates",
@@ -1750,15 +1764,15 @@
     "url": "https://github.com/zonyitoo/coio-rs"
   },
   {
-    "name": "dpc/mioco — Scalable, coroutine-based, asynchronous IO handling library ",
+    "name": "dpc/mioco — Scalable, coroutine-based, asynchronous IO handling library ![build badge](https://api.travis-ci.org/dpc/mioco.svg?branch=master\" alt=\"Travis CI Build Status)",
     "url": "https://github.com/dpc/mioco"
   },
   {
-    "name": "TeaEntityLab/fpRust — Monad/MonadIO, Handler, Coroutine/doNotation, Functional Programming features for Rust ",
+    "name": "TeaEntityLab/fpRust — Monad/MonadIO, Handler, Coroutine/doNotation, Functional Programming features for Rust ![build badge](https://api.travis-ci.org/TeaEntityLab/fpRust.svg?branch=master\" alt=\"Travis CI Build Status)",
     "url": "https://github.com/TeaEntityLab/fpRust"
   },
   {
-    "name": "rust-lang/futures-rs — Zero-cost futures in Rust ",
+    "name": "rust-lang/futures-rs — Zero-cost futures in Rust ![build badge](https://api.travis-ci.com/rust-lang/futures-rs.svg?branch=master\" alt=\"Travis CI Build Status)",
     "url": "https://github.com/rust-lang/futures-rs"
   },
   {
@@ -1884,6 +1898,11 @@
     "url": "https://github.com/rust-bio"
   },
   {
+    "name": "mozilla/sccache",
+    "url": "https://github.com/mozilla/sccache/",
+    "description": "Shared Compilation Cache, great for Rust compilation "
+  },
+  {
     "name": "jaysonsantos/bmemcached-rs — Memcached library written in pure rust ",
     "url": "https://github.com/jaysonsantos/bmemcached-rs"
   },
@@ -1954,6 +1973,10 @@
   {
     "name": "ksk001100/seahorse [seahorse] — A minimal CLI framework written in Rust ",
     "url": "https://github.com/ksk001100/seahorse"
+  },
+  {
+    "name": "nukesor/comfy-table [comfy-table] — Beautiful dynamic tables for your cli tools. ",
+    "url": "https://github.com/nukesor/comfy-table"
   },
   {
     "name": "reugn/rspark [rspark] — ▁▂▆▇▁▄█▁ Sparklines for Rust apps ",
@@ -2102,8 +2125,8 @@
     "url": "https://github.com/carols10cents/zopfli"
   },
   {
-    "name": "alexcrichton/flate2-rs — miniz bindings ",
-    "url": "https://github.com/alexcrichton/flate2-rs"
+    "name": "rust-lang/flate2-rs — miniz bindings ",
+    "url": "https://github.com/rust-lang/flate2-rs"
   },
   {
     "name": "JeffBelgum/rust-snappy — snappy bindings ",
@@ -2393,7 +2416,7 @@
     "description": "A library for strongly-typed and convenient interaction with rusoto_dynamodb "
   },
   {
-    "name": "Elasticsearch [elasticsearch]\n\nbenashford/rs-es [rs-es] — A Rust client for the Elastic REST API \nelastic-rs/elastic [elastic] — elastic is an efficient, modular API client for Elasticsearch written in Rust  \n\n",
+    "name": "Elasticsearch [elasticsearch]\n\nbenashford/rs-es [rs-es] — A Rust client for the Elastic REST API \nelastic-rs/elastic [elastic] — elastic is an efficient, modular API client for Elasticsearch written in Rust ![build badge](https://api.travis-ci.org/elastic-rs/elastic.svg?branch=master\"> <img src=\"https://ci.appveyor.com/api/projects/status/csa78tcumdpnbur2?svg=true)\n\n",
     "url": "https://crates.io/keywords/elasticsearch"
   },
   {
@@ -2401,7 +2424,7 @@
     "url": "https://github.com/benashford/rs-es"
   },
   {
-    "name": "elastic-rs/elastic [elastic] — elastic is an efficient, modular API client for Elasticsearch written in Rust  ",
+    "name": "elastic-rs/elastic [elastic] — elastic is an efficient, modular API client for Elasticsearch written in Rust ![build badge](https://api.travis-ci.org/elastic-rs/elastic.svg?branch=master\"> <img src=\"https://ci.appveyor.com/api/projects/status/csa78tcumdpnbur2?svg=true)",
     "url": "https://github.com/elastic-rs/elastic"
   },
   {
@@ -2957,6 +2980,16 @@
     "url": "https://github.com/unrust/unrust"
   },
   {
+    "name": "Godot\n\ngodot-rust/godot-rust [gdnative]",
+    "url": "https://godotengine.org/",
+    "description": "Rust bindings to the Godot game engine "
+  },
+  {
+    "name": "godot-rust/godot-rust [gdnative]",
+    "url": "https://github.com/godot-rust/godot-rust",
+    "description": "Rust bindings to the Godot game engine "
+  },
+  {
     "name": "SDL [sdl]\n\nbrson/rust-sdl — SDL1 bindings \nRust-SDL2/rust-sdl2 — SDL2 bindings \n\n",
     "url": "http://www.libsdl.org/"
   },
@@ -3346,6 +3379,10 @@
   {
     "name": "libp2p/rust-libp2p — The Rust Implementation of libp2p networking stack. ",
     "url": "https://github.com/libp2p/rust-libp2p"
+  },
+  {
+    "name": "nats-io/nats.rs — Rust client for NATS, the cloud native messaging system. ",
+    "url": "https://github.com/nats-io/nats.rs"
   },
   {
     "name": "aleshaleksey/libazdice — A parser for parsing dice strings for TTRPGs and TTRPG development ",
@@ -3786,6 +3823,11 @@
     "url": "https://github.com/cargonauts-rs/cargonauts"
   },
   {
+    "name": "osohq/oso [oso]",
+    "url": "https://github.com/osohq/oso",
+    "description": "A policy engine for authorization that's embedded in your application. "
+  },
+  {
     "name": "pyros2097/rust-embed — A macro to embed static assets into the rust binary",
     "url": "https://github.com/pyros2097/rust-embed"
   },
@@ -3895,7 +3937,7 @@
   },
   {
     "name": "Rust Online Courses at Classpert — A list of Rust online courses (paid) from Classpert Online Course Search",
-    "url": "https://classpert.com/it-computer-science/software-development/rust-programming"
+    "url": "https://classpert.com/it-computer-science/software-development/rust"
   },
   {
     "name": "Rust for professionals — A quick introduction to Rust for experienced software developers.",

@@ -145,53 +145,78 @@
   },
   {
     "name": "DuckDNS",
-    "url": "https://www.home-assistant.io/addons/duckdns/",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/duckdns/DOCS.md",
     "description": "Updates your Duck DNS IP address and generate SSL using Let's Encrypt."
   },
   {
-    "name": "HASS Configurator",
-    "url": "https://github.com/home-assistant/hassio-addons/tree/master/configurator",
+    "name": "File editor",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/configurator/DOCS.md",
     "description": "Browser-based configuration file editor."
   },
   {
     "name": "Mosquitto",
-    "url": "https://www.home-assistant.io/addons/mosquitto/",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/mosquitto/DOCS.md",
     "description": "Fast and reliable MQTT broker."
   },
   {
-    "name": "SSH Server",
-    "url": "https://www.home-assistant.io/addons/ssh/",
-    "description": "Allows logging in remotely to using SSH."
+    "name": "Terminal & SSH",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/ssh/DOCS.md",
+    "description": "Allows logging in remotely to using a web terminal or SSH client."
   },
   {
     "name": "Samba",
-    "url": "https://www.home-assistant.io/addons/samba/",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md",
     "description": "Access your configuration files using Windows network shares."
   },
   {
     "name": "NGINX SSL proxy",
-    "url": "https://www.home-assistant.io/addons/nginx_proxy/",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md",
     "description": "Reverse proxy with SSL termination."
   },
   {
     "name": "deCONZ",
-    "url": "https://github.com/home-assistant/hassio-addons/tree/master/deconz",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md",
     "description": "Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik."
   },
   {
     "name": "TellStick",
-    "url": "https://github.com/home-assistant/hassio-addons/tree/master/tellstick",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/tellstick/DOCS.md",
     "description": "Run a TellStick and TellStick Duo service."
+  },
+  {
+    "name": "Ada",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/ada/DOCS.md",
+    "description": "Ada is voice assistant powered by Almond which is open and privacy-preserving."
+  },
+  {
+    "name": "Almond",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/almond/DOCS.md",
+    "description": "The Open, Privacy-Preserving Virtual Assistant."
+  },
+  {
+    "name": "HomeMatic",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/homematic/DOCS.md",
+    "description": "HomeMatic central based on OCCU."
+  },
+  {
+    "name": "Let's Encrypt",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md",
+    "description": "Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA)."
+  },
+  {
+    "name": "MariaDB",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md",
+    "description": "An open source relational database (fork of MySQL)."
+  },
+  {
+    "name": "OpenZWave",
+    "url": "https://github.com/home-assistant/hassio-addons/blob/master/zwave/DOCS.md",
+    "description": "Use an Z-Wave USB-stick with the QT OpenZWave Daemon."
   },
   {
     "name": "SSH & Web Terminal",
     "url": "https://github.com/hassio-addons/addon-ssh",
     "description": "SSH and Web-based terminal with tons of pre-loaded useful tools."
-  },
-  {
-    "name": "Pi-hole",
-    "url": "https://github.com/hassio-addons/addon-pi-hole",
-    "description": "Network-wide ad blocking."
   },
   {
     "name": "UniFi Controller",
@@ -244,8 +269,8 @@
     "description": "Zigbee to MQTT bridge, get rid of your proprietary Zigbee bridges."
   },
   {
-    "name": "AppDaemon3",
-    "url": "https://github.com/hassio-addons/addon-appdaemon3",
+    "name": "AppDaemon",
+    "url": "https://github.com/hassio-addons/addon-appdaemon",
     "description": "Python Apps and HADashboard."
   },
   {
@@ -339,11 +364,6 @@
     "description": "The official documentation."
   },
   {
-    "name": "Plan Coordinates",
-    "url": "https://github.com/ciotlosm/custom-lovelace/tree/master/plan-coordinates",
-    "description": "Helps to find left and top values for picture-elements cards."
-  },
-  {
     "name": "Share the Love",
     "url": "https://sharethelove.io",
     "description": "Custom card demos and configuration examples for Lovelace."
@@ -429,13 +449,8 @@
     "description": "Use awesome gauges from canvas-gauges.com."
   },
   {
-    "name": "Alarm Control Panel Card",
-    "url": "https://github.com/ciotlosm/custom-lovelace/tree/master/alarm_control_panel-card",
-    "description": "Card that looks like an alarm keypad."
-  },
-  {
     "name": "Big Number Card",
-    "url": "https://github.com/ciotlosm/custom-lovelace/tree/master/bignumber-card",
+    "url": "https://github.com/custom-cards/bignumber-card",
     "description": "Display big numbers for sensors, including severity level as background."
   },
   {
@@ -504,11 +519,6 @@
     "description": "Customizable animated bar card."
   },
   {
-    "name": "Calendar Card",
-    "url": "https://github.com/rdehuyss/homeassistant-lovelace-google-calendar-card",
-    "description": "A nice Google calendar card."
-  },
-  {
     "name": "forked-daapd Card",
     "url": "https://github.com/kalkih/forked-daapd-card",
     "description": "Control a forked daapd instance."
@@ -569,11 +579,6 @@
     "description": "Show multiple entity states or attributes on entity rows."
   },
   {
-    "name": "Toggle Lock Entity Row",
-    "url": "https://github.com/thomasloven/lovelace-toggle-lock-entity-row",
-    "description": "Display a toggle with a lock, avoiding toggling it by mistake."
-  },
-  {
     "name": "Xiaomi Vacuum Map Card",
     "url": "https://github.com/PiotrMachowski/Home-Assistant-Lovelace-Xiaomi-Vacuum-Map-card",
     "description": "Interactive Xiaomi Vacuum map, just like in Mi Home app."
@@ -597,6 +602,11 @@
     "name": "LG WebOS Remote Control",
     "url": "https://github.com/madmicio/LG-WebOS-Remote-Control",
     "description": "Remote Control for LG TV WebOS."
+  },
+  {
+    "name": "Restriction Card",
+    "url": "https://github.com/iantrich/restriction-card",
+    "description": "A card to provide restrictions on Lovelace cards defined within."
   },
   {
     "name": "TileBoard",
@@ -935,8 +945,8 @@
   },
   {
     "name": "AppDaemon",
-    "url": "https://github.com/home-assistant/appdaemon",
-    "description": "Python Apps for Home Assistant."
+    "url": "https://github.com/AppDaemon/appdaemon",
+    "description": "AppDaemon is a loosely coupled, multi-threaded, sandboxed Python execution environment for writing automation apps."
   },
   {
     "name": "Developer Documentation",
@@ -1052,5 +1062,10 @@
     "name": "awesome-mqtt",
     "url": "https://github.com/hobbyquaker/awesome-mqtt#readme",
     "description": "Curated list of MQTT related stuff."
+  },
+  {
+    "name": "awesome-sefhosted",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "description": "Curated list of awesome self hosted software."
   }
 ]

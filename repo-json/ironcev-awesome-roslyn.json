@@ -35,6 +35,21 @@
     "description": "Adding a Code Fix to Your Roslyn Analyzer - The sequel to the previous MSDN article. A detailed introduction into code fixes."
   },
   {
+    "name": "Introducing C# Source Generators",
+    "url": "https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/",
+    "description": "Original announcement of the C# 9.0 Source Generators feature. Explains what source generators are, in which scenarios they are useful, and shows how to write a simple source generator."
+  },
+  {
+    "name": "New C# Source Generator Samples",
+    "url": "https://devblogs.microsoft.com/dotnet/new-c-source-generator-samples/",
+    "description": "Samples on how to write a non-trivial code generator driven by additional, non-code files like CSV files or Mustache templates."
+  },
+  {
+    "name": "C# Source Generators",
+    "url": "https://github.com/amis92/csharp-source-generators",
+    "description": "Comprehensive list of additional learning sources, samples, and experimental and productive source generators. A perfect reference once you grasp the basics."
+  },
+  {
     "name": "Bridge",
     "url": "https://github.com/bridgedotnet/Bridge",
     "description": "C# to JavaScript transpiler. Write modern mobile and web apps in C# and run them anywhere in JavaScript."
@@ -145,6 +160,11 @@
     "description": "Set of analyzers and code fixes focusing on the correctness and performance of C# programs. Inspired with Google's Error Prone."
   },
   {
+    "name": "Mapping Generator",
+    "url": "https://github.com/cezarypiatek/MappingGenerator",
+    "description": "Code fix that generates arbitrary complex object-object mappings. It recognizes out of the box a large number of scenarios where mappings are used. A design-time alternative to AutoMapper."
+  },
+  {
     "name": "Refactoring Essentials for Visual Studio",
     "url": "https://github.com/icsharpcode/RefactoringEssentials/",
     "description": "Refactorings, analyzers and code fixes for C# and VB.NET."
@@ -183,6 +203,41 @@
     "name": "RoslynTestKit",
     "url": "https://github.com/cezarypiatek/RoslynTestKit",
     "description": "Lightweight framework for writing unit tests for analyzers, code fixes, refactorings, and completion providers. It's unit testing framework agnostic."
+  },
+  {
+    "name": "DpDtInject",
+    "url": "https://github.com/lsoft/DpdtInject",
+    "description": "Proof-of-concept of a dependency injection container that transfers huge piece of resolving logic to the compilation stage. Offers additional compile-time safety and fast runtime resolution."
+  },
+  {
+    "name": "JsonSrcGen",
+    "url": "https://github.com/trampster/JsonSrcGen",
+    "description": "Reflection-free JSON serializer. Allows extremely fast JSON processing by generating reflection-free serializers at the compile time."
+  },
+  {
+    "name": "Source Generator Playground",
+    "url": "https://sourcegen.dev/",
+    "description": "Online application that lets you experiment with source generators. Perfect for learning and testing your ideas. Write your own source generator or learn from built-in examples and see the generated output."
+  },
+  {
+    "name": "StrongInject",
+    "url": "https://github.com/YairHalberstadt/stronginject",
+    "description": "Compile-time dependency injection container. Compile-time checked, reflection-free and runtime code generation free, thus fast and app-trimming-friendly."
+  },
+  {
+    "name": "StructPacker",
+    "url": "https://github.com/RudolfKurka/StructPacker",
+    "description": "Low-level, lightweight and performance-focused serializer for C# struct types. Auto-generates C# serialization code to achieve peak runtime performance and efficiency."
+  },
+  {
+    "name": "Svg to C# Source Generators",
+    "url": "https://github.com/wieslawsoltes/SourceGenerators",
+    "description": "SVG to C# compiler. Compiles SVG drawing markup to C# using SkiaSharp as rendering engine."
+  },
+  {
+    "name": "WrapperValueObject",
+    "url": "https://github.com/martinothamar/WrapperValueObject",
+    "description": "Creates boilerplate free wrappers around types. Especially useful for creating strongly typed wrappers around primitive types."
   },
   {
     "name": "Inside the .NET Compiler Platform – Performance Considerations during Syntax Analysis (#SpeakRoslyn)",

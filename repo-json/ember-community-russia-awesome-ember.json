@@ -1,6 +1,6 @@
 [
   {
-    "name": "[Awesome Ember.js ]\n\nContents\nPackages\n\nAST\na11y\nAdapters\nAnimations\nAuthentication\nAutomation\nBenchmarking\nBlogging\nBabel\nBoilerplating\nBroccoli\nBroccoli read\nBuild tools\nCharts\nCI/CD\nCode Splitting\nCodestyle\nCommand-line apps\nCommand-line utilities\nComponent addons\nCompression\nContent management systems\nControl flow\nCSS & etc\nFonts\nState management\nStyling kits\nData Management\nData manipulation & Computed\nData validation\nDatabase\nDate\nDebugging / Profiling\nDocumentation\nEmber-inspector roadmaps & overview\nEnd-user customization\nES6\nExternal Components Integration\nForms\nFunctional programming\nHTTP\nHelpers\nImage\nInclude external JS code\nInfinite Scroll\nInternalization & Localization\nInputs\nJob queues\nLogging\nMad science\nMath\nMetrics\nMinifiers\nMiscellaneous\nMobile\nModifiers\nParcel\nPayments\nPolyfills\nPWA\nQuery Params\nReal-time\nRouting addons\nResolver customization\nSecurity\nService Workers\nSSR / Server Side Rendering\nStatic site generators & SEO\nStyling\nTemplating\nTesting\nText\nTree Shaking\nTypeScript\nUI libs\nUI components\nUX\nVR\nVS Code addons\nAtom addons\nVIM\nWeb Components\nWebpack\nWeird\nResources\nArticles\nEmber-Cli Articles\nWhy Articles\nJump-Start Articles\nArticles Glimmer\nArticles Engines\nArticles Ember-Concurrency\nArticles ES6\nArticles TypeScript\nArticles Modern Testing\nArticles FastBoot\nArticles about Data\nArticles about Routing\nYarn in Ember Articles\nBest-practices\nNice to know\nBlogs\nBooks\nCheatsheets\nCodemods\nCommunity\nContribution Guides\nCourses\nDiscovery\nExamples\nExamples Glimmer\nGists\nGists Ember Data\nMiscellaneous\nNewsletters\nPodcasts\nSandboxes\nScreencasts\nSlides\nStyleguides\nTools\nTutorials\nTwitter\nVideos\nYouTube channels\nYouTube playlists\n\n\nLicense\n\n",
+    "name": "[Awesome Ember.js ]\n\nContents\nPackages\n\nAST\na11y\nAdapters\nAnimations\nAuthentication\nAutomation\nBenchmarking\nBlogging\nBabel\nBoilerplating\nBroccoli\nBroccoli read\nBuild tools\nCharts\nCI/CD\nCode Splitting\nCodestyle\nCommand-line apps\nCommand-line utilities\nComponent addons\nCompression\nContent management systems\nControl flow\nCSS & etc\nFonts\nState management\nStyling kits\nData Management\nData manipulation & Computed\nData validation\nDatabase\nDate\nDebugging / Profiling\nDecorators\nDocumentation\nEmber-inspector roadmaps & overview\nEnd-user customization\nES6\nExternal Components Integration\nForms\nFunctional programming\nHTTP\nHelpers\nImage\nInclude external JS code\nInfinite Scroll\nInternalization & Localization\nInputs\nJob queues\nLogging\nMad science\nMath\nMetrics\nMinifiers\nMiscellaneous\nMobile\nModifiers\nParcel\nPayments\nPolyfills\nPWA\nQuery Params\nReal-time\nRouting addons\nResolver customization\nSecurity\nService Workers\nSSR / Server Side Rendering\nStatic site generators & SEO\nStyling\nTemplating\nTesting\nText\nTree Shaking\nTypeScript\nUI libs\nUI components\nUX\nVR\nVS Code addons\nAtom addons\nVIM\nWeb Components\nWebpack\nWeird\nResources\nArticles\nEmber-Cli Articles\nWhy Articles\nJump-Start Articles\nArticles Glimmer\nArticles Engines\nArticles Ember-Concurrency\nArticles ES6\nArticles TypeScript\nArticles Modern Testing\nArticles FastBoot\nArticles about Data\nArticles about Routing\nYarn in Ember Articles\nBest-practices\nNice to know\nBlogs\nBooks\nCheatsheets\nCodemods\nCommunity\nContribution Guides\nCourses\nDiscovery\nExamples\nExamples Glimmer\nGists\nGists Ember Data\nMiscellaneous\nNewsletters\nPodcasts\nSandboxes\nScreencasts\nSlides\nStyleguides\nTools\nTutorials\nTwitter\nVideos\nYouTube channels\nYouTube playlists\n\n\nLicense\n\n",
     "url": "https://github.com/sindresorhus/awesome"
   },
   {
@@ -238,11 +238,6 @@
     "description": " The stable base upon which we build our Ember.js projects at Mirego."
   },
   {
-    "name": "broccoli-assembler",
-    "url": "https://github.com/twokul/broccoli-assembler",
-    "description": "A build utility to allow for more flexible builds and better composition."
-  },
-  {
     "name": "broccoli-concat-analyser",
     "url": "https://github.com/stefanpenner/broccoli-concat-analyser",
     "description": "Assets profiling."
@@ -326,6 +321,16 @@
     "name": "ember-ci",
     "url": "https://github.com/mike-north/ember-ci",
     "description": "Continuous integration goodies for ember.js apps."
+  },
+  {
+    "name": "CI with GitHub Actions for Ember Apps",
+    "url": "https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/",
+    "description": "Reducing CI runtimes with GitHub Actions"
+  },
+  {
+    "name": "CI with GitHub Actions for Ember Apps: Part 2",
+    "url": "https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/",
+    "description": "Migrating to v2 actions, lowering runtime cost and continuously deployment"
   },
   {
     "name": "ember-engines",
@@ -646,6 +651,11 @@
     "name": "ember-dead-code",
     "url": "https://github.com/buschtoens/ember-dead-code",
     "description": "Detect dead code with confidence via real user monitoring."
+  },
+  {
+    "name": "Macro Decorators",
+    "url": "https://pzuraq.github.io/macro-decorators/",
+    "description": "DRY your code by creating decorators that duplicated getter/setter's functionality"
   },
   {
     "name": "ember-cli-addon-docs",
@@ -1891,6 +1901,18 @@
     "url": "https://www.chriskrycho.com/2016/testing-emberjs-mixins-with-a-container.html"
   },
   {
+    "name": "Write Tests Like a Mathematician: Part 1",
+    "url": "https://crunchingnumbers.live/2019/08/04/write-tests-like-a-mathematician-part-1/"
+  },
+  {
+    "name": "Write Tests Like a Mathematician: Part 2",
+    "url": "https://crunchingnumbers.live/2019/08/06/write-tests-like-a-mathematician-part-2/"
+  },
+  {
+    "name": "Write Tests Like a Mathematician: Part 3",
+    "url": "https://crunchingnumbers.live/2019/10/11/write-tests-like-a-mathematician-part-3/"
+  },
+  {
     "name": "How to integrate Ember FastBoot in Cloud Functions for Firebase",
     "url": "https://cenchat.com/blog/2019/06/06/how-to-setup-ember-fastboot-in-cloud-functions-for-firebase.html"
   },
@@ -1945,6 +1967,10 @@
   {
     "name": "Cascade Deleting Relationships in Ember Data",
     "url": "https://davidtang.io/2017/02/10/cascade-deleting-relationships-in-ember-data.html"
+  },
+  {
+    "name": "Fit Any Backend Into Ember with Custom Adapters & Serializers",
+    "url": "https://emberigniter.com/fit-any-backend-into-ember-custom-adapters-serializers/"
   },
   {
     "name": "How to reset the Ember.js router namespace with this.route()",
@@ -2423,6 +2449,10 @@
   {
     "name": "https://music.apple.com/",
     "url": "https://music.apple.com/"
+  },
+  {
+    "name": "https://creator.emojible.store/",
+    "url": "https://creator.emojible.store/"
   },
   {
     "name": "breethe-client",
@@ -3159,6 +3189,68 @@
     "description": "Videos of the sessions from EmberCamp 2019"
   },
   {
+    "name": "Ember.js: The Documentary",
+    "url": "https://www.youtube.com/watch?v=Cvz-9ccflKQ&vl=en"
+  },
+  {
+    "name": "Ember.js: The Documentary (Русская версия)",
+    "url": "https://www.youtube.com/watch?v=7Ym2ADCn77Q",
+    "description": "Russian langauge version"
+  },
+  {
+    "name": "GraphQL: The Documentary",
+    "url": "https://www.youtube.com/watch?v=783ccP__No8&vl=en"
+  },
+  {
+    "name": "GraphQL: The Documentary (Русская версия)",
+    "url": "https://www.youtube.com/watch?v=i_rsfHMF3x4",
+    "description": "Russian language version"
+  },
+  {
+    "name": "Ember and GraphQL: A Quick Example",
+    "url": "https://www.youtube.com/watch?v=YxRvXgDIHW8"
+  },
+  {
+    "name": "Ember Octane Livestream: Build a drum machine",
+    "url": "https://www.youtube.com/watch?v=5znpEiwHpL4"
+  },
+  {
+    "name": "Tracking in the Glimmer VM",
+    "url": "https://www.youtube.com/watch?v=BjKERSRpPeI",
+    "description": "Chris Garrett discusses how tracking works in Ember"
+  },
+  {
+    "name": "Commit Porto '19: Thriving through the hype cycle: an Ember.js story (Ricardo Mendes)",
+    "url": "https://www.youtube.com/watch?v=ECkbVa0iC4k"
+  },
+  {
+    "name": "Animating Across Routes with Ember Animated",
+    "url": "https://www.youtube.com/watch?v=O4Mt-dDqkk0",
+    "description": "EmberMap video adding across-route tranistion animations"
+  },
+  {
+    "name": "Creating an Ember Application",
+    "url": "https://www.youtube.com/watch?v=R2JdP4lb5Xw",
+    "description": "First in an upcoming series on Ember"
+  },
+  {
+    "name": "Ember and GraphQL: A Quick Example",
+    "url": "https://www.youtube.com/watch?v=YxRvXgDIHW8"
+  },
+  {
+    "name": "Stef & Rob: do we still need the built-in Input component? Stefan Penner and Robert Jackson debate the built-in Input component",
+    "url": "https://www.youtube.com/watch?v=c0Rl6o9wLX0"
+  },
+  {
+    "name": "Ember Octane",
+    "url": "https://www.youtube.com/watch?v=iTPFsXcTAaY&feature=youtu.be",
+    "description": "Great For Beginners - You can just write HTML and CSS and get pretty far with Ember Octane"
+  },
+  {
+    "name": "Yet Another Test Runner by Kelly Sheldon @ Ember London",
+    "url": "https://www.youtube.com/watch?v=HYwXL3f854Y&list=PL4eq2DPpyBbmvEzhyW9fhMzlctxwrn8JM&index=1"
+  },
+  {
     "name": "Amsterdam Ember.js",
     "url": "https://www.youtube.com/channel/UCx9sVlEZLOKxw8OGCtoqULw"
   },
@@ -3173,6 +3265,10 @@
   {
     "name": "Ember Videos",
     "url": "https://www.youtube.com/channel/UCMmzJ82sCmooDdtzVY8FxEA"
+  },
+  {
+    "name": "EmberJS Chennai",
+    "url": "https://www.youtube.com/channel/UC-PzS1OA64zFD2kt3hwfGTA"
   },
   {
     "name": "Ember.js Dublin",
@@ -3193,6 +3289,10 @@
   {
     "name": "EmberSherpa",
     "url": "https://www.youtube.com/user/EmberSherpa/videos"
+  },
+  {
+    "name": "Meetup: London",
+    "url": "https://www.youtube.com/playlist?list=PL4eq2DPpyBbmvEzhyW9fhMzlctxwrn8JM"
   },
   {
     "name": "Silicon Valley Ember.js meetup",
@@ -3217,5 +3317,10 @@
   {
     "name": "Intercom Screencasts",
     "url": "https://www.youtube.com/playlist?list=PLpAr6J-75N27wctNT70O0lubaGTPjwi1L"
+  },
+  {
+    "name": "Ember.js tutorial for beginners in 2020",
+    "url": "https://www.youtube.com/watch?v=eQUvN9Ujs1s&list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo",
+    "description": "A 10 part series by Shawn Chen"
   }
 ]
