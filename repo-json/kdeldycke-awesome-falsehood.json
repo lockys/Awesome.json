@@ -55,6 +55,11 @@
     "description": "The importance of types in accounting software: missing the decimal point ends up with 100x over-charges."
   },
   {
+    "name": "Characters < and > in company names lead to XSS attacks",
+    "url": "https://forum.aws.chdev.org/t/cross-site-scripting-xss-software-attack/3355",
+    "description": "Because UK allows companies to be registered with special characters, a hacker leveraged them to register \\\"><SCRIPT SRC=MJT.XSS.HT></SCRIPT> LTD, but also ; DROP TABLE \"COMPANIES\";-- LTD, BETTS &AMP; TWINE LTD and SAFDASD & SFSAF \\' SFDAASF\\\" LTD."
+  },
+  {
     "name": "CLDR currency definitions",
     "url": "http://unicode.org/cldr/trac/browser/tags/release-31/common/supplemental/supplementalData.xml#L81",
     "description": "Currency"
@@ -183,6 +188,11 @@
     "name": "Falsehoods About Maps",
     "url": "http://www.atlefren.net/post/2014/09/falsehoods-programmers-believe-about-maps/",
     "description": "Covers"
+  },
+  {
+    "name": "I Hate Coordinate Systems",
+    "url": "https://ihatecoordinatesystems.com",
+    "description": "A guide for geospatial practitionners oin diagnosing and fixing common issues with coordinate systems."
   },
   {
     "name": "Falsehoods About Names",
