@@ -135,6 +135,11 @@
     "description": "Superior video player."
   },
   {
+    "name": "editly",
+    "url": "https://github.com/mifi/editly",
+    "description": "Declarative video editing."
+  },
+  {
     "name": "moviemon",
     "url": "https://github.com/iCHAIT/moviemon",
     "description": "Everything about your movies."
@@ -1050,39 +1055,34 @@
     "description": "Interactive cheatsheet tool."
   },
   {
-    "name": "underscore-cli",
-    "url": "https://github.com/ddopson/underscore-cli",
-    "description": "Command-line utility-belt for hacking JSON and Javascript."
-  },
-  {
-    "name": "ramda-cli",
-    "url": "https://github.com/raine/ramda-cli",
-    "description": "A CLI tool for processing data with functional pipelines."
-  },
-  {
-    "name": "yaml-cli",
-    "url": "https://github.com/pandastrike/yaml-cli",
-    "description": "A simple CLI for querying and updating YAML files."
-  },
-  {
-    "name": "q",
-    "url": "http://harelba.github.io/q/",
-    "description": "A command line tool that allows execution of SQL-like queries on CSVs/TSVs (and any other tabular text files)."
-  },
-  {
-    "name": "yq",
-    "url": "https://github.com/kislyuk/yq",
-    "description": "Command-line YAML processor (Uses the same syntax as jq)."
-  },
-  {
     "name": "jq",
     "url": "https://github.com/stedolan/jq",
     "description": "JSON processor."
   },
   {
+    "name": "yq",
+    "url": "https://github.com/kislyuk/yq",
+    "description": "YAML processor."
+  },
+  {
+    "name": "dasel",
+    "url": "https://github.com/tomwright/dasel",
+    "description": "JSON/YAML/TOML/XML processor (like jq/yq)."
+  },
+  {
+    "name": "yaml-cli",
+    "url": "https://github.com/pandastrike/yaml-cli",
+    "description": "Query/update YAML."
+  },
+  {
+    "name": "ramda-cli",
+    "url": "https://github.com/raine/ramda-cli",
+    "description": "Process data with functional pipelines."
+  },
+  {
     "name": "jp",
     "url": "https://github.com/therealklanni/jp",
-    "description": "Simply parse and drill into JSON on the commandline, with jsonpath and stdin stream support (jq compatible, not a replacement)."
+    "description": "JSON parser."
   },
   {
     "name": "fx",
@@ -1093,6 +1093,11 @@
     "name": "vj",
     "url": "https://github.com/busyloop/vj",
     "description": "Makes JSON human readable."
+  },
+  {
+    "name": "underscore-cli",
+    "url": "https://github.com/ddopson/underscore-cli",
+    "description": "Utility-belt for hacking JSON and Javascript."
   },
   {
     "name": "strip-json-comments-cli",
@@ -1106,7 +1111,12 @@
   {
     "name": "parse-columns-cli",
     "url": "https://github.com/sindresorhus/parse-columns-cli",
-    "description": "Parse text columns, like the output of unix commands. Returns JSON that you can manipulate with tools like jq or underscore-cli."
+    "description": "Parse text columns to JSON."
+  },
+  {
+    "name": "q",
+    "url": "http://harelba.github.io/q/",
+    "description": "Execution of SQL-like queries on CSV/TSV/tabular text file."
   },
   {
     "name": "figlet",

@@ -75,11 +75,6 @@
     "description": "osquery fleet manager that allows remote management of osquery configurations retrieved by nodes. It takes advantage of osquery's TLS configuration, logger, and distributed read/write endpoints, to give administrators visibility across a fleet of devices with minimal overhead and intrusiveness."
   },
   {
-    "name": "Envdb",
-    "url": "https://github.com/mephux/envdb",
-    "description": "Envdb turns your production, dev, cloud, etc environments into a database cluster you can search using osquery as the foundation. It wraps the osquery process with a (cluster) node agent that can communicate back to a central location."
-  },
-  {
     "name": "Falcon Orchestrator",
     "url": "https://github.com/CrowdStrike/falcon-orchestrator",
     "description": "Extendable Windows-based application that provides workflow automation, case management and security response functionality."
@@ -96,7 +91,7 @@
   },
   {
     "name": "Limacharlie",
-    "url": "https://github.com/refractionpoint/limacharlie",
+    "url": "https://www.limacharlie.io/",
     "description": "Endpoint security platform composed of a collection of small projects all working together that gives you a cross-platform (Windows, OSX, Linux, Android and iOS) low-level environment for managing and pushing additional modules into memory to extend its functionality."
   },
   {
@@ -157,7 +152,7 @@
   {
     "name": "augmentd",
     "url": "http://augmentd.co/",
-    "description": "Community driven site provididing a list of searches that can be implemented in and executed with a variety of common security tools."
+    "description": "Community driven site providing a list of searches that can be implemented in and executed with a variety of common security tools."
   },
   {
     "name": "Sans DFIR mailing list",
@@ -245,9 +240,9 @@
     "description": "Cyphon eliminates the headaches of incident management by streamlining a multitude of related tasks through a single platform. It receives, processes and triages events to provide an all-encompassing solution for your analytic workflow — aggregating data, bundling and prioritizing alerts, and empowering analysts to investigate and document incidents."
   },
   {
-    "name": "Demisto",
-    "url": "https://www.demisto.com/product/",
-    "description": "Demisto community edition(free) offers full Incident lifecycle management, Incident Closure Reports, team assignments and collaboration, and many integrations to enhance automations (like Active Directory, PagerDuty, Jira and much more)."
+    "name": "CORTEX XSOAR",
+    "url": "https://www.paloaltonetworks.com/cortex/xsoar",
+    "description": "Paloalto security orchestration, automation and response platform with full Incident lifecycle management and many integrations to enhance automations."
   },
   {
     "name": "DFIRTrack",
@@ -271,7 +266,7 @@
   },
   {
     "name": "Sandia Cyber Omni Tracker (SCOT)",
-    "url": "http://getscot.sandia.gov/",
+    "url": "https://github.com/sandialabs/scot",
     "description": "Incident Response collaboration and knowledge capture tool focused on flexibility and ease of use. Our goal is to add value to the incident response process without burdening the user."
   },
   {
@@ -370,11 +365,6 @@
     "description": "Advanced memory analysis for Windows x64 with nested hypervisor support."
   },
   {
-    "name": "KnTList",
-    "url": "http://www.gmgsystemsinc.com/knttools/",
-    "description": "Computer memory analysis tools."
-  },
-  {
     "name": "LiME",
     "url": "https://github.com/504ensicsLabs/LiME",
     "description": "Loadable Kernel Module (LKM), which allows the acquisition of volatile memory from Linux and Linux-based devices, formerly called DMD."
@@ -421,7 +411,7 @@
   },
   {
     "name": "WindowsSCOPE",
-    "url": "http://www.windowsscope.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=35&category_id=3&option=com_virtuemart",
+    "url": "http://www.windowsscope.com/windowsscope-cyber-forensics/",
     "description": "Memory forensics and reverse engineering tool used for analyzing volatile memory offering the capability of analyzing the Windows kernel, drivers, DLLs, and virtual and physical memory."
   },
   {
@@ -446,7 +436,7 @@
   },
   {
     "name": "Knockknock",
-    "url": "https://github.com/synack/knockknock",
+    "url": "https://objective-see.com/products/knockknock.html",
     "description": "Displays persistent items(scripts, commands, binaries, etc.) that are set to execute automatically on OSX."
   },
   {
@@ -546,7 +536,7 @@
   },
   {
     "name": "rastrea2r",
-    "url": "https://github.com/aboutsecurity/rastrea2r",
+    "url": "https://github.com/rastrea2r/rastrea2r",
     "description": "Allows one to scan disks and memory for IOCs using YARA on Windows, Linux and OS X."
   },
   {
@@ -563,11 +553,6 @@
     "name": "Scout2",
     "url": "https://nccgroup.github.io/Scout2/",
     "description": "Security tool that lets Amazon Web Services administrators assess their environment's security posture."
-  },
-  {
-    "name": "SearchGiant",
-    "url": "https://github.com/jadacyrus/searchgiant_cli",
-    "description": "Command-line utility to acquire forensic data from cloud services."
   },
   {
     "name": "Stenographer",
@@ -590,11 +575,6 @@
     "description": "Windows utility (poorly maintained or no longer maintained) to submit virus samples to AV vendors."
   },
   {
-    "name": "Demisto Playbooks Collection",
-    "url": "https://www.demisto.com/category/playbooks/",
-    "description": "Playbooks collection."
-  },
-  {
     "name": "IRM",
     "url": "https://github.com/certsocietegenerale/IRM",
     "description": "Incident Response Methodologies by CERT Societe Generale."
@@ -610,8 +590,8 @@
     "description": "Documents that describe parts of the PagerDuty Incident Response process. It provides information not only on preparing for an incident, but also what to do during and after. Source is available on GitHub."
   },
   {
-    "name": "Microsoft User Mode Process Dumper",
-    "url": "http://www.microsoft.com/en-us/download/details.aspx?id=4060",
+    "name": "Microsoft ProcDump",
+    "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/procdump",
     "description": "Dumps any running Win32 processes memory image on the fly."
   },
   {
@@ -630,13 +610,13 @@
     "description": "Interactive online malware analysis service for dynamic and static research of most types of threats using any environment."
   },
   {
-    "name": "CAPE",
-    "url": "https://github.com/ctxis/CAPE",
+    "name": "CAPEv2",
+    "url": "https://github.com/kevoreilly/CAPEv2",
     "description": "Malware Configuration And Payload Extraction."
   },
   {
     "name": "Cuckoo",
-    "url": "https://github.com/cuckoobox",
+    "url": "https://github.com/cuckoosandbox/cuckoo",
     "description": "Open Source Highly configurable sandboxing tool."
   },
   {
@@ -687,7 +667,7 @@
   {
     "name": "Reverse.IT",
     "url": "https://www.reverse.it/",
-    "description": "Alternative domain for the Hybrid-Analysis tool proivided by CrowdStrike."
+    "description": "Alternative domain for the Hybrid-Analysis tool provided by CrowdStrike."
   },
   {
     "name": "StringSifter",
@@ -735,11 +715,6 @@
     "description": "Open source tool for collaborative forensic timeline analysis."
   },
   {
-    "name": "Demisto IR video resources",
-    "url": "https://www.demisto.com/category/videos/",
-    "description": "Video Resources for Incident Response and Forensics Tools."
-  },
-  {
     "name": "The Future of Incident Response",
     "url": "https://www.youtube.com/watch?v=bDcx4UNpKNc",
     "description": "Presented by Bruce Schneier at OWASP AppSecUSA 2015."
@@ -748,11 +723,6 @@
     "name": "AChoir",
     "url": "https://github.com/OMENScan/AChoir",
     "description": "Framework/scripting tool to standardize and simplify the process of scripting live acquisition utilities for Windows."
-  },
-  {
-    "name": "Binaryforay",
-    "url": "http://binaryforay.blogspot.co.il/p/software.html",
-    "description": "List of free tools for win forensics (http://binaryforay.blogspot.co.il/)."
   },
   {
     "name": "Crowd Response",
@@ -768,11 +738,6 @@
     "name": "FastIR Collector",
     "url": "https://github.com/SekoiaLab/Fastir_Collector",
     "description": "Tool that collects different artefacts on live Windows systems and records the results in csv files. With the analyses of these artefacts, an early compromise can be detected."
-  },
-  {
-    "name": "Fast Evidence Collector Toolkit (FECT)",
-    "url": "https://github.com/jipegit/FECT",
-    "description": "Light incident response toolkit to collect evidences on a suspicious Windows computer. Basically it is intended to be used by non-tech savvy people working with a journeyman Incident Handler."
   },
   {
     "name": "Fibratus",
@@ -792,17 +757,12 @@
   {
     "name": "IOC Finder",
     "url": "https://www.fireeye.com/services/freeware/ioc-finder.html",
-    "description": "Free tool from Mandiant for collecting host system data and reporting the presence of Indicators of Compromise (IOCs). Support for Windows only."
+    "description": "Free tool from Mandiant for collecting host system data and reporting the presence of Indicators of Compromise (IOCs). Support for Windows only. No longer maintained. Only fully supported up to Windows 7 / Windows Server 2008 R2."
   },
   {
     "name": "IRTriage",
     "url": "https://github.com/AJMartel/IRTriage",
     "description": "Incident Response Triage - Windows Evidence Collection for Forensic Analysis."
-  },
-  {
-    "name": "Fidelis ThreatScanner",
-    "url": "https://www.fidelissecurity.com/resources/fidelis-threatscanner",
-    "description": "Free tool from Fidelis Cybersecurity that uses OpenIOC and YARA rules to report on the state of an endpoint. The user provides OpenIOC and YARA rules and executes the tool. ThreatScanner measures the state of the system and, when the run is complete, a report for any matching rules is generated. Windows Only."
   },
   {
     "name": "LOKI",
@@ -831,12 +791,7 @@
   },
   {
     "name": "RegRipper",
-    "url": "https://code.google.com/p/regripper/wiki/RegRipper",
+    "url": "https://github.com/keydet89/RegRipper3.0",
     "description": "Open source tool, written in Perl, for extracting/parsing information (keys, values, data) from the Registry and presenting it for analysis."
-  },
-  {
-    "name": "TRIAGE-IR",
-    "url": "https://code.google.com/p/triage-ir/",
-    "description": "IR collector for Windows."
   }
 ]
