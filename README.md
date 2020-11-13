@@ -7,7 +7,8 @@ Run
 ==
 ```sh
 $ git clone https://github.com/lockys/awesome.json.git
-$ cd awesome.json && mkdir test-output 
+$ cd awesome.json && npm i
+$ mkdir test-output 
 $ echo export TOKEN={THE_GITHUB_API_TOKEN} > ~/.bashrc 
 $ npm run awesome # To get the latest curated lists of awesome lists.
 $ npm run build # To get all links of all awesome lists.
