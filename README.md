@@ -5,7 +5,6 @@ It is sub-project of Awesome Search, please refer to [Awesome Search](https://gi
 
 Run
 ==
-
 ```sh
 $ git clone https://github.com/lockys/awesome.json.git
 $ cd awesome.json && npm i
