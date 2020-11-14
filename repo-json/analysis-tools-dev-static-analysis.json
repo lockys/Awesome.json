@@ -510,6 +510,11 @@
     "description": "Check that error return values are used."
   },
   {
+    "name": "errwrap",
+    "url": "https://github.com/fatih/errwrap",
+    "description": "Wrap and fix Go errors with the new %w verb directive.  This tool analyzes fmt.Errorf() calls and reports calls that contain a verb directive that  is different than the new %w verb directive introduced in Go v1.13.  It's also capable of rewriting calls to use the new %w wrap verb directive."
+  },
+  {
     "name": "flen",
     "url": "https://github.com/lafolle/flen",
     "description": "Get info on length of functions in a Go package."
@@ -2741,7 +2746,7 @@
   },
   {
     "name": "linters",
-    "url": "https://github.com/mcandre/linters/tree/b044f0628c4a96dfea869cf61e0e96cf4c49cf6b",
+    "url": "https://github.com/mcandre/linters",
     "description": "An introduction to static code analysis"
   },
   {
