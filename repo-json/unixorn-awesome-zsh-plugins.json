@@ -379,7 +379,7 @@
   {
     "name": "autoswitch-virtualenv",
     "url": "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv",
-    "description": "ZSH plugin to automatically switch python virtualenvs and pipenvs when traversing directories."
+    "description": "ZSH plugin to automatically switch python virtualenvs and pipenvs when traversing directories. Automatically detects pipenv and poetry projects."
   },
   {
     "name": "autoupdate-antigen",
@@ -394,7 +394,7 @@
   {
     "name": "aws-cli-mfa",
     "url": "https://github.com/joepjoosten/aws-cli-mfa-oh-my-zsh",
-    "description": "AWS CLI MFA plugin based on sweharris' aws-cli-mfa."
+    "description": "AWS CLI MFA plugin based on sweharris' aws-cli-mfa. Supports specifying mfa_device in profile."
   },
   {
     "name": "aws-mfa",
@@ -420,6 +420,11 @@
     "name": "aws2",
     "url": "https://github.com/drgr33n/oh-my-zsh_aws2-plugin",
     "description": "Provides completion support for version 2 of the awscli and a few utilities to manage AWS profiles and display them in the prompt."
+  },
+  {
+    "name": "awsume",
+    "url": "https://github.com/Sordie/AWSume",
+    "description": "Plugin that enables showing the current awsume profile."
   },
   {
     "name": "azcli",
@@ -4656,6 +4661,11 @@
     "description": "When you're working and need a hug. Includes git status."
   },
   {
+    "name": "humbled",
+    "url": "https://github.com/saravanabalagi/zsh-theme-humbled",
+    "description": "A clean and humble theme with support for condaenv, virtualenv and git status decorations left aligned with the working directory in bold."
+  },
+  {
     "name": "hyper",
     "url": "https://github.com/willmendesneto/hyper-oh-my-zsh",
     "description": "Designed to work with the hyper terminal theme, includes git status decorations."
@@ -5161,6 +5171,11 @@
     "description": "Minimalist theme. Includes git and hg status decorations."
   },
   {
+    "name": "modesty",
+    "url": "https://github.com/saravanabalagi/zsh-theme-modesty",
+    "description": "A clean and modest zsh theme with condaenv, virtualenv and git status decorations displayed neatly right aligned."
+  },
+  {
     "name": "moderno",
     "url": "https://github.com/obrassard/moderno-zsh",
     "description": "A simple and modern ZSH theme inspired by the robbyrussell theme from Oh-My-ZSH. Includes git status decorations."
@@ -5281,8 +5296,13 @@
     "description": "oh-my-zsh's node theme, broken out to make it easier to use with other plugin managers."
   },
   {
-    "name": "nodeys",
+    "name": "nodeys (marszall87)",
     "url": "https://github.com/marszall87/nodeys-zsh-theme",
+    "description": "Based on the ys theme, with added NodeJS version (from NVM plugin)."
+  },
+  {
+    "name": "nodeys (tianheg)",
+    "url": "https://github.com/tianheg/zsh-config",
     "description": "Based on the ys theme, with added NodeJS version (from NVM plugin)."
   },
   {
@@ -5414,6 +5434,11 @@
     "name": "parrot",
     "url": "https://github.com/kennedy69/parrot-zsh-theme",
     "description": "Imitates Parrot Security prompt, includes tmux configuration file."
+  },
+  {
+    "name": "passion",
+    "url": "https://github.com/ChesterYue/ohmyzsh-theme-passion",
+    "description": "Includes git status decorations, command run time in milliseconds. Requires coreutils on macOS."
   },
   {
     "name": "pastel",
@@ -6188,6 +6213,11 @@
     "name": "ultimate",
     "url": "https://github.com/b4b4r07/ultimate",
     "description": "Minimalist theme with git indicator, vim mode indicator and shortened path."
+  },
+  {
+    "name": "unit-1",
+    "url": "https://github.com/nerdbude/Unit-1",
+    "description": "Minimalist theme with ITWTB colors."
   },
   {
     "name": "vanan",
