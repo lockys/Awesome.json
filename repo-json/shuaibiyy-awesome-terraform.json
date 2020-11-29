@@ -1,5 +1,9 @@
 [
   {
+    "name": "Hashicorp Terraform Blog",
+    "url": "https://www.hashicorp.com/blog/category/terraform"
+  },
+  {
     "name": "Introduction to Terraform",
     "url": "https://www.terraform.io/intro/"
   },
@@ -8,24 +12,20 @@
     "url": "https://www.terraform.io/docs/"
   },
   {
-    "name": "Hashicorp Terraform Blog",
-    "url": "https://www.hashicorp.com/blog/category/terraform"
+    "name": "Terraform GitHub Actions",
+    "url": "https://github.com/hashicorp/terraform-github-actions"
   },
   {
     "name": "Terraform learn",
     "url": "https://learn.hashicorp.com/terraform/"
   },
   {
-    "name": "Terraform GitHub Actions",
-    "url": "https://github.com/hashicorp/terraform-github-actions"
+    "name": "Complete Terraform documentation as PDF files (Updated nightly)",
+    "url": "https://github.com/antonbabenko/terraform-docs-as-pdf"
   },
   {
-    "name": "Terraform Google Group",
-    "url": "https://groups.google.com/forum/#!forum/terraform-tool"
-  },
-  {
-    "name": "Terraform Gitter",
-    "url": "https://gitter.im/hashicorp-terraform"
+    "name": "Terraform AWS Modules + meta-configurations repository",
+    "url": "https://github.com/terraform-aws-modules"
   },
   {
     "name": "Terraform Bug Tracker",
@@ -36,8 +36,12 @@
     "url": "https://github.com/terraform-community-modules"
   },
   {
-    "name": "Terraform AWS Modules + meta-configurations repository",
-    "url": "https://github.com/terraform-aws-modules"
+    "name": "Terraform Gitter",
+    "url": "https://gitter.im/hashicorp-terraform"
+  },
+  {
+    "name": "Terraform Google Group",
+    "url": "https://groups.google.com/forum/#!forum/terraform-tool"
   },
   {
     "name": "Terraform Module Registry",
@@ -48,12 +52,12 @@
     "url": "https://github.com/dohsimpson/terraform-doc-pdf"
   },
   {
-    "name": "Complete Terraform documentation as PDF files (Updated nightly)",
-    "url": "https://github.com/antonbabenko/terraform-docs-as-pdf"
-  },
-  {
     "name": "Terragrunt Reference Architecture",
     "url": "https://github.com/antonbabenko/terragrunt-reference-architecture"
+  },
+  {
+    "name": "Bootstrapping Microservices with Docker, Kubernetes, and Terraform.",
+    "url": "https://www.manning.com/books/bootstrapping-microservices-with-docker-kubernetes-and-terraform"
   },
   {
     "name": "Getting Started with Terraform, 2nd ed.",
@@ -67,6 +71,10 @@
     "name": "Terraform Best Practices",
     "url": "https://www.terraform-best-practices.com/",
     "description": "open-source ebook"
+  },
+  {
+    "name": "Terraform Cookbook",
+    "url": "https://www.amazon.fr/Terraform-Cookbook-Efficiently-Infrastructure-platforms/dp/1800207557"
   },
   {
     "name": "Terraform in Action",
@@ -96,14 +104,19 @@
     "description": "Guide for creating custom providers."
   },
   {
+    "name": "Writing a Terraform provider",
+    "url": "http://blog.jfabre.net/2017/01/22/writing-terraform-provider/",
+    "description": "Guide for creating custom providers."
+  },
+  {
     "name": "Writing Custom Providers",
     "url": "https://www.terraform.io/docs/extend/writing-custom-providers.html",
     "description": "Official documentation for creating custom providers."
   },
   {
-    "name": "Writing a Terraform provider",
-    "url": "http://blog.jfabre.net/2017/01/22/writing-terraform-provider/",
-    "description": "Guide for creating custom providers."
+    "name": "How To Write OPA for Terraform",
+    "url": "https://www.scalr.com/blog/opa-series-part-1-open-policy-agent-and-terraform/",
+    "description": "How to use Open Policy Agent to evaluate and enforce policy on your Terraform plans"
   },
   {
     "name": "Deploying Discourse with Terraform",
@@ -111,9 +124,19 @@
     "description": "Shows how Terraform can create a running instance of Discourse on DigitalOcean in one command."
   },
   {
+    "name": "Deploying Django to AWS ECS with Terraform",
+    "url": "https://testdriven.io/blog/deploying-django-to-ecs-with-terraform/",
+    "description": "Looks at how to use Terraform to spin up the required AWS infrastructure for running a Django app on ECS."
+  },
+  {
     "name": "Easily Deploy A Seneca Microservice to ECS with Wercker and Terraform: Part I, II & III",
     "url": "http://chiefy.github.io/easily-deploy-a-seneca-microservice-to-ecs-with-wercker-and-terraform-part-i/",
     "description": "Illustrates how Terraform can be incorporated into a microservice deployment pipeline."
+  },
+  {
+    "name": "Terraform for a Highly Available VPN between AWS and Azure",
+    "url": "https://deployeveryday.com/2020/04/13/vpn-aws-azure-terraform.html",
+    "description": "Terraform code to deploy a highly available VPN between AWS and Azure."
   },
   {
     "name": "Terraforming 1Password",
@@ -129,16 +152,6 @@
     "name": "Zero Downtime Updates with HashiCorp Terraform",
     "url": "https://www.hashicorp.com/blog/zero-downtime-updates-with-terraform",
     "description": "Ensuring zero downtime of your infrastructure."
-  },
-  {
-    "name": "Terraform for a Highly Available VPN between AWS and Azure",
-    "url": "https://deployeveryday.com/2020/04/13/vpn-aws-azure-terraform.html",
-    "description": "Terraform code to deploy a highly available VPN between AWS and Azure."
-  },
-  {
-    "name": "Deploying Django to AWS ECS with Terraform",
-    "url": "https://testdriven.io/blog/deploying-django-to-ecs-with-terraform/",
-    "description": "Looks at how to use Terraform to spin up the required AWS infrastructure for running a Django app on ECS."
   },
   {
     "name": "Terraform Design Patterns: the Terrafile",
@@ -585,6 +598,11 @@
     "description": "Interactive visualizations of Terraform dependency graphs."
   },
   {
+    "name": "Checkov",
+    "url": "https://github.com/bridgecrewio/checkov/",
+    "description": "Terraform static analysis tool for terraform>=0.12"
+  },
+  {
     "name": "flora",
     "url": "https://github.com/ketchoop/flora",
     "description": "Terraform version manager."
@@ -598,11 +616,6 @@
     "name": "former2",
     "url": "https://github.com/iann0036/former2",
     "description": "Generate terraform configuration from your existing resources within your AWS account."
-  },
-  {
-    "name": "geopoiesis",
-    "url": "https://docs.geopoiesis.io/manual/",
-    "description": "Specialized continuous integration and deployment tool for modern declarative infrastructure provisioning and management."
   },
   {
     "name": "hcledit",
@@ -695,6 +708,10 @@
     "description": "DSL to generate a terraform configuration and run it."
   },
   {
+    "name": "TerraDepot Terraform state repository, based on the default http remote backend. Allows the central administration of tfstates on AWS S3.",
+    "url": "https://github.com/derBroBro/TerraDepot"
+  },
+  {
     "name": "terrafile",
     "url": "https://github.com/coretech/terrafile",
     "description": "Systematically manage external modules from Github for use in Terraform (written in Go)."
@@ -718,6 +735,11 @@
     "name": "terraform-landscape",
     "url": "https://github.com/coinbase/terraform-landscape",
     "description": "(only 0.11 and earlier) Improve Terraform's plan output to be easier to read and understand."
+  },
+  {
+    "name": "terraform-operator",
+    "url": "https://github.com/isaaguilar/terraform-operator.git",
+    "description": "A Kubernetes CRD to handle Terraform operations."
   },
   {
     "name": "terraform-plan-parser",
@@ -750,6 +772,10 @@
     "description": "Export existing AWS resources to Terraform style (tf, tfstate). Similar to terraformer."
   },
   {
+    "name": "Terraform-Visual A simple but powerful tool to visualize Terraform plan.",
+    "url": "https://github.com/hieven/terraform-visual"
+  },
+  {
     "name": "terragrunt",
     "url": "https://github.com/gruntwork-io/terragrunt",
     "description": "Terragrunt is a thin wrapper for Terraform that provides extra tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state."
@@ -777,12 +803,16 @@
   {
     "name": "terratag",
     "url": "https://github.com/env0/terratag",
-    "description": "Terratag is a CLI tool that enables users of Terraform to automatically create and maintain tags across their entire set of AWS, Azure, and GCP resources"
+    "description": "Terratag is a CLI tool that enables users of Terraform to automatically create and maintain tags across their entire set of AWS, Azure, and GCP resources."
   },
   {
-    "name": "Checkov",
-    "url": "https://github.com/bridgecrewio/checkov/",
-    "description": "Terraform static analysis tool for terraform>=0.12"
+    "name": "tf-init-booster A Pre-terraform routine that speedups terraform modules download for bulky blueprints.",
+    "url": "https://github.com/hayorov/terraform-init-booster"
+  },
+  {
+    "name": "[tfsec] (https://github.com/tfsec/tfsec)",
+    "url": "https://github.com/tfsec/tfsec",
+    "description": "Terraform static analysis tool that supports terraform <0.12 & >=0.12 & directly integrates with HCL parser for better results."
   },
   {
     "name": "tfenv",
@@ -844,26 +874,14 @@
     "url": "https://github.com/devopsmakers/xterrafile"
   },
   {
-    "name": "TerraDepot Terraform state repository, based on the default http remote backend. Allows the central administration of tfstates on AWS S3.",
-    "url": "https://github.com/derBroBro/TerraDepot"
-  },
-  {
-    "name": "Terraform-Visual A simple but powerful tool to visualize Terraform plan",
-    "url": "https://github.com/hieven/terraform-visual"
-  },
-  {
-    "name": "tf-init-booster A Pre-terraform routine that speedups terraform modules download for bulky blueprints.",
-    "url": "https://github.com/hayorov/terraform-init-booster"
+    "name": "pyhcl",
+    "url": "https://github.com/virtuald/pyhcl",
+    "description": "HCL parser in Python"
   },
   {
     "name": "python-hcl2",
     "url": "https://github.com/amplify-education/python-hcl2/",
     "description": "HCL2 parser in Python"
-  },
-  {
-    "name": "pyhcl",
-    "url": "https://github.com/virtuald/pyhcl",
-    "description": "HCL parser in Python"
   },
   {
     "name": "rhcl",
@@ -894,6 +912,11 @@
     "name": "tfe-state-explorer",
     "url": "https://github.com/segmentio/tfe-state-explorer",
     "description": "Simple shell for exploring remote terraform enterprise state, with autocomplete."
+  },
+  {
+    "name": "Scalr",
+    "url": "https://scalr.com",
+    "description": "Alternative to Terraform Enterprise with OPA integration"
   },
   {
     "name": "Building Scalable, Repeatable Infrastructure in the Cloud with Terraform",
