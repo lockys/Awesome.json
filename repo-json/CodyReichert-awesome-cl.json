@@ -1169,11 +1169,6 @@
     "description": "A package manager for Common Lisp that strives to cleanly separate the package manager process itself from the client image that uses it. BSD_2Clause."
   },
   {
-    "name": "Qi",
-    "url": "https://github.com/CodyReichert/qi",
-    "description": "A package manager with a traditional approach. BSD."
-  },
-  {
     "name": "print-licenses",
     "url": "https://github.com/vindarel/print-licenses",
     "description": "print licenses used by a project and its dependencies. MIT."
@@ -1202,6 +1197,11 @@
     "name": "cl-brewer",
     "url": "https://github.com/can3p/cl-brewer",
     "description": "Homebrew formula builder for (command line) common lisp applications. Public domain."
+  },
+  {
+    "name": "flatpack-common-lisp",
+    "url": "https://gitlab.com/ralph-schleicher/flatpak-common-lisp",
+    "description": "A BuildStream project for building Flatpak based runtime environments for Common Lisp applications."
   },
   {
     "name": "clml",
@@ -1700,6 +1700,15 @@
     "description": "distributing work across machines (on top of lparallel and usocket). BSD_3Clause"
   },
   {
+    "name": "calispel",
+    "url": "https://github.com/hawkir/calispel",
+    "description": "CSP-like channels for common lisp. With blocking, optionally buffered channels and a \"CSP select\" statement. ISC-style."
+  },
+  {
+    "name": "\"It is complete, flexible and easy to use. I would recommend Calispel over Lparallel and ChanL.\" @Ambrevar. discussion",
+    "url": "https://github.com/CodyReichert/awesome-cl/issues/290"
+  },
+  {
     "name": "chanl",
     "url": "https://github.com/zkat/chanl",
     "description": "Portable, channel-based concurrency. Expat, with parts under 3-clause BSD."
@@ -2023,6 +2032,16 @@
     "description": "Text language identification using Wikipedia data. No license specified."
   },
   {
+    "name": "cl-phonetic",
+    "url": "https://github.com/bgutter/cl-phonetic",
+    "description": "Phonetic pattern matching library for Common Lisp (intended to replace the Sylvia library for Python). MIT."
+  },
+  {
+    "name": "cl-string-generator",
+    "url": "https://github.com/pokepay/cl-string-generator",
+    "description": " Generate string from regular expression. MIT."
+  },
+  {
     "name": "quickapp",
     "url": "https://github.com/triclops200/quickapp",
     "description": "A project for generating template projects with SBCL and buildapp. Also includes a command-line argparser. 3-clause BSD."
@@ -2116,11 +2135,6 @@
     "name": "auto-text",
     "url": "https://github.com/defunkydrummer/auto-text",
     "description": "automatic (encoding, end of line, column width, csv delimiter etc) detection for text files. MIT. See also inquisitor for detection of asian and far eastern languages."
-  },
-  {
-    "name": "localtime",
-    "url": "https://common-lisp.net/project/local-time/",
-    "description": "A development library for manipulating date and time information in a semi-standard manner. 3-clause BSD."
   },
   {
     "name": "cl-date-time-parser",
@@ -2401,6 +2415,11 @@
     "name": "kai",
     "url": "https://github.com/komi1230/kai",
     "description": "A high-level plotter library for Common Lisp. A wrapper around the Plotly JS library. MIT."
+  },
+  {
+    "name": "ADW-Charting",
+    "url": "https://common-lisp.net/project/adw-charting/",
+    "description": "A simple chart drawing library written completely in Common Lisp. Also includes a backend to Google's chart service. BSD-like."
   },
   {
     "name": "cl-spark",
