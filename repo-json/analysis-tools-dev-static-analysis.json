@@ -1740,11 +1740,6 @@
     "description": "Commercial Static Code Analysis which runs locally, but uploads the results to its cloud for presentation."
   },
   {
-    "name": "checkmake",
-    "url": "https://github.com/mrtazz/checkmake",
-    "description": "Linter / Analyzer for Makefiles."
-  },
-  {
     "name": "Checkmarx CxSAST ©️",
     "url": "https://www.checkmarx.com/products/static-application-security-testing",
     "description": "Commercial Static Code Analysis which doesn't require pre-compilation."
@@ -1945,11 +1940,6 @@
     "description": "Comments on style violations in GitHub pull requests. Supports Coffeescript, Go, HAML, JavaScript, Ruby, SCSS and Swift."
   },
   {
-    "name": "iblessing",
-    "url": "https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html",
-    "description": "iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining."
-  },
-  {
     "name": "imhotep",
     "url": "https://github.com/justinabrahms/imhotep",
     "description": "Comment on commits coming into your repository and check for syntactic errors and general lint warnings."
@@ -2000,19 +1990,9 @@
     "description": "Automated PHP code review."
   },
   {
-    "name": "njsscan",
-    "url": "https://opensecurity.in",
-    "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep."
-  },
-  {
     "name": "NodeJSScan",
     "url": "https://opensecurity.in",
     "description": "NodeJsScan is a static security code scanner for Node.js applications."
-  },
-  {
-    "name": "Nu Html Checker",
-    "url": "https://validator.github.io/validator/",
-    "description": "Helps you catch problems in your HTML/CSS/SVG"
   },
   {
     "name": "oclint",
@@ -2023,11 +2003,6 @@
     "name": "ocular ©️",
     "url": "https://www.shiftleft.io/ocular/",
     "description": "Enables code auditors and security teams to interactively investigate their unique code bases  to find business logic flaws and technical vulnerabilities that traditional SASTs cannot. This is done by enabling the analyst to write their own custom queries. Can find hard-coded secrets, authentication issues, and malicious code like rootkits and backdoors."
-  },
-  {
-    "name": "Oversecured ©️",
-    "url": "https://oversecured.com",
-    "description": "A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses."
   },
   {
     "name": "pfff ⚠️",
@@ -2043,11 +2018,6 @@
     "name": "Polymer-analyzer",
     "url": "https://github.com/Polymer/tools/tree/master/packages/analyzer",
     "description": "A static analysis framework for Web Components."
-  },
-  {
-    "name": "portlint",
-    "url": "https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports",
-    "description": "A verifier for FreeBSD and DragonFlyBSD port directories."
   },
   {
     "name": "pre-commit",
@@ -2088,11 +2058,6 @@
     "name": "quality",
     "url": "https://github.com/apiology/quality",
     "description": "Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time."
-  },
-  {
-    "name": "Qualys Container Security ©️",
-    "url": "https://www.qualys.com/apps/container-security",
-    "description": "Container native application protection to provide visibility and control of containerized applications."
   },
   {
     "name": "QuantifiedCode ⚠️",
@@ -2225,11 +2190,6 @@
     "description": "Static Code Analysis for C/C++, Java, C#, Python, and RPG III and RPG IV versions (including free-form)."
   },
   {
-    "name": "Spectral",
-    "url": "https://stoplight.io/open-source/spectral",
-    "description": "A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2."
-  },
-  {
     "name": "standard",
     "url": "http://standardjs.com",
     "description": "An npm module that checks for Javascript Styleguide issues."
@@ -2250,11 +2210,6 @@
     "description": "Static and dynamic analysis tool supporting more than 25 languages and direct IDE integration. Free hosting for Open Source projects available on request. Free academic licenses available."
   },
   {
-    "name": "tfsec",
-    "url": "https://github.com/tfsec/tfsec",
-    "description": "Terraform static analysis tool that prevents potential security issues by checking cloud misconfigurations at build time and directly integrates with the HCL parser for better results. Checks for violations of AWS, Azure and GCP security best practice recommendations."
-  },
-  {
     "name": "todocheck",
     "url": "https://github.com/preslavmihaylov/todocheck",
     "description": "Linter for integrating annotated TODOs with your issue trackers"
@@ -2263,11 +2218,6 @@
     "name": "TscanCode",
     "url": "https://github.com/Tencent/TscanCode",
     "description": "A fast and accurate static analysis solution for C/C++, C#, Lua codes provided by Tencent. Using GPLv3 license."
-  },
-  {
-    "name": "Twiggy",
-    "url": "https://rustwasm.github.io/twiggy",
-    "description": "Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size."
   },
   {
     "name": "Undebt",
@@ -2325,11 +2275,6 @@
     "description": "XCode provides a pretty decent UI for Clang's static code analyzer (C/C++, Obj-C)."
   },
   {
-    "name": "yamllint",
-    "url": "https://yamllint.readthedocs.io",
-    "description": "Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation."
-  },
-  {
     "name": "binbloom",
     "url": "https://github.com/quarkslab/binbloom",
     "description": "The purpose of this project is to analyse a raw binary firmware  and determine automatically some of its features.  This tool is compatible with all architectures as basically,  it just does simple statistics on it."
@@ -2385,9 +2330,24 @@
     "description": "Static Linker/Compiler/Tool detector for Windows, Linux and MacOS."
   },
   {
+    "name": "Twiggy",
+    "url": "https://rustwasm.github.io/twiggy",
+    "description": "Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size."
+  },
+  {
     "name": "zydis",
     "url": "https://zydis.re",
     "description": "Fast and lightweight x86/x86-64 disassembler library"
+  },
+  {
+    "name": "checkmake",
+    "url": "https://github.com/mrtazz/checkmake",
+    "description": "Linter / Analyzer for Makefiles."
+  },
+  {
+    "name": "portlint",
+    "url": "https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports",
+    "description": "A verifier for FreeBSD and DragonFlyBSD port directories."
   },
   {
     "name": "CSS Stats",
@@ -2408,6 +2368,11 @@
     "name": "GraphMyCSS.com",
     "url": "https://graphmycss.com",
     "description": "CSS Specificity Graph Generator."
+  },
+  {
+    "name": "Nu Html Checker",
+    "url": "https://validator.github.io/validator/",
+    "description": "Helps you catch problems in your HTML/CSS/SVG"
   },
   {
     "name": "Parker",
@@ -2510,6 +2475,11 @@
     "description": "A Terraform linter for detecting errors that can not be detected by terraform plan."
   },
   {
+    "name": "tfsec",
+    "url": "https://github.com/tfsec/tfsec",
+    "description": "Terraform static analysis tool that prevents potential security issues by checking cloud misconfigurations at build time and directly integrates with the HCL parser for better results. Checks for violations of AWS, Azure and GCP security best practice recommendations."
+  },
+  {
     "name": "anchore",
     "url": "https://anchore.io",
     "description": "Discover, analyze, and certify container images."
@@ -2553,6 +2523,11 @@
     "name": "kubeval",
     "url": "https://kubeval.instrumenta.dev",
     "description": "Validates your Kubernetes configuration files and supports multiple Kubernetes versions."
+  },
+  {
+    "name": "Qualys Container Security ©️",
+    "url": "https://www.qualys.com/apps/container-security",
+    "description": "Container native application protection to provide visibility and control of containerized applications."
   },
   {
     "name": "Code Climate",
@@ -2605,6 +2580,16 @@
     "description": "A Static Code Analysis Tool for HTML."
   },
   {
+    "name": "Nu Html Checker",
+    "url": "https://validator.github.io/validator/",
+    "description": "Helps you catch problems in your HTML/CSS/SVG"
+  },
+  {
+    "name": "Spectral",
+    "url": "https://stoplight.io/open-source/spectral",
+    "description": "A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2."
+  },
+  {
     "name": "ChkTeX",
     "url": "http://www.nongnu.org/chktex",
     "description": "A linter for LaTex which catches some typographic errors LaTeX oversees."
@@ -2618,6 +2603,16 @@
     "name": "TeXLab",
     "url": "https://texlab.netlify.app",
     "description": "A Language Server Protocol implementation for TeX/LaTeX, including lint capabilities."
+  },
+  {
+    "name": "checkmake",
+    "url": "https://github.com/mrtazz/checkmake",
+    "description": "Linter / Analyzer for Makefiles."
+  },
+  {
+    "name": "portlint",
+    "url": "https://www.freebsd.org/cgi/man.cgi?query=portlint&sektion=1&manpath=FreeBSD+8.1-RELEASE+and+Ports",
+    "description": "A verifier for FreeBSD and DragonFlyBSD port directories."
   },
   {
     "name": "markdownlint",
@@ -2650,6 +2645,16 @@
     "description": "Static taint analysis tool for Android applications."
   },
   {
+    "name": "iblessing",
+    "url": "https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html",
+    "description": "iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining."
+  },
+  {
+    "name": "Oversecured ©️",
+    "url": "https://oversecured.com",
+    "description": "A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses."
+  },
+  {
     "name": "paprika",
     "url": "https://github.com/GeoffreyHecht/paprika",
     "description": "A toolkit to detect some code smells in analyzed Android applications."
@@ -2663,6 +2668,11 @@
     "name": "redex",
     "url": "https://fbredex.com",
     "description": "Redex provides a framework for reading, writing, and analyzing .dex files, and a set of optimization passes  that use this framework to improve the bytecode. An APK optimized by Redex should be smaller and faster."
+  },
+  {
+    "name": "njsscan",
+    "url": "https://opensecurity.in",
+    "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep."
   },
   {
     "name": "lintian",
@@ -2688,6 +2698,31 @@
     "name": "Gitleaks",
     "url": "https://github.com/zricethezav/gitleaks",
     "description": "A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos."
+  },
+  {
+    "name": "iblessing",
+    "url": "https://www.kitploit.com/2020/08/iblessing-ios-security-exploiting.html",
+    "description": "iblessing is an iOS security exploiting toolkit. It can be used for reverse engineering, binary analysis and vulnerability mining."
+  },
+  {
+    "name": "njsscan",
+    "url": "https://opensecurity.in",
+    "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep."
+  },
+  {
+    "name": "Oversecured ©️",
+    "url": "https://oversecured.com",
+    "description": "A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses."
+  },
+  {
+    "name": "Qualys Container Security ©️",
+    "url": "https://www.qualys.com/apps/container-security",
+    "description": "Container native application protection to provide visibility and control of containerized applications."
+  },
+  {
+    "name": "tfsec",
+    "url": "https://github.com/tfsec/tfsec",
+    "description": "Terraform static analysis tool that prevents potential security issues by checking cloud misconfigurations at build time and directly integrates with the HCL parser for better results. Checks for violations of AWS, Azure and GCP security best practice recommendations."
   },
   {
     "name": "mythril",
@@ -2735,6 +2770,11 @@
     "description": "Configurable tool for analyzing Slim templates."
   },
   {
+    "name": "yamllint",
+    "url": "https://yamllint.readthedocs.io",
+    "description": "Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation."
+  },
+  {
     "name": "dennis",
     "url": "https://github.com/willkg/dennis",
     "description": "A set of utilities for working with PO files to ease development and improve quality."
@@ -2743,6 +2783,11 @@
     "name": "Vetur",
     "url": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
     "description": "Vue tooling for VS Code, powered by vls (vue language server). Vetur has support for formatting embedded HTML, CSS, SCSS, JS, TypeScript, and more. Vetur only has a \"whole document formatter\" and cannot format arbitrary ranges."
+  },
+  {
+    "name": "Twiggy",
+    "url": "https://rustwasm.github.io/twiggy",
+    "description": "Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size."
   },
   {
     "name": "After the Deadline ⚠️",
@@ -2788,6 +2833,16 @@
     "name": "write-good",
     "url": "https://github.com/btford/write-good",
     "description": "A linter with a focus on eliminating \"weasel words\"."
+  },
+  {
+    "name": "Spectral",
+    "url": "https://stoplight.io/open-source/spectral",
+    "description": "A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2."
+  },
+  {
+    "name": "yamllint",
+    "url": "https://yamllint.readthedocs.io",
+    "description": "Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation."
   },
   {
     "name": "go-tools",
