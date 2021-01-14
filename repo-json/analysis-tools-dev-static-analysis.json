@@ -1490,6 +1490,11 @@
     "description": "Audit Cargo.lock for crates with security vulnerabilities reported to the RustSec Advisory Database."
   },
   {
+    "name": "cargo-deny",
+    "url": "https://embarkstudios.github.io/cargo-deny",
+    "description": "A cargo plugin for linting your dependencies. It can be used either as a command line too, a Rust crate, or a Github action for CI. It checks for valid license information, duplicate crates, security vulnerabilities, and more."
+  },
+  {
     "name": "cargo-expand",
     "url": "https://github.com/dtolnay/cargo-expand",
     "description": "Cargo subcommand to show result of macro expansion  and #[derive] expansion applied to the current crate.  This is a wrapper around a more verbose compiler command."

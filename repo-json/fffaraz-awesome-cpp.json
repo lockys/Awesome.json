@@ -2380,6 +2380,11 @@
     "description": "An optimized BLAS library based on GotoBLAS2 1.13 BSD version. [BSD 3-clause] website"
   },
   {
+    "name": "PCG-rand",
+    "url": "https://www.pcg-random.org/",
+    "description": "PCG is a family of simple fast space-efficient statistically good algorithms for random number generation. Unlike many general-purpose RNGs, they are also hard to predict. [Apache]"
+  },
+  {
     "name": "QuantLib",
     "url": "https://github.com/lballabio/quantlib",
     "description": "A free/open-source library for quantitative finance. [Modified BSD] website"
@@ -3237,6 +3242,11 @@
     "name": "Timsort",
     "url": "https://github.com/gfx/cpp-TimSort",
     "description": "A templated stable sorting function which outperforms quicksort-based algorithms including std::sort, for reversed or semi-sorted data. [MIT]"
+  },
+  {
+    "name": "Indiesort",
+    "url": "https://github.com/mattreecebentley/plf_indiesort",
+    "description": "A sort wrapper which enables the use of std::sort (& other random-access sort functions) with non-random-access containers, and also improves sort performance for large/non-trivially-copyable types in random-access containers and arrays. [zLib] website"
   },
   {
     "name": "libvpx",

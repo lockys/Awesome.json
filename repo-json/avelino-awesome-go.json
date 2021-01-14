@@ -345,6 +345,41 @@
     "description": "Command line tool to frictionlessly manage project-specific commands."
   },
   {
+    "name": "gaper",
+    "url": "https://github.com/maxcnunes/gaper",
+    "description": "Builds and restarts a Go project when it crashes or some watched file changes."
+  },
+  {
+    "name": "gilbert",
+    "url": "https://go-gilbert.github.io",
+    "description": "Build system and task runner for Go projects."
+  },
+  {
+    "name": "mmake",
+    "url": "https://github.com/tj/mmake",
+    "description": "Modern Make."
+  },
+  {
+    "name": "realize",
+    "url": "https://github.com/tockins/realize",
+    "description": "Go build system with file watchers and live reload. Run, build and watch file changes with custom paths."
+  },
+  {
+    "name": "Task",
+    "url": "https://github.com/go-task/task",
+    "description": "simple \"Make\" alternative."
+  },
+  {
+    "name": "taskctl",
+    "url": "https://github.com/taskctl/taskctl",
+    "description": "Concurrent task runner."
+  },
+  {
+    "name": "taskflow",
+    "url": "https://github.com/pellared/taskflow",
+    "description": "Create build pipelines in Go."
+  },
+  {
     "name": "argparse",
     "url": "https://github.com/akamensky/argparse",
     "description": "Command line argument parser inspired by Python's argparse module."
@@ -1440,6 +1475,11 @@
     "description": "Your NoSQL database powered by Golang."
   },
   {
+    "name": "ttlcache",
+    "url": "https://github.com/cheshir/ttlcache",
+    "description": "In-memory key value storage with TTL for each record."
+  },
+  {
     "name": "unitdb",
     "url": "https://github.com/unit-io/unitdb",
     "description": "Fast timeseries database for IoT, realtime messaging  applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application."
@@ -1823,6 +1863,11 @@
     "name": "gocb",
     "url": "https://github.com/couchbase/gocb",
     "description": "Official Couchbase Go SDK."
+  },
+  {
+    "name": "gocosmos",
+    "url": "https://github.com/btnguyen2k/gocosmos",
+    "description": "REST client and standard database/sql driver for Azure Cosmos DB."
   },
   {
     "name": "gocql",
@@ -2333,6 +2378,11 @@
     "name": "go-dkim",
     "url": "https://github.com/toorop/go-dkim",
     "description": "DKIM library, to sign & verify email."
+  },
+  {
+    "name": "go-email-validator",
+    "url": "https://github.com/go-email-validator/go-email-validator",
+    "description": "Modular email validator for syntax, disposable, smtp, etc... checking."
   },
   {
     "name": "go-imap",
@@ -3570,6 +3620,11 @@
     "description": "Simple and intuitive job scheduling library in Go."
   },
   {
+    "name": "cronticker",
+    "url": "https://github.com/krayzpipes/cronticker",
+    "description": "A ticker implementation to support cron schedules."
+  },
+  {
     "name": "go-cron",
     "url": "https://github.com/rk/go-cron",
     "description": "Simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons."
@@ -3628,6 +3683,11 @@
     "name": "epoch",
     "url": "https://github.com/vtopc/epoch",
     "description": "Contains primitives for marshaling/unmarshaling Unix timestamp/epoch to/from build-in time.Time type in JSON."
+  },
+  {
+    "name": "fastjson",
+    "url": "https://github.com/valyala/fastjson",
+    "description": "Fast JSON parser and validator for Go. No custom structs, no code generation, no reflection."
   },
   {
     "name": "gjo",
@@ -3703,6 +3763,11 @@
     "name": "jsonhal",
     "url": "https://github.com/RichardKnop/jsonhal",
     "description": "Simple Go package to make custom structs marshal into HAL compatible JSON responses."
+  },
+  {
+    "name": "jsonic",
+    "url": "https://github.com/sinhashubham95/jsonic",
+    "description": "Utilities to handle and query JSON without defining structs in a type safe manner."
   },
   {
     "name": "jzon",
@@ -3963,6 +4028,11 @@
     "name": "zerolog",
     "url": "https://github.com/rs/zerolog",
     "description": "Zero-allocation JSON logger."
+  },
+  {
+    "name": "zkits-logger",
+    "url": "https://github.com/edoger/zkits-logger",
+    "description": "A powerful zero-dependency JSON logger."
   },
   {
     "name": "bayesian",
@@ -4768,6 +4838,11 @@
     "name": "xkg",
     "url": "https://github.com/go-xkg/xkg",
     "description": "X Keyboard Grabber."
+  },
+  {
+    "name": "address",
+    "url": "https://github.com/bojanz/address",
+    "description": "Handles address representation, validation and formatting."
   },
   {
     "name": "detectlanguage",
@@ -6110,6 +6185,11 @@
     "description": "A self contained feature flag solution written in Go and Vue.js"
   },
   {
+    "name": "go-feature-flag",
+    "url": "https://github.com/thomaspoignant/go-feature-flag",
+    "description": "A feature flag solution, with only a YAML file in the backend (S3, GitHub, HTTP, local file ...), no server to install, just add a file in a central system and refer to it."
+  },
+  {
     "name": "go-proxy-cache",
     "url": "https://github.com/fabiocicerchia/go-proxy-cache",
     "description": "Simple Reverse Proxy with Caching, written in Go, using Redis."
@@ -6610,6 +6690,11 @@
     "description": "Mock object for Go http.ResponseWriter."
   },
   {
+    "name": "mockit",
+    "url": "https://github.com/pasdam/mockit",
+    "description": "Allows functions and method easy mocking, without defining new types; it's similar to Mockito for Java."
+  },
+  {
     "name": "timex",
     "url": "https://github.com/cabify/timex",
     "description": "A test-friendly replacement for the native time package."
@@ -6643,6 +6728,11 @@
     "name": "ggr",
     "url": "https://github.com/aerokube/ggr",
     "description": "a lightweight server that routes and proxies Selenium WebDriver requests to multiple Selenium hubs."
+  },
+  {
+    "name": "playwright-go",
+    "url": "https://github.com/mxschmitt/playwright-go",
+    "description": "browser automation library to control Chromium, Firefox and WebKit with a single API."
   },
   {
     "name": "rod",
@@ -7008,6 +7098,11 @@
     "name": "coinpaprika-go",
     "url": "https://github.com/coinpaprika/coinpaprika-api-go-client",
     "description": "Go client library for interacting with Coinpaprika's API."
+  },
+  {
+    "name": "device-check-go",
+    "url": "https://github.com/rinchsan/device-check-go",
+    "description": "Go client library for interacting with iOS DeviceCheck API v1."
   },
   {
     "name": "discordgo",
@@ -7540,11 +7635,6 @@
     "description": "Command-line fuzzy finder written in Go."
   },
   {
-    "name": "gaper",
-    "url": "https://github.com/maxcnunes/gaper",
-    "description": "Builds and restarts a Go project when it crashes or some watched file changes."
-  },
-  {
     "name": "generate",
     "url": "https://github.com/go-playground/generate",
     "description": "runs go generate recursively on a specified path or environment variable and can filter by regex."
@@ -7820,11 +7910,6 @@
     "description": "MongoDB / mgo.v2 query that supports efficient pagination (cursors to continue listing documents where we left off)."
   },
   {
-    "name": "mmake",
-    "url": "https://github.com/tj/mmake",
-    "description": "Modern Make."
-  },
-  {
     "name": "moldova",
     "url": "https://github.com/StabbyCutyou/moldova",
     "description": "Utility for generating random data based on an input template."
@@ -7918,11 +8003,6 @@
     "name": "rclient",
     "url": "https://github.com/zpatrick/rclient",
     "description": "Readable, flexible, simple-to-use client for REST APIs."
-  },
-  {
-    "name": "realize",
-    "url": "https://github.com/tockins/realize",
-    "description": "Go build system with file watchers and live reload. Run, build and watch file changes with custom paths."
   },
   {
     "name": "repeat",
@@ -8048,16 +8128,6 @@
     "name": "structs",
     "url": "https://github.com/PumpkinSeed/structs",
     "description": "Implement simple functions to manipulate structs."
-  },
-  {
-    "name": "Task",
-    "url": "https://github.com/go-task/task",
-    "description": "simple \"Make\" alternative."
-  },
-  {
-    "name": "taskctl",
-    "url": "https://github.com/taskctl/taskctl",
-    "description": "Concurrent task runner."
   },
   {
     "name": "tik",
@@ -8267,7 +8337,7 @@
   {
     "name": "goav",
     "url": "https://github.com/giorgisio/goav",
-    "description": "Comphrensive Go bindings for FFmpeg."
+    "description": "Comprehensive Go bindings for FFmpeg."
   },
   {
     "name": "gst",
@@ -9088,11 +9158,6 @@
     "name": "generator-go-lang",
     "url": "https://github.com/axelspringer/generator-go-lang",
     "description": "A Yeoman generator to get new Go projects started."
-  },
-  {
-    "name": "gilbert",
-    "url": "https://go-gilbert.github.io",
-    "description": "Build system and task runner for Go projects."
   },
   {
     "name": "go-callvis",
@@ -10399,6 +10464,11 @@
     "name": "Golang News",
     "url": "https://golangnews.com",
     "description": "Links and news about Go programming."
+  },
+  {
+    "name": "Golang Resources",
+    "url": "https://golangresources.com",
+    "description": "A curation of the best articles, exercises, talks and videos to learn Go."
   },
   {
     "name": "golang-graphics",
