@@ -135,9 +135,14 @@
     "description": "Code style agnostic version of Standard, perfect companion to Prettier."
   },
   {
+    "name": "Radar",
+    "url": "https://github.com/es-joy/eslint-plugin-radar",
+    "description": "Rules detecting bugs and suspicious patterns (Fork of SonarJS)."
+  },
+  {
     "name": "SonarJS",
     "url": "https://github.com/SonarSource/eslint-plugin-sonarjs",
-    "description": "Rules detecting bugs and suspicious patterns."
+    "description": "Rules detecting bugs and suspicious patterns. See also a currently maintained fork, Radar."
   },
   {
     "name": "Unicorn",
@@ -479,6 +484,11 @@
     "description": "Require errors to be thrown using new."
   },
   {
+    "name": "no-constructor-bind",
+    "url": "https://github.com/markalfred/eslint-plugin-no-constructor-bind",
+    "description": "Encourages use of class properties by reporting use of this with bind or setting state in constructors."
+  },
+  {
     "name": "no-inferred-method-name",
     "url": "https://github.com/johnstonbl01/eslint-no-inferred-method-name",
     "description": "Custom rule for ESLint that checks for inferred method names within object literals."
@@ -567,9 +577,14 @@
     "description": "Tries to detect XSS issues in codebase before they end up in production."
   },
   {
+    "name": "const case",
+    "url": "https://www.npmjs.com/package/eslint-plugin-const-case",
+    "description": "Enforce capitalization of constant primitive literals."
+  },
+  {
     "name": "editorconfig",
     "url": "https://github.com/platinumazure/eslint-plugin-editorconfig",
-    "description": "Derive rules from .editorconfig"
+    "description": "Derive rules from .editorconfig."
   },
   {
     "name": "filenames",
@@ -787,6 +802,11 @@
     "name": "esprint",
     "url": "https://github.com/pinterest/esprint",
     "description": "Run ESLint across multiple threads."
+  },
+  {
+    "name": "generator-eslint",
+    "url": "https://github.com/eslint/generator-eslint",
+    "description": "Generate ESLint"
   },
   {
     "name": "eslint-docs",
