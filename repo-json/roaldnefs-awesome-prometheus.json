@@ -35,26 +35,6 @@
     "description": "Walkthough on how to monitor a CentOS 7 server using Prometheus."
   },
   {
-    "name": "How To Install Prometheus using Docker on Ubuntu 14.04",
-    "url": "https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-using-docker-on-ubuntu-14-04",
-    "description": "Walkthough on how to install Prometheus on Ubuntu 14.04."
-  },
-  {
-    "name": "How To Use Prometheus to Monitor Your Ubuntu 14.04 Server",
-    "url": "https://www.digitalocean.com/community/tutorials/how-to-use-prometheus-to-monitor-your-ubuntu-14-04-server",
-    "description": "Walkthough on how to monitor a Ubuntu 14.04 server using Prometheus."
-  },
-  {
-    "name": "How To Query Prometheus on Ubuntu 14.04 Part 1",
-    "url": "https://www.digitalocean.com/community/tutorials/how-to-query-prometheus-on-ubuntu-14-04-part-1",
-    "description": "Part 1 of 2 in the series How To Query Prometheus on Ubuntu 14.04."
-  },
-  {
-    "name": "How To Query Prometheus on Ubuntu 14.04 Part 2",
-    "url": "https://www.digitalocean.com/community/tutorials/how-to-query-prometheus-on-ubuntu-14-04-part-2",
-    "description": "Part 2 in the series How To Query Prometheus on Ubuntu 14.04."
-  },
-  {
     "name": "How To Add a Prometheus Dashboard to Grafana",
     "url": "https://www.digitalocean.com/community/tutorials/how-to-add-a-prometheus-dashboard-to-grafana",
     "description": "Walkthrough on how to add a Prometheus dashboard to Grafana."
@@ -105,9 +85,29 @@
     "description": "Hands-On Infrastructure Monitoring with Prometheus by Joel Bastos & Pedro Araújo, reviewed by Brian Brazil."
   },
   {
+    "name": "PromCon Online 2020",
+    "url": "https://www.youtube.com/playlist?list=PLoz-W_CUquUm0r6nxziK9B9LnmNntzctE",
+    "description": "PromCon Online - July 14-16, 2020."
+  },
+  {
     "name": "PromCon 2019",
     "url": "https://www.youtube.com/playlist?list=PLoz-W_CUquUmIYKS97RBghcWumZIX2kvv",
     "description": "PromCon Munich - November 7-8, 2019, PromCon EU 2019."
+  },
+  {
+    "name": "An Introduction to Systems & Service Monitoring with Prometheus",
+    "url": "https://www.youtube.com/watch?v=5O1djJ13gRU",
+    "description": "GOTO 2019: An Introduction to Systems & Service Monitoring with Prometheus - Julius Volz."
+  },
+  {
+    "name": "Explain it Like I'm Five",
+    "url": "https://vimeo.com/341142428",
+    "description": "What I Learned Teaching Observability to My Kids - Monitorama PDX, 2019 - Dave Cadwallader."
+  },
+  {
+    "name": "Prometheus Deep Dive",
+    "url": "https://www.youtube.com/watch?v=Me-kZi4xkEs",
+    "description": "KubeCon - 2017 - GitLab: Prometheus Deep Dive - Ben Kochie."
   },
   {
     "name": "PromCon 2018",
@@ -115,49 +115,14 @@
     "description": "PromCon Munich - August 9-10, 2018 - talk recordings from PromCon 2018 in Munich."
   },
   {
-    "name": "PromCon 2017",
-    "url": "https://www.youtube.com/playlist?list=PLoz-W_CUquUlnvoEBbqChb7A0ZEZsWSXt",
-    "description": "PromCon Munich - August 17-18, 2017 - talk recordings from PromCon 2017 in Berlin."
-  },
-  {
-    "name": "PromCon 2016",
-    "url": "https://www.youtube.com/playlist?list=PLoz-W_CUquUlCq-Q0hy53TolAhaED9vmU",
-    "description": "PromCon Berlin - August 25-26, 2016 - talk recordings from PromCon 2016 in Berlin."
-  },
-  {
-    "name": "Prometheus Monitoring for Java Developers",
-    "url": "https://www.youtube.com/watch?v=jb9j_IYv4cU",
-    "description": "Devoxx Belgium - November 8, 2016 - Fabian Stäber."
-  },
-  {
-    "name": "Prometheus: A Next Generation Monitoring System",
-    "url": "https://www.youtube.com/watch?v=cwRmXqXKGtk",
-    "description": "FOSDEM 2016 - January 31, 2016 - Brian Brazil."
-  },
-  {
-    "name": "PromCon 2016: So You Want to Write an Exporter",
-    "url": "https://www.youtube.com/watch?v=KXq5ibSj2qA",
-    "description": "PromCon 2016 - So You Want to Write an Exporter - Brian Brazil."
-  },
-  {
-    "name": "Infrastructure and application monitoring using Prometheus",
-    "url": "https://www.youtube.com/watch?v=5GYe_-qqP30",
-    "description": "Devoxx - May 17, 2017 at Devoxx UK - Marco Pas."
-  },
-  {
     "name": "Prometheus Monitoring for Java Web Applications w o Modifying Source Code",
     "url": "https://www.youtube.com/watch?v=BjyI93c8ltA",
     "description": "Devoxx Belgium - November 7, 2017 - Fabian Stäber."
   },
   {
-    "name": "Prometheus: Design and Philosophy",
-    "url": "https://www.youtube.com/watch?v=QgJbxCWRZ1s",
-    "description": "why it is the way it is - Docker - October 14, 2016 - Julius Volz."
-  },
-  {
-    "name": "Explain it Like I'm Five",
-    "url": "https://vimeo.com/341142428",
-    "description": "What I Learned Teaching Observability to My Kids - Monitorama PDX, 2019 - Dave Cadwallader."
+    "name": "PromCon 2017",
+    "url": "https://www.youtube.com/playlist?list=PLoz-W_CUquUlnvoEBbqChb7A0ZEZsWSXt",
+    "description": "PromCon Munich - August 17-18, 2017 - talk recordings from PromCon 2017 in Berlin."
   },
   {
     "name": "Best Practices and Beastly Pitfalls",
@@ -167,12 +132,37 @@
   {
     "name": "Counting with Prometheus",
     "url": "https://www.youtube.com/watch?v=67Ulrq6DxwA",
-    "description": "Counting with Prometheus - Brian Brazil, Robust Perception."
+    "description": "Cloud Native Con - 2017 - Counting with Prometheus - Brian Brazil, Robust Perception."
   },
   {
     "name": "Understanding and Extending Prometheus AlertManager",
     "url": "https://www.youtube.com/watch?v=jpb6fLQOgn4",
-    "description": "Understanding and Extending Prometheus AlertManager - Lee Calcote, SolarWinds."
+    "description": "Cloud Native Con - 2017 - Understanding and Extending Prometheus AlertManager - Lee Calcote, SolarWinds."
+  },
+  {
+    "name": "Infrastructure and application monitoring using Prometheus",
+    "url": "https://www.youtube.com/watch?v=5GYe_-qqP30",
+    "description": "Devoxx - May 17, 2017 at Devoxx UK - Marco Pas."
+  },
+  {
+    "name": "Prometheus Monitoring for Java Developers",
+    "url": "https://www.youtube.com/watch?v=jb9j_IYv4cU",
+    "description": "Devoxx Belgium - November 8, 2016 - Fabian Stäber."
+  },
+  {
+    "name": "Prometheus: Design and Philosophy",
+    "url": "https://www.youtube.com/watch?v=QgJbxCWRZ1s",
+    "description": "why it is the way it is - Docker - October 14, 2016 - Julius Volz."
+  },
+  {
+    "name": "PromCon 2016",
+    "url": "https://www.youtube.com/playlist?list=PLoz-W_CUquUlCq-Q0hy53TolAhaED9vmU",
+    "description": "PromCon Berlin - August 25-26, 2016 - talk recordings from PromCon 2016 in Berlin."
+  },
+  {
+    "name": "Prometheus: A Next Generation Monitoring System",
+    "url": "https://www.youtube.com/watch?v=cwRmXqXKGtk",
+    "description": "FOSDEM 2016 - January 31, 2016 - Brian Brazil."
   },
   {
     "name": "The Prometheus Time Series Database",
@@ -180,14 +170,9 @@
     "description": "PromCon 2016: The Prometheus Time Series Database - Björn Rabenstein."
   },
   {
-    "name": "An Introduction to Systems & Service Monitoring with Prometheus",
-    "url": "https://www.youtube.com/watch?v=5O1djJ13gRU",
-    "description": "GOTO 2019: An Introduction to Systems & Service Monitoring with Prometheus - Julius Volz."
-  },
-  {
-    "name": "Prometheus Deep Dive",
-    "url": "https://www.youtube.com/watch?v=Me-kZi4xkEs",
-    "description": "GitLab: Prometheus Deep Dive - Ben Kochie."
+    "name": "PromCon 2016: So You Want to Write an Exporter",
+    "url": "https://www.youtube.com/watch?v=KXq5ibSj2qA",
+    "description": "PromCon 2016 - So You Want to Write an Exporter - Brian Brazil."
   },
   {
     "name": "Prometheus on FLOSS Weekly 357",
