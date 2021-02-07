@@ -95,11 +95,6 @@
     "description": "Secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense."
   },
   {
-    "name": "Managed Kubernetes Inspection Tool (MKIT)",
-    "url": "https://github.com/darkbitio/mkit",
-    "description": "Query and validate several common security-related configuration settings of managed Kubernetes cluster objects and the workloads/resources running inside the cluster."
-  },
-  {
     "name": "Prowler",
     "url": "https://github.com/toniblyx/prowler",
     "description": "Tool based on AWS-CLI commands for Amazon Web Services account security assessment and hardening."
@@ -113,6 +108,26 @@
     "name": "gVisor",
     "url": "https://github.com/google/gvisor",
     "description": "Application kernel, written in Go, that implements a substantial portion of the Linux system surface to provide an isolation boundary between the application and the host kernel."
+  },
+  {
+    "name": "KubeSec",
+    "url": "https://kubesec.io/",
+    "description": "Static analyzer of Kubernetes manifests that can be run locally, as a Kuberenetes admission controller, or as its own cloud service."
+  },
+  {
+    "name": "Managed Kubernetes Inspection Tool (MKIT)",
+    "url": "https://github.com/darkbitio/mkit",
+    "description": "Query and validate several common security-related configuration settings of managed Kubernetes cluster objects and the workloads/resources running inside the cluster."
+  },
+  {
+    "name": "Polaris",
+    "url": "https://polaris.docs.fairwinds.com/",
+    "description": "Validates Kubernetes best practices by running tests against code commits, a Kubernetes admission request, or live resources already running in a cluster."
+  },
+  {
+    "name": "kube-hunter",
+    "url": "https://kube-hunter.aquasec.com/",
+    "description": "Open-source tool that runs a set of tests (\"hunters\") for security issues in Kubernetes clusters from either outside (\"attacker's view\") or inside a cluster."
   },
   {
     "name": "GPG Sync",
@@ -688,6 +703,11 @@
     "name": "Malware Information Sharing Platform and Threat Sharing (MISP)",
     "url": "https://misp-project.org/",
     "description": "Open source software solution for collecting, storing, distributing and sharing cyber security indicators."
+  },
+  {
+    "name": "Open Source Vulnerabilities (OSV)",
+    "url": "https://osv.dev/",
+    "description": "Vulnerability database and triage infrastructure for open source projects aimed at helping both open source maintainers and consumers of open source."
   },
   {
     "name": "Sigma",
