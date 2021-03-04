@@ -180,24 +180,9 @@
     "description": "Pytest plugin to test mypy static type analysis."
   },
   {
-    "name": "MonkeyType",
-    "url": "https://github.com/instagram/MonkeyType",
-    "description": "Collects runtime types of function arguments and return values, and can automatically generate stub files or even add draft type annotations directly to your Python code based on the types collected at runtime."
-  },
-  {
     "name": "merge_pyi",
     "url": "https://github.com/google/pytype/tree/master/pytype/tools/merge_pyi",
     "description": "Part of pytype toolchain, applies stub files onto source code."
-  },
-  {
-    "name": "pyannotate",
-    "url": "https://github.com/dropbox/pyannotate",
-    "description": "Insert annotations into your source code based on call arguments and return types observed at runtime."
-  },
-  {
-    "name": "pytest-annotate",
-    "url": "https://github.com/kensho-technologies/pytest-annotate",
-    "description": "Pyannotate plugin for pytest."
   },
   {
     "name": "retype",
@@ -223,6 +208,46 @@
     "name": "typing-json",
     "url": "https://pypi.org/project/typing-json/",
     "description": "Lib for working with typed objects and JSON."
+  },
+  {
+    "name": "MonkeyType",
+    "url": "https://github.com/instagram/MonkeyType",
+    "description": "Collects runtime types of function arguments and return values, and can automatically generate stub files or even add draft type annotations directly to your Python code based on the types collected at runtime."
+  },
+  {
+    "name": "pytest-monkeytype",
+    "url": "https://github.com/mariusvniekerk/pytest-monkeytype",
+    "description": "MonkeyType plugin for pytest."
+  },
+  {
+    "name": "pyannotate",
+    "url": "https://github.com/dropbox/pyannotate",
+    "description": "Insert annotations into your source code based on call arguments and return types observed at runtime."
+  },
+  {
+    "name": "pytest-annotate",
+    "url": "https://github.com/kensho-technologies/pytest-annotate",
+    "description": "Pyannotate plugin for pytest."
+  },
+  {
+    "name": "pyre infer",
+    "url": "https://github.com/facebook/pyre-check",
+    "description": "Pyre has a powerful feature for migrating codebases to a typed format. The infer command-line option ingests a file or directory, makes educated guesses about the types used, and applies the annotations to the files."
+  },
+  {
+    "name": "pytype annotate-ast",
+    "url": "https://github.com/google/pytype/tree/master/pytype/tools/annotate_ast",
+    "description": "A work-in-progress tool to annotate the nodes of an AST with their Python types."
+  },
+  {
+    "name": "Typilus",
+    "url": "https://github.com/typilus/typilus",
+    "description": "A deep learning algorithm for predicting types in Python. Also available as a GitHub action"
+  },
+  {
+    "name": "Type4Py",
+    "url": "https://github.com/saltudelft/type4py",
+    "description": "Deep Similarity Learning-Based Type Inference for Python."
   },
   {
     "name": "pynamodb-mypy",
