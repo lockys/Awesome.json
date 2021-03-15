@@ -214,14 +214,14 @@
     "description": "Organise your Docker containers with muscle and intelligence by @ashmckenzie"
   },
   {
-    "name": "podman-compose",
-    "url": "https://github.com/containers/podman-compose",
-    "description": "a script to run docker-compose.yml using podman by @containers"
-  },
-  {
     "name": "plash",
     "url": "https://github.com/ihucos/plash",
     "description": "A container run and build engine - runs inside docker."
+  },
+  {
+    "name": "podman-compose",
+    "url": "https://github.com/containers/podman-compose",
+    "description": "a script to run docker-compose.yml using podman by @containers"
   },
   {
     "name": "rocker-compose 💀",
@@ -234,6 +234,10 @@
     "description": "Extended Dockerfile builder. Supports multiple FROMs, MOUNTS, templates, etc. by @grammarly."
   },
   {
+    "name": "Smalte – Dynamically configure applications that require static configuration in docker container. By @roquie",
+    "url": "https://github.com/roquie/smalte"
+  },
+  {
     "name": "Stacker",
     "url": "https://github.com/stacker/stacker-cli",
     "description": "Docker Compose Templates. Stacker provides an abstraction layer over Docker Compose and a better DX (developer experience)."
@@ -242,10 +246,6 @@
     "name": "Stitchocker",
     "url": "https://github.com/alexaandrov/stitchocker",
     "description": "A lightweight and fast command line utility for conveniently grouping your docker-compose multiple container services. By @alexaandrov"
-  },
-  {
-    "name": "Smalte – Dynamically configure applications that require static configuration in docker container. By @roquie",
-    "url": "https://github.com/roquie/smalte"
   },
   {
     "name": "Zodiac 💀",
@@ -333,11 +333,6 @@
     "description": "Analyzes resource usage and performance characteristics of running containers. Created by @Google"
   },
   {
-    "name": "dockprom",
-    "url": "https://github.com/stefanprodan/dockprom",
-    "description": "Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager by @stefanprodan"
-  },
-  {
     "name": "Docker-Alertd",
     "url": "https://github.com/deltaskelta/docker-alertd",
     "description": "Monitor and send alerts based on docker container resource usage/statistics"
@@ -356,6 +351,11 @@
     "name": "DockProc",
     "url": "https://gitlab.com/n0r1sk/dockproc",
     "description": "I/O monitoring for containers on processlevel."
+  },
+  {
+    "name": "dockprom",
+    "url": "https://github.com/stefanprodan/dockprom",
+    "description": "Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager by @stefanprodan"
   },
   {
     "name": "Dozzle",
@@ -663,14 +663,14 @@
     "description": "DNS Server & Reverse proxy for Docker environments. By @mattallty"
   },
   {
-    "name": "nginx-proxy",
-    "url": "https://github.com/nginx-proxy/nginx-proxy",
-    "description": "Automated nginx proxy for Docker containers using docker-gen by @jwilder"
-  },
-  {
     "name": "Nginx Proxy Manager",
     "url": "https://github.com/jc21/nginx-proxy-manager",
     "description": "A beautiful web interface for proxying web based services with SSL. By @jc21"
+  },
+  {
+    "name": "nginx-proxy",
+    "url": "https://github.com/nginx-proxy/nginx-proxy",
+    "description": "Automated nginx proxy for Docker containers using docker-gen by @jwilder"
   },
   {
     "name": "Swarm Ingress Router 💀",
@@ -962,14 +962,14 @@
     "description": "Console-based Docker monitoring by @icecrime"
   },
   {
-    "name": "DockSTARTer",
-    "url": "https://github.com/GhostWriters/DockSTARTer",
-    "description": "DockSTARTer helps you get started with home server apps running in Docker by GhostWriters"
-  },
-  {
     "name": "dockly",
     "url": "https://github.com/lirantal/dockly",
     "description": "An interactive shell UI for managing Docker containers by @lirantal"
+  },
+  {
+    "name": "DockSTARTer",
+    "url": "https://github.com/GhostWriters/DockSTARTer",
+    "description": "DockSTARTer helps you get started with home server apps running in Docker by GhostWriters"
   },
   {
     "name": "docui",
@@ -1120,14 +1120,14 @@
     "description": "Web Interface for the Docker Registry HTTP API v2 by @klausmeyer"
   },
   {
-    "name": "Docker Registry UI",
-    "url": "https://github.com/atcol/docker-registry-ui",
-    "description": "A web UI for easy private/local Docker Registry integration by @atcol"
-  },
-  {
     "name": "Docker Registry UI (Joxit)",
     "url": "https://github.com/Joxit/docker-registry-ui",
     "description": "The simplest and cleanest UI for private registries by @Joxit"
+  },
+  {
+    "name": "Docker Registry UI",
+    "url": "https://github.com/atcol/docker-registry-ui",
+    "description": "A web UI for easy private/local Docker Registry integration by @atcol"
   },
   {
     "name": "docker-registry-web",
@@ -1265,14 +1265,14 @@
     "description": "The NVIDIA Container Runtime for Docker by @NVIDIA"
   },
   {
-    "name": "sue",
-    "url": "https://github.com/theAkito/sue",
-    "description": "Executes a program as a user different from the user running sue. This is a maintainable alternative to ncopa/su-exec, which is the better tianon/gosu. This one is far better (higher performance, smaller size), than the original gosu, however it is far easier to maintain, than su-exec, which is written in plain C. Made by @theAkito"
-  },
-  {
     "name": "su-exec",
     "url": "https://github.com/ncopa/su-exec",
     "description": "This is a simple tool that will simply execute a program with different privileges. The program will be executed directly and not run as a child, like su and sudo does, which avoids TTY and signal issues. Why reinvent gosu? This does more or less exactly the same thing as gosu but it is only 10kb instead of 1.8MB. By ncopa"
+  },
+  {
+    "name": "sue",
+    "url": "https://github.com/theAkito/sue",
+    "description": "Executes a program as a user different from the user running sue. This is a maintainable alternative to ncopa/su-exec, which is the better tianon/gosu. This one is far better (higher performance, smaller size), than the original gosu, however it is far easier to maintain, than su-exec, which is written in plain C. Made by @theAkito"
   },
   {
     "name": "supercronic",
@@ -1558,19 +1558,24 @@
     "description": "A bare essential OS for running the Docker Engine on bare metal or Cloud. By @RedCoolBeans"
   },
   {
+    "name": "cleanreg",
+    "url": "https://github.com/hcguersoy/cleanreg",
+    "description": "A small tool to delete image manifests from a Docker Registry implementing the API v2, dereferencing them for the GC by @hcguersoy"
+  },
+  {
     "name": "Cloudsmith 💲",
     "url": "https://cloudsmith.com/docker-registry/",
     "description": "A fully managed package management SaaS, with first-class support for public and private Docker registries (and many others, incl. Helm charts for the Kubernetes ecosystem). Has a generous free-tier and is also completely free for open-source."
   },
   {
+    "name": "Container Registry Service 💲",
+    "url": "https://container-registry.com/",
+    "description": "Harbor based Container Management Solution as a Service for teams and organizations. Free tier offers 1 GB storage for private repositories."
+  },
+  {
     "name": "Cycle.io 💲",
     "url": "https://cycle.io/",
     "description": "Bare-metal container hosting."
-  },
-  {
-    "name": "cleanreg",
-    "url": "https://github.com/hcguersoy/cleanreg",
-    "description": "A small tool to delete image manifests from a Docker Registry implementing the API v2, dereferencing them for the GC by @hcguersoy"
   },
   {
     "name": "Dist 💲",
@@ -1618,11 +1623,6 @@
     "name": "Portus",
     "url": "https://github.com/SUSE/Portus",
     "description": "Authorization service and frontend for Docker registry (v2) by @SUSE"
-  },
-  {
-    "name": "Container Registry Service 💲",
-    "url": "https://container-registry.com/",
-    "description": "Harbor based Container Management Solution as a Service for teams and organizations. Free tier offers 1 GB storage for private repositories."
   },
   {
     "name": "Quay.io 💲 (part of CoreOS)",
@@ -1885,11 +1885,6 @@
     "description": "A build automation tool for Docker applications. By @dnephin"
   },
   {
-    "name": "DockerBuildManagement",
-    "url": "https://github.com/DIPSAS/DockerBuildManagement",
-    "description": "Build Management is a python application, installed with pip. The application makes it easy to manage a build system based on Docker by configuring a single yaml file describing how to build, test, run or publish a containerized solution."
-  },
-  {
     "name": "Docker Missing Tools",
     "url": "https://github.com/nandoquintana/docker-missing-tools",
     "description": "A set of bash commands to shortcut typical docker dev-ops. An alternative to creating typical helper scripts like \"build.sh\" and \"deploy.sh\" inside code repositories. By @NandoQuintana."
@@ -1913,6 +1908,11 @@
     "name": "docker-vm",
     "url": "https://github.com/shyiko/docker-vm",
     "description": "Simple and transparent alternative to boot2docker (backed by Vagrant) by @shyiko"
+  },
+  {
+    "name": "DockerBuildManagement",
+    "url": "https://github.com/DIPSAS/DockerBuildManagement",
+    "description": "Build Management is a python application, installed with pip. The application makes it easy to manage a build system based on Docker by configuring a single yaml file describing how to build, test, run or publish a containerized solution."
   },
   {
     "name": "Dusty",
@@ -1970,6 +1970,11 @@
     "description": "A script that cleans Docker containers, images and volumes by @zzrotdesign"
   },
   {
+    "name": "docker_gc",
+    "url": "https://github.com/pdacity/docker_gc",
+    "description": "Image for automatic removing unused Docker Swarm objects. Also works just as Docker Service by @pdacity"
+  },
+  {
     "name": "Docker-cleanup 💀",
     "url": "https://github.com/meltwater/docker-cleanup",
     "description": "Automatic Docker image, container and volume cleanup by @meltwater"
@@ -1988,11 +1993,6 @@
     "name": "docker-gc 💀",
     "url": "https://github.com/spotify/docker-gc",
     "description": "A cron job that will delete old stopped containers and unused images by @spotify"
-  },
-  {
-    "name": "docker_gc",
-    "url": "https://github.com/pdacity/docker_gc",
-    "description": "Image for automatic removing unused Docker Swarm objects. Also works just as Docker Service by @pdacity"
   },
   {
     "name": "sherdock 💀",
@@ -2292,29 +2292,29 @@
     "url": "https://github.com/cncf/landscape"
   },
   {
-    "name": "Docker Newsletter Docker newsletter for regular updates",
-    "url": "https://www.docker.com/newsletter-subscription"
-  },
-  {
-    "name": "Programming Community Curated Resources for learning Docker",
-    "url": "https://hackr.io/tutorials/learn-docker"
-  },
-  {
-    "name": "Docker in Action, Second Edition",
-    "url": "https://www.manning.com/books/docker-in-action-second-edition"
+    "name": "Docker Certification 💲 will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.",
+    "url": "https://intellipaat.com/docker-training-course/"
   },
   {
     "name": "Docker Community on Hashnode",
     "url": "https://hashnode.com/n/docker"
   },
   {
+    "name": "Docker dev bookmarks",
+    "url": "https://www.bookmarks.dev/search?q=docker",
+    "description": "use the tag docker"
+  },
+  {
+    "name": "Docker in Action, Second Edition",
+    "url": "https://www.manning.com/books/docker-in-action-second-edition"
+  },
+  {
     "name": "Docker in Practice, Second Edition",
     "url": "https://www.manning.com/books/docker-in-practice-second-edition"
   },
   {
-    "name": "Docker dev bookmarks",
-    "url": "https://www.bookmarks.dev/search?q=docker",
-    "description": "use the tag docker"
+    "name": "Docker Newsletter Docker newsletter for regular updates",
+    "url": "https://www.docker.com/newsletter-subscription"
   },
   {
     "name": "Docker packaging guide for Python",
@@ -2331,8 +2331,8 @@
     "description": "Learn Docker - curated list of the top online docker tutorials and courses."
   },
   {
-    "name": "Docker Certification 💲 will help you to will Learn Docker containerization, running Docker containers, Image creation, Dockerfile, Docker orchestration, security best practices, and more through hands-on projects and case studies and helps to clear Docker Certified Associate.",
-    "url": "https://intellipaat.com/docker-training-course/"
+    "name": "Programming Community Curated Resources for learning Docker",
+    "url": "https://hackr.io/tutorials/learn-docker"
   },
   {
     "name": "Awesome CI/CD",
