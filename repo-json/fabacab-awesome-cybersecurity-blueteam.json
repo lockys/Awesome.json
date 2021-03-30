@@ -85,11 +85,6 @@
     "description": "Behavioral activity monitor designed to detect anomalous activity in containerized applications, hosts, and network packet flows by auditing the Linux kernel and enriched by runtime data such as Kubernetes metrics."
   },
   {
-    "name": "Istio",
-    "url": "https://istio.io/",
-    "description": "Open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data."
-  },
-  {
     "name": "Kata Containers",
     "url": "https://katacontainers.io/",
     "description": "Secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense."
@@ -110,9 +105,29 @@
     "description": "Application kernel, written in Go, that implements a substantial portion of the Linux system surface to provide an isolation boundary between the application and the host kernel."
   },
   {
+    "name": "OpenTelemetry",
+    "url": "https://opentelemetry.io/",
+    "description": "Observability framework for cloud-native software, comprising a collection of tools, APIs, and SDKs for exporting application performance metrics to a tracing backend (formerly maintained by the OpenTracing and OpenCensus projects)."
+  },
+  {
+    "name": "Jaeger",
+    "url": "https://www.jaegertracing.io/",
+    "description": "Distributed tracing platform backend used for monitoring and troubleshooting microservices-based distributed systems."
+  },
+  {
+    "name": "Zipkin",
+    "url": "https://zipkin.io/",
+    "description": "Distributed tracing system backend that helps gather timing data needed to troubleshoot latency problems in service architectures."
+  },
+  {
     "name": "KubeSec",
     "url": "https://kubesec.io/",
     "description": "Static analyzer of Kubernetes manifests that can be run locally, as a Kuberenetes admission controller, or as its own cloud service."
+  },
+  {
+    "name": "Linkerd",
+    "url": "https://linkerd.io/",
+    "description": "Ultra light Kubernetes-specific service mesh that adds observability, reliability, and security to Kubernetes applications without requiring any modification of the application itself."
   },
   {
     "name": "Managed Kubernetes Inspection Tool (MKIT)",
@@ -133,6 +148,16 @@
     "name": "kube-hunter",
     "url": "https://kube-hunter.aquasec.com/",
     "description": "Open-source tool that runs a set of tests (\"hunters\") for security issues in Kubernetes clusters from either outside (\"attacker's view\") or inside a cluster."
+  },
+  {
+    "name": "Consul",
+    "url": "https://consul.io/",
+    "description": "Solution to connect and configure applications across dynamic, distributed infrastructure and, with Consul Connect, enabling secure service-to-service communication with automatic TLS encryption and identity-based authorization."
+  },
+  {
+    "name": "Istio",
+    "url": "https://istio.io/",
+    "description": "Open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data."
   },
   {
     "name": "GPG Sync",
