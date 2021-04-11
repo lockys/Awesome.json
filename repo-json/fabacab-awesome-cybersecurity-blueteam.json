@@ -105,14 +105,24 @@
     "description": "Application kernel, written in Go, that implements a substantial portion of the Linux system surface to provide an isolation boundary between the application and the host kernel."
   },
   {
-    "name": "OpenTelemetry",
-    "url": "https://opentelemetry.io/",
-    "description": "Observability framework for cloud-native software, comprising a collection of tools, APIs, and SDKs for exporting application performance metrics to a tracing backend (formerly maintained by the OpenTracing and OpenCensus projects)."
+    "name": "Cortex",
+    "url": "https://cortexmetrics.io/",
+    "description": "Provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus."
   },
   {
     "name": "Jaeger",
     "url": "https://www.jaegertracing.io/",
     "description": "Distributed tracing platform backend used for monitoring and troubleshooting microservices-based distributed systems."
+  },
+  {
+    "name": "OpenTelemetry",
+    "url": "https://opentelemetry.io/",
+    "description": "Observability framework for cloud-native software, comprising a collection of tools, APIs, and SDKs for exporting application performance metrics to a tracing backend (formerly maintained by the OpenTracing and OpenCensus projects)."
+  },
+  {
+    "name": "Prometheus",
+    "url": "https://prometheus.io/",
+    "description": "Open-source systems monitoring and alerting toolkit originally built at SoundCloud."
   },
   {
     "name": "Zipkin",
@@ -138,6 +148,11 @@
     "name": "Polaris",
     "url": "https://polaris.docs.fairwinds.com/",
     "description": "Validates Kubernetes best practices by running tests against code commits, a Kubernetes admission request, or live resources already running in a cluster."
+  },
+  {
+    "name": "certificate-expiry-monitor",
+    "url": "https://github.com/muxinc/certificate-expiry-monitor",
+    "description": "Utility that exposes the expiry of TLS certificates as Prometheus metrics."
   },
   {
     "name": "kube-forensics",
