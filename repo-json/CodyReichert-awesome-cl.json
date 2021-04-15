@@ -147,7 +147,7 @@
   {
     "name": "crypto-shortcuts",
     "url": "https://github.com/Shinmera/crypto-shortcuts",
-    "description": "Collection of common crypto shortcuts. Artistic License 2.0."
+    "description": "Collection of common crypto shortcuts. zlib."
   },
   {
     "name": "trivial-ssh",
@@ -231,7 +231,7 @@
   {
     "name": "ubiquitous",
     "url": "https://github.com/Shinmera/ubiquitous",
-    "description": "A library providing easy-to-use persistent configuration storage. Artistic License 2.0."
+    "description": "A library providing easy-to-use persistent configuration storage. zlib."
   },
   {
     "name": "cl-prevalence",
@@ -766,7 +766,7 @@
   {
     "name": "dissect",
     "url": "https://shinmera.github.io/dissect",
-    "description": "when a lot of"
+    "description": "when a lot of projects use the “trivial-backtrace” system that just gives them a string with a backtrace, Dissect allows you to capture, step, and completely inspect the stack trace on a variety of Lisp implementations. Also very useful for logging and other situations where execution is automatically continued, but the information of the current stack is still useful to store somewhere. zlib."
   },
   {
     "name": "generic-cl",
@@ -781,12 +781,12 @@
   {
     "name": "trivial-arguments",
     "url": "https://github.com/Shinmera/trivial-arguments",
-    "description": "A portable library to retrieve the arguments list of a function. Artistic License 2.0."
+    "description": "A portable library to retrieve the arguments list of a function. zlib."
   },
   {
     "name": "definitions",
     "url": "https://github.com/Shinmera/definitions",
-    "description": "a general definitions introspection library. It gives you the ability to retrieve definitions or bindings associated with designators such as symbols, packages, and names in general. Artistic License 2.0."
+    "description": "a general definitions introspection library. It gives you the ability to retrieve definitions or bindings associated with designators such as symbols, packages, and names in general. zlib."
   },
   {
     "name": "cl21",
@@ -876,7 +876,7 @@
   {
     "name": "for",
     "url": "https://shinmera.github.io/for/",
-    "description": "A concise, lispy and extensible"
+    "description": "A concise, lispy and extensible iteration macro. Unlike loop it is extensible and sensible, and unlike iterate it does not require code-walking and is easier to extend. zlib."
   },
   {
     "name": "series",
@@ -1411,7 +1411,7 @@
   {
     "name": "clip",
     "url": "https://shinmera.github.io/clip",
-    "description": "An HTML template processor where the templates are written in HTML. Artistic License 2.0."
+    "description": "An HTML template processor where the templates are written in HTML. zlib."
   },
   {
     "name": "lsx and markup",
@@ -1515,7 +1515,7 @@
   {
     "name": "deploy",
     "url": "https://shinmera.github.io/deploy",
-    "description": "A toolkit for binary deployment of Lisp applications, with extra support for foreign shared libraries. Artistic License 2.0."
+    "description": "A toolkit for binary deployment of Lisp applications, with extra support for foreign shared libraries. zlib."
   },
   {
     "name": "cl-aws-runtime-test",
@@ -1563,7 +1563,7 @@
   {
     "name": "north",
     "url": "https://shinmera.github.io/north",
-    "description": "The successor to the"
+    "description": "The successor to the South (Simple OaUTH) library, implementing the full oAuth 1.0a protocol, both client and server sides. Using North you can easily become an oAuth provider or consumer. zlib."
   },
   {
     "name": "avatar-api",
@@ -1573,12 +1573,12 @@
   {
     "name": "chirp",
     "url": "https://github.com/Shinmera/chirp",
-    "description": "A Twitter client library. Artistic License 2.0."
+    "description": "A Twitter client library. zlib."
   },
   {
     "name": "tooter",
     "url": "https://github.com/Shinmera/tooter",
-    "description": "a client library implementing the full v1 REST API protocol for Mastodon. ArtisticLicense2.0."
+    "description": "a client library implementing the full v1 REST API protocol for Mastodon. zlib."
   },
   {
     "name": "cl-irc",
@@ -1603,7 +1603,12 @@
   {
     "name": "humbler",
     "url": "https://github.com/Shinmera/humbler",
-    "description": "A Tumblr API interface. Artistic License 2.0."
+    "description": "A Tumblr API interface. zlib."
+  },
+  {
+    "name": "multiposter",
+    "url": "https://github.com/Shinmera/multiposter",
+    "description": "post to multiple services simultaneously. zlib."
   },
   {
     "name": "stripe",
@@ -1705,9 +1710,9 @@
     "description": "A matrix package. FreeBSD."
   },
   {
-    "name": "3-matrices",
+    "name": "3d-matrices",
     "url": "https://shinmera.github.io/3d-matrices",
-    "description": "A library implementing"
+    "description": "A library implementing common matrix calculations, with an emphasis on 2x2,3x3, and 4x4 matrices as commonly used in graphics. It provides some numerical functions as well, but those are not the focus. The library is heavily optimised, so it is not made of pretty code. zlib."
   },
   {
     "name": "clem",
@@ -1817,12 +1822,12 @@
   {
     "name": "simple-tasks",
     "url": "https://github.com/Shinmera/simple-tasks",
-    "description": "A very"
+    "description": "A very simple task scheduling framework. zlib."
   },
   {
     "name": "deeds",
     "url": "https://github.com/Shinmera/deeds",
-    "description": "Deeds is an Extensible"
+    "description": "Deeds is an Extensible Event Delivery System. It allows for efficient event delivery to multiple handlers with a complex event filtering system. zlib."
   },
   {
     "name": "cl-flow",
@@ -1861,7 +1866,7 @@
   {
     "name": "cl-all",
     "url": "https://github.com/shinmera/cl-all",
-    "description": "A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. Artistic License 2.0."
+    "description": "A script to run Lisp snippets in multiple implementations. This allows you to quickly compare implementation behaviour and differences. zlib."
   },
   {
     "name": "clawk",
@@ -2142,7 +2147,7 @@
   {
     "name": "Parachute",
     "url": "https://github.com/Shinmera/parachute",
-    "description": "An extensible"
+    "description": "An extensible and cross-compatible testing framework. With test dependencies, conditions, fixtures and restarts. zlib."
   },
   {
     "name": "Mockingbird",
@@ -2232,7 +2237,7 @@
   {
     "name": "ratify",
     "url": "https://github.com/Shinmera/ratify",
-    "description": "A collection of utilities to ratify, validate and parse inputs. Artistic License 2.0."
+    "description": "A collection of utilities to ratify, validate and parse inputs. zlib."
   },
   {
     "name": "clavier",
@@ -2297,7 +2302,7 @@
   {
     "name": "trivial-benchmark",
     "url": "https://github.com/Shinmera/trivial-benchmark",
-    "description": "Tiny benchmarking library. Artistic Licence 2.0."
+    "description": "Tiny benchmarking library. zlib."
   },
   {
     "name": "glyphs",
@@ -2322,7 +2327,7 @@
   {
     "name": "Staple",
     "url": "https://github.com/Shinmera/staple",
-    "description": "a tool to generate"
+    "description": "a tool to generate documentation pages using an HTML template. Uses the existing README, adds docstrings, crossreferences and links to the CLHS. zlib."
   },
   {
     "name": "cl-bibtex",
@@ -2347,7 +2352,7 @@
   {
     "name": "pathname-utils",
     "url": "https://github.com/Shinmera/pathname-utils",
-    "description": "A"
+    "description": "A collection of utilities to help with pathname operations. zlib."
   },
   {
     "name": "ppath",
@@ -2382,7 +2387,7 @@
   {
     "name": "legit",
     "url": "https://shinmera.github.io/legit/",
-    "description": "an interface to the Git"
+    "description": "an interface to the Git binary. zlib."
   },
   {
     "name": "git-api",
@@ -2412,22 +2417,22 @@
   {
     "name": "oxenfurt",
     "url": "https://github.com/Shinmera/oxenfurt",
-    "description": "A  client library for the Oxford dictionary API. ArtisticLicense2.0."
+    "description": "A  client library for the Oxford dictionary API. zlib."
   },
   {
     "name": "language-codes",
     "url": "https://shinmera.github.io/language-codes",
-    "description": "A database library for ISO language codes. Artistic License 2.0"
+    "description": "A database library for ISO language codes. zlib"
   },
   {
     "name": "system-locale",
     "url": "https://shinmera.github.io/system-locale",
-    "description": "A library to retrieve the user's preferred language, so that your application may choose a sensible default. Artistic License 2.0."
+    "description": "A library to retrieve the user's preferred language, so that your application may choose a sensible default. zlib."
   },
   {
     "name": "multilang-documentation",
     "url": "https://shinmera.github.io/multilang-documentation",
-    "description": "Allows writing docstrings in multiple languages, for truly internationally documented libraries. Artistic License 2.0."
+    "description": "Allows writing docstrings in multiple languages, for truly internationally documented libraries. zlib."
   },
   {
     "name": "sblint",
@@ -2447,7 +2452,7 @@
   {
     "name": "verbose",
     "url": "https://shinmera.github.io/verbose",
-    "description": "A fast and highly configurable logging framework. Artistic License 2.0."
+    "description": "A fast and highly configurable logging framework. zlib."
   },
   {
     "name": "a-cl-logger",
