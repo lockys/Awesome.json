@@ -250,6 +250,11 @@
     "description": "Comes with bcc, but targets the Python bits across seventeen \"lessons\"."
   },
   {
+    "name": "Building BPF applications with libbpf-bootstrap",
+    "url": "https://nakryiko.com/posts/libbpf-bootstrap/",
+    "description": "Helps generate minimal or advanced templates to bootstrap your own applications (kernel side and user space management for maps and programs) with features like CO-RE, global variables, and ring buffer."
+  },
+  {
     "name": "Linux Tracing Workshops Materials",
     "url": "https://github.com/goldshtn/linux-tracing-workshop",
     "description": "Involves the use of several BPF tools for tracing."
@@ -366,6 +371,11 @@
     "name": "libbpf",
     "url": "https://git.kernel.org/pub/scm/linux/kernel/git/davem/net-next.git/tree/tools/lib/bpf",
     "description": "A C library used for handling BPF objects (programs and maps), and manipulating ELF object files containing them. It is shipped with the kernel and mirrored on GitHub."
+  },
+  {
+    "name": "libbpf-bootstrap",
+    "url": "https://github.com/libbpf/libbpf-bootstrap",
+    "description": "Scaffolding for BPF application development with libbpf and BPF CO-RE."
   },
   {
     "name": "bpftool",
