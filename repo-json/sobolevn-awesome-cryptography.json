@@ -20,6 +20,16 @@
     "description": "One of the first practical public-key cryptosystems and is widely used for secure data transmission. In RSA, this asymmetry is based on the practical difficulty of factoring the product of two large prime numbers, the factoring problem."
   },
   {
+    "name": "ECC",
+    "url": "https://en.wikipedia.org/wiki/Elliptic-curve_cryptography",
+    "description": "Public-key cryptosystems based on the algebraic structure of elliptic curves over finite fields."
+  },
+  {
+    "name": "DH",
+    "url": "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange",
+    "description": "A method of exchanging cryptographic keys securely over a public channel. Unlike RSA, the Diffie-Hellman Key Exchange is not encryption, and is only a way for two parties to agree on a shared secret value. Since the keys generated are completely pseudo-random, DH key exchanges can provide forward secrecy (https://en.wikipedia.org/wiki/Forward_secrecy)."
+  },
+  {
     "name": "Transform Encryption (aka Proxy Re-Encryption)",
     "url": "https://docs.ironcorelabs.com/concepts/transform-encryption",
     "description": "Transform encryption uses three  mathematically related keys: one to encrypt plaintext to a recipient, a second to decrypt the ciphertext, and a third to transform ciphertext encrypted to one recipient so it can be decrypted by a different recipient."
