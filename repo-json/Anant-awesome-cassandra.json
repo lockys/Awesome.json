@@ -1,0 +1,1386 @@
+[
+  {
+    "name": "Cassandra",
+    "url": "https://cassandra.apache.org/cassandra-basics/",
+    "description": "Manage massive amounts of data, fast, without losing sleep."
+  },
+  {
+    "name": "ZDNet: Cassandra Turns 10",
+    "url": "https://www.zdnet.com/article/apache-cassandra-turns-10/",
+    "description": "Highlights of the growth of Cassandra over it's first 10 years."
+  },
+  {
+    "name": "Datastax Academy: What is Cassandra?",
+    "url": "https://www.datastax.com/cassandra",
+    "description": "Introduction to what Cassandra is, where it came from, and some of it's benefits."
+  },
+  {
+    "name": "Kaa application based on Raspberry Pi and DHT11 sensor",
+    "url": "https://github.com/pyroalf/kaa-cassandra-sample",
+    "description": "Cassandra IoT usecase with Raspberry Pi and a DHT11 Sensor."
+  },
+  {
+    "name": "Simple Node.js Express 4 Cassandra Application",
+    "url": "https://github.com/bradtraversy/mysubscribers",
+    "description": "MySubscribers is a very simple application (Start of an application) which allows you to create, read, update and delete users/subscribers. This application was only created to aid the YouTube course."
+  },
+  {
+    "name": "An Odyssey of Cassandra",
+    "url": "http://hadoopmag.com/an-odyssey-of-cassandra/",
+    "description": "Older article that has republished but talks about transitioning from SQL to NoSQL with Cassandra."
+  },
+  {
+    "name": "Datastax Enterprise",
+    "url": "https://www.datastax.com/",
+    "description": "Most widely used commercial distribution of Cassandra, integrated with Apache Spark (for SparkSQL, analytics), Apache Solr (for secondary index), Apache TinkerPop based Graph stored in Cassandra, and OpsCenter."
+  },
+  {
+    "name": "DDAC/Luna",
+    "url": "https://luna.datastax.com/",
+    "description": "Datastax Distribution of Cassandra, a production ready distribution with a bulk loader supported by Datastax. DDAC is Deprecated now, but Datastax is still supporting Cassandra with it's new Luna Service."
+  },
+  {
+    "name": "ScyllaDB",
+    "url": "https://github.com/scylladb/scylla",
+    "description": "NoSQL data store using the seastar framework, compatible with Cassandra."
+  },
+  {
+    "name": "YugaByte Database",
+    "url": "https://github.com/YugaByte/yugabyte-db",
+    "description": "YugaByteDB is a transactional, high-performance database for building distributed cloud services. It supports Cassandra-compatible and Redis-compatible APIs, with PostgreSQL in Beta."
+  },
+  {
+    "name": "Datastax Astra",
+    "url": "https://astra.datastax.com",
+    "description": "Datastax Astra Cassandra as a Service running on the Kubernetes operator Cassandra available on AWS and GCP."
+  },
+  {
+    "name": "Instaclustr Managed Cassandra as a Service",
+    "url": "https://www.instaclustr.com/solutions/managed-apache-cassandra/",
+    "description": "Instaclustr provides a fully managed and SOC 2 certified hosted & managed service for Cassandra® on AWS, Azure, GCP and IBM Cloud."
+  },
+  {
+    "name": "Aiven for Cassandra",
+    "url": "https://aiven.io/cassandra/",
+    "description": "Aiven for Cassandra is a managed and hosted distributed NoSQL database providing scalability, high availability, and excellent fault tolerance. Cassandra as a Service is available on Google Cloud Platform, Amazon Web Services, Microsoft Azure, DigitalOcean, and UpCloud."
+  },
+  {
+    "name": "Microsoft Azure Managed Instance for Cassandra",
+    "url": "https://docs.microsoft.com/en-us/azure/managed-instance-apache-cassandra/",
+    "description": "Azure Managed Instance for Cassandra provides automated deployment and scaling operations for managed open-source Cassandra datacenters. It accelerates hybrid scenarios and reduces ongoing maintenance."
+  },
+  {
+    "name": "Microsoft Azure Cosmos DB: Cassandra API",
+    "url": "https://docs.microsoft.com/en-us/azure/cosmos-db/cassandra-introduction",
+    "description": "Azure Cosmos DB provides the Cassandra API (preview) for applications that are written for Cassandra that need premium capabilities."
+  },
+  {
+    "name": "Amazon Keyspaces for Cassandra",
+    "url": "https://aws.amazon.com/keyspaces",
+    "description": "Amazon Web Services (AWS) Amazon Keyspaces for Cassandra provides a CQL compliant access to a \"Serverless\" auto-scaling datastore."
+  },
+  {
+    "name": "Installing the Cassandra / Spark OSS Stack",
+    "url": "https://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html",
+    "description": "Installation process and user guide for the Cassandra / Spark OSS Stack."
+  },
+  {
+    "name": "The Cassandra Query Language",
+    "url": "http://cassandra.apache.org/doc/latest/cql/",
+    "description": "Documentation for CQL."
+  },
+  {
+    "name": "The LIMIT Clause in Cassandra might not work as you think",
+    "url": "http://thelastpickle.com/blog/2017/03/07/The-limit-clause-in-cassandra-might-not-work-as-you-think.html",
+    "description": "Blog post for the considerations on the efficiency of the LIMIT clause."
+  },
+  {
+    "name": "Building a Performant API using Go and Cassandra",
+    "url": "https://getstream.io/blog/building-a-performant-api-using-go-and-cassandra/",
+    "description": "Tutorial documenting how to build a RESTful API using Go and Cassandra."
+  },
+  {
+    "name": "Cassandra Data Copy Tool",
+    "url": "https://github.com/wildengineer/cassandra-data-copy-tool",
+    "description": "Java tool to copy data from one cassandra table to another."
+  },
+  {
+    "name": "Spring Data Cassandra Examples",
+    "url": "https://github.com/jxblum/spring-data-cassandra-examples",
+    "description": "Examples for the Spring Data Cassandra Project."
+  },
+  {
+    "name": "Introduction to Spark & Cassandra",
+    "url": "http://rustyrazorblade.com/post/2015/2015-01-02-intro-to-spark-and-cassandra/",
+    "description": "Blog post on setting up a really simple Spark job that does a data migration for Cassandra."
+  },
+  {
+    "name": "From Cassandra to S3, with Spark",
+    "url": "https://objectpartners.com/2016/11/30/from-cassandra-to-s3-with-spark/",
+    "description": "Blog post showing how to connect Spark to Cassandra, analyze event data from Cassandra, and store the results of the analysis into S3, making it available for reporting or further analysis."
+  },
+  {
+    "name": "Import CSV files with spark",
+    "url": "https://github.com/markthebault/importCSVSparkCassandra",
+    "description": "How to import a file from S3 into cassandra using Spark."
+  },
+  {
+    "name": "Top 5 reasons to use the Cassandra Database",
+    "url": "https://towardsdatascience.com/top-5-reasons-to-use-the-apache-cassandra-database-d541c6448557",
+    "description": "Few good reasons why you'd want to consider Cassandra."
+  },
+  {
+    "name": "Cloud DevOps with Cassandra",
+    "url": "http://cloudurable.com/blog/aws-ansible-packer-ssh-for-devops/index.html",
+    "description": "Using Packer, Ansible/SSH and AWS command line tools to create and DBA manage EC2 Cassandra instances in AWS."
+  },
+  {
+    "name": "How to install Cassandra 2 on CentOS 7 / RHEL 7",
+    "url": "https://sharadchhetri.com/2015/04/25/how-to-install-cassandra-2-on-centos-7-rhel-7/",
+    "description": "Guide on how to install Cassandra on the popular linux distributions RedHat and CentOS."
+  },
+  {
+    "name": "Cassandra Use Cases: When to use and when not to use Cassandra",
+    "url": "https://blog.pythian.com/cassandra-use-cases/",
+    "description": "Practical guide for when to use and when not to use Cassandra."
+  },
+  {
+    "name": "Cassandra Database (Guide)",
+    "url": "https://www.instaclustr.com/education/apache-cassandra-database",
+    "description": "Great guide to learn about Cassandra, from Instaclustr."
+  },
+  {
+    "name": "RDBMS to NoSQL",
+    "url": "http://www.datastax.com/relational-database-to-nosql",
+    "description": "Your roadmap to understanding whether NoSQL is right for you."
+  },
+  {
+    "name": "Cassandra Schemas for Beginners (like me)",
+    "url": "https://medium.com/@jochasinga/cassandra-schemas-for-beginners-like-me-9714cee9236a",
+    "description": "Great article for new developers to Cassandra."
+  },
+  {
+    "name": "Cassandra Query Language: CQL vs SQL",
+    "url": "https://medium.com/@alexbmeng/cassandra-query-language-cql-vs-sql-7f6ed7706b4c",
+    "description": "Blog post documenting similarities and differences between CQL and SQL."
+  },
+  {
+    "name": "Basic Rules Of Cassandra Data Modeling",
+    "url": "http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling",
+    "description": "Picking the right data model is the hardest part of using Cassandra. If you have a relational background, CQL will look familiar, but the way you use it can be very different."
+  },
+  {
+    "name": "CQL: This is not the SQL you are Looking For",
+    "url": "https://www.slideshare.net/aploetz/cql-this-is-not-the-sql-you-are-loooking-for",
+    "description": "Presentation that explores and explains the differences between the CQL and SQL languages."
+  },
+  {
+    "name": "A Deep Look at the CQL Where Clause",
+    "url": "https://www.datastax.com/dev/blog/a-deep-look-to-the-cql-where-clause",
+    "description": "Blog post to describe what is supported by the CQL WHERE clause and the reasons why it differs from normal SQL."
+  },
+  {
+    "name": "killrvideo-sample-schema",
+    "url": "https://github.com/pmcfadin/killrvideo-sample-schema",
+    "description": "Sample Cassandra CQL Schema for a YouTube clone."
+  },
+  {
+    "name": "Spring Data Cassandra Examples",
+    "url": "https://github.com/jxblum/spring-data-cassandra-examples/blob/master/src/main/resources/cassandra-example-schema.cql",
+    "description": "Maven project that contains examples showcasing the features and functionality of the Spring Data Cassandra project."
+  },
+  {
+    "name": "Common Problems in Cassandra Data Models",
+    "url": "https://blog.anant.us/common-problems-cassandra-data-models/",
+    "description": "Presentation and Article on wide partions, tombstones, and data skew."
+  },
+  {
+    "name": "Casandra Time Series Data Modeling for Massive Scale",
+    "url": "http://thelastpickle.com/blog/2017/08/02/time-series-data-modeling-massive-scale.html",
+    "description": "Blog post discussing a common Cassandra data modeling technique called bucketing."
+  },
+  {
+    "name": "Cassandra Data Modeling Notes",
+    "url": "https://miguelperez.xyz/blog/2017/2/13/cassandra-data-modeling-notes",
+    "description": "Simple notes on how to estimate the size of your cluster."
+  },
+  {
+    "name": "Scalar DB",
+    "url": "https://github.com/scalar-labs/scalardb",
+    "description": "Transaction library for Cassandra that makes non-ACID distributed databases/storages ACID-compliant."
+  },
+  {
+    "name": "Cassandra Data Modeling Best Practices Guide",
+    "url": "https://www.instaclustr.com/cassandra-data-modeling/",
+    "description": "Explains five Cassandra data modeling best practices."
+  },
+  {
+    "name": "The Gossip Protocol",
+    "url": "https://www.linkedin.com/pulse/gossip-protocol-inside-apache-cassandra-soham-saha",
+    "description": "Inside Cassandra. - Good visual explanation of how Cassandra keeps consistent."
+  },
+  {
+    "name": "Introduction To The Cassandra 3.x Storage Engine",
+    "url": "http://thelastpickle.com/blog/2016/03/04/introductiont-to-the-apache-cassandra-3-storage-engine.html",
+    "description": "The 3.x storage engine makes it easier for Cassandra to get bytes off disk."
+  },
+  {
+    "name": "Dropping columns in Cassandra 3.0",
+    "url": "http://thelastpickle.com/blog/2016/02/18/dropping-columns.html",
+    "description": "Blog post describing the steps Cassandra takes when a column is dropped."
+  },
+  {
+    "name": "Hinted Handoff and GC Grace Demystified",
+    "url": "http://thelastpickle.com/blog/2018/03/21/hinted-handoff-gc-grace-demystified.html",
+    "description": "Tuning the balance between GC Grace and Hinted Handoff."
+  },
+  {
+    "name": "Deletes and Tombstones",
+    "url": "http://thelastpickle.com/blog/2011/05/15/Deletes-and-Tombstones.html",
+    "description": "Explains how deletes create tombstones in Cassandra and what they are."
+  },
+  {
+    "name": "About Deletes and Tombstones in Cassandra",
+    "url": "http://thelastpickle.com/blog/2016/07/27/about-deletes-and-tombstones.html",
+    "description": "Deleting distributed and replicated data from a system such as Cassandra is far trickier than in a relational database."
+  },
+  {
+    "name": "Null bindings on prepared statements and undesired tombstone creation",
+    "url": "http://thelastpickle.com/blog/2016/09/15/Null-bindings-on-prepared-statements-and-undesired-tombstone-creation.html",
+    "description": "Good follow up to the last article on Tombstones."
+  },
+  {
+    "name": "Undetectable tombstones in Cassandra",
+    "url": "http://thelastpickle.com/blog/2018/07/05/undetectable-tombstones-in-apache-cassandra.html",
+    "description": "Indepth analysis of cell and range tombstones."
+  },
+  {
+    "name": "Common Problems with Cassandra Tombstones",
+    "url": "https://opencredo.com/cassandra-tombstones-common-issues/",
+    "description": "Large number of tombstones causes Latency and heap pressure."
+  },
+  {
+    "name": "Curious Case of Tombstones",
+    "url": "https://medium.com/cassandra-tombstones-clearing-use-case/the-curios-case-of-tombstones-d897f681a378",
+    "description": "How someone dealt with tombstone issues and reclaimed space in their cluster."
+  },
+  {
+    "name": "Understanding the Nuance of Compaction in Cassandra",
+    "url": "http://thelastpickle.com/blog/2017/03/16/compaction-nuance.html",
+    "description": "Overview of how Cassandra manages data on disk."
+  },
+  {
+    "name": "Guide to Cassandra Thread Pools",
+    "url": "https://blog.pythian.com/guide-to-cassandra-thread-pools/",
+    "description": "Guide that provides a description of the different thread pools and how to monitor them. Includes what to alert on, common issues and solutions. Old but very useful reference."
+  },
+  {
+    "name": "Cassandra Architecture and Operations",
+    "url": "https://miguelperez.xyz/blog/2017/2/13/cassandra-architecture-and-operation",
+    "description": "High level overview in one page of how Cassandra works."
+  },
+  {
+    "name": "Improving Cassandra's Front Door and Backpressure",
+    "url": "https://dzone.com/articles/improving-apache-cassandras-front-door-and-backpre",
+    "description": "Explore how an incoming request was processed by Cassandra before, see what they changed, and look at new relevant configuration knobs available."
+  },
+  {
+    "name": "Cassandra Architecture",
+    "url": "https://www.instaclustr.com/cassandra-architecture/",
+    "description": "High level overview of Cassandra from Instaclustr."
+  },
+  {
+    "name": "The 10 Things I hate about Cassandra",
+    "url": "https://blog.pythian.com/the-things-i-hate-about-apache-cassandra/",
+    "description": "Do you really want to use Cassandra? Learn why not to use it."
+  },
+  {
+    "name": "Resources for Monitoring Datastax, Cassandra, Spark, & Solr Performance",
+    "url": "https://blog.anant.us/resources-for-monitoring-datastax-cassandra-spark-solr-performance/",
+    "description": "Blog post detailing different types of monitoring tools and their purpose."
+  },
+  {
+    "name": "How to Monitor Cassandra",
+    "url": "https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/",
+    "description": "Guide to help you monitor Cassandra performance and work metrics regardles of which monitoring tool you choose to use."
+  },
+  {
+    "name": "Cassandra metrics and their use in Grafana",
+    "url": "https://medium.com/@mlowicki/cassandra-metrics-and-their-use-in-grafana-1f0dc33f9cca",
+    "description": "Case study of using Cassandra metrics in Grafana."
+  },
+  {
+    "name": "Monitoring Cassandra with Prometheus",
+    "url": "https://www.robustperception.io/monitoring-cassandra-with-prometheus",
+    "description": "Quick setup guide to using Cassandra with Prometheus."
+  },
+  {
+    "name": "Monitoring Cassandra With Grafana And Influx DB",
+    "url": "https://blog.pythian.com/monitoring-cassandra-grafana-influx-db/",
+    "description": "Blog post explaining how to set up Cassandra monitoring with influxDB and Grafana."
+  },
+  {
+    "name": "Cassandra Monitoring",
+    "url": "https://softwaremill.com/cassandra-monitoring-part-1/",
+    "description": "Introduction (1/2) - Blog post detailing how Cassandra metrics can be gathered."
+  },
+  {
+    "name": "Cassandra Monitoring",
+    "url": "https://softwaremill.com/cassandra-monitoring-part-2/",
+    "description": "Graphite/InfluxDB & Grafana on Docker (2/2) - Continuation of the previous entry exploring the topic of Cassandra metric reporters mentioned in Part I. The goal is to configure a reporter that sends metrics to an external time series database."
+  },
+  {
+    "name": "Monitoring Cassandra using Intel Snap and Grafana",
+    "url": "http://thelastpickle.com/blog/2017/04/13/monitoring-cassandra-using-intel-snap.html",
+    "description": "Blog post describing how to monitor Cassandra using the Intel Snap open source telemetry framework."
+  },
+  {
+    "name": "Cassandra Monitoring Best Practice Guide",
+    "url": "https://www.instaclustr.com/cassandra-monitoring-best-practice-guide/",
+    "description": "Blog post that aims to touch all the important aspects of Cassandra monitoring."
+  },
+  {
+    "name": "Running commands cluster-wide without any management tool",
+    "url": "http://thelastpickle.com/blog/2016/03/21/running-commands-cluster-wide.html",
+    "description": "Some tips and tricks to do basic Cluster operations without tools like Chef, Ansible, or Salt."
+  },
+  {
+    "name": "Limiting Nodetool Parallel Threads",
+    "url": "http://thelastpickle.com/blog/2017/08/14/limiting-nodetool-parallel-threads.html",
+    "description": "Little known tool to do nodetool operations with less resources."
+  },
+  {
+    "name": "Bootstrapping Cassandra Nodes",
+    "url": "http://thelastpickle.com/blog/2017/05/23/auto-bootstrapping-part1.html",
+    "description": "Indepth article on how to add nodes to a running Cassandra cluster."
+  },
+  {
+    "name": "Node Replacement without Bootstrapping",
+    "url": "http://thelastpickle.com/blog/2018/02/21/replace-node-without-bootstrapping.html",
+    "description": "How to avoid the long bootstrapping process."
+  },
+  {
+    "name": "Cassandra Backup and Restore",
+    "url": "http://thelastpickle.com/blog/2018/04/03/cassandra-backup-and-restore-aws-ebs.html",
+    "description": "Backup in AWS using EBS Volumes - Indepth article about Backup and recovery in AWS."
+  },
+  {
+    "name": "Backup Strategies for Cassandra",
+    "url": "https://blog.pythian.com/backup-strategies-cassandra/",
+    "description": "Good comparison of different backup and restoration strategies for Cassandra."
+  },
+  {
+    "name": "Cassandra backup util",
+    "url": "https://github.com/instaclustr/cassandra-backup",
+    "description": "Instaclustr's cassandra backup tool."
+  },
+  {
+    "name": "Cassy",
+    "url": "https://github.com/scalar-labs/cassy",
+    "description": "Simple and integrated backup tool for Cassandra."
+  },
+  {
+    "name": "Intro to CStar",
+    "url": "https://thelastpickle.com/blog/2018/10/01/introduction-to-cstar.html",
+    "description": "Tutorial on how to use CStar."
+  },
+  {
+    "name": "Medusa",
+    "url": "https://github.com/thelastpickle/cassandra-medusa",
+    "description": "Cassandra backup system."
+  },
+  {
+    "name": "Jon Haddad: Cassandra Summit Recap",
+    "url": "http://rustyrazorblade.com/2014/09/cassandra-summit-recap-diagnosing-problems-in-production/",
+    "description": "Diagnosing Problems in Production"
+  },
+  {
+    "name": "Ryan Svihla's Cassandra 2.0 checklist",
+    "url": "https://medium.com/@foundev/my-cassandra-diagnostics-checklist-brain-dump-599a2b95b118",
+    "description": "Checklist for determining the efficiency of your Cassandra database."
+  },
+  {
+    "name": "Amy's Cassandra 2.1 tuning guide",
+    "url": "https://tobert.github.io/pages/als-cassandra-21-tuning-guide.html",
+    "description": "Guide to tracking down performance issues in production level Cassandra clusters."
+  },
+  {
+    "name": "Secret HotSpot option improving GC pauses on large heaps",
+    "url": "http://blog.ragozin.info/2012/03/secret-hotspot-option-improving-gc.html"
+  },
+  {
+    "name": "DSE 5.1: Tuning Java Resource",
+    "url": "https://docs.datastax.com/en/dse/5.1/dse-admin/datastax_enterprise/operations/opsTuneJVM.html",
+    "description": "Documentation for tuning JVM."
+  },
+  {
+    "name": "Analyzing Cassandra Performance with Flame Graphs",
+    "url": "http://thelastpickle.com/blog/2018/01/16/cassandra-flame-graphs.html",
+    "description": "Visually examining Cassandra performance visually using Flamegraphs."
+  },
+  {
+    "name": "Garbage Collection Tuning for Cassandra",
+    "url": "http://thelastpickle.com/blog/2018/04/11/gc-tuning.html",
+    "description": "Optimizing garbage collection for better performance."
+  },
+  {
+    "name": "Cassandra Node Diagnostics Tools",
+    "url": "https://github.com/smartcat-labs/cassandra-diagnostics",
+    "description": "Monitoring and audit power kit for Cassandra."
+  },
+  {
+    "name": "TWCS part 1",
+    "url": "http://thelastpickle.com/blog/2016/12/08/TWCS-part1.html",
+    "description": "how does it work and when should you use it? - Best suited for time series data that expires, Time Window Compaction Strategy comes with some caveats."
+  },
+  {
+    "name": "Performing User Defined Compactions in Cassandra",
+    "url": "http://thelastpickle.com/blog/2016/10/18/user-defined-compaction.html",
+    "description": "Documenting a process by which we tell Cassandra to create a compaction task for one or more tables explicitly."
+  },
+  {
+    "name": "Graphing cassandra-stress",
+    "url": "http://thelastpickle.com/blog/2015/10/23/cassandra-stress-and-graphs.html",
+    "description": "Benchmarking schemas and configuration changes using the cassandra-stress tool, before pushing such changes out to production is one of the things every Cassandra developer should know and regularly practice."
+  },
+  {
+    "name": "Modeling real life workloads with cassandra-stress is hard",
+    "url": "http://thelastpickle.com/blog/2017/02/08/Modeling-real-life-workloads-with-cassandra-stress.html",
+    "description": "Blog post detailing caveats with cassandra-stress when modeling real workloads."
+  },
+  {
+    "name": "Gatling DSE Stress",
+    "url": "https://github.com/datastax/gatling-dse-stress",
+    "description": "Tool for stress testing DSE."
+  },
+  {
+    "name": "Gatling DSE Plugin for Gatling Load injector",
+    "url": "https://github.com/datastax/gatling-dse-plugin",
+    "description": "Plugin for the Gatling load injector. It adds CQL support in Gatling for Datastax Enterprise. It allows for benchmarking Datastax Enterprise features, including DSE Graph Fluent API."
+  },
+  {
+    "name": "Gatling DSE Stress Simulation Catalog",
+    "url": "https://github.com/datastax/gatling-dse-simcatalog",
+    "description": "The goal of the repo is to provide a sample of the Gatling DSE Stress Framework's usage. Feel free to submit a pull request with example simulations."
+  },
+  {
+    "name": "Securing Cassandra with Application Level Encryption",
+    "url": "https://www.instaclustr.com/securing-apache-cassandra-with-application-level-encryption/",
+    "description": "Discusses how to do application level data encryption to properly manage secure information in Cassandra."
+  },
+  {
+    "name": "Hardening Cassandra Step by Step: Part 1",
+    "url": "http://thelastpickle.com/blog/2015/09/30/hardening-cassandra-step-by-step-part-1-server-to-server.html",
+    "description": "Inter-Node Encryption (And a Gentle Intro to Certificates)."
+  },
+  {
+    "name": "LDAP Authenticator for Cassandra",
+    "url": "https://github.com/instaclustr/cassandra-ldap",
+    "description": "Pluggable authentication implementation for Cassandra, providing a way to authenticate and create users based on a configured LDAP server."
+  },
+  {
+    "name": "Encrypting EC2 ephemeral volumes with LUKS and AWS KMS",
+    "url": "https://www.whaletech.co/2016/04/07/encryption-ephemeral-volumes-with-kms.html",
+    "description": "The example used here is Cassandra data stored on ephemeral disks."
+  },
+  {
+    "name": "An Introduction to Cassandra Multi-Data Centers: Part 1",
+    "url": "https://www.instaclustr.com/around-the-world-in-approximately-8-data-centres-globally-distributed-storage-streaming-and-search-part-1/",
+    "description": "Learn about how to plan and implement Multi-Data Centers: Part 1."
+  },
+  {
+    "name": "An Introduction to Cassandra Multi-Data Centers: Part 2",
+    "url": "https://www.instaclustr.com/around-the-world-globally-distributed-storage-streaming-and-search-an-introduction-to-cassandra-multi-data-centers-part-2/",
+    "description": "Learn about how to plan and implement Multi-Data Centers: Part 2."
+  },
+  {
+    "name": "How To Setup A Highly Available Multi-AZ Cassandra Cluster On AWS EC2",
+    "url": "http://highscalability.com/blog/2016/8/1/how-to-setup-a-highly-available-multi-az-cassandra-cluster-o.html"
+  },
+  {
+    "name": "tlp-cluster, a tool for launching Cassandra clusters in AWS",
+    "url": "https://github.com/thelastpickle/tlp-cluster",
+    "description": "Provisioning tool for Cassandra designed for developers looking to both benchmark and test the correctness of Cassandra. It assists with builds and starting instances on AWS."
+  },
+  {
+    "name": "Setting Up Cassandra Cluster Through Ansible",
+    "url": "https://blog.knoldus.com/setting-up-cassandra-cluster-through-ansible/",
+    "description": "Guide detailing how to set up a Cassandra cluster with automation using Ansible."
+  },
+  {
+    "name": "Running Cassandra on DC/OS (Mesos)",
+    "url": "http://thelastpickle.com/blog/2016/05/07/dcos.html",
+    "description": " Blog that shows how to setup DC/OS in the Amazon cloud, how to install Cassandra on a DC/OS cluster, and finally new ways to interact with and Cassandra after it is installed."
+  },
+  {
+    "name": "Benchmarking Cassandra with Local Storage on Azure",
+    "url": "https://www.instaclustr.com/benchmarking-cassandra-with-local-storage-on-azure/",
+    "description": "Learn about comparing Cassandra on Azure VMs w/ Local vs. Remote storage."
+  },
+  {
+    "name": "Docker Meet Cassandra. Cassandra Meet Docker",
+    "url": "http://thelastpickle.com/blog/2018/01/23/docker-meet-cassandra.html",
+    "description": "Article reviewing how to setup a complete Cassandra application with monitoring on Docker."
+  },
+  {
+    "name": "Example code from the Docker Meet Cassandra Article",
+    "url": "https://github.com/thelastpickle/docker-cassandra-bootstrap"
+  },
+  {
+    "name": "Docker-Cassandra",
+    "url": "https://github.com/nicolasff/docker-cassandra",
+    "description": "Set of scripts and config files to run a Cassandra cluster from Docker."
+  },
+  {
+    "name": "Cassandra & Zeppelin Notebook on Docker",
+    "url": "https://github.com/academyofdata/cassandra-zeppelin",
+    "description": "Docker-Compose script for Cassandra + Zeppelin setup."
+  },
+  {
+    "name": "Packer: Cassandra Image",
+    "url": "https://github.com/cloudurable/cassandra-image",
+    "description": "Cassandra Image using Packer for Docker and EC2 AMI. Covers managing EC2 Cassandra clusters with Ansible."
+  },
+  {
+    "name": "Cassandra Docker",
+    "url": "https://github.com/instaclustr/cassandra-docker",
+    "description": "Instaclustr public docker image for Cassandra. It contains docker images for Cassandra 3.0 and 3.11.1."
+  },
+  {
+    "name": "Cassandra / Elassandra Docker",
+    "url": "https://github.com/zegelin/cassandra-docker",
+    "description": "Cassandra and Elassandra docker images.Cass Operator is maintained by a team at DataStax and it is part of what powers DataStax Astra."
+  },
+  {
+    "name": "K8ssandra.io",
+    "url": "https://k8ssandra.io/",
+    "description": "Kubernetes + Cassandra - K8ssandra provides a production-ready platform for running Cassandra on Kubernetes. This includes automation for operational tasks such as repairs, backups, and monitoring."
+  },
+  {
+    "name": "Datastax",
+    "url": "https://github.com/datastax/cass-operator",
+    "description": "Cassandra Kubernetes Operator - Datastax's Cassandra Kubernetes Operator which supports Datastax as well as open source Cassandra containers on Kubernetes."
+  },
+  {
+    "name": "Instaclustr",
+    "url": "https://github.com/instaclustr/cassandra-operator",
+    "description": "Kubernetes Operator for Cassandra - The Cassandra operator manages Cassandra clusters deployed to Kubernetes and automates tasks related to operating an Cassandra cluster."
+  },
+  {
+    "name": "Sky UK",
+    "url": "https://github.com/sky-uk/cassandra-operator",
+    "description": "Cassandra Kubernetes Operator - Kubernetes operator that manages Cassandra clusters inside Kubernetes. Well designed and organized."
+  },
+  {
+    "name": "CassKop",
+    "url": "https://github.com/Orange-OpenSource/cassandra-k8s-operator",
+    "description": "Cassandra operator for Kubernetes - Kubernetes operator automates the Cassandra operations such as deploying a new rack aware cluster, adding/removing nodes, configuring the C and JVM parameters, upgrading JVM and C versions. Written in Go."
+  },
+  {
+    "name": "Strapdata",
+    "url": "https://github.com/strapdata/elassandra-operator",
+    "description": "Elassandra Operator for Kubernetes - The Elassandra Kubernetes Operator automates the deployment and management of Elassandra clusters deployed in multiple Kubernetes clusters."
+  },
+  {
+    "name": "Rook.io",
+    "url": "https://rook.io/docs/rook/v1.4/cassandra.html",
+    "description": "Cassandra on Kubernetes - Rook is an open source cloud-native storage orchestrator, providing the platform, framework, and support for a diverse set of storage solutions to natively integrate with cloud-native environments. They have a special operator for Cassandra amongst other providers."
+  },
+  {
+    "name": "Kudo Cassandar Operator",
+    "url": "https://github.com/mesosphere/kudo-cassandra-operator",
+    "description": "The KUDO Cassandra Operator makes it easy to deploy and manage Cassandra on Kubernetes."
+  },
+  {
+    "name": "Building a Streaming Data Hub with Elasticsearch, Kafka and Cassandra",
+    "url": "http://thenewstack.io/building-streaming-data-hub-elasticsearch-kafka-cassandra/",
+    "description": "Blog post detailing how a streaming analytics system on top of open source, big data components can be done."
+  },
+  {
+    "name": "Docker container for Kafka",
+    "url": "https://github.com/Yannael/kafka-sparkstreaming-cassandra",
+    "description": "Spark streaming - Cassandra - Dockerfile that sets up a complete streaming environment for experimenting with Kafka, Spark streaming (PySpark), and Cassandra."
+  },
+  {
+    "name": "sample KafkaSparkCassandra",
+    "url": "https://github.com/instaclustr/sample-KafkaSparkCassandra",
+    "description": "Introductory sample scala app using Apache Spark Streaming to accept data from Kafka and write a summary to Cassandra."
+  },
+  {
+    "name": "sample Spark Cassandra with SSL",
+    "url": "https://github.com/instaclustr/sample-SparkCassandrawithSSL",
+    "description": "Simple sample job illustrating the use of Spark to execute Apache Spark analytics with Cassandra with SSL connection."
+  },
+  {
+    "name": "DataStax Spark Cassandra Connector",
+    "url": "https://github.com/datastax/spark-cassandra-connector",
+    "description": "Library that lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications."
+  },
+  {
+    "name": "sample Spark Job Server Cassandra",
+    "url": "https://github.com/instaclustr/sample-SparkJobserverCassandra",
+    "description": "Simple sample job illustrating the use of Spark Jobserver to execute Apache Spark analytics with Cassandra."
+  },
+  {
+    "name": "fluxcapacitor/pipeline",
+    "url": "https://github.com/fluxcapacitor/pipeline",
+    "description": "End-to-End, Real-time, Advanced Analytics Big Data Reference Pipeline using Spark, Spark SQL, Spark ML, GraphX, Spark Streaming, Kafka, NiFi, Cassandra, ElasticSearch, Redis, Tachyon, HDFS, Zeppelin, iPython/Jupyter Notebook, Tableau, Twitter Algebird."
+  },
+  {
+    "name": "Spark + Cassandra Best Practices",
+    "url": "https://blog.pythian.com/spark-cassandra-best-practices/",
+    "description": "Outlines general use cases and best practices of Spark & Cassandra together."
+  },
+  {
+    "name": "Tuning DSE Search",
+    "url": "http://www.datastax.com/dev/blog/tuning-dse-search",
+    "description": "Tuning DSE Search – Indexing latency and query latency."
+  },
+  {
+    "name": "Cassandra Lucene Index",
+    "url": "https://github.com/Stratio/cassandra-lucene-index",
+    "description": "Lucene based secondary indexes for Cassandra."
+  },
+  {
+    "name": "Elassandra",
+    "url": "http://www.elassandra.io/",
+    "description": "Elassandra = Elasticsearch as a Cassandra secondary index."
+  },
+  {
+    "name": "cassandra-trigger",
+    "url": "https://github.com/gradeup/cassandra-trigger",
+    "description": "Cassandra trigger to push realtime updates to elasticsearch."
+  },
+  {
+    "name": "cortexproject/cortex",
+    "url": "https://github.com/cortexproject/cortex",
+    "description": "Horizontally scalable, highly available, multi-tenant, long term Prometheus storage."
+  },
+  {
+    "name": "filodb/FiloDB",
+    "url": "https://github.com/filodb/FiloDB",
+    "description": "Distributed Prometheus time-series database compatible with Prometheus queries."
+  },
+  {
+    "name": "cybem/cyanite-iow",
+    "url": "https://github.com/cybem/cyanite-iow",
+    "description": "Cassandra backed Carbon daemon and metric web service. IPONWEB repository, compatible with Carbon."
+  },
+  {
+    "name": "kairosdb/kairosdb",
+    "url": "https://github.com/kairosdb/kairosdb",
+    "description": "Fast scalable time series database."
+  },
+  {
+    "name": "Cassandra Schema — KairosDB 1.0.1 documentation",
+    "url": "https://kairosdb.github.io/docs/build/html/CassandraSchema.html",
+    "description": "KairosDB documentation."
+  },
+  {
+    "name": "Newts",
+    "url": "https://opennms.github.io/newts/",
+    "description": "Time-series data store based on Cassandra."
+  },
+  {
+    "name": "OpenNMS/newts",
+    "url": "https://github.com/OpenNMS/newts",
+    "description": "New-fangled Timeseries Data Store that powers OpenNMS."
+  },
+  {
+    "name": "Hawkular.org",
+    "url": "https://www.hawkular.org/",
+    "description": "Time series / distributed tracing database powered by Cassandra by Redhat."
+  },
+  {
+    "name": "Hawkular GitHub",
+    "url": "https://github.com/hawkular",
+    "description": "Hawkular's GitHub resources."
+  },
+  {
+    "name": "OpenTSDB/opentsdb",
+    "url": "https://github.com/OpenTSDB/opentsdb",
+    "description": "GitHub resources for OpenTSDB. A Distributed, Scalable Monitoring System built on a Time Series Database."
+  },
+  {
+    "name": "DSE Graph | Datastax",
+    "url": "https://www.datastax.com/products/datastax-graph",
+    "description": "Successor to TitanDB , Commercial Tinkerpop / Gremlin compatible large scale Graph Database on DSE."
+  },
+  {
+    "name": "Thinkaurelius/Titan",
+    "url": "https://github.com/thinkaurelius/titan",
+    "description": "Distributed Graph Database, predecessor to DSE Graph, JanusGraph, and now HugeGraph."
+  },
+  {
+    "name": "Introduction to TitanDB",
+    "url": "https://www.slideshare.net/knoldus/introduction-to-titandb",
+    "description": "Introductory slides about TitanDB."
+  },
+  {
+    "name": "JanusGraph/janusgraph",
+    "url": "https://github.com/JanusGraph/janusgraph",
+    "description": "JanusGraph: an open-source, distributed graph database, successor to TitanDB."
+  },
+  {
+    "name": "Large Scale Graph Analytics with JanusGraph",
+    "url": "https://www.slideshare.net/Hadoop_Summit/large-scale-graph-analytics-with-janusgraph-77153443",
+    "description": "Slides detailing deployment options and technical aspects of JanusGraph."
+  },
+  {
+    "name": "Hugegraph/Hugegraph",
+    "url": "https://github.com/hugegraph/hugegraph",
+    "description": "HugeGraph Database core component, including graph engine, API, and built-in backends."
+  },
+  {
+    "name": "Architecture Overview · GitBook",
+    "url": "https://hugegraph.github.io/hugegraph-doc/guides/architectural.html",
+    "description": "Documentation for HugeGraph."
+  },
+  {
+    "name": "Stargate",
+    "url": "https://github.com/stargate/stargate",
+    "description": "Stargate is an open-source data gateway that provides REST, GraphQL and schemaless JSON interfaces to Cassandra."
+  },
+  {
+    "name": "Meet Stargate, DataStax's GraphQL for databases. First stop",
+    "url": "https://www.zdnet.com/article/meet-stargate-datastaxs-graphql-for-databases-first-stop-cassandra/",
+    "description": "Cassandra - Introduction and high-level overview of Stargate."
+  },
+  {
+    "name": "Apache/Usergrid",
+    "url": "https://github.com/apache/usergrid",
+    "description": "Open source Backend as a Service (BaaS) on Cassandra, Elasticsearch with client SDKs for iOS/Android/.NET/Java."
+  },
+  {
+    "name": "Building Your Own BaaS With Apache Usergrid & Docker: Lessons Learned At Scale",
+    "url": "http://events17.linuxfoundation.org/sites/events/files/slides/Building%20Your%20Own%20BaaS%20With%20Apache%20Usergrid%20%26%20Docker.pdf",
+    "description": "Introductory presentation to Apache UserGrid."
+  },
+  {
+    "name": "Scalar-labs/Scalardl",
+    "url": "https://github.com/scalar-labs/scalardl",
+    "description": "Tamper-evident and scalable distributed ledger platform."
+  },
+  {
+    "name": "Wikimedia/Restbase",
+    "url": "https://github.com/wikimedia/restbase",
+    "description": " Distributed storage with REST API & dispatcher for backend services."
+  },
+  {
+    "name": "Wikimedia/restbase-mod-table-spec",
+    "url": "https://github.com/wikimedia/restbase-mod-table-spec",
+    "description": "Shared spec and tests for RESTBase table storage."
+  },
+  {
+    "name": "express-cassandra",
+    "url": "https://github.com/masumsoft/express-cassandra",
+    "description": "Cassandra ORM/ODM/OGM for Node.js with optional support for Elassandra & JanusGraph."
+  },
+  {
+    "name": "DataStax Java Driver",
+    "url": "https://github.com/datastax/java-driver",
+    "description": "Java client driver for Cassandra."
+  },
+  {
+    "name": "DataStax C++ Driver",
+    "url": "https://github.com/datastax/cpp-driver",
+    "description": "Modern, feature-rich, and highly tunable C/C++ client library for Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra's native protocol and Cassandra Query Language v3."
+  },
+  {
+    "name": "DataStax Python Driver",
+    "url": "https://github.com/datastax/python-driver",
+    "description": "Modern, feature-rich and highly-tunable Python client library for Cassandra (2.1+) using exclusively Cassandra's binary protocol and Cassandra Query Language v3."
+  },
+  {
+    "name": "DataStax Ruby Driver",
+    "url": "https://github.com/datastax/ruby-driver",
+    "description": "Ruby client driver for Cassandra. This driver works exclusively with the Cassandra Query Language version 3 (CQL3) and Cassandra's native protocol."
+  },
+  {
+    "name": "DataStax Node.js Driver",
+    "url": "https://github.com/datastax/nodejs-driver",
+    "description": "Modern, feature-rich and highly tunable Node.js client library for Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra's binary protocol and Cassandra Query Language v3."
+  },
+  {
+    "name": "DataStax C# Driver",
+    "url": "https://github.com/datastax/csharp-driver",
+    "description": "Modern, feature-rich and highly tunable C# client library for Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra's binary protocol and Cassandra Query Language v3."
+  },
+  {
+    "name": "DataStax PHP Driver",
+    "url": "https://github.com/datastax/php-driver",
+    "description": "DataStax PHP Driver for Cassandra."
+  },
+  {
+    "name": "Achilles",
+    "url": "http://doanduyhai.github.io/Achilles/",
+    "description": "Achilles is an open source Persistence Manager for Cassandra,with the features like Advanced bean mapping (compound primary key, composite partition key, timeUUID, ect),Native collections and map support,and so."
+  },
+  {
+    "name": "phpcassa",
+    "url": "https://github.com/thobbs/phpcassa",
+    "description": "PHP client library for Cassandra."
+  },
+  {
+    "name": "Caffinitas",
+    "url": "https://bitbucket.org/snazy/caffinitas/src/develop/",
+    "description": "Caffinitas is an advanced object mapper for Cassandra which has been especially designed to work with Datastax Java Driver 2.1+ against Cassandra 2.1, 2.0 or 1.2."
+  },
+  {
+    "name": "Spring Data for Cassandra",
+    "url": "http://projects.spring.io/spring-data-cassandra/",
+    "description": " Spring Data for Cassandra offers a familiar interface to those who have used other Spring Data modules in the past."
+  },
+  {
+    "name": "gocql",
+    "url": "https://github.com/gocql/gocql",
+    "description": "Package gocql implements a fast and robust Cassandra client for the Go programming language."
+  },
+  {
+    "name": "Hackolade",
+    "url": "https://hackolade.com",
+    "description": "Visual data modeling tool for NoSQL databases and stuctures like Cassandra, ElasticSearch, Graph DBs, JSON, APIs."
+  },
+  {
+    "name": "JetBrains Datagrip DB IDE",
+    "url": "https://www.jetbrains.com/datagrip/",
+    "description": "The Cross-Platform IDE for Databases & SQL by JetBrains, with support for Cassandra."
+  },
+  {
+    "name": "Datastax",
+    "url": "https://github.com/datastax/management-api-for-apache-cassandra",
+    "description": "Management API for Cassandra - The Management API is a sidecar service layer that attempts to build a well supported set of operational actions on Cassandra® nodes that can be administered centrally."
+  },
+  {
+    "name": "DataStax OpsCenter",
+    "url": "http://www.datastax.com/what-we-offer/products-services/datastax-opscenter",
+    "description": "Simplified management for DataStax Enterprise and Cassandra database clusters."
+  },
+  {
+    "name": "CassandraCAS",
+    "url": "https://github.com/Datomic/CassandraCAS",
+    "description": "Compare-and-swap tool for Cassandra created by Datomic."
+  },
+  {
+    "name": "Peloton",
+    "url": "https://github.com/uber/peloton",
+    "description": "Unified resource scheduler created by Uber. This tool can handle many nodes and clusters through resource management and scalability."
+  },
+  {
+    "name": "Ansible-Galaxy: Cassandra GitHub",
+    "url": "https://github.com/ansible-collections/community.cassandra",
+    "description": "Collection called cassandra that aims at providing all Ansible modules allowed to interact with Cassandra."
+  },
+  {
+    "name": "Ansible-Galaxy: Cassandra",
+    "url": "https://galaxy.ansible.com/community/cassandra",
+    "description": "Documentation for Ansible-Galaxy: Cassandra."
+  },
+  {
+    "name": "Ansible-dse",
+    "url": "https://github.com/rackerlabs/ansible-dse",
+    "description": "Set of Ansible playbooks that will build a Datastax Enterprise cluster."
+  },
+  {
+    "name": "dseansible",
+    "url": "https://github.com/yabinmeng/dseansible",
+    "description": "DSE Installation and Upgrade Ansible Playbooks/Roles for Ubuntu Linux."
+  },
+  {
+    "name": "DbSchema",
+    "url": "https://dbschema.com/database-designer/Cassandra.html",
+    "description": "Cassandra Designer - DbSchema: Cassandra Diagram Designer & GUI Admin Tool which can do Cassandra amongst other databases."
+  },
+  {
+    "name": "DBeaver",
+    "url": "https://dbeaver.io/",
+    "description": "Free Universal Database Tool - Third party tool for dealing with all sorts of databases including Cassandra."
+  },
+  {
+    "name": "RazorSQL",
+    "url": "https://razorsql.com/",
+    "description": "Multi DB Manager Tool - Multi-db tool for Linux, Mac, and Windows that works with Cassandra."
+  },
+  {
+    "name": "KDM",
+    "url": "http://kdm-portal.weebly.com/",
+    "description": "The Kashlev Data Modeler - Automated big data modeling tool for Cassandra."
+  },
+  {
+    "name": "Cassandra Reaper",
+    "url": "http://cassandra-reaper.io/",
+    "description": "Automated repairs for Cassandra. Supports all versions."
+  },
+  {
+    "name": "cstar perf",
+    "url": "https://github.com/datastax/cstar_perf",
+    "description": "Cassandra performance testing platform."
+  },
+  {
+    "name": "Spark Cassandra Stress",
+    "url": "https://github.com/datastax/spark-cassandra-stress",
+    "description": "Tool for testing the DataStax Spark Connector against Cassandra or DSE."
+  },
+  {
+    "name": "cqlmigrate",
+    "url": "https://github.com/sky-uk/cqlmigrate",
+    "description": " Cassandra CQL migration tool. cqlmigrate is a library for performing schema migrations on a cassandra cluster."
+  },
+  {
+    "name": "cassandra-migration-tool-java",
+    "url": "https://github.com/smartcat-labs/cassandra-migration-tool-java",
+    "description": "Cassandra migration tool for java is a lightweight tool used to execute schema and data migration on Cassandra database."
+  },
+  {
+    "name": "Cassalog",
+    "url": "https://github.com/hawkular/cassalog",
+    "description": "Cassalog is a schema change management library and tool for Cassandra that can be used with applications running on the JVM."
+  },
+  {
+    "name": "cdeploy",
+    "url": "https://github.com/rackerlabs/cdeploy",
+    "description": "Cdeploy is a simple tool to manage your Cassandra schema migrations in the style of dbdeploy."
+  },
+  {
+    "name": "Web: Cassandra Calculator",
+    "url": "https://www.ecyrd.com/cassandracalculator/",
+    "description": "Simple calculator to see how size / replication factor affect the system's consistency."
+  },
+  {
+    "name": "Cassandra-web",
+    "url": "http://avalanche123.com/cassandra-web/",
+    "description": "Web interface for Cassandra."
+  },
+  {
+    "name": "CassanddraRestfulAPI",
+    "url": "https://github.com/rohitsakala/CassandraRestfulAPI",
+    "description": "CassandraRestfulAPI project exposes the cassandra data tables with the help of Restful API."
+  },
+  {
+    "name": "Netflix: Staash",
+    "url": "https://github.com/Netflix/staash",
+    "description": "Language-agnostic as well as storage-agnostic web interface for storing data into persistent storage systems, the metadata layer abstracts a lot of storage details and the pattern automation APIs take care of automating common data access patterns."
+  },
+  {
+    "name": "cql-vim",
+    "url": "https://github.com/elubow/cql-vim",
+    "description": "Cassandra CQL Syntax Highlighter for Vim."
+  },
+  {
+    "name": "Presto",
+    "url": "https://prestodb.io/",
+    "description": "Distributed SQL Query Engine for Big Data. Presto allows querying data where it lives, including Hive, Cassandra, relational databases or even proprietary data stores."
+  },
+  {
+    "name": "SSTable Tools",
+    "url": "https://github.com/tolbertam/sstable-tools",
+    "description": "Toolkit for parsing, creating and doing other fun stuff with Cassandra 3.x SSTables."
+  },
+  {
+    "name": "Cassandra-Exporter",
+    "url": "https://github.com/masumsoft/cassandra-exporter",
+    "description": "Simple Tool to Export / Import Cassandra Tables into JSON."
+  },
+  {
+    "name": "Cassandra SStable Tools",
+    "url": "https://github.com/instaclustr/cassandra-sstable-tools",
+    "description": "Multiple different tools combined into one that helps admins get summaries, metadata, partition info, cell info."
+  },
+  {
+    "name": "Cassandra-Client",
+    "url": "https://github.com/Kindrat/cassandra-client",
+    "description": "Simple gui tool for browsing tables and data in Cassandra."
+  },
+  {
+    "name": "CQL Data Modeler",
+    "url": "https://www.sestevez.com/sestevez/CassandraDataModeler/",
+    "description": "Very useful tool to test out a CQL schema and visualize what the partition would like in relationship to the columns and rows."
+  },
+  {
+    "name": "Cassandra Snapshot Backup",
+    "url": "https://github.com/avinash-mishra/cassandra_snapshot_backup",
+    "description": "Quick and easy way to snapshot files in a Cassandra database and back them up using Ansible."
+  },
+  {
+    "name": "Slothsandra",
+    "url": "https://github.com/MacKittipat/slothsandra",
+    "description": "Integration for Cassandra with the Slack app, which stores old messages that Slack no longer does itself."
+  },
+  {
+    "name": "sandraREST",
+    "url": "https://github.com/aksakalli/sandraREST",
+    "description": "Cassandra manager with a web UI for RESTful APIs."
+  },
+  {
+    "name": "Cassandra Leadership",
+    "url": "https://github.com/paradoxical-io/cassandra.leadership",
+    "description": "Library to help elect leaders using cassandra. Uses paxos to build a leadership election module."
+  },
+  {
+    "name": "Terraform Cassandra",
+    "url": "https://github.com/conrad-mukai/terraform-cassandra",
+    "description": "Terraform module that creates a Cassandra cluster."
+  },
+  {
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com/blog/monitoring-cassandra-with-datadog/",
+    "description": "Third party tool that allows monitoring and metrics for Cassandra nodes and clusters."
+  },
+  {
+    "name": "tlp-cluster",
+    "url": "http://thelastpickle.com/tlp-cluster/",
+    "description": "Provisioning tool for Cassandra designed for developers looking to benchmark and test Cassandra. It assists with builds and starting instances on AWS."
+  },
+  {
+    "name": "Helenos",
+    "url": "https://github.com/tomekkup/helenos",
+    "description": "Free web based environment that simplifies a data exploring & schema management with Cassandra database."
+  },
+  {
+    "name": "ValuStor",
+    "url": "https://github.com/Sensaphone/ValuStor",
+    "description": "ValuStor is a key-value pair database solution."
+  },
+  {
+    "name": "Cassandra-Migration",
+    "url": "https://github.com/hhandoko/cassandra-migration",
+    "description": "Cassandra / DataStax Enterprise database migration (schema evolution) library."
+  },
+  {
+    "name": "JanuesGraph-Utils",
+    "url": "https://github.com/IBM/janusgraph-utils",
+    "description": "Tool to Develop a graph database app."
+  },
+  {
+    "name": "Scylla-Migrator",
+    "url": "https://github.com/scylladb/scylla-migrator",
+    "description": "Migrate data extract using Spark to Scylla, normally from Cassandra."
+  },
+  {
+    "name": "Cassandra CA Manager",
+    "url": "https://github.com/eevans/cassandra-ca-manager",
+    "description": "Create and sign Java keystores."
+  },
+  {
+    "name": "Zipkin",
+    "url": "https://github.com/openzipkin/zipkin",
+    "description": "Distributed tracing system."
+  },
+  {
+    "name": "Instaclustr Kerberos plugin",
+    "url": "https://github.com/instaclustr/cassandra-kerberos",
+    "description": "GSSAPI authentication provider for Cassandra."
+  },
+  {
+    "name": "Instaclustr Java Driver for Kerberos",
+    "url": "https://github.com/instaclustr/cassandra-java-driver-kerberos",
+    "description": "GSSAPI authentication provider for the Cassandra Java driver."
+  },
+  {
+    "name": "Instaclustr Minotaur",
+    "url": "https://github.com/instaclustr/instaclustr-minotaur",
+    "description": "Command line tool for consistent rebuilding of a Cassandra cluster."
+  },
+  {
+    "name": "Instaclustr TTL Remover",
+    "url": "https://github.com/instaclustr/cassandra-ttl-remover",
+    "description": "Command line tool for rewriting SSTables to remove TTLs."
+  },
+  {
+    "name": "Instaclustr SSTable Generator",
+    "url": "https://github.com/instaclustr/cassandra-sstable-generator",
+    "description": "CLI tool for programmatic generation of Cassandra SSTables."
+  },
+  {
+    "name": "Instaclustr Exporter",
+    "url": "https://github.com/instaclustr/cassandra-exporter",
+    "description": "Java agent that exports Cassandra metrics to Prometheus."
+  },
+  {
+    "name": "Instaclustr Go Client for Instaclustr Icarus",
+    "url": "https://github.com/instaclustr/instaclustr-icarus-go-client",
+    "description": "Go client for Instaclustr Icarus sidecar."
+  },
+  {
+    "name": "Twissandra",
+    "url": "https://github.com/twissandra/twissandra",
+    "description": "Twissandra is an example project, created to learn and demonstrate how to use Cassandra. Running the project will present a website that has similar functionality to Twitter."
+  },
+  {
+    "name": "ChronoServer",
+    "url": "https://github.com/cyngn/ChronoServer",
+    "description": "Test server for sampling how long it takes mobile & web clients to make various types of requests to a server doing common request patterns."
+  },
+  {
+    "name": "Cassandra Cluster Admin",
+    "url": "https://github.com/sebgiroux/Cassandra-Cluster-Admin",
+    "description": "Cassandra Cluster Admin is a GUI tool to help people administrate their Cassandra cluster."
+  },
+  {
+    "name": "Cassandra-Tools",
+    "url": "https://github.com/CrowdStrike/cassandra-tools",
+    "description": "Python Fabric scripts to help automate the launching and managing of cluster testing on AWS."
+  },
+  {
+    "name": "Cassandra Opstools",
+    "url": "https://github.com/spotify/cassandra-opstools",
+    "description": "Generic scripts to review and monitor cassandra, from Spotify."
+  },
+  {
+    "name": "CCM: Cassandra Cluster Manager)",
+    "url": "https://github.com/pcmanus/ccm",
+    "description": "Script/library to create, launch and remove an Cassandra cluster on localhost."
+  },
+  {
+    "name": "Netflix-Priam",
+    "url": "https://github.com/Netflix/Priam",
+    "description": "Co-Process for backup/recovery, Token Management, and Centralized Configuration management for Cassandra."
+  },
+  {
+    "name": "CStar",
+    "url": "https://github.com/spotify/cstar",
+    "description": "Cassandra cluster orchestration tool for the command line."
+  },
+  {
+    "name": "CMB",
+    "url": "https://github.com/Comcast/cmb",
+    "description": "Highly available, horizontally scalable queuing and notification service compatible with AWS SQS and SNS."
+  },
+  {
+    "name": "CassieQ",
+    "url": "https://github.com/paradoxical-io/cassieq",
+    "description": "Distributed queue built off of Cassandra."
+  },
+  {
+    "name": "Cherami",
+    "url": "https://eng.uber.com/cherami/",
+    "description": "Distributed, scalable, durable, and highly available message queue system."
+  },
+  {
+    "name": "Scheduler",
+    "url": "https://github.com/PagerDuty/scheduler",
+    "description": "Scala library for scheduling arbitrary code to run at an arbitrary time."
+  },
+  {
+    "name": "cassandra-log4j-appender",
+    "url": "https://github.com/datastax/cassandra-log4j-appender",
+    "description": "Cassandra appenders for Log4j."
+  },
+  {
+    "name": "Metrics Collector for Cassandra",
+    "url": "https://github.com/datastax/metric-collector-for-apache-cassandra",
+    "description": "Metric collection and Dashboards for Cassandra (2.2, 3.0, 3.11, 4.0) clusters. Comes with dashboards for Graphana."
+  },
+  {
+    "name": "Cassandra Log Tools",
+    "url": "https://github.com/erickramirezDSE/cass_log_tools",
+    "description": "Simple scripts for working with Cassandra logs."
+  },
+  {
+    "name": "Cassandra CFStats to CSV Parser",
+    "url": "https://github.com/jlacefie/cfstats-csv-parser",
+    "description": "Converts the output of CFStats to CSV."
+  },
+  {
+    "name": "Cassandra Nagios",
+    "url": "https://github.com/causes/cassandra-nagios",
+    "description": "Perl Based scripts to get metrics for monitoring using Jolokia."
+  },
+  {
+    "name": "ctop",
+    "url": "https://github.com/pixonic/ctop",
+    "description": "Very simple console tool for monitoring column families read/write activities at remote cassandra host."
+  },
+  {
+    "name": "Cassandra StatD Agent",
+    "url": "https://github.com/lookout/cassandra-statsd-agent",
+    "description": "Java Agent for Cassandra integration with StatsD."
+  },
+  {
+    "name": "Cassandra Documentation",
+    "url": "http://cassandra.apache.org/doc/",
+    "description": "Definitive documentation for all published versions."
+  },
+  {
+    "name": "DataStax Documentation",
+    "url": "http://docs.datastax.com/en/landing_page/doc/landing_page/current.html",
+    "description": "Documentation and Drivers from DataStax."
+  },
+  {
+    "name": "Cassandra: The Definitive Guide, 3rd Edition",
+    "url": "https://www.amazon.com/gp/product/1098115163/"
+  },
+  {
+    "name": "Cassandra: The Definitive Guide, 2nd Edition",
+    "url": "https://www.amazon.com/gp/product/1491933666/"
+  },
+  {
+    "name": "Cassandra High Availability",
+    "url": "https://www.packtpub.com/big-data-and-business-intelligence/cassandra-high-availability"
+  },
+  {
+    "name": "DataStax Academy",
+    "url": "https://academy.datastax.com/",
+    "description": "Free online courses on Cassandra."
+  },
+  {
+    "name": "Cassandra Users Mailing List",
+    "url": "http://www.mail-archive.com/user@cassandra.apache.org/"
+  },
+  {
+    "name": "Cassandra Developers Mailing List",
+    "url": "http://www.mail-archive.com/dev@cassandra.apache.org/"
+  },
+  {
+    "name": "Cassandra Commits Mailing List",
+    "url": "http://www.mail-archive.com/commits@cassandra.apache.org/"
+  },
+  {
+    "name": "Apache Software Foundation Slack",
+    "url": "https://s.apache.org/slack-invite",
+    "description": "The #cassandra and #cassandra-dev channels are official slack channels migrating from IRC."
+  },
+  {
+    "name": "Datastax Academy Slack",
+    "url": "https://academy.datastax.com/slack"
+  },
+  {
+    "name": "Cassandra Slack",
+    "url": "https://cassandra-slack.herokuapp.com/"
+  },
+  {
+    "name": "Stack Overflow: Cassandra",
+    "url": "https://stackoverflow.com/questions/tagged/cassandra"
+  },
+  {
+    "name": "Stack Overflow: cql",
+    "url": "https://stackoverflow.com/questions/tagged/cql"
+  },
+  {
+    "name": "Stack Overflow: spark-cassandra-connector",
+    "url": "https://stackoverflow.com/questions/tagged/spark-cassandra-connector"
+  },
+  {
+    "name": "Quora: Cassandra",
+    "url": "https://www.quora.com/topic/Cassandra-database"
+  },
+  {
+    "name": "Meetups: Cassandra",
+    "url": "https://www.meetup.com/topics/cassandra/?_cookie-check=mHgLvBy3N6Cke1RU"
+  },
+  {
+    "name": "Datastax",
+    "url": "https://www.datastax.com/blog",
+    "description": "DataStax, Inc. is a data management company that provides commercial support, software, and cloud database-as-a-service based on Cassandra."
+  },
+  {
+    "name": "Codecentric: Cassandra",
+    "url": "https://blog.codecentric.de/en/tag/cassandra/",
+    "description": "Codecentric is an IT consulting company, these are their blog posts surrounding the topic of Cassandra."
+  },
+  {
+    "name": "Pythian: Cassandra",
+    "url": "https://blog.pythian.com/technical-track/cassandra-2/",
+    "description": "Pythian provides data and cloud-related services. The company provides services for Oracle, SQL Server, MySQL, Hadoop, Cassandra and other databases and their supporting infrastructure."
+  },
+  {
+    "name": "Instaclustr",
+    "url": "https://www.instaclustr.com/blog/",
+    "description": "Managed and supported open source solutions for Cassandra, Kafka, Elasticsearch & Redis."
+  },
+  {
+    "name": "OpenCredo:Cassandra",
+    "url": "https://opencredo.com/tag/cassandra/",
+    "description": "OpenCredo is a consulting company that helps clients make informed decisions around cloud native and open source technologies, as well as public cloud services."
+  },
+  {
+    "name": "DOAN DuyHai's Blog: Cassandra",
+    "url": "http://www.doanduyhai.com/blog/?cat=57",
+    "description": "Duyhai Doan is a freelance big data and cloud architect who values sharing knowledge and contributing to the technology community."
+  },
+  {
+    "name": "Amy Tobert",
+    "url": "https://tobert.github.io/",
+    "description": "Amy Tobert is a full-stack engineer & leader with passion for sustainable systems and people-centered leadership. Her blog details different Cassandra deployments amont other topics."
+  },
+  {
+    "name": "Christopher Batey: Cassandra",
+    "url": "http://batey.info/cassandra.html",
+    "description": "Christopher Batey is a software engineer of over 15 years and is a primary contributor to Akka and occasional contributor to Cassandra."
+  },
+  {
+    "name": "Distributed Bytes: Cassandra",
+    "url": "https://distributedbytes.timojo.com/search/label/cassandra",
+    "description": "Tim Ojo is the creator of Distributed Bytes and software engineer at Capital one. These are a collection of his posts surrounding the topic of Cassandra."
+  },
+  {
+    "name": "The Netflix Tech Blog",
+    "url": "https://medium.com/netflix-techblog",
+    "description": "Learn about Netflix’s world class engineering efforts, company culture, product developments and more."
+  },
+  {
+    "name": "Spotify R&D / Engineering Blog : Cassandra",
+    "url": "https://engineering.atspotify.com/tag/apache-cassandra/",
+    "description": "Cassandra related posts on Spotify's official technology blog."
+  },
+  {
+    "name": "Ryan Svilha",
+    "url": "https://lostechies.com/ryansvihla/tags",
+    "description": "Ryan Svilha is a principle engineer at DataStax. His blog posts covers topics surround Cassandra and associated tools."
+  },
+  {
+    "name": "Anant",
+    "url": "https://blog.anant.us/",
+    "description": "Anant builds and manages business platforms of which they connect customer experiences and information systems with real-time data platforms."
+  },
+  {
+    "name": "Best Practices for Running Cassandra on AWS",
+    "url": "https://www.youtube.com/watch?v=IuJldwJLyFM",
+    "description": "Joint webinar between Amazon Web Services (AWS) and Stackdriver, an AWS Technology partner, to learn best practices that apply to storing, analyzing and managing queries that equate to over 1+ billion measurements a day."
+  },
+  {
+    "name": "Monitoring Cassandra: Don't Miss a Thing (Alain Rodriguez, The Last Pickle) | C* Summit 2016",
+    "url": "https://www.youtube.com/watch?v=Q9AAR4UQzMk",
+    "description": "Talk given by Alain Rodriguez, Consultant at The Last Pickle, discussing what to monitor in Cassandra, how, and why."
+  },
+  {
+    "name": "Tuning the Spark Cassandra Connector",
+    "url": "https://www.youtube.com/watch?v=cKIHRD6kUOc&feature=youtu.be",
+    "description": "Great talk by Russell Spitzer maintainer of the Spark Cassandra connector."
+  },
+  {
+    "name": "Cassandra.Lunch",
+    "url": "https://github.com/Anant/Cassandra.Lunch",
+    "description": "Collection of all past Cassandra.Lunch webinars including videos, slides, and Blog posts surrounding all topics Cassandra."
+  },
+  {
+    "name": "Cassandra DataTables Using Restful API",
+    "url": "https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api",
+    "description": "How to create a performant API using Python / Flash."
+  },
+  {
+    "name": "HAPI Cassandra",
+    "url": "https://github.com/victorcouste/hapi-cassandra",
+    "description": "Simple REST API with hapi Node.js framework on top of a Cassandra database."
+  },
+  {
+    "name": "GumGum: Multi-Region Cassandra in AWS",
+    "url": "https://www.slideshare.net/planetcassandra/gumgum-multiregion-cassandra-in-aws",
+    "description": "Presentation that details how Gumgum scaled out from one local Cassandra datacenter to a multi-datacenter Cassandra cluster and all the problems they encountered and choices they made while implementing it."
+  },
+  {
+    "name": "Hardening Cassandra for Compliance or Paranoia",
+    "url": "https://www.slideshare.net/zznate/hardening-cassandra-for-compliance-or-paranoia",
+    "description": "Includes details on configuring SSL, setting up a certificate authority and creating certificates and trust chains for the JVM."
+  },
+  {
+    "name": "Securing Cassandra",
+    "url": "https://www.slideshare.net/planetcassandra/securing-cassandra-the-right-way",
+    "description": "Ben Bromhead CTO of Instaclustr, will explore the various ways in which you can setup and secure Cassandra appropriately for your threat environment."
+  },
+  {
+    "name": "Tuning the Spark Cassandra Connector",
+    "url": "https://www.slideshare.net/DataStax/maximum-overdrive-tuning-the-spark-cassandra-connector-russell-spitzer-datastax-c-summit-2016",
+    "description": "Slides by Russell Spitzer maintainer of the Spark Cassandra connector."
+  }
+]
