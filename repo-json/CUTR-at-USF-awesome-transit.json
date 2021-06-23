@@ -138,6 +138,11 @@
     "description": "The collaborative platform for mapping the world, including transport, transit, and routing data."
   },
   {
+    "name": "GTFS-Hub",
+    "url": "https://github.com/mfdz/gtfs-hub",
+    "description": "Community tested, probably quality/content enhanced, partially merged or filtered GTFS-feeds of (currently German) transport agencies. Maintained by MITFAHR|DE|ZENTRALE."
+  },
+  {
     "name": "OneBusAway",
     "url": "http://onebusaway.org/",
     "description": "A Java app that consumes GTFS and GTFS-Realtime (along with other formats) and turns them into an easy to use REST API."
@@ -365,6 +370,11 @@
     "description": "An iOS app for OpenTripPlanner"
   },
   {
+    "name": "opentripplanner-client-library",
+    "url": "https://github.com/CUTR-at-USF/opentripplanner-client-library",
+    "description": "A Kotlin Multiplatform library for making API requests and parsing responses from an OpenTripPlanner v2 server for trip plans, bike rental info, and server metadata for Android, iOS, and web."
+  },
+  {
     "name": "Transportr An Android app that uses public-transport-enabler in order to connect to many different transport networks worldwide.",
     "url": "https://github.com/grote/Transportr"
   },
@@ -411,6 +421,11 @@
     "name": "Transit Display",
     "url": "http://transitdisplay.com/",
     "description": "Multimodal and real-time transit display software."
+  },
+  {
+    "name": "Ualabee",
+    "url": "https://ualabee.com/company/",
+    "description": "Community driven trip planner with focus on user interaction, users can report anomalies, upload pictures, edit transit data and chat with other passengers."
   },
   {
     "name": "Visualizing MBTA Data",
@@ -629,24 +644,17 @@
     "description": "Ruby script that converts a set of GTFS files into a SQLite database + GeoJSONs (needed by the Transit Map web application)"
   },
   {
-    "name": "Transmodel and IFF to GTFS",
-    "url": "https://github.com/bliksemlabs/bliksemintegration",
-    "description": "Imports and syncs (Transmodel) BISON Koppelvlak1, IFF (a format written by HP/EDS, somewhat similiar to ATCO CIF) to import timetables of the railway networks. The internal pseudo-NETeX datastructure allows to export to GTFS and there are proof-of-concepts to export to other formats such as NETeX, GTFS and IFF."
-  },
-  {
-    "name": "Open-Transport SYNTHESE Convertors",
-    "url": "https://github.com/Open-Transport/synthese/wiki",
-    "description": "Converts French-Transmodel, SIRI, NETeX, HAFAS, HASTUS, VDV452, and more."
-  },
-  {
     "name": "Chouette",
     "url": "http://www.chouette.mobi/",
     "description": "Converts French-Transmodel, SIRI, NETeX. See Chouette.mobi website for more info."
   },
   {
-    "name": "osm2gtfs",
-    "url": "https://github.com/grote/osm2gtfs",
-    "description": "Turn OpenStreetMap data and schedule information into GTFS."
+    "name": "extract-gtfs-pathways – Command-line tool to extract pathways as GeoJSON from a GTFS dataset.",
+    "url": "https://github.com/derhuerst/extract-gtfs-pathways"
+  },
+  {
+    "name": "extract-gtfs-shapes – Command-line tool to extract shapes as GeoJSON from a GTFS dataset.",
+    "url": "https://github.com/derhuerst/extract-gtfs-shapes"
   },
   {
     "name": "GTFS-OSM-Sync",
@@ -654,43 +662,9 @@
     "description": "A Java tool for synchronizing data in GTFS format with OpenStreetMap.org."
   },
   {
-    "name": "onebusaway-gtfs-to-barefoot",
-    "url": "https://github.com/OneBusAway/onebusaway-gtfs-to-barefoot",
-    "description": "A Java tool to create a Barefoot mapfile from a GTFS file."
-  },
-  {
-    "name": "o2g",
-    "url": "https://github.com/hiposfer/o2g",
-    "description": "A simple tool to extract GTFS feed from OpenStreetMap."
-  },
-  {
-    "name": "transloc-gtfs-rectifier",
-    "url": "https://github.com/laidig/transloc-gtfs-rectifier",
-    "description": "Python application that attempts to assign GTFS stop_ids to TransLoc IDs using TransLoc's API (TransLoc doesn't provide GTFS stop_ids in their API)."
-  },
-  {
-    "name": "Hafas2GTFS",
-    "url": "https://github.com/geops/hafas2gtfs",
-    "description": "Hafas2GTFS converter written in Python, optimized for SBB HAFAS feeds."
-  },
-  {
-    "name": "hafas-generate-gtfs (work-in-progress)] – A Javascript tool to generate GTFS dumps from HAFAS endpoints.",
-    "url": "https://github.com/derhuerst/hafas-generate-gtfs"
-  },
-  {
-    "name": "gtsf",
-    "url": "https://github.com/r-gtfs/gtsf",
-    "description": "general transit (GTFS) simple (geographic) features (sf) in R. can be used to convert from GTFS to Shapefile, GeoJSON, and other formats through GDAL."
-  },
-  {
-    "name": "transit_model",
-    "url": "https://github.com/CanalTP/transit_model",
-    "description": "A Rust library to convert to/from the following formats: GTFS, NTFS (for Navitia, see Software for Creating APIs), TransXChange (UK standard format), KV1 (Netherland standard format) or NeTEx (European standard format)."
-  },
-  {
-    "name": "onebusaway-vdv-modules",
-    "url": "https://github.com/OneBusAway/onebusaway-vdv-modules",
-    "description": "A Java library for working with transit data in the VDV format, including converting VDV-452 schedule data into GTFS."
+    "name": "gtfs-service-area",
+    "url": "https://github.com/cal-itp/gtfs-service-area",
+    "description": "Compute a transit service area from static GTFS. Results are output as single-layer .geojson files. Dockerized version of gtfs-to-geojson."
   },
   {
     "name": "gtfs-to-geojson",
@@ -698,17 +672,63 @@
     "description": "Javascript tool that converts transit data in GTFS shapes and stops into geoJSON. This is useful for creating maps of transit routes."
   },
   {
-    "name": "extract-gtfs-shapes – Command-line tool to extract shapes as GeoJSON from a GTFS dataset.",
-    "url": "https://github.com/derhuerst/extract-gtfs-shapes"
+    "name": "gtsf",
+    "url": "https://github.com/r-gtfs/gtsf",
+    "description": "general transit (GTFS) simple (geographic) features (sf) in R. can be used to convert from GTFS to Shapefile, GeoJSON, and other formats through GDAL."
   },
   {
-    "name": "extract-gtfs-pathways – Command-line tool to extract pathways as GeoJSON from a GTFS dataset.",
-    "url": "https://github.com/derhuerst/extract-gtfs-pathways"
+    "name": "hafas-generate-gtfs (work-in-progress)] – A Javascript tool to generate GTFS dumps from HAFAS endpoints.",
+    "url": "https://github.com/derhuerst/hafas-generate-gtfs"
   },
   {
-    "name": "gtfs-service-area",
-    "url": "https://github.com/cal-itp/gtfs-service-area",
-    "description": "Compute a transit service area from static GTFS. Results are output as single-layer .geojson files. Dockerized version of gtfs-to-geojson."
+    "name": "Hafas2GTFS",
+    "url": "https://github.com/geops/hafas2gtfs",
+    "description": "Hafas2GTFS converter written in Python, optimized for SBB HAFAS feeds."
+  },
+  {
+    "name": "kml-to-gtfs-shapes",
+    "url": "https://github.com/bdferris/kml-to-gtfs-shapes/tree/gh-pages",
+    "description": "Javascript tool to convert polylines from a KML file into a GTFS shapes.txt file. Hosted on GitHub here."
+  },
+  {
+    "name": "o2g",
+    "url": "https://github.com/hiposfer/o2g",
+    "description": "A simple tool to extract GTFS feed from OpenStreetMap."
+  },
+  {
+    "name": "Open-Transport SYNTHESE Convertors",
+    "url": "https://github.com/Open-Transport/synthese/wiki",
+    "description": "Converts French-Transmodel, SIRI, NETeX, HAFAS, HASTUS, VDV452, and more."
+  },
+  {
+    "name": "onebusaway-gtfs-to-barefoot",
+    "url": "https://github.com/OneBusAway/onebusaway-gtfs-to-barefoot",
+    "description": "A Java tool to create a Barefoot mapfile from a GTFS file."
+  },
+  {
+    "name": "onebusaway-vdv-modules",
+    "url": "https://github.com/OneBusAway/onebusaway-vdv-modules",
+    "description": "A Java library for working with transit data in the VDV format, including converting VDV-452 schedule data into GTFS."
+  },
+  {
+    "name": "osm2gtfs",
+    "url": "https://github.com/grote/osm2gtfs",
+    "description": "Turn OpenStreetMap data and schedule information into GTFS."
+  },
+  {
+    "name": "transit_model",
+    "url": "https://github.com/CanalTP/transit_model",
+    "description": "A Rust library to convert to/from the following formats: GTFS, NTFS (for Navitia, see Software for Creating APIs), TransXChange (UK standard format), KV1 (Netherland standard format) or NeTEx (European standard format)."
+  },
+  {
+    "name": "transloc-gtfs-rectifier",
+    "url": "https://github.com/laidig/transloc-gtfs-rectifier",
+    "description": "Python application that attempts to assign GTFS stop_ids to TransLoc IDs using TransLoc's API (TransLoc doesn't provide GTFS stop_ids in their API)."
+  },
+  {
+    "name": "Transmodel and IFF to GTFS",
+    "url": "https://github.com/bliksemlabs/bliksemintegration",
+    "description": "Imports and syncs (Transmodel) BISON Koppelvlak1, IFF (a format written by HP/EDS, somewhat similiar to ATCO CIF) to import timetables of the railway networks. The internal pseudo-NETeX datastructure allows to export to GTFS and there are proof-of-concepts to export to other formats such as NETeX, GTFS and IFF."
   },
   {
     "name": "bus-router",
@@ -804,19 +824,19 @@
     "description": "A web publishing system developed by TriMet that allows a transit agency to examine, modify, and transform raw scheduling data into easy-to-read timetables for customer information purposes"
   },
   {
-    "name": "feedValidator",
-    "url": "https://github.com/google/transitfeed/wiki/FeedValidator",
-    "description": "Google supported Python-based GTFS validator."
-  },
-  {
-    "name": "gtfs-validator",
+    "name": "Conveyal's gtfs-validator",
     "url": "https://github.com/conveyal/gtfs-validator",
-    "description": "A GTFS validator based on the OneBusAway GTFS Modules, runs in Java and is faster than the Google provided one."
+    "description": "A Java-based GTFS validator based on the OneBusAway GTFS Modules, runs in Java and is faster than the Google provided one."
   },
   {
-    "name": "gtfs-lib",
+    "name": "Conveyal's gtfs-lib",
     "url": "https://github.com/conveyal/gtfs-lib/",
-    "description": "Conveyal's successor to gtfs-validator, a library for loading and saving GTFS feeds of arbitrary size with disk-backed storage."
+    "description": "Conveyal's successor to their own gtfs-validator, a Java-based library for loading and saving GTFS feeds of arbitrary size with disk-backed storage."
+  },
+  {
+    "name": "Google's feedValidator",
+    "url": "https://github.com/google/transitfeed/wiki/FeedValidator",
+    "description": "Google-supported Python-based GTFS validator."
   },
   {
     "name": "GTFS Data Package Specification",
@@ -824,24 +844,29 @@
     "description": "A Data Package specification with validation accomplished with Good Tables. Includes a data package, schemas, tests, and uses South East Queensland GTFS data as an example."
   },
   {
-    "name": "Web GTFS Meta-Validator (hosted by Omni)",
+    "name": "GTFS Meta-Validator (hosted by Omni)",
     "url": "http://gtfsvalidator.omnimodal.io",
-    "description": "A web-based GTFS validator that runs both feedValidator and gtfs-validator on uploaded GTFS files."
-  },
-  {
-    "name": "gtfs-validator",
-    "url": "https://github.com/MobilityData/gtfs-validator",
-    "description": "An open-source GTFS validator implemented in Java licensed under Apache v2.0 maintained by MobilityData."
+    "description": "A web-based GTFS validator that runs both the Google Python feedValidator and Conveyal's gtfs-validator on uploaded GTFS files."
   },
   {
     "name": "gtfs-validator-api",
     "url": "https://github.com/cal-itp/gtfs-validator-api",
-    "description": "This python package is a thin wrapper around MobilityData/gtfs-validator that handles intermediate files produced and finds gtfs-validator's output file so it can be given a specific name or returned as a string."
+    "description": "This Python package is a thin wrapper around MobilityData/gtfs-validator that handles intermediate files produced and finds gtfs-validator's output file so it can be given a specific name or returned as a string."
   },
   {
     "name": "GTFSVTOR",
     "url": "https://github.com/mecatran/gtfsvtor",
     "description": "An open-source GTFS validator implemented in Java licensed under GPLv3 maintained by Mecatran."
+  },
+  {
+    "name": "MobilityData's gtfs-validator",
+    "url": "https://github.com/MobilityData/gtfs-validator",
+    "description": "A open-source GTFS validator canonically following the GTFS spec implemented in Java licensed under Apache v2.0 maintained by MobilityData."
+  },
+  {
+    "name": "Reflect GTFS Validator (hosted by Foursquare ITP)",
+    "url": "https://reflect.foursquareitp.com",
+    "description": "Transit schedule and GTFS validation platform by Foursquare ITP that includes a free, web-based GTFS validator based on gtfs-lib."
   },
   {
     "name": "Transport Validator",

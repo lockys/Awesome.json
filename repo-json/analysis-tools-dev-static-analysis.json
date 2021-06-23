@@ -185,7 +185,7 @@
     "description": "Contains a set of diagnostics, code fixes and refactorings built on the Microsoft .NET Compiler Platform \"Roslyn\"."
   },
   {
-    "name": "code-cracker ⚠️",
+    "name": "code-cracker",
     "url": "http://code-cracker.github.io",
     "description": "An analyzer library for C# and VB that uses Roslyn to produce refactorings, code analysis, and other niceties."
   },
@@ -1400,12 +1400,12 @@
     "description": "Common Ruby idioms checker."
   },
   {
-    "name": "flay ⚠️",
+    "name": "flay",
     "url": "https://ruby.sadi.st/Flay.html",
     "description": "Flay analyzes code for structural similarities."
   },
   {
-    "name": "flog ⚠️",
+    "name": "flog",
     "url": "https://ruby.sadi.st/Flog.html",
     "description": "Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in."
   },
@@ -1530,6 +1530,11 @@
     "description": "A code linter to catch common mistakes and improve your Rust code."
   },
   {
+    "name": "dylint",
+    "url": "https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy",
+    "description": "A tool for running Rust lints from dynamic libraries. Dylint makes it easy for developers to maintain their own personal lint collections."
+  },
+  {
     "name": "electrolysis ⚠️",
     "url": "http://kha.github.io/electrolysis",
     "description": "A tool for formally verifying Rust programs by transpiling them into definitions in the Lean theorem prover."
@@ -1585,7 +1590,7 @@
     "description": "Show unused code from multi-crate Rust projects"
   },
   {
-    "name": "sqlcheck ⚠️",
+    "name": "sqlcheck",
     "url": "https://github.com/jarulraj/sqlcheck",
     "description": "Automatically identify anti-patterns in SQL queries."
   },
@@ -1972,7 +1977,7 @@
   {
     "name": "anchore",
     "url": "https://anchore.io",
-    "description": "Discover, analyze, and certify container images."
+    "description": "Discover, analyze, and certify container images. A service that analyzes Docker images and applies user-defined acceptance policies  to allow automated container image validation and certification"
   },
   {
     "name": "clair",
@@ -2020,9 +2025,24 @@
     "description": "Validates your Kubernetes configuration files and supports multiple Kubernetes versions."
   },
   {
+    "name": "OpenSCAP",
+    "url": "https://www.open-scap.org/",
+    "description": "Suite of automated audit tools to examine the configuration and  known vulnerabilities following the NIST-certified Security  Content Automation Protocol (SCAP)."
+  },
+  {
     "name": "Qualys Container Security ©️",
     "url": "https://www.qualys.com/apps/container-security",
     "description": "Container native application protection to provide visibility and control of containerized applications."
+  },
+  {
+    "name": "sysdig ©️",
+    "url": "https://sysdig.com/",
+    "description": "A secure DevOps platform for cloud and container forensics. Built on an open source stack, Sysdig provides Docker image scanning and created Falco, the open standard for runtime threat detection for containers, Kubernetes and cloud."
+  },
+  {
+    "name": "Vuls",
+    "url": "https://vuls.io/",
+    "description": "Agent-less Linux vulnerability scanner based on information from NVD, OVAL, etc.  It has some container image support, although is not a container specific tool."
   },
   {
     "name": "AzSK",
@@ -2255,6 +2275,11 @@
     "description": "Container native application protection to provide visibility and control of containerized applications."
   },
   {
+    "name": "SearchDiggity ©️",
+    "url": "https://resources.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/",
+    "description": "Identifies vulnerabilities in open source code projects  hosted on Github, Google Code, MS CodePlex, SourceForge, and more.  The tool comes with over 130 default searches that identify SQL injection,  cross-site scripting (XSS), insecure remote and local file includes, hard-coded passwords, etc."
+  },
+  {
     "name": "tfsec",
     "url": "https://github.com/tfsec/tfsec",
     "description": "Terraform static analysis tool that prevents potential security issues by checking cloud misconfigurations at build time and directly integrates with the HCL parser for better results. Checks for violations of AWS, Azure and GCP security best practice recommendations."
@@ -2365,7 +2390,7 @@
     "description": "A spell-checker that groups possible misspellings and shows them in their contexts."
   },
   {
-    "name": "proselint ⚠️",
+    "name": "proselint",
     "url": "http://proselint.com",
     "description": "A linter for English prose with a focus on writing style instead of grammar."
   },
@@ -2390,11 +2415,6 @@
     "description": "Checks YAML files for syntax validity, key repetition and cosmetic problems such as lines length, trailing spaces, and indentation."
   },
   {
-    "name": "go-tools",
-    "url": "https://github.com/dominikh/go-tools",
-    "description": "A collection of tools and libraries for working with Go code, including linters and static analysis"
-  },
-  {
     "name": "Clean code linters",
     "url": "https://github.com/collections/clean-code-linters",
     "description": "A collection of linters in github collections"
@@ -2405,19 +2425,24 @@
     "description": "A collection of PHP linters in github collections"
   },
   {
+    "name": "go-tools",
+    "url": "https://github.com/dominikh/go-tools",
+    "description": "A collection of tools and libraries for working with Go code, including linters and static analysis"
+  },
+  {
     "name": "linters",
     "url": "https://github.com/mcandre/linters",
     "description": "An introduction to static code analysis"
   },
   {
+    "name": "OWASP Source Code Analysis Tools",
+    "url": "https://owasp.org/www-community/Source_Code_Analysis_Tools",
+    "description": "List of tools maintained by the Open Web Application Security Project"
+  },
+  {
     "name": "php-static-analysis-tools",
     "url": "https://github.com/exakat/php-static-analysis-tools",
     "description": "A reviewed list of useful PHP static analysis tools"
-  },
-  {
-    "name": "Tools for C/C++",
-    "url": "https://www.peerlyst.com/posts/a-list-of-static-analysis-tools-for-c-c-peerlyst?utm_source=twitter&utm_medium=social&utm_content=peerlyst_post&utm_campaign=peerlyst_resources",
-    "description": "A list of static analysis tools for C/C++"
   },
   {
     "name": "Wikipedia",

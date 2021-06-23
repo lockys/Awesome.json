@@ -105,6 +105,11 @@
     "description": "Pyboard HC05 Bluetooth adaptor example application."
   },
   {
+    "name": "uble",
+    "url": "https://github.com/dmazzella/uble",
+    "description": "Lightweight Bluetooth Low Energy driver written in pure python for micropython."
+  },
+  {
     "name": "micropython-spacecan",
     "url": "https://gitlab.com/alphaaomega/micropython-spacecan",
     "description": "Spacecan is a MicroPython implementation of the SpaceCAN protocol for embedded systems."
@@ -118,6 +123,16 @@
     "name": "micropython-aes",
     "url": "https://github.com/piaca/micropython-aes",
     "description": "AES algorithm with pure python implementation."
+  },
+  {
+    "name": "ucrypto",
+    "url": "https://github.com/dmazzella/ucrypto",
+    "description": "Micropython package for doing fast elliptic curve cryptography, specifically digital signatures. API design inspired from fastecdsa and implementation based on tomsfastmath."
+  },
+  {
+    "name": "ucryptoauthlib",
+    "url": "https://github.com/dmazzella/ucryptoauthlib",
+    "description": "Lightweight driver for Microchip Crypto Authentication secure elements written in pure python for micropython."
   },
   {
     "name": "ICantBelieveItsNotDNS",
@@ -243,11 +258,6 @@
     "name": "MQBoard",
     "url": "https://github.com/tve/mqboard",
     "description": "A micro-framework for using MQTT with asyncio on MicroPython boards, primarily on the ESP32."
-  },
-  {
-    "name": "micropython-mqtt",
-    "url": "https://github.com/tve/micropython-mqtt",
-    "description": "MQTT libraries and tools for MicroPython."
   },
   {
     "name": "pysmartnode",
@@ -486,7 +496,7 @@
   },
   {
     "name": "micropython-ili9341",
-    "url": "https://bitbucket.org/thesheep/micropython-ili9341",
+    "url": "https://github.com/mcauser/deshipu-micropython-ili9341",
     "description": "SSD1606 active matrix epaper display 128x180."
   },
   {
@@ -545,11 +555,6 @@
     "description": "Driver for I2C 2x16 LCD Screens."
   },
   {
-    "name": "micropython_grove_rgb_lcd_driver",
-    "url": "https://github.com/KidVizious/micropython_grove_rgb_lcd_driver",
-    "description": "Driver for SeeedStudio's Grove RGB LCD."
-  },
-  {
     "name": "pyboard-LCD-character-display",
     "url": "https://github.com/scitoast/pyboard-LCD-character-display",
     "description": "PyBoard driver for HDD44780 compatible 1602 LCDs."
@@ -601,7 +606,7 @@
   },
   {
     "name": "micropython-ili9341",
-    "url": "https://bitbucket.org/thesheep/micropython-ili9341",
+    "url": "https://github.com/mcauser/deshipu-micropython-ili9341",
     "description": "Collection of drivers for TFT displays, ILI9341, SH1106, SSD1606, ST7735."
   },
   {
@@ -625,9 +630,9 @@
     "description": "Driver for ST7735 128x128 TFT."
   },
   {
-    "name": "SSD1963-TFT-Library-for-PyBoard",
-    "url": "https://github.com/robert-hh/SSD1963-TFT-Library-for-PyBoard",
-    "description": "Driver for SSD1963 864x480 TFT LCDs."
+    "name": "SSD1963-TFT-Library-for-PyBoard-and-RP2040",
+    "url": "https://github.com/robert-hh/SSD1963-TFT-Library-for-PyBoard-and-RP2040",
+    "description": "SSD1963 TFT Library for PyBoard and Raspberry Pi PICO."
   },
   {
     "name": "ST7735",
@@ -730,6 +735,11 @@
     "description": "MicroPython Library for 16 digits 7-segment displays controlled by a TM1640."
   },
   {
+    "name": "TM74HC595",
+    "url": "https://github.com/Sakartu/TM74HC595",
+    "description": "Driver for shift register controlled 5 pin display modules."
+  },
+  {
     "name": "micropython-morsecode",
     "url": "https://github.com/mampersat/micropython-morsecode",
     "description": "Blink an LED with morse coded message."
@@ -786,7 +796,7 @@
   },
   {
     "name": "micropython-oled",
-    "url": "https://bitbucket.org/thesheep/micropython-oled",
+    "url": "https://github.com/mcauser/deshipu-micropython-oled",
     "description": "Collection of drivers for monochrome OLED displays, PCD8544, SH1106, SSD1306, UC1701X."
   },
   {
@@ -821,7 +831,7 @@
   },
   {
     "name": "micropython-ads1015",
-    "url": "https://bitbucket.org/thesheep/micropython-ads1015",
+    "url": "https://github.com/mcauser/deshipu-micropython-ads1015",
     "description": "ADS1015 12-Bit and ADS1115 16-bit ADC, 4 channels with programmable gain, I2C interface."
   },
   {
@@ -853,6 +863,11 @@
     "name": "micropython-mcp4725",
     "url": "https://github.com/wayoda/micropython-mcp4725",
     "description": "Driver for the MCP4725 I2C DAC."
+  },
+  {
+    "name": "mcp4728",
+    "url": "https://github.com/openfablab/mcp4728",
+    "description": "Helper library for the Microchip MCP4728 I2C 12-bit Quad DAC."
   },
   {
     "name": "micropython-inputs",
@@ -900,9 +915,19 @@
     "description": "MicroPython driver for PCF8591 8-Bit I2C I/O Expander."
   },
   {
+    "name": "micropython-74hc595",
+    "url": "https://github.com/mcauser/micropython-74hc595",
+    "description": "MicroPython driver for 74HC595 8-bit shift registers."
+  },
+  {
     "name": "micropython-nunchuck",
     "url": "https://github.com/kfricke/micropython-nunchuck",
     "description": "Driver for Nunchuk game controller, I2C interface."
+  },
+  {
+    "name": "micropython-ad840x",
+    "url": "https://github.com/dsiggi/micropython-ad840x",
+    "description": "Micropython SPI-based manipulation of the AD series digital potentiometers AD8400, AD8402 and AD8403."
   },
   {
     "name": "upwmcontroller",
@@ -920,6 +945,11 @@
     "description": "A MicroPython library for reading from a rotary encoder."
   },
   {
+    "name": "encodermenu",
+    "url": "https://github.com/sgall17a/encodermenu",
+    "description": "Simple GUI menu for micropython using a rotary encoder and basic display."
+  },
+  {
     "name": "Micropython-AD9833",
     "url": "https://github.com/KipCrossing/Micropython-AD9833",
     "description": "Pyboard driver for AD9833, spi interface."
@@ -931,7 +961,7 @@
   },
   {
     "name": "micropython-pca9685",
-    "url": "https://bitbucket.org/thesheep/micropython-pca9685",
+    "url": "https://github.com/mcauser/deshipu-micropython-pca9685",
     "description": "16-channel 12-bit PWM/servo driver."
   },
   {
@@ -1020,11 +1050,6 @@
     "description": "Bosch BME280 temperature/pressure/humidity sensor."
   },
   {
-    "name": "wipy_bme280",
-    "url": "https://bitbucket.org/oscarBravo/wipy_bme280",
-    "description": "Driver for the Bosch BME280 temperature/pressure/humidity sensor."
-  },
-  {
     "name": "BME280",
     "url": "https://github.com/robert-hh/BME280",
     "description": "MicroPython driver for the BME280 sensor, target platform Pycom devices."
@@ -1071,17 +1096,17 @@
   },
   {
     "name": "micropython-gp2y0e03",
-    "url": "https://bitbucket.org/thesheep/micropython-gp2y0e03",
+    "url": "https://github.com/mcauser/deshipu-micropython-gp2y0e03",
     "description": "IR-LED distance measuring sensor using Sharp GP2Y0E03."
   },
   {
     "name": "micropython-vl6180",
-    "url": "https://bitbucket.org/thesheep/micropython-vl6180",
+    "url": "https://github.com/mcauser/deshipu-micropython-vl6180",
     "description": "Time-of-Flight sensor, ambient light sensor & IR emitter."
   },
   {
     "name": "micropython-vl53l0x",
-    "url": "https://bitbucket.org/thesheep/micropython-vl53l0x",
+    "url": "https://github.com/mcauser/deshipu-micropython-vl53l0x",
     "description": "Time-of-Flight laser-ranging sensor."
   },
   {
@@ -1190,6 +1215,11 @@
     "description": "Sensor fusion calculates heading, pitch and roll from the outputs of motion tracking devices."
   },
   {
+    "name": "ms5803-micropython",
+    "url": "https://github.com/minyiky/ms5803-micropython",
+    "description": "A micropython implimentation of the driver for an MS5803 pressure & temperature sensor."
+  },
+  {
     "name": "micropython-chirp",
     "url": "https://github.com/robberwick/micropython-chirp",
     "description": "Driver for the Chirp Soil Moisture Sensor."
@@ -1201,7 +1231,7 @@
   },
   {
     "name": "micropython-max31855",
-    "url": "https://bitbucket.org/thesheep/micropython-max31855",
+    "url": "https://github.com/mcauser/deshipu-micropython-max31855",
     "description": "Thermocouple amplifier, SPI interface."
   },
   {
@@ -1261,7 +1291,7 @@
   },
   {
     "name": "micropython-si7021",
-    "url": "https://bitbucket.org/thesheep/micropython-si7021",
+    "url": "https://github.com/mcauser/deshipu-micropython-si7021",
     "description": "SI7021 Temperature and humidity sensor, I2C interface."
   },
   {
@@ -1288,11 +1318,6 @@
     "name": "Official DHT11+DHT12",
     "url": "https://github.com/micropython/micropython/blob/master/drivers/dht/dht.py",
     "description": "ESP8266 driver for DHT11 and DHT12 temperature and humidity sensor."
-  },
-  {
-    "name": "SHT10_uPython",
-    "url": "https://github.com/Omgitskillah/SHT10_uPython",
-    "description": "Driver for SHT10 temperature and humidity sensor."
   },
   {
     "name": "sht25-micropython",
@@ -1433,6 +1458,21 @@
     "name": "MicroPython Projects",
     "url": "https://www.packtpub.com/au/iot-hardware/micropython-projects",
     "description": "By Jacob Beningo. ISBN 9781789958034."
+  },
+  {
+    "name": "Get Started with MicroPython on Raspberry Pi Pico",
+    "url": "https://store.rpipress.cc/products/get-started-with-micropython-on-raspberry-pi-pico",
+    "description": "By Gareth Halfacree and Ben Everard. ISBN 9781912047864."
+  },
+  {
+    "name": "MicroPython for Microcontrollers",
+    "url": "https://www.elektor.com/micropython-for-microcontrollers-e-book",
+    "description": "By Günter Spanner. ISBN 9783895764370."
+  },
+  {
+    "name": "MicroPython For Everyone: How To Use ESP32 And ESP8266: Micropython Mqtt",
+    "url": "https://www.amazon.com/MicroPython-Everyone-ESP32-ESP8266-Micropython/dp/B094281XK1",
+    "description": "By Mason Milette. ISBN 9798748248822."
   },
   {
     "name": "micrOS",
