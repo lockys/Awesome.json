@@ -1,7 +1,7 @@
 [
   {
     "name": "FastAPI Admin",
-    "url": "https://github.com/long2ice/fastapi-admin",
+    "url": "https://github.com/fastapi-admin/fastapi-admin",
     "description": "Functional admin panel that provides a user interface for performing CRUD operations on your data."
   },
   {
@@ -50,23 +50,9 @@
     "description": "Simple integration between FastAPI and SQLAlchemy."
   },
   {
-    "name": "Tortoise ORM",
-    "url": "https://tortoise-orm.readthedocs.io/en/latest/index.html",
-    "description": "An easy-to-use asyncio ORM (Object Relational Mapper) inspired by Django."
-  },
-  {
-    "name": "FastAPI Example",
-    "url": "https://tortoise-orm.readthedocs.io/en/latest/examples/fastapi.html",
-    "description": "An example of the Tortoise-ORM FastAPI integration."
-  },
-  {
-    "name": "Tutorial: Setting up Tortoise ORM with FastAPI",
-    "url": "https://web.archive.org/web/20200523174158/https://robwagner.dev/tortoise-fastapi-setup/"
-  },
-  {
-    "name": "Aerich",
-    "url": "https://tortoise-orm.readthedocs.io/en/latest/migration.html",
-    "description": "Tortoise ORM migrations tools."
+    "name": "FastAPIwee",
+    "url": "https://github.com/Ignisor/FastAPIwee",
+    "description": "A simple way to create REST API based on PeeWee models."
   },
   {
     "name": "GINO",
@@ -84,8 +70,13 @@
   },
   {
     "name": "ormar",
+    "url": "https://collerek.github.io/ormar/",
+    "description": "Ormar is an async ORM that uses pydantic validation and can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included."
+  },
+  {
+    "name": "FastAPI Example",
     "url": "https://collerek.github.io/ormar/fastapi/",
-    "description": "An async mini ORM for Python."
+    "description": "Using FastAPI with ormar."
   },
   {
     "name": "Piccolo",
@@ -101,6 +92,25 @@
     "name": "Piccolo Admin",
     "url": "https://github.com/piccolo-orm/piccolo_admin",
     "description": "A powerful and modern admin GUI, using the Piccolo ORM."
+  },
+  {
+    "name": "Tortoise ORM",
+    "url": "https://tortoise-orm.readthedocs.io/en/latest/index.html",
+    "description": "An easy-to-use asyncio ORM (Object Relational Mapper) inspired by Django."
+  },
+  {
+    "name": "FastAPI Example",
+    "url": "https://tortoise-orm.readthedocs.io/en/latest/examples/fastapi.html",
+    "description": "An example of the Tortoise-ORM FastAPI integration."
+  },
+  {
+    "name": "Tutorial: Setting up Tortoise ORM with FastAPI",
+    "url": "https://web.archive.org/web/20200523174158/https://robwagner.dev/tortoise-fastapi-setup/"
+  },
+  {
+    "name": "Aerich",
+    "url": "https://tortoise-orm.readthedocs.io/en/latest/migration.html",
+    "description": "Tortoise ORM migrations tools."
   },
   {
     "name": "asyncpgsa",
@@ -193,6 +203,11 @@
     "description": "A simple lightweight cache system."
   },
   {
+    "name": "FastAPI Chameleon",
+    "url": "https://github.com/mikeckennedy/fastapi-chameleon",
+    "description": "Adds integration of the Chameleon template language to FastAPI."
+  },
+  {
     "name": "FastAPI Contrib",
     "url": "https://github.com/identixone/fastapi_contrib",
     "description": "Opinionated set of utilities: pagination, auth middleware, permissions, custom exception handlers, MongoDB support, and Opentracing middleware."
@@ -201,6 +216,11 @@
     "name": "FastAPI CRUDRouter",
     "url": "https://github.com/awtkns/fastapi-crudrouter",
     "description": "A FastAPI router that automatically creates and documents CRUD routes for your models."
+  },
+  {
+    "name": "FastAPI Jinja",
+    "url": "https://github.com/AGeekInside/fastapi-jinja",
+    "description": "Adds integration of the Jinja template language to FastAPI."
   },
   {
     "name": "FastAPI Limiter",
@@ -246,6 +266,11 @@
     "name": "FastAPI Websocket RPC",
     "url": "https://github.com/authorizon/fastapi_websocket_rpc",
     "description": "RPC (bidirectional JSON RPC) over Websockets made easy, robust, and production ready."
+  },
+  {
+    "name": "OpenTelemetry FastAPI Instrumentation",
+    "url": "https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-fastapi",
+    "description": "Library provides automatic and manual instrumentation of FastAPI web frameworks, instrumenting http requests served by applications utilizing the framework."
   },
   {
     "name": "Prerender Python Starlette",
@@ -325,6 +350,11 @@
     "name": "Why we switched from Flask to FastAPI for production machine learning",
     "url": "https://towardsdatascience.com/why-we-switched-from-flask-to-fastapi-for-production-machine-learning-765aab9b3679",
     "description": "In-depth look at why you may want to move from Flask to FastAPI."
+  },
+  {
+    "name": "Async SQLAlchemy with FastAPI",
+    "url": "https://stribny.name/blog/fastapi-asyncalchemy/",
+    "description": "Learn how to use SQLAlchemy asynchronously."
   },
   {
     "name": "Demystifying Authentication with FastAPI and a Frontend",
@@ -421,9 +451,19 @@
     "description": "Learn how to stream data from FastAPI directly into a real-time chart."
   },
   {
+    "name": "Running FastAPI applications in production",
+    "url": "https://stribny.name/blog/fastapi-production/",
+    "description": "Use Gunicorn with systemd for production deployments."
+  },
+  {
     "name": "Serving Machine Learning Models with FastAPI in Python",
     "url": "https://medium.com/@8B_EC/tutorial-serving-machine-learning-models-with-fastapi-in-python-c1a27319c459",
     "description": "Use FastAPI to quickly and easily deploy and serve machine learning models in Python as a RESTful API."
+  },
+  {
+    "name": "Streaming video with FastAPI",
+    "url": "https://stribny.name/blog/fastapi-video/",
+    "description": "Learn how to serve video streams."
   },
   {
     "name": "Using Hypothesis and Schemathesis to Test FastAPI",
@@ -577,7 +617,7 @@
   },
   {
     "name": "openapi-python-client",
-    "url": "https://github.com/triaxtec/openapi-python-client",
+    "url": "https://github.com/openapi-generators/openapi-python-client",
     "description": "Generate modern FastAPI Python clients (via FastAPI) from OpenAPI."
   },
   {

@@ -205,11 +205,6 @@
     "description": "Fetch Stack Overflow results in your terminal when you get a compiler error."
   },
   {
-    "name": "grip",
-    "url": "https://github.com/joeyespo/grip",
-    "description": "Preview markdown files with GitHub styles before committing them."
-  },
-  {
     "name": "bitwise",
     "url": "https://github.com/mellowcandle/bitwise",
     "description": "Base conversion and bit manipulator in ncurses."
@@ -223,6 +218,11 @@
     "name": "just",
     "url": "https://github.com/casey/just",
     "description": "Modern make-like command runner."
+  },
+  {
+    "name": "grex",
+    "url": "https://github.com/pemistahl/grex",
+    "description": "Generate regular expressions from user-provided test cases."
   },
   {
     "name": "emacs",
@@ -425,6 +425,11 @@
     "description": "Manage Kubernetes Clusters."
   },
   {
+    "name": "PingMe",
+    "url": "https://github.com/kha7iq/pingme",
+    "description": "Send messages/alerts to multiple messaging platforms & email."
+  },
+  {
     "name": "lstags",
     "url": "https://github.com/ivanilves/lstags",
     "description": "Synchronize images across registries."
@@ -468,6 +473,11 @@
     "name": "release",
     "url": "https://github.com/zeit/release",
     "description": "Generate changelogs with a single command."
+  },
+  {
+    "name": "semantic-release",
+    "url": "https://github.com/semantic-release/semantic-release",
+    "description": "Fully automated version management and package publishing."
   },
   {
     "name": "npm-name-cli",
@@ -602,7 +612,7 @@
   {
     "name": "Timetrap",
     "url": "https://github.com/samg/timetrap",
-    "description": "Simple command-line timetracker."
+    "description": "Simple timetracker."
   },
   {
     "name": "moro",
@@ -637,17 +647,17 @@
   {
     "name": "Taskwarrior",
     "url": "http://taskwarrior.org",
-    "description": "Manage your TODO list from your command-line."
+    "description": "Manage your TODO list."
   },
   {
     "name": "Terminal velocity",
     "url": "https://vhp.github.io/terminal_velocity/",
-    "description": "A fast note-taking app for the terminal."
+    "description": "A fast note-taking app."
   },
   {
     "name": "eureka",
     "url": "https://github.com/simeg/eureka",
-    "description": "Store your ideas without leaving the terminal."
+    "description": "Input and store your ideas."
   },
   {
     "name": "sncli",
@@ -735,6 +745,11 @@
     "description": "CalDAV sync."
   },
   {
+    "name": "remind",
+    "url": "https://dianne.skoll.ca/projects/remind",
+    "description": "A sophisticated calendar and alarm program."
+  },
+  {
     "name": "archive-type-cli",
     "url": "https://github.com/kevva/archive-type-cli",
     "description": "Detect archive type for a file or stdin."
@@ -780,14 +795,14 @@
     "description": "Password manager."
   },
   {
+    "name": "gopass",
+    "url": "https://github.com/gopasspw/gopass",
+    "description": "Fully-featured password manager."
+  },
+  {
     "name": "awesome-finder",
     "url": "https://github.com/mingrammer/awesome-finder",
     "description": "Search the awesome lists without a browser."
-  },
-  {
-    "name": "mdv",
-    "url": "https://github.com/axiros/terminal_markdown_viewer",
-    "description": "Styled terminal markdown viewer."
   },
   {
     "name": "shallow-backup",
@@ -1025,24 +1040,39 @@
     "description": "System monitoring tool."
   },
   {
+    "name": "DocToc",
+    "url": "https://github.com/thlorenz/doctoc",
+    "description": "Generates table of contents for markdown files."
+  },
+  {
+    "name": "grip",
+    "url": "https://github.com/joeyespo/grip",
+    "description": "Preview markdown files as GitHub would render them."
+  },
+  {
+    "name": "mdv",
+    "url": "https://github.com/axiros/terminal_markdown_viewer",
+    "description": "Styled terminal markdown viewer."
+  },
+  {
     "name": "cmdchallenge",
-    "url": "https://cmdchallenge.com/",
-    "description": "presents small shell challenge with user submitted solutions."
+    "url": "https://cmdchallenge.com",
+    "description": "Presents small shell challenge with user submitted solutions."
   },
   {
     "name": "explainshell",
-    "url": "http://www.explainshell.com/",
-    "description": "type a command line snippet to see the help text for each argument."
+    "url": "http://www.explainshell.com",
+    "description": "Type a snippet to see the help text for each argument."
   },
   {
     "name": "howdoi",
     "url": "https://github.com/gleitz/howdoi",
-    "description": "Instant coding answers via the command line."
+    "description": "Instant coding answers."
   },
   {
     "name": "how2",
     "url": "https://github.com/santinic/how2",
-    "description": "Finds the simplest way to do something on a unix bash command line (Nodejs implementation of howdoi)."
+    "description": "Node.js implementation of howdoi."
   },
   {
     "name": "The Fuck",
@@ -1062,7 +1092,7 @@
   {
     "name": "teachcode",
     "url": "https://github.com/madlabsinc/teachcode",
-    "description": "A tool to develop and improve a student’s programming skills by introducing the earliest lessons of coding."
+    "description": "Guide for the earliest lessons of coding."
   },
   {
     "name": "navi",
@@ -1146,7 +1176,7 @@
   {
     "name": "stegcloak",
     "url": "https://github.com/kurolabs/stegcloak",
-    "description": "Hide secrets with invisible characters in plain text securely using passwords."
+    "description": "Hide secrets with invisible characters in plain text securely."
   },
   {
     "name": "ranger",
@@ -1159,14 +1189,9 @@
     "description": "A feature rich visual file manager."
   },
   {
-    "name": "organize-cli",
-    "url": "https://github.com/ManrajGrover/organize-cli",
-    "description": "Organize your files, imagine cleaning up your downloads in an instant."
-  },
-  {
     "name": "Vifm",
     "url": "https://vifm.info/",
-    "description": "Vifm is an ncurses based file manager with vi like keybindings/modes/options/commands/configuration, which also borrows some useful ideas from mutt."
+    "description": "VI influnced file manager."
   },
   {
     "name": "nnn",
@@ -1206,12 +1231,17 @@
   {
     "name": "rename-cli",
     "url": "https://github.com/jhotmann/node-rename-cli",
-    "description": "A cross-platform tool for renaming files quickly, especially multiple files at once."
+    "description": "Rename files quickly."
   },
   {
     "name": "renameutils",
     "url": "https://www.nongnu.org/renameutils",
     "description": "Mass renaming in your editor."
+  },
+  {
+    "name": "diskonaut",
+    "url": "https://github.com/imsnif/diskonaut",
+    "description": "Disk space navigator."
   },
   {
     "name": "chokidar-cli",
@@ -1222,11 +1252,6 @@
     "name": "file-type-cli",
     "url": "https://github.com/sindresorhus/file-type-cli",
     "description": "Detect the file type of a file or stdin."
-  },
-  {
-    "name": "DocToc",
-    "url": "https://github.com/thlorenz/doctoc",
-    "description": "Generates table of contents for markdown files inside local git repository. Links are compatible with anchors generated by github or other sites."
   },
   {
     "name": "bat",
@@ -1241,12 +1266,7 @@
   {
     "name": "unix-permissions",
     "url": "https://github.com/ehmicky/unix-permissions",
-    "description": "Swiss Army knife for Unix permissions"
-  },
-  {
-    "name": "rclone",
-    "url": "https://github.com/ncw/rclone",
-    "description": "Sync files to and from various cloud providers (Dropbox, Google Drive, Onedrive, etc.)."
+    "description": "Swiss Army knife for Unix permissions."
   },
   {
     "name": "transmission-cli",
@@ -1254,13 +1274,33 @@
     "description": "Torrent client for your command line."
   },
   {
-    "name": "ffsend",
-    "url": "https://github.com/timvisee/ffsend",
-    "description": "Fully featured CLI for Firefox Send - simple and private file sharing."
-  },
-  {
     "name": "webtorrent-cli – Streaming torrent client.",
     "url": "https://github.com/feross/webtorrent-cli"
+  },
+  {
+    "name": "entr",
+    "url": "https://github.com/eradman/entr",
+    "description": "Run an arbitrary command when files change."
+  },
+  {
+    "name": "organize-cli",
+    "url": "https://github.com/ManrajGrover/organize-cli",
+    "description": "Organize your files automatically."
+  },
+  {
+    "name": "organize-rt",
+    "url": "https://gitlab.com/FixFromDarkness/organize-rt",
+    "description": "organize-cli in Rust with more customization."
+  },
+  {
+    "name": "rclone",
+    "url": "https://github.com/ncw/rclone",
+    "description": "Sync files with various cloud providers."
+  },
+  {
+    "name": "ffsend",
+    "url": "https://github.com/timvisee/ffsend",
+    "description": "Quick file share."
   },
   {
     "name": "share-cli",
@@ -1276,11 +1316,6 @@
     "name": "gdrive-downloader",
     "url": "https://github.com/Akianonymus/gdrive-downloader",
     "description": "Download files/folders from Google Drive."
-  },
-  {
-    "name": "entr",
-    "url": "https://github.com/eradman/entr",
-    "description": "Run an arbitrary command when files change."
   },
   {
     "name": "alder",
@@ -1381,6 +1416,11 @@
     "name": "broot",
     "url": "https://github.com/Canop/broot",
     "description": "Fuzzy finder similar to fzf, but with space usage visualization."
+  },
+  {
+    "name": "rare",
+    "url": "https://github.com/zix99/rare",
+    "description": "Real-time regex aggregation and analysis."
   },
   {
     "name": "SnowFS",
@@ -1670,6 +1710,121 @@
   {
     "name": "to-double-quotes",
     "url": "https://github.com/sindresorhus/to-double-quotes-cli",
-    "description": "Convert matching single-quotes to double-quotes: "
+    "description": "Convert matching single-quotes to double-quotes: I 'love' unicorns => I \"love\" unicorns."
+  },
+  {
+    "name": "to-single-quotes",
+    "url": "https://github.com/sindresorhus/to-single-quotes-cli",
+    "description": "Convert matching double-quotes to single-quotes: I \"love\" unicorns → I 'love' unicorns."
+  },
+  {
+    "name": "gdb-dashboard",
+    "url": "https://github.com/cyrus-and/gdb-dashboard",
+    "description": "Modular visual interface for GDB in Python."
+  },
+  {
+    "name": "hget",
+    "url": "https://github.com/bevacqua/hget",
+    "description": "Render websites in plain text from your terminal."
+  },
+  {
+    "name": "google-wifi-status",
+    "url": "https://github.com/joelgeorgev/google-wifi-status",
+    "description": "A Node.js CLI app that displays status of your Google Wifi / OnHub router."
+  },
+  {
+    "name": "calories",
+    "url": "https://github.com/zupzup/calories",
+    "description": "Calories and weight tracker."
+  },
+  {
+    "name": "trino",
+    "url": "https://github.com/eneserdogan/trino",
+    "description": "Trino CLI allows a quick and easy translation of words and phrases entered in the command line."
+  },
+  {
+    "name": "alex",
+    "url": "https://github.com/wooorm/alex",
+    "description": "This enhances texts with checking for insensitive, inconsiderate writing by catching many possible offences."
+  },
+  {
+    "name": "xiringuito",
+    "url": "https://github.com/ivanilves/xiringuito",
+    "description": "A \"poor man's VPN\". An SSH-based \"VPN\" that's easy to install, but with slower performance than a real VPN."
+  },
+  {
+    "name": "nasa-cli",
+    "url": "https://github.com/xxczaki/nasa-cli",
+    "description": "Download NASA Picture of the Day from your terminal."
+  },
+  {
+    "name": "googlr",
+    "url": "https://github.com/Camji55/googlr",
+    "description": "Search Google from the command line."
+  },
+  {
+    "name": "Qalculate",
+    "url": "https://github.com/Qalculate/libqalculate",
+    "description": "Calculate non-trival math expressions. Unit conversions, symbolic calculations and more."
+  },
+  {
+    "name": "translate-shell",
+    "url": "https://github.com/soimort/translate-shell",
+    "description": "Google Translate interface."
+  },
+  {
+    "name": "emoj",
+    "url": "https://github.com/sindresorhus/emoj",
+    "description": "Find relevant emoji from text on the command-line."
+  },
+  {
+    "name": "emoji-finder",
+    "url": "https://github.com/dematerializer/emoji-finder",
+    "description": "Quickly find and copy emoji to the clipboard via the command-line."
+  },
+  {
+    "name": "oji",
+    "url": "https://github.com/xxczaki/oji",
+    "description": "Interactive text emoji maker."
+  },
+  {
+    "name": "gitmoji-cli",
+    "url": "https://github.com/carloscuesta/gitmoji-cli",
+    "description": "Use emoji in commit messages."
+  },
+  {
+    "name": "gitmoji-changelog",
+    "url": "https://github.com/frinyvonnick/gitmoji-changelog",
+    "description": "Generate gitmoji changelogs."
+  },
+  {
+    "name": "awesome-command-line-apps – An alternative awesome list of cli apps.",
+    "url": "https://github.com/herrbischoff/awesome-command-line-apps#readme"
+  },
+  {
+    "name": "awesome-macos-command-line",
+    "url": "https://github.com/herrbischoff/awesome-macos-command-line#readme",
+    "description": "Shell commands and tools specific to macOS."
+  },
+  {
+    "name": "awesome-git-addons",
+    "url": "https://github.com/stevemao/awesome-git-addons#readme",
+    "description": "Addons that extend git cli."
+  },
+  {
+    "name": "awesome-shell – Command-line utilities and frameworks.",
+    "url": "https://github.com/alebcay/awesome-shell#readme"
+  },
+  {
+    "name": "terminals-are-sexy – Terminal frameworks, plugins & resources.",
+    "url": "https://github.com/k4m4/terminals-are-sexy#readme"
+  },
+  {
+    "name": "awesome-zsh-plugins – ZSH frameworks, plugins, tutorials & themes.",
+    "url": "https://github.com/unixorn/awesome-zsh-plugins#readme"
+  },
+  {
+    "name": "awesome-nodejs clis – Node.js modules and resources.",
+    "url": "https://github.com/sindresorhus/awesome-nodejs#command-line-apps"
   }
 ]

@@ -30,6 +30,11 @@
     "description": "High-level API for specifying neural networks of both finite and infinite width. "
   },
   {
+    "name": "HuggingFace",
+    "url": "https://github.com/huggingface/transformers",
+    "description": "Ecosystem of pretrained Transformers for a wide range of natural language tasks (Flax). "
+  },
+  {
     "name": "NumPyro",
     "url": "https://github.com/pyro-ppl/numpyro",
     "description": "Probabilistic programming based on the Pyro library. "
@@ -56,7 +61,7 @@
   },
   {
     "name": "Coax",
-    "url": "https://github.com/microsoft/coax",
+    "url": "https://github.com/coax-dev/coax",
     "description": "Turn RL papers into code, the easy way. "
   },
   {
@@ -143,6 +148,36 @@
     "name": "Optimal Transport Tools",
     "url": "https://github.com/google-research/ott",
     "description": "Toolbox that bundles utilities to solve optimal transport problems."
+  },
+  {
+    "name": "delta PV",
+    "url": "https://github.com/romanodev/deltapv",
+    "description": "A photovoltaic simulator with automatic differentation. "
+  },
+  {
+    "name": "jaxlie",
+    "url": "https://github.com/brentyi/jaxlie",
+    "description": "Lie theory library for rigid body transformations and optimization. "
+  },
+  {
+    "name": "BRAX",
+    "url": "https://github.com/google/brax",
+    "description": "Differentiable physics engine to simulate environments along with learning algorithms to train agents for these environments. "
+  },
+  {
+    "name": "flaxmodels",
+    "url": "https://github.com/matthias-wright/flaxmodels",
+    "description": "Pretrained models for Jax/Flax. "
+  },
+  {
+    "name": "CR.Sparse",
+    "url": "https://github.com/carnotresearch/cr-sparse",
+    "description": "XLA accelerated algorithms for sparse representations and compressive sensing. "
+  },
+  {
+    "name": "exojax",
+    "url": "https://github.com/HajimeKawahara/exojax",
+    "description": "Automatic differentiable spectrum modeling of exoplanets/brown dwarfs compatible to JAX. "
   },
   {
     "name": "Reformer",
@@ -336,8 +371,18 @@
   },
   {
     "name": "Introduction to JAX by Kevin Murphy",
-    "url": "https://colab.research.google.com/github/probml/pyprobml/blob/master/book1/supplements/jax_intro.ipynb",
+    "url": "https://colab.research.google.com/github/probml/pyprobml/blob/master/notebooks/jax_intro.ipynb",
     "description": "Colab that introduces various aspects of the language and applies them to simple ML problems."
+  },
+  {
+    "name": "Writing an MCMC sampler in JAX by Jeremie Coullon",
+    "url": "https://www.jeremiecoullon.com/2020/11/10/mcmcjax3ways/",
+    "description": "Tutorial on the different ways to write an MCMC sampler in JAX along with speed benchmarks."
+  },
+  {
+    "name": "How to add a progress bar to JAX scans and loops by Jeremie Coullon",
+    "url": "https://www.jeremiecoullon.com/2021/01/29/jax_progress_bar/",
+    "description": "Tutorial on how to add a progress bar to compiled loops in JAX using the host_callback module."
   },
   {
     "name": "Reddit",

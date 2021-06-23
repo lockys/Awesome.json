@@ -30,8 +30,8 @@
     "description": "Handily search across all or selected Nix-related repositories."
   },
   {
-    "name": "Nixpkgs Database",
-    "url": "https://kamadorueda.github.io/nixpkgs-db/",
+    "name": "NixDB",
+    "url": "https://4shells.com/nixdb",
     "description": "A database with Nix packages at all versions, from all channels."
   },
   {
@@ -220,9 +220,9 @@
     "description": "Converts a Cabal file into a Nix build expression."
   },
   {
-    "name": "stack2nix",
-    "url": "https://github.com/input-output-hk/stack2nix",
-    "description": "Generate nix expressions for Haskell projects."
+    "name": "haskell.nix",
+    "url": "https://github.com/input-output-hk/haskell.nix",
+    "description": "Alternative Haskell Infrastructure for Nixpkgs."
   },
   {
     "name": "nix-haskell-mode",
@@ -230,9 +230,14 @@
     "description": "Automatic Haskell setup in Emacs."
   },
   {
-    "name": "haskell.nix",
-    "url": "https://github.com/input-output-hk/haskell.nix",
-    "description": "Alternative Haskell Infrastructure for Nixpkgs."
+    "name": "nixkell",
+    "url": "https://github.com/pwm/nixkell",
+    "description": "A Haskell project template using Nix and direnv."
+  },
+  {
+    "name": "stack2nix",
+    "url": "https://github.com/input-output-hk/stack2nix",
+    "description": "Generate nix expressions for Haskell projects."
   },
   {
     "name": "Napalm",
@@ -248,6 +253,21 @@
     "name": "yarn2nix",
     "url": "https://github.com/nix-community/yarn2nix",
     "description": "Generate Nix expressions from a yarn.lock file."
+  },
+  {
+    "name": "composer2nix",
+    "url": "https://github.com/svanderburg/composer2nix",
+    "description": "Generate Nix expressions to build composer packages."
+  },
+  {
+    "name": "composition-c4",
+    "url": "https://github.com/fossar/composition-c4",
+    "description": "Support for building composer packages from a composer.lock (using IFD)."
+  },
+  {
+    "name": "nix-phps",
+    "url": "https://github.com/fossar/nix-phps",
+    "description": "Flake containing old and unmaintained PHP versions (intended for CI use)."
   },
   {
     "name": "Easy PureScript Nix",
@@ -340,12 +360,8 @@
     "description": "Nix User Repositories. The mother of all overlays, allowing access to user repositories and installing packages via attributes."
   },
   {
-    "name": "#nix:matrix.org (Unofficial)",
-    "url": "https://matrix.to/#/#nix:matrix.org"
-  },
-  {
-    "name": "#nixos on FreeNode",
-    "url": "https://webchat.freenode.net/?channels=nixos"
+    "name": "#nix:nixos.org",
+    "url": "https://matrix.to/#/#nix:nixos.org"
   },
   {
     "name": "Discord",
