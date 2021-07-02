@@ -907,6 +907,996 @@
   {
     "name": "dlmalloc",
     "url": "http://g.oswego.edu/pub/misc/malloc.c",
-    "description": "Doug Lea's malloc(3) implementation, useful for academic and research purposes. "
+    "description": "Doug Lea's malloc(3) implementation, useful for academic and research purposes. Public Domain"
+  },
+  {
+    "name": "Hoard",
+    "url": "http://hoard.org/",
+    "description": "A Fast, Scalable, and Memory-efficient Malloc for Linux, Windows, Mac, and Solaris. GNU GPL2"
+  },
+  {
+    "name": "nedmalloc",
+    "url": "http://www.nedprod.com/programs/portable/nedmalloc/",
+    "description": "An EXTREMELY FAST portable thread caching malloc(3) implementation written in C. GNU GPL2"
+  },
+  {
+    "name": "rpmalloc",
+    "url": "https://github.com/rampantpixels/rpmalloc",
+    "description": "Cross platform, lock-free memory allocator. Public Domain"
+  },
+  {
+    "name": "FFMPEG",
+    "url": "https://www.ffmpeg.org/",
+    "description": "Complete, cross-platform solution to record, convert and stream audio and video. GNU LGPL2.1 or later or GNU GPL2.1 or later (some parts)"
+  },
+  {
+    "name": "GStreamer",
+    "url": "https://gstreamer.freedesktop.org/",
+    "description": "Framework for audio and visual media. GNU LGPL2.1"
+  },
+  {
+    "name": "lodepng",
+    "url": "https://lodev.org/lodepng/",
+    "description": "Simple PNG image decoder and encoder, requiring no other dependencies. 3-clause BSD"
+  },
+  {
+    "name": "libsoup",
+    "url": "https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup",
+    "description": "GNOME HTTP client/server library. Uses GObject. GNU LGPL2.1"
+  },
+  {
+    "name": "libmpv",
+    "url": "https://mpv.io/",
+    "description": "Music-playing library. Compile with ./waf configure --disable-cplayer --enable-libmpv-shared to not have the music player. GNU GPL2.1 or later"
+  },
+  {
+    "name": "libsoundio",
+    "url": "http://libsound.io/",
+    "description": "Library for cross-platform, real-time audio input and output. Has a range of back-ends. Expat"
+  },
+  {
+    "name": "asnlc",
+    "url": "http://lionet.info/asn1c/compiler.html",
+    "description": "Compiler of ASN.1 specifications into C source code. FreeBSD"
+  },
+  {
+    "name": "czmq",
+    "url": "http://czmq.zeromq.org/",
+    "description": "High-level binding for ZeroMQ. MPL2.0"
+  },
+  {
+    "name": "GNU adns",
+    "url": "https://www.gnu.org/software/adns/",
+    "description": "Advanced, easy-to-use, asynch-capable DNS client library and utilities. GNU GPL3 or later"
+  },
+  {
+    "name": "GNU SASL",
+    "url": "https://www.gnu.org/software/gsasl/",
+    "description": "Implementation of the Simple Authentication and Security Layer and a few common SASL mechanism. GNU GPL3 or later"
+  },
+  {
+    "name": "GnuTLS",
+    "url": "https://www.gnutls.org/",
+    "description": "Secure communication library, implementing SSL, TLS and DTLS. GNU LGPL2.1 or later"
+  },
+  {
+    "name": "gumbo-parser",
+    "url": "https://github.com/google/gumbo-parser",
+    "description": "HTML5 parsing library in C99. Apache 2.0"
+  },
+  {
+    "name": "http-parser",
+    "url": "https://github.com/nodejs/http-parser",
+    "description": "HTTP request/response parser. Expat"
+  },
+  {
+    "name": "ldns",
+    "url": "https://www.nlnetlabs.nl/projects/ldns/index.html",
+    "description": "Library to simplify DNS programming. 3-clause BSD"
+  },
+  {
+    "name": "libcurl",
+    "url": "https://curl.haxx.se/libcurl/",
+    "description": "Client-side URL transfer library, supporting a wide range of formats. curl license"
+  },
+  {
+    "name": "LibEtPan",
+    "url": "http://www.etpan.org/",
+    "description": "Mail library providing an efficient network for IMAP, SMTP, POP and NNTP. 3-clause BSD"
+  },
+  {
+    "name": "libev",
+    "url": "http://software.schmorp.de/pkg/libev.html",
+    "description": "Yet another event loop. FreeBSD"
+  },
+  {
+    "name": "libuv",
+    "url": "http://libuv.org/",
+    "description": "Cross-platform asynchronous I/O. Expat"
+  },
+  {
+    "name": "libevent",
+    "url": "http://libevent.org/",
+    "description": "Event loop replacement for network servers. 3-clause BSD"
+  },
+  {
+    "name": "libgss",
+    "url": "https://www.gnu.org/software/gss/",
+    "description": "Generic Security Service. GNU GPL3 or later"
+  },
+  {
+    "name": "libhttpd",
+    "url": "https://hughes.com.au/products/libhttpd/",
+    "description": "Library to add basic web server capabilities to an application or embedded device. GNU GPL2"
+  },
+  {
+    "name": "libidn",
+    "url": "https://www.gnu.org/software/libidn/",
+    "description": "Implementation of the Stringprep, Punycode and IDNA specifications. GNU GPL3 or later"
+  },
+  {
+    "name": "libmicrohttpd",
+    "url": "https://www.gnu.org/software/libmicrohttpd/",
+    "description": "Small C library that makes it easy to run an HTTP server as part of another application. GNU LGPL2.1 or later"
+  },
+  {
+    "name": "libsagui",
+    "url": "https://risoflora.github.io/libsagui/",
+    "description": "Sagui is a cross-platform C library which helps to develop web servers or frameworks. GNU LGPL3"
+  },
+  {
+    "name": "libvldmail",
+    "url": "https://github.com/dertuxmalwieder/libvldmail",
+    "description": "Your friendly e-mail address validation library. WTFPLv2"
+  },
+  {
+    "name": "lwan",
+    "url": "https://lwan.ws/",
+    "description": "Experimental, scalable, high-performance HTTP server. GNU GPL2.1"
+  },
+  {
+    "name": "mongoose",
+    "url": "https://cesanta.com/",
+    "description": "Embedded web server for C. GNU GPL2.1"
+  },
+  {
+    "name": "MQTT-C",
+    "url": "https://github.com/LiamBindle/MQTT-C",
+    "description": "Portable MQTT C client for embedded systems and PCs alike. MIT"
+  },
+  {
+    "name": "nanomsg",
+    "url": "https://github.com/nanomsg/nanomsg",
+    "description": "C-based implementation of ZeroMQ. Expat"
+  },
+  {
+    "name": "OpenSSL",
+    "url": "https://www.openssl.org/",
+    "description": "Implementation of the SSL and TLS protocols, and also includes a cryptography library. Dual Licensed under the OpenSSL License and the SSLeay License"
+  },
+  {
+    "name": "oSip",
+    "url": "https://www.gnu.org/software/osip/",
+    "description": "SIP implementation in C without additional dependencies. GNU LGPLv2.1 or later"
+  },
+  {
+    "name": "pig",
+    "url": "https://github.com/rafael-santiago/pig",
+    "description": "Linux packet crafting tool. GPL2"
+  },
+  {
+    "name": "s2n",
+    "url": "https://github.com/awslabs/s2n",
+    "description": "C99 implementation of the TLS/SSL protocols, designed to be simple, fast and with security as a priority. Apache 2.0"
+  },
+  {
+    "name": "socket99",
+    "url": "https://github.com/silentbicycle/socket99",
+    "description": "C99 wrapper for the BSD sockets API. ISC"
+  },
+  {
+    "name": "Tox",
+    "url": "https://tox.chat/",
+    "description": "Communication platform, designed to be a Skype-killer. GNU GPL3"
+  },
+  {
+    "name": "twitc",
+    "url": "https://github.com/sinemetu1/twitc",
+    "description": "Mini C library for interacting with the Twitter OAuth API. Expat"
+  },
+  {
+    "name": "librg",
+    "url": "https://github.com/librg/librg",
+    "description": "Library for building simple and elegant cross-platform mmo client-server solutions. Apache 2.0"
+  },
+  {
+    "name": "dyad",
+    "url": "https://github.com/rxi/dyad",
+    "description": "Asynchronous networking library. MIT"
+  },
+  {
+    "name": "h2o",
+    "url": "https://github.com/h2o/h2o/",
+    "description": "Optimized HTTP/1, HTTP/2 high performance server/library. MIT"
+  },
+  {
+    "name": "balde",
+    "url": "https://balde.rgm.io/",
+    "description": "Microframework for C based on GLib. GNU LGPLv2.1"
+  },
+  {
+    "name": "onion",
+    "url": "https://www.coralbits.com/libonion/",
+    "description": "C library to create simple HTTP servers and Web Applications. Apache 2.0"
+  },
+  {
+    "name": "kore",
+    "url": "https://kore.io/",
+    "description": "Easy to use, scalable and secure web application framework for writing web APIs in C."
+  },
+  {
+    "name": "klone",
+    "url": "http://www.koanlogic.com/klone/",
+    "description": "KLone is a fully-featured, multiplatform, web application development framework."
+  },
+  {
+    "name": "duda",
+    "url": "http://duda.io/",
+    "description": "Duda I/O is an event-driven and high performant web services framework written in C. Apache 2.0"
+  },
+  {
+    "name": "apophenia",
+    "url": "http://apophenia.info/",
+    "description": "Library for statistical and scientific computing. GNU GPL2.1"
+  },
+  {
+    "name": "ATLAS",
+    "url": "http://math-atlas.sourceforge.net/",
+    "description": "Automatically Tuned Linear Algebra Software. 3-clause BSD"
+  },
+  {
+    "name": "BLAS",
+    "url": "http://www.netlib.org/blas/",
+    "description": "Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. BLAS license"
+  },
+  {
+    "name": "CDFLIB",
+    "url": "https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html",
+    "description": "Library with routines to evaluate cumulative density functions fo a variety of standard probability distributions.  Also can compute one parameter of the CDF given the others.  (No license given)"
+  },
+  {
+    "name": "cmathl",
+    "url": "https://scientificc.github.io/cmathl/",
+    "description": "Pure-C Math library with a great variety of mathematical functions and CMake build support. Seeks to be close to C89/C90 compliant for portability. MIT"
+  },
+  {
+    "name": "Cuba",
+    "url": "http://www.feynarts.de/cuba/",
+    "description": "Library for multidimensional numerical integration. GNU LGPLv3"
+  },
+  {
+    "name": "FFTW",
+    "url": "http://www.fftw.org/",
+    "description": "The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. GNU GPL2.1 or later"
+  },
+  {
+    "name": "FLINT",
+    "url": "http://flintlib.org/",
+    "description": "Fast Library for Number Theory; a library supporting arithmetic with numbers, polynomials, power series and matrices, among others. GNU GPL2.1 or later"
+  },
+  {
+    "name": "GLPK",
+    "url": "https://www.gnu.org/software/glpk/",
+    "description": "GNU Linear Programming Kit; a package designed for solving large-scale linear programming, mixed integer programming and other related problems. GNU GPL3 or later"
+  },
+  {
+    "name": "GMP",
+    "url": "https://gmplib.org/",
+    "description": "GNU Multple Precision Arithmetic Library; a library for arbitrary-precision arithmetic. GNU GPL2.1 and GNU LGPLv3"
+  },
+  {
+    "name": "GNU MPC",
+    "url": "http://www.multiprecision.org/mpc/",
+    "description": "Library for complex number arithmetic. GNU LGPL3 or later"
+  },
+  {
+    "name": "GNU MPFR",
+    "url": "https://www.mpfr.org/index.html",
+    "description": "Library for arbitrary-precision floating-point arithmetic. GNU LGPL3 or later or GNU LGPL2.1 or later (until version 2.4.x)"
+  },
+  {
+    "name": "GNU MPRIA",
+    "url": "https://www.gnu.org/software/mpria/",
+    "description": "Portable mathematics library for multi-precision rational interval arithmetic. GNU GPL3 or later"
+  },
+  {
+    "name": "GSL",
+    "url": "http://www.gnu.org/software/gsl/",
+    "description": "The GNU Scientific Library; a sophisticated numerical library. GNU GPL3"
+  },
+  {
+    "name": "igraph",
+    "url": "https://igraph.org/",
+    "description": "Library for creating and manipulating large graphs. GNU GPL2"
+  },
+  {
+    "name": "KISS FFT",
+    "url": "https://sourceforge.net/projects/kissfft/",
+    "description": "Very simple fast Fourier transform library. 3-clause BSD"
+  },
+  {
+    "name": "LAPACKE",
+    "url": "http://www.netlib.org/lapack/lapacke.html",
+    "description": "C interface to LAPACK. 3-clause BSD"
+  },
+  {
+    "name": "PARI/GP",
+    "url": "http://pari.math.u-bordeaux.fr/",
+    "description": "Computer algebra system for number theory; includes a compiler to C. GNU GPL2.1 or later"
+  },
+  {
+    "name": "PETSc",
+    "url": "https://www.mcs.anl.gov/petsc/",
+    "description": "Suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. FreeBSD"
+  },
+  {
+    "name": "PROB",
+    "url": "https://people.sc.fsu.edu/~jburkardt/c_src/prob/prob.html",
+    "description": "Library that handles various discrete and continuous probability density functions.  GNU LGPL3"
+  },
+  {
+    "name": "Yeppp!",
+    "url": "https://bitbucket.org/MDukhan/yeppp",
+    "description": "Very fast, SIMD-optimized mathematical library. 3-clause BSD"
+  },
+  {
+    "name": "cchan",
+    "url": "http://repo.hu/projects/cchan/",
+    "description": "Small library for channel constructs for inter-thread communication. Public Domain"
+  },
+  {
+    "name": "ck",
+    "url": "http://concurrencykit.org/",
+    "description": "Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. FreeBSD"
+  },
+  {
+    "name": "mill",
+    "url": "http://libmill.org/",
+    "description": "Go-style concurrency in C. X11"
+  },
+  {
+    "name": "libdill",
+    "url": "http://libdill.org/",
+    "description": "Structured concurrency in C. X11"
+  },
+  {
+    "name": "MPICH",
+    "url": "http://www.mpich.org/",
+    "description": "Another implementation of MPI. MPICH licence"
+  },
+  {
+    "name": "OpenMP",
+    "url": "https://www.openmp.org/",
+    "description": "Set of C pragmas designed to allow for easy parallelization of code. 3-clause BSD"
+  },
+  {
+    "name": "OpenMPI",
+    "url": "https://github.com/open-mpi/ompi",
+    "description": "Message passing interface implementation. 3-clause BSD"
+  },
+  {
+    "name": "pth",
+    "url": "https://www.gnu.org/software/pth/",
+    "description": "Portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. GNU GPL3 or later"
+  },
+  {
+    "name": "pthreads",
+    "url": "https://en.wikipedia.org/wiki/POSIX_Threads",
+    "description": "The POSIX thread library."
+  },
+  {
+    "name": "SLEPc",
+    "url": "https://bitbucket.org/slepc/slepc",
+    "description": "Software library for the solution of large, sparse eigenvalue problems on parallel computers. GNU LGPL3"
+  },
+  {
+    "name": "TinyCThread",
+    "url": "https://tinycthread.github.io/",
+    "description": "Portable, small implementation of the C11 threads API. zlib"
+  },
+  {
+    "name": "hammer",
+    "url": "https://github.com/abiggerhammer/hammer",
+    "description": "Parser combinators for binary formats. GNU GPL2.1"
+  },
+  {
+    "name": "iniparser",
+    "url": "https://github.com/ndevilla/iniparser",
+    "description": "Parser for .ini files. Expat"
+  },
+  {
+    "name": "libconfini",
+    "url": "https://github.com/madmurphy/libconfini",
+    "description": "Yet another INI parser. GNU GPL3 or later"
+  },
+  {
+    "name": "libYAML",
+    "url": "https://pyyaml.org/wiki/LibYAML",
+    "description": "YAML 1.1 parser and emitter. Expat"
+  },
+  {
+    "name": "mpc",
+    "url": "https://github.com/orangeduck/mpc",
+    "description": "Parser combinator library. FreeBSD"
+  },
+  {
+    "name": "libucl",
+    "url": "https://github.com/vstakhov/libucl",
+    "description": "Universal configuration library parser. FreeBSD"
+  },
+  {
+    "name": "PCRE",
+    "url": "http://www.pcre.org/",
+    "description": "Implementation of regexes identical to that of Perl 5. 3-clause BSD"
+  },
+  {
+    "name": "regexp4",
+    "url": "https://github.com/nasciiboy/recursiveregexpraptor-4",
+    "description": "Simple and complete implementation of regular expressions with its own sintax. GNU GPL3 or later"
+  },
+  {
+    "name": "SLRE",
+    "url": "https://github.com/cesanta/slre",
+    "description": "Super Light Regular Expression library; a very small implementation of a subset of Perl regex syntax. GNU GPL2.1"
+  },
+  {
+    "name": "sregex",
+    "url": "https://github.com/openresty/sregex",
+    "description": "Non-backtracking NFA/DFA-based Perl-compatible regex engine library. 3-clause BSD"
+  },
+  {
+    "name": "TRE",
+    "url": "https://github.com/laurikari/tre/",
+    "description": "POSIX-compliant, feature-full regex library. FreeBSD"
+  },
+  {
+    "name": "binn",
+    "url": "https://github.com/liteserver/binn",
+    "description": "Binary serialization format meant to be compact, fast and easy-to-use. Apache 2.0"
+  },
+  {
+    "name": "c-capnproto",
+    "url": "https://github.com/jmckaskill/c-capnproto",
+    "description": "Implementation of the Cap'n Proto serialization protocol. Expat"
+  },
+  {
+    "name": "cmp",
+    "url": "https://github.com/camgunz/cmp",
+    "description": "Implementation of the MessagePack serialization protocol. Expat"
+  },
+  {
+    "name": "libavro",
+    "url": "http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c",
+    "description": "C implementation of the Avro data serialization system. Apache 2.0"
+  },
+  {
+    "name": "mpack",
+    "url": "https://github.com/ludocode/mpack",
+    "description": "Another implementation of the MessagePack serialization protocol. Expat"
+  },
+  {
+    "name": "netstring-c",
+    "url": "https://github.com/liteserver/netstring-c",
+    "description": "Netstring encoder and decoder. Public Domain"
+  },
+  {
+    "name": "protobuf-c",
+    "url": "https://github.com/protobuf-c/protobuf-c",
+    "description": "Implementation of Google Protocol Buffer in C. FreeBSD"
+  },
+  {
+    "name": "xdr",
+    "url": "https://en.wikipedia.org/wiki/External_Data_Representation",
+    "description": "External Data Representation; a standard for data serialization."
+  },
+  {
+    "name": "CCAN",
+    "url": "http://ccodearchive.net/",
+    "description": "Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is here."
+  },
+  {
+    "name": "clib",
+    "url": "https://github.com/clibs/clib",
+    "description": "Something of a package manager for C. Comes with a bunch of libraries of its own. Expat"
+  },
+  {
+    "name": "gnulib",
+    "url": "https://www.gnu.org/software/gnulib/",
+    "description": "Collection of common GNU code."
+  },
+  {
+    "name": "libdjb",
+    "url": "http://www.fefe.de/djb/",
+    "description": "Collection of libraries doing various things. (Apparently) Public Domain"
+  },
+  {
+    "name": "Bionic",
+    "url": "https://github.com/aosp-mirror/platform_bionic",
+    "description": "Google's C standard library, developed for Android. 3-clause BSD"
+  },
+  {
+    "name": "dietlibc",
+    "url": "http://www.fefe.de/dietlibc/",
+    "description": "C standard library designed for the smallest possible binaries. GNU GPL2.1"
+  },
+  {
+    "name": "glibc",
+    "url": "http://www.gnu.org/software/libc/",
+    "description": "The GNU C Library; an implementation of the C standard library. GNU LGPL2.1"
+  },
+  {
+    "name": "musl",
+    "url": "http://www.musl-libc.org/",
+    "description": "Standard C library, compatible with POSIX 2008 and C11. Designed for static linking. Expat"
+  },
+  {
+    "name": "bstrlib",
+    "url": "http://bstring.sourceforge.net/",
+    "description": "The Better String Library. 3-clause BSD and GNU GPL2.1"
+  },
+  {
+    "name": "ICU",
+    "url": "http://site.icu-project.org/",
+    "description": "International Components for Unicode; a library for Unicode support. ICU license"
+  },
+  {
+    "name": "libunistring",
+    "url": "https://www.gnu.org/software/libunistring/",
+    "description": "Library for manipulating Unicode strings in C. GNU LGPL3"
+  },
+  {
+    "name": "libgiconv",
+    "url": "https://www.gnu.org/software/libiconv/",
+    "description": "Text conversion library. GNU LGPL2.1 (library) or GNU GPL3 (*iconv* program)"
+  },
+  {
+    "name": "SDS",
+    "url": "https://github.com/antirez/sds",
+    "description": "Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via clib. FreeBSD"
+  },
+  {
+    "name": "shoco",
+    "url": "http://ed-von-schleck.github.io/shoco/",
+    "description": "Compressor for small text strings. Expat"
+  },
+  {
+    "name": "smaz",
+    "url": "https://github.com/antirez/smaz",
+    "description": "Efficient string compression library. 3-clause BSD"
+  },
+  {
+    "name": "utf8.h",
+    "url": "https://github.com/sheredom/utf8.h",
+    "description": "Single header utf8 string functions. Unlicense"
+  },
+  {
+    "name": "utf8proc",
+    "url": "https://github.com/JuliaStrings/utf8proc",
+    "description": "Small, clean library for processing UTF-8 Unicode data. License"
+  },
+  {
+    "name": "CHEAT",
+    "url": "http://users.jyu.fi/~sapekiis/cheat/",
+    "description": "Very simple unit testing framework. FreeBSD"
+  },
+  {
+    "name": "Check",
+    "url": "https://libcheck.github.io/check/",
+    "description": "Unit testing framework for C. GNU LGPL2.1"
+  },
+  {
+    "name": "CMock",
+    "url": "http://www.throwtheswitch.org/",
+    "description": "Mock/stub generator for C. Expat"
+  },
+  {
+    "name": "cmocka",
+    "url": "https://cmocka.org/",
+    "description": "Unit testing framework with support for mock objects. Apache 2.0"
+  },
+  {
+    "name": "Criterion",
+    "url": "https://criterion.readthedocs.io/en/master/",
+    "description": "KISS, non-intrusive C test framework. Expat"
+  },
+  {
+    "name": "CUnit",
+    "url": "http://cunit.sourceforge.net/",
+    "description": "Another unit testing framework for C. GNU LGPL2.0"
+  },
+  {
+    "name": "Cutest",
+    "url": "https://github.com/rafael-santiago/cutest",
+    "description": "Library for unit testing with memory leak detection (Linux, freeBSD and Windows). GPL2"
+  },
+  {
+    "name": "minunit",
+    "url": "https://github.com/siu/minunit",
+    "description": "Minimal unit testing framework for C. Expat"
+  },
+  {
+    "name": "munit",
+    "url": "https://nemequ.github.io/munit/",
+    "description": "Small but full-featured unit testing framework for C with no dependencies. MIT"
+  },
+  {
+    "name": "Unity",
+    "url": "http://www.throwtheswitch.org/",
+    "description": "Simple unit testing framework for C. Expat"
+  },
+  {
+    "name": "linter-clang",
+    "url": "https://github.com/AtomLinter/linter-clang",
+    "description": "Lint C code in Atom, using Clang. MIT"
+  },
+  {
+    "name": "linter-gcc",
+    "url": "https://github.com/hebaishi/linter-gcc",
+    "description": "Lint C code in Atom, using GCC. MIT"
+  },
+  {
+    "name": "CEDET",
+    "url": "http://cedet.sourceforge.net/",
+    "description": "Collection of Emacs Development Environment Tools; designed to provide IDE-like features to Emacs. Built-in. GNU GPL3 or later"
+  },
+  {
+    "name": "Flycheck",
+    "url": "https://github.com/flycheck/flycheck",
+    "description": "Modern syntax checking. For C, it can use either GCC or Clang as a back-end. GNU GPL3 or later"
+  },
+  {
+    "name": "Yasnippet",
+    "url": "https://github.com/joaotavora/yasnippet",
+    "description": "Template system, with C templates for common code snippets. GNU GPL3 or later"
+  },
+  {
+    "name": "Syntastic",
+    "url": "https://github.com/vim-syntastic/syntastic",
+    "description": "Syntax checking and linting. Do What The Fuck You Want To license"
+  },
+  {
+    "name": "YouCompleteMe",
+    "url": "http://valloric.github.io/YouCompleteMe/",
+    "description": "Code completion engine for Vim. GNU GPL3"
+  },
+  {
+    "name": "Artistic Style",
+    "url": "http://astyle.sourceforge.net/",
+    "description": "Fast and small automatic source code formatter that supports C. GNU LGPL3"
+  },
+  {
+    "name": "address-sanitizer",
+    "url": "https://github.com/google/sanitizers",
+    "description": "Fast memory error detector. Apache 2.0"
+  },
+  {
+    "name": "biicode",
+    "url": "https://biicode.github.io/biicode/",
+    "description": "Modern dependency manager for C. Expat"
+  },
+  {
+    "name": "c",
+    "url": "https://github.com/ryanmjacobs/c",
+    "description": "Compile and execute C \"scripts\" in one go on the command line. Also has shebang support. Expat"
+  },
+  {
+    "name": "c99sh",
+    "url": "https://github.com/RhysU/c99sh",
+    "description": "Run C files using hash-bang. FreeBSD"
+  },
+  {
+    "name": "CBMC",
+    "url": "http://www.cprover.org/cbmc/",
+    "description": "C Bounded Model Checker; a tool for verification of array bounds, pointer safety and user-specified assertions. Original BSD"
+  },
+  {
+    "name": "cdecl",
+    "url": "https://cdecl.org/",
+    "description": "Online service to translate C declarations into English and vice versa. Public Domain"
+  },
+  {
+    "name": "cinclude2dot",
+    "url": "https://www.flourish.org/cinclude2dot/",
+    "description": "Graphs include dependencies in a C project using Graphviz. Any GNU GPL version (due to underspecification in the file)"
+  },
+  {
+    "name": "Complexity",
+    "url": "https://www.gnu.org/software/complexity/",
+    "description": "Tool for measuring the complexity of C source code. GNU GPL3 or later"
+  },
+  {
+    "name": "CScout",
+    "url": "https://www.spinellis.gr/cscout/",
+    "description": "Source code analyzer and refactoring browser for collections of C programs. GNU GPL3"
+  },
+  {
+    "name": "DDD",
+    "url": "https://www.gnu.org/software/ddd/ddd.html",
+    "description": "Graphical front-end for a range of command-line debuggers. GNU GPL3 or later"
+  },
+  {
+    "name": "GDB",
+    "url": "http://www.gnu.org/software/gdb/",
+    "description": "The GNU Project debugger; a debugger for C. GNU GPL3 or later"
+  },
+  {
+    "name": "Glade",
+    "url": "https://glade.gnome.org/",
+    "description": "RAD tool to enable quick development of GTK+ GUIs. GNU GPL2.1"
+  },
+  {
+    "name": "GMSL",
+    "url": "https://gmsl.sourceforge.io/",
+    "description": "GNU Make Standard Library; a collection of additional functionality for GNU Make. 3-clause BSD"
+  },
+  {
+    "name": "GNU Global",
+    "url": "https://www.gnu.org/software/global/",
+    "description": "Source code tagging tool which works with C. GNU GPL3"
+  },
+  {
+    "name": "gprof",
+    "url": "http://www.gnu.org/software/binutils/",
+    "description": "Performance analysis tool. Part of GNU binutils. GNU GPL3 or later"
+  },
+  {
+    "name": "Highlight",
+    "url": "http://www.andre-simon.de/index.php",
+    "description": "Converts source code to formatted text with nice highlighting. GNU GPL3"
+  },
+  {
+    "name": "include-what-you-use",
+    "url": "https://github.com/include-what-you-use/include-what-you-use",
+    "description": "Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). NCSA"
+  },
+  {
+    "name": "indent",
+    "url": "https://www.gnu.org/software/indent/",
+    "description": "Formats C source code automatically to make it easier to read. Also converts from one style of source to another. GNU GPLv3 or later"
+  },
+  {
+    "name": "rr",
+    "url": "https://rr-project.org/",
+    "description": "Debugger that records non-deterministic executions to allow for deterministic debugging. FreeBSD"
+  },
+  {
+    "name": "tup",
+    "url": "http://gittup.org/tup/index.html",
+    "description": "Very fast, file-based, cross-platform build system. GNU GPL2.1"
+  },
+  {
+    "name": "unifdef",
+    "url": "http://dotat.at/prog/unifdef/",
+    "description": "Removes #ifdef and #if directives with their delimited text without touching any other part of the file. 3-clause BSD and FreeBSD"
+  },
+  {
+    "name": "Valgrind",
+    "url": "http://www.valgrind.org/",
+    "description": "Range of dynamic analysis tools, including a leak checker. GNU GPL2.1"
+  },
+  {
+    "name": "ApeTagLibs",
+    "url": "https://github.com/jeremyevans/ape_tag_libs/tree/master/c",
+    "description": "C library for working with APEv2 tags. Expat"
+  },
+  {
+    "name": "bfd",
+    "url": "http://sourceware.org/binutils/docs/bfd/",
+    "description": "Library for manipulating binary object files. Part of GNU binutils. GNU GPL3 or later"
+  },
+  {
+    "name": "cf4ocl",
+    "url": "https://fakenmc.github.io/cf4ocl/",
+    "description": "The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking  OpenCL projects. GNU LGPL3 (library) or GNU GPL3 (project code)"
+  },
+  {
+    "name": "CommonMark",
+    "url": "https://github.com/commonmark/commonmark-spec",
+    "description": "C implementation of the CommonMark spec. Various Licenses"
+  },
+  {
+    "name": "CException",
+    "url": "https://github.com/ThrowTheSwitch/CException",
+    "description": "C implementation of exceptions. Expat"
+  },
+  {
+    "name": "docopt.c",
+    "url": "https://github.com/docopt/docopt.c",
+    "description": "C implementation of a command-line option parser. Expat"
+  },
+  {
+    "name": "dyncall",
+    "url": "http://www.dyncall.org/",
+    "description": "Another foreign function interface library. Expat"
+  },
+  {
+    "name": "FANN",
+    "url": "http://leenissen.dk/fann/wp/",
+    "description": "Fast Artifical Neural Network library; an implementation of neural networks. GNU GPL2.1"
+  },
+  {
+    "name": "Firm",
+    "url": "https://pp.ipd.kit.edu/firm/",
+    "description": "C library that provides a graph-based intermediate representation, optimizations and assembly code generation suitable for use in compilers. Comes with an example C front-end under the same license. GNU LGPLv2.1"
+  },
+  {
+    "name": "Genann",
+    "url": "https://github.com/codeplea/genann",
+    "description": "Simple neural network library in C. Zlib"
+  },
+  {
+    "name": "gjrand",
+    "url": "https://sourceforge.net/projects/gjrand/",
+    "description": "Library of random-number generation routines. GNU GPL2.1 or GNU GPLv3"
+  },
+  {
+    "name": "GNU FreeIPMI",
+    "url": "https://www.gnu.org/software/freeipmi/index.html",
+    "description": "In-band and out-of-band IPMI implementation. GNU GPL3"
+  },
+  {
+    "name": "GNU gperf",
+    "url": "https://www.gnu.org/software/gperf/",
+    "description": "Perfect hash function generator, given a list of strings. Outputs C code. GNU GPL3 or later"
+  },
+  {
+    "name": "GNU Libffcall",
+    "url": "https://www.gnu.org/software/libffcall/",
+    "description": "Collection of libraries for building foreign function interfaces. GNU GPL3 or later"
+  },
+  {
+    "name": "gperftools",
+    "url": "https://github.com/gperftools/gperftools",
+    "description": "Collection of utilities for measuring and improving performance. 3-clause BSD"
+  },
+  {
+    "name": "huffandpuff",
+    "url": "https://github.com/adamierymenko/huffandpuff",
+    "description": "Minimal Huffman encoder and decoder. Public Domain"
+  },
+  {
+    "name": "kdtree",
+    "url": "https://github.com/jtsiomb/kdtree",
+    "description": "Simple library for working with KD-trees. 3-clause BSD"
+  },
+  {
+    "name": "Kitsune",
+    "url": "http://kitsune-dsu.com/",
+    "description": "Efficient, general-purpose framework for dynamic software updating. GNU LGPL3 or later"
+  },
+  {
+    "name": "libavl",
+    "url": "http://adtinfo.org/libavl.html/index.html",
+    "description": "Library containing a range of self-balancing binary trees. GNU GPL3 or later"
+  },
+  {
+    "name": "libbson",
+    "url": "https://github.com/mongodb/libbson",
+    "description": "BSON utility library. Apache 2.0"
+  },
+  {
+    "name": "libCello",
+    "url": "http://libcello.org/",
+    "description": "Library introducing higher-level programming to C. 3-clause BSD"
+  },
+  {
+    "name": "libffi",
+    "url": "https://github.com/libffi/libffi",
+    "description": "Portable foreign-function interface library. Expat"
+  },
+  {
+    "name": "libgit2",
+    "url": "https://libgit2.org/",
+    "description": "Pure C implementation of Git. GNU GPL2 only, with a linking exception"
+  },
+  {
+    "name": "libimobiledevice",
+    "url": "https://github.com/libimobiledevice/libimobiledevice",
+    "description": "Cross-platform protocol library to communicate with iThings. GNU LGPLv2.1 or later (library) or GNU GPL2.1 or later (tools)"
+  },
+  {
+    "name": "libnfc",
+    "url": "https://github.com/nfc-tools/libnfc",
+    "description": "Platform-independent Near-Field Communication library. GNU LGPL3"
+  },
+  {
+    "name": "libPhenom",
+    "url": "https://github.com/facebookarchive/libphenom",
+    "description": "Deprecated, here for archival purposes. Eventing framework for building high-scalability and high-performance systems. Apache 2.0"
+  },
+  {
+    "name": "ncurses",
+    "url": "https://www.gnu.org/software/ncurses/",
+    "description": "Coloured terminal UI library. GNU GPL3 or later"
+  },
+  {
+    "name": "nope.c",
+    "url": "https://github.com/riolet/WAFer",
+    "description": "C-language-based, ultra-light software platform for scalable server-side and networking applications (think node.js for C programmers). GNU GPL2.1"
+  },
+  {
+    "name": "pbc",
+    "url": "https://github.com/cloudwu/pbc",
+    "description": "Protocol buffers library. Expat"
+  },
+  {
+    "name": "rabbitmq-c",
+    "url": "https://github.com/alanxz/rabbitmq-c",
+    "description": "Client library for RabbitMQ. Expat"
+  },
+  {
+    "name": "Ragel",
+    "url": "http://www.colm.net/open-source/ragel/",
+    "description": "DSL for state machines that compiles to C. GNU GPL2.1"
+  },
+  {
+    "name": "Tinyexpr",
+    "url": "https://github.com/codeplea/tinyexpr",
+    "description": "Tiny recursive-descent parser, compiler and evaluation engine for simple mathematical expressions. zlib"
+  },
+  {
+    "name": "uthash",
+    "url": "http://troydhanson.github.io/uthash/",
+    "description": "Hash table implementation, allowing existing structures to be stored in a hash table easily. 1-clause BSD"
+  },
+  {
+    "name": "cpu_features",
+    "url": "https://github.com/google/cpu_features",
+    "description": "A cross platform C99 library to get cpu features at runtime. Apache 2.0"
+  },
+  {
+    "name": "pblog",
+    "url": "https://github.com/google/pblog",
+    "description": "Small, low overhead, structured logging library intended for logging formware events.Apache 2.0"
+  },
+  {
+    "name": "libelf",
+    "url": "https://github.com/WolfgangSt/libelf",
+    "description": "ELF object file access library in C. GNU GPL2.1"
+  },
+  {
+    "name": "mcpp",
+    "url": "http://mcpp.sourceforge.net/",
+    "description": "Portable C preprocessor. 2-clause BSD"
+  },
+  {
+    "name": "libusb",
+    "url": "https://libusb.info/",
+    "description": "Generic access to USB devices. LGPL2.1"
+  },
+  {
+    "name": "alsa-lib",
+    "url": "https://www.alsa-project.org/main/index.php/Main_Page",
+    "description": "Userspace library to interact with ALSA. LGPL2.1"
+  },
+  {
+    "name": "Capstone",
+    "url": "https://github.com/aquynh/capstone",
+    "description": "Dissasembly/disassembler framework. BSD 3-clause"
+  },
+  {
+    "name": "Expat",
+    "url": "http://www.libexpat.org/",
+    "description": "Stream-oriented XML parser. Expat"
+  },
+  {
+    "name": "libxml2",
+    "url": "http://xmlsoft.org/",
+    "description": "Standards-compliant, portable XML parser. Expat"
+  },
+  {
+    "name": "mini-xml",
+    "url": "https://github.com/michaelrsweet/mxml",
+    "description": "Small XML reading and writing library. No dependencies aside from C standard library. Apache 2.0 with exceptions"
   }
 ]
