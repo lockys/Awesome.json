@@ -605,7 +605,7 @@
     "description": "Suggest narrower interfaces that can be used."
   },
   {
-    "name": "lll ⚠️",
+    "name": "lll",
     "url": "https://github.com/walle/lll",
     "description": "Report long lines."
   },
@@ -660,7 +660,7 @@
     "description": "Show location of test failures from the stdlib testing module."
   },
   {
-    "name": "unconvert ⚠️",
+    "name": "unconvert",
     "url": "https://github.com/mdempsky/unconvert",
     "description": "Detect redundant type conversions."
   },
@@ -795,7 +795,7 @@
     "description": "Checks dependencies for known, publicly disclosed, vulnerabilities."
   },
   {
-    "name": "qulice ⚠️",
+    "name": "qulice",
     "url": "https://www.qulice.com",
     "description": "Combines a few (pre-configured) static analysis tools (checkstyle, PMD, Findbugs, ...)."
   },
@@ -935,7 +935,7 @@
     "description": "An anti-bikeshedding Kotlin linter with built-in formatter."
   },
   {
-    "name": "luacheck ⚠️",
+    "name": "luacheck",
     "url": "https://github.com/mpeterv/luacheck",
     "description": "A tool for linting and static analysis of Lua code."
   },
@@ -1010,7 +1010,7 @@
     "description": "Checks code on every commit."
   },
   {
-    "name": "Mondrian ⚠️",
+    "name": "Mondrian",
     "url": "http://trismegiste.github.io/Mondrian",
     "description": "A set of static analysis and refactoring tools which use graph theory."
   },
@@ -1040,7 +1040,7 @@
     "description": "Easy to use architecture testing tool for PHP."
   },
   {
-    "name": "PHP Assumptions ⚠️",
+    "name": "PHP Assumptions",
     "url": "https://github.com/rskuipers/php-assumptions",
     "description": "Checks for weak assumptions."
   },
@@ -1080,7 +1080,7 @@
     "description": "PHP spell check library."
   },
   {
-    "name": "PHP-Token-Reflection ⚠️",
+    "name": "PHP-Token-Reflection",
     "url": "https://github.com/Andrewsville/PHP-Token-Reflection",
     "description": "Library emulating the PHP internal reflection."
   },
@@ -1100,7 +1100,7 @@
     "description": "Detects violations of a defined set of coding standards."
   },
   {
-    "name": "phpca ⚠️",
+    "name": "phpca",
     "url": "https://github.com/wapmorgan/PhpCodeAnalyzer",
     "description": "Finds usage of non-built-in extensions."
   },
@@ -1115,7 +1115,7 @@
     "description": "Dead Code Detector (DCD) for PHP code."
   },
   {
-    "name": "PhpDependencyAnalysis ⚠️",
+    "name": "PhpDependencyAnalysis",
     "url": "https://mamuz.github.io/PhpDependencyAnalysis",
     "description": "Builds a dependency graph for a project."
   },
@@ -1170,7 +1170,7 @@
     "description": "jmolivas - PHPQA all-in-one Analyzer CLI tool."
   },
   {
-    "name": "phpsa ⚠️",
+    "name": "phpsa",
     "url": "https://github.com/ovr/phpsa",
     "description": "Static analysis tool for PHP."
   },
@@ -1190,7 +1190,7 @@
     "description": "Static analysis tool for finding type errors in PHP applications."
   },
   {
-    "name": "Qafoo Quality Analyzer ⚠️",
+    "name": "Qafoo Quality Analyzer",
     "url": "https://github.com/Qafoo/QualityAnalyzer",
     "description": "Visualizes metrics and source code."
   },
@@ -1370,7 +1370,7 @@
     "description": "Monitor code complexity using radon."
   },
   {
-    "name": "cyclocomp ⚠️",
+    "name": "cyclocomp",
     "url": "https://github.com/MangoTheCat/cyclocomp",
     "description": "Quantifies the cyclomatic complexity of R functions / expressions."
   },
@@ -1425,7 +1425,7 @@
     "description": "Pattern Based Checking Tool for Ruby."
   },
   {
-    "name": "Railroader ⚠️",
+    "name": "Railroader",
     "url": "https://railroader.org",
     "description": "An open source static analysis security vulnerability scanner for Ruby on Rails applications."
   },
@@ -1465,7 +1465,7 @@
     "description": "An opinionated ruby formatter, intended to be used via the command line as a text-editor plugin, to autoformat files on save or on demand."
   },
   {
-    "name": "Saikuro ⚠️",
+    "name": "Saikuro",
     "url": "https://metricfu.github.io/Saikuro",
     "description": "A Ruby cyclomatic complexity analyzer."
   },
@@ -1555,6 +1555,11 @@
     "description": "And abstract interpreter operating on Rust's mid-level intermediate language, and providing warnings based on taint analysis."
   },
   {
+    "name": "prae",
+    "url": "https://github.com/teenjuna/prae",
+    "description": "Provides a convenient macro that allows you to generate type wrappers  that promise to always uphold arbitrary invariants that you specified."
+  },
+  {
     "name": "Prusti",
     "url": "https://www.pm.inf.ethz.ch/research/prusti.html",
     "description": "A static verifier for Rust, based on the Viper verification infrastructure. By default Prusti verifies absence of panics by proving that statements such as unreachable!() and panic!() are unreachable."
@@ -1585,9 +1590,19 @@
     "description": "A tool for formatting Rust code according to style guidelines."
   },
   {
+    "name": "RustViz",
+    "url": "https://github.com/rustviz/rustviz",
+    "description": "RustViz is a tool that generates visualizations  from simple Rust programs to assist users in better  understanding the Rust Lifetime and Borrowing mechanism. It generates SVG files with graphical indicators that integrate  with mdbook to render visualizations of data-flow in Rust programs."
+  },
+  {
     "name": "warnalyzer",
     "url": "https://github.com/est31/warnalyzer",
     "description": "Show unused code from multi-crate Rust projects"
+  },
+  {
+    "name": "dbcritic",
+    "url": "https://github.com/channable/dbcritic",
+    "description": "dbcritic finds problems in a database schema, such as a missing primary key constraint in a table."
   },
   {
     "name": "sqlcheck",
@@ -1610,7 +1625,7 @@
     "description": "T-SQL-specific linter."
   },
   {
-    "name": "TSqlRules ⚠️",
+    "name": "TSqlRules",
     "url": "https://github.com/ashleyglee/TSqlRules",
     "description": "TSQL Static Code Analysis Rules for SQL Server."
   },
@@ -1855,7 +1870,7 @@
     "description": "Helps you catch problems in your HTML/CSS/SVG"
   },
   {
-    "name": "Parker ⚠️",
+    "name": "Parker",
     "url": "https://github.com/katiefenn/parker",
     "description": "Stylesheet analysis tool."
   },
@@ -1875,7 +1890,7 @@
     "description": "A Node-only Sass linter for both sass and scss syntax."
   },
   {
-    "name": "scsslint",
+    "name": "scsslint ⚠️",
     "url": "https://github.com/brigade/scss-lint",
     "description": "Linter for SCSS files."
   },
@@ -2185,12 +2200,12 @@
     "description": "A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses."
   },
   {
-    "name": "paprika ⚠️",
+    "name": "paprika",
     "url": "https://github.com/GeoffreyHecht/paprika",
     "description": "A toolkit to detect some code smells in analyzed Android applications."
   },
   {
-    "name": "qark ⚠️",
+    "name": "qark",
     "url": "https://github.com/linkedin/qark",
     "description": "Tool to look for several security related Android application vulnerabilities."
   },
@@ -2273,6 +2288,11 @@
     "name": "Qualys Container Security ©️",
     "url": "https://www.qualys.com/apps/container-security",
     "description": "Container native application protection to provide visibility and control of containerized applications."
+  },
+  {
+    "name": "scorecard",
+    "url": "https://github.com/ossf/scorecard",
+    "description": "Security Scorecards - Security health metrics for Open Source"
   },
   {
     "name": "SearchDiggity ©️",

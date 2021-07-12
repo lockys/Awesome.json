@@ -247,7 +247,12 @@
   {
     "name": "node2nix",
     "url": "https://github.com/svanderburg/node2nix",
-    "description": "Generate Nix expressions from a package.lock npm file."
+    "description": "Generate Nix expression from a package.json (or package-lock.json) (to be stored as files)."
+  },
+  {
+    "name": "npmlock2nix",
+    "url": "https://github.com/tweag/npmlock2nix",
+    "description": "Generate Nix expressions from a package-lock.json (in-memory), primarily for web projects."
   },
   {
     "name": "yarn2nix",
