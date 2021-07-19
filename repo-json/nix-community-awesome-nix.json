@@ -60,6 +60,11 @@
     "description": "Get the age and current git commit of each Nix channel."
   },
   {
+    "name": "nixpkgs PR tracker",
+    "url": "https://nixpk.gs/pr-tracker.html",
+    "description": "A tracker for whether a PR has made it into a channel yet."
+  },
+  {
     "name": "Colmena",
     "url": "https://github.com/zhaofengli/colmena",
     "description": "A simple, stateless NixOS deployment tool modeled after NixOps and morph."
@@ -168,6 +173,16 @@
     "name": "Cachix",
     "url": "https://cachix.org/",
     "description": "Hosted binary cache service; free for open-source projects."
+  },
+  {
+    "name": "devshell",
+    "url": "https://github.com/numtide/devshell",
+    "description": "mkShell with extra bits and a toml config option to be able to onboard non-nix users."
+  },
+  {
+    "name": "flake-utils",
+    "url": "https://github.com/numtide/flake-utils",
+    "description": "Pure Nix flake utility functions to help with writing flakes."
   },
   {
     "name": "gitignore.nix",
@@ -310,9 +325,19 @@
     "description": "Build Rust packages directly from Cargo.lock. No conversion step needed."
   },
   {
+    "name": "nixpkgs-mozilla",
+    "url": "https://github.com/mozilla/nixpkgs-mozilla",
+    "description": "Mozilla's overlay with bleeding-edge Rust and Firefox."
+  },
+  {
     "name": "rust-nix-templater",
     "url": "https://github.com/yusdacra/rust-nix-templater",
     "description": "Generates Nix build and development files for Rust projects."
+  },
+  {
+    "name": "rust-overlay",
+    "url": "https://github.com/oxalica/rust-overlay",
+    "description": "A compatible replacement for Mozilla's overlay that's pure and reproducible."
   },
   {
     "name": "musnix",
@@ -348,11 +373,6 @@
     "name": "nix-darwin",
     "url": "https://github.com/LnL7/nix-darwin",
     "description": "Manage macOS configuration just like on NixOS."
-  },
-  {
-    "name": "nixpkgs-mozilla",
-    "url": "https://github.com/mozilla/nixpkgs-mozilla",
-    "description": "Mozilla's overlay with bleeding-edge Rust and Firefox."
   },
   {
     "name": "nixpkgs-wayland",

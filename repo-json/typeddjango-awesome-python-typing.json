@@ -2,22 +2,22 @@
   {
     "name": "mypy",
     "url": "https://github.com/python/mypy",
-    "description": "Optional static typing for Python 3 and 2 (PEP 484)."
+    "description": "Optional static typing (PEP 484)."
+  },
+  {
+    "name": "pyanalyze",
+    "url": "https://github.com/quora/pyanalyze",
+    "description": "Extensible static analyzer and type checker."
+  },
+  {
+    "name": "pycharm",
+    "url": "https://www.jetbrains.com/pycharm/",
+    "description": "IDE for Professional Developers."
   },
   {
     "name": "pyre",
     "url": "https://pyre-check.org/",
-    "description": "Performant type-checker for Python 3."
-  },
-  {
-    "name": "pytype",
-    "url": "https://github.com/google/pytype",
-    "description": "Tool to check and infer types for Python code - without requiring type annotations."
-  },
-  {
-    "name": "PyCharm",
-    "url": "https://www.jetbrains.com/pycharm/",
-    "description": "IDE for Professional Developers."
+    "description": "Performant type-checker."
   },
   {
     "name": "pyright",
@@ -25,9 +25,9 @@
     "description": "Fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified."
   },
   {
-    "name": "pyanalyze",
-    "url": "https://github.com/quora/pyanalyze",
-    "description": "Extensible static analyzer and type checker for Python."
+    "name": "pytype",
+    "url": "https://github.com/google/pytype",
+    "description": "Tool to check and infer types - without requiring type annotations."
   },
   {
     "name": "beartype",
@@ -35,14 +35,19 @@
     "description": "Unbearably fast O(1) runtime type-checking in pure Python."
   },
   {
+    "name": "pydantic",
+    "url": "https://github.com/samuelcolvin/pydantic",
+    "description": "Data parsing using Python type hinting. Supports dataclasses."
+  },
+  {
     "name": "pytypes",
     "url": "https://github.com/Stewori/pytypes",
     "description": "Provides a rich set of utilities for runtime typechecking."
   },
   {
-    "name": "pydantic",
-    "url": "https://github.com/samuelcolvin/pydantic",
-    "description": "Data parsing using Python type hinting. Supports dataclasses."
+    "name": "strongtyping",
+    "url": "https://github.com/FelixTheC/strongtyping",
+    "description": "Decorator which checks whether the function is called with the correct type of parameters."
   },
   {
     "name": "typeguard",
@@ -55,34 +60,9 @@
     "description": "Data parsing and automatic type-coercion using type hinting. Supports dataclasses, standard classes, function signatures, and more."
   },
   {
-    "name": "Typeshed",
-    "url": "https://github.com/python/typeshed",
-    "description": "Collection of library stubs for Python, with static types."
-  },
-  {
-    "name": "django-stubs",
-    "url": "https://github.com/typeddjango/django-stubs",
-    "description": "Stubs for Django."
-  },
-  {
-    "name": "djangorestframework-stubs",
-    "url": "https://github.com/typeddjango/djangorestframework-stubs",
-    "description": "Stubs for DRF."
-  },
-  {
-    "name": "dry-python/returns",
-    "url": "https://github.com/dry-python/returns",
-    "description": "Stubs for returns."
-  },
-  {
-    "name": "sqlalchemy-stubs",
-    "url": "https://github.com/dropbox/sqlalchemy-stubs",
-    "description": "Stubs for SQLAlchemy."
-  },
-  {
-    "name": "grpc-stubs",
-    "url": "https://github.com/shabbyrobe/grpc-stubs",
-    "description": "Stubs for grpc."
+    "name": "asgiref",
+    "url": "https://github.com/django/asgiref",
+    "description": "ASGI specification, provides asgiref.typing module with type annotations for ASGI servers."
   },
   {
     "name": "boto3-stubs",
@@ -95,9 +75,24 @@
     "description": "Gives you code assistance for any boto3 API in any IDE."
   },
   {
-    "name": "PyQt5-stubs",
-    "url": "https://github.com/stlehmann/PyQt5-stubs",
-    "description": "Stubs for PyQt5."
+    "name": "data-science-types",
+    "url": "https://github.com/predictive-analytics-lab/data-science-types",
+    "description": "Stubs for numpy, pandas, and matplotlib."
+  },
+  {
+    "name": "django-stubs",
+    "url": "https://github.com/typeddjango/django-stubs",
+    "description": "Stubs for Django."
+  },
+  {
+    "name": "djangorestframework-stubs",
+    "url": "https://github.com/typeddjango/djangorestframework-stubs",
+    "description": "Stubs for DRF."
+  },
+  {
+    "name": "grpc-stubs",
+    "url": "https://github.com/shabbyrobe/grpc-stubs",
+    "description": "Stubs for grpc."
   },
   {
     "name": "lxml-stubs",
@@ -110,6 +105,11 @@
     "description": "Stubs for OrderedSet."
   },
   {
+    "name": "PyQt5-stubs",
+    "url": "https://github.com/stlehmann/PyQt5-stubs",
+    "description": "Stubs for PyQt5."
+  },
+  {
     "name": "pyspark-stubs",
     "url": "https://github.com/zero323/pyspark-stubs",
     "description": "Stubs for PySpark."
@@ -120,9 +120,19 @@
     "description": "Stubs for Pythonista."
   },
   {
+    "name": "sqlalchemy-stubs",
+    "url": "https://github.com/dropbox/sqlalchemy-stubs",
+    "description": "Stubs for SQLAlchemy."
+  },
+  {
     "name": "torchtyping",
     "url": "https://github.com/patrick-kidger/torchtyping",
     "description": "Enhanced type annotations for pytorch."
+  },
+  {
+    "name": "typeshed",
+    "url": "https://github.com/python/typeshed",
+    "description": "Collection of library stubs, with static types."
   },
   {
     "name": "wsgitypes",
@@ -130,9 +140,34 @@
     "description": "Typing for WSGI application implementers. These are not stub files, they're interfaces you mark support for to help typecheck WSGI conformance."
   },
   {
-    "name": "data-science-types",
-    "url": "https://github.com/predictive-analytics-lab/data-science-types",
-    "description": "Stubs for NumPy, pandas, and Matplotlib."
+    "name": "meiga",
+    "url": "https://github.com/alice-biometrics/meiga",
+    "description": "Simple, typed and monad-based Result type."
+  },
+  {
+    "name": "option",
+    "url": "https://github.com/MaT1g3R/option",
+    "description": "Rust like Option and Result types."
+  },
+  {
+    "name": "phantom-types",
+    "url": "https://github.com/antonagestam/phantom-types",
+    "description": "Phantom types."
+  },
+  {
+    "name": "returns",
+    "url": "https://github.com/dry-python/returns",
+    "description": "Make your functions return something meaningful, typed, and safe."
+  },
+  {
+    "name": "safetywrap",
+    "url": "https://github.com/mplanchard/safetywrap",
+    "description": "Fully typesafe, Rust-like Result and Option types."
+  },
+  {
+    "name": "typet",
+    "url": "https://github.com/contains-io/typet",
+    "description": "Length-bounded types, dynamic object validation."
   },
   {
     "name": "typed-ast",
@@ -145,34 +180,14 @@
     "description": "Backported and experimental type hints."
   },
   {
-    "name": "typingplus",
-    "url": "https://github.com/contains-io/typingplus/",
-    "description": "Backport support, dynamic is_instance and cast for abstract types."
-  },
-  {
-    "name": "typet",
-    "url": "https://github.com/contains-io/typet",
-    "description": "Length-bounded types, dynamic object validation."
-  },
-  {
-    "name": "typing_utils",
+    "name": "typing-utils",
     "url": "https://github.com/bojiang/typing_utils",
     "description": "Backport 3.8+ runtime typing utils(for eg: get_origin) & add issubtype & more."
   },
   {
-    "name": "wemake-python-styleguide",
-    "url": "https://github.com/wemake-services/wemake-python-styleguide",
-    "description": "The strictest and most opinionated python linter ever."
-  },
-  {
-    "name": "flake8-mypy",
-    "url": "https://github.com/ambv/flake8-mypy",
-    "description": "Plugin for flake8 integrating mypy."
-  },
-  {
-    "name": "flake8-pyi",
-    "url": "https://github.com/ambv/flake8-pyi",
-    "description": "Plugin for Flake8 that provides specializations for type hinting stub files."
+    "name": "typingplus",
+    "url": "https://github.com/contains-io/typingplus/",
+    "description": "Backport support, dynamic is_instance and cast for abstract types."
   },
   {
     "name": "flake8-annotations-complexity",
@@ -185,6 +200,16 @@
     "description": "Plugin for flake8 to check for presence of type annotations in function definitions."
   },
   {
+    "name": "flake8-mypy",
+    "url": "https://github.com/ambv/flake8-mypy",
+    "description": "Plugin for flake8 integrating mypy."
+  },
+  {
+    "name": "flake8-pyi",
+    "url": "https://github.com/ambv/flake8-pyi",
+    "description": "Plugin for Flake8 that provides specializations for type hinting stub files."
+  },
+  {
     "name": "flake8-typing-imports",
     "url": "https://github.com/asottile/flake8-typing-imports",
     "description": "Plugin which checks that typing imports are properly guarded."
@@ -195,9 +220,9 @@
     "description": "flake8 plugin that helps identify which imports to put into type-checking blocks, and how to adjust your type annotations once imports are moved."
   },
   {
-    "name": "pytest-mypy",
-    "url": "https://github.com/dbader/pytest-mypy",
-    "description": "Mypy static type checker plugin for Pytest."
+    "name": "wemake-python-styleguide",
+    "url": "https://github.com/wemake-services/wemake-python-styleguide",
+    "description": "The strictest and most opinionated Python linter ever."
   },
   {
     "name": "pytest-mypy-plugins",
@@ -210,14 +235,19 @@
     "description": "Pytest plugin to test mypy static type analysis."
   },
   {
-    "name": "merge_pyi",
-    "url": "https://github.com/google/pytype/tree/master/pytype/tools/merge_pyi",
-    "description": "Part of pytype toolchain, applies stub files onto source code."
+    "name": "pytest-mypy",
+    "url": "https://github.com/dbader/pytest-mypy",
+    "description": "Mypy static type checker plugin for Pytest."
   },
   {
-    "name": "retype",
-    "url": "https://github.com/ambv/retype",
-    "description": "Another tool to apply stubs to code."
+    "name": "com2ann",
+    "url": "https://github.com/ilevkivskyi/com2ann",
+    "description": "Tool for translation of type comments to type annotations."
+  },
+  {
+    "name": "merge-pyi",
+    "url": "https://github.com/google/pytype/tree/master/pytype/tools/merge_pyi",
+    "description": "Part of pytype toolchain, applies stub files onto source code."
   },
   {
     "name": "mypy-protobuf",
@@ -225,14 +255,24 @@
     "description": "Tool to generate mypy stubs from protobufs."
   },
   {
+    "name": "mypy-silent",
+    "url": "https://github.com/whtsky/mypy-silent/",
+    "description": "Silence mypy by adding or removing code comments."
+  },
+  {
     "name": "mypyc",
     "url": "https://github.com/python/mypy/tree/master/mypyc",
     "description": "Compiles mypy-annotated, statically typed Python modules into CPython C extensions."
   },
   {
-    "name": "typing_inspect",
+    "name": "retype",
+    "url": "https://github.com/ambv/retype",
+    "description": "Another tool to apply stubs to code."
+  },
+  {
+    "name": "typing-inspect",
     "url": "https://github.com/ilevkivskyi/typing_inspect",
-    "description": "The typing_inspect module defines experimental API for runtime inspection of types defined in the Python standard typing module."
+    "description": "The typing_inspect module defines experimental API for runtime inspection of types defined in the typing module."
   },
   {
     "name": "typing-json",
@@ -240,29 +280,14 @@
     "description": "Lib for working with typed objects and JSON."
   },
   {
-    "name": "com2ann",
-    "url": "https://github.com/ilevkivskyi/com2ann",
-    "description": "Tool for translation of type comments to type annotations in Python."
-  },
-  {
-    "name": "mypy-silent",
-    "url": "https://github.com/whtsky/mypy-silent/",
-    "description": "Silence mypy by adding or removing code comments."
-  },
-  {
     "name": "autotyper",
     "url": "https://github.com/JelleZijlstra/autotyper",
     "description": "Automatically add simple return type annotations for functions (bool, None, Optional)."
   },
   {
-    "name": "MonkeyType",
+    "name": "monkeytype",
     "url": "https://github.com/instagram/MonkeyType",
-    "description": "Collects runtime types of function arguments and return values, and can automatically generate stub files or even add draft type annotations directly to your Python code based on the types collected at runtime."
-  },
-  {
-    "name": "pytest-monkeytype",
-    "url": "https://github.com/mariusvniekerk/pytest-monkeytype",
-    "description": "MonkeyType plugin for pytest."
+    "description": "Collects runtime types of function arguments and return values, and can automatically generate stub files or even add draft type annotations directly to your code based on the types collected at runtime."
   },
   {
     "name": "pyannotate",
@@ -270,14 +295,19 @@
     "description": "Insert annotations into your source code based on call arguments and return types observed at runtime."
   },
   {
+    "name": "pyre infer",
+    "url": "https://github.com/facebook/pyre-check",
+    "description": "Pyre has a powerful feature for migrating codebases to a typed format. The infer command-line option ingests a file or directory, makes educated guesses about the types used, and applies the annotations to the files."
+  },
+  {
     "name": "pytest-annotate",
     "url": "https://github.com/kensho-technologies/pytest-annotate",
     "description": "Pyannotate plugin for pytest."
   },
   {
-    "name": "pyre infer",
-    "url": "https://github.com/facebook/pyre-check",
-    "description": "Pyre has a powerful feature for migrating codebases to a typed format. The infer command-line option ingests a file or directory, makes educated guesses about the types used, and applies the annotations to the files."
+    "name": "pytest-monkeytype",
+    "url": "https://github.com/mariusvniekerk/pytest-monkeytype",
+    "description": "MonkeyType plugin for pytest."
   },
   {
     "name": "pytype annotate-ast",
@@ -285,19 +315,19 @@
     "description": "A work-in-progress tool to annotate the nodes of an AST with their Python types."
   },
   {
-    "name": "Typilus",
+    "name": "type4py",
+    "url": "https://github.com/saltudelft/type4py",
+    "description": "Deep Similarity Learning-Based Type Inference."
+  },
+  {
+    "name": "typilus",
     "url": "https://github.com/typilus/typilus",
     "description": "A deep learning algorithm for predicting types in Python. Also available as a GitHub action"
   },
   {
-    "name": "Type4Py",
-    "url": "https://github.com/saltudelft/type4py",
-    "description": "Deep Similarity Learning-Based Type Inference for Python."
-  },
-  {
-    "name": "pynamodb-mypy",
-    "url": "https://github.com/pynamodb/pynamodb-mypy",
-    "description": "Plugin for PynamoDB support."
+    "name": "loguru-mypy",
+    "url": "https://github.com/kornicameister/loguru-mypy",
+    "description": "Plugin for loguru support."
   },
   {
     "name": "mypy-zope",
@@ -310,19 +340,14 @@
     "description": "Plugins already integrated into mypy."
   },
   {
-    "name": "loguru-mypy",
-    "url": "https://github.com/kornicameister/loguru-mypy",
-    "description": "Plugin for loguru support."
+    "name": "pynamodb-mypy",
+    "url": "https://github.com/pynamodb/pynamodb-mypy",
+    "description": "Plugin for PynamoDB support."
   },
   {
-    "name": "mypy-PyCharm-plugin",
-    "url": "https://github.com/dropbox/mypy-PyCharm-plugin",
-    "description": "Mypy integration for PyCharm."
-  },
-  {
-    "name": "vim-mypy",
-    "url": "https://github.com/Integralist/vim-mypy",
-    "description": "Mypy integration for Vim."
+    "name": "emacs-flycheck-mypy",
+    "url": "https://github.com/lbolla/emacs-flycheck-mypy",
+    "description": "Mypy integration for Emacs."
   },
   {
     "name": "linter-mypy",
@@ -330,9 +355,24 @@
     "description": "Mypy integration for Atom."
   },
   {
-    "name": "emacs-flycheck-mypy",
-    "url": "https://github.com/lbolla/emacs-flycheck-mypy",
-    "description": "Mypy integration for Emacs."
+    "name": "mypy-playground",
+    "url": "https://github.com/ymyzk/mypy-playground",
+    "description": "Online playground for mypy."
+  },
+  {
+    "name": "mypy-pycharm-plugin",
+    "url": "https://github.com/dropbox/mypy-PyCharm-plugin",
+    "description": "Mypy integration for PyCharm."
+  },
+  {
+    "name": "pylance",
+    "url": "https://github.com/microsoft/pylance-release",
+    "description": "PyRight integration for VSCode."
+  },
+  {
+    "name": "vim-mypy",
+    "url": "https://github.com/Integralist/vim-mypy",
+    "description": "Mypy integration for Vim."
   },
   {
     "name": "PEP-3107",
@@ -425,29 +465,19 @@
     "description": "Explicit Type Aliases."
   },
   {
-    "name": "typing",
-    "url": "https://docs.python.org/3/library/typing.html",
-    "description": "Support for type hints."
-  },
-  {
-    "name": "MyPy docs",
-    "url": "https://mypy.readthedocs.io/en/latest/stubs.html",
-    "description": "General information about stubs."
-  },
-  {
     "name": "1-minute guide to real constants in Python",
     "url": "https://sobolevn.me/2018/07/real-python-contants",
     "description": "Full tutorial about Final constants and inheritance."
   },
   {
+    "name": "PyTest MonkeyType Introduction",
+    "url": "https://dev.to/ldrscke/type-annotate-an-existing-python-django-codebase-with-monkeytype-254i",
+    "description": "Type Annotate an existing Python Django Codebase with MonkeyType."
+  },
+  {
     "name": "Simple dependent types in Python",
     "url": "https://sobolevn.me/2019/01/simple-dependent-types-in-python",
     "description": "Full tutorial about Literal types."
-  },
-  {
-    "name": "Typechecking Django and DRF",
-    "url": "https://sobolevn.me/2019/08/typechecking-django-and-drf",
-    "description": "Full tutorial about type-checking django."
   },
   {
     "name": "Testing mypy stubs, plugins, and types",
@@ -460,9 +490,19 @@
     "description": "As of May 2018."
   },
   {
-    "name": "PyTest MonkeyType Introduction",
-    "url": "https://dev.to/ldrscke/type-annotate-an-existing-python-django-codebase-with-monkeytype-254i",
-    "description": "Type Annotate an existing Python Django Codebase with MonkeyType."
+    "name": "Type hints cheat sheet",
+    "url": "https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html",
+    "description": "Cheat sheet on writing type annotations by MyPy team."
+  },
+  {
+    "name": "Typechecking Django and DRF",
+    "url": "https://sobolevn.me/2019/08/typechecking-django-and-drf",
+    "description": "Full tutorial about type-checking django."
+  },
+  {
+    "name": "typing",
+    "url": "https://docs.python.org/3/library/typing.html",
+    "description": "Official Python documentation for typing module."
   },
   {
     "name": "python/typing",
