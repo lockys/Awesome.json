@@ -195,41 +195,6 @@
     "description": "PIX is an image processing library in JAX, for JAX. "
   },
   {
-    "name": "Reformer",
-    "url": "https://github.com/google/trax/tree/master/trax/models/reformer",
-    "description": "Implementation of the Reformer (efficient transformer) architecture."
-  },
-  {
-    "name": "Vision Transformer",
-    "url": "https://github.com/google-research/vision_transformer",
-    "description": "Official implementation in Flax of An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale."
-  },
-  {
-    "name": "Fourier Feature Networks",
-    "url": "https://github.com/tancik/fourier-feature-networks",
-    "description": "Official implementation of Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains."
-  },
-  {
-    "name": "Flax Models",
-    "url": "https://github.com/google-research/google-research/tree/master/flax_models",
-    "description": "Collection of models and methods implemented in Flax."
-  },
-  {
-    "name": "JaxNeRF",
-    "url": "https://github.com/google-research/google-research/tree/master/jaxnerf",
-    "description": "Implementation of NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis with multi-device GPU/TPU support."
-  },
-  {
-    "name": "Big Transfer (BiT)",
-    "url": "https://github.com/google-research/big_transfer",
-    "description": "Implementation of Big Transfer (BiT): General Visual Representation Learning."
-  },
-  {
-    "name": "NuX",
-    "url": "https://github.com/Information-Fusion-Lab-Umass/NuX",
-    "description": "Normalizing flows with JAX."
-  },
-  {
     "name": "kalman-jax",
     "url": "https://github.com/AaltoML/kalman-jax",
     "description": "Approximate inference for Markov (i.e., temporal) Gaussian processes using iterated Kalman filtering and smoothing."
@@ -245,9 +210,59 @@
     "description": "Nested sampling in JAX."
   },
   {
-    "name": "Normalizer-Free Networks",
-    "url": "https://github.com/deepmind/deepmind-research/tree/master/nfnets",
-    "description": "Official Haiku implementation of NFNets."
+    "name": "Amortized Bayesian Optimization",
+    "url": "https://github.com/google-research/google-research/tree/master/amortized_bo",
+    "description": "Code related to Amortized Bayesian Optimization over Discrete Spaces."
+  },
+  {
+    "name": "Accurate Quantized Training",
+    "url": "https://github.com/google-research/google-research/tree/master/aqt",
+    "description": "Tools and libraries for running and analyzing neural network quantization experiments in JAX and Flax."
+  },
+  {
+    "name": "BNN-HMC",
+    "url": "https://github.com/google-research/google-research/tree/master/bnn_hmc",
+    "description": "Implementation for the paper What Are Bayesian Neural Network Posteriors Really Like?."
+  },
+  {
+    "name": "JAX-DFT",
+    "url": "https://github.com/google-research/google-research/tree/master/jax_dft",
+    "description": "One-dimensional density functional theory (DFT) in JAX, with implementation of Kohn-Sham equations as regularizer: building prior knowledge into machine-learned physics."
+  },
+  {
+    "name": "Robust Loss",
+    "url": "https://github.com/google-research/google-research/tree/master/robust_loss_jax",
+    "description": "Reference code for the paper A General and Adaptive Robust Loss Function."
+  },
+  {
+    "name": "Performer",
+    "url": "https://github.com/google-research/google-research/tree/master/performer/fast_attention/jax",
+    "description": "Flax implementation of the Performer (linear transformer via FAVOR+) architecture."
+  },
+  {
+    "name": "JaxNeRF",
+    "url": "https://github.com/google-research/google-research/tree/master/jaxnerf",
+    "description": "Implementation of NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis with multi-device GPU/TPU support."
+  },
+  {
+    "name": "Big Transfer (BiT)",
+    "url": "https://github.com/google-research/big_transfer",
+    "description": "Implementation of Big Transfer (BiT): General Visual Representation Learning."
+  },
+  {
+    "name": "JAX RL",
+    "url": "https://github.com/ikostrikov/jax-rl",
+    "description": "Implementations of reinforcement learning algorithms."
+  },
+  {
+    "name": "gMLP",
+    "url": "https://github.com/SauravMaheshkar/gMLP",
+    "description": "Implementation of Pay Attention to MLPs."
+  },
+  {
+    "name": "MLP Mixer",
+    "url": "https://github.com/SauravMaheshkar/MLP-Mixer",
+    "description": "Minimal implementation of MLP-Mixer: An all-MLP Architecture for Vision."
   },
   {
     "name": "Distributed Shampoo",
@@ -255,19 +270,114 @@
     "description": "Implementation of Second Order Optimization Made Practical."
   },
   {
-    "name": "JAX (Flax) RL",
-    "url": "https://github.com/ikostrikov/jax-rl",
-    "description": "Implementations of reinforcement learning algorithms."
+    "name": "NesT",
+    "url": "https://github.com/google-research/nested-transformer",
+    "description": "Official implementation of Aggregating Nested Transformers."
   },
   {
-    "name": "MLP Mixer (Flax)",
-    "url": "https://github.com/SauravMaheshkar/MLP-Mixer",
-    "description": "Minimal Implementation of MlP Mixer"
+    "name": "XMC-GAN",
+    "url": "https://github.com/google-research/xmcgan_image_generation",
+    "description": "Official implementation of Cross-Modal Contrastive Learning for Text-to-Image Generation."
   },
   {
-    "name": "gMLP",
-    "url": "https://github.com/SauravMaheshkar/gMLP",
-    "description": "Implementation of Pay Attention to MLPs."
+    "name": "FNet",
+    "url": "https://github.com/google-research/google-research/tree/master/f_net",
+    "description": "Official implementation of FNet: Mixing Tokens with Fourier Transforms."
+  },
+  {
+    "name": "GFSA",
+    "url": "https://github.com/google-research/google-research/tree/master/gfsa",
+    "description": "Official implementation of Learning Graph Structure With A Finite-State Automaton Layer."
+  },
+  {
+    "name": "IPA-GNN",
+    "url": "https://github.com/google-research/google-research/tree/master/ipagnn",
+    "description": "Official implementation of Learning to Execute Programs with Instruction Pointer Attention Graph Neural Networks."
+  },
+  {
+    "name": "Flax Models",
+    "url": "https://github.com/google-research/google-research/tree/master/flax_models",
+    "description": "Collection of models and methods implemented in Flax."
+  },
+  {
+    "name": "Protein LM",
+    "url": "https://github.com/google-research/google-research/tree/master/protein_lm",
+    "description": "Implements BERT and autoregressive models for proteins, as described in Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences and ProGen: Language Modeling for Protein Generation."
+  },
+  {
+    "name": "Slot Attention",
+    "url": "https://github.com/google-research/google-research/tree/master/ptopk_patch_selection",
+    "description": "Reference implementation for Differentiable Patch Selection for Image Recognition."
+  },
+  {
+    "name": "Vision Transformer",
+    "url": "https://github.com/google-research/vision_transformer",
+    "description": "Official implementation of An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale."
+  },
+  {
+    "name": "FID computation",
+    "url": "https://github.com/matthias-wright/jax-fid",
+    "description": "Port of mseitzer/pytorch-fid to Flax."
+  },
+  {
+    "name": "AlphaFold",
+    "url": "https://github.com/deepmind/alphafold",
+    "description": "Implementation of the inference pipeline of AlphaFold v2.0, presented in Highly accurate protein structure prediction with AlphaFold."
+  },
+  {
+    "name": "Adversarial Robustness",
+    "url": "https://github.com/deepmind/deepmind-research/tree/master/adversarial_robustness",
+    "description": "Reference code for Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial Examples and Fixing Data Augmentation to Improve Adversarial Robustness."
+  },
+  {
+    "name": "Bootstrap Your Own Latent",
+    "url": "https://github.com/deepmind/deepmind-research/tree/master/byol",
+    "description": "Implementation for the paper Bootstrap your own latent: A new approach to self-supervised Learning."
+  },
+  {
+    "name": "Gated Linear Networks",
+    "url": "https://github.com/deepmind/deepmind-research/tree/master/gated_linear_networks",
+    "description": "GLNs are a family of backpropagation-free neural networks."
+  },
+  {
+    "name": "Glassy Dynamics",
+    "url": "https://github.com/deepmind/deepmind-research/tree/master/glassy_dynamics",
+    "description": "Open source implementation of the paper Unveiling the predictive power of static structure in glassy systems."
+  },
+  {
+    "name": "MMV",
+    "url": "https://github.com/deepmind/deepmind-research/tree/master/mmv",
+    "description": "Code for the models in Self-Supervised MultiModal Versatile Networks."
+  },
+  {
+    "name": "Normalizer-Free Networks",
+    "url": "https://github.com/deepmind/deepmind-research/tree/master/nfnets",
+    "description": "Official Haiku implementation of NFNets."
+  },
+  {
+    "name": "NuX",
+    "url": "https://github.com/Information-Fusion-Lab-Umass/NuX",
+    "description": "Normalizing flows with JAX."
+  },
+  {
+    "name": "OGB-LSC",
+    "url": "https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc",
+    "description": "This repository contains DeepMind's entry to the PCQM4M-LSC (quantum chemistry) and MAG240M-LSC (academic graph)"
+  },
+  {
+    "name": "Persistent Evolution Strategies",
+    "url": "https://github.com/google-research/google-research/tree/master/persistent_es",
+    "description": "Code used for the paper Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies."
+  },
+  {
+    "name": "WikiGraphs",
+    "url": "https://github.com/deepmind/deepmind-research/tree/master/wikigraphs",
+    "description": "Baseline code to reproduce results in WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Datase."
+  },
+  {
+    "name": "Reformer",
+    "url": "https://github.com/google/trax/tree/master/trax/models/reformer",
+    "description": "Implementation of the Reformer (efficient transformer) architecture."
   },
   {
     "name": "Introduction to JAX",
@@ -303,6 +413,11 @@
     "name": "Solving y=mx+b with Jax on a TPU Pod slice",
     "url": "http://matpalm.com/blog/ymxb_pod_slice/",
     "description": "Mat Kelcey - A four part YouTube tutorial series with Colab notebooks that starts with Jax fundamentals and moves up to training with a data parallel approach on a v3-32 TPU Pod slice."
+  },
+  {
+    "name": "JAX, Flax & Transformers 🤗",
+    "url": "https://github.com/huggingface/transformers/blob/9160d81c98854df44b1d543ce5d65a6aa28444a2/examples/research_projects/jax-projects/README.md#talks",
+    "description": "3 days of talks around JAX / Flax, Transformers, large-scale language modeling and other great topics."
   },
   {
     "name": "Compiling machine learning programs via high-level tracing. Roy Frostig, Matthew James Johnson, Chris Leary. MLSys 2018.",
