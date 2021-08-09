@@ -226,7 +226,11 @@
   {
     "name": "bknr.datastore",
     "url": "https://github.com/hanshuebner/bknr-datastore",
-    "description": "a CLOS-based lisp-only database in RAM with transaction logging persistence. Manual. licence. (see also chap. 21 of \"Common Lisp Recipes\")"
+    "description": "a CLOS-based lisp-only database in RAM with transaction logging persistence. Manual. licence."
+  },
+  {
+    "name": "see also this good introductory blog post",
+    "url": "https://ashok-khanna.medium.com/persistent-in-memory-data-storage-in-common-lisp-b-k-n-r-37f8ae76042f"
   },
   {
     "name": "ubiquitous",
@@ -1203,6 +1207,11 @@
     "description": "A utility manager, similar to Quicklisp, but for small utilities rather than whole libraries. 3-clause BSD."
   },
   {
+    "name": "quick-patch",
+    "url": "https://github.com/tdrhq/quick-patch/",
+    "description": " easily override quicklisp projects without using git submodules. MPL-2.0."
+  },
+  {
     "name": "print-licenses",
     "url": "https://github.com/vindarel/print-licenses",
     "description": "print licenses used by a project and its dependencies. MIT."
@@ -1640,6 +1649,43 @@
     "description": "a client for the Stripe payment system. MIT."
   },
   {
+    "name": "cl-cookieweb",
+    "url": "https://github.com/vindarel/cl-cookieweb",
+    "description": "a  Cookiecutter template to start a web project. BSD_3Clause. Not in Quicklisp."
+  },
+  {
+    "name": "make-like",
+    "url": "https://github.com/container-lisp/make-like",
+    "description": "an application template builder for LIKE (Lisp In Kubernetes + Emacs) applications. Apache2.0."
+  },
+  {
+    "name": "cl-webapp-seed",
+    "url": "https://github.com/rajasegar/cl-webapp-seed",
+    "description": "a simple web application boilerplate. Uses Hunchentoot, cl-who, deploys easily to Heroku. MIT."
+  },
+  {
+    "name": "screenshotbot-oss",
+    "url": "https://github.com/screenshotbot/screenshotbot-oss",
+    "description": "a Screenshot Testing service. This code powers https://screenshotbot.io."
+  },
+  {
+    "name": "uses Bknr.datastore as the datastore. Heavy use of their markup library (JSX-like).",
+    "url": "https://github.com/moderninterpreters/markup"
+  },
+  {
+    "name": "Closures as URLs (nibble, not yet a standalone library). \"Essentially, it allows me to create \"anonymous\" HTTP endpoints that evaluate a lambda. We integrate it with markup to make it pleasant to write multi-page web forms and flows. e.g. Here's a flow that lets you delete an API key, but before deleting it it asks you for a confirmation.\"",
+    "url": "https://github.com/screenshotbot/screenshotbot-oss/blob/main/src/nibble/nibble.asd"
+  },
+  {
+    "name": "cl-trello-clone",
+    "url": "https://github.com/rajasegar/cl-trello-clone",
+    "description": "a Trello clone demo app in Common Lisp. Built with HTMX and HyperScript. Caveman and Djula templates."
+  },
+  {
+    "name": "by the same author, see also cl-warehouse and many more small demos.",
+    "url": "https://github.com/rajasegar/cl-warehouse"
+  },
+  {
     "name": "maiden",
     "url": "https://shirakumo.github.io/maiden",
     "description": "A bot and chat system framework with support for IRC and more. Artistic License 2.0."
@@ -1663,6 +1709,16 @@
     "name": "cl-selenium-webdriver",
     "url": "https://github.com/TatriX/cl-selenium-webdriver/",
     "description": "a binding library to Selenium 2.0."
+  },
+  {
+    "name": "cl-wget",
+    "url": "https://github.com/cl-wget/cl-wget",
+    "description": "Makes retrieving large files or mirroring entire websites easy. AGPL-3.0."
+  },
+  {
+    "name": "trivial-download",
+    "url": "https://github.com/eudoxia0/trivial-download",
+    "description": "Download files. MIT."
   },
   {
     "name": "numcl",
@@ -1903,9 +1959,13 @@
     "description": "Shell scripting made Lisp-like! Or, live-coding remote function calls for the shell. Write a command in the REPL, and run it instantly in the shell. LLGPL."
   },
   {
-    "name": "CLON",
-    "url": "https://github.com/didierverna/clon",
-    "description": "a Command Line Options"
+    "name": "similar and maybe simpler: lserver",
+    "url": "https://notabug.org/quasus/lserver/"
+  },
+  {
+    "name": "Adopt",
+    "url": "https://github.com/sjl/adopt/",
+    "description": "A Damn OPTion parsing library. MIT."
   },
   {
     "name": "cl-readline",
