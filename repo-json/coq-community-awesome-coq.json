@@ -26,7 +26,7 @@
   },
   {
     "name": "Q*cert",
-    "url": "https://querycert.github.io",
+    "url": "https://github.com/querycert/qcert",
     "description": "Platform for implementing and verifying query compilers."
   },
   {
@@ -82,7 +82,7 @@
   {
     "name": "Bignums",
     "url": "https://github.com/coq/bignums",
-    "description": "Library of arbitrary large numbers."
+    "description": "Library of arbitrarily large numbers."
   },
   {
     "name": "CoLoR",
@@ -170,17 +170,22 @@
     "description": "Build tool distributed with Coq and based on generating a makefile."
   },
   {
+    "name": "Coq Nix Toolbox",
+    "url": "https://github.com/coq-community/coq-nix-toolbox",
+    "description": "Nix helper scripts to automate local builds and continuous integration for Coq."
+  },
+  {
     "name": "Coq Package Index",
     "url": "https://coq.inria.fr/packages.html",
     "description": "OPAM-based collection of Coq packages."
   },
   {
-    "name": "Coq Platform",
-    "url": "https://github.com/MSoegtropIMC/coq-platform",
-    "description": "Experimental curated collection of packages to support Coq use in industry, education, and research."
+    "name": "Coq platform",
+    "url": "https://github.com/coq/platform",
+    "description": "Curated collection of packages to support Coq use in industry, education, and research."
   },
   {
-    "name": "Coq-community Templates",
+    "name": "coq-community Templates",
     "url": "https://github.com/coq-community/templates",
     "description": "Templates for generating configuration files for Coq projects."
   },
@@ -195,7 +200,7 @@
     "description": "Docker images for many combinations of versions of Coq and the Mathematical Components library."
   },
   {
-    "name": "Docker-Coq-action",
+    "name": "Docker-Coq GitHub Action",
     "url": "https://github.com/marketplace/actions/docker-coq-action",
     "description": "GitHub container action that can be used with Docker-Coq or Docker-MathComp."
   },
@@ -285,6 +290,16 @@
     "description": "Plugin that replaces the existing unification algorithm with an enhanced one."
   },
   {
+    "name": "Alectryon",
+    "url": "https://github.com/cpitclaudel/alectryon",
+    "description": "Collection of tools for writing technical documents that mix Coq code and prose."
+  },
+  {
+    "name": "Autosubst 2",
+    "url": "https://github.com/uds-psl/autosubst2",
+    "description": "Tool that generates Coq code for handling binders in syntax, such as for renaming and substitutions."
+  },
+  {
     "name": "CFML",
     "url": "https://gitlab.inria.fr/charguer/cfml2",
     "description": "Tool for proving properties of OCaml programs in separation logic."
@@ -295,6 +310,11 @@
     "description": "Alternative HTML documentation generator for Coq."
   },
   {
+    "name": "coqdoc",
+    "url": "https://coq.inria.fr/refman/using/tools/coqdoc.html",
+    "description": "Standard documentation tool generating LaTeX or HTML files from Coq code."
+  },
+  {
     "name": "CoqOfOCaml",
     "url": "https://github.com/clarus/coq-of-ocaml",
     "description": "Tool for generating idiomatic Coq from OCaml code."
@@ -303,6 +323,11 @@
     "name": "coq-dpdgraph",
     "url": "https://github.com/Karmaki/coq-dpdgraph",
     "description": "Tool for building dependency graphs between Coq objects."
+  },
+  {
+    "name": "coq-scripts",
+    "url": "https://github.com/JasonGross/coq-scripts",
+    "description": "Scripts for dealing with Coq files, including tabulating proof times."
   },
   {
     "name": "coq-tools",
@@ -347,7 +372,7 @@
   {
     "name": "SerAPI",
     "url": "https://github.com/ejgallego/coq-serapi",
-    "description": "Library and tools for (de)serialization of Coq code to and from JSON and S-expressions."
+    "description": "Tools and OCaml library for (de)serialization of Coq code to and from JSON and S-expressions."
   },
   {
     "name": "Analysis",
@@ -405,6 +430,11 @@
     "description": "Formalization of geometry based on Tarski's axiom system."
   },
   {
+    "name": "Goedel",
+    "url": "https://github.com/coq-community/goedel",
+    "description": "Constructive proof of the Gödel-Rosser incompleteness theorem."
+  },
+  {
     "name": "Graph Theory",
     "url": "https://github.com/coq-community/graph-theory",
     "description": "Formalized graph theory results."
@@ -450,6 +480,11 @@
     "description": "High-assurance compiler for almost all of the C language (ISO C99), generating efficient code for the PowerPC, ARM, RISC-V and x86 processors."
   },
   {
+    "name": "Ceramist",
+    "url": "https://github.com/certichain/ceramist",
+    "description": "Verified hash-based approximate membership structures such as Bloom filters."
+  },
+  {
     "name": "Fiat-Crypto",
     "url": "https://github.com/mit-plv/fiat-crypto",
     "description": "Cryptographic primitive code generation."
@@ -470,8 +505,13 @@
     "description": "Formal model of a Rust core language and type system, a logical relation for the type system, and safety proofs for some Rust libraries."
   },
   {
+    "name": "RISC-V Specification in Coq",
+    "url": "https://github.com/mit-plv/riscv-coq",
+    "description": "Definition of the RISC-V processor instruction set architecture and extensions."
+  },
+  {
     "name": "Vélus",
-    "url": "http://velus.inria.fr/",
+    "url": "http://velus.inria.fr",
     "description": "Verified compiler for a Lustre/Scade-like dataflow synchronous language."
   },
   {
@@ -510,6 +550,10 @@
   {
     "name": "Official Coq Twitter",
     "url": "https://twitter.com/CoqLang"
+  },
+  {
+    "name": "100 famous theorems proved using Coq",
+    "url": "https://github.com/coq-community/coq-100-theorems"
   },
   {
     "name": "coq-community package maintenance project",
@@ -622,7 +666,7 @@
   },
   {
     "name": "Introduction to Computational Logic",
-    "url": "https://courses.ps.uni-saarland.de/icl_20/2/Resources",
+    "url": "https://cms.sic.saarland/icl_21/2/Resources",
     "description": "Introduction to basic logic principles, constructive type theory, and interactive theorem proving with Coq."
   },
   {
@@ -641,9 +685,24 @@
     "description": "Introduction to how Coq can be used to define logical concepts and functions and reason about them."
   },
   {
+    "name": "Coq requirements in Common Criteria evaluations",
+    "url": "https://www.ssi.gouv.fr/uploads/2014/11/anssi-requirements-on-the-use-of-coq-in-the-context-of-common-criteria-evaluations-v1.0-en.pdf",
+    "description": "Guide on how to write readable and reviewable Coq code in high assurance applications."
+  },
+  {
+    "name": "Hydra battles and Cie",
+    "url": "https://github.com/coq-community/hydra-battles",
+    "description": "Variations on Kirby and Paris' hydra battles and other entertaining math in Coq, including documentation and exercises."
+  },
+  {
     "name": "Lemma Overloading",
     "url": "https://github.com/coq-community/lemma-overloading",
     "description": "Demonstration of design patterns for programming and proving with canonical structures."
+  },
+  {
+    "name": "MathComp Tutorial Materials",
+    "url": "https://github.com/math-comp/tutorial_material",
+    "description": "Source code for Mathematical Components tutorials."
   },
   {
     "name": "Mike Nahas's Coq Tutorial",
