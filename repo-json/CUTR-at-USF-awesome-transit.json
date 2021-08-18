@@ -1084,6 +1084,11 @@
     "description": "A Kalman Filter used to interpolate bus travel times using NYC MTA real-time data."
   },
   {
+    "name": "transitcast",
+    "url": "https://github.com/OpenTransitTools/transitcast",
+    "description": "Uses GTFS and GTFS-RT vehicle position feed generating an estimated transition time it takes for each vehicle to move from scheduled stop to scheduled stop recording these an \"observed_stop_time\" table. These records can later be used to train a machine learning model to make vehicle travel predictions. Created by TriMet as part of an FTA IMI project."
+  },
+  {
     "name": "SIRI API",
     "url": "https://github.com/OneBusAway/onebusaway/wiki/SIRI-Resources",
     "description": "Java classes generated from the v1.0 and v1.3 SIRI schemas."
