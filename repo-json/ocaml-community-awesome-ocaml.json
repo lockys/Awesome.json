@@ -13,7 +13,7 @@
   },
   {
     "name": "Official OCaml Mailing List",
-    "url": "http://caml.inria.fr/resources/forums.en.html"
+    "url": "https://inbox.ocaml.org/caml-list/"
   },
   {
     "name": "OCaml Planet",
@@ -872,6 +872,11 @@
     "url": "https://github.com/inhabitedtype/httpaf"
   },
   {
+    "name": "piaf",
+    "url": "https://github.com/anmonteiro/piaf",
+    "description": "Client/server library for HTTP/1.X / HTTP/2 written entirely in OCaml."
+  },
+  {
     "name": "ocaml-dns – A pure OCaml implementation of the DNS protocol.",
     "url": "https://github.com/mirage/ocaml-dns"
   },
@@ -925,6 +930,10 @@
     "description": "package.json workflow for native development with Reason/OCaml."
   },
   {
+    "name": "dune – A composable and opinionated build system for OCaml (former jbuilder)",
+    "url": "https://github.com/ocaml/dune"
+  },
+  {
     "name": "Oasis",
     "url": "http://oasis.forge.ocamlcore.org/",
     "description": "A tool to integrate a configure, build and install system in your OCaml project. It helps to create standard entry points in your build system and allows external tools to analyse your project easily."
@@ -938,29 +947,12 @@
     "url": "https://github.com/ocaml-obuild/obuild"
   },
   {
-    "name": "dune – A composable and opinionated build system for OCaml (former jbuilder)",
-    "url": "https://github.com/ocaml/dune"
-  },
-  {
-    "name": "jenga – Monadic build system from Jane Street.",
-    "url": "https://github.com/janestreet/jenga"
-  },
-  {
-    "name": "ocamlbuild — Build system provided with the compiler.",
-    "url": "http://ocaml.org/learn/tutorials/ocamlbuild/"
-  },
-  {
     "name": "ocaml-makefile — Easy to use Makefile for small to medium-sized OCaml-projects.",
     "url": "https://github.com/mmottl/ocaml-makefile"
   },
   {
     "name": "topkg — OPAM-aware packaging system using ocamlbuild.",
     "url": "https://github.com/dbuenzli/topkg"
-  },
-  {
-    "name": "Namespaces",
-    "url": "https://github.com/aantron/namespaces",
-    "description": "ocamlbuild plugin that converts your directory tree into nested modules."
   },
   {
     "name": "Bazel",
@@ -1203,12 +1195,22 @@
     "description": "Collision-resistant IDs for server scalability & database performance."
   },
   {
+    "name": "Uuidm",
+    "url": "https://erratique.ch/software/uuidm",
+    "description": "Uuidm is an OCaml module implementing 128 bits universally unique identifiers version 3, 5 (name based with MD5, SHA-1 hashing) and 4 (random based) according to RFC 4122."
+  },
+  {
     "name": "Opium – Sinatra like web toolkit for OCaml.",
     "url": "https://github.com/rgrinberg/opium"
   },
   {
     "name": "Ocsigen Eliom – Eliom is a full-featured multi-tier framework, for developing multi-platform Web and mobile apps as 100% OCaml distributed applications. It can also be used for more traditional Web or mobile apps: Web sites, single page applications, REST API, etc.",
     "url": "http://ocsigen.org/eliom/"
+  },
+  {
+    "name": "Dream",
+    "url": "https://aantron.github.io/dream/",
+    "description": "Tidy Web framework for OCaml and ReasonML"
   },
   {
     "name": "webmachine – A REST toolkit for OCaml. OCaml webmachine is a layer on top of cohttp that implements a state-machine-based HTTP request processor. It's particularly well-suited for writing RESTful APIs. As the name suggests, this is an OCaml port of the webmachine project.",
@@ -1247,9 +1249,9 @@
     "description": "Easily import and export CommonJS modules from a js_of_ocaml project."
   },
   {
-    "name": "BuckleScript",
-    "url": "https://github.com/bloomberg/bucklescript",
-    "description": "BuckleScript is backend for OCaml to generate debuggable Javascript. It enables OCaml to integrate Javascript platform in a seamless way."
+    "name": "ReScript",
+    "url": "https://rescript-lang.org/",
+    "description": "ReScript is a robustly typed language that compiles to efficient and human-readable JavaScript."
   },
   {
     "name": "ocaml-uri – RFC3986 URI parsing library.",
