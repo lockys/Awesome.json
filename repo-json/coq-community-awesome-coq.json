@@ -342,7 +342,42 @@
   {
     "name": "coq-tools",
     "url": "https://github.com/JasonGross/coq-tools",
-    "description": "Scripts to help construct small reproducing examples of bugs, remove unneeded imports, etc."
+    "description": "Scripts for manipulating Coq developments."
+  },
+  {
+    "name": "find-bug.py",
+    "url": "https://github.com/JasonGross/coq-tools/blob/master/find-bug.py",
+    "description": "Automatically minimizes source files producing an error, creating small test cases for Coq bugs."
+  },
+  {
+    "name": "absolutize-imports.py",
+    "url": "https://github.com/JasonGross/coq-tools/blob/master/absolutize-imports.py",
+    "description": "Processes source files to make loading of dependencies robust against shadowing of file names."
+  },
+  {
+    "name": "inline-imports.py",
+    "url": "https://github.com/JasonGross/coq-tools/blob/master/inline-imports.py",
+    "description": "Creates stand-alone source files from developments by inlining the loading of all dependencies."
+  },
+  {
+    "name": "minimize-requires.py",
+    "url": "https://github.com/JasonGross/coq-tools/blob/master/minimize-requires.py",
+    "description": "Removes loading of unused dependencies."
+  },
+  {
+    "name": "move-requires.py",
+    "url": "https://github.com/JasonGross/coq-tools/blob/master/move-requires.py",
+    "description": "Moves all dependency loading statements to the top of source files."
+  },
+  {
+    "name": "move-vernaculars.py",
+    "url": "https://github.com/JasonGross/coq-tools/blob/master/move-vernaculars.py",
+    "description": "Lifts many vernacular commands and inner lemmas out of proof script blocks."
+  },
+  {
+    "name": "proof-using-helper.py",
+    "url": "https://github.com/JasonGross/coq-tools/blob/master/proof-using-helper.py",
+    "description": "Modifies source files to include proof annotations for faster parallel proving."
   },
   {
     "name": "Cosette",
