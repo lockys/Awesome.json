@@ -7,7 +7,7 @@
   {
     "name": "Atomic Red Team (ART)",
     "url": "https://github.com/redcanaryco/atomic-red-team",
-    "description": "Small and highly portable detection tests mapped to the Mitre ATT&CK Framework."
+    "description": "Small and highly portable detection tests mapped to the MITRE ATT&CK Framework."
   },
   {
     "name": "AutoTTP",
@@ -145,7 +145,7 @@
     "description": "Steve Anson's book on Incident Response."
   },
   {
-    "name": "DFIR intro",
+    "name": "Introduction to DFIR",
     "url": "https://medium.com/@sroberts/introduction-to-dfir-d35d5de4c180/",
     "description": "By Scott J. Roberts."
   },
@@ -175,7 +175,12 @@
     "description": "Community driven site providing a list of searches that can be implemented in and executed with a variety of common security tools."
   },
   {
-    "name": "Sans DFIR mailing list",
+    "name": "Digital Forensics Discord Server",
+    "url": "https://discordapp.com/invite/JUqe9Ek",
+    "description": "Community of 8,000+ working professionals from Law Enforcement, Private Sector, and Forensic Vendors. Additionally, plenty of students and hobbyists! Guide here."
+  },
+  {
+    "name": "SANS DFIR mailing list",
     "url": "https://lists.sans.org/mailman/listinfo/dfir",
     "description": "Mailing list by SANS for DFIR."
   },
@@ -275,11 +280,6 @@
     "description": "Cybersecurity incident management platform designed with agility and speed in mind. It allows for easy creation, tracking, and reporting of cybersecurity incidents and is useful for CSIRTs, CERTs and SOCs alike."
   },
   {
-    "name": "KAPE",
-    "url": "https://www.kroll.com/en/services/cyber-risk/investigate-and-respond/kroll-artifact-parser-extractor-kape",
-    "description": "A triage tool that finds the most prevalent digital artifacts and then parses them quickly. Great and thorough when time is of the essence."
-  },
-  {
     "name": "RTIR",
     "url": "https://www.bestpractical.com/rtir/",
     "description": "Request Tracker for Incident Response (RTIR) is the premier open source incident handling system targeted for computer security teams. We worked with over a dozen CERT and CSIRT teams around the world to help you handle the ever-increasing volume of incident reports. RTIR builds on all the features of Request Tracker."
@@ -322,7 +322,7 @@
   {
     "name": "PALADIN",
     "url": "https://sumuri.com/software/paladin/",
-    "description": "Modified Linux distribution to perform various forenics task in a forensically sound manner. It comes with many open source forensics tools included."
+    "description": "Modified Linux distribution to perform various forensics task in a forensically sound manner. It comes with many open source forensics tools included."
   },
   {
     "name": "Security Onion",
@@ -337,7 +337,7 @@
   {
     "name": "FastIR Collector Linux",
     "url": "https://github.com/SekoiaLab/Fastir_Collector_Linux",
-    "description": "FastIR for Linux collects different artefacts on live Linux and records the results in csv files."
+    "description": "FastIR for Linux collects different artifacts on live Linux and records the results in CSV files."
   },
   {
     "name": "AppCompatProcessor",
@@ -367,7 +367,7 @@
   {
     "name": "Log Parser Lizard",
     "url": "https://lizard-labs.com/log_parser_lizard.aspx",
-    "description": "Execute SQL queries against structured log data: server logs, Windows Events, file system, Active Directory, log4net logs, comma/tab separated text, XML or JSON files. Also provides a GUI to Microsoft Logparser 2.2 with powerful UI elements: syntax editor, data grid, chart, pivot table, dashboard, query manager and more."
+    "description": "Execute SQL queries against structured log data: server logs, Windows Events, file system, Active Directory, log4net logs, comma/tab separated text, XML or JSON files. Also provides a GUI to Microsoft LogParser 2.2 with powerful UI elements: syntax editor, data grid, chart, pivot table, dashboard, query manager and more."
   },
   {
     "name": "Lorg",
@@ -482,7 +482,7 @@
   {
     "name": "OSForensics",
     "url": "http://www.osforensics.com/",
-    "description": "Tool to acquire live memory on 32bit and 64bit systems. A dump of an individual process’s memory space or physical memory dump can be done."
+    "description": "Tool to acquire live memory on 32-bit and 64-bit systems. A dump of an individual process’s memory space or physical memory dump can be done."
   },
   {
     "name": "Knockknock",
@@ -507,7 +507,7 @@
   {
     "name": "Eric Zimmerman Tools",
     "url": "https://ericzimmerman.github.io/",
-    "description": "An updated list of forensic tools created by Eric Zimmerman, an instructor for SANS institute."
+    "description": "An updated list of forensic tools created by Eric Zimmerman, an instructor for SANS Institute."
   },
   {
     "name": "List of various Security APIs",
@@ -567,12 +567,12 @@
   {
     "name": "Kansa",
     "url": "https://github.com/davehull/Kansa/",
-    "description": "Modular incident response framework in Powershell."
+    "description": "Modular incident response framework in PowerShell."
   },
   {
     "name": "Munin",
     "url": "https://github.com/Neo23x0/munin",
-    "description": "Online hash checker for Virustotal and other services."
+    "description": "Online hash checker for VirusTotal and other services."
   },
   {
     "name": "PowerSponse",
@@ -582,7 +582,7 @@
   {
     "name": "PyaraScanner",
     "url": "https://github.com/nogoodconfig/pyarascanner",
-    "description": "Very simple multithreaded many-rules to many-files YARA scanning Python script for malware zoos and IR."
+    "description": "Very simple multi-threaded many-rules to many-files YARA scanning Python script for malware zoos and IR."
   },
   {
     "name": "rastrea2r",
@@ -727,7 +727,7 @@
   {
     "name": "Metadefender Cloud",
     "url": "https://www.metadefender.com",
-    "description": "Free threat intelligence platform providing multiscanning, data sanitization and vulnerability assesment of files."
+    "description": "Free threat intelligence platform providing multiscanning, data sanitization and vulnerability assessment of files."
   },
   {
     "name": "Radare2",
@@ -812,12 +812,12 @@
   {
     "name": "DFIR ORC",
     "url": "https://dfir-orc.github.io/",
-    "description": "DFIR ORC is a collection of specialized tools dedicated to reliably parse and collect critical artefacts such as the MFT, registry hives or event logs. DFIR ORC collects data, but does not analyze it: it is not meant to triage machines. It provides a forensically relevant snapshot of machines running Microsoft Windows. The code can be found on GitHub."
+    "description": "DFIR ORC is a collection of specialized tools dedicated to reliably parse and collect critical artifacts such as the MFT, registry hives or event logs. DFIR ORC collects data, but does not analyze it: it is not meant to triage machines. It provides a forensically relevant snapshot of machines running Microsoft Windows. The code can be found on GitHub."
   },
   {
     "name": "FastIR Collector",
     "url": "https://github.com/SekoiaLab/Fastir_Collector",
-    "description": "Tool that collects different artefacts on live Windows systems and records the results in csv files. With the analyses of these artefacts, an early compromise can be detected."
+    "description": "Tool that collects different artifacts on live Windows systems and records the results in csv files. With the analyses of these artifacts, an early compromise can be detected."
   },
   {
     "name": "Fibratus",
@@ -845,6 +845,11 @@
     "description": "Incident Response Triage - Windows Evidence Collection for Forensic Analysis."
   },
   {
+    "name": "KAPE",
+    "url": "https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape",
+    "description": "Kroll Artifact Parser and Extractor (KAPE) by Eric Zimmerman. A triage tool that finds the most prevalent digital artifacts and then parses them quickly. Great and thorough when time is of the essence."
+  },
+  {
     "name": "LOKI",
     "url": "https://github.com/Neo23x0/Loki",
     "description": "Free IR scanner for scanning endpoint with yara rules and other indicators(IOCs)."
@@ -852,7 +857,7 @@
   {
     "name": "MEERKAT",
     "url": "https://github.com/TonyPhipps/Meerkat",
-    "description": "PowerShell-based triage and threathunting for Windows."
+    "description": "PowerShell-based triage and threat hunting for Windows."
   },
   {
     "name": "Panorama",
