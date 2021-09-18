@@ -607,7 +607,7 @@
   {
     "name": "LiveKit",
     "url": "https://livekit.io/",
-    "description": "Modern, scalable WebRTC conferencing platform with client SDKs. (Demo), (Source Code) Apache-2.0 Go"
+    "description": "Modern, scalable WebRTC conferencing platform with client SDKs. (Demo, Source Code) Apache-2.0 Go"
   },
   {
     "name": "Matrix Console Web",
@@ -820,6 +820,26 @@
     "description": "Scalable no-SPOF IMAP/POP3 mail server. (Source Code) EUPL-1.2 Nodejs"
   },
   {
+    "name": "Cyrus IMAP",
+    "url": "https://www.cyrusimap.org/",
+    "description": "Email (IMAP/POP3), contacts and calendar server. (Source Code) BSD-3-Clause-Attribution C"
+  },
+  {
+    "name": "Dovecot",
+    "url": "https://www.dovecot.org/",
+    "description": "IMAP and POP3 server written primarily with security in mind. (Source Code) MIT/LGPL-2.1 C"
+  },
+  {
+    "name": "MailForm",
+    "url": "https://github.com/Feuerhamster/mailform",
+    "description": "Lightweight self-hosted open source alternative to Formspree and SendGrid. Apache-2.0 Nodejs"
+  },
+  {
+    "name": "Piler",
+    "url": "https://www.mailpiler.org/wiki/start",
+    "description": "feature-rich open source email archiving solution. (Source Code) GPL-3.0 C"
+  },
+  {
     "name": "chasquid",
     "url": "https://blitiri.com.ar/p/chasquid/",
     "description": "SMTP (email) server with a focus on simplicity, security, and ease of operation. (Source Code) Apache-2.0 Go"
@@ -880,29 +900,14 @@
     "description": "Mail Transfer Library built on Python. (Source Code) MIT Python"
   },
   {
-    "name": "Cyrus IMAP",
-    "url": "https://www.cyrusimap.org/",
-    "description": "Email (IMAP/POP3), contacts and calendar server. (Source Code) BSD-3-Clause-Attribution C"
-  },
-  {
-    "name": "Dovecot",
-    "url": "https://www.dovecot.org/",
-    "description": "IMAP and POP3 server written primarily with security in mind. (Source Code) MIT/LGPL-2.1 C"
-  },
-  {
-    "name": "MailForm",
-    "url": "https://github.com/Feuerhamster/mailform",
-    "description": "Lightweight self-hosted open source alternative to Formspree and SendGrid. Apache-2.0 Nodejs"
-  },
-  {
-    "name": "Piler",
-    "url": "https://www.mailpiler.org/wiki/start",
-    "description": "feature-rich open source email archiving solution. (Source Code) GPL-3.0 C"
-  },
-  {
     "name": "Dada Mail",
     "url": "https://dadamailproject.com/",
     "description": "Web-based list management system that can be used for announcement lists and/or discussion lists. (Source Code) GPL-2.0 Perl"
+  },
+  {
+    "name": "HyperKitty",
+    "url": "https://wiki.list.org/HyperKitty",
+    "description": "Open source Django application to provide a web interface to access GNU Mailman v3 archives. (Demo, Source Code) GPL-3.0 Python"
   },
   {
     "name": "Listmonk",
@@ -928,11 +933,6 @@
     "name": "Mautic",
     "url": "https://www.mautic.org/",
     "description": "Mautic is marketing automation software (email, social and more). (Source Code) GPL-3.0 PHP"
-  },
-  {
-    "name": "HyperKitty",
-    "url": "https://wiki.list.org/HyperKitty",
-    "description": "Open source Django application to provide a web interface to access GNU Mailman v3 archives. (Demo, Source Code) GPL-3.0 Python"
   },
   {
     "name": "phpList",
@@ -1810,29 +1810,164 @@
     "description": "Writing software for starting a minimalist, federated blog — or an entire community. (Source Code) AGPL-3.0 Go"
   },
   {
-    "name": "kcal",
-    "url": "https://github.com/kcal-app/kcal",
-    "description": "Track nutritional information about foods and recipes, set goals, and record a food journal to help along the way. Kcal is a personal system that focuses on direct control of inputs and a minimal, easy to use recipe presentation for preparing meals. (Demo) MPL-2.0 PHP"
+    "name": "blocky",
+    "url": "https://github.com/0xERR0R/blocky",
+    "description": "Fast and lightweight DNS proxy (like Pi-hole) as ad-blocker for local network with many features. Apache-2.0 Go"
   },
   {
-    "name": "Mealie",
-    "url": "https://hay-kot.github.io/mealie/",
-    "description": "Material design inspired recipe manager with category and tag management, shopping-lists, meal-planner, and site customizations. Mealie is focused on simple user interactions to keep the whole family using the app. (Source Code) MIT Python"
+    "name": "CoreDNS",
+    "url": "https://coredns.io/",
+    "description": "Plugin driven DNS Server with support for proxying to Google's DNS-over-HTTPS. (Source Code) Apache-2.0 Go"
   },
   {
-    "name": "OpenEats",
-    "url": "https://github.com/open-eats/OpenEats",
-    "description": "Recipe management site that allows users to create, store, share and rate recipes, create grocery lists, and more. (Demo) MIT Python"
+    "name": "Maza ad blocking",
+    "url": "https://maza-ad-blocking.andros.dev/",
+    "description": "Local ad blocker. Like Pi-hole but local and using your operating system. (Source Code) Apache-2.0 Bash"
   },
   {
-    "name": "RecipeSage",
-    "url": "https://github.com/julianpoy/recipesage",
-    "description": "A recipe keeper, meal plan organizer, and shopping list manager that can import recipes directly from any URL. (Demo) AGPL-3.0 Nodejs"
+    "name": "nsupdate.info",
+    "url": "https://www.nsupdate.info/",
+    "description": "nsupdate.info is a dynamic DNS service. (Demo, Source Code) BSD-3-Clause Python"
   },
   {
-    "name": "Tandoor Recipes",
-    "url": "https://docs.tandoor.dev/",
-    "description": "Django application to manage, tag and search recipes using either built-in models or external storage providers hosting PDFs, Images or other files. (Demo, Source Code) MIT Python"
+    "name": "SPF Toolbox",
+    "url": "https://spftoolbox.com",
+    "description": "Application to look up DNS records such as SPF, MX, Whois, and more. (Source Code) MIT PHP"
+  },
+  {
+    "name": "DOCAT",
+    "url": "https://github.com/randombenj/docat",
+    "description": "Host your docs. Simple. Versioned. Fancy. MIT Python/Docker"
+  },
+  {
+    "name": "Docspell",
+    "url": "https://docspell.org",
+    "description": "Auto-tagging document organizer and archive. (Source Code) GPL-3.0 Scala/Java"
+  },
+  {
+    "name": "EveryDocs",
+    "url": "https://github.com/jonashellmann/everydocs-core/",
+    "description": "A simple Document Management System for private use with basic functionality to organize your documents digitally. GPL-3.0 Ruby"
+  },
+  {
+    "name": "I, Librarian",
+    "url": "https://i-librarian.net",
+    "description": "I, Librarian can organize PDF papers and office documents. It provides a lot of extra features for students and research groups both in industry and academia. (Demo, Source Code) GPL-3.0 PHP"
+  },
+  {
+    "name": "Mayan EDMS",
+    "url": "https://www.mayan-edms.com",
+    "description": "Free Open Source Electronic Document Management System. An electronic vault for your documents with preview generation, OCR, and automatic categorization among other features. (Source Code) Apache-2.0 Python"
+  },
+  {
+    "name": "Paperless-ng",
+    "url": "https://github.com/jonaswinkler/paperless-ng",
+    "description": "A fork of paperless, adding a new interface and many other changes under the hood. Scan, index, and archive all of your paper documents. GPL-3.0 Python"
+  },
+  {
+    "name": "Papermerge",
+    "url": "https://www.papermerge.com",
+    "description": "Open Source Document Management System focused on scanned documents (electronic archives). Features file browsing in similar way to dropbox/google drive. OCR, full text search, text overlay/selection. (Source Code) Apache-2.0 Python"
+  },
+  {
+    "name": "paper{s}pace",
+    "url": "https://dedicatedcode.com/projects/",
+    "description": "a small web application to manage all your offline documents. Provides a searchable storage for your documents and reminds you of upcoming tasks. (Source Code) MIT Java"
+  },
+  {
+    "name": "Teedy",
+    "url": "https://teedy.io/",
+    "description": "(Ex SismicsDocs) Lightweight document management system packed with all the features you can expect from big expensive solutions. (Source Code) GPL-2.0 Java"
+  },
+  {
+    "name": "BicBucStriim",
+    "url": "https://projekte.textmulch.de/bicbucstriim/",
+    "description": "Provides web-based access to your Calibre Library's e-book collection. (Source Code) MIT PHP"
+  },
+  {
+    "name": "Calibre Web",
+    "url": "https://github.com/janeczku/calibre-web",
+    "description": "Web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. GPL-3.0 Python"
+  },
+  {
+    "name": "Calibre",
+    "url": "https://calibre-ebook.com/",
+    "description": "E-book library manager that can view, convert, and catalog e-books in most of the major e-book formats and provides a built-in Web server for remote clients. (Demo, Source Code) GPL-3.0 Python"
+  },
+  {
+    "name": "COPS",
+    "url": "https://blog.slucas.fr/en/oss/calibre-opds-php-server",
+    "description": "Lightweight e-book server alternative to Calibre content server or Calibre2OPDS. (Demo, Source Code) GPL-2.0 PHP"
+  },
+  {
+    "name": "Kavita",
+    "url": "https://kareadita.github.io/",
+    "description": "Cross-platform manga server and web reader with user management, ratings and reviews, and metatdata support. (Source Code) GPL-3.0 .NET Core"
+  },
+  {
+    "name": "Komga",
+    "url": "https://komga.org",
+    "description": "Media server for comics/mangas/BDs with API and OPDS support, a modern web interface for exploring your libraries, as well as a web reader. (Source Code) MIT Java/Docker"
+  },
+  {
+    "name": "Mango",
+    "url": "https://github.com/hkalexling/Mango",
+    "description": "Manga server and web reader with a built-in MangaDex downloader. MIT Crystal"
+  },
+  {
+    "name": "pyShelf",
+    "url": "https://github.com/th3r00t/pyShelf",
+    "description": "Lightweight Ebook Server. GPL-3.0 Python"
+  },
+  {
+    "name": "Tanoshi",
+    "url": "https://github.com/faldez/tanoshi",
+    "description": "Selfhosted web manga reader with extensions. MIT Rust"
+  },
+  {
+    "name": "The Epube",
+    "url": "https://tt-rss.org/the-epube",
+    "description": "Self-hosted web EPUB reader using EPUB.js, Bootstrap, and Calibre. (Source Code) GPL-3.0 PHP"
+  },
+  {
+    "name": "DSpace",
+    "url": "https://duraspace.org/dspace/",
+    "description": "Turnkey repository application providing durable access to digital resources. (Source Code) BSD-3-Clause Java"
+  },
+  {
+    "name": "EPrints",
+    "url": "https://www.eprints.org/",
+    "description": "Digital document management system with a flexible metadata and workflow model primarily aimed at academic institutions. (Demo, Source Code) GPL-3.0 Perl"
+  },
+  {
+    "name": "Fedora Commons Repository",
+    "url": "https://fedorarepository.org/",
+    "description": "Robust and modular repository system for the management and dissemination of digital content especially suited for digital libraries and archives, both for access and preservation. (Source Code) Apache-2.0 Java"
+  },
+  {
+    "name": "Islandora",
+    "url": "https://islandora.ca/",
+    "description": "Drupal module for browsing and managing Fedora-based digital repositories. (Source Code) GPL-3.0 PHP"
+  },
+  {
+    "name": "Samvera Hyrax",
+    "url": "https://samvera.org/",
+    "description": "Front-end for the Samvera framework, which itself is a Ruby on Rails application for browsing and managing Fedora-based digital repositories. (Source Code) Apache-2.0 Ruby"
+  },
+  {
+    "name": "Evergreen",
+    "url": "https://evergreen-ils.org",
+    "description": "Highly-scalable software for libraries that helps library patrons find library materials, and helps libraries manage, catalog, and circulate those materials. (Source Code) GPL-2.0 PL/pgSQL"
+  },
+  {
+    "name": "Koha",
+    "url": "https://koha-community.org/",
+    "description": "Enterprise-class ILS with modules for acquisitions, circulation, cataloging, label printing, offline circulation for when Internet access is not available, and much more. (Demo, Source Code) GPL-3.0 Perl"
+  },
+  {
+    "name": "RERO ILS",
+    "url": "https://rero21.ch/",
+    "description": "Large-scale ILS that can be run as a service with consortial features, intended primarily for library networks. Includes most standard modules (circulation, acquisitions, cataloging,...) and a web-based public and professional interface. (Demo, Source Code) AGPL-3.0 Python/Other"
   },
   {
     "name": "Aimeos",
@@ -1950,166 +2085,6 @@
     "description": "Free open-source, self-hosted CMS for classifieds sites. (Source Code) GPL-3.0 PHP"
   },
   {
-    "name": "blocky",
-    "url": "https://github.com/0xERR0R/blocky",
-    "description": "Fast and lightweight DNS proxy (like Pi-hole) as ad-blocker for local network with many features. Apache-2.0 Go"
-  },
-  {
-    "name": "CoreDNS",
-    "url": "https://coredns.io/",
-    "description": "Plugin driven DNS Server with support for proxying to Google's DNS-over-HTTPS. (Source Code) Apache-2.0 Go"
-  },
-  {
-    "name": "Maza ad blocking",
-    "url": "https://maza-ad-blocking.andros.dev/",
-    "description": "Local ad blocker. Like Pi-hole but local and using your operating system. (Source Code) Apache-2.0 Bash"
-  },
-  {
-    "name": "nsupdate.info",
-    "url": "https://www.nsupdate.info/",
-    "description": "nsupdate.info is a dynamic DNS service. (Demo, Source Code) BSD-3-Clause Python"
-  },
-  {
-    "name": "SPF Toolbox",
-    "url": "https://spftoolbox.com",
-    "description": "Application to look up DNS records such as SPF, MX, Whois, and more. (Source Code) MIT PHP"
-  },
-  {
-    "name": "DOCAT",
-    "url": "https://github.com/randombenj/docat",
-    "description": "Host your docs. Simple. Versioned. Fancy. MIT Python/Docker"
-  },
-  {
-    "name": "Docspell",
-    "url": "https://docspell.org",
-    "description": "Auto-tagging document organizer and archive. (Source Code) GPL-3.0 Scala/Java"
-  },
-  {
-    "name": "EveryDocs",
-    "url": "https://github.com/jonashellmann/everydocs-core/",
-    "description": "A simple Document Management System for private use with basic functionality to organize your documents digitally. GPL-3.0 Ruby"
-  },
-  {
-    "name": "I, Librarian",
-    "url": "https://i-librarian.net",
-    "description": "I, Librarian can organize PDF papers and office documents. It provides a lot of extra features for students and research groups both in industry and academia. (Demo, Source Code) GPL-3.0 PHP"
-  },
-  {
-    "name": "Mayan EDMS",
-    "url": "https://www.mayan-edms.com",
-    "description": "Free Open Source Electronic Document Management System. An electronic vault for your documents with preview generation, OCR, and automatic categorization among other features. (Source Code) Apache-2.0 Python"
-  },
-  {
-    "name": "paper{s}pace",
-    "url": "https://dedicatedcode.com/projects/",
-    "description": "a small web application to manage all your offline documents. Provides a searchable storage for your documents and reminds you of upcoming tasks. (Source Code) MIT Java"
-  },
-  {
-    "name": "Paperless-ng",
-    "url": "https://github.com/jonaswinkler/paperless-ng",
-    "description": "A fork of paperless, adding a new interface and many other changes under the hood. Scan, index, and archive all of your paper documents. GPL-3.0 Python"
-  },
-  {
-    "name": "Papermerge",
-    "url": "https://www.papermerge.com",
-    "description": "Open Source Document Management System focused on scanned documents (electronic archives). Features file browsing in similar way to dropbox/google drive. OCR, full text search, text overlay/selection. (Source Code) Apache-2.0 Python"
-  },
-  {
-    "name": "Teedy",
-    "url": "https://teedy.io/",
-    "description": "(Ex SismicsDocs) Lightweight document management system packed with all the features you can expect from big expensive solutions. (Source Code) GPL-2.0 Java"
-  },
-  {
-    "name": "BicBucStriim",
-    "url": "https://projekte.textmulch.de/bicbucstriim/",
-    "description": "Provides web-based access to your Calibre Library's e-book collection. (Source Code) MIT PHP"
-  },
-  {
-    "name": "Calibre Web",
-    "url": "https://github.com/janeczku/calibre-web",
-    "description": "Web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. GPL-3.0 Python"
-  },
-  {
-    "name": "Calibre",
-    "url": "https://calibre-ebook.com/",
-    "description": "E-book library manager that can view, convert, and catalog e-books in most of the major e-book formats and provides a built-in Web server for remote clients. (Demo, Source Code) GPL-3.0 Python"
-  },
-  {
-    "name": "COPS",
-    "url": "https://blog.slucas.fr/en/oss/calibre-opds-php-server",
-    "description": "Lightweight e-book server alternative to Calibre content server or Calibre2OPDS. (Demo, Source Code) GPL-2.0 PHP"
-  },
-  {
-    "name": "Kavita",
-    "url": "https://kareadita.github.io/",
-    "description": "Cross-platform manga server and web reader with user management, ratings and reviews, and metatdata support. (Source Code) GPL-3.0 .NET Core"
-  },
-  {
-    "name": "Komga",
-    "url": "https://komga.org",
-    "description": "Media server for comics/mangas/BDs with API and OPDS support, a modern web interface for exploring your libraries, as well as a web reader. (Source Code) MIT Java/Docker"
-  },
-  {
-    "name": "Mango",
-    "url": "https://github.com/hkalexling/Mango",
-    "description": "Manga server and web reader with a built-in MangaDex downloader. MIT Crystal"
-  },
-  {
-    "name": "pyShelf",
-    "url": "https://github.com/th3r00t/pyShelf",
-    "description": "Lightweight Ebook Server. GPL-3.0 Python"
-  },
-  {
-    "name": "Tanoshi",
-    "url": "https://github.com/faldez/tanoshi",
-    "description": "Selfhosted web manga reader with extensions. MIT Rust"
-  },
-  {
-    "name": "The Epube",
-    "url": "https://tt-rss.org/the-epube",
-    "description": "Self-hosted web EPUB reader using EPUB.js, Bootstrap, and Calibre. (Source Code) GPL-3.0 PHP"
-  },
-  {
-    "name": "Evergreen",
-    "url": "https://evergreen-ils.org",
-    "description": "Highly-scalable software for libraries that helps library patrons find library materials, and helps libraries manage, catalog, and circulate those materials. (Source Code) GPL-2.0 PL/pgSQL"
-  },
-  {
-    "name": "Koha",
-    "url": "https://koha-community.org/",
-    "description": "Enterprise-class ILS with modules for acquisitions, circulation, cataloging, label printing, offline circulation for when Internet access is not available, and much more. (Demo, Source Code) GPL-3.0 Perl"
-  },
-  {
-    "name": "RERO ILS",
-    "url": "https://rero21.ch/",
-    "description": "Large-scale ILS that can be run as a service with consortial features, intended primarily for library networks. Includes most standard modules (circulation, acquisitions, cataloging,...) and a web-based public and professional interface. (Demo, Source Code) AGPL-3.0 Python/Other"
-  },
-  {
-    "name": "DSpace",
-    "url": "https://duraspace.org/dspace/",
-    "description": "Turnkey repository application providing durable access to digital resources. (Source Code) BSD-3-Clause Java"
-  },
-  {
-    "name": "EPrints",
-    "url": "https://www.eprints.org/",
-    "description": "Digital document management system with a flexible metadata and workflow model primarily aimed at academic institutions. (Demo, Source Code) GPL-3.0 Perl"
-  },
-  {
-    "name": "Fedora Commons Repository",
-    "url": "https://fedorarepository.org/",
-    "description": "Robust and modular repository system for the management and dissemination of digital content especially suited for digital libraries and archives, both for access and preservation. (Source Code) Apache-2.0 Java"
-  },
-  {
-    "name": "Islandora",
-    "url": "https://islandora.ca/",
-    "description": "Drupal module for browsing and managing Fedora-based digital repositories. (Source Code) GPL-3.0 PHP"
-  },
-  {
-    "name": "Samvera Hyrax",
-    "url": "https://samvera.org/",
-    "description": "Front-end for the Samvera framework, which itself is a Ruby on Rails application for browsing and managing Fedora-based digital repositories. (Source Code) Apache-2.0 Ruby"
-  },
-  {
     "name": "CommaFeed",
     "url": "https://www.commafeed.com/",
     "description": "Google Reader inspired self-hosted RSS reader. (Source Code) Apache-2.0 Java"
@@ -2120,9 +2095,24 @@
     "description": "FeedHQ is a web-based feed reader. (Source Code) BSD-3-Clause Python"
   },
   {
+    "name": "Feedpushr",
+    "url": "https://github.com/ncarlier/feedpushr",
+    "description": "Powerful RSS aggregator, able to transform and send articles to many outputs. Single binary, extensible with plugins. GPL-3.0 Go"
+  },
+  {
     "name": "FreshRSS",
     "url": "https://freshrss.org/",
     "description": "Self-hostable RSS feed aggregator. (Demo, Source Code, Clients) AGPL-3.0 PHP"
+  },
+  {
+    "name": "Full-Text RSS",
+    "url": "https://fivefilters.org/content-only",
+    "description": "Extract article content from news sites and blogs and convert RSS feeds that contain only extracts of stories to full-text feeds. Developed by FiveFilters.org. (Source Code) GPL-3.0 PHP"
+  },
+  {
+    "name": "Goeland",
+    "url": "https://github.com/slurdge/goeland",
+    "description": "Reads RSS/Atom feeds and filter/digest them to create beautiful emails. MIT Go"
   },
   {
     "name": "gritttt-rss",
@@ -2180,14 +2170,44 @@
     "description": "Newspipe is a web news reader. (Demo) AGPL-3.0 Python"
   },
   {
+    "name": "PolitePol",
+    "url": "https://github.com/taroved/pol",
+    "description": "Online tool for creation of RSS feeds for any web page. (Demo) MIT Python"
+  },
+  {
     "name": "reader",
     "url": "https://github.com/lemon24/reader",
     "description": "A Python feed reader web app and library (so you can use it to build your own), with only standard library and pure-Python dependencies. BSD-3-Clause Python"
   },
   {
+    "name": "RSS Fulltext Proxy",
+    "url": "https://github.com/Kombustor/rss-fulltext-proxy",
+    "description": "Mirrors RSS feeds to return the full content of the items, extracted from the website. MIT Nodejs"
+  },
+  {
+    "name": "RSS Merger",
+    "url": "https://github.com/taophp/rss-merger",
+    "description": "PHP script which will take multiple RSS / Atom feeds as input and merge them into a single RSS feed. GPL-2.0 PHP"
+  },
+  {
     "name": "RSS Monster",
     "url": "https://github.com/pietheinstrengholt/rssmonster",
     "description": "RSS Monster is an easy to use web-based RSS aggregator and reader compatible with the Fever API, created as an alternative for Google Reader. MIT PHP"
+  },
+  {
+    "name": "RSS-Bridge",
+    "url": "https://github.com/RSS-Bridge/rss-bridge",
+    "description": "rss-bridge is a PHP project capable of generating ATOM feeds for websites which don't have one. Unlicense PHP"
+  },
+  {
+    "name": "RSS2EMail",
+    "url": "https://github.com/rss2email/rss2email",
+    "description": "Fetches RSS/Atom-feeds and pushes new Content to any email-receiver, supports OPML. GPL-2.0 Python"
+  },
+  {
+    "name": "Screaming Liquid Tiger",
+    "url": "https://github.com/herrbischoff/screaming-liquid-tiger",
+    "description": "Simple script to automatically generate valid RSS and Atom feeds from a list of media files in the same folder. MIT PHP"
   },
   {
     "name": "Selfoss",
@@ -2228,51 +2248,6 @@
     "name": "Winds ⚠",
     "url": "https://getstream.io/winds/",
     "description": "Open source and beautiful RSS reader built using React/Redux/Sails/Node and Stream. It showcases personalized feeds powered by the Stream API. (Demo, Source Code) BSD-3-Clause Nodejs"
-  },
-  {
-    "name": "Feedpushr",
-    "url": "https://github.com/ncarlier/feedpushr",
-    "description": "Powerful RSS aggregator, able to transform and send articles to many outputs. Single binary, extensible with plugins. GPL-3.0 Go"
-  },
-  {
-    "name": "Full-Text RSS",
-    "url": "https://fivefilters.org/content-only",
-    "description": "Extract article content from news sites and blogs and convert RSS feeds that contain only extracts of stories to full-text feeds. Developed by FiveFilters.org. (Source Code) GPL-3.0 PHP"
-  },
-  {
-    "name": "Goeland",
-    "url": "https://github.com/slurdge/goeland",
-    "description": "Reads RSS/Atom feeds and filter/digest them to create beautiful emails. MIT Go"
-  },
-  {
-    "name": "PolitePol",
-    "url": "https://github.com/taroved/pol",
-    "description": "Online tool for creation of RSS feeds for any web page. (Demo) MIT Python"
-  },
-  {
-    "name": "RSS Fulltext Proxy",
-    "url": "https://github.com/Kombustor/rss-fulltext-proxy",
-    "description": "Mirrors RSS feeds to return the full content of the items, extracted from the website. MIT Nodejs"
-  },
-  {
-    "name": "RSS Merger",
-    "url": "https://github.com/taophp/rss-merger",
-    "description": "PHP script which will take multiple RSS / Atom feeds as input and merge them into a single RSS feed. GPL-2.0 PHP"
-  },
-  {
-    "name": "RSS-Bridge",
-    "url": "https://github.com/RSS-Bridge/rss-bridge",
-    "description": "rss-bridge is a PHP project capable of generating ATOM feeds for websites which don't have one. Unlicense PHP"
-  },
-  {
-    "name": "RSS2EMail",
-    "url": "https://github.com/rss2email/rss2email",
-    "description": "Fetches RSS/Atom-feeds and pushes new Content to any email-receiver, supports OPML. GPL-2.0 Python"
-  },
-  {
-    "name": "Screaming Liquid Tiger",
-    "url": "https://github.com/herrbischoff/screaming-liquid-tiger",
-    "description": "Simple script to automatically generate valid RSS and Atom feeds from a list of media files in the same folder. MIT PHP"
   },
   {
     "name": "Git Annex",
@@ -2343,6 +2318,26 @@
     "name": "Z-Push",
     "url": "https://z-push.org/",
     "description": "Implementation of Microsoft’s ActiveSync protocol. (Source Code) AGPL-3.0 PHP"
+  },
+  {
+    "name": "Minio",
+    "url": "https://minio.io/",
+    "description": "Minio is an open source object storage server compatible with Amazon S3 APIs. (Source Code) Apache-2.0 Go"
+  },
+  {
+    "name": "SeaweedFS",
+    "url": "https://github.com/chrislusf/seaweedfs",
+    "description": "SeaweedFS is an open source distributed file system supporting WebDAV, S3 API, FUSE mount, HDFS, etc, optimized for lots of small files, and easy to add capacity. Apache-2.0 Go"
+  },
+  {
+    "name": "SFTPGo",
+    "url": "https://github.com/drakkan/sftpgo",
+    "description": "Flexible, fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support. AGPL-3.0 Go"
+  },
+  {
+    "name": "Zenko CloudServer",
+    "url": "https://www.zenko.io/cloudserver",
+    "description": "Zenko CloudServer, an open-source implementation of a server handling the Amazon S3 protocol. (Source Code) Apache-2.0 Nodejs"
   },
   {
     "name": "bittorrent-tracker",
@@ -2418,26 +2413,6 @@
     "name": "Transmission",
     "url": "https://transmissionbt.com/",
     "description": "Fast, easy, Free Bittorrent client. (Source Code) GPL-3.0 C"
-  },
-  {
-    "name": "Minio",
-    "url": "https://minio.io/",
-    "description": "Minio is an open source object storage server compatible with Amazon S3 APIs. (Source Code) Apache-2.0 Go"
-  },
-  {
-    "name": "SeaweedFS",
-    "url": "https://github.com/chrislusf/seaweedfs",
-    "description": "SeaweedFS is an open source distributed file system supporting WebDAV, S3 API, FUSE mount, HDFS, etc, optimized for lots of small files, and easy to add capacity. Apache-2.0 Go"
-  },
-  {
-    "name": "SFTPGo",
-    "url": "https://github.com/drakkan/sftpgo",
-    "description": "Flexible, fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support. AGPL-3.0 Go"
-  },
-  {
-    "name": "Zenko CloudServer",
-    "url": "https://www.zenko.io/cloudserver",
-    "description": "Zenko CloudServer, an open-source implementation of a server handling the Amazon S3 protocol. (Source Code) Apache-2.0 Nodejs"
   },
   {
     "name": "ass",
@@ -2575,6 +2550,11 @@
     "description": "Share files easily over the internet between authenticated and anonymous users (both ways) with resumable up- and downloads. GPL-3.0 Scala/Java"
   },
   {
+    "name": "transfer.sh",
+    "url": "https://transfer.sh",
+    "description": "Easy file sharing from the command line. (Source Code) MIT Go"
+  },
+  {
     "name": "Uguu",
     "url": "https://uguu.se/",
     "description": "Stores files and deletes after X amount of time. (Source Code) MIT PHP"
@@ -2603,11 +2583,6 @@
     "name": "Zipline",
     "url": "https://zipline.diced.me/",
     "description": "A lightweight, fast and reliable file sharing server that is commonly used with ShareX, offering a react-based Web UI and fast API. (Source Code) MIT Nodejs"
-  },
-  {
-    "name": "transfer.sh",
-    "url": "https://transfer.sh",
-    "description": "Easy file sharing from the command line. (Source Code) MIT Go"
   },
   {
     "name": "Apaxy",
@@ -4630,6 +4605,31 @@
     "description": "Wallabag, formerly Poche, is a web application allowing you to save articles to read them later with improved readability. (Demo, Source Code) MIT PHP"
   },
   {
+    "name": "kcal",
+    "url": "https://github.com/kcal-app/kcal",
+    "description": "Track nutritional information about foods and recipes, set goals, and record a food journal to help along the way. Kcal is a personal system that focuses on direct control of inputs and a minimal, easy to use recipe presentation for preparing meals. (Demo) MPL-2.0 PHP"
+  },
+  {
+    "name": "Mealie",
+    "url": "https://hay-kot.github.io/mealie/",
+    "description": "Material design inspired recipe manager with category and tag management, shopping-lists, meal-planner, and site customizations. Mealie is focused on simple user interactions to keep the whole family using the app. (Source Code) MIT Python"
+  },
+  {
+    "name": "OpenEats",
+    "url": "https://github.com/open-eats/OpenEats",
+    "description": "Recipe management site that allows users to create, store, share and rate recipes, create grocery lists, and more. (Demo) MIT Python"
+  },
+  {
+    "name": "RecipeSage",
+    "url": "https://github.com/julianpoy/recipesage",
+    "description": "A recipe keeper, meal plan organizer, and shopping list manager that can import recipes directly from any URL. (Demo) AGPL-3.0 Nodejs"
+  },
+  {
+    "name": "Tandoor Recipes",
+    "url": "https://docs.tandoor.dev/",
+    "description": "Django application to manage, tag and search recipes using either built-in models or external storage providers hosting PDFs, Images or other files. (Demo, Source Code) MIT Python"
+  },
+  {
     "name": "farmOS",
     "url": "https://farmos.org/",
     "description": "Web-based farm record keeping application. (Source Code) GPL-2.0 PHP"
@@ -4718,6 +4718,101 @@
     "name": "Yacy",
     "url": "https://yacy.net/en/index.html",
     "description": "Peer based, decentralized search engine server. (Demo, Source Code) GPL-2.0 Java"
+  },
+  {
+    "name": "Ansible-NAS",
+    "url": "https://github.com/DaveStephens/ansible-nas",
+    "description": "Build a full-featured home server with this playbook and an Ubuntu box. MIT YAML/Docker"
+  },
+  {
+    "name": "Bitsii Bridge ⚠",
+    "url": "https://gitlab.com/bitsii/Bitsii/-/wikis/home",
+    "description": "Easy to install self-hosting platform for Windows, MacOS, and Linux. Depends on a dynamic DNS provider and Let's Encrypt. (Source Code) MPL-2.0 Java/Other"
+  },
+  {
+    "name": "Cloudbox",
+    "url": "https://cloudbox.works",
+    "description": "Ansible-based solution for rapidly deploying a Docker containerized cloud media server. (Source Code) GPL-3.0 Shell/Ansible"
+  },
+  {
+    "name": "DietPi",
+    "url": "https://dietpi.com/",
+    "description": "Minimal Debian OS optimized for single-board computers, which allows you to easily install and manage several services for selfhosting at home. (Source Code) GPL-2.0 Shell"
+  },
+  {
+    "name": "DockSTARTer",
+    "url": "https://dockstarter.com/",
+    "description": "DockSTARTer helps you get started with home server apps running in Docker. (Source Code) MIT Shell"
+  },
+  {
+    "name": "DPlatform",
+    "url": "https://dfabric.github.io/DPlatform-Shell/",
+    "description": "Deploy self-hosted apps easily: simple, bloat-free, independent installation. (Source Code) MIT Shell"
+  },
+  {
+    "name": "FLAP",
+    "url": "https://www.flap.cloud",
+    "description": "Low maintenance framework to manage self-hosted services. (Source Code) AGPL-3.0 Docker/Shell"
+  },
+  {
+    "name": "FreedomBone",
+    "url": "https://freedombone.net/",
+    "description": "Home server configuration based on Debian. (Source Code) AGPL-3.0 Shell"
+  },
+  {
+    "name": "FreedomBox",
+    "url": "https://freedomboxfoundation.org/",
+    "description": "Community project to develop, design and promote personal servers running free software for private, personal, communications. (Source Code) AGPL-3.0 Python/Other"
+  },
+  {
+    "name": "HomelabOS",
+    "url": "https://homelabos.com",
+    "description": "Your very own offline-first privacy-centric open-source data-center. Deploy over 100 services with a few commands. (Source Code) MIT Docker"
+  },
+  {
+    "name": "NextCloudPi",
+    "url": "https://nextcloudpi.com/",
+    "description": "Nextcloud preinstalled and preconfigured, with a text and web management interface and all the tools needed to self host private data. With installation images for Raspberry Pi, Odroid, Rock64, Docker, and a curl installer for Armbian/Debian. (Source Code) GPL-2.0-or-later Bash/PHP"
+  },
+  {
+    "name": "OpenMediaVault",
+    "url": "https://www.openmediavault.org/",
+    "description": "OpenMediaVault is the next generation network attached storage (NAS) solution based on Debian Linux. It contains services like SSH, (S)FTP, SMB/CIFS, DAAP media server, RSync, BitTorrent client and many more. (Source Code) GPL-3.0 PHP"
+  },
+  {
+    "name": "Sandstorm",
+    "url": "https://sandstorm.io/",
+    "description": "Personal server for running self-hosted apps easily and securely. (Demo, Source Code) Apache-2.0 C++/Other"
+  },
+  {
+    "name": "sovereign",
+    "url": "https://github.com/sovereign/sovereign",
+    "description": "Set of Ansible playbooks to build and maintain your own private cloud: email, calendar, contacts, file sync, IRC bouncer, VPN, and more. GPL-3.0 YAML/Other"
+  },
+  {
+    "name": "Syncloud",
+    "url": "https://syncloud.org/",
+    "description": "Your own online file storage, social network or email server. (Source Code) GPL-3.0 Python/Other"
+  },
+  {
+    "name": "UBOS",
+    "url": "https://ubos.net/",
+    "description": "Linux distro that runs on indie boxes (personal servers and IoT devices). Single-command installation and management of apps - Jenkins, Mediawiki, Owncloud, WordPress, etc., and other features. GPL-3.0 Perl/Other"
+  },
+  {
+    "name": "WikiSuite",
+    "url": "https://wikisuite.org",
+    "description": "The most comprehensive and integrated Free / Libre / Open Source enterprise software suite. (Source Code) Multiple ClearOS"
+  },
+  {
+    "name": "xsrv",
+    "url": "https://xsrv.readthedocs.io/",
+    "description": "Install and manage self-hosted services/applications, on your own server(s). (Source Code) GPL-3.0 Shell/Ansible"
+  },
+  {
+    "name": "YunoHost",
+    "url": "https://yunohost.org/",
+    "description": "Server operating system aiming to make self-hosting accessible to everyone. (Demo, Source Code) AGPL-3.0 Python/Other"
   },
   {
     "name": "DreamFactory",
@@ -5417,6 +5512,41 @@
   {
     "name": "Dokuwiki",
     "url": "https://www.dokuwiki.org/DokuWiki",
-    "description": "Easy to use, lightweight, standards-compliant wiki engine with a simple syntax allowing reading the data outside the wiki. All data is stored in plain files, therefore no database is required. (Source Code"
+    "description": "Easy to use, lightweight, standards-compliant wiki engine with a simple syntax allowing reading the data outside the wiki. All data is stored in plain files, therefore no database is required. (Source Code) GPL-2.0 PHP"
+  },
+  {
+    "name": "Gitit",
+    "url": "https://github.com/jgm/gitit",
+    "description": "Wiki program that stores pages and uploaded files in a git repository, which can then be modified using the VCS command line tools or the wiki's web interface. GPL-2.0 Haskell"
+  },
+  {
+    "name": "Gollum",
+    "url": "https://github.com/gollum/gollum",
+    "description": "Simple, Git-powered wiki with a sweet API and local frontend. MIT Ruby"
+  },
+  {
+    "name": "jingo",
+    "url": "https://github.com/claudioc/jingo",
+    "description": "Git based wiki engine written for node.js, with a decent design, a search capability and good typography. MIT Nodejs"
+  },
+  {
+    "name": "Mediawiki",
+    "url": "https://www.mediawiki.org/wiki/MediaWiki",
+    "description": "MediaWiki is a free and open-source wiki software package written in PHP. It serves as the platform for Wikipedia and the other Wikimedia projects, used by hundreds of millions of people each month. (Demo, Source Code) GPL-2.0 PHP"
+  },
+  {
+    "name": "MoinMoin",
+    "url": "https://moinmo.in/",
+    "description": "Advanced, easy to use and extensible WikiEngine with a large community of users. (Source Code) GPL-2.0 Python"
+  },
+  {
+    "name": "Outline ⚠",
+    "url": "https://www.getoutline.com/",
+    "description": "An open, extensible, wiki for your team. (Source Code) BSD-3-Clause Nodejs"
+  },
+  {
+    "name": "Pepperminty Wiki",
+    "url": "https://github.com/sbrl/Pepperminty-Wiki",
+    "description": "Complete markdown-powered wiki contained in a single PHP file. ("
   }
 ]
