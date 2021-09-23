@@ -80,6 +80,11 @@
     "description": "Extendable Windows-based application that provides workflow automation, case management and security response functionality."
   },
   {
+    "name": "Flare",
+    "url": "https://github.com/fireeye/flare-vm",
+    "description": "A fully customizable, Windows-based security distribution for malware analysis, incident response, penetration testing."
+  },
+  {
     "name": "Fleetdm",
     "url": "https://github.com/fleetdm/fleet",
     "description": "State of the art host monitoring platform tailored for security experts. Leveraging Facebook's battle-tested osquery project, Fleetdm delivers continous updates, features and fast answers to big questions."
@@ -88,6 +93,11 @@
     "name": "GRR Rapid Response",
     "url": "https://github.com/google/grr",
     "description": "Incident response framework focused on remote live forensics. It consists of a python agent (client) that is installed on target systems, and a python server infrastructure that can manage and talk to the agent. Besides the included Python API client, PowerGRR provides an API client library in PowerShell working on Windows, Linux and macOS for GRR automation and scripting."
+  },
+  {
+    "name": "Kuiper",
+    "url": "https://github.com/DFIRKuiper/Kuiper",
+    "description": "Digital Forensics Investigation Platform"
   },
   {
     "name": "Limacharlie",
@@ -128,6 +138,11 @@
     "name": "TheHive",
     "url": "https://thehive-project.org/",
     "description": "Scalable 3-in-1 open source and free solution designed to make life easier for SOCs, CSIRTs, CERTs and any information security practitioner dealing with security incidents that need to be investigated and acted upon swiftly."
+  },
+  {
+    "name": "Velociraptor",
+    "url": "https://github.com/Velocidex/velociraptor",
+    "description": "Endpoint visibility and collection tool"
   },
   {
     "name": "X-Ways Forensics",
@@ -215,6 +230,11 @@
     "description": "ACQUIRE by Magnet Forensics allows various types of disk acquisitions to be performed on Windows, Linux, and OS X as well as mobile operating systems."
   },
   {
+    "name": "artifactcollector",
+    "url": "https://github.com/forensicanalysis/artifactcollector",
+    "description": "The artifactcollector project provides a software that collects forensic artifacts on systems."
+  },
+  {
     "name": "bulk_extractor",
     "url": "https://github.com/simsong/bulk_extractor",
     "description": "Computer forensics tool that scans a disk image, a file, or a directory of files and extracts useful information without parsing the file system or file system structures. Because of ignoring the file system structure, the program distinguishes itself in terms of speed and thoroughness."
@@ -230,9 +250,9 @@
     "description": "The CyLR tool collects forensic artifacts from hosts with NTFS file systems quickly, securely and minimizes impact to the host."
   },
   {
-    "name": "artifactcollector",
-    "url": "https://github.com/forensicanalysis/artifactcollector",
-    "description": "The artifactcollector project provides a software that collects forensic artifacts on systems."
+    "name": "Forensic Artifacts",
+    "url": "https://github.com/ForensicArtifacts/artifacts",
+    "description": "Digital Forensics Artifact Repository"
   },
   {
     "name": "ir-rescue",
@@ -270,6 +290,11 @@
     "description": "Paloalto security orchestration, automation and response platform with full Incident lifecycle management and many integrations to enhance automations."
   },
   {
+    "name": "DFTimewolf",
+    "url": "https://github.com/log2timeline/dftimewolf",
+    "description": "A framework for orchestrating forensic collection, processing and data export."
+  },
+  {
     "name": "DFIRTrack",
     "url": "https://github.com/dfirtrack/dfirtrack",
     "description": "Incident Response tracking application handling one or more incidents via cases and tasks with a lot of affected systems and artifacts."
@@ -290,9 +315,29 @@
     "description": "Incident Response collaboration and knowledge capture tool focused on flexibility and ease of use. Our goal is to add value to the incident response process without burdening the user."
   },
   {
+    "name": "Shuffle",
+    "url": "https://github.com/frikky/Shuffle",
+    "description": "A general purpose security automation platform focused on accessibility."
+  },
+  {
     "name": "threat_note",
     "url": "https://github.com/defpoint/threat_note",
     "description": "Lightweight investigation notebook that allows security researchers the ability to register and retrieve indicators related to their research."
+  },
+  {
+    "name": "Digital Forensics Artifact Knowledge Base",
+    "url": "https://github.com/ForensicArtifacts/artifacts-kb",
+    "description": "Digital Forensics Artifact Knowledge Base"
+  },
+  {
+    "name": "Windows Events Attack Samples",
+    "url": "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES",
+    "description": "Windows Events Attack Samples"
+  },
+  {
+    "name": "Windows Registry Knowledge Base",
+    "url": "https://github.com/libyal/winreg-kb",
+    "description": "Windows Registry Knowledge Base"
   },
   {
     "name": "The Appliance for Digital Investigation and Analysis (ADIA)",
@@ -380,8 +425,13 @@
     "description": "CLI utility and Python API for analyzing log files and other data."
   },
   {
+    "name": "LogonTracer",
+    "url": "https://github.com/JPCERTCC/LogonTracer",
+    "description": "Tool to investigate malicious Windows logon by visualizing and analyzing Windows event log."
+  },
+  {
     "name": "Sigma",
-    "url": "https://github.com/Neo23x0/sigma",
+    "url": "https://github.com/SigmaHQ/sigma",
     "description": "Generic signature format for SIEM systems already containing an extensive ruleset."
   },
   {
@@ -450,6 +500,11 @@
     "description": "Advanced memory forensics framework."
   },
   {
+    "name": "Volatility 3",
+    "url": "https://github.com/volatilityfoundation/volatility3",
+    "description": "The volatile memory extraction framework (successor of Volatility)"
+  },
+  {
     "name": "VolatilityBot",
     "url": "https://github.com/mkorman90/VolatilityBot",
     "description": "Automation tool for researchers cuts all the guesswork and manual tasks out of the binary extraction phase, or to help the investigator in the first steps of performing a memory analysis investigation."
@@ -505,9 +560,19 @@
     "description": "OSX Auditor offshoot for live response."
   },
   {
+    "name": "Awesome Forensics",
+    "url": "https://github.com/cugu/awesome-forensics",
+    "description": "A curated list of awesome forensic analysis tools and resources."
+  },
+  {
+    "name": "Didier Stevens Suite",
+    "url": "https://github.com/DidierStevens/DidierStevensSuite",
+    "description": "Tool collection"
+  },
+  {
     "name": "Eric Zimmerman Tools",
     "url": "https://ericzimmerman.github.io/",
-    "description": "An updated list of forensic tools created by Eric Zimmerman, an instructor for SANS Institute."
+    "description": "An updated list of forensic tools created by Eric Zimmerman, an instructor for SANS institute."
   },
   {
     "name": "List of various Security APIs",
@@ -533,11 +598,6 @@
     "name": "domfind",
     "url": "https://github.com/diogo-fernan/domfind",
     "description": "Python DNS crawler for finding identical domain names under different TLDs."
-  },
-  {
-    "name": "Fenrir",
-    "url": "https://github.com/Neo23x0/Fenrir",
-    "description": "Simple IOC scanner. It allows scanning any Linux/Unix/OSX system for IOCs in plain bash. Created by the creators of THOR and LOKI."
   },
   {
     "name": "Fileintel",
@@ -595,6 +655,11 @@
     "description": "Unconventional remote acquisition and triaging tool that allows triage a disk of a remote computer (client) that is restarted with a purposely built forensic operating system."
   },
   {
+    "name": "Raccine",
+    "url": "https://github.com/Neo23x0/Raccine",
+    "description": "A Simple Ransomware Protection"
+  },
+  {
     "name": "Stalk",
     "url": "https://www.percona.com/doc/percona-toolkit/2.2/pt-stalk.html",
     "description": "Collect forensic data about MySQL when problems occur."
@@ -613,6 +678,16 @@
     "name": "sqhunter",
     "url": "https://github.com/0x4d31/sqhunter",
     "description": "Threat hunter based on osquery and Salt Open (SaltStack) that can issue ad-hoc or distributed queries without the need for osquery's tls plugin. sqhunter allows you to query open network sockets and check them against threat intelligence sources."
+  },
+  {
+    "name": "sysmon-config",
+    "url": "https://github.com/SwiftOnSecurity/sysmon-config",
+    "description": "Sysmon configuration file template with default high-quality event tracing"
+  },
+  {
+    "name": "sysmon-modular",
+    "url": "https://github.com/olafhartong/sysmon-modular",
+    "description": "A repository of sysmon configuration modules"
   },
   {
     "name": "traceroute-circl",
@@ -660,6 +735,11 @@
     "description": "Phantom Community Playbooks for Splunk but also customizable for other use."
   },
   {
+    "name": "ThreatHunter-Playbook",
+    "url": "https://github.com/OTRF/ThreatHunter-Playbook",
+    "description": "Playbook to aid the development of techniques and hypothesis for hunting campaigns."
+  },
+  {
     "name": "Microsoft ProcDump",
     "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/procdump",
     "description": "Dumps any running Win32 processes memory image on the fly."
@@ -705,6 +785,11 @@
     "description": "Reverse engineering platform powered by Radare2."
   },
   {
+    "name": "Ghidra",
+    "url": "https://github.com/NationalSecurityAgency/ghidra",
+    "description": "Software Reverse Engineering Framework."
+  },
+  {
     "name": "Hybrid-Analysis",
     "url": "https://www.hybrid-analysis.com/",
     "description": "Free powerful online sandbox by CrowdStrike."
@@ -740,6 +825,11 @@
     "description": "Alternative domain for the Hybrid-Analysis tool provided by CrowdStrike."
   },
   {
+    "name": "Rizin",
+    "url": "https://github.com/rizinorg/rizin",
+    "description": "UNIX-like reverse engineering framework and command-line toolset"
+  },
+  {
     "name": "StringSifter",
     "url": "https://github.com/fireeye/stringsifter",
     "description": "A machine learning tool that ranks strings based on their relevance for malware analysis."
@@ -768,6 +858,21 @@
     "name": "Yomi",
     "url": "https://yomi.yoroi.company",
     "description": "Free MultiSandbox managed and hosted by Yoroi."
+  },
+  {
+    "name": "Fenrir",
+    "url": "https://github.com/Neo23x0/Fenrir",
+    "description": "Simple IOC scanner. It allows scanning any Linux/Unix/OSX system for IOCs in plain bash. Created by the creators of THOR and LOKI."
+  },
+  {
+    "name": "LOKI",
+    "url": "https://github.com/Neo23x0/Loki",
+    "description": "Free IR scanner for scanning endpoint with yara rules and other indicators(IOCs)."
+  },
+  {
+    "name": "Spyre",
+    "url": "https://github.com/spyre-project/spyre",
+    "description": "Simple YARA-based IOC scanner written in Go"
   },
   {
     "name": "Aurora Incident Response",
@@ -823,6 +928,11 @@
     "name": "Fibratus",
     "url": "https://github.com/rabbitstack/fibratus",
     "description": "Tool for exploration and tracing of the Windows kernel."
+  },
+  {
+    "name": "Hoarder",
+    "url": "https://github.com/muteb/Hoarder",
+    "description": "Collecting the most valuable artifacts for forensics or incident response investigations."
   },
   {
     "name": "IREC",

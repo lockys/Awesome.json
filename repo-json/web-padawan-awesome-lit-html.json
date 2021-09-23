@@ -48,6 +48,10 @@
     "url": "https://lit.dev/blog/2021-04-21-lit-2.0-meet-lit-all-over-again/"
   },
   {
+    "name": "Announcing Lit 2 stable release",
+    "url": "https://lit.dev/blog/2021-09-21-announcing-lit-2/"
+  },
+  {
     "name": "LitElement JavaScript starter",
     "url": "https://github.com/lit/lit-element-starter-js",
     "description": "Sample component using LitElement with JavaScript."
@@ -168,6 +172,41 @@
     "url": "https://labs.thisdot.co/blog/routing-management-with-litelement"
   },
   {
+    "name": "@lit/localize",
+    "url": "https://www.npmjs.com/package/@lit/localize",
+    "description": "Library and command-line tool for localizing web applications built using Lit."
+  },
+  {
+    "name": "@lit-labs/ssr",
+    "url": "https://www.npmjs.com/package/@lit-labs/ssr",
+    "description": "Package for server-side rendering Lit templates and components."
+  },
+  {
+    "name": "@lit-labs/motion",
+    "url": "https://www.npmjs.com/package/@lit-labs/motion",
+    "description": "Lit directives for making things move."
+  },
+  {
+    "name": "@lit-labs/react",
+    "url": "https://www.npmjs.com/package/@lit-labs/react",
+    "description": "React integration for Web Components and reactive Lit controllers."
+  },
+  {
+    "name": "@lit-labs/scoped-registry-mixin",
+    "url": "https://www.npmjs.com/package/@lit-labs/scoped-registry-mixin",
+    "description": "Mixin for LitElement that integrates with the speculative Scoped CustomElementRegistry polyfill to evaluate the proposal and facilitate feedback."
+  },
+  {
+    "name": "@lit-labs/task",
+    "url": "https://www.npmjs.com/package/@lit-labs/task",
+    "description": "Controller for Lit that renders asynchronous tasks."
+  },
+  {
+    "name": "@lit-labs/virtualizer",
+    "url": "https://www.npmjs.com/package/@lit-labs/virtualizer",
+    "description": "Package that provides virtual scrolling for Lit."
+  },
+  {
     "name": "@adobe/lit-mobx",
     "url": "https://www.npmjs.com/package/@adobe/lit-mobx",
     "description": "Mixin and base class for using mobx with Lit."
@@ -188,6 +227,11 @@
     "description": "Useful utilities for dark mode built with Web Components."
   },
   {
+    "name": "exome",
+    "url": "https://www.npmjs.com/package/exome",
+    "description": "State manager for deeply nested states that supports Lit."
+  },
+  {
     "name": "pure-lit",
     "url": "https://github.com/MatthiasKainer/pure-lit",
     "description": "Register your Lit elements as pure functions."
@@ -201,6 +245,11 @@
     "name": "lit-element-state-decoupler",
     "url": "https://www.npmjs.com/package/lit-element-state-decoupler",
     "description": "Utility for state handling outside of the component for LitElement."
+  },
+  {
+    "name": "lit-redux-router",
+    "url": "https://www.npmjs.com/package/lit-redux-router",
+    "description": "Declarative way of routing for Lit powered by pwa-helpers and Redux."
   },
   {
     "name": "lit-svelte-stores",
@@ -278,6 +327,11 @@
     "description": "Enterprise-flavored sugar on top of native APIs!"
   },
   {
+    "name": "Apollo Elements",
+    "url": "https://github.com/apollo-elements/apollo-elements",
+    "description": "Custom elements meet Apollo GraphQL."
+  },
+  {
     "name": "Blackstone UI",
     "url": "https://github.com/kjantzer/bui",
     "description": "Web components for creating interfaces built with lit-html and LitElement."
@@ -298,9 +352,24 @@
     "description": "Web components for creating interactive scientific articles."
   },
   {
+    "name": "ESP Web Tools",
+    "url": "https://github.com/esphome/esp-web-tools",
+    "description": "Allow flashing ESPHome or other ESP-based firmwares via the browser."
+  },
+  {
+    "name": "Ignite UI Web Components",
+    "url": "https://github.com/IgniteUI/igniteui-webcomponents",
+    "description": "Complete library of UI components from Infragistics."
+  },
+  {
     "name": "LRNWebComponents",
     "url": "https://github.com/elmsln/lrnwebcomponents",
     "description": "ELMS:LN produced web components for any project."
+  },
+  {
+    "name": "Medblocks UI",
+    "url": "https://github.com/medblocks/medblocks-ui",
+    "description": "Web Components for rapid development of openEHR and FHIR systems."
   },
   {
     "name": "Microsoft Graph Toolkit",
@@ -323,7 +392,17 @@
     "description": "Serverless code experiences with web components."
   },
   {
-    "name": "VSCode-Webview-Elements",
+    "name": "Stripe Elements",
+    "url": "https://github.com/bennypowers/stripe-elements",
+    "description": "Custom Element Wrapper for Stripe.js v3 Elements."
+  },
+  {
+    "name": "Vidstack Elements",
+    "url": "https://github.com/vidstack/vds-elements",
+    "description": "Spec-compliant customizable, extensible, accessible and universal media elements."
+  },
+  {
+    "name": "VSCode Webview Elements",
     "url": "https://github.com/bendera/vscode-webview-elements",
     "description": "Components for creating VSCode extensions which use the Webview API."
   },
@@ -331,6 +410,11 @@
     "name": "Web Components for TEI Publisher",
     "url": "https://github.com/eeditiones/tei-publisher-components",
     "description": "Web components used by TEI Publisher and apps generated by it."
+  },
+  {
+    "name": "Webmarkets web components",
+    "url": "https://github.com/Webmarkets/wm-web-components",
+    "description": "Set of Webmarkets' public web components."
   },
   {
     "name": "Wired Elements",
@@ -408,89 +492,114 @@
     "description": "LitElement web component that utilizes Three.js to display an STL model file."
   },
   {
+    "name": "babel-plugin-lit-property-types-from-ts",
+    "url": "https://www.npmjs.com/package/babel-plugin-lit-property-types-from-ts",
+    "description": "Babel plugin for setting type for reactive properties declared in Lit components based on TypeScript type annotations."
+  },
+  {
+    "name": "babel-plugin-template-html-minifier",
+    "url": "https://www.npmjs.com/package/babel-plugin-template-html-minifier",
+    "description": "Babel plugin for minifying HTML in tagged template strings."
+  },
+  {
+    "name": "esbuild-plugin-lit-css",
+    "url": "https://www.npmjs.com/package/esbuild-plugin-lit-css",
+    "description": "ESBuild plugin to import css files as JavaScript tagged-template literal objects."
+  },
+  {
+    "name": "lit-css-loader",
+    "url": "https://www.npmjs.com/package/lit-css-loader",
+    "description": "Webpack loader to import css files as JavaScript tagged-template literal objects."
+  },
+  {
+    "name": "lit-scss-loader",
+    "url": "https://www.npmjs.com/package/lit-scss-loader",
+    "description": "Webpack loader to import the CSS/SCSS into Lit components."
+  },
+  {
+    "name": "rollup-plugin-lit-css",
+    "url": "https://www.npmjs.com/package/rollup-plugin-lit-css",
+    "description": "Rollup plugin to import css files as JavaScript tagged-template literal objects."
+  },
+  {
+    "name": "rollup-plugin-minify-html-literals",
+    "url": "https://www.npmjs.com/package/rollup-plugin-minify-html-literals",
+    "description": "Rollup plugin to minify HTML in tagged template strings."
+  },
+  {
+    "name": "rollup-plugin-postcss-lit",
+    "url": "https://www.npmjs.com/package/rollup-plugin-postcss-lit",
+    "description": "Rollup plugin to load PostCSS-processed stylesheets in Lit components."
+  },
+  {
+    "name": "eslint-plugin-lit",
+    "url": "https://www.npmjs.com/package/eslint-plugin-lit",
+    "description": "ESLint plugin for Lit template strings."
+  },
+  {
+    "name": "eslint-plugin-lit-a11y",
+    "url": "https://www.npmjs.com/package/eslint-plugin-lit-a11y",
+    "description": "Accessibility linting plugin for Lit templates."
+  },
+  {
+    "name": "lit-analyzer",
+    "url": "https://www.npmjs.com/package/lit-analyzer",
+    "description": "CLI that type checks bindings in Lit templates."
+  },
+  {
     "name": "vscode-lit-html",
-    "url": "https://github.com/mjbvz/vscode-lit-html",
+    "url": "https://marketplace.visualstudio.com/items?itemName=bierner.lit-html",
     "description": "Syntax highlighting and IntelliSense for lit-html template strings."
   },
   {
     "name": "vscode-lit-plugin",
-    "url": "https://github.com/runem/lit-analyzer/tree/master/packages/vscode-lit-plugin",
+    "url": "https://marketplace.visualstudio.com/items?itemName=runem.lit-plugin",
     "description": "Syntax highlighting, type checking and code completion for lit-html."
   },
   {
     "name": "es6-string-html",
-    "url": "https://github.com/mydesireiscoma/es6-string-html",
+    "url": "https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html",
     "description": "VSCode extension which provides syntax highlighting for HTML in ES6 multiline strings."
   },
   {
     "name": "vim-html-template-literals",
     "url": "https://github.com/jonsmithers/vim-html-template-literals",
-    "description": "Syntax highlighting and indentation for lit-html."
+    "description": "Syntax highlighting and indentation for HTML inside of tagged template literals."
   },
   {
     "name": "ts-lit-plugin",
-    "url": "https://github.com/runem/lit-analyzer/tree/master/packages/ts-lit-plugin",
-    "description": "Plugin that adds type checking and code completion for lit-html. Used by vscode-lit-plugin."
+    "url": "https://www.npmjs.com/package/ts-lit-plugin",
+    "description": "Plugin that adds type checking and code completion for Lit templates."
   },
   {
     "name": "typescript-lit-html-plugin",
-    "url": "https://github.com/Microsoft/typescript-lit-html-plugin",
-    "description": "TypeScript server plugin that adds IntelliSense for lit-html. Used by vscode-lit-html."
+    "url": "https://www.npmjs.com/package/typescript-lit-html-plugin",
+    "description": "TypeScript server plugin that adds IntelliSense for Lit templates."
   },
   {
-    "name": "babel-plugin-lit-property-types-from-ts",
-    "url": "https://github.com/bschlenk/babel-plugin-lit-property-types-from-ts",
-    "description": "Babel plugin for automatically setting a property's type based on its TypeScript type."
+    "name": "@custom-elements-manifest/analyzer",
+    "url": "https://www.npmjs.com/package/@custom-elements-manifest/analyzer",
+    "description": "CLI tool to generate API documentation for web components."
   },
   {
-    "name": "babel-plugin-template-html-minifier",
-    "url": "https://github.com/cfware/babel-plugin-template-html-minifier",
-    "description": "Babel plugin for minifying HTML in tagged template strings."
-  },
-  {
-    "name": "eslint-plugin-lit",
-    "url": "https://github.com/43081j/eslint-plugin-lit",
-    "description": "ESLint plugin for lit-html template strings."
-  },
-  {
-    "name": "eslint-plugin-lit-a11y",
-    "url": "https://www.npmjs.com/package/eslint-plugin-lit-a11y",
-    "description": "Accessibility linting plugin for lit-html"
-  },
-  {
-    "name": "lit-analyzer",
-    "url": "https://github.com/runem/lit-analyzer/tree/master/packages/lit-analyzer",
-    "description": "CLI that type checks bindings in lit-html templates."
-  },
-  {
-    "name": "rollup-plugin-minify-html-literals",
-    "url": "https://github.com/asyncLiz/rollup-plugin-minify-html-literals",
-    "description": "Rollup plugin to minify HTML in tagged template strings."
-  },
-  {
-    "name": "rollup-plugin-inline-lit-element",
-    "url": "https://github.com/aelbore/rollup-plugin-inline-lit-element",
-    "description": "Rollup plugin to inline external styles in LitElement and transpile decorators."
-  },
-  {
-    "name": "rollup-plugin-lit-css",
-    "url": "https://github.com/bennypowers/rollup-plugin-lit-css",
-    "description": "Rollup plugin to import CSS files as LitElement tagged css template strings."
-  },
-  {
-    "name": "rollup-plugin-postcss-lit",
-    "url": "https://github.com/umbopepato/rollup-plugin-postcss-lit",
-    "description": "Rollup plugin to load PostCSS-processed stylesheets in LitElement components."
+    "name": "Storybook for web-components",
+    "url": "https://www.npmjs.com/package/@storybook/web-components",
+    "description": "UI development environment for plain web-component snippets."
   },
   {
     "name": "web-components-codemods",
-    "url": "https://github.com/kcmr/web-components-codemods",
+    "url": "https://www.npmjs.com/package/web-components-codemods",
     "description": "Codemods for Web Components compatible with lit-html template literals."
   },
   {
     "name": "Web Component DevTools",
     "url": "https://github.com/Matsuuu/web-component-devtools",
     "description": "Browser extension for developers working with Web Components."
+  },
+  {
+    "name": "Web Component Factory",
+    "url": "https://www.npmjs.com/package/@wcfactory/cli",
+    "description": "CLI tool for generating, building, testing and publishing web components."
   },
   {
     "name": "cdn.esm.sh",
@@ -519,6 +628,10 @@
   {
     "name": "Lit Beta Launch Event (2021)",
     "url": "https://www.youtube.com/watch?v=f1j7b696L-E"
+  },
+  {
+    "name": "Lit 2.0 Release Livestream",
+    "url": "https://www.youtube.com/watch?v=nfb779XIhsU"
   },
   {
     "name": "VDOM vs lit-html",
