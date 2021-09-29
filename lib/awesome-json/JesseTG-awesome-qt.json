@@ -1,0 +1,662 @@
+[
+  {
+    "name": "Official Website",
+    "url": "https://www.qt.io",
+    "description": "The official website for the Qt framework."
+  },
+  {
+    "name": "Qt Documentation",
+    "url": "https://doc.qt.io",
+    "description": "Official Qt documentation.  Massive and comprehensive."
+  },
+  {
+    "name": "Qt Newsletters",
+    "url": "https://www.qt.io/newsletters",
+    "description": "The best of Qt, straight to your spam filter."
+  },
+  {
+    "name": "Qt Bug Tracker",
+    "url": "https://bugreports.qt.io",
+    "description": "If you think you've found a bug with Qt or one of its related projects, report it here (or see if someone else already has)."
+  },
+  {
+    "name": "Qt Code Review",
+    "url": "https://codereview.qt-project.org",
+    "description": "See how the Qt maintainers ensure their code is well-written."
+  },
+  {
+    "name": "Source Code",
+    "url": "https://code.qt.io",
+    "description": "Browse the various source trees that comprise the Qt project.  Has mirrors at several GitHub organizations:"
+  },
+  {
+    "name": "Qt ",
+    "url": "https://github.com/qt"
+  },
+  {
+    "name": "Qt Project ",
+    "url": "https://github.com/qtproject"
+  },
+  {
+    "name": "Qt Labs ",
+    "url": "https://github.com/qt-labs"
+  },
+  {
+    "name": "Mailing Lists",
+    "url": "http://lists.qt-project.org",
+    "description": "Mailing lists for users and developers of Qt alike.  Arguably the best place to communicate directly with Qt's maintainers.  Sees frequent activity."
+  },
+  {
+    "name": "Qt Forum",
+    "url": "https://forum.qt.io",
+    "description": "If e-mail's not your thing, then you might also consider getting help or sharing knowledge on the forums."
+  },
+  {
+    "name": "Qt Wiki",
+    "url": "https://wiki.qt.io",
+    "description": "The premier source for user-contributed Qt knowledge."
+  },
+  {
+    "name": "IRC",
+    "url": "https://webchat.freenode.net/?channels=%23qt%2C%23qt-quick%2C%23qt-creator%2C%23qt-chat",
+    "description": "For real-time chat with other Qt developers and users.  The most popular channels are on Freenode, and include #qt, #qt-quick, #qt-creator, and #qt-chat."
+  },
+  {
+    "name": "For a full list of Qt-related IRC channels, see here.",
+    "url": "https://wiki.qt.io/Online_Communities#IRC_channels"
+  },
+  {
+    "name": "QtForum.org",
+    "url": "http://www.qtforum.org",
+    "description": "Not to be confused with the official Qt forum."
+  },
+  {
+    "name": "Qt Creator ",
+    "url": "https://www.qt.io/ide",
+    "description": "By no means does Qt lock you into its provided IDE, but its firm integration with the framework makes it a good sell.  Among other things, it provides a UI designer, modeling tools, a documentation browser, and great QML support if you're into that sort of thing.  There's also a plugin system, but third-party plugins are unfortunately scarce."
+  },
+  {
+    "name": "Qt Designer ",
+    "url": "https://doc.qt.io/qt-5/qtdesigner-manual.html",
+    "description": "If you'd rather just design the interfaces and let someone else hook them up to logic, the GUI designer is available as a separate application."
+  },
+  {
+    "name": "Qt Assistant ",
+    "url": "https://doc.qt.io/qt-5/qtassistant-index.html",
+    "description": "So is the documentation viewer, for that matter."
+  },
+  {
+    "name": "Qt Visual Studio Add-in ",
+    "url": "https://doc.qt.io/archives/vs-addin",
+    "description": "If you'd rather stick to Visual Studio, this add-in will let you do that."
+  },
+  {
+    "name": "Qt Linguist ",
+    "url": "https://doc.qt.io/qt-5/qtlinguist-index.html",
+    "description": "Qt provides excellent internationalization/localization support, and this tool is very much responsible for it.  Write translatable strings in your code with special macros, and this tool will aggregate them all for you so you or your translator(s) can broaden your software's audience."
+  },
+  {
+    "name": "Qt Installer Framework ",
+    "url": "https://doc.qt.io/qtinstallerframework",
+    "description": "Nobody seems to talk about this, but Qt also provides a way to write an installer for your application.  Does not support creation of macOS disk images, app bundles, or Linux packages, so be mindful of that when considering your project's distribution."
+  },
+  {
+    "name": "macdeployqt ",
+    "url": "https://doc.qt.io/qt-5/osx-deployment.html",
+    "description": "Generates macOS application bundles for Qt projects."
+  },
+  {
+    "name": "qmake ",
+    "url": "https://doc.qt.io/qt-5/qmake-manual.html",
+    "description": "The bundled build system designed for Qt, though it can be used for non-Qt projects."
+  },
+  {
+    "name": "qbs ",
+    "url": "https://doc.qt.io/qbs",
+    "description": "If QML is more your style, consider this alternative build system."
+  },
+  {
+    "name": "Emulator",
+    "url": "https://doc.qt.io/emulator",
+    "description": "Don't forget about Qt's mobile support!"
+  },
+  {
+    "name": "CMake ",
+    "url": "https://doc.qt.io/qt-5/cmake-manual.html",
+    "description": "General C++ build tool that happens to have great Qt support."
+  },
+  {
+    "name": "GammaRay ",
+    "url": "https://www.kdab.com/development-resources/qt-tools/gammaray",
+    "description": "Powerful debugger and general inspection tool for Qt-built software.  Lets you inspect and manipulate the QObject hierarchy, view object properties, edit widgets at runtime, and far, far more.  A two-sentence blurb can't do it justice, seriously check it out."
+  },
+  {
+    "name": "moc-ng ",
+    "url": "https://github.com/woboq/moc-ng",
+    "description": "Alternative implementation of moc that's binary-compatible with Qt's version."
+  },
+  {
+    "name": "Qt-Inspector ",
+    "url": "https://github.com/robertknight/Qt-Inspector",
+    "description": "Inspection tool with similar goals to GammaRay, though much simpler."
+  },
+  {
+    "name": "SIP 📦",
+    "url": "https://www.riverbankcomputing.com/software/sip",
+    "description": "Generates Python bindings for C or C++ libraries.  Has special support for Qt signals and slots, and was used to create PyQt."
+  },
+  {
+    "name": "linuxdeployqt ",
+    "url": "https://github.com/probonopd/linuxdeployqt",
+    "description": "Lets you bundle your Qt based application as an AppDir or AppImage, making it possible to ship it to users of many desktop Linux distributions. Similar to the official windeployqt and macdeployqt tools but for Linux."
+  },
+  {
+    "name": "Qompoter",
+    "url": "https://github.com/Fylhan/qompoter",
+    "description": "Dependency manager for Qt / C++."
+  },
+  {
+    "name": "Python (via PyQt) 📦",
+    "url": "https://riverbankcomputing.com/software/pyqt",
+    "description": "Arguably the most comprehensive and well-known binding of Qt to another language."
+  },
+  {
+    "name": "Python (via PySide) 📦",
+    "url": "https://wiki.qt.io/PySide",
+    "description": "Another binding for Python, which has been officially adopted by the Qt project."
+  },
+  {
+    "name": "Ring (via RingQt) ",
+    "url": "http://ring-lang.sourceforge.net/doc/qt.html",
+    "description": "I've never heard of this language either, honestly."
+  },
+  {
+    "name": "Mono/.NET languages (via QtSharp) ",
+    "url": "https://github.com/ddobrev/QtSharp",
+    "description": "Experimental wrapper for Qt that allows it to be used by .NET-based languages such as C#.  Young, but active."
+  },
+  {
+    "name": "mupdf-qt ",
+    "url": "https://xiangxw.github.io/mupdf-qt",
+    "description": "Qt wrapper for the MuPDF PDF viewer."
+  },
+  {
+    "name": "neiasound ",
+    "url": "https://github.com/lucaspcamargo/neiasound",
+    "description": "OpenAL wrapper designed for games, with stb_vorbis and libsndfile support."
+  },
+  {
+    "name": "PythonQt 📦",
+    "url": "http://pythonqt.sourceforge.net",
+    "description": "Script your Qt applications with Python.  Not to be confused with PyQt or PySide."
+  },
+  {
+    "name": "QScintilla 📦",
+    "url": "https://riverbankcomputing.com/software/qscintilla",
+    "description": "Absurdly versatile and customizable text editor widget that provides syntax highlighting, code completion, code folding, recordable macros, and much more.  Built around Scintilla.  Created by the same company that developed PyQt."
+  },
+  {
+    "name": "QtAwesome ",
+    "url": "https://github.com/gamecreature/QtAwesome",
+    "description": "Add Font Awesome icons to your Qt application.  Other icon sets are supported, too."
+  },
+  {
+    "name": "QtLua 📦",
+    "url": "http://www.nongnu.org/libqtlua",
+    "description": "Use Lua as a scripting language for Qt-based software."
+  },
+  {
+    "name": "qtruby ",
+    "url": "https://github.com/cybercatalyst/qtruby",
+    "description": "Use Ruby as a scripting language within your application."
+  },
+  {
+    "name": "QuaZIP 📦",
+    "url": "http://quazip.sourceforge.net",
+    "description": "Read from and write to ZIP archives.  Uses Minizip under the hood."
+  },
+  {
+    "name": "VLC-Qt ",
+    "url": "https://vlc-qt.tano.si",
+    "description": "Wrapper for libvlc that lets you add a VLC-like media player to your application."
+  },
+  {
+    "name": "Communi ",
+    "url": "https://communi.github.io",
+    "description": "Cross-platform IRC framework.  We've got enough IRC clients out there already, but I suppose this could also be used to implement a chat function in your application (e.g. for community support)."
+  },
+  {
+    "name": "cutelyst ",
+    "url": "http://cutelyst.org",
+    "description": "Web framework that takes some ideas from Perl's Catalyst framework."
+  },
+  {
+    "name": "DiceParser ",
+    "url": "https://github.com/Rolisteam/DiceParser",
+    "description": "Dice Roller framework based on its own syntax."
+  },
+  {
+    "name": "DOtherSide ",
+    "url": "https://github.com/filcuc/DOtherSide",
+    "description": "Binding for QML in C, primarily designed as an API for other languages to support QML."
+  },
+  {
+    "name": "Felgo",
+    "url": "https://felgo.com",
+    "description": "Cross-platform game engine and app framework that relies heavily on QML.  Has a lot of tools and resources, and may even deserve its own list."
+  },
+  {
+    "name": "glraw ",
+    "url": "https://github.com/cginternals/glraw",
+    "description": "Convert images from any Qt-supported format to OpenGL-format textures.  Useful for speeding up texture loading in graphics applications."
+  },
+  {
+    "name": "grantlee ",
+    "url": "https://github.com/steveire/grantlee",
+    "description": "Django-inspired text templating."
+  },
+  {
+    "name": "injeqt ",
+    "url": "https://github.com/vogel/injeqt",
+    "description": "Dependency injection for Qt."
+  },
+  {
+    "name": "KDE Frameworks  📦",
+    "url": "https://api.kde.org/frameworks",
+    "description": "Metric ass-ton of libraries for KDE, but many of them can be used with regular Qt applications as well.  Cross-platform, for the most part."
+  },
+  {
+    "name": "Marble 📦",
+    "url": "https://marble.kde.org",
+    "description": "Virtual globe and map that can be used standalone or embedded within other applications."
+  },
+  {
+    "name": "qgexedit2 ",
+    "url": "https://github.com/Simsys/qhexedit2",
+    "description": "Embed a hex editor in your application."
+  },
+  {
+    "name": "qml-material ",
+    "url": "https://github.com/papyros/qml-material",
+    "description": "Material Design implemented in QML."
+  },
+  {
+    "name": "QNodeView ",
+    "url": "https://github.com/gwihlidal/QNodeView",
+    "description": "Widget that lets you create and edit nodes in a graph similar to the kind provided by Unreal Engine, Substance Designer, or PureData."
+  },
+  {
+    "name": "QSimpleUpdater ",
+    "url": "https://github.com/alex-spataru/QSimpleUpdater",
+    "description": "Let your application update itself."
+  },
+  {
+    "name": "qt-maybe ",
+    "url": "https://github.com/robertknight/qt-maybe",
+    "description": "Fans of type theory will enjoy these sum and optional types."
+  },
+  {
+    "name": "qt-mustache ",
+    "url": "https://github.com/robertknight/qt-mustache",
+    "description": "Render Mustache templates."
+  },
+  {
+    "name": "QtAV ",
+    "url": "http://www.qtav.org",
+    "description": "Actively developed multimedia framework."
+  },
+  {
+    "name": "Qtilities ",
+    "url": "https://jpnaude.github.io/Qtilities",
+    "description": "Powerful set of libraries that provide GUI, logging, testing, configuration, and project functionality (among other things) for your application."
+  },
+  {
+    "name": "QtitanChart",
+    "url": "http://www.devmachines.com/qtitanchart-overview",
+    "description": "Chart generation framework.  Commercial."
+  },
+  {
+    "name": "QtitanRibbon",
+    "url": "http://www.devmachines.com/qtitanribbon-overview",
+    "description": "For fans of the ribbons that Microsoft uses in their software.  Commercial."
+  },
+  {
+    "name": "qtnotify ",
+    "url": "https://github.com/cybercatalyst/qtnotify",
+    "description": "Notification framework."
+  },
+  {
+    "name": "QtTerminalWidget ",
+    "url": "https://github.com/cybercatalyst/qtterminalwidget",
+    "description": "Make your application capable of anything."
+  },
+  {
+    "name": "QtVerbalExpressions ",
+    "url": "https://github.com/VerbalExpressions/QtVerbalExpressions",
+    "description": "Create regular expressions using natural English expressions.  Part of the VerbalExpressions project, which does the same thing for a wide variety of languages."
+  },
+  {
+    "name": "qtwebserver ",
+    "url": "https://github.com/cybercatalyst/qtwebserver",
+    "description": "If you need to write a web application server in Qt for some reason, this'll help you along."
+  },
+  {
+    "name": "QtXlsx ",
+    "url": "http://qtxlsx.debao.me",
+    "description": "Read and write spreadsheets in Microsoft Excel format."
+  },
+  {
+    "name": "Qwt 📦",
+    "url": "http://qwt.sourceforge.net",
+    "description": "Qt widgets designed for scientific and technical applications."
+  },
+  {
+    "name": "verdigris ",
+    "url": "https://github.com/woboq/verdigris",
+    "description": "Experimental library to write Qt applications without using the moc."
+  },
+  {
+    "name": "#inqlude",
+    "url": "https://inqlude.org",
+    "description": "The most well-known aggregation of Qt-centric libraries out there.  A package manager is also available here."
+  },
+  {
+    "name": "QtPods",
+    "url": "https://github.com/qt-pods/qt-pods",
+    "description": "Another Qt-centric package manager.  If you want to see the offerings without using QtPods, the full list is available here, and can be added to by submitting a pull request."
+  },
+  {
+    "name": "Linux-Apps.com",
+    "url": "https://www.linux-apps.com",
+    "description": "Despite the name, Linux-Apps.com aggregates a wide variety of Qt-based tools and libraries for both end-users and developers."
+  },
+  {
+    "name": "Stephan Binner's Ubuntu PPAs",
+    "url": "https://launchpad.net/~beineri",
+    "description": "Ubuntu users who are hesitant to install anything outside of their package managers can obtain any recent version of Qt from these repositories.  Instructions for adding them are found within."
+  },
+  {
+    "name": "Planet Qt",
+    "url": "https://planet.qt.io",
+    "description": "Official aggregation of first-party and third-party Qt-related blogs."
+  },
+  {
+    "name": "ICS",
+    "url": "https://www.ics.com/blog",
+    "description": "Qt-centric software consulting firm with a really neat blog.  Specializes in graphics applications."
+  },
+  {
+    "name": "Qt Tips and Tricks [1, 2]",
+    "url": "https://www.ics.com/blog/qt-tips-and-tricks-part-1",
+    "description": "Odds and ends that might be nice to keep in your back pocket."
+  },
+  {
+    "name": "Mastering Qt File Selectors",
+    "url": "https://www.ics.com/blog/mastering-qt-file-selectors",
+    "description": "Sometimes you need different variations of the same asset, but you won't know which ones to load until runtime.  This class will decide for you."
+  },
+  {
+    "name": "Some Lesser Known Qt Tools and Commands [1, 2, 3, 4, 5]",
+    "url": "https://www.ics.com/blog/some-lesser-known-qt-tools-and-commands-part-1",
+    "description": "You don't find hidden gems by staying on the beaten path."
+  },
+  {
+    "name": "Using Self-Signed Certificates in Qt Code",
+    "url": "https://www.ics.com/blog/using-self-signed-certificates-qt-code",
+    "description": "Trust nobody."
+  },
+  {
+    "name": "Integrating C++ with QML",
+    "url": "https://www.ics.com/blog/integrating-c-qml",
+    "description": "Talk to your scripting language.  That's what it's there for."
+  },
+  {
+    "name": "Qt and OpenGL: Loading a 3D Model with Open Asset Import Library (Assimp) [1, 2]",
+    "url": "https://www.ics.com/blog/qt-and-opengl-loading-3d-model-open-asset-import-library-assimp",
+    "description": "Assimp supports a lot of different model types; these articles will help you support all of them."
+  },
+  {
+    "name": "What's new in Qt 5: QStandardPaths",
+    "url": "https://www.ics.com/blog/whats-new-qt-5-qstandardpaths",
+    "description": "This feature's been around for a few years, but it's still useful enough to warrant an entry on this list."
+  },
+  {
+    "name": "What's New in Qt 5.2: QCommandLineParser",
+    "url": "https://www.ics.com/blog/whats-new-qt-52-qcommandlineparser",
+    "description": "Another oldie, but still a goodie."
+  },
+  {
+    "name": "Woboq",
+    "url": "https://woboq.com/blog",
+    "description": "Another software consulting firm that also contributes code to Qt.  They seem to specialize in Qt's core architecture."
+  },
+  {
+    "name": "Moc myths debunked",
+    "url": "https://woboq.com/blog/moc-myths.html",
+    "description": "The magic that Qt appears to rely in is really just a bunch of code generators.  This post will bring you up to speed on the reality of the moc, the most notable one."
+  },
+  {
+    "name": "How Qt Signals and Slots Work [1, 2, 3]",
+    "url": "https://woboq.com/blog/how-qt-signals-slots-work.html",
+    "description": "Qt's signals/slots system lets any object talk to any other object.  Understanding these three articles will help you take full advantage of the feature."
+  },
+  {
+    "name": "QMetaType knows your types",
+    "url": "https://woboq.com/blog/qmetatype-knows-your-types.html",
+    "description": "C++ isn't known for having good run-time type information, so Qt brings its own."
+  },
+  {
+    "name": "C++11 in Qt5",
+    "url": "https://woboq.com/blog/cpp11-in-qt5.html",
+    "description": "Stop writing C++ like it's 2003; learn how you can take advantage of recent C++ features in your Qt applications."
+  },
+  {
+    "name": "C++14 for Qt programmers",
+    "url": "https://woboq.com/blog/cpp14-in-qt.html",
+    "description": "s/2003/2011/"
+  },
+  {
+    "name": "QStringLiteral explained",
+    "url": "https://woboq.com/blog/qstringliteral.html",
+    "description": "String literals are widely used in many applications; wouldn't it be nice if you could make them faster to access?"
+  },
+  {
+    "name": "Nicer debug output in Qt using QT_MESSAGE_PATTERN",
+    "url": "https://woboq.com/blog/nice-debug-output-with-qt.html",
+    "description": "It's nice to be able to read your application's logs."
+  },
+  {
+    "name": "KDAB",
+    "url": "https://www.kdab.com/category/blogs",
+    "description": "Another consulting firm that specializes in Qt."
+  },
+  {
+    "name": "GammaRay: Taking a deep look into your Qt application",
+    "url": "https://www.youtube.com/watch?v=JcoFk_PVhdk",
+    "description": "Talk about GammaRay and how it can help you dissect your Qt applications.  Talk given at QtCon 2016 by Volker Krause."
+  },
+  {
+    "name": "Multithreading with Qt",
+    "url": "https://www.youtube.com/watch?v=dcSsjxhazu0",
+    "description": "I want to make my application do more than once thing at once.  What could possibly go wrong?  Talk given at QtCon 2016 by Giuseppe D'Angelo."
+  },
+  {
+    "name": "Linux perf for Qt developers",
+    "url": "https://www.youtube.com/watch?v=L4NClVxqdMw",
+    "description": "How to make your Qt application faster, Linux-style.  Talk given at QtCon 2016 by Milian Wolff."
+  },
+  {
+    "name": "Qt5 C++ GUI Programming Cookbook, by Lee Zhi Eng ",
+    "url": "https://www.packtpub.com/application-development/qt5-c-gui-programming-cookbook",
+    "description": "Overview of advanced GUI programming techniques for those familiar (but not satisfied) with the basics.  The source code used in the book is available for free."
+  },
+  {
+    "name": "Game Programming Using Qt: Beginner's Guide by Witold Wysota and Lorenz Haas",
+    "url": "https://www.packtpub.com/game-development/game-programming-using-qt",
+    "description": "Good place to start learning how to program games with QML."
+  },
+  {
+    "name": "Application Development with Qt Creator",
+    "url": "https://www.packtpub.com/application-development/application-development-qt-creator-second-edition",
+    "description": "2nd Edition, by Ray Rischpater - Beginner's guide to Qt, with a lot of focus on Qt Creator and its associated tools."
+  },
+  {
+    "name": "Qt 5 Blueprints, by Symeon Huang",
+    "url": "https://www.packtpub.com/application-development/qt-5-blueprints",
+    "description": "Seems to be about the overall structure of a Qt project."
+  },
+  {
+    "name": "Mastering Qt 5, by Guillaume Lazar and Robin Penea ",
+    "url": "https://www.packtpub.com/application-development/mastering-qt-5",
+    "description": "Not your daddy's Qt.  Tips and tricks for the experienced.  The source code used in the book is available for free."
+  },
+  {
+    "name": "PySide GUI Application Development",
+    "url": "https://www.packtpub.com/application-development/pyside-gui-application-development-second-edition",
+    "description": "2nd Edition, by Gopinath Jaganmohan and Venkateshwaran Loganathan - Imagine these other books, but in Python."
+  },
+  {
+    "name": "Qt5 Cadaques ",
+    "url": "https://qmlbook.github.io",
+    "description": "Free book that focuses on QML, named for this town in northeastern Spain that the authors vacationed to once."
+  },
+  {
+    "name": "Autodesk Maya",
+    "url": "http://www.autodesk.com/maya",
+    "description": "3D animation and design software that has been used to create visual effects for some of the most popular movies and TV shows of all time."
+  },
+  {
+    "name": "Davinci Resolve",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve/",
+    "description": "Non-linear video editing freeware with commercial plan used to create some Hollywood movies."
+  },
+  {
+    "name": "CMake ",
+    "url": "https://cmake.org",
+    "description": "The closest thing to a standard C++ build system out there. The bundled GUI uses Qt."
+  },
+  {
+    "name": "CRYENGINE ",
+    "url": "https://www.cryengine.com",
+    "description": "But can it run Crysis?  Some auxillary tools use Qt."
+  },
+  {
+    "name": "Doxygen ",
+    "url": "https://www.stack.nl/~dimitri/doxygen",
+    "description": "The most popular documentation generator for C++, though it supports other languages as well.  The bundled GUI uses Qt."
+  },
+  {
+    "name": "Google Earth",
+    "url": "https://www.google.com/earth",
+    "description": "The virtual globe."
+  },
+  {
+    "name": "KDE ",
+    "url": "https://www.kde.org",
+    "description": "One of the most popular desktop environments for Linux."
+  },
+  {
+    "name": "LMMS",
+    "url": "https://lmms.io/",
+    "description": "Digital audio workstation."
+  },
+  {
+    "name": "Malwarebytes",
+    "url": "https://www.malwarebytes.com",
+    "description": "Your Windows desktop's personal bodyguard."
+  },
+  {
+    "name": "MuseScore",
+    "url": "https://musescore.org",
+    "description": "Music notation software."
+  },
+  {
+    "name": "Parallels Desktop",
+    "url": "https://www.parallels.com/products/desktop",
+    "description": "Consumer-focused virtualization."
+  },
+  {
+    "name": "Qt Creator ",
+    "url": "https://www.qt.io/ide",
+    "description": "Something something eating your own dog food. Listed in the official tools, but not listing it here doesn't feel right."
+  },
+  {
+    "name": "Rolisteam ",
+    "url": "http://www.rolisteam.org",
+    "description": "Virtual tabletop for remote Role Playing Games."
+  },
+  {
+    "name": "Shotcut",
+    "url": "https://shotcut.org/",
+    "description": "Video editor."
+  },
+  {
+    "name": "RUBE",
+    "url": "https://www.iforce2d.net/rube",
+    "description": "Level design tool for any game that uses the Box2D physics engine."
+  },
+  {
+    "name": "TeamSpeak",
+    "url": "https://www.teamspeak.com",
+    "description": "When gamers want to voice chat in a game that doesn't support it, they'll use this."
+  },
+  {
+    "name": "Telegram Desktop ",
+    "url": "https://desktop.telegram.org",
+    "description": "Secure your conversations so well, you'll raise the blood pressure of potential eavesdroppers.  The desktop client uses Qt and is open source."
+  },
+  {
+    "name": "Tiled ",
+    "url": "http://www.mapeditor.org",
+    "description": "Perhaps the world's most popular tilemap editor.  Suitable for level design in games."
+  },
+  {
+    "name": "VirtualBox 📦",
+    "url": "https://www.virtualbox.org",
+    "description": "Virtualization software for x86/64 processors.  The bundled GUI uses Qt."
+  },
+  {
+    "name": "VLC 📦",
+    "url": "https://www.videolan.org/vlc",
+    "description": "One of the most flexible open source video players in existence."
+  },
+  {
+    "name": "Vuo  — Realtime visual programming language for interactive media.",
+    "url": "https://vuo.org"
+  },
+  {
+    "name": "Wireshark 📦",
+    "url": "https://www.wireshark.org",
+    "description": "The most popular packet-sniffer out there.  You are going to use this for good and not evil, right?"
+  },
+  {
+    "name": "Wolfram Mathematica",
+    "url": "https://www.wolfram.com/mathematica",
+    "description": "Programming language, symbolic calculator, and an engineer's best friend."
+  },
+  {
+    "name": "Yabause ",
+    "url": "https://yabause.org",
+    "description": "Sega Saturn emulator."
+  },
+  {
+    "name": "Awesome C/C++",
+    "url": "https://github.com/fffaraz/awesome-cpp",
+    "description": "There's no reason you can't use C++ libraries that weren't designed for Qt.  Sometimes they might even suit your needs better than what Qt offers."
+  },
+  {
+    "name": "Awesome C",
+    "url": "https://github.com/aleksandar-todorovic/awesome-c",
+    "description": "Same goes for C libraries; might wanna brush up on those RAII techniques while you're at it."
+  },
+  {
+    "name": "Awesome CMake",
+    "url": "https://github.com/onqtam/awesome-cmake",
+    "description": "If you're not using qmake for your project, you're likely using CMake instead."
+  },
+  {
+    "name": "Awesome OpenGL",
+    "url": "https://github.com/eug/awesome-opengl",
+    "description": "Qt is commonly used for graphics applications, even providing its own wrappers around OpenGL."
+  }
+]

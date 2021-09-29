@@ -1,0 +1,3423 @@
+[
+  {
+    "name": "Awesome Ember.js \n\nContents\nPackages\n\nAST\na11y\nAdapters\nAnimations\nAuthentication\nAutomation\nBenchmarking\nBlogging\nBabel\nBoilerplating\nBroccoli\nBroccoli read\nBuild tools\nCharts\nCI/CD\nCode Splitting\nCodestyle\nCommand-line apps\nCommand-line utilities\nComponent addons\nCompression\nContent management systems\nControl flow\nCSS & etc\nFonts\nState management\nStyling kits\nData Management\nData manipulation & Computed\nData validation\nDatabase\nDate\nDebugging / Profiling\nDecorators\nDocumentation\nEmber-inspector roadmaps & overview\nEnd-user customization\nES6\nExternal Components Integration\nForms\nFunctional programming\nHTTP\nHelpers\nImage\nInclude external JS code\nInfinite Scroll\nInternalization & Localization\nInputs\nJob queues\nLogging\nMad science\nMath\nMetrics\nMinifiers\nMiscellaneous\nMobile\nModifiers\nParcel\nPayments\nPolyfills\nPWA\nQuery Params\nReal-time\nRouting addons\nResolver customization\nSecurity\nService Workers\nSSR / Server Side Rendering\nStatic site generators & SEO\nStyling\nTemplating\nTesting\nText\nTree Shaking\nTypeScript\nUI libs\nUI components\nUX\nVR\nVS Code addons\nAtom addons\nVIM\nWeb Components\nWebpack\nWeird\nResources\nArticles\nEmber-Cli Articles\nWhy Articles\nJump-Start Articles\nArticles Glimmer\nArticles Engines\nArticles Ember-Concurrency\nArticles ES6\nArticles TypeScript\nArticles Modern Testing\nArticles FastBoot\nArticles about Data\nArticles about Routing\nYarn in Ember Articles\nBest-practices\nNice to know\nBlogs\nBooks\nCheatsheets\nCodemods\nCommunity\nContribution Guides\nCourses\nDiscovery\nEmber Releases\nExamples\nExamples Glimmer\nGists\nGists Ember Data\nMiscellaneous\nNewsletters\nPodcasts\nSandboxes\nScreencasts\nSlides\nStyleguides\nTools\nTutorials\nTwitter\nVideos\nYouTube channels\nYouTube playlists\n\n\nLicense\n\n",
+    "url": "https://github.com/sindresorhus/awesome"
+  },
+  {
+    "name": "ember-ast-helpers",
+    "url": "https://github.com/cibernox/ember-ast-helpers",
+    "description": "This library is a utility belt to make AST transforms and shield users as much as possible from the nuances of the AST, as it is still private API."
+  },
+  {
+    "name": "ember-template-recast",
+    "url": "https://github.com/ember-template-lint/ember-template-recast",
+    "description": "Non-destructive template transformer."
+  },
+  {
+    "name": "jscodeshift",
+    "url": "https://github.com/facebook/jscodeshift",
+    "description": "A JavaScript codemod toolkit."
+  },
+  {
+    "name": "dyfactor",
+    "url": "https://github.com/dyfactor/dyfactor",
+    "description": "A platform for running codemods based on runtime information."
+  },
+  {
+    "name": "ember-accessibility",
+    "url": "https://github.com/coyote-labs/ember-accessibility",
+    "description": "Addon to help identify accessibility violations during development."
+  },
+  {
+    "name": "e-a11y-modal",
+    "url": "https://github.com/MelSumner/e-a11y-modal",
+    "description": "A simple modal for accessible Ember.js applications."
+  },
+  {
+    "name": "ember-a11y-landmarks",
+    "url": "https://github.com/ember-a11y/ember-a11y-landmarks",
+    "description": "Ember.js addon to help with landmark roles for better accessibility."
+  },
+  {
+    "name": "ember-a11y",
+    "url": "https://github.com/ember-a11y/ember-a11y",
+    "description": "A collection of tools to build accessible Ember.js applications."
+  },
+  {
+    "name": "ember-component-focus",
+    "url": "https://github.com/ember-a11y/ember-component-focus",
+    "description": "A mixin for adding methods to your Ember.js components that help you manage the currently focused element."
+  },
+  {
+    "name": "ember-gestures",
+    "url": "https://github.com/html-next/ember-gestures",
+    "description": "Ember.js gestures provides an easy way to use gestures by making it simple to define and use HammerJS managers and recognizers throughout your app."
+  },
+  {
+    "name": "ember-steps",
+    "url": "https://github.com/rwjblue/ember-steps",
+    "description": "Declarative create wizards, tabbed UIs, and more."
+  },
+  {
+    "name": "ember-page-title",
+    "url": "https://github.com/tim-evans/ember-page-title",
+    "description": "Page title management for Ember.js Apps."
+  },
+  {
+    "name": "ember-self-focused",
+    "url": "https://github.com/linkedin/self-focused/tree/master/packages/ember-self-focused",
+    "description": "Focus on route on transition."
+  },
+  {
+    "name": "ember-keyboard",
+    "url": "https://github.com/patience-tema-baron/ember-keyboard",
+    "description": "An Ember.js addon for the painless support of keyboard events."
+  },
+  {
+    "name": "ember-a11y-testing",
+    "url": "https://github.com/ember-a11y/ember-a11y-testing",
+    "description": "A suite of accessibility tests that can be run within the Ember.js testing framework."
+  },
+  {
+    "name": "a11y-announcer",
+    "url": "https://github.com/ember-a11y/a11y-announcer",
+    "description": "An accessible ember route change announcer."
+  },
+  {
+    "name": "ember-a11y-refocus",
+    "url": "https://github.com/MelSumner/ember-a11y-refocus",
+    "description": "Provides an unobtrusive navigation narration element for Ember applications."
+  },
+  {
+    "name": "ember-cli-markdown-resolver",
+    "url": "https://github.com/willviles/ember-cli-markdown-resolver",
+    "description": "Ember CLI addon for resolving markdown files in custom folders and retrieving content via a service."
+  },
+  {
+    "name": "ember-cloud-firestore-adapter",
+    "url": "https://github.com/rmmmp/ember-cloud-firestore-adapter",
+    "description": "Unofficial Ember Data Adapter and Serializer for Cloud Firestore."
+  },
+  {
+    "name": "ember-data-hal-9000",
+    "url": "https://github.com/201-created/ember-data-hal-9000",
+    "description": "An ember-data compatible ember-cli addon that provides a HAL adapter (HATEOAS)."
+  },
+  {
+    "name": "ember-django-adapter",
+    "url": "https://github.com/dustinfarris/ember-django-adapter",
+    "description": "Ember CLI addon adapter for Django REST Framework."
+  },
+  {
+    "name": "ember-graphql-adapter",
+    "url": "https://github.com/alphasights/ember-graphql-adapter",
+    "description": "GraphQL adapter for Ember Data."
+  },
+  {
+    "name": "ember-indexeddb",
+    "url": "https://github.com/mydea/ember-indexeddb",
+    "description": "Utilities & adapter to work with IndexedDB in ember & ember-data."
+  },
+  {
+    "name": "ember-localforage-adapter",
+    "url": "https://github.com/genkgo/ember-localforage-adapter",
+    "description": "Offline usage for Ember Data."
+  },
+  {
+    "name": "ember-local-storage",
+    "url": "https://github.com/funkensturm/ember-local-storage",
+    "description": "The addon provides a storage for computed property that returns a proxy and persists the changes to localStorage or sessionStorage."
+  },
+  {
+    "name": "ember-pouch",
+    "url": "https://github.com/pouchdb-community/ember-pouch",
+    "description": "PouchDB/CouchDB adapter for Ember Data."
+  },
+  {
+    "name": "ember-wordpress",
+    "url": "https://github.com/oskarrough/ember-wordpress",
+    "description": "The bridge between Ember.js and WordPress."
+  },
+  {
+    "name": "emberfire",
+    "url": "https://github.com/firebase/emberfire",
+    "description": "Official Ember Data adapter for Firebase."
+  },
+  {
+    "name": "ninjafire",
+    "url": "https://github.com/lineupninja/ninjafire",
+    "description": "An ORM for Firebase written in Typescript."
+  },
+  {
+    "name": "ember-animated",
+    "url": "https://github.com/ember-animation/ember-animated",
+    "description": "Web Animations with Ember js"
+  },
+  {
+    "name": "liquid-fire",
+    "url": "https://github.com/ember-animation/liquid-fire",
+    "description": "Animations & transitions for ambitious Ember.js applications."
+  },
+  {
+    "name": "ember-cli-simple-auth-extensions",
+    "url": "https://emberobserver.com/categories/ember-cli-simple-auth-extensions"
+  },
+  {
+    "name": "ember-simple-auth",
+    "url": "https://github.com/simplabs/ember-simple-auth",
+    "description": "A library for implementing authentication/authorization in Ember.js applications."
+  },
+  {
+    "name": "tori",
+    "url": "https://github.com/Vestorly/torii",
+    "description": "A set of clean abstractions for authentication in Ember.js."
+  },
+  {
+    "name": "ember-cli-deploy",
+    "url": "https://github.com/ember-cli-deploy/ember-cli-deploy",
+    "description": "A deployment pipeline for Ember CLI apps."
+  },
+  {
+    "name": "ember-cli-deploy-webhooks",
+    "url": "https://github.com/simplabs/ember-cli-deploy-webhooks",
+    "description": "Ember CLI Deploy plugin for calling webhooks during deployments."
+  },
+  {
+    "name": "ember-cli-release",
+    "url": "https://github.com/shipshapecode/ember-cli-release",
+    "description": "Ember CLI addon for versioned release management."
+  },
+  {
+    "name": "ember-cli-sri",
+    "url": "https://github.com/jonathanKingston/ember-cli-sri",
+    "description": "This plugin is used to generate Subresource Integrity (SRI) hashes for ember applications."
+  },
+  {
+    "name": "ember-cli-dependency-lint",
+    "url": "https://github.com/salsify/ember-cli-dependency-lint",
+    "description": "Lint your app's addon dependencies, making sure you only have one version of each."
+  },
+  {
+    "name": "ember-macro-benchmark",
+    "url": "https://github.com/krisselden/ember-macro-benchmark",
+    "description": "Benchmark recording of an ember app with running with 2 versions of Ember.js."
+  },
+  {
+    "name": "ember-performance",
+    "url": "https://github.com/eviltrout/ember-performance",
+    "description": "A suite of tests for Ember.js to help with performance."
+  },
+  {
+    "name": "emberperf",
+    "url": "http://emberperf.eviltrout.com",
+    "description": "Ember.js Performance (Between versions)."
+  },
+  {
+    "name": "empress-blog",
+    "url": "https://github.com/empress/empress-blog",
+    "description": "Fully-functional, SEO friendly static site implementation of a blog system built on Ember.js."
+  },
+  {
+    "name": "ember-cli-blog",
+    "url": "https://github.com/broerse/ember-cli-blog",
+    "description": "Tom Dale's blog example updated for the Ember CLI."
+  },
+  {
+    "name": "ember-tumblr",
+    "url": "https://github.com/elwayman02/ember-tumblr",
+    "description": "Ember.js Addon for integrating a Tumblr blog."
+  },
+  {
+    "name": "ember-cli-babel-plugin-helpers",
+    "url": "https://github.com/dfreeman/ember-cli-babel-plugin-helpers",
+    "description": "Utilities for managing Babel plugins in Ember CLI apps and addons."
+  },
+  {
+    "name": "ember-boilerplate",
+    "url": "https://github.com/mirego/ember-boilerplate",
+    "description": " The stable base upon which we build our Ember.js projects at Mirego."
+  },
+  {
+    "name": "broccoli-concat-analyser",
+    "url": "https://github.com/stefanpenner/broccoli-concat-analyser",
+    "description": "Assets profiling."
+  },
+  {
+    "name": "broccoli-debug",
+    "url": "https://github.com/broccolijs/broccoli-debug",
+    "description": "Utility for build pipeline authors to allow trivial debugging of the Broccoli pipelines they author."
+  },
+  {
+    "name": "broccoli-stew",
+    "url": "https://github.com/stefanpenner/broccoli-stew",
+    "description": "Provides commonly used convenience functions for developing broccoli based build pipelines."
+  },
+  {
+    "name": "broccolijs-tutorial",
+    "url": "https://github.com/oligriffiths/broccolijs-tutorial",
+    "description": "Broccoli.js Tutorial repository."
+  },
+  {
+    "name": "broccoli-rollup",
+    "url": "https://github.com/chadhietala/broccoli-rollup",
+    "description": "Broccoli Plugin For \"Rollup\"."
+  },
+  {
+    "name": "broccoli-manifest",
+    "url": "https://github.com/racido/broccoli-manifest",
+    "description": "HTML5 cache-manifest compilation for broccoli."
+  },
+  {
+    "name": "broccoli-glow",
+    "url": "https://github.com/locks/broccoli-glow",
+    "description": "Dynamic component creation from single file, etc."
+  },
+  {
+    "name": "Debugging a Broccoli Tree",
+    "url": "https://dockyard.com/blog/2015/02/02/debugging-a-broccoli-tree"
+  },
+  {
+    "name": "Debugging Broccoli and Ember-CLI",
+    "url": "https://mfeckie.github.io/Debugging-Broccoli-And-Ember/"
+  },
+  {
+    "name": "Debugging Ember-cli Build Times",
+    "url": "https://medium.com/@Dhaulagiri/debugging-ember-cli-build-times-38bd1b0f55f9"
+  },
+  {
+    "name": "Eat Your Greens",
+    "url": "http://www.oligriffiths.com/broccolijs/",
+    "description": "A Broccoli.js tutorial"
+  },
+  {
+    "name": "Ember.js Lazy Assets: Fingerprinting & loading static/dynamic assets on demand",
+    "url": "https://codeburst.io/ember-js-lazy-assets-fingerprinting-loading-static-dynamic-assets-on-demand-f09cd7568155"
+  },
+  {
+    "name": "Thoughts on how to write faster broccoli plugins",
+    "url": "https://gist.github.com/Gaurav0/c1eb3a00670eed28e57c2cf92d3f7668"
+  },
+  {
+    "name": "Broccoli",
+    "url": "https://github.com/broccolijs/broccoli",
+    "description": "Fast, reliable asset pipeline, supporting constant-time rebuilds and compact build definitions."
+  },
+  {
+    "name": "ember-charts",
+    "url": "https://github.com/Addepar/ember-charts",
+    "description": "A charting library built with the Ember.js and d3.js frameworks."
+  },
+  {
+    "name": "ember-sparkles",
+    "url": "https://github.com/LocusEnergy/ember-sparkles",
+    "description": "Collection of composable D3 components built with ember-d3-helpers."
+  },
+  {
+    "name": "ember-cli-server-variables",
+    "url": "https://github.com/blimmer/ember-cli-server-variables",
+    "description": "An Ember CLI add-on to support adding variables to the generated index.html file's head tag."
+  },
+  {
+    "name": "ember-ci",
+    "url": "https://github.com/mike-north/ember-ci",
+    "description": "Continuous integration goodies for ember.js apps."
+  },
+  {
+    "name": "CI with GitHub Actions for Ember Apps",
+    "url": "https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/",
+    "description": "Reducing CI runtimes with GitHub Actions"
+  },
+  {
+    "name": "CI with GitHub Actions for Ember Apps: Part 2",
+    "url": "https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/",
+    "description": "Migrating to v2 actions, lowering runtime cost and continuously deployment"
+  },
+  {
+    "name": "ember-engines",
+    "url": "https://github.com/ember-engines/ember-engines",
+    "description": "This Ember.js addon implements the functionality described in the Ember.js Engines RFC. Engines allow multiple logical applications to be composed together into a single application from the user's perspective."
+  },
+  {
+    "name": "ember-lazy-mount",
+    "url": "https://github.com/buschtoens/ember-lazy-mount",
+    "description": "Allow {{mount}} lazy loading route-less engines."
+  },
+  {
+    "name": "ember-cli-bundle-loader",
+    "url": "https://github.com/MiguelMadero/ember-cli-bundle-loader",
+    "description": "Addon to allow for multiple bundles and do lazy loading."
+  },
+  {
+    "name": "ember-cli-lazy-load",
+    "url": "https://github.com/duizendnegen/ember-cli-lazy-load",
+    "description": "Support lazily loading your Ember.js app via splitting it up into Bundles."
+  },
+  {
+    "name": "ember-cli-template-lint",
+    "url": "https://github.com/ember-template-lint/ember-cli-template-lint",
+    "description": "Ember CLI integration for ember-template-lint."
+  },
+  {
+    "name": "ember-cli-alex",
+    "url": "https://github.com/yohanmishkin/ember-cli-alex",
+    "description": "Alex for Ember.js apps."
+  },
+  {
+    "name": "ember-prop-types",
+    "url": "https://github.com/ciena-blueplanet/ember-prop-types",
+    "description": "Improved property management for Ember.js apps and addons."
+  },
+  {
+    "name": "ember-cli-create",
+    "url": "https://github.com/gossi/ember-cli-create",
+    "description": "CLI wizard to create a new ember project."
+  },
+  {
+    "name": "@ember/optional-features",
+    "url": "https://github.com/emberjs/ember-optional-features",
+    "description": "This addon allows you to easily enable/disable optional features in ember-source. To clarify what we mean by optional, these are features that will be opt-in/opt-out and optional for the foreseeable future, not features that will be enabled by default. It is intended for use with apps only not addons."
+  },
+  {
+    "name": "ember-cli-rename",
+    "url": "https://github.com/trabus/ember-cli-rename",
+    "description": "Addon for ember-cli that provides an ember rename command."
+  },
+  {
+    "name": "ember-cli-update",
+    "url": "https://github.com/ember-cli/ember-cli-update",
+    "description": "Update Ember CLI Ember.js apps, addons and Glimmer.js apps."
+  },
+  {
+    "name": "ember-cli-deprecation-workflow",
+    "url": "https://github.com/mixonic/ember-cli-deprecation-workflow",
+    "description": "An addon geared towards making Ember.js upgrades easier by allowing you to work through deprecations without massive console noise."
+  },
+  {
+    "name": "ember-diff-attrs",
+    "url": "https://github.com/workmanw/ember-diff-attrs"
+  },
+  {
+    "name": "ember-compatibility-helpers",
+    "url": "https://github.com/pzuraq/ember-compatibility-helpers",
+    "description": "Helpers that allow you to write backwards compatible Ember.js addons."
+  },
+  {
+    "name": "ember-cli-deploy-brotli",
+    "url": "https://github.com/mfeckie/ember-cli-deploy-brotli",
+    "description": "Ember.js deploy plugin to support brotli compression."
+  },
+  {
+    "name": "ember-admin",
+    "url": "https://github.com/DockYard/ember-admin",
+    "description": "Automatically discover your models and interact with all model data in a simple CRUD interface."
+  },
+  {
+    "name": "https://authmaker.com/",
+    "url": "https://authmaker.com/",
+    "description": " Go from zero to fully functioning and live MVP in 3 days."
+  },
+  {
+    "name": "ember-computed-promise-monitor",
+    "url": "https://github.com/NullVoxPopuli/ember-computed-promise-monitor",
+    "description": "Enable computed properties to be async-aware."
+  },
+  {
+    "name": "ember-rx",
+    "url": "https://github.com/alexlafroscia/ember-rx",
+    "description": "RxJS 6 integration for Ember.js."
+  },
+  {
+    "name": "ember-concurrency",
+    "url": "https://github.com/machty/ember-concurrency",
+    "description": "Ember.js Addon that enables you to write concise, worry-free, cancelable, restartable, asynchronous tasks."
+  },
+  {
+    "name": "ember-master-tab",
+    "url": "https://github.com/rhyek/ember-master-tab",
+    "description": "A library that provides a service which helps running a function on only one tab of an Ember application."
+  },
+  {
+    "name": "ember-cli-stylelint",
+    "url": "https://github.com/billybonks/ember-cli-stylelint",
+    "description": "Adds styleint to your ember app, to lint all kinds of css."
+  },
+  {
+    "name": "ember-cli-autoprefixer",
+    "url": "https://github.com/kimroen/ember-cli-autoprefixer",
+    "description": "Automatically run your styles through autoprefixer."
+  },
+  {
+    "name": "ember-cli-sass",
+    "url": "https://github.com/aexmachina/ember-cli-sass",
+    "description": "Use node-sass to preprocess your ember-cli app's files, with support for sourceMaps and include paths."
+  },
+  {
+    "name": "ember-cli-sass-pods",
+    "url": "https://github.com/justtal/ember-cli-sass-pods",
+    "description": "Enjoy styling your pods with the sass style file in the pod directory."
+  },
+  {
+    "name": "ember-component-css",
+    "url": "https://github.com/ebryn/ember-component-css",
+    "description": "An Ember CLI addon which allows you to specify styles for individual components."
+  },
+  {
+    "name": "ember-cli-postcss",
+    "url": "https://github.com/jeffjewiss/ember-cli-postcss",
+    "description": "A PostCSS integration for ember-cli."
+  },
+  {
+    "name": "ember-css-modules",
+    "url": "https://github.com/salsify/ember-css-modules",
+    "description": "CSS Modules for ambitious applications."
+  },
+  {
+    "name": "ember-cli-tailwind",
+    "url": "https://github.com/embermap/ember-cli-tailwind",
+    "description": "Tailwind is a utility-first CSS framework for rapidly building custom user interfaces."
+  },
+  {
+    "name": "ember-emotion",
+    "url": "https://github.com/alexlafroscia/ember-emotion",
+    "description": "Use emotion styling in Ember.js."
+  },
+  {
+    "name": "css-blocks",
+    "url": "https://github.com/linkedin/css-blocks",
+    "description": "High performance, maintainable stylesheets."
+  },
+  {
+    "name": "ember-cli-eyeglass",
+    "url": "https://github.com/linkedin/eyeglass/tree/master/packages/ember-cli-eyeglass",
+    "description": "This Ember CLI Addon makes it trivial to compile your sass files with eyeglass support via node-sass."
+  },
+  {
+    "name": "ember-cli-webfont",
+    "url": "https://github.com/vitch/ember-cli-webfont",
+    "description": "Easily generate webfonts from svg files as part of your ember-cli build process."
+  },
+  {
+    "name": "ember-buffered-proxy",
+    "url": "https://github.com/yapplabs/ember-buffered-proxy"
+  },
+  {
+    "name": "ember-changeset",
+    "url": "https://github.com/poteto/ember-changeset"
+  },
+  {
+    "name": "ember-cerebraljs",
+    "url": "https://github.com/lifeart/ember-cerebraljs",
+    "description": "Enhanced state management for complex Ember.js apps using Cerebral."
+  },
+  {
+    "name": "ember-redux",
+    "url": "http://www.ember-redux.com/",
+    "description": "Predictable state management for ember apps."
+  },
+  {
+    "name": "ember-state-services",
+    "url": "https://github.com/stefanpenner/ember-state-services"
+  },
+  {
+    "name": "ember-time-machine",
+    "url": "https://github.com/offirgolan/ember-time-machine"
+  },
+  {
+    "name": "ember-cli-tailwind",
+    "url": "https://github.com/embermap/ember-cli-tailwind",
+    "description": "Adds Tailwind CSS to your app or addon."
+  },
+  {
+    "name": "ember-apollo-client",
+    "url": "https://github.com/bgentry/ember-apollo-client",
+    "description": "An ember-cli addon for Apollo Client and GraphQL."
+  },
+  {
+    "name": "ember-cli-sofa",
+    "url": "https://github.com/ampatspell/ember-cli-sofa",
+    "description": "CouchDB persistence library for Ember.js."
+  },
+  {
+    "name": "ember-orbit",
+    "url": "https://github.com/orbitjs/ember-orbit",
+    "description": "Ember.js data layer built with Orbit.js."
+  },
+  {
+    "name": "ember-data-storefront",
+    "url": "https://github.com/embermap/ember-data-storefront",
+    "description": "A collection of APIs that address common data-loading issues."
+  },
+  {
+    "name": "ember-m3",
+    "url": "https://github.com/hjdivad/ember-m3",
+    "description": "This addon provides an alternative model implementation to DS.Model."
+  },
+  {
+    "name": "ember-cli-zuglet",
+    "url": "https://www.ember-cli-zuglet.com/",
+    "description": "Ember.js addon for effortless Firebase integration."
+  },
+  {
+    "name": "ember-awesome-macros",
+    "url": "https://github.com/kellyselden/ember-awesome-macros",
+    "description": "A collection of Ember.js computed macros."
+  },
+  {
+    "name": "ember-cpm",
+    "url": "https://github.com/cibernox/ember-cpm",
+    "description": "Computed property Macros for Ember.js."
+  },
+  {
+    "name": "ember-macaroni",
+    "url": "https://github.com/poteto/ember-macaroni",
+    "description": "Keep your app code DRY and copypasta free with computed property macaronis (macros)."
+  },
+  {
+    "name": "ember-cp-validations",
+    "url": "https://github.com/offirgolan/ember-cp-validations",
+    "description": "Ember.js computed property based validations."
+  },
+  {
+    "name": "ember-changeset-validations",
+    "url": "https://github.com/poteto/ember-changeset-validations/",
+    "description": "Validations for ember-changeset."
+  },
+  {
+    "name": "ember-model-validator",
+    "url": "https://github.com/esbanarango/ember-model-validator",
+    "description": "Add validations to your Ember Data models on an explicit and easy way, without a bunch a validations files around or complicated structure."
+  },
+  {
+    "name": "ember-validated-form",
+    "url": "https://github.com/adfinis-sygroup/ember-validated-form",
+    "description": "Easily create forms with client side validations."
+  },
+  {
+    "name": "ember-line-graph",
+    "url": "https://astronomersiva.github.io/ember-line-graph/",
+    "description": "Zero-dependency ember-addon to draw line-charts."
+  },
+  {
+    "name": "ember-indexeddb",
+    "url": "https://github.com/mydea/ember-indexeddb",
+    "description": "Utilities & adapter to work with IndexedDB in ember & ember-data."
+  },
+  {
+    "name": "ember-moment",
+    "url": "https://github.com/stefanpenner/ember-moment",
+    "description": "Template helpers and computed property macros for moment.js and Ember.js."
+  },
+  {
+    "name": "ember-debug-logger",
+    "url": "https://github.com/salsify/ember-debug-logger",
+    "description": "Exposes the visionmedia/debug library for use in your Ember.js application."
+  },
+  {
+    "name": "ember-devtools",
+    "url": "https://github.com/aexmachina/ember-devtools",
+    "description": "A collection of useful Ember.js debugging functions."
+  },
+  {
+    "name": "ember-chrome-devtools",
+    "url": "https://github.com/dwickern/ember-chrome-devtools",
+    "description": "Chrome DevTools addon for Ember.js."
+  },
+  {
+    "name": "ember-cli-bundle-analyzer",
+    "url": "https://github.com/kaliber5/ember-cli-bundle-analyzer",
+    "description": "An Ember CLI addon to analyze the size and contents of your app's bundled output, using an interactive zoomable treemap."
+  },
+  {
+    "name": "ember-perf-timeline",
+    "url": "https://github.com/ember-best-practices/ember-perf-timeline",
+    "description": "Add performance information to Chrome's Timeline for Ember.js applications."
+  },
+  {
+    "name": "ember-cli-route-map",
+    "url": "https://github.com/BBVAEngineering/ember-cli-route-map",
+    "description": "Command to generate a route map of your Ember.js application."
+  },
+  {
+    "name": "heimdalljs-visualizer",
+    "url": "https://github.com/rwjblue/heimdalljs-visualizer",
+    "description": "Visualizer for heimdalljs data."
+  },
+  {
+    "name": "source-map-explorer",
+    "url": "https://github.com/danvk/source-map-explorer",
+    "description": "Analyze and debug space usage through source maps."
+  },
+  {
+    "name": "ember-dead-code",
+    "url": "https://github.com/buschtoens/ember-dead-code",
+    "description": "Detect dead code with confidence via real user monitoring."
+  },
+  {
+    "name": "Macro Decorators",
+    "url": "https://pzuraq.github.io/macro-decorators/",
+    "description": "DRY your code by creating decorators that duplicated getter/setter's functionality"
+  },
+  {
+    "name": "ember-cli-addon-docs",
+    "url": "https://github.com/ember-learn/ember-cli-addon-docs",
+    "description": "Easy, beautiful docs for your Ember.js addon."
+  },
+  {
+    "name": "ember-cli-jsdoc",
+    "url": "https://github.com/softlayer/ember-cli-jsdoc",
+    "description": "An Ember.js CLI addon to generate HTML documentation from JSDoc comments in the source code."
+  },
+  {
+    "name": "ember-freestyle",
+    "url": "https://github.com/chrislopresto/ember-freestyle",
+    "description": "Ember-freestyle is an Ember.js addon that allows you to quickly create a component explorer for your Ember.js app."
+  },
+  {
+    "name": "Ember Inspector Pairing",
+    "url": "https://www.youtube.com/watch?v=rFNR_Fj1G84"
+  },
+  {
+    "name": "Ember Inspector Sync",
+    "url": "https://www.youtube.com/watch?v=PvsfQrKxl_8"
+  },
+  {
+    "name": "ember-asset-loader",
+    "url": "https://github.com/ember-engines/ember-asset-loader",
+    "description": "Asset loading support for Ember.js applications."
+  },
+  {
+    "name": "ember-experiments",
+    "url": "https://github.com/outdoorsy/ember-experiments",
+    "description": "Experimentation, A/B Split Testing addon for Ember.js."
+  },
+  {
+    "name": "ember-cli-hot-loader",
+    "url": "https://github.com/toranb/ember-cli-hot-loader",
+    "description": "An early look at what hot reloading might be like in the ember ecosystem."
+  },
+  {
+    "name": "ember-ast-hot-load",
+    "url": "https://github.com/lifeart/ember-ast-hot-load",
+    "description": "Universal hot-load addon."
+  },
+  {
+    "name": "ember-cli-build-notifications",
+    "url": "https://github.com/pdud/ember-cli-build-notifications",
+    "description": "Notifications when ember-cli has a build error."
+  },
+  {
+    "name": "ember-feature-flags",
+    "url": "https://github.com/kategengler/ember-feature-flags",
+    "description": "An ember-cli addon to provide feature flags."
+  },
+  {
+    "name": "ember-named-yields",
+    "url": "https://github.com/knownasilya/ember-named-yields",
+    "description": "Named Yields for Ember.js Components."
+  },
+  {
+    "name": "ember-islands",
+    "url": "https://github.com/mitchlloyd/ember-islands",
+    "description": "Render Ember.js components anywhere on a server-rendered page to create \"Islands of Richness\"."
+  },
+  {
+    "name": "ember-wormhole",
+    "url": "https://github.com/yapplabs/ember-wormhole",
+    "description": "Render a child view somewhere else in the DOM."
+  },
+  {
+    "name": "ember-stargate",
+    "url": "https://github.com/kaliber5/ember-stargate",
+    "description": "A modern take on using so called \"portals\" to render things in a different place of the DOM tree than they are logically defined in the app."
+  },
+  {
+    "name": "ember-concurrency-decorators",
+    "url": "https://github.com/machty/ember-concurrency-decorators",
+    "description": " Decorator syntax for declaring/configuring ember-concurrency tasks."
+  },
+  {
+    "name": "ember-decorators",
+    "url": "https://github.com/ember-decorators/ember-decorators",
+    "description": "Useful decorators for Ember.js applications."
+  },
+  {
+    "name": "@ember-decorators/argument",
+    "url": "https://github.com/ember-decorators/argument",
+    "description": "Decorators for Component and Object arguments in Ember.js."
+  },
+  {
+    "name": "sparkles-decorators",
+    "url": "https://github.com/gossi/sparkles-decorators",
+    "description": "Decorators for Sparkles/Glimmer.js Components."
+  },
+  {
+    "name": "ember-glimmer-component",
+    "url": "https://github.com/smfoote/ember-glimmer-component",
+    "description": "Glimmer.js-like components in Ember.js."
+  },
+  {
+    "name": "sparkles-component",
+    "url": "https://github.com/rwjblue/sparkles-component",
+    "description": "Addon used to experiment with @glimmer.js/component style APIs in Ember.js apps via existing public APIs."
+  },
+  {
+    "name": "hooked-components",
+    "url": "https://github.com/lifeart/hooked-components",
+    "description": "Custom components for Ember.js, inspired by React Hooks approach."
+  },
+  {
+    "name": "ember-functional-component",
+    "url": "https://github.com/rwjblue/ember-functional-component",
+    "description": "Attempting to use \"pure functions\" as components."
+  },
+  {
+    "name": "ember-lifecycle-component",
+    "url": "https://github.com/NullVoxPopuli/ember-lifecycle-component",
+    "description": "A component with additional lifecycles for times when you may need need a template."
+  },
+  {
+    "name": "ember-vue-components",
+    "url": "https://github.com/lifeart/ember-vue-components",
+    "description": "Vue.JS component API for Ember."
+  },
+  {
+    "name": "@alexlafroscia/ember-cli-react",
+    "url": "https://github.com/alexlafroscia/ember-cli-react",
+    "description": "Render React components in Ember.js."
+  },
+  {
+    "name": "@AltSchool/ember-cli-react",
+    "url": "https://github.com/AltSchool/ember-cli-react",
+    "description": "Use React component hierarchies in your Ember.js app."
+  },
+  {
+    "name": "ember-cli-crudities",
+    "url": "https://ember-cli-crudities.readthedocs.io",
+    "description": "Form and editable list builder that works from json config which can be either statically or dynamically loaded."
+  },
+  {
+    "name": "ember-form-for",
+    "url": "https://github.com/martndemus/ember-form-for",
+    "description": "This Ember.js addon will give you an easy way to build good forms."
+  },
+  {
+    "name": "Bacon.js",
+    "url": "http://baconjs.github.io",
+    "description": "Functional reactive programming."
+  },
+  {
+    "name": "Folktale",
+    "url": "http://folktale.origamitower.com",
+    "description": "Suite of libraries for generic functional programming in JavaScript that allows you to write elegant, modular applications with fewer bugs, and more reuse."
+  },
+  {
+    "name": "immutable",
+    "url": "https://github.com/facebook/immutable-js",
+    "description": "Immutable data collections."
+  },
+  {
+    "name": "Kefir.js",
+    "url": "https://github.com/rpominov/kefir",
+    "description": "Reactive library with focus on high performance and low memory usage."
+  },
+  {
+    "name": "Lazy.js",
+    "url": "https://github.com/dtao/lazy.js",
+    "description": "Utility library similar to lodash/Underscore but with lazy evaluation, which can translate to superior performance in many cases."
+  },
+  {
+    "name": "lodash",
+    "url": "https://lodash.com",
+    "description": "Utility library delivering consistency, customization, performance, & extras. A better and faster Underscore.js."
+  },
+  {
+    "name": "mori",
+    "url": "http://swannodette.github.io/mori/",
+    "description": "Library for using ClojureScript's persistent data structures and supporting API from the comfort of vanilla JavaScript."
+  },
+  {
+    "name": "Mout",
+    "url": "http://moutjs.com",
+    "description": "Utility library with the biggest difference between other existing solutions is that you can choose to load only the modules/functions that you need, no extra overhead."
+  },
+  {
+    "name": "Ramda",
+    "url": "http://ramdajs.com",
+    "description": "Utility library with a focus on flexible functional composition enabled by automatic currying and reversed argument order. Avoids mutating data."
+  },
+  {
+    "name": "RxJS",
+    "url": "http://reactivex.io",
+    "description": "Functional reactive library for transforming, composing, and querying various kinds of data."
+  },
+  {
+    "name": "underscore-contrib",
+    "url": "http://documentcloud.github.io/underscore-contrib/",
+    "description": "The brass buckles on Underscore's utility belt."
+  },
+  {
+    "name": "ember-ajax",
+    "url": "https://github.com/ember-cli/ember-ajax",
+    "description": "Service for making AJAX requests in Ember.js 1.13+ applications."
+  },
+  {
+    "name": "ember-socket-guru",
+    "url": "https://github.com/netguru/ember-socket-guru",
+    "description": "Addon for easy integration with Pusher.js, Action Cable, Socket.io and Phoenix Channels."
+  },
+  {
+    "name": "ember-event-helpers",
+    "url": "https://github.com/buschtoens/ember-event-helpers",
+    "description": "Complimentary event template helpers to the {{on}} modifier."
+  },
+  {
+    "name": "ember-render-helpers",
+    "url": "https://github.com/buschtoens/ember-render-helpers",
+    "description": "@ember/render-modifiers as template helpers."
+  },
+  {
+    "name": "ember-element-helper",
+    "url": "https://github.com/tildeio/ember-element-helper",
+    "description": "Dynamic element helper for Glimmer templates."
+  },
+  {
+    "name": "ember-composable-helpers",
+    "url": "https://github.com/DockYard/ember-composable-helpers",
+    "description": "Composable helpers for declarative templating in Ember.js."
+  },
+  {
+    "name": "ember-helpers",
+    "url": "https://github.com/abcum/ember-helpers",
+    "description": "A collection of handlebars helpers for Ember.js."
+  },
+  {
+    "name": "ember-d3-helpers",
+    "url": "https://github.com/LocusEnergy/ember-d3-helpers",
+    "description": "Collection of Ember.js helpers for building composable D3 charts."
+  },
+  {
+    "name": "ember-math-helpers",
+    "url": "https://github.com/shipshapecode/ember-math-helpers",
+    "description": "Ember.js HTMLBars helpers for basic arithmetic."
+  },
+  {
+    "name": "ember-promise-helpers",
+    "url": "https://github.com/fivetanley/ember-promise-helpers",
+    "description": "Promise-y sugar for your Ember.js templates."
+  },
+  {
+    "name": "ember-route-action-helper",
+    "url": "https://github.com/DockYard/ember-route-action-helper",
+    "description": "Bubble closure actions in routes."
+  },
+  {
+    "name": "ember-root-url",
+    "url": "https://github.com/ef4/ember-root-url",
+    "description": "A template helper to keep your URLs relative to the app's rootURL."
+  },
+  {
+    "name": "ember-store-helpers",
+    "url": "https://github.com/ember-sapporo/ember-store-helpers",
+    "description": "This add-on provides helpers related to ember-data."
+  },
+  {
+    "name": "ember-truth-helpers",
+    "url": "https://github.com/jmurphyau/ember-truth-helpers",
+    "description": "Ember.js HTMLBars Helpers for {{if}} & {{unless}}: not, and, or, eq & is-array."
+  },
+  {
+    "name": "ember-awesome-macros",
+    "url": "https://github.com/kellyselden/ember-awesome-macros",
+    "description": "A collection of Ember.js computed macros."
+  },
+  {
+    "name": "ember-macro-helpers",
+    "url": "https://github.com/kellyselden/ember-macro-helpers",
+    "description": "Ember.js macro helpers for making your own fancy macros!"
+  },
+  {
+    "name": "ember-cli-string-helpers",
+    "url": "https://github.com/romulomachado/ember-cli-string-helpers",
+    "description": "Set of the String helpers extracted from DockYard's ember-composable-helpers."
+  },
+  {
+    "name": "ember-svg-jar",
+    "url": "https://github.com/ivanvotti/ember-svg-jar",
+    "description": "The best way to embed SVG images into your Ember.js application."
+  },
+  {
+    "name": "ember-auto-import",
+    "url": "https://github.com/ef4/ember-auto-import",
+    "description": "Zero config import from npm packages."
+  },
+  {
+    "name": "ember-cli-cjs-transform",
+    "url": "https://github.com/rwjblue/ember-cli-cjs-transform",
+    "description": "CommonJS imports."
+  },
+  {
+    "name": "ember-cli-es6-transform",
+    "url": "https://github.com/sandydoo/ember-cli-es6-transform",
+    "description": "Import ES6 modules from npm, bower or anywhere else in your app."
+  },
+  {
+    "name": "ember-browserify",
+    "url": "https://github.com/ef4/ember-browserify",
+    "description": "Addon for easily loading CommonJS packages from npm via browserify."
+  },
+  {
+    "name": "ember-infinity",
+    "url": "https://github.com/ember-infinity/ember-infinity",
+    "description": "Simple, flexible Infinite Scroll for Ember CLI Apps."
+  },
+  {
+    "name": "vertical-collection",
+    "url": "https://github.com/html-next/vertical-collection",
+    "description": "Infinite Scroll and Occlusion at > 60 FPS."
+  },
+  {
+    "name": "smoke-and-mirrors",
+    "url": "https://github.com/html-next/smoke-and-mirrors",
+    "description": "Ambitious infinite-scroll and svelte rendering for ambitious applications."
+  },
+  {
+    "name": "ember-intl",
+    "url": "https://github.com/ember-intl/ember-intl",
+    "description": "Translate complex messages string. Localized formatting for date/time, number, and relative time."
+  },
+  {
+    "name": "ember-intl-analyzer",
+    "url": "https://github.com/simplabs/ember-intl-analyzer",
+    "description": "Find unused translations in your Ember.js projects."
+  },
+  {
+    "name": "ember-autoresize",
+    "url": "https://github.com/tim-evans/ember-autoresize",
+    "description": "Autoresize for Ember.js Components."
+  },
+  {
+    "name": "ember-data-tasks",
+    "url": "https://github.com/knownasilya/ember-data-tasks"
+  },
+  {
+    "name": "ember-concurrency",
+    "url": "http://ember-concurrency.com"
+  },
+  {
+    "name": "ember-custom-actions",
+    "url": "https://github.com/Exelord/ember-custom-actions",
+    "description": "Custom API actions for Ember.js applications."
+  },
+  {
+    "name": "ember-pipeline",
+    "url": "https://github.com/poteto/ember-pipeline"
+  },
+  {
+    "name": "ember-lifeline",
+    "url": "https://github.com/ember-lifeline/ember-lifeline",
+    "description": "An ember addon for managing the life cycle of asynchronous behavior in your objects."
+  },
+  {
+    "name": "console.re",
+    "url": "https://console.re/"
+  },
+  {
+    "name": "ember-debug-logger",
+    "url": "https://emberobserver.com/addons/ember-debug-logger",
+    "description": "An Ember.js addon to expose the Visionmedia debug logger."
+  },
+  {
+    "name": "ember-logging-service",
+    "url": "https://github.com/acquia/ember-logging-service/",
+    "description": "This addon provides a general and extensible logging service that can be used throughout your application."
+  },
+  {
+    "name": "raygun",
+    "url": "https://raygun.com/"
+  },
+  {
+    "name": "ember-elm",
+    "url": "https://github.com/nucleartide/ember-elm",
+    "description": "Write Elm in your Ember.js app."
+  },
+  {
+    "name": "javascript-algorithms",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "description": "Algorithms and data structures implemented in JavaScript with explanations and links to further readings."
+  },
+  {
+    "name": "ember-katex",
+    "url": "https://github.com/firecracker/ember-katex",
+    "description": "Render your LaTeX formulas using KaTeX."
+  },
+  {
+    "name": "ember-math-helpers",
+    "url": "https://github.com/shipshapecode/ember-math-helpers",
+    "description": "Ember.js HTMLBars helpers for basic arithmetic."
+  },
+  {
+    "name": "ember-user-activity",
+    "url": "https://github.com/elwayman02/ember-user-activity",
+    "description": "Ember.js Addon for tracking user activity & idling."
+  },
+  {
+    "name": "ember-metrics",
+    "url": "https://github.com/poteto/ember-metrics",
+    "description": "Send data to multiple analytics services without re-implementing new API."
+  },
+  {
+    "name": "ember-hbs-minifier",
+    "url": "https://github.com/simplabs/ember-hbs-minifier",
+    "description": "Stripping whitespace out of your Handlebars templates."
+  },
+  {
+    "name": "ember-cli-template-trimmer",
+    "url": "https://github.com/lifeart/ember-cli-template-trimmer",
+    "description": "This addon removes newlines on compile stage."
+  },
+  {
+    "name": "diagonal routes",
+    "url": "https://alexspeller.com/ember-diagonal/",
+    "description": "See what route structure, templates and route hooks are for a given ember route definition."
+  },
+  {
+    "name": "ember data model maker",
+    "url": "https://github.com/andycrum/ember-data-model-maker/",
+    "description": "Ember Data Model Maker (EDMM)."
+  },
+  {
+    "name": "corber",
+    "url": "https://github.com/isleofcode/corber",
+    "description": "Tooling for cordova and crosswalk hybrid applications built with Ember.js."
+  },
+  {
+    "name": "glimmer-native",
+    "url": "https://github.com/bakerac4/glimmer-native",
+    "description": "Have you ever wanted to use Ember.js/Glimmer.js to create a native mobile app? Well now you can!"
+  },
+  {
+    "name": "ember-mobile-bar",
+    "url": "https://github.com/nickschot/ember-mobile-bar",
+    "description": "Managed fixed (tool)bars with mobile app-like behaviour."
+  },
+  {
+    "name": "ember-mobile-core",
+    "url": "https://github.com/nickschot/ember-mobile-core",
+    "description": "Provides a pan recognizer and some utils for the ember-mobile-* addons."
+  },
+  {
+    "name": "ember-mobile-menu",
+    "url": "https://github.com/nickschot/ember-mobile-menu",
+    "description": "Draggable sidebar specifically tailored to mobile devices."
+  },
+  {
+    "name": "ember-mobile-pane",
+    "url": "https://github.com/nickschot/ember-mobile-pane",
+    "description": "Mobile layout ember-mobile-pane."
+  },
+  {
+    "name": "ember-responsive",
+    "url": "https://github.com/freshbooks/ember-responsive",
+    "description": "Easy responsive layouts with Ember.js."
+  },
+  {
+    "name": "ember-css-vars",
+    "url": "https://github.com/luxferresum/ember-css-vars",
+    "description": "A ember modifier to apply css variables. This gives a save way to expose data from JavaScript to css."
+  },
+  {
+    "name": "ember-on-modifier",
+    "url": "https://github.com/buschtoens/ember-on-modifier",
+    "description": "An implementation of the {{on}} element modifier shown in the Modifiers RFC #353."
+  },
+  {
+    "name": "ember-ref-modifier",
+    "url": "https://github.com/lifeart/ember-ref-modifier",
+    "description": "An implementation of the {{ref}} element modifier."
+  },
+  {
+    "name": "ember-render-modifiers",
+    "url": "https://github.com/emberjs/ember-render-modifiers",
+    "description": "Implements did-insert / did-update / will-destroy modifiers for RFC #415."
+  },
+  {
+    "name": "ember-functional-modifiers",
+    "url": "https://github.com/spencer516/ember-functional-modifiers",
+    "description": "Functional Modifiers for Ember.js."
+  },
+  {
+    "name": "ember-style-modifier",
+    "url": "https://github.com/jelhan/ember-style-modifier",
+    "description": "This addon provides a {{style}} element modifier to set element's style."
+  },
+  {
+    "name": "ember-simple-animate",
+    "url": "https://github.com/abhilashlr/ember-simple-animate",
+    "description": "Simple ember animate addon for CSS based animations."
+  },
+  {
+    "name": "ember-parcel-example",
+    "url": "https://github.com/rtablada/ember-parcel-example",
+    "description": "Ember.js + Parcel.js Example."
+  },
+  {
+    "name": "todomvc-demo",
+    "url": "https://github.com/devongovett/todomvc-demo",
+    "description": "Glimmer.js + Parcel.js Example."
+  },
+  {
+    "name": "ember-credit-card",
+    "url": "https://github.com/esbanarango/ember-credit-card",
+    "description": "\"make your credit card form dreamy in one line of code\"."
+  },
+  {
+    "name": "ember-modifier-manager-polyfill",
+    "url": "https://github.com/rwjblue/ember-modifier-manager-polyfill",
+    "description": "Polyfill element modifiers for Ember.js 2.12 through 3.7."
+  },
+  {
+    "name": "ember-angle-bracket-invocation-polyfill",
+    "url": "https://github.com/rwjblue/ember-angle-bracket-invocation-polyfill",
+    "description": "This addon provides a polyfill for angle bracket invocation syntax as described in RFC 311."
+  },
+  {
+    "name": "ember-named-arguments-polyfill",
+    "url": "https://github.com/rwjblue/ember-named-arguments-polyfill",
+    "description": "Polyfills support for named arguments for Ember.js 2.10 through 3.0."
+  },
+  {
+    "name": "ember-native-class-polyfill",
+    "url": "https://github.com/pzuraq/ember-native-class-polyfill",
+    "description": "This addon provides a polyfill for the native class behavior that was proposed in Ember.js RFCs #240 and #337."
+  },
+  {
+    "name": "ember-router-service-polyfill",
+    "url": "https://github.com/rwjblue/ember-router-service-polyfill",
+    "description": "This addon provides a best effort polyfill for the ember-routing-router-service feature added in Ember.js 2.15."
+  },
+  {
+    "name": "ember-fn-helper-polyfill",
+    "url": "https://github.com/rwjblue/ember-fn-helper-polyfill",
+    "description": "This addon provides a polyfill for the {{fn}} helper as described in RFCs #470."
+  },
+  {
+    "name": "ember-named-blocks-polyfill",
+    "url": "https://github.com/ember-polyfills/ember-named-blocks-polyfill",
+    "description": "This addon provides a polyfill for the Yieldable Named Blocks feature."
+  },
+  {
+    "name": "ember-service-worker-asset-cache",
+    "url": "https://github.com/DockYard/ember-service-worker-asset-cache"
+  },
+  {
+    "name": "ember-service-worker-cache-fallback",
+    "url": "https://github.com/DockYard/ember-service-worker-cache-fallback"
+  },
+  {
+    "name": "ember-service-worker-cache-first",
+    "url": "https://github.com/DockYard/ember-service-worker-cache-first"
+  },
+  {
+    "name": "ember-service-worker-index",
+    "url": "https://github.com/DockYard/ember-service-worker-index"
+  },
+  {
+    "name": "ember-service-worker-prember",
+    "url": "https://github.com/shipshapecode/ember-service-worker-prember"
+  },
+  {
+    "name": "ember-service-worker",
+    "url": "https://github.com/DockYard/ember-service-worker",
+    "description": "A pluggable approach to Service Workers for Ember.js."
+  },
+  {
+    "name": "ember-web-app",
+    "url": "https://github.com/san650/ember-web-app",
+    "description": "This Ember.js addon helps you configure and manage the manifest.json and meta tags needed to create progressive web applications."
+  },
+  {
+    "name": "ember-query-params-service",
+    "url": "https://github.com/NullVoxPopuli/ember-query-params-service",
+    "description": "Do you have controllers that only parse query params?"
+  },
+  {
+    "name": "ember-parachute",
+    "url": "https://github.com/offirgolan/ember-parachute",
+    "description": "Improved Query Params for Ember.js."
+  },
+  {
+    "name": "ember-href-to",
+    "url": "https://github.com/intercom/ember-href-to",
+    "description": "A lightweight alternative to {{link-to}}."
+  },
+  {
+    "name": "ember-cli-flash",
+    "url": "https://github.com/poteto/ember-cli-flash",
+    "description": "Simple, highly configurable flash messages for ember-cli."
+  },
+  {
+    "name": "ember-component-routes",
+    "url": "https://github.com/wongpeiyi/ember-component-routes",
+    "description": "Render components directly from routes in Ember.js."
+  },
+  {
+    "name": "ember-redirect",
+    "url": "https://github.com/thoov/ember-redirect",
+    "description": "This addon aims to be a simple and easy way to preform route based redirects with minimal effort."
+  },
+  {
+    "name": "ember-router-scroll",
+    "url": "https://github.com/dollarshaveclub/ember-router-scroll",
+    "description": "Scroll to top with preserved browser history scroll position."
+  },
+  {
+    "name": "ember-cli-extended-resolver",
+    "url": "https://www.npmjs.com/package/ember-cli-extended-resolver",
+    "description": "This addons allows to modify default files structure to be more feature-grouped."
+  },
+  {
+    "name": "ember-can",
+    "url": "https://github.com/minutebase/ember-can",
+    "description": "Simple authorisation addon for Ember.js apps."
+  },
+  {
+    "name": "ember-permissions",
+    "url": "https://github.com/Bagaar/ember-permissions",
+    "description": "Permission management for Ember applications."
+  },
+  {
+    "name": "ember-cli-workbox",
+    "url": "https://github.com/BBVAEngineering/ember-cli-workbox/",
+    "description": "Offline caching as a progressive enhancement using service workers."
+  },
+  {
+    "name": "ember-service-worker",
+    "url": "https://github.com/DockYard/ember-service-worker",
+    "description": "A pluggable approach to Service Workers for Ember.js."
+  },
+  {
+    "name": "ember-service-worker-index",
+    "url": "https://github.com/DockYard/ember-service-worker-index",
+    "description": "An Ember.js Service Worker plugin that caches the index.html file."
+  },
+  {
+    "name": "ember-service-worker-asset-cache",
+    "url": "https://github.com/DockYard/ember-service-worker-asset-cache",
+    "description": "An Ember.js Service Worker plugin that caches an Ember.js app's asset files."
+  },
+  {
+    "name": "ember-service-worker-cache-first",
+    "url": "https://github.com/DockYard/ember-service-worker-cache-first",
+    "description": "A cache first Ember.js Service Worker plugin."
+  },
+  {
+    "name": "ember-service-worker-cache-fallback",
+    "url": "https://github.com/DockYard/ember-service-worker-cache-fallback",
+    "description": "An Ember.js Service Worker plugin that resorts to a cached fallback version when the network request fails."
+  },
+  {
+    "name": "ember-service-worker-emberfire-messaging",
+    "url": "https://github.com/Matt-Jensen/ember-service-worker-emberfire-messaging",
+    "description": "Firebase Cloud Messaging service worker support for Emberfire apps."
+  },
+  {
+    "name": "ember-service-worker-unregistration",
+    "url": "https://github.com/GreatWizard/ember-service-worker-unregistration",
+    "description": "An Ember.js plugin that unregister service workers when ember-service-worker is disabled."
+  },
+  {
+    "name": "ember-service-worker-request-chaos",
+    "url": "https://github.com/maxfierke/ember-service-worker-request-chaos",
+    "description": "Like Netflix's Chaos Monkey but for your Ember.js SPA's API requests."
+  },
+  {
+    "name": "ember-service-worker-project-entagled-registration",
+    "url": "https://github.com/rwjblue/ember-service-worker-project-entagled-registration",
+    "description": "This addon is to be used along with ember-service-worker to ensure that the service worker being used is paired properly to the project."
+  },
+  {
+    "name": "ember-service-worker-cache-rendered",
+    "url": "https://github.com/PrinceCornNM/ember-service-worker-cache-rendered",
+    "description": "Ember.js service worker plugin for storing rendered html in cache, really useful for fastboot."
+  },
+  {
+    "name": "ember-service-worker-update-notify",
+    "url": "https://github.com/topaxi/ember-service-worker-update-notify",
+    "description": "Update notification for service workers."
+  },
+  {
+    "name": "ember-service-worker-enqueue",
+    "url": "https://github.com/The-Don-Himself/ember-service-worker-enqueue",
+    "description": "An Ember.js Service Worker plugin that catches failed mutation requests e.g POST, PUT, DELETE and queues them for background processing."
+  },
+  {
+    "name": "ember-service-worker-prember",
+    "url": "https://github.com/shipshapecode/ember-service-worker-prember",
+    "description": "An Ember.js Service Worker plugin that caches the index.html files for each prember route."
+  },
+  {
+    "name": "ember-fastboot",
+    "url": "https://github.com/ember-fastboot/ember-cli-fastboot",
+    "description": "Server-side rendering for Ember.js apps."
+  },
+  {
+    "name": "glimmer-ssr-test",
+    "url": "https://github.com/josemarluedke/glimmer-ssr-test",
+    "description": "Making a Glimmer.js app be rendered in the server."
+  },
+  {
+    "name": "ember-meta",
+    "url": "https://github.com/shipshapecode/ember-meta",
+    "description": "Setup meta for your Prember/Ember.js blog to support opengraph, microdata, Facebook, Twitter, Slack etc."
+  },
+  {
+    "name": "prember-rss-feed",
+    "url": "https://github.com/shipshapecode/prember-rss-feed",
+    "description": "Ship RSS feeds for your Prember site."
+  },
+  {
+    "name": "prember",
+    "url": "https://github.com/ef4/prember",
+    "description": "Prerender Ember.js apps with Fastboot at build time."
+  },
+  {
+    "name": "ember-cli-sass",
+    "url": "https://github.com/aexmachina/ember-cli-sass",
+    "description": "Use node-sass to preprocess your ember-cli app's files, with support for sourceMaps and include paths."
+  },
+  {
+    "name": "ember-template-component-import",
+    "url": "https://github.com/crashco/ember-template-component-import",
+    "description": "This addon allows you to use import-style syntax to create local bindings to a component within a template file."
+  },
+  {
+    "name": "ember-cli-jsx-templates",
+    "url": "https://github.com/lifeart/ember-cli-jsx-templates",
+    "description": "TSX/JSX support for ember templates."
+  },
+  {
+    "name": "Emblem.js",
+    "url": "https://github.com/machty/emblem.js/",
+    "description": "Ember.js-friendly, indented syntax alternative for Handlebars.js."
+  },
+  {
+    "name": "ember-qunit-decorators",
+    "url": "https://github.com/mike-north/ember-qunit-decorators",
+    "description": "Use ES6 or TypeScript decorators for QUnit tests in your Ember.js app."
+  },
+  {
+    "name": "ember-cli-addon-tests",
+    "url": "https://github.com/tomdale/ember-cli-addon-tests",
+    "description": "Test helpers for testing Ember CLI addons inside the context of a real Ember.js app."
+  },
+  {
+    "name": "ember-cli-code-coverage",
+    "url": "https://github.com/kategengler/ember-cli-code-coverage",
+    "description": "Code coverage for ember apps using Istanbul."
+  },
+  {
+    "name": "ember-cli-mirage",
+    "url": "http://www.ember-cli-mirage.com/",
+    "description": "Build, test and demo your app using a JSON API-compliant client-side server."
+  },
+  {
+    "name": "ember-cli-mocha",
+    "url": "https://github.com/ember-cli/ember-cli-mocha",
+    "description": "Mocha and Chai tests for ember-cli applications."
+  },
+  {
+    "name": "ember-cli-page-object",
+    "url": "https://github.com/san650/ember-cli-page-object",
+    "description": "This ember-cli addon eases the construction of page objects on your acceptance and integration tests."
+  },
+  {
+    "name": "ember-cli-yadda",
+    "url": "https://github.com/albertjan/ember-cli-yadda",
+    "description": "Write cucumber specs for ember-cli applications."
+  },
+  {
+    "name": "ember-concurrency-test-waiter",
+    "url": "https://github.com/bendemboski/ember-concurrency-test-waiter",
+    "description": "Easily enable test waiters for ember-concurrency tasks."
+  },
+  {
+    "name": "ember-exam",
+    "url": "https://github.com/trentmwillis/ember-exam",
+    "description": "Run your tests with randomization, splitting, and parallelization for beautiful tests."
+  },
+  {
+    "name": "ember-percy",
+    "url": "https://github.com/percy/ember-percy",
+    "description": "Ember.js addon for visual regression testing with Percy."
+  },
+  {
+    "name": "ember-qunit",
+    "url": "https://github.com/emberjs/ember-qunit",
+    "description": "QUnit test helpers for Ember.js."
+  },
+  {
+    "name": "ember-test-friendly-error-handler",
+    "url": "https://github.com/rwjblue/ember-test-friendly-error-handler",
+    "description": "Build testable error handlers that don't throw in production..."
+  },
+  {
+    "name": "ember-test-selectors",
+    "url": "https://github.com/simplabs/ember-test-selectors",
+    "description": "Enabling better element selectors in Ember.js tests."
+  },
+  {
+    "name": "ember-test-setup",
+    "url": "https://github.com/kellyselden/ember-test-setup",
+    "description": "Testing shorthands to reduce duplication."
+  },
+  {
+    "name": "ember-window-mock",
+    "url": "https://github.com/kaliber5/ember-window-mock",
+    "description": "Use window global as an Ember.js service that can be mocked in tests."
+  },
+  {
+    "name": "mirage-glue",
+    "url": "https://github.com/izelnakri/mirage-glue",
+    "description": "This program reads your API endpoint and creates or appends response to relevant mirage fixture file(s)."
+  },
+  {
+    "name": "ember-sinon",
+    "url": "https://github.com/csantero/ember-sinon",
+    "description": "Ember CLI addon adding support for sinon.js."
+  },
+  {
+    "name": "ember-text-measurer",
+    "url": "https://github.com/cibernox/ember-text-measurer",
+    "description": "Simple Ember.js Service to measure the width of a string in a performant way."
+  },
+  {
+    "name": "ember-cli-tree-shaker",
+    "url": "https://github.com/kellyselden/ember-cli-tree-shaker",
+    "description": "This is a testbed for the new tree-shaking and code splitting work from Kelly Selden and Alex Navasardyan."
+  },
+  {
+    "name": "ember-cli-typescript",
+    "url": "https://github.com/typed-ember/ember-cli-typescript",
+    "description": "Use TypeScript in your Ember.js apps!"
+  },
+  {
+    "name": "ember-typings",
+    "url": "https://github.com/typed-ember/ember-typings",
+    "description": "Typescript type definitions for ember.js."
+  },
+  {
+    "name": "ember-typescript-utils",
+    "url": "https://github.com/happycollision/ember-typescript-utils",
+    "description": "Utility functions built around Typescript and Ember.js."
+  },
+  {
+    "name": "ember-bootstrap",
+    "url": "http://www.ember-bootstrap.com/",
+    "description": "Provides a collection of native Ember.js components that mimic the original Bootstrap plugins and components in an ember friendly way."
+  },
+  {
+    "name": "Frontile",
+    "url": "https://github.com/josemarluedke/frontile",
+    "description": "Frontile aims to provide the legos (components, helpers, modifiers, and styles) necessary for building consistent and powerful Ember.js apps."
+  },
+  {
+    "name": "ember-cli-uniq",
+    "url": "https://github.com/uniplaces/ember-cli-uniq/",
+    "description": "Default components for Ember.js that implement the Uniplaces Design System."
+  },
+  {
+    "name": "ember-element-ui",
+    "url": "https://github.com/aalasolutions/ember-element-ui",
+    "description": "Provides element-ui for ember."
+  },
+  {
+    "name": "ember-elements",
+    "url": "https://github.com/dunkinbase/ember-elements",
+    "description": "a UI toolkit in Ember"
+  },
+  {
+    "name": "ember-ghost-casper-template",
+    "url": "https://github.com/stonecircle/ember-ghost-casper-template",
+    "description": "A static site version of the default personal blogging theme for Ghost."
+  },
+  {
+    "name": "ember-paper",
+    "url": "https://github.com/miguelcobain/ember-paper",
+    "description": "The Ember.js approach to Material Design."
+  },
+  {
+    "name": "ember-radical",
+    "url": "https://github.com/healthsparq/ember-radical",
+    "description": "Feather light, fully accessible DDAU component library for your Ember.js apps."
+  },
+  {
+    "name": "Nomad UI",
+    "url": "https://github.com/hashicorp/nomad/tree/master/ui"
+  },
+  {
+    "name": "Semantic-UI-Ember",
+    "url": "https://github.com/Semantic-Org/Semantic-UI-Ember",
+    "description": "This is the official Ember.js library for the Semantic-UI modules."
+  },
+  {
+    "name": "Flexi",
+    "url": "https://github.com/html-next/flexi"
+  },
+  {
+    "name": "ember-attacher",
+    "url": "https://kybishop.github.io/ember-attacher/",
+    "description": "Tooltips & popovers made easy."
+  },
+  {
+    "name": "ember-burger-menu",
+    "url": "https://github.com/offirgolan/ember-burger-menu",
+    "description": "An off-canvas sidebar component with a collection of animations and styles using CSS transitions."
+  },
+  {
+    "name": "ember-flatpickr",
+    "url": "https://github.com/shipshapecode/ember-flatpickr",
+    "description": "An Ember.js addon that wraps the Flatpickr date picker."
+  },
+  {
+    "name": "ember-power-select",
+    "url": "https://github.com/cibernox/ember-power-select",
+    "description": "The extensible select component built for ember."
+  },
+  {
+    "name": "ember-basic-dropdown",
+    "url": "https://github.com/cibernox/ember-basic-dropdown",
+    "description": "The basic dropdown you ember app needs."
+  },
+  {
+    "name": "ember-drag-sort",
+    "url": "https://github.com/kaliber5/ember-drag-sort",
+    "description": "A sortable list component with support for multiple and nested lists."
+  },
+  {
+    "name": "ember-perfect-scroll",
+    "url": "https://github.com/imanhodjaev/ember-perfect-scroll",
+    "description": "Perfect scroll component as an Ember cli addon."
+  },
+  {
+    "name": "ember-onbeforeunload",
+    "url": "https://github.com/jasonmit/ember-onbeforeunload",
+    "description": "Invoke logic when transitioning between routes or closing window."
+  },
+  {
+    "name": "ember-vr",
+    "url": "https://github.com/ember-vr"
+  },
+  {
+    "name": "Ember Syntax",
+    "url": "https://marketplace.visualstudio.com/items?itemName=dhedgecock.ember-syntax",
+    "description": "Syntax highlighting for Ember.js template files AND syntax highlighting for inline template definitions with tagged templates!"
+  },
+  {
+    "name": "Glimmer Templates Syntax for VS Code",
+    "url": "https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax",
+    "description": "Glimmer syntax highlighting for Ember.js."
+  },
+  {
+    "name": "ember-language-server",
+    "url": "https://github.com/emberwatch/ember-language-server",
+    "description": "Language Server Protocol implementation for Ember.js projects."
+  },
+  {
+    "name": "unstable-ember-language-server",
+    "url": "https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable",
+    "description": "Language Server Protocol implementation for Ember.js projects (Unstable, including experimental features)."
+  },
+  {
+    "name": "vscode-ember-colorizer",
+    "url": "https://github.com/ciena-blueplanet/vscode-ember-colorizer",
+    "description": "VSCode extension that colorizes/tokeninzes Ember.js .hbs, Controllers, and Routes files."
+  },
+  {
+    "name": "ember-module-snippets",
+    "url": "https://github.com/candidmetrics/ember-module-snippets",
+    "description": "Snippets to make importing Ember.js modules a snap in VSCode."
+  },
+  {
+    "name": "Atom Ember Snippets",
+    "url": "https://github.com/mattmcmanus/atom-ember-snippets"
+  },
+  {
+    "name": "Unstable language server for neovim",
+    "url": "https://gist.github.com/meirish/639e6def0f352f63fef662dce3ca2f98"
+  },
+  {
+    "name": "ember-cli-web-components",
+    "url": "https://github.com/BBVAEngineering/ember-cli-web-components",
+    "description": "Use your Ember.js components in other framework as Web Components!"
+  },
+  {
+    "name": "shadow-dom",
+    "url": "https://github.com/knownasilya/ember-shadow-dom",
+    "description": "Write templates for your components inside of a Shadow DOM root."
+  },
+  {
+    "name": "glimmer-compiler-webpack-plugin",
+    "url": "https://github.com/tomdale/glimmer-compiler-webpack-plugin"
+  },
+  {
+    "name": "ember-dynamic-render-template",
+    "url": "https://github.com/miguelcobain/ember-dynamic-render-template",
+    "description": "Render DOM from a template string."
+  },
+  {
+    "name": "Front-End Performance Checklist",
+    "url": "https://github.com/thedaviddias/Front-End-Performance-Checklist"
+  },
+  {
+    "name": "Ember.js approval requirements",
+    "url": "https://gist.github.com/PoslinskiNet/2d7a05944ca3c468440a0faea153062b"
+  },
+  {
+    "name": "Ember-cli fingerprinting and dynamic assets",
+    "url": "https://medium.com/@ruslanzavacky/ember-cli-fingerprinting-and-dynamic-assets-797a298d8dc6"
+  },
+  {
+    "name": "Secrets of the Ember-CLI server: Express middleware with Ember-CLI",
+    "url": "https://blog.201-created.com/secrets-of-the-ember-cli-server-bde80bb546dd"
+  },
+  {
+    "name": "NYC Planning Labs: Why Choose Ember.js?",
+    "url": "https://medium.com/nycplanninglabs/nyc-planning-labs-why-choose-ember-js-fe9ff75f4373"
+  },
+  {
+    "name": "Why DockYard Builds with Ember.js",
+    "url": "https://dockyard.com/blog/2017/10/04/why-dockyard-uses-ember"
+  },
+  {
+    "name": "Ember.js. Your best bet.",
+    "url": "https://medium.com/@alvincrespo/ember-your-best-bet-b5cd7275dc84"
+  },
+  {
+    "name": "Why Ember.js?",
+    "url": "http://www.melsumner.com/blog/ember/why-ember/"
+  },
+  {
+    "name": "6 Reasons Why To Use Ember.js In 2019",
+    "url": "https://selleo.com/blog/6-reasons-why-to-use-ember-in-2019"
+  },
+  {
+    "name": "Ember.js: Our Secret Weapon",
+    "url": "https://www.prototypal.io/blog/"
+  },
+  {
+    "name": "How Ember.js Enables Us to Focus on Shipping Features",
+    "url": "http://blog.nightwatch.io/ember-js-shipping-features"
+  },
+  {
+    "name": "When you should not pick Ember.js as your next front-end tool",
+    "url": "https://medium.com/selleo/when-you-should-not-pick-emberjs-as-your-next-front-end-tool-203697c2e0f0"
+  },
+  {
+    "name": "Moving from React to Ember 2020",
+    "url": "http://medium.com/@nowims/moving-from-react-to-ember-2020-86e082477d45"
+  },
+  {
+    "name": "Essential Ember Addons: The State of the Ember Addon Ecosystem in 2019",
+    "url": "https://0xadada.pub/2019/06/17/essential-ember-addons/"
+  },
+  {
+    "name": "The simplest possible Ember Data CRUD Tutorial",
+    "url": "https://medium.com/ember-ish/the-simplest-possible-ember-data-crud-16eacee33ae6"
+  },
+  {
+    "name": "Challenges I face(d) with Ember.js",
+    "url": "https://medium.com/@sarbbottam/challenges-i-face-with-ember-js-59bfba30416e"
+  },
+  {
+    "name": "It’s easier in Ember.js. Probably.",
+    "url": "http://www.melsumner.com/blog/development/its-easier-in-ember-probably/"
+  },
+  {
+    "name": "Alternative View Layers for an Elm App",
+    "url": "https://robots.thoughtbot.com/elm-glimmer"
+  },
+  {
+    "name": "Creating Web Components with Glimmer",
+    "url": "https://simplabs.com/blog/2017/08/28/creating-web-components-with-glimmer.html"
+  },
+  {
+    "name": "Building a PWA with Glimmer.js",
+    "url": "https://simplabs.com/blog/2018/07/03/building-a-pwa-with-glimmer-js.html"
+  },
+  {
+    "name": "The Glimmer VM: Boots Fast and Stays Fast",
+    "url": "https://yehudakatz.com/2017/04/05/the-glimmer-vm-boots-fast-and-stays-fast/"
+  },
+  {
+    "name": "The Glimmer Binary Experience",
+    "url": "https://engineering.linkedin.com/blog/2017/12/the-glimmer-binary-experience"
+  },
+  {
+    "name": "Glimmer.js: What’s the Deal with TypeScript?",
+    "url": "https://medium.com/@tomdale/glimmer-js-whats-the-deal-with-typescript-f666d1a3aad0"
+  },
+  {
+    "name": "Glimmer.js Application proposal",
+    "url": "https://gist.github.com/tomdale/10fe9feeb84f2e4325f042839799bd9d",
+    "description": "Compilation, Rendering, SSR, Rehydration."
+  },
+  {
+    "name": "Git Guides",
+    "url": "https://github.com/glimmerjs/glimmer-vm/blob/master/guides/01-introduction.md"
+  },
+  {
+    "name": "Designing and Implementing Glimmer Like a Programming Language",
+    "url": "https://thefeedbackloop.xyz/designing-and-implementing-glimmer-like-a-programming-language/"
+  },
+  {
+    "name": "Glimmer: Blazing Fast Rendering for Ember.js, Part 1",
+    "url": "https://engineering.linkedin.com/blog/2017/03/glimmer--blazing-fast-rendering-for-ember-js--part-1"
+  },
+  {
+    "name": "Glimmer: Blazing Fast Rendering for Ember.js, Part 2",
+    "url": "https://engineering.linkedin.com/blog/2017/06/glimmer--blazing-fast-rendering-for-ember-js--part-2"
+  },
+  {
+    "name": "Why I’m excited about Glimmer.js",
+    "url": "https://hackernoon.com/why-im-excited-about-glimmerjs-3631bd0c95c4"
+  },
+  {
+    "name": "Getting Started With Glimmer-Native",
+    "url": "https://codingitwrong.com/2019/06/26/glimmer-native-tutorial.html"
+  },
+  {
+    "name": "What is the current state of more advanced Glimmer VM features?",
+    "url": "https://discuss.emberjs.com/t/what-is-the-current-state-of-more-advanced-glimmer-vm-features/18114/4"
+  },
+  {
+    "name": "UNIT-TESTING GLIMMER COMPONENTS",
+    "url": "https://timgthomas.com/2019/11/unit-testing-glimmer-components/"
+  },
+  {
+    "name": "CSS in Ember Engines",
+    "url": "https://medium.com/@ynotdraw/css-in-ember-engines-230ef8d4cef8"
+  },
+  {
+    "name": "Enginification",
+    "url": "https://simplabs.com/blog/2017/12/04/enginification.html"
+  },
+  {
+    "name": "Adopting ember-concurrency or: How I Learned to Stop Worrying and Love the Task",
+    "url": "https://engineering.linkedin.com/blog/2016/12/ember-concurrency--or--how-i-learned-to-stop-worrying-and-love-t"
+  },
+  {
+    "name": "Async or Swim: Replacing your Route models with Ember Concurrency Tasks",
+    "url": "https://medium.com/@AveryBloom/async-or-swim-replacing-your-route-models-with-ember-concurrency-tasks-5a230252893a"
+  },
+  {
+    "name": "ember-concurrency: the solution to so many problems you never knew you had",
+    "url": "https://emberway.io/ember-concurrency-the-solution-to-so-many-problems-you-never-knew-you-had-cce6d7731ba9"
+  },
+  {
+    "name": "PromiseProxyMixin: pure Ember alternative to ember-concurrency",
+    "url": "https://lolma.us/en/blog/promise-proxy-mixin/"
+  },
+  {
+    "name": "Two-Tasks Routes in Ember.js",
+    "url": "https://tritarget.org/#Two-Tasks%20Routes%20in%20Ember"
+  },
+  {
+    "name": "ES Classes in Ember.js",
+    "url": "https://medium.com/build-addepar/es-classes-in-ember-js-63e948e9d78e"
+  },
+  {
+    "name": "ember-cli-typescript v2 beta",
+    "url": "https://www.chriskrycho.com/2018/ember-cli-typescript-v2-beta.html"
+  },
+  {
+    "name": "Ember Typescript Code Coverage",
+    "url": "https://gist.github.com/lifeart/5f75981d5f6262d1bfc4525aebfcf7d5",
+    "description": "how to gist"
+  },
+  {
+    "name": "Type-Informed Design",
+    "url": "https://www.chriskrycho.com/2018/type-informed-design.html"
+  },
+  {
+    "name": "Typing Your Ember.js",
+    "url": "https://www.chriskrycho.com/typing-your-ember.html",
+    "description": "Using TypeScript with Ember.js."
+  },
+  {
+    "name": "Ember.js, TypeScript, and Class Properties",
+    "url": "https://www.chriskrycho.com/2018/ember-ts-class-properties.html"
+  },
+  {
+    "name": "Set your Ember.js project up to use TypeScript",
+    "url": "http://www.chriskrycho.com/2017/typing-your-ember-part-1.html"
+  },
+  {
+    "name": "Class properties — some notes on how things differ from the Ember.Object world",
+    "url": "https://www.chriskrycho.com/2018/typing-your-ember-update-part-2.html"
+  },
+  {
+    "name": "Computed properties, actions, mixins, and class methods",
+    "url": "https://www.chriskrycho.com/2018/typing-your-ember-update-part-3.html"
+  },
+  {
+    "name": "Using Ember Data, and service and controller injections improvements",
+    "url": "https://www.chriskrycho.com/2018/typing-your-ember-update-part-4.html"
+  },
+  {
+    "name": "Using Fakes from Ember-Sinon-QUnit",
+    "url": "https://medium.com/@mudflye/using-fakes-from-ember-sinon-qunit-c9fb7d4d9b1d"
+  },
+  {
+    "name": "Headless Ember.js Tests in GitLab with Docker",
+    "url": "https://medium.com/devopslinks/headless-ember-tests-in-gitlab-with-docker-fd5f05eef436"
+  },
+  {
+    "name": "Making my Ember.js test suite 3x faster. A story about Mirage",
+    "url": "https://mlange.io/blog/making-tests-faster-mirage/making-tests-faster-mirage/"
+  },
+  {
+    "name": "Learn TDD in Ember.js",
+    "url": "https://learntdd.in/ember/"
+  },
+  {
+    "name": "STORY-BASED BDD",
+    "url": "https://www.kaliber5.de/en/blog/story-based-bdd-an-alternative-approach-to-testing-with-ember/",
+    "description": "AN ALTERNATIVE APPROACH TO TESTING WITH EMBER"
+  },
+  {
+    "name": "Ember.js Timer Leaks: The Bad Apples in Your Test Infrastructure",
+    "url": "https://engineering.linkedin.com/blog/2018/01/ember-timer-leaks"
+  },
+  {
+    "name": "Test helpers: The next generation",
+    "url": "https://dockyard.com/blog/2018/01/18/test-helpers-the-next-generation"
+  },
+  {
+    "name": "How we test 200k lines Ember.js application in <10 minutes. Again!",
+    "url": "https://hackernoon.com/how-we-got-tests-for-200k-lines-ember-application-running-10-minutes-again-1fa7a4c5af2f"
+  },
+  {
+    "name": "Bending Time in Ember.js Tests",
+    "url": "https://dockyard.com/blog/2018/04/18/bending-time-in-ember-tests"
+  },
+  {
+    "name": "Ember.js QUnit Simplification",
+    "url": "https://www.rwjblue.com/2017/10/23/ember-qunit-simplication/"
+  },
+  {
+    "name": "Testing your Ember.js application in 2018",
+    "url": "https://dockyard.com/blog/2018/03/29/testing-your-ember-application-in-2018"
+  },
+  {
+    "name": "Modern Ember.js Testing",
+    "url": "https://dockyard.com/blog/2018/01/11/modern-ember-testing"
+  },
+  {
+    "name": "Testing Ember.js Applications in 2018",
+    "url": "https://blog.201-created.com/testing-ember-applications-in-2018-4635ac241f00"
+  },
+  {
+    "name": "Testing Ember.js Mixins (and Helpers) With a Container",
+    "url": "https://www.chriskrycho.com/2016/testing-emberjs-mixins-with-a-container.html"
+  },
+  {
+    "name": "Write Tests Like a Mathematician: Part 1",
+    "url": "https://crunchingnumbers.live/2019/08/04/write-tests-like-a-mathematician-part-1/"
+  },
+  {
+    "name": "Write Tests Like a Mathematician: Part 2",
+    "url": "https://crunchingnumbers.live/2019/08/06/write-tests-like-a-mathematician-part-2/"
+  },
+  {
+    "name": "Write Tests Like a Mathematician: Part 3",
+    "url": "https://crunchingnumbers.live/2019/10/11/write-tests-like-a-mathematician-part-3/"
+  },
+  {
+    "name": "Setting up Coveralls for your Ember Addons",
+    "url": "http://hangaroundtheweb.com/2020/05/setting-up-coveralls-for-your-ember-addons/"
+  },
+  {
+    "name": "How to integrate Ember FastBoot in Cloud Functions for Firebase",
+    "url": "https://cenchat.com/blog/2019/06/06/how-to-setup-ember-fastboot-in-cloud-functions-for-firebase.html"
+  },
+  {
+    "name": "Ember FastBoot + Google App Engine",
+    "url": "https://pulletsforever.com/ember-fastboot-google-app-engine-1d38e1e3ffc2"
+  },
+  {
+    "name": "Deploying FastBoot apps with ember-cli-deploy",
+    "url": "https://www.effective-ember.com/blog/deploying-fastboot-apps-with-ember-cli-deploy"
+  },
+  {
+    "name": "Managing Relations in Ember Data with JSON API",
+    "url": "https://www.mediasuite.co.nz/blog/managing-relations-ember-data-json-api/"
+  },
+  {
+    "name": "Creating a Default Record When a belongsTo Request Errors",
+    "url": "https://shipshape.io/blog/ember-data-belongs-to-find-or-create/"
+  },
+  {
+    "name": "The case against async relationships in Ember Data",
+    "url": "https://embermap.com/notes/83-the-case-against-async-relationships"
+  },
+  {
+    "name": "No Graph Theory Required: Ember.js and GraphQL in Practice",
+    "url": "https://medium.com/kloeckner-i/ember-and-graphql-8aa15f7a2554"
+  },
+  {
+    "name": "Offline Data and Sync with Ember-Orbit",
+    "url": "https://codingitwrong.com/2018/05/10/ember-orbit.html"
+  },
+  {
+    "name": "Inlining store data in Ember.js",
+    "url": "https://balinterdi.com/blog/inlining-store-data-in-ember-js/"
+  },
+  {
+    "name": "Extracting Metadata from a Custom API with Ember Data",
+    "url": "https://thejsguy.com/2018/04/06/extracting-metadata-from-a-custom-api-with-ember-data.html"
+  },
+  {
+    "name": "Ad Hoc Relationships with Ember Data",
+    "url": "https://shipshape.io/blog/ad-hoc-relationships-with-ember-data/"
+  },
+  {
+    "name": "Ember Data RecordArray AntiPatterns",
+    "url": "https://gist.github.com/runspired/d86a76158050c4f573f5f26df1dab143"
+  },
+  {
+    "name": "Useful Ember Data helpers",
+    "url": "https://gist.github.com/runspired/96618af26fb1c687a74eb30bf15e58b6"
+  },
+  {
+    "name": "Cascade Deleting Relationships in Ember Data",
+    "url": "https://davidtang.io/2017/02/10/cascade-deleting-relationships-in-ember-data.html"
+  },
+  {
+    "name": "Fit Any Backend Into Ember with Custom Adapters & Serializers",
+    "url": "https://emberigniter.com/fit-any-backend-into-ember-custom-adapters-serializers/"
+  },
+  {
+    "name": "How to reset the Ember.js router namespace with this.route()",
+    "url": "http://toddsmithsalter.com/how-to-reset-the-route-namespace-with-this-route/"
+  },
+  {
+    "name": "Ember.js-Router Wildcard/Globbing Routes",
+    "url": "https://www.tutorialspoint.com/emberjs/route_glbng_rut.htm"
+  },
+  {
+    "name": "Ember.js.Route redirecting ‘/’ to ‘/my-own’",
+    "url": "https://medium.com/ember-titbits/quest-4-ember-route-defaulting-to-my-own-f22b0dcb336f"
+  },
+  {
+    "name": "Ember.js and Yarn Workspaces",
+    "url": "https://medium.com/square-corner-blog/ember-and-yarn-workspaces-fca69dc5d44a"
+  },
+  {
+    "name": "ember-best-practices",
+    "url": "https://github.com/ember-best-practices"
+  },
+  {
+    "name": "An Ember.js Debugging Flowchart",
+    "url": "https://www.mutuallyhuman.com/blog/2016/08/12/an-ember-debugging-flowchart"
+  },
+  {
+    "name": "Built-in input helpers in Ember.js: when should they be used?",
+    "url": "https://balinterdi.com/blog/built-in-input-helpers-in-ember-js-when-and-whether-they-should-be-used/"
+  },
+  {
+    "name": "Codemods",
+    "url": "https://caseywatts.com/2018/08/23/codemods.html"
+  },
+  {
+    "name": "Creating runtime assisted Codemods using Telemetry helpers",
+    "url": "http://hangaroundtheweb.com/2019/10/creating-runtime-assisted-codemods-using-telemetry-helpers/"
+  },
+  {
+    "name": "lost-in-technology.com",
+    "url": "https://www.lost-in-technology.com/blog/"
+  },
+  {
+    "name": "TODAY I LEARNED / Ember.js",
+    "url": "https://til.hashrocket.com/emberjs"
+  },
+  {
+    "name": "Ember.js Daily Tips",
+    "url": "http://www.emberdaily.com"
+  },
+  {
+    "name": "emberway.io",
+    "url": "https://emberway.io/"
+  },
+  {
+    "name": "yehudakatz",
+    "url": "https://yehudakatz.com/"
+  },
+  {
+    "name": "201-created.com",
+    "url": "https://blog.201-created.com/"
+  },
+  {
+    "name": "airpair.com",
+    "url": "https://www.airpair.com/ember.js"
+  },
+  {
+    "name": "alexdiliberto.com",
+    "url": "https://alexdiliberto.com/"
+  },
+  {
+    "name": "balinterdi.com",
+    "url": "https://balinterdi.com/blog/",
+    "description": "Balint Erdi blog."
+  },
+  {
+    "name": "codeburst.io",
+    "url": "https://codeburst.io/tagged/emberjs"
+  },
+  {
+    "name": "codementor.io",
+    "url": "https://www.codementor.io/community/topic/emberjs"
+  },
+  {
+    "name": "dockyard.com",
+    "url": "https://dockyard.com/blog/categories/ember"
+  },
+  {
+    "name": "emberigniter.com",
+    "url": "https://emberigniter.com/articles/"
+  },
+  {
+    "name": "blog.embermap.com",
+    "url": "https://blog.embermap.com"
+  },
+  {
+    "name": "engineering.linkedin.com",
+    "url": "https://engineering.linkedin.com/blog/topic/ember"
+  },
+  {
+    "name": "hackernoon.com",
+    "url": "https://hackernoon.com/tagged/ember"
+  },
+  {
+    "name": "lolma.us",
+    "url": "https://lolma.us/en/blog"
+  },
+  {
+    "name": "madhatted.com",
+    "url": "https://madhatted.com/"
+  },
+  {
+    "name": "medium.com/ember-ish",
+    "url": "https://medium.com/ember-ish",
+    "description": "Ember.js essentials for beginners and intermediate devs."
+  },
+  {
+    "name": "netguru.co",
+    "url": "https://www.netguru.co/blog/topic/ember-js"
+  },
+  {
+    "name": "programwitherik.com",
+    "url": "https://www.programwitherik.com",
+    "description": "Ember.js tuts."
+  },
+  {
+    "name": "rwjblue.com",
+    "url": "http://rwjblue.com/"
+  },
+  {
+    "name": "shipshape.io",
+    "url": "https://shipshape.io/blog/"
+  },
+  {
+    "name": "simplabs.com",
+    "url": "https://simplabs.com/blog/"
+  },
+  {
+    "name": "thejsguy.com",
+    "url": "https://thejsguy.com/"
+  },
+  {
+    "name": "The Shortest Ember.js Book",
+    "url": "https://github.com/ember-learn/the-shortest-ember-book"
+  },
+  {
+    "name": "A deep dive into the Ember.js runloop",
+    "url": "https://github.com/eoinkelly/ember-runloop-handbook"
+  },
+  {
+    "name": "Developing an Ember.js Edge",
+    "url": "https://gumroad.com/l/xlsx"
+  },
+  {
+    "name": "Ember Data in the Wild",
+    "url": "https://leanpub.com/emberdatainthewild"
+  },
+  {
+    "name": "ember-cli 101",
+    "url": "https://leanpub.com/ember-cli-101",
+    "description": "By Adolfo Builes."
+  },
+  {
+    "name": "Ember.js for Artisans",
+    "url": "https://leanpub.com/emberforartisans",
+    "description": "Creating Single Page Apps backed by Laravel."
+  },
+  {
+    "name": "Ember.js in Action",
+    "url": "http://manning.com/skeie/",
+    "description": "By Joachim Haagen Skeie."
+  },
+  {
+    "name": "Professor Frisby's Mostly adequate guide to Functional Programming",
+    "url": "https://drboolean.gitbooks.io/mostly-adequate-guide-old/"
+  },
+  {
+    "name": "Rock and Roll with Ember.js",
+    "url": "http://rockandrollwithemberjs.com/"
+  },
+  {
+    "name": "Ember.js Book (RU)",
+    "url": "https://leanpub.com/ember-book"
+  },
+  {
+    "name": "Pragmatic, balanced FP in JavaScript",
+    "url": "https://github.com/getify/Functional-Light-JS"
+  },
+  {
+    "name": "API",
+    "url": "https://emberjs.com/api/"
+  },
+  {
+    "name": "Glimmer.js",
+    "url": "https://glimmerjs.com/"
+  },
+  {
+    "name": "guides",
+    "url": "https://guides.emberjs.com/"
+  },
+  {
+    "name": "Ember Component Cheat Sheet",
+    "url": "https://codingitwrong.com/2019/07/23/ember-component-cheat-sheet.html",
+    "description": "pre Octane"
+  },
+  {
+    "name": "ember-es6-class-codemod",
+    "url": "https://github.com/scalvert/ember-es6-class-codemod",
+    "description": "A codemod-cli project for converting Ember.js objects to es6 native classes."
+  },
+  {
+    "name": "ember-native-class-codemod",
+    "url": "https://github.com/ember-codemods/ember-native-class-codemod",
+    "description": "A codemod for transforming your ember app code to native JavaScript class syntax with decorators!"
+  },
+  {
+    "name": "ember-cli-mirage-faker-codemod",
+    "url": "https://github.com/caseywatts/ember-cli-mirage-faker-codemod",
+    "description": "This codemod is to help transition from importing faker through ember-cli-mirage, to instead import it directly from faker."
+  },
+  {
+    "name": "ember-mocha-codemods",
+    "url": "https://github.com/Turbo87/ember-mocha-codemods",
+    "description": "Codemod scripts for ember-mocha."
+  },
+  {
+    "name": "ember-module-migrator",
+    "url": "https://github.com/rwjblue/ember-module-migrator",
+    "description": "Automated migration for new Ember.js application layout."
+  },
+  {
+    "name": "ember-qunit-codemod",
+    "url": "https://github.com/rwjblue/ember-qunit-codemod",
+    "description": "This codemod is intended to automatically convert your projects from the older moduleFor* syntax of ember-qunit@2 to the newer syntax."
+  },
+  {
+    "name": "ember-test-helpers-codemod",
+    "url": "https://github.com/simonihmig/ember-test-helpers-codemod",
+    "description": "Codemod to transform your Ember.js tests to use @ember/test-helpers."
+  },
+  {
+    "name": "es5-getter-ember-codemod",
+    "url": "https://github.com/rondale-sc/es5-getter-ember-codemod",
+    "description": "This codemod is intended to automatically convert your usage of get, and getProperties to use traditional object dot notation."
+  },
+  {
+    "name": "qunit-dom-codemod",
+    "url": "https://github.com/simplabs/qunit-dom-codemod",
+    "description": "Basic codemod to automatically convert your assertions to qunit-dom assertions."
+  },
+  {
+    "name": "test-selectors-codemod",
+    "url": "https://github.com/lorcan/test-selectors-codemod",
+    "description": "A codemode for fixing the ember-test-selectors testSelector helper deprecation."
+  },
+  {
+    "name": "ember-on-codemod",
+    "url": "https://github.com/craigbilner/ember-on-codemod",
+    "description": "Replace use of Ember.on."
+  },
+  {
+    "name": "ember-memory-leaks-codemod",
+    "url": "https://github.com/rajasegar/ember-memory-leaks-codemod",
+    "description": "A collection of codemod's for fixing memory leaks in Ember.js applications."
+  },
+  {
+    "name": "ember-3x-codemods",
+    "url": "https://github.com/rajasegar/ember-3x-codemods",
+    "description": "A Codemod with a collection of transforms to address Ember.js 3.x deprecations."
+  },
+  {
+    "name": "ember-computed-getter-codemod",
+    "url": "https://github.com/Alonski/ember-computed-getter-codemod",
+    "description": "Ember.js Computed Getter Codemod."
+  },
+  {
+    "name": "Forum",
+    "url": "http://discuss.emberjs.com/"
+  },
+  {
+    "name": "GitHub issues",
+    "url": "https://github.com/emberjs/ember.js/issues"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/r/emberjs/"
+  },
+  {
+    "name": "Slack",
+    "url": "https://embercommunity.slack.com"
+  },
+  {
+    "name": "Stack Overflow",
+    "url": "http://stackoverflow.com/questions/tagged/ember.js"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://t.me/ember_js"
+  },
+  {
+    "name": "How to contribute to the ember times",
+    "url": "https://www.kennethlarsen.org/how-to-contribute-to-the-ember-times",
+    "description": "part1"
+  },
+  {
+    "name": "How to contribute ember release post",
+    "url": "https://www.kennethlarsen.org/how-to-contribute-ember-release-post",
+    "description": "part2"
+  },
+  {
+    "name": "embermap.com",
+    "url": "https://embermap.com"
+  },
+  {
+    "name": "Emberschool.com",
+    "url": "https://www.emberschool.com"
+  },
+  {
+    "name": "embercasts.com",
+    "url": "https://www.embercasts.com"
+  },
+  {
+    "name": "Frontend Masters: Advanced Ember.js 2.x",
+    "url": "https://frontendmasters.com/courses/advanced-ember-2/",
+    "description": "Mike North"
+  },
+  {
+    "name": "Frontend Masters: Ember.js 2.x",
+    "url": "https://frontendmasters.com/courses/ember-2/",
+    "description": "Mike North"
+  },
+  {
+    "name": "emberobserver",
+    "url": "https://emberobserver.com/",
+    "description": "Ember Observer."
+  },
+  {
+    "name": "emberjs.GitHub.io/rfcs/",
+    "url": "https://emberjs.github.io/rfcs/",
+    "description": "Ember.js RFCs."
+  },
+  {
+    "name": "Ember 3.10 Released",
+    "url": "https://blog.emberjs.com/2019/05/21/ember-3-10-released.html",
+    "description": "May 21, 2019"
+  },
+  {
+    "name": "Ember 3.11",
+    "url": "https://blog.emberjs.com/2019/07/15/ember-3-11-released.html",
+    "description": "July 15, 2019"
+  },
+  {
+    "name": "Ember 3.12",
+    "url": "https://blog.emberjs.com/2019/08/16/ember-3-12-released.html",
+    "description": "August 16, 2019"
+  },
+  {
+    "name": "Ember 3.13 (Octane Preview)",
+    "url": "https://blog.emberjs.com/2019/09/25/ember-3-13-released.html",
+    "description": "Sep 25, 2019"
+  },
+  {
+    "name": "Ember 3.14 (Octane Preview Cont.)",
+    "url": "https://blog.emberjs.com/2019/11/18/ember-3-14-released.html",
+    "description": "Nov 18, 2019"
+  },
+  {
+    "name": "Ember 3.15 \"Octane\" Released",
+    "url": "https://blog.emberjs.com/2019/12/20/ember-3-15-released.html",
+    "description": "Dec 20, 2019"
+  },
+  {
+    "name": "Ember 3.16",
+    "url": "https://blog.emberjs.com/2020/02/12/ember-3-16-released.html",
+    "description": "Feb 12, 2020"
+  },
+  {
+    "name": "Ember 3.17",
+    "url": "https://blog.emberjs.com/2020/03/16/ember-3-17-released.html",
+    "description": "March 16, 2020"
+  },
+  {
+    "name": "Ember 3.18",
+    "url": "https://blog.emberjs.com/2020/05/05/ember-3-18-released.html",
+    "description": "May 5, 2020"
+  },
+  {
+    "name": "Ember 3.19",
+    "url": "https://blog.emberjs.com/2020/06/26/ember-3-19-released.html",
+    "description": "June 26, 2020"
+  },
+  {
+    "name": "Ember 3.20",
+    "url": "https://blog.emberjs.com/2020/07/29/ember-3-20-released.html",
+    "description": "July 29, 2020"
+  },
+  {
+    "name": "Ember 3.21",
+    "url": "https://blog.emberjs.com/2020/09/02/ember-3-21-released.html",
+    "description": "Sep 02, 2020"
+  },
+  {
+    "name": "Ember 3.22",
+    "url": "https://blog.emberjs.com/2020/10/20/ember-3-22-released.html",
+    "description": "Oct 20, 2020"
+  },
+  {
+    "name": "A list of open source Ember.js apps",
+    "url": "https://github.com/EmberSherpa/open-source-ember-apps"
+  },
+  {
+    "name": "Simple contact manager demo app for ember-orbit",
+    "url": "https://github.com/cerebris/peeps-ember-orbit"
+  },
+  {
+    "name": "API Docs",
+    "url": "https://github.com/ember-learn/ember-api-docs",
+    "description": "This application was built to display our versioned API docs."
+  },
+  {
+    "name": "guides-app",
+    "url": "https://github.com/ember-learn/guides-app",
+    "description": "Replacement for emberjs/guides and the Ember.js Guides."
+  },
+  {
+    "name": "Builds",
+    "url": "https://github.com/ember-learn/builds",
+    "description": "This is the application that the Ember.js team built to display our various release channels."
+  },
+  {
+    "name": "HospitalRun",
+    "url": "https://github.com/HospitalRun/hospitalrun-frontend",
+    "description": "Ember.js front end for HospitalRun hospitalrun.io."
+  },
+  {
+    "name": "Rancher",
+    "url": "https://github.com/rancher/ui",
+    "description": "Rancher is enterprise management for Kubernetes."
+  },
+  {
+    "name": "Super Rentals",
+    "url": "https://github.com/ember-learn/super-rentals",
+    "description": "Super Rentals is a good starter project to get acclimated to the Ember.js way of doing things."
+  },
+  {
+    "name": "Travis CI",
+    "url": "https://github.com/travis-ci/travis-web",
+    "description": "The Ember.js web client for Travis CI."
+  },
+  {
+    "name": "Vault",
+    "url": "https://github.com/hashicorp/vault/tree/master/ui/app",
+    "description": "A Tool for Managing Secrets (Hashicorp)."
+  },
+  {
+    "name": "ember-osf-web",
+    "url": "https://github.com/CenterForOpenScience/ember-osf-web",
+    "description": "Ember.js front-end for the Open Science Framework."
+  },
+  {
+    "name": "ember-graphql-examples",
+    "url": "https://github.com/chadian/ember-graphql-examples",
+    "description": "Examples of using GraphQL in Ember.js."
+  },
+  {
+    "name": "ember-rolodex",
+    "url": "https://github.com/rtablada/ember-rolodex",
+    "description": "An example of what an Ember.js tutorial between the quick start and Super Rents could look like."
+  },
+  {
+    "name": "ember-styleguide",
+    "url": "https://github.com/ember-learn/ember-styleguide"
+  },
+  {
+    "name": "Ghost Admin Client",
+    "url": "https://github.com/TryGhost/Ghost-Admin"
+  },
+  {
+    "name": "emberclear",
+    "url": "https://github.com/NullVoxPopuli/emberclear",
+    "description": "Encrypted Chat. No History. No Logs.  + MU & TS."
+  },
+  {
+    "name": "Ember.js nested engines example app + Fastboot.",
+    "url": "https://github.com/catz/eng-test"
+  },
+  {
+    "name": "Percy's frontend web application, built with Ember.js.",
+    "url": "https://github.com/percy/percy-web"
+  },
+  {
+    "name": "Fire Tracker",
+    "url": "https://github.com/SCPR/fire-tracker",
+    "description": "KPCC's tool for following & researching California wildfires."
+  },
+  {
+    "name": "skylines-project",
+    "url": "https://github.com/skylines-project/skylines/tree/master/ember",
+    "description": "Live tracking, flight database and competition framework."
+  },
+  {
+    "name": "PIX",
+    "url": "https://github.com/1024pix/pix-editor",
+    "description": "PIX."
+  },
+  {
+    "name": "ember-monorepo-demo",
+    "url": "https://github.com/lennyburdette/ember-monorepo-demo"
+  },
+  {
+    "name": "documize.com",
+    "url": "https://github.com/documize/community"
+  },
+  {
+    "name": "New York City Census Reporting Tool",
+    "url": "https://github.com/NYCPlanning/labs-factfinder"
+  },
+  {
+    "name": "Medicine Inventory",
+    "url": "https://github.com/aalasolutions/ember-medical-inventory",
+    "description": "Sample application developed with Ember CLI, Corber.io, ember-element-ui."
+  },
+  {
+    "name": "octane-ecommerce",
+    "url": "https://github.com/betocantu93/octane-ecommerce",
+    "description": "Ember Octane + FastBoot + Algolia + PayPal + Formspree (s, v, d)."
+  },
+  {
+    "name": "Rust Package Registry",
+    "url": "https://github.com/rust-lang/crates.io",
+    "description": "crates.io"
+  },
+  {
+    "name": "Ember.js RealWorld Implementation",
+    "url": "https://github.com/gothinkster/ember-realworld",
+    "description": "Ember.js codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the RealWorld spec and API."
+  },
+  {
+    "name": "A wild tomster appears",
+    "url": "https://github.com/scudco/tomsweeper"
+  },
+  {
+    "name": "An ember integration for building visual programming editors with blockly.",
+    "url": "https://github.com/Program-AR/ember-blockly"
+  },
+  {
+    "name": "https://www.submarinecablemap.com/",
+    "url": "https://www.submarinecablemap.com/"
+  },
+  {
+    "name": "https://music.apple.com/",
+    "url": "https://music.apple.com/"
+  },
+  {
+    "name": "https://creator.emojible.store/",
+    "url": "https://creator.emojible.store/"
+  },
+  {
+    "name": "breethe-client",
+    "url": "https://github.com/simplabs/breethe-client",
+    "description": "Air Quality Data for Locations around the World."
+  },
+  {
+    "name": "Glimmeroids",
+    "url": "https://github.com/t-sauer/Glimmeroids",
+    "description": "Asteroids implementation using Glimmer.js."
+  },
+  {
+    "name": "glimmer-hn-pwa",
+    "url": "https://github.com/mhadaily/glimmer-hn-pwa",
+    "description": "A Demonstration Of Hacker News Progressive Web App Powered By Glimmer.js."
+  },
+  {
+    "name": "the-chosen",
+    "url": "https://github.com/FLarra/the-chosen",
+    "description": "Glimmer.js project created to learn & decide easier during our scrum dailies meeting who is the next person to share status."
+  },
+  {
+    "name": "glimmer_eats",
+    "url": "https://github.com/James-Byrne/glimmer_eats",
+    "description": "A demo PWA built with Glimmer.js."
+  },
+  {
+    "name": "built-with-spaghetti",
+    "url": "https://github.com/gordonbisnor/built-with-spaghetti",
+    "description": "Built with Spaghetti aims to function as a gateway to web art."
+  },
+  {
+    "name": "glimmer-live-chat",
+    "url": "https://github.com/rajasegar/glimmer-live-chat",
+    "description": "A Live chat application crafted using Glimmer.js."
+  },
+  {
+    "name": "glimmer-synth",
+    "url": "https://github.com/jimenglish81/glimmer-synth",
+    "description": "Synthesizer built using WebAudio and Glimmer.js."
+  },
+  {
+    "name": "glimmer-js-online-offline-demo",
+    "url": "https://github.com/thomasbrus/glimmer-js-online-offline-demo",
+    "description": "Sample Glimmer.js app: online/offline browser events."
+  },
+  {
+    "name": "glimmer-qrious",
+    "url": "https://github.com/c0urg3tt3/glimmer-qrious",
+    "description": "Glimmer.js components using QRious library to generate QR code in webpage."
+  },
+  {
+    "name": "glimmerjs-address-book-demo",
+    "url": "https://github.com/ttdonovan/glimmerjs-address-book-demo",
+    "description": "Example Glimmer.js application - AddressBook Demo."
+  },
+  {
+    "name": "glimmer-dashboard",
+    "url": "https://github.com/JustInToCoding/glimmer-dashboard",
+    "description": "Glimmer.js dashboard example."
+  },
+  {
+    "name": "glimmer-redux-todo",
+    "url": "https://github.com/bashmach/glimmer-redux-todo",
+    "description": "Todo app written with Glimmer.js and Redux."
+  },
+  {
+    "name": "glimmer-pong",
+    "url": "https://github.com/knownasilya/glimmer-pong",
+    "description": "Pong game written using Glimmer.js and SVGs."
+  },
+  {
+    "name": "glimmer-material",
+    "url": "https://github.com/cyk/glimmer-material",
+    "description": "A Glimmer.js wrapper for Material Components for the Web."
+  },
+  {
+    "name": "glimmer-of-life",
+    "url": "https://github.com/trentmwillis/glimmer-of-life",
+    "description": "An implementation of Conway's Game of Life using Glimmer.js."
+  },
+  {
+    "name": "vorfreude",
+    "url": "https://github.com/chadian/vorfreude",
+    "description": "When you can't wait but have to."
+  },
+  {
+    "name": "endless-hoops",
+    "url": "https://github.com/mtmckenna/endless-hoops",
+    "description": "It's a basketball game written in JavaScript/Canvas/Glimmer.js."
+  },
+  {
+    "name": "glimmer-hangman",
+    "url": "https://github.com/BenSchoenmakers94/glimmer-hangman",
+    "description": "A implementation of the well-known game 'Hangman' in Glimmer.js."
+  },
+  {
+    "name": "Forwarding Named Blocks in Glimmer",
+    "url": "https://gist.github.com/tomdale/bedb77662b19529f59154ec55e2f4a21"
+  },
+  {
+    "name": "Multi Named Blocks",
+    "url": "https://gist.github.com/pzuraq/0c16d7baef7237b62dfd7529d1969344"
+  },
+  {
+    "name": "Accessing the Global App Object in an Ember CLI App",
+    "url": "https://gist.github.com/lifeart/fcdc59e2aa6a3c78457fecd57e578aa9"
+  },
+  {
+    "name": "A principled model for forms",
+    "url": "https://gist.github.com/chriskrycho/48fa641eeb55217d4063592b411b1192"
+  },
+  {
+    "name": "ember-cli-advanced-proxy",
+    "url": "https://github.com/bryanaka/ember-cli-advanced-proxy/blob/594e13cf2de386d8ea65dac88f643241f7a28363/index.js"
+  },
+  {
+    "name": "A list of Ember.js VSCode Extensions",
+    "url": "https://github.com/Alonski/ember-vscode-extensions"
+  },
+  {
+    "name": "Ember.js Bundle Size",
+    "url": "https://gist.github.com/CodingItWrong/074d20c5468a9c340e15aa46e19a8221"
+  },
+  {
+    "name": "Converting libraries to Ember CLI addons",
+    "url": "https://gist.github.com/kristianmandrup/ae3174217f68a6a51ed5"
+  },
+  {
+    "name": "Developing Addons and Blueprints",
+    "url": "https://gist.github.com/kristianmandrup/ae3174217f68a6a51ed5"
+  },
+  {
+    "name": "Ember.js + ESLint + Prettier + Ember Suave",
+    "url": "https://gist.github.com/sarupbanskota/2394fc439e538239a073c39514a5aa55"
+  },
+  {
+    "name": "@listochkin/Ember.js Video Collection (Ru/En)",
+    "url": "https://gist.github.com/listochkin/87e47cdbf986fb2e9905"
+  },
+  {
+    "name": "@rwjblue/ember_examples",
+    "url": "https://gist.github.com/rwjblue/8816372"
+  },
+  {
+    "name": "@wycats/A small sampling of external projects initially built for Ember.js use but designed to be used standalone",
+    "url": "https://gist.github.com/wycats/b58d56e5a47db4128a0a"
+  },
+  {
+    "name": "Ember.js publishing tools",
+    "url": "https://gist.github.com/anulman/1e1da1d38178e7242d4701638bb29391"
+  },
+  {
+    "name": "Ember CLI es6 imports",
+    "url": "https://gist.github.com/lifeart/949d867ba5f5455f8d955d9c9dc3610d"
+  },
+  {
+    "name": "Ember CLI Windows speedup",
+    "url": "https://gist.github.com/lifeart/f436306a92f62610d65caaa699c17065"
+  },
+  {
+    "name": "How to debug an ember application with VS Code",
+    "url": "https://gist.github.com/nightire/38ad30167df55175853b20f025f46596"
+  },
+  {
+    "name": "What are components all about.",
+    "url": "https://gist.github.com/begedin/98045c9b4df900bb4695"
+  },
+  {
+    "name": "\"Why Ember.js\" Thoughts",
+    "url": "https://gist.github.com/MelSumner/971ba6b7a3c0b01a4cb3a43d3b962dac"
+  },
+  {
+    "name": "Ember.js approval requirements",
+    "url": "https://gist.github.com/PoslinskiNet/2d7a05944ca3c468440a0faea153062b"
+  },
+  {
+    "name": "Mirage GraphQL example",
+    "url": "https://gist.github.com/samselikoff/0e176a76e5be53cbb94e85020fc2b115"
+  },
+  {
+    "name": "Ember Data | Useful helpers: push-deletion, push-payload",
+    "url": "https://gist.github.com/runspired/96618af26fb1c687a74eb30bf15e58b6"
+  },
+  {
+    "name": "Ember Data | Complex Attrs",
+    "url": "https://gist.github.com/runspired/a4b56f7eefe9f8e04f7f0c83e4dfeaf0"
+  },
+  {
+    "name": "Ember Data | Advanced Query Cache",
+    "url": "https://gist.github.com/runspired/dba8d8b4b0cde8d272ec368739460eba"
+  },
+  {
+    "name": "Ember Data | Can we unload a record that has been deleted?",
+    "url": "https://gist.github.com/runspired/c92c8d066511083f8c171a33ae27dedf"
+  },
+  {
+    "name": "Ember Data | Persist Local Relationship Changes",
+    "url": "https://gist.github.com/runspired/15387de0130478aae377d22b16021982"
+  },
+  {
+    "name": "Ember Data | Push Polymorphic",
+    "url": "https://gist.github.com/runspired/c5e86b006841fdab62bcddbc200f14e2"
+  },
+  {
+    "name": "Ember Data | has-many Batch Create",
+    "url": "https://gist.github.com/runspired/ad9a9bab3ee2dac11c2af8ee9e31b81d"
+  },
+  {
+    "name": "Ember Data | Local Deletion",
+    "url": "https://gist.github.com/runspired/68ad36b99367946a32c470fe1504d0ee"
+  },
+  {
+    "name": "Ember Data | Save Transaction",
+    "url": "https://gist.github.com/runspired/a607f4debabde043efd284a04b244974"
+  },
+  {
+    "name": "Ember Data | Coalesce findHasMany within adapter Twiddle",
+    "url": "https://gist.github.com/runspired/597ff8ccc4e9a06ff26c1754ba108fb3"
+  },
+  {
+    "name": "Ember Data | Nested save",
+    "url": "https://gist.github.com/runspired/bc93f1c525837420f7b14d8cdcb2d36a"
+  },
+  {
+    "name": "Ember Data | Cascade Delete",
+    "url": "https://gist.github.com/runspired/e9ee98ccc89fad2a07d9c86f2541a763"
+  },
+  {
+    "name": "builtwithember",
+    "url": "http://builtwithember.io/",
+    "description": "Apps powered by Ember.js."
+  },
+  {
+    "name": "emberwatch",
+    "url": "https://github.com/emberwatch",
+    "description": "The community hub for Ember.js content."
+  },
+  {
+    "name": "Ember Weekly",
+    "url": "http://www.emberweekly.com/",
+    "description": "The latest Ember.js news, tips, and code delivered directly to your inbox."
+  },
+  {
+    "name": "Official Ember Blog",
+    "url": "https://emberjs.com/blog/",
+    "description": "Big announcements like new Ember.js version release notes or State of the Union information."
+  },
+  {
+    "name": "statusboard",
+    "url": "https://emberjs.com/statusboard/",
+    "description": "STATUS BOARD."
+  },
+  {
+    "name": "The Ember Times",
+    "url": "https://the-emberjs-times.ongoodbits.com/",
+    "description": "Updates from the Ember.js Learning Team."
+  },
+  {
+    "name": "embermap",
+    "url": "https://embermap.com/topics/the-embermap-podcast"
+  },
+  {
+    "name": "emberweekend",
+    "url": "https://emberweekend.com/episodes"
+  },
+  {
+    "name": "Ember Twiddle",
+    "url": "https://ember-twiddle.com/",
+    "description": "An Ember.js Twiddle for multiples files which lets you save your work in GitHub."
+  },
+  {
+    "name": "Ember @ Glitch",
+    "url": "https://ember.glitch.me/",
+    "description": "Glitch.me with Ember.js."
+  },
+  {
+    "name": "Ember @ CodeSandbox",
+    "url": "https://codesandbox.io/s/github/mike-north/ember-new-output",
+    "description": "CodeSandbox with Ember.js."
+  },
+  {
+    "name": "Ember Octane @ CodeSandbox",
+    "url": "https://codesandbox.io/s/octane-starter-li841",
+    "description": "Ember Octane CodeSandbox template."
+  },
+  {
+    "name": "BuildLab: Ember.js Screencasts for the determined.",
+    "url": "https://www.youtube.com/channel/UC1ssGKlQh87Ubyuv1lEiY0g"
+  },
+  {
+    "name": "Ember Screencasts",
+    "url": "https://www.emberscreencasts.com/",
+    "description": "Weekly Screencasts for the Busy Developer."
+  },
+  {
+    "name": "EmberCasts",
+    "url": "http://www.embercasts.com/",
+    "description": "Currently on hiatus whilst the author works on the next version of Handlebars."
+  },
+  {
+    "name": "EmberWatch",
+    "url": "http://emberwatch.com/screencasts.html",
+    "description": "Screencasts - A collection of Ember.js screencasts."
+  },
+  {
+    "name": "Community Groups App",
+    "url": "https://www.youtube.com/watch?v=4iqNcTUXurY",
+    "description": "Creating Records in Ember CLI Mirage (part 2a)"
+  },
+  {
+    "name": "Community Groups App",
+    "url": "https://www.youtube.com/watch?v=eAI1LxgSOqw",
+    "description": "Creating Records in Ember CLI Mirage (part 2b)"
+  },
+  {
+    "name": "Community Groups App",
+    "url": "https://www.youtube.com/watch?time_continue=1&v=DRzPJ4RMT0w",
+    "description": "Debugging relationships in Ember CLI Mirage (part 3)"
+  },
+  {
+    "name": "30 Days Of Ember",
+    "url": "https://slides.com/poslinski_net/30-days-of-ember",
+    "description": "Dawid Pośliński."
+  },
+  {
+    "name": "NaNoWriMo: How can Ember help you write a novel",
+    "url": "https://slides.com/emma_be/nanowrimo-ember#/",
+    "description": "@EmmaDelecolle."
+  },
+  {
+    "name": "Slides from Ember JS Berlin talk, Design Patterns in Ember",
+    "url": "https://github.com/chadian/ember-js-berlin-design-patterns",
+    "description": "By @chadian."
+  },
+  {
+    "name": "Rainy Day Ember Data",
+    "url": "https://speakerdeck.com/tonywok/rainy-day-ember-data",
+    "description": "Tony Schneider (@tonywok)."
+  },
+  {
+    "name": "Building Realtime Apps with Ember.js and WebSockets",
+    "url": "https://www.slideshare.net/BenLimmer/building-realtime-apps-with-emberjs-and-websockets",
+    "description": "Ben Limmer."
+  },
+  {
+    "name": "Deploying a Location-Aware Ember Application",
+    "url": "https://www.slideshare.net/BenLimmer/deploying-a-locationaware-ember-application",
+    "description": " Ben Limmer."
+  },
+  {
+    "name": "Developing Desktop Apps with Electron & Ember.js",
+    "url": "https://www.slideshare.net/anulman/developing-desktop-apps-with-electron-emberjs-fitc-webu2017",
+    "description": "FITC WebU2017 - Aidan Nulman."
+  },
+  {
+    "name": "Developing Desktop Apps with Electron & Ember.js",
+    "url": "https://www.slideshare.net/fitc_slideshare/developing-desktop-apps-with-electron-emberjs"
+  },
+  {
+    "name": "Ember addons, served three ways",
+    "url": "https://www.slideshare.net/mikelnorth/ember-addons-served-three-ways",
+    "description": "Mike North."
+  },
+  {
+    "name": "Ember At Scale",
+    "url": "https://www.slideshare.net/chadhietala/ember-at-scale",
+    "description": "Chad Hietala, LinkedIn."
+  },
+  {
+    "name": "EmberConf 2015 – Ambitious UX for Ambitious Apps",
+    "url": "https://www.slideshare.net/sugarpirate/emberconf-2015-ambitious-ux-for-ambitious-apps",
+    "description": "Lauren Elizabeth Tan."
+  },
+  {
+    "name": "EmberConf 2016 – Idiomatic Ember: Finding the Sweet Spot of Performance & Productivity",
+    "url": "https://www.slideshare.net/sugarpirate/emberconf-2016-idiomatic-ember-finding-the-sweet-spot-of-performance-productivity",
+    "description": "Lauren Elizabeth Tan."
+  },
+  {
+    "name": "Fun with Ember 2.x Features",
+    "url": "https://www.slideshare.net/BenLimmer/fun-with-ember-2x-features",
+    "description": "Ben Limmer."
+  },
+  {
+    "name": "How do I Even Web App",
+    "url": "https://www.slideshare.net/lydiaguarino/how-do-i-even-web-app",
+    "description": "An introduction to web programming with Ember CLI by Lydia Guarino."
+  },
+  {
+    "name": "Rapid prototyping and easy testing with ember cli mirage",
+    "url": "https://www.slideshare.net/KrzysztofBiaek1/rapid-prototyping-and-easy-testing-with-ember-cli-mirage",
+    "description": " Krzysztof Bialek."
+  },
+  {
+    "name": "Start Me Up",
+    "url": "https://www.slideshare.net/PickNBook/start-me-up-building-an-mvp-with-emberjs-firebase-and-material-design",
+    "description": "Building an MVP with EmberJS, Firebase and Material Design - Brendan O'Hara."
+  },
+  {
+    "name": "Upgrading Ember.js Apps",
+    "url": "https://www.slideshare.net/BenLimmer/upgrading-emberjs-apps",
+    "description": "Ben Limmer."
+  },
+  {
+    "name": "ember-styleguide",
+    "url": "https://github.com/ember-learn/ember-styleguide"
+  },
+  {
+    "name": "Softlayer Ember.js",
+    "url": "https://github.com/softlayer/ember-style-guide"
+  },
+  {
+    "name": "Netguru Ember.js",
+    "url": "https://github.com/netguru/ember-styleguide"
+  },
+  {
+    "name": "DockYard Ember.js",
+    "url": "https://github.com/DockYard/styleguides/blob/master/engineering/ember.md"
+  },
+  {
+    "name": "JavaScript Style Guide",
+    "url": "https://github.com/DockYard/styleguides/blob/master/engineering/javascript.md"
+  },
+  {
+    "name": "Ember Data Sails Adapter",
+    "url": "https://github.com/bmac/ember-data-sails-adapter",
+    "description": "An Ember Data adaptor for the Sails.js sockets."
+  },
+  {
+    "name": "Ember Data WordPress Adapter",
+    "url": "https://github.com/HeyHumanAgency/Ember-Data-WordPress",
+    "description": "An Ember Data adapter for the WordPress JSON API."
+  },
+  {
+    "name": "Ember Gist",
+    "url": "http://ember-gist.joostdvrs.com/",
+    "description": "Demo Ember CLI'eque apps using GitHub Gist."
+  },
+  {
+    "name": "Ember Inspector",
+    "url": "https://github.com/emberjs/ember-inspector",
+    "description": "Adds an Ember.js tab to Chrome or Firefox Developer Tools that allows you to inspect Ember.js objects in your application. - Officially maintained."
+  },
+  {
+    "name": "Ember Perf",
+    "url": "https://github.com/mike-north/ember-perf",
+    "description": "Measure user-percieved performance data in your ember.js app."
+  },
+  {
+    "name": "ember-cli-diff",
+    "url": "http://www.ember-cli-diff.org/",
+    "description": "A simple tool to see differences between new ember apps."
+  },
+  {
+    "name": "ember-cli",
+    "url": "https://ember-cli.com/",
+    "description": "The command line interface for ambitious web applications."
+  },
+  {
+    "name": "ember-data-model-maker",
+    "url": "https://andycrum.github.io/ember-data-model-maker/",
+    "description": "UI to make ember-data models & payload examples."
+  },
+  {
+    "name": "Glimmer Playground",
+    "url": "https://try.glimmerjs.com/",
+    "description": "An Glimmer.js playground."
+  },
+  {
+    "name": "mber",
+    "url": "https://github.com/izelnakri/mber",
+    "description": "Ember CLI replacement. Currently alpha."
+  },
+  {
+    "name": "remote-inspector",
+    "url": "https://github.com/joostdevries/ember-cli-remote-inspector",
+    "description": "Lets you inspect apps running on different devices/browsers over the network using websockets."
+  },
+  {
+    "name": "Ember Unused Components",
+    "url": "https://github.com/vastec/ember-unused-components",
+    "description": "This script searches for unused components in your Ember project"
+  },
+  {
+    "name": "How to learn EmberJS in a hurry",
+    "url": "https://medium.com/ember-ish/how-to-learn-emberjs-in-a-hurry-c6fdeae256a0"
+  },
+  {
+    "name": "Discover Ember 2",
+    "url": "https://www.ludu.co/course/ember",
+    "description": "Learn how to build a Twitter clone from scratch."
+  },
+  {
+    "name": "Ember Components: A Deep Dive",
+    "url": "http://code.tutsplus.com/tutorials/ember-components-a-deep-dive--net-35551",
+    "description": "A closer look at using Ember.js Components."
+  },
+  {
+    "name": "Ember runloop handbook",
+    "url": "https://github.com/eoinkelly/ember-runloop-handbook",
+    "description": "A deep dive into the Ember.js runloop."
+  },
+  {
+    "name": "Ember with Phoenix (AKA The PEEP Stack)",
+    "url": "https://medium.com/peep-stack",
+    "description": "Developing an Ember.js front-end alongside a JSON API-compliant Phoenix backend."
+  },
+  {
+    "name": "Getting into Ember.js",
+    "url": "http://code.tutsplus.com/tutorials/getting-into-emberjs--net-30709",
+    "description": "A five part introductory course to Ember."
+  },
+  {
+    "name": "Getting Started with Ember.js using Ember CLI",
+    "url": "https://thetechcofounder.com/getting-started-with-ember/",
+    "description": "Building a Todo app with Ember CLI."
+  },
+  {
+    "name": "yoember.com/",
+    "url": "http://yoember.com/",
+    "description": "Ember.js Tutorial - From beginner to advance."
+  },
+  {
+    "name": "build-pacman",
+    "url": "http://www.jeffreybiles.com/build-pacman"
+  },
+  {
+    "name": "Working with Ember Animated & Addon Internals: Ember Concurrency – Ember NYC, May 2019",
+    "url": "https://www.youtube.com/watch?v=JbxaVHQFou0"
+  },
+  {
+    "name": "Ember.js Tutorial: Build a painting game in 20 mins",
+    "url": "https://www.youtube.com/watch?v=N4KrBuO0RRE"
+  },
+  {
+    "name": "Ember-cli In-Repo Addons with Jacob Bixby",
+    "url": "https://www.youtube.com/watch?v=VYrMs1Zzpqs"
+  },
+  {
+    "name": "Maintaining an Ember App at Scale, with Chris Ng",
+    "url": "https://www.youtube.com/watch?v=gyGZHydh0Hw&feature=em-uploademail"
+  },
+  {
+    "name": "Jackie Luo: From React to Ember: A Modern Comparison",
+    "url": "https://www.youtube.com/watch?v=7yxr4iBrZsw"
+  },
+  {
+    "name": "Ember San Francisco Meetup at Square, October 2018",
+    "url": "https://www.youtube.com/watch?v=ulWhjL0Aj5s"
+  },
+  {
+    "name": "The Future of Ember js",
+    "url": "https://www.youtube.com/watch?v=4b9VbB2bnfw",
+    "description": "Summary of upcoming changes to Ember.js based on presentations from EmberConf 2018."
+  },
+  {
+    "name": "Ember: The Next 10 Years | Tom Dale | EmberCamp Chicago 2018",
+    "url": "https://www.youtube.com/watch?v=9cseB2xoT-0"
+  },
+  {
+    "name": "Stop Coding: You Have a Product Gap | Sam Selikoff | EmberCamp Chicago 2018",
+    "url": "https://www.youtube.com/watch?v=fYHgyIlGttk"
+  },
+  {
+    "name": "Caveats of the Default Store",
+    "url": "https://www.youtube.com/watch?v=EcKaDu0xo_A",
+    "description": "Ember London - September 2018"
+  },
+  {
+    "name": "EmberFest 2019",
+    "url": "https://www.youtube.com/playlist?list=PLN4SpDLOSVkT0e094BZhGkUnf2WBF09xx"
+  },
+  {
+    "name": "EmberFest 2018",
+    "url": "https://www.youtube.com/watch?v=oRzmDobMZ_Q&list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9"
+  },
+  {
+    "name": "EmberFest 2014",
+    "url": "https://www.youtube.com/watch?v=z4oxa-UR7oA&list=PLN4SpDLOSVkSbGTLohVaYGDB8hxWxGPBA"
+  },
+  {
+    "name": "Global Ember Meetup",
+    "url": "https://vimeo.com/globalembermeetup"
+  },
+  {
+    "name": "Ember @ Netflix",
+    "url": "https://pusher.com/sessions/meetup/emberfest/ember-netflix"
+  },
+  {
+    "name": "Ember Engines at Scale",
+    "url": "https://pusher.com/sessions/meetup/ember-london/ember-engines-at-scale"
+  },
+  {
+    "name": "Ember Test Recorder",
+    "url": "https://pusher.com/sessions/meetup/ember-london/ember-test-recorder"
+  },
+  {
+    "name": "Ember-cli In-Repo Addons with Jacob Bixby",
+    "url": "https://www.youtube.com/watch?v=VYrMs1Zzpqs"
+  },
+  {
+    "name": "ember-content-placeholders",
+    "url": "https://pusher.com/sessions/meetup/emberfest/ember-content-placeholders"
+  },
+  {
+    "name": "Ember.JS in the Year 2020",
+    "url": "https://pusher.com/sessions/meetup/emberfest/emberjs-in-the-year-2020"
+  },
+  {
+    "name": "EmberConf 2014",
+    "url": "https://www.youtube.com/playlist?list=PLE7tQUdRKcyaOyfBnAndJxQ9PNVmKva0d",
+    "description": "Videos of the sessions from EmberConf 2014."
+  },
+  {
+    "name": "EmberConf 2015",
+    "url": "https://www.youtube.com/playlist?list=PLE7tQUdRKcyacwiUPs0CjPYt6tJub4xXU",
+    "description": "Videos of the sessions from EmberConf 2015."
+  },
+  {
+    "name": "EmberConf 2016",
+    "url": "https://www.youtube.com/playlist?list=PL4eq2DPpyBblc8aQAd516-jGMdAhEeUiW",
+    "description": "Videos of the sessions from EmberConf 2016."
+  },
+  {
+    "name": "EmberConf 2017",
+    "url": "https://www.youtube.com/playlist?list=PL4eq2DPpyBbna_5fLPqOqensqSZpGf-hT",
+    "description": "Videos of the sessions from EmberConf 2017."
+  },
+  {
+    "name": "EmberConf 2018",
+    "url": "https://www.youtube.com/watch?v=NhtpXs0ZtUc&list=PL4eq2DPpyBbnjD5iLp55as9OvIdEDI_Kt",
+    "description": "Videos of the sessions from EmberConf 2018."
+  },
+  {
+    "name": "EmberConf 2019",
+    "url": "https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL",
+    "description": "Videos of the sessions from EmberConf 2019."
+  },
+  {
+    "name": "EmberConf 2020",
+    "url": "https://www.youtube.com/playlist?list=PL4eq2DPpyBbkC03mdzlyej6tcbEqrZK8N",
+    "description": "Videos of the sessions from EmberConf 2020."
+  },
+  {
+    "name": "ReactiveConf 2017",
+    "url": "https://www.youtube.com/watch?v=nXCSloXZ-wc",
+    "description": "Tom Dale: Secrets of the Glimmer VM"
+  },
+  {
+    "name": "ReactiveConf 2017",
+    "url": "https://youtu.be/62xd25kEZ3o?t=27618"
+  },
+  {
+    "name": "Tim Thomas",
+    "url": "https://www.youtube.com/watch?v=ER1V_u0N7u4",
+    "description": "Using Ember.js to build Electron Apps"
+  },
+  {
+    "name": "Tom Dale on Static Analysis, Upstreaming Glimmer, and Ember in 2018",
+    "url": "https://embermap.com/topics/the-embermap-podcast/tom-dale-on-static-analysis-upstreaming-glimmer-and-ember-in-2018"
+  },
+  {
+    "name": "Tom Dale Talks EmberJS",
+    "url": "https://www.slideshare.net/LinkedInPulse/tom-dale-ember-javascript-emberjs-linkedin"
+  },
+  {
+    "name": "Using TypeScript in Ember",
+    "url": "https://pusher.com/sessions/meetup/ember-london/using-typescript-in-ember"
+  },
+  {
+    "name": "Web App Performance & Ember.js",
+    "url": "https://www.youtube.com/watch?v=BelKk7dvA1A",
+    "description": "Web App Performance & Ember.js."
+  },
+  {
+    "name": "Why Ember CLI uses Broccoli",
+    "url": "https://embermap.com/topics/intro-to-broccoli/why-ember-uses-broccoli"
+  },
+  {
+    "name": "Developing ember apps on glitch.com",
+    "url": "https://www.youtube.com/watch?v=uhXA6ECaknw"
+  },
+  {
+    "name": "Chris Krycho: TypeScript and Ember js",
+    "url": "https://www.youtube.com/watch?v=fFzxbBrvytU",
+    "description": "Why and How?"
+  },
+  {
+    "name": "Isaac Lee: Use D3 with Ember",
+    "url": "https://www.youtube.com/watch?v=vD7H9O--tu4"
+  },
+  {
+    "name": "Open Source Live",
+    "url": "https://www.youtube.com/watch?v=rsftBMGOfyo",
+    "description": "Robert Jackson and Chris Manson pair on ember-cli"
+  },
+  {
+    "name": "Must have add-ons in EmberJS",
+    "url": "https://www.youtube.com/watch?v=IprfNT0xbrI",
+    "description": "Dawid Pośliński"
+  },
+  {
+    "name": "Building Modern Apps Using API Services",
+    "url": "https://www.youtube.com/watch?v=VMnzGJ4PN0s",
+    "description": "Ember Meetup August 21, 2018"
+  },
+  {
+    "name": "How to improve your tests?",
+    "url": "https://www.youtube.com/watch?v=rs71sx5IZ-U&t=0s&list=PLxt6MasYELQ5W3y8rwGa98GsyMBdhr_cp",
+    "description": "Paweł Kuwik"
+  },
+  {
+    "name": "Optional & upcoming features",
+    "url": "https://www.youtube.com/watch?v=4XokzPT4rgg&t=0s&list=PLxt6MasYELQ5W3y8rwGa98GsyMBdhr_cp",
+    "description": "Michał Staśkiewicz"
+  },
+  {
+    "name": "Hybrid Apps with Ember/Glimmer",
+    "url": "https://pusher.com/sessions/meetup/emberfest/hybrid-apps-with-emberglimmer"
+  },
+  {
+    "name": "Productive Frontend Test Driven Development That Actually Works",
+    "url": "https://www.youtube.com/watch?v=63Ya91f8W-8"
+  },
+  {
+    "name": "EmberCamp 2018",
+    "url": "https://www.youtube.com/watch?v=0ziETDm1QTI&list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW",
+    "description": "Videos of the sessions from EmberCamp 2018"
+  },
+  {
+    "name": "EmberCamp 2019",
+    "url": "https://www.youtube.com/watch?v=a1HALof3r5M&list=PL4eq2DPpyBbmSKZLCqzMqdtpedlGrDQuc",
+    "description": "Videos of the sessions from EmberCamp 2019"
+  },
+  {
+    "name": "Ember.js: The Documentary",
+    "url": "https://www.youtube.com/watch?v=Cvz-9ccflKQ&vl=en"
+  },
+  {
+    "name": "Ember.js: The Documentary (Русская версия)",
+    "url": "https://www.youtube.com/watch?v=7Ym2ADCn77Q",
+    "description": "Russian langauge version"
+  },
+  {
+    "name": "GraphQL: The Documentary",
+    "url": "https://www.youtube.com/watch?v=783ccP__No8&vl=en"
+  },
+  {
+    "name": "GraphQL: The Documentary (Русская версия)",
+    "url": "https://www.youtube.com/watch?v=i_rsfHMF3x4",
+    "description": "Russian language version"
+  },
+  {
+    "name": "Ember and GraphQL: A Quick Example",
+    "url": "https://www.youtube.com/watch?v=YxRvXgDIHW8"
+  },
+  {
+    "name": "Ember Octane Livestream: Build a drum machine",
+    "url": "https://www.youtube.com/watch?v=5znpEiwHpL4"
+  },
+  {
+    "name": "Tracking in the Glimmer VM",
+    "url": "https://www.youtube.com/watch?v=BjKERSRpPeI",
+    "description": "Chris Garrett discusses how tracking works in Ember"
+  },
+  {
+    "name": "Commit Porto '19: Thriving through the hype cycle: an Ember.js story (Ricardo Mendes)",
+    "url": "https://www.youtube.com/watch?v=ECkbVa0iC4k"
+  },
+  {
+    "name": "Animating Across Routes with Ember Animated",
+    "url": "https://www.youtube.com/watch?v=O4Mt-dDqkk0",
+    "description": "EmberMap video adding across-route tranistion animations"
+  },
+  {
+    "name": "Creating an Ember Application",
+    "url": "https://www.youtube.com/watch?v=R2JdP4lb5Xw",
+    "description": "First in an upcoming series on Ember"
+  },
+  {
+    "name": "Ember and GraphQL: A Quick Example",
+    "url": "https://www.youtube.com/watch?v=YxRvXgDIHW8"
+  },
+  {
+    "name": "Stef & Rob: do we still need the built-in Input component? Stefan Penner and Robert Jackson debate the built-in Input component",
+    "url": "https://www.youtube.com/watch?v=c0Rl6o9wLX0"
+  },
+  {
+    "name": "Ember Octane",
+    "url": "https://www.youtube.com/watch?v=iTPFsXcTAaY&feature=youtu.be",
+    "description": "Great For Beginners - You can just write HTML and CSS and get pretty far with Ember Octane"
+  },
+  {
+    "name": "Yet Another Test Runner by Kelly Sheldon @ Ember London",
+    "url": "https://www.youtube.com/watch?v=HYwXL3f854Y&list=PL4eq2DPpyBbmvEzhyW9fhMzlctxwrn8JM&index=1"
+  },
+  {
+    "name": "Amsterdam Ember.js",
+    "url": "https://www.youtube.com/channel/UCx9sVlEZLOKxw8OGCtoqULw"
+  },
+  {
+    "name": "Boston Ember",
+    "url": "https://www.youtube.com/channel/UCp_L_YjmXTKR4Q2fg1XahsA"
+  },
+  {
+    "name": "Denver Ember",
+    "url": "https://www.youtube.com/channel/UCsy4OVL_kNXsxr0a5LNKWpw"
+  },
+  {
+    "name": "Ember Videos",
+    "url": "https://www.youtube.com/channel/UCMmzJ82sCmooDdtzVY8FxEA"
+  },
+  {
+    "name": "EmberJS Chennai",
+    "url": "https://www.youtube.com/channel/UC-PzS1OA64zFD2kt3hwfGTA"
+  },
+  {
+    "name": "Ember.js Dublin",
+    "url": "https://www.youtube.com/channel/UCQeD0i9ltSV1aOfX6FGeiOA"
+  },
+  {
+    "name": "EmberATX",
+    "url": "https://www.youtube.com/channel/UCl7qY85b7KLJV3xnn1Xh_Cw"
+  },
+  {
+    "name": "EmberJSSeattleMeetup",
+    "url": "https://www.youtube.com/channel/UC_EzRy1fCQPRPOD-uqk-E5w"
+  },
+  {
+    "name": "EmberSchool",
+    "url": "https://www.youtube.com/channel/UCntNIA2acwPDIY77bX2uLmw"
+  },
+  {
+    "name": "EmberSherpa",
+    "url": "https://www.youtube.com/user/EmberSherpa/videos"
+  },
+  {
+    "name": "Meetup: London",
+    "url": "https://www.youtube.com/playlist?list=PL4eq2DPpyBbmvEzhyW9fhMzlctxwrn8JM"
+  },
+  {
+    "name": "Silicon Valley Ember.js meetup",
+    "url": "https://www.youtube.com/channel/UCi12gVD9jIDwJLVTNnKvhlw"
+  },
+  {
+    "name": "So Ember 2017",
+    "url": "https://www.youtube.com/watch?v=UpUtVGW43hY&list=PLXOJZupxSq204IxtG80UfIW-gU0IxAScY"
+  },
+  {
+    "name": "Wicked Good Ember 2016",
+    "url": "https://www.youtube.com/playlist?list=PLXOJZupxSq22zfW2KVnXFgLbu--DA7q0G"
+  },
+  {
+    "name": "May I ask a Question",
+    "url": "https://www.youtube.com/channel/UCyErLHzPqLAkL1F-SivFDcA"
+  },
+  {
+    "name": "Ember London 2018",
+    "url": "https://www.youtube.com/watch?v=EcKaDu0xo_A&list=PL8xuokhAnn4rUlol6aspg-VYetu9BLsWV"
+  },
+  {
+    "name": "Intercom Screencasts",
+    "url": "https://www.youtube.com/playlist?list=PLpAr6J-75N27wctNT70O0lubaGTPjwi1L"
+  },
+  {
+    "name": "Ember.js tutorial for beginners in 2020",
+    "url": "https://www.youtube.com/watch?v=eQUvN9Ujs1s&list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo",
+    "description": "A 10 part series by Shawn Chen"
+  }
+]
