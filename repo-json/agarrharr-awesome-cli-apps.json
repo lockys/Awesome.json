@@ -40,11 +40,6 @@
     "description": "Listen to SomaFM in your terminal."
   },
   {
-    "name": "nehm",
-    "url": "https://github.com/bogem/nehm",
-    "description": "Download tracks from SoundCloud."
-  },
-  {
     "name": "mpd",
     "url": "https://github.com/MusicPlayerDaemon/MPD",
     "description": "Music Player Daemon."
@@ -68,11 +63,6 @@
     "name": "beets",
     "url": "https://github.com/beetbox/beets",
     "description": "Music library manager and tagger."
-  },
-  {
-    "name": "playx",
-    "url": "https://github.com/NISH1001/playx",
-    "description": "Stream songs/playlists from various sources."
   },
   {
     "name": "spotify-tui",
@@ -180,6 +170,11 @@
     "description": "Spritz-alike speedreader."
   },
   {
+    "name": "medium-cli",
+    "url": "https://github.com/djadmin/medium-cli",
+    "description": "Read medium.com stories."
+  },
+  {
     "name": "bcal",
     "url": "https://github.com/jarun/bcal",
     "description": "Byte CALculator for storage conversions and calculations."
@@ -223,6 +218,16 @@
     "name": "grex",
     "url": "https://github.com/pemistahl/grex",
     "description": "Generate regular expressions from user-provided test cases."
+  },
+  {
+    "name": "gdb-dashboard",
+    "url": "https://github.com/cyrus-and/gdb-dashboard",
+    "description": "Modular visual interface for GDB."
+  },
+  {
+    "name": "iola",
+    "url": "https://github.com/pvarentsov/iola",
+    "description": "Socket client with REST API."
   },
   {
     "name": "emacs",
@@ -680,6 +685,11 @@
     "description": "A interactive, multi-device notebook."
   },
   {
+    "name": "nb",
+    "url": "https://github.com/xwmx/nb",
+    "description": "A note‑taking, bookmarking, archiving, and knowledge base application."
+  },
+  {
     "name": "ledger",
     "url": "http://ledger-cli.org",
     "description": "Powerful, double-entry accounting system on the terminal"
@@ -1075,6 +1085,16 @@
     "description": "Share secrets with others via a one-time URL."
   },
   {
+    "name": "mdlt",
+    "url": "https://github.com/metadelta/mdlt",
+    "description": "Do quick math right from the command line."
+  },
+  {
+    "name": "Qalculate",
+    "url": "https://github.com/Qalculate/libqalculate",
+    "description": "Calculate non-trival math expressions. Unit conversions, symbolic calculations and more."
+  },
+  {
     "name": "cmdchallenge",
     "url": "https://cmdchallenge.com",
     "description": "Presents small shell challenge with user submitted solutions."
@@ -1453,29 +1473,14 @@
     "description": "A fast, scalable version control system for binaries."
   },
   {
-    "name": "CLI GitHub",
-    "url": "https://github.com/IonicaBizau/cli-github",
-    "description": "📺 A fancy GitHub client for command line."
-  },
-  {
-    "name": "Gistup",
-    "url": "https://github.com/mbostock/gistup",
-    "description": "Create a gist from terminal, then use git to update it."
-  },
-  {
     "name": "git commander",
     "url": "https://github.com/golbin/git-commander",
-    "description": "A git tool with a easy terminal interface."
+    "description": "Interactive git tool."
   },
   {
     "name": "git-stats",
     "url": "https://github.com/IonicaBizau/git-stats",
-    "description": "🍀 A GitHub-like contributions calendar, but locally, with all your git commits."
-  },
-  {
-    "name": "hub",
-    "url": "https://github.com/github/hub",
-    "description": "A command-line wrapper for git that makes you better at GitHub."
+    "description": "A local GitHub-like contributions calendar."
   },
   {
     "name": "dev-time",
@@ -1483,19 +1488,14 @@
     "description": "Get the current local time of a GitHub user."
   },
   {
-    "name": "git-labelmaker",
-    "url": "https://github.com/himynameisdave/git-labelmaker",
-    "description": "Edit GitHub labels from the command line."
-  },
-  {
     "name": "tig",
     "url": "https://github.com/jonas/tig",
-    "description": "Text-mode interface for Git."
+    "description": "Text-mode interface for git."
   },
   {
     "name": "grv",
     "url": "https://github.com/rgburke/grv",
-    "description": "Text-mode interface for Git with customisable vi bindings."
+    "description": "Text-mode interface for git with customisable vi bindings."
   },
   {
     "name": "git-standup",
@@ -1510,22 +1510,22 @@
   {
     "name": "gitlab-cli",
     "url": "https://github.com/vishwanatharondekar/gitlab-cli",
-    "description": "gitlab cli for creating merge request from the command line."
+    "description": "Create GitLab merge requests."
   },
   {
     "name": "git-extras",
     "url": "https://github.com/tj/git-extras",
-    "description": "Little git extras like git-ignore, git-setup, git-changelog, git-release, git-effort and more."
+    "description": "Git utilities."
   },
   {
     "name": "gita",
     "url": "https://github.com/nosarthur/gita",
-    "description": "Manage multiple git repos side by side for sanity."
+    "description": "Manage multiple git repos side by side."
   },
   {
     "name": "readme-md-generator",
     "url": "https://github.com/kefranabg/readme-md-generator",
-    "description": "Generate README.md files interactively."
+    "description": "Interactively generate README.md files."
   },
   {
     "name": "semantic-git-commit-cli",
@@ -1541,6 +1541,31 @@
     "name": "git-all-branches",
     "url": "https://github.com/zacanger/git-all-branches",
     "description": "Improved git branch -a."
+  },
+  {
+    "name": "CLI GitHub",
+    "url": "https://github.com/IonicaBizau/cli-github",
+    "description": "Fancy GitHub client."
+  },
+  {
+    "name": "Gistup",
+    "url": "https://github.com/mbostock/gistup",
+    "description": "Manage GitHub gists."
+  },
+  {
+    "name": "hub",
+    "url": "https://github.com/github/hub",
+    "description": "Make git easier to use with GitHub."
+  },
+  {
+    "name": "git-labelmaker",
+    "url": "https://github.com/himynameisdave/git-labelmaker",
+    "description": "Edit GitHub labels."
+  },
+  {
+    "name": "SVGO",
+    "url": "https://github.com/svg/svgo",
+    "description": "Optimize SVG files."
   },
   {
     "name": "gifgen",
@@ -1570,12 +1595,17 @@
   {
     "name": "asciinema",
     "url": "https://github.com/asciinema/asciinema",
-    "description": "Terminal session recorder and the best companion of asciinema.org."
+    "description": "Terminal session recorder and companion app for asciinema.org."
   },
   {
     "name": "givegif",
     "url": "https://github.com/passy/givegif",
     "description": "GIFs on the command line."
+  },
+  {
+    "name": "imagemagick",
+    "url": "https://imagemagick.org",
+    "description": "Gold standard for anything images."
   },
   {
     "name": "imgp",
@@ -1588,39 +1618,29 @@
     "description": "Quick and simple image processing."
   },
   {
-    "name": "imagemagick",
-    "url": "https://imagemagick.org",
-    "description": "Gold standard for anything images."
-  },
-  {
-    "name": "SVGO",
-    "url": "https://github.com/svg/svgo",
-    "description": "SVG Optimizer is a Nodejs-based tool for optimizing SVG vector graphics files."
-  },
-  {
     "name": "cmatrix",
     "url": "https://github.com/Treri/cmatrix",
-    "description": "Show a scrolling 'Matrix' like screen."
+    "description": "Scrolling 'Matrix'-like screen."
   },
   {
     "name": "pipes.sh",
     "url": "https://github.com/pipeseroni/pipes.sh",
-    "description": "Shows random pipes that grow across the screen."
+    "description": "Random pipes that grow across the screen."
   },
   {
     "name": "YuleLog",
     "url": "https://github.com/Duroktar/YuleLog",
-    "description": "Terminal based Christmas YuleLog fireplace."
+    "description": "Christmas Yule Log fireplace."
   },
   {
     "name": "cli-fireplace",
     "url": "https://github.com/dolsup/cli-fireplace",
-    "description": "Shows digital fireplace."
+    "description": "Digital fireplace."
   },
   {
     "name": "cli-mandelbrot",
     "url": "https://github.com/danyshaanan/cli-mandelbrot",
-    "description": "A cli for traversing the Mandelbrot fractal."
+    "description": "Traverse the Mandelbrot fractal."
   },
   {
     "name": "sparkly-cli",
@@ -1631,6 +1651,11 @@
     "name": "pastel",
     "url": "https://github.com/sharkdp/pastel",
     "description": "Generate, analyze, convert and manipulate colors."
+  },
+  {
+    "name": "lowcharts",
+    "url": "https://github.com/juan-leon/lowcharts",
+    "description": "Draw low-resolution graphs."
   },
   {
     "name": "cowsay",
@@ -1695,7 +1720,7 @@
   {
     "name": "gzip-size-cli",
     "url": "https://github.com/sindresorhus/gzip-size-cli",
-    "description": "Get the gzipped size of a file or stdin."
+    "description": "Get the gzipped size of a file."
   },
   {
     "name": "HASHA -cli",
@@ -1713,39 +1738,14 @@
     "description": "Measure the difference between two strings using the Levenshtein distance algorithm."
   },
   {
-    "name": "mdlt",
-    "url": "https://github.com/metadelta/mdlt",
-    "description": "Do quick math right from the command line."
-  },
-  {
-    "name": "medium-cli",
-    "url": "https://github.com/djadmin/medium-cli",
-    "description": "Read medium.com stories within your terminal, also gives top stories."
-  },
-  {
-    "name": "open-shortcut-cli",
-    "url": "https://github.com/sindresorhus/open-shortcut-cli",
-    "description": "Open the URL from a web shortcut file in the browser."
-  },
-  {
-    "name": "shortcut-url-cli",
-    "url": "https://github.com/sindresorhus/shortcut-url-cli",
-    "description": "Get the URL from a web shortcut file."
-  },
-  {
     "name": "to-double-quotes",
     "url": "https://github.com/sindresorhus/to-double-quotes-cli",
-    "description": "Convert matching single-quotes to double-quotes: I 'love' unicorns => I \"love\" unicorns."
+    "description": "Convert matching single-quotes to double-quotes."
   },
   {
     "name": "to-single-quotes",
     "url": "https://github.com/sindresorhus/to-single-quotes-cli",
-    "description": "Convert matching double-quotes to single-quotes: I \"love\" unicorns → I 'love' unicorns."
-  },
-  {
-    "name": "gdb-dashboard",
-    "url": "https://github.com/cyrus-and/gdb-dashboard",
-    "description": "Modular visual interface for GDB in Python."
+    "description": "Convert matching double-quotes to single-quotes."
   },
   {
     "name": "hget",
@@ -1753,39 +1753,19 @@
     "description": "Render websites in plain text from your terminal."
   },
   {
-    "name": "google-wifi-status",
-    "url": "https://github.com/joelgeorgev/google-wifi-status",
-    "description": "A Node.js CLI app that displays status of your Google Wifi / OnHub router."
-  },
-  {
-    "name": "calories",
-    "url": "https://github.com/zupzup/calories",
-    "description": "Calories and weight tracker."
-  },
-  {
-    "name": "trino",
-    "url": "https://github.com/eneserdogan/trino",
-    "description": "Trino CLI allows a quick and easy translation of words and phrases entered in the command line."
-  },
-  {
     "name": "alex",
     "url": "https://github.com/wooorm/alex",
-    "description": "This enhances texts with checking for insensitive, inconsiderate writing by catching many possible offences."
+    "description": "Catch insensitive, inconsiderate writing."
   },
   {
     "name": "nasa-cli",
     "url": "https://github.com/xxczaki/nasa-cli",
-    "description": "Download NASA Picture of the Day from your terminal."
+    "description": "Download NASA Picture of the Day."
   },
   {
-    "name": "googlr",
-    "url": "https://github.com/Camji55/googlr",
-    "description": "Search Google from the command line."
-  },
-  {
-    "name": "Qalculate",
-    "url": "https://github.com/Qalculate/libqalculate",
-    "description": "Calculate non-trival math expressions. Unit conversions, symbolic calculations and more."
+    "name": "trino",
+    "url": "https://github.com/eneserdogan/trino",
+    "description": "Translation of words and phrases."
   },
   {
     "name": "translate-shell",
