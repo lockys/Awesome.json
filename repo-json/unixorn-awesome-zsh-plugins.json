@@ -1,9 +1,5 @@
 [
   {
-    "name": "zdharma/pm-perf-test",
-    "url": "https://github.com/zdharma/pm-perf-test"
-  },
-  {
     "name": "rossmacarthur/zsh-plugin-manager-benchmark",
     "url": "https://github.com/rossmacarthur/zsh-plugin-manager-benchmark"
   },
@@ -14,14 +10,6 @@
   {
     "name": "Configuration file using TOML syntax.",
     "url": "https://github.com/toml-lang/toml"
-  },
-  {
-    "name": "packages,",
-    "url": "https://github.com/Zsh-Packages"
-  },
-  {
-    "name": "services ↔ a single-instance, background plugins,",
-    "url": "https://github.com/zservices"
   },
   {
     "name": "Zsh plugins/UNIX commands on GitHub and Bitbucket",
@@ -182,11 +170,6 @@
     "name": "BlaCk-Void-Zsh",
     "url": "https://github.com/black7375/BlaCk-Void-Zsh",
     "description": "🔮 Awesome, Customable Zsh Starter Kit 🌠🌠. Includes powerline, fzf integration, Weather and image viewing in some terminals."
-  },
-  {
-    "name": "zinit-configs",
-    "url": "https://github.com/zdharma/zinit-configs",
-    "description": "Real-world configuration files (basically a collection of .zshrc files) holding Zinit invocations."
   },
   {
     "name": "1999",
@@ -529,6 +512,11 @@
     "description": "Adds helper scripts to allow you to create bitbucket PRs or open a directory in the current branch."
   },
   {
+    "name": "bitwarden",
+    "url": "https://github.com/Game4Move78/zsh-bitwarden",
+    "description": "Adds functions to manage bitwarden sessions."
+  },
+  {
     "name": "blackbox",
     "url": "https://github.com/StackExchange/blackbox",
     "description": "Stack Exchange's toolkit for storing keys/credentials securely in a git repository."
@@ -679,11 +667,6 @@
     "description": "Adds a cross-platform helper function to access the system clipboard. Works on macOS, X11 (and Wayland) and Cygwin."
   },
   {
-    "name": "cmd-architect",
-    "url": "https://github.com/psprint/zsh-cmd-architect",
-    "description": "Build commands from what's in history and at prompt, move, delete, add command segments and search history with multi-word queries."
-  },
-  {
     "name": "cmd-status",
     "url": "https://github.com/BlaineEXE/zsh-cmd-status",
     "description": "Reports the status of commands including return code and duration."
@@ -804,11 +787,6 @@
     "description": "A simple http server written in 99.9% pure ZSH."
   },
   {
-    "name": "declare-zsh",
-    "url": "https://github.com/zdharma/declare-zsh",
-    "description": "A command-line parser for Zinit commands in zshrc."
-  },
-  {
     "name": "deepx",
     "url": "https://github.com/GetAmbush/deepx-zsh-plugin",
     "description": "Collection of useful and fun commands to improve workflow and quality of life."
@@ -827,11 +805,6 @@
     "name": "dev",
     "url": "https://github.com/sbfaulkner/dev-plugin-zsh",
     "description": "Provides a lightweight version of Shopify's internal dev tool"
-  },
-  {
-    "name": "diff-so-fancy",
-    "url": "https://github.com/zdharma/zsh-diff-so-fancy",
-    "description": "Simplify installing the diff-so-fancy project into your user account."
   },
   {
     "name": "diractions",
@@ -955,11 +928,6 @@
     "name": "ec2ssh",
     "url": "https://github.com/h3poteto/zsh-ec2ssh",
     "description": "List EC2 instances and ssh login to the instances easily."
-  },
-  {
-    "name": "editing-workbench",
-    "url": "https://github.com/psprint/zsh-editing-workbench",
-    "description": "Adds sane, complex command line editing (e.g. incremental history word completion)."
   },
   {
     "name": "edward cli",
@@ -1088,7 +1056,7 @@
   },
   {
     "name": "fast-syntax-highlighting",
-    "url": "https://github.com/zdharma/fast-syntax-highlighting",
+    "url": "https://github.com/zdharma-continuum/fast-syntax-highlighting",
     "description": "Optimized and improved zsh-users/zsh-syntax-highlighting – better response times, switchable highlight themes."
   },
   {
@@ -1402,11 +1370,6 @@
     "description": "Fork of the original github plugin embedded in oh-my-zsh."
   },
   {
-    "name": "github-issues",
-    "url": "https://github.com/zdharma/zsh-github-issues",
-    "description": "Subscribe to projects on Github and receive within shell (under prompt) notifications about new issues."
-  },
-  {
     "name": "gitignore",
     "url": "https://github.com/voronkovich/gitignore.plugin.zsh",
     "description": "Plugin for creating .gitignore files."
@@ -1575,11 +1538,6 @@
     "name": "history-popup",
     "url": "https://github.com/lcrespom/oh-my-zsh-history-popup",
     "description": "Captures the PageUp key and uses dialog to open a popup menu with the history, so the user can interactively navigate through it and pick the history line to bring back to the prompt."
-  },
-  {
-    "name": "history-search-multi-word",
-    "url": "https://github.com/zdharma/history-search-multi-word",
-    "description": "A syntax highlighted, multi-word history searcher for ZSH, bound to Ctrl-R, with advanced functions (e.g. bump of history entry to top of history)."
   },
   {
     "name": "history-substring-search",
@@ -1986,11 +1944,6 @@
     "description": "Renames month names to numbers in filenames."
   },
   {
-    "name": "morpho",
-    "url": "https://github.com/psprint/zsh-morpho",
-    "description": "Terminal screen savers written in pure ZSH, and also screen saver framework."
-  },
-  {
     "name": "mouse-status",
     "url": "https://github.com/gryffyn/mouse-status",
     "description": "Changes mouse color based on status code, uses libratbag."
@@ -2029,11 +1982,6 @@
     "name": "navi",
     "url": "https://github.com/icatalina/zsh-navi-plugin/",
     "description": "Plugin for navi."
-  },
-  {
-    "name": "navigation-tools",
-    "url": "https://github.com/psprint/zsh-navigation-tools",
-    "description": "Adds htop-like kill, directory bookmarks browser, multi-word incremental history searcher and more."
   },
   {
     "name": "new-file-from-template",
@@ -2556,11 +2504,6 @@
     "description": "Makes using command history easier."
   },
   {
-    "name": "redis",
-    "url": "https://github.com/zservices/redis",
-    "description": "Will run redis-server pointing it to the redis.conf configuration file. This can be used with the zdharma/zredis plugin to share variables between shells."
-  },
-  {
     "name": "reentry-hook",
     "url": "https://github.com/RobSis/zsh-reentry-hook",
     "description": "Plugin that re-enters working directory if it has been removed and re-created."
@@ -2669,11 +2612,6 @@
     "name": "sed-sub",
     "url": "https://github.com/MenkeTechnologies/zsh-sed-sub",
     "description": "Adds keybindings to do global search and replace on current command line."
-  },
-  {
-    "name": "select",
-    "url": "https://github.com/psprint/zsh-select",
-    "description": "Multi-term searched selection list with approximate matching and uniq mode."
   },
   {
     "name": "send",
@@ -2928,11 +2866,6 @@
     "name": "theia-dev-tools",
     "url": "https://github.com/taPublic/zsh-theia-dev-tools",
     "description": "Convenience functions for working with theia-ide."
-  },
-  {
-    "name": "tig",
-    "url": "https://github.com/zdharma/zsh-tig-plugin",
-    "description": "Adds a few advanced bindings and also provides a ZSH-rewritten function and/or script tig-pick."
   },
   {
     "name": "timewarrior",
@@ -3329,46 +3262,6 @@
     "description": "Adds helper function to upgrade all the dependencies in a yarn/npm project."
   },
   {
-    "name": "z-a-bin-gem-node",
-    "url": "https://github.com/zinit-zsh/z-a-bin-gem-node",
-    "description": "Zinit extension that exposes binaries without altering $PATH, installs Ruby gems and Node modules and easily exposes their binaries, and updates the gems and modules when the associated plugin or snippet is updated."
-  },
-  {
-    "name": "z-a-man",
-    "url": "https://github.com/zinit-zsh/z-a-man",
-    "description": "Zinit extension that generates man pages for all plugins and snippets."
-  },
-  {
-    "name": "z-a-meta-plugins",
-    "url": "https://github.com/zinit-zsh/z-a-meta-plugins",
-    "description": "Install groups of plugins with a single label (Zinit only)."
-  },
-  {
-    "name": "z-a-patch-dl",
-    "url": "https://github.com/zinit-zsh/z-a-patch-dl",
-    "description": "Zinit extension that downloads files and applies patches through the provided dl'' and patch'' ices."
-  },
-  {
-    "name": "z-a-rust",
-    "url": "https://github.com/zinit-zsh/z-a-rust",
-    "description": "Zinit extension that that installs rust and cargo packages inside plugin directories."
-  },
-  {
-    "name": "z-a-submods",
-    "url": "https://github.com/zinit-zsh/z-a-submods",
-    "description": "Zinit extenstion allows installing and managing additional submodules within a plugin or snippet."
-  },
-  {
-    "name": "z-a-test",
-    "url": "https://github.com/zinit-zsh/z-a-test",
-    "description": "Zinit extension that runs tests (via make test, for example) – if it finds any of them – after installing and updating a plugin or snippet."
-  },
-  {
-    "name": "z-a-unscope",
-    "url": "https://github.com/zinit-zsh/z-a-unscope",
-    "description": "Allows installing plugins for Zinit without specifying the user name by querying the Github API."
-  },
-  {
     "name": "z.lua",
     "url": "https://github.com/skywind3000/z.lua",
     "description": "A command line tool which helps you navigate faster by learning your habits. An alternative to z.sh with Windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than z.sh."
@@ -3399,11 +3292,6 @@
     "description": "Uses your $LS_COLORS to generate a coherent theme for Git and your Zsh prompt, completions and ZSH syntax highlighting."
   },
   {
-    "name": "zconvey",
-    "url": "https://github.com/zdharma/zconvey",
-    "description": "Adds ability to send commands to other ZSH sessions, you can use this to cd $PWD on all active Z shell sessions, for example."
-  },
-  {
     "name": "zed",
     "url": "https://github.com/eendroroy/zed-zsh",
     "description": "A simple wrapper for z to install it via a ZSH plugin."
@@ -3424,19 +3312,9 @@
     "description": "Zero is both a plugin and a theme. See the github page for installation details."
   },
   {
-    "name": "zflai",
-    "url": "https://github.com/zdharma/zflai",
-    "description": "A fast logging framework for ZSH."
-  },
-  {
     "name": "zfzf",
     "url": "https://github.com/b0o/zfzf",
     "description": "A fzf-powered file picker for ZSH which allows you to quickly navigate the directory hierarchy."
-  },
-  {
-    "name": "zgdbm",
-    "url": "https://github.com/zdharma/zgdbm",
-    "description": "Adds GDBM as a plugin."
   },
   {
     "name": "zgen-compinit-tweak",
@@ -3457,10 +3335,6 @@
     "name": "zinfo_line",
     "url": "https://github.com/kmhjs/zinfo_line",
     "description": "Makes more information available to ZSH themes."
-  },
-  {
-    "name": "zinit-console – A semigraphical (curses) consolette for zinit plugin manager.",
-    "url": "https://github.com/zinit-zsh/zinit-console"
   },
   {
     "name": "zinsults",
@@ -3486,11 +3360,6 @@
     "name": "zoxide",
     "url": "https://github.com/ajeetdsouza/zoxide",
     "description": "A fast alternative to cd that learns your habits."
-  },
-  {
-    "name": "zredis",
-    "url": "https://github.com/zdharma/zredis",
-    "description": "Adds Redis database support, with database_key <-> shell_variable binding. Supports all data types."
   },
   {
     "name": "zsh-in-docker",
@@ -3526,21 +3395,6 @@
     "name": "zsnapac",
     "url": "https://github.com/johnramsden/zsh-zsnapac",
     "description": "Plugin for taking ZFS pre/post upgrade snapshots on Arch Linux."
-  },
-  {
-    "name": "zsnapshot",
-    "url": "https://github.com/psprint/zsnapshot",
-    "description": "Adds command to dump the current ZSH state into a file, for later restoration by sourcing the snapshot file."
-  },
-  {
-    "name": "ztrace",
-    "url": "https://github.com/psprint/ztrace",
-    "description": "Catches output of commands, allows to reuse that output, glue it with history content."
-  },
-  {
-    "name": "zui",
-    "url": "https://github.com/zdharma/zui/",
-    "description": "ZSH User Interface library – CGI+DHTML-like rapid TUI application development with ZSH."
   },
   {
     "name": "_url-httplink",
@@ -3918,6 +3772,11 @@
     "description": "Add autocompletion for lets cli task runner."
   },
   {
+    "name": "ls-go",
+    "url": "https://github.com/MohamedElashri/ls-go-zsh",
+    "description": "Adds some useful aliases for ls-go."
+  },
+  {
     "name": "mooseX-App",
     "url": "https://github.com/perlpunk/MooseX-App-Plugin-ZshCompletion",
     "description": "completion generator for Perl module MooseX::App."
@@ -4091,11 +3950,6 @@
     "name": "ssh",
     "url": "https://github.com/zpm-zsh/ssh",
     "description": "Add host completion for ssh."
-  },
-  {
-    "name": "startify",
-    "url": "https://github.com/zdharma/zsh-startify",
-    "description": "vim-startify -like plugin for ZSH."
   },
   {
     "name": "surf",
@@ -6186,6 +6040,11 @@
     "description": "Minimal theme with git status decorations."
   },
   {
+    "name": "moarram",
+    "url": "https://github.com/moarram/zsh-theme",
+    "description": "Theme featuring Git status information and a colored line before the prompt."
+  },
+  {
     "name": "mochi2",
     "url": "https://github.com/mochidaz/zsh-themes",
     "description": "Minimalist theme. Includes git and hg status decorations."
@@ -7029,6 +6888,11 @@
     "name": "shayan",
     "url": "https://github.com/shayanh/shayan-zsh-theme",
     "description": "Simple theme with git status decorations."
+  },
+  {
+    "name": "shelby",
+    "url": "https://github.com/athul/shelby",
+    "description": "Fast, lightweight and minimal prompt written in pure golang. Includes decorations for last command exit status, git status and the current working directory."
   },
   {
     "name": "shellder",
