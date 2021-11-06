@@ -792,6 +792,11 @@
     "description": "A simple http server written in 99.9% pure ZSH."
   },
   {
+    "name": "declare-zsh",
+    "url": "https://github.com/z-shell/declare-zsh",
+    "description": "A parser for zinit commands in .zshrc. It allows to perform the following actions on .zshrc from the command-line - enable and disable plugins add or remove snippets."
+  },
+  {
     "name": "deepx",
     "url": "https://github.com/GetAmbush/deepx-zsh-plugin",
     "description": "Collection of useful and fun commands to improve workflow and quality of life."
@@ -810,6 +815,11 @@
     "name": "dev",
     "url": "https://github.com/sbfaulkner/dev-plugin-zsh",
     "description": "Provides a lightweight version of Shopify's internal dev tool"
+  },
+  {
+    "name": "diff-so-fancy",
+    "url": "https://github.com/z-shell/zsh-diff-so-fancy",
+    "description": "Installs diff-so-fancy and enables its use in ZSH."
   },
   {
     "name": "diractions",
@@ -933,6 +943,11 @@
     "name": "ec2ssh",
     "url": "https://github.com/h3poteto/zsh-ec2ssh",
     "description": "List EC2 instances and ssh login to the instances easily."
+  },
+  {
+    "name": "editing-workbench",
+    "url": "https://github.com/commiyou/zsh-editing-workbench",
+    "description": "Adds sane, complex command line editing (e.g. incremental history word completion)."
   },
   {
     "name": "edward cli",
@@ -1545,6 +1560,11 @@
     "description": "Captures the PageUp key and uses dialog to open a popup menu with the history, so the user can interactively navigate through it and pick the history line to bring back to the prompt."
   },
   {
+    "name": "history-search-multi-word",
+    "url": "https://github.com/zdharma-continuum/history-search-multi-word",
+    "description": "A syntax highlighted, multi-word history searcher for ZSH, bound to Ctrl-R, with advanced functions (e.g. bump of history entry to top of history)."
+  },
+  {
     "name": "history-substring-search",
     "url": "https://github.com/zsh-users/zsh-history-substring-search",
     "description": "Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md."
@@ -1997,6 +2017,11 @@
     "name": "navi",
     "url": "https://github.com/icatalina/zsh-navi-plugin/",
     "description": "Plugin for navi."
+  },
+  {
+    "name": "navigation-tools",
+    "url": "https://github.com/zdharma-continuum/zsh-navigation-tools",
+    "description": "Adds htop-like kill, directory bookmarks browser, a multi-word incremental history searcher and more."
   },
   {
     "name": "new-file-from-template",
@@ -3297,6 +3322,46 @@
     "description": "Adds helper function to upgrade all the dependencies in a yarn/npm project."
   },
   {
+    "name": "z-a-readurl",
+    "url": "https://github.com/zdharma-continuum/z-a-as-monitor",
+    "description": "Adds function to automatically download the newest version of a file to which URL is hosted on a webpage."
+  },
+  {
+    "name": "z-a-bin-gem-node",
+    "url": "https://github.com/zdharma-continuum/z-a-bin-gem-node",
+    "description": "zinit extension that exposes binaries without altering $PATH, installs Ruby gems and Node modules and easily exposes their binaries, and updates the gems and modules when the associated plugin or snippet is updated."
+  },
+  {
+    "name": "z-a-default-ice",
+    "url": "https://github.com/zdharma-continuum/z-a-default-ice",
+    "description": "Allows user to define ices active for multiple zinit commands."
+  },
+  {
+    "name": "z-a-meta-plugins",
+    "url": "https://github.com/zdharma-continuum/z-a-meta-plugins",
+    "description": "Install groups of plugins with a single label (zinit only)."
+  },
+  {
+    "name": "z-a-patch-dl",
+    "url": "https://github.com/zdharma-continuum/z-a-patch-dl",
+    "description": "zinit extension that downloads files and applies patches through the provided dl and patch zinit ices."
+  },
+  {
+    "name": "z-a-rust",
+    "url": "https://github.com/zdharma-continuum/z-a-rust",
+    "description": "zinit extension that that installs rust and cargo packages inside plugin directories."
+  },
+  {
+    "name": "z-a-submods",
+    "url": "https://github.com/z-shell/z-a-submods",
+    "description": "zinit extenstion allows installing and managing additional submodules within a plugin or snippet."
+  },
+  {
+    "name": "z-a-unscope",
+    "url": "https://github.com/z-shell/z-a-unscope",
+    "description": "Allows installing plugins for zinit without specifying the user name by querying the Github API."
+  },
+  {
     "name": "z.lua",
     "url": "https://github.com/skywind3000/z.lua",
     "description": "A command line tool which helps you navigate faster by learning your habits. An alternative to z.sh with Windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than z.sh."
@@ -3317,6 +3382,11 @@
     "description": "ZSH anything.el-like widget."
   },
   {
+    "name": "zbrowse",
+    "url": "https://github.com/zdharma-continuum/zbrowse",
+    "description": "When doing shell work, it is often the case that echo $variable is invoked multiple times, to check the result of a loop, etc. With ZBrowse, you just need to press Ctrl-B, which invokes the ZBrowse – Zshell variable browser."
+  },
+  {
     "name": "zce",
     "url": "https://github.com/hchbaw/zce.zsh",
     "description": "Vim’s EasyMotion / Emacs’s ace-jump-mode for ZSH."
@@ -3325,6 +3395,11 @@
     "name": "zcolors",
     "url": "https://github.com/marlonrichert/zcolors",
     "description": "Uses your $LS_COLORS to generate a coherent theme for Git and your Zsh prompt, completions and ZSH syntax highlighting."
+  },
+  {
+    "name": "zconvey",
+    "url": "https://github.com/zdharma-continuum/zconvey",
+    "description": "Adds ability to send commands to other ZSH sessions, you can use this to cd $PWD on all active ZSH sessions, for example."
   },
   {
     "name": "zed",
@@ -3345,6 +3420,11 @@
     "name": "zero",
     "url": "https://github.com/arlimus/zero.zsh",
     "description": "Zero is both a plugin and a theme. See the github page for installation details."
+  },
+  {
+    "name": "zflai",
+    "url": "https://github.com/zdharma-continuum/zflai",
+    "description": "A fast logging framework for ZSH."
   },
   {
     "name": "zfzf",
@@ -3435,6 +3515,11 @@
     "name": "ztouch",
     "url": "https://github.com/mjrafferty/ztouch",
     "description": "Adds touchbar controls for recent history commands, directory stack, cycling between modes and user-mappable commands to the touchbar on macOS."
+  },
+  {
+    "name": "zui",
+    "url": "https://github.com/zdharma-continuum/zui",
+    "description": "ZSH User Interface library – CGI+DHTML-like rapid TUI application development with ZSH.)"
   },
   {
     "name": "_url-httplink",
