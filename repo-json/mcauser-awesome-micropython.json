@@ -45,6 +45,10 @@
     "description": "Fast Fourier transform in MicroPython's inline ARM assembler."
   },
   {
+    "name": "Filters FIR filters using ARM Thumb assembler. Using an online utility you can go from a graph\nof required frequency response to a filter implementation.",
+    "url": "https://github.com/peterhinch/micropython-filters"
+  },
+  {
     "name": "ulinalg",
     "url": "https://github.com/jalawson/ulinalg",
     "description": "Small size matrix handling module with a few linear algebra operations specifically for MicroPython (Python3)."
@@ -305,6 +309,10 @@
     "description": "MicroPython implementation of assisted location services (AGPS)."
   },
   {
+    "name": "Asynchronous GPS driver Receive and parse GPS data as a uasyncio task.",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/GPS.md"
+  },
+  {
     "name": "micropython-upyphone",
     "url": "https://github.com/jeffmer/micropython-upyphone",
     "description": "A gsm phone using pyboard and sim800l."
@@ -347,7 +355,7 @@
   {
     "name": "micropython-iot",
     "url": "https://github.com/peterhinch/micropython-iot",
-    "description": "An approach to designing IOT applications using ESP8266/Pyboard D endpoints."
+    "description": "An approach to designing IOT applications using ESP8266, ESP32 or Pyboard D endpoints."
   },
   {
     "name": "iot-core-micropython",
@@ -695,6 +703,11 @@
     "description": "International Morse Code using a micro-controller with MicroPython."
   },
   {
+    "name": "I2C Slave",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/I2C.md",
+    "description": "Uses the Pyboard's I2C slave mode to implement a full duplex asynchronous link. Principal use case is for ESP8266 which has only one UART."
+  },
+  {
     "name": "micropython-msgpack",
     "url": "https://github.com/peterhinch/micropython-msgpack",
     "description": "MessagePack serialisation library optimised for MicroPython."
@@ -840,11 +853,6 @@
     "description": "MicroPython IEEE802.15.4 / Zigbee parser."
   },
   {
-    "name": "micropython-epaper",
-    "url": "https://github.com/peterhinch/micropython-epaper",
-    "description": "Pyboard driver for Embedded Artists 2.7 inch e-paper display."
-  },
-  {
     "name": "micropython-ili9341",
     "url": "https://github.com/mcauser/deshipu-micropython-ili9341",
     "description": "SSD1606 active matrix epaper display 128x180."
@@ -895,6 +903,10 @@
     "description": "A Python 3 utility to convert fonts to Python source capable of being frozen as bytecode."
   },
   {
+    "name": "writer A simple way to render above Python fonts to displays whose driver is subclassed from framebuf.",
+    "url": "https://github.com/peterhinch/micropython-font-to-py/blob/master/writer/WRITER.md"
+  },
+  {
     "name": "ssd1306big",
     "url": "https://github.com/nickpmulder/ssd1306big",
     "description": "A font for MicroPython on 128x64 pixel ssd1306 oled display."
@@ -942,7 +954,15 @@
   {
     "name": "micropython-nano-gui",
     "url": "https://github.com/peterhinch/micropython-nano-gui",
-    "description": "Nano-Gui provides a limited set of GUI objects (widgets) for displays whose display driver is subclassed from the framebuf class. Which includes LCD and OLED displays."
+    "description": "A tiny display-only GUI with a limited set of GUI objects (widgets) for displays whose display driver is subclassed from the framebuf class. With drivers for TFT, ePaper and OLED displays."
+  },
+  {
+    "name": "micro-gui Derived from nano-gui and supporting the same displays and hosts, this provides for user\ninput via pushbuttons or a navigation joystick and an optional rotary encoder.",
+    "url": "https://github.com/peterhinch/micropython-micro-gui"
+  },
+  {
+    "name": "TFT-GUI A fast touch GUI for large displays based on SSD1963 controller with XPT2046 touch controller.",
+    "url": "https://github.com/peterhinch/micropython-tft-gui"
   },
   {
     "name": "Grove_RGB_LCD",
@@ -1390,11 +1410,6 @@
     "description": "MicroPython Class for Debouncing Switches."
   },
   {
-    "name": "MCP23017-ESP8266-Miniature-Driver",
-    "url": "https://github.com/forkachild/MCP23017-ESP8266-Miniature-Driver",
-    "description": "Driver for MCP23017 16-bit I/O Expander."
-  },
-  {
     "name": "micropython-mcp230xx",
     "url": "https://github.com/ShrimpingIt/micropython-mcp230xx",
     "description": "Driver for MCP23017 and MCP23008 GPIO expanders."
@@ -1493,6 +1508,14 @@
     "name": "micropython-encoder-knob",
     "url": "https://github.com/infinite-tree/micropython-encoder-knob",
     "description": "A very simple lightweight encoder knob library with button support."
+  },
+  {
+    "name": "encoders Short document explaining issues around encoder technology.",
+    "url": "https://github.com/peterhinch/micropython-samples/blob/master/encoders/ENCODERS.md"
+  },
+  {
+    "name": "asynchronous encoder driver Interface an encoder to uasyncio code.",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/primitives/encoder.py"
   },
   {
     "name": "micropython-74hc595",
@@ -2150,6 +2173,10 @@
     "description": "This is a MicroPython module / class to measure data from the htu21d."
   },
   {
+    "name": "HTU21D Asynchronous driver for this temperature and humidity sensor.",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/HTU21D.md"
+  },
+  {
     "name": "esp-sht3x-micropython",
     "url": "https://github.com/HAIZAKURA/esp-sht3x-micropython",
     "description": "A SHT3x (SHT30/31/35) Lib for esp8266/esp32 with MicroPython."
@@ -2210,9 +2237,8 @@
     "description": "SimpleCRON is a time-based task scheduling program inspired by the well-known CRON program for Unix systems."
   },
   {
-    "name": "Micropython-scheduler",
-    "url": "https://github.com/danicampora/Micropython-scheduler",
-    "description": "A set of libraries for writing threaded code on the MicroPython board."
+    "name": "Schedule A scheduler for uasyncio based applications. Schedule events at specified times and dates.",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/SCHEDULE.md"
   },
   {
     "name": "uPyMySQL",
@@ -2257,7 +2283,7 @@
   {
     "name": "micropython_eeprom",
     "url": "https://github.com/peterhinch/micropython_eeprom",
-    "description": "MicroPython device drivers for nonvolatile memory chips (EEPROM, FRAM, Flash)."
+    "description": "Cross platform MicroPython device drivers for memory chips (EEPROM, FRAM, Flash, PSRAM)."
   },
   {
     "name": "mb_24x256_512",
@@ -2267,7 +2293,7 @@
   {
     "name": "micropython_data_to_py",
     "url": "https://github.com/peterhinch/micropython_data_to_py",
-    "description": "A Python3 utility to convert an arbitrary binary file to Python source for storage in Flash."
+    "description": "A Python3 utility to convert an arbitrary binary file to Python source for freezing as bytecode in Flash."
   },
   {
     "name": "micropython-fram",
@@ -2300,11 +2326,6 @@
     "description": "MicroPython Menu for LCD Displays."
   },
   {
-    "name": "micropython-micro-gui",
-    "url": "https://github.com/peterhinch/micropython-micro-gui",
-    "description": "A lightweight MicroPython GUI library for display drivers based on framebuf, allows input via pushbuttons."
-  },
-  {
     "name": "MicroPython Forum",
     "url": "https://forum.micropython.org/",
     "description": "Online community of over 6400 users discussing all things related to MicroPython."
@@ -2333,6 +2354,22 @@
     "name": "Discord",
     "url": "https://discord.gg/qw7d8bv",
     "description": "Get an invite to the MicroPython Discord server."
+  },
+  {
+    "name": "uasyncio Write asynchronous code which interfaces to hardware devices.",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/TUTORIAL.md"
+  },
+  {
+    "name": "Asynchronous drivers Tutorial and code for asynchronous interfaces to switches, pushbuttons, encoders and ADCs.",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/DRIVERS.md"
+  },
+  {
+    "name": "Pyboard micropower Tutorial and code for low power applications on Pyboard 1.x and Pyboard D.",
+    "url": "https://github.com/peterhinch/micropython-micropower"
+  },
+  {
+    "name": "3D rotation with quaternions Tutorial and code for the easy way to do 3D rotation.",
+    "url": "https://github.com/peterhinch/micropython-samples/blob/master/QUATERNIONS.md"
   },
   {
     "name": "Programming with MicroPython: Embedded Programming with Microcontrollers and Python",
@@ -2457,12 +2494,16 @@
   {
     "name": "micropython-aiosentry",
     "url": "https://github.com/devbis/micropython-aiosentry",
-    "description": "Asyncronous Sentry.io micro client for MicroPython."
+    "description": "Asynchronous Sentry.io micro client for MicroPython."
   },
   {
     "name": "micropython-usyslog",
     "url": "https://github.com/kfricke/micropython-usyslog",
     "description": "Simple remote syslog client for MicroPython."
+  },
+  {
+    "name": "Asynchronous monitor Use a Raspberry Pico and a logic analyser or scope to monitor asynchronous code.",
+    "url": "https://github.com/peterhinch/micropython-monitor"
   },
   {
     "name": "BIPES",
