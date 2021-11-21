@@ -195,6 +195,11 @@
     "description": "Sample compose files and associated configuration beyond those officially provided by Sitecore."
   },
   {
+    "name": "Container Asset Image Creator Module",
+    "url": "https://github.com/KayeeNL/sitecore-module-docker-asset-image-creator",
+    "description": "A script to handle the auto creation of a Docker Asset Image for a given Sitecore module."
+  },
+  {
     "name": "Sitecore Content Hub Importer",
     "url": "https://github.com/vasiliyfomichev/content-hub-importer",
     "description": "Sitecore Content Hub Asset Importer; allows importing image assets from various data sources into Sitecore Content Hub."
@@ -230,6 +235,16 @@
     "description": "PowerShell scripting library to help with installing SolrCloud clusters on Windows."
   },
   {
+    "name": "Docker SolrCloud for Sitecore 10",
+    "url": "https://github.com/jermdavis/Sitecore-SolrCloud-Docker",
+    "description": "Creates a SolrCloud container that can be used with a Sitecore 10 instance under Docker. The files have been adjusted from the Solr container files in the Sitecore Docker examples repo. The default \"solr\" service Sitecore provide can be replaced using these files."
+  },
+  {
+    "name": "Sitecore SolrProxy",
+    "url": "https://github.com/Antonytm/Sitecore.SolrProxy",
+    "description": "Tool for easy access to Solr admin console if you have access only to Sitecore CM."
+  },
+  {
     "name": "Common Sitecore ContentSearch extensions",
     "url": "https://github.com/LaubPlusCo/LaubPlusCo.Common.ContentSearch",
     "description": "Common extensions to Sitecore contentSearch; hereunder PopulateSolrSchema pipeline processors to ensure that all installed languages in Sitecore are added to the solr managed schema."
@@ -260,6 +275,11 @@
     "description": "Collection of 3 gutters for DEF to provide a quick solution for context item of an item within the tree: ItemDisabled, PipelineBatch and PipelineStep."
   },
   {
+    "name": "Data Exchange Framework Docs",
+    "url": "https://github.com/Sitecore/Data-Exchange-Framework-Docs",
+    "description": "Sitecore Data Exchange Framework Documentation generated using Sphinx."
+  },
+  {
     "name": "Sitecore Habitat",
     "url": "https://github.com/Sitecore/Habitat",
     "description": "Habitat is an example Sitecore solution built on the Helix architecture principles. No longer being updated or maintained, and is being replaced with Sitecore Helix Examples."
@@ -273,6 +293,11 @@
     "name": "Lighthouse Demo",
     "url": "https://github.com/Sitecore/Sitecore.Demo.Platform",
     "description": "The latest XP 10.0 demo using SXA 10.0. It can be only deployed inside Docker containers."
+  },
+  {
+    "name": "Sitecore.Demo.Headless",
+    "url": "https://github.com/Sitecore/Sitecore.Demo.Headless",
+    "description": "Sitecore JSS PWA demo assets and future \"Sitecore Headless\" related demo assets."
   },
   {
     "name": "Sitecore MVP",
@@ -305,6 +330,16 @@
     "description": "A demo of JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution, built with Gatsby v2."
   },
   {
+    "name": "Sitecore DXP Demo",
+    "url": "https://github.com/Sitecore/Sitecore.Demo.Edge",
+    "description": "A demo of XM, Experience Edge, Content Hub DAM and CMP, Content Hub Edge, JSS, CDP, Sitecore Personalize, Next.js and Vercel."
+  },
+  {
+    "name": "Sitecore Developer Portal",
+    "url": "https://github.com/Sitecore/developer-portal",
+    "description": "Sitecore developer portal is built with Next.js, Typescript, Tailwind CSS, and is hosted on Vercel. It uses static site generation (SSG) to create all the pages at build time. It also utilizes Incremental Static Regeneration (ISR) to automatically update the app when changes to page content are made. Many pages are written in Markdown and converted to HTML at build time. Images that are used are managed in Sitecore DAM and are published to a CDN."
+  },
+  {
     "name": "PostDeploySteps",
     "url": "https://github.com/jst-cyr/NonlinearPostDeploySteps",
     "description": "Post deploy steps for use with TDS. 1) TDS Example project that triggers the post deploy step; 2) Sample web project to show pulling in the deploy step; 3) DeployStep class library that you can add to your solution."
@@ -313,6 +348,11 @@
     "name": "Sitecore Devops with AppVeyor",
     "url": "https://github.com/steviemcg/Sitecore.Devops.AppVeyor",
     "description": "Sample solution which shows how to develop an open-source Sitecore module and hook it up with AppVeyor, a Continuous Delivery solution hosted in the cloud."
+  },
+  {
+    "name": "Cake.Sitecore",
+    "url": "https://github.com/asmagin/Cake.Sitecore",
+    "description": "Provides a set of pre-build [CAKE build] tasks to be used to simplify a configuration of CI/CD for Helix-based Sitecore projects."
   },
   {
     "name": "Copy Version module",
@@ -363,6 +403,21 @@
     "name": "SitecoreFieldSuite",
     "url": "https://github.com/Velir/SitecoreFieldSuite",
     "description": "Provides Sitecore users a more streamlined and informational approach to content authoring. This is achieved by revamping 5 field types, introducing an Images field, enabling automatic publishing of referenced items and adding new functionality such as the Edit Form, Go to Item button and the Field Gutter."
+  },
+  {
+    "name": "Sitecore Smart Commands",
+    "url": "https://github.com/AlenPelin/Sitecore-Smart-Commands",
+    "description": "A shared-source module that contains smart copy, duplicate and clone commands in Content Editor, that implement so much wanted functionality missing by default."
+  },
+  {
+    "name": "CopyPageToVersions",
+    "url": "https://github.com/merkle-open/SitecoreCopyPageToVersions",
+    "description": "An extension for the Content Editor and the Experience Editor providing a dialog for content editors, where a page in a specific version can be copied to a selectable list of language versions, including all datasources referenced on the page renderings."
+  },
+  {
+    "name": "Sitecore-TinyMCERTE",
+    "url": "https://github.com/EmanueleCiriachi/Sitecore-TinyMCERTE",
+    "description": "A Sitecore Control that uses the Tiny MCE Editor in place of the default one."
   },
   {
     "name": "Sitecore.Foundation.Fields",
@@ -420,6 +475,16 @@
     "description": "A console application that provides an automated solution to convert and migrate Web Forms For Marketers (WFFM) items and their data to Sitecore Forms."
   },
   {
+    "name": "SendMail for Experience Forms",
+    "url": "https://github.com/KayeeNL/Sitecore.ExperienceForms.Modules.SendMail",
+    "description": "Brings a new Send E-mail Action for Sitecore 9 Forms, enabling the submission of e-mails using MainUtil.SendMail method, which will use an SMTP server to submit e-mails in HTML or Plain Text."
+  },
+  {
+    "name": "NitroNet for Sitecore",
+    "url": "https://github.com/merkle-open/NitroNetSitecore",
+    "description": "Handles all possible presentation scenarios to integrate a handlebars frontend into Sitecore instead of Razor View without functional loss and improving productivity."
+  },
+  {
     "name": "JSS",
     "url": "https://github.com/Sitecore/jss",
     "description": "An official repo of Sitecore JavaScript Services."
@@ -460,9 +525,29 @@
     "description": "A fullstack tutorial website to learn all about GraphQL."
   },
   {
+    "name": "JSS with Vue.js",
+    "url": "https://github.com/KayeeNL/sitecore-jss-getting-started-vuejs",
+    "description": "A starting template for JSS using Vue.js framework."
+  },
+  {
+    "name": "Headless Examples",
+    "url": "https://github.com/Sitecore/headless-examples",
+    "description": "A repository with valuable examples, such as JSS embedded app and Next.js using federated authentication."
+  },
+  {
     "name": "Next.js Starter kit using GraphQL and Sitecore Experience Edge for Content Hub",
     "url": "https://github.com/konabos/Next.js-Starter-kit-using-GraphQL-and-Sitecore-Content-Hub-Content-as-a-Service",
     "description": "This is a great example of Sitecore Experience Edge Content as-a-Service approach using NextJS upon React, using a demo instance of the latest Content Hub."
+  },
+  {
+    "name": "Uniform, JSS and Next.js starter kit",
+    "url": "https://github.com/uniformdev/sitecore-jss-nextjs-starterkit",
+    "description": "A starter kit of Uniform, JSS and Next.JS with content items and required configuration files, great to start a vanilla project with."
+  },
+  {
+    "name": "Uniform, MVC and Next.js starter kit",
+    "url": "https://github.com/uniformdev/sitecore-mvc-nextjs-starterkit",
+    "description": "A starter kit of Uniform, MVC and Next.JS with content items and required configuration files, great to start a vanilla project with."
   },
   {
     "name": "Sitecore Helix Documentation",
@@ -530,6 +615,11 @@
     "description": "MSBuild extensions for building Sitecore icon zip archives and including them in the published website."
   },
   {
+    "name": "Integration Blueprints",
+    "url": "https://github.com/Sitecore/Integration-Blueprints",
+    "description": "Sample code showing how to integrate Sitecore products with each other, and also with 3rd party systems."
+  },
+  {
     "name": "Sitecore Item Translator",
     "url": "https://github.com/adoprog/Sitecore-Item-Translator",
     "description": "An item Translator module integrates Google translate seamlessly so that with a click of a button you are able to translate your text to any language that Google translate supports."
@@ -538,6 +628,11 @@
     "name": "Sitecore Item Versioner",
     "url": "https://github.com/aquasonic/SitecoreItemVersioner",
     "description": "This module adds a new ribbon into the versions chunk of the Content Editor.With the new ribbon it is possible to initially create an item version in all configured languages."
+  },
+  {
+    "name": "CopyPageToVersions",
+    "url": "https://github.com/merkle-open/SitecoreCopyPageToVersions",
+    "description": "An extension for the Content Editor and the Experience Editor providing a dialog for content editors, where a page in a specific version can be copied to a selectable list of language versions, including all datasources referenced on the page renderings."
   },
   {
     "name": "SitecoreRollingLogFileAppender",
@@ -553,6 +648,11 @@
     "name": "Logging To Logentries",
     "url": "https://github.com/jammykam/Sitecore.Logentries",
     "description": "Configures your application to log intto Logentries (supports NLog, Log4net, Serilog, others)."
+  },
+  {
+    "name": "Namics.Foundation.Logger",
+    "url": "https://github.com/merkle-open/Namics.Foundation.Logger",
+    "description": "Provides a set of static methods to use for logging with flexible options"
   },
   {
     "name": "Sitecore Instance Manager",
@@ -680,6 +780,11 @@
     "description": "ARM templates to install the Sitecore Publishing Service in your Sitecore Azure PaaS environment and scripts to create the necessary Web Deployment Packages."
   },
   {
+    "name": "SIF scripts to install Publishing Service",
+    "url": "https://github.com/KayeeNL/sitecore-sif-autoinstall-publishingservice",
+    "description": "Powershell scripts that both use the Sitecore Install Framework (SIF) to auto install the Publishing Service & auto install the Publishing Module on top of the ContentManagement instance or StandAlone instance."
+  },
+  {
     "name": "Publish Viewer",
     "url": "https://github.com/mikeedwards83/Glass.PublishViewer",
     "description": "Allows you to monitor the publishing queue on the Sitecore Publishing CM Server, see their current status and cancel publishing jobs if required (ie. time queued, time publish job started, duration in the queue, number of items published, average time to publish an item, all messages from the publish job)."
@@ -715,9 +820,14 @@
     "description": "A pipeline processor for the uiGetMasters pipeline that allows you to organize your Insert Options Rules however you like in the content tree."
   },
   {
+    "name": "Conditional Placeholder Settings",
+    "url": "https://github.com/matthewkenny/ConditionalPlaceholderSettings",
+    "description": "A module to allow Sitecore Rules Engine supporting the existing placeholder settings functionality coming with Sitecore."
+  },
+  {
     "name": "Securty Headers",
     "url": "https://github.com/GuitarRich/SXA.SecurityHeaders",
-    "description": "Shows how to implemenmt response security headers on an exaple of SXA, but they are truly Helix-generic."
+    "description": "Shows how to implement response security headers on an exaple of SXA, but they are truly Helix-generic."
   },
   {
     "name": "SI Snitch",

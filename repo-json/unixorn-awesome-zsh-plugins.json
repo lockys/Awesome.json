@@ -4,6 +4,11 @@
     "url": "https://github.com/rossmacarthur/zsh-plugin-manager-benchmark"
   },
   {
+    "name": "pm-perf-test",
+    "url": "https://github.com/z-shell/pm-perf-test",
+    "description": "Tooling for running performance tests on multiple ZSH frameworks."
+  },
+  {
     "name": "Highly configurable install methods using handlebars templating.",
     "url": "http://handlebarsjs.com/"
   },
@@ -447,14 +452,14 @@
     "description": "Makes it easier to use aws-vault in your environment."
   },
   {
-    "name": "aws",
-    "url": "https://github.com/apachler/zsh-aws",
-    "description": "Forked from the original oh-my-zsh aws. Includes completions for awscli."
-  },
-  {
     "name": "aws2",
     "url": "https://github.com/drgr33n/oh-my-zsh_aws2-plugin",
     "description": "Provides completion support for version 2 of the awscli and a few utilities to manage AWS profiles and display them in the prompt."
+  },
+  {
+    "name": "aws",
+    "url": "https://github.com/apachler/zsh-aws",
+    "description": "Forked from the original oh-my-zsh aws. Includes completions for awscli."
   },
   {
     "name": "awsume",
@@ -1405,14 +1410,14 @@
     "description": "Open a Github/Gitlab repository in your browser from the command line (macOS only)."
   },
   {
-    "name": "github",
-    "url": "https://github.com/shakir-abdo/zsh-github-plugin",
-    "description": "Fork of the original github plugin embedded in oh-my-zsh."
-  },
-  {
     "name": "github-issues",
     "url": "https://github.com/Jacke/zsh-github-issues/commits",
     "description": "Subscribe to projects on Github and receive within shell (under prompt) notifications about new issues."
+  },
+  {
+    "name": "github",
+    "url": "https://github.com/shakir-abdo/zsh-github-plugin",
+    "description": "Fork of the original github plugin embedded in oh-my-zsh."
   },
   {
     "name": "gitignore",
@@ -3363,56 +3368,6 @@
     "description": "Adds helper function to upgrade all the dependencies in a yarn/npm project."
   },
   {
-    "name": "z-a-readurl",
-    "url": "https://github.com/zdharma-continuum/z-a-as-monitor",
-    "description": "Adds function to automatically download the newest version of a file to which URL is hosted on a webpage."
-  },
-  {
-    "name": "z-a-bin-gem-node",
-    "url": "https://github.com/zdharma-continuum/z-a-bin-gem-node",
-    "description": "zinit extension that exposes binaries without altering $PATH, installs Ruby gems and Node modules and easily exposes their binaries, and updates the gems and modules when the associated plugin or snippet is updated."
-  },
-  {
-    "name": "z-a-default-ice",
-    "url": "https://github.com/zdharma-continuum/z-a-default-ice",
-    "description": "Allows user to define ices active for multiple zinit commands."
-  },
-  {
-    "name": "z-a-man",
-    "url": "https://github.com/zdharma-continuum/z-a-man",
-    "description": "Zinit extension that generates man pages for all plugins and snippets"
-  },
-  {
-    "name": "z-a-meta-plugins",
-    "url": "https://github.com/zdharma-continuum/z-a-meta-plugins",
-    "description": "Install groups of plugins with a single label (zinit only)."
-  },
-  {
-    "name": "z-a-patch-dl",
-    "url": "https://github.com/zdharma-continuum/z-a-patch-dl",
-    "description": "zinit extension that downloads files and applies patches through the provided dl and patch zinit ices."
-  },
-  {
-    "name": "z-a-rust",
-    "url": "https://github.com/zdharma-continuum/z-a-rust",
-    "description": "zinit extension that that installs rust and cargo packages inside plugin directories."
-  },
-  {
-    "name": "z-a-submods",
-    "url": "https://github.com/z-shell/z-a-submods",
-    "description": "zinit extenstion allows installing and managing additional submodules within a plugin or snippet."
-  },
-  {
-    "name": "z-a-test",
-    "url": "https://github.com/NorthIsMirror/z-a-test",
-    "description": "zinit extension that runs tests (via make test, for example) – if it finds any of them – after installing and updating a plugin or snippet."
-  },
-  {
-    "name": "z-a-unscope",
-    "url": "https://github.com/z-shell/z-a-unscope",
-    "description": "Allows installing plugins for zinit without specifying the user name by querying the Github API."
-  },
-  {
     "name": "z.lua",
     "url": "https://github.com/skywind3000/z.lua",
     "description": "A command line tool which helps you navigate faster by learning your habits. An alternative to z.sh with Windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than z.sh."
@@ -3498,14 +3453,64 @@
     "description": "Custom extras for zimfw, packaged into a zimfw plugin."
   },
   {
-    "name": "zinit-console",
-    "url": "https://github.com/z-shell/zinit-console",
-    "description": "A semigraphical (curses) consolette for the zinit plugin manager."
-  },
-  {
     "name": "zinfo_line",
     "url": "https://github.com/kmhjs/zinfo_line",
     "description": "Makes more information available to ZSH themes."
+  },
+  {
+    "name": "zinit-annex-bin-gem-node",
+    "url": "https://github.com/zdharma-continuum/zinit-annex-bin-gem-node",
+    "description": "zinit extension that exposes binaries without altering $PATH, installs Ruby gems and Node modules and easily exposes their binaries, and updates the gems and modules when the associated plugin or snippet is updated."
+  },
+  {
+    "name": "zinit-annex-default-ice",
+    "url": "https://github.com/zdharma-continuum/zinit-annex-default-ice",
+    "description": "Allows user to define ices active for multiple zinit commands."
+  },
+  {
+    "name": "zinit-annex-man",
+    "url": "https://github.com/zdharma-continuum/zinit-annex-man",
+    "description": "Zinit extension that generates man pages for all plugins and snippets"
+  },
+  {
+    "name": "zinit-annex-meta-plugins",
+    "url": "https://github.com/zdharma-continuum/zinit-annex-meta-plugins",
+    "description": "Install groups of plugins with a single label (zinit only)."
+  },
+  {
+    "name": "zinit-annex-patch-dl",
+    "url": "https://github.com/zdharma-continuum/zinit-annex-patch-dl",
+    "description": "zinit extension that downloads files and applies patches through the provided dl and patch zinit ices."
+  },
+  {
+    "name": "zinit-annex-readurl",
+    "url": "https://github.com/zdharma-continuum/zinit-annex-readurl",
+    "description": "Adds function to automatically download the newest version of a file to which URL is hosted on a webpage."
+  },
+  {
+    "name": "zinit-annex-rust",
+    "url": "https://github.com/zdharma-continuum/zinit-annex-rust",
+    "description": "zinit extension that that installs rust and cargo packages inside plugin directories."
+  },
+  {
+    "name": "zinit-annex-submods",
+    "url": "https://github.com/z-shell/z-a-submods",
+    "description": "zinit extenstion allows installing and managing additional submodules within a plugin or snippet."
+  },
+  {
+    "name": "zinit-annex-test",
+    "url": "https://github.com/NorthIsMirror/z-a-test",
+    "description": "zinit extension that runs tests (via make test, for example) – if it finds any of them – after installing and updating a plugin or snippet."
+  },
+  {
+    "name": "zinit-annex-unscope",
+    "url": "https://github.com/zdharma-continuum/zinit-annex-unscope",
+    "description": "Allows installing plugins for zinit without specifying the user name by querying the Github API."
+  },
+  {
+    "name": "zinit-console",
+    "url": "https://github.com/z-shell/zinit-console",
+    "description": "A semigraphical (curses) consolette for the zinit plugin manager."
   },
   {
     "name": "zinsults",
@@ -4568,6 +4573,11 @@
     "description": "Agnoster variant with unicode symbols baked in."
   },
   {
+    "name": "biraSkull",
+    "url": "https://github.com/Shahryar-Pirooz/biraSkull.zsh-theme",
+    "description": "Based on bira, includes root status and git status decorations."
+  },
+  {
     "name": "biradate",
     "url": "https://github.com/vemonet/zsh-theme-biradate",
     "description": "Based on the bira theme, but displays the date instead of the username in the prompt."
@@ -4576,11 +4586,6 @@
     "name": "birame",
     "url": "https://github.com/maniat1k/birame",
     "description": "Based on bira."
-  },
-  {
-    "name": "biraSkull",
-    "url": "https://github.com/Shahryar-Pirooz/biraSkull.zsh-theme",
-    "description": "Based on bira, includes root status and git status decorations."
   },
   {
     "name": "birav2",
@@ -6268,7 +6273,7 @@
   {
     "name": "modesty",
     "url": "https://github.com/saravanabalagi/zsh-theme-modesty",
-    "description": "A clean and modest zsh theme with condaenv, virtualenv and git status decorations displayed neatly right aligned."
+    "description": "A clean and modest ZSH theme with condaenv, virtualenv and git status decorations displayed neatly right aligned."
   },
   {
     "name": "molokai-powerline",
@@ -6756,14 +6761,14 @@
     "description": "Includes git status decorations."
   },
   {
-    "name": "prompt",
-    "url": "https://github.com/nathanblair/prompt",
-    "description": "A lightweight prompt consistent across sh, dash, ash, zsh, and pwsh. Includes git status decorations."
-  },
-  {
     "name": "prompt-powerline",
     "url": "https://github.com/Valodim/zsh-prompt-powerline",
     "description": "A fairly heavyweight ZSH prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background."
+  },
+  {
+    "name": "prompt",
+    "url": "https://github.com/nathanblair/prompt",
+    "description": "A lightweight prompt consistent across sh, dash, ash, zsh, and pwsh. Includes git status decorations."
   },
   {
     "name": "prompt_j2",
@@ -7363,6 +7368,11 @@
     "name": "susi",
     "url": "https://github.com/carcruz/susi-zsh-iterm",
     "description": "Includes git status decorations and an accompanying iTerm2 color scheme."
+  },
+  {
+    "name": "svs",
+    "url": "https://github.com/SvS30/svs-theme",
+    "description": "Clean and distraction free theme with git status and current path decorations."
   },
   {
     "name": "sy",
