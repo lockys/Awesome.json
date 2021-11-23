@@ -45,6 +45,11 @@
     "description": "All currently available Azure Resource Manager templates for Sitecore."
   },
   {
+    "name": "Sitecore Azure Scripts",
+    "url": "https://github.com/robhabraken/Sitecore-Azure-Scripts",
+    "description": "Azure related PowerShell scripts and ARM templates to be used as a template or boilerplate for your own scripts and needs."
+  },
+  {
     "name": "Sitecore Azure Content",
     "url": "https://github.com/olegburov/Sitecore-Azure-Content",
     "description": "Articles on how to automate a deployment of Sitecore solution to the Microsoft Azure Cloud Platform utilizing Azure services."
@@ -80,22 +85,27 @@
     "description": "Azure Resource Manager (ARM) templates to install the Sitecore Publishing Service in a Sitecore Azure PaaS environment."
   },
   {
-    "name": "SitecoreDiagnostics",
+    "name": "Sitecore Diagnostics",
     "url": "https://github.com/BasLijten/SitecoreDiagnostics",
     "description": "Sitecore Diagnostics using Application Insights."
   },
   {
-    "name": "sitecore-application-insights-annotations",
+    "name": "Application Insights Annotations",
     "url": "https://github.com/BasLijten/sitecore-application-insights-annotations",
     "description": "Creates App Insinghts annotations."
   },
   {
-    "name": "CacheTuner",
+    "name": "Cache Tuner",
     "url": "https://github.com/KayeeNL/CacheTuner",
     "description": "The module is an implementation of the rules given in Sitecore Caching guide."
   },
   {
-    "name": "Cache-Processing-Instance",
+    "name": "Caching Manager",
+    "url": "https://github.com/jbluemink/SitecoreCachingManager",
+    "description": "A console for easy Sitecore 10 cache management."
+  },
+  {
+    "name": "Cache Processing Instance",
     "url": "https://github.com/ParTech/Cache-Processing-Instance",
     "description": "A proof-of-concept for a dedicated HTML cache processing instance."
   },
@@ -118,6 +128,11 @@
     "name": "Sitecore Rules-Based Output Caching",
     "url": "https://github.com/zkniebel/Sitecore-Advanced-Output-Caching",
     "description": "Provides rules-based Sitecore output caching variance support, enabling the caching of personalized components and other components that require more complex cache variance logic."
+  },
+  {
+    "name": "Dictionary Flush Partial Cache",
+    "url": "https://github.com/jbluemink/DictionaryFlushPartialCache",
+    "description": "Flashes Partial Html Cache on changes to Sitecore Dictionary items."
   },
   {
     "name": "Reference Storefront",
@@ -150,14 +165,39 @@
     "description": "Provides six character confirmation codes (configurable), randomly generated, and tracked in the commerce database to avoid conflicts, as shorter codes are easier to communicate over support calls and for some clients may be more convenient than the 25 character confirmations that are provided out of the box."
   },
   {
+    "name": "Sitecore Commerce Engine Fedex plugin",
+    "url": "https://github.com/XCentium/SC-Plugin-FedEx",
+    "description": "Allows the user to integrate Fedex as a Fulfillment Method for shipping."
+  },
+  {
+    "name": "Sitecore Commerce Engine USPS plugin",
+    "url": "https://github.com/XCentium/SC-Plugin-USPS",
+    "description": "Allows the user to integrate USPS as a Fulfillment Method for shipping."
+  },
+  {
+    "name": "Sitecore Commerce Engine UPS Address Validation plugin",
+    "url": "https://github.com/XCentium/SC-Plugin-UPS-Address-Validation",
+    "description": "Allows validating shipping address or billing address to make product delivery a good experience."
+  },
+  {
     "name": "Sitecore configuration consolidator (offline ShowConfig)",
     "url": "https://github.com/ParTech/ScShowConfig",
     "description": "Simple console app that consolidates Sitecore configuration include files."
   },
   {
+    "name": "Sitecore Containers Prerequisites",
+    "url": "https://github.com/nickwesselman/sitecore-containers-prerequisites",
+    "description": "Checks the machine for Sitecore Container compatibility, enables Hyper-V, downloads and installs software including Sitecore 10.1"
+  },
+  {
     "name": "Sitecore Docker Examples",
     "url": "https://github.com/Sitecore/docker-examples",
     "description": "An official Docker Examples images for the most recent versions of Sitecore 10.*, including 'getting-started' XP0 container environment."
+  },
+  {
+    "name": "Container Deployment",
+    "url": "https://github.com/Sitecore/container-deployment",
+    "description": "Provides the examples on how to deploy Sitecore containers using various methods."
   },
   {
     "name": "Lighthouse Demo",
@@ -200,6 +240,21 @@
     "description": "A script to handle the auto creation of a Docker Asset Image for a given Sitecore module."
   },
   {
+    "name": "Containers & AKS",
+    "url": "https://github.com/bplasmeijer/Sitecore-Symposium-2020-Containers-AKS",
+    "description": "Taking Sitecore 10 to the next level into Azure AKS."
+  },
+  {
+    "name": "PaaS to AKS",
+    "url": "https://github.com/robhabraken/paas-to-aks",
+    "description": "Boilerplate project for deploying Sitecore 10.0.* to Azure AKS coming from an Azure PaaS architecture for Sitecore. That includes ARM templates for External Data Services, required to run Sitecore k8s in production and scripts to support a full Infrastructure-as-Code setup for Sitecore on AKS."
+  },
+  {
+    "name": "Sitecore Deployment on Kubernetes Example",
+    "url": "https://github.com/georgechang/sitecore-k8s",
+    "description": "An example of a Sitecore 10.1 XP0 deployment onto AKS with SolrCloud. It should deploy: 1)Sitecore 10.1 XP0; 2)Microsoft SQL Server 2019; 3)Zookeeper 3.4 (3 replicas); 4)Solr 8.4 (3 replicas)"
+  },
+  {
     "name": "Sitecore Content Hub Importer",
     "url": "https://github.com/vasiliyfomichev/content-hub-importer",
     "description": "Sitecore Content Hub Asset Importer; allows importing image assets from various data sources into Sitecore Content Hub."
@@ -220,9 +275,24 @@
     "description": "Extends Sitecore Connect for Sitecore CMP 2.0.0 so images set on CMP entities can be synchronised using the xml format used by Sitecore Connect™ for Sitecore DAM 2.0.0, so this module is required."
   },
   {
+    "name": "Starter Kit for Content Hub with Next.js and GraphQL",
+    "url": "https://github.com/konabos/Next.js-Starter-kit-using-GraphQL-and-Sitecore-Content-Hub-Content-as-a-Service",
+    "description": "Content Hub headless starter kit."
+  },
+  {
+    "name": "Focal point cropping",
+    "url": "https://github.com/robhabraken/content-hub-focal-point-cropping",
+    "description": "Focal point cropping for Content Hub."
+  },
+  {
     "name": "Sitecore spatial geojson polygons",
     "url": "https://github.com/josedbaez/sitecore-spatial-geojson-polygons",
     "description": "Implementation of a Linq extension to be able to query on points that intercept GeoJson polygons in solr indexes. The demo provides a template with the spatial field, couple of sample items with polygons from openstreetmap that cover some cities; and a controller rendering that reads lat and lng from the querystring and returns the polygon of the item found (e.g. Big Ben's coordinates return London)."
+  },
+  {
+    "name": "Sitecore Solr Schema",
+    "url": "https://github.com/konabos/solr-sitecore-schema",
+    "description": "Sitecore configsets (schema) for Solr 8.1.1 and 8.4.0."
   },
   {
     "name": "Search Index Builder",
@@ -355,6 +425,11 @@
     "description": "Provides a set of pre-build [CAKE build] tasks to be used to simplify a configuration of CI/CD for Helix-based Sitecore projects."
   },
   {
+    "name": "Sitecore Sweep",
+    "url": "https://github.com/Kasaku/Sitecore.Sweep",
+    "description": "A simple extensible module for Sitecore for the automatic cleaning of HTML in Items."
+  },
+  {
     "name": "Copy Version module",
     "url": "https://github.com/ParTech/Copy-Version",
     "description": "Adds commands to the Content Editor that allow users to copy and paste the latest version of an item instead of the entire item. After installation, the \"Copy version\" and \"Paste version\" commands are accessible from the context menu in the content tree."
@@ -478,6 +553,11 @@
     "name": "SendMail for Experience Forms",
     "url": "https://github.com/KayeeNL/Sitecore.ExperienceForms.Modules.SendMail",
     "description": "Brings a new Send E-mail Action for Sitecore 9 Forms, enabling the submission of e-mails using MainUtil.SendMail method, which will use an SMTP server to submit e-mails in HTML or Plain Text."
+  },
+  {
+    "name": "Forms Cloud Upload",
+    "url": "https://github.com/jbluemink/Sitecore-Forms-Cloud-Upload",
+    "description": "Use Azure Storage Queue and Azure Storage Blob to store Sitecore 9.3+ Forms uploads Encrypted, with a key from Azure Key Fault - this can be handy for the compliance once users upload sensitive data."
   },
   {
     "name": "NitroNet for Sitecore",
@@ -655,6 +735,11 @@
     "description": "Provides a set of static methods to use for logging with flexible options"
   },
   {
+    "name": "Admin Scripts for Development and Deploying",
+    "url": "https://github.com/jbluemink/Sitecore-Admin-Scripts-for-Development-and-Deploying",
+    "description": "The additional features for /admin folder: AddAdminUser, AddEditorUser, ResetAdminPassword, FillDbWithExtranetUser, InstallUpdatePackage, InstallZipPackage, ParameterDrivenPublish and IsPublishTaskRunning."
+  },
+  {
     "name": "Sitecore Instance Manager",
     "url": "https://github.com/Sitecore/Sitecore-Instance-Manager",
     "description": "The legendary Sitecore Instanmce Manager, now with veriosn 9.x support."
@@ -688,6 +773,11 @@
     "name": "Dianoga",
     "url": "https://github.com/kamsar/Dianoga",
     "description": "An automatic image optimizer for the Sitecore media library, reduced the size of your images served from Sitecore by 8-70%, completely automatically. When media images are requested, Dianoga automatically runs mozjpeg, PNGOptimizer, SVGO or WebP on the image data immediately after it is placed in the Sitecore media cache."
+  },
+  {
+    "name": "Netcore Auth",
+    "url": "https://github.com/robearlam/sitecore-netcore-auth",
+    "description": "A repository showing how to enable authentication in a .NET Core headless Sitecore application."
   },
   {
     "name": "Glass.Mapper",
@@ -745,6 +835,11 @@
     "description": "Sends browser notifications to users in Sitecore."
   },
   {
+    "name": "Sitecore Redis Session Provider",
+    "url": "https://github.com/boro2g/Sitecore-Redis-Session-Provider",
+    "description": "A Sitecore Redis session provider implementation."
+  },
+  {
     "name": "Package Autoloader",
     "url": "https://github.com/JeffDarchuk/PackageAutoloader",
     "description": "A tool to automatically apply a Sitecore package to hydrate some content as part of a deployment."
@@ -756,8 +851,18 @@
   },
   {
     "name": "UpdatePackageInstaller",
-    "url": "https://github.com/ianjohngraham/UpdatePackageInstaller",
+    "url": "https://github.com/HedgehogDevelopment/UpdatePackageInstaller",
     "description": "Installs update packages in Sitecore from the command line."
+  },
+  {
+    "name": "Sitecore Package Deployer",
+    "url": "https://github.com/HedgehogDevelopment/SitecorePackageDeployer",
+    "description": "Uses a Sitecore Job to automatically deploy update packages from a file system folder on the Sitecore server."
+  },
+  {
+    "name": "Simplified testing of package installations",
+    "url": "https://github.com/michaellwest/test-sitecore-packages",
+    "description": "Confirms package installation by converting a package into a WDP and installing it."
   },
   {
     "name": "Pipeline Performance Monitor",
@@ -768,6 +873,11 @@
     "name": "Sitecore Processor Dependency Injection",
     "url": "https://github.com/coreyasmith/Sitecore.ProcessorDi",
     "description": "Simple project to demonstrate dependency injection in Sitecore pipeline processors."
+  },
+  {
+    "name": "Scheduled Publishing",
+    "url": "https://github.com/HedgehogDevelopment/SCScheduledPublishing",
+    "description": "Gives the content editor the option to delay the publishing of an item for a future point in time."
   },
   {
     "name": "AdvancedPublishDialog",
@@ -825,6 +935,11 @@
     "description": "A module to allow Sitecore Rules Engine supporting the existing placeholder settings functionality coming with Sitecore."
   },
   {
+    "name": "Sitecore Adaptive Rules",
+    "url": "https://github.com/adamconn/sitecore-adaptive-rules",
+    "description": "Adds Rules Engine support for adaptive rules (these are useful when properties on conditions and actions have dependencies on one another)."
+  },
+  {
     "name": "Securty Headers",
     "url": "https://github.com/GuitarRich/SXA.SecurityHeaders",
     "description": "Shows how to implement response security headers on an exaple of SXA, but they are truly Helix-generic."
@@ -838,6 +953,11 @@
     "name": "MasterKey",
     "url": "https://github.com/islaytitans/MasterKey",
     "description": "A module for Unlocking Sitecore Items."
+  },
+  {
+    "name": "Security Rights Reporting",
+    "url": "https://github.com/jbluemink/Sitecore-Security-Rights-Reporting",
+    "description": "A module showing a grid with all users and all their rights in a friendly way with exporting options."
   },
   {
     "name": "Sitecore Delete Access Rights",
@@ -875,6 +995,11 @@
     "description": "A redirect manager for Sitecore."
   },
   {
+    "name": "URL Rewrite",
+    "url": "https://github.com/iamandycohen/UrlRewrite",
+    "description": "A site-specific version of Redirect / Rewrite module."
+  },
+  {
     "name": "Rainbow",
     "url": "https://github.com/SitecoreUnicorn/Rainbow",
     "description": "An advanced serialization library for Sitecore, designed to be a complete replacement for the Sitecore serialization format and filesystem organization, as well as enabling cross-source item comparison."
@@ -895,7 +1020,7 @@
     "description": "An experimental serialization data provider for Sitecore."
   },
   {
-    "name": "SitecoreHostQuickStart",
+    "name": "Sitecore Host Quick Start",
     "url": "https://github.com/sitecoreguild/SitecoreHostQuickStart/tree/develop",
     "description": "A basic set of templates to help you get started building your own Sitecore Host applications."
   },
@@ -903,6 +1028,21 @@
     "name": "Hostbase",
     "url": "https://github.com/muso31/Hostbase",
     "description": "Sitecore Host example solution which can be used as a starting point for Sitecore Host applications. Currently runs in the IdentityServer Host as a plugin, will be updated when standalone Sitecore Host applications become readily available."
+  },
+  {
+    "name": "Sitecore Host Plugins",
+    "url": "https://github.com/JuliusAngwenyi/SitecoreHostPlugins",
+    "description": "Sitecore Host Plugins for extending Sitecore Identity Server."
+  },
+  {
+    "name": "Basic Sitecore Host Application",
+    "url": "https://github.com/georgechang/schost-basic",
+    "description": "A basic Sitecore Host application that displays a demo web page."
+  },
+  {
+    "name": "Sitecore PowerShell Book",
+    "url": "https://github.com/SitecorePowerShell/Book",
+    "description": "Sitecore PowerShell Book with all the documentation."
   },
   {
     "name": "Sitecore PowerShell",
@@ -1028,6 +1168,11 @@
     "name": "Web API Session-Enabled Routes",
     "url": "https://github.com/coreyasmith/WebApiEnableSessionHandler",
     "description": "Sitecore pipeline processor and extensions to the HttpRouteCollection to enable session in Web API 2."
+  },
+  {
+    "name": "Sitecore Shared Source: Web API Client",
+    "url": "https://github.com/thinkfreshnick/SitecoreSharedSource",
+    "description": "Sitecore WebAPI client."
   },
   {
     "name": "DynamicWorkflows",
