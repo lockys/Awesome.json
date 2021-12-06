@@ -515,6 +515,11 @@
     "description": "Get info on length of functions in a Go package."
   },
   {
+    "name": "Go Meta Linter ⚠️",
+    "url": "https://github.com/alecthomas/gometalinter",
+    "description": "Concurrently run Go lint tools and normalise their output. Use golangci-lint for new projects."
+  },
+  {
     "name": "go tool vet --shadow",
     "url": "https://golang.org/cmd/vet#hdr-Shadowed_variables",
     "description": "Reports variables that may have been unintentionally shadowed."
@@ -565,6 +570,11 @@
     "description": "Checks missing or unreferenced package imports."
   },
   {
+    "name": "gokart",
+    "url": "https://github.com/praetorian-inc/gokart",
+    "description": "Golang security analysis with a focus on minimizing false positives. It is capable of tracing the source of variables and function arguments  to determine whether input sources are safe."
+  },
+  {
     "name": "GolangCI-Lint",
     "url": "https://golangci-lint.run",
     "description": "Alternative to Go Meta Linter: GolangCI-Lint is a linters aggregator."
@@ -573,6 +583,11 @@
     "name": "golint",
     "url": "https://github.com/golang/lint",
     "description": "Prints out coding style mistakes in Go source code."
+  },
+  {
+    "name": "goreporter",
+    "url": "https://github.com/360EntSecGroup-Skylar/goreporter",
+    "description": "Concurrently runs many linters and normalises their output to a report."
   },
   {
     "name": "goroutine-inspect",
@@ -630,6 +645,11 @@
     "description": "Finds slice declarations that could potentially be preallocated."
   },
   {
+    "name": "Reviewdog",
+    "url": "https://github.com/haya14busa/reviewdog",
+    "description": "A tool for posting review comments from any linter in any code hosting service."
+  },
+  {
     "name": "revive",
     "url": "https://revive.run",
     "description": "Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint."
@@ -638,6 +658,11 @@
     "name": "safesql",
     "url": "https://github.com/stripe/safesql",
     "description": "Static analysis tool for Golang that protects against SQL injections."
+  },
+  {
+    "name": "shisho",
+    "url": "https://docs.shisho.dev/",
+    "description": "A lightweight static code analyzer designed for developers and security teams. It allows you to analyze and transform source code with an intuitive DSL similar to sed, but for code."
   },
   {
     "name": "staticcheck",
@@ -800,6 +825,11 @@
     "description": "Combines a few (pre-configured) static analysis tools (checkstyle, PMD, Findbugs, ...)."
   },
   {
+    "name": "Reshift ©️",
+    "url": "https://www.reshiftsecurity.com",
+    "description": "A source code analysis tool for detecting and managing Java security vulnerabilities."
+  },
+  {
     "name": "Soot",
     "url": "https://soot-oss.github.io/soot",
     "description": "A framework for analyzing and transforming Java and Android applications."
@@ -813,6 +843,11 @@
     "name": "SpotBugs",
     "url": "https://spotbugs.github.io",
     "description": "SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code."
+  },
+  {
+    "name": "Violations Lib",
+    "url": "https://github.com/tomasbjerre/violations-lib",
+    "description": "Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins."
   },
   {
     "name": "aether ⚠️",
@@ -880,9 +915,19 @@
     "description": "Static security analysis tool."
   },
   {
+    "name": "NodeJSScan",
+    "url": "https://opensecurity.in",
+    "description": "A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status."
+  },
+  {
     "name": "plato ⚠️",
     "url": "https://github.com/es-analysis/plato",
     "description": "Visualize JavaScript source complexity."
+  },
+  {
+    "name": "Polymer-analyzer",
+    "url": "https://github.com/Polymer/tools/tree/master/packages/analyzer",
+    "description": "A static analysis framework for Web Components."
   },
   {
     "name": "retire.js",
@@ -893,6 +938,11 @@
     "name": "RSLint",
     "url": "http://rslint.org/",
     "description": "A (WIP) JavaScript linter written in Rust designed to be as fast as possible, customizable, and easy to use."
+  },
+  {
+    "name": "standard",
+    "url": "http://standardjs.com",
+    "description": "An npm module that checks for Javascript Styleguide issues."
   },
   {
     "name": "tern",
@@ -1005,6 +1055,16 @@
     "description": "Combine PHP_CodeSniffer and PHP-CS-Fixer."
   },
   {
+    "name": "Enlightn",
+    "url": "https://www.laravel-enlightn.com/",
+    "description": "A static and dynamic analysis tool for Laravel applications that provides recommendations to improve the performance, security and code reliability of Laravel apps. Contains 120 automated checks."
+  },
+  {
+    "name": "exakat",
+    "url": "https://www.exakat.io",
+    "description": "An automated code reviewing engine for PHP."
+  },
+  {
     "name": "GrumPHP",
     "url": "https://github.com/phpro/grumphp",
     "description": "Checks code on every commit."
@@ -1018,6 +1078,11 @@
     "name": "Mondrian ⚠️",
     "url": "http://trismegiste.github.io/Mondrian",
     "description": "A set of static analysis and refactoring tools which use graph theory."
+  },
+  {
+    "name": "Nitpick CI ©️",
+    "url": "https://nitpick-ci.com",
+    "description": "Automated PHP code review."
   },
   {
     "name": "parallel-lint",
@@ -1200,6 +1265,11 @@
     "description": "Visualizes metrics and source code."
   },
   {
+    "name": "Symfony Insight ©️",
+    "url": "https://insight.symfony.com/",
+    "description": "Detect security risks, find bugs and provide actionable metrics for PHP projects."
+  },
+  {
     "name": "Tuli",
     "url": "https://github.com/ircmaxell/Tuli",
     "description": "A static analysis engine."
@@ -1245,6 +1315,11 @@
     "description": "Safe code refactoring for modern Python.  Bowler is a refactoring tool for manipulating Python at the syntax tree level.  It enables safe, large scale code modifications while guaranteeing that the  resulting code compiles and runs. It provides both a simple command line interface  and a fluent API in Python for generating complex code modifications in code."
   },
   {
+    "name": "ciocheck ⚠️",
+    "url": "https://github.com/ContinuumIO/ciocheck",
+    "description": "Linter, formatter and test suite helper. As a linter, it is a wrapper around pep8, pydocstyle, flake8, and pylint."
+  },
+  {
     "name": "cohesion ⚠️",
     "url": "https://github.com/mschwager/cohesion",
     "description": "A tool for measuring Python class cohesion."
@@ -1258,6 +1333,11 @@
     "name": "fixit",
     "url": "https://pypi.org/project/fixit",
     "description": "A framework for creating lint rules and corresponding auto-fixes for source code."
+  },
+  {
+    "name": "flake8",
+    "url": "https://github.com/PyCQA/flake8",
+    "description": "A wrapper around pyflakes, pycodestyle and mccabe."
   },
   {
     "name": "InspectorTiger ⚠️",
@@ -1280,9 +1360,19 @@
     "description": "Check McCabe complexity."
   },
   {
+    "name": "multilint ⚠️",
+    "url": "https://github.com/adamchainz/multilint",
+    "description": "A wrapper around flake8, isort and modernize."
+  },
+  {
     "name": "mypy",
     "url": "http://www.mypy-lang.org",
     "description": "A static type checker that aims to combine the benefits of duck typing and static typing, frequently used with MonkeyType."
+  },
+  {
+    "name": "prospector",
+    "url": "https://github.com/PyCQA/prospector",
+    "description": "A wrapper around pylint, pep8, mccabe and others."
   },
   {
     "name": "py-find-injection ⚠️",
@@ -1345,6 +1435,11 @@
     "description": "A static type analyzer for Python code."
   },
   {
+    "name": "QuantifiedCode ⚠️",
+    "url": "https://github.com/quantifiedcode/quantifiedcode",
+    "description": "Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses."
+  },
+  {
     "name": "radon",
     "url": "https://radon.readthedocs.io/en/latest",
     "description": "A Python tool that computes various metrics from the source code."
@@ -1395,6 +1490,11 @@
     "description": "Formatting of R source code files and pretty-printing of R code."
   },
   {
+    "name": "brakeman",
+    "url": "https://brakemanscanner.org",
+    "description": "A static analysis security vulnerability scanner for Ruby on Rails applications."
+  },
+  {
     "name": "bundler-audit",
     "url": "https://github.com/rubysec/bundler-audit",
     "description": "Audit Gemfile.lock for gems with security vulnerabilities reported in Ruby Advisory Database."
@@ -1403,6 +1503,16 @@
     "name": "cane ⚠️",
     "url": "https://github.com/square/cane",
     "description": "Code quality threshold checking as part of your build."
+  },
+  {
+    "name": "dawnscanner",
+    "url": "https://github.com/thesp0nge/dawnscanner",
+    "description": "A static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks."
+  },
+  {
+    "name": "ERB Lint",
+    "url": "https://github.com/Shopify/erb-lint",
+    "description": "Lint your ERB or HTML files"
   },
   {
     "name": "Fasterer",
@@ -1433,6 +1543,11 @@
     "name": "pelusa",
     "url": "https://github.com/codegram/pelusa",
     "description": "Static analysis Lint-type tool to improve your OO Ruby code."
+  },
+  {
+    "name": "quality",
+    "url": "https://github.com/apiology/quality",
+    "description": "Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time."
   },
   {
     "name": "Querly",
@@ -1518,6 +1633,11 @@
     "name": "cargo-audit",
     "url": "https://rustsec.org",
     "description": "Audit Cargo.lock for crates with security vulnerabilities reported to the RustSec Advisory Database."
+  },
+  {
+    "name": "cargo-bloat",
+    "url": "https://github.com/RazrFalcon/cargo-bloat",
+    "description": "Find out what takes most of the space in your executable. supports ELF (Linux, BSD), Mach-O (macOS) and PE (Windows) binaries."
   },
   {
     "name": "cargo-deny",
@@ -1740,6 +1860,11 @@
     "description": "A static syntax analysis module (as part of TDK)."
   },
   {
+    "name": "Angular ESLint",
+    "url": "https://github.com/angular-eslint/angular-eslint#readme",
+    "description": "Linter for Angular projects"
+  },
+  {
     "name": "Codelyzer",
     "url": "http://codelyzer.com",
     "description": "A set of tslint rules for static code analysis of Angular 2 TypeScript projects."
@@ -1800,6 +1925,11 @@
     "description": "Fast and Highly Extensible Vim script Language Lint implemented by Python."
   },
   {
+    "name": "Angular ESLint",
+    "url": "https://github.com/angular-eslint/angular-eslint#readme",
+    "description": "Linter for Angular projects"
+  },
+  {
     "name": "kics",
     "url": "https://kics.io/",
     "description": "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible"
@@ -1833,6 +1963,11 @@
     "name": "bloaty",
     "url": "https://github.com/google/bloaty",
     "description": "Ever wondered what's making your binary big? Bloaty McBloatface will show you a size profile of the binary so you can understand what's taking up space inside. Bloaty performs a deep analysis of the binary. Using custom ELF, DWARF, and Mach-O parsers,  Bloaty aims to accurately attribute every byte of the binary to the symbol or compileunit that produced it.  It will even disassemble the binary looking for references to anonymous data. F"
+  },
+  {
+    "name": "cargo-bloat",
+    "url": "https://github.com/RazrFalcon/cargo-bloat",
+    "description": "Find out what takes most of the space in your executable. supports ELF (Linux, BSD), Mach-O (macOS) and PE (Windows) binaries."
   },
   {
     "name": "cwe_checker",
@@ -2145,9 +2280,44 @@
     "description": "The open and extensible static analysis platform, for everyone."
   },
   {
+    "name": "exakat",
+    "url": "https://www.exakat.io",
+    "description": "An automated code reviewing engine for PHP."
+  },
+  {
+    "name": "Nitpick CI ©️",
+    "url": "https://nitpick-ci.com",
+    "description": "Automated PHP code review."
+  },
+  {
     "name": "PullRequest ©️",
     "url": "https://www.pullrequest.com",
     "description": "Code review as a service with built-in static analysis.  Increase velocity and reduce technical debt through quality code review by expert engineers backed by best-in-class automation."
+  },
+  {
+    "name": "quality",
+    "url": "https://github.com/apiology/quality",
+    "description": "Runs quality checks on your code using community tools, and makes sure your numbers don't get any worse over time."
+  },
+  {
+    "name": "QuantifiedCode ⚠️",
+    "url": "https://github.com/quantifiedcode/quantifiedcode",
+    "description": "Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses."
+  },
+  {
+    "name": "Reviewdog",
+    "url": "https://github.com/haya14busa/reviewdog",
+    "description": "A tool for posting review comments from any linter in any code hosting service."
+  },
+  {
+    "name": "Symfony Insight ©️",
+    "url": "https://insight.symfony.com/",
+    "description": "Detect security risks, find bugs and provide actionable metrics for PHP projects."
+  },
+  {
+    "name": "Violations Lib",
+    "url": "https://github.com/tomasbjerre/violations-lib",
+    "description": "Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins."
   },
   {
     "name": "deno_lint",
@@ -2155,14 +2325,29 @@
     "description": "Official linter for Deno."
   },
   {
+    "name": "ERB Lint",
+    "url": "https://github.com/Shopify/erb-lint",
+    "description": "Lint your ERB or HTML files"
+  },
+  {
     "name": "gherkin-lint",
     "url": "https://github.com/vsiakka/gherkin-lint",
     "description": "A linter for the Gherkin-Syntax written in Javascript."
   },
   {
+    "name": "Angular ESLint",
+    "url": "https://github.com/angular-eslint/angular-eslint#readme",
+    "description": "Linter for Angular projects"
+  },
+  {
     "name": "Bootlint",
     "url": "https://github.com/twbs/bootlint",
     "description": "An HTML linter for Bootstrap projects."
+  },
+  {
+    "name": "ERB Lint",
+    "url": "https://github.com/Shopify/erb-lint",
+    "description": "Lint your ERB or HTML files"
   },
   {
     "name": "grunt-bootlint",
@@ -2200,6 +2385,11 @@
     "description": "Helps you catch problems in your HTML/CSS/SVG"
   },
   {
+    "name": "Polymer-analyzer",
+    "url": "https://github.com/Polymer/tools/tree/master/packages/analyzer",
+    "description": "A static analysis framework for Web Components."
+  },
+  {
     "name": "Spectral",
     "url": "https://stoplight.io/open-source/spectral",
     "description": "A flexible JSON/YAML linter, without of the box support for OpenAPI v2/v3 and AsyncAPI v2."
@@ -2230,6 +2420,11 @@
     "description": "A Language Server Protocol implementation for TeX/LaTeX, including lint capabilities."
   },
   {
+    "name": "Enlightn",
+    "url": "https://www.laravel-enlightn.com/",
+    "description": "A static and dynamic analysis tool for Laravel applications that provides recommendations to improve the performance, security and code reliability of Laravel apps. Contains 120 automated checks."
+  },
+  {
     "name": "checkmake",
     "url": "https://github.com/mrtazz/checkmake",
     "description": "Linter / Analyzer for Makefiles."
@@ -2258,6 +2453,36 @@
     "name": "remark-lint",
     "url": "https://remark.js.org",
     "description": "Pluggable Markdown code style linter written in JavaScript."
+  },
+  {
+    "name": "ciocheck ⚠️",
+    "url": "https://github.com/ContinuumIO/ciocheck",
+    "description": "Linter, formatter and test suite helper. As a linter, it is a wrapper around pep8, pydocstyle, flake8, and pylint."
+  },
+  {
+    "name": "flake8",
+    "url": "https://github.com/PyCQA/flake8",
+    "description": "A wrapper around pyflakes, pycodestyle and mccabe."
+  },
+  {
+    "name": "Go Meta Linter ⚠️",
+    "url": "https://github.com/alecthomas/gometalinter",
+    "description": "Concurrently run Go lint tools and normalise their output. Use golangci-lint for new projects."
+  },
+  {
+    "name": "goreporter",
+    "url": "https://github.com/360EntSecGroup-Skylar/goreporter",
+    "description": "Concurrently runs many linters and normalises their output to a report."
+  },
+  {
+    "name": "multilint ⚠️",
+    "url": "https://github.com/adamchainz/multilint",
+    "description": "A wrapper around flake8, isort and modernize."
+  },
+  {
+    "name": "prospector",
+    "url": "https://github.com/PyCQA/prospector",
+    "description": "A wrapper around pylint, pep8, mccabe and others."
   },
   {
     "name": "Android Lint",
@@ -2310,6 +2535,16 @@
     "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep."
   },
   {
+    "name": "NodeJSScan",
+    "url": "https://opensecurity.in",
+    "description": "A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status."
+  },
+  {
+    "name": "standard",
+    "url": "http://standardjs.com",
+    "description": "An npm module that checks for Javascript Styleguide issues."
+  },
+  {
     "name": "lintian",
     "url": "https://lintian.debian.org",
     "description": "Static analysis tool for Debian packages."
@@ -2330,9 +2565,19 @@
     "description": "Tool to check the validity of Puppet metadata.json files."
   },
   {
+    "name": "dawnscanner",
+    "url": "https://github.com/thesp0nge/dawnscanner",
+    "description": "A static analysis security scanner for ruby written web applications. It supports Sinatra, Padrino and Ruby on Rails frameworks."
+  },
+  {
     "name": "AzSK",
     "url": "https://azsk.azurewebsites.net/",
     "description": "Secure DevOps kit for Azure (AzSK) provides security IntelliSense, Security Verification Tests (SVTs), CICD scan vulnerabilities, compliance issues, and infrastructure misconfiguration in your infrastructure-as-code. Supports Azure via ARM."
+  },
+  {
+    "name": "brakeman",
+    "url": "https://brakemanscanner.org",
+    "description": "A static analysis security vulnerability scanner for Ruby on Rails applications."
   },
   {
     "name": "Datree",
@@ -2340,9 +2585,19 @@
     "description": "A CLI tool to prevent Kubernetes misconfigurations by ensuring that manifests and Helm charts follow best practices as well as your organization’s policies"
   },
   {
+    "name": "Enlightn",
+    "url": "https://www.laravel-enlightn.com/",
+    "description": "A static and dynamic analysis tool for Laravel applications that provides recommendations to improve the performance, security and code reliability of Laravel apps. Contains 120 automated checks."
+  },
+  {
     "name": "Gitleaks",
     "url": "https://github.com/zricethezav/gitleaks",
     "description": "A SAST tool for detecting hardcoded secrets like passwords, api keys, and tokens in git repos."
+  },
+  {
+    "name": "gokart",
+    "url": "https://github.com/praetorian-inc/gokart",
+    "description": "Golang security analysis with a focus on minimizing false positives. It is capable of tracing the source of variables and function arguments  to determine whether input sources are safe."
   },
   {
     "name": "iblessing",
@@ -2365,6 +2620,11 @@
     "description": "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications using simple pattern matcher from libsast and syntax-aware semantic code pattern search tool semgrep."
   },
   {
+    "name": "NodeJSScan",
+    "url": "https://opensecurity.in",
+    "description": "A static security code scanner for Node.js applications powered by libsast and semgrep that builds on the njsscan cli tool. It features a UI with various dashboards about an application's security status."
+  },
+  {
     "name": "Oversecured ©️",
     "url": "https://oversecured.com",
     "description": "A mobile app vulnerability scanner, designed for security researchers and bug bounty hackers. It also allows integrations into the DevOps process for businesses."
@@ -2380,6 +2640,16 @@
     "description": "Container native application protection to provide visibility and control of containerized applications."
   },
   {
+    "name": "QuantifiedCode ⚠️",
+    "url": "https://github.com/quantifiedcode/quantifiedcode",
+    "description": "Automated code review & repair. It helps you to keep track of issues and metrics in your software projects, and can be easily extended to support new types of analyses."
+  },
+  {
+    "name": "Reshift ©️",
+    "url": "https://www.reshiftsecurity.com",
+    "description": "A source code analysis tool for detecting and managing Java security vulnerabilities."
+  },
+  {
     "name": "scorecard",
     "url": "https://github.com/ossf/scorecard",
     "description": "Security Scorecards - Security health metrics for Open Source"
@@ -2388,6 +2658,11 @@
     "name": "SearchDiggity ©️",
     "url": "https://resources.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/",
     "description": "Identifies vulnerabilities in open source code projects  hosted on Github, Google Code, MS CodePlex, SourceForge, and more.  The tool comes with over 130 default searches that identify SQL injection,  cross-site scripting (XSS), insecure remote and local file includes, hard-coded passwords, etc."
+  },
+  {
+    "name": "Symfony Insight ©️",
+    "url": "https://insight.symfony.com/",
+    "description": "Detect security risks, find bugs and provide actionable metrics for PHP projects."
   },
   {
     "name": "tfsec",
@@ -2430,6 +2705,11 @@
     "description": "A Java library that allows existing tools to analyse the evolution of software systems by providing a common API for different version control systems and issue trackers."
   },
   {
+    "name": "Violations Lib",
+    "url": "https://github.com/tomasbjerre/violations-lib",
+    "description": "Java library for parsing report files from static code analysis. Used by a bunch of Jenkins, Maven and Gradle plugins."
+  },
+  {
     "name": "ember-template-lint",
     "url": "https://github.com/ember-template-lint/ember-template-lint",
     "description": "Linter for Ember or Handlebars templates."
@@ -2453,6 +2733,11 @@
     "name": "kics",
     "url": "https://kics.io/",
     "description": "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations in your infrastructure-as-code. Supports Terraform, Kubernetes, Docker, AWS CloudFormation and Ansible"
+  },
+  {
+    "name": "shisho",
+    "url": "https://docs.shisho.dev/",
+    "description": "A lightweight static code analyzer designed for developers and security teams. It allows you to analyze and transform source code with an intuitive DSL similar to sed, but for code."
   },
   {
     "name": "dennis ⚠️",
