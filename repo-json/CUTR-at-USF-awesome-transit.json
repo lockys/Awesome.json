@@ -1060,22 +1060,14 @@
     "description": "A Rust webserver to convert multiple GTFS-RT feeds to a SIRI-Lite API."
   },
   {
-    "name": "gtfs-rt-dump",
-    "url": "https://github.com/kurtraschke/gtfs-rt-dump",
-    "description": "Converts protocol buffer format to plain text for easy viewing of a GTFS-realtime feed in plain text (for debugging purposes)"
+    "name": "bus_kalman",
+    "url": "https://github.com/cmoscardi/bus_kalman",
+    "description": "A Kalman Filter used to interpolate bus travel times using NYC MTA real-time data."
   },
   {
-    "name": "GTFS-realtime Printer",
-    "url": "https://github.com/laidig/gtfs-rt-printer",
-    "description": "Java-based utility to print out information from a GTFS-realtime file or URL."
-  },
-  {
-    "name": "gtfs-rt-inspector – Web app to inspect & analyze any (CORS-enabled) GTFS Realtime feed. Open-source on GitHub.",
-    "url": "https://public-transport.github.io/gtfs-rt-inspector/"
-  },
-  {
-    "name": "print-gtfs-rt-cli – Javascript tool to read a GTFS Realtime feed from stdin, print human-readable or as JSON.",
-    "url": "https://github.com/derhuerst/print-gtfs-rt-cli"
+    "name": "gtfs-realtime-test-service",
+    "url": "https://github.com/CUTR-at-USF/gtfs-realtime-test-service",
+    "description": "A tool for mocking GTFS-realtime feed content (e.g., for use in testing a GTFS-realtime consuming application)."
   },
   {
     "name": "GTFS-realtime Munin Plugin",
@@ -1088,13 +1080,9 @@
     "description": "Provides a Nagios plugin for monitoring a GTFS-realtime feed"
   },
   {
-    "name": "GTFS-realtime-test-service",
-    "url": "https://github.com/CUTR-at-USF/gtfs-realtime-test-service",
-    "description": "A tool for mocking GTFS-realtime feed content (e.g., for use in testing a GTFS-realtime consuming application)."
-  },
-  {
-    "name": "gtfs-rt-differential-to-full-dataset – Javascript tool to transform a continuous GTFS Realtime stream of DIFFERENTIAL incrementality data into a FULL_DATASET dump.",
-    "url": "https://github.com/derhuerst/gtfs-rt-differential-to-full-dataset"
+    "name": "GTFS-realtime Printer",
+    "url": "https://github.com/laidig/gtfs-rt-printer",
+    "description": "Java-based utility to print out information from a GTFS-realtime file or URL."
   },
   {
     "name": "gtfs-rt-admin",
@@ -1102,19 +1090,27 @@
     "description": "An admin tool for managing GTFS-RT service alerts (JavaScript and Java)."
   },
   {
+    "name": "gtfs-rt-differential-to-full-dataset – Javascript tool to transform a continuous GTFS Realtime stream of DIFFERENTIAL incrementality data into a FULL_DATASET dump.",
+    "url": "https://github.com/derhuerst/gtfs-rt-differential-to-full-dataset"
+  },
+  {
+    "name": "gtfs-rt-dump",
+    "url": "https://github.com/kurtraschke/gtfs-rt-dump",
+    "description": "Converts protocol buffer format to plain text for easy viewing of a GTFS-realtime feed in plain text (for debugging purposes)"
+  },
+  {
+    "name": "gtfs-rt-inspector – Web app to inspect & analyze any (CORS-enabled) GTFS Realtime feed. Open-source on GitHub.\nGTFS Data Pipeline for TfNSW Bus Datasets",
+    "url": "https://public-transport.github.io/gtfs-rt-inspector/",
+    "description": "A data pipeline developed for the TfNSW's GTFS Static and Realtime datasets. The datasets generated using the pipeline have been used to validate the performance of TfNSW's Transit Signal Priority Request via Public Transport Information and Priority System (PTIPS)."
+  },
+  {
     "name": "manual-gtfsrt",
     "url": "https://github.com/pailakka/manual-gtfsrt",
     "description": "A Go-based tool that serves a GTFS-RT feed created from editable JSON."
   },
   {
-    "name": "Transit Network Model",
-    "url": "https://github.com/tmelliott/TransitNetworkModel",
-    "description": "A tool to generate predictions using GTFS-realtime VehiclePositions, a particle filter, and a Kalman Filter."
-  },
-  {
-    "name": "bus_kalman",
-    "url": "https://github.com/cmoscardi/bus_kalman",
-    "description": "A Kalman Filter used to interpolate bus travel times using NYC MTA real-time data."
+    "name": "print-gtfs-rt-cli – Javascript tool to read a GTFS Realtime feed from stdin, print human-readable or as JSON.",
+    "url": "https://github.com/derhuerst/print-gtfs-rt-cli"
   },
   {
     "name": "transitcast",
@@ -1122,9 +1118,14 @@
     "description": "Uses GTFS and GTFS-RT vehicle position feed generating an estimated transition time it takes for each vehicle to move from scheduled stop to scheduled stop recording these an \"observed_stop_time\" table. These records can later be used to train a machine learning model to make vehicle travel predictions. Created by TriMet as part of an FTA IMI project."
   },
   {
-    "name": "GTFS Data Pipeline for TfNSW Bus Datasets",
-    "url": "https://github.com/teckkean/GTFS-Data-Pipeline-TfNSW-Bus",
-    "description": "A data pipeline developed for the TfNSW's GTFS Static and Realtime datasets. The datasets generated using the pipeline have been used to validate the performance of TfNSW's Transit Signal Priority Request via Public Transport Information and Priority System (PTIPS)."
+    "name": "transit-feed-quality-calculator",
+    "url": "https://github.com/CUTR-at-USF/transit-feed-quality-calculator",
+    "description": "A Java project that uses the gtfs-realtime-validator to assess the quality of a large number of transit feeds, fetching the feed URLs from a global directory (TransitFeeds.com/OpenMobilityData.org)."
+  },
+  {
+    "name": "Transit Network Model",
+    "url": "https://github.com/tmelliott/TransitNetworkModel",
+    "description": "A tool to generate predictions using GTFS-realtime VehiclePositions, a particle filter, and a Kalman Filter."
   },
   {
     "name": "SIRI API",
