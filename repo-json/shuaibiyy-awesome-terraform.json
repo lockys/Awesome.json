@@ -44,7 +44,7 @@
     "url": "https://discuss.hashicorp.com/c/terraform-core/27"
   },
   {
-    "name": "Terraform Module Registry",
+    "name": "Terraform Provider/Module Registry",
     "url": "https://registry.terraform.io/"
   },
   {
@@ -56,16 +56,32 @@
     "url": "https://github.com/antonbabenko/terragrunt-reference-architecture"
   },
   {
+    "name": "Big Little Book On Terraform",
+    "url": "https://www.amazon.com/Big-Little-Book-Terraform-Omos-ebook/dp/B07PWYPNX8/"
+  },
+  {
     "name": "Bootstrapping Microservices with Docker, Kubernetes, and Terraform.",
     "url": "https://www.manning.com/books/bootstrapping-microservices-with-docker-kubernetes-and-terraform"
+  },
+  {
+    "name": "Deep-Dive Terraform on Azure",
+    "url": "https://link.springer.com/book/10.1007/978-1-4842-7328-9"
   },
   {
     "name": "Getting Started with Terraform, 2nd ed.",
     "url": "https://www.amazon.com/Getting-Started-Terraform-production-infrastructure/dp/1788623533/"
   },
   {
+    "name": "HashiCorp Infrastructure Automation Certification Guide",
+    "url": "https://www.amazon.com/HashiCorp-Infrastructure-Automation-Certification-Guide-ebook/dp/B092KM7LXC/"
+  },
+  {
     "name": "Infrastructure as Code",
     "url": "http://shop.oreilly.com/product/0636920039297.do"
+  },
+  {
+    "name": "Patterns and Practices for Infrastructure as Code: With examples in Python and Terraform",
+    "url": "https://www.manning.com/books/patterns-and-practices-for-infrastructure-as-code"
   },
   {
     "name": "Terraform Best Practices",
@@ -81,7 +97,7 @@
     "url": "https://www.manning.com/books/terraform-in-action"
   },
   {
-    "name": "Terraform: Up & Running",
+    "name": "Terraform: Up & Running, 2nd ed.",
     "url": "http://www.terraformupandrunning.com/?ref=gruntwork-blog-comprehensive-terraform"
   },
   {
@@ -626,362 +642,6 @@
     "name": "clarity",
     "url": "https://github.com/xchapter7x/clarity",
     "description": "A declarative test framework for Terraform for unit testing."
-  },
-  {
-    "name": "AirIAM",
-    "url": "https://github.com/bridgecrewio/AirIAM",
-    "description": "AirIAM is a tool for AWS IAM to least privilege Terraform execution framework."
-  },
-  {
-    "name": "astro",
-    "url": "https://github.com/uber/astro/",
-    "description": "Astro is a tool for managing multiple Terraform executions as a single command. 👻"
-  },
-  {
-    "name": "atlantis",
-    "url": "https://github.com/runatlantis/atlantis",
-    "description": "Unified workflow for collaborating on Terraform through GitHub."
-  },
-  {
-    "name": "blast radius",
-    "url": "https://github.com/28mm/blast-radius",
-    "description": "Interactive visualizations of Terraform dependency graphs. 💀"
-  },
-  {
-    "name": "Checkov",
-    "url": "https://github.com/bridgecrewio/checkov/",
-    "description": "Terraform static analysis tool for terraform>=0.12"
-  },
-  {
-    "name": "Cloudrail",
-    "url": "https://github.com/indeni/cloudrail-demo",
-    "description": "Terraform and Live Cloud context-based analysis tool for terraform>=0.12 💲"
-  },
-  {
-    "name": "flora",
-    "url": "https://github.com/ketchoop/flora",
-    "description": "Terraform version manager."
-  },
-  {
-    "name": "fogg",
-    "url": "https://github.com/chanzuckerberg/fogg",
-    "description": "A tool for eliminating toil in managing terraform repositories."
-  },
-  {
-    "name": "former2",
-    "url": "https://github.com/iann0036/former2",
-    "description": "Generate terraform configuration from your existing resources within your AWS account."
-  },
-  {
-    "name": "gaia",
-    "url": "https://github.com/gaia-app/gaia",
-    "description": "A web application to import and run your Terraform modules."
-  },
-  {
-    "name": "hcledit",
-    "url": "https://github.com/minamijoyo/hcledit",
-    "description": "A command line editor for HCL."
-  },
-  {
-    "name": "iam-policy-json-to-terraform",
-    "url": "https://github.com/flosell/iam-policy-json-to-terraform",
-    "description": "Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document"
-  },
-  {
-    "name": "k2tf",
-    "url": "https://github.com/sl1pm4t/k2tf",
-    "description": "Kubernetes YAML to Terraform HCL converter."
-  },
-  {
-    "name": "KICS",
-    "url": "https://github.com/Checkmarx/kics",
-    "description": "Scans IaC projects for security vulnerabilities, compliance issues, and infrastructure misconfiguration. Currently working with Terraform projects, Kubernetes manifests, Dockerfiles, AWS CloudFormation Templates, and Ansible playbooks."
-  },
-  {
-    "name": "Infracost",
-    "url": "https://github.com/infracost/infracost",
-    "description": "Cloud cost estimates for Terraform in your CLI and pull requests."
-  },
-  {
-    "name": "json2hcl",
-    "url": "https://github.com/kvz/json2hcl",
-    "description": "Convert JSON to HCL and vice versa. 👻"
-  },
-  {
-    "name": "modules.tf",
-    "url": "https://modules.tf/",
-    "description": "Infrastructure as code generator - from visual diagrams created with Cloudcraft.co to Terraform. Source code."
-  },
-  {
-    "name": "para",
-    "url": "https://github.com/paraterraform/para",
-    "description": "The missing 3rd-party plugin manager and a \"swiss army knife\" for Terraform/Terragrunt - just 1 tool to facilitate all workflows. 💀"
-  },
-  {
-    "name": "pre-commit-terraform",
-    "url": "https://github.com/antonbabenko/pre-commit-terraform",
-    "description": "pre-commit git hooks to take care of Terraform configurations (auto-format, validate, update docs)."
-  },
-  {
-    "name": "pretf",
-    "url": "https://github.com/raymondbutcher/pretf",
-    "description": "drop-in Terraform wrapper that generates Terraform configuration with Python. See pretf documentation"
-  },
-  {
-    "name": "python-terrafile",
-    "url": "https://github.com/claranet/python-terrafile",
-    "description": "Systematically manage external modules from Github for use in Terraform."
-  },
-  {
-    "name": "prettyplan",
-    "url": "https://github.com/chrislewisdev/prettyplan",
-    "description": "Prettyplan ([available online here] (https://chrislewisdev.github.io/prettyplan/)) is a small tool to help you view large Terraform plans with ease. 👻"
-  },
-  {
-    "name": "regula",
-    "url": "https://github.com/fugue/regula",
-    "description": "Evaluates Terraform infrastructure-as-code for potential AWS, Azure, and Google Cloud security misconfigurations and compliance violations prior to deployment."
-  },
-  {
-    "name": "rover",
-    "url": "https://github.com/im2nguyen/rover",
-    "description": "Interactive Terraform state and configuration explorer."
-  },
-  {
-    "name": "ruby-terraform",
-    "url": "https://github.com/infrablocks/ruby_terraform",
-    "description": "Simple Ruby wrapper for invoking terraform commands."
-  },
-  {
-    "name": "scenery",
-    "url": "https://github.com/dmlittle/scenery",
-    "description": "Another Terraform plan output prettifier. 👻"
-  },
-  {
-    "name": "scratchrelaxtv",
-    "url": "https://github.com/YakDriver/scratchrelaxtv",
-    "description": "Simple Python tool to help with module development - extract vars from main.tf to generate variables.tf and make module usage stub from variables.tf."
-  },
-  {
-    "name": "serverless.tf",
-    "url": "https://serverless.tf/",
-    "description": "Doing serverless with Terraform - serverless.tf is an opinionated open-source framework for developing, building, deploying, and securing serverless applications and infrastructures on AWS using Terraform. Read more."
-  },
-  {
-    "name": "Shisho",
-    "url": "https://github.com/flatt-security/shisho",
-    "description": "Lightweight static analyzer for Terraform."
-  },
-  {
-    "name": "tads-boilerplate",
-    "url": "https://github.com/Thomvaill/tads-boilerplate",
-    "description": "The power of Ansible and Terraform + the simplicity of Docker Swarm = Infrastructure as Code and DevOps best practices."
-  },
-  {
-    "name": "tau",
-    "url": "https://github.com/avinor/tau",
-    "description": "Tau is a thin wrapper on top of terraform to manage multiple deployments, dependencies and secrets."
-  },
-  {
-    "name": "terraboard",
-    "url": "https://github.com/camptocamp/terraboard",
-    "description": "Web dashboard to inspect Terraform States."
-  },
-  {
-    "name": "terraboot",
-    "url": "https://github.com/MastodonC/terraboot",
-    "description": "DSL to generate a terraform configuration and run it."
-  },
-  {
-    "name": "TerraDepot Terraform state repository, based on the default http remote backend. Allows the central administration of tfstates on AWS S3.",
-    "url": "https://github.com/derBroBro/TerraDepot"
-  },
-  {
-    "name": "terrafile",
-    "url": "https://github.com/coretech/terrafile",
-    "description": "Systematically manage external modules from Github for use in Terraform (written in Go)."
-  },
-  {
-    "name": "terrafile",
-    "url": "https://github.com/dxw/terrafile",
-    "description": "Systematically manage external modules from Github for use in Terraform (written in Ruby)."
-  },
-  {
-    "name": "terraform-bundle",
-    "url": "https://github.com/hashicorp/terraform/tree/master/tools/terraform-bundle",
-    "description": "Easily builds bundles containing a Terraform binary as well as provider binaries. Useful for CI and air-gapped Terraform Enterprise."
-  },
-  {
-    "name": "terraform-cdk",
-    "url": "https://github.com/hashicorp/terraform-cdk",
-    "description": "CDK (Cloud Development Kit) for Terraform allows developers to use familiar programming languages to define cloud infrastructure and provision it through HashiCorp Terraform."
-  },
-  {
-    "name": "terraform-docs",
-    "url": "https://github.com/segmentio/terraform-docs",
-    "description": "Quick utility to generate docs from terraform modules."
-  },
-  {
-    "name": "terraform-graph-beautifier",
-    "url": "https://github.com/pcasteran/terraform-graph-beautifier",
-    "description": "Command line tool allowing to convert the barely usable output of the terraform graph command to something more meaningful and explanatory."
-  },
-  {
-    "name": "terraform-landscape",
-    "url": "https://github.com/coinbase/terraform-landscape",
-    "description": "(only 0.11 and earlier) Improve Terraform's plan output to be easier to read and understand."
-  },
-  {
-    "name": "terraform-operator",
-    "url": "https://github.com/isaaguilar/terraform-operator.git",
-    "description": "A Kubernetes CRD to handle Terraform operations."
-  },
-  {
-    "name": "terraform-plan-parser",
-    "url": "https://github.com/lifeomic/terraform-plan-parser",
-    "description": "Command line utility and JavaScript API for parsing stdout from terraform plan and converting it to JSON. 👻"
-  },
-  {
-    "name": "terraform-provisioner",
-    "url": "https://github.com/shuaibiyy/terraform-provisioner",
-    "description": "Tool for managing multiple provisions of the same Terraform scripts."
-  },
-  {
-    "name": "terraform-rake-tasks",
-    "url": "https://github.com/gina-alaska/terraform-rake-tasks",
-    "description": "Shared Rake tasks for managing terraform plans."
-  },
-  {
-    "name": "terraform.py",
-    "url": "https://github.com/ciscocloud/terraform.py",
-    "description": "Ansible dynamic inventory script for parsing Terraform state files."
-  },
-  {
-    "name": "terraformer",
-    "url": "https://github.com/GoogleCloudPlatform/terraformer",
-    "description": "CLI tool to generate terraform files from existing infrastructure. Infrastructure to Code. Supported many providers."
-  },
-  {
-    "name": "terraforming",
-    "url": "https://github.com/dtan4/terraforming",
-    "description": "Export existing AWS resources to Terraform style (tf, tfstate). Similar to terraformer."
-  },
-  {
-    "name": "terraformize",
-    "url": "https://github.com/naorlivne/terraformize",
-    "description": "Apply\\Destroy Terraform modules via a simple REST API endpoint."
-  },
-  {
-    "name": "Terraform-Visual A simple but powerful tool to visualize Terraform plan.",
-    "url": "https://github.com/hieven/terraform-visual"
-  },
-  {
-    "name": "terragrunt",
-    "url": "https://github.com/gruntwork-io/terragrunt",
-    "description": "Terragrunt is a thin wrapper for Terraform that provides extra tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state."
-  },
-  {
-    "name": "terrahelp",
-    "url": "https://github.com/opencredo/terrahelp",
-    "description": "Command line utility aimed at providing supplementary functionality which can sometimes prove useful when working with Terraform."
-  },
-  {
-    "name": "terrahub",
-    "url": "https://github.com/TerraHubCorp/terrahub",
-    "description": "TerraHub is terraform automation and orchestration tool. Seamlessly integrated into console.terrahub.io, enterprise friendly GUI to show realtime terraform executions, as well as auditing and reporting capabilities for historical terraform runs. 💲"
-  },
-  {
-    "name": "terrascan",
-    "url": "https://github.com/cesar-rodriguez/terrascan",
-    "description": "Collection of security and best practice test for static code analysis of terraform templates"
-  },
-  {
-    "name": "terraspace",
-    "url": "https://terraspace.cloud",
-    "description": "The Terraform Framework"
-  },
-  {
-    "name": "terratag",
-    "url": "https://github.com/env0/terratag",
-    "description": "Terratag is a CLI tool that enables users of Terraform to automatically create and maintain tags across their entire set of AWS, Azure, and GCP resources."
-  },
-  {
-    "name": "tf-init-booster A Pre-terraform routine that speedups terraform modules download for bulky blueprints.",
-    "url": "https://github.com/hayorov/terraform-init-booster"
-  },
-  {
-    "name": "tfcmt",
-    "url": "https://github.com/suzuki-shunsuke/tfcmt",
-    "description": "CLI to notify the result of plan and apply as Pull Request comment."
-  },
-  {
-    "name": "tfsec",
-    "url": "https://github.com/tfsec/tfsec",
-    "description": "Terraform static analysis tool that supports terraform <0.12 & >=0.12 & directly integrates with HCL parser for better results."
-  },
-  {
-    "name": "tfenv",
-    "url": "https://github.com/tfutils/tfenv",
-    "description": "Terraform version manager inspired by rbenv."
-  },
-  {
-    "name": "tfjson",
-    "url": "https://github.com/palantir/tfjson",
-    "description": "Utility to read in a Terraform plan file and dump it out in JSON. 💀"
-  },
-  {
-    "name": "tflint",
-    "url": "https://github.com/wata727/tflint",
-    "description": "Terraform linter for detecting errors that can not be detected by terraform plan"
-  },
-  {
-    "name": "tfmask",
-    "url": "https://github.com/cloudposse/tfmask",
-    "description": "Terraform utility to mask select output from terraform plan and terraform apply"
-  },
-  {
-    "name": "tfmigrate",
-    "url": "https://github.com/minamijoyo/tfmigrate",
-    "description": "A Terraform state migration tool for GitOps."
-  },
-  {
-    "name": "tfmigrator",
-    "url": "https://github.com/tfmigrator/cli",
-    "description": "Go library and CLI to migrate Terraform Configuration and State"
-  },
-  {
-    "name": "tfscaffold",
-    "url": "https://github.com/tfutils/tfscaffold",
-    "description": "Framework for controlling multi-environment multi-component terraform-managed AWS infrastructure."
-  },
-  {
-    "name": "tfschema",
-    "url": "https://github.com/minamijoyo/tfschema",
-    "description": "Schema inspector for Terraform providers."
-  },
-  {
-    "name": "tfupdate",
-    "url": "https://github.com/minamijoyo/tfupdate",
-    "description": "Update version constraints in your Terraform configurations."
-  },
-  {
-    "name": "tfwrapper",
-    "url": "https://github.com/manheim/tfwrapper",
-    "description": "Rubygem providing rake tasks for running Hashicorp Terraform sanely."
-  },
-  {
-    "name": "tgf",
-    "url": "https://github.com/coveo/tgf",
-    "description": "Terragrunt frontend for executing Terragrunt/Terraform through Docker."
-  },
-  {
-    "name": "xterrafile Systematically manage external modules from the module registry, git or local directories for use in Terraform (written in Go).",
-    "url": "https://github.com/devopsmakers/xterrafile"
-  },
-  {
-    "name": "yor",
-    "url": "https://github.com/bridgecrewio/yor",
-    "description": "Automatically tag and trace infrastructure as code frameworks (Terraform, Cloudformation and Serverless) ."
   },
   {
     "name": "pyhcl",
