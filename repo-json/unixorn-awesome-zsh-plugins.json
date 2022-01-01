@@ -1420,6 +1420,11 @@
     "description": "A ZSH plugin to sync git repositories and clean them up."
   },
   {
+    "name": "git-worktree",
+    "url": "https://github.com/alexiszamanidis/zsh-git-worktree",
+    "description": "Wraps some git worktree operations for simplicity and productivity. Includes fzf tooling."
+  },
+  {
     "name": "git",
     "url": "https://github.com/davidde/git",
     "description": "Replacement for the stock oh-my-zsh git plugin. Provides quite a few useful aliases and functions. The motivation to replace the default plugin stems from the fact that it comes with some inconsistencies that make a few popular commands rather unintuitive, so this plugin makes the aliases consistent."
@@ -3633,9 +3638,19 @@
     "description": "Uses notify-send and ring a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed."
   },
   {
-    "name": "zoxide",
+    "name": "zman",
+    "url": "https://github.com/mattmc3/zman",
+    "description": "Use fzf to quickly browse Zsh manuals."
+  },
+  {
+    "name": "zoxide (ajeetdsouza)",
     "url": "https://github.com/ajeetdsouza/zoxide",
     "description": "A fast alternative to cd that learns your habits."
+  },
+  {
+    "name": "zoxide (hermitmaster)",
+    "url": "https://github.com/hermitmaster/zsh-zoxide-plugin",
+    "description": "Automatically loads zoxide ZSH settings."
   },
   {
     "name": "zredis",
@@ -3906,6 +3921,11 @@
     "name": "etcdctl",
     "url": "https://github.com/sheax0r/etcdctl-zsh",
     "description": "Adds etcdctl tab completions."
+  },
+  {
+    "name": "expressvpn",
+    "url": "https://github.com/tk7r/zsh-expressvpn",
+    "description": "Adds tab completions for the expressVPN client."
   },
   {
     "name": "extract (le0me55i)",
@@ -4326,6 +4346,11 @@
     "name": "zargparse",
     "url": "https://github.com/ctil/zargparse",
     "description": "Pass it a script that uses argparse and it will write a ZSH completion to your current directory."
+  },
+  {
+    "name": "zstyle-completions",
+    "url": "https://github.com/zshzoo/zstyle-completions",
+    "description": "Gives prezto-style completions when you hit tab."
   },
   {
     "name": "000",
@@ -5711,6 +5736,11 @@
     "description": "Pretty and short one-line theme that makes you feel at home."
   },
   {
+    "name": "hometown",
+    "url": "https://github.com/olets/hometown-prompt",
+    "description": "A feature rich, high performance git-aware ZSH theme with segments for the user, host, time, the current working directory and its parent, and detailed full Git status within a Git repo."
+  },
+  {
     "name": "honukai-iterm",
     "url": "https://github.com/oskarkrawczyk/honukai-iterm-zsh",
     "description": "Honukai theme and colors for oh-my-zsh and iTerm 2."
@@ -5969,11 +5999,6 @@
     "name": "klassiker",
     "url": "https://github.com/mrdotx/zsh-theme",
     "description": "Very minimal theme with git decorations."
-  },
-  {
-    "name": "klendathu",
-    "url": "https://github.com/kegonomics/klendathu",
-    "description": "Uses Powerline iconsolas."
   },
   {
     "name": "kote",
@@ -6719,6 +6744,11 @@
     "name": "pastel",
     "url": "https://github.com/iboyperson/pastel",
     "description": "A ZSH theme inspired by sugar-free. Includes git decorations."
+  },
+  {
+    "name": "pecodez",
+    "url": "https://github.com/pecodez/pecodez-zsh-theme",
+    "description": "Optimized for dark terminals. Has decorators for snyk version, node version, AWS profile, kubernetes context and git status."
   },
   {
     "name": "pentesters",
@@ -7480,9 +7510,19 @@
     "description": "Written in scala, inspired by Agnoster, tmux powerline, vim powerline and the vim status plugin."
   },
   {
+    "name": "spyrhoo",
+    "url": "https://github.com/FajarKim/spyrhoo-zsh-theme",
+    "description": "Includes time, git and current directory decorations."
+  },
+  {
     "name": "squanchy",
     "url": "https://github.com/gabrielecanepa/zsh-custom/tree/master/themes",
     "description": "Minimalist theme. Includes git, node and rbenv status decorations."
+  },
+  {
+    "name": "ssfprompt",
+    "url": "https://github.com/hugoh/zsh-ssfprompt",
+    "description": "Simple, slim, fast. Includes ssh, virtualenv and vcs decorations."
   },
   {
     "name": "staples",
