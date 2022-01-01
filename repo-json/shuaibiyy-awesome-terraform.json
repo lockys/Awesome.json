@@ -20,6 +20,11 @@
     "url": "https://learn.hashicorp.com/terraform/"
   },
   {
+    "name": "weekly.tf",
+    "url": "https://weekly.tf",
+    "description": "Terraform Weekly Newsletter - Various news in the Terraform world (projects, announcements, discussions)."
+  },
+  {
     "name": "Complete Terraform documentation as PDF files (Updated nightly)",
     "url": "https://github.com/antonbabenko/terraform-docs-as-pdf"
   },
@@ -251,7 +256,12 @@
   {
     "name": "terraform-aws-alb",
     "url": "https://github.com/terraform-aws-modules/terraform-aws-alb",
-    "description": "Created Application load-balancer on AWS (verified module)."
+    "description": "Creates Application load-balancer on AWS (verified module)."
+  },
+  {
+    "name": "terraform-aws-appconfig",
+    "url": "https://github.com/clowdhaus/terraform-aws-appconfig",
+    "description": "Creates AWS AppConfig resources on AWS."
   },
   {
     "name": "terraform-aws-atlantis",
@@ -264,9 +274,39 @@
     "description": "Creates Auto-Scaling Groups and Launch Configurations (verified module)."
   },
   {
+    "name": "terraform-aws-customer-gateway",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-customer-gateway",
+    "description": "Creates Customer Gateway on AWS."
+  },
+  {
+    "name": "terraform-aws-datadog-forwarders",
+    "url": "https://github.com/clowdhaus/terraform-aws-datadog-forwarders",
+    "description": "Creates resources on AWS to forward logs/metrics to Datadog."
+  },
+  {
+    "name": "terraform-aws-dms",
+    "url": "https://github.com/clowdhaus/terraform-aws-dms",
+    "description": "Creates AWS DMS (Database Migration Service) resources on AWS."
+  },
+  {
+    "name": "terraform-aws-dynamodb-table",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-dynamodb-table",
+    "description": "Creates DynamoDB table on AWS."
+  },
+  {
+    "name": "terraform-aws-ec2-instance",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-ec2-instance",
+    "description": "Creates EC2 instances on AWS."
+  },
+  {
     "name": "terraform-aws-ecr",
     "url": "https://github.com/cloudposse/terraform-aws-ecr",
     "description": "Manages Docker container registries on AWS ECR."
+  },
+  {
+    "name": "terraform-aws-ecs",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-ecs",
+    "description": "Creates AWS ECS resources on AWS."
   },
   {
     "name": "terraform-aws-efs",
@@ -281,7 +321,12 @@
   {
     "name": "terraform-aws-elb",
     "url": "https://github.com/terraform-aws-modules/terraform-aws-elb",
-    "description": "Created Elastic load-balancer on AWS (verified module)."
+    "description": "Creates Elastic load-balancer on AWS (verified module)."
+  },
+  {
+    "name": "terraform-aws-eventbridge",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-eventbridge",
+    "description": "Creates EventBridge resources on AWS."
   },
   {
     "name": "terraform-aws-jenkins-ha-agents",
@@ -299,14 +344,34 @@
     "description": "Automatically Generate SSH Key Pairs (Public/Private Keys)."
   },
   {
+    "name": "terraform-aws-lambda",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-lambda",
+    "description": "Terraform module, which builds dependencies and packages, and also creates AWS Lambda resources in countless combinations."
+  },
+  {
     "name": "terraform-aws-lambda-auto-package",
     "url": "https://github.com/nozaq/terraform-aws-lambda-auto-package",
     "description": "A terraform module to define a lambda function which source files are automatically built and packaged for lambda deployment."
   },
   {
+    "name": "terraform-aws-managed-service-prometheus",
+    "url": "https://github.com/clowdhaus/terraform-aws-managed-service-prometheus",
+    "description": "Creates AWS Managed Service for Prometheus (AMP) resources on AWS."
+  },
+  {
     "name": "terraform-aws-modules",
     "url": "https://github.com/terraform-aws-modules",
     "description": "Collection of Terraform AWS modules supported by the community (includes official AWS modules)."
+  },
+  {
+    "name": "terraform-aws-msk-kafka-cluster",
+    "url": "https://github.com/clowdhaus/terraform-aws-msk-kafka-cluster",
+    "description": "Creates AWS MSK (Managed Streaming for Kafka) resources on AWS."
+  },
+  {
+    "name": "terraform-aws-notify-slack",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-notify-slack",
+    "description": "Creates SNS topic and Lambda function which sends notifications to Slack."
   },
   {
     "name": "terraform-aws-postgresql-rds",
@@ -317,6 +382,26 @@
     "name": "terraform-aws-rds",
     "url": "https://github.com/terraform-aws-modules/terraform-aws-rds",
     "description": "Creates RDS resources on AWS (verified module)."
+  },
+  {
+    "name": "terraform-aws-rds-aurora",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-rds-aurora",
+    "description": "Creates RDS Aurora cluster resources on AWS (verified module)."
+  },
+  {
+    "name": "terraform-aws-rds-proxy",
+    "url": "https://github.com/clowdhaus/terraform-aws-rds-proxy",
+    "description": "Creates AWS RDS Proxy resources on AWS."
+  },
+  {
+    "name": "terraform-aws-redshift",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-redshift",
+    "description": "Creates Redshift resources on AWS."
+  },
+  {
+    "name": "terraform-aws-route53",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-route53",
+    "description": "Creates Route53 resources on AWS."
   },
   {
     "name": "terraform-aws-secure-baseline",
@@ -334,14 +419,24 @@
     "description": "Terraform plan to deploy ssh bastion as a stateless service on AWS."
   },
   {
-    "name": "terraform-aws-lambda",
-    "url": "https://github.com/terraform-aws-modules/terraform-aws-lambda",
-    "description": "Terraform module, which builds dependencies and packages, and also creates AWS Lambda resources in countless combinations."
+    "name": "terraform-aws-s3-bucket",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-s3-bucket",
+    "description": "Creates S3 bucket resources on AWS."
+  },
+  {
+    "name": "terraform-aws-transit-gateway",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-transit-gateway",
+    "description": "Creates Transit Gateway resources on AWS."
   },
   {
     "name": "terraform-aws-vpc",
     "url": "https://github.com/terraform-aws-modules/terraform-aws-vpc",
     "description": "Creates VPC resources on AWS (verified and very popular module)."
+  },
+  {
+    "name": "terraform-aws-vpn-gateway",
+    "url": "https://github.com/terraform-aws-modules/terraform-aws-vpn-gateway",
+    "description": "Creates VPN gateway resources on AWS."
   },
   {
     "name": "terraform-azurerm-aks",
@@ -399,24 +494,9 @@
     "description": "Creates static websites on AWS S3 & Cloudfront based on variables."
   },
   {
-    "name": "tf_aws_availability_zones_cfn",
-    "url": "https://github.com/terraform-community-modules/tf_aws_availability_zones_cfn",
-    "description": "Gets availability zones for your AWS region/account from Cloudformation."
-  },
-  {
     "name": "tf_aws_bastion_s3_keys",
     "url": "https://github.com/terraform-community-modules/tf_aws_bastion_s3_keys",
     "description": "Creates bastion hosts on AWS EC2."
-  },
-  {
-    "name": "tf_aws_coreos_ami",
-    "url": "https://github.com/terraform-community-modules/tf_aws_coreos_ami",
-    "description": "Easy way to lookup CoreOS AMIs with terraform."
-  },
-  {
-    "name": "tf_aws_nat",
-    "url": "https://github.com/terraform-community-modules/tf_aws_nat",
-    "description": "NAT instances for AWS."
   },
   {
     "name": "anthology",
@@ -427,6 +507,11 @@
     "name": "citizen",
     "url": "https://github.com/outsideris/citizen",
     "description": "Private Terraform Module Registry"
+  },
+  {
+    "name": "modulehub",
+    "url": "https://www.modulehub.io",
+    "description": "Private Terraform Module Registry and State backend."
   },
   {
     "name": "terraform-simple-registry",
@@ -694,9 +779,9 @@
     "description": "Alternative to Terraform Cloud/Enterprise with OPA integration, custom flows and Terragrunt support 💲"
   },
   {
-    "name": "modulehub",
-    "url": "https://www.modulehub.io",
-    "description": "Private Terraform Module Registry and State backend."
+    "name": "Your Weekly Dose of Terraform",
+    "url": "https://bit.ly/terraform-youtube",
+    "description": "YouTube channel with weekly live streams covering Terraform news, reviews, interviews, Q&A, live coding, and some hacking with Terraform."
   },
   {
     "name": "Terraform explained in 15 mins",
@@ -785,7 +870,7 @@
   {
     "name": "Test and verify a Google Compute Instance with Kitchen-Terraform",
     "url": "https://www.youtube.com/watch?v=kiH3-LEveek",
-    "description": "Example of using Kitchen-Terraform to test our Terraform code that created a Google Compute."
+    "description": "Example of using Kitchen-Terraform to test our Terraform code that creates a Google Compute."
   },
   {
     "name": "Untangling Terraform Through Refactoring",
