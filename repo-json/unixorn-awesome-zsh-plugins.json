@@ -222,19 +222,24 @@
     "description": "Make it easier to call actiona scripts from your command line. Includes tab completions."
   },
   {
+    "name": "alacritty",
+    "url": "https://github.com/casonadams/alacritty-shell",
+    "description": "Control alacritty color schemes."
+  },
+  {
     "name": "alehouse",
     "url": "https://github.com/sticklerm3/alehouse",
     "description": "Contains short aliases for brew commands, inspired by betterbrew."
   },
   {
-    "name": "alias",
-    "url": "https://github.com/xylous/alias-zsh",
-    "description": "Tool for managing your aliases."
-  },
-  {
     "name": "alias-tips",
     "url": "https://github.com/djui/alias-tips",
     "description": "An oh-my-zsh plugin to help remembering those aliases you defined once."
+  },
+  {
+    "name": "alias",
+    "url": "https://github.com/xylous/alias-zsh",
+    "description": "Tool for managing your aliases."
   },
   {
     "name": "allergen",
@@ -1450,7 +1455,12 @@
     "description": "Updated fork of oh-my-zsh gitfast plugin."
   },
   {
-    "name": "gitgo",
+    "name": "gitgo (grimmbraten)",
+    "url": "https://github.com/grimmbraten/gitgo",
+    "description": "Make it easier to switch between git branches."
+  },
+  {
+    "name": "gitgo (ltj)",
     "url": "https://github.com/ltj/gitgo",
     "description": "Open a Github/Gitlab repository in your browser from the command line (macOS only)."
   },
@@ -2650,14 +2660,14 @@
     "description": "A faster fork of the rbenv plugin from oh-my-zsh."
   },
   {
-    "name": "rbenv (meroje)",
-    "url": "https://github.com/Meroje/zsh-rbenv",
-    "description": "Inspired by https://github.com/lukechilds/zsh-nvm/, makes it easier to work with ruby rbenvs."
-  },
-  {
     "name": "rbenv (jsahlen)",
     "url": "https://github.com/jsahlen/rbenv.plugin.zsh",
     "description": "Variant based on the original oh-my-zsh rbenv plugin."
+  },
+  {
+    "name": "rbenv (meroje)",
+    "url": "https://github.com/Meroje/zsh-rbenv",
+    "description": "Inspired by https://github.com/lukechilds/zsh-nvm/, makes it easier to work with ruby rbenvs."
   },
   {
     "name": "rc-files",
@@ -2810,13 +2820,13 @@
     "description": "Runs a script when you change directories."
   },
   {
+    "name": "shelf -Utility which can be used to bookmark and access directly any file using mnemonics.",
+    "url": "https://github.com/ecmma/shelf"
+  },
+  {
     "name": "shellfirm",
     "url": "https://github.com/kaplanelad/shellfirm",
     "description": "Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will double verify your action."
-  },
-  {
-    "name": "shelf -Utility which can be used to bookmark and access directly any file using mnemonics.",
-    "url": "https://github.com/ecmma/shelf"
   },
   {
     "name": "show-path",
@@ -3174,14 +3184,14 @@
     "description": "Lets you undo your last git operation."
   },
   {
-    "name": "undollar",
-    "url": "https://github.com/zpm-zsh/undollar",
-    "description": "Strips the dollar sign from the beginning of the terminal prompt."
-  },
-  {
     "name": "uncloudium",
     "url": "https://github.com/Talon1024/omz-uncloudium",
     "description": "Adds helper script to download crx files from the Google Chrome web store."
+  },
+  {
+    "name": "undollar",
+    "url": "https://github.com/zpm-zsh/undollar",
+    "description": "Strips the dollar sign from the beginning of the terminal prompt."
   },
   {
     "name": "unique-id",
@@ -3663,14 +3673,9 @@
     "description": "Use fzf to quickly browse Zsh manuals."
   },
   {
-    "name": "zoxide (ajeetdsouza)",
+    "name": "zoxide",
     "url": "https://github.com/ajeetdsouza/zoxide",
     "description": "A fast alternative to cd that learns your habits."
-  },
-  {
-    "name": "zoxide (hermitmaster)",
-    "url": "https://github.com/hermitmaster/zsh-zoxide-plugin",
-    "description": "Automatically loads zoxide ZSH settings."
   },
   {
     "name": "zredis",
@@ -4648,6 +4653,11 @@
     "description": "Shows current directory, git state, return value of last command if it had an error code, number of background jobs, execution time of long-running commands, current python virtualenv."
   },
   {
+    "name": "aub",
+    "url": "https://github.com/FraSharp/aub",
+    "description": "Includes decorations for git and hg status and username at host."
+  },
+  {
     "name": "aterminal",
     "url": "https://github.com/guiferpa/aterminal",
     "description": "Displays Nodejs, NPM, Docker, Go, Python, Elixir and Ruby information in the prompt."
@@ -4965,7 +4975,7 @@
   {
     "name": "chill",
     "url": "https://github.com/JKerboeuf/chill.zsh-theme",
-    "description": "Has current working directory, last command exit status and git status decorations."
+    "description": "Has decorations for the current working directory, last command exit status and git status."
   },
   {
     "name": "chinipage",
@@ -5159,7 +5169,7 @@
   {
     "name": "darksoku",
     "url": "https://github.com/TooSchoolForCool/darksoku-zsh-theme",
-    "description": "Darksoku theme is based on the ys and astro themes."
+    "description": "Based on the ys and astro themes."
   },
   {
     "name": "dbern",
@@ -5569,6 +5579,11 @@
     "name": "git-prompt (woefe)",
     "url": "https://github.com/woefe/git-prompt.zsh",
     "description": "A fast, customizable, pure-shell, asynchronous Git prompt for ZSH heavily inspired by Olivier Verdier's zsh-git-prompt and very similar to the \"Informative VCS\" prompt of fish shell."
+  },
+  {
+    "name": "git-prompt-kit",
+    "url": "https://github.com/olets/git-prompt-kit",
+    "description": "A configurable set of components for creating feature rich, high performance Git-aware zsh prompts (aka themes) with minimal coding."
   },
   {
     "name": "git-simple",
@@ -6056,6 +6071,11 @@
     "description": "Very minimal theme with git decorations."
   },
   {
+    "name": "korittg",
+    "url": "https://github.com/dkorittki/korittg-zsh-theme",
+    "description": "Minimalistic but informative. Includes decorations for git status, current directory and the kubectl context and namespace."
+  },
+  {
     "name": "kote",
     "url": "https://github.com/wendygaoyuan/kote-zsh-theme",
     "description": "Best for dark backgrounds. Includes git status decorations."
@@ -6231,6 +6251,11 @@
     "description": "Inspired by Yaris Alex Gutierrez's classyTouch, Yad Smood's ys, and the Bureau theme."
   },
   {
+    "name": "linuxero",
+    "url": "https://github.com/andreshincapier/linuxero",
+    "description": "Minimalist. Includes decorations for root status, current directory, git status, current ruby rvm environment and current python virtualenv."
+  },
+  {
     "name": "liquidprompt",
     "url": "https://github.com/nojhan/liquidprompt",
     "description": "A full-featured & carefully designed adaptive prompt with useful information when you need it. It shows you what you need when you need it. You will notice what changes when it changes, saving time and frustration."
@@ -6287,8 +6312,8 @@
   },
   {
     "name": "lunachar",
-    "url": "https://github.com/r-mohammadi1/lunachar",
-    "description": "Minimalist theme, includes git status decorations."
+    "url": "https://github.com/r-mohammadi1/armans-zsh-themes/blob/main/lunachar.zsh-theme",
+    "description": "Minimalist theme."
   },
   {
     "name": "macos",
@@ -6544,6 +6569,11 @@
     "name": "myzsh",
     "url": "https://github.com/MaxUlysse/myzsh",
     "description": "Maxime Garcia's myzsh theme."
+  },
+  {
+    "name": "mzt",
+    "url": "https://github.com/honbey/mzt",
+    "description": "Sets up LS_COLORS, colorizes diff and includes git status and current working directory decorations."
   },
   {
     "name": "nanofish",
@@ -7024,6 +7054,11 @@
     "name": "prompt_j2",
     "url": "https://github.com/malinoskj2/prompt_j2",
     "description": "Has a dynamic exit status indicator, can change to two lines dynamically to display context."
+  },
+  {
+    "name": "promptus",
+    "url": "https://github.com/willeccles/promptus",
+    "description": "Simple, minimalist and configurable shell prompt program in C which can be used to make your prompt the same on any shell. Includes exit code and working directory decorations."
   },
   {
     "name": "pronto",
@@ -7616,7 +7651,7 @@
   },
   {
     "name": "stellachar",
-    "url": "https://github.com/r-mohammadi1/stellachar",
+    "url": "https://github.com/r-mohammadi1/armans-zsh-themes/blob/main/stellachar.zsh-theme",
     "description": "Minimal, pastels."
   },
   {
@@ -7970,6 +8005,11 @@
     "description": "Minimalist prompt with git status decorations."
   },
   {
+    "name": "yindev",
+    "url": "https://github.com/menyinch/yindev-zsh-theme",
+    "description": "Variant of gndx. Includes decorations for git status and current directory."
+  },
+  {
     "name": "ykmam",
     "url": "https://github.com/julienvanderkluft/ykmam-zsh-theme/blob/master/ykmam.zsh-theme",
     "description": "Modified from ys theme and optimized for a dark background."
@@ -8067,6 +8107,11 @@
     "name": "zlambda",
     "url": "https://github.com/wdhg/zlambda",
     "description": "Minimalist, includes git decorations without special font requirements."
+  },
+  {
+    "name": "zodiac",
+    "url": "https://github.com/adamalsen/zsh-zodiac",
+    "description": "Includes an emoji for the animal corresponding to the current year."
   },
   {
     "name": "zprompts",

@@ -1,0 +1,760 @@
+[
+  {
+    "name": "Running locally",
+    "url": "https://nodered.org/docs/getting-started/local"
+  },
+  {
+    "name": "Running under Docker",
+    "url": "https://github.com/node-red/node-red-docker"
+  },
+  {
+    "name": "c't-Smart-Home",
+    "url": "https://github.com/ct-Open-Source/ct-Smart-Home",
+    "description": "A ready-to-use setup for home automation maintained by german computer magazine c't."
+  },
+  {
+    "name": "Home Assistant Community Add-on",
+    "url": "https://community.home-assistant.io/t/home-assistant-community-add-on-node-red/55023",
+    "description": "Starts an instance within Home Assistant and communicates with it."
+  },
+  {
+    "name": "ioBroker node-red Adapter",
+    "url": "https://github.com/ioBroker/ioBroker.node-red",
+    "description": "Starts an instance within ioBroker and communicates with it."
+  },
+  {
+    "name": "openHAB running on openHABian",
+    "url": "https://www.openhab.org/docs/installation/openhabian.html#optional-components",
+    "description": "Install Node-RED using openhab-config from command line, choose it from \"Optional Components\"."
+  },
+  {
+    "name": "RedMatic",
+    "url": "https://github.com/rdmtc/RedMatic/wiki/Installation",
+    "description": "Install Node-RED on a CCU3, smart home automation hardware from the manufacturer eQ-3, popular especially in Germany."
+  },
+  {
+    "name": "Getting Started",
+    "url": "https://nodered.org/docs/getting-started/"
+  },
+  {
+    "name": "FAQ",
+    "url": "https://nodered.org/docs/faq/"
+  },
+  {
+    "name": "Tutorials",
+    "url": "https://nodered.org/docs/tutorials/"
+  },
+  {
+    "name": "User Guide",
+    "url": "https://nodered.org/docs/user-guide/"
+  },
+  {
+    "name": "badwords",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/analysis/swearfilter",
+    "description": "Analyses the payload and tries to filter out any messages containing bad swear words. This only operates on payloads of type string. Everything else is blocked."
+  },
+  {
+    "name": "wordpos",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/analysis/wordpos",
+    "description": "Analyses the payload and classifies the part-of-speech of each word. The resulting message has msg.pos added with the results. A word may appear in multiple categories (eg, 'great' is both a noun and an adjective)."
+  },
+  {
+    "name": "influxdb",
+    "url": "https://github.com/mblackstock/node-red-contrib-influxdb",
+    "description": "Save and query data from an InfluxDB time series database."
+  },
+  {
+    "name": "mssql-plus",
+    "url": "https://github.com/bestlong/node-red-contrib-mssql-plus",
+    "description": "Execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2019."
+  },
+  {
+    "name": "stackhero-influxdb-v2",
+    "url": "https://github.com/stackhero-io/node-red-contrib-stackhero-influxdb-v2",
+    "description": "Save and query data from an InfluxDB v2 time series database."
+  },
+  {
+    "name": "stackhero-mysql",
+    "url": "https://github.com/stackhero-io/node-red-contrib-stackhero-mysql",
+    "description": "Connect to a MySQL or a MariaDB database, using TLS (SSL) and compatible with \"Caching SHA2 password\" authentication method (MySQL >= 8)."
+  },
+  {
+    "name": "leveldb",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/storage/leveldb",
+    "description": "Uses LevelDB for a simple key value pair database."
+  },
+  {
+    "name": "mysql",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/storage/mysql",
+    "description": "Allows basic access to a MySQL database."
+  },
+  {
+    "name": "sqlite",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/storage/sqlite",
+    "description": "Supports read and write to a local sqlite database."
+  },
+  {
+    "name": "typescript-starter",
+    "url": "https://github.com/alexk111/node-red-node-typescript-starter",
+    "description": "Quick-start template repository for creating new node sets in TypeScript."
+  },
+  {
+    "name": "datagenerater",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/function/datagenerator",
+    "description": "Generate dummy data in various formats, names, addresses, emails, numbers, words, etc."
+  },
+  {
+    "name": "pidcontrol",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/function/PID",
+    "description": "A PID control node for numeric inputs - provides simple controll loop feedback capability."
+  },
+  {
+    "name": "random",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/function/random",
+    "description": "Random number generator - can generate integers for x to y - or floats between x and y."
+  },
+  {
+    "name": "rbe",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/function/rbe",
+    "description": "Provide report by exception and deadband / bandgap capability for simple inputs."
+  },
+  {
+    "name": "smooth",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/function/smooth",
+    "description": "Provide various functions across several previous values, including max, min, mean, high and low pass filters."
+  },
+  {
+    "name": "arduino",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/Arduino",
+    "description": "Uses firmata protocol to talk to the board."
+  },
+  {
+    "name": "beaglebone",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/BBB",
+    "description": "Nodes for the Beaglebone Black."
+  },
+  {
+    "name": "blink1",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/blink1",
+    "description": "Blink1 USB LED from ThingM."
+  },
+  {
+    "name": "blinkstick",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/blinkstick",
+    "description": "BlinkStick USB LED device."
+  },
+  {
+    "name": "digirgb",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/digiRGB",
+    "description": "DigiSpark RGB USB LED."
+  },
+  {
+    "name": "heatmiser",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/heatmiser",
+    "description": "Temperature and frost protection for Heatmiser thermostats."
+  },
+  {
+    "name": "intel-galileo",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/intel",
+    "description": "A collection for the Intel Galileo and Edison."
+  },
+  {
+    "name": "ledborg",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/LEDborg",
+    "description": "LEDborg plug on module."
+  },
+  {
+    "name": "makeymakey",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/makey",
+    "description": "Read from a MakeyMakey input device."
+  },
+  {
+    "name": "pi-gpiod",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/pigpiod",
+    "description": "An alternative to the default PI GPIO nodes that allows remote access."
+  },
+  {
+    "name": "pi-mcp3008",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/mcp3008",
+    "description": "Read from MCP300x series Analogue to Digital Converter chips via the SPI bus."
+  },
+  {
+    "name": "pi-neopixel",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/neopixel",
+    "description": "Drive a strip of NeoPixels directly."
+  },
+  {
+    "name": "pi-unicorn-hat",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/unicorn",
+    "description": "Controls a Pimorini Unicorn HAT 8x8 LED display."
+  },
+  {
+    "name": "pibrella",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/Pibrella",
+    "description": "Controls a Pibrella add-on board."
+  },
+  {
+    "name": "piface",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/PiFace",
+    "description": "PiFace interface module."
+  },
+  {
+    "name": "piliter",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/PiLiter",
+    "description": "Controls a Pimorini Pi-LITEr 8 LED add-on board."
+  },
+  {
+    "name": "sensortag",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/sensorTag",
+    "description": "Reads data from the Ti Bluetooth Low Energy SensorTag device."
+  },
+  {
+    "name": "wemo",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/wemo",
+    "description": "Drive a WeMo socket and switch."
+  },
+  {
+    "name": "scanBLE",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/hardware/scanBLE",
+    "description": "Scans for a particular Bluetooth Low Energy device."
+  },
+  {
+    "name": "discovery",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/io/mdns",
+    "description": "Discovers other Avahi/Bonjour services on the network."
+  },
+  {
+    "name": "emoncms",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/io/emoncms",
+    "description": "Post to an Emoncms server."
+  },
+  {
+    "name": "noble-bluetooth",
+    "url": "https://github.com/clausbroch/node-red-contrib-noble-bluetooth",
+    "description": "Based on noble for interaction with Bluetooth Low Energy devices."
+  },
+  {
+    "name": "mindconnect",
+    "url": "https://github.com/mindsphere/node-red-contrib-mindconnect",
+    "description": "Upload timeseries, files and events to MindSphere."
+  },
+  {
+    "name": "modbus",
+    "url": "https://github.com/biancoroyal/node-red-contrib-modbus",
+    "description": "All in one Modbus TCP and Serial package."
+  },
+  {
+    "name": "mqlight",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/io/mqlight",
+    "description": "Adds nodes to send and receive using MQlight."
+  },
+  {
+    "name": "ping",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/io/ping",
+    "description": "Pings a machine and returns the trip time in mS."
+  },
+  {
+    "name": "s7",
+    "url": "https://github.com/st-one-io/node-red-contrib-s7",
+    "description": "Interact with Siemens S7 PLCs."
+  },
+  {
+    "name": "serialport",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/io/serialport",
+    "description": "Send messages to and receive messages from a physical serial port."
+  },
+  {
+    "name": "snmp",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/io/snmp",
+    "description": "SNMP receivers for single OIDs or OID tables."
+  },
+  {
+    "name": "stomp",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/io/stomp",
+    "description": "Publish and subscribe to and from a STOMP server."
+  },
+  {
+    "name": "wol",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/io/wol",
+    "description": "Sends a Wake-On-LAN magic packet to the mac address specified."
+  },
+  {
+    "name": "xiaomi-ble",
+    "url": "https://github.com/eschava/node-red-contrib-xiaomi-ble",
+    "description": "Single \"Xiaomi BLE\" node that gets all known data from Xiaomi BLE (Bluetooth 4)."
+  },
+  {
+    "name": "base64",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/parsers/base64",
+    "description": "Converts a payload to/from base64 encoded format."
+  },
+  {
+    "name": "geohash",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/parsers/geohash",
+    "description": "Converts a lat, lon payload to/from geohash format."
+  },
+  {
+    "name": "msgpack",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/parsers/msgpack",
+    "description": "Converts a payload to/from msgpack binary packed format."
+  },
+  {
+    "name": "what3words",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/parsers/what3words",
+    "description": "Encodes or Decodes a lat, lon position into what3words text format."
+  },
+  {
+    "name": "alexa-home",
+    "url": "https://github.com/mabunixda/node-red-contrib-alexa-home",
+    "description": "Connect with Alexa just wihtin the local network - no extra cloud stuff is required."
+  },
+  {
+    "name": "alexa-home-skill-v3",
+    "url": "https://github.com/coldfire84/node-red-contrib-alexa-home-skill-v3",
+    "description": "Controls things via Alexa and Google Home."
+  },
+  {
+    "name": "alexa-home-skill-v3-web",
+    "url": "https://github.com/coldfire84/node-red-alexa-home-skill-v3-web",
+    "description": "Web Service for Alexa and Google Home."
+  },
+  {
+    "name": "alexa-home-skill-v3-lambda",
+    "url": "https://github.com/coldfire84/node-red-alexa-home-skill-v3-lambda",
+    "description": "Lambda function for node-red-alexa-home-skill-v3-web."
+  },
+  {
+    "name": "alexa-remote-cakebaked",
+    "url": "https://github.com/cakebake/node-red-contrib-alexa-remote-cakebaked",
+    "description": "Interacting with the Alexa API. Emulates routine behaviour, control and query your devices."
+  },
+  {
+    "name": "avr-yamaha",
+    "url": "https://github.com/krauskopf/node-red-contrib-avr-yamaha",
+    "description": "Integrate and control YAMAHA™ audio/video receiver via YNCA protocol."
+  },
+  {
+    "name": "ccu",
+    "url": "https://github.com/rdmtc/node-red-contrib-ccu",
+    "description": "Connect with Homematic, a series of smart home automation hardware from the manufacturer eQ-3, popular especially in Germany."
+  },
+  {
+    "name": "deconz",
+    "url": "https://github.com/deconz-community/node-red-contrib-deconz",
+    "description": "Access Zigbee 3.0 (Z30), Zigbee Home Automation (ZHA) and Zigbee Light Link (ZLL) lights via deCONZ."
+  },
+  {
+    "name": "fritz",
+    "url": "https://github.com/bashgroup/node-red-contrib-fritz",
+    "description": "Provides easy access to your AVM Fritz!Box. Read and write the configuration including the VoIP and Dect configuration."
+  },
+  {
+    "name": "fritzapi",
+    "url": "https://github.com/dnknth/node-red-contrib-fritzapi",
+    "description": "Controls smart home DECT devices and guest wifi through an AVM Fritz!Box."
+  },
+  {
+    "name": "harmony",
+    "url": "https://github.com/Aietes/node-red-contrib-harmony",
+    "description": "Controls devices connected to a Logitech™ Harmony Hub."
+  },
+  {
+    "name": "home-assistant",
+    "url": "https://github.com/AYapejian/node-red-contrib-home-assistant",
+    "description": "Connect with Home Assistant."
+  },
+  {
+    "name": "home-assistant-websocket",
+    "url": "https://github.com/zachowj/node-red-contrib-home-assistant-websocket",
+    "description": "Various nodes using websockets to assist in setting up communication with Home Assistant."
+  },
+  {
+    "name": "homebridge-automation",
+    "url": "https://github.com/NorthernMan54/node-red-contrib-homebridge-automation",
+    "description": "Integrate Homebridge Accessories into flows."
+  },
+  {
+    "name": "homee",
+    "url": "https://github.com/stfnhmplr/node-red-contrib-homee",
+    "description": "Access the homee api and create virtual devices for homee."
+  },
+  {
+    "name": "homekit-bridged",
+    "url": "https://github.com/NRCHKB/node-red-contrib-homekit-bridged",
+    "description": "Imitate HomeKit devices."
+  },
+  {
+    "name": "huemagic",
+    "url": "https://github.com/Foddy/node-red-contrib-huemagic",
+    "description": "Controls Philips Hue bridges, lights, groups, scenes, rules, taps, switches, buttons, motion sensors, temperature sensors and Lux sensors."
+  },
+  {
+    "name": "lgtv",
+    "url": "https://github.com/hobbyquaker/node-red-contrib-lgtv",
+    "description": "Controls LG webOS Smart TVs."
+  },
+  {
+    "name": "loxone",
+    "url": "https://github.com/codmpm/node-red-contrib-loxone",
+    "description": "Connect to the Loxone Miniserver."
+  },
+  {
+    "name": "knx-ultimate",
+    "url": "https://github.com/Supergiovane/node-red-contrib-knx-ultimate",
+    "description": "Controls KNX intallation. With optional ETS group address importer and gateway simulation."
+  },
+  {
+    "name": "openhab3",
+    "url": "https://github.com/jeroenhendricksen/node-red-contrib-openhab3",
+    "description": "Integration of openHAB item states and commands."
+  },
+  {
+    "name": "smartnora",
+    "url": "https://github.com/andrei-tatar/node-red-contrib-smartnora",
+    "description": "Google smart home Action integration via Smart NORA."
+  },
+  {
+    "name": "sonos-plus",
+    "url": "https://github.com/hklages/node-red-contrib-sonos-plus",
+    "description": "Controls Sonos player in your local network."
+  },
+  {
+    "name": "tado-client",
+    "url": "https://github.com/mattdavis90/node-red-contrib-tado-client",
+    "description": "Connect to the Tado Web API."
+  },
+  {
+    "name": "tahoma",
+    "url": "https://github.com/nikkow/node-red-contrib-tahoma",
+    "description": "Controls a Somfy Tahoma box (Roller shutters, etc.)."
+  },
+  {
+    "name": "tasmota",
+    "url": "https://github.com/DaveMDS/node-red-contrib-tasmota",
+    "description": "Tasmota devices integration for building automation."
+  },
+  {
+    "name": "tuya-smart",
+    "url": "https://github.com/hgross/node-red-contrib-tuya-smart",
+    "description": "Interface with smart plugs, bulbs, etc. from tuya."
+  },
+  {
+    "name": "zigbee",
+    "url": "https://github.com/hobbyquaker/node-red-contrib-zigbee",
+    "description": "Controls Zigbee Devices via a CC253x Module."
+  },
+  {
+    "name": "zigbee2mqtt",
+    "url": "https://github.com/andreypopov/node-red-contrib-zigbee2mqtt",
+    "description": "Zigbee2mqtt connectivity."
+  },
+  {
+    "name": "zwave-js",
+    "url": "https://github.com/zwave-js/node-red-contrib-zwave-js",
+    "description": "Integrates Z-Wave node based on Z-Wave JS."
+  },
+  {
+    "name": "chatbot",
+    "url": "https://github.com/guidone/node-red-contrib-chatbot",
+    "description": "Full featured chat bot for Telegram, Facebook Messenger, Viber, Twilio and Slack."
+  },
+  {
+    "name": "discord-advanced",
+    "url": "https://github.com/Markoudstaal/node-red-contrib-discord-advanced",
+    "description": "Interact with Discord, via Discord.js."
+  },
+  {
+    "name": "dweetio",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/dweetio",
+    "description": "Uses dweetio to send/receive messages."
+  },
+  {
+    "name": "email",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/email",
+    "description": "Sends and receives simple emails from services like gmail or smtp or imap servers."
+  },
+  {
+    "name": "feedparser",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/feedparser",
+    "description": "Reads messages from an atom or rss feed."
+  },
+  {
+    "name": "irc",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/irc",
+    "description": "Connect to an IRC server to send and receive messages."
+  },
+  {
+    "name": "notify",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/notify",
+    "description": "Uses Growl to provide a desktop popup. Only useful on the local Apple machine."
+  },
+  {
+    "name": "prowl",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/prowl",
+    "description": "Uses Prowl to push to an Apple device that has the Prowl app installed."
+  },
+  {
+    "name": "pushbullet",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/pushbullet",
+    "description": "Uses PushBullet to push an Android device that has the app installed."
+  },
+  {
+    "name": "pusher",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/pusher",
+    "description": "Publish-Subscribe to a Pusher channel/event."
+  },
+  {
+    "name": "pushover",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/pushover",
+    "description": "Sends alerts via Pushover."
+  },
+  {
+    "name": "PushStaq",
+    "url": "https://github.com/pantchox/node-red-contrib-pushstaq",
+    "description": "Send real time alerts using Push Notifications from your Node-Red flows to any device with PushStaq."
+  },
+  {
+    "name": "slack",
+    "url": "https://github.com/yayadrian/node-red-slack",
+    "description": "Interact with the Slack API."
+  },
+  {
+    "name": "sms77",
+    "url": "https://github.com/sms77io/nodered-contrib-sms77",
+    "description": "Uses sms77 service for SMS, text-to-speech calls and number lookups."
+  },
+  {
+    "name": "telegrambot",
+    "url": "https://github.com/windkh/node-red-contrib-telegrambot",
+    "description": "Contains a receiver and a sender node which act as a Telegram Bot."
+  },
+  {
+    "name": "twilio",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/twilio",
+    "description": "Uses Twilio service to send/receive text messages."
+  },
+  {
+    "name": "whatsappbot",
+    "url": "https://github.com/robertsLando/node-red-contrib-whatsappbot",
+    "description": "WhatsApp Bot."
+  },
+  {
+    "name": "xmpp",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/social/xmpp",
+    "description": "Connect to an XMPP server to send and receive messages."
+  },
+  {
+    "name": "aedes",
+    "url": "https://github.com/martin-doyle/node-red-contrib-aedes",
+    "description": "MQTT Broker based on Aedes."
+  },
+  {
+    "name": "dockerode",
+    "url": "https://github.com/naimo84/node-red-contrib-dockerode",
+    "description": "Connect to Docker daemon."
+  },
+  {
+    "name": "os",
+    "url": "https://github.com/Argonne-National-Laboratory/node-red-contrib-os",
+    "description": "Obtain system information."
+  },
+  {
+    "name": "blindcontroller",
+    "url": "https://github.com/alisdairjsmyth/node-red-contrib-blindcontroller",
+    "description": "Automate the control of household roller blinds based on the current position of the sun."
+  },
+  {
+    "name": "bigtimer",
+    "url": "https://github.com/scargill/node-red-contrib-bigtimer",
+    "description": "Timing node with support for dusk/sunset dawn/sunrise and variations also day/week/month (and special days) control. The node offers outputs suitable for MQTT, speech and databases."
+  },
+  {
+    "name": "suncalc",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/time/suncalc",
+    "description": "Uses the suncalc module to generate an output at sunrise and sunset based on a specified location."
+  },
+  {
+    "name": "simpletime",
+    "url": "https://github.com/Paul-Reed/node-red-contrib-simpletime",
+    "description": "Adds time and date payloads with various formatting options, which can be retreived and used later in the flow."
+  },
+  {
+    "name": "sun-position",
+    "url": "https://github.com/rdmtc/node-red-contrib-sun-position",
+    "description": "Timer based flow control with dusk, dawn (and variations) and much more. Additional you can get sun and moon position or to control a flow by sun or moon position."
+  },
+  {
+    "name": "timeswitch",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/time/timeswitch",
+    "description": "Lets the user set simple repeating timers for example for simple heating control, etc."
+  },
+  {
+    "name": "actionflows",
+    "url": "https://github.com/Steveorevo/node-red-contrib-actionflows",
+    "description": "Brings easy to use loops and OOP (object oriented programming) features."
+  },
+  {
+    "name": "alarm",
+    "url": "https://github.com/Anamico/node-red-contrib-alarm",
+    "description": "Build your own home alarm system with any number of panels, zones, sensors, triggers and automations."
+  },
+  {
+    "name": "bool-gate",
+    "url": "https://flows.nodered.org/node/node-red-contrib-bool-gate",
+    "description": "Boolean logic gates."
+  },
+  {
+    "name": "daemon",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/utility/daemon",
+    "description": "Starts up (calls) a long running system program and pipes STDIN, STDOUT and STDERR to and from that process."
+  },
+  {
+    "name": "exif",
+    "url": "https://github.com/node-red/node-red-nodes/tree/master/utility/exif",
+    "description": "Extracts GPS and other EXIF information from a passed in jpeg image."
+  },
+  {
+    "name": "german-holidays",
+    "url": "https://github.com/rdmtc/node-red-contrib-german-holidays",
+    "description": "Getting german holidays or information if today/tomorrow is a holiday."
+  },
+  {
+    "name": "ical-events",
+    "url": "https://github.com/naimo84/node-red-contrib-ical-events",
+    "description": "Get events from an ical-URL, a caldav-server or from iCloud via kalender-events."
+  },
+  {
+    "name": "interval-length",
+    "url": "https://github.com/bartbutenaers/node-red-contrib-interval-length",
+    "description": "Measure the (time) interval length between successive messages."
+  },
+  {
+    "name": "moment",
+    "url": "https://github.com/totallyinformation/node-red-contrib-moment",
+    "description": "Produces a nicely formatted Date/Time string using the Moment.js library."
+  },
+  {
+    "name": "owntracks",
+    "url": "https://github.com/hardillb/node-red-contrib-owntracks",
+    "description": "Converts Owntrack Messages into standard geo message and deals with encrypted locations."
+  },
+  {
+    "name": "persist",
+    "url": "https://github.com/DeanCording/node-red-contrib-persist",
+    "description": "Persist data over Node-RED restarts and deploys."
+  },
+  {
+    "name": "self-healing",
+    "url": "https://github.com/jpdias/node-red-contrib-self-healing",
+    "description": "Making Node-RED more resilient by adding self-healing capabilities."
+  },
+  {
+    "name": "state-machine",
+    "url": "https://github.com/DeanCording/node-red-contrib-state-machine",
+    "description": "Wraps around the JavaScript State Machine to implement a finite state machine."
+  },
+  {
+    "name": "string",
+    "url": "https://github.com/steveorevo/node-red-contrib-string",
+    "description": "Provides native and extended chainable JavaScript string parsing and manipulation methods."
+  },
+  {
+    "name": "twc-weather",
+    "url": "https://github.com/johnwalicki/node-red-contrib-twc-weather",
+    "description": "The Weather Company and Weather Underground Personal Weather Station APIs."
+  },
+  {
+    "name": "users",
+    "url": "https://github.com/SenseTecnic/node-red-contrib-users",
+    "description": "Quickly build a very simple user access control for HTTP-based flows."
+  },
+  {
+    "name": "watson",
+    "url": "https://github.com/watson-developer-cloud/node-red-node-watson",
+    "description": "Interact with the IBM Watson services in IBM Cloud."
+  },
+  {
+    "name": "browser-utils",
+    "url": "https://github.com/ibm-early-programs/node-red-contrib-browser-utils",
+    "description": "Add browser functionality such as file upload, camera & microphone."
+  },
+  {
+    "name": "node-red-dashboard",
+    "url": "https://github.com/node-red/node-red-dashboard",
+    "description": "Create a live data dashboard."
+  },
+  {
+    "name": "https://flows.nodered.org/collection",
+    "url": "https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976",
+    "description": "Dashboard extra nodes."
+  },
+  {
+    "name": "flow-manager",
+    "url": "https://flows.nodered.org/node/node-red-contrib-flow-manager",
+    "description": "Separates flow json to multiple files."
+  },
+  {
+    "name": "iglass",
+    "url": "https://www.npmjs.com/package/iglass-nodes",
+    "description": "Interaction with iGlass Automation blocks."
+  },
+  {
+    "name": "image-output",
+    "url": "https://github.com/rikukissa/node-red-contrib-image-output",
+    "description": "Simple image output node. Useful for previewing images (of face detecting, object recognition etc.) inside the flow editor."
+  },
+  {
+    "name": "uibuilder",
+    "url": "https://github.com/TotallyInformation/node-red-contrib-uibuilder",
+    "description": "Create dynamic web interfaces using any (or no) front end libraries for convenience."
+  },
+  {
+    "name": "web-worldmap",
+    "url": "https://github.com/dceejay/RedMap",
+    "description": "Provide a world map web page for plotting \"things\" on."
+  },
+  {
+    "name": "HomeAssistant Forum",
+    "url": "https://community.home-assistant.io/c/third-party/node-red/31"
+  },
+  {
+    "name": "Node-RED Forum",
+    "url": "https://discourse.nodered.org/"
+  },
+  {
+    "name": "Node-RED Blog",
+    "url": "https://nodered.org/blog/"
+  },
+  {
+    "name": "Node-RED User Group Japan",
+    "url": "https://nodered.jp/"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/r/nodered/"
+  },
+  {
+    "name": "Redmatic Forum",
+    "url": "https://homematic-forum.de/forum/viewforum.php?f=77"
+  },
+  {
+    "name": "Slack",
+    "url": "https://nodered.org/about/community/slack"
+  },
+  {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com/questions/tagged/node-red"
+  },
+  {
+    "name": "Steves Node-RED Guide",
+    "url": "https://stevesnoderedguide.com/"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com/NodeRED"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/channel/UCQaB8NXBEPod7Ab8PPCLLAA"
+  }
+]
