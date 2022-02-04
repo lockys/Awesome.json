@@ -322,6 +322,11 @@
     "description": "Integration and completions for asdf and direnv."
   },
   {
+    "name": "asdf-prompt",
+    "url": "https://github.com/CurryEleison/zsh-asdf-prompt",
+    "description": "Provides a function usable in prompts that displays version information for your current tool versions."
+  },
+  {
     "name": "asdf",
     "url": "https://github.com/kiurchv/asdf.plugin.zsh",
     "description": "Integration and completions for asdf, the extendable version manager, with support for Ruby, Node.js, Elixir, Erlang and more."
@@ -417,6 +422,11 @@
     "description": "A ZSH plugin for auto-closing, deleting and skipping over matching delimiters. Only tested on ZSH 5.0.2 or later."
   },
   {
+    "name": "autoquoter",
+    "url": "https://github.com/ianthehenry/zsh-autoquoter",
+    "description": "A zle widget (\"zsh plugin\") that will automatically put quotes around arguments to certain commands."
+  },
+  {
     "name": "autosuggestions",
     "url": "https://github.com/zsh-users/zsh-autosuggestions",
     "description": "Fish-like fast/unobtrusive autosuggestions for ZSH."
@@ -425,6 +435,11 @@
     "name": "autoswitch-virtualenv",
     "url": "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv",
     "description": "ZSH plugin to automatically switch python virtualenvs and pipenvs when traversing directories. Automatically detects pipenv and poetry projects."
+  },
+  {
+    "name": "autoupdate-antibody",
+    "url": "https://github.com/spikespaz/autoupdate-antibody-zsh",
+    "description": "A fork of autoupdate-antigen for the Antibody plugin manager, with the added ability to cooperate with static loading."
   },
   {
     "name": "autoupdate-antigen",
@@ -802,6 +817,11 @@
     "description": "Zstyle settings for ZSH completions based on Prezto's."
   },
   {
+    "name": "conda",
+    "url": "https://github.com/ThemysciraData/conda.plugin.zsh",
+    "description": "Adds function to provide a prompt segment for conda and aliases for some base functions."
+  },
+  {
     "name": "copier",
     "url": "https://github.com/zshzoo/copier",
     "description": "Standalone clipboard utilities from oh-my-zsh."
@@ -980,6 +1000,11 @@
     "description": "A dropbox plugin for ZSH that provides dropbox-cli and dropbox-uploader commands."
   },
   {
+    "name": "drupal",
+    "url": "https://github.com/yhaefliger/zsh-drupal",
+    "description": "Adds aliases for common tasks and also tab-completion for drush. Inspired by Artisan."
+  },
+  {
     "name": "dune-quotes",
     "url": "https://github.com/brokendisk/dune-quotes",
     "description": "Random Dune quote generator plugin."
@@ -1113,6 +1138,11 @@
     "name": "expand",
     "url": "https://github.com/MenkeTechnologies/zsh-expand",
     "description": "Expands regular aliases, global aliases, incorrect spellings and phrases, globs, history expansion and $parameters with the spacebar key."
+  },
+  {
+    "name": "expander",
+    "url": "https://github.com/ianthehenry/zsh-expander",
+    "description": "A zle widget that allows you to write custom expanders and select them with fzf."
   },
   {
     "name": "explain-shell",
@@ -1430,9 +1460,19 @@
     "description": "Adds extra git commands to make some common git usages more efficient."
   },
   {
+    "name": "git-smart-commends-wrapper",
+    "url": "https://github.com/jelek21/omz-git-smart-commands",
+    "description": "Wraps git-smart-commands to make it compatible with the oh-my-zsh plugins system."
+  },
+  {
     "name": "git-sync",
     "url": "https://github.com/caarlos0/zsh-git-sync",
     "description": "A ZSH plugin to sync git repositories and clean them up."
+  },
+  {
+    "name": "git-tree",
+    "url": "https://github.com/dehlen/git-tree-zsh",
+    "description": "fzf powered git worktree helper."
   },
   {
     "name": "git-worktree",
@@ -3405,7 +3445,7 @@
   {
     "name": "wdnote",
     "url": "https://github.com/Vesdii/zsh-wdnote",
-    "description": "Prints the contents of a .wdnote if present upon changing directories."
+    "description": "Prints the contents of a .wdnote file if present when changing to a new directory."
   },
   {
     "name": "web-search (sinetoami)",
@@ -3958,11 +3998,6 @@
     "description": "Fork of the oh-my-zsh extract plugin."
   },
   {
-    "name": "flowr",
-    "url": "https://github.com/oubasan/flowr",
-    "description": "Completion support for git-flow."
-  },
-  {
     "name": "fly-zsh-autocomplete",
     "url": "https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin",
     "description": "Adds autocompletion options for all Concourse CLI commands."
@@ -4001,6 +4036,11 @@
     "name": "git-flow",
     "url": "https://github.com/bobthecow/git-flow-completion",
     "description": "ZSH completion support for git-flow."
+  },
+  {
+    "name": "git-fzf",
+    "url": "https://github.com/alexiszamanidis/zsh-git-fzf",
+    "description": "ZSH plugin that wraps git operations for simplicity and productivity. It also contains completions and combines support for fzf."
   },
   {
     "name": "github-cli",
@@ -5279,7 +5319,7 @@
   {
     "name": "duckster",
     "url": "https://github.com/ducky/duckster",
-    "description": "A fork of Gitster ZSH theme that's more ducky fresh."
+    "description": "A fork of the gitster ZSH theme that's more ducky fresh."
   },
   {
     "name": "ducula",
@@ -5429,11 +5469,6 @@
     "name": "fishy2",
     "url": "https://github.com/akinjide/fishy2",
     "description": "ZSH theme inspired by original fishy."
-  },
-  {
-    "name": "fizzy",
-    "url": "https://github.com/Brokenhammer72/fizzy",
-    "description": "Minimalist prompt, includes git status decorations."
   },
   {
     "name": "fluent-git",
@@ -5676,6 +5711,11 @@
     "description": "Minimalist, includes git status decorations."
   },
   {
+    "name": "gundam",
+    "url": "https://github.com/adriamanu/gundam-zsh-theme",
+    "description": "Gundam flavored theme. Includes decorations for current directory, username, date and git status."
+  },
+  {
     "name": "guri",
     "url": "https://github.com/victorfsf/guri",
     "description": "A Simple and fast Oh-My-Zsh theme, based on Pure's design."
@@ -5881,7 +5921,7 @@
     "description": "Includes git, nvm and venv decorations."
   },
   {
-    "name": "illustion",
+    "name": "illusion",
     "url": "https://github.com/shabane/illusion",
     "description": "Includes username, current working directory, git status and last command status decorators."
   },
@@ -6771,6 +6811,11 @@
     "description": "Based on Oh-My-ZSH's amuse. Has decorations for git status, time, absolute pwd, RAM usage, time used by last command, and last command exit status."
   },
   {
+    "name": "owczarczak",
+    "url": "https://github.com/ThemysciraData/owczarczak.zsh-theme",
+    "description": "Inspired by bira, dieter and fino-time. Includes venv and vcs status decorations."
+  },
+  {
     "name": "owi",
     "url": "https://github.com/owitech/zsh-theme/",
     "description": "Minimalist theme with git status decorations."
@@ -7648,6 +7693,11 @@
     "name": "steef (zimfw)",
     "url": "https://github.com/zimfw/steeef",
     "description": "A customizable version of steeef's theme."
+  },
+  {
+    "name": "steeple",
+    "url": "https://github.com/erwanjugand/steeple-zsh-theme",
+    "description": "Minimalist theme with git status decorations."
   },
   {
     "name": "stellachar",
