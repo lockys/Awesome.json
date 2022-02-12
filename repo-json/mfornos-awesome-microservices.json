@@ -15,12 +15,12 @@
     "description": "Open source microservice-oriented programming language."
   },
   {
-    "name": "KintoHub ",
+    "name": "KintoHub (c)",
     "url": "https://www.kintohub.com",
     "description": "Microservice package manager empowering developers to easily build and share cloud ready features."
   },
   {
-    "name": "Lightbend ",
+    "name": "Lightbend (c)",
     "url": "https://www.lightbend.com/",
     "description": "Platform for building scalable reactive systems on the JVM."
   },
@@ -55,7 +55,7 @@
     "description": "Open-source cloud management platform that delivers next generation, container-based, service-oriented infrastructure across one or more data centers."
   },
   {
-    "name": "VAMP ",
+    "name": "VAMP (c)",
     "url": "http://vamp.io/",
     "description": "Build, deploy and manage microservices with power and ease."
   },
@@ -65,7 +65,7 @@
     "description": "Toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM."
   },
   {
-    "name": "Axon ",
+    "name": "Axon (c)",
     "url": "https://axoniq.io/",
     "description": "An end-to-end development and infrastructure platform for easy development and running of any DDD, CQRS and Event Sourcing applications on JVM."
   },
@@ -1170,12 +1170,12 @@
     "description": "Open source server which enables highly reliable distributed coordination."
   },
   {
-    "name": "AWS Step Functions ",
+    "name": "AWS Step Functions (c)",
     "url": "https://aws.amazon.com/step-functions/",
     "description": "Coordinate the components of distributed applications and microservices using visual workflows."
   },
   {
-    "name": "Azuqua ",
+    "name": "Azuqua (c)",
     "url": "https://azuqua.com/",
     "description": "Orchestration and governance platform for distributed applications."
   },
@@ -1315,7 +1315,7 @@
     "description": "Flexible analytics and visualization platform."
   },
   {
-    "name": "LogDNA ",
+    "name": "LogDNA (c)",
     "url": "https://logdna.com/",
     "description": "Centralized log management software. Instantly collect, centralize, and analyze logs in real-time from any platform, at any volume."
   },
@@ -1480,7 +1480,7 @@
     "description": "Scalable realtime graphing."
   },
   {
-    "name": "IOpipe ",
+    "name": "IOpipe (c)",
     "url": "https://www.iopipe.com/",
     "description": "Application performance monitoring for Amazon Lambda."
   },
@@ -1760,7 +1760,7 @@
     "description": "Hadoop database for big data."
   },
   {
-    "name": "Aerospike ",
+    "name": "Aerospike (c)",
     "url": "http://www.aerospike.com/",
     "description": "High performance NoSQL database delivering speed at scale."
   },
@@ -1780,7 +1780,7 @@
     "description": "Column-oriented database management system that allows generating analytical data reports in real time."
   },
   {
-    "name": "CockroachDB ",
+    "name": "CockroachDB (c)",
     "url": "https://www.cockroachlabs.com/",
     "description": "A cloud-native SQL database modelled after Google Spanner."
   },
@@ -1790,7 +1790,7 @@
     "description": "A distributed database engineered for performance, scalability, and simplified administration."
   },
   {
-    "name": "Crate ",
+    "name": "Crate (c)",
     "url": "https://crate.io/",
     "description": "Scalable SQL database with the NoSQL goodies."
   },
@@ -1825,7 +1825,7 @@
     "description": "Scalable datastore for metrics, events, and real-time analytics."
   },
   {
-    "name": "MemSQL ",
+    "name": "MemSQL (c)",
     "url": "http://www.memsql.com/",
     "description": "High-performance, in-memory database that combines the horizontal scalability of distributed systems with the familiarity of SQL."
   },
@@ -1875,7 +1875,7 @@
     "description": "Open source clone of Amazon DynamoDB"
   },
   {
-    "name": "VoltDB ",
+    "name": "VoltDB (c)",
     "url": "https://www.voltdb.com/",
     "description": "In-Memory ACID compliant distributed database."
   },
@@ -2005,6 +2005,26 @@
     "description": "URI Design and Ownership."
   },
   {
+    "name": "DID",
+    "url": "https://www.w3.org/TR/did-core/",
+    "description": "W3C specification of Decentralized identifiers (DIDs): a new type of identifier that enables verifiable, decentralized digital identity."
+  },
+  {
+    "name": "DIDComm",
+    "url": "https://identity.foundation/didcomm-messaging/spec/",
+    "description": "Private communication methodology built atop the decentralized design of DIDs."
+  },
+  {
+    "name": "DIDComm Protocols",
+    "url": "https://didcomm.org/",
+    "description": "Registry of protocols built on DIDComm, for high-trust, self-sovereign interactions over any transport."
+  },
+  {
+    "name": "IDSA",
+    "url": "https://internationaldataspaces.org/",
+    "description": "The International Data Spaces Association (IDSA) is on a mission to create the future of the global, digital economy with International Data Spaces (IDS), a secure, sovereign system of data sharing in which all participants can realize the full value of their data."
+  },
+  {
     "name": "RFC7230",
     "url": "https://tools.ietf.org/html/rfc7230",
     "description": "Message Syntax and Routing."
@@ -2115,6 +2135,11 @@
     "description": "The OAuth 2.0 authorization framework."
   },
   {
+    "name": "RFC6962",
+    "url": "https://tools.ietf.org/html/rfc6962",
+    "description": "Certificate transparency."
+  },
+  {
     "name": "RFC7515",
     "url": "https://tools.ietf.org/html/rfc7515",
     "description": "JSON Web Signature (JWS) represents content secured with digital signatures or Message Authentication Codes (MACs) using JSON-based data structures."
@@ -2165,6 +2190,16 @@
     "description": "The Web Services Description Language Version 2.0 spec."
   },
   {
+    "name": "DNS-SD",
+    "url": "https://datatracker.ietf.org/doc/html/rfc6763",
+    "description": "Mechanism for clients to discover a list of named instances of a service, using standard DNS queries."
+  },
+  {
+    "name": "RFC2782",
+    "url": "https://datatracker.ietf.org/doc/html/rfc2782",
+    "description": "A DNS RR for specifying the location of services (DNS SRV)."
+  },
+  {
     "name": "RFC4627",
     "url": "https://tools.ietf.org/html/rfc4627",
     "description": "JavaScript Object Notation (JSON)."
@@ -2200,11 +2235,6 @@
     "description": "Vocabulary that allows you to annotate and validate JSON documents."
   },
   {
-    "name": "LOV",
-    "url": "http://lov.okfn.org/",
-    "description": "Linked open vocabularies."
-  },
-  {
     "name": "Schema.org",
     "url": "http://schema.org/",
     "description": "Collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond."
@@ -2235,14 +2265,19 @@
     "description": "Team Topologies 🔺YT - DOES19 London. The \"monoliths vs microservices\" debate often focuses on technological aspects, ignoring strategy and team dynamics. Instead of technology, smart-thinking organizations are beginning with team cognitive load as the guiding principle for modern software. In this talk, we explain how and why, illustrated by real case studies."
   },
   {
-    "name": "Commercetools ",
+    "name": "Commercetools",
     "url": "https://commercetools.com/",
     "description": "Headless commerce platform."
   },
   {
-    "name": "Elasticpath ",
+    "name": "Elasticpath",
     "url": "https://www.elasticpath.com/",
     "description": "E-commerce microservices."
+  },
+  {
+    "name": "Equinox",
+    "url": "https://www.infosysequinox.com/",
+    "description": "Infosys Equinox is a human-centric commerce and marketing platform that supports rich, hyper-personalized experiences across any channel and touchpoint."
   },
   {
     "name": "Flamingo",
@@ -2250,19 +2285,14 @@
     "description": "Framework to build flexible and modern e-commerce applications."
   },
   {
-    "name": "Interact ",
+    "name": "Interact",
     "url": "https://interact.io/",
     "description": "CRM microservices for rapid delivery of tailored solutions."
   },
   {
-    "name": "Predix ",
+    "name": "Predix",
     "url": "https://predix.io/",
     "description": "Industrial microservices platform."
-  },
-  {
-    "name": "Skava ",
-    "url": "https://www.skava.com/",
-    "description": "Provides microservices for all the functions of your store, and the glue to hold them together."
   },
   {
     "name": "Awesome Scalability ⭐",
@@ -2403,30 +2433,5 @@
     "name": "Microservice Antipatterns and Pitfalls",
     "url": "https://www.oreilly.com/ideas/microservices-antipatterns-and-pitfalls",
     "description": "Microservice mostly known antipatterns and pitfalls."
-  },
-  {
-    "name": "Holochain",
-    "url": "https://holochain.org/",
-    "description": "A framework for distributed applications, allowing you to build apps without any network constraints. This means every user controls their own data, and it can't be sold or exposed to third parties."
-  },
-  {
-    "name": "Ops",
-    "url": "https://ops.city/",
-    "description": "Free open source tool to build, run and deploy existing linux applications as unikernels."
-  },
-  {
-    "name": "SAFE Network",
-    "url": "https://safenetwork.tech/",
-    "description": "Powered by the spare capacity of everyday computers, SAFE replaces the vulnerable structure of the existing Web with a decentralised, autonomous network. One that is secure, and accessible to everyone."
-  },
-  {
-    "name": "Solid",
-    "url": "https://solid.inrupt.com/",
-    "description": "Empowers users and organizations to separate their data from the applications that use it. It allows people to look at the same data with different apps at the same time. It opens brand new avenues for creativity, problem-solving, and commerce."
-  },
-  {
-    "name": "Unison",
-    "url": "https://www.unisonweb.org/",
-    "description": "Open source functional programming language based on a simple idea with big implications: code is content-addressed and immutable."
   }
 ]
