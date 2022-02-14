@@ -552,6 +552,41 @@
     "url": "https://www.slideshare.net/ennael/kernel-recipes-2017-ebpf-and-xdp-eric-leblond"
   },
   {
+    "name": "bpftrace Cheat Sheet",
+    "url": "https://www.brendangregg.com/BPF/bpftrace-cheat-sheet.html",
+    "description": "Summary and cheat sheet for programming in bpftrace. Contains information about syntax, probe types, variables and functions."
+  },
+  {
+    "name": "Embrace The Red: Offensive BPF!",
+    "url": "https://embracethered.com/blog/tags/ebpf",
+    "description": "A series of posts around the introduction into BPF with a focus to an offensive setting, and also how its misuse can be detected. Posts include discussions on the rootkit capabilities of eBPF, or on which tracing type is needed for different use cases."
+  },
+  {
+    "name": "eBPF: Block Linux Fileless Payload \"Malware\" Execution with BPF LSM",
+    "url": "https://djalal.opendz.org/post/ebpf-block-linux-fileless-payload-execution-with-bpf-lsm/",
+    "description": "Blog post about how BPF can help detection and blocking fileless malware."
+  },
+  {
+    "name": "Blackhat 2021: With Friends Like eBPF, Who Needs Enemies?",
+    "url": "https://www.blackhat.com/us-21/briefings/schedule/#with-friends-like-ebpf-who-needs-enemies-23619",
+    "description": "Talk about an eBPF rootkit and how the capabilities of eBPF could be abused. The rootkit was also the object of a talk at Defcon, eBPF, I thought we were friends !."
+  },
+  {
+    "name": "ebpfkit",
+    "url": "https://github.com/Gui774ume/ebpfkit",
+    "description": "A rootkit that leverages multiple eBPF features to implement offensive security techniques."
+  },
+  {
+    "name": "ebpfkit-monitor",
+    "url": "https://github.com/Gui774ume/ebpfkit-monitor",
+    "description": "An utility to statically analyze eBPF bytecode or monitor suspicious eBPF activity at runtime. It was specifically designed to detect ebpfkit."
+  },
+  {
+    "name": "Bad BPF",
+    "url": "https://github.com/pathtofile/bad-bpf",
+    "description": "A collection of malicious eBPF programs that make use of eBPF's ability to read and write user data in between the usermode program and the kernel."
+  },
+  {
     "name": "syscall.c",
     "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/kernel/bpf/syscall.c",
     "description": "Different operations permitted by the system call, such as program loading or map management."
