@@ -180,6 +180,11 @@
     "description": "Ensuring zero downtime of your infrastructure."
   },
   {
+    "name": "Google Cloud Platform for 10$ a month using terraform",
+    "url": "https://github.com/nufailtd/terraform-budget-gcp",
+    "description": "Shows how to use terraform to create a secure Google Kubernetes Cluster, Google Cloud Run Services and other infrastructure elements for less than 10$ a month."
+  },
+  {
     "name": "Terraform Design Patterns: the Terrafile",
     "url": "http://bensnape.com/2016/01/14/terraform-design-patterns-the-terrafile/",
     "description": "Managing Terraform modules and their versions within Terraform projects with Terrafile."
@@ -533,19 +538,49 @@
     "description": "Serve terraform provider registry backed by GitHub releases."
   },
   {
-    "name": "terraform-provider-alicloud",
-    "url": "https://github.com/terraform-providers/terraform-provider-alicloud",
-    "description": "Plugin for Alibaba Cloud."
+    "name": "terustry",
+    "url": "https://github.com/veepee-oss/terustry",
+    "description": "Open Source terraform provider registry acting as a proxy for gitlab or github releases."
   },
   {
     "name": "terraform-provider-aws",
-    "url": "https://github.com/terraform-providers/terraform-provider-aws",
+    "url": "https://github.com/hashicorp/terraform-provider-aws",
     "description": "Plugin for Amazon Web Services."
   },
   {
     "name": "terraform-provider-azurerm",
-    "url": "https://github.com/terraform-providers/terraform-provider-azurerm",
+    "url": "https://github.com/hashicorp/terraform-provider-azurerm",
     "description": "Plugin for Microsoft Azure."
+  },
+  {
+    "name": "terraform-provider-docker",
+    "url": "https://github.com/hashicorp/terraform-provider-docker",
+    "description": "Plugin for Docker."
+  },
+  {
+    "name": "terraform-provider-google",
+    "url": "https://github.com/hashicorp/terraform-provider-google",
+    "description": "Plugin for Google Cloud Platform."
+  },
+  {
+    "name": "terraform-provider-helm",
+    "url": "https://github.com/hashicorp/terraform-provider-helm",
+    "description": "Plugin for Helm."
+  },
+  {
+    "name": "terraform-provider-kubernetes",
+    "url": "https://github.com/hashicorp/terraform-provider-kubernetes",
+    "description": "Plugin for Kubernetes."
+  },
+  {
+    "name": "terraform-provider-vsphere",
+    "url": "https://github.com/hashicorp/terraform-provider-vsphere",
+    "description": "Plugin for VMware vSphere."
+  },
+  {
+    "name": "terraform-provider-alicloud",
+    "url": "https://github.com/aliyun/terraform-provider-alicloud",
+    "description": "Plugin for Alibaba Cloud."
   },
   {
     "name": "terraform-provider-azuredevops",
@@ -569,13 +604,8 @@
   },
   {
     "name": "terraform-provider-digitalocean",
-    "url": "https://github.com/terraform-providers/terraform-provider-digitalocean",
+    "url": "https://github.com/digitalocean/terraform-provider-digitalocean",
     "description": "Plugin for DigitalOcean."
-  },
-  {
-    "name": "terraform-provider-docker",
-    "url": "https://github.com/terraform-providers/terraform-provider-docker",
-    "description": "Plugin for Docker."
   },
   {
     "name": "terraform-provider-dominos",
@@ -584,18 +614,13 @@
   },
   {
     "name": "terraform-provider-github",
-    "url": "https://github.com/terraform-providers/terraform-provider-github",
+    "url": "https://github.com/integrations/terraform-provider-github",
     "description": "Plugin for GitHub."
   },
   {
     "name": "terraform-provider-gitlab",
-    "url": "https://github.com/terraform-providers/terraform-provider-gitlab",
+    "url": "https://github.com/gitlabhq/terraform-provider-gitlab",
     "description": "Plugin for GitLab."
-  },
-  {
-    "name": "terraform-provider-google",
-    "url": "https://github.com/terraform-providers/terraform-provider-google",
-    "description": "Plugin for Google Cloud Platform."
   },
   {
     "name": "terraform-provider-graphql",
@@ -604,18 +629,13 @@
   },
   {
     "name": "terraform-provider-hcloud",
-    "url": "https://github.com/terraform-providers/terraform-provider-hcloud",
+    "url": "https://github.com/hetznercloud/terraform-provider-hcloud",
     "description": "Plugin for Hetzner Cloud."
   },
   {
     "name": "terraform-provider-healthchecksio",
     "url": "https://github.com/kristofferahl/terraform-provider-healthchecksio",
     "description": "Provider to manage healthchecks.io resources."
-  },
-  {
-    "name": "terraform-provider-helm",
-    "url": "https://github.com/terraform-providers/terraform-provider-helm",
-    "description": "Plugin for Helm."
   },
   {
     "name": "terraform-provider-heroku",
@@ -638,18 +658,13 @@
     "description": "Provider to manage the settings of your Keycloak identity provider server."
   },
   {
-    "name": "terraform-provider-kubernetes",
-    "url": "https://github.com/terraform-providers/terraform-provider-kubernetes",
-    "description": "Plugin for Kubernetes."
-  },
-  {
     "name": "terraform-provider-linode",
     "url": "https://github.com/btobolaski/terraform-provider-linode",
     "description": "Plugin for Linode."
   },
   {
     "name": "terraform-provider-openstack",
-    "url": "https://github.com/terraform-providers/terraform-provider-openstack",
+    "url": "https://github.com/terraform-provider-openstack/terraform-provider-openstack",
     "description": "Plugin for OpenStack."
   },
   {
@@ -679,7 +694,7 @@
   },
   {
     "name": "terraform-provider-spotinst",
-    "url": "https://github.com/terraform-providers/terraform-provider-spotinst",
+    "url": "https://github.com/spotinst/terraform-provider-spotinst",
     "description": "Devops automation platform for AWS, Azure, GCP."
   },
   {
@@ -701,11 +716,6 @@
     "name": "terraform-provider-vaulted",
     "url": "https://github.com/sumup-oss/terraform-provider-vaulted",
     "description": "Encrypted HashiCorp Vault secrets via Terraform that can be stored in SCM such as Git."
-  },
-  {
-    "name": "terraform-provider-vsphere",
-    "url": "https://github.com/terraform-providers/terraform-provider-vsphere",
-    "description": "Plugin for VMware vSphere."
   },
   {
     "name": "kitchen-terraform",
@@ -756,6 +766,11 @@
     "name": "Terraform Generator",
     "url": "https://github.com/sudokar/generator-tf-module",
     "description": "Scaffolding for a new terraform module or project with support of test frameworks (terratest and kitchen-terraform)"
+  },
+  {
+    "name": "Terraform GitOps Framework",
+    "url": "https://www.kubestack.com",
+    "description": "Everything you need to build reliable automation for AKS, EKS and GKE Kubernetes clusters in one free and open-source framework."
   },
   {
     "name": "terraform-enterprise-cli",
