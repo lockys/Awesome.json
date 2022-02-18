@@ -20,6 +20,11 @@
     "description": "RxRx19 is the first morphological dataset that demonstrates the rescue of morphological effects of COVID-19."
   },
   {
+    "name": "Human Protein Atlas",
+    "url": "https://www.proteinatlas.org/humanproteome/subcellular",
+    "description": "Among other assays, the HPA performed confocal imaging of displaying the location of more than 2/3 of human proteins in cell lines. Raw images or infered protein subcellular locations can be downloaded."
+  },
+  {
     "name": "Gustafsdottir et al. 2013",
     "url": "https://doi.org/10.1371/journal.pone.0080999",
     "description": "Cell painting profiles from 1,600 bioactive compounds in U2OS cells (Access from public S3 bucket: s3://cytodata/datasets/Bioactives-BBBC022-Gustafsdottir/profiles/Bioactives-BBBC022-Gustafsdottir/)."
@@ -33,6 +38,11 @@
     "name": "Bray et al. 2017",
     "url": "https://doi.org/10.1093/gigascience/giw014",
     "description": "Cell painting profiles from 30,616 compounds in U2OS cells (Center Driven Research Project CDRP) (Download from GigaDB | Access from public S3 bucket: s3://cytodata/datasets/CDRPBIO-BBBC036-Bray/profiles_cp/CDRPBIO-BBBC036-Bray/)."
+  },
+  {
+    "name": "Haghighi et al. 2021",
+    "url": "https://doi.org/10.1101/2021.09.08.459417",
+    "description": "Cell painting matched to L1000 profiles in 4 experiments, including compound and genetic screens (Details on GitHub)."
   },
   {
     "name": "Singh et al. 2015",
@@ -67,7 +77,7 @@
   {
     "name": "Cytominer",
     "url": "https://github.com/cytomining/cytominer",
-    "description": "Methods for image-based cell profiling."
+    "description": "Methods for image-based cell profiling in R."
   },
   {
     "name": "EBImage",
@@ -78,6 +88,21 @@
     "name": "HTSvis",
     "url": "http://htsvis.dkfz.de/HTSvis/",
     "description": "A web app for exploratory data analysis and visualization of arrayed high-throughput screens."
+  },
+  {
+    "name": "BioProfiling.jl",
+    "url": "https://github.com/menchelab/BioProfiling.jl",
+    "description": "Toolkit for filtering and curation of morphological profiles in Julia."
+  },
+  {
+    "name": "PyCytominer",
+    "url": "https://github.com/cytomining/pycytominer",
+    "description": "Methods for image-based cell profiling in Python."
+  },
+  {
+    "name": "ImJoy",
+    "url": "https://imjoy.io",
+    "description": "A platform compiling tool for deep-learning based image analyses with a GUI."
   },
   {
     "name": "Image-based profiling for drug discovery: due for a machine-learning upgrade?",
@@ -103,6 +128,31 @@
     "name": "Applications in image-based profiling of perturbations",
     "url": "https://doi.org/10.1016/j.copbio.2016.04.003",
     "description": "Describes applications of image-based profiling including target and MOA identification, lead hopping, library enrichment, gene annotation and identification of disease-specific phenotypes"
+  },
+  {
+    "name": "Large-scale image-based screening and profiling of cellular phenotypes",
+    "url": "https://doi.org/10.1002/cyto.a.22909",
+    "description": "Overview of image-based profiling, including its applications and challenges."
+  },
+  {
+    "name": "How cells explore shape space: A quantitative statistical perspective of cellular morphogenesis",
+    "url": "https://dx.doi.org/10.1002%2Fbies.201400011",
+    "description": "Discussion on the biology of cell shape changes based on quantitative descriptors."
+  },
+  {
+    "name": "Machine learning and image-based profiling in drug discovery",
+    "url": "https://doi.org/10.1016/J.COISB.2018.05.004",
+    "description": "Introduction to morphological profiling and discussion on what machine learning has to offer."
+  },
+  {
+    "name": "Deep learning in microscopy",
+    "url": "https://www.nature.com/collections/cfcdjceech",
+    "description": "A collection of review and research articles published in Nature Methods related to multiple use cases of deep learning, including noise reduction, segmentation, tracking and representation learning."
+  },
+  {
+    "name": "High-Content Imaging and Informatics",
+    "url": "https://journals.sagepub.com/toc/jbxb/25/7",
+    "description": "A collection of high-content imaging method and application articles published in SLAS Discovery."
   },
   {
     "name": "Expanding the antibacterial selectivity of polyether ionophore antibiotics through diversity-focused semisynthesis",
@@ -140,6 +190,76 @@
     "description": "Demonstrating the effects of polypharmacology in MOA prediction while offering solutions for overcoming it in future image-based profiling studies."
   },
   {
+    "name": "Mapping the perturbome network of cellular perturbations",
+    "url": "https://doi.org/10.1038/s41467-019-13058-9",
+    "description": "Image-based profiling and network analysis of drug combinations."
+  },
+  {
+    "name": "Morphological profiling of human T and NK lymphocytes by high-content cell imaging",
+    "url": "https://doi.org/10.1016/j.celrep.2021.109318",
+    "description": "Image-based profiling of actin organization at the immunological synapse."
+  },
+  {
+    "name": "A subcellular map of the human proteome",
+    "url": "https://doi.org/10.1126/science.aal3321",
+    "description": "Classification of protein subcellular location from confocal microscopy images of the Human Protein Atlas."
+  },
+  {
+    "name": "A multi-scale map of cell structure fusing protein images and interactions",
+    "url": "https://doi.org/10.1038/s41586-021-04115-9",
+    "description": "Combining confocal imaging and mass spectrometry representations of proteins to predict physical proximity and characterize cellular organization."
+  },
+  {
+    "name": "Predicting cell health phenotypes using image-based morphology profiling",
+    "url": "https://doi.org/10.1091/mbc.E20-12-0784",
+    "description": "Image-based profiles as predictors of apoptosis, proliferation and other cell health descriptors."
+  },
+  {
+    "name": "Systematic genetics and single‐cell imaging reveal widespread morphological pleiotropy and cell‐to‐cell variability",
+    "url": "https://doi.org/10.15252/msb.20199243",
+    "description": "Analysis of single-cell profiles to characterize variability, pleiotropy and incomplete penetrance."
+  },
+  {
+    "name": "Large‐scale image‐based profiling of single‐cell phenotypes in arrayed CRISPR‐Cas9 gene perturbation screens",
+    "url": "https://doi.org/10.15252/msb.20178064",
+    "description": "Demonstrates feasibility of imaging arrayed CRISPR screens and offers a way to characterize transfection efficacy in individual cells."
+  },
+  {
+    "name": "Multiparametric phenotyping of compound effects on patient derived organoids",
+    "url": "https://doi.org/10.1101/660993",
+    "description": "Profiling chemical effects on patient-derived organoids."
+  },
+  {
+    "name": "A chemical-genetic interaction map of small molecules using high-throughput imaging in cancer cells",
+    "url": "https://doi.org/10.15252/MSB.20156400",
+    "description": "Profiling the morphological changes induced in 1280 compounds in 12 knockout cell lines."
+  },
+  {
+    "name": "Time-resolved mapping of genetic interactions to model rewiring of signaling pathways",
+    "url": "https://doi.org/10.7554/eLife.40174",
+    "description": "Changes in genetic interactions across time based on multiple morphological descriptors."
+  },
+  {
+    "name": "High-Content Imaging of Unbiased Chemical Perturbations Reveals that the Phenotypic Plasticity of the Actin Cytoskeleton Is Constrained",
+    "url": "https://doi.org/10.1016/j.cels.2019.09.002",
+    "description": "Defining morphological clusters in a large compound screen."
+  },
+  {
+    "name": "A map of directional genetic interactions in a metazoan cell",
+    "url": "https://doi.org/10.7554/eLife.05464",
+    "description": "Characterizing genetic interactions by integrating 21 phenotypic descriptors."
+  },
+  {
+    "name": "The phenotypic landscape of essential human genes",
+    "url": "https://doi.org/10.1101/2021.11.28.470116",
+    "description": "Comparing morphological descriptors in a pooled CRISPR screen with in-situ sequencing"
+  },
+  {
+    "name": "Evaluation of Gene Expression and Phenotypic Profiling Data as Quantitative Descriptors for Predicting Drug Targets and Mechanisms of Action",
+    "url": "https://doi.org/10.1101/580654",
+    "description": "Benchmarking profiling modalities, including image-based profiles, for mechanism of action prediction."
+  },
+  {
     "name": "Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes",
     "url": "https://doi.org/10.1038/nprot.2016.105",
     "description": "Protocol describing the design and execution of experiments using Cell Painting."
@@ -170,8 +290,8 @@
     "description": "Minimum redundancy - maximum relevance feature selection framework."
   },
   {
-    "name": "Learning unsupervised feature representations for single cell microscopy images with paired cell painting",
-    "url": "https://doi.org/10.1101/395954",
+    "name": "Learning unsupervised feature representations for single cell microscopy images with paired cell inpainting",
+    "url": "https://doi.org/10.1371/journal.pcbi.1007348",
     "description": "Selfsupervised method to learn feature representations of single cells in microscopy images without labelled training data."
   },
   {
@@ -193,5 +313,50 @@
     "name": "Automating Morphological Profiling with Generic Deep Convolutional Networks",
     "url": "https://doi.org/10.1101/085118",
     "description": "Transfer of activation features of generic CNNs to extract features for image-based profiling."
+  },
+  {
+    "name": "A BaSiC tool for background and shading correction of optical microscopy images",
+    "url": "https://doi.org/10.1038/ncomms14836",
+    "description": "Illumination-correction method accounting for space- and time-dependent biases."
+  },
+  {
+    "name": "Cellpose: a generalist algorithm for cellular segmentation",
+    "url": "https://doi.org/10.1038/s41592-020-01018-x",
+    "description": "Generalist deep learning model for cell and nucleus segmentation with pre-trained weights."
+  },
+  {
+    "name": "Deep Learning Automates the Quantitative Analysis of Individual Cells in Live-Cell Imaging Experiments",
+    "url": "https://doi.org/10.1371/journal.pcbi.1005177",
+    "description": "DeepCell: collection of deep learning segmentation models."
+  },
+  {
+    "name": "Improving Phenotypic Measurements in\nHigh-Content Imaging Screens",
+    "url": "https://doi.org/10.1101/161422",
+    "description": "Embedding single-cell and compound profiles using transfer learning, examplified on mechanism of action prediction."
+  },
+  {
+    "name": "The Multidimensional Perturbation Value",
+    "url": "https://doi.org/10.1177/1087057112469257",
+    "description": "Proposing a score to define significant activity in screens."
+  },
+  {
+    "name": "Label-Free Prediction of Cell Painting from Brightfield Images",
+    "url": "https://doi.org/10.1101/2021.11.05.467394",
+    "description": "Reconstructing images for Cell Painting dyes and ensuring corresponding morphological measurements are preserved."
+  },
+  {
+    "name": "ShapoGraphy: a glyph-oriented visualisation approach for creating pictorial\nrepresentations of bioimaging data",
+    "url": "https://doi.org/10.1101/2021.04.07.438792",
+    "description": "Method to visualize morphological profiles."
+  },
+  {
+    "name": "CytoGAN: Generative Modeling of Cell Images",
+    "url": "https://doi.org/10.1101/227645",
+    "description": "Generative network displaying potential for learning latent representation of biological conditions from cell images."
+  },
+  {
+    "name": "Self-supervised feature extraction from image time series in plant phenotyping using triplet networks",
+    "url": "https://doi.org/https://doi.org/10.1093/bioinformatics/btaa905",
+    "description": "Direct extraction of phenotypic features from plant images."
   }
 ]

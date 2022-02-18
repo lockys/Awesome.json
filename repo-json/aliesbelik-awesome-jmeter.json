@@ -317,7 +317,7 @@
   {
     "name": "jmeter-k8s-starterkit",
     "url": "https://github.com/Rbillon59/jmeter-k8s-starterkit",
-    "description": "JMeter k8s starterkit, with live test reporting, JMeter monitoring, k8s monitoring and mock as a service."
+    "description": "JMeter k8s starter kit, with live test reporting, JMeter monitoring, k8s monitoring and mock as a service."
   },
   {
     "name": "kangal",
@@ -462,7 +462,7 @@
   {
     "name": "Using JMeter with InfluxDB & Grafana",
     "url": "https://www.vinsguru.com/category/influxdb/",
-    "description": "Collection of guides to collect and visualize real-time test-results and server monitoring stats using InfluxDB & Grafana."
+    "description": "Collection of guides to collect and visualize real-time test results and server monitoring stats using InfluxDB & Grafana."
   },
   {
     "name": "How to Use Grafana to Monitor JMeter Non-GUI Results",
@@ -516,12 +516,12 @@
   {
     "name": "JMeter + ElasticSearch Live Monitoring",
     "url": "https://medium.com/@anthony.gauthier325/jmeter-elasticsearch-live-monitoring-c895c843c51e",
-    "description": "Using the ElasticSearch Backend listener and Grafana/Kibana to monitor results in realtime."
+    "description": "Using the ElasticSearch Backend listener and Grafana/Kibana to monitor results in real time."
   },
   {
     "name": "jmeter-logstash",
     "url": "https://github.com/anasoid/jmeter-logstash",
-    "description": "Parse JTL result with Docker and Logstash in real time or after test end, and send data to Elasticsearch or InfluxDb, to have a nice dashboard and compare differents tests."
+    "description": "Parse JTL result with Docker and Logstash in real time or after test end, and send data to Elasticsearch or InfluxDb, to have a nice dashboard and compare different tests."
   },
   {
     "name": "jmeter-prometheus-plugin",
@@ -537,6 +537,11 @@
     "name": "JMeter Results from ClickHouse",
     "url": "https://grafana.com/grafana/dashboards/9561",
     "description": "Using the JMeter Listener pack, ClickHouse and Grafana to collect and monitor test results."
+  },
+  {
+    "name": "jmeter-clickhouse-listener",
+    "url": "https://gitlab.com/testload-group/jmeter-clickhouse-listener",
+    "description": "JMeter plugin allows to write load test data on-the-fly to ClickHouse."
   },
   {
     "name": "jmeter-elasticsearch-backend-listener",
@@ -564,6 +569,21 @@
     "description": "InfluxDB v2.0 listener plugin for Apache JMeter."
   },
   {
+    "name": "jmeter-datadog-backend-listener",
+    "url": "https://github.com/DataDog/jmeter-datadog-backend-listener",
+    "description": "Send JMeter test results to Datadog."
+  },
+  {
+    "name": "jmeter-dynatrace-plugin",
+    "url": "https://github.com/dynatrace-oss/jmeter-dynatrace-plugin",
+    "description": "A JMeter Backend listener implementation to send the recorded load test metrics via the Dynatrace MINT metric ingest to the configured Dynatrace monitoring environment."
+  },
+  {
+    "name": "jmeter-backend-newrelic",
+    "url": "https://github.com/darrensmithwtc/jmeter-backend-newrelic",
+    "description": "A JMeter plugin to send test results to New Relic Metrics API."
+  },
+  {
     "name": "Using Matplotlib & Python",
     "url": "https://www.metaltoad.com/blog/plotting-your-load-test-jmeter",
     "description": "Plotting JMeter load test results with Matplotlib plotting tool and Python."
@@ -581,7 +601,7 @@
   {
     "name": "JMeter Dashboard: howto, sources",
     "url": "http://seangkuan.blogspot.com/2015/06/jmeter-dashboard-realtime-monitoring-of.html",
-    "description": "Realtime monitoring of JMeter load test."
+    "description": "Real-time monitoring of JMeter load test."
   },
   {
     "name": "Using CMDRunner & Powershell",
@@ -750,7 +770,7 @@
   },
   {
     "name": "Dynatrace and JMeter integration",
-    "url": "https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/test-automation-frameworks/dynatrace-and-jmeter-integration/"
+    "url": "https://www.dynatrace.com/support/help/setup-and-configuration/integrations/third-party-integrations/test-automation-frameworks/dynatrace-and-jmeter-integration"
   },
   {
     "name": "Integrate web API performance monitoring in JMeter",
@@ -1018,16 +1038,6 @@
     "url": "https://www.reddit.com/r/jmeter/"
   },
   {
-    "name": "Awesome",
-    "url": "https://github.com/sindresorhus/awesome",
-    "description": "The original awesome list of awesome lists."
-  },
-  {
-    "name": "Awesome Awesomeness",
-    "url": "https://github.com/bayandin/awesome-awesomeness",
-    "description": "A curated list of amazingly awesome awesomeness."
-  },
-  {
     "name": "Awesome Software Quality",
     "url": "https://github.com/ligurio/software-quality-wiki",
     "description": "A list of free software testing and verification resources."
@@ -1080,6 +1090,6 @@
   {
     "name": "Awesome Locust",
     "url": "https://github.com/aliesbelik/awesome-locust",
-    "description": "Open-source scalable load-testing framework written in Python."
+    "description": "Open-source scalable load testing framework written in Python."
   }
 ]

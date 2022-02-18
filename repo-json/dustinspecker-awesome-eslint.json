@@ -135,6 +135,11 @@
     "description": "Code style agnostic version of Standard, perfect companion to Prettier."
   },
   {
+    "name": "GitHub",
+    "url": "https://github.com/github/eslint-plugin-github",
+    "description": "Misc. rules from GitHub."
+  },
+  {
     "name": "SonarJS",
     "url": "https://github.com/SonarSource/eslint-plugin-sonarjs",
     "description": "Rules detecting bugs and suspicious patterns."
@@ -143,6 +148,16 @@
     "name": "Unicorn",
     "url": "https://github.com/sindresorhus/eslint-plugin-unicorn",
     "description": "Various awesome ESLint rules."
+  },
+  {
+    "name": "@mysticatea/eslint-plugin",
+    "url": "https://github.com/mysticatea/eslint-plugin",
+    "description": "Misc. rules."
+  },
+  {
+    "name": "@brettz9/eslint-plugin",
+    "url": "https://github.com/brettz9/eslint-plugin",
+    "description": "Misc. rules. of @mysticatea without the personal config."
   },
   {
     "name": "Compat",
@@ -290,19 +305,14 @@
     "description": "Rules for enforcing restrictions on TypeScript toward AssemblyScript compliance."
   },
   {
+    "name": "eslint-plugin-eslint-plugin",
+    "url": "https://github.com/not-an-aardvark/eslint-plugin-eslint-plugin",
+    "description": "An ESLint plugin for linting ESLint plugins."
+  },
+  {
     "name": "Coffee",
     "url": "https://github.com/aminland/eslint-plugin-coffee",
     "description": "Enables linting CoffeeScript files with, with optional linting rules from the Coffeelint library."
-  },
-  {
-    "name": "Babel",
-    "url": "https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin",
-    "description": "Adds replacements for built-in rules to include Babel features."
-  },
-  {
-    "name": "import",
-    "url": "https://github.com/benmosher/eslint-plugin-import",
-    "description": "Linting of ES2015+ import/export syntax, and prevent issues with misspelling of file paths and import names."
   },
   {
     "name": "Flow",
@@ -434,41 +444,6 @@
     "description": "Run ESLint on your changed lines only. Also supports CI!"
   },
   {
-    "name": "ESLint Comments",
-    "url": "https://github.com/mysticatea/eslint-plugin-eslint-comments",
-    "description": "Best practices about ESLint directive comments (/*eslint-disable*/, etc.)."
-  },
-  {
-    "name": "eslint-plugin-write-good-comments",
-    "url": "https://github.com/kantord/eslint-plugin-write-good-comments",
-    "description": "Enforce good writing style in comments."
-  },
-  {
-    "name": "eslint-define-config",
-    "url": "https://github.com/Shinigami92/eslint-define-config",
-    "description": "Provide a defineConfig function for .eslintrc.js files."
-  },
-  {
-    "name": "eslint-plugin-eslint-plugin",
-    "url": "https://github.com/not-an-aardvark/eslint-plugin-eslint-plugin",
-    "description": "An ESLint plugin for linting ESLint plugins."
-  },
-  {
-    "name": "GitHub",
-    "url": "https://github.com/github/eslint-plugin-github",
-    "description": "Misc. rules from GitHub."
-  },
-  {
-    "name": "@mysticatea/eslint-plugin",
-    "url": "https://github.com/mysticatea/eslint-plugin",
-    "description": "Misc. rules."
-  },
-  {
-    "name": "@brettz9/eslint-plugin",
-    "url": "https://github.com/brettz9/eslint-plugin",
-    "description": "Misc. rules. of @mysticatea without the personal config."
-  },
-  {
     "name": "Notice",
     "url": "https://github.com/nickdeis/eslint-plugin-notice",
     "description": "An eslint rule that checks the top of files and fixes them too!"
@@ -490,7 +465,7 @@
   },
   {
     "name": "TypeLint",
-    "url": "https://github.com/yarax/typelint",
+    "url": "https://github.com/yarax/eslint-plugin-typelint",
     "description": "Introduces types, based on existing schemas (Swagger, Redux) and linting access to object properties, preventing undefined errors."
   },
   {
@@ -509,9 +484,24 @@
     "description": "ESLint rules to ensure proper arrow function definitions."
   },
   {
+    "name": "Babel",
+    "url": "https://github.com/babel/babel/tree/main/eslint/babel-eslint-plugin",
+    "description": "Adds replacements for built-in rules to include Babel features."
+  },
+  {
     "name": "boundaries",
     "url": "https://github.com/javierbrea/eslint-plugin-boundaries",
     "description": "Ensures that your architecture boundaries are respected by the elements in your project checking file structure and dependencies."
+  },
+  {
+    "name": "ESLint Comments",
+    "url": "https://github.com/mysticatea/eslint-plugin-eslint-comments",
+    "description": "Best practices about ESLint directive comments (/*eslint-disable*/, etc.)."
+  },
+  {
+    "name": "eslint-plugin-write-good-comments",
+    "url": "https://github.com/kantord/eslint-plugin-write-good-comments",
+    "description": "Enforce good writing style in comments."
   },
   {
     "name": "fp",
@@ -527,6 +517,11 @@
     "name": "Immutable",
     "url": "https://github.com/jhusain/eslint-plugin-immutable",
     "description": "Disable all mutation in JavaScript."
+  },
+  {
+    "name": "import",
+    "url": "https://github.com/benmosher/eslint-plugin-import",
+    "description": "Linting of ES2015+ import/export syntax, and prevent issues with misspelling of file paths and import names."
   },
   {
     "name": "new-with-error",
@@ -822,6 +817,11 @@
     "name": "TestCafe globals",
     "url": "https://github.com/miherlosev/eslint-plugin-testcafe",
     "description": "fixture & test globals for TestCafe."
+  },
+  {
+    "name": "eslint-define-config",
+    "url": "https://github.com/Shinigami92/eslint-define-config",
+    "description": "Provide a defineConfig function for .eslintrc.js files."
   },
   {
     "name": "es-file-traverse",

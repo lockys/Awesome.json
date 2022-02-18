@@ -58,11 +58,6 @@
     "description": "A simple quickstart for using ZSH with zgenom. This automatically configures ZSH to use zgenom to load a curated collection of plugins and periodically automatically update itself, the plugins, and the quickstart kit itself."
   },
   {
-    "name": "ZPWR",
-    "url": "https://github.com/MenkeTechnologies/zpwr",
-    "description": "An extremely powerful custom terminal environment built on top of Zinit for maximum speed.  A full terminal configuration framework including zsh, tmux, fzf, vim and spacemacs configurations.  It includes:"
-  },
-  {
     "name": "A Beautifully Productive Terminal Experience",
     "url": "https://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/",
     "description": "Tutorial using a combination of iTerm 2, ZSH, Prezto, Tmux, and Tmuxinator to make for an extremely productive developer workflow."
@@ -877,6 +872,11 @@
     "description": "A parser for zinit commands in .zshrc. It allows to perform the following actions on .zshrc from the command-line - enable and disable plugins add or remove snippets."
   },
   {
+    "name": "ddev",
+    "url": "https://github.com/voronkovich/ddev.plugin.zsh",
+    "description": "A ZSH plugin for the ddev tool for setting up PHP development environments."
+  },
+  {
     "name": "deepx",
     "url": "https://github.com/GetAmbush/deepx-zsh-plugin",
     "description": "Collection of useful and fun commands to improve workflow and quality of life."
@@ -904,7 +904,7 @@
   {
     "name": "diff-so-fancy",
     "url": "https://github.com/z-shell/zsh-diff-so-fancy",
-    "description": "Automatically installs diff-so-fancy and enables its use in ZSH and git."
+    "description": "Automatically nstalls diff-so-fancy and enables its use in ZSH and git."
   },
   {
     "name": "diractions",
@@ -1302,7 +1302,7 @@
   {
     "name": "fzf-z",
     "url": "https://github.com/andrewferrier/fzf-z",
-    "description": "Brings together the z plugin and fzf to allow you to easily browse recently used directories at any point on the command line."
+    "description": "Brings together the *z- plugin and *fzf- to allow you to easily browse recently used directories at any point on the command line."
   },
   {
     "name": "fzy",
@@ -1592,7 +1592,7 @@
   {
     "name": "gtr",
     "url": "https://github.com/Zocker1999NET/zsh-gtr",
-    "description": "Allows fast tagging of a release in git using the tag name release-YYYY-MM-DD-HH-MM and headline Release YYYY-MM-DD HH:MM."
+    "description": "Allows fast tagging of a release in git using the tag name *release-YYYY-MM-DD-HH-MM- and headline Release YYYY-MM-DD HH:MM."
   },
   {
     "name": "guish",
@@ -1910,9 +1910,19 @@
     "description": "Simplify and colorize the output of kubectl get events -w"
   },
   {
+    "name": "kubecolor (trejo08)",
+    "url": "https://github.com/trejo08/kubecolor-zsh",
+    "description": "Prints colorized outputs from  kubectl. Includes helper functions."
+  },
+  {
     "name": "kubectl",
     "url": "https://github.com/mattbangert/kubectl-zsh-plugin",
     "description": "ZSH plugin for managing kubectl."
+  },
+  {
+    "name": "kubectl-config-switcher",
+    "url": "https://github.com/chmouel/kubectl-config-switcher/",
+    "description": "Switch between config files in ~/.kube via the KUBECTL environment variable."
   },
   {
     "name": "kubectx (ptavares)",
@@ -2282,7 +2292,7 @@
   {
     "name": "nvm-lazy",
     "url": "https://github.com/davidparsson/zsh-nvm-lazy",
-    "description": "Plugin for lazy loading of oh-my-zsh's nvm plugin. It supports lazy-loading nvm for more than one binary/entrypoint, with the defaults being nvm, node and npm."
+    "description": "Plugin for lazy loading of oh-my-zsh's *nvm- plugin. It supports lazy-loading nvm for more than one binary/entrypoint, with the defaults being nvm, node and npm."
   },
   {
     "name": "nvm",
@@ -2715,6 +2725,11 @@
     "description": "Makes using command history easier."
   },
   {
+    "name": "redis",
+    "url": "https://github.com/z-shell/redis",
+    "description": "Will run redis-server pointing it to the redis.conf configuration file. This can be used with the zdharma/zredis plugin to share variables between shells."
+  },
+  {
     "name": "reentry-hook",
     "url": "https://github.com/RobSis/zsh-reentry-hook",
     "description": "Plugin that re-enters working directory if it has been removed and re-created."
@@ -2833,6 +2848,11 @@
     "name": "sed-sub",
     "url": "https://github.com/MenkeTechnologies/zsh-sed-sub",
     "description": "Adds keybindings to do global search and replace on current command line."
+  },
+  {
+    "name": "select",
+    "url": "https://github.com/z-shell/zsh-select",
+    "description": "Multi-term searched selection list with approximate matching and uniq mode."
   },
   {
     "name": "send",
@@ -2956,7 +2976,7 @@
   {
     "name": "sudo",
     "url": "https://github.com/hcgraf/zsh-sudo",
-    "description": "The sudo plugin from oh-my-zsh, extracted to a standalone. Toggles sudo before the current/previous command by pressing ESC-ESC in emacs-mode or vi-command mode."
+    "description": "The sudo plugin from oh-my-zsh, extracted to a standalone. Toggles sudo before the current/previous command by pressing *ESC-ESC- in emacs-mode or vi-command mode."
   },
   {
     "name": "suffix-alias",
@@ -3046,7 +3066,7 @@
   {
     "name": "termux",
     "url": "https://github.com/zpm-zsh/termux",
-    "description": "Adds compatibility for Termux"
+    "description": "Adds compatibility for Termux."
   },
   {
     "name": "terraform (hanjunlee)",
@@ -3291,7 +3311,7 @@
   {
     "name": "venv-lite",
     "url": "https://github.com/gimbo/venv-lite.zsh",
-    "description": "A super-lightweight sort-of-clone of virtualenvwrapper; it pretty much expects you to be using pyenv (though you don't have to), and because it's based on the venv module, (creation) only works for python >= 3.3."
+    "description": "A super-lightweight sort-of-clone of virtualenvwrapper; it pretty much expects you to be using pyenv (though you don't *have- to), and because it's based on the venv module, (creation) only works for python >= 3.3."
   },
   {
     "name": "venv-wrapper",
@@ -3868,14 +3888,14 @@
     "description": "Adds autocompletion for cabal."
   },
   {
-    "name": "carapace",
-    "url": "https://github.com/rsteube/carapace",
-    "description": "Completion generator for Bash, Elvish, Fish, Oil, Powershell, Xonsh and ZSH. Note - not dynamic, you have to explicitly run it to generate completions for a command."
-  },
-  {
     "name": "carapace-bin",
     "url": "https://github.com/rsteube/carapace-bin",
     "description": "Multi-shell multi-command argument completer."
+  },
+  {
+    "name": "carapace",
+    "url": "https://github.com/rsteube/carapace",
+    "description": "Completion generator for Bash, Elvish, Fish, Oil, Powershell, Xonsh and ZSH. Note - not dynamic, you have to explicitly run it to generate completions for a command."
   },
   {
     "name": "cargo",
@@ -4603,9 +4623,9 @@
     "description": "An elegant and comfortable-reading theme based on Agnoster."
   },
   {
-    "name": "andy",
-    "url": "https://github.com/andymcguinness/andys-theme",
-    "description": "Modified bira theme with better git support."
+    "name": "amplify",
+    "url": "https://github.com/clintfoster/ohmyzsh-theme-amplify",
+    "description": "Minimalist, includes AWS Amplify envioronment and git status decorations.- andy - Modified bira theme with better git support."
   },
   {
     "name": "angry fly",
@@ -4708,14 +4728,14 @@
     "description": "Shows current directory, git state, return value of last command if it had an error code, number of background jobs, execution time of long-running commands, current python virtualenv."
   },
   {
-    "name": "aub",
-    "url": "https://github.com/FraSharp/aub",
-    "description": "Includes decorations for git and hg status and username at host."
-  },
-  {
     "name": "aterminal",
     "url": "https://github.com/guiferpa/aterminal",
     "description": "Displays Nodejs, NPM, Docker, Go, Python, Elixir and Ruby information in the prompt."
+  },
+  {
+    "name": "aub",
+    "url": "https://github.com/FraSharp/aub",
+    "description": "Includes decorations for git and hg status and username at host."
   },
   {
     "name": "avil",
@@ -4791,6 +4811,11 @@
     "name": "bender",
     "url": "https://github.com/specious/bender",
     "description": "Fancy two-line prompt with git integration."
+  },
+  {
+    "name": "bernkastel",
+    "url": "https://github.com/JamesLaverack/bernkastel",
+    "description": "Based on ys. Includes decorations for kubernetes context, current directory and git status."
   },
   {
     "name": "bgnoster",
@@ -7928,11 +7953,6 @@
     "name": "ultimate",
     "url": "https://github.com/b4b4r07/ultimate",
     "description": "Minimalist theme with git indicator, vim mode indicator and shortened path."
-  },
-  {
-    "name": "unicorn",
-    "url": "https://github.com/juliuscaesar/unicorn",
-    "description": "Inspired by the Wild Cherry theme. Has emoji git status decorations."
   },
   {
     "name": "unit-1",

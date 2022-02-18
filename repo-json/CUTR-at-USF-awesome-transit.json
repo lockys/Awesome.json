@@ -580,11 +580,6 @@
     "description": "A Java-based library for reading, writing, and transforming public transit data in the GTFS format, including database support."
   },
   {
-    "name": "R5: Rapid Realistic Routing on Real-world and Reimagined networks",
-    "url": "https://github.com/conveyal/r5",
-    "description": "A Java-based routing engine for multimodal (transit/bike/walk/car) networks. It currently plans many trips over a time window for analytics purposes, but may eventually support point-to-point journey planning."
-  },
-  {
     "name": "gtfs-sequelize",
     "url": "https://github.com/evansiroky/gtfs-sequelize",
     "description": "Node.js library modeling the static GTFS using sequelize.js."
@@ -840,6 +835,11 @@
     "name": "gtfsr",
     "url": "https://github.com/ropensci/gtfsr",
     "description": "An R package for easily importing, validating, and mapping transit data that follows the General Transit Feed Specification (GTFS) format."
+  },
+  {
+    "name": "R5: Rapid Realistic Routing on Real-world and Reimagined networks",
+    "url": "https://github.com/conveyal/r5",
+    "description": "A Java-based routing engine developed by Conveyal for multimodal (transit/bike/walk/car) networks. It currently plans many trips over a time window for scenario planning and analytics purposes. A related R wrapper package (r5r) is developed independently by IPEA. See also the performance comparison from Higgins et al. (2022), linked below."
   },
   {
     "name": "tidytransit (formerly bustt)",
@@ -1406,6 +1406,11 @@
     "name": "Gramacki et al.",
     "url": "2021",
     "description": "\"gtfs2vec - Learning GTFS Embeddings for comparing Public Transport Offer in Microregions\" - Methology using Uber's H3 spatial index and machine learning to identify areas of \"similar\" public transit service quality in cities. Source code available on GitHub."
+  },
+  {
+    "name": "Higgins et al.",
+    "url": "https://doi.org/10.5198/jtlu.2022.2012",
+    "description": "\"Calculating place-based transit accessibility: Methods, tools and algorithmic dependence\" (2022) - Compares software tools for calculating accessibility by walking and public transit including ArcGIS Pro, Emme, R5R, and OpenTripPlanner."
   },
   {
     "name": "APTA Policy Development and Research",
