@@ -100,6 +100,11 @@
     "description": "Implementations and checkpoints for ResNet variants in Flax. "
   },
   {
+    "name": "Parallax",
+    "url": "https://github.com/srush/parallax",
+    "description": "Immutable Torch Modules for JAX. "
+  },
+  {
     "name": "jax-unirep",
     "url": "https://github.com/ElArkk/jax-unirep",
     "description": "Library implementing the UniRep model for protein machine learning applications. "
@@ -235,6 +240,26 @@
     "description": "Express & compile probabilistic programs for performant inference. "
   },
   {
+    "name": "Einshape",
+    "url": "https://github.com/deepmind/einshape",
+    "description": "DSL-based reshaping library for JAX and other frameworks. "
+  },
+  {
+    "name": "ALX",
+    "url": "https://github.com/google-research/google-research/tree/master/alx",
+    "description": "Open-source library for distributed matrix factorization using Alternating Least Squares, more info in ALX: Large Scale Matrix Factorization on TPUs."
+  },
+  {
+    "name": "Diffrax",
+    "url": "https://github.com/patrick-kidger/diffrax",
+    "description": "Numerical differential equation solvers in JAX. "
+  },
+  {
+    "name": "tinygp",
+    "url": "https://github.com/dfm/tinygp",
+    "description": "The tiniest of Gaussian process libraries in JAX. "
+  },
+  {
     "name": "kalman-jax",
     "url": "https://github.com/AaltoML/kalman-jax",
     "description": "Approximate inference for Markov (i.e., temporal) Gaussian processes using iterated Kalman filtering and smoothing."
@@ -275,6 +300,16 @@
     "description": "Reference code for the paper A General and Adaptive Robust Loss Function."
   },
   {
+    "name": "Symbolic Functionals",
+    "url": "https://github.com/google-research/google-research/tree/master/symbolic_functionals",
+    "description": "Demonstration from Evolving symbolic density functionals."
+  },
+  {
+    "name": "TriMap",
+    "url": "https://github.com/google-research/google-research/tree/master/trimap",
+    "description": "Official JAX implementation of TriMap: Large-scale Dimensionality Reduction Using Triplets."
+  },
+  {
     "name": "Performer",
     "url": "https://github.com/google-research/google-research/tree/master/performer/fast_attention/jax",
     "description": "Flax implementation of the Performer (linear transformer via FAVOR+) architecture."
@@ -283,6 +318,16 @@
     "name": "JaxNeRF",
     "url": "https://github.com/google-research/google-research/tree/master/jaxnerf",
     "description": "Implementation of NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis with multi-device GPU/TPU support."
+  },
+  {
+    "name": "mip-NeRF",
+    "url": "https://github.com/google/mipnerf",
+    "description": "Official implementation of Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields."
+  },
+  {
+    "name": "RegNeRF",
+    "url": "https://github.com/google-research/google-research/tree/master/regnerf",
+    "description": "Official implementation of RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs."
   },
   {
     "name": "Big Transfer (BiT)",
@@ -358,6 +403,71 @@
     "name": "FID computation",
     "url": "https://github.com/matthias-wright/jax-fid",
     "description": "Port of mseitzer/pytorch-fid to Flax."
+  },
+  {
+    "name": "ARDM",
+    "url": "https://github.com/google-research/google-research/tree/master/autoregressive_diffusion",
+    "description": "Official implementation of Autoregressive Diffusion Models."
+  },
+  {
+    "name": "D3PM",
+    "url": "https://github.com/google-research/google-research/tree/master/d3pm",
+    "description": "Official implementation of Structured Denoising Diffusion Models in Discrete State-Spaces."
+  },
+  {
+    "name": "Gumbel-max Causal Mechanisms",
+    "url": "https://github.com/google-research/google-research/tree/master/gumbel_max_causal_gadgets",
+    "description": "Code for Learning Generalized Gumbel-max Causal Mechanisms, with extra code in GuyLor/gumbel_max_causal_gadgets_part2."
+  },
+  {
+    "name": "Latent Programmer",
+    "url": "https://github.com/google-research/google-research/tree/master/latent_programmer",
+    "description": "Code for the ICML 2021 paper Latent Programmer: Discrete Latent Codes for Program Synthesis."
+  },
+  {
+    "name": "SNeRG",
+    "url": "https://github.com/google-research/google-research/tree/master/snerg",
+    "description": "Official implementation of Baking Neural Radiance Fields for Real-Time View Synthesis."
+  },
+  {
+    "name": "Spin-weighted Spherical CNNs",
+    "url": "https://github.com/google-research/google-research/tree/master/spin_spherical_cnns",
+    "description": "Adaptation of Spin-Weighted Spherical CNNs."
+  },
+  {
+    "name": "VDVAE",
+    "url": "https://github.com/google-research/google-research/tree/master/vdvae_flax",
+    "description": "Adaptation of Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images, original code at openai/vdvae."
+  },
+  {
+    "name": "MUSIQ",
+    "url": "https://github.com/google-research/google-research/tree/master/musiq",
+    "description": "Checkpoints and model inference code for the ICCV 2021 paper MUSIQ: Multi-scale Image Quality Transformer"
+  },
+  {
+    "name": "AQuaDem",
+    "url": "https://github.com/google-research/google-research/tree/master/aquadem",
+    "description": "Official implementation of Continuous Control with Action Quantization from Demonstrations."
+  },
+  {
+    "name": "Combiner",
+    "url": "https://github.com/google-research/google-research/tree/master/combiner",
+    "description": "Official implementation of Combiner: Full Attention Transformer with Sparse Computation Cost."
+  },
+  {
+    "name": "Dreamfields",
+    "url": "https://github.com/google-research/google-research/tree/master/dreamfields",
+    "description": "Official implementation of the ICLR 2022 paper Progressive Distillation for Fast Sampling of Diffusion Models."
+  },
+  {
+    "name": "GIFT",
+    "url": "https://github.com/google-research/google-research/tree/master/gift",
+    "description": "Official implementation of Gradual Domain Adaptation in the Wild:When Intermediate Distributions are Absent."
+  },
+  {
+    "name": "Light Field Neural Rendering",
+    "url": "https://github.com/google-research/google-research/tree/master/light_field_neural_rendering",
+    "description": "Official implementation of Light Field Neural Rendering."
   },
   {
     "name": "AlphaFold",
