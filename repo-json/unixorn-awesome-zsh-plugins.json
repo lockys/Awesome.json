@@ -152,6 +152,11 @@
     "description": "Michiel Mulders installation guide for Ubuntu"
   },
   {
+    "name": "One Key Linux Setup",
+    "url": "https://github.com/miracleyoo/one-key-linux-setup",
+    "description": "Simple setup (ubuntu-only) of zsh, oh-my-zsh, tmux, python support and other packages."
+  },
+  {
     "name": "ZSH Gem 24",
     "url": "https://www.refining-linux.org/archives/59-ZSH-Gem-24-ZSH-frameworks.html",
     "description": "Part of the 2011 ZSH Advent Calendar. Covers oh-my-zsh and zshuery."
@@ -575,9 +580,14 @@
     "description": "Adds helper scripts to allow you to create bitbucket PRs or open a directory in the current branch."
   },
   {
-    "name": "bitwarden",
+    "name": "bitwarden (game4move78)",
     "url": "https://github.com/Game4Move78/zsh-bitwarden",
     "description": "Adds functions to manage bitwarden sessions."
+  },
+  {
+    "name": "bitwarden (kalsowerus)",
+    "url": "https://github.com/kalsowerus/zsh-bitwarden",
+    "description": "Opens a fzf widget containing your Bitwarden vault items. Upon selecting an item either the username or password will be either written into the shell or copied into the clipboard. Requires fzf, jq and bitwarden."
   },
   {
     "name": "blackbox",
@@ -818,11 +828,6 @@
     "name": "completion-generator",
     "url": "https://github.com/RobSis/zsh-completion-generator",
     "description": "This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script."
-  },
-  {
-    "name": "completion-zstyles",
-    "url": "https://github.com/zshzoo/completion-zstyles",
-    "description": "Zstyle settings for ZSH completions based on Prezto's."
   },
   {
     "name": "conda",
@@ -1523,6 +1528,11 @@
     "description": "Open a Github/Gitlab repository in your browser from the command line (macOS only)."
   },
   {
+    "name": "github-folders",
+    "url": "https://github.com/buzuloiu/zsh-github-folders",
+    "description": "Organizes your github checkouts for you."
+  },
+  {
     "name": "github",
     "url": "https://github.com/shakir-abdo/zsh-github-plugin",
     "description": "Fork of the original github plugin embedded in oh-my-zsh."
@@ -1533,9 +1543,14 @@
     "description": "Plugin for creating .gitignore files."
   },
   {
-    "name": "gitio",
+    "name": "gitio (denysdovhan)",
     "url": "https://github.com/denysdovhan/gitio-zsh",
     "description": "A ZSH plugin for generating a GitHub short URL using git.io."
+  },
+  {
+    "name": "gitio (nicolodiamante)",
+    "url": "https://github.com/nicolodiamante/gitio",
+    "description": "Uses git.io to shorten git urls."
   },
   {
     "name": "gitstatus",
@@ -2486,6 +2501,11 @@
     "name": "pip-env",
     "url": "https://github.com/iboyperson/zsh-pipenv",
     "description": "Automatic pipenv activation upon entry into a pipenv project."
+  },
+  {
+    "name": "pipenv",
+    "url": "https://github.com/owenstranathan/pipenv.zsh",
+    "description": "Automatically activates a pipenv when entering a directory if there is Pipfile in that directory. Includes pipenv completions."
   },
   {
     "name": "pipx",
@@ -4346,11 +4366,6 @@
     "description": "Completions for pipenv."
   },
   {
-    "name": "pipenv (owenstranathan)",
-    "url": "https://github.com/owenstranathan/pipenv.zsh",
-    "description": "automatically activates a pipenv when entering a directory if there is Pipfile in that directory. Includes pipenv completions."
-  },
-  {
     "name": "pks-autocomplete",
     "url": "https://github.com/tybritten/pks-zsh-autocomplete-plugin",
     "description": "Adds completions for Pivotal's PKS CLI"
@@ -4408,7 +4423,12 @@
   {
     "name": "sfdx-autocomplete",
     "url": "https://github.com/jayree/sfdx-autocomplete-plugin",
-    "description": "autocomplete plugin for sfdx."
+    "description": "Autocomplete plugin for sfdx."
+  },
+  {
+    "name": "speedtest",
+    "url": "https://github.com/Yash-Singh1/zsh-plugin-speedtest",
+    "description": "Tab completions for the speedtest cli."
   },
   {
     "name": "spring-boot-plugin",
@@ -4491,11 +4511,6 @@
     "description": "Pass it a script that uses argparse and it will write a ZSH completion to your current directory."
   },
   {
-    "name": "zstyle-completions",
-    "url": "https://github.com/zshzoo/zstyle-completions",
-    "description": "Gives prezto-style completions when you hit tab."
-  },
-  {
     "name": "000",
     "url": "https://github.com/Abid-Ahmad/oh-my-zsh-000-theme",
     "description": "Multiline prompt with username, hostname, full path, return status and git decorations."
@@ -4509,11 +4524,6 @@
     "name": "14degree",
     "url": "https://github.com/saims0n/14degree-zsh-theme/",
     "description": "Includes git, virtualenv and rvm status decorations."
-  },
-  {
-    "name": "4den",
-    "url": "https://github.com/RunThem/zsh-theme-4den",
-    "description": "Minimalist. Includes git and hg status decorations."
   },
   {
     "name": "aaron",
@@ -5183,7 +5193,12 @@
   {
     "name": "cmder",
     "url": "https://github.com/potasiyam/cmder-zsh-theme",
-    "description": "A ZSH theme that matches the theme of Cmder, a popular terminal emulator for windows."
+    "description": "A ZSH theme that matches the theme of Cmder, a popular terminal emulator for windows. Includes node and git status decorations."
+  },
+  {
+    "name": "cn",
+    "url": "https://github.com/shinqcn/cn-zsh/",
+    "description": "Includes username, directory and git status decorations."
   },
   {
     "name": "cobalt2",
@@ -5674,6 +5689,11 @@
     "description": "A minimal ZSH theme where any function can be added to the left prompt or (async) right prompt on the fly."
   },
   {
+    "name": "gerry",
+    "url": "https://github.com/GerryLarios/gerry-prompt",
+    "description": "Based on bureau, includes decorations for git status, current time, username, hostname and current directory."
+  },
+  {
     "name": "ghoti",
     "url": "https://github.com/lonr/ghoti",
     "description": "Mimics the fish-shell default prompt. Includes git decorations."
@@ -6149,6 +6169,11 @@
     "description": "Includes git decorations."
   },
   {
+    "name": "kalsowerus",
+    "url": "https://github.com/kalsowerus/kalsowerus.zsh-theme",
+    "description": "Colorful powerline-inspired multi-line theme, includes decorations for git status, directory, last command exit status and nvm information."
+  },
+  {
     "name": "karu",
     "url": "https://github.com/zaari/karu",
     "description": "Minimalist single line ZSH prompt."
@@ -6202,11 +6227,6 @@
     "name": "kketcham",
     "url": "https://github.com/prototype27/kketcham",
     "description": "Theme with nifty colors on the git info."
-  },
-  {
-    "name": "klassiker",
-    "url": "https://github.com/mrdotx/zsh-theme",
-    "description": "Very minimal theme with git decorations."
   },
   {
     "name": "korittg",
@@ -7634,6 +7654,11 @@
     "description": "Minimalist theme based on robbyrussel that embeds git status information in iTerm's window title bar instead of using space in the prompt."
   },
   {
+    "name": "simple (rkitover)",
+    "url": "https://github.com/rkitover/sh-prompt-simple",
+    "description": "A simple, lightweight, and nice looking prompt that runs quickly even in very slow shells like MSYS2, Cygwin and WSL. It shows decorations for the short name of the current environment (distribution, OS, etc.) the git branch when in a git checkout, as well as the last command exit status (green checkmark for success and red X mark for non-zero exit.)"
+  },
+  {
     "name": "simple (savecoders)",
     "url": "https://github.com/Savecoders/simpleTheme-zsh-theme",
     "description": "Simple and minimalist theme with git, username and execution status decorations."
@@ -7878,6 +7903,11 @@
     "description": "Minimal ZSH theme optimized for dark backgrounds."
   },
   {
+    "name": "temeraf",
+    "url": "https://github.com/filiptoma/temeraf-zsh",
+    "description": "Minimalist theme with decorations for git status, timestamps and last exit status."
+  },
+  {
     "name": "tepig-ys",
     "url": "https://github.com/thingerpig/tepig-ys.zsh-theme",
     "description": "Includes git status decorations and conda/virtualenv status."
@@ -8033,6 +8063,11 @@
     "description": "Minimalist theme with git indicator, vim mode indicator and shortened path."
   },
   {
+    "name": "ultimator",
+    "url": "https://github.com/Ultimator14/ultimator-zsh-theme",
+    "description": "Agnoster-like theme. Includes decorators for current directory, user@host, python virtualenv, background jobs, last command exit status, and git status information. Requires zsh-git-prompt plugin and Nerdfonts."
+  },
+  {
     "name": "unit-1",
     "url": "https://github.com/nerdbude/Unit-1",
     "description": "Minimalist theme with ITWTB colors."
@@ -8061,6 +8096,11 @@
     "name": "vitesse",
     "url": "https://github.com/rafaeldellaquila/zsh-vitesse-theme/blob/master/img/preview.png",
     "description": "Inspired by VS Code's Vitesse theme. Includes git status decorations."
+  },
+  {
+    "name": "voidy",
+    "url": "https://github.com/rwejdling/voidy",
+    "description": "Borrows elements from lambda and robbyrussell themes and adds the active aws-vault profile to the right side of the prompt."
   },
   {
     "name": "vulcan",
