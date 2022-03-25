@@ -170,6 +170,46 @@
     "description": "An imaginary GTFS data set used for testing."
   },
   {
+    "name": "transitfeed unit tests",
+    "url": "https://github.com/google/transitfeed/tree/master/tests/data",
+    "description": "Test data created for the original Google Python GTFS validator."
+  },
+  {
+    "name": "Transitland GTFS and GTFS Realtime unit tests",
+    "url": "https://github.com/interline-io/transitland-lib",
+    "description": "For testing the transitland-lib library that handles GTFS and GTFS Realtime parsing and validation for Transitland:"
+  },
+  {
+    "name": "GTFS",
+    "url": "https://github.com/interline-io/transitland-lib/tree/master/test/data/bad-entities",
+    "description": "\"bad entities\" at the single row level"
+  },
+  {
+    "name": "GTFS",
+    "url": "https://github.com/interline-io/transitland-lib/tree/master/test/data/validator/errors",
+    "description": "validation errors that that involve entities in one or more files"
+  },
+  {
+    "name": "GTFS",
+    "url": "https://github.com/interline-io/transitland-lib/tree/master/test/data/validator/best-practices",
+    "description": "best practices"
+  },
+  {
+    "name": "GTFS Realtime",
+    "url": "https://github.com/interline-io/transitland-server/tree/main/test/data/rt",
+    "description": "JSON test cases that are turned into PB contents"
+  },
+  {
+    "name": "gtfs-realtime-validator unit tests",
+    "url": "https://github.com/MobilityData/gtfs-realtime-validator/tree/master/gtfs-realtime-validator-lib/src/test/",
+    "description": "Some GTFS datasets (zip files) are included and a large number of GTFS RT messages are defined programmatically in Java via the gtfs-realtime-bindings library."
+  },
+  {
+    "name": "OpenTripPlanner unit tests",
+    "url": "https://github.com/opentripplanner/OpenTripPlanner/tree/dev-2.x/src/test",
+    "description": "Some GTFS datasets are defined for the unit tests (GtfsTest and mmri folder)."
+  },
+  {
     "name": "GraphHopper Routing Engine Open source routing engine for OpenStreetMap. Use it as Java library or server.",
     "url": "https://github.com/graphhopper/graphhopper/#public-transit"
   },
@@ -794,12 +834,19 @@
     "description": "Python script that generates missing shapes.txt for GTFS using routing from Google Maps Directions API or OSRM."
   },
   {
-    "name": "GTFS Editor A (self-hosted) web-based GTFS editing framework. (Note: this project has been deprecated in favor of IBI Data Tools.)",
-    "url": "https://github.com/conveyal/gtfs-editor"
+    "name": "gtfs-blocks-to-transfers",
+    "url": "https://github.com/TransitApp/GTFS-blocks-to-transfers",
+    "description": "A Python tool to convert GTFS blocks, defined by setting trip.block_id into a series of trip-to-trip transfers (proposal)."
   },
   {
-    "name": "GTFS Editor for Vagrant Quickly set up the GTFS editor (above) using Vagrant",
-    "url": "https://github.com/laidig/vagrant-gtfs-editor"
+    "name": "GTFS Editor",
+    "url": "https://github.com/conveyal/gtfs-editor",
+    "description": "A (self-hosted) web-based GTFS editing framework. (Note: this project has been deprecated in favor of IBI Data Tools.)"
+  },
+  {
+    "name": "GTFS Editor for Vagrant",
+    "url": "https://github.com/laidig/vagrant-gtfs-editor",
+    "description": "Quickly set up the GTFS editor (above) using Vagrant"
   },
   {
     "name": "static-GTFS-manager",
