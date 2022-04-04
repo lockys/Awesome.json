@@ -145,11 +145,6 @@
     "description": "Universal database tool for developers, DBAs and analysts."
   },
   {
-    "name": "HouseOps",
-    "url": "https://github.com/HouseOps/HouseOps",
-    "description": "Enterprise ClickHouse Ops UI for you run querys, monitoring ClickHouse health and make a lot of others thinks."
-  },
-  {
     "name": "JackDB",
     "url": "https://www.jackdb.com",
     "description": "Direct SQL access to all your data, no matter where it lives."
@@ -345,54 +340,14 @@
     "description": "Vertica CLI with auto-completion and syntax highlighting."
   },
   {
-    "name": "dbdiagram.io",
-    "url": "https://dbdiagram.io",
-    "description": "Quick and simple tool for help you draw your database relationship diagrams and flow quickly using simple DSL language."
-  },
-  {
-    "name": "ERAlchemy",
-    "url": "https://github.com/Alexis-benoist/eralchemy",
-    "description": "Entity Relation Diagrams generation tool."
-  },
-  {
-    "name": "SchemaCrawler",
-    "url": "https://github.com/schemacrawler/SchemaCrawler",
-    "description": "A free database schema discovery and comprehension tool."
-  },
-  {
-    "name": "Schema Spy",
-    "url": "https://github.com/schemaspy/schemaspy",
-    "description": "Generating your database to HTML documentation, including Entity Relationship diagrams."
-  },
-  {
-    "name": "tbls",
-    "url": "https://github.com/k1LoW/tbls",
-    "description": "CI-Friendly tool for document a database, written in Go."
-  },
-  {
-    "name": "ERBuilder Data Modeler",
-    "url": "https://soft-builder.com/erbuilder-data-modeler",
-    "description": "Easy-to-use database modeling software for high-quality data models. It's a complete data modeling solution for data modelers and data architects."
-  },
-  {
-    "name": "Navicat Data Modeler",
-    "url": "https://www.navicat.com/en/products/navicat-data-modeler",
-    "description": "A powerful and cost-effective database design tool which helps you build high-quality conceptual, logical and physical data models."
-  },
-  {
-    "name": "Oracle SQL Developer Data Modeler",
-    "url": "http://www.oracle.com/technetwork/developer-tools/datamodeler/overview/index.html",
-    "description": "Oracle SQL Developer Data Modeler is a free graphical tool that enhances productivity and simplifies data modeling tasks."
-  },
-  {
-    "name": "pgmodeler",
-    "url": "https://github.com/pgmodeler/pgmodeler",
-    "description": "Data modeling tool designed for PostgreSQL."
-  },
-  {
     "name": "2bass",
     "url": "https://github.com/CourseOrchestra/2bass",
     "description": "Database configuration-as-code tool that utilizes concept of idempotent DDL scripts."
+  },
+  {
+    "name": "Atlas",
+    "url": "https://github.com/ariga/atlas",
+    "description": "Inspect and Apply changes to your database schema."
   },
   {
     "name": "Bytebase",
@@ -435,6 +390,11 @@
     "description": "Provides utilities to describe a PostgreSQL database schema as YAML."
   },
   {
+    "name": "Reshape",
+    "url": "https://github.com/fabianlindfors/reshape",
+    "description": "An easy-to-use, zero-downtime schema migration tool for Postgres."
+  },
+  {
     "name": "SchemaHero",
     "url": "https://github.com/schemahero/schemahero",
     "description": "A Kubernetes operator for declarative database schema management (gitops for database schemas)."
@@ -443,6 +403,11 @@
     "name": "Sqitch",
     "url": "https://github.com/sqitchers/sqitch",
     "description": "Sensible database-native change management for framework-free development and dependable deployment."
+  },
+  {
+    "name": "sqldef",
+    "url": "https://github.com/k0kubun/sqldef",
+    "description": "Idempotent schema management for MySQL, PostgreSQL, and more."
   },
   {
     "name": "yuniql",
@@ -460,14 +425,64 @@
     "description": "Command line util for export Oracle schema to set of ddl init scripts with ability to filter undesirable information, separate DDL in different files, pretty format output."
   },
   {
-    "name": "mysql_fdw",
-    "url": "https://github.com/EnterpriseDB/mysql_fdw",
-    "description": "PostgreSQL foreign data wrapper for MySQL."
+    "name": "ERAlchemy",
+    "url": "https://github.com/Alexis-benoist/eralchemy",
+    "description": "Entity Relation Diagrams generation tool."
   },
   {
-    "name": "Saltcorn",
-    "url": "https://github.com/saltcorn/saltcorn",
-    "description": "Open source no-code builder for web datatabase applications. Server and drag-and-drop UI builder, data stored in PostgreSQL or SQLite."
+    "name": "dbdocs",
+    "url": "https://dbdocs.io/",
+    "description": "Create web-based database documentation using DSL code."
+  },
+  {
+    "name": "DBML",
+    "url": "https://github.com/holistics/dbml",
+    "description": "Database Markup Language, designed to define and document database structures."
+  },
+  {
+    "name": "SchemaCrawler",
+    "url": "https://github.com/schemacrawler/SchemaCrawler",
+    "description": "A free database schema discovery and comprehension tool."
+  },
+  {
+    "name": "Schema Spy",
+    "url": "https://github.com/schemaspy/schemaspy",
+    "description": "Generating your database to HTML documentation, including Entity Relationship diagrams."
+  },
+  {
+    "name": "tbls",
+    "url": "https://github.com/k1LoW/tbls",
+    "description": "CI-Friendly tool for document a database, written in Go."
+  },
+  {
+    "name": "DBDiagram",
+    "url": "https://dbdiagram.io",
+    "description": "A free, simple tool to draw ER diagrams by just writing code."
+  },
+  {
+    "name": "ERBuilder Data Modeler",
+    "url": "https://soft-builder.com/erbuilder-data-modeler",
+    "description": "Easy-to-use database modeling software for high-quality data models. It's a complete data modeling solution for data modelers and data architects."
+  },
+  {
+    "name": "Navicat Data Modeler",
+    "url": "https://www.navicat.com/en/products/navicat-data-modeler",
+    "description": "A powerful and cost-effective database design tool which helps you build high-quality conceptual, logical and physical data models."
+  },
+  {
+    "name": "Oracle SQL Developer Data Modeler",
+    "url": "http://www.oracle.com/technetwork/developer-tools/datamodeler/overview/index.html",
+    "description": "Oracle SQL Developer Data Modeler is a free graphical tool that enhances productivity and simplifies data modeling tasks."
+  },
+  {
+    "name": "pgmodeler",
+    "url": "https://github.com/pgmodeler/pgmodeler",
+    "description": "Data modeling tool designed for PostgreSQL."
+  },
+  {
+    "name": "Oracle Database Sample Schemas",
+    "url": "https://github.com/oracle/db-sample-schemas",
+    "description": "Oracle Database Sample Schemas."
   },
   {
     "name": "Datasette",
@@ -520,6 +535,16 @@
     "description": "Automatically generate a RESTful API service for your legacy database."
   },
   {
+    "name": "Budibase",
+    "url": "https://github.com/Budibase/budibase",
+    "description": "Low-code platform for creating internal apps in minutes."
+  },
+  {
+    "name": "Saltcorn",
+    "url": "https://github.com/saltcorn/saltcorn",
+    "description": "Open source no-code builder for web datatabase applications. Server and drag-and-drop UI builder, data stored in PostgreSQL or SQLite."
+  },
+  {
     "name": "BaRMan",
     "url": "https://github.com/2ndquadrant-it/barman",
     "description": "Backup and Recovery Manager for PostgreSQL."
@@ -548,36 +573,6 @@
     "name": "Spawn",
     "url": "https://spawn.cc/",
     "description": "Cloud service for creating instant database copies for development and CI. No more local db installs, instant recovery to arbitrary save points, isolated copies for each feature branch or test. Instant provisioning regardless of database size."
-  },
-  {
-    "name": "dtle",
-    "url": "https://github.com/actiontech/dtle",
-    "description": "Distributed Data Transfer Service for MySQL."
-  },
-  {
-    "name": "Litestream",
-    "url": "https://github.com/benbjohnson/litestream",
-    "description": "Streaming replication for SQLite."
-  },
-  {
-    "name": "pgsync",
-    "url": "https://github.com/ankane/pgsync",
-    "description": "Sync Postgres data between databases."
-  },
-  {
-    "name": "pg_chameleon",
-    "url": "https://github.com/the4thdoctor/pg_chameleon",
-    "description": "MySQL to PostgreSQL replica system written in Python 3. The system use the library mysql-replication to pull the row images from MySQL which are stored into PostgreSQL as JSONB."
-  },
-  {
-    "name": "PGDeltaStream",
-    "url": "https://github.com/hasura/pgdeltastream",
-    "description": "A Golang webserver to stream Postgres changes atleast-once over websockets, using Postgres logical decoding feature."
-  },
-  {
-    "name": "repmgr",
-    "url": "https://github.com/2ndQuadrant/repmgr",
-    "description": "The Most Popular Replication Manager for PostgreSQL."
   },
   {
     "name": "DBA MultiTool",
@@ -660,6 +655,11 @@
     "description": "New-generation diagnostics tool that allows users to do a deep analysis of the health of Postgres databases."
   },
   {
+    "name": "pgbadger",
+    "url": "https://github.com/dalibo/pgbadger",
+    "description": "A fast PostgreSQL Log Analyzer."
+  },
+  {
     "name": "pgDash",
     "url": "https://pgdash.io",
     "description": "Measure and track every aspect of your PostgreSQL databases."
@@ -688,6 +688,11 @@
     "name": "pgwatch2",
     "url": "https://github.com/cybertec-postgresql/pgwatch2",
     "description": "Flexible self-contained PostgreSQL metrics monitoring/dashboarding solution."
+  },
+  {
+    "name": "Promscale",
+    "url": "https://github.com/timescale/promscale",
+    "description": "The open-source observability backend for metrics and traces powered by SQL."
   },
   {
     "name": "Telegraf PostgreSQL plugin",
@@ -740,49 +745,9 @@
     "description": "Regression Testing your SQL queries."
   },
   {
-    "name": "Databene Benerator",
-    "url": "https://sourceforge.net/projects/benerator",
-    "description": "It is a framework for generating realistic and valid high-volume test data for your system under test (avoiding the Datalite anti-pattern)."
-  },
-  {
-    "name": "dbForge Data Generator for MySQL",
-    "url": "https://www.devart.com/dbforge/mysql/data-generator",
-    "description": "Powerful GUI tool for creating massive volumes of realistic test data."
-  },
-  {
-    "name": "dbForge Data Generator for Oracle",
-    "url": "https://www.devart.com/dbforge/oracle/data-generator",
-    "description": "Small but mighty GUI tool for populating Oracle schemas with tons of realistic test data."
-  },
-  {
-    "name": "dbForge Data Generator for SQL Server",
-    "url": "https://www.devart.com/dbforge/sql/data-generator",
-    "description": "Powerful GUI tool for a fast generation of meaningful test data for databases."
-  },
-  {
-    "name": "Noisia",
-    "url": "https://github.com/lesovsky/noisia",
-    "description": "Harmful workload generator for PostgreSQL."
-  },
-  {
-    "name": "SB Data Generator",
-    "url": "https://soft-builder.com/sb-data-generator",
-    "description": "Simple and powerful tool to generate and populate selected tables or entire databases with realistic test data for your applications. Generate test data for: Oracle, MS SQL Server, MySQL, PostgreSQL, Firebird, SQLite, Azure SQL Database, Amazon Redshift and Amazon RDS."
-  },
-  {
-    "name": "pgbadger",
-    "url": "https://github.com/dalibo/pgbadger",
-    "description": "A fast PostgreSQL Log Analyzer."
-  },
-  {
-    "name": "pgbedrock",
-    "url": "https://github.com/Squarespace/pgbedrock",
-    "description": "Manage a Postgres cluster's roles, role memberships, schema ownership, and privileges."
-  },
-  {
-    "name": "pgslice",
-    "url": "https://github.com/ankane/pgslice",
-    "description": "Postgres partitioning as easy as pie."
+    "name": "SQLancer",
+    "url": "https://github.com/sqlancer/sqlancer",
+    "description": "Automatically test DBMS in order to find logic bugs in their implementation."
   },
   {
     "name": "Citus",
@@ -813,6 +778,11 @@
     "name": "pglookout",
     "url": "https://github.com/aiven/pglookout",
     "description": "PostgreSQL replication monitoring and failover daemon."
+  },
+  {
+    "name": "pgslice",
+    "url": "https://github.com/ankane/pgslice",
+    "description": "Postgres partitioning as easy as pie."
   },
   {
     "name": "PostgreSQL Automatic Failover",
@@ -878,11 +848,6 @@
     "name": "Toad DevOps Toolkit",
     "url": "https://www.quest.com/products/toad-devops-toolkit/",
     "description": "Toad DevOps Toolkit executes key database development functions within your DevOps workflow —without compromising quality, performance or reliability."
-  },
-  {
-    "name": "Oracle Database Sample Schemas",
-    "url": "https://github.com/oracle/db-sample-schemas",
-    "description": "Oracle Database Sample Schemas."
   },
   {
     "name": "Chartbrew",
@@ -1010,6 +975,11 @@
     "description": "Non-validating SQL parser for Python."
   },
   {
+    "name": "CloudQuery",
+    "url": "https://github.com/cloudquery/cloudquery",
+    "description": "Extracts, transforms, and loads your cloud assets into normalized PostgreSQL tables."
+  },
+  {
     "name": "csvq",
     "url": "https://github.com/mithrandie/csvq",
     "description": "SQL-like query language for CSV."
@@ -1023,6 +993,16 @@
     "name": "OctoSQL",
     "url": "https://github.com/cube2222/octosql",
     "description": "Query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL."
+  },
+  {
+    "name": "Resmo",
+    "url": "https://www.resmo.com",
+    "description": "Audit and evaluate resources using SQL."
+  },
+  {
+    "name": "Steampipe",
+    "url": "https://github.com/turbot/steampipe",
+    "description": "Use SQL to instantly query your cloud services (AWS, Azure, GCP and more)."
   },
   {
     "name": "TextQL",
@@ -1043,6 +1023,76 @@
     "name": "sqls",
     "url": "https://github.com/lighttiger2505/sqls",
     "description": "SQL Language Server written in Go."
+  },
+  {
+    "name": "dbt",
+    "url": "https://github.com/dbt-labs/dbt-core",
+    "description": "Transform your data by simply writing select statements, while dbt handles turning these statements into tables and views in a data warehouse."
+  },
+  {
+    "name": "Benerator",
+    "url": "https://github.com/rapiddweller/rapiddweller-benerator-ce",
+    "description": "Generate, obfuscate (anonymize / pseudonymize) and migrate data for development, testing and training purposes."
+  },
+  {
+    "name": "dbForge Data Generator for MySQL",
+    "url": "https://www.devart.com/dbforge/mysql/data-generator",
+    "description": "Powerful GUI tool for creating massive volumes of realistic test data."
+  },
+  {
+    "name": "dbForge Data Generator for Oracle",
+    "url": "https://www.devart.com/dbforge/oracle/data-generator",
+    "description": "Small but mighty GUI tool for populating Oracle schemas with tons of realistic test data."
+  },
+  {
+    "name": "dbForge Data Generator for SQL Server",
+    "url": "https://www.devart.com/dbforge/sql/data-generator",
+    "description": "Powerful GUI tool for a fast generation of meaningful test data for databases."
+  },
+  {
+    "name": "Faker",
+    "url": "https://github.com/faker-js/faker",
+    "description": "Generate massive amounts of fake data in the browser and Node.js."
+  },
+  {
+    "name": "Noisia",
+    "url": "https://github.com/lesovsky/noisia",
+    "description": "Harmful workload generator for PostgreSQL."
+  },
+  {
+    "name": "SB Data Generator",
+    "url": "https://soft-builder.com/sb-data-generator",
+    "description": "Simple and powerful tool to generate and populate selected tables or entire databases with realistic test data for your applications. Generate test data for: Oracle, MS SQL Server, MySQL, PostgreSQL, Firebird, SQLite, Azure SQL Database, Amazon Redshift and Amazon RDS."
+  },
+  {
+    "name": "dtle",
+    "url": "https://github.com/actiontech/dtle",
+    "description": "Distributed Data Transfer Service for MySQL."
+  },
+  {
+    "name": "Litestream",
+    "url": "https://github.com/benbjohnson/litestream",
+    "description": "Streaming replication for SQLite."
+  },
+  {
+    "name": "pgsync",
+    "url": "https://github.com/ankane/pgsync",
+    "description": "Sync Postgres data between databases."
+  },
+  {
+    "name": "pg_chameleon",
+    "url": "https://github.com/the4thdoctor/pg_chameleon",
+    "description": "MySQL to PostgreSQL replica system written in Python 3. The system use the library mysql-replication to pull the row images from MySQL which are stored into PostgreSQL as JSONB."
+  },
+  {
+    "name": "PGDeltaStream",
+    "url": "https://github.com/hasura/pgdeltastream",
+    "description": "A Golang webserver to stream Postgres changes atleast-once over websockets, using Postgres logical decoding feature."
+  },
+  {
+    "name": "repmgr",
+    "url": "https://github.com/2ndQuadrant/repmgr",
+    "description": "The Most Popular Replication Manager for PostgreSQL."
   },
   {
     "name": "The \"Database as Code\" Manifesto",
