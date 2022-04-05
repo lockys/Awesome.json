@@ -5,6 +5,11 @@
     "description": "C² tracking and malware database."
   },
   {
+    "name": "Dataset of Packed ELF",
+    "url": "https://github.com/dhondta/dataset-packed-elf",
+    "description": "Dataset of packed ELF samples."
+  },
+  {
     "name": "Dataset of Packed PE",
     "url": "https://github.com/dhondta/dataset-packed-pe",
     "description": "Sanitized version of the original dataset, PackingData, removing packed samples from the Notpacked folder but also samples in packer folders that failed to be packed (having a same hash as the original unpacked executable)."
@@ -92,7 +97,7 @@
   {
     "name": "VX Underground",
     "url": "https://vx-underground.org/samples.html",
-    "description": "PL-CERT based open source MWDB python application holding a malware database containing every APT sample from 2010 and over 7.5M malicious"
+    "description": "PL-CERT based open source MWDB python application holding a malware database containing every APT sample from 2010 and over 7.5M maliciousbinaries."
   },
   {
     "name": "VXvault",
@@ -475,6 +480,11 @@
     "description": "Executable packer / protector based on open source engines Morphine and AHPack."
   },
   {
+    "name": "HackStop",
+    "url": "https://defacto2.net/f/a520164?packer=hs",
+    "description": "EXE and COM programs encrypter and protector."
+  },
+  {
     "name": "Kkrunchy",
     "url": "http://www.farbrausch.de/~fg/kkrunchy",
     "description": "Kkrunchy is a small exe packer primarily meant for 64k intros."
@@ -505,6 +515,16 @@
     "description": "Compresses your executables and dynamic link libraries in a way that keeps them small and has no effect on compressed file functionality."
   },
   {
+    "name": "RSCC",
+    "url": "https://defacto2.net/f/a520164?packer=rscc",
+    "description": "ROSE Super COM Crypt ; polymorph cryptor for files greater than 300-400B and smaller than 60kB."
+  },
+  {
+    "name": "RUCC",
+    "url": "https://defacto2.net/f/a520164?packer=rucc",
+    "description": "ROSE Ultra COM Compressor ; COM and EXE compression utility based on 624."
+  },
+  {
     "name": "Sentinel HASP Envelope",
     "url": "https://cpl.thalesgroup.com/en-gb/software-monetization/all-products/sentinel-hasp",
     "description": "Wrapping application that protects the target application with a secure shield, providing a means to counteract reverse engineering and other anti-debugging measures."
@@ -528,6 +548,11 @@
     "name": "TTProtect",
     "url": "http://www.ttprotect.com",
     "description": "Professional protection tool designed for software developers to protect their PE applications against illegal modification or decompilation."
+  },
+  {
+    "name": "UPX-Scrambler",
+    "url": "https://defacto2.net/f/a520164?packer=upxs",
+    "description": "Scrambler for files packed with UPX (up to 1.06) so that they cannot be unpacked with the '-d' option."
   },
   {
     "name": "WinLite",
@@ -555,6 +580,11 @@
     "description": "Free, open source, Windows 32-bit software protector."
   },
   {
+    "name": "$PIRIT",
+    "url": "https://defacto2.net/f/a520164?packer=%24pirit",
+    "description": "COM/EXE executable files polymorphic encryptor."
+  },
+  {
     "name": "32Lite",
     "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/32lte02d.zip",
     "description": "Compression tool for executable files created with Watcom C/C++ compiler."
@@ -565,9 +595,19 @@
     "description": "COM packer that can compress COM programs shorter than 25000 bytes."
   },
   {
-    "name": "AinEXE",
+    "name": "ABK Scrambler",
+    "url": "https://defacto2.net/f/a520164?packer=abk-scrambler",
+    "description": "COM file scrambler and protector recoded from ABKprot."
+  },
+  {
+    "name": "AEP",
+    "url": "https://defacto2.net/f/a520164?packer=aep",
+    "description": "Addition Encode-Protective for COM and EXE file."
+  },
+  {
+    "name": "AINEXE",
     "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/ain232.zip",
-    "description": "DOS executable packer."
+    "description": "DOS executable packer (part of the AIN Archiver suite)."
   },
   {
     "name": "aPack",
@@ -585,14 +625,79 @@
     "description": "Program compression utility."
   },
   {
+    "name": "BIN-Lock",
+    "url": "https://defacto2.net/f/a520164?packer=bin-lock",
+    "description": "COM file scrambler for preventing reverse engineering."
+  },
+  {
+    "name": "BitLok",
+    "url": "https://defacto2.net/f/a520164?packer=bitlok",
+    "description": "COM and EXE file protector."
+  },
+  {
+    "name": "C0NtRiVER",
+    "url": "https://defacto2.net/f/a520164?packer=c0ntriver",
+    "description": "COM file encryptor."
+  },
+  {
+    "name": "CauseWay Compressor",
+    "url": "https://github.com/tkchia/causeway/tree/1ead4be14c9e536262e225f090b40b0c6cded286/watcom",
+    "description": "DOS EXE compressor."
+  },
+  {
+    "name": "CC Pro",
+    "url": "https://defacto2.net/f/a520164?packer=ccpro",
+    "description": "COM and EXE executable file compression utility."
+  },
+  {
     "name": "CEXE",
     "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/cexe10a.zip",
     "description": "Compresses an input EXE into a smaller executable (only runs on WinNT, Win2000 and above - won't run on Win95 or Win98)."
   },
   {
+    "name": "COMProtector",
+    "url": "https://defacto2.net/f/a520164?packer=comprotector",
+    "description": "Adds a security envelope around DOS .COM files by randomly encrypting it and adding several anti-debugging tricks."
+  },
+  {
+    "name": "CrackStop",
+    "url": "https://defacto2.net/f/a520164?packer=crackstop",
+    "description": "Tool that creates a security  envelope around a DOS EXE file to protect it against crackers."
+  },
+  {
+    "name": "Crunch",
+    "url": "https://defacto2.net/f/a520164?packer=crunch",
+    "description": "File encryptor for COM and EXE files."
+  },
+  {
     "name": "EPack",
     "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/epack16.zip",
     "description": "EXE and COM file compressor ; works with DOS/Windows95 files."
+  },
+  {
+    "name": "ExeGuard",
+    "url": "https://defacto2.net/f/a520164?packer=exeguard",
+    "description": "DOS EXE files free protector using anti-debugging ticks to prevent hacking, analysis and unpacking."
+  },
+  {
+    "name": "EXELOCK 666",
+    "url": "https://defacto2.net/f/a520164?packer=exelock666",
+    "description": "Utility for protecting .EXE files so no lamers can hack out the copyright."
+  },
+  {
+    "name": "FSE",
+    "url": "https://defacto2.net/f/a520164?packer=fse",
+    "description": "Final Fantasy Security Envelope freeware for protecting COM and EXE progams."
+  },
+  {
+    "name": "Gardian Angel",
+    "url": "https://defacto2.net/f/a520164?packer=gardian-angel",
+    "description": "COM and EXE encrypter and protector using a variety of anti-debugging tricks."
+  },
+  {
+    "name": "JMCryptExe",
+    "url": "https://defacto2.net/f/a520164?packer=jmce",
+    "description": "DOS EXE encrypter."
   },
   {
     "name": "LGLZ",
@@ -601,8 +706,13 @@
   },
   {
     "name": "LzExe",
-    "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/lzexe100.zip",
+    "url": "https://defacto2.net/f/a520164?packer=lzexe",
     "description": "MS-DOS executable file compressor."
+  },
+  {
+    "name": "Mask",
+    "url": "https://defacto2.net/f/a520164?packer=mask",
+    "description": "Tool that prevents COM program from being cracked by using encryption and anti-debugging tricks."
   },
   {
     "name": "Megalite",
@@ -610,8 +720,14 @@
     "description": "MS-DOS executable file compressor."
   },
   {
+    "name": "Mess",
+    "url": "https://defacto2.net/f/a520164?packer=mess",
+    "description": "This tool does the same as HackStop, with the exception that it is freeware for non-commercial use."
+  },
+  {
     "name": "Neolite",
-    "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/neolte20.zip"
+    "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/neolte20.zip",
+    "description": "Compresses Windows 32-bit EXE files and DLLs."
   },
   {
     "name": "PACK",
@@ -631,7 +747,7 @@
   {
     "name": "PE-Protector",
     "url": "https://web.archive.org/web/20030324043555/https://www.exetools.com/files/protectors/win/pe-protector10.zip",
-    "description": "Encrypter/protector for Windows 9x/ME to protect executable files PE"
+    "description": "Encrypter/protector for Windows 9x/ME to protect executable files PEagainst reverse engineering or cracking with a very strong protection."
   },
   {
     "name": "PEBundle",
@@ -644,6 +760,11 @@
     "description": "PE compression tool based on the code of a newer version of PE-SHiELD."
   },
   {
+    "name": "PKlite",
+    "url": "https://defacto2.net/f/a520164?packer=pklite",
+    "description": "Easy-to-use file compression program for compressing DOS and Windows executable files."
+  },
+  {
     "name": "Pro-Pack",
     "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/pp219.zip",
     "description": "DOS executable file compressor."
@@ -652,6 +773,11 @@
     "name": "RJCrush",
     "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/rjcru110.zip",
     "description": "EXE and COM files compressor with the ability to compress overlays."
+  },
+  {
+    "name": "Scorpion",
+    "url": "https://defacto2.net/f/a520164?packer=scorpion",
+    "description": "EXE and COM file encrypter and protector."
   },
   {
     "name": "SecuPack",
@@ -674,19 +800,34 @@
     "description": "EXE and COM programs compressor."
   },
   {
+    "name": "TRAP",
+    "url": "https://defacto2.net/f/a520164?packer=trap",
+    "description": "EXE and COM files encrypter and protector."
+  },
+  {
     "name": "Vacuum",
     "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/vacuum.zip",
     "description": "Runtime Compressor for DOS32 executables."
   },
   {
     "name": "WWPack",
-    "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/wwp305b5.zip",
+    "url": "https://defacto2.net/f/a520164?packer=wwpack",
     "description": "Squeezes EXE files, compresses relocation tables, optimizes headers, protects EXE files from hacking."
   },
   {
     "name": "XE",
-    "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/xe145-0119.zip",
-    "description": "DOS executable compression utility."
+    "url": "https://defacto2.net/f/a520164?packer=xe",
+    "description": "PE32 image file packer and rebuilder."
+  },
+  {
+    "name": "XorCopy",
+    "url": "https://defacto2.net/f/a520164?packer=xorcopy",
+    "description": "COM file XOR-based encrypter."
+  },
+  {
+    "name": "XORER",
+    "url": "https://defacto2.net/f/a520164?packer=xorer",
+    "description": "COM file XOR-based encrypter."
   },
   {
     "name": "XPA",
@@ -695,8 +836,8 @@
   },
   {
     "name": "XPack",
-    "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/xpak167m.zip",
-    "description": "PE32 image file packer and rebuilder."
+    "url": "https://defacto2.net/f/a520164?packer=xpack",
+    "description": "EXE/COM/SYS executable file compressor."
   },
   {
     "name": ".NET Deobfuscator",
@@ -707,6 +848,11 @@
     "name": "Android Unpacker",
     "url": "https://github.com/strazzere/android-unpacker",
     "description": "Android Unpacker presented at Defcon 22: Android Hacker Protection Level 0."
+  },
+  {
+    "name": "Angr",
+    "url": "https://github.com/angr/angr",
+    "description": "Platform-agnostic binary analysis framework."
   },
   {
     "name": "APKiD",
@@ -749,9 +895,19 @@
     "description": "Analysis platform that features a novel fusion of static and dynamic analysis techniques, mixed concrete and symbolic execution, and whole-system emulation and binary instrumentation, all to facilitate state-of-the art research on real security problems."
   },
   {
+    "name": "ChkEXE",
+    "url": "https://defacto2.net/f/a91dea6?dosmachine=svga&dosspeed=max",
+    "description": "Identifies almost any EXE/COM packer, crypter or protector."
+  },
+  {
     "name": "Clamscan Unpacker",
     "url": "https://clamunpacker.sourceforge.io/",
     "description": "Unpacker derived from ClamAV."
+  },
+  {
+    "name": "COM2EXE",
+    "url": "https://defacto2.net/f/a520164?tool=com2exe",
+    "description": "Free tool for converting COM files to EXE format."
   },
   {
     "name": "de4dot",
@@ -764,9 +920,19 @@
     "description": "JavaScript Deobfuscator and Unpacker."
   },
   {
+    "name": "Defacto2 Analyzers Archive",
+    "url": "https://defacto2.net/f/aa2e6ec",
+    "description": "Collection of 60 binary files analysers for MS-DOS and Windows32 from the 1990s and the 2000s."
+  },
+  {
     "name": "Defacto2 Packers Archive",
     "url": "https://defacto2.net/f/a520164",
-    "description": "MS-DOS & Windows32 binary file packers."
+    "description": "Collection of 460 binary and data file packers for MS-DOS and Windows32 from the 1990s and 2000s."
+  },
+  {
+    "name": "Defacto2 Unpackers Archive",
+    "url": "https://defacto2.net/f/a218ab4",
+    "description": "Collection of 152 binary files unpackers for MS-DOS and Windows 32 from the 1990s and 2000s."
   },
   {
     "name": "DIE",
@@ -794,6 +960,11 @@
     "description": "Fast detector for executable PE files."
   },
   {
+    "name": "ExeScan",
+    "url": "https://defacto2.net/f/ae2c42e",
+    "description": "Executable file analyzer which detects the most famous  EXE/COM Protectors, Packers, Converters and compilers."
+  },
+  {
     "name": "EXETools",
     "url": "https://forum.exetools.com",
     "description": "Forum for reverse engineering and executale packing related topics."
@@ -804,6 +975,11 @@
     "description": "Fast Universal Unpacker."
   },
   {
+    "name": "GetTyp",
+    "url": "https://www.helger.com/gt/gt.htm",
+    "description": "File format detection program for DOS based on special strings and byte code."
+  },
+  {
     "name": "GUnpacker",
     "url": "http://qunpack.ahteam.org/?p=327",
     "description": "Shell tool that performs OEP positioning and dumps decrypted code."
@@ -812,6 +988,16 @@
     "name": "Justin",
     "url": "https://doi.org/10.1007/978-3-540-87403-4_6",
     "description": "Just-In-Time AV scanning ; generic unpacking solution."
+  },
+  {
+    "name": "Language 2000",
+    "url": "https://farrokhi.net/language",
+    "description": "Ultimate compiler detection utility."
+  },
+  {
+    "name": "LIEF",
+    "url": "https://github.com/lief-project/LIEF",
+    "description": "Library to Instrument Executable Formats ; Python package for parsing PE, ELF, Mach-O and DEX formats, modifying and rebuilding executables."
   },
   {
     "name": "Malheur",
@@ -874,6 +1060,11 @@
     "description": "Extension to the Bochs PC eumlator to enable it to monitor execution of the unpacking stubs for extracting the original code."
   },
   {
+    "name": "PCjs",
+    "url": "https://www.pcjs.org",
+    "description": "PCjs uses JavaScript to recreate the IBM PC experience, using original ROMs, CPUs running at their original speeds, and early IBM video cards and monitors."
+  },
+  {
     "name": "PE Compression Test",
     "url": "http://pect.atspace.com/",
     "description": "List of packers tested on a few sample executables for comparing compressed sizes."
@@ -929,6 +1120,21 @@
     "description": "PE file packer detection tool, part of the Unix package \"pev\"."
   },
   {
+    "name": "PEscan",
+    "url": "https://tzworks.com/prototype_page.php?proto_id=15",
+    "description": "CLI tool to scan PE files to identify how they were constructed."
+  },
+  {
+    "name": "PETools",
+    "url": "https://github.com/petoolse/petools",
+    "description": "Old-school reverse engineering tool (with a long history since 2002) for manipulating PE files."
+  },
+  {
+    "name": "Pin",
+    "url": "https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-dynamic-binary-instrumentation-tool.html",
+    "description": "A Dynamic Binary Instrumentation Tool - Dynamic binary instrumentation framework for the IA-32, x86-64 and MIC instruction-set architectures that enables the creation of dynamic program analysis tools."
+  },
+  {
     "name": "PINdemonium",
     "url": "https://github.com/Phat3/PINdemonium",
     "description": "Unpacker for PE files exploiting the capabilities of PIN."
@@ -950,7 +1156,7 @@
   },
   {
     "name": "ProTools",
-    "url": "http://protools.narod.ru/",
+    "url": "http://protools.narod.ru",
     "description": "Programmer's Tools, a web site dedicated for all kinds of tools and utitlities for the true WinBloze programmer, including packers, crypters, etc."
   },
   {
@@ -975,12 +1181,12 @@
   },
   {
     "name": "RapidEXE",
-    "url": "https://sourceforge.net/projects/rapidexe/",
+    "url": "https://sourceforge.net/projects/rapidexe",
     "description": "Simple and efficient way to convert a PHP/Python script to a standalone executable."
   },
   {
     "name": "RDG Packer Detector",
-    "url": "http://www.rdgsoft.net/",
+    "url": "http://www.rdgsoft.net",
     "description": "Packer detection tool."
   },
   {
@@ -989,9 +1195,19 @@
     "description": "Free software for Incident Responders that assists with the analysis of malware ; it examines executable files (e.g., .exe, .dll, and so on) to determine how suspicious they are based on a set of criteria."
   },
   {
+    "name": "Reko",
+    "url": "https://github.com/uxmal/reko",
+    "description": "Free decompiler for machine code binaries."
+  },
+  {
     "name": "REMINDer",
     "url": "https://doi.org/10.1109/CSA.2009.5404211",
     "description": "Packing detection tool based on the entropy value of the entry point section and the WRITE attribute."
+  },
+  {
+    "name": "REMnux",
+    "url": "https://remnux.org",
+    "description": "Linux toolkit for reverse-engineering and analyzing malicious software."
   },
   {
     "name": "Renovo",
@@ -1000,13 +1216,18 @@
   },
   {
     "name": "RetDec",
-    "url": "https://github.com/avast/retdec/releases",
+    "url": "https://github.com/avast/retdec",
     "description": "Retargetable machine-code decompiler based on LLVM."
   },
   {
     "name": "SAC",
     "url": "https://www.sac.sk/files.php?d=7&l=",
     "description": "PACK: Archivers, exe-compressors, archiver shells and other related utils."
+  },
+  {
+    "name": "SAFE",
+    "url": "mailto:mihai@cs.wisc.edu",
+    "description": "Static Analyzer For Executables (available on demand)."
   },
   {
     "name": "SymPack",
@@ -1019,8 +1240,18 @@
     "description": "Machine learning hybrid cloud platform that harvests thousands of file types at scale, speeds threat detection through machine learning binary analysis, and continuously monitors an index of over 10B files for future threats."
   },
   {
+    "name": "TrID",
+    "url": "https://mark0.net/soft-trid-e.html",
+    "description": "Utility for identifying file types from their binary signatures."
+  },
+  {
+    "name": "Triton",
+    "url": "https://github.com/jonathansalwan/Triton",
+    "description": "Dynamic binary analysis library."
+  },
+  {
     "name": "Tuts 4 You",
-    "url": "https://tuts4you.com/",
+    "url": "https://tuts4you.com",
     "description": "Non-commercial, independent community dedicated to the sharing of knowledge and information on reverse code engineering."
   },
   {
@@ -1030,7 +1261,7 @@
   },
   {
     "name": "UnpacMe",
-    "url": "https://www.unpac.me/#/",
+    "url": "https://www.unpac.me",
     "description": "Automated malware unpacking service."
   },
   {
