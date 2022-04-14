@@ -146,6 +146,11 @@
     "description": "Plugin removes unnecessary development files and directories from vendor directory by glob pattern syntax."
   },
   {
+    "name": "Composer-Skrub",
+    "url": "https://github.com/ssx/skrub",
+    "description": "The plugin helps to remove junk from Composer installations and trim build sizes."
+  },
+  {
     "name": "Drupal Vendor Hardening Composer Plugin",
     "url": "https://github.com/drupal/core-vendor-hardening",
     "description": "Removes extraneous directories from the project's vendor directory & adds .htaccess and web.config files to the root of the project's vendor directory."
@@ -168,7 +173,7 @@
   {
     "name": "Composer-Curl-Plugin",
     "url": "https://github.com/ngyuki/composer-curl-plugin",
-    "description": "The plugin use phpext_curl for downloading packages."
+    "description": "The plugin uses phpext_curl for downloading packages."
   },
   {
     "name": "Composer-Custom-Directory-Installer",
@@ -196,7 +201,7 @@
     "description": "Is a fork of Ocramius/PackageVersions providing compatibility with Composer 1 and 2 on PHP 7+."
   },
   {
-    "name": "Composer Locator",
+    "name": "Composer-Locator",
     "url": "https://github.com/mindplay-dk/composer-locator",
     "description": "Provides a means of locating the installation path for a given Composer package name."
   },
@@ -271,9 +276,9 @@
     "description": "Prevents development packages from being added into require and getting into production environment."
   },
   {
-    "name": "Composer Exclusive Install",
-    "url": "https://github.com/erickskrauch/composer-exclusive-install",
-    "description": "Prevents more than one install or update operation at a time."
+    "name": "Composer-Plugin-Exclude-Files",
+    "url": "https://github.com/mcaskill/composer-plugin-exclude-files",
+    "description": "A plugin for excluding files required by packages using the 'files' autoloading mechanism."
   },
   {
     "name": "Composer-Downloads-Plugin",
@@ -294,6 +299,21 @@
     "name": "Composer-Compile-Plugin",
     "url": "https://github.com/civicrm/composer-compile-plugin",
     "description": "Allow PHP libraries to define simple, freeform compilation tasks. Support post-install hooks in any package."
+  },
+  {
+    "name": "Composer-Link",
+    "url": "https://github.com/SanderSander/composer-link",
+    "description": "Adds the ability to link local packages for development."
+  },
+  {
+    "name": "Composer-REPL",
+    "url": "https://github.com/ramsey/composer-repl",
+    "description": "The plugin provides the composer repl command, which gives you a PHP language shell (read-eval-print loop)."
+  },
+  {
+    "name": "Composer-Diff",
+    "url": "https://github.com/IonBazan/composer-diff",
+    "description": "Compares composer.lock changes and generates a Markdown report for usage in a pull request description."
   },
   {
     "name": "Composer SemVer Checker",
@@ -396,7 +416,7 @@
     "description": "A script which removes whitelisted unnecessary files (like tests/docs etc.) from the vendor directory."
   },
   {
-    "name": "Composer Substitution Plugin",
+    "name": "Composer-Substitution-Plugin",
     "url": "https://github.com/villfa/composer-substitution-plugin",
     "description": "A Composer plugin replacing placeholders in the scripts section by dynamic values."
   },
@@ -631,6 +651,11 @@
     "name": "Japan",
     "url": "https://packagist.jp",
     "description": "packagist.jp"
+  },
+  {
+    "name": "https://github.com/slince/composer-registry-manager",
+    "url": "https://github.com/slince/composer-registry-manager",
+    "description": "The plugin helps you to switch between different composer repositories."
   },
   {
     "name": "fxpio/tug",
