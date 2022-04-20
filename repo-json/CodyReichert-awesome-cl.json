@@ -651,7 +651,7 @@
   },
   {
     "name": "cl-cffi-gtk",
-    "url": "https://github.com/Ferada/cl-cffi-gtk/",
+    "url": "https://github.com/crategus/cl-cffi-gtk",
     "description": "Binding for GTK+3. GNU LGPL2.1."
   },
   {
@@ -708,6 +708,11 @@
     "description": "Wrapper over the Nuklear immediate mode GUI library. MIT."
   },
   {
+    "name": "file-select",
+    "url": "https://github.com/Shinmera/file-select",
+    "description": " A library to invoke the native system file dialog to select or create files. Zlib."
+  },
+  {
     "name": "LispWork's mobile runtime",
     "url": "http://www.lispworks.com/products/lw4mr.html",
     "description": "Android and iOs.  Proprietary."
@@ -716,6 +721,11 @@
     "name": "LQML",
     "url": "https://gitlab.com/eql/lqml",
     "description": "a lightweight ECL binding to QML (both Qt5 and Qt6) derived from EQL5. LGPL and public domain."
+  },
+  {
+    "name": "see also: sbcl-librarian",
+    "url": "https://github.com/quil-lang/sbcl-librarian",
+    "description": " Dynamic library delivery tools for SBCL. MIT. Blog post."
   },
   {
     "name": "ECL",
@@ -2105,9 +2115,32 @@
     "description": "A tiny Emacs initialization file to quickly set up vanilla Emacs for Common Lisp programming. Comes with a line-by-line explanation of every line of code in the initialization file."
   },
   {
-    "name": "quicklisp-systems",
+    "name": "slime-star",
+    "url": "https://github.com/mmontone/slime-star",
+    "description": "a SLIME configuration with extensions pre-installed, with also some custom utilities and menus:"
+  },
+  {
+    "name": "SLIME doc contrib",
+    "url": "https://github.com/mmontone/slime-doc-contribs",
+    "description": "enhance the default help buffer."
+  },
+  {
+    "name": "Quicklisp systems",
     "url": "https://github.com/mmontone/quicklisp-systems",
-    "description": " Search, browse and load Quicklisp systems from Emacs."
+    "description": "Search, browse and load Quicklisp systems from Emacs."
+  },
+  {
+    "name": "Quicksearch",
+    "url": "https://github.com/tkych/quicksearch"
+  },
+  {
+    "name": "Slime breakpoints",
+    "url": "https://github.com/mmontone/slime-breakpoints"
+  },
+  {
+    "name": "Slite",
+    "url": "https://github.com/tdrhq/slite/",
+    "description": "a test runner for FiveAM."
   },
   {
     "name": "SLIMV",
@@ -2682,6 +2715,41 @@
     "description": "A restricted environment for Common Lisp code evaluation AGPL-3.0."
   },
   {
+    "name": "CXML",
+    "url": "https://common-lisp.net/project/cxml/",
+    "description": "XML parser and serializer, with a range of extension libraries. LLGPL."
+  },
+  {
+    "name": "Plump",
+    "url": "https://github.com/Shinmera/plump",
+    "description": "A lenient XML parser. zlib."
+  },
+  {
+    "name": "xpath (homepage",
+    "url": "https://github.com/sharplispers/xpath",
+    "description": "Implementation of the XML Path Language (XPath) Version 1.0. BSD_2Clause."
+  },
+  {
+    "name": "s-xml",
+    "url": "http://cliki.net/S-XML",
+    "description": "A basic parser. LLGPL."
+  },
+  {
+    "name": "xmls",
+    "url": "https://github.com/rpgoldman/xmls",
+    "description": "A small, simple, non-validating XML parser. 3-clause BSD."
+  },
+  {
+    "name": "cl-feedparser",
+    "url": "https://github.com/TBRSS/cl-feedparser",
+    "description": "A Common Lisp (RSS, Atom) feed parser. LLGPL"
+  },
+  {
+    "name": "Buildnode",
+    "url": "https://github.com/AccelerationNet/buildnode",
+    "description": "A common lisp library to ease interaction with CXML-dom, such as building Excel spreadsheets. BSD."
+  },
+  {
     "name": "babel",
     "url": "https://github.com/cl-babel/babel",
     "description": "A charset encoding/decoding library. Expat."
@@ -2720,40 +2788,5 @@
     "name": "trivial-utf8",
     "url": "https://common-lisp.net/project/trivial-utf-8/",
     "description": "A small library for doing UTF-8-based I/O. BSD."
-  },
-  {
-    "name": "CXML",
-    "url": "https://common-lisp.net/project/cxml/",
-    "description": "XML parser and serializer, with a range of extension libraries. LLGPL."
-  },
-  {
-    "name": "Plump",
-    "url": "https://github.com/Shinmera/plump",
-    "description": "A lenient XML parser. zlib."
-  },
-  {
-    "name": "xpath (homepage",
-    "url": "https://github.com/sharplispers/xpath",
-    "description": "Implementation of the XML Path Language (XPath) Version 1.0. BSD_2Clause."
-  },
-  {
-    "name": "s-xml",
-    "url": "http://cliki.net/S-XML",
-    "description": "A basic parser. LLGPL."
-  },
-  {
-    "name": "xmls",
-    "url": "https://github.com/rpgoldman/xmls",
-    "description": "A small, simple, non-validating XML parser. 3-clause BSD."
-  },
-  {
-    "name": "cl-feedparser",
-    "url": "https://github.com/TBRSS/cl-feedparser",
-    "description": "A Common Lisp (RSS, Atom) feed parser. LLGPL"
-  },
-  {
-    "name": "Buildnode",
-    "url": "https://github.com/AccelerationNet/buildnode",
-    "description": "A common lisp library to ease interaction with CXML-dom, such as building Excel spreadsheets. BSD."
   }
 ]
