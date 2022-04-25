@@ -285,6 +285,11 @@
     "description": "A plugin for Ansible."
   },
   {
+    "name": "ansimotd",
+    "url": "https://github.com/yuhonas/zsh-ansimotd",
+    "description": "Adds old-school cool ansi art when a login shell starts."
+  },
+  {
     "name": "ansiweather",
     "url": "https://github.com/fcambus/ansiweather",
     "description": "Weather in your terminal, with ANSI colors and Unicode symbols."
@@ -900,14 +905,14 @@
     "description": "A simple http server written in 99.9% pure ZSH."
   },
   {
-    "name": "declare-zsh",
-    "url": "https://github.com/z-shell/declare-zsh",
-    "description": "A parser for zinit commands in .zshrc. It allows to perform the following actions on .zshrc from the command-line - enable and disable plugins add or remove snippets."
-  },
-  {
     "name": "ddev",
     "url": "https://github.com/voronkovich/ddev.plugin.zsh",
     "description": "A ZSH plugin for the ddev tool for setting up PHP development environments."
+  },
+  {
+    "name": "declare-zsh",
+    "url": "https://github.com/z-shell/declare-zsh",
+    "description": "A parser for zinit commands in .zshrc. It allows to perform the following actions on .zshrc from the command-line - enable and disable plugins add or remove snippets."
   },
   {
     "name": "deepx",
@@ -918,6 +923,11 @@
     "name": "deer",
     "url": "https://github.com/Vifon/deer",
     "description": "A file navigator for ZSH heavily inspired by ranger."
+  },
+  {
+    "name": "def",
+    "url": "https://github.com/thevinter/def",
+    "description": "Allows you to specify and run a default command in any directory of your choice."
   },
   {
     "name": "defer",
@@ -1158,6 +1168,11 @@
     "description": "Adds aliases to make using exa easier."
   },
   {
+    "name": "exa (todie)",
+    "url": "https://github.com/todie/exa.plugin.zsh",
+    "description": "Integration and completions for exa, a modern replacement for ls."
+  },
+  {
     "name": "exa-ls",
     "url": "https://github.com/birdhackor/zsh-exa-ls-plugin",
     "description": "Adds aliases so that you can use exa as a drop-in replacement for ls and tree."
@@ -1221,6 +1236,11 @@
     "name": "favorite-directories",
     "url": "https://github.com/seletskiy/zsh-favorite-directories",
     "description": "Fast jumps to your favorite directories."
+  },
+  {
+    "name": "fd",
+    "url": "https://github.com/aubreypwd/zsh-plugin-fd",
+    "description": "Use fzf to browse directories."
   },
   {
     "name": "figures",
@@ -1475,12 +1495,12 @@
   {
     "name": "git-prune (diazod)",
     "url": "https://github.com/diazod/git-prune",
-    "description": "Allows you to delete all branches that are already merged in your local repository and/or that were merged in your remote origin repository."
+    "description": "Allows you to delete all branches that are already merged in your local git repository and/or that were merged in your remote origin git repository."
   },
   {
     "name": "git-prune (seinh)",
     "url": "https://github.com/Seinh/git-prune",
-    "description": "Plugin that simplifies deleting merged branches."
+    "description": "Plugin that simplifies deleting merged branches in a git repository."
   },
   {
     "name": "git-scripts",
@@ -1958,14 +1978,14 @@
     "description": "Prints colorized outputs from  kubectl. Includes helper functions."
   },
   {
-    "name": "kubectl",
-    "url": "https://github.com/mattbangert/kubectl-zsh-plugin",
-    "description": "ZSH plugin for managing kubectl."
-  },
-  {
     "name": "kubectl-config-switcher",
     "url": "https://github.com/chmouel/kubectl-config-switcher/",
     "description": "Switch between config files in ~/.kube via the KUBECTL environment variable."
+  },
+  {
+    "name": "kubectl",
+    "url": "https://github.com/mattbangert/kubectl-zsh-plugin",
+    "description": "ZSH plugin for managing kubectl."
   },
   {
     "name": "kubectx (ptavares)",
@@ -2982,6 +3002,11 @@
     "description": "Plugin to easily start python SimpleHTTPServer and SimpleHTTPSServer."
   },
   {
+    "name": "skaffold",
+    "url": "https://github.com/todie/skaffold.plugin.zsh",
+    "description": "ZSH integration and completions for skaffold local kubernetes development environment."
+  },
+  {
     "name": "skim",
     "url": "https://github.com/hackerchai/skim-zsh",
     "description": "Adds support for skim"
@@ -3996,14 +4021,14 @@
     "description": "Completions for bioinformatics tools."
   },
   {
-    "name": "bosh (thomasmitchell)",
-    "url": "https://github.com/thomasmitchell/bosh-complete",
-    "description": "Tab completion for [BOSH(https://github.com/cloudfoundry/bosh)]."
-  },
-  {
     "name": "bosh (krujos)",
     "url": "https://github.com/krujos/bosh-zsh-autocompletion",
     "description": "Adds BOSH autocompletion."
+  },
+  {
+    "name": "bosh (thomasmitchell)",
+    "url": "https://github.com/thomasmitchell/bosh-complete",
+    "description": "Tab completion for [BOSH(https://github.com/cloudfoundry/bosh)]."
   },
   {
     "name": "brew-services",
@@ -4342,7 +4367,7 @@
   },
   {
     "name": "kubectl-plugin",
-    "url": "https://github.com/MartinSimango/kubectl-plugin-autocompletion",
+    "url": "https://github.com/MartinSimango/kubectl-plugin_completion",
     "description": "kubectl completion scripts that extend the kubectl auto complete functionality in order to accomodate for plugin sub-commands."
   },
   {
@@ -7809,14 +7834,14 @@
     "description": "Simple theme which displays current directory and git information."
   },
   {
-    "name": "shuttle",
-    "url": "https://github.com/Pandademic/Shuttle/",
-    "description": "Written in golang. Has decorators for OS, user, current directory, and the exit code of the last command run."
-  },
-  {
     "name": "shtr0m",
     "url": "https://github.com/kyle-pollock/shtr0m",
     "description": "Includes git status decorations."
+  },
+  {
+    "name": "shuttle",
+    "url": "https://github.com/Pandademic/Shuttle/",
+    "description": "Written in golang. Has decorators for OS, user, current directory, and the exit code of the last command run."
   },
   {
     "name": "siegerts",
@@ -7909,7 +7934,12 @@
     "description": "Theme collection for Atom, Prism and ZSH inspired by Skeletor from He-Man and the Masters of the Universe."
   },
   {
-    "name": "skill",
+    "name": "skill (asafaeirad)",
+    "url": "https://github.com/ASafaeirad/oh-my-zsh-skill-theme",
+    "description": "Includes decorations for working directory, git working branch, working directory status and tracking branch status."
+  },
+  {
+    "name": "skill (frontendmonster)",
     "url": "https://github.com/frontendmonster/oh-my-zsh-skill-theme",
     "description": "Optimized for a dark terminal, displays git status decorations."
   },
