@@ -55,7 +55,7 @@
   {
     "name": "zsh-quickstart-kit",
     "url": "https://github.com/unixorn/zsh-quickstart-kit",
-    "description": "A simple quickstart for using ZSH with zgenom. This automatically configures ZSH to use zgenom to load a curated collection of plugins and periodically automatically update itself, the plugins, and the quickstart kit itself."
+    "description": "A simple quickstart for using ZSH with zgenom. This automatically configures ZSH to use zgenom to load a curated (but easily customizable) collection of plugins and periodically automatically update itself, the plugins, and the quickstart kit itself."
   },
   {
     "name": "A Beautifully Productive Terminal Experience",
@@ -1536,6 +1536,11 @@
     "name": "git-worktree",
     "url": "https://github.com/alexiszamanidis/zsh-git-worktree",
     "description": "Wraps some git worktree operations for simplicity and productivity. Includes fzf tooling."
+  },
+  {
+    "name": "git-worktrees",
+    "url": "https://github.com/egyptianbman/zsh-git-worktrees",
+    "description": "Makes git worktrees more functional. Includes tab completions."
   },
   {
     "name": "git",
@@ -3916,6 +3921,11 @@
     "description": "Installs and loads z."
   },
   {
+    "name": "zshange_directory_recent",
+    "url": "https://github.com/Kjeldgaard/zshange_directory_recent",
+    "description": "Change to a recent directory. Requires fzf."
+  },
+  {
     "name": "zshmarks",
     "url": "https://github.com/jocelynmallon/zshmarks",
     "description": "A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh."
@@ -4436,6 +4446,11 @@
     "description": "Autocompletion support for npm run."
   },
   {
+    "name": "npm-scripts-autocomplete",
+    "url": "https://github.com/grigorii-zander/zsh-npm-scripts-autocomplete",
+    "description": "Shows autocomplete suggestions from scripts found in the current directory's package.json. Works with npm and yarn."
+  },
+  {
     "name": "nx",
     "url": "https://github.com/jscutlery/nx-completion",
     "description": "Completions for nx. Requires jq."
@@ -4689,11 +4704,6 @@
     "name": "af-magic-dynamic",
     "url": "https://github.com/rslavin/af-magic-dynamic",
     "description": "Modified version of af-magic with dynamic path shortening."
-  },
-  {
-    "name": "af-magic-mod",
-    "url": "https://raw.githubusercontent.com/desyncr/zshrc/master/themes/af-magic-mod.zsh-theme",
-    "description": "af-magic-mod theme."
   },
   {
     "name": "aflah-bhari",
@@ -5116,6 +5126,11 @@
     "description": "Works well with solarized terminal colors. Includes decorators for username@hostname, current directory, git status, return code for last command, and time last command was run."
   },
   {
+    "name": "bref",
+    "url": "https://github.com/mpostaire/bref-zsh-prompt",
+    "description": "A simple prompt. It includes decorators to display git status asynchronously, a notification if the ssh session is remote, the battery level and the number of background jobs."
+  },
+  {
     "name": "brisa",
     "url": "https://github.com/brisa-dev/oh-my-zsh-brisa-theme",
     "description": "Multiline theme based on fino-time. Includes decorations for username, host, current directory, and git status."
@@ -5434,6 +5449,11 @@
     "name": "czsh",
     "url": "https://github.com/Cellophan/czsh",
     "description": "ZSH with oh-my-zsh and the agnoster theme in a container."
+  },
+  {
+    "name": "daily-emoji",
+    "url": "https://github.com/huytran-wq/zsh-daily-emoji-theme/",
+    "description": "Shows random emoji at the beginning of each command depending on the day of the week."
   },
   {
     "name": "daily",
@@ -6184,6 +6204,11 @@
     "description": "Includes git status decorations, and whether running as root."
   },
   {
+    "name": "igeek",
+    "url": "https://github.com/Saleh7/igeek-zsh-theme",
+    "description": "Displays system information when starting a new terminal session."
+  },
+  {
     "name": "iggy",
     "url": "https://github.com/eugenk/zsh-prompt-iggy",
     "description": "A super happy awesome Powerline-style, git-aware prezto only theme."
@@ -6907,6 +6932,11 @@
     "name": "my",
     "url": "https://github.com/fabiendelpierre/my-zsh-theme/",
     "description": "Variant of kolo."
+  },
+  {
+    "name": "mzpt",
+    "url": "https://github.com/linrongbin16/mzpt/",
+    "description": "Minimal prompt inspired by powerlevel10k."
   },
   {
     "name": "myzsh",
@@ -8353,6 +8383,11 @@
     "description": "A fairy-tale inspired theme for ZSH, iTerm 2, Sublime, Atom, & Mou."
   },
   {
+    "name": "winline",
+    "url": "https://github.com/khuei/winline",
+    "description": "Async version of Greg Hurrell's prompt. Includes decorators for git status, duration of last command, current directory, nested shells, root status."
+  },
+  {
     "name": "wkentaro",
     "url": "https://github.com/wkentaro/wkentaro.zsh-theme",
     "description": "A simple theme for Python users. Includes virtualenv and git status decorators."
@@ -8512,6 +8547,11 @@
     "description": "Based on wild-cherry. Includes exit status, virtualenv, nvm, rvm and git status decorations."
   },
   {
+    "name": "zen",
+    "url": "https://github.com/cybardev/zen.zsh",
+    "description": "A minimalist theme for *NIX systems. Includes decorators for execution time of last command run, vcs status information,"
+  },
+  {
     "name": "zero",
     "url": "https://github.com/arlimus/zero.zsh",
     "description": "Zero's theme & plugin. Has variants for both light and dark terminal backgrounds."
@@ -8580,6 +8620,11 @@
     "name": "zshcomrade",
     "url": "https://github.com/landongn/zshcomrade",
     "description": "A ZSH theme, comrade!"
+  },
+  {
+    "name": "zshify",
+    "url": "https://github.com/nrjdalal/zshify",
+    "description": "A minimalistic, one command installation to customize your prompt. Requires npx."
   },
   {
     "name": "zshpower",
