@@ -5,6 +5,11 @@
     "description": "Interactive learning platform designed to teach the Ada and SPARK programming languages."
   },
   {
+    "name": "programming-with-ada",
+    "url": "https://pyjarrett.github.io/programming-with-ada/",
+    "description": "Anecdotes and summaries from learning Ada 2012."
+  },
+  {
     "name": "adacore-video-tutorials",
     "url": "https://www.youtube.com/playlist?list=PLkoa8uxigENkneyEEeDWVPgpMhPc9IJ7o",
     "description": "AdaCore University Video Tutorials."
@@ -90,6 +95,11 @@
     "description": "Standard Ada library specification as defined in Reference Manual."
   },
   {
+    "name": "gitter-ada",
+    "url": "https://gitter.im/ada-lang/Lobby",
+    "description": "Ada channel at Gitter."
+  },
+  {
     "name": "comp-lang-ada",
     "url": "https://groups.google.com/forum/#!forum/comp.lang.ada",
     "description": "Ada Usenet newsgroup/forum."
@@ -110,24 +120,19 @@
     "description": "Spark at Reddit."
   },
   {
-    "name": "gitter-ada",
-    "url": "https://gitter.im/ada-lang/Lobby",
-    "description": "Ada channel at Gitter."
-  },
-  {
     "name": "telegram-ada",
     "url": "https://t.me/ada_lang",
     "description": "Ada group at Telegram."
   },
   {
-    "name": "#ada on Libera.Chat",
+    "name": "libera-chat-ada",
     "url": "https://libera.chat/",
     "description": "Ada channel at IRC."
   },
   {
     "name": "matrix-ada",
-    "url": "https://matrix.to/#/#ada-lang:matrix.org",
-    "description": "Ada room at Matrix."
+    "url": "https://matrix.to/#/#ada-lang_Lobby:gitter.im",
+    "description": "Ada room at Gitter via Matrix."
   },
   {
     "name": "adacore-blog",
@@ -157,7 +162,7 @@
   {
     "name": "ada-planet",
     "url": "https://www.laeran.pl/adaplanet/i/",
-    "description": "News Aggregator from the Ada programming language world."
+    "description": "News Aggregator from the Ada programming language world. (RSS feed via Matrix)"
   },
   {
     "name": "gnat-ce",
@@ -307,7 +312,7 @@
   {
     "name": "cmake-ada-cho3",
     "url": "https://github.com/cho3/cmake-ada",
-    "description": "CMake language support for Ada, fork of PLplot's cross-platform support code."
+    "description": "CMake language support for Ada, fork of plplot's cross-platform support code."
   },
   {
     "name": "continuous-verification",
@@ -465,6 +470,11 @@
     "description": "Bingo application in gtkada"
   },
   {
+    "name": "civ-klon",
+    "url": "https://github.com/HonkiTonk/Civ-Klon",
+    "description": "Civilization-style turn-based strategy game. Requires asfml."
+  },
+  {
     "name": "simple-components",
     "url": "http://www.dmitry-kazakov.de/ada/components.htm",
     "description": "ASN.1, MQTT client and server/broker implementation, B-trees, Multiple connection TCP servers, Chebyshev series, Mutexes, Cryptography, Objects and handles to, Doubly-linked webs and lists, ODBC bindings, Blackboards (lock-free), OpenSSL bindings, ELV/eQ-3 MAX! client implementation, Parsers, Events (plain, pulse, array of), Persistent objects and handles to, GNUTLS bindings, Persistent storage and handles to, Graphs (directed, weighted, acyclic, trees), Pools, HTTP implementation, Sets and maps, FIFO (lock-free), SMTP client implementation, IEEE 754, SQLite bindings, Inter-process communication, Stacks, Interfacing Julia language, Streams, JSON, Strings editing, LDAP, Tables (maps of strings), MODBUS client implementation, Unbounded arrays."
@@ -531,8 +541,8 @@
   },
   {
     "name": "qt-ada",
-    "url": "https://r3fowwcolhrzycn2yzlzzw-on.drv.tw/AdaStudio/qtada/qt5ada.html",
-    "description": "Ada-2012 port to QT 5 framework."
+    "url": "https://r3fowwcolhrzycn2yzlzzw.on.drv.tw/AdaStudio/qt6ada/qt6ada.html",
+    "description": "Ada-2012 port to Qt 6 framework."
   },
   {
     "name": "vtk-ada",
@@ -543,6 +553,11 @@
     "name": "fltk-ada",
     "url": "http://jedbarber.id.au/fltkada.html",
     "description": "Ada-2012 port to FLTK."
+  },
+  {
+    "name": "ada-gui",
+    "url": "https://github.com/jrcarter/Ada_GUI",
+    "description": "GUI implemented on its own task, so it doesn't require that its client give up a thread of control. Derived from gnoga."
   },
   {
     "name": "curses",
@@ -1255,6 +1270,11 @@
     "description": "Ada binding to the Simple and Fast Multimedia Library."
   },
   {
+    "name": "plplot",
+    "url": "https://sourceforge.net/projects/plplot/",
+    "description": "Cross-platform, scientific graphics plotting library, including an Ada binding."
+  },
+  {
     "name": "cuda",
     "url": "https://github.com/AdaCore/cuda",
     "description": "CUDA support from AdaCore."
@@ -1610,6 +1630,11 @@
     "description": "A G-code parser and CNC controller (in Ada)."
   },
   {
+    "name": "max-home-automation",
+    "url": "https://sourceforge.net/projects/max-home-automation/",
+    "description": "gtkada application to manage ELV/eQ-3 MAX! cubes for home automation."
+  },
+  {
     "name": "ghdl",
     "url": "https://github.com/ghdl/ghdl",
     "description": "VHDL 2008/93/87 simulator."
@@ -1695,6 +1720,16 @@
     "description": "A component to aid in writing shell-like applications in Ada."
   },
   {
+    "name": "dashera",
+    "url": "https://github.com/SMerrony/dashera",
+    "description": "Data General DASHER terminal emulator using gtkada."
+  },
+  {
+    "name": "yotroc",
+    "url": "https://github.com/docandrew/YOTROC",
+    "description": "Assembler/Emulator for a fictional CPU architecture. IDE implemented in gtkada."
+  },
+  {
     "name": "para-sail",
     "url": "http://parasail-lang.org/",
     "description": "ParaSail is a highly parallel experimental language, similar to Go and Erlang. Originaly owned by SofCheck (now AdaCore), it is a test project to try new ideas. Expandable pointers is a sample feature that is about to be introduced to SPARK and Ada. There are in fact 4 experimental languages: ParaSail, Sparkel, Javallel, Parython, all sharing bytecode interpreter and LLVM engine."
@@ -1708,6 +1743,16 @@
     "name": "septum",
     "url": "https://github.com/pyjarrett/septum",
     "description": "An interactive context-based text search tool for searching large codebases."
+  },
+  {
+    "name": "whitakers-words",
+    "url": "https://github.com/mk270/whitakers-words",
+    "description": "William Whitaker's WORDS, a Latin dictionary."
+  },
+  {
+    "name": "ada-chess",
+    "url": "http://www.adachess.com/",
+    "description": "Chess engine written in Ada."
   },
   {
     "name": "pcsc-ada",
