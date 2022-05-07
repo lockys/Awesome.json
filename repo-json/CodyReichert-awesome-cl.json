@@ -738,24 +738,9 @@
     "description": "Armed Bear Common Lisp; targets the JVM, compiles to bytecode. Standard conformance. GNU GPL3 with Classpath exception."
   },
   {
-    "name": "CMUCL",
-    "url": "//www.cons.org/cmucl/",
-    "description": "An implementation from Carnegie Mellon University. Public domain."
-  },
-  {
-    "name": "GNU CLISP",
-    "url": "http://www.clisp.org/",
-    "description": "A GNU implementation; contains a compiler and an interpreter. Standard conformance. GNU GPL3."
-  },
-  {
     "name": "CLASP",
     "url": "https://github.com/drmeister/clasp",
     "description": "a new Common Lisp implementation that seamlessly interoperates with C++ libraries and programs using LLVM for compilation to native code. This allows Clasp to take advantage of a vast array of preexisting libraries and programs, such as out of the scientific computing ecosystem. LGPL2.1 (and others)."
-  },
-  {
-    "name": "Corman Lisp",
-    "url": "https://github.com/sharplispers/cormanlisp",
-    "description": "a Common Lisp development environment for Microsoft Windows running on Intel platforms. MIT."
   },
   {
     "name": "LispWorks",
@@ -771,6 +756,21 @@
     "name": "MOCL",
     "url": "https://wukix.com/mocl",
     "description": "CL as a library for mobile devices (iOS & Android) and OSX."
+  },
+  {
+    "name": "CMUCL",
+    "url": "//www.cons.org/cmucl/",
+    "description": "An implementation from Carnegie Mellon University. Public domain. SBCL is a fork of CMUCL."
+  },
+  {
+    "name": "GNU CLISP",
+    "url": "http://www.clisp.org/",
+    "description": "A GNU implementation; contains a compiler and an interpreter. Standard conformance. GNU GPL3."
+  },
+  {
+    "name": "Corman Lisp",
+    "url": "https://github.com/sharplispers/cormanlisp",
+    "description": "a Common Lisp development environment for Microsoft Windows running on Intel platforms. MIT."
   },
   {
     "name": "jonathan",
@@ -1625,12 +1625,12 @@
     "description": "An example of using Common Lisp (SBCL) as a custom runtime on AWS lambda. WTFPL."
   },
   {
-    "name": "Heliohost for a free hosting solution.",
-    "url": "https://www.heliohost.org/"
+    "name": "Platform.sh has Common Lisp support, so has OVH through their Web PaaS partnership.",
+    "url": "https://platform.sh/blog/2019/lisp/"
   },
   {
-    "name": "Platform.sh has Common Lisp support.",
-    "url": "https://platform.sh/blog/2019/lisp/"
+    "name": "Heliohost for a free hosting solution.",
+    "url": "https://www.heliohost.org/"
   },
   {
     "name": "prometheus.cl",
