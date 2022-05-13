@@ -380,9 +380,9 @@
     "description": "A nvim-cmp source for nvim-dap."
   },
   {
-    "name": "mini.completion",
+    "name": "echasnovski/mini.nvim#mini.completion",
     "url": "https://github.com/echasnovski/mini.nvim#minicompletion",
-    "description": "Module of echasnovski/mini.nvim for asynchronous two-stage completion. Supports showing completion item info and independent function signature."
+    "description": "Module of mini.nvim for asynchronous two-stage completion. Supports showing completion item info and independent function signature."
   },
   {
     "name": "noib3/nvim-compleet",
@@ -408,11 +408,6 @@
     "name": "jghauser/follow-md-links.nvim",
     "url": "https://github.com/jghauser/follow-md-links.nvim",
     "description": "Press enter to follow internal markdown links."
-  },
-  {
-    "name": "jakewvincent/mkdnflow.nvim",
-    "url": "https://github.com/jakewvincent/mkdnflow.nvim",
-    "description": "Markdown notebook navigation (follow internal and external markdown links, create links, jump to links, etc.)"
   },
   {
     "name": "jubnzv/mdeval.nvim",
@@ -455,9 +450,9 @@
     "description": "Location and syntax aware text objects which do what you mean."
   },
   {
-    "name": "mini.surround",
+    "name": "echasnovski/mini.nvim#mini.surround",
     "url": "https://github.com/echasnovski/mini.nvim#minisurround",
-    "description": "Module of echasnovski/mini.nvim for working with text surroundings (add, delete, replace, find, highlight). Fully supports dot-repeat."
+    "description": "Module of mini.nvim for working with text surroundings (add, delete, replace, find, highlight). Fully supports dot-repeat."
   },
   {
     "name": "m-demare/hlargs.nvim",
@@ -595,14 +590,19 @@
     "description": "Telescope integration for zoxide, a smart directory picker that tracks your usage."
   },
   {
-    "name": "mini.fuzzy",
+    "name": "echasnovski/mini.nvim#mini.fuzzy",
     "url": "https://github.com/echasnovski/mini.nvim#minifuzzy",
-    "description": "Module of echasnovski/mini.nvim with functions to perform fuzzy matching of one string to others along with fast Telescope sorter."
+    "description": "Module of mini.nvim with functions to perform fuzzy matching of one string to others along with fast Telescope sorter."
   },
   {
     "name": "0styx0/abbreinder.nvim",
     "url": "https://github.com/0styx0/abbreinder.nvim",
     "description": "Abbreviation reminders for Neovim 0.5+."
+  },
+  {
+    "name": "jakewvincent/mkdnflow.nvim",
+    "url": "https://github.com/jakewvincent/mkdnflow.nvim",
+    "description": "Fluent markdown notebook navigation & management (create links, follow links, create and manage to-do lists, reference bib files, and more)."
   },
   {
     "name": "oberblastmeister/neuron.nvim",
@@ -690,9 +690,9 @@
     "description": "A colorscheme template that is \"lite\" on logic for the developer."
   },
   {
-    "name": "mini.base16",
+    "name": "echasnovski/mini.nvim#mini.base16",
     "url": "https://github.com/echasnovski/mini.nvim#minibase16",
-    "description": "Module of echasnovski/mini.nvim with fast implementation of base16 theme for manually supplied palette."
+    "description": "Module of mini.nvim with fast implementation of base16 theme for manually supplied palette."
   },
   {
     "name": "ThemerCorp/themer.lua",
@@ -1005,9 +1005,9 @@
     "description": "Gruvbuddy without colorbuddy using Lush."
   },
   {
-    "name": "minischeme",
+    "name": "echasnovski/mini.nvim#minischeme",
     "url": "https://github.com/echasnovski/mini.nvim#plugin-colorscheme",
-    "description": "Color scheme of echasnovski/mini.nvim which is a variant of base16 with accent colors chosen according to optimal perceptual uniformity."
+    "description": "Color scheme of mini.nvim which is a variant of base16 with accent colors chosen according to optimal perceptual uniformity."
   },
   {
     "name": "luisiacc/gruvbox-baby",
@@ -1045,6 +1045,11 @@
     "description": "A dark color scheme for Neovim written in Lua ported from rsms/sublime-theme theme."
   },
   {
+    "name": "chrsm/paramount-ng.nvim",
+    "url": "https://github.com/chrsm/paramount-ng.nvim",
+    "description": "A dark color scheme written using Lush. Treesitter supported."
+  },
+  {
     "name": "tjdevries/gruvbuddy.nvim",
     "url": "https://github.com/tjdevries/gruvbuddy.nvim",
     "description": "Gruvbox colors."
@@ -1075,9 +1080,9 @@
     "description": "Delete Neovim buffers without losing your window layout."
   },
   {
-    "name": "mini.bufremove",
+    "name": "echasnovski/mini.nvim#mini.bufremove",
     "url": "https://github.com/echasnovski/mini.nvim#minibufremove",
-    "description": "Module of echasnovski/mini.nvim for buffer removing (unshow, delete, wipeout) while saving window layout."
+    "description": "Module of mini.nvim for buffer removing (unshow, delete, wipeout) while saving window layout."
   },
   {
     "name": "jghauser/mkdir.nvim",
@@ -1275,9 +1280,9 @@
     "description": "A plugin template that setups test infrastructure and GitHub Actions."
   },
   {
-    "name": "mini.doc",
+    "name": "echasnovski/mini.nvim#mini.doc",
     "url": "https://github.com/echasnovski/mini.nvim#minidoc",
-    "description": "Module of echasnovski/mini.nvim for generation of help files from EmmyLua-like annotations. Allows flexible customization of output via hook functions."
+    "description": "Module of mini.nvim for generation of help files from EmmyLua-like annotations. Allows flexible customization of output via hook functions."
   },
   {
     "name": "nanotee/luv-vimdocs",
@@ -1350,9 +1355,9 @@
     "description": "A Neovim bufferline for people with addictive personalities."
   },
   {
-    "name": "mini.tabline",
+    "name": "echasnovski/mini.nvim#mini.tabline",
     "url": "https://github.com/echasnovski/mini.nvim#minitabline",
-    "description": "Module of echasnovski/mini.nvim for minimal tabline showing listed buffers in case of one tab and falling back to default otherwise."
+    "description": "Module of mini.nvim for minimal tabline showing listed buffers in case of one tab and falling back to default otherwise."
   },
   {
     "name": "rafcamlet/tabline-framework.nvim",
@@ -1400,8 +1405,8 @@
     "description": "A modern lightweight statusline for Neovim in Lua. Mainly uses unicode symbols for showing info."
   },
   {
-    "name": "Famiu/feline.nvim",
-    "url": "https://github.com/Famiu/feline.nvim",
+    "name": "feline-nvim/feline.nvim",
+    "url": "https://github.com/feline-nvim/feline.nvim",
     "description": "A minimal, stylish and customizable statusline for Neovim written in Lua."
   },
   {
@@ -1415,14 +1420,19 @@
     "description": "A galaxyline configuration inspired by airline."
   },
   {
-    "name": "mini.statusline",
+    "name": "echasnovski/mini.nvim#mini.statusline",
     "url": "https://github.com/echasnovski/mini.nvim#ministatusline",
-    "description": "Module of echasnovski/mini.nvim for minimal and fast statusline. Supports content change depending on window width."
+    "description": "Module of mini.nvim for minimal and fast statusline. Supports content change depending on window width."
   },
   {
     "name": "b0o/incline.nvim",
     "url": "https://github.com/b0o/incline.nvim",
     "description": "Lightweight floating statuslines, intended for use with Neovim's new global statusline."
+  },
+  {
+    "name": "rebelot/heirline.nvim",
+    "url": "https://github.com/rebelot/heirline.nvim",
+    "description": "Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile."
   },
   {
     "name": "SmiteshP/nvim-gps",
@@ -1445,9 +1455,9 @@
     "description": "Highlight the word under the cursor. Neovim's builtin LSP is available, it can be used to highlight more intelligently."
   },
   {
-    "name": "mini.cursorword",
+    "name": "echasnovski/mini.nvim#mini.cursorword",
     "url": "https://github.com/echasnovski/mini.nvim#minicursorword",
-    "description": "Module of echasnovski/mini.nvim for automatic highlighting of word under cursor (displayed after customizable delay)."
+    "description": "Module of mini.nvim for automatic highlighting of word under cursor (displayed after customizable delay)."
   },
   {
     "name": "glepnir/dashboard-nvim",
@@ -1460,9 +1470,9 @@
     "description": "A fast and highly customizable greeter like vim-startify/dashboard-nvim for Neovim."
   },
   {
-    "name": "mini.starter",
+    "name": "echasnovski/mini.nvim#mini.starter",
     "url": "https://github.com/echasnovski/mini.nvim#ministarter",
-    "description": "Module of echasnovski/mini.nvim for start screen. Displayed items are fully customizable, item selection can be done using prefix query with instant visual feedback."
+    "description": "Module of mini.nvim for start screen. Displayed items are fully customizable, item selection can be done using prefix query with instant visual feedback."
   },
   {
     "name": "henriquehbr/nvim-startup.lua",
@@ -1485,9 +1495,9 @@
     "description": "IndentLine replacement in Lua with more features and treesitter support."
   },
   {
-    "name": "mini.indentscope",
+    "name": "echasnovski/mini.nvim#mini.indentscope",
     "url": "https://github.com/echasnovski/mini.nvim#miniindentscope",
-    "description": "Module of echasnovski/mini.nvim for visualizing and operating on indent scope. Supports customization of debounce delay, animation style, and different granularity of options for scope computing algorithm."
+    "description": "Module of mini.nvim for visualizing and operating on indent scope. Supports customization of debounce delay, animation style, and different granularity of options for scope computing algorithm."
   },
   {
     "name": "ThePrimeagen/vim-be-good",
@@ -1655,6 +1665,11 @@
     "description": "Highlight your buffer with Golang Code Coverage."
   },
   {
+    "name": "crusj/hierarchy-tree-go.nvim",
+    "url": "https://github.com/crusj/hierarchy-tree-go.nvim",
+    "description": "Neovim plugin for go, callHierarchy ui tree."
+  },
+  {
     "name": "numToStr/Comment.nvim",
     "url": "https://github.com/numToStr/Comment.nvim",
     "description": "Smart and Powerful comment plugin for Neovim. Supports commentstring, motions, dot-repeat and more."
@@ -1700,9 +1715,9 @@
     "description": "A better annotation generator. Supports multiple languages and annotation conventions."
   },
   {
-    "name": "mini.comment",
+    "name": "echasnovski/mini.nvim#mini.comment",
     "url": "https://github.com/echasnovski/mini.nvim#minicomment",
-    "description": "Module of echasnovski/mini.nvim for per-line commenting. Fully supports dot-repeat."
+    "description": "Module of mini.nvim for per-line commenting. Fully supports dot-repeat."
   },
   {
     "name": "jbyuki/instant.nvim",
@@ -1745,9 +1760,14 @@
     "description": "A refined successor of Lightspeed, aiming to establish a widely accepted standard interface extension for moving around in Vim-like editors."
   },
   {
-    "name": "mini.jump",
+    "name": "echasnovski/mini.nvim#mini.jump",
     "url": "https://github.com/echasnovski/mini.nvim#minijump",
-    "description": "Module of echasnovski/mini.nvim for smarter jumping to a single character."
+    "description": "Module of mini.nvim for smarter jumping to a single character."
+  },
+  {
+    "name": "echasnovski/mini.nvim#mini.jump2d",
+    "url": "https://github.com/echasnovski/mini.nvim#minijump2d",
+    "description": "Module of mini.nvim for smarter jumping within visible lines via iterative label filtering. Supports custom jump targets (spots), labels, hooks, allowed windows and lines, and more."
   },
   {
     "name": "mfussenegger/nvim-ts-hint-textobject",
@@ -1783,6 +1803,11 @@
     "name": "is0n/jaq-nvim",
     "url": "https://github.com/is0n/jaq-nvim",
     "description": "Just Another Quickrun Plugin for Neovim in Lua."
+  },
+  {
+    "name": "jedrzejboczar/toggletasks.nvim",
+    "url": "https://github.com/jedrzejboczar/toggletasks.nvim",
+    "description": "Task runner with JSON/YAML configs, using toggleterm.nvim and telescope.nvim."
   },
   {
     "name": "pwntester/octo.nvim",
@@ -1900,9 +1925,9 @@
     "description": "Auto pair plugin for Neovim."
   },
   {
-    "name": "mini.pairs",
+    "name": "echasnovski/mini.nvim#mini.pairs",
     "url": "https://github.com/echasnovski/mini.nvim#minipairs",
-    "description": "Module of echasnovski/mini.nvim for autopairs which has minimal defaults and functionality to do per-key mapping."
+    "description": "Module of mini.nvim for autopairs which has minimal defaults and functionality to do per-key mapping."
   },
   {
     "name": "autoclose.nvim",
@@ -1960,8 +1985,8 @@
     "description": "Shows virtual text of the current context."
   },
   {
-    "name": "romgrk/nvim-treesitter-context",
-    "url": "https://github.com/romgrk/nvim-treesitter-context",
+    "name": "nvim-treesitter/nvim-treesitter-context",
+    "url": "https://github.com/nvim-treesitter/nvim-treesitter-context",
     "description": "Shows floating hover with the current function/block context."
   },
   {
@@ -2000,9 +2025,9 @@
     "description": "Clear trailing whitespace and empty lines at end of file on every save."
   },
   {
-    "name": "mini.trailspace",
+    "name": "echasnovski/mini.nvim#mini.trailspace",
     "url": "https://github.com/echasnovski/mini.nvim#minitrailspace",
-    "description": "Module of echasnovski/mini.nvim for automatic highlighting of trailing whitespace with functionality to remove it."
+    "description": "Module of mini.nvim for automatic highlighting of trailing whitespace with functionality to remove it."
   },
   {
     "name": "filipdutescu/renamer.nvim",
@@ -2115,9 +2140,9 @@
     "description": "A small automated session manager for Neovim."
   },
   {
-    "name": "mini.sessions",
+    "name": "echasnovski/mini.nvim#mini.sessions",
     "url": "https://github.com/echasnovski/mini.nvim#minisessions",
-    "description": "Module of echasnovski/mini.nvim for session management (read, write, delete)."
+    "description": "Module of mini.nvim for session management (read, write, delete)."
   },
   {
     "name": "persisted.nvim",
@@ -2128,6 +2153,11 @@
     "name": "Shatur/neovim-session-manager",
     "url": "https://github.com/Shatur/neovim-session-manager",
     "description": "A simple wrapper around :mksession."
+  },
+  {
+    "name": "jedrzejboczar/possession.nvim",
+    "url": "https://github.com/jedrzejboczar/possession.nvim",
+    "description": "Flexible session management with arbitrary persistent data stored as JSON."
   },
   {
     "name": "rcarriga/vim-ultest",
