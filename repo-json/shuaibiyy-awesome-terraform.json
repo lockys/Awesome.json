@@ -565,42 +565,47 @@
   {
     "name": "terraform-provider-aws",
     "url": "https://github.com/hashicorp/terraform-provider-aws",
-    "description": "Plugin for Amazon Web Services."
+    "description": "Provider for Amazon Web Services."
   },
   {
     "name": "terraform-provider-azurerm",
     "url": "https://github.com/hashicorp/terraform-provider-azurerm",
-    "description": "Plugin for Microsoft Azure."
+    "description": "Provider for Azure."
   },
   {
     "name": "terraform-provider-docker",
     "url": "https://github.com/hashicorp/terraform-provider-docker",
-    "description": "Plugin for Docker."
+    "description": "Provider for Docker."
   },
   {
     "name": "terraform-provider-google",
     "url": "https://github.com/hashicorp/terraform-provider-google",
-    "description": "Plugin for Google Cloud Platform."
+    "description": "Provider for Google Cloud Platform."
   },
   {
     "name": "terraform-provider-helm",
     "url": "https://github.com/hashicorp/terraform-provider-helm",
-    "description": "Plugin for Helm."
+    "description": "Provider for Helm."
   },
   {
     "name": "terraform-provider-kubernetes",
     "url": "https://github.com/hashicorp/terraform-provider-kubernetes",
-    "description": "Plugin for Kubernetes."
+    "description": "Provider for Kubernetes."
   },
   {
     "name": "terraform-provider-vsphere",
     "url": "https://github.com/hashicorp/terraform-provider-vsphere",
-    "description": "Plugin for VMware vSphere."
+    "description": "Provider for VMware vSphere."
   },
   {
     "name": "terraform-provider-alicloud",
     "url": "https://github.com/aliyun/terraform-provider-alicloud",
-    "description": "Plugin for Alibaba Cloud."
+    "description": "Provider for Alibaba Cloud."
+  },
+  {
+    "name": "terraform-provider-atlas",
+    "url": "https://github.com/ariga/terraform-provider-atlas",
+    "description": "Provider for Atlas."
   },
   {
     "name": "terraform-provider-azuredevops",
@@ -610,7 +615,7 @@
   {
     "name": "terraform-provider-buildkite",
     "url": "https://github.com/buildkite/terraform-provider-buildkite",
-    "description": "Plugin for Buildkite."
+    "description": "Provider for Buildkite."
   },
   {
     "name": "terraform-provider-checkly",
@@ -620,12 +625,12 @@
   {
     "name": "terraform-provider-datadog",
     "url": "https://github.com/DataDog/terraform-provider-datadog",
-    "description": "Plugin for Datadog."
+    "description": "Provider for Datadog."
   },
   {
     "name": "terraform-provider-digitalocean",
     "url": "https://github.com/digitalocean/terraform-provider-digitalocean",
-    "description": "Plugin for DigitalOcean."
+    "description": "Provider for DigitalOcean."
   },
   {
     "name": "terraform-provider-dominos",
@@ -633,24 +638,29 @@
     "description": "Provider for Dominos Pizza."
   },
   {
+    "name": "terraform-provider-env0",
+    "url": "https://github.com/env0/terraform-provider-env0",
+    "description": "Provider for env0"
+  },
+  {
     "name": "terraform-provider-github",
     "url": "https://github.com/integrations/terraform-provider-github",
-    "description": "Plugin for GitHub."
+    "description": "Provider for GitHub."
   },
   {
     "name": "terraform-provider-gitlab",
     "url": "https://github.com/gitlabhq/terraform-provider-gitlab",
-    "description": "Plugin for GitLab."
+    "description": "Provider for GitLab."
   },
   {
     "name": "terraform-provider-graphql",
     "url": "https://github.com/sullivtr/terraform-provider-graphql",
-    "description": "Plugin for GraphQL queries and mutations."
+    "description": "Provider for GraphQL queries and mutations."
   },
   {
     "name": "terraform-provider-hcloud",
     "url": "https://github.com/hetznercloud/terraform-provider-hcloud",
-    "description": "Plugin for Hetzner Cloud."
+    "description": "Provider for Hetzner Cloud."
   },
   {
     "name": "terraform-provider-healthchecksio",
@@ -660,12 +670,12 @@
   {
     "name": "terraform-provider-heroku",
     "url": "https://github.com/heroku/terraform-provider-heroku",
-    "description": "Plugin for Heroku."
+    "description": "Provider for Heroku."
   },
   {
     "name": "terraform-provider-ibm",
     "url": "https://github.com/IBM-Cloud/terraform-provider-ibm",
-    "description": "Plugin for IBM Cloud."
+    "description": "Provider for IBM Cloud."
   },
   {
     "name": "terraform-provider-k8s",
@@ -680,7 +690,7 @@
   {
     "name": "terraform-provider-linode",
     "url": "https://github.com/btobolaski/terraform-provider-linode",
-    "description": "Plugin for Linode."
+    "description": "Provider for Linode."
   },
   {
     "name": "terraform-provider-openstack",
@@ -698,6 +708,11 @@
     "description": "Provider for Rancher v2."
   },
   {
+    "name": "terraform-provider-scalr",
+    "url": "https://github.com/Scalr/terraform-provider-scalr",
+    "description": "Provider for Scalr"
+  },
+  {
     "name": "terraform-provider-secrethub",
     "url": "https://github.com/secrethub/terraform-provider-secrethub",
     "description": "Provider for SecretHub."
@@ -710,12 +725,12 @@
   {
     "name": "terraform-provider-spinnaker",
     "url": "https://github.com/armory-io/terraform-provider-spinnaker",
-    "description": "Manage Spinnaker applications and pipelines with Terraform."
+    "description": "Provider for Spinnaker."
   },
   {
     "name": "terraform-provider-spotinst",
     "url": "https://github.com/spotinst/terraform-provider-spotinst",
-    "description": "Devops automation platform for AWS, Azure, GCP."
+    "description": "Provider for spotinst."
   },
   {
     "name": "terraform-provider-stripe",

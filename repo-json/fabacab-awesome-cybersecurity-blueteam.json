@@ -80,11 +80,6 @@
     "description": "Helps in visualizing AWS IAM and Organizations in a graph format with help of Neo4j."
   },
   {
-    "name": "Checkov",
-    "url": "https://www.checkov.io/",
-    "description": "Static analysis for Terraform (infrastructure as code) to help detect CIS policy violations and prevent cloud security misconfiguration."
-  },
-  {
     "name": "Falco",
     "url": "https://falco.org/",
     "description": "Behavioral activity monitor designed to detect anomalous activity in containerized applications, hosts, and network packet flows by auditing the Linux kernel and enriched by runtime data such as Kubernetes metrics."
@@ -240,6 +235,11 @@
     "description": "Safely store secrets in Git/Mercurial/Subversion by encrypting them \"at rest\" using GnuPG."
   },
   {
+    "name": "Checkov",
+    "url": "https://www.checkov.io/",
+    "description": "Static analysis for Terraform (infrastructure as code) to help detect CIS policy violations and prevent cloud security misconfiguration."
+  },
+  {
     "name": "Cilium",
     "url": "https://cilium.io/",
     "description": "Open source software for transparently securing the network connectivity between application services deployed using Linux container management platforms like Docker and Kubernetes."
@@ -303,6 +303,16 @@
     "name": "helm-secrets",
     "url": "https://github.com/jkroepke/helm-secrets",
     "description": "Helm plugin that helps manage secrets with Git workflow and stores them anywhere, backed by SOPS."
+  },
+  {
+    "name": "terrascan",
+    "url": "https://runterrascan.io/",
+    "description": "Static code analyzer for Infrastructure as Code tools that helps detect compliance and security violations to mitigate risk before provisioning cloud native resources."
+  },
+  {
+    "name": "tfsec",
+    "url": "https://aquasecurity.github.io/tfsec/",
+    "description": "Static analysis security scanner for your Terraform code designed to run locally and in CI pipelines."
   },
   {
     "name": "DynInst",
