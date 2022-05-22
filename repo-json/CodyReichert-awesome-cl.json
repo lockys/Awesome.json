@@ -725,7 +725,7 @@
   {
     "name": "see also: sbcl-librarian",
     "url": "https://github.com/quil-lang/sbcl-librarian",
-    "description": " Dynamic library delivery tools for SBCL. MIT. Blog post."
+    "description": " Dynamic library delivery tools for SBCL. MIT. Blog post. Full example."
   },
   {
     "name": "ECL",
@@ -1556,10 +1556,6 @@
     "description": "An Ajax Common Lisp Library using parenscript to generate javascript and hunchentoot (for now) as the web server. Also allows a server-side lisp function to call a client-side parenscript one. MIT."
   },
   {
-    "name": "Panic, a Parenscript library for React. Not in Quicklisp. MIT. Its TodoMVC example.",
-    "url": "https://github.com/michaeljforster/panic"
-  },
-  {
     "name": "remote-js",
     "url": "https://github.com/ceramic/remote-js",
     "description": "send JavaScript from Common Lisp to a browser. MIT."
@@ -1567,7 +1563,30 @@
   {
     "name": "sigil",
     "url": "https://github.com/BnMcGn/sigil",
-    "description": "A Parenscript to"
+    "description": "A Parenscript to Javascript command line compiler and REPL. MIT."
+  },
+  {
+    "name": "cl-react",
+    "url": "https://github.com/helmutkian/cl-react",
+    "description": " Common Lisp (Parenscript) utilities for building web apps in ReactJs. MIT."
+  },
+  {
+    "name": "Panic, a Parenscript library for React. Not in Quicklisp. MIT. Its TodoMVC example.",
+    "url": "https://github.com/michaeljforster/panic"
+  },
+  {
+    "name": "Parenscriptx",
+    "url": "https://github.com/jasom/parenscriptx",
+    "description": " Parenscript Macros to aid generating react code. MIT."
+  },
+  {
+    "name": "jscl-react",
+    "url": "https://github.com/nilesr/jscl-react",
+    "description": " A web framework for writing react components in common lisp using jscl. No license specified."
+  },
+  {
+    "name": "trident-mode, an Emacs\nminor mode for live Parenscript interaction.",
+    "url": "https://github.com/johnmastro/trident-mode.el"
   },
   {
     "name": "trivial-imap",
@@ -1833,7 +1852,7 @@
   },
   {
     "name": "magicl",
-    "url": "https://github.com/rigetticomputing/magicl",
+    "url": "https://github.com/quil-lang/magicl",
     "description": "Matrix Algebra proGrams In Common Lisp based on BLAS/LAPACK and Expokit, by Rigetti Computing. BSD_3Clause."
   },
   {
@@ -2718,6 +2737,10 @@
     "name": "CXML",
     "url": "https://common-lisp.net/project/cxml/",
     "description": "XML parser and serializer, with a range of extension libraries. LLGPL."
+  },
+  {
+    "name": "see the FXML fork, with fixes and new features. You should use it if your are parsing potentially ill-formed or malicious XML, or if you need to use Klacks with namespaces.",
+    "url": "https://github.com/ruricolist/FXML"
   },
   {
     "name": "Plump",
