@@ -51,7 +51,7 @@
   },
   {
     "name": "MalwareBazaar",
-    "url": "https://bazaar.abuse.ch",
+    "url": "https://bazaar.abuse.ch/browse",
     "description": "Project operated by abuse.ch aimed to collect and share malware samples, helping IT-security researchers and threat analysts protecting their constituency and customers from cyber threats."
   },
   {
@@ -90,6 +90,11 @@
     "description": "Dataset of 10 common Malware files, packed with about 40 different runtime packers in over 500 versions and options, with a total of about 5,000 samples."
   },
   {
+    "name": "SAC",
+    "url": "https://www.sac.sk/files.php?d=7&l=",
+    "description": "Slovak Antivirus Center, non-commercial project of AVIR and ESET companies ; contains packers, detectors and unpackers."
+  },
+  {
     "name": "SOREL",
     "url": "https://github.com/sophos-ai/SOREL-20M",
     "description": "Sophos-ReversingLabs 20 Million dataset."
@@ -107,7 +112,7 @@
   {
     "name": "VirusShare",
     "url": "https://virusshare.com",
-    "description": "Virus online database with more thant 44 millions of samples."
+    "description": "Virus online database with more than 44 millions of samples."
   },
   {
     "name": "VX Heaven",
@@ -198,6 +203,10 @@
     "name": "BIN-crypter",
     "url": "https://www.autoitscript.com/forum/topic/129383-bin-crypter/",
     "description": "EXE protection software against crackers and decompilers."
+  },
+  {
+    "name": "BoxedApp Packer",
+    "url": "https://www.boxedapp.com/boxedapppacker"
   },
   {
     "name": "Code Virtualizer",
@@ -330,6 +339,11 @@
     "description": "Executable compressor for your Windows or Linux .NET application executable file using LZMA."
   },
   {
+    "name": "NPack",
+    "url": "http://www.nsdsn.com/english/nspack.zip",
+    "description": "Can compress 32bits and 64bits exe, dll, ocx, scr Windows program."
+  },
+  {
     "name": "Obsidium",
     "url": "http://www.obsidium.de/show.php?home",
     "description": "Feature-rich professional software protection and licensing system designed as a cost effective and easy to implement, yet reliable and non-invasive way to protect your 32- and 64-bit Windows software applications and games from reverse engineering."
@@ -424,9 +438,19 @@
     "description": "Ultimate Packer for eXecutables."
   },
   {
+    "name": "VMPROTECT",
+    "url": "https://github.com/eaglx/VMPROTECT",
+    "description": "Obfuscation method using virtual machine."
+  },
+  {
+    "name": "VMProtect",
+    "url": "https://vmpsoft.com/products/vmprotect",
+    "description": "VMProtect protects code by executing it on a virtual machine with non-standard architecture that makes it extremely difficult to analyze and crack the software."
+  },
+  {
     "name": "Ward",
     "url": "https://github.com/ex0dus-0x/ward",
-    "description": "This is a simple implementation of an ELF packer that creates stealthy droppers for loading malicious ELFs in-memory."
+    "description": "Simple implementation of an ELF packer that creates stealthy droppers for loading malicious ELFs in-memory."
   },
   {
     "name": "xorPacker",
@@ -499,6 +523,11 @@
     "description": "Protects EXE programs from reverse engineering, analysis, modifications and cracking."
   },
   {
+    "name": "ExeFog",
+    "url": "https://www.delphibasics.info/home/delphibasicscounterstrikewireleases/exefog11-executablepackerbybagie",
+    "description": "Simple Win32 PE files packer."
+  },
+  {
     "name": "eXPressor",
     "url": "https://www.cgsoftlabs.ro/express.html",
     "description": "Used as a compressor this tool can compress EXE files to half their normal size."
@@ -544,6 +573,11 @@
     "description": "Windows executable compressor featuring third-party plug-ins offering protection against reverse engineering."
   },
   {
+    "name": "RDMC",
+    "url": "https://www.sac.sk/download/pack/rdm006be.zip",
+    "description": "DMC algorithm based packer."
+  },
+  {
     "name": "RLPack",
     "url": "https://web.archive.org/web/20070527132336/http://rlpack.jezgra.net",
     "description": "Compresses your executables and dynamic link libraries in a way that keeps them small and has no effect on compressed file functionality."
@@ -569,11 +603,6 @@
     "description": "Shiva is a tool to encrypt ELF executables under Linux."
   },
   {
-    "name": "Shrinker",
-    "url": "https://web.archive.org/web/20081022073034/http://www.blinkinc.com/shrinker.htm",
-    "description": "Compresses (up to 70%) 16 and 32 bit Windows and real mode DOS programs."
-  },
-  {
     "name": "tElock",
     "url": "https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/Telock.shtml",
     "description": "Telock is a practical tool that intends to help developers who want to protect their work and reduce the size of the executable files."
@@ -584,14 +613,14 @@
     "description": "Professional protection tool designed for software developers to protect their PE applications against illegal modification or decompilation."
   },
   {
+    "name": "UPack",
+    "url": "https://www.sac.sk/download/pack/upack399.rar",
+    "description": "Compresses Windows PE file."
+  },
+  {
     "name": "UPX-Scrambler",
     "url": "https://defacto2.net/f/a520164?packer=upxs",
     "description": "Scrambler for files packed with UPX (up to 1.06) so that they cannot be unpacked with the '-d' option."
-  },
-  {
-    "name": "WinLite",
-    "url": "http://www.win3x.org/win3board/viewtopic.php?t=1435&language=en",
-    "description": "Compresses Windows executables (such as Pklite, Diet or Wwpack) for executables programs under DOS."
   },
   {
     "name": "WinUpack",
@@ -804,8 +833,13 @@
     "description": "DOS executable file compressor."
   },
   {
+    "name": "RERP",
+    "url": "https://www.sac.sk/download/pack/rerp.rar",
+    "description": "ROSE's EXE Relocation Packer."
+  },
+  {
     "name": "RJCrush",
-    "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/rjcru110.zip",
+    "url": "https://www.sac.sk/download/pack/rjc-beta.zip",
     "description": "EXE and COM files compressor with the ability to compress overlays."
   },
   {
@@ -817,6 +851,15 @@
     "name": "SecuPack",
     "url": "https://web.archive.org/web/20210119235522/https://www.exetools.com/files/compressors/win/secupack15.zip",
     "description": "Win32 executable compressor."
+  },
+  {
+    "name": "Shrinker",
+    "url": "https://www.sac.sk/download/pack/shrinker.exe",
+    "description": "Compresses (up to 70%) 16 and 32 bit Windows and real mode DOS programs."
+  },
+  {
+    "name": "SPack",
+    "url": "https://www.sac.sk/download/pack/spack20.zip"
   },
   {
     "name": "$PIRIT",
@@ -835,7 +878,7 @@
   },
   {
     "name": "TinyProg",
-    "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/tinyp39.zip",
+    "url": "https://www.sac.sk/download/pack/tinyp39.zip",
     "description": "EXE and COM programs compressor."
   },
   {
@@ -847,6 +890,11 @@
     "name": "Vacuum",
     "url": "https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/vacuum.zip",
     "description": "Runtime Compressor for DOS32 executables."
+  },
+  {
+    "name": "WinLite",
+    "url": "https://www.sac.sk/download/pack/winlite1.zip",
+    "description": "Compresses Windows executables (such as Pklite, Diet or Wwpack) for executables programs under DOS."
   },
   {
     "name": "WWPack",
@@ -937,6 +985,11 @@
     "name": "Capstone",
     "url": "https://www.capstone-engine.org",
     "description": "Lightweight multi-platform, multi-architecture disassembly framework."
+  },
+  {
+    "name": "CFF Explorer",
+    "url": "https://ntcore.com/?page_id=388",
+    "description": "PE32/64 and .NET editor, part of the Explorer Suite."
   },
   {
     "name": "ChkEXE",
@@ -1049,6 +1102,11 @@
     "description": "Library to Instrument Executable Formats ; Python package for parsing PE, ELF, Mach-O and DEX formats, modifying and rebuilding executables."
   },
   {
+    "name": "LordPE",
+    "url": "https://www.aldeid.com/wiki/LordPE",
+    "description": "PE header viewer, editor and rebuilder."
+  },
+  {
     "name": "Malheur",
     "url": "https://github.com/rieck/malheur",
     "description": "Tool for the automatic analysis of malware behavior (recorded from malicious software in a sandbox environment)."
@@ -1062,6 +1120,11 @@
     "name": "Manalyze",
     "url": "https://github.com/JusticeRage/Manalyze",
     "description": "Robust parser for PE files with a flexible plugin architecture which allows users to statically analyze files in-depth."
+  },
+  {
+    "name": "MRC",
+    "url": "https://mandiant-red-curtain.apponic.com",
+    "description": "(Mandiant Red Curtain) Free software for Incident Responders that assists with the analysis of malware ; it examines executable files (e.g., .exe, .dll, and so on) to determine how suspicious they are based on a set of criteria."
   },
   {
     "name": ".NET Deobfuscator",
@@ -1259,11 +1322,6 @@
     "description": "Packer detection tool."
   },
   {
-    "name": "Red Curtain",
-    "url": "https://mandiant-red-curtain.apponic.com",
-    "description": "Free software for Incident Responders that assists with the analysis of malware ; it examines executable files (e.g., .exe, .dll, and so on) to determine how suspicious they are based on a set of criteria."
-  },
-  {
     "name": "Reko",
     "url": "https://github.com/uxmal/reko",
     "description": "Free decompiler for machine code binaries."
@@ -1294,9 +1352,14 @@
     "description": "Retargetable machine-code decompiler based on LLVM."
   },
   {
-    "name": "SAC",
-    "url": "https://www.sac.sk/files.php?d=7&l=",
-    "description": "PACK: Archivers, exe-compressors, archiver shells and other related utils."
+    "name": "RTD",
+    "url": "https://www.sac.sk/download/pack/rtd_rp24.zip",
+    "description": "Rose Patch - TinyProt/Rosetiny Unpacker."
+  },
+  {
+    "name": "RUPP",
+    "url": "https://www.sac.sk/download/pack/rupp037.rar",
+    "description": "ROSE SWE UnPaCKER PaCKaGE (for DOS executables only)."
   },
   {
     "name": "SAFE",
@@ -1307,6 +1370,11 @@
     "name": "ShowStopper",
     "url": "https://github.com/CheckPointSW/showstopper",
     "description": "Tool to help malware researchers explore and test anti-debug techniques or verify debugger plugins or other solutions that clash with standard anti-debug methods."
+  },
+  {
+    "name": "StudPE",
+    "url": "http://www.cgsoftlabs.ro/studpe.html",
+    "description": "PE viewer and editor (32/64 bit)."
   },
   {
     "name": "SymPack",
@@ -1349,9 +1417,24 @@
     "description": "Packed executables detection tool relying on several heuristics."
   },
   {
+    "name": "UU",
+    "url": "https://www.sac.sk/download/pack/uu215e.exe",
+    "description": "Universal Unpacker."
+  },
+  {
+    "name": "Uundo",
+    "url": "https://www.sac.sk/download/pack/uundo.zip",
+    "description": "Universal Undo - Universal Unpacker."
+  },
+  {
     "name": "Uunp (IDA Pro plugin)",
     "url": "https://www.hex-rays.com/blog/unpacking-mpressed-pe-dlls-with-the-bochs-plugin/",
     "description": "IDA Pro debugger plug-in module automating the analysis and unpacking of packed binaries."
+  },
+  {
+    "name": "UUP",
+    "url": "https://www.sac.sk/download/pack/uup14.zip",
+    "description": "Universal exe-file UnPacker."
   },
   {
     "name": "VirusTotal",
