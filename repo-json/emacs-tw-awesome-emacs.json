@@ -60,89 +60,34 @@
     "description": "GNU Hyperbole is an efficient and programmable hypertextual information management system. It is a toolkit and user interface for viewing, retrieving and interlinking all kinds of textual information."
   },
   {
-    "name": "IDO",
-    "url": "https://www.emacswiki.org/emacs/InteractivelyDoThings",
-    "description": "[built-in] Interactively do things with buffers and files."
+    "name": "linum-relative",
+    "url": "https://github.com/coldnew/linum-relative",
+    "description": "display relative line number in the left margin in emacs."
   },
   {
-    "name": "ido-completing-read+",
-    "url": "https://github.com/DarwinAwardWinner/ido-completing-read-plus",
-    "description": "Enhance the built-in ido for completion all over Emacs."
+    "name": "beacon",
+    "url": "https://github.com/Malabarba/beacon",
+    "description": "Never lose your cursor again."
   },
   {
-    "name": "ido-vertical-mode",
-    "url": "https://github.com/creichert/ido-vertical-mode.el",
-    "description": "Make ido display vertically."
+    "name": "pulsar",
+    "url": "https://github.com/protesilaos/pulsar",
+    "description": "Highlights current line, an minimal alternative to beacon."
   },
   {
-    "name": "Icomplete",
-    "url": "https://www.gnu.org/software/emacs/manual/html_node/emacs/Icomplete.html",
-    "description": "[built-in] See the list of candidates while completing for any command. Can be made to behave more like Ido with `M-x fido-mode`."
+    "name": "yascroll-el",
+    "url": "https://github.com/emacsorphanage/yascroll",
+    "description": "Yet Another Scroll Bar Mode."
   },
   {
-    "name": "icomplete-vertical",
-    "url": "https://github.com/oantolin/icomplete-vertical",
-    "description": "Make Icomplete display vertically."
+    "name": "volatile-highlights.el",
+    "url": "https://github.com/k-talo/volatile-highlights.el",
+    "description": "Minor mode for visual feedback on some operations in Emacs."
   },
   {
-    "name": "Helm",
-    "url": "https://github.com/emacs-helm/helm",
-    "description": "(Formerly ‘Anything’) A powerful completion and selection narrowing framework. ( External Guides 1 )"
-  },
-  {
-    "name": "Ivy",
-    "url": "https://github.com/abo-abo/swiper",
-    "description": "flexible, simple tools for minibuffer completion in Emacs."
-  },
-  {
-    "name": "Icicles",
-    "url": "https://www.emacswiki.org/emacs/Icicles",
-    "description": "An Emacs library that enhances minibuffer completion."
-  },
-  {
-    "name": "smex",
-    "url": "https://github.com/nonsequitur/smex/",
-    "description": "A smart M-x enhancement for Emacs."
-  },
-  {
-    "name": "amx",
-    "url": "https://github.com/DarwinAwardWinner/amx",
-    "description": "An alternative M-x interface for Emacs."
-  },
-  {
-    "name": "vertico",
-    "url": "https://github.com/minad/vertico",
-    "description": "Vertico provides a minimalistic vertical completion UI, which is based on the default completion system."
-  },
-  {
-    "name": "marginalia",
-    "url": "https://github.com/minad/marginalia",
-    "description": "Show document of function in ==M-x=, or file attributes in C-x C-f."
-  },
-  {
-    "name": "consult",
-    "url": "https://github.com/minad/consult",
-    "description": "Consult provides various practical commands based on the Emacs completion function completing-read."
-  },
-  {
-    "name": "prescient.el",
-    "url": "https://github.com/radian-software/prescient.el",
-    "description": "Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs."
-  },
-  {
-    "name": "selectrum",
-    "url": "https://github.com/radian-software/selectrum",
-    "description": "Clean, stable, and intuitive incremental narrowing framework for Emacs."
-  },
-  {
-    "name": "Orderless",
-    "url": "https://github.com/oantolin/orderless",
-    "description": "Use space-separated search terms in any order when completing with Icomplete or the default interface."
-  },
-  {
-    "name": "Snails",
-    "url": "https://github.com/manateelazycat/snails",
-    "description": "A modern, easy-to-expand fuzzy search framework."
+    "name": "fontaine",
+    "url": "https://github.com/protesilaos/fontaine",
+    "description": "lets the user specify presets of font configurations and set them on demand on graphical Emacs frames."
   },
   {
     "name": "winner",
@@ -208,6 +153,11 @@
     "name": "Ace jump",
     "url": "https://github.com/winterTTr/ace-jump-mode",
     "description": "A quick cursor jump mode."
+  },
+  {
+    "name": "goto-line-preview",
+    "url": "https://github.com/jcs-elpa/goto-line-preview",
+    "description": "Preview line when executing goto-line command."
   },
   {
     "name": "Avy",
@@ -305,131 +255,6 @@
     "description": "A smarter cd command for Emacs."
   },
   {
-    "name": "undo-tree",
-    "url": "https://www.emacswiki.org/emacs/UndoTree",
-    "description": "Visualize the whole undo history in buffer as a tree, and you can access anywhere in it."
-  },
-  {
-    "name": "symbol-overlay",
-    "url": "https://github.com/wolray/symbol-overlay",
-    "description": "Highlight symbols with keymap-enabled overlays (inspired by highlight-symbol)."
-  },
-  {
-    "name": "highlight-symbol",
-    "url": "https://github.com/nschum/highlight-symbol.el",
-    "description": "Auto/manually highlight the same symbols in code, navigate in them, or replace string."
-  },
-  {
-    "name": "rainbow-delimiters",
-    "url": "https://github.com/Fanael/rainbow-delimiters",
-    "description": "Highlights parentheses, brackets, and braces according to their depth."
-  },
-  {
-    "name": "rainbow-mode",
-    "url": "https://github.com/emacsmirror/rainbow-mode",
-    "description": "Colorize color names in buffers."
-  },
-  {
-    "name": "visual-regexp",
-    "url": "https://github.com/benma/visual-regexp.el",
-    "description": "Replace via RegExp, with real-time visual feedback directly in the buffer."
-  },
-  {
-    "name": "visual-regexp-steroids",
-    "url": "https://github.com/benma/visual-regexp-steroids.el/",
-    "description": "The same as visual-regexp, but use modern regular expressions instead of Emacs-style."
-  },
-  {
-    "name": "whitespace",
-    "url": "https://www.emacswiki.org/emacs/WhiteSpace",
-    "description": "[built-in] Visualize blanks (tab/space/newline)."
-  },
-  {
-    "name": "linum-relative",
-    "url": "https://github.com/coldnew/linum-relative",
-    "description": "display relative line number in the left margin in emacs."
-  },
-  {
-    "name": "prettify-symbol-mode",
-    "url": "https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/",
-    "description": "[built-in] displaying characters as fancy symbols (e.g. lambda -> λ)."
-  },
-  {
-    "name": "typo.el",
-    "url": "https://github.com/jorgenschaefer/typoel",
-    "description": "Emacs extension for typographical editing."
-  },
-  {
-    "name": "highlight-thing",
-    "url": "https://github.com/fgeller/highlight-thing.el",
-    "description": "Light-weight minor mode to highlight thing under point using built-ins."
-  },
-  {
-    "name": "focus",
-    "url": "https://github.com/larstvei/Focus",
-    "description": "Dim the font color of text in surrounding paragraphs."
-  },
-  {
-    "name": "fontaine",
-    "url": "https://github.com/protesilaos/fontaine",
-    "description": "lets the user specify presets of font configurations and set them on demand on graphical Emacs frames."
-  },
-  {
-    "name": "Solaire mode",
-    "url": "https://github.com/hlissner/emacs-solaire-mode",
-    "description": "Visually distinguish file-visiting windows from other types of windows (like popups or sidebars) by giving them a slightly different background."
-  },
-  {
-    "name": "beacon",
-    "url": "https://github.com/Malabarba/beacon",
-    "description": "Never lose your cursor again."
-  },
-  {
-    "name": "pulsar",
-    "url": "https://github.com/protesilaos/pulsar",
-    "description": "Highlights current line, an minimal alternative to beacon."
-  },
-  {
-    "name": "dimmer.el",
-    "url": "https://github.com/gonewest818/dimmer.el",
-    "description": "Interactively highlight which buffer is active by dimming the others."
-  },
-  {
-    "name": "volatile-highlights.el",
-    "url": "https://github.com/k-talo/volatile-highlights.el",
-    "description": "Minor mode for visual feedback on some operations in Emacs."
-  },
-  {
-    "name": "color-identifiers-mode",
-    "url": "https://github.com/ankurdave/color-identifiers-mode",
-    "description": "Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name."
-  },
-  {
-    "name": "yascroll-el",
-    "url": "https://github.com/emacsorphanage/yascroll",
-    "description": "Yet Another Scroll Bar Mode."
-  },
-  {
-    "name": "goto-line-preview",
-    "url": "https://github.com/jcs-elpa/goto-line-preview",
-    "description": "Preview line when executing goto-line command."
-  },
-  {
-    "name": "highlight-parentheses.el",
-    "url": "https://github.com/tsdh/highlight-parentheses.el",
-    "description": "highlight surrounding parentheses."
-  },
-  {
-    "name": "literate-calc-mode",
-    "url": "https://github.com/sulami/literate-calc-mode.el",
-    "description": "display live calc results inline."
-  },
-  {
-    "name": "math-preview",
-    "url": "https://gitlab.com/matsievskiysv/math-preview",
-    "description": "Preview TeX and MathML equations inline."
-  },
-  {
     "name": "Evil",
     "url": "https://github.com/emacs-evil/evil",
     "description": "An e xtensible vi l ayer: manipulate Emacs with Vi key binding."
@@ -503,6 +328,631 @@
     "name": "general",
     "url": "https://github.com/noctuid/general.el",
     "description": "A convenient, unified interface for key definitions - like use-package but for key-bindings."
+  },
+  {
+    "name": "IDO",
+    "url": "https://www.emacswiki.org/emacs/InteractivelyDoThings",
+    "description": "[built-in] Interactively do things with buffers and files."
+  },
+  {
+    "name": "ido-completing-read+",
+    "url": "https://github.com/DarwinAwardWinner/ido-completing-read-plus",
+    "description": "Enhance the built-in ido for completion all over Emacs."
+  },
+  {
+    "name": "ido-vertical-mode",
+    "url": "https://github.com/creichert/ido-vertical-mode.el",
+    "description": "Make ido display vertically."
+  },
+  {
+    "name": "Icomplete",
+    "url": "https://www.gnu.org/software/emacs/manual/html_node/emacs/Icomplete.html",
+    "description": "[built-in] See the list of candidates while completing for any command. Can be made to behave more like Ido with `M-x fido-mode`."
+  },
+  {
+    "name": "icomplete-vertical",
+    "url": "https://github.com/oantolin/icomplete-vertical",
+    "description": "Make Icomplete display vertically."
+  },
+  {
+    "name": "Helm",
+    "url": "https://github.com/emacs-helm/helm",
+    "description": "(Formerly ‘Anything’) A powerful completion and selection narrowing framework. ( External Guides 1 )"
+  },
+  {
+    "name": "Ivy",
+    "url": "https://github.com/abo-abo/swiper",
+    "description": "flexible, simple tools for minibuffer completion in Emacs."
+  },
+  {
+    "name": "Icicles",
+    "url": "https://www.emacswiki.org/emacs/Icicles",
+    "description": "An Emacs library that enhances minibuffer completion."
+  },
+  {
+    "name": "smex",
+    "url": "https://github.com/nonsequitur/smex/",
+    "description": "A smart M-x enhancement for Emacs."
+  },
+  {
+    "name": "amx",
+    "url": "https://github.com/DarwinAwardWinner/amx",
+    "description": "An alternative M-x interface for Emacs."
+  },
+  {
+    "name": "vertico",
+    "url": "https://github.com/minad/vertico",
+    "description": "Vertico provides a minimalistic vertical completion UI, which is based on the default completion system."
+  },
+  {
+    "name": "marginalia",
+    "url": "https://github.com/minad/marginalia",
+    "description": "Show document of function in ==M-x=, or file attributes in C-x C-f."
+  },
+  {
+    "name": "consult",
+    "url": "https://github.com/minad/consult",
+    "description": "Consult provides various practical commands based on the Emacs completion function completing-read."
+  },
+  {
+    "name": "prescient.el",
+    "url": "https://github.com/radian-software/prescient.el",
+    "description": "Fast and intuitive frequency-and-recency-based sorting and filtering for Emacs."
+  },
+  {
+    "name": "selectrum",
+    "url": "https://github.com/radian-software/selectrum",
+    "description": "Clean, stable, and intuitive incremental narrowing framework for Emacs."
+  },
+  {
+    "name": "Orderless",
+    "url": "https://github.com/oantolin/orderless",
+    "description": "Use space-separated search terms in any order when completing with Icomplete or the default interface."
+  },
+  {
+    "name": "Snails",
+    "url": "https://github.com/manateelazycat/snails",
+    "description": "A modern, easy-to-expand fuzzy search framework."
+  },
+  {
+    "name": "powerline",
+    "url": "https://github.com/milkypostman/powerline",
+    "description": "Emacs version of the Vim powerline."
+  },
+  {
+    "name": "powerline-evil",
+    "url": "https://github.com/johnson-christopher/powerline-evil",
+    "description": "Utilities for better Evil support for Powerline."
+  },
+  {
+    "name": "smart-mode-line",
+    "url": "https://github.com/Malabarba/smart-mode-line",
+    "description": "A sexy mode-line for Emacs."
+  },
+  {
+    "name": "spaceline",
+    "url": "https://github.com/TheBB/spaceline",
+    "description": "Powerline theme from Spacemacs."
+  },
+  {
+    "name": "telephone-line",
+    "url": "https://github.com/dbordak/telephone-line",
+    "description": "A new implementation of Powerline for Emacs."
+  },
+  {
+    "name": "awesome-tray",
+    "url": "https://github.com/manateelazycat/awesome-tray",
+    "description": "Display mode-line information at right of minibuffer."
+  },
+  {
+    "name": "diminish",
+    "url": "https://github.com/myrjola/diminish.el",
+    "description": "Diminished modes are minor modes with no modeline display."
+  },
+  {
+    "name": "doom-modeline",
+    "url": "https://github.com/seagle0128/doom-modeline",
+    "description": "A mode-line package included in Doom and Centaur emacs."
+  },
+  {
+    "name": "blackout",
+    "url": "https://github.com/radian-software/blackout",
+    "description": "Customize or hide the display of major and minor modes in the mode-line."
+  },
+  {
+    "name": "mode-line-idle",
+    "url": "https://gitlab.com/ideasman42/emacs-mode-line-idle",
+    "description": "Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance."
+  },
+  {
+    "name": "dimmer.el",
+    "url": "https://github.com/gonewest818/dimmer.el",
+    "description": "Interactively highlight which buffer is active by dimming the others."
+  },
+  {
+    "name": "Solaire mode",
+    "url": "https://github.com/hlissner/emacs-solaire-mode",
+    "description": "Visually distinguish file-visiting windows from other types of windows (like popups or sidebars) by giving them a slightly different background."
+  },
+  {
+    "name": "focus",
+    "url": "https://github.com/larstvei/Focus",
+    "description": "Dim the font color of text in surrounding paragraphs."
+  },
+  {
+    "name": "multifiles.el",
+    "url": "https://github.com/magnars/multifiles.el",
+    "description": "View and edit parts of multiple files in one buffer."
+  },
+  {
+    "name": "lentic",
+    "url": "https://github.com/phillord/lentic",
+    "description": " Create views of the same content in two Emacs buffers."
+  },
+  {
+    "name": "artist-mode",
+    "url": "http://www.lysator.liu.se/~tab/artist/",
+    "description": "[built-in] Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard."
+  },
+  {
+    "name": "crux",
+    "url": "https://github.com/bbatsov/crux",
+    "description": "A Collection of Ridiculously Useful eXtensions for Emacs."
+  },
+  {
+    "name": "typo.el",
+    "url": "https://github.com/jorgenschaefer/typoel",
+    "description": "Emacs extension for typographical editing."
+  },
+  {
+    "name": "literate-calc-mode",
+    "url": "https://github.com/sulami/literate-calc-mode.el",
+    "description": "display live calc results inline."
+  },
+  {
+    "name": "highlight-Indentation-mode",
+    "url": "https://github.com/antonj/Highlight-Indentation-for-Emacs",
+    "description": "Highlight indentation."
+  },
+  {
+    "name": "indent-guide",
+    "url": "https://github.com/zk-phi/indent-guide",
+    "description": "Show vertical lines to guide indentation."
+  },
+  {
+    "name": "Aggressive-indent",
+    "url": "https://github.com/Malabarba/aggressive-indent-mode",
+    "description": "Keeps your code always indented automatically."
+  },
+  {
+    "name": "electric-indent-mode",
+    "url": "https://www.gnu.org/software/emacs/manual/html_node/emacs/Indent-Convenience.html",
+    "description": "[built-in] (enabled by default) Auto-indent current and new lines (Emacs Wiki)"
+  },
+  {
+    "name": "highlight-indent-guides",
+    "url": "https://github.com/DarthFennec/highlight-indent-guides",
+    "description": "Highlight indentation."
+  },
+  {
+    "name": "rainbow-mode",
+    "url": "https://github.com/emacsmirror/rainbow-mode",
+    "description": "Colorize color names / color hex code in buffers."
+  },
+  {
+    "name": "symbol-overlay",
+    "url": "https://github.com/wolray/symbol-overlay",
+    "description": "Highlight symbols with keymap-enabled overlays (inspired by highlight-symbol)."
+  },
+  {
+    "name": "highlight-symbol",
+    "url": "https://github.com/nschum/highlight-symbol.el",
+    "description": "Auto/manually highlight the same symbols in code, navigate in them, or replace string."
+  },
+  {
+    "name": "highlight-thing",
+    "url": "https://github.com/fgeller/highlight-thing.el",
+    "description": "Light-weight minor mode to highlight thing under point using built-ins."
+  },
+  {
+    "name": "color-identifiers-mode",
+    "url": "https://github.com/ankurdave/color-identifiers-mode",
+    "description": "Color Identifiers is a minor mode for Emacs that highlights each source code identifier uniquely based on its name."
+  },
+  {
+    "name": "whitespace",
+    "url": "https://www.emacswiki.org/emacs/WhiteSpace",
+    "description": "[built-in] Visualize blanks (tab/space/newline)."
+  },
+  {
+    "name": "whitespace-cleanup-mode",
+    "url": "https://github.com/purcell/whitespace-cleanup-mode",
+    "description": "Intelligently call whitespace-cleanup on save."
+  },
+  {
+    "name": "ws-butler",
+    "url": "https://github.com/lewang/ws-butler",
+    "description": "Unobtrusively trim extraneous white-space ONLY in lines edited."
+  },
+  {
+    "name": "delete-selection-mode",
+    "url": "https://www.emacswiki.org/emacs/DeleteSelectionMode",
+    "description": "[built-in] Auto delete selected region when typing, just like most of other modern text editors."
+  },
+  {
+    "name": "hungry-delete",
+    "url": "https://github.com/soutaro/hungry-delete.el",
+    "description": "Delete an entire block of whitespace at point."
+  },
+  {
+    "name": "smart-hungry-delete",
+    "url": "https://github.com/hrehfeld/emacs-smart-hungry-delete",
+    "description": " Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way."
+  },
+  {
+    "name": "zzz-to-char",
+    "url": "https://github.com/mrkkrp/zzz-to-char",
+    "description": "Fancy replacement for zap-to-char."
+  },
+  {
+    "name": "all-the-icons",
+    "url": "https://github.com/domtronn/all-the-icons.el",
+    "description": "A package used to include fancy icons within emacs."
+  },
+  {
+    "name": "emojify",
+    "url": "https://github.com/iqbalansari/emacs-emojify",
+    "description": "Display emojis in Emacs."
+  },
+  {
+    "name": "mode-icons",
+    "url": "https://github.com/ryuslash/mode-icons",
+    "description": "Show icons instead of mode names."
+  },
+  {
+    "name": "prettify-symbol-mode",
+    "url": "https://emacsredux.com/blog/2014/08/25/a-peek-at-emacs-24-dot-4-prettify-symbols-mode/",
+    "description": "[built-in] displaying characters as fancy symbols (e.g. lambda -> λ)."
+  },
+  {
+    "name": "Multiple cursors",
+    "url": "Https://github.com/magnars/multiple-cursors.el",
+    "description": "Mark, edit multiple lines at once."
+  },
+  {
+    "name": "visual-regexp",
+    "url": "https://github.com/benma/visual-regexp.el",
+    "description": "Replace via RegExp, with real-time visual feedback directly in the buffer."
+  },
+  {
+    "name": "visual-regexp-steroids",
+    "url": "https://github.com/benma/visual-regexp-steroids.el/",
+    "description": "The same as visual-regexp, but use modern regular expressions instead of Emacs-style."
+  },
+  {
+    "name": "ialign",
+    "url": "https://github.com/mkcms/interactive-align",
+    "description": "Interactively align lines using a regular expression."
+  },
+  {
+    "name": "tiny",
+    "url": "https://github.com/abo-abo/tiny",
+    "description": "Templates based on linear range transformations."
+  },
+  {
+    "name": "electric-pair-mode",
+    "url": "https://www.emacswiki.org/emacs/ElectricPair",
+    "description": "[built-in] Auto close, or insert matching delimiters: parentheses, braces, brackets, etc. (GNU Manual)"
+  },
+  {
+    "name": "SmartParens",
+    "url": "https://github.com/Fuco1/smartparens",
+    "description": "Deals with parens pairs and tries to be smart about it."
+  },
+  {
+    "name": "pangu-spacing",
+    "url": "https://github.com/coldnew/pangu-spacing",
+    "description": "Minor-mode to automatically add space between CJK and Latin characters."
+  },
+  {
+    "name": "siege-mode",
+    "url": "https://github.com/tslilc/siege-mode",
+    "description": "An emacs minor mode to surround the region with smart delimiters interactively."
+  },
+  {
+    "name": "emacs-surround",
+    "url": "https://github.com/ganmacs/emacs-surround",
+    "description": "Emacs version of vim.surround"
+  },
+  {
+    "name": "expand-region.el",
+    "url": "https://github.com/magnars/expand-region.el",
+    "description": "Increase selected region by semantic units."
+  },
+  {
+    "name": "show-paren-mode",
+    "url": "https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html",
+    "description": "[built-in] a minor mode to visualize parenthesis matching."
+  },
+  {
+    "name": "rainbow-delimiters",
+    "url": "https://github.com/Fanael/rainbow-delimiters",
+    "description": "Highlights parentheses, brackets, and braces according to their depth."
+  },
+  {
+    "name": "highlight-parentheses.el",
+    "url": "https://github.com/tsdh/highlight-parentheses.el",
+    "description": "highlight surrounding parentheses."
+  },
+  {
+    "name": "Popup-killring",
+    "url": "https://github.com/waymondo/popup-kill-ring",
+    "description": "Browse kill-ring with popup menu."
+  },
+  {
+    "name": "Browse-kill-ring",
+    "url": "https://github.com/browse-kill-ring/browse-kill-ring",
+    "description": "Visually navigate kill-ring."
+  },
+  {
+    "name": "easy-kill",
+    "url": "https://github.com/leoliu/easy-kill",
+    "description": "Kill & Mark Things Easily in Emacs."
+  },
+  {
+    "name": "clipmon",
+    "url": "https://github.com/bburns/clipmon",
+    "description": "Clipboard monitor for Emacs. Monitors clipboard and pastes contents on change."
+  },
+  {
+    "name": "simpleclip",
+    "url": "https://github.com/rolandwalker/simpleclip",
+    "description": "Simplified access to the system clipboard."
+  },
+  {
+    "name": "move-text",
+    "url": "https://github.com/emacsfodder/move-text",
+    "description": "move current line or region up or down."
+  },
+  {
+    "name": "move-dup",
+    "url": "https://github.com/wyuenho/move-dup",
+    "description": "Minor mode for Eclipse-like moving and duplicating lines or rectangles."
+  },
+  {
+    "name": "Drag Stuff",
+    "url": "https://github.com/rejeep/drag-stuff.el",
+    "description": "Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs."
+  },
+  {
+    "name": "undo-tree",
+    "url": "https://www.emacswiki.org/emacs/UndoTree",
+    "description": "Visualize the whole undo history in buffer as a tree, and you can access anywhere in it."
+  },
+  {
+    "name": "undo-fu",
+    "url": "https://gitlab.com/ideasman42/emacs-undo-fu",
+    "description": "An undo/redo system that advertises itself as being simpler than Undo Tree."
+  },
+  {
+    "name": "undo-fu-session",
+    "url": "https://gitlab.com/ideasman42/emacs-undo-fu-session",
+    "description": "Save undo history across sessions. Intended to work with, but not dependent on undo-fu."
+  },
+  {
+    "name": "undo-propose",
+    "url": "https://github.com/jackkamm/undo-propose-el",
+    "description": "Navigate the emacs undo history by staging undo’s in a temporary buffer."
+  },
+  {
+    "name": "mmm-mode",
+    "url": "https://github.com/purcell/mmm-mode",
+    "description": "allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS & JS in HTML file)."
+  },
+  {
+    "name": "polymode",
+    "url": "https://github.com/polymode/polymode",
+    "description": "Framework for Multiple Major Modes in Emacs (ex: Embedded programming language code in Markdown, Org, RST file…etc)"
+  },
+  {
+    "name": "YASnippets",
+    "url": "https://github.com/joaotavora/yasnippet",
+    "description": "A template system that allows you to type an abbreviation and automatically expand it into function templates."
+  },
+  {
+    "name": "auto-yasnippet",
+    "url": "https://github.com/abo-abo/auto-yasnippet",
+    "description": "Advanced copy-paste using Yasnippet."
+  },
+  {
+    "name": "ivy-yasnippet",
+    "url": "https://github.com/mkcms/ivy-yasnippet",
+    "description": "Preview yasnippet snippets with ivy."
+  },
+  {
+    "name": "fix-word",
+    "url": "https://github.com/mrkkrp/fix-word",
+    "description": "Transform words in Emacs (upcase, downcase, capitalize)."
+  },
+  {
+    "name": "string-inflection",
+    "url": "https://github.com/akicho8/string-inflection",
+    "description": "Conversion of text between lowercase, uppercase, camelcase etc."
+  },
+  {
+    "name": "CEDET",
+    "url": "http://cedet.sourceforge.net/",
+    "description": "[built-in] an advanced development environment in Emacs."
+  },
+  {
+    "name": "C-xrefactory",
+    "url": "https://github.com/thoni56/c-xrefactory",
+    "description": "refactoring tool and code browser for C and Java."
+  },
+  {
+    "name": "evil-nerd-commenter",
+    "url": "https://github.com/redguardtoo/evil-nerd-commenter",
+    "description": "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode."
+  },
+  {
+    "name": "Doxymacs",
+    "url": "http://doxymacs.sourceforge.net/",
+    "description": "Doxymacs is Doxygen + {X}Emacs."
+  },
+  {
+    "name": "format-all",
+    "url": "https://github.com/lassik/emacs-format-all-the-code",
+    "description": "Auto-format source code in many languages using the same command."
+  },
+  {
+    "name": "apheleia",
+    "url": "https://github.com/radian-software/apheleia",
+    "description": "Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming."
+  },
+  {
+    "name": "Auto-Complete",
+    "url": "https://github.com/auto-complete/auto-complete",
+    "description": "An intelligent auto-completion extension with great interface."
+  },
+  {
+    "name": "Company",
+    "url": "https://company-mode.github.io/",
+    "description": "A text completion framework."
+  },
+  {
+    "name": "company-quickhelp",
+    "url": "https://github.com/company-mode/company-quickhelp",
+    "description": "Documentation popups for company."
+  },
+  {
+    "name": "flx",
+    "url": "https://github.com/lewang/flx",
+    "description": "Fuzzy matching for Emacs like Sublime Text."
+  },
+  {
+    "name": "abbrev",
+    "url": "https://www.emacswiki.org/emacs/AbbrevMode",
+    "description": "[built-in] Abbreviation expander."
+  },
+  {
+    "name": "emacs-ycmd",
+    "url": "https://github.com/abingham/emacs-ycmd",
+    "description": "Emacs client for YCM."
+  },
+  {
+    "name": "corfu",
+    "url": "https://github.com/minad/corfu",
+    "description": "Corfu enhances the default completion in region function with a completion overlay."
+  },
+  {
+    "name": "GNU Global",
+    "url": "http://www.gnu.org/software/global/",
+    "description": "advanced source code tagging system with jump to definition functionality."
+  },
+  {
+    "name": "Dumb Jump",
+    "url": "https://github.com/jacktasia/dumb-jump",
+    "description": "easy jump to definition package for multiple languages using ag or grep."
+  },
+  {
+    "name": "ggtags",
+    "url": "https://github.com/leoliu/ggtags",
+    "description": "Emacs frontend to GNU Global source code tagging system."
+  },
+  {
+    "name": "Citre",
+    "url": "https://github.com/universal-ctags/citre",
+    "description": "Advanced Ctags frontend, comes with powerful code-reading tool."
+  },
+  {
+    "name": "lsp-mode",
+    "url": "https://github.com/emacs-lsp/lsp-mode",
+    "description": "Emacs client for the Language Server Protocol."
+  },
+  {
+    "name": "lsp-ui",
+    "url": "https://github.com/emacs-lsp/lsp-ui",
+    "description": "An extension which adds code lenses and documentation pop-up for lsp-mode."
+  },
+  {
+    "name": "eglot",
+    "url": "https://github.com/joaotavora/eglot",
+    "description": "A client for Language Server Protocol servers."
+  },
+  {
+    "name": "realgud",
+    "url": "https://github.com/realgud",
+    "description": "A modular front-end for interacting with external debuggers."
+  },
+  {
+    "name": "dap-mode",
+    "url": "https://github.com/emacs-lsp/dap-mode",
+    "description": "An implementation of the debug adapter protocol used in VSCode and other editors."
+  },
+  {
+    "name": "FlyMake",
+    "url": "https://www.emacswiki.org/emacs/FlyMake",
+    "description": "[built-in] on-the-fly syntax checks on files using external tools."
+  },
+  {
+    "name": "Flycheck",
+    "url": "https://github.com/flycheck/flycheck",
+    "description": "Modern on-the-fly syntax checking meant to be a replacement to FlyMake."
+  },
+  {
+    "name": "Helm-dash",
+    "url": "https://github.com/dash-docs-el/helm-dash",
+    "description": "Browse Dash docsets via Helm interface."
+  },
+  {
+    "name": "eldoc",
+    "url": "https://www.emacswiki.org/emacs/ElDoc",
+    "description": "[built-in] shows function arguments / variable doc in minibuffer when coding."
+  },
+  {
+    "name": "vimish-fold",
+    "url": "https://github.com/matsievskiysv/vimish-fold",
+    "description": "Vim-like text folding."
+  },
+  {
+    "name": "hideshow",
+    "url": "https://www.emacswiki.org/emacs/HideShow",
+    "description": "[built-in] Folding regions by balanced-expression code."
+  },
+  {
+    "name": "hideshowvis",
+    "url": "https://www.emacswiki.org/emacs/download/hideshowvis.el",
+    "description": "Based on hideshow, just display its nodes on fringe."
+  },
+  {
+    "name": "Origami.el",
+    "url": "https://github.com/gregsexton/origami.el",
+    "description": "Feature rich text folding minor mode."
+  },
+  {
+    "name": "multi-compile",
+    "url": "https://github.com/ReanGD/emacs-multi-compile",
+    "description": "Multi target interface to compile."
+  },
+  {
+    "name": "Projectile",
+    "url": "https://github.com/bbatsov/projectile",
+    "description": "Project Interaction Library for Emacs."
+  },
+  {
+    "name": "Prodigy",
+    "url": "https://github.com/rejeep/prodigy.el",
+    "description": "Manage external services from within Emacs."
+  },
+  {
+    "name": "Project-Explorer",
+    "url": "https://github.com/sabof/project-explorer",
+    "description": "a tree project explorer (integrates with projectile)."
+  },
+  {
+    "name": "Find-file-in-project",
+    "url": "https://github.com/redguardtoo/find-file-in-project",
+    "description": "Quick access to project files in Emacs."
   },
   {
     "name": "Dired",
@@ -588,351 +1038,6 @@
     "name": "filetree",
     "url": "https://github.com/knpatel401/filetree",
     "description": "tree-based file explorer."
-  },
-  {
-    "name": "Multiple cursors",
-    "url": "https://github.com/magnars/multiple-cursors.el",
-    "description": "Mark, edit multiple lines at once."
-  },
-  {
-    "name": "pangu-spacing",
-    "url": "https://github.com/coldnew/pangu-spacing",
-    "description": "Minor-mode to automatically add space between CJK and Latin characters."
-  },
-  {
-    "name": "hungry-delete",
-    "url": "https://github.com/soutaro/hungry-delete.el",
-    "description": "Delete an entire block of whitespace at point."
-  },
-  {
-    "name": "smart-hungry-delete",
-    "url": "https://github.com/hrehfeld/emacs-smart-hungry-delete",
-    "description": " Delete whitespace between words, parenthesis and other delimiters in a (not very) smart way."
-  },
-  {
-    "name": "Drag Stuff",
-    "url": "https://github.com/rejeep/drag-stuff.el",
-    "description": "Drag Stuff is a minor mode for Emacs that makes it possible to drag stuff (words, region, lines) around in Emacs."
-  },
-  {
-    "name": "expand-region.el",
-    "url": "https://github.com/magnars/expand-region.el",
-    "description": "Increase selected region by semantic units."
-  },
-  {
-    "name": "multifiles.el",
-    "url": "https://github.com/magnars/multifiles.el",
-    "description": "View and edit parts of multiple files in one buffer."
-  },
-  {
-    "name": "lentic",
-    "url": "https://github.com/phillord/lentic",
-    "description": " Create views of the same content in two Emacs buffers."
-  },
-  {
-    "name": "fix-word",
-    "url": "https://github.com/mrkkrp/fix-word",
-    "description": "Transform words in Emacs (upcase, downcase, capitalize)."
-  },
-  {
-    "name": "string-inflection",
-    "url": "https://github.com/akicho8/string-inflection",
-    "description": "Conversion of text between lowercase, uppercase, camelcase etc."
-  },
-  {
-    "name": "zzz-to-char",
-    "url": "https://github.com/mrkkrp/zzz-to-char",
-    "description": "Fancy replacement for `zap-to-char`."
-  },
-  {
-    "name": "ialign",
-    "url": "https://github.com/mkcms/interactive-align",
-    "description": "Interactively align lines using a regular expression."
-  },
-  {
-    "name": "artist-mode",
-    "url": "http://www.lysator.liu.se/~tab/artist/",
-    "description": "[built-in] Draw ASCII lines, squares, rectangles and poly-lines, ellipses, and circles with your mouse and/or keyboard."
-  },
-  {
-    "name": "crux",
-    "url": "https://github.com/bbatsov/crux",
-    "description": "A Collection of Ridiculously Useful eXtensions for Emacs."
-  },
-  {
-    "name": "move-text",
-    "url": "https://github.com/emacsfodder/move-text",
-    "description": "move current line or region up or down."
-  },
-  {
-    "name": "move-dup",
-    "url": "https://github.com/wyuenho/move-dup",
-    "description": "Minor mode for Eclipse-like moving and duplicating lines or rectangles."
-  },
-  {
-    "name": "undo-fu",
-    "url": "https://gitlab.com/ideasman42/emacs-undo-fu",
-    "description": "An undo/redo system that advertises itself as being simpler than Undo Tree."
-  },
-  {
-    "name": "undo-fu-session",
-    "url": "https://gitlab.com/ideasman42/emacs-undo-fu-session",
-    "description": "Save undo history across sessions. Intended to work with, but not dependent on, undo-fu."
-  },
-  {
-    "name": "undo-propose",
-    "url": "https://github.com/jackkamm/undo-propose-el",
-    "description": "Navigate the emacs undo history by staging undo’s in a temporary buffer."
-  },
-  {
-    "name": "Popup-killring",
-    "url": "https://github.com/waymondo/popup-kill-ring",
-    "description": "Browse kill-ring with popup menu."
-  },
-  {
-    "name": "Browse-kill-ring",
-    "url": "https://github.com/browse-kill-ring/browse-kill-ring",
-    "description": "Visually navigate kill-ring."
-  },
-  {
-    "name": "easy-kill",
-    "url": "https://github.com/leoliu/easy-kill",
-    "description": "Kill & Mark Things Easily in Emacs."
-  },
-  {
-    "name": "clipmon",
-    "url": "https://github.com/bburns/clipmon",
-    "description": "Clipboard monitor for Emacs. Monitors clipboard and pastes contents on change."
-  },
-  {
-    "name": "simpleclip",
-    "url": "https://github.com/rolandwalker/simpleclip",
-    "description": "Simplified access to the system clipboard."
-  },
-  {
-    "name": "Projectile",
-    "url": "https://github.com/bbatsov/projectile",
-    "description": "Project Interaction Library for Emacs."
-  },
-  {
-    "name": "Prodigy",
-    "url": "https://github.com/rejeep/prodigy.el",
-    "description": "Manage external services from within Emacs."
-  },
-  {
-    "name": "Project-Explorer",
-    "url": "https://github.com/sabof/project-explorer",
-    "description": "a tree project explorer (integrates with projectile)."
-  },
-  {
-    "name": "Find-file-in-project",
-    "url": "https://github.com/redguardtoo/find-file-in-project",
-    "description": "Quick access to project files in Emacs."
-  },
-  {
-    "name": "CEDET",
-    "url": "http://cedet.sourceforge.net/",
-    "description": "[built-in] an advanced development environment in Emacs."
-  },
-  {
-    "name": "C-xrefactory",
-    "url": "https://github.com/thoni56/c-xrefactory",
-    "description": "refactoring tool and code browser for C and Java."
-  },
-  {
-    "name": "YASnippets",
-    "url": "https://github.com/joaotavora/yasnippet",
-    "description": "A template system that allows you to type an abbreviation and automatically expand it into function templates."
-  },
-  {
-    "name": "auto-yasnippet",
-    "url": "https://github.com/abo-abo/auto-yasnippet",
-    "description": "Advanced copy-paste using Yasnippet."
-  },
-  {
-    "name": "ivy-yasnippet",
-    "url": "https://github.com/mkcms/ivy-yasnippet",
-    "description": "Preview yasnippet snippets with ivy."
-  },
-  {
-    "name": "tiny",
-    "url": "https://github.com/abo-abo/tiny",
-    "description": "Templates based on linear range transformations."
-  },
-  {
-    "name": "evil-nerd-commenter",
-    "url": "https://github.com/redguardtoo/evil-nerd-commenter",
-    "description": "Comment/uncomment lines efficiently. Like Nerd Commenter in Vim.  This program can be used independently without evil-mode."
-  },
-  {
-    "name": "mmm-mode",
-    "url": "https://github.com/purcell/mmm-mode",
-    "description": "allows Multiple Major Modes to coexist in one buffer (ex: Embedded CSS & JS in HTML file)."
-  },
-  {
-    "name": "SmartParens",
-    "url": "https://github.com/Fuco1/smartparens",
-    "description": "Deals with parens pairs and tries to be smart about it."
-  },
-  {
-    "name": "Aggressive-indent",
-    "url": "https://github.com/Malabarba/aggressive-indent-mode",
-    "description": "Keeps your code always indented automatically."
-  },
-  {
-    "name": "indent-guide",
-    "url": "https://github.com/zk-phi/indent-guide",
-    "description": "Show vertical lines to guide indentation."
-  },
-  {
-    "name": "Doxymacs",
-    "url": "http://doxymacs.sourceforge.net/",
-    "description": "Doxymacs is Doxygen + {X}Emacs."
-  },
-  {
-    "name": "whitespace-cleanup-mode",
-    "url": "https://github.com/purcell/whitespace-cleanup-mode",
-    "description": "Intelligently call whitespace-cleanup on save."
-  },
-  {
-    "name": "ggtags",
-    "url": "https://github.com/leoliu/ggtags",
-    "description": "Emacs frontend to GNU Global source code tagging system."
-  },
-  {
-    "name": "Citre",
-    "url": "https://github.com/universal-ctags/citre",
-    "description": "Advanced Ctags frontend, comes with powerful code-reading tool."
-  },
-  {
-    "name": "lsp-mode",
-    "url": "https://github.com/emacs-lsp/lsp-mode",
-    "description": "Emacs client for the Language Server Protocol."
-  },
-  {
-    "name": "lsp-ui",
-    "url": "https://github.com/emacs-lsp/lsp-ui",
-    "description": "An extension which adds code lenses and documentation pop-up for lsp-mode."
-  },
-  {
-    "name": "eglot",
-    "url": "https://github.com/joaotavora/eglot",
-    "description": "A client for Language Server Protocol servers."
-  },
-  {
-    "name": "ws-butler",
-    "url": "https://github.com/lewang/ws-butler",
-    "description": "Unobtrusively trim extraneous white-space ONLY in lines edited."
-  },
-  {
-    "name": "format-all",
-    "url": "https://github.com/lassik/emacs-format-all-the-code",
-    "description": "Auto-format source code in many languages using the same command."
-  },
-  {
-    "name": "apheleia",
-    "url": "https://github.com/radian-software/apheleia",
-    "description": "Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming."
-  },
-  {
-    "name": "Auto-Complete",
-    "url": "https://github.com/auto-complete/auto-complete",
-    "description": "An intelligent auto-completion extension with great interface."
-  },
-  {
-    "name": "Company",
-    "url": "https://company-mode.github.io/",
-    "description": "A text completion framework."
-  },
-  {
-    "name": "company-quickhelp",
-    "url": "https://github.com/company-mode/company-quickhelp",
-    "description": "Documentation popups for company."
-  },
-  {
-    "name": "flx",
-    "url": "https://github.com/lewang/flx",
-    "description": "Fuzzy matching for Emacs like Sublime Text."
-  },
-  {
-    "name": "abbrev",
-    "url": "https://www.emacswiki.org/emacs/AbbrevMode",
-    "description": "[built-in] Abbreviation expander."
-  },
-  {
-    "name": "emacs-ycmd",
-    "url": "https://github.com/abingham/emacs-ycmd",
-    "description": "Emacs client for YCM."
-  },
-  {
-    "name": "corfu",
-    "url": "https://github.com/minad/corfu",
-    "description": "Corfu enhances the default completion in region function with a completion overlay."
-  },
-  {
-    "name": "realgud",
-    "url": "https://github.com/realgud",
-    "description": "A modular front-end for interacting with external debuggers."
-  },
-  {
-    "name": "dap-mode",
-    "url": "https://github.com/emacs-lsp/dap-mode",
-    "description": "An implementation of the debug adapter protocol used in VSCode and other editors."
-  },
-  {
-    "name": "Helm-dash",
-    "url": "https://github.com/dash-docs-el/helm-dash",
-    "description": "Browse Dash docsets via Helm interface."
-  },
-  {
-    "name": "eldoc",
-    "url": "https://www.emacswiki.org/emacs/ElDoc",
-    "description": "[built-in] shows function arguments / variable doc in minibuffer when coding."
-  },
-  {
-    "name": "vimish-fold",
-    "url": "https://github.com/matsievskiysv/vimish-fold",
-    "description": "Vim-like text folding."
-  },
-  {
-    "name": "hideshow",
-    "url": "https://www.emacswiki.org/emacs/HideShow",
-    "description": "[built-in] Folding regions by balanced-expression code."
-  },
-  {
-    "name": "hideshowvis",
-    "url": "https://www.emacswiki.org/emacs/download/hideshowvis.el",
-    "description": "Based on hideshow, just display its nodes on fringe."
-  },
-  {
-    "name": "Origami.el",
-    "url": "https://github.com/gregsexton/origami.el",
-    "description": "Feature rich text folding minor mode."
-  },
-  {
-    "name": "FlyMake",
-    "url": "https://www.emacswiki.org/emacs/FlyMake",
-    "description": "[built-in] on-the-fly syntax checks on files using external tools."
-  },
-  {
-    "name": "Flycheck",
-    "url": "https://github.com/flycheck/flycheck",
-    "description": "Modern on-the-fly syntax checking meant to be a replacement to FlyMake."
-  },
-  {
-    "name": "GNU Global",
-    "url": "http://www.gnu.org/software/global/",
-    "description": "advanced source code tagging system with jump to definition functionality."
-  },
-  {
-    "name": "Dumb Jump",
-    "url": "https://github.com/jacktasia/dumb-jump",
-    "description": "easy jump to definition package for multiple languages using ag or grep."
-  },
-  {
-    "name": "multi-compile",
-    "url": "https://github.com/ReanGD/emacs-multi-compile",
-    "description": "Multi target interface to compile."
   },
   {
     "name": "CC Mode",
@@ -2147,6 +2252,11 @@
     "description": "[built-in] Adds support for labels, references, citations, and index entries."
   },
   {
+    "name": "math-preview",
+    "url": "https://gitlab.com/matsievskiysv/math-preview",
+    "description": "Preview TeX and MathML equations inline."
+  },
+  {
     "name": "PDF Tools",
     "url": "https://github.com/vedang/pdf-tools",
     "description": "major mode for rendering PDF files, much better than DocView, and has much richer set of features."
@@ -2525,76 +2635,6 @@
     "name": "SVG Library",
     "url": "https://github.com/rougier/svg-lib",
     "description": "A small Emacs library to create and display various SVG objects, namely tags, progress bars, progress pies and icons. Each object is guaranteed to fit nicely in a text buffer ensuring width is an integer multiple of character width."
-  },
-  {
-    "name": "powerline",
-    "url": "https://github.com/milkypostman/powerline",
-    "description": "Emacs version of the Vim powerline."
-  },
-  {
-    "name": "powerline-evil",
-    "url": "https://github.com/johnson-christopher/powerline-evil",
-    "description": "Utilities for better Evil support for Powerline."
-  },
-  {
-    "name": "smart-mode-line",
-    "url": "https://github.com/Malabarba/smart-mode-line",
-    "description": "A sexy mode-line for Emacs."
-  },
-  {
-    "name": "spaceline",
-    "url": "https://github.com/TheBB/spaceline",
-    "description": "Powerline theme from Spacemacs."
-  },
-  {
-    "name": "telephone-line",
-    "url": "https://github.com/dbordak/telephone-line",
-    "description": "A new implementation of Powerline for Emacs."
-  },
-  {
-    "name": "mode-icons",
-    "url": "https://github.com/ryuslash/mode-icons",
-    "description": "Show icons instead of mode names."
-  },
-  {
-    "name": "emojify",
-    "url": "https://github.com/iqbalansari/emacs-emojify",
-    "description": "Display emojis in Emacs."
-  },
-  {
-    "name": "awesome-tray",
-    "url": "https://github.com/manateelazycat/awesome-tray",
-    "description": "Display mode-line information at right of minibuffer."
-  },
-  {
-    "name": "highlight-indent-guides",
-    "url": "https://github.com/DarthFennec/highlight-indent-guides",
-    "description": "Highlight indentation."
-  },
-  {
-    "name": "diminish",
-    "url": "https://github.com/myrjola/diminish.el",
-    "description": "Diminished modes are minor modes with no modeline display."
-  },
-  {
-    "name": "doom-modeline",
-    "url": "https://github.com/seagle0128/doom-modeline",
-    "description": "A mode-line package included in Doom and Centaur emacs."
-  },
-  {
-    "name": "all-the-icons",
-    "url": "https://github.com/domtronn/all-the-icons.el",
-    "description": "A package used to include fancy icons within emacs."
-  },
-  {
-    "name": "blackout",
-    "url": "https://github.com/radian-software/blackout",
-    "description": "Customize or hide the display of major and minor modes in the mode line."
-  },
-  {
-    "name": "mode-line-idle",
-    "url": "https://gitlab.com/ideasman42/emacs-mode-line-idle",
-    "description": "Evaluate mode-line elements when idle, displaying detailed information without sacrificing performance."
   },
   {
     "name": "Zenburn",

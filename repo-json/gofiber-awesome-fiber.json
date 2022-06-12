@@ -1,0 +1,407 @@
+[
+  {
+    "name": "BasicAuth",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/basicauth",
+    "description": "Basic auth middleware provides an HTTP basic authentication. It calls the next handler for valid credentials and 401 Unauthorized for missing or invalid credentials."
+  },
+  {
+    "name": "Cache",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/cache",
+    "description": "Intercept and cache responses."
+  },
+  {
+    "name": "Compress",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/compress",
+    "description": "\tCompression middleware for Fiber, it supports deflate, gzip and brotli by default."
+  },
+  {
+    "name": "CORS",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/cors",
+    "description": "Enable cross-origin resource sharing (CORS) with various options."
+  },
+  {
+    "name": "CSRF",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/csrf",
+    "description": "Protect from CSRF exploits."
+  },
+  {
+    "name": "Encrypt Cookie",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/encryptcookie",
+    "description": "Encrypt middleware which encrypts cookie values."
+  },
+  {
+    "name": "ETag",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/etag",
+    "description": "ETag middleware that lets caches be more efficient and save bandwidth, as a web server does not need to resend a full response if the content has not changed."
+  },
+  {
+    "name": "Expvar",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/expvar",
+    "description": "Expvar middleware that serves via its HTTP server runtime exposed variants in the JSON format."
+  },
+  {
+    "name": "Favicon",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/favicon",
+    "description": "Ignore favicon from logs or serve from memory if a file path is provided."
+  },
+  {
+    "name": "FileSystem",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/filesystem",
+    "description": "FileSystem middleware for Fiber, special thanks and credits to Alireza Salary."
+  },
+  {
+    "name": "Limiter",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/limiter",
+    "description": "Rate-limiting middleware. Use to limit repeated requests to public APIs and/or endpoints such as password reset."
+  },
+  {
+    "name": "Logger",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/logger",
+    "description": "HTTP request/response logger."
+  },
+  {
+    "name": "Monitor",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/monitor",
+    "description": "Monitor middleware that reports server metrics, inspired by express-status-monitor."
+  },
+  {
+    "name": "Pprof",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/pprof",
+    "description": "Pprof middleware that serves via its HTTP server runtime profiling data in the format expected by the pprof visualization tool."
+  },
+  {
+    "name": "Proxy",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/proxy",
+    "description": "Allows you to proxy requests to a multiple servers."
+  },
+  {
+    "name": "Recover",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/recover",
+    "description": "Recover middleware recovers from panics anywhere in the stack chain and handles the control to the centralized ErrorHandler."
+  },
+  {
+    "name": "RequestID",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/requestid",
+    "description": "Adds a requestid to every request."
+  },
+  {
+    "name": "Session",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/session",
+    "description": "Session middleware. NOTE: This middleware uses our Storage package."
+  },
+  {
+    "name": "Skip",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/skip",
+    "description": "Skip middleware that skips a wrapped handler is a predicate is true."
+  },
+  {
+    "name": "Timeout",
+    "url": "https://github.com/gofiber/fiber/tree/master/middleware/timeout",
+    "description": "Adds a max time for a request and forwards to ErrorHandler if it is exceeded."
+  },
+  {
+    "name": "adaptor",
+    "url": "https://github.com/gofiber/adaptor",
+    "description": "Converter for net/http handlers to/from Fiber request handlers."
+  },
+  {
+    "name": "helmet",
+    "url": "https://github.com/gofiber/helmet",
+    "description": "Helps secure your apps by setting various HTTP headers."
+  },
+  {
+    "name": "jwt",
+    "url": "https://github.com/gofiber/jwt",
+    "description": "JWT returns a JSON Web Token (JWT) auth middleware."
+  },
+  {
+    "name": "keyauth",
+    "url": "https://github.com/gofiber/keyauth",
+    "description": "Key auth middleware provides a key based authentication."
+  },
+  {
+    "name": "redirect",
+    "url": "https://github.com/gofiber/redirect",
+    "description": "Redirect middleware for Fiber."
+  },
+  {
+    "name": "rewrite",
+    "url": "https://github.com/gofiber/rewrite",
+    "description": "Rewrite middleware rewrites the URL path based on provided rules. It can be helpful for backward compatibility or just creating cleaner and more descriptive links."
+  },
+  {
+    "name": "storage",
+    "url": "https://github.com/gofiber/storage",
+    "description": "Premade storage drivers that implement the Storage interface, designed to be used with various Fiber middlewares."
+  },
+  {
+    "name": "template",
+    "url": "https://github.com/gofiber/template",
+    "description": "This package contains 8 template engines that can be used with Fiber v1.10.x Go version 1.13 or higher is required."
+  },
+  {
+    "name": "websocket",
+    "url": "https://github.com/gofiber/websocket",
+    "description": "Based on Fasthttp WebSocket for Fiber with Locals support!"
+  },
+  {
+    "name": "fibersentry",
+    "url": "https://github.com/gofiber/contrib/tree/main/fibersentry",
+    "description": "Sentry support for Fiber."
+  },
+  {
+    "name": "fiberzap",
+    "url": "https://github.com/gofiber/contrib/tree/main/fiberzap",
+    "description": "Zap logging support for Fiber."
+  },
+  {
+    "name": "otelfiber",
+    "url": "https://github.com/gofiber/contrib/tree/main/otelfiber",
+    "description": "OpenTelemetry support for Fiber."
+  },
+  {
+    "name": "paseto",
+    "url": "https://github.com/gofiber/contrib/tree/main/paseto",
+    "description": "PASETO returns a Web Token (PASETO) auth middleware."
+  },
+  {
+    "name": "swagger",
+    "url": "https://github.com/gofiber/contrib/tree/main/swagger",
+    "description": "Swagger middleware for Fiber. The middleware handles Swagger UI."
+  },
+  {
+    "name": "arsmn/fiber-swagger",
+    "url": "https://github.com/arsmn/fiber-swagger",
+    "description": "Fiber middleware to automatically generate RESTful API documentation with Swagger 2.0."
+  },
+  {
+    "name": "arsmn/fiber-casbin",
+    "url": "https://github.com/arsmn/fiber-casbin",
+    "description": "Casbin middleware for Fiber."
+  },
+  {
+    "name": "shareed2k/fiber_tracing",
+    "url": "https://github.com/shareed2k/fiber_tracing",
+    "description": "Middleware trace requests on Fiber framework with OpenTracing API."
+  },
+  {
+    "name": "shareed2k/fiber_limiter",
+    "url": "https://github.com/shareed2k/fiber_limiter",
+    "description": "Limiter using redis as store for rate limit with two algorithms for choosing sliding window, gcra leaky bucket."
+  },
+  {
+    "name": "arsmn/fastgql",
+    "url": "https://github.com/arsmn/fastgql",
+    "description": "Go library for building GraphQL servers without any fuss, but with fasthttp support."
+  },
+  {
+    "name": "kiyonlin/fiber_limiter",
+    "url": "https://github.com/kiyonlin/fiber_limiter",
+    "description": "Limiter is based on rate which forks of golang.org/x/time/rate."
+  },
+  {
+    "name": "juandiii/go-jwk-security",
+    "url": "https://github.com/juandiii/go-jwk-security",
+    "description": "JWT middleware for fiber."
+  },
+  {
+    "name": "ansrivas/fiberprometheus",
+    "url": "https://github.com/ansrivas/fiberprometheus",
+    "description": "Prometheus middleware for gofiber."
+  },
+  {
+    "name": "LdDl/fiber-long-poll",
+    "url": "https://github.com/LdDl/fiber-long-poll",
+    "description": "Golang long polling library for fasthttp-based web framework called Fiber."
+  },
+  {
+    "name": "K0enM/fiber_vhost",
+    "url": "https://github.com/K0enM/fiber_vhost",
+    "description": "Vhost (Virtual host) middleware for Fiber that enables the use of virtual hosts based on the Host Header."
+  },
+  {
+    "name": "sacsand/gofiber-firebaseauth",
+    "url": "https://github.com/sacsand/gofiber-firebaseauth",
+    "description": "Fiber Firebase Auth Middleware."
+  },
+  {
+    "name": "theArtechnology/fiber-inertia",
+    "url": "https://github.com/theArtechnology/fiber-inertia",
+    "description": "This is a Inertia.js server-side adapter based on inertia-laravel, but for Fiber Framework."
+  },
+  {
+    "name": "aschenmaker/fiber-health-check",
+    "url": "https://github.com/aschenmaker/fiber-health-check",
+    "description": "Health-check middleware support health-check for Fiber️ framework."
+  },
+  {
+    "name": "elastic/apmfiber",
+    "url": "https://github.com/elastic/apm-agent-go/tree/master/module/apmfiber",
+    "description": "APM Agent for Go Fiber."
+  },
+  {
+    "name": "eozer/fiber_ldapauth",
+    "url": "https://github.com/eozer/fiber_ldapauth",
+    "description": "LDAP Authentication Middleware for Fiber."
+  },
+  {
+    "name": "darkweak/souin",
+    "url": "https://github.com/darkweak/souin",
+    "description": "HTTP cache, RFC compliant, alternative to Varnish available as a middleware."
+  },
+  {
+    "name": "witer33/fiberpow",
+    "url": "https://github.com/witer33/fiberpow",
+    "description": "Anti DDoS/Bot Middleware with a customizable Proof Of Work challenge."
+  },
+  {
+    "name": "gofiber/boilerplate",
+    "url": "https://github.com/gofiber/boilerplate",
+    "description": "Official fiber boilerplate."
+  },
+  {
+    "name": "fiber-boilerplate",
+    "url": "https://github.com/thomasvvugt/fiber-boilerplate",
+    "description": "A boilerplate for the Fiber web framework."
+  },
+  {
+    "name": "sujit-baniya/fiber-boilerplate",
+    "url": "https://github.com/sujit-baniya/fiber-boilerplate",
+    "description": "Boilerplate on the top of fiber web framework with many middlewares and features."
+  },
+  {
+    "name": "create-go-app/fiber-go-template",
+    "url": "https://github.com/create-go-app/fiber-go-template",
+    "description": "Fiber backend template for Create Go App CLI."
+  },
+  {
+    "name": "efectn/fiber-boilerplate",
+    "url": "https://github.com/efectn/fiber-boilerplate",
+    "description": "Simple and scalable boilerplate to build powerful and organized REST projects with Fiber."
+  },
+  {
+    "name": "embedmode/fiberseed",
+    "url": "https://github.com/embedmode/fiberseed",
+    "description": "Fiber boilerplate api with many middlewares."
+  },
+  {
+    "name": "gofiber/recipes",
+    "url": "https://github.com/gofiber/recipes",
+    "description": "Official Fiber cookbook."
+  },
+  {
+    "name": "kiyonlin/fiblar-demo",
+    "url": "https://github.com/kiyonlin/fiblar-demo",
+    "description": "Fiber v1 + angular demo."
+  },
+  {
+    "name": "koddr/tutorial-go-fiber-rest-api",
+    "url": "https://github.com/koddr/tutorial-go-fiber-rest-api",
+    "description": "Tutorial for building a restful api with fiber."
+  },
+  {
+    "name": "firebase007/go-rest-api-with-fiber",
+    "url": "https://github.com/firebase007/go-rest-api-with-fiber",
+    "description": "Demo project with fiber, logging, basicAuth and postgresql."
+  },
+  {
+    "name": "chawk/go_fiber_quickstart",
+    "url": "https://github.com/chawk/go_fiber_quickstart",
+    "description": "Fiber quick start example project."
+  },
+  {
+    "name": "EricLau1/go-fiber-auth-api",
+    "url": "https://github.com/EricLau1/go-fiber-auth-api",
+    "description": "Golang Authentication API with Fiber MongoDB and JWT."
+  },
+  {
+    "name": "gofiber/cli",
+    "url": "https://github.com/gofiber/cli",
+    "description": "Fiber Command Line Interface."
+  },
+  {
+    "name": "go-dawn/dawn",
+    "url": "https://github.com/go-dawn/dawn",
+    "description": "Dawn is an opinionated web framework that provides rapid development capabilities which on top of Fiber."
+  },
+  {
+    "name": "tompston/gomakeme",
+    "url": "https://github.com/tompston/gomakeme",
+    "description": "Generate boilerplate + endpoints for Fiber or Gin REST APIs."
+  },
+  {
+    "name": "Working with middlewares and boilerplates",
+    "url": "https://dev.to/koddr/go-fiber-by-examples-working-with-middlewares-and-boilerplates-3p0m"
+  },
+  {
+    "name": "Testing the application",
+    "url": "https://dev.to/koddr/go-fiber-by-examples-testing-the-application-1ldf"
+  },
+  {
+    "name": "Delving into built-in functions",
+    "url": "https://dev.to/koddr/go-fiber-by-examples-delving-into-built-in-functions-1p3k"
+  },
+  {
+    "name": "Go Fiber by Examples: How can the Fiber Web Framework be useful?",
+    "url": "https://dev.to/koddr/go-fiber-by-examples-how-can-the-fiber-web-framework-be-useful-487a"
+  },
+  {
+    "name": "Build a RESTful API on Go: Fiber, PostgreSQL, JWT and Swagger docs in isolated Docker containers",
+    "url": "https://dev.to/koddr/build-a-restful-api-on-go-fiber-postgresql-jwt-and-swagger-docs-in-isolated-docker-containers-475j"
+  },
+  {
+    "name": "Getting started with Fiber",
+    "url": "https://dev.to/fenny/getting-started-with-fiber-36b6"
+  },
+  {
+    "name": "Building an Express-style API in Go with Fiber",
+    "url": "https://blog.logrocket.com/express-style-api-go-fiber/"
+  },
+  {
+    "name": "Fiber v1.9.6 How to improve performance by 817% and stay fast, flexible and friendly?",
+    "url": "https://dev.to/koddr/fiber-v1-9-5-how-to-improve-performance-by-817-and-stay-fast-flexible-and-friendly-2dp6"
+  },
+  {
+    "name": "Create a travel list app with Go, Fiber, Angular, MongoDB and Google Cloud Secret Manager",
+    "url": "https://blog.yongweilun.me/create-a-travel-list-app-with-go-fiber-angular-mongodb-and-google-cloud-secret-manager-ck9fgxy0p061pcss1xt1ubu8t"
+  },
+  {
+    "name": "Building a Basic REST API in Go using Fiber",
+    "url": "https://tutorialedge.net/golang/basic-rest-api-go-fiber/"
+  },
+  {
+    "name": "Creating Fast APIs In Go Using Fiber",
+    "url": "https://dev.to/jozsefsallai/creating-fast-apis-in-go-using-fiber-59m9"
+  },
+  {
+    "name": "Is switching from Express to Fiber worth it?",
+    "url": "https://dev.to/koddr/are-sure-what-your-lovely-web-framework-running-so-fast-2jl1"
+  },
+  {
+    "name": "Fiber v1.8. What's new, updated and re-thinked?",
+    "url": "https://dev.to/koddr/fiber-v1-8-what-s-new-updated-and-re-thinked-339h"
+  },
+  {
+    "name": "Fiber released v1.7! What's new and is it still fast, flexible and friendly?",
+    "url": "https://dev.to/koddr/fiber-v2-is-out-now-what-s-new-and-is-he-still-fast-flexible-and-friendly-3ipf"
+  },
+  {
+    "name": "Welcome to Fiber — an Express.js styled web framework written in Go with ❤️",
+    "url": "https://dev.to/koddr/welcome-to-fiber-an-express-js-styled-fastest-web-framework-written-with-on-golang-497"
+  },
+  {
+    "name": "TechEmpower",
+    "url": "https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=json",
+    "description": "Project provides performance measures across a wide field of web application frameworks."
+  },
+  {
+    "name": "web-frameworks-benchmark",
+    "url": "https://web-frameworks-benchmark.netlify.app/result",
+    "description": "Project aims to measure the differences between the various programming language frameworks."
+  },
+  {
+    "name": "go-web-framework-benchmark",
+    "url": "https://github.com/smallnest/go-web-framework-benchmark",
+    "description": "This benchmark suite aims to compare the performance of Go web frameworks."
+  }
+]
