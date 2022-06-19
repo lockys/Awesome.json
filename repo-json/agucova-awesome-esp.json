@@ -20,7 +20,7 @@
     "description": "An implemention of Python3 for the ESP8266 and 32."
   },
   {
-    "name": "ESP32",
+    "name": "ESP3D",
     "url": "https://github.com/luc-github/ESP3D",
     "description": "An experimental firmware for 3D Printers, both the ESP32 and 8266."
   },
@@ -85,11 +85,6 @@
     "description": "A flashing GUI tool based on ESPTool-ck."
   },
   {
-    "name": "NodeMCU Flasher",
-    "url": "https://github.com/nodemcu/nodemcu-flasher",
-    "description": "NodeMCU's official flashing tool for its OS."
-  },
-  {
     "name": "LuaNode",
     "url": "https://github.com/Nicholas3388/LuaNode",
     "description": "A lua-only SDK for 32/8266."
@@ -98,6 +93,11 @@
     "name": "Tuya-Convert",
     "url": "https://github.com/ct-Open-Source/tuya-convert",
     "description": "A Wi-Fi firmware flasher ESP8266 that has been pre-loaded with Tuya firmware."
+  },
+  {
+    "name": "NodeMCU Flasher",
+    "url": "https://github.com/nodemcu/nodemcu-flasher",
+    "description": "The official flashing tool for the NodeMCU OS."
   },
   {
     "name": "Tasmotizer",
@@ -130,6 +130,11 @@
     "description": "An alternative firmware for Sonoff & other ESP8266/ESP32 devices. Includes a large collection of sensor drivers & integrates with Home Assistant natively or via MQTT."
   },
   {
+    "name": "ESPEasy",
+    "url": "https://github.com/letscontrolit/ESPEasy",
+    "description": "Easily turn ESP modules into multifunction sensor devices for home automation systems."
+  },
+  {
     "name": "Sonoff-Homekit",
     "url": "https://github.com/Gruppio/Sonoff-Homekit",
     "description": "An alternative firmware for Sonoff devices (and other 8266 devices) which allows control through Apple's Homekit."
@@ -137,12 +142,22 @@
   {
     "name": "DoorsignEPD",
     "url": "https://github.com/jamct/DoorsignEPD",
-    "description": "A smart... doorsign with an E-Paper display using the ESP32."
+    "description": "A smart doorsign with an E-Paper display using the ESP32."
   },
   {
     "name": "EPaperWeatherDisplay",
     "url": "https://github.com/henri98/esp32-e-paper-weatherdisplay",
     "description": "A very cute e-ink weather display using the ESP32."
+  },
+  {
+    "name": "HomePoint",
+    "url": "https://github.com/sieren/Homepoint",
+    "description": "Control MQTT/HomeKit smart home devices from an ESP32-powered screen."
+  },
+  {
+    "name": "openHASP",
+    "url": "https://www.openhasp.com/",
+    "description": "Control your home automation devices from a customizable touchscreen UI connected via MQTT."
   },
   {
     "name": "SuperGreenOS",
@@ -215,18 +230,69 @@
     "description": "ESP32 LoRA boards as secure, long battery life, mesh GPS communicators."
   },
   {
-    "name": "ESP32-Paxcounter Wifi & Bluetooth driven, LoRaWAN enabled, battery powered mini Paxcounter built on cheap ESP32 LoRa IoT boards",
-    "url": "https://github.com/cyberman54/ESP32-Paxcounter#esp32-paxcounter"
+    "name": "ESP32-Paxcounter",
+    "url": "https://github.com/cyberman54/ESP32-Paxcounter#esp32-paxcounter",
+    "description": "Wifi & Bluetooth driven, LoRaWAN enabled, battery powered mini Paxcounter built on cheap ESP32 LoRa IoT boards."
   },
   {
     "name": "Disaster Radio",
     "url": "https://disaster.radio/",
-    "description": "A disaster-resilient communications network powered by the sun"
+    "description": "A disaster-resilient communications network powered by the sun."
+  },
+  {
+    "name": "Alles",
+    "url": "https://github.com/bwhitman/alles",
+    "description": "A many speaker distributed music synthesizer using UDP multicast over WiFi, modeled after the alles machine/AMY."
+  },
+  {
+    "name": "ESP32-Radio",
+    "url": "https://github.com/Edzelf/ESP32-Radio",
+    "description": "Internet radio based on ESP32, VS1053 and a TFT screen."
+  },
+  {
+    "name": "ESPuino",
+    "url": "https://github.com/biologist79/ESPuino",
+    "description": "RFID-controlled music player powered by ESP32."
+  },
+  {
+    "name": "Knobby",
+    "url": "https://github.com/quadule/knobby",
+    "description": "A handheld Spotify remote that encourages you to explore unfamiliar music."
+  },
+  {
+    "name": "PedalinoMini",
+    "url": "https://github.com/alf45tar/PedalinoMini",
+    "description": "A wireless MIDI pedal controller for guitarists, built with the ESP32."
+  },
+  {
+    "name": "Squeezelite-esp32",
+    "url": "https://github.com/sle118/squeezelite-esp32",
+    "description": "Streaming audio receiver with multi-room sync, AirPlay, Bluetooth, hardware buttons, display and more."
+  },
+  {
+    "name": "ThingPulse esp8266-spotify-remote",
+    "url": "https://github.com/ThingPulse/esp8266-spotify-remote",
+    "description": "Control your Spotify player from a ESP8266 with color touch display."
+  },
+  {
+    "name": "mutantW_V1",
+    "url": "https://mutantcybernetics.com/mutantW_V1.html",
+    "description": "An ESP32 based open source smartwatch with 1.7 inch display, WiFi, Bluetooth, NeoPixel and vibration."
   },
   {
     "name": "Open SmartWatch",
     "url": "https://open-smartwatch.github.io/",
     "description": "A FOSS smartwatch with GPS, an inertial unit and an extremely cool 3D-printed case."
+  },
+  {
+    "name": "StickWatch",
+    "url": "https://github.com/eggfly/StickWatch",
+    "description": "A smartwatch module based on the M5Stick, using the ESP32."
+  },
+  {
+    "name": "Watchy",
+    "url": "https://watchy.sqfmi.com",
+    "description": "An open source e-paper watch with lots of options for customization."
   },
   {
     "name": "SoftRF",
@@ -239,19 +305,34 @@
     "description": "An extremely cool launcher for the Odroid Go (with the ESP32), which allows emulating several retro consoles."
   },
   {
-    "name": "PedalinoMini",
-    "url": "https://github.com/alf45tar/PedalinoMini",
-    "description": "A wireless MIDI pedal controller for guitarists, built with the ESP32."
-  },
-  {
-    "name": "StickWatch",
-    "url": "https://github.com/eggfly/StickWatch",
-    "description": "A smartwatch module based on the M5Stick, using the ESP32."
-  },
-  {
     "name": "DroneBridge",
     "url": "https://github.com/DroneBridge/ESP32",
     "description": "An implementation of DroneBridge, a signal link for drones and UAV's on the ESP32."
+  },
+  {
+    "name": "E-TKT",
+    "url": "https://github.com/andreisperid/E-TKT",
+    "description": "An ESP32 powered DIY label maker that mixes both old fashioned and contemporary technology."
+  },
+  {
+    "name": "FreeTouchDeck",
+    "url": "https://github.com/DustinWatts/FreeTouchDeck",
+    "description": "Open source touch macropad and stream control deck with built-in web configurator."
+  },
+  {
+    "name": "SmartSpin2k",
+    "url": "https://github.com/doudar/SmartSpin2k",
+    "description": "Transform your spin bike into a smart trainer with automatic resistance knob control in fitness apps like Zwift."
+  },
+  {
+    "name": "WirelessPrinting",
+    "url": "https://github.com/probonopd/WirelessPrinting",
+    "description": "Print wirelessly from Cura, PrusaSlicer or Slic3r to your 3D printer connected to an ESP module."
+  },
+  {
+    "name": "WLED",
+    "url": "https://kno.wled.ge/",
+    "description": "Control many types of RGB(W) LED strips with an ESP8266 or ESP32 over WiFi."
   },
   {
     "name": "Wasm3",
@@ -277,6 +358,11 @@
     "name": "GUIslice",
     "url": "https://github.com/ImpulseAdventure/GUIslice",
     "description": "A drag and drop GUI framework for several devices and screen controllers. Compatible with 8266 and 32."
+  },
+  {
+    "name": "LVGL",
+    "url": "https://lvgl.io",
+    "description": "An open-source graphics library providing everything you need to create embedded GUIs with easy-to-use graphical elements, beautiful visual effects and low memory footprint."
   },
   {
     "name": "MicroWebSrv2",
@@ -324,6 +410,11 @@
     "description": "Library for playing a diverse range of audio formats in the ESP8266/ESP32."
   },
   {
+    "name": "ESP32-audioI2S",
+    "url": "https://github.com/schreibfaul1/ESP32-audioI2S",
+    "description": "Plays mp3, m4a and wav files from SD card or stream via I2S interface."
+  },
+  {
     "name": "AsyncTCP",
     "url": "https://github.com/me-no-dev/ESPAsyncTCP",
     "description": "Asynchronous TCP Library for both the 8266 and the 32."
@@ -332,6 +423,11 @@
     "name": "ESP-HomeKit",
     "url": "https://github.com/maximkulkin/esp-homekit",
     "description": "Homekit implementation for 8266 on RTOS."
+  },
+  {
+    "name": "HomeSpan",
+    "url": "https://github.com/HomeSpan/HomeSpan",
+    "description": "A robust and extremely easy-to-use Arduino library for creating your own ESP32-based HomeKit devices."
   },
   {
     "name": "ESPHelper",
@@ -407,5 +503,10 @@
     "name": "Dhyara",
     "url": "https://github.com/neel/dhyara",
     "description": "A C/C++ library for making a Mobile Ad hoc Network (MANET) using ESP Now."
+  },
+  {
+    "name": "LedFx",
+    "url": "https://github.com/LedFx/LedFx",
+    "description": "A library for using audio input to create realtime light shows. LedFx can control multiple devices and works great with cheap ESP8266 nodes."
   }
 ]
