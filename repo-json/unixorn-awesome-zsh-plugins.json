@@ -558,7 +558,7 @@
   {
     "name": "base16",
     "url": "https://github.com/chriskempson/base16-shell",
-    "description": "Adds script to allow you to change your shell's default ANSI colors but most importantly, colors 17 to 21 of your shell's 256 colorspace (if supported by your terminal). This script makes it possible to honor the original bright colors of your shell (e.g. bright green is still green and so on) while providing additional base16 colors to applications such as Vim."
+    "description": "Adds a script to allow you to change your shell's default ANSI colors but most importantly, colors 17 to 21 of your shell's 256 colorspace (if supported by your terminal). This script makes it possible to honor the original bright colors of your shell (e.g. bright green is still green and so on) while providing additional base16 colors to applications such as Vim."
   },
   {
     "name": "baseballfunfacts",
@@ -3148,9 +3148,14 @@
     "description": "Same as the official Sublime plugin for Oh My Zsh, but this opens files in the current Sublime window, if there is one already open."
   },
   {
-    "name": "sudo",
+    "name": "sudo (hcgraf)",
     "url": "https://github.com/hcgraf/zsh-sudo",
     "description": "The sudo plugin from oh-my-zsh, extracted to a standalone. Toggles sudo before the current/previous command by pressing *ESC-ESC- in emacs-mode or vi-command mode."
+  },
+  {
+    "name": "sudo (none9632)",
+    "url": "https://github.com/none9632/zsh-sudo/",
+    "description": "Adds sudo as a prefix to the current command by typing ESC-ESC."
   },
   {
     "name": "suffix-alias",
@@ -5671,6 +5676,11 @@
     "description": "Minimalist theme, includes git, terraform and aws status decorations."
   },
   {
+    "name": "doom",
+    "url": "https://github.com/CMOISDEAD/doom-zsh",
+    "description": "Doom-inspired. Looks similar to powerline. Has customizable segments, decorators for git status, rust, node.js, python and ruby versions."
+  },
+  {
     "name": "dp",
     "url": "https://github.com/davidparsson/zsh-dp-theme",
     "description": "Low contrast theme that shows current git branch, if the repository is dirty and the value of $PYENV_VERSION."
@@ -5963,6 +5973,11 @@
     "name": "gawaine",
     "url": "https://github.com/nicolaracco/gawaine.zsh-theme",
     "description": "Nicola Racco's theme. Requires rvm & git plugins."
+  },
+  {
+    "name": "gazelle",
+    "url": "https://github.com/mfurkanndemir/gazelle",
+    "description": "Minimalist theme with git status decorations."
   },
   {
     "name": "gbt",
@@ -7358,6 +7373,11 @@
     "name": "pastel",
     "url": "https://github.com/iboyperson/pastel",
     "description": "A ZSH theme inspired by sugar-free. Includes git decorations."
+  },
+  {
+    "name": "paxton",
+    "url": "https://github.com/p1xt4n/ohmyzsh-theme-paxton",
+    "description": "Inspired by powerline. Includes segments for git branch, time, last command exit status and current directory. Requires a powerline-compatible font."
   },
   {
     "name": "pecodez",
