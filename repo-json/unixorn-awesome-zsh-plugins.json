@@ -248,7 +248,7 @@
   {
     "name": "activate-py-environment",
     "url": "https://github.com/se-jaeger/zsh-activate-py-environment",
-    "description": "Automagically detects and activates your python environments (poetry, virtualenv, conda) while traversing directories."
+    "description": "Automagically detects and activates your python environments (poetry, virtualenv and conda) while traversing directories."
   },
   {
     "name": "alacritty",
@@ -3073,7 +3073,12 @@
     "description": "ZSH integration and completions for skaffold local kubernetes development environment."
   },
   {
-    "name": "skim",
+    "name": "skim (casonadams)",
+    "url": "https://github.com/casonadams/skim.zsh",
+    "description": "Tries to determine where skim is installed, then enables its fuzzy auto-completion and key bindings."
+  },
+  {
+    "name": "skim (hackerchai)",
     "url": "https://github.com/hackerchai/skim-zsh",
     "description": "Adds support for skim"
   },
@@ -3722,11 +3727,6 @@
     "description": "Use your Yubikey stored GPG keys from WSL. This packages the instructions from wsl2-ssh-pageant repo as a ZSH plugin."
   },
   {
-    "name": "xdg-basedirs",
-    "url": "https://github.com/zshzoo/xdg-basedirs",
-    "description": "Configure apps to use XDG base directories."
-  },
-  {
     "name": "xxh-plugin-zsh-zshrc",
     "url": "https://github.com/roman-geraskin/xxh-plugin-zsh-zshrc",
     "description": "plugin for xxh-shell-zsh that copies your ~/.zshrc to a remote host and sources it with xxh-shell-zsh."
@@ -3839,7 +3839,7 @@
   {
     "name": "zero",
     "url": "https://github.com/arlimus/zero.zsh",
-    "description": "Zero is both a plugin and a theme. See the github page for installation details."
+    "description": "Zero is both a plugin and a theme. See the github page for installation details. Includes git and hg status decorators."
   },
   {
     "name": "zflai",
@@ -3914,7 +3914,7 @@
   {
     "name": "zinit-annex-submods",
     "url": "https://github.com/z-shell/z-a-submods",
-    "description": "zinit extenstion allows installing and managing additional submodules within a plugin or snippet."
+    "description": "zinit extension that allows installing and managing additional submodules within a plugin or snippet."
   },
   {
     "name": "zinit-annex-test",
@@ -3949,7 +3949,7 @@
   {
     "name": "zlong_alert",
     "url": "https://github.com/kevinywlui/zlong_alert.zsh",
-    "description": "Uses notify-send and ring a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed."
+    "description": "Uses notify-send and rings a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed."
   },
   {
     "name": "zman",
@@ -5985,11 +5985,6 @@
     "description": "Nicola Racco's theme. Requires rvm & git plugins."
   },
   {
-    "name": "gazelle",
-    "url": "https://github.com/mfurkanndemir/gazelle",
-    "description": "Minimalist theme with git status decorations."
-  },
-  {
     "name": "gbt",
     "url": "https://github.com/jtyr/gbt",
     "description": "Go Bullet Train is a very customizable prompt builder inspired by Bullet Train that runs much faster. Includes many different status cars."
@@ -7802,7 +7797,7 @@
   {
     "name": "remolueoend",
     "url": "https://github.com/remolueoend/remolueoend.zsh-theme",
-    "description": "Prezto ZSH theme based on Sorin, using emojis for tracking GIT context."
+    "description": "Based on Agnoster, using emojis for tracking GIT context. Only works with Prezto."
   },
   {
     "name": "repo",
