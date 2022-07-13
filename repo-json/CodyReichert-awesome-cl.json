@@ -735,7 +735,7 @@
   {
     "name": "see also: sbcl-librarian",
     "url": "https://github.com/quil-lang/sbcl-librarian",
-    "description": " Dynamic library delivery tools for SBCL. MIT. Blog post. Full example."
+    "description": " Dynamic library delivery tools for SBCL. Create shared libraries that can be called from C or Python. MIT. Blog post. Full example."
   },
   {
     "name": "ECL",
@@ -888,14 +888,24 @@
     "description": "Python-like annotations for Common Lisp. LLGPL."
   },
   {
+    "name": "cl-reader",
+    "url": "https://github.com/digikar99/reader",
+    "description": "A utility library"
+  },
+  {
+    "name": "mstrings",
+    "url": "https://git.sr.ht/~shunter/mstrings",
+    "description": " a reader macro to provide visually appealing multiline blocks. An M-string trims leading whitespace, concatenates lines together, etc. BSD_3Clause."
+  },
+  {
     "name": "pythonic-string-reader",
     "url": "https://github.com/smithzvk/pythonic-string-reader",
     "description": "A simple and unobtrusive read table modification inspired by Python's three quote strings. BSD_3Clause."
   },
   {
-    "name": "cl-reader",
-    "url": "https://github.com/digikar99/reader",
-    "description": "A utility library"
+    "name": "cl-heredoc",
+    "url": "https://github.com/outergod/cl-heredoc",
+    "description": "a \"heredocs\" dispatcher. GPL3. Allows to write: #>eof>Write whatever (you) \"want\", no matter what characters, until the magic end sequence has been reached.eof"
   },
   {
     "name": "defclass-std",
@@ -1404,6 +1414,11 @@
     "name": "hunchentoot-errors",
     "url": "https://github.com/mmontone/hunchentoot-errors",
     "description": "Augments Hunchentoot error pages and logs with request and session information. MIT."
+  },
+  {
+    "name": "cl-tbnl-gserver-tmgr",
+    "url": "https://github.com/mdbergmann/cl-tbnl-gserver-tmgr",
+    "description": " Hunchentoot Gserver-based taskmanager. cl-gserver is an actor-like message-passing library (see below in \"Actors pattern\"). Experimental."
   },
   {
     "name": "tiny-routes",
