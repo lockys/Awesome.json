@@ -251,6 +251,15 @@
     "description": "in-memory database system. Implementation of Object Prevalence, in which business objects are kept live in memory and transactions are journaled for system recovery. github fork. LLGPL. See also cl-prevalence-multimaster, to syncronize multiple cl-prevalence systems state."
   },
   {
+    "name": "cl-naive-store",
+    "url": "https://gitlab.com/Harag/cl-naive-store",
+    "description": "a naive persisted, in memory (lazy loading), indexed, document store for Common Lisp. MIT."
+  },
+  {
+    "name": "see the introductory blog post",
+    "url": "https://zaries.wordpress.com/2022/05/31/cl-naive-store/"
+  },
+  {
     "name": "cl-agraph, a minimal client for AllegroGraph. AllegroGraph is a horizontally distributed, multi-model (document and graph), entity-event knowledge graph technology. It is proprietary and has a free version with a limit of 5 million triples.",
     "url": "https://github.com/vseloved/cl-agraph"
   },
@@ -270,14 +279,14 @@
     "description": "graph database & Prolog implementation. Takes design inspiration from CouchDB, neo4j and AllegroGraph. It implements an ACID-compliant object graph model with user-defined indexes and map-reduce views. It also implements a master / slave replication scheme for redundancy and horizontal read scaling. Querying the graph is accomplished via a number of Lisp methods or via a Prolog-like query language. MIT."
   },
   {
-    "name": "facts",
-    "url": "https://github.com/cl-facts/facts",
-    "description": "an in-memory graph database with transactions and rollbacks, logging/replay and dumping/loading to/from disk. BSD-style license (ISC)."
-  },
-  {
     "name": "restagraph",
     "url": "https://github.com/equill/restagraph",
     "description": "an app that dynamically generates REST APIs for a Neo4j database, using a schema defined within the database. GPL3."
+  },
+  {
+    "name": "facts",
+    "url": "https://github.com/cl-facts/facts",
+    "description": "an in-memory graph database with transactions and rollbacks, logging/replay and dumping/loading to/from disk. BSD-style license (ISC)."
   },
   {
     "name": "cl-sqlite",
@@ -1637,6 +1646,11 @@
     "name": "cl-smtp",
     "url": "https://gitlab.common-lisp.net/cl-smtp/cl-smtp",
     "description": "CL-SMTP is a simple lisp smtp client."
+  },
+  {
+    "name": "Hunchensocket",
+    "url": "https://github.com/joaotavora/hunchensocket",
+    "description": " RFC6455 compliant WebSockets for Common Lisp. MIT."
   },
   {
     "name": "websocket-driver",
