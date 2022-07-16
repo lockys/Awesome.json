@@ -203,6 +203,10 @@
     "description": "SQL statements live in their own files, in SQL syntax, and are imported into Lisp as functions. You are not limited to the features a DSL supports. Based on Clojure's Yesql. MIT."
   },
   {
+    "name": "mito-attachment, a mixin class for file management outside of RDBMS.",
+    "url": "https://github.com/fukamachi/mito-attachment"
+  },
+  {
     "name": "cl-dbi",
     "url": "https://github.com/fukamachi/cl-dbi",
     "description": "A database-independent interface for Common Lisp. LLGPL."
@@ -1520,11 +1524,6 @@
     "description": "A widgets-based framework with a built-in ajax update mechanism that \"solves the JavaScript problem\". LLGPL."
   },
   {
-    "name": "Rock",
-    "url": "https://github.com/eudoxia0/rock",
-    "description": "an asset manager for"
-  },
-  {
     "name": "eco",
     "url": "https://github.com/eudoxia0/eco",
     "description": "Fast, flexible, designer-friendly template engine. Expat."
@@ -1628,46 +1627,6 @@
     "url": "https://github.com/johnmastro/trident-mode.el"
   },
   {
-    "name": "trivial-imap",
-    "url": "https://github.com/40ants/trivial-imap",
-    "description": "tries to make easy some common cases of working with IMAP servers, like reading emails from the server. A thin wrapper over post-office library (which is a fork of Franz's cl-imap). BSD."
-  },
-  {
-    "name": "mailgun",
-    "url": "https://github.com/40ants/mailgun",
-    "description": "A thin wrapper to post HTML emails through mailgun.com. unlicence."
-  },
-  {
-    "name": "mito-email-auth",
-    "url": "https://github.com/40ants/mito-email-auth",
-    "description": "Helper to authenticate a website's users by sending them unique code by email."
-  },
-  {
-    "name": "cl-smtp",
-    "url": "https://gitlab.common-lisp.net/cl-smtp/cl-smtp",
-    "description": "CL-SMTP is a simple lisp smtp client."
-  },
-  {
-    "name": "Hunchensocket",
-    "url": "https://github.com/joaotavora/hunchensocket",
-    "description": " RFC6455 compliant WebSockets for Common Lisp. MIT."
-  },
-  {
-    "name": "websocket-driver",
-    "url": "https://github.com/fukamachi/websocket-driver",
-    "description": "a WebSocket server/client implementation, backend agnostic (Clack). 3-clause BSD."
-  },
-  {
-    "name": "Portal",
-    "url": "https://github.com/charJe/portal",
-    "description": "Portable websockets for Common Lisp using usocket. LLGPL."
-  },
-  {
-    "name": "coleslaw and its\ncoleslaw-cli",
-    "url": "https://github.com/kingcons/coleslaw",
-    "description": "Flexible"
-  },
-  {
     "name": "heroku-buildpack-common-lisp",
     "url": "https://gitlab.com/duncan-bayne/heroku-buildpack-common-lisp",
     "description": "A Heroku buildpack that uses Roswell to compile Common Lisp applications. LGPL3."
@@ -1714,6 +1673,106 @@
     "name": "rollbar.lisp",
     "url": "https://github.com/adventuring/rollbar.lisp",
     "description": "interface to Rollbar.com, an error tracking software."
+  },
+  {
+    "name": "Hunchensocket",
+    "url": "https://github.com/joaotavora/hunchensocket",
+    "description": " RFC6455 compliant WebSockets for Common Lisp. MIT."
+  },
+  {
+    "name": "websocket-driver",
+    "url": "https://github.com/fukamachi/websocket-driver",
+    "description": "a WebSocket server/client implementation, backend agnostic (Clack). 3-clause BSD."
+  },
+  {
+    "name": "Portal",
+    "url": "https://github.com/charJe/portal",
+    "description": "Portable websockets for Common Lisp using usocket. LLGPL."
+  },
+  {
+    "name": "Rock",
+    "url": "https://github.com/eudoxia0/rock",
+    "description": "an asset manager for"
+  },
+  {
+    "name": "cl-webdriver-client",
+    "url": "https://github.com/copyleft/cl-webdriver-client/",
+    "description": "a binding library to WebDriver (supports Selenium 4.0)."
+  },
+  {
+    "name": "cl-authentic",
+    "url": "https://github.com/charJe/cl-authentic",
+    "description": " Password management for Common Lisp (web) applications. LLGPL."
+  },
+  {
+    "name": "mito-email-auth",
+    "url": "https://github.com/40ants/mito-email-auth",
+    "description": "Helper to authenticate a website's users by sending them unique code by email."
+  },
+  {
+    "name": "cl-cookieweb",
+    "url": "https://github.com/vindarel/cl-cookieweb",
+    "description": "a  Cookiecutter template to start a web project. BSD_3Clause. Not in Quicklisp."
+  },
+  {
+    "name": "make-like",
+    "url": "https://github.com/container-lisp/make-like",
+    "description": "an application template builder for LIKE (Lisp In Kubernetes + Emacs) applications. Apache2.0."
+  },
+  {
+    "name": "cl-webapp-seed",
+    "url": "https://github.com/rajasegar/cl-webapp-seed",
+    "description": "a simple web application boilerplate. Uses Hunchentoot, cl-who, deploys easily to Heroku. MIT."
+  },
+  {
+    "name": "maiden",
+    "url": "https://shirakumo.github.io/maiden",
+    "description": "A bot and chat system framework with support for IRC and more. zlib."
+  },
+  {
+    "name": "css-lite",
+    "url": "https://github.com/paddymul/css-lite",
+    "description": "A CSS grammar. Expat."
+  },
+  {
+    "name": "find-port",
+    "url": "https://github.com/eudoxia0/find-port",
+    "description": " Programmatically find open ports. MIT."
+  },
+  {
+    "name": "Postmaster",
+    "url": "https://github.com/eudoxia0/postmaster",
+    "description": "A simple, easy-to-use SMTP/IMAP library. Expat."
+  },
+  {
+    "name": "cl-wget",
+    "url": "https://github.com/cl-wget/cl-wget",
+    "description": "Makes retrieving large files or mirroring entire websites easy. AGPL-3.0."
+  },
+  {
+    "name": "trivial-download",
+    "url": "https://github.com/eudoxia0/trivial-download",
+    "description": "Download files. MIT."
+  },
+  {
+    "name": "trivial-imap",
+    "url": "https://github.com/40ants/trivial-imap",
+    "description": "tries to make easy some common cases of working with IMAP servers, like reading emails from the server. A thin wrapper over post-office library (which is a fork of Franz's cl-imap). BSD."
+  },
+  {
+    "name": "mailgun",
+    "url": "https://github.com/40ants/mailgun",
+    "description": "A thin wrapper to post HTML emails through mailgun.com. unlicence."
+  },
+  {
+    "name": "cl-smtp",
+    "url": "https://gitlab.common-lisp.net/cl-smtp/cl-smtp",
+    "description": "CL-SMTP is a simple lisp smtp client."
+  },
+  {
+    "name": "coleslaw and its\ncoleslaw-cli",
+    "url": "https://github.com/kingcons/coleslaw",
+    "description": "Flexible"
   },
   {
     "name": "Aws-sign4",
@@ -1784,56 +1843,6 @@
     "name": "stripe",
     "url": "https://git.mfiano.net/mfiano/stripe",
     "description": "a client for the Stripe payment system. MIT."
-  },
-  {
-    "name": "cl-cookieweb",
-    "url": "https://github.com/vindarel/cl-cookieweb",
-    "description": "a  Cookiecutter template to start a web project. BSD_3Clause. Not in Quicklisp."
-  },
-  {
-    "name": "make-like",
-    "url": "https://github.com/container-lisp/make-like",
-    "description": "an application template builder for LIKE (Lisp In Kubernetes + Emacs) applications. Apache2.0."
-  },
-  {
-    "name": "cl-webapp-seed",
-    "url": "https://github.com/rajasegar/cl-webapp-seed",
-    "description": "a simple web application boilerplate. Uses Hunchentoot, cl-who, deploys easily to Heroku. MIT."
-  },
-  {
-    "name": "maiden",
-    "url": "https://shirakumo.github.io/maiden",
-    "description": "A bot and chat system framework with support for IRC and more. zlib."
-  },
-  {
-    "name": "css-lite",
-    "url": "https://github.com/paddymul/css-lite",
-    "description": "A CSS grammar. Expat."
-  },
-  {
-    "name": "find-port",
-    "url": "https://github.com/eudoxia0/find-port",
-    "description": " Programmatically find open ports. MIT."
-  },
-  {
-    "name": "Postmaster",
-    "url": "https://github.com/eudoxia0/postmaster",
-    "description": "A simple, easy-to-use SMTP/IMAP library. Expat."
-  },
-  {
-    "name": "cl-webdriver-client",
-    "url": "https://github.com/copyleft/cl-webdriver-client/",
-    "description": "a binding library to WebDriver (supports Selenium 4.0)."
-  },
-  {
-    "name": "cl-wget",
-    "url": "https://github.com/cl-wget/cl-wget",
-    "description": "Makes retrieving large files or mirroring entire websites easy. AGPL-3.0."
-  },
-  {
-    "name": "trivial-download",
-    "url": "https://github.com/eudoxia0/trivial-download",
-    "description": "Download files. MIT."
   },
   {
     "name": "numcl",
