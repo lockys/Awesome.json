@@ -10,9 +10,9 @@
     "description": "Collection of snippets."
   },
   {
-    "name": "DevTools Remote",
-    "url": "https://github.com/auchenberg/devtools-remote",
-    "description": "Remotely debug someone else's browser."
+    "name": "Can I DevTools?",
+    "url": "https://www.canidev.tools/",
+    "description": "Various workflows, documented."
   },
   {
     "name": "immutable-devtools",
@@ -100,93 +100,39 @@
     "description": "Tool for debugging clients using devtools protocol."
   },
   {
-    "name": "Remote Debug Gateway",
-    "url": "https://github.com/RemoteDebug/remotedebug-gateway",
-    "description": "Allows you to connect a client to multiple browsers at once."
-  },
-  {
-    "name": "DevTools Backend",
-    "url": "https://github.com/christian-bromann/devtools-backend",
-    "description": "Standalone implementation of the Chrome DevTools backend to debug arbitrary web environments."
-  },
-  {
-    "name": "RemoteDebug",
-    "url": "https://github.com/RemoteDebug",
-    "description": "Initiative to normalize debugging protocols across today's browsers."
-  },
-  {
-    "name": "ChromeDriver",
-    "url": "https://sites.google.com/corp/chromium.org/driver/",
-    "description": "The official Selenium/WebDriver implementation for Chrome is implemented on top of the DevTools Protocol."
-  },
-  {
-    "name": "BrowserGap Community Edition",
-    "url": "https://github.com/dosycorp/browsergap.ce",
-    "description": "A remote browser product, open sourced. Makes heavy use of the raw, tip-of-tree Chrome DevTools protocol."
-  },
-  {
     "name": "Puppeteer",
     "url": "https://github.com/GoogleChrome/puppeteer/",
-    "description": "Node.js offering a high-level API to control headless Chrome over the DevTools Protocol."
-  },
-  {
-    "name": "Python port: pyppeteer",
-    "url": "https://github.com/pyppeteer/pyppeteer"
-  },
-  {
-    "name": "Rust port: Rust Headless Chrome",
-    "url": "https://github.com/atroche/rust-headless-chrome/"
-  },
-  {
-    "name": ".NET port: Puppeteer Sharp",
-    "url": "https://github.com/kblok/puppeteer-sharp"
-  },
-  {
-    "name": "Ruby port: Ferrum",
-    "url": "https://github.com/route/ferrum"
-  },
-  {
-    "name": "headless-devtools",
-    "url": "https://github.com/cowchimp/headless-devtools",
-    "description": "Puppeteer plugin to get CSS Coverage or JS Heap snapshot."
-  },
-  {
-    "name": "PuPHPeteer",
-    "url": "https://github.com/rialto-php/puphpeteer",
-    "description": "PHP-bridge to control Puppeteer using PHP."
+    "description": "Node.js offering a high-level API to control headless Chrome over the DevTools Protocol. See also awesome-puppeteer."
   },
   {
     "name": "Playwright",
     "url": "https://github.com/microsoft/playwright",
-    "description": "Node.js library to automate Chromium, Firefox and WebKit with a single API."
-  },
-  {
-    "name": "Taiko",
-    "url": "https://github.com/getgauge/taiko/",
-    "description": "A Node.js module to automate the Chrome/Chromium using DevTools protocol."
-  },
-  {
-    "name": "cuic",
-    "url": "https://github.com/milankinen/cuic",
-    "description": "Clojure library providing a high-level API for UI test automation over the DevTools Protocol."
+    "description": "Library to automate Chromium, Firefox and WebKit with a single API. Available for Node.js, Python, .Net, Java. See also awesome-playwright."
   },
   {
     "name": "JavaScript/Node.js: chrome-remote-interface",
-    "url": "https://github.com/cyrus-and/chrome-remote-interface",
-    "description": "The most-used JavaScript API for the protocol"
+    "url": "https://github.com/cyrus-and/chrome-remote-interface"
   },
   {
     "name": "TypeScript/Node.js: chrome-debugging-client",
-    "url": "https://github.com/krisselden/chrome-debugging-client"
+    "url": "https://github.com/TracerBench/chrome-debugging-client"
+  },
+  {
+    "name": "Typescript/Node.js: noice-json-rpc",
+    "url": "https://www.npmjs.com/package/noice-json-rpc",
+    "description": "A proxy-based implementation to expose the CDP as its API."
+  },
+  {
+    "name": "Typescript/Node.js: Taiko",
+    "url": "https://github.com/getgauge/taiko/"
+  },
+  {
+    "name": "Rust: Rust Headless Chrome",
+    "url": "https://github.com/atroche/rust-headless-chrome/"
   },
   {
     "name": "Java: chrome-devtools-java-client",
     "url": "https://github.com/kklisura/chrome-devtools-java-client"
-  },
-  {
-    "name": "Java: karate",
-    "url": "https://intuit.github.io/karate/karate-core/",
-    "description": "Web-service testing framework with a Java API to automate Chrome"
   },
   {
     "name": "Java: jvppeteer ",
@@ -204,9 +150,9 @@
     "description": "drop-in replacement for the splash service"
   },
   {
-    "name": "Python: pychrome",
-    "url": "https://github.com/fate0/pychrome",
-    "description": "low level CDP transport handler"
+    "name": "Python: pyppeteer",
+    "url": "https://github.com/pyppeteer/pyppeteer",
+    "description": "puppeteer port"
   },
   {
     "name": "Python: ChromeController",
@@ -235,18 +181,24 @@
     "url": "https://github.com/go-rod/rod"
   },
   {
+    "name": "C#/.NET: Puppeteer Sharp",
+    "url": "https://github.com/kblok/puppeteer-sharp",
+    "description": "puppeteer port"
+  },
+  {
     "name": "C#/dotnet: chrome-dev-tools",
     "url": "https://github.com/BaristaLabs/chrome-dev-tools",
     "description": "Protocol wrapper generator that can be customized by editing handlebars templates. Includes .Net Core template."
   },
   {
+    "name": "Ruby: Ferrum",
+    "url": "https://github.com/route/ferrum",
+    "description": "high-level API to control Chrome in Ruby"
+  },
+  {
     "name": "Ruby: Cuprite",
     "url": "https://github.com/machinio/cuprite",
     "description": "Capybara driver"
-  },
-  {
-    "name": "Ruby: ChromeRemote",
-    "url": "https://github.com/cavalle/chrome_remote/"
   },
   {
     "name": "Kotlin: chrome-reactive-kotlin",
@@ -264,29 +216,24 @@
     "description": "The CDP wrapper API is autogenerated and will be updated when CDP protocol changes."
   },
   {
+    "name": "Clojure: cuic",
+    "url": "https://github.com/milankinen/cuic",
+    "description": "Providing a high-level API for UI test automation over the DevTools Protocol."
+  },
+  {
     "name": "PHP: chrome-devtools-protocol",
     "url": "https://github.com/jakubkulhan/chrome-devtools-protocol",
     "description": "A PHP client library for the protocol."
   },
   {
-    "name": "Remote Debug Firefox adapter",
-    "url": "https://github.com/RemoteDebug/remotedebug-firefox-adapter",
-    "description": "Translates Firefox's devtools protocol to the CDP."
+    "name": "PHP: PuPHPeteer",
+    "url": "https://github.com/rialto-php/puphpeteer",
+    "description": "php bridge to node puppeteer"
   },
   {
-    "name": "ios-webkit-debug-proxy",
-    "url": "https://github.com/google/ios-webkit-debug-proxy",
-    "description": "Exposes Mobile Safari & UIWebView instances via the CDP."
-  },
-  {
-    "name": "Remote Debug iOS WebKit adapter",
-    "url": "https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter",
-    "description": "Builts upon ios-webkit-debug-proxy and translates WebKit's Remote Debugging Protocol API to the CDP."
-  },
-  {
-    "name": "IE Diagnostics Adapter",
-    "url": "https://github.com/Microsoft/IEDiagnosticsAdapter",
-    "description": "Protocol adaptor for Microsoft IE 11 to CDP."
+    "name": "Inspect",
+    "url": "https://inspect.dev/",
+    "description": "Use devtools against iOS and Android, easily. Browser and Webviews. (closed source)"
   },
   {
     "name": "Facebook Stetho",
@@ -304,18 +251,9 @@
     "description": "Debugging of ClojsureScript."
   },
   {
-    "name": "Mare",
-    "url": "https://github.com/muzuiget/mare",
-    "description": "Lua debugging with Chrome DevTools."
-  },
-  {
     "name": "PonyDebugger",
     "url": "https://github.com/square/PonyDebugger",
     "description": "Remote network and data debugging iOS apps with Chrome DevTools."
-  },
-  {
-    "name": "go-debugger-devtools",
-    "url": "https://github.com/allada/go-debugger-devtools"
   },
   {
     "name": "ndb",
@@ -336,6 +274,11 @@
     "name": "chrome-devtools-frontend",
     "url": "https://www.npmjs.com/package/chrome-devtools-frontend",
     "description": "Mirror of the frontend that ships in Chrome."
+  },
+  {
+    "name": "ruby/debug",
+    "url": "https://github.com/ruby/debug",
+    "description": "Debugging functionality for Ruby."
   },
   {
     "name": "Chromelens",
@@ -423,6 +366,11 @@
     "description": "Inspect the Metal component hierarchies."
   },
   {
+    "name": "Web Component DevTools",
+    "url": "https://chrome.google.com/webstore/detail/web-component-devtools/gdniinfdlmmmjpnhgnkmfpffipenjljo",
+    "description": "Inspect, modify and observe Web Components on page."
+  },
+  {
     "name": "DevTools Author",
     "url": "https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi",
     "description": "A selection of themes to modify parts of DevTools related to authoring web applications."
@@ -451,5 +399,44 @@
     "name": "Puppeteer IDE",
     "url": "https://github.com/gajananpp/puppeteer-ide-extension",
     "description": "Standalone Puppeteer playground in browser's developer tools."
+  },
+  {
+    "name": "Remote Debug Gateway",
+    "url": "https://github.com/RemoteDebug/remotedebug-gateway",
+    "description": "Allows you to connect a client to multiple browsers at once."
+  },
+  {
+    "name": "Multiuser DevTools: DevTools Remote",
+    "url": "https://github.com/auchenberg/devtools-remote",
+    "description": "Remotely debug someone else's browser."
+  },
+  {
+    "name": "DevTools Backend",
+    "url": "https://github.com/christian-bromann/devtools-backend",
+    "description": "Standalone implementation of the Chrome DevTools backend to debug arbitrary web environments."
+  },
+  {
+    "name": "Python CDP driver: pychrome",
+    "url": "https://github.com/fate0/pychrome",
+    "description": "low level CDP transport handler"
+  },
+  {
+    "name": "ios-webkit-debug-proxy",
+    "url": "https://github.com/google/ios-webkit-debug-proxy",
+    "description": "Exposes Mobile Safari & UIWebView instances via the CDP."
+  },
+  {
+    "name": "Remote Debug iOS WebKit adapter",
+    "url": "https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter",
+    "description": "Builts upon ios-webkit-debug-proxy and translates WebKit's Remote Debugging Protocol API to the CDP."
+  },
+  {
+    "name": "IE Diagnostics Adapter",
+    "url": "https://github.com/Microsoft/IEDiagnosticsAdapter",
+    "description": "Protocol adaptor for Microsoft IE 11 to CDP."
+  },
+  {
+    "name": "go-debugger-devtools",
+    "url": "https://github.com/allada/go-debugger-devtools"
   }
 ]
