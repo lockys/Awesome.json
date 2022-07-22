@@ -398,7 +398,7 @@
   {
     "name": "auto-fortune-cowsay",
     "url": "https://github.com/babasbot/auto-fortune-cowsay-zsh",
-    "description": "Prints out an ASCII picture of a cow saying a random epigram on every zsh start."
+    "description": "Prints out an ASCII picture of a cow saying a random epigram on every ZSH start."
   },
   {
     "name": "auto-fu.zsh",
@@ -633,7 +633,7 @@
   {
     "name": "boss-docker",
     "url": "https://github.com/bossjones/boss-docker-zsh-plugin",
-    "description": "Manages docker on OSX."
+    "description": "Manages docker on macOS."
   },
   {
     "name": "boss-git",
@@ -668,7 +668,7 @@
   {
     "name": "bumblebee",
     "url": "https://github.com/Niverton/zsh-bumblebee-plugin",
-    "description": "A plugin to toggle optirun in the command line."
+    "description": "A plugin to toggle prepending optirun in the command line."
   },
   {
     "name": "bw",
@@ -923,7 +923,7 @@
   {
     "name": "declare-zsh",
     "url": "https://github.com/z-shell/declare-zsh",
-    "description": "A parser for zinit commands in .zshrc. It allows to perform the following actions on .zshrc from the command-line - enable and disable plugins add or remove snippets."
+    "description": "A parser for zinit commands in .zshrc. It allows you to perform the following actions on .zshrc from the command-line - enable and disable plugins add or remove snippets."
   },
   {
     "name": "deepx",
@@ -1196,7 +1196,7 @@
   {
     "name": "exa (zplugin)",
     "url": "https://github.com/zplugin/zsh-exa",
-    "description": "replace GNU/ls with ogham/exa."
+    "description": "replace ls with ogham/exa."
   },
   {
     "name": "exa-ls",
@@ -1441,7 +1441,7 @@
   {
     "name": "get-jquery",
     "url": "https://github.com/voronkovich/get-jquery.plugin.zsh",
-    "description": "Plugin for fast downloading jQuery library from code.jquery.com."
+    "description": "Plugin for fast downloading the jQuery library from code.jquery.com."
   },
   {
     "name": "ghost-zeus",
@@ -1516,7 +1516,7 @@
   {
     "name": "git-is-clean",
     "url": "https://github.com/aubreypwd/zsh-plugin-git-is-clean",
-    "description": "This function will return true or false depending on if it finds out your repo is dirty or not."
+    "description": "This function will return true or false depending on if it finds out your git repo is dirty or not."
   },
   {
     "name": "git-it-on",
@@ -1926,7 +1926,7 @@
   {
     "name": "iterm2",
     "url": "https://github.com/laggardkernel/zsh-iterm2",
-    "description": "Packs iTerm's ZSH integration scripts into a ZSH plugin to avoid polluting your $HOME directory, with a negligible time increase of only 2ms."
+    "description": "Packs iTerm 2's ZSH integration scripts into a ZSH plugin to avoid polluting your $HOME directory, with a negligible time increase of only 2ms."
   },
   {
     "name": "jabba",
@@ -2121,7 +2121,7 @@
   {
     "name": "lesaint-git",
     "url": "https://github.com/lesaint/lesaint-git",
-    "description": "Replacement git plugin for Oh-My-Zsh-compatible frameworks."
+    "description": "Replacement git plugin for oh-my-zsh-compatible frameworks."
   },
   {
     "name": "lesaint-mvn",
@@ -2176,7 +2176,7 @@
   {
     "name": "lux",
     "url": "https://github.com/pndurette/zsh-lux",
-    "description": "ZSH plugin to toggle the light & dark modes of macOS and other items and applications via the lux command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes macos_is_dark helper function to determine if the macOS dark mode is active for use in theming."
+    "description": "ZSH plugin to toggle the light & dark modes of macOS and other items and applications via the lux command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes a macos_is_dark helper function to determine if the macOS dark mode is active for use in theming."
   },
   {
     "name": "mac-packaging",
@@ -2236,7 +2236,7 @@
   {
     "name": "mercurial",
     "url": "https://github.com/hcgraf/zsh-mercurial",
-    "description": "Extracted from oh-my-zsh so you can use it without oh-my-zsh."
+    "description": "Extracted from oh-my-zsh so you can use it without the rest of oh-my-zsh."
   },
   {
     "name": "mfunc",
@@ -2641,7 +2641,7 @@
   {
     "name": "pkenv",
     "url": "https://github.com/ptavares/zsh-pkenv",
-    "description": "Installs and loads pkenv"
+    "description": "Installs and loads pkenv."
   },
   {
     "name": "plugin-ibtool",
@@ -2951,7 +2951,7 @@
   {
     "name": "rvm",
     "url": "https://github.com/johnhamelink/rvm-zsh",
-    "description": "Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH."
+    "description": "Initiates rvm and adds rubygem binaries (like compass) accessible in the user's $PATH."
   },
   {
     "name": "safe-kubectl",
@@ -3311,6 +3311,11 @@
     "name": "tfswitch",
     "url": "https://github.com/ptavares/zsh-tfswitch",
     "description": "Installs and loads tfswitch."
+  },
+  {
+    "name": "tgenv",
+    "url": "https://github.com/ptavares/zsh-tgenv",
+    "description": "Installs and loads tgenv. Includes a function to manually update tgenv."
   },
   {
     "name": "tgswitch",
@@ -5122,6 +5127,11 @@
     "description": "Works well with dark terminal backgrounds."
   },
   {
+    "name": "bearings",
+    "url": "https://github.com/liamg/bearings",
+    "description": "A fast, clean, super-customizable shell prompt. Includes decorators for current directory, git status, exit code of last command, duration of last command, background jobs & username."
+  },
+  {
     "name": "bedbugs",
     "url": "https://github.com/justino/zsh-theme-bedbugs",
     "description": "Inspired by Agnoster, this multiline prompt includes git status information, background job count, working directory, user and hostname, Python virtualenv when present, colored return value of last command and root/user sigil."
@@ -6060,6 +6070,11 @@
     "description": "Simple theme that includes detailed git status decorations."
   },
   {
+    "name": "github",
+    "url": "https://github.com/Debdut/github.zsh-theme/",
+    "description": "A GitHub-inspired theme. Shows decorators for (truncated) current directory, hostname and git status. Includes both light and dark modes and detects system settings for that on macOS and Linux."
+  },
+  {
     "name": "gitsome",
     "url": "https://github.com/mtully/gitsome",
     "description": "Super simple prompt with git info, optimized for the Flat Terminal color scheme."
@@ -6773,11 +6788,6 @@
     "name": "lish",
     "url": "https://github.com/bashelled/lish",
     "description": "A casual theme. No roughness, just smooth. Includes git, user@host, last command exit status, current directory, current time and root status decorators."
-  },
-  {
-    "name": "lispy",
-    "url": "https://github.com/duffhd/lispy-zsh-theme",
-    "description": "Lispy is a multiline and simple zsh-theme inspired by the Lisp programming language syntax. Derived from the robbyrussell theme."
   },
   {
     "name": "liver",
