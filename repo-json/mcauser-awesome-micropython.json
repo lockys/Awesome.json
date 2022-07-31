@@ -35,6 +35,11 @@
     "description": "A micro neural network multilayer perceptron for MicroPython (used on ESP32 and Pycom modules)."
   },
   {
+    "name": "MicroPython-NeuralNetwork",
+    "url": "https://gitlab.com/olivierlenoir/MicroPython-NeuralNetwork",
+    "description": "Neural Network for MicroPython."
+  },
+  {
     "name": "uMath",
     "url": "https://github.com/AaronKel/uMath",
     "description": "Computer Algebra for microcontrollers."
@@ -72,6 +77,11 @@
     "name": "MicroPython_Statistics",
     "url": "https://github.com/rcolistete/MicroPython_Statistics",
     "description": "Statistics module for MicroPython."
+  },
+  {
+    "name": "MicroPython-Matrix",
+    "url": "https://gitlab.com/olivierlenoir/MicroPython-Matrix",
+    "description": "MicroPython basic matrix operations."
   },
   {
     "name": "micropython-jq6500",
@@ -171,7 +181,7 @@
   {
     "name": "micropython-firebase-auth",
     "url": "https://github.com/WoolDoughnut310/micropython-firebase-auth",
-    "description": "Firebase Auth implementation for Micropython."
+    "description": "Firebase Auth implementation for MicroPython."
   },
   {
     "name": "PyBoard-HC05-Android",
@@ -1015,6 +1025,11 @@
     "url": "https://github.com/peterhinch/micropython-tft-gui"
   },
   {
+    "name": "micropython-nextion",
+    "url": "https://github.com/brainelectronics/micropython-nextion",
+    "description": "Control Nextion displays using MicroPython."
+  },
+  {
     "name": "Grove_RGB_LCD",
     "url": "https://github.com/dda/MicroPython/blob/master/Grove_RGB_LCD.py",
     "description": "Driver for SeeedStudio's Grove RGB LCD."
@@ -1445,6 +1460,11 @@
     "description": "ESP32 ADC driver using reference voltage calibration value from efuse."
   },
   {
+    "name": "micropython-pcf8591",
+    "url": "https://gitlab.com/cediddi/micropython-pcf8591",
+    "description": "MicroPython driver for PCF8591 ADC/DAC, I2C interface."
+  },
+  {
     "name": "micropython-mcp4725",
     "url": "https://github.com/wayoda/micropython-mcp4725",
     "description": "Driver for the MCP4725 I2C DAC."
@@ -1488,11 +1508,6 @@
     "name": "micropython-pcf8575",
     "url": "https://github.com/mcauser/micropython-pcf8575",
     "description": "MicroPython driver for PCF8575 16-Bit I2C I/O Expander with Interrupt."
-  },
-  {
-    "name": "micropython-pcf8591",
-    "url": "https://gitlab.com/cediddi/micropython-pcf8591",
-    "description": "MicroPython driver for PCF8591 8-Bit I2C I/O Expander."
   },
   {
     "name": "micropython-nunchuck",
@@ -1955,7 +1970,7 @@
   {
     "name": "MICS6814-Micropython-driver",
     "url": "https://gitlab.com/DanNduati/MICS6814-Micropython-driver",
-    "description": "ESP32 Micropython driver for the Pimoroni mics6814 breakout board."
+    "description": "ESP32 MicroPython driver for the Pimoroni mics6814 breakout board."
   },
   {
     "name": "MicroPython-SI1145",
@@ -2338,7 +2353,7 @@
   {
     "name": "micropython-firebase-firestore",
     "url": "https://github.com/WoolDoughnut310/micropython-firebase-firestore",
-    "description": "Firebase Firestore implementation for Micropython."
+    "description": "Firebase Firestore implementation for MicroPython."
   },
   {
     "name": "uSQLite",
@@ -2426,20 +2441,34 @@
     "description": "Get an invite to the MicroPython Discord server."
   },
   {
-    "name": "uasyncio Write asynchronous code which interfaces to hardware devices.",
-    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/TUTORIAL.md"
+    "name": "uasyncio",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/TUTORIAL.md",
+    "description": "Write asynchronous code which interfaces to hardware devices."
   },
   {
-    "name": "Asynchronous drivers Tutorial and code for asynchronous interfaces to switches, pushbuttons, encoders and ADCs.",
-    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/DRIVERS.md"
+    "name": "Asynchronous drivers",
+    "url": "https://github.com/peterhinch/micropython-async/blob/master/v3/docs/DRIVERS.md",
+    "description": "Tutorial and code for asynchronous interfaces to switches, pushbuttons, encoders and ADCs."
   },
   {
-    "name": "Pyboard micropower Tutorial and code for low power applications on Pyboard 1.x and Pyboard D.",
-    "url": "https://github.com/peterhinch/micropython-micropower"
+    "name": "Pyboard micropower",
+    "url": "https://github.com/peterhinch/micropython-micropower",
+    "description": "Tutorial and code for low power applications on Pyboard 1.x and Pyboard D."
   },
   {
-    "name": "3D rotation with quaternions Tutorial and code for the easy way to do 3D rotation.",
-    "url": "https://github.com/peterhinch/micropython-samples/blob/master/QUATERNIONS.md"
+    "name": "3D rotation with quaternions",
+    "url": "https://github.com/peterhinch/micropython-samples/blob/master/QUATERNIONS.md",
+    "description": "Tutorial and code for the easy way to do 3D rotation."
+  },
+  {
+    "name": "Miguel Grinberg",
+    "url": "https://blog.miguelgrinberg.com/category/MicroPython",
+    "description": "MicroPython and the Internet of Things."
+  },
+  {
+    "name": "Bhavesh Kakwani",
+    "url": "https://bhave.sh/",
+    "description": "Bi-weekly MicroPython video + written tutorials."
   },
   {
     "name": "Programming with MicroPython: Embedded Programming with Microcontrollers and Python",
@@ -2448,8 +2477,13 @@
   },
   {
     "name": "MicroPython for the Internet of Things: A Beginner's Guide to Programming with Python on Microcontrollers",
-    "url": "https://www.apress.com/gp/book/9781484231227",
+    "url": "https://link.springer.com/book/10.1007/978-1-4842-3123-4",
     "description": "By Charles Bell. ISBN 9781484231227."
+  },
+  {
+    "name": "Beginning MicroPython with the Raspberry Pi Pico: Build Electronics and IoT Projects",
+    "url": "https://link.springer.com/book/10.1007/978-1-4842-8135-2",
+    "description": "By Charles Bell. ISBN 9781484281345."
   },
   {
     "name": "MicroPython Cookbook",
@@ -2458,7 +2492,7 @@
   },
   {
     "name": "Python for Microcontrollers: Getting Started with MicroPython",
-    "url": "https://www.amazon.com.au/Python-Microcontrollers-Getting-Started-MicroPython/dp/1259644537",
+    "url": "https://www.mheducation.com.au/python-for-microcontrollers-getting-started-with-micropython-9781259644535-aus",
     "description": "By Donald Norris. ISBN 9781259644535."
   },
   {
@@ -2646,8 +2680,9 @@
     "description": "A small tool that synchronizes a folder to a MicroPython board whenever it detects a change."
   },
   {
-    "name": "mpremote Powerful official shell supports mounting the host's current directory on the target. Run code without changing the target's filesystem.",
-    "url": "https://github.com/micropython/micropython/blob/master/tools/mpremote/README.md"
+    "name": "mpremote",
+    "url": "https://github.com/micropython/micropython/blob/master/tools/mpremote/README.md",
+    "description": "Powerful official shell that supports mounting the host's current directory on the target. Run code without changing the target's filesystem."
   },
   {
     "name": "MicroPython Kickstarter",
