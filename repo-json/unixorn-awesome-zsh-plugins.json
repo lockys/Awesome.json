@@ -216,6 +216,11 @@
     "description": "Powerline-esque theme. Includes git status decorations, network and battery status."
   },
   {
+    "name": "1password",
+    "url": "https://github.com/agpenton/1password-zsh-plugin",
+    "description": "Adds 1Password functionality including a opswd command that wraps the op command. It takes a service name as an argument and copies the password for that service to the clipboard."
+  },
+  {
     "name": "256color",
     "url": "https://github.com/chrissicool/zsh-256color",
     "description": "Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available."
@@ -589,11 +594,6 @@
     "name": "bd",
     "url": "https://github.com/Tarrasch/zsh-bd",
     "description": "Jump back to a specific directory, without doing cd ../../..."
-  },
-  {
-    "name": "bepoptimist",
-    "url": "https://github.com/sheoak/zsh-bepoptimist",
-    "description": "Remap ZSH vi-mode for French bépo keyboard."
   },
   {
     "name": "bitbucket-git-helpers",
@@ -2749,6 +2749,11 @@
     "description": "Converts raw seconds into human-readable strings."
   },
   {
+    "name": "prettyping",
+    "url": "https://github.com/unixorn/prettyping",
+    "description": "Adds a wrapper around the standard ping tool with the objective of making the output prettier, more colorful, more compact, and easier to read."
+  },
+  {
     "name": "print-alias",
     "url": "https://github.com/brymck/print-alias",
     "description": "Prints commands with aliases expanded whenever you use an alias at the command line."
@@ -2849,17 +2854,17 @@
     "description": "Chooses a random theme for each session. If you not like the chosen theme you can run randeme_rm to never show that theme again."
   },
   {
-    "name": "ranger-autojump",
-    "url": "https://github.com/fdw/ranger-autojump",
-    "description": "Adds autojump support to the ranger console file manager."
-  },
-  {
     "name": "random-quotes",
     "url": "https://github.com/vkolagotla/zsh-random-quotes",
     "description": "Displays random quotes or facts."
   },
   {
-    "name": "RaspberryPi4Temperature",
+    "name": "ranger-autojump",
+    "url": "https://github.com/fdw/ranger-autojump",
+    "description": "Adds autojump support to the ranger console file manager."
+  },
+  {
+    "name": "raspberryPi4Temperature",
     "url": "https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin/blob/main/RaspberryPi4TemperaturePromptPlugin.zsh",
     "description": "Puts the Raspberry Pi temperature into a spaceship prompt segment"
   },
