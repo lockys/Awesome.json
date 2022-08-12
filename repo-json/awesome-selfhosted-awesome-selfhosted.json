@@ -11,7 +11,7 @@
   },
   {
     "name": "Archivematica",
-    "url": "https://www.archivematica.org/",
+    "url": "https://www.archivematica.org/en/",
     "description": "Mature digital preservation system designed to maintain standards-based, long-term access to collections of digital objects. (Demo, Source Code) AGPL-3.0-only Python"
   },
   {
@@ -33,6 +33,11 @@
     "name": "Horahora",
     "url": "https://github.com/horahoradev/horahora",
     "description": "Video hosting website and video archival manager for Niconico, Bilibili, and Youtube. MIT Go"
+  },
+  {
+    "name": "Omeka S",
+    "url": "https://omeka.org/s/",
+    "description": "Omeka S is a web publication system for universities, galleries, libraries, archives, and museums. It consists of a local network of independently curated exhibits sharing a collaboratively built pool of items, media, and their metadata. (Source Code) GPL-3.0 Nodejs"
   },
   {
     "name": "LiveStreamDVR ⚠",
@@ -106,7 +111,7 @@
   },
   {
     "name": "feed2toot",
-    "url": "https://feed2toot.readthedocs.io/",
+    "url": "https://feed2toot.readthedocs.io/en/latest/",
     "description": "Feed2toot parses a RSS feed, extracts the last entries and sends them to Mastodon. (Source Code) GPL-3.0 Python"
   },
   {
@@ -235,6 +240,11 @@
     "description": "StackStorm (aka IFTTT for Ops) is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions and ChatOps. (Source Code) Apache-2.0 Python"
   },
   {
+    "name": "Tube Archivist ⚠",
+    "url": "https://www.tubearchivist.com/",
+    "description": "Your self hosted YouTube media server: Subscribe, download, index, search and play your favorite videos. (Source Code) GPL-3.0 Python"
+  },
+  {
     "name": "WebUI-aria2",
     "url": "https://github.com/ziahamza/webui-aria2",
     "description": "Interface to interact with the aria2 downloader. Very simple to use, just download and open index.html in any web browser. (Demo) MIT HTML5"
@@ -340,6 +350,11 @@
     "description": "Modern app for saving and managing your own bookmarks. Includes a browser extension. (Demo) MIT Nodejs"
   },
   {
+    "name": "Buku",
+    "url": "https://github.com/jarun/Buku",
+    "description": "A powerful bookmark manager and a personal textual mini-web. GPL-3.0 Python"
+  },
+  {
     "name": "dyu bookmarks",
     "url": "https://github.com/dyu/bookmarks",
     "description": "Single-threaded/process bookmark app powered by leveldb and uWebSockets. Supports importing from Delicious and Chrome. (Demo) Apache-2.0 Java"
@@ -353,11 +368,6 @@
     "name": "Firefox Account Server",
     "url": "https://mozilla-services.readthedocs.io/en/latest/howtos/run-fxa.html",
     "description": "This allows you to host your own Firefox accounts server. (Source Code) MPL-2.0 Nodejs, Java"
-  },
-  {
-    "name": "Firefox Sync Server",
-    "url": "https://github.com/mozilla-services/syncserver",
-    "description": "Sync Firefox bookmarks, passwords, history, tabs, preferences. MPL-2.0 Python"
   },
   {
     "name": "Geekmarks",
@@ -528,6 +538,11 @@
     "name": "Darkwire.io",
     "url": "https://github.com/darkwire/darkwire.io",
     "description": "End-to-end encrypted instant web chat. MIT Nodejs"
+  },
+  {
+    "name": "Databag",
+    "url": "https://github.com/balzack/databag",
+    "description": "Federated messaging client for the web, supporting text, photos and video. (Demo) Apache-2.0 Docker"
   },
   {
     "name": "Element",
@@ -1125,6 +1140,11 @@
     "description": "KAZOO is an open-source, highly scalable software platform designed to provide carrier-grade VoIP switch functions and features. (Source Code) MPL-1.1 Erlang"
   },
   {
+    "name": "openSIPS",
+    "url": "https://opensips.org/",
+    "description": "OpenSIPS is an Open Source SIP proxy/server for voice, video, IM, presence and any other SIP extensions. (Source Code) GPL-2.0 C"
+  },
+  {
     "name": "Routr",
     "url": "https://routr.io",
     "description": "A lightweight sip proxy, location server, and registrar for a reliable and scalable SIP infrastructure. (Source Code) MIT Javascript"
@@ -1485,11 +1505,6 @@
     "description": "XMPP server with focus on stability, simple configuration and low resource consumption. Apache-2.0 Go"
   },
   {
-    "name": "Kontalk",
-    "url": "https://www.kontalk.org",
-    "description": "Kontalk is an Open Source Messenger, similar to WhatsApp (app for android only currently), including end-to-end encryption, server is based on Tigase XMPP Server. (Source Code) GPL-3.0 Java"
-  },
-  {
     "name": "Metronome IM",
     "url": "https://metronome.im/",
     "description": "Fork of Prosody IM. (Source Code) MIT Lua"
@@ -1608,11 +1623,6 @@
     "name": "Open Conference Systems (OCS)",
     "url": "https://pkp.sfu.ca/ocs/",
     "description": "Free Web publishing tool that will create a complete Web presence for your scholarly conference. (Source Code) GPL-1.0 PHP"
-  },
-  {
-    "name": "OpenCFP",
-    "url": "https://github.com/opencfp/opencfp",
-    "description": "Conference talk submission system. MIT PHP"
   },
   {
     "name": "osem",
@@ -1927,7 +1937,7 @@
   {
     "name": "Teedy",
     "url": "https://teedy.io/",
-    "description": "Lightweight document management system packed with all the features you can expect from big expensive solutions (Ex SismicsDocs). (Source Code) GPL-2.0 Java"
+    "description": "Lightweight document management system packed with all the features you can expect from big expensive solutions (Ex SismicsDocs). (Demo, Source Code) GPL-2.0 Docker/Java"
   },
   {
     "name": "BicBucStriim",
@@ -2031,8 +2041,8 @@
   },
   {
     "name": "Attendize",
-    "url": "https://github.com/attendize/attendize",
-    "description": "Ticket selling and event management platform. AAL PHP"
+    "url": "https://www.attendize.com/",
+    "description": "Ticket selling and event management platform. (Source Code) AAL Docker/PHP"
   },
   {
     "name": "Bagisto",
@@ -2285,6 +2295,11 @@
     "description": "Mobile webapp for Tiny Tiny RSS. AGPL-3.0 Javascript"
   },
   {
+    "name": "Yarr",
+    "url": "https://github.com/nkanaev/yarr",
+    "description": "Yarr (yet another rss reader) is a web-based feed aggregator which can be used both as a desktop application and a personal self-hosted server. MIT Go"
+  },
+  {
     "name": "Git Annex",
     "url": "https://git-annex.branchable.com/",
     "description": "File synchronization between computers, servers, external drives. (Source Code) GPL-3.0 Haskell"
@@ -2340,11 +2355,6 @@
     "description": "Self hosted, instant, secure file sync. (Source Code) GPL-3.0 C#"
   },
   {
-    "name": "Syncany",
-    "url": "https://www.syncany.org/",
-    "description": "Secure file sync software for arbitrary storage backends, an open-source cloud storage and filesharing application. Securely synchronize your files to any kind of storage. GPL-3.0 Java"
-  },
-  {
     "name": "Syncthing",
     "url": "https://syncthing.net/",
     "description": "Syncthing is an open source peer-to-peer file synchronisation tool. (Source Code) MPL-2.0 Go"
@@ -2352,7 +2362,7 @@
   {
     "name": "Unison",
     "url": "https://www.cis.upenn.edu/~bcpierce/unison/",
-    "description": "Unison is a file-synchronization tool for OSX, Unix, and Windows. GPL-3.0 OCaml"
+    "description": "Unison is a file-synchronization tool for OSX, Unix, and Windows. (Source Code) GPL-3.0 OCaml"
   },
   {
     "name": "Z-Push",
@@ -2391,7 +2401,7 @@
   },
   {
     "name": "Dat Project",
-    "url": "https://datproject.org",
+    "url": "https://dat-ecosystem.org/",
     "description": "Powerful decentralized file sharing applications built from a large ecosystem of modules. (Source Code) MIT Nodejs"
   },
   {
@@ -2517,7 +2527,7 @@
   {
     "name": "Pomf",
     "url": "https://github.com/Pomf/Pomf",
-    "description": "Simple file uploading and sharing, source for the now shut down site Pomf.se. MIT PHP"
+    "description": "Pomf is a simple file uploading and sharing platform. MIT PHP"
   },
   {
     "name": "ProjectSend",
@@ -2565,19 +2575,9 @@
     "description": "Lightweight, fast and elegant file hosting service for ShareX with Web UI and REST API. (Source Code) MIT Nodejs"
   },
   {
-    "name": "Web-File-Uploader",
-    "url": "https://github.com/femto-apps/web-file-uploader",
-    "description": "A simple tool to let people upload and share images and files. MIT Nodejs"
-  },
-  {
     "name": "XBackBone",
-    "url": "https://github.com/SergiX44/XBackBone",
-    "description": "A simple, fast and lightweight file manager with instant sharing tools integration, like ShareX (a free and open-source screenshot utility for Windows). AGPL-3.0 PHP"
-  },
-  {
-    "name": "YouTransfer",
-    "url": "https://www.youtransfer.io",
-    "description": "YouTransfer is a simple but elegant self-hosted file transfer and sharing solution. (Source Code) Apache-2.0 Nodejs"
+    "url": "https://xbackbone.app/",
+    "description": "A simple, fast and lightweight file manager with instant sharing tools integration, like ShareX (a free and open-source screenshot utility for Windows). (Source Code) AGPL-3.0 PHP"
   },
   {
     "name": "Zipline",
@@ -2620,11 +2620,6 @@
     "description": "Gossa is a light and simple webserver for your files. MIT Go"
   },
   {
-    "name": "h5ai",
-    "url": "https://larsjung.de/h5ai/",
-    "description": "Modern file indexer for HTTP web servers with focus on your files. Directories are displayed in a appealing way and browsing them is enhanced by different views, a breadcrumb and a tree overview. (Demo, Source Code) MIT PHP"
-  },
-  {
     "name": "IFM",
     "url": "https://github.com/misterunknown/ifm",
     "description": "Single script file manager. MIT PHP"
@@ -2652,7 +2647,7 @@
   {
     "name": "TagSpaces",
     "url": "https://www.tagspaces.org/",
-    "description": "TagSpaces is an offline, cross-platform file manager and organiser that also can function as a note taking app. The WebDAV version of the application can be installed on top of a WebDAV servers such as Nextcloud or ownCloud. (Demo, Source Code) AGPL-3.0 Javascript"
+    "description": "TagSpaces is an offline, cross-platform file manager and organiser that also can function as a note taking app. The WebDAV version of the application can be installed on top of a WebDAV servers such as Nextcloud or ownCloud. (Demo, Source Code) AGPL-3.0 Nodejs"
   },
   {
     "name": "updog",
@@ -2788,66 +2783,6 @@
     "name": "RconCli",
     "url": "https://github.com/gorcon/rcon-cli",
     "description": "CLI for executing queries on a remote Valve Source dedicated server using the RCON Protocol. MIT Go"
-  },
-  {
-    "name": "asciinema",
-    "url": "https://github.com/asciinema/asciinema-server",
-    "description": "Web app for hosting asciicasts. (Demo) Apache-2.0 Elixir/Docker"
-  },
-  {
-    "name": "Firezone",
-    "url": "https://www.firezone.dev/",
-    "description": "Self-hosted secure remote access gateway that supports the WireGuard protocol. It offers a Web GUI, 1-line install script, multi-factor auth (MFA), and SSO. (Source Code) Apache-2.0 Elixir"
-  },
-  {
-    "name": "GateOne",
-    "url": "http://liftoffsoftware.com/Products/GateOne",
-    "description": "Gate One is an HTML5 web-based terminal emulator and SSH client. (Source Code) AGPL-3.0 Python"
-  },
-  {
-    "name": "Guacamole",
-    "url": "https://guacamole.apache.org",
-    "description": "Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC and RDP. (Source Code) Apache-2.0 Java/C"
-  },
-  {
-    "name": "Neko",
-    "url": "https://neko.m1k1o.net",
-    "description": "A self hosted virtual browser (rabb.it clone) that runs in Docker. (Source Code) Apache-2.0 Docker/Go"
-  },
-  {
-    "name": "oneye",
-    "url": "https://oneye-project.org/",
-    "description": "Cloud software to access your data from everywhere with any browser. (Demo, Source Code) AGPL-3.0 PHP"
-  },
-  {
-    "name": "OS.js",
-    "url": "https://www.os-js.org/",
-    "description": "Desktop implementation for your browser with a fully-fledged window manager, Application APIs, GUI toolkits and filesystem abstraction. (Demo, Source Code) BSD-2-Clause Nodejs"
-  },
-  {
-    "name": "ShellHub",
-    "url": "https://www.shellhub.io",
-    "description": "ShellHub is a modern SSH server for remotely accessing linux devices via command line (using any SSH client) or web-based user interface, designed as an alternative to sshd. Think ShellHub as centralized SSH for the edge and cloud computing. (Source Code) Apache-2.0 Go/Other"
-  },
-  {
-    "name": "Sshwifty",
-    "url": "https://github.com/nirui/sshwifty",
-    "description": "Sshwifty is a SSH and Telnet connector made for the Web. AGPL-3.0 Go/Docker"
-  },
-  {
-    "name": "Teleport",
-    "url": "https://goteleport.com/",
-    "description": "Certificate authority and access plane for SSH, Kubernetes, web applications, and databases. (Source Code) Apache-2.0 Go"
-  },
-  {
-    "name": "tmate",
-    "url": "https://tmate.io/",
-    "description": "Instant terminal sharing. (Source Code) ISC C"
-  },
-  {
-    "name": "Warpgate",
-    "url": "https://github.com/warp-tech/warpgate",
-    "description": "Smart SSH and HTTPS bastion that works with any SSH client. Apache-2.0 Rust/Docker"
   },
   {
     "name": "Genea.app",
@@ -3183,11 +3118,6 @@
     "name": "Traccar",
     "url": "https://www.traccar.org/",
     "description": "Java application to track GPS positions. Supports loads of tracking devices and protocols, has an Android and iOS App. Has a web interface to view your trips. (Demo, Source Code) Apache-2.0 Java"
-  },
-  {
-    "name": "uMap",
-    "url": "https://umap.openstreetmap.fr/en/",
-    "description": "Create maps with OpenStreetMap layers in a minute and embed them in your site. (Source Code) WTFPL Python"
   },
   {
     "name": "μlogger",
@@ -3570,6 +3500,16 @@
     "description": "Flow Diagram Drawing Tool. (Source Code) MIT Nodejs"
   },
   {
+    "name": "asciinema",
+    "url": "https://github.com/asciinema/asciinema-server",
+    "description": "Web app for hosting asciicasts. (Demo) Apache-2.0 Elixir/Docker"
+  },
+  {
+    "name": "Bytebase",
+    "url": "https://bytebase.com/",
+    "description": "Safe database schema change and version control for DevOps teams, supports MySQL, PostgreSQL, TiDB, ClickHouse, and Snowflake. (Demo, Source Code) MIT Docker/Go"
+  },
+  {
     "name": "CapRover",
     "url": "https://caprover.com/",
     "description": "Build your own PaaS in a few minutes. (Demo, Source Code) Apache-2.0 Docker/Nodejs"
@@ -3613,6 +3553,11 @@
     "name": "DomainMOD",
     "url": "https://domainmod.org",
     "description": "Application to manage your domains and other internet assets in a central location. DomainMOD includes a Data Warehouse framework that allows you to import your WHM/cPanel web server data so that you can view, export, and report on your data. (Demo, Source Code) GPL-3.0 PHP"
+  },
+  {
+    "name": "DOMJudge",
+    "url": "https://www.domjudge.org/",
+    "description": "A system for running a programming contest, like the ICPC regional and world championship programming contests. (Demo, Source Code) GPL-2.0/BSD-3-Clause/MIT PHP"
   },
   {
     "name": "Flox ⚠",
@@ -3685,6 +3630,11 @@
     "description": "Publish/Subscribe event bus, durable queues, key-value store, object store, and more. Native multi-tenancy, multiple authentication and authorization mechanisms. Easy to self-host and federate. (Source Code, Clients) Apache-2.0 Go"
   },
   {
+    "name": "Neko",
+    "url": "https://neko.m1k1o.net",
+    "description": "A self hosted virtual browser (rabb.it clone) that runs in Docker. (Source Code) Apache-2.0 Docker/Go"
+  },
+  {
     "name": "Noisedash",
     "url": "https://github.com/kaythomas0/noisedash",
     "description": "Self-hostable web tool for generating ambient noises/sounds using audio tools and user-uploadable samples. AGPL-3.0 Nodejs"
@@ -3713,6 +3663,11 @@
     "name": "Orchest",
     "url": "https://www.orchest.io/",
     "description": "A new kind of IDE for Data Science. (Demo, Source Code) AGPL-3.0 Docker"
+  },
+  {
+    "name": "OS.js",
+    "url": "https://www.os-js.org/",
+    "description": "Desktop implementation for your browser with a fully-fledged window manager, Application APIs, GUI toolkits and filesystem abstraction. (Demo, Source Code) BSD-2-Clause Nodejs"
   },
   {
     "name": "oTranscribe",
@@ -3760,9 +3715,19 @@
     "description": "An open-source, privacy-friendly online string toolkit for developers. (Source Code) AGPL-3.0 Nodejs"
   },
   {
+    "name": "Teleport",
+    "url": "https://goteleport.com/",
+    "description": "Certificate authority and access plane for SSH, Kubernetes, web applications, and databases. (Source Code) Apache-2.0 Go"
+  },
+  {
     "name": "TeslaMate",
     "url": "https://github.com/adriankumpf/teslamate",
     "description": "A powerful data logger for Tesla vehicles. MIT Elixir"
+  },
+  {
+    "name": "tmate",
+    "url": "https://tmate.io/",
+    "description": "Instant terminal sharing. (Source Code) ISC C"
   },
   {
     "name": "ViMbAdmin",
@@ -4600,6 +4565,16 @@
     "description": "Yet another simple static gallery generator. MIT Python"
   },
   {
+    "name": "This week in past",
+    "url": "https://github.com/RouHim/this-week-in-past",
+    "description": "Aggregates images taken this week, from previous years and presents them on a web page with a simple slideshow. (Demo) MIT Docker/Rust"
+  },
+  {
+    "name": "Thumbor",
+    "url": "http://thumbor.org/",
+    "description": "A smart imaging service and enables on-demand cropping, resizing, applying filters and optimizing images. (Source Code) MIT Python/Docker"
+  },
+  {
     "name": "UberGallery",
     "url": "https://www.ubergallery.net",
     "description": "UberGallery is an easy to use, simple to manage, web photo gallery. UberGallery does not require a database and supports JPEG, GIF and PNG file types. Simply upload your images and UberGallery will automatically generate thumbnails and output HTML. (Source Code) MIT PHP"
@@ -4805,6 +4780,31 @@
     "description": "Django application to manage, tag and search recipes using either built-in models or external storage providers hosting PDFs, Images or other files. (Demo, Source Code) MIT Python"
   },
   {
+    "name": "Firezone",
+    "url": "https://www.firezone.dev/",
+    "description": "Self-hosted secure remote access gateway that supports the WireGuard protocol. It offers a Web GUI, 1-line install script, multi-factor auth (MFA), and SSO. (Source Code) Apache-2.0 Elixir"
+  },
+  {
+    "name": "Guacamole",
+    "url": "https://guacamole.apache.org",
+    "description": "Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC and RDP. (Source Code) Apache-2.0 Java/C"
+  },
+  {
+    "name": "ShellHub",
+    "url": "https://www.shellhub.io",
+    "description": "ShellHub is a modern SSH server for remotely accessing linux devices via command line (using any SSH client) or web-based user interface, designed as an alternative to sshd. (Source Code) Apache-2.0 Go/Other"
+  },
+  {
+    "name": "Sshwifty",
+    "url": "https://github.com/nirui/sshwifty",
+    "description": "Sshwifty is a SSH and Telnet connector made for the Web. AGPL-3.0 Go/Docker"
+  },
+  {
+    "name": "Warpgate",
+    "url": "https://github.com/warp-tech/warpgate",
+    "description": "Smart SSH and HTTPS bastion that works with any SSH client. Apache-2.0 Rust/Docker"
+  },
+  {
     "name": "farmOS",
     "url": "https://farmos.org/",
     "description": "Web-based farm record keeping application. (Source Code) GPL-2.0 PHP"
@@ -4865,6 +4865,11 @@
     "description": "Private web search engine. GPL-3.0 C++"
   },
   {
+    "name": "Manticore Search",
+    "url": "https://github.com/manticoresoftware/manticoresearch/",
+    "description": "Much faster alternative to Elasticsearch for full-text search and data analytics. Provides much lower response time for small, medium and big data. GPL-2.0 Docker/C++"
+  },
+  {
     "name": "MeiliSearch",
     "url": "https://meilisearch.com",
     "description": "Ultra relevant, instant and typo-tolerant full-text search API. (Source Code) MIT Rust"
@@ -4908,6 +4913,11 @@
     "name": "Ansible-NAS",
     "url": "https://github.com/DaveStephens/ansible-nas",
     "description": "Build a full-featured home server with this playbook and an Ubuntu box. MIT YAML/Docker"
+  },
+  {
+    "name": "Discord Bot Dashboard ⚠",
+    "url": "https://github.com/jareer12/Discord-Bot-Dashboard",
+    "description": "A self-hosted platform to manage Discord bots and Node.js applications. MIT Nodejs"
   },
   {
     "name": "Bitsii Bridge ⚠",
@@ -5347,7 +5357,7 @@
   {
     "name": "Taiga",
     "url": "https://taiga.io/",
-    "description": "Agile Project Management Tool based on the Kanban and Scrum methods. (Source Code) AGPL-3.0 Python"
+    "description": "Agile Project Management Tool based on the Kanban and Scrum methods. (Source Code) MPL-2.0 Docker/Python/Nodejs"
   },
   {
     "name": "Titra",
@@ -5358,6 +5368,11 @@
     "name": "Trac",
     "url": "https://trac.edgewall.org/",
     "description": "Trac is an enhanced wiki and issue tracking system for software development projects. BSD-3-Clause Python"
+  },
+  {
+    "name": "Traq",
+    "url": "https://traq.io/",
+    "description": "Project management and issue tracking system written in PHP. (Source Code) GPL-3.0 PHP/Nodejs"
   },
   {
     "name": "Tuleap",
@@ -5410,6 +5425,11 @@
     "description": "Open-source server status page written in java. MPL-2.0 Java"
   },
   {
+    "name": "StatPing.ng",
+    "url": "https://statping-ng.github.io/",
+    "description": "An easy to use Status Page for your websites and applications. Statping will automatically fetch the application and render a beautiful status page with tons of features for you to build an even better status page. (Source Code) GPL-3.0 Docker/Go"
+  },
+  {
     "name": "Uptime Kuma",
     "url": "https://github.com/louislam/uptime-kuma",
     "description": "Self-hosted website monitoring tool like \"Uptime Robot\". (Demo) MIT Nodejs"
@@ -5428,6 +5448,11 @@
     "name": "Kanboard",
     "url": "https://kanboard.org/",
     "description": "Simple and open source visual task board. (Source Code) MIT PHP"
+  },
+  {
+    "name": "Minimalist Online Markdown Editor",
+    "url": "http://markdown.pioul.fr",
+    "description": "The simplest and slickest online Markdown editor. (Source Code) MIT Nodejs"
   },
   {
     "name": "myTinyTodo",
@@ -5573,6 +5598,11 @@
     "name": "Pachno",
     "url": "https://pach.no/",
     "description": "Bring your team together to design, build and deliver your project with a tool that works with you and your team, and adapts when you need to. (Source Code) MPL-2.0 PHP"
+  },
+  {
+    "name": "Peppermint",
+    "url": "https://peppermint.sh/",
+    "description": "A simple ticket management tool with support for logs and multi-deployment. (Source Code) AGPL-3.0 Docker"
   },
   {
     "name": "Request Tracker",
@@ -5834,7 +5864,7 @@
   },
   {
     "name": "Communities/forums: /r/selfhosted, IndieWeb",
-    "url": "https://www.reddit.com/r/selfhosted"
+    "url": "https://www.reddit.com/r/selfhosted/"
   },
   {
     "name": "Mirrors: GitHub.com, Gitlab.com",

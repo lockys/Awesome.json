@@ -266,6 +266,11 @@
     "description": "Contains short aliases for brew commands, inspired by betterbrew."
   },
   {
+    "name": "alias-finder",
+    "url": "https://github.com/akash329d/zsh-alias-finder",
+    "description": "Displays an alias when you use a command you have aliased previously. Helpful for remembering aliases you have defined in the past. Written as a pure ZSH script for speed"
+  },
+  {
     "name": "alias-tips",
     "url": "https://github.com/djui/alias-tips",
     "description": "An oh-my-zsh plugin to help remembering those aliases you defined once."
@@ -3060,7 +3065,7 @@
   {
     "name": "shellfirm",
     "url": "https://github.com/kaplanelad/shellfirm",
-    "description": "Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will double verify your action."
+    "description": "Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will verify your action."
   },
   {
     "name": "shift-select",
@@ -3747,6 +3752,11 @@
     "description": "Use your Yubikey stored GPG keys from WSL. This packages the instructions from wsl2-ssh-pageant repo as a ZSH plugin."
   },
   {
+    "name": "xdg-basedir",
+    "url": "https://github.com/mattmc3/zsh-xdg-basedir",
+    "description": "Supports XDG base directory settings."
+  },
+  {
     "name": "xxh-plugin-zsh-zshrc",
     "url": "https://github.com/roman-geraskin/xxh-plugin-zsh-zshrc",
     "description": "plugin for xxh-shell-zsh that copies your ~/.zshrc to a remote host and sources it with xxh-shell-zsh."
@@ -4212,7 +4222,17 @@
     "description": "Tab completions for comonicon."
   },
   {
-    "name": "completions",
+    "name": "completions (clarketm)",
+    "url": "https://github.com/clarketm/zsh-completions",
+    "description": "This includes the zsh-userscompletions, zchee's completions, nilsonholger's osx-zsh-completions and various other custom completions."
+  },
+  {
+    "name": "completions (zchee)",
+    "url": "https://github.com/zchee/zsh-completions",
+    "description": "Yet another collection of tab completions."
+  },
+  {
+    "name": "completions (zsh-users)",
     "url": "https://github.com/zsh-users/zsh-completions",
     "description": "A collection of extra completions for ZSH."
   },
@@ -4329,7 +4349,7 @@
   {
     "name": "fzshell",
     "url": "https://github.com/mnowotnik/fzshell",
-    "description": "Fuzzy completions supplied by a user."
+    "description": "Fetches fuzzy completions from sources predefined by a user."
   },
   {
     "name": "gardenctl",
@@ -4577,6 +4597,11 @@
     "description": "Tab completions for 1Password's op command line tool."
   },
   {
+    "name": "osx-zsh-completions",
+    "url": "https://github.com/nilsonholger/osx-zsh-completions",
+    "description": "Tab completions for some macOS-specific commands like launchctl."
+  },
+  {
     "name": "packer",
     "url": "https://github.com/wakeful/zsh-packer",
     "description": "Adds tab completion for packer."
@@ -4610,6 +4635,11 @@
     "name": "pipenv (gangleri)",
     "url": "https://github.com/gangleri/pipenv",
     "description": "Completions for pipenv."
+  },
+  {
+    "name": "pipx",
+    "url": "https://github.com/omBratteng/zsh-plugin-pipx",
+    "description": "Tab completions for pipx."
   },
   {
     "name": "pks-autocomplete",
@@ -5622,6 +5652,11 @@
     "description": "Includes decorations for current directory and git status."
   },
   {
+    "name": "danielparks",
+    "url": "https://github.com/danielparks/danielparks-zsh-theme",
+    "description": "Works well on dark backgrounds. Includes decorators for git status, user@host when in an ssh session, success/failure of last command, working directory, python virtualenv, execution time of last command and whether running as root."
+  },
+  {
     "name": "daniloheraclio Inspired by the robbyrussell theme. Has git and last command exit status decorations. Requires a nerdfont to render properly.",
     "url": "https://github.com/daniloheraclio/daniloheraclio-zsh-theme"
   },
@@ -5794,11 +5829,6 @@
     "name": "elagoht",
     "url": "https://github.com/Elagoht/Elagoht.zsh-theme",
     "description": "Includes decorations for hostname, current directory, virtual environment, git status, and the execution time of last command."
-  },
-  {
-    "name": "eleastic",
-    "url": "https://github.com/jinseobhong/eleastic-zsh-theme",
-    "description": "Inspired by agnoster, optimized for solarized terminal theme, includes git status decorations. Requires powerline-compatible font."
   },
   {
     "name": "elessar",
@@ -7293,6 +7323,11 @@
     "name": "odin",
     "url": "https://github.com/tylerreckart/odin",
     "description": "Odin is a git-flavored ZSH theme."
+  },
+  {
+    "name": "odra",
+    "url": "https://github.com/ErikBenavides/odra.zsh-theme",
+    "description": "Colorful, works well on dark backgrounds. Includes decorators for git status, current directory, username and exit status of the last command."
   },
   {
     "name": "oh-flowers",
