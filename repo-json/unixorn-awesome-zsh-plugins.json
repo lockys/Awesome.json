@@ -266,6 +266,11 @@
     "description": "Contains short aliases for brew commands, inspired by betterbrew."
   },
   {
+    "name": "alias-finder",
+    "url": "https://github.com/akash329d/zsh-alias-finder",
+    "description": "Displays an alias when you use a command you have aliased previously. Helpful for remembering aliases you have defined in the past. Written as a pure ZSH script for speed"
+  },
+  {
     "name": "alias-tips",
     "url": "https://github.com/djui/alias-tips",
     "description": "An oh-my-zsh plugin to help remembering those aliases you defined once."
@@ -906,6 +911,11 @@
     "description": "A plugin for Crystal."
   },
   {
+    "name": "cvideo",
+    "url": "https://github.com/aubreypwd/zsh-plugin-cvideo",
+    "description": "Quickly compress video with ffmpeg."
+  },
+  {
     "name": "czhttpd",
     "url": "https://github.com/jsks/czhttpd",
     "description": "A simple http server written in 99.9% pure ZSH."
@@ -1052,6 +1062,11 @@
     "name": "dotpyvenv",
     "url": "https://github.com/jeanpantoja/dotpyvenv",
     "description": "Automagically switch to a python virtual environment located (that you previously have created with virtualenv program) in a directory named .pyvenv when you cd into a directory."
+  },
+  {
+    "name": "download",
+    "url": "https://github.com/aubreypwd/zsh-plugin-download",
+    "description": "Helper to download files with aria2c."
   },
   {
     "name": "dropbox",
@@ -2794,6 +2809,11 @@
     "description": "Configure proxy settings for some package managers and software."
   },
   {
+    "name": "pseudo-projectile",
+    "url": "https://github.com/git-girl/pseudo-projectile-plugin/",
+    "description": "Like projectile in emacs? This adds similar functionality to your ZSH environment."
+  },
+  {
     "name": "pyenv (mattberther)",
     "url": "https://github.com/mattberther/zsh-pyenv",
     "description": "Inspired by zsh-rbenv. Installs, updates or loads pyenv, and adds extra functionality."
@@ -2847,6 +2867,11 @@
     "name": "quotify",
     "url": "https://github.com/dpretet/zsh-quotify",
     "description": "Displays inspiring coding quotes from our pairs when starting up."
+  },
+  {
+    "name": "qwy",
+    "url": "https://github.com/Ryooooooga/qwy",
+    "description": "ZSH fuzzy completion plugin."
   },
   {
     "name": "randeme",
@@ -2927,6 +2952,11 @@
     "name": "replace-multiple-dots",
     "url": "https://github.com/momo-lab/zsh-replace-multiple-dots",
     "description": "Converts ... to ../.."
+  },
+  {
+    "name": "require",
+    "url": "https://github.com/aubreypwd/zsh-plugin-require",
+    "description": "Adds ability to require commandname and then (if brew is installed) automatically brew install commandname if it isn't already installed."
   },
   {
     "name": "revolver",
@@ -3060,7 +3090,7 @@
   {
     "name": "shellfirm",
     "url": "https://github.com/kaplanelad/shellfirm",
-    "description": "Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will double verify your action."
+    "description": "Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will verify your action."
   },
   {
     "name": "shift-select",
@@ -3747,6 +3777,11 @@
     "description": "Use your Yubikey stored GPG keys from WSL. This packages the instructions from wsl2-ssh-pageant repo as a ZSH plugin."
   },
   {
+    "name": "xdg-basedir",
+    "url": "https://github.com/mattmc3/zsh-xdg-basedir",
+    "description": "Supports XDG base directory settings."
+  },
+  {
     "name": "xxh-plugin-zsh-zshrc",
     "url": "https://github.com/roman-geraskin/xxh-plugin-zsh-zshrc",
     "description": "plugin for xxh-shell-zsh that copies your ~/.zshrc to a remote host and sources it with xxh-shell-zsh."
@@ -3987,6 +4022,11 @@
     "description": "Adds Redis database support, with database_key <-> shell_variable binding. Supports all data types."
   },
   {
+    "name": "zredis-cmd",
+    "url": "https://github.com/z-shell/zredis-cmd",
+    "description": "Utilizes variable sharing done by zredis plugin to implement remote command execution."
+  },
+  {
     "name": "zservice-py3http",
     "url": "https://github.com/z-shell/zservice-py3http",
     "description": "Serve a given directory with Python 3's http server from the standard library."
@@ -4212,7 +4252,17 @@
     "description": "Tab completions for comonicon."
   },
   {
-    "name": "completions",
+    "name": "completions (clarketm)",
+    "url": "https://github.com/clarketm/zsh-completions",
+    "description": "This includes the zsh-userscompletions, zchee's completions, nilsonholger's osx-zsh-completions and various other custom completions."
+  },
+  {
+    "name": "completions (zchee)",
+    "url": "https://github.com/zchee/zsh-completions",
+    "description": "Yet another collection of tab completions."
+  },
+  {
+    "name": "completions (zsh-users)",
     "url": "https://github.com/zsh-users/zsh-completions",
     "description": "A collection of extra completions for ZSH."
   },
@@ -4287,6 +4337,11 @@
     "description": "Tab completions for efibootmgr."
   },
   {
+    "name": "elm",
+    "url": "https://github.com/kraklin/elm.plugin.zsh",
+    "description": "Tab completion for elm."
+  },
+  {
     "name": "etcdctl",
     "url": "https://github.com/sheax0r/etcdctl-zsh",
     "description": "Adds etcdctl tab completions."
@@ -4329,7 +4384,7 @@
   {
     "name": "fzshell",
     "url": "https://github.com/mnowotnik/fzshell",
-    "description": "Fuzzy completions supplied by a user."
+    "description": "Fetches fuzzy completions from sources predefined by a user."
   },
   {
     "name": "gardenctl",
@@ -4422,11 +4477,6 @@
     "description": "Adds autocompletion for helm."
   },
   {
-    "name": "inspr",
-    "url": "https://github.com/ptcar2009/insprzsh",
-    "description": "Completions for inspr"
-  },
-  {
     "name": "ipfs",
     "url": "https://github.com/hellounicorn/zsh-ipfs",
     "description": "Completions for the Interplanetary File System."
@@ -4507,6 +4557,11 @@
     "description": "Completions files for macOS specific commands and third party tools."
   },
   {
+    "name": "mcfly",
+    "url": "https://github.com/cantino/mcfly",
+    "description": "Replaces your default ctrl-r shell history search with an intelligent search engine that takes into account your working directory and the context of recently executed commands. McFly's suggestions are prioritized in real time with a small neural network."
+  },
+  {
     "name": "mooseX-App",
     "url": "https://github.com/perlpunk/MooseX-App-Plugin-ZshCompletion",
     "description": "completion generator for Perl module MooseX::App."
@@ -4577,6 +4632,11 @@
     "description": "Tab completions for 1Password's op command line tool."
   },
   {
+    "name": "osx-zsh-completions",
+    "url": "https://github.com/nilsonholger/osx-zsh-completions",
+    "description": "Tab completions for some macOS-specific commands like launchctl."
+  },
+  {
     "name": "packer",
     "url": "https://github.com/wakeful/zsh-packer",
     "description": "Adds tab completion for packer."
@@ -4610,6 +4670,11 @@
     "name": "pipenv (gangleri)",
     "url": "https://github.com/gangleri/pipenv",
     "description": "Completions for pipenv."
+  },
+  {
+    "name": "pipx",
+    "url": "https://github.com/omBratteng/zsh-plugin-pipx",
+    "description": "Tab completions for pipx."
   },
   {
     "name": "pks-autocomplete",
@@ -5127,6 +5192,11 @@
     "description": "Optimized for Ahmet Sülek's Flat UI Terminal theme and Pasquale D'Silva's Saturn Terminal theme."
   },
   {
+    "name": "bashplus",
+    "url": "https://github.com/Elagoht/BashPlusZshTheme",
+    "description": "Colorized replica of the default bash prompt with decorators for virtualenv and git status."
+  },
+  {
     "name": "bastard",
     "url": "https://github.com/jsundqvist/bastard.zsh-theme",
     "description": "Modified version of gitster theme for ZIM."
@@ -5255,6 +5325,11 @@
     "name": "boom",
     "url": "https://github.com/the0neWhoKnocks/zsh-theme-boom",
     "description": "Multiline theme, best on dark backgrounds."
+  },
+  {
+    "name": "born-in-the-purple",
+    "url": "https://github.com/LeonardMH/born-in-the-purple",
+    "description": "Simple theme with a purple motif. Inspired by Pure."
   },
   {
     "name": "boxy",
@@ -5622,6 +5697,11 @@
     "description": "Includes decorations for current directory and git status."
   },
   {
+    "name": "danielparks",
+    "url": "https://github.com/danielparks/danielparks-zsh-theme",
+    "description": "Works well on dark backgrounds. Includes decorators for git status, user@host when in an ssh session, success/failure of last command, working directory, python virtualenv, execution time of last command and whether running as root."
+  },
+  {
     "name": "daniloheraclio Inspired by the robbyrussell theme. Has git and last command exit status decorations. Requires a nerdfont to render properly.",
     "url": "https://github.com/daniloheraclio/daniloheraclio-zsh-theme"
   },
@@ -5794,11 +5874,6 @@
     "name": "elagoht",
     "url": "https://github.com/Elagoht/Elagoht.zsh-theme",
     "description": "Includes decorations for hostname, current directory, virtual environment, git status, and the execution time of last command."
-  },
-  {
-    "name": "eleastic",
-    "url": "https://github.com/jinseobhong/eleastic-zsh-theme",
-    "description": "Inspired by agnoster, optimized for solarized terminal theme, includes git status decorations. Requires powerline-compatible font."
   },
   {
     "name": "elessar",
@@ -6550,6 +6625,11 @@
     "description": "Minimalist single line ZSH prompt."
   },
   {
+    "name": "kawaii",
+    "url": "https://github.com/LeonidPilyugin/kawaii-oh-my-zsh/",
+    "description": "Has terminal and virtual console modes. Includes decorators for username, directory, last command exit status, timestamp and git status."
+  },
+  {
     "name": "keloran",
     "url": "https://github.com/Keloran/keloran.zsh-theme",
     "description": "Theme that includes a few features from other themes."
@@ -7130,6 +7210,11 @@
     "description": "Sets up LS_COLORS, colorizes diff and includes git status and current working directory decorations."
   },
   {
+    "name": "nanika",
+    "url": "https://github.com/justforuse/nanika-zsh-theme/",
+    "description": "Optimized variant of robbyrussell. Includes git status decorations."
+  },
+  {
     "name": "nanofish",
     "url": "https://github.com/tweekmonster/nanofish",
     "description": "Adds fish-style directory prompt to nanotech theme."
@@ -7293,6 +7378,11 @@
     "name": "odin",
     "url": "https://github.com/tylerreckart/odin",
     "description": "Odin is a git-flavored ZSH theme."
+  },
+  {
+    "name": "odra",
+    "url": "https://github.com/ErikBenavides/odra.zsh-theme",
+    "description": "Colorful, works well on dark backgrounds. Includes decorators for git status, current directory, username and exit status of the last command."
   },
   {
     "name": "oh-flowers",
@@ -8234,6 +8324,11 @@
     "description": "A variant of the ys theme in oh-my-zsh."
   },
   {
+    "name": "smelly",
+    "url": "https://github.com/Vicfs/smelly-theme/",
+    "description": "Minimalist prompt that includes decorators for Python venv and git status."
+  },
+  {
     "name": "smiley",
     "url": "https://github.com/gsamokovarov/smiley.zsh-theme",
     "description": "A prompt with happy and sad faces."
@@ -8906,6 +9001,11 @@
     "name": "zshred",
     "url": "https://github.com/redxtech/zshred",
     "description": "Shows current directory, git decorations, exit status of last command and time."
+  },
+  {
+    "name": "zskai",
+    "url": "https://github.com/dinizgab/zskai-theme",
+    "description": "Simple theme based on Monokai. Includes decorators for user@hostname, time, git status and current working directory."
   },
   {
     "name": "zwsh",

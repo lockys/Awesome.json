@@ -28,6 +28,11 @@
     "url": "https://github.com/fcsonline/drill"
   },
   {
+    "name": "fend",
+    "url": "https://github.com/printfn/fend",
+    "description": "Arbitrary-precision unit-aware calculator "
+  },
+  {
     "name": "Fractalide — Simple Rust Microservices",
     "url": "https://github.com/fractalide/fractalide"
   },
@@ -1095,10 +1100,6 @@
     "url": "https://github.com/dotenv-linter/dotenv-linter"
   },
   {
-    "name": "dprint — A pluggable and configurable code formatting platform ",
-    "url": "https://github.com/dprint/dprint"
-  },
-  {
     "name": "fw — workspace productivity booster ",
     "url": "https://github.com/brocode/fw"
   },
@@ -1113,6 +1114,10 @@
   {
     "name": "git-journal — The Git Commit Message and Changelog Generation Framework ",
     "url": "https://github.com/saschagrunert/git-journal/"
+  },
+  {
+    "name": "hot-lib-reloader — Hot reload Rust code ",
+    "url": "https://github.com/rksm/hot-lib-reloader-rs"
   },
   {
     "name": "just — A handy command runner for project-specific tasks ",
@@ -1135,10 +1140,6 @@
     "url": "https://github.com/racer-rust/racer"
   },
   {
-    "name": "Rust Language Server — A server that runs in the background, providing IDEs, editors, and other tools with information about Rust programs",
-    "url": "https://github.com/rust-lang/rls"
-  },
-  {
     "name": "Rust Search Extension — A handy browser extension to search crates and docs in address bar (omnibox). ",
     "url": "https://github.com/huhu/rust-search-extension"
   },
@@ -1147,20 +1148,12 @@
     "url": "https://github.com/rust-lang/rustfix"
   },
   {
-    "name": "rustfmt — A Rust code formatter ",
-    "url": "https://github.com/rust-lang/rustfmt"
-  },
-  {
     "name": "Rustup — the Rust toolchain installer ",
     "url": "https://github.com/rust-lang/rustup"
   },
   {
     "name": "scriptisto A language-agnostic \"shebang interpreter\" that enables you to write one file scripts in compiled languages. ",
     "url": "https://github.com/igor-petruk/scriptisto"
-  },
-  {
-    "name": "synth — A declarative data generation engine.",
-    "url": "https://github.com/shuttle-hq/synth"
   },
   {
     "name": "Cargo — the Rust package manager\n\ncargo-all-features",
@@ -1470,6 +1463,18 @@
     "url": "https://github.com/rustwasm/wasm-pack"
   },
   {
+    "name": "dprint — A pluggable and configurable code formatting platform ",
+    "url": "https://github.com/dprint/dprint"
+  },
+  {
+    "name": "Prettier Rust — An opinionated Rust code formatter that autofixes bad syntax (Prettier community plugin)",
+    "url": "https://github.com/jinxdash/prettier-plugin-rust"
+  },
+  {
+    "name": "rustfmt — Rust code formatter maintained by the Rust team and included in cargo ",
+    "url": "https://github.com/rust-lang/rustfmt"
+  },
+  {
     "name": "Atom\n\nrust-lang/atom-ide-rust — Rust IDE support for Atom, powered by the Rust Language Server (RLS) \n\n",
     "url": "https://atom.io/"
   },
@@ -1544,12 +1549,18 @@
     "url": "https://github.com/rust-lang/rust-enhanced"
   },
   {
-    "name": "Vim — the ubiquitous text editor\n\nautozimu/LanguageClient-neovim — LSP client. Implemented in Rust and supports rls out of the box.\nrust.vim — provides file detection, syntax highlighting, formatting, Syntastic integration, and more.\nvim-racer — allows vim to use Racer for Rust code completion and navigation.\n\n",
-    "url": "https://vim.sourceforge.io/"
+    "name": "Vim — the ubiquitous text editor\n\nautozimu/LanguageClient-neovim — LSP client. Implemented in Rust and supports rls out of the box.\ncrates.nvim",
+    "url": "https://vim.sourceforge.io/",
+    "description": "plugin that helps to managing crates.io dependencies."
   },
   {
     "name": "autozimu/LanguageClient-neovim — LSP client. Implemented in Rust and supports rls out of the box.",
     "url": "https://github.com/autozimu/LanguageClient-neovim"
+  },
+  {
+    "name": "crates.nvim",
+    "url": "https://github.com/Saecki/crates.nvim",
+    "description": "plugin that helps to managing crates.io dependencies."
   },
   {
     "name": "rust.vim — provides file detection, syntax highlighting, formatting, Syntastic integration, and more.",
@@ -1584,6 +1595,11 @@
   {
     "name": "crates — crates is an extension for crates.io dependencies.  ",
     "url": "https://github.com/serayuzgur/crates"
+  },
+  {
+    "name": "Prettier",
+    "url": "https://marketplace.visualstudio.com/items?itemName=jinxdash.prettier-rust",
+    "description": "Code formatter (Rust) — Opinionated Rust code formatter that autofixes bad syntax (Prettier community plugin)"
   },
   {
     "name": "rust-analyzer — An alternative rust language server to the RLS",
@@ -1905,8 +1921,8 @@
     "url": "https://github.com/marcelbuesing/tokio-socketcan-bcm"
   },
   {
-    "name": "mbr/socketcan [socketcan] — Linux SocketCAN library ",
-    "url": "https://github.com/mbr/socketcan-rs"
+    "name": "mbr/socketcan [socketcan] — Linux SocketCAN library",
+    "url": "https://github.com/socketcan-rs/socketcan-rs"
   },
   {
     "name": "oefd/tokio-socketcan [tokio-socketcan]] — Linux SocketCAN support for tokio based on the socketcan crate",
@@ -1969,6 +1985,10 @@
   {
     "name": "clap-rs [clap] — A simple to use, full featured command-line argument parser ",
     "url": "https://github.com/clap-rs/clap"
+  },
+  {
+    "name": "cliparser — Simple command line parser. ",
+    "url": "https://crates.io/crates/cliparser"
   },
   {
     "name": "docopt/docopt.rs [docopt] — A Rust implementation of DocOpt ",
@@ -2049,6 +2069,10 @@
   {
     "name": "console-rs/indicatif [indicatif] — indicate progress to users",
     "url": "https://github.com/console-rs/indicatif"
+  },
+  {
+    "name": "etienne-napoleone/spinach [spinach] — Practical spinner for Rust. ",
+    "url": "https://github.com/etienne-napoleone/spinach"
   },
   {
     "name": "FGRibreau/spinners [spinners] — 60+ elegant terminal spinners",
@@ -2382,6 +2406,10 @@
     "description": "Programmable data streaming platform "
   },
   {
+    "name": "becheran/grid [grid] —  Provide a two dimensional data structure for rust that is easy to use and fast. ",
+    "url": "https://github.com/becheran/grid"
+  },
+  {
     "name": "billyevans/tst [tst] — Ternary search tree collection ",
     "url": "https://github.com/billyevans/tst"
   },
@@ -2626,13 +2654,23 @@
     "url": "https://github.com/rbatis/rbatis"
   },
   {
-    "name": "SeaQL/sea-orm — an async & dynamic ORM for Rust ",
+    "name": "SeaQL/sea-orm — 🐚 An async & dynamic ORM for Rust ",
     "url": "https://github.com/SeaQL/sea-orm"
   },
   {
     "name": "launchbadge/sqlx",
     "url": "https://github.com/launchbadge/sqlx",
     "description": "async PostgreSQL/MySQL/SQLite connection pool with strong typing support "
+  },
+  {
+    "name": "SeaQL/sea-query",
+    "url": "https://github.com/SeaQL/sea-query",
+    "description": "🔱 A dynamic SQL query builder for MySQL, Postgres and SQLite "
+  },
+  {
+    "name": "SeaQL/sea-schema",
+    "url": "https://github.com/SeaQL/sea-schema",
+    "description": "🌿 SQL schema management suite "
   },
   {
     "name": "prisma/tiberius — ",
@@ -3458,6 +3496,10 @@
     "url": "https://github.com/quinn-rs/quinn"
   },
   {
+    "name": "b23r0/rust-raknet — RakNet Protocol implementation by Rust ",
+    "url": "https://github.com/b23r0/rust-raknet"
+  },
+  {
     "name": "ENQT-GmbH/remoc [remoc]",
     "url": "https://github.com/ENQT-GmbH/remoc",
     "description": "Remoc provides channels (broadcast, mpsc, oneshot, watch) similar to Tokio's and trait calling over any remote transport. "
@@ -3767,6 +3809,11 @@
     "url": "https://chromium.googlesource.com/chromiumos/platform/crosvm/"
   },
   {
+    "name": "oxidecomputer/propolis",
+    "url": "https://github.com/oxidecomputer/propolis",
+    "description": "Rust-based userspace program for illumos bhyve kernel modules"
+  },
+  {
     "name": "saurvs/hypervisor-rs — Hardware-accelerated virtualization on OS X",
     "url": "https://github.com/saurvs/hypervisor-rs"
   },
@@ -3915,8 +3962,8 @@
     "description": "HTML parsing and querying with CSS selectors. "
   },
   {
-    "name": "homelyguy/dyer [dyer]",
-    "url": "https://github.com/HomelyGuy/dyer",
+    "name": "hominee/dyer [dyer]",
+    "url": "https://github.com/hominee/dyer",
     "description": "dyer is designed for reliable, flexible and fast Request-Response based service, including data processing, web-crawling and so on, providing some friendly, flexible, comprehensive features without compromising speed."
   },
   {
@@ -4027,6 +4074,11 @@
   {
     "name": "Shipping a Solid Rust Crate — Presented by Michael Gattozzi @ RustConf 2017",
     "url": "https://www.youtube.com/watch?v=t4CyEKb-ywA"
+  },
+  {
+    "name": "Discover Rust Libraries & Code Snippets",
+    "url": "https://kandi.openweaver.com/explore/rust",
+    "description": "A curated list of Rust libraries, authors, kits, tutorials & learning resources on kandi"
   },
   {
     "name": "Awesome Rust Streaming",
