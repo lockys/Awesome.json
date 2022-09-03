@@ -195,6 +195,11 @@
     "description": "Length-bounded types, dynamic object validation."
   },
   {
+    "name": "future-typing",
+    "url": "https://github.com/PrettyWood/future-typing",
+    "description": "Backport for type hinting generics in standard collections and union types as X | Y."
+  },
+  {
     "name": "typed-ast",
     "url": "https://github.com/python/typed_ast",
     "description": "Modified fork of CPython's ast module that parses # type: comments."
@@ -285,6 +290,11 @@
     "description": "Part of pytype toolchain, applies stub files onto source code."
   },
   {
+    "name": "mypy-baseline",
+    "url": "https://github.com/orsinium-labs/mypy-baseline",
+    "description": "Integrate mypy with existing codebase. A CLI tool that filters out existing type errors and reports only new ones."
+  },
+  {
     "name": "mypy-protobuf",
     "url": "https://github.com/dropbox/mypy-protobuf",
     "description": "Tool to generate mypy stubs from protobufs."
@@ -300,19 +310,24 @@
     "description": "Compiles mypy-annotated, statically typed Python modules into CPython C extensions."
   },
   {
-    "name": "retype",
-    "url": "https://github.com/ambv/retype",
-    "description": "Another tool to apply stubs to code."
-  },
-  {
     "name": "pep585-upgrade",
     "url": "https://github.com/snok/pep585-upgrade",
     "description": "Pre-commit hook configured to automatically upgrade your type hints to the new native types implemented in PEP 585."
   },
   {
+    "name": "retype",
+    "url": "https://github.com/ambv/retype",
+    "description": "Another tool to apply stubs to code."
+  },
+  {
     "name": "typeforce",
     "url": "https://github.com/orsinium-labs/typeforce",
     "description": "CLI tool that enriches your Python environment with type annotations, empowering mypy."
+  },
+  {
+    "name": "typesplainer",
+    "url": "https://github.com/wasi-master/typesplainer",
+    "description": "A Python type explainer."
   },
   {
     "name": "typing-inspect",
@@ -325,14 +340,14 @@
     "description": "Lib for working with typed objects and JSON."
   },
   {
-    "name": "typesplainer",
-    "url": "https://github.com/wasi-master/typesplainer",
-    "description": "A Python type explainer."
-  },
-  {
     "name": "autotyping",
     "url": "https://github.com/JelleZijlstra/autotyping",
     "description": "Automatically add simple return type annotations for functions (bool, None, Optional)."
+  },
+  {
+    "name": "infer-types",
+    "url": "https://github.com/orsinium-labs/infer-types",
+    "description": "CLI tool to automatically infer and add type annotations into Python code."
   },
   {
     "name": "monkeytype",
