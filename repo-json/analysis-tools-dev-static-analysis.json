@@ -460,6 +460,10 @@
     "url": "https://golang.org/cmd/gofmt"
   },
   {
+    "name": "gofumpt — Enforce a stricter format than gofmt, while being backwards-compatible.  That is, gofumpt is happy with a subset of the formats that gofmt is happy with.\nThe tool is a fork of gofmt as of Go 1.19, and requires Go 1.18 or later.  It can be used as a drop-in replacement to format your Go code, and running gofmt  after gofumpt should produce no changes.\ngofumpt will never add rules which disagree with gofmt formatting. So we extend gofmt rather than compete with it.",
+    "url": "https://github.com/mvdan/gofumpt"
+  },
+  {
     "name": "goimports — Checks missing or unreferenced package imports.",
     "url": "https://pkg.go.dev/golang.org/x/tools/cmd/goimports"
   },
@@ -490,6 +494,10 @@
   {
     "name": "gotype — Syntactic and semantic analysis similar to the Go compiler.",
     "url": "https://pkg.go.dev/golang.org/x/tools/cmd/gotype"
+  },
+  {
+    "name": "govulncheck — Govulncheck reports known vulnerabilities that affect Go code.  It uses static analysis of source code or a binary's symbol table to narrow down reports to only those that could affect the application.\nBy default, govulncheck makes requests to the Go vulnerability database at https://vuln.go.dev. Requests to the vulnerability database contain only module paths, not code or other properties of your program.",
+    "url": "https://go.dev/blog/vuln"
   },
   {
     "name": "ineffassign — Detect ineffectual assignments in Go code.",
@@ -1642,6 +1650,10 @@
   {
     "name": "Nauz File Detector — Static Linker/Compiler/Tool detector for Windows, Linux and MacOS.",
     "url": "https://github.com/horsicq/Nauz-File-Detector"
+  },
+  {
+    "name": "rust-audit — Audit Rust binaries for known bugs or security vulnerabilities. This works by embedding data about the dependency tree (Cargo.lock) in JSON format into a dedicated linker section of the compiled executable.",
+    "url": "https://github.com/Shnatsel/rust-audit"
   },
   {
     "name": "Twiggy — Analyzes a binary's call graph to profile code size. The goal is to slim down wasm binary size.",
