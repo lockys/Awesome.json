@@ -720,6 +720,11 @@
     "description": "Go readline-like library for command-line interfaces."
   },
   {
+    "name": "mcli",
+    "url": "https://github.com/jxskiss/mcli",
+    "description": "A minimal but very powerful cli library for Go."
+  },
+  {
     "name": "mitchellh/cli",
     "url": "https://github.com/mitchellh/cli",
     "description": "Go library for implementing command-line interfaces."
@@ -1260,6 +1265,11 @@
     "description": "Go 1.18+ generics package inspired by Kotlin's Sequence and Map."
   },
   {
+    "name": "go-generics",
+    "url": "https://github.com/bobg/go-generics",
+    "description": "Generic slice, map, set, iterator, and goroutine utilities."
+  },
+  {
     "name": "go-geoindex",
     "url": "https://github.com/hailocab/go-geoindex",
     "description": "In-memory geo index."
@@ -1308,6 +1318,11 @@
     "name": "hyperloglog",
     "url": "https://github.com/axiomhq/hyperloglog",
     "description": "HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction."
+  },
+  {
+    "name": "quadtree",
+    "url": "https://github.com/s0rg/quadtree",
+    "description": "Generic, zero-alloc, 100%-test covered quadtree."
   },
   {
     "name": "slices",
@@ -1618,6 +1633,11 @@
     "name": "diskv",
     "url": "https://github.com/peterbourgon/diskv",
     "description": "Home-grown disk-backed key-value store."
+  },
+  {
+    "name": "dolt",
+    "url": "https://github.com/dolthub/dolt",
+    "description": "Dolt – It's Git for Data."
   },
   {
     "name": "dtf",
@@ -2158,6 +2178,11 @@
     "name": "sqlhooks",
     "url": "https://github.com/qustavo/sqlhooks",
     "description": "Attach hooks to any database/sql driver."
+  },
+  {
+    "name": "ydb-go-sdk",
+    "url": "https://github.com/ydb-platform/ydb-go-sdk",
+    "description": "native and database/sql driver YDB (Yandex Database)"
   },
   {
     "name": "aerospike-client-go",
@@ -3634,6 +3659,11 @@
     "description": "Like sync.WaitGroup with error handling and concurrency control."
   },
   {
+    "name": "go-workerpool",
+    "url": "https://github.com/zenthangplus/go-workerpool",
+    "description": "Inspired from Java Thread Pool, Go WorkerPool aims to control heavy Go Routines."
+  },
+  {
     "name": "go-workers",
     "url": "https://github.com/catmullet/go-workers",
     "description": "Easily and safely run workers for large data processing pipelines."
@@ -3727,6 +3757,11 @@
     "name": "queue",
     "url": "https://github.com/AnikHasibul/queue",
     "description": "Gives you a sync.WaitGroup like queue group accessibility. Helps you to throttle and limit goroutines, wait for the end of the all goroutines and much more."
+  },
+  {
+    "name": "routine",
+    "url": "https://github.com/timandy/routine",
+    "description": "routine is a ThreadLocal for go library. It encapsulates and provides some easy-to-use, non-competitive, high-performance goroutine context access interfaces, which can help you access coroutine context information more gracefully."
   },
   {
     "name": "routine",
@@ -5093,6 +5128,11 @@
     "description": "messagebus is a Go simple async message bus, perfect for using as event bus when doing event sourcing, CQRS, DDD."
   },
   {
+    "name": "mob",
+    "url": "https://github.com/erni27/mob",
+    "description": "mob is a generic-based, simple mediator / event aggregator library. It supports in-process requests / events processing."
+  },
+  {
     "name": "NATS Go Client",
     "url": "https://github.com/nats-io/nats",
     "description": "Lightweight and high performance publish-subscribe and distributed queueing messaging system - this is the Go library."
@@ -5131,6 +5171,11 @@
     "name": "RapidMQ",
     "url": "https://github.com/sybrexsys/RapidMQ",
     "description": "RapidMQ is a lightweight and reliable library for managing of the local messages queue."
+  },
+  {
+    "name": "Ratus",
+    "url": "https://github.com/hyperonym/ratus",
+    "description": "Ratus is a RESTful asynchronous task queue server."
   },
   {
     "name": "redisqueue",
@@ -7748,6 +7793,11 @@
     "description": "Allows functions and method easy mocking, without defining new types; it's similar to Mockito for Java."
   },
   {
+    "name": "mooncake",
+    "url": "https://github.com/GuilhermeCaruso/mooncake",
+    "description": "A simple way to generate mocks for multiple purposes"
+  },
+  {
     "name": "timex",
     "url": "https://github.com/cabify/timex",
     "description": "A test-friendly replacement for the native time package."
@@ -8055,6 +8105,11 @@
     "name": "dataflowkit",
     "url": "https://github.com/slotix/dataflowkit",
     "description": "Web scraping Framework to turn websites into structured data."
+  },
+  {
+    "name": "go-recipe",
+    "url": "https://github.com/kkyr/go-recipe",
+    "description": "A package for scraping recipes from websites."
   },
   {
     "name": "GoQuery",
@@ -8712,6 +8767,11 @@
     "description": "Full implementation of ISO-3166-1, ISO-4217, ITU-T E.164, Unicode CLDR and IANA ccTLD standards."
   },
   {
+    "name": "countries",
+    "url": "https://github.com/pioz/countries",
+    "description": "All you need when you are working with countries in Go."
+  },
+  {
     "name": "create-go-app",
     "url": "https://github.com/create-go-app/cli",
     "description": "A powerful CLI for create a new production-ready project with backend (Golang), frontend (JavaScript, TypeScript) & deploy automation (Ansible, Docker) by running one command."
@@ -9002,6 +9062,11 @@
     "description": "Library to simplify access struct fields with Go's expression in reflection."
   },
   {
+    "name": "graterm",
+    "url": "https://github.com/skovtunenko/graterm",
+    "description": "Provides primitives to perform ordered (sequential/concurrent) GRAceful TERMination (aka shutdown) in Go application."
+  },
+  {
     "name": "grofer",
     "url": "https://github.com/pesos/grofer",
     "description": "A system and resource monitoring tool written in Golang!"
@@ -9242,6 +9307,11 @@
     "description": "Helpers for working with reflection: struct tag parsing; recursive walking; fill value from string."
   },
   {
+    "name": "remote-touchpad",
+    "url": "https://github.com/Unrud/remote-touchpad",
+    "description": "Control mouse and keyboard from a smartphone."
+  },
+  {
     "name": "repeat",
     "url": "https://github.com/ssgreg/repeat",
     "description": "Go implementation of different backoff strategies useful for retrying operations and heartbeating."
@@ -9300,6 +9370,11 @@
     "name": "scan",
     "url": "https://github.com/blockloop/scan",
     "description": "Scan golang sql.Rows directly to structs, slices, or primitive types."
+  },
+  {
+    "name": "scan",
+    "url": "https://github.com/wroge/scan",
+    "description": "Scan sql rows into any type powered by generics."
   },
   {
     "name": "scany",
@@ -10260,6 +10335,11 @@
     "name": "apicompat",
     "url": "https://github.com/bradleyfalzon/apicompat",
     "description": "Checks recent changes to a Go project for backwards incompatible changes."
+  },
+  {
+    "name": "asty",
+    "url": "https://github.com/asty-org/asty",
+    "description": "Converts golang AST to JSON and JSON to AST."
   },
   {
     "name": "ChainJacking",
@@ -11515,6 +11595,11 @@
     "description": "A guide to understanding and using generics in Go."
   },
   {
+    "name": "The Power of Go: Tests",
+    "url": "https://bitfieldconsulting.com/books/tests",
+    "description": "A guide to testing in Go."
+  },
+  {
     "name": "The Power of Go: Tools",
     "url": "https://bitfieldconsulting.com/books/tools",
     "description": "A guide to writing command-line tools in Go."
@@ -12201,7 +12286,7 @@
   },
   {
     "name": "Games With Go",
-    "url": "https://gameswithgo.org/",
+    "url": "https://www.youtube.com/watch?v=9D4yH7e_ea8&list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x",
     "description": "A video series teaching programming and game development."
   },
   {
