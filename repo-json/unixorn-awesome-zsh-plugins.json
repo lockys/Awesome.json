@@ -446,7 +446,12 @@
     "description": "Automatically lists completions as you type and provides intuitive keybindings for selecting and inserting them."
   },
   {
-    "name": "autodark",
+    "name": "autodark (cravend)",
+    "url": "https://github.com/cravend/autodark",
+    "description": "Switches between user-specified light and dark themes. Only works on macOS."
+  },
+  {
+    "name": "autodark (vbwx)",
     "url": "https://github.com/vbwx/zsh-autodark",
     "description": "Switches to another Terminal profile if dark mode is enabled (macOS-only)."
   },
@@ -2264,6 +2269,11 @@
     "description": "Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them."
   },
   {
+    "name": "mkarch",
+    "url": "https://github.com/0xRZ/mkarch",
+    "description": "ZSH plugin that allows you to create archives using multiple different compression formats."
+  },
+  {
     "name": "mode-switch.CLI",
     "url": "https://github.com/Gyumeijie/mode-switch.CLI",
     "description": "A ZSH plugin for switching command line between normal mode and vi mode."
@@ -2407,6 +2417,11 @@
     "name": "noreallyjustfuckingstopalready",
     "url": "https://github.com/eventi/noreallyjustfuckingstopalready",
     "description": "macOS users know the pain of trying to figure out what command actually flushes the DNS cache on their version of macOS, and this plugin makes that annoyance go away."
+  },
+  {
+    "name": "notenote",
+    "url": "https://github.com/DrgnFireYellow/notenote/",
+    "description": "Makes it easy to take notes."
   },
   {
     "name": "notes (aperezdc)",
@@ -3245,7 +3260,7 @@
   {
     "name": "symfony (voronkovich)",
     "url": "https://github.com/voronkovich/symfony.plugin.zsh",
-    "description": "ZSH plugin for Symfony 2 and 3."
+    "description": "ZSH plugin for Symfony."
   },
   {
     "name": "syntax-highlighting-filetypes",
@@ -4014,7 +4029,12 @@
   {
     "name": "zman",
     "url": "https://github.com/mattmc3/zman",
-    "description": "Use fzf to quickly browse Zsh manuals."
+    "description": "Use fzf to quickly browse ZSH manuals."
+  },
+  {
+    "name": "zoo",
+    "url": "https://github.com/salamantos/zoo_sh",
+    "description": "Casual theme with animal emoji. Includes decorators for current directory, time and git status."
   },
   {
     "name": "zoxide",
@@ -4090,6 +4110,11 @@
     "name": "zsnapshot",
     "url": "https://github.com/zdharma-continuum/zsnapshot",
     "description": "Adds command to dump the current ZSH state into a file, for later restoration by sourcing the snapshot file."
+  },
+  {
+    "name": "znotify",
+    "url": "https://github.com/rudeigerc/znotify",
+    "description": "A simple plugin for sending notifications to other services."
   },
   {
     "name": "ztouch",
@@ -4260,6 +4285,11 @@
     "name": "comonicon",
     "url": "https://github.com/Roger-luo/ComoniconZSHCompletion.jl",
     "description": "Tab completions for comonicon."
+  },
+  {
+    "name": "complete-mac",
+    "url": "https://github.com/vitkabele/complete-mac",
+    "description": "Add completions for macOS ioreg, lsmp, scselect, system_profiler and tmutil commands."
   },
   {
     "name": "completions (clarketm)",
@@ -4642,6 +4672,11 @@
     "description": "Tab completions for 1Password's op command line tool."
   },
   {
+    "name": "openstack",
+    "url": "https://github.com/florentinl/openstack-zsh-plugin",
+    "description": "Add functions and aliases for managing OpenStack."
+  },
+  {
     "name": "osx-zsh-completions",
     "url": "https://github.com/nilsonholger/osx-zsh-completions",
     "description": "Tab completions for some macOS-specific commands like launchctl."
@@ -4650,6 +4685,11 @@
     "name": "packer",
     "url": "https://github.com/wakeful/zsh-packer",
     "description": "Adds tab completion for packer."
+  },
+  {
+    "name": "pagerduty",
+    "url": "https://github.com/jedelson-pagerduty/pagerduty-omz-plugin",
+    "description": "Adds completions for the pagerduty cli"
   },
   {
     "name": "pandoc-completion",
@@ -4695,6 +4735,11 @@
     "name": "pmy",
     "url": "https://github.com/relastle/pmy",
     "description": "General purpose context-aware ZSH completion engine powered by fzf."
+  },
+  {
+    "name": "prettier",
+    "url": "https://github.com/sambergo/zsh-prettier-completion/",
+    "description": "Tab completion for prettier"
   },
   {
     "name": "quickjump",
@@ -4782,9 +4827,14 @@
     "description": "Add completions for surf."
   },
   {
-    "name": "symphony (TheGrowingPlant)",
+    "name": "symfony (TheGrowingPlant)",
     "url": "https://github.com/TheGrowingPlant/symfony.plugin.zsh",
     "description": "Autocompletion for Symfony 3 and 4 commands."
+  },
+  {
+    "name": "symfony-complete",
+    "url": "https://github.com/voronkovich/symfony-complete.plugin.zsh",
+    "description": "Universal completion for Symfony based CLI applications: composer, php-cs-fix, bin/console, artisan and etc."
   },
   {
     "name": "terragrunt",
@@ -5647,6 +5697,11 @@
     "description": "Minimal interface with support for github plugins, based on hyperzsh."
   },
   {
+    "name": "cravend",
+    "url": "https://github.com/cravend/theme",
+    "description": "Includes hostname decorator (only in active ssh sessions) and git status decorations."
+  },
+  {
     "name": "cryo-long",
     "url": "https://github.com/cryocaustik/cryo-long-zsh-theme",
     "description": "Variant of cryo with added decorators for hostname and current directory."
@@ -6088,6 +6143,11 @@
     "name": "gawaine",
     "url": "https://github.com/nicolaracco/gawaine.zsh-theme",
     "description": "Nicola Racco's theme. Requires rvm & git plugins."
+  },
+  {
+    "name": "gazelle",
+    "url": "https://github.com/mfurkanndemir/gazelle",
+    "description": "Minimalist theme with git status decorations."
   },
   {
     "name": "gbt",
@@ -8566,7 +8626,7 @@
   {
     "name": "thyme (chenhao-ye)",
     "url": "https://github.com/chenhao-ye/thyme",
-    "description": "Based on bira, gnzh, and bullet-train."
+    "description": "Seasoning for shells. Based on bira, gnzh, and bullet-train."
   },
   {
     "name": "thyme (kawamurakazushi)",
