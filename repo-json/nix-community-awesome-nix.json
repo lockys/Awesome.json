@@ -150,6 +150,11 @@
     "description": "Quickly run any binary; wraps together nix run and nix-index."
   },
   {
+    "name": "manix",
+    "url": "https://github.com/mlvzk/manix",
+    "description": "Find configuration options and function documentation for Nixpkgs, NixOS, and Home Manager."
+  },
+  {
     "name": "nixfmt",
     "url": "https://github.com/serokell/nixfmt",
     "description": "A formatter for Nix code, intended to easily apply a uniform style."
@@ -190,6 +195,11 @@
     "description": "Interactively browse the dependency graph of Nix derivations."
   },
   {
+    "name": "nvd",
+    "url": "https://gitlab.com/khumba/nvd",
+    "description": "Diff package versions between two store paths; it's especially useful for comparing NixOS generations on rebuild."
+  },
+  {
     "name": "statix",
     "url": "https://github.com/nerdypepper/statix",
     "description": "A linter/fixer to check for and fix antipatterns in Nix code."
@@ -220,9 +230,19 @@
     "description": "A framework for automatically converting packages from other build systems to Nix."
   },
   {
+    "name": "flake.parts",
+    "url": "https://github.com/hercules-ci/flake-parts",
+    "description": "Minimal Nix modules framework for Flakes: split your flakes into modules and get things done with community modules."
+  },
+  {
     "name": "flake-utils",
     "url": "https://github.com/numtide/flake-utils",
     "description": "Pure Nix flake utility functions to help with writing flakes."
+  },
+  {
+    "name": "flake-utils-plus",
+    "url": "https://github.com/gytis-ivaskevicius/flake-utils-plus",
+    "description": "A lightweight Nix library flake for painless NixOS flake configuration."
   },
   {
     "name": "gitignore.nix",
@@ -288,6 +308,11 @@
     "name": "cabal2nix",
     "url": "https://github.com/NixOS/cabal2nix",
     "description": "Converts a Cabal file into a Nix build expression."
+  },
+  {
+    "name": "haskell-flake",
+    "url": "https://github.com/srid/haskell-flake",
+    "description": "A flake-parts Nix module for Haskell development."
   },
   {
     "name": "haskell.nix",
@@ -448,6 +473,21 @@
     "name": "Stylix",
     "url": "https://github.com/danth/stylix",
     "description": "System-wide colorscheming and typography for NixOS."
+  },
+  {
+    "name": "NixOS Configuration Editor",
+    "url": "https://github.com/vlinkz/nixos-conf-editor",
+    "description": "Graphical editor for NixOS configuration. Desktop app in Rust and GTK."
+  },
+  {
+    "name": "Nix Software Center",
+    "url": "https://github.com/vlinkz/nix-software-center",
+    "description": "Install and manage Nix packages. Desktop app in Rust and GTK."
+  },
+  {
+    "name": "MyNixOS",
+    "url": "https://mynixos.com/",
+    "description": "Graphical editor for Nix flakes. Create and manage configurations and modules for NixOS and Nix home-manager. Rather a Nix generator than a Nix editor, because it does not allow to import Nix files."
   },
   {
     "name": "awesome-nix-hpc",
