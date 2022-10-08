@@ -284,9 +284,24 @@
     "description": "Single \"Xiaomi BLE\" node that gets all known data from Xiaomi BLE (Bluetooth 4)."
   },
   {
+    "name": "image-output",
+    "url": "https://github.com/rikukissa/node-red-contrib-image-output",
+    "description": "Simple image output node. Useful for previewing images (of face detecting, object recognition etc.) inside the flow editor."
+  },
+  {
+    "name": "image-tools",
+    "url": "https://flows.nodered.org/node/node-red-contrib-image-tools",
+    "description": "Editing images, building and decoding 2D and 3D barcodes."
+  },
+  {
     "name": "base64",
     "url": "https://github.com/node-red/node-red-nodes/tree/master/parsers/base64",
     "description": "Converts a payload to/from base64 encoded format."
+  },
+  {
+    "name": "buffer-parser",
+    "url": "https://flows.nodered.org/node/node-red-contrib-buffer-parser",
+    "description": "Converts values to and from buffer/array. Supports Big/Little Endian, BCD, byte swapping and much more."
   },
   {
     "name": "geohash",
@@ -579,6 +594,11 @@
     "description": "Timing node with support for dusk/sunset dawn/sunrise and variations also day/week/month (and special days) control. The node offers outputs suitable for MQTT, speech and databases."
   },
   {
+    "name": "cron-plus",
+    "url": "https://flows.nodered.org/node/node-red-contrib-cron-plus",
+    "description": "A flexible scheduler (cron, solar events, simple dates) node with full dynamic control and Timezone support."
+  },
+  {
     "name": "suncalc",
     "url": "https://github.com/node-red/node-red-nodes/tree/master/time/suncalc",
     "description": "Uses the suncalc module to generate an output at sunrise and sunset based on a specified location."
@@ -699,6 +719,16 @@
     "description": "Dashboard extra nodes."
   },
   {
+    "name": "ui-svg",
+    "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg",
+    "description": "Show interactive SVG (vector graphics) in the dashboard."
+  },
+  {
+    "name": "ui-contextmenu",
+    "url": "https://flows.nodered.org/node/node-red-contrib-ui-contextmenu",
+    "description": "Show a popup contextmenu in the dashboard."
+  },
+  {
     "name": "flow-manager",
     "url": "https://flows.nodered.org/node/node-red-contrib-flow-manager",
     "description": "Separates flow json to multiple files."
@@ -707,11 +737,6 @@
     "name": "iglass",
     "url": "https://www.npmjs.com/package/iglass-nodes",
     "description": "Interaction with iGlass Automation blocks."
-  },
-  {
-    "name": "image-output",
-    "url": "https://github.com/rikukissa/node-red-contrib-image-output",
-    "description": "Simple image output node. Useful for previewing images (of face detecting, object recognition etc.) inside the flow editor."
   },
   {
     "name": "uibuilder",

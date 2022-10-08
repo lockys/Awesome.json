@@ -110,6 +110,16 @@
     "description": "Monitors and (de)installs AppImages from the Gnome desktop."
   },
   {
+    "name": "AppImage-Integrator",
+    "url": "https://github.com/w-j-r/AppImage-Integrator",
+    "description": "A simple program to integrate AppImages into the Linux desktop written in Qt6."
+  },
+  {
+    "name": "gnome_appimage_installer",
+    "url": "https://github.com/knork-fork/gnome_appimage_installer",
+    "description": "Somewhat a misnomer (AppImages don't need to be \"installed\"), creates a desktop file that follows the freedesktop.org spec for your AppImage files; written in bash."
+  },
+  {
     "name": "AppImageUpdate",
     "url": "https://github.com/AppImage/AppImageUpdate",
     "description": "Official grapical application to update AppImages; command-line tool to update AppImages."
@@ -180,6 +190,11 @@
     "description": "Package manager for AppImage. Single, static, dependency free binary. Written in Go."
   },
   {
+    "name": "leap",
+    "url": "https://github.com/lnxcz/leap",
+    "description": "Fast and simple AppImage manager. Written in Rust."
+  },
+  {
     "name": "Deepin",
     "url": "https://www.deepin.org/en/",
     "description": "When you double-click an AppImage or any other executable file that lacks execute permissions, a user-friendly dialog explains the situation and asks for your permission to set the execute permission and execute the executable."
@@ -233,6 +248,11 @@
     "name": "AppImage.cmake",
     "url": "https://github.com/Ravbug/AppImage.cmake",
     "description": "CMake script which facilitates generating AppImage executables for Linux."
+  },
+  {
+    "name": "rules_appimage",
+    "url": "https://github.com/lalten/rules_appimage",
+    "description": "Bazel rules to package any lang_binary target as AppImage."
   },
   {
     "name": "go-appimagetool",
@@ -375,6 +395,16 @@
     "description": "GitHub Action for creating AppImage releases from binaries inside .tar.gz archives."
   },
   {
+    "name": "Package-to-appimage",
+    "url": "https://github.com/CausaPrincipalis71/package-to-appimage",
+    "description": "Tool for converting .deb and .rpm packages into AppImage format by using Docker."
+  },
+  {
+    "name": "GMAppImager",
+    "url": "https://github.com/time-killer-games/GMAppImager",
+    "description": "Graphically Converts GameMaker Studio 2 games to AppImage bundles."
+  },
+  {
     "name": "AppStream Generator",
     "url": "https://output.jsbin.com/qoqukof",
     "description": "Very simple generator for AppStream MetaInfo files which application authors can use to add metadata (like descriptions, screenshots, links) to their AppImage."
@@ -438,6 +468,11 @@
     "name": "libzsync-go",
     "url": "https://github.com/AppImageCrafters/libzsync-go",
     "description": "Zsync implementation written in Go that can be used to update AppImages."
+  },
+  {
+    "name": "appenv",
+    "url": "https://github.com/TheMarlboroMan/appenv",
+    "description": "Small C++ library telling where the app data resides and where the user data is by using readlink(\"/proc/self/exe\")), thus allowing C++ applications to become relocatable in the filesystem."
   },
   {
     "name": "Qt Desktop Template",

@@ -94,6 +94,11 @@
     "description": "Apache v2, powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless."
   },
   {
+    "name": "Deepfence SecretScanner",
+    "url": "https://github.com/deepfence/SecretScanner",
+    "description": "Find secrets and passwords in container images and file systems."
+  },
+  {
     "name": "justniffer",
     "url": "http://justniffer.sourceforge.net/",
     "description": "Justniffer is a network protocol analyzer that captures network traffic and produces logs in a customized way, can emulate Apache web server log files, track response times and extract all \"intercepted\" files from the HTTP traffic."
@@ -142,6 +147,10 @@
     "name": "wazuh",
     "url": "https://github.com/wazuh/wazuh",
     "description": "Wazuh is a free and open source platform used for threat prevention, detection, and response. It is capable of monitoring file system  changes, system calls and inventory changes."
+  },
+  {
+    "name": "Matano: Open source serverless security lake platform on AWS that lets you ingest, store, and analyze petabytes of security data into an Apache Iceberg data lake and run realtime Python detections as code.",
+    "url": "https://github.com/matanolabs/matano"
   },
   {
     "name": "Snort",
@@ -284,6 +293,11 @@
     "description": "tcpflow is a program that captures data transmitted as part of TCP connections (flows), and stores the data in a way that is convenient for protocol analysis and debugging. Each TCP flow is stored in its own file. Thus, the typical TCP flow will be stored in two files, one for each direction. tcpflow can also process stored 'tcpdump' packet flows."
   },
   {
+    "name": "Deepfence PacketStreamer",
+    "url": "https://github.com/deepfence/PacketStreamer",
+    "description": "High-performance remote packet capture and collection tool, distributed tcpdump for cloud native environments."
+  },
+  {
     "name": "Xplico",
     "url": "http://www.xplico.org/",
     "description": "The goal of Xplico is extract from an internet traffic capture the applications data contained. For example, from a pcap file Xplico extracts each email (POP, IMAP, and SMTP protocols), all HTTP contents, each VoIP call (SIP), FTP, TFTP, and so on. Xplico isn’t a network protocol analyzer. Xplico is an open source Network Forensic Analysis Tool (NFAT)."
@@ -346,6 +360,10 @@
   {
     "name": "wazuh -Wazuh is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, incident response and compliance. It works with tons of data supported by an OpenSearch fork and custom WUI.",
     "url": "https://github.com/wazuh/wazuh"
+  },
+  {
+    "name": "Matano: Open source serverless security lake platform on AWS that lets you ingest, store, and analyze petabytes of security data into an Apache Iceberg data lake and run realtime Python detections as code.",
+    "url": "https://github.com/matanolabs/matano"
   },
   {
     "name": "OpenVPN",
@@ -443,9 +461,19 @@
     "description": "A Rootkit Hunter for Linux"
   },
   {
+    "name": "ClamAv",
+    "url": "http://www.clamav.net/",
+    "description": "ClamAV® is an open-source antivirus engine for detecting trojans, viruses, malware & other malicious threats."
+  },
+  {
     "name": "DocBleach",
     "url": "https://github.com/docbleach/DocBleach",
     "description": "An open-source Content Disarm & Reconstruct software sanitizing Office, PDF and RTF Documents."
+  },
+  {
+    "name": "Fleet device management",
+    "url": "https://github.com/fleetdm/fleet",
+    "description": "Fleet is the lightweight, programmable telemetry platform for servers and workstations. Get comprehensive, customizable data from all your devices and operating systems."
   },
   {
     "name": "Rudder",
@@ -593,6 +621,11 @@
     "description": "ZeuS Tracker / SpyEye Tracker / Palevo Tracker / Feodo Tracker tracks Command&Control servers (hosts) around the world and provides you a domain- and an IP-blocklist."
   },
   {
+    "name": "Cyware Threat Intelligence Feeds",
+    "url": "https://cyware.com/community/ctix-feeds",
+    "description": "Cyware’s Threat Intelligence feeds brings to you the valuable threat data from a wide range of open and trusted sources to deliver a consolidated stream of valuable and actionable threat intelligence. Our threat intel feeds are fully compatible with STIX 1.x and 2.0, giving you the latest information on malicious malware hashes, IPs and domains uncovered across the globe in real-time."
+  },
+  {
     "name": "Emerging Threats",
     "url": "http://doc.emergingthreats.net/bin/view/Main/EmergingFAQ",
     "description": "Open Source - Emerging Threats began 10 years ago as an open source community for collecting Suricata and SNORT® rules, firewall rules, and other IDS rulesets. The open source community still plays an active role in Internet security, with more than 200,000 active users downloading the ruleset daily. The ETOpen Ruleset is open to any user or organization, as long as you follow some basic guidelines. Our ETOpen Ruleset is available for download any time."
@@ -681,6 +714,11 @@
     "name": "Threat Jammer",
     "url": "https://threatjammer.com",
     "description": "REST API service that allows developers, security engineers, and other IT professionals to access curated threat intelligence data from a variety of sources."
+  },
+  {
+    "name": "Cyberowl",
+    "url": "https://github.com/karimhabush/cyberowl",
+    "description": "A daily updated summary of the most frequent types of security incidents currently being reported from different sources."
   },
   {
     "name": "Gophish",
@@ -782,6 +820,16 @@
     "description": "Full-featured C2 framework which silently persists on webserver via evil PHP oneliner. Built for stealth persistence, with many privilege-escalation & post-exploitation features."
   },
   {
+    "name": "Keyscope",
+    "url": "https://github.com/SpectralOps/keyscope",
+    "description": "Keyscope is an extensible key and secret validation for checking active secrets against multiple SaaS vendors built in Rust"
+  },
+  {
+    "name": "Cyclops",
+    "url": "https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking",
+    "description": "The Cyclops is a web browser with XSS detection feature, it is chromium-based xss detection that used to find the flows from a source to a sink."
+  },
+  {
     "name": "Scanmycode CE (Community Edition)",
     "url": "https://github.com/marcinguy/scanmycode-ce",
     "description": "Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report. Currently supports: PHP, Java, Scala, Python, Ruby, Javascript, GO, Secret Scanning, Dependency Confusion, Trojan Source, Open Source and Proprietary Checks (total ca. 1000 checks)"
@@ -790,6 +838,11 @@
     "name": "Keyscope",
     "url": "https://github.com/SpectralOps/keyscope",
     "description": "Keyscope is an extensible key and secret validation for checking active secrets against multiple SaaS vendors built in Rust"
+  },
+  {
+    "name": "Falco",
+    "url": "https://falco.org/",
+    "description": "The cloud-native runtime security project and de facto Kubernetes threat detection engine now part of the CNCF."
   },
   {
     "name": "Sqreen",
@@ -921,6 +974,10 @@
     "description": "Scalable Binary Data Extraction in Hadoop. Malware Processing and Analytics over Pig, Exploration through Django, Twitter Bootstrap, and Elasticsearch."
   },
   {
+    "name": "Matano: Open source serverless security lake platform on AWS that lets you ingest, store, and analyze petabytes of security data into an Apache Iceberg data lake and run realtime Python detections as code.",
+    "url": "https://github.com/matanolabs/matano"
+  },
+  {
     "name": "Securing DevOps",
     "url": "https://manning.com/books/securing-devops",
     "description": "A book on Security techniques for DevOps that reviews state of the art practices used in securing web applications and their infrastructure."
@@ -951,9 +1008,19 @@
     "description": "a secrets management tool for devops and developers - manage secrets across multiple vaults and keystores from a single place."
   },
   {
+    "name": "cve-ape",
+    "url": "https://github.com/baalmor/cve-ape",
+    "description": "A non-intrusive CVE scanner for embedding in test and CI environments that can scan package lists and individual packages for existing CVEs via locally stored CVE database. Can also be used as an offline CVE scanner for e.g. OT/ICS."
+  },
+  {
     "name": "shellfirm",
     "url": "https://github.com/kaplanelad/shellfirm",
     "description": "It is a handy utility to help avoid running dangerous commands with an extra approval step. You will immediately get a small prompt challenge that will double verify your action when risky patterns are detected."
+  },
+  {
+    "name": "shellclear",
+    "url": "https://github.com/rusty-ferris-club/shellclear",
+    "description": "It helps you to Secure your shell history commands by finding sensitive commands in your all history commands and allowing you to clean them."
   },
   {
     "name": "Qubes OS",
@@ -1181,6 +1248,11 @@
     "description": "A curated list of awesome malware analysis tools and resources."
   },
   {
+    "name": "Awesome Security Newsletters",
+    "url": "https://github.com/TalEliyahu/awesome-security-newsletters",
+    "description": "A curated list of awesome newsletters to keep up to date on security news via e-mail."
+  },
+  {
     "name": "Awesome PCAP Tools",
     "url": "https://github.com/caesar0301/awesome-pcaptools",
     "description": "A collection of tools developed by other researchers in the Computer Science area to process network traces."
@@ -1189,6 +1261,11 @@
     "name": "Awesome Pentest",
     "url": "https://github.com/enaqx/awesome-pentest",
     "description": "A collection of awesome penetration testing resources, tools and other shiny things."
+  },
+  {
+    "name": "Awesome Privacy",
+    "url": "https://github.com/lissy93/awesome-privacy",
+    "description": "A curated list of privacy-respecting software and services."
   },
   {
     "name": "Awesome Linux Containers",
@@ -1254,6 +1331,11 @@
     "name": "Awesome Shodan Search Queries",
     "url": "https://github.com/jakejarvis/awesome-shodan-queries",
     "description": "A collection of interesting, funny, and depressing search queries to plug into Shodan.io."
+  },
+  {
+    "name": "Awesome Censys Queries",
+    "url": "https://github.com/thehappydinoa/awesome-censys-queries",
+    "description": "A collection of fascinating and bizarre Censys Search Queries."
   },
   {
     "name": "Awesome Anti Forensics",
