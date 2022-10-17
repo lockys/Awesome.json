@@ -25,11 +25,6 @@
     "description": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
   },
   {
-    "name": "nvim-lua/lsp_extensions.nvim",
-    "url": "https://github.com/nvim-lua/lsp_extensions.nvim",
-    "description": "Repo to hold a bunch of info & extension callbacks for built-in LSP."
-  },
-  {
     "name": "RishabhRD/nvim-lsputils",
     "url": "https://github.com/RishabhRD/nvim-lsputils",
     "description": "Better defaults for nvim-lsp actions."
@@ -85,8 +80,8 @@
     "description": "Neovim plugin that shows type annotations as virtual text."
   },
   {
-    "name": "jose-elias-alvarez/nvim-lsp-ts-utils",
-    "url": "https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils",
+    "name": "jose-elias-alvarez/typescript.nvim",
+    "url": "https://github.com/jose-elias-alvarez/typescript.nvim",
     "description": "Utilities to improve the TypeScript development experience for Neovim's built-in LSP client."
   },
   {
@@ -290,8 +285,8 @@
     "description": "A nvim-cmp source for vim's spellsuggest."
   },
   {
-    "name": "andersevenrud/compe-tmux",
-    "url": "https://github.com/andersevenrud/compe-tmux",
+    "name": "andersevenrud/cmp-tmux",
+    "url": "https://github.com/andersevenrud/cmp-tmux",
     "description": "A nvim-cmp source for Tmux."
   },
   {
@@ -423,11 +418,6 @@
     "name": "ellisonleao/glow.nvim",
     "url": "https://github.com/ellisonleao/glow.nvim",
     "description": "Markdown preview using glow."
-  },
-  {
-    "name": "iamcco/markdown-preview.nvim",
-    "url": "https://github.com/iamcco/markdown-preview.nvim",
-    "description": "Preview markdown on your modern browser with synchronised scrolling and flexible configuration."
   },
   {
     "name": "davidgranstrom/nvim-markdown-preview",
@@ -892,7 +882,7 @@
   {
     "name": "ray-x/starry.nvim",
     "url": "https://github.com/ray-x/starry.nvim",
-    "description": " A collection of modern Neovim colorschemes: material, moonlight, dracula (blood), monokai, mariana, emerald, earlysummer, middlenight_blue, darksolar."
+    "description": "A collection of modern Neovim colorschemes: material, moonlight, dracula (blood), monokai, mariana, emerald, earlysummer, middlenight_blue, darksolar."
   },
   {
     "name": "tanvirtin/monokai.nvim",
@@ -1345,6 +1335,11 @@
     "description": "Module of mini.nvim for automatic highlighting of word under cursor (displayed after customizable delay)."
   },
   {
+    "name": "melkster/modicator.nvim",
+    "url": "https://github.com/melkster/modicator.nvim",
+    "description": "Cursor line number mode indicator. Changes the CursorLineNr highlight based on Vim mode."
+  },
+  {
     "name": "glepnir/dashboard-nvim",
     "url": "https://github.com/glepnir/dashboard-nvim",
     "description": "A minimalist dashboard for Neovim, inspired by doom-emacs."
@@ -1425,6 +1420,16 @@
     "description": "Async Lua plugin for interacting with compiler-explorer."
   },
   {
+    "name": "samodostal/image.nvim",
+    "url": "https://github.com/samodostal/image.nvim",
+    "description": "Image Viewer as ASCII Art."
+  },
+  {
+    "name": "adelarsq/image_preview.nvim",
+    "url": "https://github.com/adelarsq/image_preview.nvim",
+    "description": "Image preview based on terminal's Image Protocol support."
+  },
+  {
     "name": "0styx0/abbreinder.nvim",
     "url": "https://github.com/0styx0/abbreinder.nvim",
     "description": "Abbreviation reminders for Neovim 0.5+."
@@ -1495,6 +1500,11 @@
     "description": "Manage your bibliography from within your favourite editor."
   },
   {
+    "name": "ostralyan/scribe.nvim",
+    "url": "https://github.com/ostralyan/scribe.nvim",
+    "description": "Take notes, easily."
+  },
+  {
     "name": "jghauser/mkdir.nvim",
     "url": "https://github.com/jghauser/mkdir.nvim",
     "description": "Automatically create missing directories when saving files."
@@ -1538,6 +1548,11 @@
     "name": "rcarriga/nvim-notify",
     "url": "https://github.com/rcarriga/nvim-notify",
     "description": "A fancy, configurable, notification manager for Neovim."
+  },
+  {
+    "name": "folke/noice.nvim",
+    "url": "https://github.com/folke/noice.nvim",
+    "description": "Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu."
   },
   {
     "name": "saifulapm/chartoggle.nvim",
@@ -2160,6 +2175,11 @@
     "description": "Extensible scrollbar that shows diagnostics and search results."
   },
   {
+    "name": "echasnovski/mini.nvim#mini.map",
+    "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-map.md",
+    "description": "Module of mini.nvim to show floating window with buffer text overview, scrollbar, and highlights."
+  },
+  {
     "name": "windwp/nvim-ts-autotag",
     "url": "https://github.com/windwp/nvim-ts-autotag",
     "description": "Use treesitter to autoclose and autorename xml,html,jsx tag."
@@ -2198,11 +2218,6 @@
     "name": "AckslD/nvim-revJ.lua",
     "url": "https://github.com/AckslD/nvim-revJ.lua",
     "description": "Neovim Lua plugin for doing the opposite of join-line (J) for arguments."
-  },
-  {
-    "name": "JoosepAlviste/nvim-ts-context-commentstring",
-    "url": "https://github.com/JoosepAlviste/nvim-ts-context-commentstring",
-    "description": "A Neovim plugin for setting the commentstring option based on the cursor location in the file. The location is checked via treesitter queries."
   },
   {
     "name": "Pocco81/TrueZen.nvim",
@@ -2268,6 +2283,11 @@
     "name": "echasnovski/mini.nvim#mini.trailspace",
     "url": "https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-trailspace.md",
     "description": "Module of mini.nvim for automatic highlighting of trailing whitespace with functionality to remove it."
+  },
+  {
+    "name": "smjonas/live-command.nvim",
+    "url": "https://github.com/smjonas/live-command.nvim",
+    "description": "Text editing in Neovim with immediate visual feedback: preview commands such as :norm, :g, macros and more."
   },
   {
     "name": "filipdutescu/renamer.nvim",
@@ -2373,6 +2393,11 @@
     "name": "LudoPinelli/comment-box.nvim",
     "url": "https://github.com/LudoPinelli/comment-box.nvim",
     "description": "Clarify and beautify your comments using boxes and lines."
+  },
+  {
+    "name": "JoosepAlviste/nvim-ts-context-commentstring",
+    "url": "https://github.com/JoosepAlviste/nvim-ts-context-commentstring",
+    "description": "Sets the commentstring option based on the cursor location in the file. The location is checked via treesitter queries."
   },
   {
     "name": "gpanders/editorconfig.nvim",
@@ -2588,6 +2613,11 @@
     "name": "seandewar/killersheep.nvim",
     "url": "https://github.com/seandewar/killersheep.nvim",
     "description": "Neovim port of killersheep."
+  },
+  {
+    "name": "rktjmp/shenzhen-solitaire.nvim",
+    "url": "https://github.com/rktjmp/shenzhen-solitaire.nvim",
+    "description": "Shenzhen I/O Solitaire port."
   },
   {
     "name": "p00f/cphelper.nvim",
