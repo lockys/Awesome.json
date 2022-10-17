@@ -175,6 +175,11 @@
     "description": "A native plugin for Facebook Login."
   },
   {
+    "name": "File opener",
+    "url": "https://github.com/capacitor-community/file-opener",
+    "description": "The plugin is able to open a file given the mimeType and the file uri."
+  },
+  {
     "name": "Analytics",
     "url": "https://github.com/capacitor-community/firebase-analytics",
     "description": "A native plugin for Firebase analytics."
@@ -310,14 +315,39 @@
     "description": "Over the air update for capacitor app."
   },
   {
-    "name": "Apple Pay",
-    "url": "https://github.com/fresha/capacitor-plugin-applepay",
-    "description": "Get Apple Pay payments in your app"
+    "name": "Crisp",
+    "url": "https://github.com/Cap-go/capacitor-crisp",
+    "description": "Crisp chat SDK for your app."
   },
   {
-    "name": "App Tracking Transparency",
-    "url": "https://github.com/mahnuh/capacitor-plugin-app-tracking-transparency",
-    "description": "Request user authorization to access app-related data for tracking the user or the device. iOS only."
+    "name": "Flash",
+    "url": "https://github.com/Cap-go/capacitor-flash",
+    "description": "Switch the Flashlight / Torch of your device."
+  },
+  {
+    "name": "Mute",
+    "url": "https://github.com/Cap-go/capacitor-mute",
+    "description": "Detect silent mode and mute audio."
+  },
+  {
+    "name": "Native Geocoder",
+    "url": "https://github.com/Cap-go/capacitor-nativegeocoder",
+    "description": "Native forward and reverse geocoding."
+  },
+  {
+    "name": "Screen recorder",
+    "url": "https://github.com/Cap-go/capacitor-screen-recorder",
+    "description": "Record screen and save to pelicule."
+  },
+  {
+    "name": "Purchases",
+    "url": "https://github.com/Cap-go/capacitor-purchases",
+    "description": "Capacitor in-app purchases and subscriptions made easy with RevenueCat."
+  },
+  {
+    "name": "In app Browser",
+    "url": "https://github.com/Cap-go/capacitor-inappbrowser",
+    "description": "Browser In app browser with urlChangeEvent."
   },
   {
     "name": "Background tasks",
@@ -328,56 +358,6 @@
     "name": "Badge",
     "url": "https://github.com/capawesome-team/capacitor-badge",
     "description": "Access and update the badge number of the app icon."
-  },
-  {
-    "name": "Brother Print",
-    "url": "https://github.com/rdlabo-team/capacitor-brotherprint",
-    "description": "A native Brother Print SDK implementation for iOS & Android."
-  },
-  {
-    "name": "Biometric",
-    "url": "https://github.com/epicshaggy/capacitor-native-biometric",
-    "description": "Use biometrics confirm device owner presence or authenticate users."
-  },
-  {
-    "name": "Crisp",
-    "url": "https://github.com/Cap-go/capacitor-crisp",
-    "description": "Crisp chat SDK for your app."
-  },
-  {
-    "name": "Dark mode",
-    "url": "https://github.com/micahlt/ionicCapacitorDarkMode",
-    "description": "Monitor the changes made to system's dark mode."
-  },
-  {
-    "name": "Data Storage SQlite",
-    "url": "https://github.com/jepiqueau/capacitor-data-storage-sqlite",
-    "description": "Providing a key-value permanent store for simple data of type string only to SQLite on IOS, Android and Electron platforms and to IndexedDB for the Web platform."
-  },
-  {
-    "name": "Document Scanner",
-    "url": "https://github.com/websitebeaver/capacitor-document-scanner",
-    "description": "Scan documents (notes, homework, business cards, receipts, or anything with a rectangular shape)."
-  },
-  {
-    "name": "Dynamsoft Barcode Reader",
-    "url": "https://github.com/xulihang/capacitor-plugin-dynamsoft-barcode-reader",
-    "description": "Scan barcodes and QR codes using Dynamsoft Barcode Reader."
-  },
-  {
-    "name": "Email composer",
-    "url": "https://github.com/EinfachHans/capacitor-email-composer",
-    "description": "Open a native E-Mail Composer within your Capacitor App."
-  },
-  {
-    "name": "Facebook Analytics",
-    "url": "https://github.com/SpellChucker/capacitor-plugin-facebook-analytics",
-    "description": "Facebook Analytics Plugin for Capacitor."
-  },
-  {
-    "name": "Flash",
-    "url": "https://github.com/Cap-go/capacitor-flash",
-    "description": "Switch the Flashlight / Torch of your device."
   },
   {
     "name": "Analytics",
@@ -405,6 +385,36 @@
     "description": "Capacitor plugin for Firebase Crashlytics."
   },
   {
+    "name": "Screen orientation",
+    "url": "https://github.com/capawesome-team/capacitor-screen-orientation",
+    "description": "Lock/unlock the screen orientation."
+  },
+  {
+    "name": "Android dark mode",
+    "url": "https://github.com/capawesome-team/capacitor-android-dark-mode-support",
+    "description": "Capacitor plugin to support dark mode on Android."
+  },
+  {
+    "name": "Native updates",
+    "url": "https://github.com/capawesome-team/capacitor-app-update",
+    "description": "Capacitor plugin that assists with app updates."
+  },
+  {
+    "name": "File picker",
+    "url": "https://github.com/capawesome-team/capacitor-file-picker",
+    "description": "Capacitor plugin that allows the user to select a file."
+  },
+  {
+    "name": "Managed configuration",
+    "url": "https://github.com/capawesome-team/capacitor-managed-configurations",
+    "description": "Capacitor plugin to access managed configuration settings."
+  },
+  {
+    "name": "Photo editor",
+    "url": "https://github.com/capawesome-team/capacitor-photo-editor",
+    "description": "Capacitor plugin that allows the user to edit a photo."
+  },
+  {
     "name": "AppCheck",
     "url": "https://github.com/mattmilan-dev/capacitor-firebase-appcheck",
     "description": "Allows usage of native AppCheck tokens."
@@ -418,11 +428,6 @@
     "name": "Push",
     "url": "https://github.com/EinfachHans/capacitor-firebase-push",
     "description": "This Plugin it used for Firebase Push Messages. It support Data."
-  },
-  {
-    "name": "File selector",
-    "url": "https://github.com/hinddeep/capacitor-file-selector",
-    "description": "Select files form Android/iOS devices and the web."
   },
   {
     "name": "Auth",
@@ -445,41 +450,6 @@
     "description": "Detect faces in an image, identify key facial features, and get the contours of detected faces."
   },
   {
-    "name": "Healthkit",
-    "url": "https://github.com/Ad-Scientiam/capacitor-healthkit",
-    "description": "Retrieve data from HealthKit."
-  },
-  {
-    "name": "Intent",
-    "url": "https://github.com/IT-MikeS/capacitor-intents",
-    "description": "Supports multiple broadcast receiving of intents, and sending out BroadcastIntents in Android."
-  },
-  {
-    "name": "Jitsi",
-    "url": "https://github.com/calvinckho/capacitor-jitsi-meet",
-    "description": "Make video calls through the free, open-sourced Jitsi video platform."
-  },
-  {
-    "name": "Lightsensor",
-    "url": "https://github.com/Elvincth/capacitor-plugin-lightsensor",
-    "description": "Get the illuminance level on the device."
-  },
-  {
-    "name": "Mute",
-    "url": "https://github.com/Cap-go/capacitor-mute",
-    "description": "Detect silent mode and mute audio."
-  },
-  {
-    "name": "Native Geocoder",
-    "url": "https://github.com/Cap-go/capacitor-nativegeocoder",
-    "description": "Native forward and reverse geocoding."
-  },
-  {
-    "name": "Native settings",
-    "url": "https://github.com/RaphaelWoude/capacitor-native-settings",
-    "description": "Open native settings screens."
-  },
-  {
     "name": "NativeScript Capacitor",
     "url": "https://github.com/NativeScript/capacitor",
     "description": "Empower Capacitor with native APIs."
@@ -488,141 +458,6 @@
     "name": "Augmented Reality",
     "url": "https://github.com/EddyVerbruggen/nativescript-ar",
     "description": "Add AR experiences."
-  },
-  {
-    "name": "Navigation bar",
-    "url": "https://github.com/hugotomazi/navigation-bar",
-    "description": "Navigation Bar manipulation, hide/show."
-  },
-  {
-    "name": "Oauth2",
-    "url": "https://github.com/moberwasserlechner/capacitor-oauth2",
-    "description": "Generic OAuth 2 client plugin. It let you configure the OAuth parameters yourself instead of using SDKs."
-  },
-  {
-    "name": "Playlist",
-    "url": "https://github.com/phiamo/capacitor-plugin-playlist",
-    "description": "Native support for audio playlists, background support, and lock screen controls."
-  },
-  {
-    "name": "Print",
-    "url": "https://github.com/leoruhland/capacitor-print",
-    "description": "Print the WebView."
-  },
-  {
-    "name": "Rate app",
-    "url": "https://github.com/Nodonisko/capacitor-rate-app",
-    "description": "Let users rate your app using native rate app dialog for both Android and iOS."
-  },
-  {
-    "name": "Read sms",
-    "url": "https://github.com/Ayush-Rajniwal/cap-read-sms",
-    "description": "Read the user's SMS with their permission."
-  },
-  {
-    "name": "Screen orientation",
-    "url": "https://github.com/capawesome-team/capacitor-screen-orientation",
-    "description": "Lock/unlock the screen orientation."
-  },
-  {
-    "name": "Screenshot",
-    "url": "https://github.com/ludufre/capacitor-screenshot",
-    "description": "Take a screenshot of the current view."
-  },
-  {
-    "name": "Screen recorder",
-    "url": "https://github.com/Cap-go/capacitor-screen-recorder",
-    "description": "Record screen and save to pelicule."
-  },
-  {
-    "name": "Send intent",
-    "url": "https://github.com/tavosansal/capacitor-plugin-send-intent",
-    "description": "Expose a listener in your JavaScript application for when another application sends data to your Capacitor application via the Android share menu or share sheet."
-  },
-  {
-    "name": "Sentry",
-    "url": "https://github.com/getsentry/sentry-capacitor",
-    "description": "Add Sentry error tracking and performance monitoring for Capacitor apps."
-  },
-  {
-    "name": "Stripe terminal",
-    "url": "https://github.com/eventOneHQ/capacitor-stripe-terminal",
-    "description": "Stripe Terminal Plugin for Capacitor."
-  },
-  {
-    "name": "Sprig",
-    "url": "https://github.com/crabbydavis/sprig",
-    "description": "All-in-one  product research platform."
-  },
-  {
-    "name": "Square Payments",
-    "url": "https://github.com/jbrown0824/capacitor-square-payments",
-    "description": "Enable Square Payments for Capacitor."
-  },
-  {
-    "name": "Sumup",
-    "url": "https://github.com/rbedemann/capacitor-sumup-plugin",
-    "description": "SumUp Mobile SDK."
-  },
-  {
-    "name": "UDP",
-    "url": "https://github.com/brugsel/capacitor-udp",
-    "description": "Support both IPv6 and IPv4, multicast and broadcast."
-  },
-  {
-    "name": "Video player",
-    "url": "https://github.com/jepiqueau/capacitor-video-player",
-    "description": "Play a video full-screen on IOS, Android, Web and Electron platforms."
-  },
-  {
-    "name": "Zalo login",
-    "url": "https://github.com/kmasterycsl/capacitor-zalo-login",
-    "description": "Zalo login plugin for Capacitor."
-  },
-  {
-    "name": "Purchases",
-    "url": "https://github.com/Cap-go/capacitor-purchases",
-    "description": "Capacitor in-app purchases and subscriptions made easy with RevenueCat."
-  },
-  {
-    "name": "Android dark mode",
-    "url": "https://github.com/capawesome-team/capacitor-android-dark-mode-support",
-    "description": "Capacitor plugin to support dark mode on Android."
-  },
-  {
-    "name": "Native updates",
-    "url": "https://github.com/capawesome-team/capacitor-app-update",
-    "description": "Capacitor plugin that assists with app updates."
-  },
-  {
-    "name": "File picker",
-    "url": "https://github.com/capawesome-team/capacitor-file-picker",
-    "description": "Capacitor plugin that allows the user to select a file."
-  },
-  {
-    "name": "Managed configuratio",
-    "url": "https://github.com/capawesome-team/capacitor-managed-configurations",
-    "description": "Capacitor plugin to access managed configuration settings."
-  },
-  {
-    "name": "Photo editor",
-    "url": "https://github.com/capawesome-team/capacitor-photo-editor",
-    "description": "Capacitor plugin that allows the user to edit a photo."
-  },
-  {
-    "name": "Photo library",
-    "url": "https://github.com/diiiary/capacitor-plugin-photo-library",
-    "description": "Get all the images from system album."
-  },
-  {
-    "name": "In app Browser",
-    "url": "https://github.com/Cap-go/capacitor-inappbrowser",
-    "description": "Browser In app browser with urlChangeEvent."
-  },
-  {
-    "name": "Native geocoder",
-    "url": "https://github.com/Cap-go/capacitor-nativegeocoder",
-    "description": "Native forward and reverse geocoding."
   },
   {
     "name": "Docgen",
