@@ -5,6 +5,7 @@ on:
     branches: [master]
     paths:
       - 'jsons/**'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 permissions:
