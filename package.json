@@ -1,20 +1,22 @@
 {
   "name": "awesome.json",
   "version": "1.0.0",
-  "description": "awesome.json == A curated list in JSON format.",
+  "description": "awesome.json(A curated list in JSON format)",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "awesomelists-index": "^0.3.2",
     "cheerio": "^1.0.0-rc.10",
-    "cron": "^1.2.1",
     "debug": "^3.1.0",
-    "jsonfile": "^2.2.3",
-    "request": "^2.87.0"
+    "p-limit": "^3.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "awesome": "cd lib && node awesome.js && mv ../test-output/awesome.json ../awesome",
-    "build": "git pull --no-edit origin master && cd lib && node gen-all-awesome-list.js && mv ./awesome-json/sindresorhus-awesome.json ../all-github-path && mv ./awesome-json/*.json ../repo-json",
+    "awesome": "cd scrapers && node awesome.js && mv ../test-output/awesome.json ../jsons/awesome",
+    "ai-awesome": "node scrapers/md-awesome.js",
+    "build": "git pull --no-edit origin master && cd scrapers && node gen-all-awesome-list.js && mv ./awesome-json/sindresorhus-awesome.json ../all-github-path && mv ./awesome-json/*.json ../jsons/repo-json",
     "push": "git add --all . && git commit -m \":chart_with_upwards_trend: UPDATE JSON AT `date`\" && git push origin update-branch"
   },
   "repository": {
