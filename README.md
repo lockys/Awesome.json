@@ -14,11 +14,23 @@ $ npm run awesome # To get the latest curated lists of awesome lists.
 $ npm run build # To get all links of all awesome lists.
 ```
 
-This is repo of necessary files for https://awesomelists.top  
+This is repo of necessary files for https://awesomelists.top
 Please see below:
 ```
-repo-json/*.json
-awesome/awesome.json
+jsons/repo-json/*.json
+jsons/awesome/awesome.json
+```
+
+## JSON Endpoints (GitHub Pages)
+
+| Resource | URL |
+|---|---|
+| Master index | https://lockys.github.io/Awesome.json/awesome/awesome.json |
+| Individual repo list | https://lockys.github.io/Awesome.json/repo-json/{author}-{repo}.json |
+
+Example:
+```
+https://lockys.github.io/Awesome.json/repo-json/sindresorhus-awesome-nodejs.json
 ```
 
 LICENSE
