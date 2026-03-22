@@ -102,14 +102,18 @@ function processReadMe(originalContent) {
   return awesomeJson;
 }
 
-(async () => {
-  try {
-    const body = await getAwesomeReadMe();
-    const awesomeJson = processReadMe(body);
-    const w = new AwesomeWorker('awesome');
-    await w.save(awesomeJson);
-  } catch (err) {
-    console.error('Fatal error:', err);
-    process.exit(1);
-  }
-})();
+if (require.main === module) {
+  (async () => {
+    try {
+      const body = await getAwesomeReadMe();
+      const awesomeJson = processReadMe(body);
+      const w = new AwesomeWorker('awesome');
+      await w.save(awesomeJson);
+    } catch (err) {
+      console.error('Fatal error:', err);
+      process.exit(1);
+    }
+  })();
+}
+
+module.exports = { isExcludedHeading, extractRepo, processReadMe };

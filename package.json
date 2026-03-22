@@ -13,7 +13,7 @@
     "p-limit": "^3.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test tests/*.test.js",
     "awesome": "cd scrapers && node awesome.js && mv ../test-output/awesome.json ../jsons/awesome",
     "ai-awesome": "node scrapers/md-awesome.js",
     "build": "git pull --no-edit origin master && cd scrapers && node gen-all-awesome-list.js && mv ./awesome-json/sindresorhus-awesome.json ../all-github-path && mv ./awesome-json/*.json ../jsons/repo-json",

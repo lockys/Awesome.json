@@ -143,24 +143,28 @@ function parse(markdown) {
   return result;
 }
 
-(async () => {
-  try {
-    console.log(`Fetching ${RAW_URL}...`);
-    const res = await fetch(RAW_URL);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const markdown = await res.text();
+if (require.main === module) {
+  (async () => {
+    try {
+      console.log(`Fetching ${RAW_URL}...`);
+      const res = await fetch(RAW_URL);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const markdown = await res.text();
 
-    const data = parse(markdown);
+      const data = parse(markdown);
 
-    const cats = Object.keys(data).length;
-    const total = Object.values(data).reduce((s, v) => s + v.length, 0);
-    console.log(`Parsed ${cats} categories, ${total} entries`);
+      const cats = Object.keys(data).length;
+      const total = Object.values(data).reduce((s, v) => s + v.length, 0);
+      console.log(`Parsed ${cats} categories, ${total} entries`);
 
-    await fs.promises.mkdir(path.dirname(OUT_PATH), { recursive: true });
-    await fs.promises.writeFile(OUT_PATH, JSON.stringify(data, null, 2));
-    console.log(`Saved ${OUT_PATH}`);
-  } catch (err) {
-    console.error('Fatal:', err);
-    process.exit(1);
-  }
-})();
+      await fs.promises.mkdir(path.dirname(OUT_PATH), { recursive: true });
+      await fs.promises.writeFile(OUT_PATH, JSON.stringify(data, null, 2));
+      console.log(`Saved ${OUT_PATH}`);
+    } catch (err) {
+      console.error('Fatal:', err);
+      process.exit(1);
+    }
+  })();
+}
+
+module.exports = { isExcluded, extractRepo, isGitHub, stripFragment, parseLink, parse };
