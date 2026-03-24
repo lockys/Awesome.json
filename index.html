@@ -5,15 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>awesome.json</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       background: #1e1e1e;
       color: #d4d4d4;
       font-family: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
       font-size: 13px;
-      line-height: 1.6;
-      padding: 0;
+      line-height: 1.7;
     }
 
     /* ── toolbar ── */
@@ -28,94 +27,75 @@
       align-items: center;
       gap: 12px;
     }
-
-    #toolbar h1 {
-      font-size: 12px;
-      font-weight: 600;
-      color: #9cdcfe;
-      letter-spacing: 0.03em;
-      flex-shrink: 0;
-    }
-
+    #toolbar h1 { font-size: 12px; font-weight: 600; color: #9cdcfe; flex-shrink: 0; }
     #search {
-      flex: 1;
-      max-width: 320px;
-      background: #3c3c3c;
-      border: 1px solid #555;
-      border-radius: 4px;
-      color: #d4d4d4;
-      font-family: inherit;
-      font-size: 12px;
-      padding: 4px 8px;
-      outline: none;
+      flex: 1; max-width: 320px;
+      background: #3c3c3c; border: 1px solid #555; border-radius: 4px;
+      color: #d4d4d4; font-family: inherit; font-size: 12px;
+      padding: 4px 8px; outline: none;
     }
     #search:focus { border-color: #569cd6; }
     #search::placeholder { color: #6e6e6e; }
-
-    #stats {
-      font-size: 11px;
-      color: #6e6e6e;
-      flex-shrink: 0;
+    #stats { font-size: 11px; color: #6e6e6e; flex-shrink: 0; }
+    .btn {
+      font-family: inherit; font-size: 11px;
+      background: #3c3c3c; border: 1px solid #555; border-radius: 3px;
+      color: #9cdcfe; cursor: pointer; padding: 3px 8px;
     }
-
-    #expand-all, #collapse-all {
-      font-family: inherit;
-      font-size: 11px;
-      background: #3c3c3c;
-      border: 1px solid #555;
-      border-radius: 3px;
-      color: #9cdcfe;
-      cursor: pointer;
-      padding: 3px 8px;
-    }
-    #expand-all:hover, #collapse-all:hover { background: #4a4a4a; }
+    .btn:hover { background: #4a4a4a; }
 
     /* ── viewer ── */
-    #viewer {
-      padding: 12px 16px;
-      white-space: pre;
-    }
+    #viewer { padding: 12px 16px; }
 
-    /* ── JSON nodes ── */
-    .jv-object, .jv-array { display: block; }
+    /* ── list tree ── */
+    ul.jv { list-style: none; padding-left: 1.5em; margin: 0; }
+    ul.jv.root { padding-left: 0; }
 
-    .jv-toggle {
+    li.jv-item { position: relative; }
+
+    /* toggle arrow */
+    .jv-arrow {
+      display: inline-block;
+      width: 1em;
       cursor: pointer;
       user-select: none;
       color: #569cd6;
+      font-size: 10px;
     }
-    .jv-toggle::before { content: '▾ '; font-size: 10px; }
-    .jv-toggle.collapsed::before { content: '▸ '; font-size: 10px; }
+    .jv-arrow::before { content: '▾'; }
+    .jv-arrow.collapsed::before { content: '▸'; }
 
-    .jv-key   { color: #9cdcfe; }
-    .jv-colon { color: #d4d4d4; }
-    .jv-str   { color: #ce9178; }
-    .jv-url   { color: #4ec9b0; text-decoration: underline; cursor: pointer; }
-    .jv-num   { color: #b5cea8; }
-    .jv-bool  { color: #569cd6; }
-    .jv-null  { color: #569cd6; }
-    .jv-brace, .jv-bracket { color: #ffd700; }
-    .jv-comma { color: #d4d4d4; }
+    /* collapsed inline preview */
+    .jv-preview { color: #6e6e6e; font-style: italic; display: none; }
+    .collapsed + .jv-children + .jv-preview,
+    .jv-arrow.collapsed ~ .jv-preview { display: inline; }
 
-    .jv-children { display: block; }
-    .jv-children.hidden { display: none; }
+    /* syntax colours */
+    .jv-key    { color: #9cdcfe; }
+    .jv-colon  { color: #d4d4d4; }
+    .jv-str    { color: #ce9178; }
+    .jv-url    { color: #4ec9b0; text-decoration: underline; }
+    .jv-num    { color: #b5cea8; }
+    .jv-bool   { color: #569cd6; }
+    .jv-null   { color: #569cd6; }
+    .jv-brace,
+    .jv-bracket { color: #ffd700; }
+    .jv-comma  { color: #d4d4d4; }
 
-    .jv-inline { color: #6e6e6e; font-style: italic; }
+    /* children block */
+    ul.jv-children { display: block; }
+    ul.jv-children.hidden { display: none; }
 
     /* search highlight */
-    .hl { background: #613315; border-radius: 2px; }
+    mark.hl { background: #613315; color: inherit; border-radius: 2px; }
 
     /* loading/error */
     .state { padding: 40px; color: #6e6e6e; }
     .spinner {
-      display: inline-block;
-      width: 14px; height: 14px;
-      border: 2px solid #3c3c3c;
-      border-top-color: #569cd6;
-      border-radius: 50%;
-      animation: spin 0.6s linear infinite;
-      vertical-align: middle;
-      margin-right: 8px;
+      display: inline-block; width: 14px; height: 14px;
+      border: 2px solid #3c3c3c; border-top-color: #569cd6;
+      border-radius: 50%; animation: spin .6s linear infinite;
+      vertical-align: middle; margin-right: 8px;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
   </style>
@@ -126,8 +106,8 @@
   <h1>awesome.json</h1>
   <input id="search" type="search" placeholder="Filter keys and values…" autocomplete="off" />
   <span id="stats"></span>
-  <button id="expand-all">expand all</button>
-  <button id="collapse-all">collapse all</button>
+  <button class="btn" id="expand-all">expand all</button>
+  <button class="btn" id="collapse-all">collapse all</button>
 </div>
 <div id="viewer"><span class="state"><span class="spinner"></span>Loading…</span></div>
 
@@ -135,201 +115,164 @@
 const DATA_URL = './awesome/awesome.json';
 let rawData = null;
 let filterQuery = '';
-
-// ── render ──────────────────────────────────────────────────────────────────
-
-function esc(str) {
-  return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
-
-function highlight(str) {
-  if (!filterQuery) return esc(str);
-  const q = filterQuery.toLowerCase();
-  const s = String(str);
-  const idx = s.toLowerCase().indexOf(q);
-  if (idx === -1) return esc(s);
-  return esc(s.slice(0, idx))
-    + '<mark class="hl">' + esc(s.slice(idx, idx + q.length)) + '</mark>'
-    + esc(s.slice(idx + q.length));
-}
-
-function matchesFilter(val) {
-  if (!filterQuery) return true;
-  const q = filterQuery.toLowerCase();
-  if (typeof val === 'string') return val.toLowerCase().includes(q);
-  if (typeof val === 'number' || typeof val === 'boolean') return String(val).includes(q);
-  return false;
-}
-
-const INDENT = '  '; // 2 spaces per level
-
-function ind(level) { return INDENT.repeat(level); }
-
-function renderValue(val, indent, isLast) {
-  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
-
-  if (val === null) return `<span class="jv-null">null</span>${comma}`;
-  if (typeof val === 'boolean') return `<span class="jv-bool">${val}</span>${comma}`;
-  if (typeof val === 'number') return `<span class="jv-num">${val}</span>${comma}`;
-
-  if (typeof val === 'string') {
-    const isUrl = /^https?:\/\//.test(val);
-    const inner = isUrl
-      ? `<a class="jv-url" href="${esc(val)}" target="_blank" rel="noopener">"${highlight(val)}"</a>`
-      : `<span class="jv-str">"${highlight(val)}"</span>`;
-    return inner + comma;
-  }
-
-  if (Array.isArray(val)) return renderArray(val, indent, isLast);
-  if (typeof val === 'object') return renderObject(val, indent, isLast);
-  return esc(String(val)) + comma;
-}
-
-function renderObject(obj, indent, isLast) {
-  const keys = Object.keys(obj);
-  if (keys.length === 0) return `<span class="jv-brace">{}</span>${isLast ? '' : '<span class="jv-comma">,</span>'}`;
-
-  const id = uid();
-  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
-  const preview = keys.length === 1 ? `1 key` : `${keys.length} keys`;
-  const childIndent = indent + 1;
-
-  let html = `<span class="jv-toggle" data-target="${id}"><span class="jv-brace">{</span></span>`;
-  html += `<span class="jv-inline" id="${id}-inline"> … ${preview} }<span class="jv-comma">${isLast ? '' : ','}</span></span>`;
-  html += `<span class="jv-children" id="${id}">\n`;
-  keys.forEach((k, i) => {
-    html += ind(childIndent);
-    html += `<span class="jv-key">"${highlight(k)}"</span><span class="jv-colon">: </span>`;
-    html += renderValue(obj[k], childIndent, i === keys.length - 1);
-    html += '\n';
-  });
-  html += ind(indent);
-  html += `</span><span class="jv-brace">}</span>${comma}`;
-  return html;
-}
-
-function renderArray(arr, indent, isLast) {
-  if (arr.length === 0) return `<span class="jv-bracket">[]</span>${isLast ? '' : '<span class="jv-comma">,</span>'}`;
-
-  const id = uid();
-  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
-  const preview = arr.length === 1 ? `1 item` : `${arr.length} items`;
-  const childIndent = indent + 1;
-
-  let html = `<span class="jv-toggle" data-target="${id}"><span class="jv-bracket">[</span></span>`;
-  html += `<span class="jv-inline" id="${id}-inline"> … ${preview} ]<span class="jv-comma">${isLast ? '' : ','}</span></span>`;
-  html += `<span class="jv-children" id="${id}">\n`;
-  arr.forEach((item, i) => {
-    html += ind(childIndent);
-    html += renderValue(item, childIndent, i === arr.length - 1);
-    html += '\n';
-  });
-  html += ind(indent);
-  html += `</span><span class="jv-bracket">]</span>${comma}`;
-  return html;
-}
-
 let _uid = 0;
 function uid() { return 'n' + (++_uid); }
 
-// ── filter (re-render with filtered data) ────────────────────────────────────
+// ── escape / highlight ───────────────────────────────────────────────────────
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function hl(s) {
+  if (!filterQuery) return esc(s);
+  const q = filterQuery.toLowerCase(), str = String(s);
+  const i = str.toLowerCase().indexOf(q);
+  if (i === -1) return esc(str);
+  return esc(str.slice(0,i)) + '<mark class="hl">' + esc(str.slice(i, i+q.length)) + '</mark>' + esc(str.slice(i+q.length));
+}
+
+// ── render ───────────────────────────────────────────────────────────────────
+// Each render* returns an HTML string for a <li> or inline value.
+
+function renderScalar(val, isLast) {
+  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
+  if (val === null)            return `<span class="jv-null">null</span>${comma}`;
+  if (typeof val === 'boolean') return `<span class="jv-bool">${val}</span>${comma}`;
+  if (typeof val === 'number')  return `<span class="jv-num">${val}</span>${comma}`;
+  if (typeof val === 'string') {
+    const inner = /^https?:\/\//.test(val)
+      ? `<a class="jv-url" href="${esc(val)}" target="_blank" rel="noopener">"${hl(val)}"</a>`
+      : `<span class="jv-str">"${hl(val)}"</span>`;
+    return inner + comma;
+  }
+}
+
+function renderValue(val, isLast) {
+  if (val === null || typeof val !== 'object') return renderScalar(val, isLast);
+  if (Array.isArray(val)) return renderArray(val, isLast);
+  return renderObject(val, isLast);
+}
+
+function renderObject(obj, isLast) {
+  const keys = Object.keys(obj);
+  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
+  if (keys.length === 0) return `<span class="jv-brace">{}</span>${comma}`;
+
+  const id = uid();
+  const preview = keys.length === 1 ? '1 key' : `${keys.length} keys`;
+
+  let html = `<span class="jv-arrow" data-id="${id}"></span>`;
+  html += `<span class="jv-brace">{</span>`;
+  html += `<ul class="jv jv-children" id="${id}">`;
+  keys.forEach((k, i) => {
+    html += `<li class="jv-item">`;
+    html += `<span class="jv-key">"${hl(k)}"</span><span class="jv-colon">: </span>`;
+    html += renderValue(obj[k], i === keys.length - 1);
+    html += `</li>`;
+  });
+  html += `</ul>`;
+  html += `<span class="jv-preview"> {… ${preview}} </span>`;
+  html += `<span class="jv-brace">}</span>${comma}`;
+  return html;
+}
+
+function renderArray(arr, isLast) {
+  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
+  if (arr.length === 0) return `<span class="jv-bracket">[]</span>${comma}`;
+
+  const id = uid();
+  const preview = arr.length === 1 ? '1 item' : `${arr.length} items`;
+
+  let html = `<span class="jv-arrow" data-id="${id}"></span>`;
+  html += `<span class="jv-bracket">[</span>`;
+  html += `<ul class="jv jv-children" id="${id}">`;
+  arr.forEach((item, i) => {
+    html += `<li class="jv-item">${renderValue(item, i === arr.length - 1)}</li>`;
+  });
+  html += `</ul>`;
+  html += `<span class="jv-preview"> [… ${preview}] </span>`;
+  html += `<span class="jv-bracket">]</span>${comma}`;
+  return html;
+}
+
+// ── filter ───────────────────────────────────────────────────────────────────
 
 function getFilteredData() {
   if (!filterQuery) return rawData;
   const q = filterQuery.toLowerCase();
   const result = {};
   for (const [cat, entries] of Object.entries(rawData)) {
-    const catMatches = cat.toLowerCase().includes(q);
     const filtered = entries.filter(e =>
-      catMatches ||
+      cat.toLowerCase().includes(q) ||
       (e.name && e.name.toLowerCase().includes(q)) ||
       (e.repo && e.repo.toLowerCase().includes(q)) ||
       (e.url  && e.url.toLowerCase().includes(q))
     );
-    if (filtered.length > 0) result[cat] = filtered;
+    if (filtered.length) result[cat] = filtered;
   }
   return result;
 }
 
-function updateStats(data) {
-  const cats = Object.keys(data).length;
-  const entries = Object.values(data).reduce((a, v) => a + v.length, 0);
-  const statsEl = document.getElementById('stats');
-  if (filterQuery) {
-    const totalEntries = Object.values(rawData).reduce((a, v) => a + v.length, 0);
-    statsEl.textContent = `${entries} / ${totalEntries} entries, ${cats} categories`;
-  } else {
-    statsEl.textContent = `${entries} entries · ${cats} categories`;
-  }
-}
+// ── render all ───────────────────────────────────────────────────────────────
 
 function renderAll() {
   _uid = 0;
   const data = getFilteredData();
-  updateStats(data);
+
+  // stats
+  const cats = Object.keys(data).length;
+  const total = Object.values(rawData).reduce((s,v) => s+v.length, 0);
+  const shown = Object.values(data).reduce((s,v) => s+v.length, 0);
+  const statsEl = document.getElementById('stats');
+  statsEl.textContent = filterQuery
+    ? `${shown} / ${total} entries, ${cats} categories`
+    : `${total} entries · ${cats} categories`;
 
   const viewer = document.getElementById('viewer');
-  viewer.innerHTML = renderObject(data, 0, true);
+  viewer.innerHTML = `<ul class="jv root"><li class="jv-item">${renderObject(data, true)}</li></ul>`;
 
-  // start with top-level categories expanded, deeper collapsed
-  document.querySelectorAll('.jv-children').forEach(el => {
-    const depth = parseInt(el.dataset.depth || '0');
-    if (depth > 0) collapse(el.id);
+  // collapse depth > 1 by default (keep top-level open)
+  document.querySelectorAll('.jv-children').forEach(ul => {
+    const depth = getDepth(ul);
+    if (depth > 1) collapseEl(ul.id);
   });
 
-  // mark depth
-  setDepths();
-
-  // auto-expand all when filtering
   if (filterQuery) expandAll();
 }
 
-function setDepths(el, depth) {
-  if (!el) {
-    document.querySelectorAll('.jv-children').forEach(child => {
-      const parent = child.closest('.jv-children');
-      child.dataset.depth = parent ? parseInt(parent.dataset.depth || 0) + 1 : 0;
-    });
-    return;
-  }
+function getDepth(el) {
+  let d = 0, cur = el.parentElement;
+  while (cur) { if (cur.classList && cur.classList.contains('jv-children')) d++; cur = cur.parentElement; }
+  return d;
 }
 
 // ── toggle ───────────────────────────────────────────────────────────────────
 
-function collapse(id) {
-  const children = document.getElementById(id);
-  const inline = document.getElementById(id + '-inline');
-  const toggle = document.querySelector(`[data-target="${id}"]`);
-  if (!children) return;
-  children.classList.add('hidden');
-  if (inline) inline.style.display = '';
-  if (toggle) toggle.classList.add('collapsed');
+function collapseEl(id) {
+  const ul = document.getElementById(id);
+  const arrow = document.querySelector(`.jv-arrow[data-id="${id}"]`);
+  if (ul) ul.classList.add('hidden');
+  if (arrow) arrow.classList.add('collapsed');
 }
 
-function expand(id) {
-  const children = document.getElementById(id);
-  const inline = document.getElementById(id + '-inline');
-  const toggle = document.querySelector(`[data-target="${id}"]`);
-  if (!children) return;
-  children.classList.remove('hidden');
-  if (inline) inline.style.display = 'none';
-  if (toggle) toggle.classList.remove('collapsed');
+function expandEl(id) {
+  const ul = document.getElementById(id);
+  const arrow = document.querySelector(`.jv-arrow[data-id="${id}"]`);
+  if (ul) ul.classList.remove('hidden');
+  if (arrow) arrow.classList.remove('collapsed');
 }
 
-function expandAll()  { document.querySelectorAll('.jv-children').forEach(el => expand(el.id)); }
-function collapseAll(){ document.querySelectorAll('.jv-children').forEach(el => collapse(el.id)); }
+function expandAll()  { document.querySelectorAll('.jv-children').forEach(ul => expandEl(ul.id)); }
+function collapseAll(){ document.querySelectorAll('.jv-children').forEach(ul => collapseEl(ul.id)); }
 
 document.addEventListener('click', e => {
-  const toggle = e.target.closest('.jv-toggle');
-  if (!toggle) return;
-  const id = toggle.dataset.target;
-  const children = document.getElementById(id);
-  if (!children) return;
-  children.classList.contains('hidden') ? expand(id) : collapse(id);
+  const arrow = e.target.closest('.jv-arrow');
+  if (!arrow) return;
+  const id = arrow.dataset.id;
+  const ul = document.getElementById(id);
+  if (!ul) return;
+  ul.classList.contains('hidden') ? expandEl(id) : collapseEl(id);
 });
 
 document.getElementById('expand-all').addEventListener('click', expandAll);
@@ -337,23 +280,17 @@ document.getElementById('collapse-all').addEventListener('click', collapseAll);
 
 // ── search ───────────────────────────────────────────────────────────────────
 
-let debounceTimer;
+let debounce;
 document.getElementById('search').addEventListener('input', e => {
-  clearTimeout(debounceTimer);
-  debounceTimer = setTimeout(() => {
-    filterQuery = e.target.value.trim();
-    renderAll();
-  }, 180);
+  clearTimeout(debounce);
+  debounce = setTimeout(() => { filterQuery = e.target.value.trim(); renderAll(); }, 180);
 });
 
 // ── init ─────────────────────────────────────────────────────────────────────
 
 fetch(DATA_URL)
   .then(r => r.json())
-  .then(data => {
-    rawData = data;
-    renderAll();
-  })
+  .then(data => { rawData = data; renderAll(); })
   .catch(err => {
     document.getElementById('viewer').innerHTML =
       `<span class="state" style="color:#f48771">Error: ${esc(err.message)}</span>`;
