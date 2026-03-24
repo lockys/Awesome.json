@@ -97,11 +97,7 @@
     .jv-brace, .jv-bracket { color: #ffd700; }
     .jv-comma { color: #d4d4d4; }
 
-    .jv-children {
-      padding-left: 20px;
-      border-left: 1px solid #3c3c3c;
-      margin-left: 6px;
-    }
+    .jv-children { display: block; }
     .jv-children.hidden { display: none; }
 
     .jv-inline { color: #6e6e6e; font-style: italic; }
@@ -169,6 +165,10 @@ function matchesFilter(val) {
   return false;
 }
 
+const INDENT = '  '; // 2 spaces per level
+
+function ind(level) { return INDENT.repeat(level); }
+
 function renderValue(val, indent, isLast) {
   const comma = isLast ? '' : '<span class="jv-comma">,</span>';
 
@@ -196,19 +196,19 @@ function renderObject(obj, indent, isLast) {
   const id = uid();
   const comma = isLast ? '' : '<span class="jv-comma">,</span>';
   const preview = keys.length === 1 ? `1 key` : `${keys.length} keys`;
+  const childIndent = indent + 1;
 
   let html = `<span class="jv-toggle" data-target="${id}"><span class="jv-brace">{</span></span>`;
-  html += `<span class="jv-inline" id="${id}-inline"> … ${preview} </span>`;
-  html += `<span class="jv-brace jv-close-hidden" data-for="${id}">}</span>${comma}`;
-  html += `<span class="jv-children" id="${id}">`;
+  html += `<span class="jv-inline" id="${id}-inline"> … ${preview} }<span class="jv-comma">${isLast ? '' : ','}</span></span>`;
+  html += `<span class="jv-children" id="${id}">\n`;
   keys.forEach((k, i) => {
-    html += `<span class="jv-line">`;
+    html += ind(childIndent);
     html += `<span class="jv-key">"${highlight(k)}"</span><span class="jv-colon">: </span>`;
-    html += renderValue(obj[k], indent + 1, i === keys.length - 1);
-    html += `</span>\n`;
+    html += renderValue(obj[k], childIndent, i === keys.length - 1);
+    html += '\n';
   });
-  html += `</span>`;
-  html += `<span class="jv-brace jv-close-shown" data-for="${id}">}</span>${comma}`;
+  html += ind(indent);
+  html += `</span><span class="jv-brace">}</span>${comma}`;
   return html;
 }
 
@@ -218,16 +218,18 @@ function renderArray(arr, indent, isLast) {
   const id = uid();
   const comma = isLast ? '' : '<span class="jv-comma">,</span>';
   const preview = arr.length === 1 ? `1 item` : `${arr.length} items`;
+  const childIndent = indent + 1;
 
   let html = `<span class="jv-toggle" data-target="${id}"><span class="jv-bracket">[</span></span>`;
-  html += `<span class="jv-inline" id="${id}-inline"> … ${preview} </span>`;
-  html += `<span class="jv-bracket jv-close-hidden" data-for="${id}">]</span>${comma}`;
-  html += `<span class="jv-children" id="${id}">`;
+  html += `<span class="jv-inline" id="${id}-inline"> … ${preview} ]<span class="jv-comma">${isLast ? '' : ','}</span></span>`;
+  html += `<span class="jv-children" id="${id}">\n`;
   arr.forEach((item, i) => {
-    html += `<span class="jv-line">${renderValue(item, indent + 1, i === arr.length - 1)}</span>\n`;
+    html += ind(childIndent);
+    html += renderValue(item, childIndent, i === arr.length - 1);
+    html += '\n';
   });
-  html += `</span>`;
-  html += `<span class="jv-bracket jv-close-shown" data-for="${id}">]</span>${comma}`;
+  html += ind(indent);
+  html += `</span><span class="jv-bracket">]</span>${comma}`;
   return html;
 }
 
@@ -306,8 +308,6 @@ function collapse(id) {
   children.classList.add('hidden');
   if (inline) inline.style.display = '';
   if (toggle) toggle.classList.add('collapsed');
-  document.querySelectorAll(`.jv-close-hidden[data-for="${id}"]`).forEach(el => el.style.display = '');
-  document.querySelectorAll(`.jv-close-shown[data-for="${id}"]`).forEach(el => el.style.display = 'none');
 }
 
 function expand(id) {
@@ -318,8 +318,6 @@ function expand(id) {
   children.classList.remove('hidden');
   if (inline) inline.style.display = 'none';
   if (toggle) toggle.classList.remove('collapsed');
-  document.querySelectorAll(`.jv-close-hidden[data-for="${id}"]`).forEach(el => el.style.display = 'none');
-  document.querySelectorAll(`.jv-close-shown[data-for="${id}"]`).forEach(el => el.style.display = '');
 }
 
 function expandAll()  { document.querySelectorAll('.jv-children').forEach(el => expand(el.id)); }
