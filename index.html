@@ -3,396 +3,362 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Awesome Lists</title>
+  <title>awesome.json</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --bg: #0d1117;
-      --surface: #161b22;
-      --border: #30363d;
-      --accent: #58a6ff;
-      --accent-dim: #1f6feb33;
-      --text: #e6edf3;
-      --muted: #8b949e;
-      --tag-bg: #21262d;
-      --radius: 8px;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-      min-height: 100vh;
+      background: #1e1e1e;
+      color: #d4d4d4;
+      font-family: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
+      font-size: 13px;
+      line-height: 1.6;
+      padding: 0;
     }
 
-    /* ── Header ── */
-    header {
-      border-bottom: 1px solid var(--border);
-      padding: 28px 24px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      letter-spacing: -0.5px;
-    }
-
-    header h1 span { color: var(--accent); }
-
-    header p {
-      color: var(--muted);
-      margin-top: 6px;
-      font-size: 0.9rem;
-    }
-
-    /* ── Search + Stats bar ── */
-    .toolbar {
+    /* ── toolbar ── */
+    #toolbar {
       position: sticky;
       top: 0;
-      z-index: 10;
-      background: var(--bg);
-      border-bottom: 1px solid var(--border);
-      padding: 12px 24px;
+      z-index: 100;
+      background: #252526;
+      border-bottom: 1px solid #3c3c3c;
+      padding: 8px 14px;
       display: flex;
-      gap: 12px;
       align-items: center;
-      flex-wrap: wrap;
+      gap: 12px;
     }
 
-    .search-wrap {
-      position: relative;
-      flex: 1;
-      min-width: 200px;
-    }
-
-    .search-wrap svg {
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--muted);
-      pointer-events: none;
+    #toolbar h1 {
+      font-size: 12px;
+      font-weight: 600;
+      color: #9cdcfe;
+      letter-spacing: 0.03em;
+      flex-shrink: 0;
     }
 
     #search {
-      width: 100%;
-      padding: 8px 12px 8px 34px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      color: var(--text);
-      font-size: 0.9rem;
+      flex: 1;
+      max-width: 320px;
+      background: #3c3c3c;
+      border: 1px solid #555;
+      border-radius: 4px;
+      color: #d4d4d4;
+      font-family: inherit;
+      font-size: 12px;
+      padding: 4px 8px;
       outline: none;
-      transition: border-color 0.15s;
     }
-
-    #search:focus { border-color: var(--accent); }
-    #search::placeholder { color: var(--muted); }
+    #search:focus { border-color: #569cd6; }
+    #search::placeholder { color: #6e6e6e; }
 
     #stats {
-      color: var(--muted);
-      font-size: 0.82rem;
-      white-space: nowrap;
+      font-size: 11px;
+      color: #6e6e6e;
+      flex-shrink: 0;
     }
 
-    /* ── Layout ── */
-    .layout {
-      display: grid;
-      grid-template-columns: 220px 1fr;
-      gap: 0;
-      max-width: 1400px;
-      margin: 0 auto;
+    #expand-all, #collapse-all {
+      font-family: inherit;
+      font-size: 11px;
+      background: #3c3c3c;
+      border: 1px solid #555;
+      border-radius: 3px;
+      color: #9cdcfe;
+      cursor: pointer;
+      padding: 3px 8px;
+    }
+    #expand-all:hover, #collapse-all:hover { background: #4a4a4a; }
+
+    /* ── viewer ── */
+    #viewer {
+      padding: 12px 16px;
+      white-space: pre;
     }
 
-    /* ── Sidebar ── */
-    aside {
-      position: sticky;
-      top: 53px;
-      height: calc(100vh - 53px);
-      overflow-y: auto;
-      border-right: 1px solid var(--border);
-      padding: 16px 0;
+    /* ── JSON nodes ── */
+    .jv-object, .jv-array { display: block; }
+
+    .jv-toggle {
+      cursor: pointer;
+      user-select: none;
+      color: #569cd6;
     }
+    .jv-toggle::before { content: '▾ '; font-size: 10px; }
+    .jv-toggle.collapsed::before { content: '▸ '; font-size: 10px; }
 
-    aside::-webkit-scrollbar { width: 4px; }
-    aside::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    .jv-key   { color: #9cdcfe; }
+    .jv-colon { color: #d4d4d4; }
+    .jv-str   { color: #ce9178; }
+    .jv-url   { color: #4ec9b0; text-decoration: underline; cursor: pointer; }
+    .jv-num   { color: #b5cea8; }
+    .jv-bool  { color: #569cd6; }
+    .jv-null  { color: #569cd6; }
+    .jv-brace, .jv-bracket { color: #ffd700; }
+    .jv-comma { color: #d4d4d4; }
 
-    .sidebar-title {
-      padding: 0 16px 8px;
-      font-size: 0.72rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      font-weight: 600;
+    .jv-children {
+      padding-left: 20px;
+      border-left: 1px solid #3c3c3c;
+      margin-left: 6px;
     }
+    .jv-children.hidden { display: none; }
 
-    .cat-link {
-      display: block;
-      padding: 5px 16px;
-      font-size: 0.82rem;
-      color: var(--muted);
-      text-decoration: none;
-      border-left: 2px solid transparent;
-      transition: color 0.1s, border-color 0.1s, background 0.1s;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+    .jv-inline { color: #6e6e6e; font-style: italic; }
 
-    .cat-link:hover, .cat-link.active {
-      color: var(--accent);
-      border-left-color: var(--accent);
-      background: var(--accent-dim);
-    }
+    /* search highlight */
+    .hl { background: #613315; border-radius: 2px; }
 
-    /* ── Main content ── */
-    main {
-      padding: 24px;
-      overflow: hidden;
-    }
-
-    /* ── Category section ── */
-    .category {
-      margin-bottom: 40px;
-    }
-
-    .category-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 14px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .category-header h2 {
-      font-size: 1.1rem;
-      font-weight: 600;
-    }
-
-    .count-badge {
-      background: var(--tag-bg);
-      color: var(--muted);
-      font-size: 0.72rem;
-      padding: 2px 8px;
-      border-radius: 20px;
-      border: 1px solid var(--border);
-    }
-
-    /* ── Entry grid ── */
-    .entries {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 10px;
-    }
-
-    .entry {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 12px 14px;
-      text-decoration: none;
-      color: var(--text);
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      transition: border-color 0.15s, transform 0.1s;
-    }
-
-    .entry:hover {
-      border-color: var(--accent);
-      transform: translateY(-1px);
-    }
-
-    .entry-name {
-      font-size: 0.88rem;
-      font-weight: 500;
-      color: var(--accent);
-      word-break: break-word;
-    }
-
-    .entry-repo {
-      font-size: 0.75rem;
-      color: var(--muted);
-      word-break: break-all;
-    }
-
-    /* ── Empty / loading ── */
-    .state {
-      grid-column: 1 / -1;
-      padding: 60px 20px;
-      text-align: center;
-      color: var(--muted);
-    }
-
+    /* loading/error */
+    .state { padding: 40px; color: #6e6e6e; }
     .spinner {
-      width: 32px;
-      height: 32px;
-      border: 3px solid var(--border);
-      border-top-color: var(--accent);
+      display: inline-block;
+      width: 14px; height: 14px;
+      border: 2px solid #3c3c3c;
+      border-top-color: #569cd6;
       border-radius: 50%;
-      animation: spin 0.7s linear infinite;
-      margin: 0 auto 12px;
+      animation: spin 0.6s linear infinite;
+      vertical-align: middle;
+      margin-right: 8px;
     }
-
     @keyframes spin { to { transform: rotate(360deg); } }
-
-    /* ── No results ── */
-    .no-results {
-      padding: 80px 20px;
-      text-align: center;
-      color: var(--muted);
-    }
-
-    /* ── Responsive ── */
-    @media (max-width: 700px) {
-      .layout { grid-template-columns: 1fr; }
-      aside { display: none; }
-    }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>✨ <span>Awesome</span> Lists</h1>
-  <p>A curated collection of awesome GitHub lists, updated daily.</p>
-</header>
-
-<div class="toolbar">
-  <div class="search-wrap">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-    </svg>
-    <input id="search" type="search" placeholder="Search lists…" autocomplete="off" />
-  </div>
+<div id="toolbar">
+  <h1>awesome.json</h1>
+  <input id="search" type="search" placeholder="Filter keys and values…" autocomplete="off" />
   <span id="stats"></span>
+  <button id="expand-all">expand all</button>
+  <button id="collapse-all">collapse all</button>
 </div>
-
-<div class="layout">
-  <aside id="sidebar">
-    <div class="sidebar-title">Categories</div>
-  </aside>
-  <main id="main">
-    <div class="state"><div class="spinner"></div>Loading…</div>
-  </main>
-</div>
+<div id="viewer"><span class="state"><span class="spinner"></span>Loading…</span></div>
 
 <script>
-  const DATA_URL = './awesome/awesome.json';
+const DATA_URL = './awesome/awesome.json';
+let rawData = null;
+let filterQuery = '';
 
-  let allData = {};
-  let query = '';
+// ── render ──────────────────────────────────────────────────────────────────
 
-  async function load() {
-    const res = await fetch(DATA_URL);
-    allData = await res.json();
-    render();
-    buildSidebar();
+function esc(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function highlight(str) {
+  if (!filterQuery) return esc(str);
+  const q = filterQuery.toLowerCase();
+  const s = String(str);
+  const idx = s.toLowerCase().indexOf(q);
+  if (idx === -1) return esc(s);
+  return esc(s.slice(0, idx))
+    + '<mark class="hl">' + esc(s.slice(idx, idx + q.length)) + '</mark>'
+    + esc(s.slice(idx + q.length));
+}
+
+function matchesFilter(val) {
+  if (!filterQuery) return true;
+  const q = filterQuery.toLowerCase();
+  if (typeof val === 'string') return val.toLowerCase().includes(q);
+  if (typeof val === 'number' || typeof val === 'boolean') return String(val).includes(q);
+  return false;
+}
+
+function renderValue(val, indent, isLast) {
+  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
+
+  if (val === null) return `<span class="jv-null">null</span>${comma}`;
+  if (typeof val === 'boolean') return `<span class="jv-bool">${val}</span>${comma}`;
+  if (typeof val === 'number') return `<span class="jv-num">${val}</span>${comma}`;
+
+  if (typeof val === 'string') {
+    const isUrl = /^https?:\/\//.test(val);
+    const inner = isUrl
+      ? `<a class="jv-url" href="${esc(val)}" target="_blank" rel="noopener">"${highlight(val)}"</a>`
+      : `<span class="jv-str">"${highlight(val)}"</span>`;
+    return inner + comma;
   }
 
-  function buildSidebar() {
-    const aside = document.getElementById('sidebar');
-    const cats = Object.keys(allData);
-    const links = cats.map(cat => {
-      const a = document.createElement('a');
-      a.className = 'cat-link';
-      a.href = '#cat-' + slug(cat);
-      a.textContent = cat;
-      a.title = cat;
-      return a;
-    });
-    aside.append(...links);
+  if (Array.isArray(val)) return renderArray(val, indent, isLast);
+  if (typeof val === 'object') return renderObject(val, indent, isLast);
+  return esc(String(val)) + comma;
+}
 
-    // highlight active category on scroll
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          const id = e.target.id;
-          links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + id));
-        }
-      });
-    }, { rootMargin: '-10% 0px -80% 0px' });
+function renderObject(obj, indent, isLast) {
+  const keys = Object.keys(obj);
+  if (keys.length === 0) return `<span class="jv-brace">{}</span>${isLast ? '' : '<span class="jv-comma">,</span>'}`;
 
-    document.querySelectorAll('.category').forEach(el => observer.observe(el));
+  const id = uid();
+  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
+  const preview = keys.length === 1 ? `1 key` : `${keys.length} keys`;
+
+  let html = `<span class="jv-toggle" data-target="${id}"><span class="jv-brace">{</span></span>`;
+  html += `<span class="jv-inline" id="${id}-inline"> … ${preview} </span>`;
+  html += `<span class="jv-brace jv-close-hidden" data-for="${id}">}</span>${comma}`;
+  html += `<span class="jv-children" id="${id}">`;
+  keys.forEach((k, i) => {
+    html += `<span class="jv-line">`;
+    html += `<span class="jv-key">"${highlight(k)}"</span><span class="jv-colon">: </span>`;
+    html += renderValue(obj[k], indent + 1, i === keys.length - 1);
+    html += `</span>\n`;
+  });
+  html += `</span>`;
+  html += `<span class="jv-brace jv-close-shown" data-for="${id}">}</span>${comma}`;
+  return html;
+}
+
+function renderArray(arr, indent, isLast) {
+  if (arr.length === 0) return `<span class="jv-bracket">[]</span>${isLast ? '' : '<span class="jv-comma">,</span>'}`;
+
+  const id = uid();
+  const comma = isLast ? '' : '<span class="jv-comma">,</span>';
+  const preview = arr.length === 1 ? `1 item` : `${arr.length} items`;
+
+  let html = `<span class="jv-toggle" data-target="${id}"><span class="jv-bracket">[</span></span>`;
+  html += `<span class="jv-inline" id="${id}-inline"> … ${preview} </span>`;
+  html += `<span class="jv-bracket jv-close-hidden" data-for="${id}">]</span>${comma}`;
+  html += `<span class="jv-children" id="${id}">`;
+  arr.forEach((item, i) => {
+    html += `<span class="jv-line">${renderValue(item, indent + 1, i === arr.length - 1)}</span>\n`;
+  });
+  html += `</span>`;
+  html += `<span class="jv-bracket jv-close-shown" data-for="${id}">]</span>${comma}`;
+  return html;
+}
+
+let _uid = 0;
+function uid() { return 'n' + (++_uid); }
+
+// ── filter (re-render with filtered data) ────────────────────────────────────
+
+function getFilteredData() {
+  if (!filterQuery) return rawData;
+  const q = filterQuery.toLowerCase();
+  const result = {};
+  for (const [cat, entries] of Object.entries(rawData)) {
+    const catMatches = cat.toLowerCase().includes(q);
+    const filtered = entries.filter(e =>
+      catMatches ||
+      (e.name && e.name.toLowerCase().includes(q)) ||
+      (e.repo && e.repo.toLowerCase().includes(q)) ||
+      (e.url  && e.url.toLowerCase().includes(q))
+    );
+    if (filtered.length > 0) result[cat] = filtered;
   }
+  return result;
+}
 
-  function slug(str) {
-    return str.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+function updateStats(data) {
+  const cats = Object.keys(data).length;
+  const entries = Object.values(data).reduce((a, v) => a + v.length, 0);
+  const statsEl = document.getElementById('stats');
+  if (filterQuery) {
+    const totalEntries = Object.values(rawData).reduce((a, v) => a + v.length, 0);
+    statsEl.textContent = `${entries} / ${totalEntries} entries, ${cats} categories`;
+  } else {
+    statsEl.textContent = `${entries} entries · ${cats} categories`;
   }
+}
 
-  function render() {
-    const main = document.getElementById('main');
-    const q = query.toLowerCase().trim();
+function renderAll() {
+  _uid = 0;
+  const data = getFilteredData();
+  updateStats(data);
 
-    let totalEntries = 0;
-    let totalShown = 0;
-    const sections = [];
+  const viewer = document.getElementById('viewer');
+  viewer.innerHTML = renderObject(data, 0, true);
 
-    for (const [cat, entries] of Object.entries(allData)) {
-      const filtered = q
-        ? entries.filter(e =>
-            e.name.toLowerCase().includes(q) ||
-            e.repo.toLowerCase().includes(q) ||
-            cat.toLowerCase().includes(q))
-        : entries;
-
-      totalEntries += entries.length;
-      totalShown += filtered.length;
-
-      if (filtered.length === 0) continue;
-
-      const section = document.createElement('section');
-      section.className = 'category';
-      section.id = 'cat-' + slug(cat);
-
-      section.innerHTML = `
-        <div class="category-header">
-          <h2>${escHtml(cat)}</h2>
-          <span class="count-badge">${filtered.length}</span>
-        </div>
-        <div class="entries">
-          ${filtered.map(e => `
-            <a class="entry" href="${escHtml(e.url)}" target="_blank" rel="noopener">
-              <span class="entry-name">${escHtml(e.name)}</span>
-              <span class="entry-repo">${escHtml(e.repo)}</span>
-            </a>`).join('')}
-        </div>`;
-
-      sections.push(section);
-    }
-
-    main.innerHTML = '';
-
-    if (sections.length === 0) {
-      main.innerHTML = '<div class="no-results">No results found.</div>';
-    } else {
-      main.append(...sections);
-    }
-
-    const statsEl = document.getElementById('stats');
-    statsEl.textContent = q
-      ? `${totalShown} of ${totalEntries} lists`
-      : `${totalEntries} lists across ${Object.keys(allData).length} categories`;
-  }
-
-  function escHtml(str) {
-    return String(str)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
-  }
-
-  document.getElementById('search').addEventListener('input', e => {
-    query = e.target.value;
-    render();
+  // start with top-level categories expanded, deeper collapsed
+  document.querySelectorAll('.jv-children').forEach(el => {
+    const depth = parseInt(el.dataset.depth || '0');
+    if (depth > 0) collapse(el.id);
   });
 
-  load().catch(err => {
-    document.getElementById('main').innerHTML =
-      `<div class="state">Failed to load data.<br><small>${err.message}</small></div>`;
+  // mark depth
+  setDepths();
+
+  // auto-expand all when filtering
+  if (filterQuery) expandAll();
+}
+
+function setDepths(el, depth) {
+  if (!el) {
+    document.querySelectorAll('.jv-children').forEach(child => {
+      const parent = child.closest('.jv-children');
+      child.dataset.depth = parent ? parseInt(parent.dataset.depth || 0) + 1 : 0;
+    });
+    return;
+  }
+}
+
+// ── toggle ───────────────────────────────────────────────────────────────────
+
+function collapse(id) {
+  const children = document.getElementById(id);
+  const inline = document.getElementById(id + '-inline');
+  const toggle = document.querySelector(`[data-target="${id}"]`);
+  if (!children) return;
+  children.classList.add('hidden');
+  if (inline) inline.style.display = '';
+  if (toggle) toggle.classList.add('collapsed');
+  document.querySelectorAll(`.jv-close-hidden[data-for="${id}"]`).forEach(el => el.style.display = '');
+  document.querySelectorAll(`.jv-close-shown[data-for="${id}"]`).forEach(el => el.style.display = 'none');
+}
+
+function expand(id) {
+  const children = document.getElementById(id);
+  const inline = document.getElementById(id + '-inline');
+  const toggle = document.querySelector(`[data-target="${id}"]`);
+  if (!children) return;
+  children.classList.remove('hidden');
+  if (inline) inline.style.display = 'none';
+  if (toggle) toggle.classList.remove('collapsed');
+  document.querySelectorAll(`.jv-close-hidden[data-for="${id}"]`).forEach(el => el.style.display = 'none');
+  document.querySelectorAll(`.jv-close-shown[data-for="${id}"]`).forEach(el => el.style.display = '');
+}
+
+function expandAll()  { document.querySelectorAll('.jv-children').forEach(el => expand(el.id)); }
+function collapseAll(){ document.querySelectorAll('.jv-children').forEach(el => collapse(el.id)); }
+
+document.addEventListener('click', e => {
+  const toggle = e.target.closest('.jv-toggle');
+  if (!toggle) return;
+  const id = toggle.dataset.target;
+  const children = document.getElementById(id);
+  if (!children) return;
+  children.classList.contains('hidden') ? expand(id) : collapse(id);
+});
+
+document.getElementById('expand-all').addEventListener('click', expandAll);
+document.getElementById('collapse-all').addEventListener('click', collapseAll);
+
+// ── search ───────────────────────────────────────────────────────────────────
+
+let debounceTimer;
+document.getElementById('search').addEventListener('input', e => {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    filterQuery = e.target.value.trim();
+    renderAll();
+  }, 180);
+});
+
+// ── init ─────────────────────────────────────────────────────────────────────
+
+fetch(DATA_URL)
+  .then(r => r.json())
+  .then(data => {
+    rawData = data;
+    renderAll();
+  })
+  .catch(err => {
+    document.getElementById('viewer').innerHTML =
+      `<span class="state" style="color:#f48771">Error: ${esc(err.message)}</span>`;
   });
 </script>
 </body>
