@@ -1,0 +1,37 @@
+name: Update Awesome JSON
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # daily at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run awesome scraper
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run awesome
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add jsons/awesome/awesome.json
+          git diff --cached --quiet || git commit -m ":chart_with_upwards_trend: UPDATE JSON AT $(date)"
+          git push
