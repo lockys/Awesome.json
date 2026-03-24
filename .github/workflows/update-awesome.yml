@@ -28,6 +28,30 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run awesome
 
+      - name: Run tests
+        run: npm test
+
+      - name: Validate output format
+        run: |
+          node - <<'EOF'
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('jsons/awesome/awesome.json', 'utf8'));
+          const categories = Object.keys(data);
+          if (categories.length === 0) throw new Error('No categories found');
+          let errors = 0;
+          for (const [cat, entries] of Object.entries(data)) {
+            if (!Array.isArray(entries)) { console.error(`"${cat}" is not an array`); errors++; continue; }
+            for (const e of entries) {
+              if (!e.name || !e.url || !e.repo || !e.cate) {
+                console.error(`Missing fields in category "${cat}":`, e);
+                errors++;
+              }
+            }
+          }
+          if (errors > 0) throw new Error(`${errors} format error(s) found`);
+          console.log(`✓ ${categories.length} categories, ${Object.values(data).reduce((s,v)=>s+v.length,0)} entries — format OK`);
+          EOF
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
